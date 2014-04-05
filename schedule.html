@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="notreda.me">
+    <head>
+        <title>Schedule | notreda.me</title>
+
+        <!-- Angular.JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+
+        <!-- Firebase -->
+        <script src="https://cdn.firebase.com/js/client/1.0.11/firebase.js"></script>
+        <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+    </head>
+
+    <body ng-controller="ScheduleController">
+        <div id="gamesDiv">
+            <div ng-repeat="game in games">{{ game.opponent }}</div>
+        </div>
+
+        <!-- Custom scripts -->
+        <script src="schedule.js"></script>
+    </body>
+</html>
