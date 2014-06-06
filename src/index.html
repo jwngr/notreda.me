@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="schedule">
   <head>
     <title>notreda.me | Notre Dame Fighting Irish Football Schedule</title>
 
     <!-- TODO: meta tags -->
 
+    <!-- Angular -->
+    <script src="../bower_components/angular/angular.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="../bower_components/firebase/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="../bower_components/angularfire/angularfire.min.js"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
   </head>
 
-  <body>
-    Go Irish!!
+  <body ng-controller="scheduleController">
+    <!-- Title -->
+    <p id="title">Notre Dame Football {{ scheduleYear }} Schedule</p>
+
+    <!-- Schedule -->
     <div id="schedule">
-
+      <div class="game" ng-repeat="game in games">
+        <div id="homeTeamContainer" class="team">
+          Notre Dame Fighting Irish
+        </div>
+        <div id="awayTeamContainer" class="team">
+          {{ game.opponent }} Longhorns
+        </div>
+        <div class="clearfix"></div>
+      </div>
     </div>
-
-        <!-- Angular -->
-    <script src="../bower_components/angular/angular.min.js" async></script>
-
-    <!-- Firebase -->
-    <script src="../bower_components/firebase/firebase.js" async></script>
-
-    <!-- AngularFire -->
-    <script src="../bower_components/angularfire/angularfire.min.js" async></script>
 
     <!-- Custom JS -->
     <script src="js/schedule.js" async></script>
