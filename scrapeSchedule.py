@@ -36,7 +36,7 @@ if (__name__ == "__main__"):
                     trs = trs[1:]
 
                 # Loop through each row/game
-                for tr in trs:
+                for i, tr in enumerate(trs):
                     # Rows with four cells constitute an actual game
                     tds = tr.findAll("td")
                     if (len(tds) == 4 and tds[0].text != "Date"):
@@ -88,7 +88,8 @@ if (__name__ == "__main__"):
                             "opponentMascot": "",
                             "notreDameScore": notreDameScore,
                             "opponentScore": opponentScore,
-                            "isHomeGame": (tr["bgcolor"] == "#d1d1d1")
+                            "isHomeGame": (tr["bgcolor"] == "#d1d1d1"),
+                            ".priority": i
                         })
 
     # Write the schedule data as JSON to the output file
