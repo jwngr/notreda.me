@@ -22,14 +22,19 @@
     <!-- Title -->
     <p id="title">Notre Dame Football {{ scheduleYear }} Schedule</p>
 
+    <!-- Record -->
+    <p id="record">{{ wins }} - {{ losses}}</p>
+
     <!-- Schedule -->
     <div id="schedule">
       <div class="game" ng-repeat="game in games">
         <div id="homeTeamContainer" class="team">
-          Notre Dame Fighting Irish
+          <p class="teamName">{{ getHomeTeamName(game) }}</p>
+          <p class="score">{{ getHomeTeamScore(game) }}</p>
         </div>
         <div id="awayTeamContainer" class="team">
-          {{ game.opponent }} Longhorns
+          <p class="teamName">{{ getAwayTeamName(game) }}</p>
+          <p class="score">{{ getAwayTeamScore(game) }}</p>
         </div>
         <div class="clearfix"></div>
       </div>
