@@ -4,7 +4,7 @@ app.controller("scheduleController", ["$scope", "$firebase",
     // Get a reference to the root of the Firebase
     $scope.rootRef = new Firebase("https://notreda-me.firebaseio.com/");
 
-    $scope.scheduleYear = "2015";
+    $scope.scheduleYear = "2012";
 
     $scope.wins = 0;
     $scope.losses = 0;
@@ -14,11 +14,21 @@ app.controller("scheduleController", ["$scope", "$firebase",
       for (var key in $scope.games) {
         if (key[0] !== "$") {
           var game = $scope.games[key];
-          if (game.notreDameScore > game.opponentScore) {
-            $scope.wins++;
+          if (game.isHomeGame) {
+            if (game.homeTeam.score > game.awayTeam.score) {
+              $scope.wins++;
+            }
+            else {
+              $scope.losses++;
+            }
           }
           else {
-            $scope.losses++;
+            if (game.homeTeam.score > game.awayTeam.score) {
+              $scope.losses++;
+            }
+            else {
+              $scope.wins++;
+            }
           }
         }
       }
