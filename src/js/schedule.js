@@ -10,7 +10,6 @@ app.controller("scheduleController", ["$scope", "$firebase",
     $scope.losses = 0;
 
     $firebase($scope.rootRef.child($scope.scheduleYear)).$bind($scope, "games").then(function() {
-      console.log($scope.games);
       for (var key in $scope.games) {
         if (key[0] !== "$") {
           var game = $scope.games[key];
@@ -42,7 +41,7 @@ app.controller("scheduleController", ["$scope", "$firebase",
       else {
         return game.opponent.school + game.opponent.mascot;
       }
-    }
+    };
 
     /* Returns the name of the away team for the inputted game */
     $scope.getAwayTeamName = function(game) {
@@ -52,6 +51,6 @@ app.controller("scheduleController", ["$scope", "$firebase",
       else {
         return "Notre Dame Fighting Irish";
       }
-    }
+    };
   }
 ]);

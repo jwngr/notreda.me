@@ -28,17 +28,21 @@
     <!-- Schedule -->
     <div id="schedule">
       <div class="game" ng-repeat="game in games">
-        <div id="homeTeamContainer" class="team">
-          <p class="teamName">{{ game.homeTeam.name }} {{ game.homeTeam.nickname }}</p>
+        <div class="team homeTeam">
+          <p class="name">{{ game.homeTeam.name }}</p>
+          <p class="nickname">{{ game.homeTeam.nickname }}</p>
           <p class="score">{{ game.homeTeam.score }}</p>
         </div>
-        <div id="awayTeamContainer" class="team">
-          <p class="teamName">{{ game.awayTeam.name }} {{ game.awayTeam.nickname }}</p>
+        <div class="team awayTeam">
+          <p class="name">{{ game.awayTeam.name }}</p>
+          <p class="nickname">{{ game.awayTeam.nickname }}</p>
           <p class="score">{{ game.awayTeam.score }}</p>
         </div>
         <div class="clearfix"></div>
       </div>
     </div>
+
+    <!-- TODO: make support email addres michigansucks@notreda.me -->
 
     <!-- Custom JS -->
     <script src="js/schedule.js" async></script>

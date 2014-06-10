@@ -1,4 +1,8 @@
 {
+  "predef": [
+    "angular",
+    "Firebase"
+  ],
   "bitwise": true,
   "curly": true,
   "eqeqeq": true,

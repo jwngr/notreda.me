@@ -58,6 +58,18 @@ var paths = {
     dist: {
       dir: "dist/css"
     }
+  },
+
+  fonts: {
+    src: {
+      dir: "src/fonts",
+      files: [
+        "src/fonts/*"
+      ]
+    },
+    dist: {
+      dir: "dist/fonts"
+    }
   }
 };
 
@@ -72,6 +84,12 @@ gulp.task("html", function() {
 
     // Write minified version
     .pipe(gulp.dest(paths.html.dist.dir))
+});
+
+/* Copies font files */
+gulp.task("fonts", function() {
+  gulp.src(paths.fonts.src.files)
+    .pipe(gulp.dest(paths.fonts.dist.dir))
 });
 
 /* Lints, minifies, and concatenates script files */
@@ -122,6 +140,7 @@ gulp.task("reload", function(){
 
 /* Starts the live-reload server */
 gulp.task("server", function() {
+  console.log("Poop");
   // Set the ports
   var livereloadport = 35729;
   var serverport = 9999;
@@ -149,7 +168,7 @@ gulp.task("watch", function() {
 });
 
 /* Starts the live-reload server and refreshes it everytime a dist file changes */
-gulp.task("serve", ["html", "scripts", "styles", "server", "watch"]);
+gulp.task("serve", ["html", "fonts", "scripts", "styles", "server", "watch"]);
 
 /* Runs the "test" and "scripts" tasks by default */
-gulp.task("default", ["html", "scripts", "styles"]);
+gulp.task("default", ["html", "fonts", "scripts", "styles"]);
