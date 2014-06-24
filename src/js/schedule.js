@@ -52,5 +52,30 @@ app.controller("scheduleController", ["$scope", "$firebase",
         return "Notre Dame Fighting Irish";
       }
     };
+
+    /* Returns the result (W or L) for Notre Dame for the inputted game */
+    $scope.getResult = function(game) {
+      return ($scope.getNotreDameScore(game) > $scope.getOpponentScore(game) ? "W" : "L");
+    };
+
+    /* Returns the name of Notre Dame's opponent for the inputted game */
+    $scope.getOpponentName = function(game) {
+      return (game.isHomeGame ? game.awayTeam.name : game.homeTeam.name);
+    };
+
+    /* Returns the score of Notre Dame's opponent for the inputted game */
+    $scope.getOpponentScore = function(game) {
+      return (game.isHomeGame ? game.awayTeam.score : game.homeTeam.score);
+    };
+
+    /* Returns the score for Notre Dame for the inputted game */
+    $scope.getNotreDameScore = function(game) {
+      return (game.isHomeGame ? game.homeTeam.score : game.awayTeam.score);
+    };
+
+    $scope.getHomeOrAwayGameClass = function(game) {
+      console.log(game);
+      return (game.isHomeGame ? "homeGame" : "awayGame");
+    };
   }
 ]);

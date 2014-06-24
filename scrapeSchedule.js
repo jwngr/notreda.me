@@ -91,12 +91,12 @@ firebaseRef.remove(function() {
 
                       // Get the home and away scores
                       if ((result === "W" && isHomeGame) || (result === "L" && !isHomeGame)) {
-                        homeTeamScore = scores[0];
-                        awayTeamScore = scores[1];
+                        homeTeamScore = parseInt(scores[0]);
+                        awayTeamScore = parseInt(scores[1]);
                       }
                       else {
-                        homeTeamScore = scores[1];
-                        awayTeamScore = scores[0];
+                        homeTeamScore = parseInt(scores[1]);
+                        awayTeamScore = parseInt(scores[0]);
                       }
 
                       // Add the game to Firebase
