@@ -1,22 +1,10 @@
 {
   "name": "notreda.me",
-  "version": "1.0.0",
-  "main": [
-    "./dist/notreda.me.min.js"
-  ],
-  "ignore": [
-    "gulpfile.js",
-    "firebase.json",
-    "package.json",
-    "tests",
-    "site",
-    "README.md",
-    ".travis.yml"
-  ],
+  "description": "Notre Dame Fighting Irish Football Schedule",
   "dependencies": {
-    "angularfire": "~0.7.1"
+    "react": "~0.12.2",
+    "firebase": "~2.2.0"
   },
-  "devDependencies": {
-    "jasmine": "~2.0.0"
-  }
+  "devDependencies": {},
+  "private": true
 }

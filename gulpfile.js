@@ -5,170 +5,162 @@ var gulp = require("gulp");
 
 // File IO
 var sass = require("gulp-sass");
+var react = require("gulp-react");
 var concat = require("gulp-concat");
 var jshint = require("gulp-jshint");
 var uglify = require("gulp-uglify");
 var rename = require("gulp-rename");
-var minifyHTML = require("gulp-minify-html");
-var streamqueue = require("streamqueue");
 
-// Live-reload
-var express = require("express");
-var refresh = require("gulp-livereload");
-var lrserver = require("tiny-lr")();
-var livereload = require("connect-livereload");
 
 /****************/
 /*  FILE PATHS  */
 /****************/
 var paths = {
-  distDir: "dist",
-
   html: {
     src: {
-      dir: "src",
-      files: [
-        "src/index.html"
-      ]
+      dir: "src/",
+      files: ["src/*.html"]
     },
-    dist: {
-      dir: "dist"
+    dest: {
+      dir: "dist/"
     }
   },
 
   scripts: {
     src: {
-      dir: "src/js",
-      files: [
-        "src/js/*.js"
-      ]
+      dir: "src/jsx/",
+      files: ["src/jsx/*.jsx"]
     },
-    dist: {
-      dir: "dist/js"
+    dest: {
+      dir: "dist/js/",
+      files: {
+        unminified: "bundle.js",
+        minified: "bundle.min.js"
+      }
     }
   },
 
   styles: {
     src: {
-      dir: "src/scss",
-      files: [
-        "src/scss/*.scss"
-      ]
+      dir: "src/sass/",
+      files: ["src/sass/*.scss"]
     },
-    dist: {
-      dir: "dist/css"
+    dest: {
+      dir: "dist/css/"
+    }
+  },
+
+  images: {
+    src: {
+      dir: "src/images/",
+      files: ["src/images/*.ico", "src/images/*.png"]
+    },
+    dest: {
+      dir: "dist/images/"
     }
   },
 
   fonts: {
     src: {
-      dir: "src/fonts",
-      files: [
-        "src/fonts/*"
-      ]
+      dir: "src/fonts/",
+      files: ["src/fonts/*.woff"]
     },
-    dist: {
-      dir: "dist/fonts"
+    dest: {
+      dir: "dist/fonts/"
     }
   }
 };
 
+
 /***********/
 /*  TASKS  */
 /***********/
-/* Minifies HTML files */
-gulp.task("html", function() {
-  gulp.src(paths.html.src.files)
-    // Minify
-    .pipe(minifyHTML())
-
-    // Write minified version
-    .pipe(gulp.dest(paths.html.dist.dir))
+/* Copies HTML files to the distribution directory */
+gulp.task("html", function () {
+  return gulp.src(paths.html.src.files)
+    // Write to the distribution directory
+    .pipe(gulp.dest(paths.html.dest.dir));
 });
 
-/* Copies font files */
-gulp.task("fonts", function() {
-  gulp.src(paths.fonts.src.files)
-    .pipe(gulp.dest(paths.fonts.dist.dir))
-});
-
-/* Lints, minifies, and concatenates script files */
+/* Compiles, lints, minifies, and concatenates the script files */
 gulp.task("scripts", function() {
   return gulp.src(paths.scripts.src.files)
+    // Compile JSX into JS
+    .pipe(react({
+      harmony: true
+    }))
+
     // Lint
     .pipe(jshint())
     .pipe(jshint.reporter("jshint-stylish"))
 
-    // Write un-minified version
-    .pipe(gulp.dest(paths.scripts.dist.dir))
+    // Concatenate files
+    .pipe(concat(paths.scripts.dest.files.unminified))
+
+    // Write un-minified version to the distribution directory
+    .pipe(gulp.dest(paths.scripts.dest.dir))
 
     // Minify
     .pipe(uglify())
 
-    // Rename file
-    .pipe(rename(function(path) {
-      path.extname = ".min.js"
+    // Rename the minified version
+    .pipe(rename({
+      extname: ".min.js"
     }))
 
-    // Write minified version
-    .pipe(gulp.dest(paths.scripts.dist.dir));
+    // Write minified version to the distribution directory
+    .pipe(gulp.dest(paths.scripts.dest.dir));
 });
 
-/* Converts scss files to css */
+
+/* Compiles SCSS files into CSS files */
 gulp.task("styles", function () {
   return gulp.src(paths.styles.src.files)
-    // Convert file
+    // Compile SCSS into CSS
     .pipe(sass({
-      outputStyle : "compressed",
-      errLogToConsole: true
+      "outputStyle" : "compressed",
+      "errLogToConsole": true
     }))
 
-    // Rename file
-    .pipe(rename(function(path) {
-      path.extname = ".css"
+    // Change file extension
+    .pipe(rename({
+      extname: ".css"
     }))
 
-    // Write output file
-    .pipe(gulp.dest(paths.styles.dist.dir));
+    // Write to the distribution directory
+    .pipe(gulp.dest(paths.styles.dest.dir));
 });
 
-/* Reloads the live-reload server */
-gulp.task("reload", function(){
-  gulp.src(paths.distDir + "/**/*")
-    .pipe(refresh(lrserver));
+
+/* Copies images to the distribution directory */
+gulp.task("images", function () {
+  return gulp.src(paths.images.src.files)
+    // Write to the distribution directory
+    .pipe(gulp.dest(paths.images.dest.dir));
 });
 
-/* Starts the live-reload server */
-gulp.task("server", function() {
-  console.log("Poop");
-  // Set the ports
-  var livereloadport = 35729;
-  var serverport = 9999;
 
-  // Configure the server and add live-reload middleware
-  var server = express();
-  server.use(livereload({
-    port: livereloadport
-  }));
-
-  // Set up the static fileserver, which serves files in the dist dir
-  server.use(express.static(__dirname));
-  server.listen(serverport);
-
-  // Set up the live-reload server
-  lrserver.listen(livereloadport);
+/* Copies fonts to the distribution directory */
+gulp.task("fonts", function () {
+  return gulp.src(paths.fonts.src.files)
+    // Write to the distribution directory
+    .pipe(gulp.dest(paths.fonts.dest.dir));
 });
 
-/* Re-runs the "scripts" task every time a script file changes */
+
+/* Runs tasks when certain files change */
 gulp.task("watch", function() {
-  gulp.watch([paths.html.src.dir + "/**/*"], ["html"]);
-  gulp.watch([paths.scripts.src.dir + "/**/*"], ["scripts"]);
-  gulp.watch([paths.styles.src.dir + "/**/*"], ["styles"]);
-  gulp.watch([paths.distDir + "/**/*"], ["reload"]);
+  gulp.watch(paths.html.src.files, ["html"]);
+  gulp.watch(paths.scripts.src.files, ["scripts"]);
+  gulp.watch(paths.styles.src.files, ["styles"]);
+  gulp.watch(paths.images.src.files, ["images"]);
+  gulp.watch(paths.fonts.src.files, ["fonts"]);
 });
 
-/* Starts the live-reload server and refreshes it everytime a dist file changes */
-gulp.task("serve", ["html", "fonts", "scripts", "styles", "server", "watch"]);
 
-/* Runs the "test" and "scripts" tasks by default */
-gulp.task("default", ["html", "fonts", "scripts", "styles"]);
+/* Builds the distribution directory */
+gulp.task("build", ["html", "scripts", "styles", "images", "fonts"]);
+
+
+/* Builds and tests the files by default */
+gulp.task("default", ["build"]);

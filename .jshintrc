@@ -1,6 +1,6 @@
 {
   "predef": [
-    "angular",
+    "React",
     "Firebase"
   ],
   "bitwise": true,
@@ -10,7 +10,7 @@
   "freeze": true,
   "indent": 2,
   "latedef": true,
-  "quotmark": "double",
+  "quotmark": "single",
   "strict": true,
   "trailing": true,
   "undef": true,

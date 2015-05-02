@@ -1,0 +1,194 @@
+/************/
+/*  COLORS  */
+/************/
+/* ND colors: http://onmessage.nd.edu/notre-dame-brand-standards/color/ */
+$gold: #DCB439;
+$blue: #002B5B;
+$green: #009B48;
+$gray: #DCDCDC;
+
+/***********/
+/*  FONTS  */
+/***********/
+@font-face {
+  /* Moderne Sans font by Marius Kempken: https://www.behance.net/gallery/MODERNE-SANS-FREE-TYPEFACE/15574861 */
+  font-family: "ModerneSans";
+  src: url("../fonts/moderneSans.woff");
+}
+
+@font-face {
+  /* Gist Rough Life Three font by Yellow Design Studio: http://www.myfonts.com/fonts/yellow-design/gist-rough/light-three/ */
+  font-family: "GistRoughLifeThree";
+  src: url("../fonts/gistRoughLifeThree.woff");
+}
+
+
+
+/* Natural box layout model for all elements */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*#schedule {
+  .game {
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    border: solid 1px black;
+
+    .team {
+      width: 300px;
+      height: 100%;
+      border: solid 1px red;
+
+      &.homeTeam {
+        float: left;
+        text-align: left;
+      }
+
+      &.awayTeam {
+        float: right;
+        text-align: right;
+      }
+
+      .teamName {
+        display: inline;
+
+        .name {
+          font-family: "ModerneSans";
+          font-size: 40px;
+        }
+
+        .nickname {
+          font-family: "ModerneSans";
+          font-size: 30px;
+        }
+      }
+
+      .score {
+        float: left;
+        font-family: "ModerneSans";
+        font-size: 30px;
+      }
+    }
+  }
+}*/
+
+html, body {
+  height: 100%;
+}
+
+#mainFlexContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  height: 80px;
+  background-color: $blue;
+
+  text-align: center;
+  padding-top: 10px;
+
+  color: #DDD;
+
+  #title {
+    font-family: "ModerneSans";
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #record {
+    font-family: "ModerneSans";
+    font-size: 24px;
+  }
+}
+
+#gameDetails {
+  flex: 1;
+  background-color: $blue;
+
+  #scoreBoard {
+
+  }
+
+  #stats {
+
+  }
+}
+
+#schedule {
+  display: flex;
+  flex-direction: row;
+  background-color: $blue;
+
+  height: 100px;
+
+  .game {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    height: 100%;
+
+    border: solid 2px $gray;
+    border-bottom: none;
+    border-right: none;
+
+    color: $gray;
+
+    &:last-of-type {
+      border-right: solid 2px $gray;
+    }
+
+    div {
+      height: 100%;
+    }
+
+    &.home {
+      background: $gold;
+    }
+
+    &.away {
+      background: $green;
+    }
+
+    .opponentName {
+      font-family: "ModerneSans";
+      font-size: 18px;
+      height: 30px;
+    }
+
+    .result {
+      font-family: "ModerneSans";
+      font-size: 18px;
+      height: 30px;
+    }
+
+    .date {
+      font-family: "ModerneSans";
+      font-size: 18px;
+      height: 30px;
+    }
+
+    .helmet {
+      height: 100px;
+
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

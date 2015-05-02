@@ -1,80 +1,23 @@
 <!DOCTYPE html>
-<html ng-app="schedule">
+<html>
   <head>
-    <title>notreda.me | Notre Dame Fighting Irish Football Schedule</title>
-
-    <!-- TODO: meta tags -->
-
-    <!-- Angular -->
-    <script src="../bower_components/angular/angular.min.js"></script>
+    <title>notreda.me</title>
 
     <!-- Firebase -->
-    <script src="../bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
 
-    <!-- AngularFire -->
-    <script src="../bower_components/angularfire/angularfire.min.js"></script>
+    <!-- React -->
+    <script src="bower_components/react/react.js"></script>
+    <script src="bower_components/react/JSXTransformer.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
   </head>
 
-  <body ng-controller="scheduleController">
-    <div id="mainContainer">
-      <!-- Header -->
-      <div id="header">
-        <p id="title">Notre Dame Football {{ scheduleYear }} Schedule</p>
-        <p id="record">{{ wins }} - {{ losses}}</p>
-      </div>
-
-      <!-- Game Summary -->
-      <div id="gameSummary">GAME SUMMARY</div>
-
-      <!-- Schedule -->
-      <div id="schedule">
-        <div class="game" ng-repeat="game in games">
-          <div ng-class="getHomeOrAwayGameClass(game)">
-            <p class="opponentName">{{ getOpponentName(game) }}</p>
-            <div class="helmet">
-              <img src="http://www.nationalchamps.net/Helmet_Project/Notre_Dame.gif" />
-            </div>
-            <p class="result">{{ getResult(game) }},{{ getNotreDameScore(game) }}-{{ getOpponentScore(game) }}</p>
-            <p class="date">{{ game.date }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Schedule -->
-    <!--
-    <div id="schedule">
-      <div class="game" ng-repeat="game in games">
-        <div class="team homeTeam">
-          <div class="teamName">
-            <p class="name">{{ game.homeTeam.name }}</p>
-            <p class="nickname">{{ game.homeTeam.nickname }}</p>
-          </div>
-          <p class="score">{{ game.homeTeam.score }}</p>
-        </div>
-        <div class="team awayTeam">
-          <div class="teamName">
-            <p class="name">{{ game.awayTeam.name }}</p>
-            <p class="nickname">{{ game.awayTeam.nickname }}</p>
-          </div>
-          <p class="score">{{ game.awayTeam.score }}</p>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    -->
-    <!-- <div id="schedule">
-      <div class="game" ng-repeat="game in games">
-        <p class="opponentName">{{ getOpponentName(game) }}</p>
-        <p class="result">{{ getResult(game) }},{{ getNotreDameScore(game) }}-{{ getOpponentScore(game) }}</p>
-    </div> -->
-    <!-- TODO: make support email addres michigansucks@notreda.me -->
+  <body>
+    <div id="mainContainer"></div>
 
     <!-- Custom JS -->
-    <script src="js/schedule.js"></script>
+    <script src="js/bundle.js"></script>
   </body>
 </html>
