@@ -1,0 +1,145 @@
+body {
+ background-color: red;
+}
+
+
+.nav-menu-open-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Navigation menu */
+$navMenuWidth: 240px;
+
+.nav-menu {
+  position: fixed;
+  background: #47a3da;
+  width: 240px;
+  height: 100%;
+  top: 0;
+  right: $navMenuWidth;
+  z-index: 1000;
+  overflow-y: scroll;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  &.nav-menu-open {
+    right: 0px;
+  }
+
+  & > h3 {
+    color: #afdefa;
+    font-size: 1.9em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background: #0d77b6;
+  }
+
+  & > a {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+    border-bottom: 1px solid #258ecd;
+    padding: 1em;
+
+    &:hover {
+      background: #258ecd;
+    }
+  }
+}
+
+.nav-menu-header {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #DCDCDC;
+
+  & > .nav-menu-close-button {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  & > a {
+    margin-left: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.nav-menu-decades {
+  margin-top: 40px;
+}
+
+.nav-menu-decade-header {
+  font-size: 28px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.nav-menu-decade-years:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-menu-decade-year {
+  display: inline;
+  border: solid 1px purple;
+  float: left;
+
+  &:nth-of-type(6) {
+    clear: both;
+  }
+}
+
+
+/* Push classes applied to the body */
+
+// .cbp-spmenu-push {
+//   overflow-x: hidden;
+//   position: relative;
+//   left: 0;
+// }
+
+// .cbp-spmenu-push-toright {
+//   left: 240px;
+// }
+
+// .cbp-spmenu-push-toleft {
+//   left: -240px;
+// }
+
+// @media screen and (max-height: 26.375em){
+
+//   .cbp-spmenu-vertical {
+//     font-size: 90%;
+//     width: 190px;
+//   }
+
+//   .cbp-spmenu-left,
+//   .cbp-spmenu-push-toleft {
+//     left: -190px;
+//   }
+
+//   .cbp-spmenu-right {
+//     right: -190px;
+//   }
+
+//   .cbp-spmenu-push-toright {
+//     left: 190px;
+//   }
+// }
