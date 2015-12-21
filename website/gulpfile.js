@@ -1,36 +1,35 @@
-'use strict';
+/* eslint-disable func-names */
 
 /* REQUIRES */
-var gulp = require('gulp');
+const gulp = require('gulp');
 
 // Helper libraries
-var _ = require('lodash');
-var del = require('del');
-var gutil = require('gulp-util');
-var runSequence = require('run-sequence');
+const _ = require('lodash');
+const del = require('del');
+const gutil = require('gulp-util');
+const runSequence = require('run-sequence');
 
 // Linting
-var eslint = require('gulp-eslint');
+const eslint = require('gulp-eslint');
 
 // Browser sync
-var browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync').create();
 
 // File I/O
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var replace = require('gulp-replace');
-var htmlreplace = require('gulp-html-replace');
+const sass = require('gulp-sass');
+const uglify = require('gulp-uglify');
+const htmlreplace = require('gulp-html-replace');
 
 // Browserify
-var source = require('vinyl-source-stream');
-var babelify = require('babelify');
-var watchify = require('watchify');
-var streamify = require('gulp-streamify');
-var browserify = require('browserify');
+const source = require('vinyl-source-stream');
+const babelify = require('babelify');
+const watchify = require('watchify');
+const streamify = require('gulp-streamify');
+const browserify = require('browserify');
 
 
 /* FILE PATHS */
-var paths = {
+const paths = {
   html: {
     files: ['index.html'],
     srcDir: '.',
@@ -108,8 +107,7 @@ gulp.task('html', function() {
 
 /* Lints the JS files */
 gulp.task('lint', function() {
-  var filesToLint = _.union(paths.js.files, ['gulpfile.js', 'server/rewriteToIndex.js']);
-  return gulp.src(filesToLint)
+  return gulp.src(paths.js.files)
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
@@ -130,7 +128,7 @@ function bundle(b) {
 
 /* Browserifies the JS files and copies the bundle into the distribution file (dev) */
 gulp.task('js:dev', ['lint'], function() {
-  var b = browserify({
+  const b = browserify({
     entries: 'js/components/App.js',
     plugin: [watchify],
     transform: [
