@@ -24,7 +24,7 @@ $navMenuWidth: 240px;
   width: 240px;
   height: 100%;
   top: 0;
-  right: $navMenuWidth;
+  right: -$navMenuWidth/1.3; // TODO: change back to -$navMenuWidth
   z-index: 1000;
   overflow-y: scroll;
   -webkit-transition: all 0.3s ease;
@@ -143,3 +143,83 @@ $navMenuWidth: 240px;
 //     left: 190px;
 //   }
 // }
+//
+//
+//
+//
+$nav-drawer-button-size: 2rem;
+
+.drawer-toggle-button {
+  display: inline-block;
+  padding: $nav-drawer-button-size/2 $nav-drawer-button-size/4;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+
+  &:active {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@mixin line {
+  display: inline-block;
+  width: $nav-drawer-button-size;
+  height: $nav-drawer-button-size / 7;
+  background: black;
+  border-radius: $nav-drawer-button-size / 14;
+  transition: 0.3s;
+}
+
+.drawer-toggle-button-lines {
+  // Middle line
+  @include line;
+  position: relative;
+
+  // Upper and lower lines (pseudo-elements of the middle line)
+  &:before, &:after {
+    @include line;
+    position: absolute;
+    left: 0;
+    content: '';
+    transform-origin: $nav-drawer-button-size / 14 center;
+  }
+
+  &:before {
+    top: $nav-drawer-button-size/4;
+  }
+
+  &:after {
+    top: -$nav-drawer-button-size/4;
+  }
+}
+
+// .drawer-toggle-button:hover {
+//   opacity: 1;
+
+//   .drawer-toggle-button-lines {
+//     &:before { top: $nav-drawer-button-size/3; }
+//     &:after { top: -$nav-drawer-button-size/3; }
+//   }
+// }
+
+.drawer-toggle-button.close .drawer-toggle-button-lines {
+  // Hide the middle line
+  background: transparent;
+
+  // Overlay the lines by setting both their top values to 0
+  &:before, &:after{
+    top: 0;
+    transform-origin: 50% 50%;
+    width: $nav-drawer-button-size;
+  }
+
+  // Rotate the lines to form the X shape
+  &:before{
+    transform: rotate3d(0, 0 , 1, 45deg);
+  }
+
+  &:after{
+    transform: rotate3d(0, 0, 1, -45deg);
+  }
+}

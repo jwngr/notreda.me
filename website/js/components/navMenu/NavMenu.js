@@ -13,10 +13,16 @@ class NavMenu extends React.Component {
       'nav-menu-open': this.props.open
     });
 
+    const navButtonClasses = classNames('drawer-toggle-button', {
+      'close': this.props.open
+    });
+
     return (
       <nav className={ menuClassNames }>
         <div className='nav-menu-header'>
-          <span className='nav-menu-close-button' onClick={ this.props.toggleNavMenuOpen }>X</span>
+          <button className={ navButtonClasses } onClick={ this.props.toggleNavMenuOpen }>
+            <span className='drawer-toggle-button-lines'></span>
+          </button>
           <Link to='/about'>About</Link>
         </div>
 
