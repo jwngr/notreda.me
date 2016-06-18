@@ -1,9 +1,8 @@
+// Libraries
 import React from 'react';
 
-class About extends React.Component {
-  render() {
-    return <p>About</p>;
-  }
-}
+const About = () => (
+  <p>About</p>
+);
 
 export default About;

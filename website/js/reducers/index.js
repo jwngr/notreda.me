@@ -1,10 +1,13 @@
+// Libraries
 import { combineReducers } from 'redux';
-import { routerStateReducer } from 'redux-router';
+import { routerReducer } from 'react-router-redux';
+
+// Reducers
 import navMenu from './navMenu';
 
 const rootReducer = combineReducers({
   navMenu,
-  router: routerStateReducer
+  routing: routerReducer
 });
 
 export default rootReducer;

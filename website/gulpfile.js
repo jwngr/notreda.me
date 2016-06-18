@@ -95,11 +95,20 @@ gulp.task('clean', function() {
 });
 
 
-/* Copies the HTML file to the distribution directory */
-gulp.task('html', function() {
+/* Copies the HTML file to the distribution directory (dev) */
+gulp.task('html:dev', function() {
   return gulp.src(paths.html.files)
     .pipe(htmlreplace({
       'js': '/js/build.js'
+    }))
+    .pipe(gulp.dest(paths.html.destDir));
+});
+
+/* Copies the HTML file to the distribution directory (prod) */
+gulp.task('html:prod', function() {
+  return gulp.src(paths.html.files)
+    .pipe(htmlreplace({
+      'js': '/js/build.min.js'
     }))
     .pipe(gulp.dest(paths.html.destDir));
 });
@@ -129,10 +138,11 @@ function bundle(b) {
 /* Browserifies the JS files and copies the bundle into the distribution file (dev) */
 gulp.task('js:dev', ['lint'], function() {
   const b = browserify({
-    entries: 'js/components/App.js',
+    entries: 'js/containers/AppContainer.js',
     plugin: [watchify],
     transform: [
       babelify.configure({
+        plugins: ['lodash'],
         presets: ['es2015', 'react']
       })
     ],
@@ -171,9 +181,10 @@ gulp.task('js:prod', function(done) {
 /* Browserifies the JS files into a single bundle file */
 gulp.task('browserify', function() {
   return browserify({
-    entries: 'js/components/App.js',
+    entries: 'js/containers/AppContainer.js',
     transform: [
       babelify.configure({
+        plugins: ['lodash'],
         presets: ['es2015', 'react']
       })
     ]
@@ -210,6 +221,7 @@ gulp.task('serve', function() {
   browserSync.init({
     port: 1988,
     open: false,
+    notify: false,
     server: {
       baseDir: 'dist/',
       middleware: [
@@ -222,8 +234,8 @@ gulp.task('serve', function() {
 
 
 /* Builds the distribution directory */
-gulp.task('build:dev', ['js:dev', 'html', 'css', 'bower', 'images', 'fonts']);
-gulp.task('build:prod', ['js:prod', 'html', 'css', 'bower', 'images', 'fonts']);
+gulp.task('build:dev', ['js:dev', 'html:dev', 'css', 'bower', 'images', 'fonts']);
+gulp.task('build:prod', ['js:prod', 'html:prod', 'css', 'bower', 'images', 'fonts']);
 
 
 /* Production deployment task */

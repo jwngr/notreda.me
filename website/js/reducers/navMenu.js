@@ -1,11 +1,10 @@
-import { OPEN_NAV_MENU, CLOSE_NAV_MENU } from '../actions/actions';
+// Actions
+import { TOGGLE_NAV_MENU } from '../actions';
 
 export default function navMenu(state = { open: false }, action) {
   switch (action.type) {
-  case OPEN_NAV_MENU:
-    return { open: true };
-  case CLOSE_NAV_MENU:
-    return { open: false };
+  case TOGGLE_NAV_MENU:
+    return { open: !state.open };
   default:
     return state;
   }
