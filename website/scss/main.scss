@@ -221,6 +221,7 @@ $nav-drawer-button-size: 2rem;
 /* Schedule */
 .schedule-container {
   width: 50%;
+  display: inline-block;
   text-align: center;
 
   .current-year {

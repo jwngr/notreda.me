@@ -4,11 +4,12 @@ import React from 'react';
 
 // Presentational components
 import GameContainer from '../containers/GameContainer';
+import GameSummaryContainer from '../containers/GameSummaryContainer';
 
 // Resources
 import schedule from '../../resources/schedule';
 
-const DEFAULT_YEAR = 2014;
+const DEFAULT_YEAR = 2015;
 
 const YearSchedule = ({ params }) => {
   const currentYear = params.year || DEFAULT_YEAR;
@@ -28,8 +29,7 @@ const YearSchedule = ({ params }) => {
         </div>
       </div>
 
-      <div className='stats-container'>
-      </div>
+      <GameSummaryContainer />
     </div>
   );
 };

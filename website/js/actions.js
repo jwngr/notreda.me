@@ -1,5 +1,6 @@
 // Action types
 export const TOGGLE_NAV_MENU = 'OPEN_NAV_MENU';
+export const CHANGE_ROUTER_LOCATION = '@@router/LOCATION_CHANGE';
 export const CHANGE_SELECTED_GAME_INDEX = 'CHANGE_SELECTED_GAME_INDEX';
 
 // Action creators

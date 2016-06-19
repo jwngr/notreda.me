@@ -30,6 +30,7 @@ const Game = ({ game, index, selected, onGameSelected }) => {
   );
 };
 
+// TODO
 Game.propTypes = {
   game: React.PropTypes.object.isRequired
 };
