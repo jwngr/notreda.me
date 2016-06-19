@@ -12,9 +12,8 @@ const DEFAULT_YEAR = 2014;
 
 const YearSchedule = ({ params }) => {
   const currentYear = params.year || DEFAULT_YEAR;
-  const games = _.sortBy(schedule[currentYear], '.priority');
-  const gamesContent = _.map(games, (game) => {
-    return <Game game={ game } key= { game['.priority'] }/>;
+  const gamesContent = _.map(schedule[currentYear], (game, index) => {
+    return <Game game={ game } key= { index }/>;
   });
 
   return (

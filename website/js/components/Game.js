@@ -1,16 +1,25 @@
 // Libraries
-import _ from 'lodash';
 import React from 'react';
 
 const Game = ({ game }) => {
-  game.notreDameScore = _.random(3, 50);
-  game.opponentScore = _.random(3, 50);
-  const prefix = game.isHomeGame ? 'vs.' : '@';
-  const winOrLoss = (game.notreDameScore > game.opponentScore) ? 'W' : 'L';
+  let prefix;
+  let opponentScore;
+  let notreDameScore;
+  if (game.isHomeGame) {
+    prefix = 'vs.';
+    opponentScore = game.score.away;
+    notreDameScore = game.score.home;
+  } else {
+    prefix = '@';
+    opponentScore = game.score.home;
+    notreDameScore = game.score.away;
+  }
+
+  const winOrLoss = (notreDameScore > opponentScore) ? 'W' : 'L';
 
   return (
     <div>
-      <p>{ game.date } { prefix } { game.opponent }, { winOrLoss } { game.notreDameScore } - { game.opponentScore }</p>
+      <p>{ game.date } { prefix } { game.opponent.school }, { winOrLoss } { notreDameScore } - { opponentScore }</p>
     </div>
   );
 };
