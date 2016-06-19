@@ -1,145 +1,164 @@
-/**************/
-/*  REQUIRES  */
-/**************/
-var request = require("request");
-var cheerio = require("cheerio");
-var Firebase = require("firebase");
+var _ = require('lodash');
+var fs = require('fs');
+var RSVP = require('rsvp');
+var cheerio = require('cheerio');
+var request = require('request-promise');
 
-/***************/
-/*  NICKNAMES  */
-/***************/
-var opponentNicknames = {"Adrian": "TODO","Air Force": "Falcons","Alabama": "Crimson Tide","Albion": "TODO","Alma": " TODO","American Medical": "TODO","Arizona": "Wildcats","Arizona State": "Sun Devils","Army": "Black Knights","BYU": "Cougars","Baylor": "Bears","Beloit": "Buccaneers","Bennett Medical College (Chicago)": "TODO","Boston College": "Eagles","Buchtel (Akron)": "TODO","Butler": "Bulldogs","California": "TODO","Carlisle": "TODO","Carnegie Tech": "TODO","Case Tech": "TODO","Chicago": "TODO","Chicago Dental Surgeons": "TODO","Chicago Medical College": "TODO","Chicago Physicians & Surgeons": "TODO","Christian Brothers": "TODO","Cincinnati": "Bearcats","Clemson": "Tigers","Coe": "Kohawks","College of the Pacific": "TODO","Colorado": "Buffaloes","Connecticut": "Huskies","Creighton": "Blue Jays","Dartmouth": "Big Green","De La Salle": "Green Archers","DePauw": "Tigers","Detroit": "Titans","Drake": "Bulldogs","Duke": "Blue Devils","Englewood High School": "TODO","Florida": "Gators","Florida State": "Seminoles","Franklin": "Grizzlies","Georgia": "Bulldogs","Georgia Tech": "Yellow Jackets","Goshen": "Maple Leafs","Great Lakes": "TODO","Harvard Prep": "TODO","Haskell": "TODO","Hawai'i": "Rainbow Warriors","Highland Views": "TODO","Hillsdale": "TODO","Houston": "Cougars","Illinois": "Fighting Illini","Illinois Cycling Club": "TODO","Indiana": "Hoosiers","Indianapolis Artillery": "TODO","Iowa": "Hawkeyes","Iowa Pre-Flight": "TODO","Kalamazoo": "Fighting Hornets","Kansas": "Jayhawks","Knox": "Prairie Fire","LSU": "Tigers","Lake Forest": "Foresters","Lombard": "TODO","Loyola (Chicago)": "Ramblers","Loyola (New Orleans)": "Wolfpack","Marquette": "Golden Eagles","Maryland": "Terrapins","Miami": "Hurricanes","Miami (Ohio)": "RedHawks","Michigan": "Wolverines","Michigan St": "TODO - change to Michigan State","Michigan State": "Spartans","Minnesota": "Golden Gophers","Mississippi": "Rebels","Missouri": "Tigers","Missouri Osteopaths": "TODO","Morningside": "Mustangs","Morris Harvey": "TODO","Mount Union": "Purple Raiders","Navy": "Midshipmen","Nebraska": "Cornhuskers","Nevada": "Wolf Pack","North Carolina": "Tar Heels","North Carolina State": "Wolfpack","North Division High School (Chicago)": "TODO","Northwestern": "Wildcats","Northwestern Law": "TODO","Ohio Medical University": "TODO","Ohio Northern": "Polar Bears","Ohio State": "Buckeyes","Oklahoma": "Sooners","Olivet": "Tigers","Oregon": "Ducks","Oregon State": "Beavers","Penn": "Quakers","Penn State": "Nittany Lions","Pennsylvania": "TODO - change to Penn?","Pittsburgh": "Panthers","Princeton": "Tigers","Purdue": "Boilermakers","Rice": "Owls","Rose Poly": "TODO","Rush Medical": "TODO","Rutgers": "Scarlet Knights","SMU": "Mustangs","Saint Louis": "Billikens","San Diego State": "Aztecs","South Bend Athletic Club": "TODO","South Bend Commercial Athletic Club": "TODO","South Bend High School": "TODO","South Bend Howard Park": "TODO","South Carolina": "Gamecocks","South Dakota": "Coyotes","South Florida": "Bulls","St. Bonaventure": "Bonnies","St. Viator": "TODO - also normalize on St. or Saint","St. Vincent's (Chicago)": "TODO","Stanford": "Cardinal","Syracuse": "Orange","TCU": "Horned Frogs","Temple": "Owls","Tennessee": "Volunteers","Texas": "Longhorns","Texas A&M": "Aggies","Toledo Athletic Association": "TODO","Tulane": "Green Wave","Tulsa": "Golden Hurricane","UCLA": "Bruins","USC": "Trojans","Utah": "Utes","Valparaiso": "Crusaders","Vanderbilt": "Commodores","Virginia": "Cavaliers","Wabash": "Little Giants","Wake Forest": "Demon Deacons","Washington": "Huskies","Washington & Jefferson": "Presidents","Washington (St. Lous)": "Bears","Washington St": "TODO - normalize St and State","Washington State": "Cougars","West Virginia": "Mountaineers","Western Michigan": "Broncos","Western Reserve": "TODO","Wisconsin": "Badgers","Yale": "Elis"};
+var opponentNicknames = require('./opponentNicknames.json');
 
-// TODO: add auth and prompt to delete old Firebase data
-var firebaseRef = new Firebase("https://notreda-me.firebaseio.com/");
-firebaseRef.remove(function() {
-  /**************/
-  /*  SCRAPING  */
-  /**************/
-  // Loop through every year since 1187
-  for (var year = 1887; year < 2016; ++year) {
-    // TODO: Skip 1890 and 1891 since und.com doesn't have data for those years
 
-    (function(year) {
-      // Get the html of the current year's schedule from und.com
-      request({
-        uri: "http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-" + year + ".html"
-      }, function(error, response, body) {
-        var $ = cheerio.load(body);
-        var scheduleTable = $("#schedtable");
+if (process.argv.length !== 3) {
+  console.log('USAGE: node scrapeSchedule.js <output_file>');
+  process.exit(1);
+}
 
-        if (scheduleTable.length === 1) {
-          console.log("Scraping " + year + " schedule");
+/**
+ * Fetches the raw HTML schedule data for a given year.
+ *
+ * @param  {number} year The year whose schedule to fetch.
+ * @return {Promise<Cheerio>} A Cheerio object containing the HTML schedule data.
+ */
+var getHtmlScheduleDataForYear = (year) => {
+  return request({
+    uri: 'http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-' + year + '.html',
+    transform: (body) => {
+      return cheerio.load(body);
+    }
+  });
+}
 
-          // Loop through each row in the schedule table
-          scheduleTable.find("tr").each(function(i, row) {
-            // Ignore the headings row
-            if (!$(row).hasClass("event-table-headings")) {
-              // Rows with four cells constitute an actual game
-              var rowCells = $(row).children("td");
-              if (rowCells.length === 4) {
-                var isBowlGame = false;
-                var numOvertimes = 0;
 
-                // Determine if it is a home game
-                var isHomeGame = ($(row).attr("bgcolor") === "#d1d1d1");
+/**
+ * Returns a list of game data for the provided year's games.
+ *
+ * @param  {number} year The year whose game data to fetch.
+ * @return {Promise<Array<Object>>} A promise fulfilled with an array of objects containing game data.
+ */
+var getGamesForYear = (year) => {
+  return getHtmlScheduleDataForYear(year).then(($) => {
+    var games = [];
 
-                // Get the date
-                var date = $(rowCells[0]).text().trim();
+    var scheduleTable = $('#schedtable');
 
-                // Get the opponent
-                var opponent = $(rowCells[1]).text().trim();
+    // Loop through each row in the schedule table
+    var $rows = [];
+    scheduleTable.find('tr').each((i, row) => {
+      $rows.push($(row));
+    });
 
-                // Ignore Blue-Gold spring games
-                if (opponent.indexOf("Game") === -1) {
-                  // Strip off the "vs."" or "at" at the beginning
-                  opponent = opponent.slice(3).trim();
+    // Ignore the headings row
+    $rows = $rows.filter(($row) => {
+      return !$row.hasClass('event-table-headings')
+    });
 
-                  // Remove "(**** Bowl)" from any bowl games
-                  if (opponent.indexOf("Bowl") !== -1) {
-                    isBowlGame = true;
-                    opponent = opponent.split("(")[0].trim();
-                  }
+    // Rows with four cells constitute an actual game
+    $rows = $rows.filter(($row) => {
+      var rowCells = $row.children('td');
+      return (rowCells.length === 4);
+    });
 
-                  // Get the opponent's nickname
-                  var opponentNickname = opponentNicknames[opponent];
+    var games = _.map($rows, ($row) => {
+      var rowCells = $row.children('td');
 
-                  // Get the location
-                  var location = $(rowCells[2]).text().trim();
+      var result = $(rowCells[3]).text().trim();
+      var opponent = $(rowCells[1]).text().trim();
 
-                  // TODO: clean up state abbreviations
+      // Strip off the 'vs.' or 'at' at the beginning of the opponent
+      opponent = opponent.slice(3).trim();
 
-                  // Get the result
-                  var result = $(rowCells[3]).text().trim();
+      // Remove '(**** Bowl)' from any bowl games
+      var isBowlGame = false;
+      if (opponent.indexOf('Bowl') !== -1) {
+        isBowlGame = true;
+        opponent = opponent.split('(')[0].trim();
+      }
 
-                  // Ignore cancelled games
-                  if (result !== "Cancelled") {
-                    // If the game has already been played, get the results and scores
-                    if (result[0] === "W" || result[0] === "L") {
-                      var resultData = result.split(", ");
-                      result = resultData[0];
-                      var scores = resultData[1].split("-");
+      // TODO: clean up state abbreviations
 
-                      // Calculate the number of overtimes, if applicable
-                      if (scores[1].indexOf("OT") !== -1 || scores[1].indexOf("ot") !== -1) {
-                        numOvertimes = scores[1].split("(")[1][0];
-                        if (numOvertimes.toUpperCase() === "O") {
-                          numOvertimes = 1;
-                        }
-                        scores[1] = scores[1].split("(")[0];
-                      }
+      // Ignore Blue-Gold spring games and cancelled games
+      if (!_.includes(opponent, 'Game') && result !== 'Cancelled') {
+        return {
+          result,
+          isBowlGame,
+          opponent: {
+            school: opponent,
+            nickname: opponentNicknames[opponent]
+          },
+          date: $(rowCells[0]).text().trim(),
+          location: $(rowCells[2]).text().trim(),
+          isHomeGame: ($row.attr('bgcolor') === '#d1d1d1'),
+        };
+      }
+    });
 
-                      // Get the home and away scores
-                      if ((result === "W" && isHomeGame) || (result === "L" && !isHomeGame)) {
-                        homeTeamScore = parseInt(scores[0]);
-                        awayTeamScore = parseInt(scores[1]);
-                      }
-                      else {
-                        homeTeamScore = parseInt(scores[1]);
-                        awayTeamScore = parseInt(scores[0]);
-                      }
+    games = games.filter((game) => !!game);
 
-                      // Add the game to Firebase
-                      console.log("Adding game to Firebase");
-                      firebaseRef.child(year).push({
-                        homeTeam: {
-                          name: (isHomeGame ? "Notre Dame" : opponent),
-                          nickname: (isHomeGame ? "Fighting Irish" : opponentNickname),
-                          score: homeTeamScore
-                        },
-                        awayTeam: {
-                          name: (!isHomeGame ? "Notre Dame" : opponent),
-                          nickname: (!isHomeGame ? "Fighting Irish" : opponentNickname),
-                          score: awayTeamScore
-                        },
-                        location: location,
-                        date: date,
-                        isHomeGame: isHomeGame,
-                        isBowlGame: isBowlGame,
-                        numOvertimes: numOvertimes
-                      });
-                    }
+    return games;
+  });
+}
 
-                    // Otherwise, add the future game to Firebase
-                    else {
-                      console.log("Adding future game to Firebase");
-                      firebaseRef.child(year).push({
-                        location: location,
-                        date: date,
-                        time: result,
-                        isHomeGame: isHomeGame
-                      });
-                    }
-                  }
-                }
-              }
-            }
-          });
+
+var promises = [];
+
+var years = _.range(1887, 2016);
+var promises = {};
+_.forEach(years, (year) => {
+  // Skip 1890 and 1891 since und.com doesn't have data for those years
+  if (year === 1890 || year === 1891) {
+    return;
+  }
+
+  promises[year] = getGamesForYear(year).then((games) => {
+    return _.map(games, (game) => {
+      var numOvertimes = 0;
+
+      // If the game has already been played, get the results and scores
+      if (game.result[0] === 'W' || game.result[0] === 'L') {
+        var resultData = game.result.split(', ');
+        game.result = resultData[0];
+        var scores = resultData[1].split('-');
+
+        // Calculate the number of overtimes, if applicable
+        if (scores[1].indexOf('OT') !== -1 || scores[1].indexOf('ot') !== -1) {
+          numOvertimes = scores[1].split('(')[1][0];
+          if (numOvertimes.toUpperCase() === 'O') {
+            numOvertimes = 1;
+          }
+          scores[1] = scores[1].split('(')[0];
+        }
+
+        // Get the home and away scores
+        if ((game.result === 'W' && game.isHomeGame) || (game.result === 'L' && !game.isHomeGame)) {
+          homeTeamScore = parseInt(scores[0]);
+          awayTeamScore = parseInt(scores[1]);
         }
         else {
-          console.log("Schedule unavailable for " + year);
+          homeTeamScore = parseInt(scores[1]);
+          awayTeamScore = parseInt(scores[0]);
         }
-      });
-    })(year);
-  }
+
+        // Add the score and number of overtimes to the game
+        game.score = {
+          home: homeTeamScore,
+          away: awayTeamScore
+        };
+        game.numOvertimes = numOvertimes;
+      } else {
+        // Add the time to the game
+        game.time = game.result;
+      }
+
+      return game;
+    });
+  }).catch(function(error) {
+    console.log(`Error scraping ${year} schedule:`, error);
+  });
+});
+
+
+return RSVP.hash(promises).then(function(result) {
+  fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
+  console.log('Schedule written to schedule.json!');
+}).catch(function(error) {
+  console.log('Failed to scrape schedule for all years:', error);
 });

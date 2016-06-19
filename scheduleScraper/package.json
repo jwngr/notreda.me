@@ -1,0 +1,14 @@
+{
+  "name": "notreda.me",
+  "description": "Schedule scraper for notreda.me",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.x.x",
+    "cheerio": "^0.20.0",
+    "request-promise": "^3.0.0",
+    "rsvp": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node scrapeSchedule.js schedule.json"
+  }
+}
