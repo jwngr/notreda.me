@@ -2,7 +2,7 @@ const fs = require('fs');
 
 module.exports = (req, res, next) => {
   // Check for the file in the distribution folder
-  let filePath = './dist' + req.url;
+  var filePath = './dist' + req.url;  // eslint-disable-line no-var
 
   // Strip off the query string
   filePath = filePath.split('?')[0];

@@ -1,4 +1,3 @@
-
 // Helper libraries
 const _ = require('lodash');
 const del = require('del');
