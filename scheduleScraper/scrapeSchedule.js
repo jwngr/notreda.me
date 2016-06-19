@@ -63,6 +63,8 @@ var getGamesForYear = (year) => {
       var result = $(rowCells[3]).text().trim();
       var opponent = $(rowCells[1]).text().trim();
 
+      var isHomeGame = _.startsWith(opponent, 'vs.');
+
       // Strip off the 'vs.' or 'at' at the beginning of the opponent
       opponent = opponent.slice(3).trim();
 
@@ -79,14 +81,14 @@ var getGamesForYear = (year) => {
       if (!_.includes(opponent, 'Game') && result !== 'Cancelled') {
         return {
           result,
+          isHomeGame,
           isBowlGame,
           opponent: {
             school: opponent,
             nickname: opponentNicknames[opponent]
           },
           date: $(rowCells[0]).text().trim(),
-          location: $(rowCells[2]).text().trim(),
-          isHomeGame: ($row.attr('bgcolor') === '#d1d1d1'),
+          location: $(rowCells[2]).text().trim()
         };
       }
     });
@@ -138,7 +140,7 @@ _.forEach(years, (year) => {
         }
 
         // Add the score and number of overtimes to the game
-        game.score = {
+        game.scores = {
           home: homeTeamScore,
           away: awayTeamScore
         };

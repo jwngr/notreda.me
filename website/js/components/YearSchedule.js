@@ -3,7 +3,7 @@ import _ from 'lodash';
 import React from 'react';
 
 // Presentational components
-import Game from './Game';
+import GameContainer from '../containers/GameContainer';
 
 // Resources
 import schedule from '../../resources/schedule';
@@ -12,8 +12,11 @@ const DEFAULT_YEAR = 2014;
 
 const YearSchedule = ({ params }) => {
   const currentYear = params.year || DEFAULT_YEAR;
+
   const gamesContent = _.map(schedule[currentYear], (game, index) => {
-    return <Game game={ game } key= { index }/>;
+    return (
+      <GameContainer key={ index } index={ index } game={ game } />
+    );
   });
 
   return (

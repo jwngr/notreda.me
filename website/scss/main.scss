@@ -7,7 +7,7 @@
  *  FONTS  *
  ***********/
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade);
 
 /***************
  *  PAGE WIDE  *
@@ -224,7 +224,7 @@ $nav-drawer-button-size: 2rem;
   text-align: center;
 
   .current-year {
-    font-family: 'Merriweather', serif;
+    font-family: 'Bungee Shade';
     font-size: 40px;
     color: $primary-blue;
     padding: 25px;
@@ -239,12 +239,34 @@ $nav-drawer-button-size: 2rem;
       flex: 1;
       height: 50px;
       margin: 0 25px;
-      border: solid 1px white;
-      background-color: $secondary-mustard;
+      cursor: pointer;
       opacity: 0.5;
+      border-top: solid 2px $secondary-black;
+
+      &:last-of-type {
+        border-bottom: solid 2px $secondary-black;
+      }
+
+      &:hover {
+        background-color: $primary-blue;
+      }
+
+      &.selected {
+        background-color: $primary-gold;
+      }
 
       & > p {
-        margin-top: 15px;
+        margin-top: 6px;
+        font-size: 30px;
+        font-family: 'Bungee';
+      }
+
+      .win {
+        color: $secondary-green;
+      }
+
+      .loss {
+        color: $secondary-red;
       }
     }
   }
