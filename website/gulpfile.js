@@ -1,11 +1,8 @@
-/* eslint-disable func-names */
-
-/* REQUIRES */
-const gulp = require('gulp');
 
 // Helper libraries
 const _ = require('lodash');
 const del = require('del');
+const gulp = require('gulp');
 const gutil = require('gulp-util');
 const runSequence = require('run-sequence');
 
@@ -70,7 +67,7 @@ const paths = {
 
 /* TASKS */
 /* Compiles SCSS files into CSS files and copies them to the distribution directory */
-gulp.task('css', function() {
+gulp.task('css', () => {
   return gulp.src(paths.css.files)
     .pipe(sass({
       'outputStyle': 'compressed',
@@ -81,8 +78,8 @@ gulp.task('css', function() {
 
 
 /* Copies files to the distribution directory */
-['bower', 'images', 'fonts'].forEach(function(fileType) {
-  gulp.task(fileType, function() {
+['bower', 'images', 'fonts'].forEach((fileType) => {
+  gulp.task(fileType, () => {
     return gulp.src(paths[fileType].files)
       .pipe(gulp.dest(paths[fileType].destDir));
   });
@@ -90,13 +87,13 @@ gulp.task('css', function() {
 
 
 /* Deletes the distribution directory */
-gulp.task('clean', function() {
+gulp.task('clean', () => {
   return del('dist');
 });
 
 
 /* Copies the HTML file to the distribution directory (dev) */
-gulp.task('html:dev', function() {
+gulp.task('html:dev', () => {
   return gulp.src(paths.html.files)
     .pipe(htmlreplace({
       'js': '/js/build.js'
@@ -105,7 +102,7 @@ gulp.task('html:dev', function() {
 });
 
 /* Copies the HTML file to the distribution directory (prod) */
-gulp.task('html:prod', function() {
+gulp.task('html:prod', () => {
   return gulp.src(paths.html.files)
     .pipe(htmlreplace({
       'js': '/js/build.min.js'
@@ -115,7 +112,7 @@ gulp.task('html:prod', function() {
 
 
 /* Lints the JS files */
-gulp.task('lint', function() {
+gulp.task('lint', () => {
   return gulp.src(paths.js.files)
     .pipe(eslint())
     .pipe(eslint.format())
@@ -124,19 +121,19 @@ gulp.task('lint', function() {
 
 
 /* Helper which bundles the JS files and copies the bundle into the distribution file (dev) */
-function bundle(b) {
+const bundle = (b) => {
   return b
     .bundle()
-    .on('error', function(error) {
+    .on('error', (error) => {
       gutil.log(gutil.colors.red('Error bundling distribution files:'), error.message);
     })
     .pipe(source('build.js'))
     .pipe(gulp.dest(paths.js.destDir));
-}
+};
 
 
 /* Browserifies the JS files and copies the bundle into the distribution file (dev) */
-gulp.task('js:dev', ['lint'], function() {
+gulp.task('js:dev', ['lint'], () => {
   const b = browserify({
     entries: 'js/containers/AppContainer.js',
     plugin: [watchify],
@@ -153,15 +150,15 @@ gulp.task('js:dev', ['lint'], function() {
   });
 
   // Re-bundle the distribution file every time a source JS file changes
-  b.on('update', function() {
+  b.on('update', () => {
     gutil.log('Re-bundling distribution files');
-    runSequence('lint', function() {
+    runSequence('lint', () => {
       bundle(b);
     });
   });
 
   // Log a message and reload the browser once the bundling is complete
-  b.on('log', function(message) {
+  b.on('log', (message) => {
     gutil.log('Distribution files re-bundled:', message);
     runSequence('reload');
   });
@@ -171,15 +168,15 @@ gulp.task('js:dev', ['lint'], function() {
 
 
 /* Browserifies the JS files and copies the bundle into the distribution file (prod) */
-gulp.task('js:prod', function(done) {
-  runSequence('lint', 'browserify', function(error) {
+gulp.task('js:prod', (done) => {
+  runSequence('lint', 'browserify', (error) => {
     done(error && error.err);
   });
 });
 
 
 /* Browserifies the JS files into a single bundle file */
-gulp.task('browserify', function() {
+gulp.task('browserify', () => {
   return browserify({
     entries: 'js/containers/AppContainer.js',
     transform: [
@@ -190,7 +187,7 @@ gulp.task('browserify', function() {
     ]
   })
     .bundle()
-    .on('error', function(error) {
+    .on('error', (error) => {
       gutil.log(gutil.colors.red('Error bundling distribution files:'), error.message);
       process.exit(1);
     })
@@ -201,9 +198,9 @@ gulp.task('browserify', function() {
 
 
 /* Watches for file changes (JS file changes are watched elsewhere via watchify) */
-gulp.task('watch', function() {
-  _.forEach(['css', 'html', 'bower', 'fonts', 'images'], function(fileType) {
-    gulp.watch(paths[fileType].files, function() {
+gulp.task('watch', () => {
+  _.forEach(['css', 'html', 'bower', 'fonts', 'images'], (fileType) => {
+    gulp.watch(paths[fileType].files, () => {
       runSequence(fileType, 'reload');
     });
   });
@@ -211,13 +208,13 @@ gulp.task('watch', function() {
 
 
 /* Reloads the browser */
-gulp.task('reload', function() {
+gulp.task('reload', () => {
   browserSync.reload();
 });
 
 
 /* Static server which rewrites all non static file requests back to index.html */
-gulp.task('serve', function() {
+gulp.task('serve', () => {
   browserSync.init({
     port: 1988,
     open: false,
@@ -239,16 +236,16 @@ gulp.task('build:prod', ['js:prod', 'html:prod', 'css', 'bower', 'images', 'font
 
 
 /* Production deployment task */
-gulp.task('prod', function(done) {
-  runSequence('clean', 'build:prod', function(error) {
+gulp.task('prod', (done) => {
+  runSequence('clean', 'build:prod', (error) => {
     done(error && error.err);
   });
 });
 
 
 /* Default task for local development */
-gulp.task('default', function(done) {
-  runSequence('clean', 'build:dev', 'watch', 'serve', function(error) {
+gulp.task('default', (done) => {
+  runSequence('clean', 'build:dev', 'watch', 'serve', (error) => {
     done(error && error.err);
   });
 });
