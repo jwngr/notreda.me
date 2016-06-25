@@ -168,6 +168,7 @@ gulp.task('js:dev', ['lint'], () => {
 
 /* Browserifies the JS files and copies the bundle into the distribution file (prod) */
 gulp.task('js:prod', (done) => {
+  process.env.NODE_ENV = 'production';
   runSequence('lint', 'browserify', (error) => {
     done(error && error.err);
   });

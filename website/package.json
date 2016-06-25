@@ -10,7 +10,8 @@
     "react-redux": "4.x.x",
     "react-router": "2.x.x",
     "react-router-redux": "^4.0.0-rc.2",
-    "redux": "3.x.x"
+    "redux": "3.x.x",
+    "redux-logger": "2.6.1"
   },
   "devDependencies": {
     "babel-plugin-lodash": "^2.0.1",

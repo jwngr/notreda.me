@@ -23,7 +23,6 @@ const rootReducer = combineReducers({
     }
   },
   selectedYear: (state = DEFAULT_YEAR, action) => {
-    console.log(state, action);
     switch (action.type) {
     case actions.CHANGE_ROUTER_LOCATION:
       const path = action.payload.pathname;
