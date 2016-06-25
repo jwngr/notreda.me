@@ -25,7 +25,7 @@ const Game = ({ game, index, selected, onGameSelected }) => {
 
   return (
     <div className={ gameClassNames } onClick={ onGameSelected.bind(onGameSelected, index) } >
-      <p>{ prefix } { game.opponent.school }, { result } { notreDameScore } - { opponentScore }</p>
+      <p>{ prefix } { game.opponent.name }, { result } { notreDameScore } - { opponentScore }</p>
     </div>
   );
 };

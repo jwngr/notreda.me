@@ -1,15 +1,23 @@
 // Libraries
+import _ from 'lodash';
 import { connect } from 'react-redux';
 
 // Presentational components
 import GameSummary from '../components/GameSummary';
 
 // Resources
+import teams from '../../resources/teams';
 import schedule from '../../resources/schedule';
 
 const mapStateToProps = (state) => {
   const games = schedule[state.selectedYear];
-  const game = games[state.selectedGameIndex];
+  const game = _.clone(games[state.selectedGameIndex]);
+
+  game.opponent = {
+    name: teams[game.opponent].name,
+    nickname: teams[game.opponent].nickname,
+    abbreviation: game.opponent
+  };
 
   return {
     game

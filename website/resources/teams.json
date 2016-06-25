@@ -1,0 +1,586 @@
+{
+  "ADRN": {
+    "name": "Adrian",
+    "nickname": "Bulldogs"
+  },
+  "AF": {
+    "name": "Air Force",
+    "nickname": "Falcons"
+  },
+  "BAMA": {
+    "name": "Alabama",
+    "nickname": "Crimson Tide"
+  },
+  "ALB": {
+    "name": "Albion",
+    "nickname": "Britons"
+  },
+  "ALMA": {
+    "name": "Alma",
+    "nickname": "Scots"
+  },
+  "AM-M": {
+    "name": "American Medical (Chicago)",
+    "nickname": "Medical"
+  },
+  "ARIZ": {
+    "name": "Arizona",
+    "nickname": "Wildcats"
+  },
+  "AZST": {
+    "name": "Arizona State",
+    "nickname": "Sun Devils"
+  },
+  "ARMY": {
+    "name": "Army",
+    "nickname": "Black Knights"
+  },
+  "BAY": {
+    "name": "Baylor",
+    "nickname": "Bears"
+  },
+  "BEL": {
+    "name": "Beloit",
+    "nickname": "Buccaneers"
+  },
+  "BENN": {
+    "name": "Bennett Medical (Chicago)",
+    "nickname": "Medical"
+  },
+  "BC": {
+    "name": "Boston College",
+    "nickname": "Eagles"
+  },
+  "AKR": {
+    "name": "Buchtel (Akron)",
+    "nickname": "Zippers"
+  },
+  "BUT": {
+    "name": "Butler",
+    "nickname": "Bulldogs"
+  },
+  "BYU": {
+    "name": "BYU",
+    "nickname": "Cougars"
+  },
+  "CAL": {
+    "name": "California",
+    "nickname": "Golden Bears"
+  },
+  "CARL": {
+    "name": "Carlisle",
+    "nickname": "Indians"
+  },
+  "CAR": {
+    "name": "Carnegie Tech",
+    "nickname": "Tartans"
+  },
+  "CSTC": {
+    "name": "Case Tech",
+    "nickname": "Spartans"
+  },
+  "CASE": {
+    "name": "Case Western",
+    "nickname": "Sparse"
+  },
+  "CHI": {
+    "name": "Chicago",
+    "nickname": "Maroons"
+  },
+  "CHI-D": {
+    "name": "Chicago Dental Surgeons",
+    "nickname": "Dental Surgeons"
+  },
+  "CHI-M": {
+    "name": "Chicago Medical",
+    "nickname": "Medical"
+  },
+  "CHI-P&S": {
+    "name": "Chicago Physicians & Surgeons",
+    "nickname": "Physicians & Surgeons"
+  },
+  "CB": {
+    "name": "Christian Brothers",
+    "nickname": "Buccaneers"
+  },
+  "CINCY": {
+    "name": "Cincinnati",
+    "nickname": "Bearcats"
+  },
+  "CLEM": {
+    "name": "Clemson",
+    "nickname": "Tigers"
+  },
+  "COE": {
+    "name": "Coe",
+    "nickname": "Kohawks"
+  },
+  "COL": {
+    "name": "Colorado",
+    "nickname": "Buffaloes"
+  },
+  "UCONN": {
+    "name": "Connecticut",
+    "nickname": "Huskies"
+  },
+  "CREI": {
+    "name": "Creighton",
+    "nickname": "Bluejays"
+  },
+  "DART": {
+    "name": "Dartmouth",
+    "nickname": "Big Green"
+  },
+  "DLS": {
+    "name": "De La Salle",
+    "nickname": "Green Archers"
+  },
+  "DEP": {
+    "name": "DePauw",
+    "nickname": "Tigers"
+  },
+  "DET": {
+    "name": "Detroit",
+    "nickname": "Titans"
+  },
+  "DRKE": {
+    "name": "Drake",
+    "nickname": "Bulldogs"
+  },
+  "DUKE": {
+    "name": "Duke",
+    "nickname": "Blue Devils"
+  },
+  "ENG": {
+    "name": "Englewood Tech",
+    "nickname": "Eagles"
+  },
+  "FLA": {
+    "name": "Florida",
+    "nickname": "Gators"
+  },
+  "FSU": {
+    "name": "Florida State",
+    "nickname": "Seminoles"
+  },
+  "FRA": {
+    "name": "Franklin",
+    "nickname": "Grizzlies"
+  },
+  "UGA": {
+    "name": "Georgia",
+    "nickname": "Bulldogs"
+  },
+  "GT": {
+    "name": "Georgia Tech",
+    "nickname": "Yellow Jackets"
+  },
+  "GOSH": {
+    "name": "Goshen",
+    "nickname": "Maple Leafs"
+  },
+  "GRTLK": {
+    "name": "Great Lakes",
+    "nickname": "Midshipmen"
+  },
+  "HARP": {
+    "name": "Harvard Prep",
+    "nickname": "Hurricanes"
+  },
+  "HASK": {
+    "name": "Haskell",
+    "nickname": "Indians"
+  },
+  "HAW": {
+    "name": "Hawaii",
+    "nickname": "Rainbow Warriors"
+  },
+  "HIGH": {
+    "name": "Highland Views",
+    "nickname": "Highland"
+  },
+  "HILLS": {
+    "name": "Hillsdale",
+    "nickname": "Chargers"
+  },
+  "HOU": {
+    "name": "Houston",
+    "nickname": "Cougars"
+  },
+  "ILL": {
+    "name": "Illinois",
+    "nickname": "Fighting Illini"
+  },
+  "CYCL": {
+    "name": "Illinois Cycling Club",
+    "nickname": "Cycling Club"
+  },
+  "IND": {
+    "name": "Indiana",
+    "nickname": "Hoosiers"
+  },
+  "INDAR": {
+    "name": "Indianapolis Artillery",
+    "nickname": "Artillery"
+  },
+  "IOWA": {
+    "name": "Iowa",
+    "nickname": "Hawkeyes"
+  },
+  "IO-PF": {
+    "name": "Iowa Pre-Flight",
+    "nickname": "Seahawks"
+  },
+  "KAL": {
+    "name": "Kalamazoo",
+    "nickname": "Fighting Hornets"
+  },
+  "KU": {
+    "name": "Kansas",
+    "nickname": "Jayhawks"
+  },
+  "KNOX": {
+    "name": "Knox",
+    "nickname": "Prairie Fire"
+  },
+  "LSU": {
+    "name": "LSU",
+    "nickname": "Tigers"
+  },
+  "LAK": {
+    "name": "Lake Forest",
+    "nickname": "Foresters"
+  },
+  "LOMB": {
+    "name": "Lombard",
+    "nickname": "Golden Tornado"
+  },
+  "LOU": {
+    "name": "Louisville",
+    "nickname": "Cardinals"
+  },
+  "L-IL": {
+    "name": "Loyola (Chicago)",
+    "nickname": "Ramblers"
+  },
+  "L-LA": {
+    "name": "Loyola (New Orleans)",
+    "nickname": "Wolfpack"
+  },
+  "MARQ": {
+    "name": "Marquette",
+    "nickname": "Golden Eagles"
+  },
+  "MD": {
+    "name": "Maryland",
+    "nickname": "Terrapins"
+  },
+  "UMASS": {
+    "name": "Massachusetts",
+    "nickname": "Minutemen"
+  },
+  "MIAMI": {
+    "name": "Miami",
+    "nickname": "Hurricanes"
+  },
+  "M-OH": {
+    "name": "Miami (Ohio)",
+    "nickname": "RedHawks"
+  },
+  "MICH": {
+    "name": "Michigan",
+    "nickname": "Wolverines"
+  },
+  "MSU": {
+    "name": "Michigan State",
+    "nickname": "Spartans"
+  },
+  "MINN": {
+    "name": "Minnesota",
+    "nickname": "Golden Gophers"
+  },
+  "MISS": {
+    "name": "Ole Miss",
+    "nickname": "Rebels"
+  },
+  "MIZ": {
+    "name": "Missouri",
+    "nickname": "Tigers"
+  },
+  "MIZ-O": {
+    "name": "Missouri Osteopaths",
+    "nickname": "Osteopaths"
+  },
+  "MORN": {
+    "name": "Morningside",
+    "nickname": "Mustangs"
+  },
+  "MORR": {
+    "name": "Morris Harvey",
+    "nickname": "Golden Eagles"
+  },
+  "MTU": {
+    "name": "Mount Union",
+    "nickname": "Purple Raiders"
+  },
+  "NAVY": {
+    "name": "Navy",
+    "nickname": "Midshipmen"
+  },
+  "NEB": {
+    "name": "Nebraska",
+    "nickname": "Cornhuskers"
+  },
+  "NEV": {
+    "name": "Nevada",
+    "nickname": "Wolf Pack"
+  },
+  "UNC": {
+    "name": "North Carolina",
+    "nickname": "Tar Heels"
+  },
+  "NCST": {
+    "name": "NC State",
+    "nickname": "Wolfpack"
+  },
+  "NDHS": {
+    "name": "North Division High School",
+    "nickname": "Blue Devils"
+  },
+  "NW": {
+    "name": "Northwestern",
+    "nickname": "Wildcats"
+  },
+  "NW-L": {
+    "name": "Northwestern Law",
+    "nickname": "Wildcats"
+  },
+  "ND": {
+    "name": "Notre Dame",
+    "nickname": "Fighting Irish"
+  },
+  "OH-M": {
+    "name": "Ohio Medical",
+    "nickname": "Tigers"
+  },
+  "ON": {
+    "name": "Ohio Northern",
+    "nickname": "Polar Bears"
+  },
+  "OSU": {
+    "name": "Ohio State",
+    "nickname": "Buckeyes"
+  },
+  "OKLA": {
+    "name": "Oklahoma",
+    "nickname": "Sooners"
+  },
+  "OLIV": {
+    "name": "Olivet Nazarene",
+    "nickname": "Tigers"
+  },
+  "ORE": {
+    "name": "Oregon",
+    "nickname": "Ducks"
+  },
+  "ORST": {
+    "name": "Oregon State",
+    "nickname": "Beavers"
+  },
+  "PAC": {
+    "name": "Pacific",
+    "nickname": "Tigers"
+  },
+  "PENN": {
+    "name": "Penn",
+    "nickname": "Quakers"
+  },
+  "PSU": {
+    "name": "Penn State",
+    "nickname": "Nittany Lions"
+  },
+  "PITT": {
+    "name": "Pittsburgh",
+    "nickname": "Panthers"
+  },
+  "PRIN": {
+    "name": "Princeton",
+    "nickname": "Tigers"
+  },
+  "PUR": {
+    "name": "Purdue",
+    "nickname": "Boilermakers"
+  },
+  "RICE": {
+    "name": "Rice",
+    "nickname": "Owls"
+  },
+  "ROSE": {
+    "name": "Rose Poly",
+    "nickname": "Fighting Engineers"
+  },
+  "RUSH": {
+    "name": "Rush Medical",
+    "nickname": "Medical"
+  },
+  "RUTG": {
+    "name": "Rutgers",
+    "nickname": "Scarlet Knights"
+  },
+  "SMU": {
+    "name": "SMU",
+    "nickname": "Mustangs"
+  },
+  "SLU": {
+    "name": "St. Louis",
+    "nickname": "Billikens"
+  },
+  "SDSU": {
+    "name": "San Diego State",
+    "nickname": "Aztecs"
+  },
+  "SB-AC": {
+    "name": "South Bend Athletic Club",
+    "nickname": "Athletic Club"
+  },
+  "SB-CAC": {
+    "name": "South Bend Commercial Athletic Club",
+    "nickname": "Athletic Club"
+  },
+  "SB-HS": {
+    "name": "South Bend High School",
+    "nickname": "South Bend"
+  },
+  "SB-HP": {
+    "name": "South Bend Howard Park",
+    "nickname": "Howard Park"
+  },
+  "SCAR": {
+    "name": "South Carolina",
+    "nickname": "Gamecocks"
+  },
+  "SDAK": {
+    "name": "South Dakota",
+    "nickname": "Coyotes"
+  },
+  "USF": {
+    "name": "South Florida",
+    "nickname": "Bulls"
+  },
+  "SBON": {
+    "name": "St. Bonaventure",
+    "nickname": "Bonnies"
+  },
+  "VIA": {
+    "name": "St. Viator",
+    "nickname": "Green Wave"
+  },
+  "VINC": {
+    "name": "St. Vincent's (DePaul)",
+    "nickname": "Blue Demons"
+  },
+  "STAN": {
+    "name": "Stanford",
+    "nickname": "Cardinal"
+  },
+  "SYR": {
+    "name": "Syracuse",
+    "nickname": "Orange"
+  },
+  "TCU": {
+    "name": "TCU",
+    "nickname": "Horned Frogs"
+  },
+  "TEM": {
+    "name": "Temple",
+    "nickname": "Owls"
+  },
+  "TENN": {
+    "name": "Tennessee",
+    "nickname": "Volunteers"
+  },
+  "TEX": {
+    "name": "Texas",
+    "nickname": "Longhorns"
+  },
+  "TA&M": {
+    "name": "Texas A&M",
+    "nickname": "Aggies"
+  },
+  "TOL": {
+    "name": "Toledo Athletic Association",
+    "nickname": "Toledo"
+  },
+  "TULN": {
+    "name": "Tulane",
+    "nickname": "Green Wave"
+  },
+  "TULSA": {
+    "name": "Tulsa",
+    "nickname": "Golden Hurricane"
+  },
+  "UCLA": {
+    "name": "UCLA",
+    "nickname": "Bruins"
+  },
+  "USC": {
+    "name": "Southern Cal",
+    "nickname": "Trojans"
+  },
+  "UTAH": {
+    "name": "Utah",
+    "nickname": "Utes"
+  },
+  "VALPO": {
+    "name": "Valparaiso",
+    "nickname": "Crusaders"
+  },
+  "VANDY": {
+    "name": "Vanderbilt",
+    "nickname": "Commodores"
+  },
+  "UVA": {
+    "name": "Virginia",
+    "nickname": "Cavaliers"
+  },
+  "WAB": {
+    "name": "Wabash",
+    "nickname": "Little Giants"
+  },
+  "WAKE": {
+    "name": "Wake Forest",
+    "nickname": "Demon Deacons"
+  },
+  "WASH": {
+    "name": "Washington",
+    "nickname": "Huskies"
+  },
+  "WAS": {
+    "name": "Washington and Jefferson",
+    "nickname": "Presidents"
+  },
+  "WASHU": {
+    "name": "Washington University",
+    "nickname": "Bears"
+  },
+  "WSU": {
+    "name": "Washington State",
+    "nickname": "Cougars"
+  },
+  "WVU": {
+    "name": "West Virginia",
+    "nickname": "Mountaineers"
+  },
+  "WMU": {
+    "name": "Western Michigan",
+    "nickname": "Broncos"
+  },
+  "WIS": {
+    "name": "Wisconsin",
+    "nickname": "Badgers"
+  },
+  "YALE": {
+    "name": "Yale",
+    "nickname": "Elis"
+  }
+}

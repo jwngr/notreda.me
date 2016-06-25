@@ -4,7 +4,7 @@ var RSVP = require('rsvp');
 var cheerio = require('cheerio');
 var request = require('request-promise');
 
-var opponentNicknames = require('./opponentNicknames.json');
+var teamMappings = require('./teamMappings.json');
 
 
 if (process.argv.length !== 3) {
@@ -83,10 +83,7 @@ var getGamesForYear = (year) => {
           result,
           isHomeGame,
           isBowlGame,
-          opponent: {
-            school: opponent,
-            nickname: opponentNicknames[opponent]
-          },
+          opponent: teamMappings[opponent],
           date: $(rowCells[0]).text().trim(),
           location: $(rowCells[2]).text().trim()
         };

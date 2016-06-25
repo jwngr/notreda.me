@@ -218,6 +218,10 @@ $nav-drawer-button-size: 2rem;
   }
 }
 
+.master-container {
+  display: flex;
+}
+
 /* Schedule */
 .schedule-container {
   width: 50%;
@@ -249,7 +253,7 @@ $nav-drawer-button-size: 2rem;
       }
 
       &:hover {
-        background-color: $primary-blue;
+        background-color: $accent-gray;
       }
 
       &.selected {
@@ -268,6 +272,98 @@ $nav-drawer-button-size: 2rem;
 
       .loss {
         color: $secondary-red;
+      }
+    }
+  }
+}
+
+
+.game-summary-container {
+  width: 50%;
+  margin-top: 100px;
+}
+
+.box-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bungee';
+  font-size: 20px;
+
+  & > div {
+    display: flex;
+    text-align: center;
+    color: #a8a8a8;
+
+    &:first-of-type {
+      color: black;
+    }
+
+    &:nth-of-type(2) {
+      border: solid 2px $primary-blue;
+      border-bottom: 0;
+    }
+
+    &:nth-of-type(3) {
+      border: solid 2px $primary-blue;
+    }
+
+    & > p {
+      width: 50px;
+      height: 40px;
+      padding-top: 11px;
+
+      &:first-of-type {
+        width: 150px;
+      }
+
+      &:nth-of-type(6) {
+        font-weight: bold;
+      }
+    }
+
+    &.quarter-scores > p {
+      border-right: solid 2px $primary-blue;
+
+      &:first-of-type {
+        border-right-width: 3px;
+      }
+
+      &:nth-of-type(3) {
+        border-right-width: 3px;
+      }
+
+      &:nth-of-type(5) {
+        border-right-width: 5px;
+      }
+
+      &:nth-of-type(6) {
+        border-right-width: 0;
+      }
+    }
+  }
+}
+
+
+.game-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Merriweather';
+  font-size: 16px;
+
+  & > div {
+    display: flex;
+    text-align: center;
+    color: black;
+
+    & > p {
+      width: 100px;
+      height: 40px;
+      padding-top: 11px;
+
+      &:nth-of-type(2) {
+        width: 200px;
       }
     }
   }
