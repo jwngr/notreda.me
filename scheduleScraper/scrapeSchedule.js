@@ -38,11 +38,11 @@ var getGamesForYear = (year) => {
   return getHtmlScheduleDataForYear(year).then(($) => {
     var games = [];
 
-    var scheduleTable = $('#schedtable');
+    var $scheduleTable = $('#schedtable');
 
     // Loop through each row in the schedule table
     var $rows = [];
-    scheduleTable.find('tr').each((i, row) => {
+    $scheduleTable.find('tr').each((i, row) => {
       $rows.push($(row));
     });
 
@@ -97,8 +97,6 @@ var getGamesForYear = (year) => {
 }
 
 
-var promises = [];
-
 var years = _.range(1887, 2016);
 var promises = {};
 _.forEach(years, (year) => {
@@ -150,14 +148,14 @@ _.forEach(years, (year) => {
       return game;
     });
   }).catch(function(error) {
-    console.log(`Error scraping ${year} schedule:`, error);
+    console.log(`Error scraping ${ year } schedule:`, error);
   });
 });
 
 
 return RSVP.hash(promises).then(function(result) {
   fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
-  console.log('Schedule written to schedule.json!');
+  console.log(`Schedule written to ${ process.argv[2] }!`);
 }).catch(function(error) {
   console.log('Failed to scrape schedule for all years:', error);
 });

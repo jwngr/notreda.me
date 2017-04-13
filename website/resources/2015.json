@@ -13,7 +13,69 @@
       "home": 38,
       "away": 3
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "30",
+        "away": "8"
+      },
+      "3rd down efficiency": {
+        "home": "8-14",
+        "away": "2-14"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "0-0"
+      },
+      "Total Yards": {
+        "home": "527",
+        "away": "163"
+      },
+      "Passing": {
+        "home": "313",
+        "away": "103"
+      },
+      "Comp-Att": {
+        "home": "19-23",
+        "away": "8-23"
+      },
+      "Yards per pass": {
+        "home": "13.6",
+        "away": "4.5"
+      },
+      "Interceptions thrown": {
+        "home": "0",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "214",
+        "away": "60"
+      },
+      "Rushing Attempts": {
+        "home": "52",
+        "away": "29"
+      },
+      "Yards per rush": {
+        "home": "4.1",
+        "away": "2.1"
+      },
+      "Penalties": {
+        "home": "6-39",
+        "away": "4-50"
+      },
+      "Turnovers": {
+        "home": "0",
+        "away": "0"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "0"
+      },
+      "Possession": {
+        "home": "39:10",
+        "away": "20:50"
+      }
+    }
   },
   {
     "result": "W",
@@ -29,7 +91,69 @@
       "home": 27,
       "away": 34
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "22",
+        "away": "20"
+      },
+      "3rd down efficiency": {
+        "home": "6-15",
+        "away": "0-10"
+      },
+      "4th down efficiency": {
+        "home": "1-1",
+        "away": "2-3"
+      },
+      "Total Yards": {
+        "home": "416",
+        "away": "460"
+      },
+      "Passing": {
+        "home": "289",
+        "away": "207"
+      },
+      "Comp-Att": {
+        "home": "26-38",
+        "away": "15-30"
+      },
+      "Yards per pass": {
+        "home": "7.6",
+        "away": "6.9"
+      },
+      "Interceptions thrown": {
+        "home": "0",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "127",
+        "away": "253"
+      },
+      "Rushing Attempts": {
+        "home": "30",
+        "away": "34"
+      },
+      "Yards per rush": {
+        "home": "4.2",
+        "away": "7.4"
+      },
+      "Penalties": {
+        "home": "9-55",
+        "away": "4-40"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "0"
+      },
+      "Fumbles lost": {
+        "home": "1",
+        "away": "0"
+      },
+      "Possession": {
+        "home": "33:23",
+        "away": "26:37"
+      }
+    }
   },
   {
     "result": "W",
@@ -45,7 +169,69 @@
       "home": 30,
       "away": 22
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "17",
+        "away": "21"
+      },
+      "3rd down efficiency": {
+        "home": "4-11",
+        "away": "3-15"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "2-3"
+      },
+      "Total Yards": {
+        "home": "457",
+        "away": "337"
+      },
+      "Passing": {
+        "home": "242",
+        "away": "121"
+      },
+      "Comp-Att": {
+        "home": "21-30",
+        "away": "8-24"
+      },
+      "Yards per pass": {
+        "home": "8.1",
+        "away": "5.0"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "215",
+        "away": "216"
+      },
+      "Rushing Attempts": {
+        "home": "32",
+        "away": "47"
+      },
+      "Yards per rush": {
+        "home": "6.7",
+        "away": "4.6"
+      },
+      "Penalties": {
+        "home": "8-55",
+        "away": "4-30"
+      },
+      "Turnovers": {
+        "home": "2",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "1",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "27:08",
+        "away": "32:52"
+      }
+    }
   },
   {
     "result": "W",
@@ -60,7 +246,69 @@
       "home": 62,
       "away": 27
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "30",
+        "away": "22"
+      },
+      "3rd down efficiency": {
+        "home": "8-13",
+        "away": "5-17"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "1-3"
+      },
+      "Total Yards": {
+        "home": "681",
+        "away": "450"
+      },
+      "Passing": {
+        "home": "224",
+        "away": "302"
+      },
+      "Comp-Att": {
+        "home": "18-28",
+        "away": "28-48"
+      },
+      "Yards per pass": {
+        "home": "8.0",
+        "away": "6.3"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "1"
+      },
+      "Rushing": {
+        "home": "457",
+        "away": "148"
+      },
+      "Rushing Attempts": {
+        "home": "51",
+        "away": "29"
+      },
+      "Yards per rush": {
+        "home": "9.0",
+        "away": "5.1"
+      },
+      "Penalties": {
+        "home": "8-75",
+        "away": "4-35"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "0"
+      },
+      "Possession": {
+        "home": "30:15",
+        "away": "29:45"
+      }
+    }
   },
   {
     "result": "L",
@@ -76,7 +324,69 @@
       "home": 24,
       "away": 22
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "15",
+        "away": "20"
+      },
+      "3rd down efficiency": {
+        "home": "5-15",
+        "away": "4-12"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "0-0"
+      },
+      "Total Yards": {
+        "home": "296",
+        "away": "432"
+      },
+      "Passing": {
+        "home": "84",
+        "away": "321"
+      },
+      "Comp-Att": {
+        "home": "10-21",
+        "away": "19-35"
+      },
+      "Yards per pass": {
+        "home": "4.0",
+        "away": "9.2"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "1"
+      },
+      "Rushing": {
+        "home": "212",
+        "away": "111"
+      },
+      "Rushing Attempts": {
+        "home": "43",
+        "away": "32"
+      },
+      "Yards per rush": {
+        "home": "4.9",
+        "away": "3.5"
+      },
+      "Penalties": {
+        "home": "5-44",
+        "away": "6-40"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "4"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "3"
+      },
+      "Possession": {
+        "home": "30:02",
+        "away": "29:58"
+      }
+    }
   },
   {
     "result": "W",
@@ -92,7 +402,69 @@
       "home": 41,
       "away": 24
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "27",
+        "away": "16"
+      },
+      "3rd down efficiency": {
+        "home": "7-12",
+        "away": "2-11"
+      },
+      "4th down efficiency": {
+        "home": "1-1",
+        "away": "4-4"
+      },
+      "Total Yards": {
+        "home": "459",
+        "away": "340"
+      },
+      "Passing": {
+        "home": "281",
+        "away": "22"
+      },
+      "Comp-Att": {
+        "home": "22-31",
+        "away": "3-6"
+      },
+      "Yards per pass": {
+        "home": "9.1",
+        "away": "3.7"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "1"
+      },
+      "Rushing": {
+        "home": "178",
+        "away": "318"
+      },
+      "Rushing Attempts": {
+        "home": "40",
+        "away": "49"
+      },
+      "Yards per rush": {
+        "home": "4.4",
+        "away": "6.5"
+      },
+      "Penalties": {
+        "home": "4-35",
+        "away": "3-41"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "3"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "2"
+      },
+      "Possession": {
+        "home": "31:07",
+        "away": "28:53"
+      }
+    }
   },
   {
     "result": "W",
@@ -108,7 +480,69 @@
       "home": 41,
       "away": 31
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "21",
+        "away": "19"
+      },
+      "3rd down efficiency": {
+        "home": "5-12",
+        "away": "6-16"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "2-3"
+      },
+      "Total Yards": {
+        "home": "476",
+        "away": "590"
+      },
+      "Passing": {
+        "home": "262",
+        "away": "440"
+      },
+      "Comp-Att": {
+        "home": "16-25",
+        "away": "31-47"
+      },
+      "Yards per pass": {
+        "home": "10.5",
+        "away": "9.4"
+      },
+      "Interceptions thrown": {
+        "home": "0",
+        "away": "2"
+      },
+      "Rushing": {
+        "home": "214",
+        "away": "150"
+      },
+      "Rushing Attempts": {
+        "home": "35",
+        "away": "30"
+      },
+      "Yards per rush": {
+        "home": "6.1",
+        "away": "5.0"
+      },
+      "Penalties": {
+        "home": "4-40",
+        "away": "10-105"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "2"
+      },
+      "Fumbles lost": {
+        "home": "1",
+        "away": "0"
+      },
+      "Possession": {
+        "home": "28:52",
+        "away": "31:08"
+      }
+    }
   },
   {
     "result": "W",
@@ -124,7 +558,69 @@
       "home": 20,
       "away": 24
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "16",
+        "away": "20"
+      },
+      "3rd down efficiency": {
+        "home": "4-14",
+        "away": "6-14"
+      },
+      "4th down efficiency": {
+        "home": "2-2",
+        "away": "0-1"
+      },
+      "Total Yards": {
+        "home": "295",
+        "away": "467"
+      },
+      "Passing": {
+        "home": "188",
+        "away": "299"
+      },
+      "Comp-Att": {
+        "home": "13-30",
+        "away": "23-36"
+      },
+      "Yards per pass": {
+        "home": "6.3",
+        "away": "8.3"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "2"
+      },
+      "Rushing": {
+        "home": "107",
+        "away": "168"
+      },
+      "Rushing Attempts": {
+        "home": "32",
+        "away": "31"
+      },
+      "Yards per rush": {
+        "home": "3.3",
+        "away": "5.4"
+      },
+      "Penalties": {
+        "home": "6-79",
+        "away": "8-81"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "2"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "0"
+      },
+      "Possession": {
+        "home": "28:16",
+        "away": "31:44"
+      }
+    }
   },
   {
     "result": "W",
@@ -140,7 +636,69 @@
       "home": 30,
       "away": 42
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "18",
+        "away": "22"
+      },
+      "3rd down efficiency": {
+        "home": "6-14",
+        "away": "8-14"
+      },
+      "4th down efficiency": {
+        "home": "1-1",
+        "away": "0-1"
+      },
+      "Total Yards": {
+        "home": "398",
+        "away": "437"
+      },
+      "Passing": {
+        "home": "223",
+        "away": "262"
+      },
+      "Comp-Att": {
+        "home": "12-32",
+        "away": "19-26"
+      },
+      "Yards per pass": {
+        "home": "7.0",
+        "away": "10.1"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "175",
+        "away": "175"
+      },
+      "Rushing Attempts": {
+        "home": "31",
+        "away": "42"
+      },
+      "Yards per rush": {
+        "home": "5.6",
+        "away": "4.2"
+      },
+      "Penalties": {
+        "home": "3-25",
+        "away": "2-20"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "26:21",
+        "away": "33:39"
+      }
+    }
   },
   {
     "result": "W",
@@ -156,7 +714,69 @@
       "home": 28,
       "away": 7
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "18",
+        "away": "22"
+      },
+      "3rd down efficiency": {
+        "home": "6-14",
+        "away": "8-14"
+      },
+      "4th down efficiency": {
+        "home": "1-1",
+        "away": "0-1"
+      },
+      "Total Yards": {
+        "home": "398",
+        "away": "437"
+      },
+      "Passing": {
+        "home": "223",
+        "away": "262"
+      },
+      "Comp-Att": {
+        "home": "12-32",
+        "away": "19-26"
+      },
+      "Yards per pass": {
+        "home": "7.0",
+        "away": "10.1"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "175",
+        "away": "175"
+      },
+      "Rushing Attempts": {
+        "home": "31",
+        "away": "42"
+      },
+      "Yards per rush": {
+        "home": "5.6",
+        "away": "4.2"
+      },
+      "Penalties": {
+        "home": "3-25",
+        "away": "2-20"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "26:21",
+        "away": "33:39"
+      }
+    }
   },
   {
     "result": "W",
@@ -172,7 +792,69 @@
       "home": 19,
       "away": 16
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "22",
+        "away": "13"
+      },
+      "3rd down efficiency": {
+        "home": "4-15",
+        "away": "2-13"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "0-1"
+      },
+      "Total Yards": {
+        "home": "447",
+        "away": "302"
+      },
+      "Passing": {
+        "home": "324",
+        "away": "91"
+      },
+      "Comp-Att": {
+        "home": "21-39",
+        "away": "13-23"
+      },
+      "Yards per pass": {
+        "home": "8.3",
+        "away": "4.0"
+      },
+      "Interceptions thrown": {
+        "home": "3",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "123",
+        "away": "211"
+      },
+      "Rushing Attempts": {
+        "home": "33",
+        "away": "35"
+      },
+      "Yards per rush": {
+        "home": "3.7",
+        "away": "6.0"
+      },
+      "Penalties": {
+        "home": "4-31",
+        "away": "9-75"
+      },
+      "Turnovers": {
+        "home": "5",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "2",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "31:08",
+        "away": "28:52"
+      }
+    }
   },
   {
     "result": "L",
@@ -188,7 +870,69 @@
       "home": 38,
       "away": 36
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "22",
+        "away": "24"
+      },
+      "3rd down efficiency": {
+        "home": "8-12",
+        "away": "3-9"
+      },
+      "4th down efficiency": {
+        "home": "0-0",
+        "away": "1-1"
+      },
+      "Total Yards": {
+        "home": "422",
+        "away": "533"
+      },
+      "Passing": {
+        "home": "269",
+        "away": "234"
+      },
+      "Comp-Att": {
+        "home": "17-21",
+        "away": "13-25"
+      },
+      "Yards per pass": {
+        "home": "12.8",
+        "away": "9.4"
+      },
+      "Interceptions thrown": {
+        "home": "0",
+        "away": "0"
+      },
+      "Rushing": {
+        "home": "153",
+        "away": "299"
+      },
+      "Rushing Attempts": {
+        "home": "43",
+        "away": "35"
+      },
+      "Yards per rush": {
+        "home": "3.6",
+        "away": "8.5"
+      },
+      "Penalties": {
+        "home": "1-5",
+        "away": "6-65"
+      },
+      "Turnovers": {
+        "home": "0",
+        "away": "1"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "35:59",
+        "away": "24:01"
+      }
+    }
   },
   {
     "result": "L",
@@ -204,6 +948,68 @@
       "home": 28,
       "away": 44
     },
-    "numOvertimes": 0
+    "numOvertimes": 0,
+    "stats": {
+      "1st Downs": {
+        "home": "27",
+        "away": "24"
+      },
+      "3rd down efficiency": {
+        "home": "10-18",
+        "away": "5-13"
+      },
+      "4th down efficiency": {
+        "home": "1-1",
+        "away": "1-1"
+      },
+      "Total Yards": {
+        "home": "496",
+        "away": "405"
+      },
+      "Passing": {
+        "home": "211",
+        "away": "284"
+      },
+      "Comp-Att": {
+        "home": "19-31",
+        "away": "22-38"
+      },
+      "Yards per pass": {
+        "home": "6.8",
+        "away": "7.5"
+      },
+      "Interceptions thrown": {
+        "home": "1",
+        "away": "1"
+      },
+      "Rushing": {
+        "home": "285",
+        "away": "121"
+      },
+      "Rushing Attempts": {
+        "home": "54",
+        "away": "32"
+      },
+      "Yards per rush": {
+        "home": "5.3",
+        "away": "3.8"
+      },
+      "Penalties": {
+        "home": "4-45",
+        "away": "3-20"
+      },
+      "Turnovers": {
+        "home": "1",
+        "away": "2"
+      },
+      "Fumbles lost": {
+        "home": "0",
+        "away": "1"
+      },
+      "Possession": {
+        "home": "32:45",
+        "away": "27:15"
+      }
+    }
   }
 ]

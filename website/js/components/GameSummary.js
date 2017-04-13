@@ -1,7 +1,6 @@
 // Libraries
 import React from 'react';
 
-
 const GameSummary = ({ game }) => {
   const notreDame = {
     name: 'Notre Dame',
@@ -55,44 +54,44 @@ const GameSummary = ({ game }) => {
           <p>{ homeTeam.nickname }</p>
         </div>
         <div>
-          <p>20</p>
+          <p>{ game.stats['1st Downs'].away }</p>
           <p>First Downs</p>
-          <p>18</p>
+          <p>{ game.stats['1st Downs'].home }</p>
         </div>
         <div>
-          <p>59</p>
+          <p>56</p>
           <p>Total Plays</p>
-          <p>50</p>
+          <p>62</p>
         </div>
         <div>
-          <p>386</p>
-          <p>Total Yars</p>
-          <p>197</p>
+          <p>{ game.stats['Total Yards'].away }</p>
+          <p>Total Yards</p>
+          <p>{ game.stats['Total Yards'].home }</p>
         </div>
         <div>
-          <p>315</p>
+          <p>{ game.stats.Passing.away }</p>
           <p>Passing Yards</p>
-          <p>71</p>
+          <p>{ game.stats.Passing.home }</p>
         </div>
         <div>
-          <p>71</p>
+          <p>{ game.stats.Rushing.away }</p>
           <p>Rushing Yards</p>
-          <p>126</p>
+          <p>{ game.stats.Rushing.home }</p>
         </div>
         <div>
-          <p>6 / 54</p>
+          <p>{ game.stats.Penalties.away }</p>
           <p>Penalties</p>
-          <p>7 / 76</p>
+          <p>{ game.stats.Penalties.home }</p>
         </div>
         <div>
-          <p>26:52</p>
+          <p>{ game.stats.Possession.away }</p>
           <p>Possesion</p>
-          <p>33:08</p>
+          <p>{ game.stats.Possession.home }</p>
         </div>
         <div>
-          <p>3</p>
+          <p>{ game.stats.Turnovers.away }</p>
           <p>Turnovers</p>
-          <p>2</p>
+          <p>{ game.stats.Turnovers.home }</p>
         </div>
       </div>
     </div>
