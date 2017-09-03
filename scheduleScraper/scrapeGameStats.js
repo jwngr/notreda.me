@@ -5,7 +5,7 @@ var cheerio = require('cheerio');
 var request = require('request-promise');
 
 if (process.argv.length !== 3) {
-  console.log('USAGE: node scrapeSchedule.js <output_file>');
+  console.log('USAGE: node scrapeGameStats.js <output_file>');
   process.exit(1);
 }
 

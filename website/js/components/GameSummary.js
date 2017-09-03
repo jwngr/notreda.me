@@ -18,6 +18,59 @@ const GameSummary = ({ game }) => {
     awayTeam = notreDame;
   }
 
+  let statsContent;
+  if ('stats' in game) {
+    statsContent = (
+      <div className='game-stats'>
+        <div>
+          <p>{ awayTeam.nickname }</p>
+          <p>vs.</p>
+          <p>{ homeTeam.nickname }</p>
+        </div>
+        <div>
+          <p>{ game.stats.firstDowns.away }</p>
+          <p>First Downs</p>
+          <p>{ game.stats.firstDowns.home }</p>
+        </div>
+        <div>
+          <p>56</p>
+          <p>Total Plays</p>
+          <p>62</p>
+        </div>
+        <div>
+          <p>{ game.stats.totalYards.away }</p>
+          <p>Total Yards</p>
+          <p>{ game.stats.totalYards.home }</p>
+        </div>
+        <div>
+          <p>{ game.stats.passYards.away }</p>
+          <p>Pass Yards</p>
+          <p>{ game.stats.passYards.home }</p>
+        </div>
+        <div>
+          <p>{ game.stats.rushYards.away }</p>
+          <p>Rush Yards</p>
+          <p>{ game.stats.rushYards.home }</p>
+        </div>
+        <div>
+          <p>{ game.stats.penalties.away }</p>
+          <p>Penalties</p>
+          <p>{ game.stats.penalties.home }</p>
+        </div>
+        <div>
+          <p>{ game.stats.possession.away }</p>
+          <p>Possesion</p>
+          <p>{ game.stats.possession.home }</p>
+        </div>
+        <div>
+          <p>{ game.stats.turnovers.away }</p>
+          <p>Turnovers</p>
+          <p>{ game.stats.turnovers.home }</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className='game-summary-container'>
       <div className='box-score'>
@@ -47,53 +100,7 @@ const GameSummary = ({ game }) => {
         </div>
       </div>
 
-      <div className='game-stats'>
-        <div>
-          <p>{ awayTeam.nickname }</p>
-          <p>vs.</p>
-          <p>{ homeTeam.nickname }</p>
-        </div>
-        <div>
-          <p>{ game.stats['1st Downs'].away }</p>
-          <p>First Downs</p>
-          <p>{ game.stats['1st Downs'].home }</p>
-        </div>
-        <div>
-          <p>56</p>
-          <p>Total Plays</p>
-          <p>62</p>
-        </div>
-        <div>
-          <p>{ game.stats['Total Yards'].away }</p>
-          <p>Total Yards</p>
-          <p>{ game.stats['Total Yards'].home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.Passing.away }</p>
-          <p>Passing Yards</p>
-          <p>{ game.stats.Passing.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.Rushing.away }</p>
-          <p>Rushing Yards</p>
-          <p>{ game.stats.Rushing.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.Penalties.away }</p>
-          <p>Penalties</p>
-          <p>{ game.stats.Penalties.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.Possession.away }</p>
-          <p>Possesion</p>
-          <p>{ game.stats.Possession.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.Turnovers.away }</p>
-          <p>Turnovers</p>
-          <p>{ game.stats.Turnovers.home }</p>
-        </div>
-      </div>
+      { statsContent }
     </div>
   );
 };
