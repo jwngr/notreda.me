@@ -225,53 +225,90 @@ $nav-drawer-button-size: 2rem;
 /* Schedule */
 .schedule-container {
   width: 50%;
-  display: inline-block;
-  text-align: center;
 
   .current-year {
     font-family: 'Bungee Shade';
     font-size: 40px;
     color: $primary-blue;
     padding: 25px;
+    text-align: center;
   }
 
   .schedule {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Merriweather', serif;
-
-    & > div {
-      flex: 1;
-      height: 50px;
+    .game {
+      display: flex;
+      height: 60px;
+      align-items: center;
+      justify-content: space-around;
       margin: 0 25px;
       cursor: pointer;
-      opacity: 0.5;
       border-top: solid 2px $secondary-black;
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+
+      & > div {
+        margin-left: 10px;
+      }
+
+      .date {
+        font-size: 14px;
+        font-family: 'Merriweather', serif;
+      }
+
+      .opponent {
+        font-size: 20px;
+        font-family: 'Bungee';
+        width: 250px;
+      }
+
+      .location {
+        font-family: 'Merriweather', serif;
+        font-size: 14px;
+        width: 200px;
+      }
+
+      .score {
+        font-size: 22px;
+        font-family: 'Bungee';
+        width: 120px;
+      }
 
       &:last-of-type {
         border-bottom: solid 2px $secondary-black;
       }
 
-      &:hover {
-        background-color: $accent-gray;
+      &.homeGame:hover {
+        background-color: rgba(84, 82, 82, 0.2);
+      }
+
+      &.awayGame {
+        background-color: rgba(84, 82, 82, 0.1);
+      }
+
+      &.awayGame:hover {
+        background-color: rgba(84, 82, 82, 0.2);
       }
 
       &.selected {
         background-color: $primary-gold;
+        background-color: rgba(220, 180, 63, 0.5);
       }
 
-      & > p {
-        margin-top: 6px;
-        font-size: 30px;
-        font-family: 'Bungee';
+      &.selected:hover {
+        background-color: rgba(220, 180, 63, 0.6);
       }
 
       .win {
         color: $secondary-green;
+        margin-right: 5px;
       }
 
       .loss {
         color: $secondary-red;
+        margin-right: 9px;
       }
     }
   }

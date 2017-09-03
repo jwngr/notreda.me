@@ -31,7 +31,7 @@ const YearSchedule = ({ params }) => {
   return (
     <div className='master-container'>
       <div className='schedule-container'>
-        <p className='current-year'>Fighting Irish Football { currentYear }</p>
+        <p className='current-year'>Fighting Irish { currentYear }</p>
         <div className='schedule'>
           { gamesContent }
         </div>
