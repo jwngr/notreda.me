@@ -1,3 +1,13 @@
+const weekdays = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday'
+];
+
 const months = [
   'January',
   'February',
@@ -19,4 +29,14 @@ export function getShortFormattedDate(date) {
   const month = months[d.getUTCMonth()];
 
   return `${month} ${dayOfMonth}`;
+}
+
+export function getLongFormattedDate(date) {
+  const d = new Date(date);
+  const weekday = weekdays[d.getUTCDay()];
+  const dayOfMonth = d.getUTCDate();
+  const month = months[d.getUTCMonth()];
+  const year = d.getUTCFullYear();
+
+  return `${weekday}, ${month} ${dayOfMonth}, ${year}`;
 }

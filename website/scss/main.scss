@@ -293,7 +293,6 @@ $nav-drawer-button-size: 2rem;
       }
 
       &.selected {
-        background-color: $primary-gold;
         background-color: rgba(220, 180, 63, 0.5);
       }
 
@@ -320,62 +319,93 @@ $nav-drawer-button-size: 2rem;
   margin-top: 100px;
 }
 
-.box-score {
+.total-score {
   display: flex;
-  flex-direction: column;
   align-items: center;
   font-family: 'Bungee';
-  font-size: 20px;
+
+  .score {
+    font-size: 50px;
+  }
 
   & > div {
     display: flex;
-    text-align: center;
-    color: #a8a8a8;
+    flex: 1;
+    align-items: center;
+
+    img {
+      height: 60px;
+      width: 60px;
+      margin: 0 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
 
     &:first-of-type {
-      color: black;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.details p {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.box-score {
+  font-family: 'Bungee';
+  margin-top: 20px;
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $secondary-black;
+
+    // Quarter indicators
+    &:first-of-type {
+      opacity: 0.7;
+      font-size: 14px;
     }
 
-    &:nth-of-type(2) {
-      border: solid 2px $primary-blue;
-      border-bottom: 0;
+    // TODO: do this coloring in the JS code
+    // Away team scores
+    &:nth-of-type(2) > p:first-of-type,
+    &:nth-of-type(2) > p:last-of-type {
+      color: $secondary-red;
     }
-
-    &:nth-of-type(3) {
-      border: solid 2px $primary-blue;
+    // Home team scores
+    &:nth-of-type(3) > p:first-of-type,
+    &:nth-of-type(3) > p:last-of-type {
+      color: $secondary-green;
     }
 
     & > p {
       width: 50px;
-      height: 40px;
-      padding-top: 11px;
+      padding: 6px 0;
 
+      // Team name abbreviations
       &:first-of-type {
-        width: 150px;
-      }
-
-      &:nth-of-type(6) {
-        font-weight: bold;
+        width: 80px;
       }
     }
 
     &.quarter-scores > p {
-      border-right: solid 2px $primary-blue;
+      font-size: 20px;
 
-      &:first-of-type {
-        border-right-width: 3px;
-      }
-
-      &:nth-of-type(3) {
-        border-right-width: 3px;
-      }
-
+      // Second and fourth quarter scores
+      &:nth-of-type(3),
       &:nth-of-type(5) {
-        border-right-width: 5px;
+        border-right: solid 2px $secondary-black;
       }
 
-      &:nth-of-type(6) {
-        border-right-width: 0;
+      // Total scores
+      &:last-of-type {
+        border-left: solid 2px $secondary-black;
       }
     }
   }
@@ -386,21 +416,41 @@ $nav-drawer-button-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Merriweather';
-  font-size: 16px;
+  margin: 20px;
 
   & > div {
     display: flex;
     text-align: center;
-    color: black;
+
+    &:first-of-type > p {
+      &:nth-of-type(2) {
+        color: $secondary-red;
+      }
+
+      &:nth-of-type(3) {
+        color: $secondary-green;
+      }
+    }
+
+    &:nth-of-type(2n) {
+      background-color: rgba(84, 82, 82, 0.1);
+    }
 
     & > p {
-      width: 100px;
-      height: 40px;
-      padding-top: 11px;
+      padding: 10px 0;
+      color: $secondary-black;
 
-      &:nth-of-type(2) {
-        width: 200px;
+      &:first-of-type {
+        width: 150px;
+        font-family: 'Merriweather';
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      &:not(:first-of-type) {
+        width: 150px;
+        font-family: 'Bungee';
+        font-size: 16px;
       }
     }
   }

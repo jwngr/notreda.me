@@ -1,11 +1,16 @@
 // Libraries
 import React from 'react';
 
+import {getLongFormattedDate} from '../utils';
+
+
 const GameSummary = ({ game }) => {
   const notreDame = {
     name: 'Notre Dame',
     nickname: 'Irish',
-    abbreviation: 'ND'
+    abbreviation: 'ND',
+    logoUrl: 'http://www.texassports.com/images/logos/NotreDame.png?width=80&height=80&mode=max',
+    color: '#465510'
   };
 
   let homeTeam;
@@ -13,66 +18,90 @@ const GameSummary = ({ game }) => {
   if (game.isHomeGame) {
     homeTeam = notreDame;
     awayTeam = game.opponent;
+    awayTeam.logoUrl = 'http://www.texassports.com/images/logos/Oklahoma.png?width=80&height=80&mode=max';
   } else {
     homeTeam = game.opponent;
+    homeTeam.logoUrl = 'http://www.texassports.com/images/logos/Oklahoma.png?width=80&height=80&mode=max';
     awayTeam = notreDame;
   }
 
   let statsContent;
   if ('stats' in game) {
+    const stats = [
+      { key: 'firstDowns', name: 'First Downs'},
+      { key: 'plays', name: 'Plays' },
+      { key: 'totalYards', name: 'Yards' },
+      { key: 'passYards', name: 'Pass Yards' },
+      { key: 'rushYards', name: 'Rush Yards' },
+      { key: 'penalties', name: 'Penalties' },
+      { key: 'turnovers', name: 'Turnovers' },
+      { key: 'possession', name: 'Possession' }
+    ];
+
+    statsContent = stats.map(({key: statKey, name: statName}) => {
+      let awayTeamValue;
+      let homeTeamValue;
+      // TODO: remove this once I have all the stats
+      if (!(statKey in game.stats)) {
+        awayTeamValue = 67;
+        homeTeamValue = 42;
+      } else {
+        awayTeamValue = game.stats[statKey].away;
+        homeTeamValue = game.stats[statKey].home;
+      }
+
+      let awayTeamStyles;
+      if (awayTeamValue >= homeTeamValue) {
+        awayTeamStyles = {
+          color: awayTeam.color || '#5F1709',
+          fontWeight: 'bold'
+        };
+      }
+
+      let homeTeamStyles;
+      if (homeTeamValue >= awayTeamValue) {
+        homeTeamStyles = {
+          color: homeTeam.color || '#5F1709',
+          'fontWeight': 'bold'
+        };
+      }
+
+      return (
+        <div key={statKey}>
+          <p>{statName}</p>
+          <p style={awayTeamStyles}>{ awayTeamValue }</p>
+          <p style={homeTeamStyles}>{ homeTeamValue }</p>
+        </div>
+      );
+    });
+
     statsContent = (
       <div className='game-stats'>
         <div>
+          <p></p>
           <p>{ awayTeam.nickname }</p>
-          <p>vs.</p>
           <p>{ homeTeam.nickname }</p>
         </div>
-        <div>
-          <p>{ game.stats.firstDowns.away }</p>
-          <p>First Downs</p>
-          <p>{ game.stats.firstDowns.home }</p>
-        </div>
-        <div>
-          <p>56</p>
-          <p>Total Plays</p>
-          <p>62</p>
-        </div>
-        <div>
-          <p>{ game.stats.totalYards.away }</p>
-          <p>Total Yards</p>
-          <p>{ game.stats.totalYards.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.passYards.away }</p>
-          <p>Pass Yards</p>
-          <p>{ game.stats.passYards.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.rushYards.away }</p>
-          <p>Rush Yards</p>
-          <p>{ game.stats.rushYards.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.penalties.away }</p>
-          <p>Penalties</p>
-          <p>{ game.stats.penalties.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.possession.away }</p>
-          <p>Possesion</p>
-          <p>{ game.stats.possession.home }</p>
-        </div>
-        <div>
-          <p>{ game.stats.turnovers.away }</p>
-          <p>Turnovers</p>
-          <p>{ game.stats.turnovers.home }</p>
-        </div>
+        {statsContent}
       </div>
     );
   }
 
   return (
     <div className='game-summary-container'>
+      <div className='total-score'>
+        <div>
+          <img src={awayTeam.logoUrl} />
+        </div>
+        <p className='score'>{game.scores.away} - {game.scores.home}</p>
+        <div>
+          <img src={homeTeam.logoUrl} />
+        </div>
+      </div>
+      <div className='details'>
+        <p>7:45 PM, {getLongFormattedDate(game.date)}</p>
+        <p>{game.location}</p>
+      </div>
       <div className='box-score'>
         <div>
           <p></p>
@@ -80,6 +109,10 @@ const GameSummary = ({ game }) => {
           <p>2</p>
           <p>3</p>
           <p>4</p>
+          <p>OT 1</p>
+          <p>OT 2</p>
+          <p>OT 3</p>
+          <p>OT 4</p>
           <p>T</p>
         </div>
         <div className='quarter-scores'>
@@ -88,6 +121,10 @@ const GameSummary = ({ game }) => {
           <p>7</p>
           <p>0</p>
           <p>13</p>
+          <p>7</p>
+          <p>8</p>
+          <p>8</p>
+          <p>8</p>
           <p>30</p>
         </div>
         <div className='quarter-scores'>
@@ -96,6 +133,10 @@ const GameSummary = ({ game }) => {
           <p>7</p>
           <p>10</p>
           <p>3</p>
+          <p>7</p>
+          <p>8</p>
+          <p>8</p>
+          <p>0</p>
           <p>20</p>
         </div>
       </div>
