@@ -10,52 +10,59 @@ const BoxScore = ({ scores, homeTeam, awayTeam }) => {
     color: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
 
-  let totalHomeScore = 0;
-  let totalAwayScore = 0;
-  const scoresContent = scores.map((score, index) => {
-    let header = index + 1;
+  // Header row
+  const headerRowContent = [
+    <p></p>
+  ];
+
+  for (let i = 0; i < scores.home.length; i++) {
+    let header = i + 1;
     if (header > 4) {
       header = `OT ${header - 4}`;
     }
+    headerRowContent.push(<p>{header}</p>);
+  }
 
-    totalHomeScore += score.home;
-    totalAwayScore += score.away;
+  headerRowContent.push(<p>T</p>);
 
-    return (
-      <div>
-        <p>{header}</p>
-        <p>{score.away}</p>
-        <p>{score.home}</p>
-      </div>
-    );
+  // Away team row
+  const awayTeamRowContent = [
+    <p style={awayTeamColorStyles}>{awayTeam.abbreviation}</p>
+  ];
+
+  let totalAwayScore = 0;
+  scores.away.forEach(score => {
+    awayTeamRowContent.push(<p>{score}</p>);
+    totalAwayScore += score;
   });
 
-  scoresContent.append(
-    <div>
-      <p></p>
-      <p style={awayTeamColorStyles}>{awayTeam.abbreviation}</p>
-      <p style={homeTeamColorStyles}>{homeTeam.abbreviation}</p>
-    </div>
-  );
+  awayTeamRowContent.push(<p style={awayTeamColorStyles}>{totalAwayScore}</p>);
 
-  scoresContent.append(
-    <div>
-      <p></p>
-      <p style={awayTeamColorStyles}>{totalAwayScore}</p>
-      <p style={homeTeamColorStyles}>{totalHomeScore}</p>
-    </div>
-  );
+  // Home team row
+  const homeTeamRowContent = [
+    <p style={homeTeamColorStyles}>{homeTeam.abbreviation}</p>
+  ];
+
+  let totalHomeScore = 0;
+  scores.home.forEach(score => {
+    homeTeamRowContent.push(<p>{score}</p>);
+    totalHomeScore += score;
+  });
+
+  homeTeamRowContent.push(<p style={homeTeamColorStyles}>{totalHomeScore}</p>);
 
   return (
     <div className='box-score'>
-      {scoresContent}
+      <div>{headerRowContent}</div>
+      <div className='quarter-scores'>{awayTeamRowContent}</div>
+      <div className='quarter-scores'>{homeTeamRowContent}</div>
     </div>
   );
 };
 
-// TODO
-BoxScore.propTypes = {
-  game: React.PropTypes.object.isRequired
-};
+// TODO: add propTypes
+// BoxScore.propTypes = {
+//   game: React.PropTypes.object.isRequired
+// };
 
 export default BoxScore;

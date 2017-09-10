@@ -91,6 +91,11 @@ const GameSummary = ({ game }) => {
     );
   }
 
+  const scores = {
+    home: [10, 7, 0, 13, 7, 3, 8, 8],
+    away: [0, 7, 10, 3, 7, 3, 8, 0]
+  };
+
   return (
     <div className='game-summary-container'>
       <div className='total-score'>
@@ -106,44 +111,8 @@ const GameSummary = ({ game }) => {
         <p>7:45 PM, {getLongFormattedDate(game.date)}</p>
         <p>{game.location}</p>
       </div>
-      <div className='box-score'>
-        <div>
-          <p></p>
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-          <p>4</p>
-          <p>OT 1</p>
-          <p>OT 2</p>
-          <p>OT 3</p>
-          <p>OT 4</p>
-          <p>T</p>
-        </div>
-        <div className='quarter-scores'>
-          <p style={awayTeamColorStyles}>{ awayTeam.abbreviation }</p>
-          <p>10</p>
-          <p>7</p>
-          <p>0</p>
-          <p>13</p>
-          <p>7</p>
-          <p>8</p>
-          <p>8</p>
-          <p>8</p>
-          <p style={awayTeamColorStyles}>30</p>
-        </div>
-        <div className='quarter-scores'>
-          <p style={homeTeamColorStyles}>{ homeTeam.abbreviation }</p>
-          <p>0</p>
-          <p>7</p>
-          <p>10</p>
-          <p>3</p>
-          <p>7</p>
-          <p>8</p>
-          <p>8</p>
-          <p>0</p>
-          <p style={homeTeamColorStyles}>20</p>
-        </div>
-      </div>
+
+      <BoxScore scores={scores} homeTeam={homeTeam} awayTeam={awayTeam} />
 
       { statsContent }
     </div>
