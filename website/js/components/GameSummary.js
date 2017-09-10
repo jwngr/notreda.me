@@ -1,29 +1,33 @@
 // Libraries
 import React from 'react';
 
+import BoxScore from './BoxScore';
+
 import {getLongFormattedDate} from '../utils';
 
+import teams from '../../resources/teams';
 
 const GameSummary = ({ game }) => {
-  const notreDame = {
-    name: 'Notre Dame',
-    nickname: 'Irish',
-    abbreviation: 'ND',
-    logoUrl: 'http://www.texassports.com/images/logos/NotreDame.png?width=80&height=80&mode=max',
-    color: '#465510'
-  };
+  const notreDame = teams.ND;
+  notreDame.abbreviation = 'ND';
 
   let homeTeam;
   let awayTeam;
   if (game.isHomeGame) {
     homeTeam = notreDame;
     awayTeam = game.opponent;
-    awayTeam.logoUrl = 'http://www.texassports.com/images/logos/Oklahoma.png?width=80&height=80&mode=max';
   } else {
     homeTeam = game.opponent;
-    homeTeam.logoUrl = 'http://www.texassports.com/images/logos/Oklahoma.png?width=80&height=80&mode=max';
     awayTeam = notreDame;
   }
+
+  const homeTeamColorStyles = {
+    color: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
+  };
+
+  const awayTeamColorStyles = {
+    color: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
+  };
 
   let statsContent;
   if ('stats' in game) {
@@ -53,7 +57,7 @@ const GameSummary = ({ game }) => {
       let awayTeamStyles;
       if (awayTeamValue >= homeTeamValue) {
         awayTeamStyles = {
-          color: awayTeam.color || '#5F1709',
+          color: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
           fontWeight: 'bold'
         };
       }
@@ -61,8 +65,8 @@ const GameSummary = ({ game }) => {
       let homeTeamStyles;
       if (homeTeamValue >= awayTeamValue) {
         homeTeamStyles = {
-          color: homeTeam.color || '#5F1709',
-          'fontWeight': 'bold'
+          color: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
+          fontWeight: 'bold'
         };
       }
 
@@ -79,8 +83,8 @@ const GameSummary = ({ game }) => {
       <div className='game-stats'>
         <div>
           <p></p>
-          <p>{ awayTeam.nickname }</p>
-          <p>{ homeTeam.nickname }</p>
+          <p style={awayTeamColorStyles}>{ awayTeam.nickname }</p>
+          <p style={homeTeamColorStyles}>{ homeTeam.nickname }</p>
         </div>
         {statsContent}
       </div>
@@ -91,11 +95,11 @@ const GameSummary = ({ game }) => {
     <div className='game-summary-container'>
       <div className='total-score'>
         <div>
-          <img src={awayTeam.logoUrl} />
+          <img src={`${awayTeam.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`} />
         </div>
         <p className='score'>{game.scores.away} - {game.scores.home}</p>
         <div>
-          <img src={homeTeam.logoUrl} />
+          <img src={`${homeTeam.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`} />
         </div>
       </div>
       <div className='details'>
@@ -116,7 +120,7 @@ const GameSummary = ({ game }) => {
           <p>T</p>
         </div>
         <div className='quarter-scores'>
-          <p>{ awayTeam.abbreviation }</p>
+          <p style={awayTeamColorStyles}>{ awayTeam.abbreviation }</p>
           <p>10</p>
           <p>7</p>
           <p>0</p>
@@ -125,10 +129,10 @@ const GameSummary = ({ game }) => {
           <p>8</p>
           <p>8</p>
           <p>8</p>
-          <p>30</p>
+          <p style={awayTeamColorStyles}>30</p>
         </div>
         <div className='quarter-scores'>
-          <p>{ homeTeam.abbreviation }</p>
+          <p style={homeTeamColorStyles}>{ homeTeam.abbreviation }</p>
           <p>0</p>
           <p>7</p>
           <p>10</p>
@@ -137,7 +141,7 @@ const GameSummary = ({ game }) => {
           <p>8</p>
           <p>8</p>
           <p>0</p>
-          <p>20</p>
+          <p style={homeTeamColorStyles}>20</p>
         </div>
       </div>
 

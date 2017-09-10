@@ -16,6 +16,8 @@ const mapStateToProps = (state) => {
   game.opponent = {
     name: teams[game.opponent].name,
     nickname: teams[game.opponent].nickname,
+    logoUrl: teams[game.opponent].logoUrl,
+    color: teams[game.opponent].color,
     abbreviation: game.opponent
   };
 

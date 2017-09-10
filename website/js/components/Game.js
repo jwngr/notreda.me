@@ -29,9 +29,12 @@ const Game = ({ game, index, selected, onGameSelected }) => {
     awayGame: !game.isHomeGame
   });
 
+  // TODO: remove hard-coded Oklahoma.png URL when all teams have a logo URL
   return (
     <div className={ gameClassNames } onClick={ onGameSelected.bind(onGameSelected, index) } >
-      <img src='http://www.texassports.com/images/logos/Oklahoma.png?width=80&height=80&mode=max' />
+      <img
+        src={`${game.opponent.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
+        alt={`${game.opponent.name} logo`} />
       <div>
         <p className='date'>{ getShortFormattedDate(game.date) }</p>
         <p className='opponent'>{ prefix } { game.opponent.name }</p>

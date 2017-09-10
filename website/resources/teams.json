@@ -1,586 +1,884 @@
 {
   "ADRN": {
     "name": "Adrian",
-    "nickname": "Bulldogs"
+    "nickname": "Bulldogs",
+    "logoUrl": "",
+    "color": ""
   },
   "AF": {
     "name": "Air Force",
-    "nickname": "Falcons"
+    "nickname": "Falcons",
+    "logoUrl": "http://mgoblue.com/images/logos/Air_Force.png",
+    "color": ""
   },
   "BAMA": {
     "name": "Alabama",
-    "nickname": "Crimson Tide"
+    "nickname": "Crimson Tide",
+    "logoUrl": "http://www.texassports.com/images/logos/Alabama.png",
+    "color": ""
   },
   "ALB": {
     "name": "Albion",
-    "nickname": "Britons"
+    "nickname": "Britons",
+    "logoUrl": "",
+    "color": ""
   },
   "ALMA": {
     "name": "Alma",
-    "nickname": "Scots"
-  },
-  "AM-M": {
-    "name": "American Medical (Chicago)",
-    "nickname": "Medical"
-  },
-  "ARIZ": {
-    "name": "Arizona",
-    "nickname": "Wildcats"
-  },
-  "AZST": {
-    "name": "Arizona State",
-    "nickname": "Sun Devils"
-  },
-  "ARMY": {
-    "name": "Army",
-    "nickname": "Black Knights"
-  },
-  "BAY": {
-    "name": "Baylor",
-    "nickname": "Bears"
-  },
-  "BEL": {
-    "name": "Beloit",
-    "nickname": "Buccaneers"
-  },
-  "BENN": {
-    "name": "Bennett Medical (Chicago)",
-    "nickname": "Medical"
-  },
-  "BC": {
-    "name": "Boston College",
-    "nickname": "Eagles"
+    "nickname": "Scots",
+    "logoUrl": "",
+    "color": ""
   },
   "AKR": {
     "name": "Buchtel (Akron)",
-    "nickname": "Zippers"
+    "nickname": "Zippers",
+    "logoUrl": "http://wmubroncos.com/images/logos/Akron_Zips.png",
+    "color": ""
+  },
+  "AM-M": {
+    "name": "American Medical (Chicago)",
+    "nickname": "Medical",
+    "logoUrl": "",
+    "color": ""
+  },
+  "ARIZ": {
+    "name": "Arizona",
+    "nickname": "Wildcats",
+    "logoUrl": "http://www.thesundevils.com/images/logos/arizona_.png",
+    "color": ""
+  },
+  "ARMY": {
+    "name": "Army",
+    "nickname": "Black Knights",
+    "logoUrl": "http://bceagles.com/images/logos/Army.png",
+    "color": "#812A34"
+  },
+  "AZST": {
+    "name": "Arizona State",
+    "nickname": "Sun Devils",
+    "logoUrl": "http://www.texassports.com/images/logos/Arizona-State.png",
+    "color": ""
+  },
+  "BAY": {
+    "name": "Baylor",
+    "nickname": "Bears",
+    "logoUrl": "http://www.texassports.com/images/logos/Baylor.png",
+    "color": ""
+  },
+  "BEL": {
+    "name": "Beloit",
+    "nickname": "Buccaneers",
+    "logoUrl": "",
+    "color": ""
+  },
+  "BENN": {
+    "name": "Bennett Medical (Chicago)",
+    "nickname": "Medical",
+    "logoUrl": "",
+    "color": ""
+  },
+  "BC": {
+    "name": "Boston College",
+    "nickname": "Eagles",
+    "logoUrl": "http://bceagles.com/images/responsive/main_logo.png",
+    "color": "#812A34"
   },
   "BUT": {
     "name": "Butler",
-    "nickname": "Bulldogs"
+    "nickname": "Bulldogs",
+    "logoUrl": "http://www.utahutes.com/images/logos/Butler-Bulldog.png",
+    "color": ""
   },
   "BYU": {
     "name": "BYU",
-    "nickname": "Cougars"
+    "nickname": "Cougars",
+    "logoUrl": "http://www.texassports.com/images/logos/BYU.png",
+    "color": ""
   },
   "CAL": {
     "name": "California",
-    "nickname": "Golden Bears"
+    "nickname": "Golden Bears",
+    "logoUrl": "http://www.texassports.com/images/logos/cal.png",
+    "color": ""
   },
   "CARL": {
     "name": "Carlisle",
-    "nickname": "Indians"
+    "nickname": "Indians",
+    "logoUrl": "",
+    "color": ""
   },
   "CAR": {
     "name": "Carnegie Tech",
-    "nickname": "Tartans"
+    "nickname": "Tartans",
+    "logoUrl": "",
+    "color": ""
   },
   "CSTC": {
     "name": "Case Tech",
-    "nickname": "Spartans"
+    "nickname": "Spartans",
+    "logoUrl": "",
+    "color": ""
   },
   "CASE": {
     "name": "Case Western",
-    "nickname": "Sparse"
+    "nickname": "Sparse",
+    "logoUrl": "",
+    "color": ""
   },
   "CHI": {
     "name": "Chicago",
-    "nickname": "Maroons"
+    "nickname": "Maroons",
+    "logoUrl": "",
+    "color": ""
   },
   "CHI-D": {
     "name": "Chicago Dental Surgeons",
-    "nickname": "Dental Surgeons"
+    "nickname": "Dental Surgeons",
+    "logoUrl": "",
+    "color": ""
   },
   "CHI-M": {
     "name": "Chicago Medical",
-    "nickname": "Medical"
+    "nickname": "Medical",
+    "logoUrl": "",
+    "color": ""
   },
   "CHI-P&S": {
     "name": "Chicago Physicians & Surgeons",
-    "nickname": "Physicians & Surgeons"
+    "nickname": "Physicians & Surgeons",
+    "logoUrl": "",
+    "color": ""
   },
   "CB": {
     "name": "Christian Brothers",
-    "nickname": "Buccaneers"
+    "nickname": "Buccaneers",
+    "logoUrl": "",
+    "color": ""
   },
   "CINCY": {
     "name": "Cincinnati",
-    "nickname": "Bearcats"
+    "nickname": "Bearcats",
+    "logoUrl": "http://bceagles.com/images/logos/University-of-Cincinnati.png",
+    "color": ""
   },
   "CLEM": {
     "name": "Clemson",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "http://www.rolltide.com/images/logos/Clemson.png",
+    "color": "#EF6b2E"
   },
   "COE": {
     "name": "Coe",
-    "nickname": "Kohawks"
+    "nickname": "Kohawks",
+    "logoUrl": "http://logos.sidhelp.com/logos/i/5088/75/75.png",
+    "color": ""
   },
   "COL": {
     "name": "Colorado",
-    "nickname": "Buffaloes"
+    "nickname": "Buffaloes",
+    "logoUrl": "http://www.texassports.com/images/logos/Colorado.png",
+    "color": ""
   },
   "UCONN": {
     "name": "Connecticut",
-    "nickname": "Huskies"
+    "nickname": "Huskies",
+    "logoUrl": "http://bceagles.com/images/logos/Husky_.png",
+    "color": ""
   },
   "CREI": {
     "name": "Creighton",
-    "nickname": "Bluejays"
+    "nickname": "Bluejays",
+    "logoUrl": "http://www.kuathletics.com/images/logos/creighton_logo.png",
+    "color": ""
   },
   "DART": {
     "name": "Dartmouth",
-    "nickname": "Big Green"
+    "nickname": "Big Green",
+    "logoUrl": "http://www.hawkeyesports.com/images/logos/Dartmouth_Big_Green.png",
+    "color": ""
   },
   "DLS": {
     "name": "De La Salle",
-    "nickname": "Green Archers"
+    "nickname": "Green Archers",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/DLSGreenArchers.png",
+    "color": ""
   },
   "DEP": {
     "name": "DePauw",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "http://www.goyeo.com/images/logos/DePauw_DePauw-Tiger_4c.png",
+    "color": ""
   },
   "DET": {
     "name": "Detroit",
-    "nickname": "Titans"
+    "nickname": "Titans",
+    "logoUrl": "http://bceagles.com/images/logos/Detroit.png",
+    "color": ""
   },
   "DRKE": {
     "name": "Drake",
-    "nickname": "Bulldogs"
+    "nickname": "Bulldogs",
+    "logoUrl": "http://www.hawkeyesports.com/images/logos/Drake.png",
+    "color": ""
   },
   "DUKE": {
     "name": "Duke",
-    "nickname": "Blue Devils"
+    "nickname": "Blue Devils",
+    "logoUrl": "http://www.rolltide.com/images/logos/Duke_.png",
+    "color": ""
   },
   "ENG": {
     "name": "Englewood Tech",
-    "nickname": "Eagles"
+    "nickname": "Eagles",
+    "logoUrl": "",
+    "color": ""
   },
   "FLA": {
     "name": "Florida",
-    "nickname": "Gators"
+    "nickname": "Gators",
+    "logoUrl": "http://www.rolltide.com/images/logos/Florida.png",
+    "color": ""
   },
   "FSU": {
     "name": "Florida State",
-    "nickname": "Seminoles"
+    "nickname": "Seminoles",
+    "logoUrl": "http://www.rolltide.com/images/logos/FSU.png",
+    "color": ""
   },
   "FRA": {
     "name": "Franklin",
-    "nickname": "Grizzlies"
+    "nickname": "Grizzlies",
+    "logoUrl": "",
+    "color": ""
   },
   "UGA": {
     "name": "Georgia",
-    "nickname": "Bulldogs"
+    "nickname": "Bulldogs",
+    "logoUrl": "http://www.rolltide.com/images/logos/Georgia.png",
+    "color": ""
   },
   "GT": {
     "name": "Georgia Tech",
-    "nickname": "Yellow Jackets"
+    "nickname": "Yellow Jackets",
+    "logoUrl": "http://www.rolltide.com/images/logos/Georgia-Tech.png",
+    "color": "#B79A71"
   },
   "GOSH": {
     "name": "Goshen",
-    "nickname": "Maple Leafs"
+    "nickname": "Maple Leafs",
+    "logoUrl": "",
+    "color": ""
   },
   "GRTLK": {
     "name": "Great Lakes",
-    "nickname": "Midshipmen"
+    "nickname": "Midshipmen",
+    "logoUrl": "",
+    "color": ""
   },
   "HARP": {
     "name": "Harvard Prep",
-    "nickname": "Hurricanes"
+    "nickname": "Hurricanes",
+    "logoUrl": "",
+    "color": ""
   },
   "HASK": {
     "name": "Haskell",
-    "nickname": "Indians"
+    "nickname": "Indians",
+    "logoUrl": "",
+    "color": ""
   },
   "HAW": {
     "name": "Hawaii",
-    "nickname": "Rainbow Warriors"
+    "nickname": "Rainbow Warriors",
+    "logoUrl": "http://www.rolltide.com/images/logos/v13.png",
+    "color": ""
   },
   "HIGH": {
     "name": "Highland Views",
-    "nickname": "Highland"
+    "nickname": "Highland",
+    "logoUrl": "",
+    "color": ""
   },
   "HILLS": {
     "name": "Hillsdale",
-    "nickname": "Chargers"
+    "nickname": "Chargers",
+    "logoUrl": "",
+    "color": ""
   },
   "HOU": {
     "name": "Houston",
-    "nickname": "Cougars"
+    "nickname": "Cougars",
+    "logoUrl": "http://www.rolltide.com/images/logos/Houston.png",
+    "color": ""
   },
   "ILL": {
     "name": "Illinois",
-    "nickname": "Fighting Illini"
+    "nickname": "Fighting Illini",
+    "logoUrl": "http://www.thesundevils.com/images/logos/Illinois-Block.png",
+    "color": ""
   },
   "CYCL": {
     "name": "Illinois Cycling Club",
-    "nickname": "Cycling Club"
+    "nickname": "Cycling Club",
+    "logoUrl": "",
+    "color": ""
   },
   "IND": {
     "name": "Indiana",
-    "nickname": "Hoosiers"
+    "nickname": "Hoosiers",
+    "logoUrl": "http://www.scarletknights.com/images/logos/iub_logo.png",
+    "color": ""
   },
   "INDAR": {
     "name": "Indianapolis Artillery",
-    "nickname": "Artillery"
+    "nickname": "Artillery",
+    "logoUrl": "",
+    "color": ""
   },
   "IOWA": {
     "name": "Iowa",
-    "nickname": "Hawkeyes"
+    "nickname": "Hawkeyes",
+    "logoUrl": "http://www.texassports.com/images/logos/Iowa.png",
+    "color": ""
   },
   "IO-PF": {
     "name": "Iowa Pre-Flight",
-    "nickname": "Seahawks"
+    "nickname": "Seahawks",
+    "logoUrl": "",
+    "color": ""
   },
   "KAL": {
     "name": "Kalamazoo",
-    "nickname": "Fighting Hornets"
+    "nickname": "Fighting Hornets",
+    "logoUrl": "",
+    "color": ""
   },
   "KU": {
     "name": "Kansas",
-    "nickname": "Jayhawks"
+    "nickname": "Jayhawks",
+    "logoUrl": "http://www.texassports.com/images/logos/Kansas_Jayhawks.png",
+    "color": ""
   },
   "KNOX": {
     "name": "Knox",
-    "nickname": "Prairie Fire"
+    "nickname": "Prairie Fire",
+    "logoUrl": "",
+    "color": ""
   },
   "LSU": {
     "name": "LSU",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "http://www.rolltide.com/images/logos/LSU.png",
+    "color": ""
   },
   "LAK": {
     "name": "Lake Forest",
-    "nickname": "Foresters"
+    "nickname": "Foresters",
+    "logoUrl": "",
+    "color": ""
   },
   "LOMB": {
     "name": "Lombard",
-    "nickname": "Golden Tornado"
+    "nickname": "Golden Tornado",
+    "logoUrl": "",
+    "color": ""
   },
   "LOU": {
     "name": "Louisville",
-    "nickname": "Cardinals"
+    "nickname": "Cardinals",
+    "logoUrl": "http://bceagles.com/images/logos/Louisville-Cardinals.png",
+    "color": ""
   },
   "L-IL": {
     "name": "Loyola (Chicago)",
-    "nickname": "Ramblers"
+    "nickname": "Ramblers",
+    "logoUrl": "",
+    "color": ""
   },
   "L-LA": {
     "name": "Loyola (New Orleans)",
-    "nickname": "Wolfpack"
+    "nickname": "Wolfpack",
+    "logoUrl": "",
+    "color": ""
   },
   "MARQ": {
     "name": "Marquette",
-    "nickname": "Golden Eagles"
+    "nickname": "Golden Eagles",
+    "logoUrl": "http://shupirates.com/images/logos/Marquette_.png",
+    "color": ""
   },
   "MD": {
     "name": "Maryland",
-    "nickname": "Terrapins"
+    "nickname": "Terrapins",
+    "logoUrl": "http://www.texassports.com/images/logos/Maryland_Terps.png",
+    "color": ""
   },
   "UMASS": {
     "name": "Massachusetts",
-    "nickname": "Minutemen"
+    "nickname": "Minutemen",
+    "logoUrl": "http://bceagles.com/images/logos/UMASS.png",
+    "color": "#3E050A"
   },
   "MIAMI": {
     "name": "Miami",
-    "nickname": "Hurricanes"
+    "nickname": "Hurricanes",
+    "logoUrl": "http://bceagles.com/images/logos/Miami-U.png",
+    "color": ""
   },
   "M-OH": {
     "name": "Miami (Ohio)",
-    "nickname": "RedHawks"
+    "nickname": "RedHawks",
+    "logoUrl": "",
+    "color": ""
   },
   "MICH": {
     "name": "Michigan",
-    "nickname": "Wolverines"
+    "nickname": "Wolverines",
+    "logoUrl": "http://www.texassports.com/images/logos/Michigan_GoldM.png",
+    "color": ""
   },
   "MSU": {
     "name": "Michigan State",
-    "nickname": "Spartans"
+    "nickname": "Spartans",
+    "logoUrl": "http://www.rolltide.com/images/logos/Michigan-State.png",
+    "color": ""
   },
   "MINN": {
     "name": "Minnesota",
-    "nickname": "Golden Gophers"
+    "nickname": "Golden Gophers",
+    "logoUrl": "http://www.rolltide.com/images/logos/Minnesota.png",
+    "color": ""
   },
   "MISS": {
     "name": "Ole Miss",
-    "nickname": "Rebels"
+    "nickname": "Rebels",
+    "logoUrl": "http://www.texassports.com/images/logos/Ole-Miss-Rebels.png",
+    "color": ""
   },
   "MIZ": {
     "name": "Missouri",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "http://www.texassports.com/images/logos/Missouri.png",
+    "color": ""
   },
   "MIZ-O": {
     "name": "Missouri Osteopaths",
-    "nickname": "Osteopaths"
+    "nickname": "Osteopaths",
+    "logoUrl": "",
+    "color": ""
   },
   "MORN": {
     "name": "Morningside",
-    "nickname": "Mustangs"
+    "nickname": "Mustangs",
+    "logoUrl": "",
+    "color": ""
   },
   "MORR": {
     "name": "Morris Harvey",
-    "nickname": "Golden Eagles"
+    "nickname": "Golden Eagles",
+    "logoUrl": "",
+    "color": ""
   },
   "MTU": {
     "name": "Mount Union",
-    "nickname": "Purple Raiders"
+    "nickname": "Purple Raiders",
+    "logoUrl": "",
+    "color": ""
   },
   "NAVY": {
     "name": "Navy",
-    "nickname": "Midshipmen"
+    "nickname": "Midshipmen",
+    "logoUrl": "http://www.thesundevils.com/images/logos/Navy.png",
+    "color": "#B3A580"
   },
   "NEB": {
     "name": "Nebraska",
-    "nickname": "Cornhuskers"
+    "nickname": "Cornhuskers",
+    "logoUrl": "http://www.texassports.com/images/logos/Nebraska.png",
+    "color": ""
   },
   "NEV": {
     "name": "Nevada",
-    "nickname": "Wolf Pack"
+    "nickname": "Wolf Pack",
+    "logoUrl": "http://www.wsucougars.com/images/logos/NevadaAthletics_Navy.png",
+    "color": ""
   },
   "UNC": {
     "name": "North Carolina",
-    "nickname": "Tar Heels"
+    "nickname": "Tar Heels",
+    "logoUrl": "http://www.texassports.com/images/logos/UNC.png",
+    "color": ""
   },
   "NCST": {
     "name": "NC State",
-    "nickname": "Wolfpack"
+    "nickname": "Wolfpack",
+    "logoUrl": "http://bceagles.com/images/logos/North_Carolina_State.png",
+    "color": ""
   },
   "NDHS": {
     "name": "North Division High School",
-    "nickname": "Blue Devils"
+    "nickname": "Blue Devils",
+    "logoUrl": "",
+    "color": ""
   },
   "NW": {
     "name": "Northwestern",
-    "nickname": "Wildcats"
+    "nickname": "Wildcats",
+    "logoUrl": "http://bceagles.com/images/logos/Northwestern.png",
+    "color": ""
   },
   "NW-L": {
     "name": "Northwestern Law",
-    "nickname": "Wildcats"
+    "nickname": "Wildcats",
+    "logoUrl": "http://bceagles.com/images/logos/Northwestern.png",
+    "color": ""
   },
   "ND": {
     "name": "Notre Dame",
-    "nickname": "Fighting Irish"
+    "nickname": "Fighting Irish",
+    "logoUrl": "http://www.texassports.com/images/logos/NotreDame.png",
+    "color": "#465510"
   },
   "OH-M": {
     "name": "Ohio Medical",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "",
+    "color": ""
   },
   "ON": {
     "name": "Ohio Northern",
-    "nickname": "Polar Bears"
+    "nickname": "Polar Bears",
+    "logoUrl": "",
+    "color": ""
   },
   "OSU": {
     "name": "Ohio State",
-    "nickname": "Buckeyes"
+    "nickname": "Buckeyes",
+    "logoUrl": "http://www.rolltide.com/images/logos/ohio_state_logo.png",
+    "color": "#BF2B45"
   },
   "OKLA": {
     "name": "Oklahoma",
-    "nickname": "Sooners"
+    "nickname": "Sooners",
+    "logoUrl": "http://www.texassports.com/images/logos/Oklahoma.png",
+    "color": ""
   },
   "OLIV": {
     "name": "Olivet Nazarene",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "",
+    "color": ""
   },
   "ORE": {
     "name": "Oregon",
-    "nickname": "Ducks"
+    "nickname": "Ducks",
+    "logoUrl": "http://www.texassports.com/images/logos/Oregon.png",
+    "color": ""
   },
   "ORST": {
     "name": "Oregon State",
-    "nickname": "Beavers"
+    "nickname": "Beavers",
+    "logoUrl": "http://www.texassports.com/images/logos/Oregon-State-.png",
+    "color": ""
   },
   "PAC": {
     "name": "Pacific",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "",
+    "color": ""
   },
   "PENN": {
     "name": "Penn",
-    "nickname": "Quakers"
+    "nickname": "Quakers",
+    "logoUrl": "http://cdnak1.psbin.com/logos/id/0qezkpyrjxlo6wzm.png",
+    "color": ""
   },
   "PSU": {
     "name": "Penn State",
-    "nickname": "Nittany Lions"
+    "nickname": "Nittany Lions",
+    "logoUrl": "http://www.rolltide.com/images/logos/PSU.png",
+    "color": ""
   },
   "PITT": {
     "name": "Pittsburgh",
-    "nickname": "Panthers"
+    "nickname": "Panthers",
+    "logoUrl": "http://bceagles.com/images/logos/Pitt-Script-Navy---Gold-Stroke.png",
+    "color": "#10233D"
   },
   "PRIN": {
     "name": "Princeton",
-    "nickname": "Tigers"
+    "nickname": "Tigers",
+    "logoUrl": "http://lehighsports.com/images/logos/Princeton_Tigers.png",
+    "color": ""
   },
   "PUR": {
     "name": "Purdue",
-    "nickname": "Boilermakers"
+    "nickname": "Boilermakers",
+    "logoUrl": "http://www.scarletknights.com/images/logos/logo_on_wht_gld_gry.png",
+    "color": ""
   },
   "RICE": {
     "name": "Rice",
-    "nickname": "Owls"
+    "nickname": "Owls",
+    "logoUrl": "http://www.texassports.com/images/logos/Rice.png",
+    "color": ""
   },
   "ROSE": {
     "name": "Rose Poly",
-    "nickname": "Fighting Engineers"
+    "nickname": "Fighting Engineers",
+    "logoUrl": "",
+    "color": ""
   },
   "RUSH": {
     "name": "Rush Medical",
-    "nickname": "Medical"
+    "nickname": "Medical",
+    "logoUrl": "",
+    "color": ""
   },
   "RUTG": {
     "name": "Rutgers",
-    "nickname": "Scarlet Knights"
+    "nickname": "Scarlet Knights",
+    "logoUrl": "http://bceagles.com/images/logos/Rutgers-University.png",
+    "color": ""
   },
   "SMU": {
     "name": "SMU",
-    "nickname": "Mustangs"
+    "nickname": "Mustangs",
+    "logoUrl": "",
+    "color": ""
   },
   "SLU": {
     "name": "St. Louis",
-    "nickname": "Billikens"
+    "nickname": "Billikens",
+    "logoUrl": "",
+    "color": ""
   },
   "SDSU": {
     "name": "San Diego State",
-    "nickname": "Aztecs"
+    "nickname": "Aztecs",
+    "logoUrl": "http://www.thesundevils.com/images/logos/SDSU.png",
+    "color": ""
   },
   "SB-AC": {
     "name": "South Bend Athletic Club",
-    "nickname": "Athletic Club"
+    "nickname": "Athletic Club",
+    "logoUrl": "",
+    "color": ""
   },
   "SB-CAC": {
     "name": "South Bend Commercial Athletic Club",
-    "nickname": "Athletic Club"
+    "nickname": "Athletic Club",
+    "logoUrl": "",
+    "color": ""
   },
   "SB-HS": {
     "name": "South Bend High School",
-    "nickname": "South Bend"
+    "nickname": "South Bend",
+    "logoUrl": "",
+    "color": ""
   },
   "SB-HP": {
     "name": "South Bend Howard Park",
-    "nickname": "Howard Park"
+    "nickname": "Howard Park",
+    "logoUrl": "",
+    "color": ""
   },
   "SCAR": {
     "name": "South Carolina",
-    "nickname": "Gamecocks"
+    "nickname": "Gamecocks",
+    "logoUrl": "http://www.rolltide.com/images/logos/south_carolina.png",
+    "color": ""
   },
   "SDAK": {
     "name": "South Dakota",
-    "nickname": "Coyotes"
+    "nickname": "Coyotes",
+    "logoUrl": "",
+    "color": ""
   },
   "USF": {
     "name": "South Florida",
-    "nickname": "Bulls"
+    "nickname": "Bulls",
+    "logoUrl": "http://www.rolltide.com/images/logos/South_Florida.png",
+    "color": ""
   },
   "SBON": {
     "name": "St. Bonaventure",
-    "nickname": "Bonnies"
+    "nickname": "Bonnies",
+    "logoUrl": "",
+    "color": ""
   },
   "VIA": {
     "name": "St. Viator",
-    "nickname": "Green Wave"
+    "nickname": "Green Wave",
+    "logoUrl": "",
+    "color": ""
   },
   "VINC": {
     "name": "St. Vincent's (DePaul)",
-    "nickname": "Blue Demons"
+    "nickname": "Blue Demons",
+    "logoUrl": "",
+    "color": ""
   },
   "STAN": {
     "name": "Stanford",
-    "nickname": "Cardinal"
+    "nickname": "Cardinal",
+    "logoUrl": "http://www.texassports.com/images/logos/stanford_logo_360.png",
+    "color": "#82211D"
   },
   "SYR": {
     "name": "Syracuse",
-    "nickname": "Orange"
+    "nickname": "Orange",
+    "logoUrl": "http://bceagles.com/images/logos/t16.png",
+    "color": ""
   },
   "TCU": {
     "name": "TCU",
-    "nickname": "Horned Frogs"
+    "nickname": "Horned Frogs",
+    "logoUrl": "http://www.texassports.com/images/logos/Texas-Christian-University.png",
+    "color": ""
   },
   "TEM": {
     "name": "Temple",
-    "nickname": "Owls"
+    "nickname": "Owls",
+    "logoUrl": "http://bceagles.com/images/logos/t20.png",
+    "color": "#922836"
   },
   "TENN": {
     "name": "Tennessee",
-    "nickname": "Volunteers"
+    "nickname": "Volunteers",
+    "logoUrl": "http://www.rolltide.com/images/logos/Tennessee.png",
+    "color": ""
   },
   "TEX": {
     "name": "Texas",
-    "nickname": "Longhorns"
+    "nickname": "Longhorns",
+    "logoUrl": "http://www.rolltide.com/images/logos/Texas.png",
+    "color": "#D37335"
   },
   "TA&M": {
     "name": "Texas A&M",
-    "nickname": "Aggies"
+    "nickname": "Aggies",
+    "logoUrl": "http://www.texassports.com/images/logos/Texas_AM.png",
+    "color": ""
   },
   "TOL": {
     "name": "Toledo Athletic Association",
-    "nickname": "Toledo"
+    "nickname": "Toledo",
+    "logoUrl": "http://wmubroncos.com/images/logos/Toledo.png",
+    "color": ""
   },
   "TULN": {
     "name": "Tulane",
-    "nickname": "Green Wave"
+    "nickname": "Green Wave",
+    "logoUrl": "http://www.texassports.com/images/logos/Tulane_.png",
+    "color": ""
   },
   "TULSA": {
     "name": "Tulsa",
-    "nickname": "Golden Hurricane"
+    "nickname": "Golden Hurricane",
+    "logoUrl": "",
+    "color": ""
   },
   "UCLA": {
     "name": "UCLA",
-    "nickname": "Bruins"
+    "nickname": "Bruins",
+    "logoUrl": "http://www.thesundevils.com/images/2017/7/25/UCLA_WhiteBackground_1__71.png",
+    "color": ""
   },
   "USC": {
     "name": "Southern Cal",
-    "nickname": "Trojans"
+    "nickname": "Trojans",
+    "logoUrl": "http://www.thesundevils.com/images/logos/USC.png",
+    "color": "#8D2725"
   },
   "UTAH": {
     "name": "Utah",
-    "nickname": "Utes"
+    "nickname": "Utes",
+    "logoUrl": "http://www.rolltide.com/images/logos/Utah.png",
+    "color": ""
   },
   "VALPO": {
     "name": "Valparaiso",
-    "nickname": "Crusaders"
+    "nickname": "Crusaders",
+    "logoUrl": "",
+    "color": ""
   },
   "VANDY": {
     "name": "Vanderbilt",
-    "nickname": "Commodores"
+    "nickname": "Commodores",
+    "logoUrl": "http://www.rolltide.com/images/logos/Vanderbilt_Commodores.png",
+    "color": ""
   },
   "UVA": {
     "name": "Virginia",
-    "nickname": "Cavaliers"
+    "nickname": "Cavaliers",
+    "logoUrl": "http://bceagles.com/images/logos/Virginia.png",
+    "color": "#EB7637"
+  },
+  "VT": {
+    "name": "Virginia Tech",
+    "nickname": "Hokies",
+    "logoUrl": "http://www.rolltide.com/images/logos/VT.png",
+    "color": ""
   },
   "WAB": {
     "name": "Wabash",
-    "nickname": "Little Giants"
+    "nickname": "Little Giants",
+    "logoUrl": "",
+    "color": ""
   },
   "WAKE": {
     "name": "Wake Forest",
-    "nickname": "Demon Deacons"
+    "nickname": "Demon Deacons",
+    "logoUrl": "http://bceagles.com/images/logos/Wake-Forest.png",
+    "color": "#A99E73"
   },
   "WASH": {
     "name": "Washington",
-    "nickname": "Huskies"
+    "nickname": "Huskies",
+    "logoUrl": "http://www.rolltide.com/images/logos/University-of-Washington.png",
+    "color": ""
   },
   "WAS": {
     "name": "Washington and Jefferson",
-    "nickname": "Presidents"
+    "nickname": "Presidents",
+    "logoUrl": "",
+    "color": ""
   },
   "WASHU": {
     "name": "Washington University",
-    "nickname": "Bears"
+    "nickname": "Bears",
+    "logoUrl": "",
+    "color": ""
   },
   "WSU": {
     "name": "Washington State",
-    "nickname": "Cougars"
+    "nickname": "Cougars",
+    "logoUrl": "http://www.thesundevils.com/images/logos/WSU_Cougars.png",
+    "color": ""
   },
   "WVU": {
     "name": "West Virginia",
-    "nickname": "Mountaineers"
+    "nickname": "Mountaineers",
+    "logoUrl": "http://www.texassports.com/images/logos/West-Virginia-University.png",
+    "color": ""
   },
   "WMU": {
     "name": "Western Michigan",
-    "nickname": "Broncos"
+    "nickname": "Broncos",
+    "logoUrl": "",
+    "color": ""
   },
   "WIS": {
     "name": "Wisconsin",
-    "nickname": "Badgers"
+    "nickname": "Badgers",
+    "logoUrl": "http://www.rolltide.com/images/logos/Wisconsin.png",
+    "color": ""
   },
   "YALE": {
     "name": "Yale",
-    "nickname": "Elis"
+    "nickname": "Elis",
+    "logoUrl": "http://lehighsports.com/images/logos/Yale.png",
+    "color": ""
   }
 }
