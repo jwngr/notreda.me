@@ -7,6 +7,8 @@ import {getLongFormattedDate} from '../utils';
 
 import teams from '../../resources/teams';
 
+const genericTeamLogoUrl = 'http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-football-college.png&h=80&w=80&scale=crop&cquality=40';
+
 const GameSummary = ({ game }) => {
   const notreDame = teams.ND;
   notreDame.abbreviation = 'ND';
@@ -100,11 +102,11 @@ const GameSummary = ({ game }) => {
     <div className='game-summary-container'>
       <div className='total-score'>
         <div>
-          <img src={`${awayTeam.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`} />
+          <img src={awayTeam.logoUrl || genericTeamLogoUrl} />
         </div>
         <p className='score'>{game.scores.away} - {game.scores.home}</p>
         <div>
-          <img src={`${homeTeam.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`} />
+          <img src={homeTeam.logoUrl || genericTeamLogoUrl} />
         </div>
       </div>
       <div className='details'>
