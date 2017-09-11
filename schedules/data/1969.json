@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/20/69",
     "location": "Notre Dame, IN",
     "opponentId": "NW",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/27/69",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/04/69",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/11/69",
     "location": "Bronx, NY",
     "opponentId": "ARMY",
@@ -230,7 +226,6 @@
   {
     "result": "T",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/18/69",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -286,7 +281,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/25/69",
     "location": "New Orleans, LA",
     "opponentId": "TULN",
@@ -343,7 +337,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/01/69",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -400,7 +393,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/08/69",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -457,7 +449,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/15/69",
     "location": "Atlanta, GA",
     "opponentId": "GT",
@@ -514,7 +505,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/22/69",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -571,7 +561,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/70",
     "location": "Dallas, Texas",
     "opponentId": "TEX",

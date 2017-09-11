@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/29/45",
     "location": "Notre Dame, IN",
     "opponentId": "ILL",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/06/45",
     "location": "Atlanta, GA",
     "opponentId": "GT",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/13/45",
     "location": "Notre Dame, IN",
     "opponentId": "DART",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/20/45",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/27/45",
     "location": "Notre Dame, IN",
     "opponentId": "IOWA",
@@ -287,7 +282,6 @@
   {
     "result": "T",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/03/45",
     "location": "Cleveland, OH",
     "opponentId": "NAVY",
@@ -343,7 +337,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/10/45",
     "location": "Bronx, NY",
     "opponentId": "ARMY",
@@ -400,7 +393,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/17/45",
     "location": "Evanston, IL",
     "opponentId": "NW",
@@ -457,7 +449,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/24/45",
     "location": "New Orleans, LA",
     "opponentId": "TULN",
@@ -514,7 +505,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "12/01/45",
     "location": "Chicago, IL",
     "opponentId": "GRTLK",

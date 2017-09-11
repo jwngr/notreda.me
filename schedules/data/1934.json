@@ -2,7 +2,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/06/34",
     "location": "Notre Dame, IN",
     "opponentId": "TEX",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/13/34",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/20/34",
     "location": "Notre Dame, IN",
     "opponentId": "CAR",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/27/34",
     "location": "Notre Dame, IN",
     "opponentId": "WIS",
@@ -230,7 +226,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/03/34",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -287,7 +282,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/10/34",
     "location": "Cleveland, OH",
     "opponentId": "NAVY",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/17/34",
     "location": "Evanston, IL",
     "opponentId": "NW",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/24/34",
     "location": "Bronx, NY",
     "opponentId": "ARMY",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "12/08/34",
     "location": "Los Angeles, CA",
     "opponentId": "USC",

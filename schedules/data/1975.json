@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/15/75",
     "location": "Foxborough, MA",
     "opponentId": "BC",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/20/75",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/27/75",
     "location": "Notre Dame, IN",
     "opponentId": "NW",
@@ -173,7 +170,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/04/75",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/11/75",
     "location": "Chapel Hill, NC",
     "opponentId": "UNC",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/18/75",
     "location": "Colorado Springs, CO",
     "opponentId": "AF",
@@ -344,7 +338,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/25/75",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/01/75",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/08/75",
     "location": "Notre Dame, IN",
     "opponentId": "GT",
@@ -515,7 +506,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/15/75",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -572,7 +562,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/22/75",
     "location": "Miami, FLA",
     "opponentId": "MIAMI",

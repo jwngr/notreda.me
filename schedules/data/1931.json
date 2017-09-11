@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/03/31",
     "location": "Bloomington, IN",
     "opponentId": "IND",
@@ -59,7 +58,6 @@
   {
     "result": "T",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/10/31",
     "location": "Chicago, IL",
     "opponentId": "NW",
@@ -115,7 +113,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/17/31",
     "location": "Notre Dame, IN",
     "opponentId": "DRKE",
@@ -172,7 +169,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/24/31",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -229,7 +225,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/31/31",
     "location": "Pittsburgh, PA",
     "opponentId": "CAR",
@@ -286,7 +281,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/07/31",
     "location": "Notre Dame, IN",
     "opponentId": "PENN",
@@ -343,7 +337,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/14/31",
     "location": "Baltimore, MD",
     "opponentId": "NAVY",
@@ -400,7 +393,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/21/31",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -457,7 +449,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/28/31",
     "location": "Bronx, NY",
     "opponentId": "ARMY",

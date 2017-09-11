@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/06/80",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/20/80",
     "location": "Notre Dame, IN",
     "opponentId": "MICH",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/04/80",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/11/80",
     "location": "Notre Dame, IN",
     "opponentId": "MIAMI",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/18/80",
     "location": "Notre Dame, IN",
     "opponentId": "ARMY",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/25/80",
     "location": "Tucson, AZ",
     "opponentId": "ARIZ",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/01/80",
     "location": "East Rutherford, NJ",
     "opponentId": "NAVY",
@@ -401,7 +394,6 @@
   {
     "result": "T",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/08/80",
     "location": "Atlanta, GA",
     "opponentId": "GT",
@@ -457,7 +449,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/15/80",
     "location": "Tuscaloosa, ALA",
     "opponentId": "BAMA",
@@ -514,7 +505,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/22/80",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -571,7 +561,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "12/06/80",
     "location": "Los Angeles, CA",
     "opponentId": "USC",
@@ -628,7 +617,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/81",
     "location": "New Orleans, LA",
     "opponentId": "UGA",

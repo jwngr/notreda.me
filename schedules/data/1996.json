@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/05/96",
     "location": "Nashville, TN",
     "opponentId": "VANDY",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/14/96",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/21/96",
     "location": "Austin, Texas",
     "opponentId": "TEX",
@@ -173,7 +170,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/28/96",
     "location": "Notre Dame, IN",
     "opponentId": "OSU",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/12/96",
     "location": "Notre Dame, IN",
     "opponentId": "WASH",
@@ -287,7 +282,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/19/96",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/02/96",
     "location": "Dublin, Ireland",
     "opponentId": "NAVY",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/09/96",
     "location": "Chestnut Hill, MA",
     "opponentId": "BC",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/16/96",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/23/96",
     "location": "Notre Dame, IN",
     "opponentId": "RUTG",
@@ -572,7 +562,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/30/96",
     "location": "Los Angeles, CA",
     "opponentId": "USC",

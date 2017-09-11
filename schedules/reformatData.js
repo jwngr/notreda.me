@@ -7,6 +7,8 @@ _.forEach(combinedScheduleData, (yearData, year) => {
   yearData.forEach(gameData => {
     if (gameData.isBowlGame === false) {
       delete gameData.isBowlGame;
+    } else {
+      console.log(year);
     }
   });
 

@@ -2,7 +2,6 @@
   {
     "result": "T",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/07/33",
     "location": "Notre Dame, IN",
     "opponentId": "KU",
@@ -58,7 +57,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/14/33",
     "location": "Bloomington, IN",
     "opponentId": "IND",
@@ -115,7 +113,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/21/33",
     "location": "Pittsburgh, PA",
     "opponentId": "CAR",
@@ -172,7 +169,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/28/33",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -229,7 +225,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/04/33",
     "location": "Baltimore, MD",
     "opponentId": "NAVY",
@@ -286,7 +281,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/11/33",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -343,7 +337,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/18/33",
     "location": "Evanston, IL",
     "opponentId": "NW",
@@ -400,7 +393,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/25/33",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -457,7 +449,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "12/02/33",
     "location": "Bronx, NY",
     "opponentId": "ARMY",

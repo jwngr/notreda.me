@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "08/31/89",
     "location": "East Rutherford, NJ",
     "opponentId": "UVA",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/16/89",
     "location": "Ann Arbor, MI",
     "opponentId": "MICH",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/23/89",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/30/89",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/07/89",
     "location": "Stanford, CA",
     "opponentId": "STAN",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/14/89",
     "location": "Colorado Springs, CO",
     "opponentId": "AF",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/21/89",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/28/89",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/04/89",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/11/89",
     "location": "Notre Dame, IN",
     "opponentId": "SMU",
@@ -572,7 +562,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/18/89",
     "location": "University Park, PA",
     "opponentId": "PSU",
@@ -629,7 +618,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/25/89",
     "location": "Coral Gables, FLA",
     "opponentId": "MIAMI",
@@ -686,7 +674,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/90",
     "location": "Miami, FLA",
     "opponentId": "COL",

@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/02/00",
     "location": "Notre Dame, IN",
     "opponentId": "TA&M",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/09/00",
     "location": "Notre Dame, IN",
     "opponentId": "NEB",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/16/00",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -173,7 +170,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/23/00",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/07/00",
     "location": "Notre Dame, IN",
     "opponentId": "STAN",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/14/00",
     "location": "Orlando, FLA",
     "opponentId": "NAVY",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/21/00",
     "location": "Morgantown, WV",
     "opponentId": "WVU",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/28/00",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/11/00",
     "location": "Notre Dame, IN",
     "opponentId": "BC",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/18/00",
     "location": "Piscataway, NJ",
     "opponentId": "RUTG",
@@ -572,7 +562,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/25/00",
     "location": "Los Angeles",
     "opponentId": "USC",
@@ -629,7 +618,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/01",
     "location": "Tempe, AZ - Tostitos Fiesta Bowl",
     "opponentId": "ORST",

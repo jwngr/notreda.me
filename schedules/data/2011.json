@@ -2,7 +2,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/03/11",
     "location": "Notre Dame, IN",
     "opponentId": "USF",
@@ -69,7 +68,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/10/11",
     "location": "Ann Arbor, MI",
     "opponentId": "MICH",
@@ -136,7 +134,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/17/11",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -203,7 +200,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/24/11",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -270,7 +266,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/01/11",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -337,7 +332,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/08/11",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -404,7 +398,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/22/11",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -471,7 +464,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/29/11",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -538,7 +530,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/05/11",
     "location": "Winston-Salem, NC",
     "opponentId": "WAKE",
@@ -605,7 +596,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/12/11",
     "location": "Landover, MD",
     "opponentId": "MD",
@@ -672,7 +662,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/19/11",
     "location": "Notre Dame, IN",
     "opponentId": "BC",
@@ -739,7 +728,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/26/11",
     "location": "Stanford, CA",
     "opponentId": "STAN",
@@ -806,7 +794,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "12/29/11",
     "location": "Orlando, FLA",
     "opponentId": "FSU",

@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/02/06",
     "location": "Atlanta, GA",
     "opponentId": "GT",
@@ -69,7 +68,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/09/06",
     "location": "Notre Dame Stadium",
     "opponentId": "PSU",
@@ -136,7 +134,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/16/06",
     "location": "Notre Dame Stadium",
     "opponentId": "MICH",
@@ -203,7 +200,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/23/06",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -270,7 +266,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/30/06",
     "location": "Notre Dame Stadium",
     "opponentId": "PUR",
@@ -337,7 +332,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/07/06",
     "location": "Notre Dame Stadium",
     "opponentId": "STAN",
@@ -404,7 +398,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/21/06",
     "location": "Notre Dame Stadium",
     "opponentId": "UCLA",
@@ -471,7 +464,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/28/06",
     "location": "Baltimore, MD",
     "opponentId": "NAVY",
@@ -538,7 +530,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/04/06",
     "location": "Notre Dame Stadium",
     "opponentId": "UNC",
@@ -605,7 +596,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/11/06",
     "location": "Colorado Springs, CO",
     "opponentId": "AF",
@@ -672,7 +662,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/18/06",
     "location": "Notre Dame Stadium",
     "opponentId": "ARMY",
@@ -739,7 +728,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/25/06",
     "location": "Los Angeles, CA",
     "opponentId": "USC",
@@ -806,7 +794,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/03/07",
     "location": "New Orleans, LA",
     "opponentId": "LSU",

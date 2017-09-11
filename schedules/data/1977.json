@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/10/77",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/17/77",
     "location": "Jackson, MS",
     "opponentId": "MISS",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/24/77",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/01/77",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/15/77",
     "location": "East Rutherford, NJ",
     "opponentId": "ARMY",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/20/77",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/29/77",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/05/77",
     "location": "Notre Dame, IN",
     "opponentId": "GT",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/12/77",
     "location": "Clemson, SC",
     "opponentId": "CLEM",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/19/77",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -572,7 +562,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "12/03/77",
     "location": "Miami, FLA",
     "opponentId": "MIAMI",
@@ -629,7 +618,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/02/78",
     "location": "Dallas, Texas",
     "opponentId": "TEX",

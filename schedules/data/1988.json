@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/10/88",
     "location": "Notre Dame, IN",
     "opponentId": "MICH",
@@ -59,7 +58,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/17/88",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/24/88",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/01/88",
     "location": "Notre Dame, IN",
     "opponentId": "STAN",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/08/88",
     "location": "Pittsburgh, PA",
     "opponentId": "PITT",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/15/88",
     "location": "Notre Dame, IN",
     "opponentId": "MIAMI",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/22/88",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/29/88",
     "location": "Baltimore, MD",
     "opponentId": "NAVY",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/05/88",
     "location": "Notre Dame, IN",
     "opponentId": "RICE",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/19/88",
     "location": "Notre Dame, IN",
     "opponentId": "PSU",
@@ -572,7 +562,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/26/88",
     "location": "Los Angeles, CA",
     "opponentId": "USC",
@@ -629,7 +618,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/02/89",
     "location": "Tempe, AZ",
     "opponentId": "WVU",

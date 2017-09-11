@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/07/91",
     "location": "Notre Dame, IN",
     "opponentId": "IND",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/14/91",
     "location": "Ann Arbor, MI",
     "opponentId": "MICH",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/21/91",
     "location": "Notre Dame, IN",
     "opponentId": "MSU",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/28/91",
     "location": "West Lafayette, IN",
     "opponentId": "PUR",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/05/91",
     "location": "Stanford, CA",
     "opponentId": "STAN",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/12/91",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/19/91",
     "location": "Colorado Springs, CO",
     "opponentId": "AF",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/26/91",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/02/91",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -515,7 +506,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/09/91",
     "location": "Notre Dame, IN",
     "opponentId": "TENN",
@@ -572,7 +562,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/16/91",
     "location": "University Park, PA",
     "opponentId": "PSU",
@@ -629,7 +618,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/30/91",
     "location": "Honolulu, HI",
     "opponentId": "HAW",
@@ -686,7 +674,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/92",
     "location": "New Orleans, LA",
     "opponentId": "FLA",

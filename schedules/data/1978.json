@@ -2,7 +2,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/09/78",
     "location": "Notre Dame, IN",
     "opponentId": "MIZ",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/23/78",
     "location": "Notre Dame, IN",
     "opponentId": "MICH",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/30/78",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/07/78",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/14/78",
     "location": "Notre Dame, IN",
     "opponentId": "PITT",
@@ -287,7 +282,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/21/78",
     "location": "Colorado Springs, CO",
     "opponentId": "AF",
@@ -344,7 +338,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/28/78",
     "location": "Notre Dame, IN",
     "opponentId": "MIAMI",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/04/78",
     "location": "Cleveland, OH",
     "opponentId": "NAVY",
@@ -458,7 +450,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/11/78",
     "location": "Notre Dame, IN",
     "opponentId": "TENN",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/18/78",
     "location": "Atlanta, GA",
     "opponentId": "GT",
@@ -572,7 +562,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/25/78",
     "location": "Los Angeles, CA",
     "opponentId": "USC",
@@ -629,7 +618,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/01/79",
     "location": "Dallas, Texas",
     "opponentId": "HOU",

@@ -2,7 +2,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/03/94",
     "location": "Chicago, IL",
     "opponentId": "NW",
@@ -59,7 +58,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/10/94",
     "location": "Notre Dame, IN",
     "opponentId": "MICH",
@@ -116,7 +114,6 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "09/17/94",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
@@ -173,7 +170,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "09/24/94",
     "location": "Notre Dame, IN",
     "opponentId": "PUR",
@@ -230,7 +226,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/01/94",
     "location": "Notre Dame, IN",
     "opponentId": "STAN",
@@ -287,7 +282,6 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "10/08/94",
     "location": "Chestnut Hill, MA",
     "opponentId": "BC",
@@ -344,7 +338,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/15/94",
     "location": "Notre Dame, IN",
     "opponentId": "BYU",
@@ -401,7 +394,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "10/29/94",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
@@ -458,7 +450,6 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/12/94",
     "location": "Orlando, FLA",
     "opponentId": "FSU",
@@ -515,7 +506,6 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "isBowlGame": false,
     "date": "11/19/94",
     "location": "Notre Dame, IN",
     "opponentId": "AF",
@@ -572,7 +562,6 @@
   {
     "result": "T",
     "isHomeGame": false,
-    "isBowlGame": false,
     "date": "11/26/94",
     "location": "Los Angeles, CA",
     "opponentId": "USC",
@@ -628,7 +617,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "isBowlGame": false,
+    "isBowlGame": true,
     "date": "01/02/95",
     "location": "Tempe, AZ",
     "opponentId": "COL",
