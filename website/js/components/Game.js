@@ -18,9 +18,14 @@ const Game = ({ game, index, selected, onGameSelected }) => {
     notreDameScore = game.scores.away;
   }
 
-  const result = (notreDameScore > opponentScore) ?
-    <span className='win'>W</span> :
-    <span className='loss'>L</span>;
+  let result;
+  if (notreDameScore > opponentScore) {
+    result = <span className='win'>W</span>;
+  } else if (opponentScore > notreDameScore) {
+    result = <span className='loss'>L</span>;
+  } else {
+    result = <span className='tie'>T</span>;
+  }
 
   const gameClassNames = classNames({
     game: true,

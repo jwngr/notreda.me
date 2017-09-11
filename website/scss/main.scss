@@ -242,7 +242,7 @@ $nav-drawer-button-size: 2rem;
       justify-content: space-around;
       margin: 0 25px;
       cursor: pointer;
-      border-top: solid 2px $secondary-black;
+      // border-top: solid 2px $secondary-black;
 
       img {
         height: 40px;
@@ -277,7 +277,7 @@ $nav-drawer-button-size: 2rem;
       }
 
       &:last-of-type {
-        border-bottom: solid 2px $secondary-black;
+        // border-bottom: solid 2px $secondary-black;
       }
 
       &.homeGame:hover {
@@ -307,6 +307,11 @@ $nav-drawer-button-size: 2rem;
 
       .loss {
         color: $secondary-red;
+        margin-right: 9px;
+      }
+
+      .tie {
+        color: $secondary-black;
         margin-right: 9px;
       }
     }
