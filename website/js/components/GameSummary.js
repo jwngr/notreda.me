@@ -31,8 +31,14 @@ const GameSummary = ({ game }) => {
     color: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
 
+  let scoreContent = <p className='score'>vs</p>;
   let statsContent;
-  if ('stats' in game) {
+  let lineScoreContent;
+  if ('result' in game) {
+    scoreContent = (
+      <p className='score'>{game.score.away} - {game.score.home}</p>
+    );
+
     const stats = [
       { key: 'firstDowns', name: 'First Downs'},
       { key: 'plays', name: 'Plays' },
@@ -83,16 +89,20 @@ const GameSummary = ({ game }) => {
         {statsContent}
       </div>
     );
-  }
 
-  // TODO: remove hardcoded line scores when
-  let lineScore = {
-    home: [10, 7, 0, 13, 7, 3, 8, 8],
-    away: [0, 7, 10, 3, 7, 3, 8, 0]
-  };
+    // TODO: remove hardcoded line scores when
+    let lineScore = {
+      home: [10, 7, 0, 13, 7, 3, 8, 8],
+      away: [0, 7, 10, 3, 7, 3, 8, 0]
+    };
 
-  if (game.linescores.home.length !== 0) {
-    lineScore = game.linescores;
+    if (game.linescores.home.length !== 0) {
+      lineScore = game.linescores;
+    }
+
+    lineScoreContent = (
+      <LineScore scores={lineScore} homeTeam={homeTeam} awayTeam={awayTeam} />
+    );
   }
 
   return (
@@ -101,7 +111,7 @@ const GameSummary = ({ game }) => {
         <div>
           <img src={awayTeam.logoUrl || genericTeamLogoUrl} />
         </div>
-        <p className='score'>{game.score.away} - {game.score.home}</p>
+        { scoreContent }
         <div>
           <img src={homeTeam.logoUrl || genericTeamLogoUrl} />
         </div>
@@ -111,7 +121,7 @@ const GameSummary = ({ game }) => {
         <p>{game.location}</p>
       </div>
 
-      <LineScore scores={lineScore} homeTeam={homeTeam} awayTeam={awayTeam} />
+      { lineScoreContent }
 
       { statsContent }
     </div>

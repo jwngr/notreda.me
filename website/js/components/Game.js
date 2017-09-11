@@ -9,23 +9,30 @@ const Game = ({ game, index, selected, onGameSelected }) => {
   let opponentScore;
   let notreDameScore;
 
-  if (game.isHomeGame) {
-    prefix = '';
-    opponentScore = game.score.away;
-    notreDameScore = game.score.home;
-  } else {
-    prefix = '@';
-    opponentScore = game.score.home;
-    notreDameScore = game.score.away;
-  }
+  let resultContent = <p className='score'></p>;
+  if ('result' in game) {
+    if (game.isHomeGame) {
+      prefix = '';
+      opponentScore = game.score.away;
+      notreDameScore = game.score.home;
+    } else {
+      prefix = '@';
+      opponentScore = game.score.home;
+      notreDameScore = game.score.away;
+    }
 
-  let result;
-  if (notreDameScore > opponentScore) {
-    result = <span className='win'>W</span>;
-  } else if (opponentScore > notreDameScore) {
-    result = <span className='loss'>L</span>;
-  } else {
-    result = <span className='tie'>T</span>;
+    let result;
+    if (notreDameScore > opponentScore) {
+      result = <span className='win'>W</span>;
+    } else if (opponentScore > notreDameScore) {
+      result = <span className='loss'>L</span>;
+    } else {
+      result = <span className='tie'>T</span>;
+    }
+
+    resultContent = (
+      <p className='score'>{ result } { notreDameScore } - { opponentScore }</p>
+    );
   }
 
   const gameClassNames = classNames({
@@ -46,7 +53,7 @@ const Game = ({ game, index, selected, onGameSelected }) => {
         <p className='opponent'>{ prefix } { game.opponent.name }</p>
       </div>
       <p className='location'>{ game.location }</p>
-      <p className='score'>{ result } { notreDameScore } - { opponentScore }</p>
+      { resultContent }
     </div>
   );
 };
