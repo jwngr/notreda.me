@@ -1,743 +1,808 @@
 [
   {
-    "result": "W",
-    "isHomeGame": true,
+    "result": "L",
+    "isHomeGame": false,
     "isBowlGame": false,
-    "date": "09/05/17",
-    "location": "Notre Dame, IN",
+    "date": "09/04/16",
+    "location": "Austin, TX",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 22,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 444,
+        "passYards": 238,
+        "passAttempts": 17,
+        "passCompletions": 30,
+        "interceptionsThrown": 0,
+        "rushYards": 206,
+        "rushAttempts": 46,
+        "penalties": 8,
+        "penaltyYards": 64,
+        "fumblesLost": 0,
+        "possession": "32:42",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 26,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 517,
+        "passYards": 280,
+        "passAttempts": 16,
+        "passCompletions": 27,
+        "interceptionsThrown": 1,
+        "rushYards": 237,
+        "rushAttempts": 59,
+        "penalties": 11,
+        "penaltyYards": 104,
+        "fumblesLost": 0,
+        "possession": "27:18",
+        "fumbles": -1
       }
     },
     "opponentId": "TEX",
-    "overtimeCount": 0,
+    "overtimeCount": 2,
     "score": {
-      "away": 3,
-      "home": 38
+      "away": 47,
+      "home": 50
     },
     "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "isBowlGame": false,
-    "date": "09/12/15",
-    "location": "Charlottesville, VA",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "UVA",
-    "overtimeCount": 0,
-    "score": {
-      "away": 34,
-      "home": 27
-    },
-    "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        7,
+        14,
+        9,
+        10
+      ],
+      "home": [
+        7,
+        14,
+        10,
+        6,
+        13
+      ]
     }
   },
   {
     "result": "W",
     "isHomeGame": true,
     "isBowlGame": false,
-    "date": "09/19/15",
+    "date": "09/10/16",
     "location": "Notre Dame, IN",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 16,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 300,
+        "passYards": 201,
+        "passAttempts": 12,
+        "passCompletions": 26,
+        "interceptionsThrown": 1,
+        "rushYards": 99,
+        "rushAttempts": 30,
+        "penalties": 11,
+        "penaltyYards": 88,
+        "fumblesLost": 0,
+        "possession": "26:28",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 21,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 444,
+        "passYards": 205,
+        "passAttempts": 19,
+        "passCompletions": 27,
+        "interceptionsThrown": 1,
+        "rushYards": 239,
+        "rushAttempts": 46,
+        "penalties": 9,
+        "penaltyYards": 94,
+        "fumblesLost": 0,
+        "possession": "33:32",
+        "fumbles": -1
       }
     },
-    "opponentId": "GT",
+    "opponentId": "NEV",
     "overtimeCount": 0,
     "score": {
-      "away": 22,
-      "home": 30
+      "away": 10,
+      "home": 39
     },
     "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "isBowlGame": false,
-    "date": "09/26/15",
-    "location": "Notre Dame, IN",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "UMASS",
-    "overtimeCount": 0,
-    "score": {
-      "away": 27,
-      "home": 62
-    },
-    "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        0,
+        3,
+        7
+      ],
+      "home": [
+        0,
+        25,
+        14,
+        0
+      ]
     }
   },
   {
     "result": "L",
-    "isHomeGame": false,
-    "isBowlGame": false,
-    "date": "10/03/17",
-    "location": "Clemson, SC",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "CLEM",
-    "overtimeCount": 0,
-    "score": {
-      "away": 22,
-      "home": 24
-    },
-    "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
     "isHomeGame": true,
     "isBowlGame": false,
-    "date": "10/10/17",
+    "date": "09/17/16",
     "location": "Notre Dame, IN",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 22,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 501,
+        "passYards": 241,
+        "passAttempts": 19,
+        "passCompletions": 26,
+        "interceptionsThrown": 1,
+        "rushYards": 260,
+        "rushAttempts": 52,
+        "penalties": 3,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "37:57",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 19,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 401,
+        "passYards": 344,
+        "passAttempts": 20,
+        "passCompletions": 37,
+        "interceptionsThrown": 1,
+        "rushYards": 57,
+        "rushAttempts": 25,
+        "penalties": 4,
+        "penaltyYards": 51,
+        "fumblesLost": 2,
+        "possession": "22:03",
+        "fumbles": -1
       }
     },
-    "opponentId": "NAVY",
+    "opponentId": "MSU",
     "overtimeCount": 0,
     "score": {
-      "away": 24,
-      "home": 41
-    },
-    "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "isBowlGame": false,
-    "date": "10/17/15",
-    "location": "Notre Dame, IN",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "USC",
-    "overtimeCount": 0,
-    "score": {
-      "away": 31,
-      "home": 41
-    },
-    "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "isBowlGame": false,
-    "date": "10/31/15",
-    "location": "Philadelphia, PA",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "TEM",
-    "overtimeCount": 0,
-    "score": {
-      "away": 24,
-      "home": 20
-    },
-    "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "isBowlGame": false,
-    "date": "11/07/15",
-    "location": "Pittsburgh, PA",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "PITT",
-    "overtimeCount": 0,
-    "score": {
-      "away": 42,
-      "home": 30
-    },
-    "linescores": {
-      "away": [],
-      "home": []
-    }
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "isBowlGame": false,
-    "date": "11/14/15",
-    "location": "Notre Dame, IN",
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "opponentId": "WAKE",
-    "overtimeCount": 0,
-    "score": {
-      "away": 7,
+      "away": 36,
       "home": 28
     },
     "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        15,
+        21,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        14
+      ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "isBowlGame": false,
+    "date": "09/24/16",
+    "location": "Notre Dame, IN",
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 498,
+        "passYards": 290,
+        "passAttempts": 24,
+        "passCompletions": 32,
+        "interceptionsThrown": 1,
+        "rushYards": 208,
+        "rushAttempts": 42,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "30:35",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 534,
+        "passYards": 381,
+        "passAttempts": 22,
+        "passCompletions": 37,
+        "interceptionsThrown": 1,
+        "rushYards": 153,
+        "rushAttempts": 37,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 2,
+        "possession": "29:25",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "DUKE",
+    "overtimeCount": 0,
+    "score": {
+      "away": 38,
+      "home": 35
+    },
+    "linescores": {
+      "away": [
+        14,
+        14,
+        0,
+        10
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        7
+      ]
     }
   },
   {
     "result": "W",
     "isHomeGame": true,
     "isBowlGame": false,
-    "date": "11/21/15",
-    "location": "Boston, MA(Fenway Park)",
+    "date": "10/01/16",
+    "location": "East Rutherford, NJ",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 25,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 654,
+        "passYards": 471,
+        "passAttempts": 23,
+        "passCompletions": 35,
+        "interceptionsThrown": 1,
+        "rushYards": 183,
+        "rushAttempts": 37,
+        "penalties": 6,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "31:22",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 25,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 489,
+        "passYards": 363,
+        "passAttempts": 31,
+        "passCompletions": 51,
+        "interceptionsThrown": 0,
+        "rushYards": 126,
+        "rushAttempts": 37,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "28:38",
+        "fumbles": -1
       }
     },
-    "opponentId": "BC",
+    "opponentId": "SYR",
     "overtimeCount": 0,
     "score": {
-      "away": 16,
-      "home": 19
+      "away": 33,
+      "home": 50
     },
     "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        23,
+        10,
+        14,
+        3
+      ],
+      "home": [
+        13,
+        14,
+        0,
+        6
+      ]
     }
   },
   {
     "result": "L",
     "isHomeGame": false,
     "isBowlGame": false,
-    "date": "11/28/15",
-    "location": "Stanford, CA",
+    "date": "10/08/16",
+    "location": "Raleigh, NC",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 10,
+        "thirdDownAttempts": 1,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 113,
+        "passYards": 54,
+        "passAttempts": 9,
+        "passCompletions": 26,
+        "interceptionsThrown": 1,
+        "rushYards": 59,
+        "rushAttempts": 38,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "27:41",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 14,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 5,
+        "totalYards": 198,
+        "passYards": 41,
+        "passAttempts": 7,
+        "passCompletions": 14,
+        "interceptionsThrown": 0,
+        "rushYards": 157,
+        "rushAttempts": 51,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 2,
+        "possession": "32:19",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "NCST",
+    "overtimeCount": 0,
+    "score": {
+      "away": 3,
+      "home": 10
+    },
+    "linescores": {
+      "away": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "isBowlGame": false,
+    "date": "10/15/16",
+    "location": "Notre Dame, IN",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 296,
+        "passYards": 120,
+        "passAttempts": 10,
+        "passCompletions": 20,
+        "interceptionsThrown": 1,
+        "rushYards": 176,
+        "rushAttempts": 40,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "32:51",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 307,
+        "passYards": 154,
+        "passAttempts": 14,
+        "passCompletions": 29,
+        "interceptionsThrown": 2,
+        "rushYards": 153,
+        "rushAttempts": 35,
+        "penalties": 7,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "27:09",
+        "fumbles": -1
       }
     },
     "opponentId": "STAN",
     "overtimeCount": 0,
     "score": {
-      "away": 36,
-      "home": 38
+      "away": 17,
+      "home": 10
     },
     "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        0,
+        9,
+        8
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "isBowlGame": false,
+    "date": "10/29/16",
+    "location": "Notre Dame, IN",
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 306,
+        "passYards": 288,
+        "passAttempts": 26,
+        "passCompletions": 42,
+        "interceptionsThrown": 1,
+        "rushYards": 18,
+        "rushAttempts": 35,
+        "penalties": 10,
+        "penaltyYards": 86,
+        "fumblesLost": 0,
+        "possession": "33:25",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 411,
+        "passYards": 263,
+        "passAttempts": 25,
+        "passCompletions": 38,
+        "interceptionsThrown": 0,
+        "rushYards": 148,
+        "rushAttempts": 29,
+        "penalties": 7,
+        "penaltyYards": 53,
+        "fumblesLost": 2,
+        "possession": "26:35",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "MIAMI",
+    "overtimeCount": 0,
+    "score": {
+      "away": 27,
+      "home": 30
+    },
+    "linescores": {
+      "away": [
+        0,
+        7,
+        10,
+        10
+      ],
+      "home": [
+        17,
+        3,
+        0,
+        10
+      ]
     }
   },
   {
     "result": "L",
     "isHomeGame": true,
     "isBowlGame": false,
-    "date": "01/01/16",
-    "location": "Glendale, AZ",
+    "date": "11/05/16",
+    "location": "Jacksonville, FL",
     "stats": {
       "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 21,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 370,
+        "passYards": 223,
+        "passAttempts": 19,
+        "passCompletions": 27,
+        "interceptionsThrown": 0,
+        "rushYards": 147,
+        "rushAttempts": 29,
+        "penalties": 7,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "26:07",
+        "fumbles": -1
       },
       "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
+        "firstDowns": 21,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 4,
+        "fourthDownConversions": 5,
+        "totalYards": 368,
+        "passYards": 48,
+        "passAttempts": 5,
+        "passCompletions": 8,
+        "interceptionsThrown": 0,
+        "rushYards": 320,
+        "rushAttempts": 56,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "33:53",
+        "fumbles": -1
       }
     },
-    "opponentId": "OSU",
+    "opponentId": "NAVY",
     "overtimeCount": 0,
     "score": {
-      "away": 44,
-      "home": 28
+      "away": 28,
+      "home": 27
     },
     "linescores": {
-      "away": [],
-      "home": []
+      "away": [
+        10,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "isBowlGame": false,
+    "date": "11/12/16",
+    "location": "San Antonio, TX",
+    "stats": {
+      "away": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 242,
+        "passYards": 13,
+        "passAttempts": 2,
+        "passCompletions": 8,
+        "interceptionsThrown": 1,
+        "rushYards": 229,
+        "rushAttempts": 42,
+        "penalties": 7,
+        "penaltyYards": 68,
+        "fumblesLost": 0,
+        "possession": "25:38",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 31,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 476,
+        "passYards": 215,
+        "passAttempts": 18,
+        "passCompletions": 29,
+        "interceptionsThrown": 1,
+        "rushYards": 261,
+        "rushAttempts": 43,
+        "penalties": 7,
+        "penaltyYards": 35,
+        "fumblesLost": 0,
+        "possession": "34:22",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "ARMY",
+    "overtimeCount": 0,
+    "score": {
+      "away": 6,
+      "home": 44
+    },
+    "linescores": {
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        17,
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "isBowlGame": false,
+    "date": "11/19/16",
+    "location": "Notre Dame, IN",
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 419,
+        "passYards": 267,
+        "passAttempts": 22,
+        "passCompletions": 29,
+        "interceptionsThrown": 1,
+        "rushYards": 152,
+        "rushAttempts": 47,
+        "penalties": 5,
+        "penaltyYards": 35,
+        "fumblesLost": 1,
+        "possession": "32:45",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 449,
+        "passYards": 249,
+        "passAttempts": 17,
+        "passCompletions": 34,
+        "interceptionsThrown": 0,
+        "rushYards": 200,
+        "rushAttempts": 36,
+        "penalties": 10,
+        "penaltyYards": 78,
+        "fumblesLost": 0,
+        "possession": "27:15",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "VT",
+    "overtimeCount": 0,
+    "score": {
+      "away": 34,
+      "home": 31
+    },
+    "linescores": {
+      "away": [
+        0,
+        14,
+        7,
+        13
+      ],
+      "home": [
+        10,
+        14,
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "isBowlGame": false,
+    "date": "11/26/16",
+    "location": "Los Angeles, CA",
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 408,
+        "passYards": 254,
+        "passAttempts": 21,
+        "passCompletions": 39,
+        "interceptionsThrown": 1,
+        "rushYards": 154,
+        "rushAttempts": 37,
+        "penalties": 6,
+        "penaltyYards": 54,
+        "fumblesLost": 1,
+        "possession": "28:57",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 412,
+        "passYards": 205,
+        "passAttempts": 19,
+        "passCompletions": 30,
+        "interceptionsThrown": 0,
+        "rushYards": 207,
+        "rushAttempts": 38,
+        "penalties": 7,
+        "penaltyYards": 65,
+        "fumblesLost": 1,
+        "possession": "31:03",
+        "fumbles": -1
+      }
+    },
+    "opponentId": "USC",
+    "overtimeCount": 0,
+    "score": {
+      "away": 27,
+      "home": 45
+    },
+    "linescores": {
+      "away": [
+        7,
+        0,
+        14,
+        6
+      ],
+      "home": [
+        10,
+        14,
+        14,
+        7
+      ]
     }
   }
 ]
