@@ -1,7 +1,7 @@
 // Libraries
 import React from 'react';
 
-import BoxScore from './BoxScore';
+import LineScore from './LineScore';
 
 import {getLongFormattedDate} from '../utils';
 
@@ -45,16 +45,8 @@ const GameSummary = ({ game }) => {
     ];
 
     statsContent = stats.map(({key: statKey, name: statName}) => {
-      let awayTeamValue;
-      let homeTeamValue;
-      // TODO: remove this once I have all the stats
-      if (!(statKey in game.stats)) {
-        awayTeamValue = 67;
-        homeTeamValue = 42;
-      } else {
-        awayTeamValue = game.stats[statKey].away;
-        homeTeamValue = game.stats[statKey].home;
-      }
+      const awayTeamValue = game.stats.away[statKey];
+      const homeTeamValue = game.stats.home[statKey];
 
       let awayTeamStyles;
       if (awayTeamValue >= homeTeamValue) {
@@ -93,10 +85,15 @@ const GameSummary = ({ game }) => {
     );
   }
 
-  const scores = {
+  // TODO: remove hardcoded line scores when
+  let lineScore = {
     home: [10, 7, 0, 13, 7, 3, 8, 8],
     away: [0, 7, 10, 3, 7, 3, 8, 0]
   };
+
+  if (game.linescores.home.length !== 0) {
+    lineScore = game.linescores;
+  }
 
   return (
     <div className='game-summary-container'>
@@ -104,7 +101,7 @@ const GameSummary = ({ game }) => {
         <div>
           <img src={awayTeam.logoUrl || genericTeamLogoUrl} />
         </div>
-        <p className='score'>{game.scores.away} - {game.scores.home}</p>
+        <p className='score'>{game.score.away} - {game.score.home}</p>
         <div>
           <img src={homeTeam.logoUrl || genericTeamLogoUrl} />
         </div>
@@ -114,7 +111,7 @@ const GameSummary = ({ game }) => {
         <p>{game.location}</p>
       </div>
 
-      <BoxScore scores={scores} homeTeam={homeTeam} awayTeam={awayTeam} />
+      <LineScore scores={lineScore} homeTeam={homeTeam} awayTeam={awayTeam} />
 
       { statsContent }
     </div>

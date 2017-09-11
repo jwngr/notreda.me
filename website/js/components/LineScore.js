@@ -1,7 +1,7 @@
 // Libraries
 import React from 'react';
 
-const BoxScore = ({ scores, homeTeam, awayTeam }) => {
+const LineScore = ({ scores, homeTeam, awayTeam }) => {
   const homeTeamColorStyles = {
     color: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
@@ -61,8 +61,8 @@ const BoxScore = ({ scores, homeTeam, awayTeam }) => {
 };
 
 // TODO: add propTypes
-// BoxScore.propTypes = {
+// LineScore.propTypes = {
 //   game: React.PropTypes.object.isRequired
 // };
 
-export default BoxScore;
+export default LineScore;

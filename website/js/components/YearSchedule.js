@@ -17,13 +17,9 @@ const YearSchedule = ({ params }) => {
 
   const gamesContent = _.map(schedule[currentYear], (game, index) => {
     const gameClone = _.clone(game);
-    gameClone.opponent = {
-      name: teams[game.opponent].name,
-      nickname: teams[game.opponent].nickname,
-      logoUrl: teams[game.opponent].logoUrl,
-      color: teams[game.opponent].color,
-      abbreviation: game.opponent
-    };
+
+    gameClone.opponent = teams[game.opponentId];
+    gameClone.opponent.abbreviation = game.opponentId;
 
     return (
       <GameContainer key={ index } index={ index } game={ gameClone } />

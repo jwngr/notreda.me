@@ -7,7 +7,10 @@ import classNames from 'classnames';
 const nationalChampionshipYears = [1924, 1929, 1930, 1943, 1946, 1947, 1949, 1966, 1973, 1977, 1988];
 
 const NavMenuDecade = ({ startingYear, selectedYear }) => {
-  const yearsRange = _.rangeRight(startingYear, startingYear + 10);
+  let yearsRange = _.rangeRight(startingYear, startingYear + 10);
+  if (startingYear === 1880) {
+    yearsRange = [1889, 1888, 1887];
+  }
 
   const yearsContent = _.map(yearsRange, (year) => {
     let yearEnding = String(year % 100);

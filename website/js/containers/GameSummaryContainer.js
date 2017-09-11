@@ -13,13 +13,8 @@ const mapStateToProps = (state) => {
   const games = schedule[state.selectedYear];
   const game = _.clone(games[state.selectedGameIndex]);
 
-  game.opponent = {
-    name: teams[game.opponent].name,
-    nickname: teams[game.opponent].nickname,
-    logoUrl: teams[game.opponent].logoUrl,
-    color: teams[game.opponent].color,
-    abbreviation: game.opponent
-  };
+  game.opponent = teams[game.opponentId];
+  game.opponent.abbreviation = game.opponentId;
 
   return {
     game

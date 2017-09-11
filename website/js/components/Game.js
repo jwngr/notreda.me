@@ -8,14 +8,15 @@ const Game = ({ game, index, selected, onGameSelected }) => {
   let prefix;
   let opponentScore;
   let notreDameScore;
+
   if (game.isHomeGame) {
     prefix = '';
-    opponentScore = game.scores.away;
-    notreDameScore = game.scores.home;
+    opponentScore = game.score.away;
+    notreDameScore = game.score.home;
   } else {
     prefix = '@';
-    opponentScore = game.scores.home;
-    notreDameScore = game.scores.away;
+    opponentScore = game.score.home;
+    notreDameScore = game.score.away;
   }
 
   let result;
@@ -34,7 +35,7 @@ const Game = ({ game, index, selected, onGameSelected }) => {
     awayGame: !game.isHomeGame
   });
 
-  // TODO: remove hard-coded Oklahoma.png URL when all teams have a logo URL
+  // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <div className={ gameClassNames } onClick={ onGameSelected.bind(onGameSelected, index) } >
       <img
