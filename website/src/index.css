@@ -1,0 +1,41 @@
+body {
+  /* Background image from: http://subtlepatterns.com/awesome-pattern */
+  background-image: url("./images/background.png");
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/*
+  Color palette.
+
+  Note: Brand color palette is from http://onmessage.nd.edu/notre-dame-brand-standards/color.
+
+  // Primary colors
+  $primary-blue: #002B5B;
+  $primary-gold: #DCB439;
+
+  // Secondary colors
+  $secondary-tan: #F6E7A1;
+  $secondary-green: #465510;
+  $secondary-mustard: #999623;
+  $secondary-black: #302205;
+  $secondary-red: #5F1709;
+  $secondary-blue: #5AABBC;
+
+  // Tertiary colors
+  $tertiary-red: #AA272F;
+  $tertiary-orange: #BA6F2E;
+  $tertiary-dark-yellow: #FFCF01;
+  $tertiary-light-yellow: #F2D653;
+  $tertiary-brown: #5A412F;
+  $tertiary-green: #009B48;
+  $tertiary-purple: #4A3651;
+
+  // Accent colors
+  $accent-gray: #DCDCDC;
+  $accent-white: #F2F2F2;
+*/
