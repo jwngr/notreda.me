@@ -43,7 +43,7 @@ ReactDOM.render((
     <ConnectedRouter history={history}>
       <Switch>
         <Route path="/about" component={About}/>
-        <Route path="/:year?" component={Home}/>
+        <Route path="/:year?/:selectedGameIndex?" component={Home}/>
       </Switch>
     </ConnectedRouter>
   </Provider>

@@ -19,7 +19,7 @@ const YearSchedule = ({selectedYear}) => {
     gameClone.opponent.abbreviation = game.opponentId;
 
     return (
-      <GameContainer key={ index } index={ index } game={ gameClone } />
+      <GameContainer key={ index } index={ index } game={ gameClone } year={selectedYear} />
     );
   });
 

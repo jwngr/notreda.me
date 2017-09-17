@@ -16,7 +16,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     onClose: () => {
       dispatch(toggleNavMenu());
-    }
+    },
   };
 };
 

@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 import {getShortFormattedDate} from '../utils';
 
+import './Game.css';
 
-const Game = ({ game, index, selected, onGameSelected }) => {
+
+const Game = ({ game, year, index, selected }) => {
   let prefix;
   let opponentScore;
   let notreDameScore;
@@ -45,7 +48,7 @@ const Game = ({ game, index, selected, onGameSelected }) => {
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
-    <div className={ gameClassNames } onClick={ onGameSelected.bind(onGameSelected, index) } >
+    <Link className={ gameClassNames } to={ `/${year}/${index + 1}/` }>
       <img
         src={`${game.opponent.logoUrl || 'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
         alt={`${game.opponent.name} logo`} />
@@ -55,11 +58,11 @@ const Game = ({ game, index, selected, onGameSelected }) => {
       </div>
       <p className='location'>{ game.location }</p>
       { resultContent }
-    </div>
+    </Link>
   );
 };
 
-// TODO
+// TODO: finish these
 Game.propTypes = {
   game: PropTypes.object.isRequired
 };

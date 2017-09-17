@@ -15,13 +15,13 @@ const mapStateToProps = (state) => {
   game.opponent.abbreviation = game.opponentId;
 
   return {
-    game
+    game,
   };
 };
 
 
 const GameSummaryContainer = connect(
-  mapStateToProps
+  mapStateToProps,
 )(GameSummary);
 
 export default GameSummaryContainer;

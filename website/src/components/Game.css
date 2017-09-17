@@ -1,0 +1,76 @@
+.game {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 25px;
+  text-decoration: none;
+  color: #302205;
+}
+
+.game img {
+  height: 40px;
+  width: 40px;
+}
+
+.game > div {
+  margin-left: 10px;
+}
+
+.game .date {
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+.game .opponent {
+  font-size: 20px;
+  font-family: 'Bungee';
+  width: 250px;
+}
+
+.game .location {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  width: 200px;
+}
+
+.game .score {
+  font-size: 22px;
+  font-family: 'Bungee';
+  width: 120px;
+}
+
+.game.homeGame:hover {
+  background-color: rgba(84, 82, 82, 0.2);
+}
+
+.game.awayGame {
+  background-color: rgba(84, 82, 82, 0.1);
+}
+
+.game.awayGame:hover {
+  background-color: rgba(84, 82, 82, 0.2);
+}
+
+.game.selected {
+  background-color: rgba(220, 180, 63, 0.5);
+}
+
+.game.selected:hover {
+  background-color: rgba(220, 180, 63, 0.6);
+}
+
+.game .win {
+  color: #465510; /* $secondary-green */
+  margin-right: 5px;
+}
+
+.game .loss {
+  color: #5F1709; /* $secondary-red */
+  margin-right: 9px;
+}
+
+.game .tie {
+  color: #302205; /* $secondary-black */
+  margin-right: 9px;
+}
