@@ -1,0 +1,37 @@
+.total-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bungee';
+}
+
+.total-score .score {
+  font-size: 50px;
+}
+
+.total-score .score > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.total-score .score > div:first-of-type {
+  justify-content: flex-end;
+}
+
+.total-score .score > div img {
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+}
+
+.total-score .score > div p {
+  font-size: 20px;
+}
+
+.details p {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  margin-top: 10px;
+}

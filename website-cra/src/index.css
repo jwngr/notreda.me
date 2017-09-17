@@ -1,0 +1,9 @@
+body {
+  /* Background image from: http://subtlepatterns.com/awesome-pattern */
+  background-image: url("./images/background.png");
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}

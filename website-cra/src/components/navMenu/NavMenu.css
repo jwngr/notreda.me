@@ -1,0 +1,62 @@
+.nav-menu {
+  position: fixed;
+  background: #5AABBC;
+  width: 240px;
+  height: 100%;
+  top: 0;
+  right: -240px;
+  z-index: 1000;
+  overflow-y: scroll;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.nav-menu-open {
+  right: 0px;
+}
+
+.nav-menu > h3 {
+  color: #afdefa;
+  font-size: 1.9em;
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+  background: #0d77b6;
+}
+
+.nav-menu > a {
+  display: block;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+  border-bottom: 1px solid #258ecd;
+  padding: 1em;
+}
+
+.nav-menu > a:hover {
+  background: #258ecd;
+}
+
+/* Navigation menu header */
+.nav-menu-header {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #DCDCDC;
+  z-index: 1;
+}
+
+.nav-menu-header > a {
+  color: black;
+  margin: 15px 10px;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+/* Navigation menu decades */
+.nav-menu-decades {
+  margin-top: 60px;
+}
