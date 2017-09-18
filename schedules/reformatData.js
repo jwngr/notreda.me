@@ -1,14 +1,15 @@
 const fs = require('fs');
 const _ = require('lodash');
 
-const combinedScheduleData = require('./schedule.json');
+const filenames = fs.readdirSync('data');
 
-_.forEach(combinedScheduleData, (yearData, year) => {
-  yearData.forEach(gameData => {
-    if (gameData.isBowlGame === false) {
-      delete gameData.isBowlGame;
-    } else {
-      console.log(year);
+filenames.forEach(filename => {
+  const year = filename.split('.')[0];
+  const yearData = require(`./data/${filename}`);
+
+  yearData.forEach((gameData, i) => {
+    if ('overtimeCount' in gameData) {
+      delete gameData.overtimeCount;
     }
   });
 
