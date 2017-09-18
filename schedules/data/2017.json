@@ -134,11 +134,71 @@
     "espnGameId": 400933845
   },
   {
+    "result": "W",
     "isHomeGame": false,
     "date": "09/16/17",
     "location": "Chestnut Hill, MA",
     "opponentId": "BC",
-    "espnGameId": 400934574
+    "espnGameId": 400934574,
+    "overtimeCount": 0,
+    "score": {
+      "away": 49,
+      "home": 20
+    },
+    "linescores": {
+      "away": [
+        7,
+        7,
+        14,
+        21
+      ],
+      "home": [
+        3,
+        7,
+        3,
+        7
+      ]
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 611,
+        "passYards": 96,
+        "passAttempts": 11,
+        "passCompletions": 27,
+        "interceptionsThrown": 1,
+        "rushYards": 515,
+        "rushAttempts": 51,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 1,
+        "possession": "29:35",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 400,
+        "passYards": 215,
+        "passAttempts": 24,
+        "passCompletions": 41,
+        "interceptionsThrown": 2,
+        "rushYards": 185,
+        "rushAttempts": 44,
+        "penalties": 6,
+        "penaltyYards": 35,
+        "fumblesLost": 1,
+        "possession": "30:25",
+        "fumbles": -1
+      }
+    }
   },
   {
     "isHomeGame": false,
