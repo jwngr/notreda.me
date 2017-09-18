@@ -12,5 +12,5 @@ _.forEach(combinedScheduleData, (yearData, year) => {
     }
   });
 
-  fs.writeFileSync(`newData/${year}.json`, JSON.stringify(yearData, null, 2));
+  fs.writeFileSync(`data/${year}.json`, JSON.stringify(yearData, null, 2));
 });

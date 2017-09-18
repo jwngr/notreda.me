@@ -19,7 +19,7 @@ const years = [
   // '2013',
   // '2014',
   // '2015',
-  // '2016'
+  // '2016',
   '2017'
 ];
 
@@ -55,14 +55,13 @@ const promises = years.map(year => {
 return Promise.all(promises)
   .then(results => {
     _.forEach(results, (gameIds, i) => {
-      console.log(years[i]);
-      _.forEach(gameIds, gameId => {
-        console.log(gameId);
+      const filename = `./data/${years[i]}.json`;
+      const data = require(filename);
+      _.forEach(gameIds, (gameId, j) => {
+        data[j].espnGameId = Number(gameId);
       });
-      console.log('-----------------------');
+      fs.writeFileSync(filename, JSON.stringify(data, null, 2));
     });
-
-    console.log('Success!');
   })
   .catch(error => {
     console.log(`Error fetching all game IDs`, error);
