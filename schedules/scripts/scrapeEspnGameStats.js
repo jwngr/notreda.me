@@ -19,7 +19,7 @@ var getHtmlForUrl = (url) => {
  * @param  {number} gameId The game ID of the game whose data to fetch.
  * @return {Promise<Object>} A promise fulfilled with game stats and line scores.
  */
-var getGameData = (gameId) => {
+var getGameStats = (gameId) => {
   return getHtmlForUrl(`http://www.espn.com/college-football/matchup?gameId=${gameId}`)
     .then(($) => {
       var $statsTable = $('.team-stats-list');
@@ -134,29 +134,32 @@ var getGameData = (gameId) => {
 }
 
 const year = 2017;
-const yearData = require(`../schedules/data/${year}.json`);
+const filename = `./data/${year}.json`;
+const yearData = require(filename);
 
-const gameIds = [
-  400934573,
-  400933845
-];
-
-const promises = _.map(gameIds, gameId => {
-  return getGameData(gameId)
-    .catch(error => {
-      console.log(`Error scraping stats for game ${gameId}:`, error);
-    });
+const promises = _.map(yearData, (gameData) => {
+  if (('stats' in gameData || !('espnGameId' in gameData))) {
+    // Stats already retrieved for this game
+    return Promise.resolve();
+  } else {
+    return getGameStats(gameData.espnGameId)
+      .catch(error => {
+        console.log(`Error scraping stats for game ${gameId}:`, error);
+      });
+  }
 });
 
 return Promise.all(promises).then(results => {
   results.forEach((result, i) => {
-    yearData[i].linescores = result.linescores;
-    if ('firstDowns' in result.stats.home) {
-      yearData[i].stats = result.stats;
+    if (result) {
+      yearData[i].linescores = result.linescores;
+      if ('firstDowns' in result.stats.home) {
+        yearData[i].stats = result.stats;
+      }
     }
   });
 
-  fs.writeFileSync(`../schedules/data/${year}.json`, JSON.stringify(yearData, null, 2));
+  fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
 
   console.log('Success!');
 }).catch((error) => {
