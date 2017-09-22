@@ -1,37 +1,33 @@
-.total-score {
+.future-game-summary-container {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Bungee';
+  flex-direction: column;
 }
 
-.total-score .score {
-  font-size: 50px;
-}
-
-.total-score .score > div {
+.matchup-teams {
   display: flex;
-  flex: 1;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  font-family: 'Bungee';
+  margin-bottom: 20px;
 }
 
-.total-score .score > div:first-of-type {
-  justify-content: flex-end;
+.matchup-teams img {
+  height: 80px;
+  width: 80px;
+  margin: 0 40px;
 }
 
-.total-score .score > div img {
-  height: 60px;
-  width: 60px;
-  margin: 0 20px;
+.matchup-teams p {
+  font-size: 32px;
 }
 
-.total-score .score > div p {
-  font-size: 20px;
-}
-
-.details p {
+.matchup-details p {
   text-align: center;
   font-family: 'Merriweather';
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 10px;
 }

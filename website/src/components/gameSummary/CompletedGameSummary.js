@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import TeamLogo from '../TeamLogo';
 import GameStats from './GameStats';
 import LineScore from './LineScore';
 
@@ -9,18 +10,12 @@ import {getLongFormattedDate} from '../../utils';
 import './CompletedGameSummary.css';
 
 
-const genericTeamLogoUrl = 'http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-football-college.png&h=80&w=80&scale=crop&cquality=40';
-
 const CompletedGameSummary = ({ game, homeTeam, awayTeam }) => (
-  <div className='game-summary-container'>
+  <div className='completed-game-summary-container'>
     <div className='total-score'>
-      <div>
-        <img src={awayTeam.logoUrl || genericTeamLogoUrl} alt={`${awayTeam.name} logo`} />
-      </div>
-      <p className='score'>{game.score.away} - {game.score.home}</p>
-      <div>
-        <img src={homeTeam.logoUrl || genericTeamLogoUrl} alt={`${homeTeam.name} logo`}/>
-      </div>
+      <TeamLogo team={awayTeam} />
+      <p>{game.score.away} - {game.score.home}</p>
+      <TeamLogo team={homeTeam} />
     </div>
 
     <div className='details'>

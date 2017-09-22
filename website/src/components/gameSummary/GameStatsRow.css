@@ -1,0 +1,14 @@
+.game-stats-row p {
+  padding: 6px 0;
+  color: #302205; /* $secondary-black */
+  font-size: 14px;
+  font-family: 'Merriweather';
+}
+
+.game-stats-header-row {
+  font-weight: bold;
+}
+
+.game-stats-row:not(.game-stats-header-row) p:first-of-type {
+  padding-left: 20px;
+}
