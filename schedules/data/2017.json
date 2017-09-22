@@ -67,7 +67,8 @@
         7,
         14
       ]
-    }
+    },
+    "sportsReferenceGameId": "2017-09-02-notre-dame"
   },
   {
     "result": "L",
@@ -137,7 +138,8 @@
         3,
         3
       ]
-    }
+    },
+    "sportsReferenceGameId": "2017-09-09-notre-dame"
   },
   {
     "result": "W",
@@ -207,60 +209,70 @@
         3,
         7
       ]
-    }
+    },
+    "sportsReferenceGameId": "2017-09-16-boston-college"
   },
   {
     "isHomeGame": false,
     "date": "09/23/17",
     "location": "East Lansing, MI",
-    "opponentId": "MSU"
+    "opponentId": "MSU",
+    "sportsReferenceGameId": "2017-09-23-michigan-state"
   },
   {
     "isHomeGame": true,
     "date": "09/30/17",
     "location": "Notre Dame, IN",
-    "opponentId": "M-OH"
+    "opponentId": "M-OH",
+    "sportsReferenceGameId": "2017-09-30-notre-dame"
   },
   {
     "isHomeGame": false,
     "date": "10/07/17",
     "location": "Chapel Hill, NC",
-    "opponentId": "UNC"
+    "opponentId": "UNC",
+    "sportsReferenceGameId": "2017-10-07-north-carolina"
   },
   {
     "isHomeGame": true,
     "date": "10/21/17",
     "location": "Notre Dame, IN",
-    "opponentId": "USC"
+    "opponentId": "USC",
+    "sportsReferenceGameId": "2017-10-21-notre-dame"
   },
   {
     "isHomeGame": true,
     "date": "10/28/17",
     "location": "Notre Dame, IN",
-    "opponentId": "NCST"
+    "opponentId": "NCST",
+    "sportsReferenceGameId": "2017-10-28-notre-dame"
   },
   {
     "isHomeGame": true,
     "date": "11/04/17",
     "location": "Notre Dame, IN",
-    "opponentId": "WAKE"
+    "opponentId": "WAKE",
+    "sportsReferenceGameId": "2017-11-04-notre-dame"
   },
   {
     "isHomeGame": false,
     "date": "11/11/17",
     "location": "Miami, FL",
-    "opponentId": "MIAMI"
+    "opponentId": "MIAMI",
+    "sportsReferenceGameId": "2017-11-11-miami-fl"
   },
   {
     "isHomeGame": true,
     "date": "11/18/17",
     "location": "Notre Dame, IN",
-    "opponentId": "NAVY"
+    "opponentId": "NAVY",
+    "sportsReferenceGameId": "2017-11-18-notre-dame"
   },
   {
     "isHomeGame": false,
     "date": "11/25/17",
     "location": "Stanford, CA",
-    "opponentId": "STAN"
+    "opponentId": "STAN",
+    "sportsReferenceGameId": "2017-11-25-stanford"
   }
 ]

@@ -5,6 +5,8 @@ var request = require('request-promise');
 
 
 const years = [
+  // '2000',
+  // '2001',
   // '2002',
   // '2003',
   // '2004',
@@ -33,16 +35,17 @@ var getHtmlForUrl = (url) => {
 }
 
 const promises = years.map(year => {
-  return getHtmlForUrl(`http://www.espn.com/college-football/team/schedule/_/id/87/year/${year}`)
+  return getHtmlForUrl(`https://www.sports-reference.com/cfb/schools/notre-dame/${year}-schedule.html`)
     .then($ => {
       const gameIds = [];
 
-      const $scores = $('.score > a');
-      $scores.each((i, $score) => {
-        const gameUrl = $($score).attr('href');
-        const gameId = gameUrl.split('//www.espn.com/ncf/recap/_/id/')[1];
-
-        gameIds.push(gameId);
+      const $games = $('#schedule tbody tr td a');
+      $games.each((i, $game) => {
+        const gameUrl = $($game).attr('href');
+        if (_.includes(gameUrl, 'boxscore')) {
+          const gameId = gameUrl.split('/cfb/boxscores/')[1].split('.html')[0];
+          gameIds.push(gameId);
+        }
       });
 
       return gameIds;
@@ -58,7 +61,7 @@ return Promise.all(promises)
       const filename = `../data/${years[i]}.json`;
       const data = require(filename);
       _.forEach(gameIds, (gameId, j) => {
-        data[j].espnGameId = Number(gameId);
+        data[j].sportsReferenceGameId = gameId;
       });
       fs.writeFileSync(filename, JSON.stringify(data, null, 2));
     });
@@ -66,5 +69,3 @@ return Promise.all(promises)
   .catch(error => {
     console.log(`Error fetching all game IDs`, error);
   });
-
-
