@@ -72,8 +72,8 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         statName='Yards Per Pass'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={stats.away['yardsPerPass']}
-        homeValue={stats.home['yardsPerPass']} />
+        awayValue={Number(stats.away['yardsPerPass']).toFixed(1)}
+        homeValue={Number(stats.home['yardsPerPass']).toFixed(1)} />
 
       <GameStatsRow
         isHeaderRow={true}
@@ -94,8 +94,8 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         statName='Yards Per Rush'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={stats.away['yardsPerRush']}
-        homeValue={stats.home['yardsPerRush']} />
+        awayValue={Number(stats.away['yardsPerRush']).toFixed(1)}
+        homeValue={Number(stats.home['yardsPerRush']).toFixed(1)} />
 
       <GameStatsRow
         isHeaderRow={true}

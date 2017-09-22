@@ -55,7 +55,7 @@ const promises = years.map(year => {
 return Promise.all(promises)
   .then(results => {
     _.forEach(results, (gameIds, i) => {
-      const filename = `./data/${years[i]}.json`;
+      const filename = `../data/${years[i]}.json`;
       const data = require(filename);
       _.forEach(gameIds, (gameId, j) => {
         data[j].espnGameId = Number(gameId);
