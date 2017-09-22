@@ -53,7 +53,8 @@
       "away": 16,
       "home": 49
     },
-    "linescores": {
+    "espnGameId": 400934573,
+    "linescore": {
       "away": [
         3,
         7,
@@ -66,8 +67,7 @@
         7,
         14
       ]
-    },
-    "espnGameId": 400934573
+    }
   },
   {
     "result": "L",
@@ -123,7 +123,8 @@
       "away": 20,
       "home": 19
     },
-    "linescores": {
+    "espnGameId": 400933845,
+    "linescore": {
       "away": [
         3,
         7,
@@ -136,8 +137,7 @@
         3,
         3
       ]
-    },
-    "espnGameId": 400933845
+    }
   },
   {
     "result": "W",
@@ -149,20 +149,6 @@
     "score": {
       "away": 49,
       "home": 20
-    },
-    "linescores": {
-      "away": [
-        7,
-        7,
-        14,
-        21
-      ],
-      "home": [
-        3,
-        7,
-        3,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -207,6 +193,20 @@
         "possession": "30:25",
         "fumbles": -1
       }
+    },
+    "linescore": {
+      "away": [
+        7,
+        7,
+        14,
+        21
+      ],
+      "home": [
+        3,
+        7,
+        3,
+        7
+      ]
     }
   },
   {

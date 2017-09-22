@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import TeamLogo from '../TeamLogo';
 import GameStats from './GameStats';
-import LineScore from './LineScore';
+import Linescore from './Linescore';
 
 import {getLongFormattedDate} from '../../utils';
 
@@ -23,7 +23,7 @@ const CompletedGameSummary = ({ game, homeTeam, awayTeam }) => (
       <p>{game.location}</p>
     </div>
 
-    <LineScore lineScores={game.linescores} homeTeam={homeTeam} awayTeam={awayTeam} />
+    <Linescore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
 
     <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
   </div>

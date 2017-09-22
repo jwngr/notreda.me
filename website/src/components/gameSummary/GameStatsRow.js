@@ -91,8 +91,8 @@ GameStatsRow.propTypes = {
   homeTeam: PropTypes.object.isRequired,
   awayValue: PropTypes.string.isRequired,
   homeValue: PropTypes.string.isRequired,
-  isHeaderRow: PropTypes.bool.isRequired,
-  reverseComparison: PropTypes.bool.isRequired,
+  isHeaderRow: PropTypes.bool,
+  reverseComparison: PropTypes.bool,
 };
 
 export default GameStatsRow;

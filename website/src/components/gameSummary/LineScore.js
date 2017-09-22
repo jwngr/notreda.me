@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './LineScore.css';
+import './Linescore.css';
 
 
-const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
-  // TODO: remove once all games have line scores
-  if (lineScores.home.length === 0) {
-    lineScores = {
+const Linescore = ({ linescore, homeTeam, awayTeam }) => {
+  // TODO: remove once all games have a linescore
+  if (linescore.home.length === 0) {
+    linescore = {
       home: [10, 7, 0, 13, 7, 3, 8, 8],
       away: [0, 7, 10, 3, 7, 3, 8, 0],
     };
@@ -26,7 +26,7 @@ const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
     <p key='abbreviation'></p>
   ];
 
-  for (let i = 0; i < lineScores.home.length; i++) {
+  for (let i = 0; i < linescore.home.length; i++) {
     let header = i + 1;
     if (header > 4) {
       header = `OT ${header - 4}`;
@@ -42,7 +42,7 @@ const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
   ];
 
   let totalAwayScore = 0;
-  lineScores.away.forEach((score, i) => {
+  linescore.away.forEach((score, i) => {
     awayTeamRowContent.push(<p key={i}>{score}</p>);
     totalAwayScore += score;
   });
@@ -55,7 +55,7 @@ const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
   ];
 
   let totalHomeScore = 0;
-  lineScores.home.forEach((score, i) => {
+  linescore.home.forEach((score, i) => {
     homeTeamRowContent.push(<p key={i}>{score}</p>);
     totalHomeScore += score;
   });
@@ -63,7 +63,7 @@ const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
   homeTeamRowContent.push(<p style={homeTeamColorStyles} key='total'>{totalHomeScore}</p>);
 
   return (
-    <div className='line-score'>
+    <div className='linescore'>
       <div>{headerRowContent}</div>
       <div className='quarter-scores'>{awayTeamRowContent}</div>
       <div className='quarter-scores'>{homeTeamRowContent}</div>
@@ -71,10 +71,10 @@ const LineScore = ({ lineScores, homeTeam, awayTeam }) => {
   );
 };
 
-LineScore.propTypes = {
-  lineScores: PropTypes.object.isRequired,
+Linescore.propTypes = {
+  linescore: PropTypes.object.isRequired,
   awayTeam: PropTypes.object.isRequired,
   homeTeam: PropTypes.object.isRequired,
 };
 
-export default LineScore;
+export default Linescore;

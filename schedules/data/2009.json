@@ -9,20 +9,6 @@
       "away": 0,
       "home": 35
     },
-    "linescores": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        21,
-        7,
-        0
-      ]
-    },
     "stats": {
       "away": {
         "firstDowns": 15,
@@ -67,7 +53,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292480087
+    "espnGameId": 292480087,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        0
+      ]
+    }
   },
   {
     "result": "L",
@@ -78,20 +78,6 @@
     "score": {
       "away": 34,
       "home": 38
-    },
-    "linescores": {
-      "away": [
-        3,
-        17,
-        0,
-        14
-      ],
-      "home": [
-        14,
-        3,
-        7,
-        14
-      ]
     },
     "stats": {
       "away": {
@@ -137,7 +123,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292550130
+    "espnGameId": 292550130,
+    "linescore": {
+      "away": [
+        3,
+        17,
+        0,
+        14
+      ],
+      "home": [
+        14,
+        3,
+        7,
+        14
+      ]
+    }
   },
   {
     "result": "W",
@@ -148,20 +148,6 @@
     "score": {
       "away": 30,
       "home": 33
-    },
-    "linescores": {
-      "away": [
-        3,
-        14,
-        6,
-        7
-      ],
-      "home": [
-        13,
-        3,
-        10,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -207,7 +193,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292620087
+    "espnGameId": 292620087,
+    "linescore": {
+      "away": [
+        3,
+        14,
+        6,
+        7
+      ],
+      "home": [
+        13,
+        3,
+        10,
+        7
+      ]
+    }
   },
   {
     "result": "W",
@@ -218,20 +218,6 @@
     "score": {
       "away": 24,
       "home": 21
-    },
-    "linescores": {
-      "away": [
-        3,
-        14,
-        0,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        0,
-        14
-      ]
     },
     "stats": {
       "away": {
@@ -277,7 +263,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292692509
+    "espnGameId": 292692509,
+    "linescore": {
+      "away": [
+        3,
+        14,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        0,
+        14
+      ]
+    }
   },
   {
     "result": "W",
@@ -288,22 +288,6 @@
     "score": {
       "away": 30,
       "home": 37
-    },
-    "linescores": {
-      "away": [
-        7,
-        10,
-        7,
-        6,
-        0
-      ],
-      "home": [
-        3,
-        13,
-        3,
-        11,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -349,7 +333,23 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292760087
+    "espnGameId": 292760087,
+    "linescore": {
+      "away": [
+        7,
+        10,
+        7,
+        6,
+        0
+      ],
+      "home": [
+        3,
+        13,
+        3,
+        11,
+        7
+      ]
+    }
   },
   {
     "result": "L",
@@ -360,20 +360,6 @@
     "score": {
       "away": 34,
       "home": 27
-    },
-    "linescores": {
-      "away": [
-        7,
-        6,
-        14,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        13
-      ]
     },
     "stats": {
       "away": {
@@ -419,7 +405,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292900087
+    "espnGameId": 292900087,
+    "linescore": {
+      "away": [
+        7,
+        6,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        13
+      ]
+    }
   },
   {
     "result": "W",
@@ -430,20 +430,6 @@
     "score": {
       "away": 16,
       "home": 20
-    },
-    "linescores": {
-      "away": [
-        2,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        3,
-        10,
-        0,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -489,7 +475,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 292970087
+    "espnGameId": 292970087,
+    "linescore": {
+      "away": [
+        2,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        3,
+        10,
+        0,
+        7
+      ]
+    }
   },
   {
     "result": "W",
@@ -500,20 +500,6 @@
     "score": {
       "away": 14,
       "home": 40
-    },
-    "linescores": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        9,
-        21,
-        3,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -559,7 +545,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 293040087
+    "espnGameId": 293040087,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        9,
+        21,
+        3,
+        7
+      ]
+    }
   },
   {
     "result": "L",
@@ -570,20 +570,6 @@
     "score": {
       "away": 23,
       "home": 21
-    },
-    "linescores": {
-      "away": [
-        7,
-        7,
-        7,
-        2
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        14
-      ]
     },
     "stats": {
       "away": {
@@ -629,7 +615,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 293110087
+    "espnGameId": 293110087,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        7,
+        2
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        14
+      ]
+    }
   },
   {
     "result": "L",
@@ -640,20 +640,6 @@
     "score": {
       "away": 22,
       "home": 27
-    },
-    "linescores": {
-      "away": [
-        0,
-        3,
-        0,
-        19
-      ],
-      "home": [
-        3,
-        7,
-        10,
-        7
-      ]
     },
     "stats": {
       "away": {
@@ -699,7 +685,21 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 293180221
+    "espnGameId": 293180221,
+    "linescore": {
+      "away": [
+        0,
+        3,
+        0,
+        19
+      ],
+      "home": [
+        3,
+        7,
+        10,
+        7
+      ]
+    }
   },
   {
     "result": "L",
@@ -710,22 +710,6 @@
     "score": {
       "away": 33,
       "home": 30
-    },
-    "linescores": {
-      "away": [
-        0,
-        10,
-        7,
-        3,
-        13
-      ],
-      "home": [
-        7,
-        7,
-        3,
-        3,
-        10
-      ]
     },
     "stats": {
       "away": {
@@ -771,7 +755,23 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 293250087
+    "espnGameId": 293250087,
+    "linescore": {
+      "away": [
+        0,
+        10,
+        7,
+        3,
+        13
+      ],
+      "home": [
+        7,
+        7,
+        3,
+        3,
+        10
+      ]
+    }
   },
   {
     "result": "L",
@@ -782,20 +782,6 @@
     "score": {
       "away": 38,
       "home": 45
-    },
-    "linescores": {
-      "away": [
-        14,
-        10,
-        7,
-        7
-      ],
-      "home": [
-        10,
-        10,
-        7,
-        18
-      ]
     },
     "stats": {
       "away": {
@@ -841,6 +827,20 @@
         "fumbles": -1
       }
     },
-    "espnGameId": 293320024
+    "espnGameId": 293320024,
+    "linescore": {
+      "away": [
+        14,
+        10,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        10,
+        7,
+        18
+      ]
+    }
   }
 ]

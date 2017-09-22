@@ -9,10 +9,6 @@
       "away": 0,
       "home": 20
     },
-    "linescores": {
-      "away": [],
-      "home": []
-    },
     "stats": {
       "away": {
         "totalYards": -1,
@@ -52,6 +48,10 @@
         "interceptionsThrown": -1,
         "possession": -1
       }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
     }
   }
 ]

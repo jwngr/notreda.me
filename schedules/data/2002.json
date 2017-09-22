@@ -9,7 +9,48 @@
       "away": 0,
       "home": 22
     },
-    "linescores": {
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "espnGameId": 222430120,
+    "linescore": {
       "away": [
         3,
         6,
@@ -22,6 +63,17 @@
         0,
         0
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/07/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "PUR",
+    "score": {
+      "away": 17,
+      "home": 24
     },
     "stats": {
       "away": {
@@ -63,19 +115,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222430120
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "09/07/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "PUR",
-    "score": {
-      "away": 17,
-      "home": 24
-    },
-    "linescores": {
+    "espnGameId": 222500087,
+    "linescore": {
       "away": [
         0,
         7,
@@ -88,6 +129,17 @@
         0,
         7
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/14/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "MICH",
+    "score": {
+      "away": 23,
+      "home": 25
     },
     "stats": {
       "away": {
@@ -129,19 +181,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222500087
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "09/14/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "MICH",
-    "score": {
-      "away": 23,
-      "home": 25
-    },
-    "linescores": {
+    "espnGameId": 222570087,
+    "linescore": {
       "away": [
         7,
         0,
@@ -154,6 +195,17 @@
         0,
         9
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/21/02",
+    "location": "East Lansing, MI",
+    "opponentId": "MSU",
+    "score": {
+      "away": 21,
+      "home": 17
     },
     "stats": {
       "away": {
@@ -195,19 +247,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222570087
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "date": "09/21/02",
-    "location": "East Lansing, MI",
-    "opponentId": "MSU",
-    "score": {
-      "away": 21,
-      "home": 17
-    },
-    "linescores": {
+    "espnGameId": 222640127,
+    "linescore": {
       "away": [
         7,
         7,
@@ -220,6 +261,17 @@
         0,
         14
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/05/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "STAN",
+    "score": {
+      "away": 7,
+      "home": 31
     },
     "stats": {
       "away": {
@@ -261,19 +313,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222640127
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "10/05/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "STAN",
-    "score": {
-      "away": 7,
-      "home": 31
-    },
-    "linescores": {
+    "espnGameId": 222780087,
+    "linescore": {
       "away": [
         7,
         0,
@@ -286,6 +327,17 @@
         21,
         7
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/12/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "PITT",
+    "score": {
+      "away": 6,
+      "home": 14
     },
     "stats": {
       "away": {
@@ -327,19 +379,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222780087
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "10/12/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "PITT",
-    "score": {
-      "away": 6,
-      "home": 14
-    },
-    "linescores": {
+    "espnGameId": 222850087,
+    "linescore": {
       "away": [
         3,
         3,
@@ -352,6 +393,17 @@
         0,
         7
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/19/02",
+    "location": "Colorado Springs, CO",
+    "opponentId": "AF",
+    "score": {
+      "away": 21,
+      "home": 14
     },
     "stats": {
       "away": {
@@ -393,19 +445,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222850087
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "date": "10/19/02",
-    "location": "Colorado Springs, CO",
-    "opponentId": "AF",
-    "score": {
-      "away": 21,
-      "home": 14
-    },
-    "linescores": {
+    "espnGameId": 222922005,
+    "linescore": {
       "away": [
         7,
         7,
@@ -418,6 +459,17 @@
         7,
         0
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/26/02",
+    "location": "Tallahassee, FL",
+    "opponentId": "FSU",
+    "score": {
+      "away": 34,
+      "home": 24
     },
     "stats": {
       "away": {
@@ -459,19 +511,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222922005
-  },
-  {
-    "result": "W",
-    "isHomeGame": false,
-    "date": "10/26/02",
-    "location": "Tallahassee, FL",
-    "opponentId": "FSU",
-    "score": {
-      "away": 34,
-      "home": 24
-    },
-    "linescores": {
+    "espnGameId": 222990052,
+    "linescore": {
       "away": [
         10,
         0,
@@ -484,6 +525,17 @@
         0,
         14
       ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/02/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "BC",
+    "score": {
+      "away": 14,
+      "home": 7
     },
     "stats": {
       "away": {
@@ -525,19 +577,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 222990052
-  },
-  {
-    "result": "L",
-    "isHomeGame": true,
-    "date": "11/02/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "BC",
-    "score": {
-      "away": 14,
-      "home": 7
-    },
-    "linescores": {
+    "espnGameId": 223060087,
+    "linescore": {
       "away": [
         6,
         8,
@@ -550,6 +591,17 @@
         0,
         7
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/09/02",
+    "location": "Baltimore, MD",
+    "opponentId": "NAVY",
+    "score": {
+      "away": 23,
+      "home": 30
     },
     "stats": {
       "away": {
@@ -591,19 +643,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 223060087
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "11/09/02",
-    "location": "Baltimore, MD",
-    "opponentId": "NAVY",
-    "score": {
-      "away": 23,
-      "home": 30
-    },
-    "linescores": {
+    "espnGameId": 223132426,
+    "linescore": {
       "away": [
         2,
         7,
@@ -616,6 +657,17 @@
         16,
         0
       ]
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/23/02",
+    "location": "Notre Dame, IN",
+    "opponentId": "RUTG",
+    "score": {
+      "away": 0,
+      "home": 42
     },
     "stats": {
       "away": {
@@ -657,19 +709,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 223132426
-  },
-  {
-    "result": "W",
-    "isHomeGame": true,
-    "date": "11/23/02",
-    "location": "Notre Dame, IN",
-    "opponentId": "RUTG",
-    "score": {
-      "away": 0,
-      "home": 42
-    },
-    "linescores": {
+    "espnGameId": 223270087,
+    "linescore": {
       "away": [
         0,
         0,
@@ -682,6 +723,17 @@
         28,
         0
       ]
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/30/02",
+    "location": "Los Angeles, CA",
+    "opponentId": "USC",
+    "score": {
+      "away": 13,
+      "home": 44
     },
     "stats": {
       "away": {
@@ -723,19 +775,8 @@
         "possession": -1
       }
     },
-    "espnGameId": 223270087
-  },
-  {
-    "result": "L",
-    "isHomeGame": false,
-    "date": "11/30/02",
-    "location": "Los Angeles, CA",
-    "opponentId": "USC",
-    "score": {
-      "away": 13,
-      "home": 44
-    },
-    "linescores": {
+    "espnGameId": 223340030,
+    "linescore": {
       "away": [
         6,
         7,
@@ -748,48 +789,7 @@
         13,
         14
       ]
-    },
-    "stats": {
-      "away": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      },
-      "home": {
-        "totalYards": -1,
-        "passYards": -1,
-        "passAttempts": -1,
-        "passCompletions": -1,
-        "rushYards": -1,
-        "rushAttempts": -1,
-        "firstDowns": -1,
-        "thirdDownAttempts": -1,
-        "thirdDownConversions": -1,
-        "fourthDownAttempts": -1,
-        "fourthDownConversions": -1,
-        "penalties": -1,
-        "penaltyYards": -1,
-        "fumbles": -1,
-        "fumblesLost": -1,
-        "interceptionsThrown": -1,
-        "possession": -1
-      }
-    },
-    "espnGameId": 223340030
+    }
   },
   {
     "result": "L",
@@ -802,20 +802,6 @@
       "away": 28,
       "home": 6
     },
-    "linescores": {
-      "away": [
-        0,
-        21,
-        0,
-        7
-      ],
-      "home": [
-        3,
-        0,
-        3,
-        0
-      ]
-    },
     "stats": {
       "away": {
         "totalYards": -1,
@@ -856,6 +842,20 @@
         "possession": -1
       }
     },
-    "espnGameId": 230010087
+    "espnGameId": 230010087,
+    "linescore": {
+      "away": [
+        0,
+        21,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        3,
+        0
+      ]
+    }
   }
 ]
