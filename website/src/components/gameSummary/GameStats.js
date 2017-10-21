@@ -84,7 +84,7 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         homeValue={stats.home['rushYards']} />
 
       <GameStatsRow
-        statName='Completions-Attempts'
+        statName='Rush Attempts'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
         awayValue={stats.away['rushAttempts']}
