@@ -1,25 +1,44 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 import NavMenuContainer from '../containers/NavMenuContainer';
 import YearScheduleContainer from '../containers/YearScheduleContainer';
-import NavMenuButtonContainer from '../containers/NavMenuButtonContainer';
+
+import './Home.css';
 
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div>
+const Home = ({navMenuOpen, toggleNavMenu}) => {
+  const scheduleContainerClasses = classNames({
+    'home-container': true,
+    'nav-menu-open': navMenuOpen,
+  });
+
+  const closeNavMenuIfOpen = () => {
+    if (navMenuOpen) {
+      toggleNavMenu();
+    }
+  };
+
+  return (
+    <div>
+      <div className={scheduleContainerClasses} onClick={closeNavMenuIfOpen}>
         <YearScheduleContainer />
-        <NavMenuContainer />
-        <NavMenuButtonContainer />
       </div>
-    );
-  }
-}
+      <div>
+        <div className='nav-menu-button' onClick={toggleNavMenu}>
+          <span></span>
+        </div>
+        <NavMenuContainer />
+      </div>
+    </div>
+  );
+};
 
 Home.propTypes = {
-  children: PropTypes.any
+  children: PropTypes.any,
+  navMenuOpen: PropTypes.bool.isRequired,
+  toggleNavMenu: PropTypes.func.isRequired,
 };
 
 export default Home;

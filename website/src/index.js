@@ -8,8 +8,7 @@ import {ConnectedRouter, routerMiddleware} from 'react-router-redux';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import Home from './components/Home';
-import About from './components/About';
+import HomeContainer from './containers/HomeContainer';
 
 import './index.css';
 
@@ -42,8 +41,7 @@ ReactDOM.render((
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
-        <Route path="/about" component={About}/>
-        <Route path="/:year?/:selectedGameIndex?" component={Home}/>
+        <Route path="/:year?/:selectedGameIndex?" component={HomeContainer} />
       </Switch>
     </ConnectedRouter>
   </Provider>

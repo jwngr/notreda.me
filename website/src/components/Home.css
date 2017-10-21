@@ -1,0 +1,50 @@
+.home-container {
+  transition: transform 0.5s;
+}
+
+.home-container.nav-menu-open {
+  transform: scale(0.8);
+}
+
+/* Navigation menu button */
+.nav-menu-button {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  height: 47px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Middle line */
+.nav-menu-button > span {
+  display: inline-block;
+  width: 2rem;
+  height: calc(2rem / 7);
+  background: black;
+  border-radius: calc(2rem / 14);
+  position: relative;
+}
+
+/* Upper and lower lines (pseudo-elements of the middle line) */
+.nav-menu-button > span:before,
+.nav-menu-button > span:after {
+  display: inline-block;
+  width: 2rem;
+  height: calc(2rem / 7);
+  background: black;
+  border-radius: calc(2rem / 14);
+  position: absolute;
+  left: 0;
+  content: '';
+  transform-origin: calc(2rem / 14) center;
+}
+
+.nav-menu-button > span:before {
+  top: calc(2rem / 4);
+}
+
+.nav-menu-button > span:after {
+  top: calc(-2rem / 4);
+}

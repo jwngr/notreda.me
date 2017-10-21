@@ -9,21 +9,10 @@ import './Game.css';
 
 
 const Game = ({ game, year, index, selected }) => {
-  let prefix;
-  let opponentScore;
-  let notreDameScore;
-
   let resultContent = <p className='score'></p>;
   if ('result' in game) {
-    if (game.isHomeGame) {
-      prefix = '';
-      opponentScore = game.score.away;
-      notreDameScore = game.score.home;
-    } else {
-      prefix = '@';
-      opponentScore = game.score.home;
-      notreDameScore = game.score.away;
-    }
+    const opponentScore = game.isHomeGame ? game.score.away : game.score.home;
+    const notreDameScore = game.isHomeGame ? game.score.home : game.score.away;
 
     let result;
     if (notreDameScore > opponentScore) {
@@ -45,6 +34,8 @@ const Game = ({ game, year, index, selected }) => {
     homeGame: game.isHomeGame,
     awayGame: !game.isHomeGame
   });
+
+  let prefix = game.isHomeGame ? '' : '@';
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (

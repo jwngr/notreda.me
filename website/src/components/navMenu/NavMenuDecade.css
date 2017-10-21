@@ -1,5 +1,6 @@
 .nav-menu-decade {
-  padding-top: 5px;
+  padding: 20px;
+  width: 33%;
 }
 
 .nav-menu-decade-header {
@@ -35,17 +36,22 @@
   color: #F2F2F2;
 }
 
-.national-championship-year {
+.nav-menu-decade-years > a:hover {
+  color: #002B5B;
+  background-color: #DCDCDC;
+}
+
+.nav-menu-decade-years > .national-championship-year {
   font-weight: bold;
   color: #DCB439;
 }
 
-.selected-year {
+.nav-menu-decade-years > .selected-year {
   opacity: 0.7;
   background-color: #465510;
 }
 
-.selected-year:hover {
+.nav-menu-decade-years > .selected-year:hover {
   opacity: 0.7;
   font-weight: bold;
   color: #002B5B;

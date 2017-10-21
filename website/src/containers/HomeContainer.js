@@ -2,25 +2,26 @@ import { connect } from 'react-redux';
 
 import { toggleNavMenu } from '../actions';
 
-import NavMenuButton from '../components/navMenu/NavMenuButton';
+import Home from '../components/Home';
 
 
-const mapStateToProps = () => {
-  return {};
+const mapStateToProps = (state) => {
+  return {
+    navMenuOpen: state.navMenu.open,
+  };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClick: () => {
+    toggleNavMenu: () => {
       dispatch(toggleNavMenu());
     },
   };
 };
 
-
-const NavMenuButtonContainer = connect(
+const HomeContainer = connect(
   mapStateToProps,
   mapDispatchToProps,
-)(NavMenuButton);
+)(Home);
 
-export default NavMenuButtonContainer;
+export default HomeContainer;
