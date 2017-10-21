@@ -62,6 +62,8 @@ return Promise.all(promises)
       });
       fs.writeFileSync(filename, JSON.stringify(data, null, 2));
     });
+
+    console.log('Success!');
   })
   .catch(error => {
     console.log(`Error fetching all game IDs`, error);
