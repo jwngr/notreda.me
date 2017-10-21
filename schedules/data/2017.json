@@ -217,21 +217,213 @@
     "date": "09/23/17",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
-    "sportsReferenceGameId": "2017-09-23-michigan-state"
+    "sportsReferenceGameId": "2017-09-23-michigan-state",
+    "espnGameId": 400934575,
+    "linescore": {
+      "away": [
+        14,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        0,
+        3,
+        8
+      ]
+    },
+    "score": {
+      "home": 18,
+      "away": 38
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 355,
+        "passYards": 173,
+        "passCompletions": 14,
+        "passAttempts": 20,
+        "yardsPerPass": 8.6,
+        "interceptionsThrown": 0,
+        "rushYards": 182,
+        "rushAttempts": 40,
+        "yardsPerRush": 4.6,
+        "penalties": 6,
+        "penaltyYards": 65,
+        "fumblesLost": 0,
+        "possession": "25:57",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 496,
+        "passYards": 345,
+        "passCompletions": 32,
+        "passAttempts": 53,
+        "yardsPerPass": 6.5,
+        "interceptionsThrown": 1,
+        "rushYards": 151,
+        "rushAttempts": 32,
+        "yardsPerRush": 4.7,
+        "penalties": 9,
+        "penaltyYards": 97,
+        "fumblesLost": 2,
+        "possession": "34:03",
+        "fumbles": -1
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "09/30/17",
     "location": "Notre Dame, IN",
     "opponentId": "M-OH",
-    "sportsReferenceGameId": "2017-09-30-notre-dame"
+    "sportsReferenceGameId": "2017-09-30-notre-dame",
+    "espnGameId": 400934576,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        3,
+        0
+      ],
+      "home": [
+        28,
+        17,
+        0,
+        7
+      ]
+    },
+    "score": {
+      "home": 52,
+      "away": 17
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 377,
+        "passYards": 262,
+        "passCompletions": 19,
+        "passAttempts": 37,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 1,
+        "rushYards": 115,
+        "rushAttempts": 33,
+        "yardsPerRush": 3.5,
+        "penalties": 9,
+        "penaltyYards": 90,
+        "fumblesLost": 1,
+        "possession": "35:33",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 503,
+        "passYards": 170,
+        "passCompletions": 10,
+        "passAttempts": 23,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 0,
+        "rushYards": 333,
+        "rushAttempts": 39,
+        "yardsPerRush": 8.5,
+        "penalties": 5,
+        "penaltyYards": 60,
+        "fumblesLost": 0,
+        "possession": "24:27",
+        "fumbles": -1
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "10/07/17",
     "location": "Chapel Hill, NC",
     "opponentId": "UNC",
-    "sportsReferenceGameId": "2017-10-07-north-carolina"
+    "sportsReferenceGameId": "2017-10-07-north-carolina",
+    "espnGameId": 400934577,
+    "linescore": {
+      "away": [
+        0,
+        16,
+        10,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        3
+      ]
+    },
+    "score": {
+      "home": 10,
+      "away": 33
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 4,
+        "totalYards": 487,
+        "passYards": 146,
+        "passCompletions": 17,
+        "passAttempts": 31,
+        "yardsPerPass": 4.7,
+        "interceptionsThrown": 2,
+        "rushYards": 341,
+        "rushAttempts": 57,
+        "yardsPerRush": 6,
+        "penalties": 10,
+        "penaltyYards": 80,
+        "fumblesLost": 0,
+        "possession": "36:32",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 265,
+        "passYards": 179,
+        "passCompletions": 19,
+        "passAttempts": 42,
+        "yardsPerPass": 4.3,
+        "interceptionsThrown": 1,
+        "rushYards": 86,
+        "rushAttempts": 28,
+        "yardsPerRush": 3.1,
+        "penalties": 10,
+        "penaltyYards": 104,
+        "fumblesLost": 2,
+        "possession": "23:28",
+        "fumbles": -1
+      }
+    }
   },
   {
     "isHomeGame": true,

@@ -157,6 +157,24 @@ return Promise.all(promises).then(results => {
   results.forEach((result, i) => {
     if (result) {
       yearData[i].linescore = result.linescore;
+
+      // Determine the total score
+      const homeScore = _.reduce(result.linescore.home, (sum, n) => sum + n, 0);
+      const awayScore = _.reduce(result.linescore.away, (sum, n) => sum + n, 0);
+
+      yearData[i].score = {
+        home: homeScore,
+        away: awayScore
+      };
+
+      // Determine the game result
+      const homeTeamWon = homeScore > awayScore;
+      if (yearData[i].isHomeGame === homeTeamWon) {
+        yearData[i].result = 'W';
+      } else {
+        yearData[i].result = 'L';
+      }
+
       if ('firstDowns' in result.stats.home) {
         yearData[i].stats = result.stats;
       }
