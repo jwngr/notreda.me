@@ -26,8 +26,11 @@ const Game = ({ game, year, index, selected }) => {
       <p className='score'>{ result } { notreDameScore } - { opponentScore }</p>
     );
   } else if ('timestamp' in game) {
+    const time = ('timestamp' in game) ? format(game.timestamp, 'h:mm A') : 'TBD';
+
     lastColumnContent = (
       <div className='coverage'>
+        <p>{time}</p>
         <img
           alt={`${game.coverage} logo`}
           src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
@@ -47,12 +50,7 @@ const Game = ({ game, year, index, selected }) => {
 
   let prefix = game.isHomeGame ? '' : '@';
 
-  let date;
-  if ('timestamp' in game) {
-    date = format(game.timestamp, 'MMMM D, h:mm A');
-  } else {
-    date = format(game.date, 'MMMM D') + ', TBD';
-  }
+  let date = format(game.timestamp || game.date, 'MMMM D');
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (

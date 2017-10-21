@@ -49,8 +49,10 @@
 }
 
 .game .coverage > p {
+  width: auto;
   font-family: 'Merriweather', serif;
   font-size: 14px;
+  margin-right: 10px;
 }
 
 .game .coverage > img {
