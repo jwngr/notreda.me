@@ -8,7 +8,7 @@
   color: #302205;
 }
 
-.game img {
+.game .opponent-logo {
   height: 40px;
   width: 40px;
 }
@@ -38,6 +38,23 @@
   font-size: 22px;
   font-family: 'Bungee';
   width: 120px;
+  text-align: center;
+}
+
+.game .coverage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.game .coverage > p {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+.game .coverage > img {
+  height: 32px;
 }
 
 .game.homeGame:hover {
@@ -67,10 +84,10 @@
 
 .game .loss {
   color: #5F1709; /* $secondary-red */
-  margin-right: 9px;
+  margin-right: 8px;
 }
 
 .game .tie {
   color: #302205; /* $secondary-black */
-  margin-right: 9px;
+  margin-right: 8px;
 }

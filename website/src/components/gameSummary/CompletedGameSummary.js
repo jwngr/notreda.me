@@ -5,8 +5,6 @@ import TeamLogo from '../TeamLogo';
 import GameStats from './GameStats';
 import Linescore from './Linescore';
 
-import {getLongFormattedDate} from '../../utils';
-
 import './CompletedGameSummary.css';
 
 
@@ -16,11 +14,6 @@ const CompletedGameSummary = ({ game, homeTeam, awayTeam }) => (
       <TeamLogo team={awayTeam} />
       <p>{game.score.away} - {game.score.home}</p>
       <TeamLogo team={homeTeam} />
-    </div>
-
-    <div className='details'>
-      <p>7:45 PM, {getLongFormattedDate(game.date)}</p>
-      <p>{game.location}</p>
     </div>
 
     <Linescore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />

@@ -1,15 +1,22 @@
-// Libraries
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux'
 
-// Actions
 import * as actions from '../actions';
 
-// Reducers
 import navMenu from './navMenu';
 
+import schedule from '../resources/schedule';
+
+
 const DEFAULT_YEAR = 2017;
-const DEFAULT_SELECTED_GAME_INDEX = 0;
+
+let DEFAULT_SELECTED_GAME_INDEX = 0;
+schedule[DEFAULT_YEAR].forEach((game) => {
+  if (game.result) {
+    DEFAULT_SELECTED_GAME_INDEX++;
+  }
+});
+
 
 const rootReducer = combineReducers({
   navMenu,

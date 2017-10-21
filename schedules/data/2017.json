@@ -2,7 +2,8 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/02/17",
+    "timestamp": 1504405800000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "stats": {
       "away": {
@@ -73,7 +74,8 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/09/17",
+    "timestamp": 1504999800000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "stats": {
       "away": {
@@ -144,7 +146,8 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/16/17",
+    "timestamp": 1505590200000,
+    "coverage": "ESPN",
     "location": "Chestnut Hill, MA",
     "opponentId": "BC",
     "espnGameId": 400934574,
@@ -214,7 +217,8 @@
   },
   {
     "isHomeGame": false,
-    "date": "09/23/17",
+    "timestamp": 1506211200000,
+    "coverage": "FOX",
     "location": "East Lansing, MI",
     "opponentId": "MSU",
     "sportsReferenceGameId": "2017-09-23-michigan-state",
@@ -285,7 +289,8 @@
   },
   {
     "isHomeGame": true,
-    "date": "09/30/17",
+    "timestamp": 1506805200000,
+    "coverage": "NBCSN",
     "location": "Notre Dame, IN",
     "opponentId": "M-OH",
     "sportsReferenceGameId": "2017-09-30-notre-dame",
@@ -356,7 +361,8 @@
   },
   {
     "isHomeGame": false,
-    "date": "10/07/17",
+    "timestamp": 1507404600000,
+    "coverage": "ABC",
     "location": "Chapel Hill, NC",
     "opponentId": "UNC",
     "sportsReferenceGameId": "2017-10-07-north-carolina",
@@ -427,21 +433,24 @@
   },
   {
     "isHomeGame": true,
-    "date": "10/21/17",
+    "timestamp": 1508628600000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
     "sportsReferenceGameId": "2017-10-21-notre-dame"
   },
   {
     "isHomeGame": true,
-    "date": "10/28/17",
+    "timestamp": 1509219000000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "NCST",
     "sportsReferenceGameId": "2017-10-28-notre-dame"
   },
   {
     "isHomeGame": true,
-    "date": "11/04/17",
+    "timestamp": 1509823800000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "WAKE",
     "sportsReferenceGameId": "2017-11-04-notre-dame"
@@ -449,13 +458,15 @@
   {
     "isHomeGame": false,
     "date": "11/11/17",
+    "coverage": "TBD",
     "location": "Miami, FL",
     "opponentId": "MIAMI",
     "sportsReferenceGameId": "2017-11-11-miami-fl"
   },
   {
     "isHomeGame": true,
-    "date": "11/18/17",
+    "timestamp": 1511033400000,
+    "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
     "sportsReferenceGameId": "2017-11-18-notre-dame"
@@ -463,6 +474,7 @@
   {
     "isHomeGame": false,
     "date": "11/25/17",
+    "coverage": "TBD",
     "location": "Stanford, CA",
     "opponentId": "STAN",
     "sportsReferenceGameId": "2017-11-25-stanford"
