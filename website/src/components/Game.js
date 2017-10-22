@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React from 'react';
 import format from 'date-fns/format';
 import PropTypes from 'prop-types';
@@ -52,6 +53,12 @@ const Game = ({ game, year, index, selected }) => {
 
   let date = format(game.timestamp || game.date, 'MMMM D');
 
+  const opponentRanking = game.isHomeGame ? _.get(game, 'rankings.away.ap') : _.get(game, 'rankings.home.ap');
+  let opponentRankingContent;
+  if (opponentRanking) {
+    opponentRankingContent = <p className='opponent-ranking'>#{opponentRanking}</p>;
+  }
+
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <Link className={gameClassNames} to={`/${year}/${index + 1}/`}>
@@ -61,7 +68,11 @@ const Game = ({ game, year, index, selected }) => {
         alt={`${game.opponent.name} logo`} />
       <div>
         <p className='date'>{date}</p>
-        <p className='opponent'>{prefix} {game.opponent.name}</p>
+        <div className='opponent'>
+          <p>{prefix}</p>
+          {opponentRankingContent}
+          <p className='opponent-name'>{game.opponent.name}</p>
+        </div>
       </div>
       <p className='location'>{game.location}</p>
       {lastColumnContent}

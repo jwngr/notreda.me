@@ -26,6 +26,18 @@
   font-size: 20px;
   font-family: 'Bungee';
   width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.game .opponent-ranking {
+  font-size: 14px;
+  margin-left: 5px;
+  /*color: #444;*/
+}
+
+.game .opponent-name {
+  margin-left: 5px;
 }
 
 .game .location {

@@ -15,14 +15,34 @@
   margin-bottom: 20px;
 }
 
+.matchup-teams > div {
+  display: flex;
+  align-items: center;
+}
+
 .matchup-teams img {
   height: 80px;
   width: 80px;
   margin: 0 40px;
 }
 
-.matchup-teams p {
+.matchup-teams > div:nth-of-type(1) img {
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+.matchup-teams > div:nth-of-type(2) img {
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.matchup-teams .at-or-vs {
   font-size: 32px;
+}
+
+.matchup-teams .ranking {
+  font-size: 16px;
+  color: #777;
 }
 
 .matchup-details p {
