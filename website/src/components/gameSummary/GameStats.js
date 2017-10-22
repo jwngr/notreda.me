@@ -7,6 +7,16 @@ import './GameStats.css';
 
 
 const GameStats = ({ stats, homeTeam, awayTeam }) => {
+  // TODO: remove once all games has stats
+  if (stats.home.totalYards === -1) {
+    return (
+      <p className='stats-unavailable'>
+        Stats for this game are not yet available. If you would like to help collect historical
+        Notre Dame game stats, see <a href='https://github.com/jwngr/notreda.me/issues/1'>here</a>.
+      </p>
+    );
+  }
+
   const homeTeamColorStyles = {
     color: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
@@ -35,15 +45,15 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         statName='3rd Down Efficiency'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['thirdDownAttempts']}-${stats.away['thirdDownConversions']}`}
-        homeValue={`${stats.home['thirdDownAttempts']}-${stats.home['thirdDownConversions']}`} />
+        awayValue={`${stats.away['thirdDownAttempts']} / ${stats.away['thirdDownConversions']}`}
+        homeValue={`${stats.home['thirdDownAttempts']} / ${stats.home['thirdDownConversions']}`} />
 
       <GameStatsRow
         statName='4th Down Efficiency'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['fourthDownAttempts']}-${stats.away['fourthDownConversions']}`}
-        homeValue={`${stats.home['fourthDownAttempts']}-${stats.home['fourthDownConversions']}`} />
+        awayValue={`${stats.away['fourthDownAttempts']} / ${stats.away['fourthDownConversions']}`}
+        homeValue={`${stats.home['fourthDownAttempts']} / ${stats.home['fourthDownConversions']}`} />
 
       <GameStatsRow
         isHeaderRow={true}
@@ -62,11 +72,11 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         homeValue={stats.home['passYards']} />
 
       <GameStatsRow
-        statName='Completions-Attempts'
+        statName='Completions / Attempts'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['passCompletions']}-${stats.away['passAttempts']}`}
-        homeValue={`${stats.home['passCompletions']}-${stats.home['passAttempts']}`} />
+        awayValue={`${stats.away['passCompletions']} / ${stats.away['passAttempts']}`}
+        homeValue={`${stats.home['passCompletions']} / ${stats.home['passAttempts']}`} />
 
       <GameStatsRow
         statName='Yards Per Pass'
@@ -107,15 +117,15 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         homeValue={stats.home['interceptionsThrown'] + stats.home['fumblesLost']} />
 
       <GameStatsRow
-        statName='Fumbles-Lost'
+        statName='Fumbles - Lost'
         reverseComparison={true}
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['fumbles']}-${stats.away['fumblesLost']}`}
-        homeValue={`${stats.home['fumbles']}-${stats.home['fumblesLost']}`} />
+        awayValue={`${stats.away['fumbles']} - ${stats.away['fumblesLost']}`}
+        homeValue={`${stats.home['fumbles']} - ${stats.home['fumblesLost']}`} />
 
       <GameStatsRow
-        statName='interceptions Thrown'
+        statName='Interceptions Thrown'
         reverseComparison={true}
         awayTeam={awayTeam}
         homeTeam={homeTeam}
@@ -128,8 +138,8 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
         statName='Penalties'
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['penalties']}-${stats.away['penaltyYards']}`}
-        homeValue={`${stats.home['penalties']}-${stats.home['penaltyYards']}`} />
+        awayValue={`${stats.away['penalties']} - ${stats.away['penaltyYards']}`}
+        homeValue={`${stats.home['penalties']} - ${stats.home['penaltyYards']}`} />
 
       <GameStatsRow
         isHeaderRow={true}

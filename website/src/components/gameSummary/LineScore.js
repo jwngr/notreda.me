@@ -7,10 +7,7 @@ import './Linescore.css';
 const Linescore = ({ linescore, homeTeam, awayTeam }) => {
   // TODO: remove once all games have a linescore
   if (linescore.home.length === 0) {
-    linescore = {
-      home: [10, 7, 0, 13, 7, 3, 8, 8],
-      away: [0, 7, 10, 3, 7, 3, 8, 0],
-    };
+    return null;
   }
 
   const homeTeamColorStyles = {
