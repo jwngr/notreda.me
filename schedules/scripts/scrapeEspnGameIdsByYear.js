@@ -40,7 +40,7 @@ const promises = years.map(year => {
       const $scores = $('.score > a');
       $scores.each((i, $score) => {
         const gameUrl = $($score).attr('href');
-        const gameId = gameUrl.split('//www.espn.com/ncf/recap/_/id/')[1];
+        const gameId = gameUrl.split('/_/id/')[1];
 
         gameIds.push(gameId);
       });

@@ -437,7 +437,71 @@
     "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "USC",
-    "sportsReferenceGameId": "2017-10-21-notre-dame"
+    "sportsReferenceGameId": "2017-10-21-notre-dame",
+    "espnGameId": 400934578,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        14,
+        0
+      ],
+      "home": [
+        14,
+        14,
+        14,
+        7
+      ]
+    },
+    "score": {
+      "home": 49,
+      "away": 14
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 336,
+        "passYards": 260,
+        "passCompletions": 25,
+        "passAttempts": 36,
+        "yardsPerPass": 7.2,
+        "interceptionsThrown": 1,
+        "rushYards": 76,
+        "rushAttempts": 31,
+        "yardsPerRush": 2.5,
+        "penalties": 7,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "31:36",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 497,
+        "passYards": 120,
+        "passCompletions": 9,
+        "passAttempts": 22,
+        "yardsPerPass": 5.5,
+        "interceptionsThrown": 0,
+        "rushYards": 377,
+        "rushAttempts": 47,
+        "yardsPerRush": 8,
+        "penalties": 7,
+        "penaltyYards": 51,
+        "fumblesLost": 0,
+        "possession": "28:24",
+        "fumbles": 0
+      }
+    }
   },
   {
     "isHomeGame": true,
