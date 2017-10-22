@@ -68,7 +68,12 @@
         8
       ]
     },
-    "sportsReferenceGameId": "2005-09-03-pittsburgh"
+    "sportsReferenceGameId": "2005-09-03-pittsburgh",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    }
   },
   {
     "result": "W",
@@ -139,7 +144,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2005-09-10-michigan"
+    "sportsReferenceGameId": "2005-09-10-michigan",
+    "rankings": {
+      "home": {
+        "ap": 3
+      },
+      "away": {
+        "ap": 20
+      }
+    }
   },
   {
     "result": "L",
@@ -212,7 +225,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2005-09-17-notre-dame"
+    "sportsReferenceGameId": "2005-09-17-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 10
+      }
+    }
   },
   {
     "result": "W",
@@ -283,7 +301,12 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2005-09-24-washington"
+    "sportsReferenceGameId": "2005-09-24-washington",
+    "rankings": {
+      "away": {
+        "ap": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -354,7 +377,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2005-10-01-purdue"
+    "sportsReferenceGameId": "2005-10-01-purdue",
+    "rankings": {
+      "home": {
+        "ap": 22
+      },
+      "away": {
+        "ap": 13
+      }
+    }
   },
   {
     "result": "L",
@@ -425,7 +456,15 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2005-10-15-notre-dame"
+    "sportsReferenceGameId": "2005-10-15-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 9
+      },
+      "away": {
+        "ap": 1
+      }
+    }
   },
   {
     "result": "W",
@@ -496,7 +535,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2005-10-22-notre-dame"
+    "sportsReferenceGameId": "2005-10-22-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -567,7 +611,12 @@
         20
       ]
     },
-    "sportsReferenceGameId": "2005-11-05-notre-dame"
+    "sportsReferenceGameId": "2005-11-05-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -638,7 +687,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2005-11-12-notre-dame"
+    "sportsReferenceGameId": "2005-11-12-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -709,7 +763,12 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2005-11-19-notre-dame"
+    "sportsReferenceGameId": "2005-11-19-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "W",
@@ -780,7 +839,12 @@
         17
       ]
     },
-    "sportsReferenceGameId": "2005-11-26-stanford"
+    "sportsReferenceGameId": "2005-11-26-stanford",
+    "rankings": {
+      "away": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -852,6 +916,14 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2006-01-02-notre-dame"
+    "sportsReferenceGameId": "2006-01-02-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 4
+      }
+    }
   }
 ]

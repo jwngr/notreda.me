@@ -423,7 +423,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2008-10-11-north-carolina"
+    "sportsReferenceGameId": "2008-10-11-north-carolina",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "W",
@@ -851,7 +856,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2008-11-29-southern-california"
+    "sportsReferenceGameId": "2008-11-29-southern-california",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",

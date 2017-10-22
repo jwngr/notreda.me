@@ -139,7 +139,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2007-09-08-penn-state"
+    "sportsReferenceGameId": "2007-09-08-penn-state",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "L",
@@ -494,7 +499,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-10-13-notre-dame"
+    "sportsReferenceGameId": "2007-10-13-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 4
+      }
+    }
   },
   {
     "result": "L",
@@ -565,7 +575,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-10-20-notre-dame"
+    "sportsReferenceGameId": "2007-10-20-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 13
+      }
+    }
   },
   {
     "result": "L",

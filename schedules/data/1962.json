@@ -272,6 +272,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 3
+      }
     }
   },
   {
@@ -547,6 +552,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
     }
   }
 ]

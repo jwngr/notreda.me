@@ -283,7 +283,12 @@
         8
       ]
     },
-    "sportsReferenceGameId": "2010-09-25-notre-dame"
+    "sportsReferenceGameId": "2010-09-25-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -709,7 +714,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2010-11-13-notre-dame"
+    "sportsReferenceGameId": "2010-11-13-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "W",

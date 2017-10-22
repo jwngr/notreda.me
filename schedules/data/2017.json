@@ -141,7 +141,15 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2017-09-09-notre-dame"
+    "sportsReferenceGameId": "2017-09-09-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 24
+      },
+      "away": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "W",
@@ -357,6 +365,11 @@
         "possession": "24:27",
         "fumbles": 0
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
     }
   },
   {
@@ -428,6 +441,11 @@
         "fumblesLost": 2,
         "possession": "23:28",
         "fumbles": 3
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 21
       }
     }
   },
@@ -501,6 +519,14 @@
         "possession": "28:24",
         "fumbles": 0
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 13
+      },
+      "away": {
+        "ap": 11
+      }
     }
   },
   {
@@ -509,7 +535,15 @@
     "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "NCST",
-    "sportsReferenceGameId": "2017-10-28-notre-dame"
+    "sportsReferenceGameId": "2017-10-28-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 13
+      },
+      "away": {
+        "ap": 16
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -517,7 +551,12 @@
     "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "WAKE",
-    "sportsReferenceGameId": "2017-11-04-notre-dame"
+    "sportsReferenceGameId": "2017-11-04-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 13
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -525,7 +564,15 @@
     "coverage": "TBD",
     "location": "Miami, FL",
     "opponentId": "MIAMI",
-    "sportsReferenceGameId": "2017-11-11-miami-fl"
+    "sportsReferenceGameId": "2017-11-11-miami-fl",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 13
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -533,7 +580,12 @@
     "coverage": "NBC",
     "location": "Notre Dame, IN",
     "opponentId": "NAVY",
-    "sportsReferenceGameId": "2017-11-18-notre-dame"
+    "sportsReferenceGameId": "2017-11-18-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 13
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -541,6 +593,14 @@
     "coverage": "TBD",
     "location": "Stanford, CA",
     "opponentId": "STAN",
-    "sportsReferenceGameId": "2017-11-25-stanford"
+    "sportsReferenceGameId": "2017-11-25-stanford",
+    "rankings": {
+      "home": {
+        "ap": 22
+      },
+      "away": {
+        "ap": 13
+      }
+    }
   }
 ]

@@ -68,7 +68,12 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2011-09-03-notre-dame"
+    "sportsReferenceGameId": "2011-09-03-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 16
+      }
+    }
   },
   {
     "result": "L",
@@ -210,7 +215,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2011-09-17-notre-dame"
+    "sportsReferenceGameId": "2011-09-17-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "W",
@@ -778,7 +788,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2011-11-19-notre-dame"
+    "sportsReferenceGameId": "2011-11-19-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 24
+      }
+    }
   },
   {
     "result": "L",
@@ -849,7 +864,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2011-11-26-stanford"
+    "sportsReferenceGameId": "2011-11-26-stanford",
+    "rankings": {
+      "home": {
+        "ap": 4
+      },
+      "away": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "L",
@@ -921,6 +944,11 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2011-12-29-florida-state"
+    "sportsReferenceGameId": "2011-12-29-florida-state",
+    "rankings": {
+      "away": {
+        "ap": 25
+      }
+    }
   }
 ]

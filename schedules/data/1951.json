@@ -52,6 +52,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
     }
   },
   {
@@ -107,6 +112,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
     }
   },
   {
@@ -162,6 +172,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
     }
   },
   {
@@ -272,6 +287,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 15
+      }
     }
   },
   {
@@ -327,6 +347,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 13
+      }
     }
   },
   {
@@ -382,6 +407,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 11
+      }
     }
   },
   {
@@ -547,6 +580,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 20
+      }
     }
   }
 ]

@@ -52,6 +52,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 2
+      }
     }
   },
   {
@@ -107,6 +112,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 2
+      },
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -162,6 +175,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
     }
   },
   {
@@ -217,6 +235,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -272,6 +295,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -327,6 +355,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 17
+      },
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -382,6 +418,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      },
+      "away": {
+        "ap": 9
+      }
     }
   },
   {
@@ -437,6 +481,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      },
+      "away": {
+        "ap": 7
+      }
     }
   },
   {
@@ -492,6 +544,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
     }
   },
   {
@@ -547,6 +604,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
     }
   },
   {
@@ -602,6 +664,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 17
+      },
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -657,6 +727,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 7
+      },
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -713,6 +791,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 4
+      },
+      "away": {
+        "ap": 1
+      }
     }
   }
 ]

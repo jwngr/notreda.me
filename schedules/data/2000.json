@@ -53,7 +53,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-09-02-notre-dame"
+    "sportsReferenceGameId": "2000-09-02-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 25
+      }
+    }
   },
   {
     "result": "L",
@@ -109,7 +114,15 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-09-09-notre-dame"
+    "sportsReferenceGameId": "2000-09-09-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 23
+      },
+      "away": {
+        "ap": 1
+      }
+    }
   },
   {
     "result": "W",
@@ -165,7 +178,15 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-09-16-notre-dame"
+    "sportsReferenceGameId": "2000-09-16-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 21
+      },
+      "away": {
+        "ap": 13
+      }
+    }
   },
   {
     "result": "L",
@@ -221,7 +242,15 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-09-23-michigan-state"
+    "sportsReferenceGameId": "2000-09-23-michigan-state",
+    "rankings": {
+      "home": {
+        "ap": 23
+      },
+      "away": {
+        "ap": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -277,7 +306,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-10-07-notre-dame"
+    "sportsReferenceGameId": "2000-10-07-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 25
+      }
+    }
   },
   {
     "result": "W",
@@ -333,7 +367,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-10-14-navy"
+    "sportsReferenceGameId": "2000-10-14-navy",
+    "rankings": {
+      "home": {
+        "ap": 20
+      }
+    }
   },
   {
     "result": "W",
@@ -389,7 +428,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-10-21-west-virginia"
+    "sportsReferenceGameId": "2000-10-21-west-virginia",
+    "rankings": {
+      "away": {
+        "ap": 20
+      }
+    }
   },
   {
     "result": "W",
@@ -445,7 +489,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-10-28-notre-dame"
+    "sportsReferenceGameId": "2000-10-28-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 19
+      }
+    }
   },
   {
     "result": "W",
@@ -501,7 +550,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-11-11-notre-dame"
+    "sportsReferenceGameId": "2000-11-11-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -557,7 +611,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-11-18-rutgers"
+    "sportsReferenceGameId": "2000-11-18-rutgers",
+    "rankings": {
+      "away": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -613,7 +672,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2000-11-25-southern-california"
+    "sportsReferenceGameId": "2000-11-25-southern-california",
+    "rankings": {
+      "away": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "L",
@@ -669,6 +733,15 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "sportsReferenceGameId": "2001-01-01-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 10
+      },
+      "away": {
+        "ap": 5
+      }
     }
   }
 ]

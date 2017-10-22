@@ -53,7 +53,15 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-09-08-nebraska"
+    "sportsReferenceGameId": "2001-09-08-nebraska",
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 17
+      }
+    }
   },
   {
     "result": "L",
@@ -109,7 +117,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-09-22-notre-dame"
+    "sportsReferenceGameId": "2001-09-22-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    }
   },
   {
     "result": "L",
@@ -445,7 +458,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-11-03-notre-dame"
+    "sportsReferenceGameId": "2001-11-03-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -557,7 +575,12 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-11-24-stanford"
+    "sportsReferenceGameId": "2001-11-24-stanford",
+    "rankings": {
+      "home": {
+        "ap": 13
+      }
+    }
   },
   {
     "result": "W",

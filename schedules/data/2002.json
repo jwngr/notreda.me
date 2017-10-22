@@ -64,7 +64,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2002-08-31-maryland"
+    "sportsReferenceGameId": "2002-08-31-maryland",
+    "rankings": {
+      "away": {
+        "ap": 21
+      }
+    }
   },
   {
     "result": "W",
@@ -131,7 +136,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2002-09-07-notre-dame"
+    "sportsReferenceGameId": "2002-09-07-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    }
   },
   {
     "result": "W",
@@ -198,7 +208,15 @@
         9
       ]
     },
-    "sportsReferenceGameId": "2002-09-14-notre-dame"
+    "sportsReferenceGameId": "2002-09-14-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 20
+      },
+      "away": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -265,7 +283,12 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2002-09-21-michigan-state"
+    "sportsReferenceGameId": "2002-09-21-michigan-state",
+    "rankings": {
+      "away": {
+        "ap": 12
+      }
+    }
   },
   {
     "result": "W",
@@ -332,7 +355,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2002-10-05-notre-dame"
+    "sportsReferenceGameId": "2002-10-05-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -399,7 +427,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2002-10-12-notre-dame"
+    "sportsReferenceGameId": "2002-10-12-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -466,7 +499,15 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2002-10-19-air-force"
+    "sportsReferenceGameId": "2002-10-19-air-force",
+    "rankings": {
+      "home": {
+        "ap": 18
+      },
+      "away": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -533,7 +574,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2002-10-26-florida-state"
+    "sportsReferenceGameId": "2002-10-26-florida-state",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -600,7 +649,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2002-11-02-notre-dame"
+    "sportsReferenceGameId": "2002-11-02-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    }
   },
   {
     "result": "W",
@@ -667,7 +721,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2002-11-09-navy"
+    "sportsReferenceGameId": "2002-11-09-navy",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -734,7 +793,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2002-11-23-notre-dame"
+    "sportsReferenceGameId": "2002-11-23-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "L",
@@ -801,7 +865,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2002-11-30-southern-california"
+    "sportsReferenceGameId": "2002-11-30-southern-california",
+    "rankings": {
+      "home": {
+        "ap": 6
+      },
+      "away": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "L",
@@ -869,6 +941,14 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2003-01-01-north-carolina-state"
+    "sportsReferenceGameId": "2003-01-01-north-carolina-state",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 17
+      }
+    }
   }
 ]

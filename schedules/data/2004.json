@@ -139,7 +139,12 @@
         21
       ]
     },
-    "sportsReferenceGameId": "2004-09-11-notre-dame"
+    "sportsReferenceGameId": "2004-09-11-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -352,7 +357,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2004-10-02-notre-dame"
+    "sportsReferenceGameId": "2004-10-02-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "W",
@@ -565,7 +575,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2004-10-23-notre-dame"
+    "sportsReferenceGameId": "2004-10-23-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 24
+      }
+    }
   },
   {
     "result": "W",
@@ -636,7 +651,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2004-11-06-tennessee"
+    "sportsReferenceGameId": "2004-11-06-tennessee",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "L",
@@ -707,7 +727,12 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2004-11-13-notre-dame"
+    "sportsReferenceGameId": "2004-11-13-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 24
+      }
+    }
   },
   {
     "result": "L",
@@ -778,7 +803,12 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2004-11-27-southern-california"
+    "sportsReferenceGameId": "2004-11-27-southern-california",
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
+    }
   },
   {
     "result": "L",

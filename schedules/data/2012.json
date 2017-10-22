@@ -139,7 +139,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2012-09-08-notre-dame"
+    "sportsReferenceGameId": "2012-09-08-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "W",
@@ -210,7 +215,15 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2012-09-15-michigan-state"
+    "sportsReferenceGameId": "2012-09-15-michigan-state",
+    "rankings": {
+      "home": {
+        "ap": 10
+      },
+      "away": {
+        "ap": 20
+      }
+    }
   },
   {
     "result": "W",
@@ -281,7 +294,15 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2012-09-22-notre-dame"
+    "sportsReferenceGameId": "2012-09-22-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "W",
@@ -352,7 +373,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2012-10-06-notre-dame"
+    "sportsReferenceGameId": "2012-10-06-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -425,7 +451,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2012-10-13-notre-dame"
+    "sportsReferenceGameId": "2012-10-13-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 7
+      },
+      "away": {
+        "ap": 17
+      }
+    }
   },
   {
     "result": "W",
@@ -496,7 +530,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2012-10-20-notre-dame"
+    "sportsReferenceGameId": "2012-10-20-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",
@@ -567,7 +606,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2012-10-27-oklahoma"
+    "sportsReferenceGameId": "2012-10-27-oklahoma",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",
@@ -640,7 +687,12 @@
         9
       ]
     },
-    "sportsReferenceGameId": "2012-11-03-notre-dame"
+    "sportsReferenceGameId": "2012-11-03-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    }
   },
   {
     "result": "W",
@@ -711,7 +763,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2012-11-10-boston-college"
+    "sportsReferenceGameId": "2012-11-10-boston-college",
+    "rankings": {
+      "away": {
+        "ap": 4
+      }
+    }
   },
   {
     "result": "W",
@@ -782,7 +839,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2012-11-17-notre-dame"
+    "sportsReferenceGameId": "2012-11-17-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 3
+      }
+    }
   },
   {
     "result": "W",
@@ -853,7 +915,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2012-11-24-southern-california"
+    "sportsReferenceGameId": "2012-11-24-southern-california",
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
+    }
   },
   {
     "result": "L",
@@ -925,6 +992,14 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-01-07-alabama"
+    "sportsReferenceGameId": "2013-01-07-alabama",
+    "rankings": {
+      "home": {
+        "ap": 1
+      },
+      "away": {
+        "ap": 2
+      }
+    }
   }
 ]

@@ -66,7 +66,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2003-09-06-notre-dame"
+    "sportsReferenceGameId": "2003-09-06-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 19
+      }
+    }
   },
   {
     "result": "L",
@@ -133,7 +138,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2003-09-13-michigan"
+    "sportsReferenceGameId": "2003-09-13-michigan",
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "L",
@@ -267,7 +280,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2003-09-27-purdue"
+    "sportsReferenceGameId": "2003-09-27-purdue",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "W",
@@ -334,7 +352,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2003-10-11-pittsburgh"
+    "sportsReferenceGameId": "2003-10-11-pittsburgh",
+    "rankings": {
+      "home": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "L",
@@ -401,7 +424,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2003-10-18-notre-dame"
+    "sportsReferenceGameId": "2003-10-18-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -535,7 +563,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2003-11-01-notre-dame"
+    "sportsReferenceGameId": "2003-11-01-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",

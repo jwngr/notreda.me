@@ -68,7 +68,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2009-09-05-notre-dame"
+    "sportsReferenceGameId": "2009-09-05-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    }
   },
   {
     "result": "L",
@@ -139,7 +144,12 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2009-09-12-michigan"
+    "sportsReferenceGameId": "2009-09-12-michigan",
+    "rankings": {
+      "away": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "W",
@@ -425,7 +435,15 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2009-10-17-notre-dame"
+    "sportsReferenceGameId": "2009-10-17-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 25
+      },
+      "away": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "W",
@@ -567,7 +585,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2009-10-31-notre-dame"
+    "sportsReferenceGameId": "2009-10-31-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 25
+      }
+    }
   },
   {
     "result": "L",
@@ -638,7 +661,12 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2009-11-07-notre-dame"
+    "sportsReferenceGameId": "2009-11-07-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 19
+      }
+    }
   },
   {
     "result": "L",
@@ -709,7 +737,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2009-11-14-pittsburgh"
+    "sportsReferenceGameId": "2009-11-14-pittsburgh",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "L",

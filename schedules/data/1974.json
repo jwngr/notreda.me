@@ -52,6 +52,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "away": {
+        "ap": 2
+      }
     }
   },
   {
@@ -107,6 +112,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
     }
   },
   {
@@ -162,6 +172,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 2
+      }
     }
   },
   {
@@ -217,6 +232,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "away": {
+        "ap": 7
+      }
     }
   },
   {
@@ -272,6 +292,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
     }
   },
   {
@@ -327,6 +352,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
     }
   },
   {
@@ -382,6 +412,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
     }
   },
   {
@@ -437,6 +472,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
     }
   },
   {
@@ -492,6 +532,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 17
+      }
     }
   },
   {
@@ -547,6 +595,11 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
     }
   },
   {
@@ -602,6 +655,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 6
+      },
+      "away": {
+        "ap": 5
+      }
     }
   },
   {
@@ -658,6 +719,14 @@
     "linescore": {
       "away": [],
       "home": []
+    },
+    "rankings": {
+      "home": {
+        "ap": 9
+      },
+      "away": {
+        "ap": 2
+      }
     }
   }
 ]

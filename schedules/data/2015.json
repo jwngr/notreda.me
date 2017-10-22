@@ -68,7 +68,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2015-09-05-notre-dame"
+    "sportsReferenceGameId": "2015-09-05-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -139,7 +144,12 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2015-09-12-virginia"
+    "sportsReferenceGameId": "2015-09-12-virginia",
+    "rankings": {
+      "away": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -210,7 +220,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2015-09-19-notre-dame"
+    "sportsReferenceGameId": "2015-09-19-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -281,7 +299,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2015-09-26-notre-dame"
+    "sportsReferenceGameId": "2015-09-26-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -352,7 +375,15 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2015-10-03-clemson"
+    "sportsReferenceGameId": "2015-10-03-clemson",
+    "rankings": {
+      "home": {
+        "ap": 12
+      },
+      "away": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "W",
@@ -423,7 +454,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2015-10-10-notre-dame"
+    "sportsReferenceGameId": "2015-10-10-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "W",
@@ -494,7 +530,12 @@
         17
       ]
     },
-    "sportsReferenceGameId": "2015-10-17-notre-dame"
+    "sportsReferenceGameId": "2015-10-17-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -565,7 +606,15 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2015-10-31-temple"
+    "sportsReferenceGameId": "2015-10-31-temple",
+    "rankings": {
+      "home": {
+        "ap": 21
+      },
+      "away": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -636,7 +685,12 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2015-11-07-pittsburgh"
+    "sportsReferenceGameId": "2015-11-07-pittsburgh",
+    "rankings": {
+      "away": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -707,7 +761,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2015-11-14-notre-dame"
+    "sportsReferenceGameId": "2015-11-14-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "W",
@@ -778,7 +837,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2015-11-21-notre-dame"
+    "sportsReferenceGameId": "2015-11-21-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -849,7 +913,15 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2015-11-28-stanford"
+    "sportsReferenceGameId": "2015-11-28-stanford",
+    "rankings": {
+      "home": {
+        "ap": 13
+      },
+      "away": {
+        "ap": 4
+      }
+    }
   },
   {
     "result": "L",
@@ -921,6 +993,14 @@
         9
       ]
     },
-    "sportsReferenceGameId": "2016-01-01-ohio-state"
+    "sportsReferenceGameId": "2016-01-01-ohio-state",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 7
+      }
+    }
   }
 ]

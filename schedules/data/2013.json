@@ -68,7 +68,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2013-08-31-notre-dame"
+    "sportsReferenceGameId": "2013-08-31-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "L",
@@ -139,7 +144,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-09-07-michigan"
+    "sportsReferenceGameId": "2013-09-07-michigan",
+    "rankings": {
+      "home": {
+        "ap": 17
+      },
+      "away": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -210,7 +223,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-09-14-purdue"
+    "sportsReferenceGameId": "2013-09-14-purdue",
+    "rankings": {
+      "away": {
+        "ap": 21
+      }
+    }
   },
   {
     "result": "W",
@@ -281,7 +299,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-09-21-notre-dame"
+    "sportsReferenceGameId": "2013-09-21-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "L",
@@ -352,7 +375,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-09-28-notre-dame"
+    "sportsReferenceGameId": "2013-09-28-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 22
+      },
+      "away": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -423,7 +454,12 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2013-10-05-notre-dame"
+    "sportsReferenceGameId": "2013-10-05-notre-dame",
+    "rankings": {
+      "away": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "W",
@@ -707,7 +743,12 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2013-11-09-pittsburgh"
+    "sportsReferenceGameId": "2013-11-09-pittsburgh",
+    "rankings": {
+      "away": {
+        "ap": 24
+      }
+    }
   },
   {
     "result": "W",
@@ -849,7 +890,15 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2013-11-30-stanford"
+    "sportsReferenceGameId": "2013-11-30-stanford",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 25
+      }
+    }
   },
   {
     "result": "W",
@@ -921,6 +970,11 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2013-12-28-notre-dame"
+    "sportsReferenceGameId": "2013-12-28-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 25
+      }
+    }
   }
 ]

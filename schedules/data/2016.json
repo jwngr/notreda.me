@@ -70,7 +70,12 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2016-09-04-texas"
+    "sportsReferenceGameId": "2016-09-04-texas",
+    "rankings": {
+      "away": {
+        "ap": 10
+      }
+    }
   },
   {
     "result": "W",
@@ -141,7 +146,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2016-09-10-notre-dame"
+    "sportsReferenceGameId": "2016-09-10-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "L",
@@ -212,7 +222,15 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2016-09-17-notre-dame"
+    "sportsReferenceGameId": "2016-09-17-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 18
+      },
+      "away": {
+        "ap": 12
+      }
+    }
   },
   {
     "result": "L",
@@ -851,6 +869,11 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2016-11-26-southern-california"
+    "sportsReferenceGameId": "2016-11-26-southern-california",
+    "rankings": {
+      "home": {
+        "ap": 12
+      }
+    }
   }
 ]

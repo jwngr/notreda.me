@@ -68,7 +68,12 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2014-08-30-notre-dame"
+    "sportsReferenceGameId": "2014-08-30-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 17
+      }
+    }
   },
   {
     "result": "W",
@@ -139,7 +144,12 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2014-09-06-notre-dame"
+    "sportsReferenceGameId": "2014-09-06-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -210,7 +220,12 @@
         6
       ]
     },
-    "sportsReferenceGameId": "2014-09-13-notre-dame"
+    "sportsReferenceGameId": "2014-09-13-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -281,7 +296,12 @@
         12
       ]
     },
-    "sportsReferenceGameId": "2014-09-27-syracuse"
+    "sportsReferenceGameId": "2014-09-27-syracuse",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -352,7 +372,15 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2014-10-04-notre-dame"
+    "sportsReferenceGameId": "2014-10-04-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 9
+      },
+      "away": {
+        "ap": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -423,7 +451,12 @@
         15
       ]
     },
-    "sportsReferenceGameId": "2014-10-11-notre-dame"
+    "sportsReferenceGameId": "2014-10-11-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -494,7 +527,15 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2014-10-18-florida-state"
+    "sportsReferenceGameId": "2014-10-18-florida-state",
+    "rankings": {
+      "home": {
+        "ap": 2
+      },
+      "away": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",
@@ -565,7 +606,12 @@
         8
       ]
     },
-    "sportsReferenceGameId": "2014-11-01-navy"
+    "sportsReferenceGameId": "2014-11-01-navy",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -636,7 +682,15 @@
         21
       ]
     },
-    "sportsReferenceGameId": "2014-11-08-arizona-state"
+    "sportsReferenceGameId": "2014-11-08-arizona-state",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 8
+      }
+    }
   },
   {
     "result": "L",
@@ -709,7 +763,12 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2014-11-15-notre-dame"
+    "sportsReferenceGameId": "2014-11-15-notre-dame",
+    "rankings": {
+      "home": {
+        "ap": 15
+      }
+    }
   },
   {
     "result": "L",
@@ -923,6 +982,11 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2014-12-30-louisiana-state"
+    "sportsReferenceGameId": "2014-12-30-louisiana-state",
+    "rankings": {
+      "away": {
+        "ap": 22
+      }
+    }
   }
 ]
