@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 import GameContainer from '../containers/GameContainer';
 import GameSummaryContainer from '../containers/GameSummaryContainer';
@@ -23,16 +24,42 @@ const YearSchedule = ({selectedYear}) => {
     );
   });
 
+  const previousYear = selectedYear - 1;
+  const nextYear = selectedYear + 1;
+
   return (
-    <div className='master-container'>
-      <div className='schedule-container'>
-        <p className='current-year'>Fighting Irish { selectedYear }</p>
-        <div className='schedule'>
-          { gamesContent }
-        </div>
+    <div>
+      <div className='current-year-container'>
+        <p className='current-year'>{`Notre Dame Football ${selectedYear}`}</p>
       </div>
 
-      <GameSummaryContainer />
+      <Link className='previous-year-container' to={`/${previousYear}`}>
+        <div className='previous-year'>
+          <span>{String(previousYear)[0]}</span>
+          <span>{String(previousYear)[1]}</span>
+          <span>{String(previousYear)[2]}</span>
+          <span>{String(previousYear)[3]}</span>
+        </div>
+      </Link>
+
+      <Link className='next-year-container' to={`/${nextYear}`}>
+        <div className='next-year'>
+          <span>{String(nextYear)[0]}</span>
+          <span>{String(nextYear)[1]}</span>
+          <span>{String(nextYear)[2]}</span>
+          <span>{String(nextYear)[3]}</span>
+        </div>
+      </Link>
+
+      <div className='master-container'>
+        <div className='schedule-container'>
+          <div className='schedule'>
+            { gamesContent }
+          </div>
+        </div>
+
+        <GameSummaryContainer />
+      </div>
     </div>
   );
 };

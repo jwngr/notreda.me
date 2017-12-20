@@ -49,14 +49,14 @@ const Game = ({ game, year, index, selected }) => {
     awayGame: !game.isHomeGame
   });
 
-  let prefix = game.isHomeGame ? '' : '@';
+  let awayGamePrefix = game.isHomeGame ? null : <span className='away-game-prefix'>@</span>;
 
   let date = format(game.timestamp || game.date, 'MMMM D');
 
   const opponentRanking = game.isHomeGame ? _.get(game, 'rankings.away.ap') : _.get(game, 'rankings.home.ap');
   let opponentRankingContent;
   if (opponentRanking) {
-    opponentRankingContent = <p className='opponent-ranking'>#{opponentRanking}</p>;
+    opponentRankingContent = <span className='opponent-ranking'>#{opponentRanking}</span>;
   }
 
   // TODO: remove hard-coded URL when all teams have a logo URL
@@ -69,9 +69,9 @@ const Game = ({ game, year, index, selected }) => {
       <div>
         <p className='date'>{date}</p>
         <div className='opponent'>
-          <p>{prefix}</p>
+          {awayGamePrefix}
           {opponentRankingContent}
-          <p className='opponent-name'>{game.opponent.name}</p>
+          <span className='opponent-name'>{game.opponent.name}</span>
         </div>
       </div>
       <p className='location'>{game.location}</p>

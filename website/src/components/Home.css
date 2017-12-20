@@ -1,5 +1,9 @@
 .home-container {
   transition: transform 0.5s;
+  margin: 28px;
+  padding: 24px;
+  border: solid 3px #302205;
+  background-color: rgba(220, 180, 57, 0.4);
 }
 
 .home-container.nav-menu-open {
@@ -9,8 +13,8 @@
 /* Navigation menu button */
 .nav-menu-button {
   position: absolute;
-  top: 7px;
-  right: 10px;
+  top: 40px;
+  right: 40px;
   height: 47px;
   padding: 10px;
   cursor: pointer;

@@ -1,0 +1,44 @@
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.team-layout-away img {
+  margin-left: 8px;
+  margin-right: 20px;
+  order: 1;
+}
+
+.team-layout-home img {
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.team-name-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+}
+
+.team-layout-away .team-name-container {
+  text-align: right;
+}
+
+.team-name {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team-ranking {
+  font-size: 12px;
+  color: #777;
+}
+
+.team-nickname {
+  font-size: 20px;
+}
+
+.team-record {
+  font-size: 12px;
+  color: #777;
+}

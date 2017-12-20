@@ -1,9 +1,8 @@
 .game {
   display: flex;
-  height: 60px;
+  height: 52px;
   align-items: center;
   justify-content: space-around;
-  margin: 0 25px;
   text-decoration: none;
   color: #302205;
 }
@@ -22,6 +21,10 @@
   font-family: 'Merriweather', serif;
 }
 
+.game .away-game-prefix {
+  margin-right: 5px;
+}
+
 .game .opponent {
   font-size: 20px;
   font-family: 'Bungee';
@@ -32,12 +35,8 @@
 
 .game .opponent-ranking {
   font-size: 14px;
-  margin-left: 5px;
+  margin-right: 5px;
   /*color: #444;*/
-}
-
-.game .opponent-name {
-  margin-left: 5px;
 }
 
 .game .location {

@@ -1,6 +1,7 @@
 .linescore {
   font-family: 'Bungee';
-  margin-top: 20px;
+  margin-right: 20px;
+  border: solid 3px #302205; /* secondary-black */
 }
 
 .linescore > div {
@@ -10,14 +11,8 @@
   color: #302205; /* $secondary-black */
 }
 
-/* Quarter indicators */
-.linescore > div:first-of-type {
-  opacity: 0.7;
-  font-size: 14px;
-}
-
 .linescore > div > p {
-  width: 50px;
+  width: 40px;
   padding: 6px 0;
 }
 
@@ -35,7 +30,21 @@
   border-right: solid 2px #302205; /* $secondary-black */
 }
 
+/* All scores */
+.linescore > div > p:not(:first-of-type) {
+  margin-right: 4px;
+}
+
 /* Total scores */
 .linescore > div.quarter-scores > p:last-of-type {
   border-left: solid 2px #302205; /* $secondary-black */
+}
+
+/* Quarter indicators */
+.linescore > div:first-of-type > p:not(:first-of-type) {
+  font-size: 14px;
+  margin: -16px 4px 0 0;
+  background-color: #5AABBC; /* $primary-blue */
+  border: solid 3px #302205; /* $secondary-black */
+  color: #EFEFEF;
 }

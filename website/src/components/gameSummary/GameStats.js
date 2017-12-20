@@ -18,16 +18,16 @@ const GameStats = ({ stats, homeTeam, awayTeam }) => {
   }
 
   const homeTeamColorStyles = {
-    color: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
+    backgroundColor: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
 
   const awayTeamColorStyles = {
-    color: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
+    backgroundColor: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
   };
 
   return (
     <div className='game-stats'>
-      <div className='game-stats-row table-header'>
+      <div className='table-header'>
         <p></p>
         <p style={awayTeamColorStyles}>{ awayTeam.nickname }</p>
         <p style={homeTeamColorStyles}>{ homeTeam.nickname }</p>

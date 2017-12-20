@@ -1,20 +1,31 @@
-.nav-menu-decade {
-  padding: 20px;
+.nav-menu-decade-container {
+  padding: 20px 8px;
   width: 33%;
 }
 
+.nav-menu-decade {
+  padding: 8px;
+  background-color: rgba(220, 180, 57, 0.4);
+  border: solid 3px #302205;
+}
+
 .nav-menu-decade-header {
+  margin-top: -28px;
   text-align: center;
 }
 
 .nav-menu-decade-header p {
-  top: -4px;
-  margin: 10px;
-  display: inline;
-  position: relative;
-  font-size: 28px;
-  font-family: 'Merriweather', serif;
-  color: #F2F2F2;
+  font-family: 'Bungee';
+  font-size: 20px;
+  color: #EFEFEF;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #5AABBC; /* $primary-blue */
+  border: solid 3px #302205;
+}
+
+.nav-menu-decade-header p span {
+  font-size: 16px;
 }
 
 .nav-menu-decade-header > svg {
@@ -33,7 +44,7 @@
   padding: 10px 0;
   text-align: center;
   text-decoration: none;
-  color: #F2F2F2;
+  color: #302205;
 }
 
 .nav-menu-decade-years > a:hover {

@@ -4,12 +4,51 @@
 
 .schedule-container {
   width: 50%;
+  margin-right: 12px;
+}
+
+.current-year-container {
+  margin: -48px 0 10px 0;
+  text-align: center;
 }
 
 .current-year {
-  font-family: 'Bungee Shade';
-  font-size: 40px;
-  color: #5AABBC; /* $primary-blue */
-  padding: 25px;
+  font-family: 'Bungee';
+  font-size: 32px;
+  color: #EFEFEF;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #5AABBC; /* $primary-blue */
+  border: solid 3px #302205;
+}
+
+.previous-year-container,
+.next-year-container {
+  position: absolute;
+  top: calc(50% - 60px);
+  text-decoration: none;
   text-align: center;
+}
+
+.previous-year-container {
+  left: 8px;
+}
+
+.next-year-container {
+  right: 8px;
+}
+
+.previous-year,
+.next-year {
+  font-family: 'Bungee';
+  font-size: 20px;
+  padding: 8px;
+  color: #EFEFEF;
+  background-color: #5AABBC; /* $primary-blue */
+  border: solid 3px #302205;
+}
+
+.previous-year span,
+.next-year span {
+  display: block;
 }

@@ -34,12 +34,14 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   });
 
   return (
-    <div className='nav-menu-decade'>
-      <div className='nav-menu-decade-header'>
-        <p>{startingYear}s</p>
-      </div>
-      <div className='nav-menu-decade-years'>
-        {decadeContent}
+    <div className='nav-menu-decade-container'>
+      <div className='nav-menu-decade'>
+        <div className='nav-menu-decade-header'>
+          <p>{startingYear}<span>s</span></p>
+        </div>
+        <div className='nav-menu-decade-years'>
+          {decadeContent}
+        </div>
       </div>
     </div>
   );

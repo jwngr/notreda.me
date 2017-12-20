@@ -1,5 +1,6 @@
 .completed-game-summary-container {
   width: 50%;
+  margin-left: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +13,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'Bungee';
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .total-score > div {
@@ -20,26 +21,44 @@
   align-items: center;
 }
 
-.total-score img {
-  height: 60px;
-  width: 60px;
-}
-
-.total-score > div:nth-of-type(1) img {
-  margin-left: 8px;
-  margin-right: 20px;
-}
-
-.total-score > div:nth-of-type(2) img {
-  margin-left: 20px;
-  margin-right: 8px;
-}
-
 .total-score .score {
-  font-size: 50px;
+  font-size: 40px;
 }
 
-.total-score .ranking {
-  font-size: 16px;
-  color: #777;
+.linescore-and-metadata-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.game-metadata {
+  width: 200px;
+  height: 97px;
+  border: solid 3px #302205; /* $secondary-black */
+}
+
+.game-metadata-date-container {
+  margin: -7px 0 24px 0;
+  text-align: center;
+}
+
+.game-metadata > p {
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.game-metadata .game-metadata-date {
+  display: inline;
+  padding: 8px;
+  font-size: 14px;
+  font-family: 'Bungee';
+  background-color: #5AABBC; /* $primary-blue */
+  border: solid 3px #302205; /* $secondary-black */
+  color: #EFEFEF;
+}
+
+.tv-coverage {
+  height: 32px;
 }
