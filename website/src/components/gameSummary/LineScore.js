@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Linescore.css';
+import './LineScore.css';
 
 
 const Linescore = ({ linescore, homeTeam, awayTeam }) => {

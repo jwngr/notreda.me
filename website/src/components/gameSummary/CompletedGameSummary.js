@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import TeamLogo from '../TeamLogo';
 import GameStats from './GameStats';
-import Linescore from './Linescore';
+import Linescore from './LineScore';
 
 import './CompletedGameSummary.css';
 
