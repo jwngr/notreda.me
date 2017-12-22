@@ -18,12 +18,14 @@ const DEFAULT_SELECTED_GAME_INDEX = 0;
 const getYearFromQueryString = (qs) => {
   const pathTokens = qs.split('/');
 
-  let year = DEFAULT_YEAR;
   if (pathTokens.length >= 2 && pathTokens[1] !== '') {
-    year = Number(pathTokens[1]);
+    const year = Number(pathTokens[1]);
+    if (_.has(schedule, year)) {
+      return year;
+    }
   }
 
-  return _.isNaN(year) ? DEFAULT_YEAR : year;
+  return DEFAULT_YEAR;
 }
 
 const getSelectedGameIndexFromQueryString = (qs) => {
