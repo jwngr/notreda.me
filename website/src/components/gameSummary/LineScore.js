@@ -3,25 +3,22 @@ import PropTypes from 'prop-types';
 
 import './LineScore.css';
 
-
-const Linescore = ({ linescore, homeTeam, awayTeam }) => {
+const Linescore = ({linescore, homeTeam, awayTeam}) => {
   // TODO: remove once all games have a linescore
   if (linescore.home.length === 0) {
     return null;
   }
 
   const homeTeamColorStyles = {
-    color: homeTeam.color || 'blue' // TODO: remove || once all teams have a color
+    color: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
   };
 
   const awayTeamColorStyles = {
-    color: awayTeam.color || 'blue' // TODO: remove || once all teams have a color
+    color: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
   };
 
   // Header row
-  const headerRowContent = [
-    <p key='abbreviation'></p>
-  ];
+  const headerRowContent = [<p key="abbreviation" />];
 
   for (let i = 0; i < linescore.home.length; i++) {
     let header = i + 1;
@@ -31,11 +28,13 @@ const Linescore = ({ linescore, homeTeam, awayTeam }) => {
     headerRowContent.push(<p key={header}>{header}</p>);
   }
 
-  headerRowContent.push(<p key='total'>T</p>);
+  headerRowContent.push(<p key="total">T</p>);
 
   // Away team row
   const awayTeamRowContent = [
-    <p style={awayTeamColorStyles} key='abbreviation'>{awayTeam.abbreviation}</p>
+    <p style={awayTeamColorStyles} key="abbreviation">
+      {awayTeam.abbreviation}
+    </p>,
   ];
 
   let totalAwayScore = 0;
@@ -44,11 +43,17 @@ const Linescore = ({ linescore, homeTeam, awayTeam }) => {
     totalAwayScore += score;
   });
 
-  awayTeamRowContent.push(<p style={awayTeamColorStyles} key='total'>{totalAwayScore}</p>);
+  awayTeamRowContent.push(
+    <p style={awayTeamColorStyles} key="total">
+      {totalAwayScore}
+    </p>
+  );
 
   // Home team row
   const homeTeamRowContent = [
-    <p style={homeTeamColorStyles} key='abbreviation'>{homeTeam.abbreviation}</p>
+    <p style={homeTeamColorStyles} key="abbreviation">
+      {homeTeam.abbreviation}
+    </p>,
   ];
 
   let totalHomeScore = 0;
@@ -57,13 +62,17 @@ const Linescore = ({ linescore, homeTeam, awayTeam }) => {
     totalHomeScore += score;
   });
 
-  homeTeamRowContent.push(<p style={homeTeamColorStyles} key='total'>{totalHomeScore}</p>);
+  homeTeamRowContent.push(
+    <p style={homeTeamColorStyles} key="total">
+      {totalHomeScore}
+    </p>
+  );
 
   return (
-    <div className='linescore'>
+    <div className="linescore">
       <div>{headerRowContent}</div>
-      <div className='quarter-scores'>{awayTeamRowContent}</div>
-      <div className='quarter-scores'>{homeTeamRowContent}</div>
+      <div className="quarter-scores">{awayTeamRowContent}</div>
+      <div className="quarter-scores">{homeTeamRowContent}</div>
     </div>
   );
 };

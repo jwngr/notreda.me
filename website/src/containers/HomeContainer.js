@@ -1,9 +1,8 @@
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 
-import { toggleNavMenu } from '../actions';
+import {toggleNavMenu} from '../actions';
 
 import Home from '../components/Home';
-
 
 const mapStateToProps = (state) => {
   return {
@@ -19,9 +18,6 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-const HomeContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Home);
+const HomeContainer = connect(mapStateToProps, mapDispatchToProps)(Home);
 
 export default HomeContainer;

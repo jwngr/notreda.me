@@ -8,21 +8,20 @@ import teams from '../../resources/teams';
 
 import './GameSummary.css';
 
-
-const GameSummary = ({ game }) => {
+const GameSummary = ({game}) => {
   const notreDame = teams.ND;
   notreDame.abbreviation = 'ND';
 
   const homeTeam = game.isHomeGame ? notreDame : game.opponent;
   const awayTeam = game.isHomeGame ? game.opponent : notreDame;
 
-  const MainComponent = ('result' in game) ? CompletedGameSummary : FutureGameSummary;
+  const MainComponent = 'result' in game ? CompletedGameSummary : FutureGameSummary;
 
   return <MainComponent game={game} homeTeam={homeTeam} awayTeam={awayTeam} />;
 };
 
 GameSummary.propTypes = {
-  game: PropTypes.object.isRequired
+  game: PropTypes.object.isRequired,
 };
 
 export default GameSummary;

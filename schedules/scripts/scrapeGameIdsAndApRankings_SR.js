@@ -3,7 +3,6 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 var request = require('request-promise');
 
-
 const CURRENT_YEAR = 2017;
 const AP_POLL_START_YEAR = 1936;
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
@@ -16,13 +15,15 @@ var getHtmlForUrl = (url) => {
     uri: url,
     transform: (body) => {
       return cheerio.load(body);
-    }
+    },
   });
-}
+};
 
 const promises = years.map((year) => {
-  return getHtmlForUrl(`https://www.sports-reference.com/cfb/schools/notre-dame/${year}-schedule.html`)
-    .then($ => {
+  return getHtmlForUrl(
+    `https://www.sports-reference.com/cfb/schools/notre-dame/${year}-schedule.html`
+  )
+    .then(($) => {
       const gameIds = [];
       const opponentApRankings = [];
       const notreDameApRankings = [];
@@ -32,7 +33,9 @@ const promises = years.map((year) => {
         const statName = $($game).attr('data-stat');
 
         if (statName === 'date_game' && year >= SPORTS_REFERENCE_GAME_STATS_START_YEAR) {
-          const gameUrl = $($game).find('a').attr('href');
+          const gameUrl = $($game)
+            .find('a')
+            .attr('href');
           const gameId = gameUrl.split('/cfb/boxscores/')[1].split('.html')[0];
           gameIds.push(gameId);
         } else if (statName === 'school_name') {
@@ -52,13 +55,13 @@ const promises = years.map((year) => {
         notreDameApRankings,
       };
     })
-    .catch(error => {
+    .catch((error) => {
       console.log(`Error fetching game IDs and AP rankings for ${year}`, error);
     });
 });
 
 return Promise.all(promises)
-  .then(results => {
+  .then((results) => {
     _.forEach(results, (result, i) => {
       const filename = `../data/${years[i]}.json`;
       const yearData = require(filename);
@@ -101,6 +104,6 @@ return Promise.all(promises)
 
     console.log('Success!');
   })
-  .catch(error => {
+  .catch((error) => {
     console.log(`Error fetching all game IDs`, error);
   });

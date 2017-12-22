@@ -6,7 +6,6 @@ var request = require('request-promise');
 
 var teamMappings = require('./teamMappings.json');
 
-
 if (process.argv.length !== 3) {
   console.log('USAGE: node scrapeSchedule.js <output_file>');
   process.exit(1);
@@ -23,10 +22,9 @@ var getHtmlScheduleDataForYear = (year) => {
     uri: 'http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-' + year + '.html',
     transform: (body) => {
       return cheerio.load(body);
-    }
+    },
   });
-}
-
+};
 
 /**
  * Returns a list of game data for the provided year's games.
@@ -48,20 +46,24 @@ var getGamesForYear = (year) => {
 
     // Ignore the headings row
     $rows = $rows.filter(($row) => {
-      return !$row.hasClass('event-table-headings')
+      return !$row.hasClass('event-table-headings');
     });
 
     // Rows with four cells constitute an actual game
     $rows = $rows.filter(($row) => {
       var rowCells = $row.children('td');
-      return (rowCells.length === 4);
+      return rowCells.length === 4;
     });
 
     var games = _.map($rows, ($row) => {
       var rowCells = $row.children('td');
 
-      var result = $(rowCells[3]).text().trim();
-      var opponent = $(rowCells[1]).text().trim();
+      var result = $(rowCells[3])
+        .text()
+        .trim();
+      var opponent = $(rowCells[1])
+        .text()
+        .trim();
 
       var isHomeGame = _.startsWith(opponent, 'vs.');
 
@@ -84,8 +86,12 @@ var getGamesForYear = (year) => {
           isHomeGame,
           isBowlGame,
           opponent: teamMappings[opponent],
-          date: $(rowCells[0]).text().trim(),
-          location: $(rowCells[2]).text().trim()
+          date: $(rowCells[0])
+            .text()
+            .trim(),
+          location: $(rowCells[2])
+            .text()
+            .trim(),
         };
       }
     });
@@ -94,8 +100,7 @@ var getGamesForYear = (year) => {
 
     return games;
   });
-}
-
+};
 
 var years = _.range(1887, 2016);
 var promises = {};
@@ -105,57 +110,62 @@ _.forEach(years, (year) => {
     return;
   }
 
-  promises[year] = getGamesForYear(year).then((games) => {
-    return _.map(games, (game) => {
-      var numOvertimes = 0;
+  promises[year] = getGamesForYear(year)
+    .then((games) => {
+      return _.map(games, (game) => {
+        var numOvertimes = 0;
 
-      // If the game has already been played, get the results and scores
-      if (game.result[0] === 'W' || game.result[0] === 'L') {
-        var resultData = game.result.split(', ');
-        game.result = resultData[0];
-        var scores = resultData[1].split('-');
+        // If the game has already been played, get the results and scores
+        if (game.result[0] === 'W' || game.result[0] === 'L') {
+          var resultData = game.result.split(', ');
+          game.result = resultData[0];
+          var scores = resultData[1].split('-');
 
-        // Calculate the number of overtimes, if applicable
-        if (scores[1].indexOf('OT') !== -1 || scores[1].indexOf('ot') !== -1) {
-          numOvertimes = scores[1].split('(')[1][0];
-          if (numOvertimes.toUpperCase() === 'O') {
-            numOvertimes = 1;
+          // Calculate the number of overtimes, if applicable
+          if (scores[1].indexOf('OT') !== -1 || scores[1].indexOf('ot') !== -1) {
+            numOvertimes = scores[1].split('(')[1][0];
+            if (numOvertimes.toUpperCase() === 'O') {
+              numOvertimes = 1;
+            }
+            scores[1] = scores[1].split('(')[0];
           }
-          scores[1] = scores[1].split('(')[0];
+
+          // Get the home and away scores
+          if (
+            (game.result === 'W' && game.isHomeGame) ||
+            (game.result === 'L' && !game.isHomeGame)
+          ) {
+            homeTeamScore = parseInt(scores[0]);
+            awayTeamScore = parseInt(scores[1]);
+          } else {
+            homeTeamScore = parseInt(scores[1]);
+            awayTeamScore = parseInt(scores[0]);
+          }
+
+          // Add the score and number of overtimes to the game
+          game.scores = {
+            home: homeTeamScore,
+            away: awayTeamScore,
+          };
+          game.numOvertimes = numOvertimes;
+        } else {
+          // Add the time to the game
+          game.time = game.result;
         }
 
-        // Get the home and away scores
-        if ((game.result === 'W' && game.isHomeGame) || (game.result === 'L' && !game.isHomeGame)) {
-          homeTeamScore = parseInt(scores[0]);
-          awayTeamScore = parseInt(scores[1]);
-        }
-        else {
-          homeTeamScore = parseInt(scores[1]);
-          awayTeamScore = parseInt(scores[0]);
-        }
-
-        // Add the score and number of overtimes to the game
-        game.scores = {
-          home: homeTeamScore,
-          away: awayTeamScore
-        };
-        game.numOvertimes = numOvertimes;
-      } else {
-        // Add the time to the game
-        game.time = game.result;
-      }
-
-      return game;
+        return game;
+      });
+    })
+    .catch(function(error) {
+      console.log(`Error scraping ${year} schedule:`, error);
     });
-  }).catch(function(error) {
-    console.log(`Error scraping ${ year } schedule:`, error);
+});
+
+return RSVP.hash(promises)
+  .then(function(result) {
+    fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
+    console.log(`Schedule written to ${process.argv[2]}!`);
+  })
+  .catch(function(error) {
+    console.log('Failed to scrape schedule for all years:', error);
   });
-});
-
-
-return RSVP.hash(promises).then(function(result) {
-  fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
-  console.log(`Schedule written to ${ process.argv[2] }!`);
-}).catch(function(error) {
-  console.log('Failed to scrape schedule for all years:', error);
-});

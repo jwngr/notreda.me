@@ -31,20 +31,17 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Create the Redux store
-const store = createStore(
-  rootReducer,
-  applyMiddleware(...middleware),
-);
+const store = createStore(rootReducer, applyMiddleware(...middleware));
 
-
-ReactDOM.render((
+ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
         <Route path="/:year?/:selectedGameIndex?" component={HomeContainer} />
       </Switch>
     </ConnectedRouter>
-  </Provider>
-), document.getElementById('root'));
+  </Provider>,
+  document.getElementById('root')
+);
 
 registerServiceWorker();

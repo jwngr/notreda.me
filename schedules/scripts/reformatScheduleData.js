@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 const filenames = fs.readdirSync('../data');
 
-filenames.forEach(filename => {
+filenames.forEach((filename) => {
   const year = filename.split('.')[0];
   const yearData = require(`../data/${filename}`);
 

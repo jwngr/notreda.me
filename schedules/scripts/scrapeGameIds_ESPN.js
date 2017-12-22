@@ -3,7 +3,6 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 var request = require('request-promise');
 
-
 const years = [
   // '2002',
   // '2003',
@@ -28,13 +27,13 @@ var getHtmlForUrl = (url) => {
     uri: url,
     transform: (body) => {
       return cheerio.load(body);
-    }
+    },
   });
-}
+};
 
-const promises = years.map(year => {
+const promises = years.map((year) => {
   return getHtmlForUrl(`http://www.espn.com/college-football/team/schedule/_/id/87/year/${year}`)
-    .then($ => {
+    .then(($) => {
       const gameIds = [];
 
       const $scores = $('.score > a');
@@ -47,13 +46,13 @@ const promises = years.map(year => {
 
       return gameIds;
     })
-    .catch(error => {
+    .catch((error) => {
       console.log(`Error fetching game IDs for ${year}`, error);
     });
 });
 
 return Promise.all(promises)
-  .then(results => {
+  .then((results) => {
     _.forEach(results, (gameIds, i) => {
       const filename = `../data/${years[i]}.json`;
       const data = require(filename);
@@ -65,8 +64,6 @@ return Promise.all(promises)
 
     console.log('Success!');
   })
-  .catch(error => {
+  .catch((error) => {
     console.log(`Error fetching all game IDs`, error);
   });
-
-

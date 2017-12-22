@@ -5,6 +5,6 @@ export const CHANGE_ROUTER_LOCATION = '@@router/LOCATION_CHANGE';
 // Action creators
 export function toggleNavMenu() {
   return {
-    type: TOGGLE_NAV_MENU
+    type: TOGGLE_NAV_MENU,
   };
 }

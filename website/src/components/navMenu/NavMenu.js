@@ -7,7 +7,6 @@ import NavMenuDecade from './NavMenuDecade';
 
 import './NavMenu.css';
 
-
 const NavMenu = ({open, selectedYear, onClose}) => {
   const navMenuClassNames = classNames({
     'nav-menu': true,
@@ -27,9 +26,7 @@ const NavMenu = ({open, selectedYear, onClose}) => {
 
   return (
     <nav className={navMenuClassNames}>
-      <div className='nav-menu-decades'>
-        {navMenuDecadesContent}
-      </div>
+      <div className="nav-menu-decades">{navMenuDecadesContent}</div>
     </nav>
   );
 };

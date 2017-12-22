@@ -3,15 +3,14 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 var request = require('request-promise');
 
-
 var getHtmlForUrl = (url) => {
   return request({
     uri: url,
     transform: (body) => {
       return cheerio.load(body);
-    }
+    },
   });
-}
+};
 
 /**
  * Returns a list of game stats and line scores for the provided game.
@@ -20,21 +19,27 @@ var getHtmlForUrl = (url) => {
  * @return {Promise<Object>} A promise fulfilled with game stats and line scores.
  */
 var getGameStats = (gameId) => {
-  return getHtmlForUrl(`http://www.espn.com/college-football/matchup?gameId=${gameId}`)
-    .then(($) => {
+  return getHtmlForUrl(`http://www.espn.com/college-football/matchup?gameId=${gameId}`).then(
+    ($) => {
       var $statsTable = $('.team-stats-list');
 
       // Loop through each row in the stats table
       var stats = {
         away: {},
-        home: {}
+        home: {},
       };
       $statsTable.find('tr').each((i, row) => {
         var rowCells = $(row).children('td');
         if (rowCells.length !== 0) {
-          var statName = $(rowCells[0]).text().trim();
-          var awayValue = $(rowCells[1]).text().trim();
-          var homeValue = $(rowCells[2]).text().trim();
+          var statName = $(rowCells[0])
+            .text()
+            .trim();
+          var awayValue = $(rowCells[1])
+            .text()
+            .trim();
+          var homeValue = $(rowCells[2])
+            .text()
+            .trim();
 
           switch (statName) {
             case '1st Downs':
@@ -114,76 +119,85 @@ var getGameStats = (gameId) => {
       // Loop through each row in the stats table
       var linescore = {
         away: [],
-        home: []
+        home: [],
       };
-      $linescore.find('tbody').find('tr').each((i, row) => {
-        var rowCells = $(row).children('td');
+      $linescore
+        .find('tbody')
+        .find('tr')
+        .each((i, row) => {
+          var rowCells = $(row).children('td');
 
-        const homeOrAway = (linescore.away.length === 0) ? 'away' : 'home';
+          const homeOrAway = linescore.away.length === 0 ? 'away' : 'home';
 
-        _.forEach(rowCells, (rowCell, index) => {
-          // Skip first (team abbreviation) and last (total score) cells
-          if (index > 0 && index !== rowCells.length - 1) {
-            const score = Number($(rowCell).text().trim());
-            linescore[homeOrAway].push(score);
-          }
+          _.forEach(rowCells, (rowCell, index) => {
+            // Skip first (team abbreviation) and last (total score) cells
+            if (index > 0 && index !== rowCells.length - 1) {
+              const score = Number(
+                $(rowCell)
+                  .text()
+                  .trim()
+              );
+              linescore[homeOrAway].push(score);
+            }
+          });
         });
-      });
 
       return {
         stats,
-        linescore
+        linescore,
       };
-    });
-}
+    }
+  );
+};
 
 const year = 2017;
 const filename = `../data/${year}.json`;
 const yearData = require(filename);
 
 const promises = _.map(yearData, (gameData) => {
-  if (('stats' in gameData || !('espnGameId' in gameData))) {
+  if ('stats' in gameData || !('espnGameId' in gameData)) {
     // Stats already retrieved for this game
     return Promise.resolve();
   } else {
-    return getGameStats(gameData.espnGameId)
-      .catch(error => {
-        console.log(`Error scraping stats for game ${gameId}:`, error);
-      });
+    return getGameStats(gameData.espnGameId).catch((error) => {
+      console.log(`Error scraping stats for game ${gameId}:`, error);
+    });
   }
 });
 
-return Promise.all(promises).then(results => {
-  results.forEach((result, i) => {
-    if (result) {
-      yearData[i].linescore = result.linescore;
+return Promise.all(promises)
+  .then((results) => {
+    results.forEach((result, i) => {
+      if (result) {
+        yearData[i].linescore = result.linescore;
 
-      // Determine the total score
-      const homeScore = _.reduce(result.linescore.home, (sum, n) => sum + n, 0);
-      const awayScore = _.reduce(result.linescore.away, (sum, n) => sum + n, 0);
+        // Determine the total score
+        const homeScore = _.reduce(result.linescore.home, (sum, n) => sum + n, 0);
+        const awayScore = _.reduce(result.linescore.away, (sum, n) => sum + n, 0);
 
-      yearData[i].score = {
-        home: homeScore,
-        away: awayScore
-      };
+        yearData[i].score = {
+          home: homeScore,
+          away: awayScore,
+        };
 
-      // Determine the game result
-      const homeTeamWon = homeScore > awayScore;
-      if (yearData[i].isHomeGame === homeTeamWon) {
-        yearData[i].result = 'W';
-      } else {
-        yearData[i].result = 'L';
+        // Determine the game result
+        const homeTeamWon = homeScore > awayScore;
+        if (yearData[i].isHomeGame === homeTeamWon) {
+          yearData[i].result = 'W';
+        } else {
+          yearData[i].result = 'L';
+        }
+
+        if ('firstDowns' in result.stats.home) {
+          yearData[i].stats = result.stats;
+        }
       }
+    });
 
-      if ('firstDowns' in result.stats.home) {
-        yearData[i].stats = result.stats;
-      }
-    }
+    fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
+
+    console.log('Success!');
+  })
+  .catch((error) => {
+    console.log('Failed to scrape stats:', error);
   });
-
-  fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
-
-  console.log('Success!');
-}).catch((error) => {
-  console.log('Failed to scrape stats:', error);
-});

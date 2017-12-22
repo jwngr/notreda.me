@@ -6,8 +6,19 @@ import {Link} from 'react-router-dom';
 
 import './NavMenuDecade.css';
 
-const nationalChampionshipYears = [1924, 1929, 1930, 1943, 1946, 1947, 1949, 1966, 1973, 1977, 1988];
-
+const nationalChampionshipYears = [
+  1924,
+  1929,
+  1930,
+  1943,
+  1946,
+  1947,
+  1949,
+  1966,
+  1973,
+  1977,
+  1988,
+];
 
 const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   let yearsRange = _.rangeRight(startingYear, startingYear + 10);
@@ -22,8 +33,8 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     }
 
     const yearLinkClasses = classNames({
-      'selected-year': (year === selectedYear),
-      'national-championship-year': _.includes(nationalChampionshipYears, year)
+      'selected-year': year === selectedYear,
+      'national-championship-year': _.includes(nationalChampionshipYears, year),
     });
 
     return (
@@ -34,14 +45,15 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   });
 
   return (
-    <div className='nav-menu-decade-container'>
-      <div className='nav-menu-decade'>
-        <div className='nav-menu-decade-header'>
-          <p>{startingYear}<span>s</span></p>
+    <div className="nav-menu-decade-container">
+      <div className="nav-menu-decade">
+        <div className="nav-menu-decade-header">
+          <p>
+            {startingYear}
+            <span>s</span>
+          </p>
         </div>
-        <div className='nav-menu-decade-years'>
-          {decadeContent}
-        </div>
+        <div className="nav-menu-decade-years">{decadeContent}</div>
       </div>
     </div>
   );

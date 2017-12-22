@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import addDays from 'date-fns/add_days';
 import isAfter from 'date-fns/is_after';
-import { combineReducers } from 'redux';
-import { routerReducer } from 'react-router-redux';
+import {combineReducers} from 'redux';
+import {routerReducer} from 'react-router-redux';
 
 import * as actions from '../actions';
 
@@ -10,10 +10,8 @@ import navMenu from './navMenu';
 
 import schedule from '../resources/schedule';
 
-
 const DEFAULT_YEAR = 2017;
 const DEFAULT_SELECTED_GAME_INDEX = 0;
-
 
 const getYearFromQueryString = (qs) => {
   const pathTokens = qs.split('/');
@@ -26,7 +24,7 @@ const getYearFromQueryString = (qs) => {
   }
 
   return DEFAULT_YEAR;
-}
+};
 
 const getSelectedGameIndexFromQueryString = (qs) => {
   const pathTokens = qs.split('/');
@@ -36,7 +34,11 @@ const getSelectedGameIndexFromQueryString = (qs) => {
   // If the query string contains a valid game index, subtract one from it and use it
   if (pathTokens.length >= 3 && pathTokens[2] !== '') {
     const selectedGameIndex = Number(pathTokens[2]);
-    if (!_.isNaN(selectedGameIndex) && selectedGameIndex > 0 && selectedGameIndex <= schedule[year].length) {
+    if (
+      !_.isNaN(selectedGameIndex) &&
+      selectedGameIndex > 0 &&
+      selectedGameIndex <= schedule[year].length
+    ) {
       return selectedGameIndex - 1;
     }
   }
@@ -65,26 +67,25 @@ const getSelectedGameIndexFromQueryString = (qs) => {
       }
     }
   }
-}
-
+};
 
 const rootReducer = combineReducers({
   navMenu,
   router: routerReducer,
   selectedYear: (state = DEFAULT_YEAR, action) => {
     switch (action.type) {
-    case actions.CHANGE_ROUTER_LOCATION:
-      return getYearFromQueryString(action.payload.pathname);
-    default:
-      return state;
+      case actions.CHANGE_ROUTER_LOCATION:
+        return getYearFromQueryString(action.payload.pathname);
+      default:
+        return state;
     }
   },
   selectedGameIndex: (state = DEFAULT_SELECTED_GAME_INDEX, action) => {
     switch (action.type) {
-    case actions.CHANGE_ROUTER_LOCATION:
-      return getSelectedGameIndexFromQueryString(action.payload.pathname);
-    default:
-      return state;
+      case actions.CHANGE_ROUTER_LOCATION:
+        return getSelectedGameIndexFromQueryString(action.payload.pathname);
+      default:
+        return state;
     }
   },
 });

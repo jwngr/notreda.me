@@ -11,7 +11,6 @@ import schedule from '../resources/schedule';
 
 import './YearSchedule.css';
 
-
 const YearSchedule = ({selectedYear}) => {
   const gamesContent = _.map(schedule[selectedYear], (game, index) => {
     const gameClone = _.clone(game);
@@ -19,9 +18,7 @@ const YearSchedule = ({selectedYear}) => {
     gameClone.opponent = teams[game.opponentId];
     gameClone.opponent.abbreviation = game.opponentId;
 
-    return (
-      <GameContainer key={ index } index={ index } game={ gameClone } year={selectedYear} />
-    );
+    return <GameContainer key={index} index={index} game={gameClone} year={selectedYear} />;
   });
 
   const previousYear = selectedYear - 1;
@@ -29,12 +26,12 @@ const YearSchedule = ({selectedYear}) => {
 
   return (
     <div>
-      <div className='current-year-container'>
-        <p className='current-year'>{`Notre Dame Football ${selectedYear}`}</p>
+      <div className="current-year-container">
+        <p className="current-year">{`Notre Dame Football ${selectedYear}`}</p>
       </div>
 
-      <Link className='previous-year-container' to={`/${previousYear}`}>
-        <div className='previous-year'>
+      <Link className="previous-year-container" to={`/${previousYear}`}>
+        <div className="previous-year">
           <span>{String(previousYear)[0]}</span>
           <span>{String(previousYear)[1]}</span>
           <span>{String(previousYear)[2]}</span>
@@ -42,8 +39,8 @@ const YearSchedule = ({selectedYear}) => {
         </div>
       </Link>
 
-      <Link className='next-year-container' to={`/${nextYear}`}>
-        <div className='next-year'>
+      <Link className="next-year-container" to={`/${nextYear}`}>
+        <div className="next-year">
           <span>{String(nextYear)[0]}</span>
           <span>{String(nextYear)[1]}</span>
           <span>{String(nextYear)[2]}</span>
@@ -51,11 +48,9 @@ const YearSchedule = ({selectedYear}) => {
         </div>
       </Link>
 
-      <div className='master-container'>
-        <div className='schedule-container'>
-          <div className='schedule'>
-            { gamesContent }
-          </div>
+      <div className="master-container">
+        <div className="schedule-container">
+          <div className="schedule">{gamesContent}</div>
         </div>
 
         <GameSummaryContainer />
@@ -65,7 +60,7 @@ const YearSchedule = ({selectedYear}) => {
 };
 
 YearSchedule.propTypes = {
-  selectedYear: PropTypes.number.isRequired
+  selectedYear: PropTypes.number.isRequired,
 };
 
 export default YearSchedule;

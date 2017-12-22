@@ -7,7 +7,6 @@ import YearScheduleContainer from '../containers/YearScheduleContainer';
 
 import './Home.css';
 
-
 const Home = ({navMenuOpen, toggleNavMenu}) => {
   const scheduleContainerClasses = classNames({
     'home-container': true,
@@ -26,8 +25,8 @@ const Home = ({navMenuOpen, toggleNavMenu}) => {
         <YearScheduleContainer />
       </div>
       <div>
-        <div className='nav-menu-button' onClick={toggleNavMenu}>
-          <span></span>
+        <div className="nav-menu-button" onClick={toggleNavMenu}>
+          <span />
         </div>
         <NavMenuContainer />
       </div>
