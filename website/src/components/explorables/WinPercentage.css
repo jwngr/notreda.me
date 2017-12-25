@@ -16,6 +16,16 @@
   stroke: yellow;
 }
 
+.ND {
+  fill: green;
+  stroke: green;
+}
+
+.STAN {
+  fill: red;
+  stroke: red;
+}
+
 h1 {
   margin: 20px;
   text-align: center;

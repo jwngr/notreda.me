@@ -37,14 +37,21 @@ class LineChart extends Component {
       rangeY,
       ticksCountX = DEFAULT_TICKS_COUNT_X,
       ticksCountY = DEFAULT_TICKS_COUNT_Y,
+      showDataPoints = true,
     } = this.props;
 
     var domainWidth = width - margins.left - margins.right;
     var domainHeight = height - margins.top - margins.bottom;
 
     // Scales
-    const dataPointArrays = _.map(seriesData, 'values');
-    const dataPoints = _.flatten(dataPointArrays);
+    const dataPoints = [];
+    _.forEach(seriesData, (s, i) => {
+      _.forEach(s.values, (d) => {
+        d.seriesId = `series-${s.id || i}`;
+        dataPoints.push(d);
+      });
+    });
+
     if (!domainX) {
       domainX = d3.extent(dataPoints, (d) => d.x);
     }
@@ -83,7 +90,7 @@ class LineChart extends Component {
     // Chart lines
     var line = d3
       .line()
-      .curve(d3.curveStepAfter)
+      // .curve(d3.curveStepAfter)
       .x(function(d) {
         return scaleX(d.x);
       })
@@ -104,45 +111,40 @@ class LineChart extends Component {
       .attr('d', function(d) {
         return line(d.values);
       })
-      .style('stroke', function(d) {
-        if (d.id === 'ND') {
-          return 'green';
-        } else if (d.id === 'MICH') {
-          return 'blue';
-        } else {
-          return 'black';
-        }
-      })
-      .style('fill', function(d) {
-        return 'transparent';
+      .attr('class', (d, i) => {
+        return `line ${d.className} series-${d.id || i}`;
       });
 
     // Chart data points
-    g
-      .selectAll('circle')
-      .data(seriesData[0].values)
-      .enter()
-      .append('circle')
-      .attr('r', (d) => d.radius || DEFAULT_DATUM_CIRCLE_SIZE)
-      .attr('cx', (d, i) => scaleX(d.x || i))
-      .attr('cy', (d) => scaleY(d.y))
-      .attr('class', (d) => d.className)
-      .on('mouseover', (d, i) => {
-        clearTimeout(this.unsetTooltipTimeout);
+    if (showDataPoints) {
+      g
+        .selectAll('circle')
+        .data(dataPoints)
+        .enter()
+        .append('circle')
+        .attr('r', (d) => d.radius || DEFAULT_DATUM_CIRCLE_SIZE)
+        .attr('cx', (d, i) => scaleX(d.x || i))
+        .attr('cy', (d) => scaleY(d.y))
+        .attr('class', (d) => {
+          return `dot ${d.className} ${d.seriesId}`;
+        })
+        .on('mouseover', (d, i) => {
+          clearTimeout(this.unsetTooltipTimeout);
 
-        // TODO: fix tooltip positioning
-        const domNode = findDOMNode(this.chartRef);
-        const boundingRect = domNode.getBoundingClientRect();
+          // TODO: fix tooltip positioning
+          const domNode = findDOMNode(this.chartRef);
+          const boundingRect = domNode.getBoundingClientRect();
 
-        this.setTooltip({
-          x: scaleX(d.x || i) + boundingRect.left + margins.left,
-          y: scaleY(d.y) + boundingRect.top + margins.top,
-          children: d.tooltipChildren,
+          this.setTooltip({
+            x: scaleX(d.x || i) + boundingRect.left + margins.left,
+            y: scaleY(d.y) + boundingRect.top + margins.top,
+            children: d.tooltipChildren,
+          });
+        })
+        .on('mouseout', (d) => {
+          this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
         });
-      })
-      .on('mouseout', (d) => {
-        this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
-      });
+    }
 
     // Axes
     g

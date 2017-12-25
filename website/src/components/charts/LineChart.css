@@ -1,3 +1,49 @@
 .chart-background {
   fill: #f6f6f6;
 }
+
+.line {
+  fill: transparent !important;
+}
+
+.series-0 {
+  stroke: #e41a1c;
+}
+
+.series-1 {
+  stroke: #377eb8;
+}
+
+.series-2 {
+  stroke: #4daf4a;
+}
+
+.series-3 {
+  stroke: #984ea3;
+}
+
+.series-4 {
+  stroke: #ff7f00;
+}
+
+.series-5 {
+  stroke: #ffff33;
+}
+
+.series-6 {
+  stroke: #a65628;
+}
+
+.series-7 {
+  stroke: #f781bf;
+}
+
+/* TODO: update color scheme */
+
+.series-8 {
+  stroke: #f781bf;
+}
+
+.series-9 {
+  stroke: #f781bf;
+}

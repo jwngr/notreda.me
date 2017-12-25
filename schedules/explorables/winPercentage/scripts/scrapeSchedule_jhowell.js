@@ -82,7 +82,7 @@ return Promise.all([
   scrapeTeamSchedule('Oklahoma', '../data/oklahoma.json'),
   scrapeTeamSchedule('Texas', '../data/texas.json'),
   scrapeTeamSchedule('SouthernCalifornia', '../data/usc.json'),
-  scrapeTeamSchedule('Nebraska', '../data/nebraksa.json'),
+  scrapeTeamSchedule('Nebraska', '../data/nebraska.json'),
   scrapeTeamSchedule('OldDominion', '../data/oldDominion.json'),
 ]).then(() => {
   console.log('Success!');

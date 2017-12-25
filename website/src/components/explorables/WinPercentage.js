@@ -7,6 +7,16 @@ import Paragraph from './Paragraph';
 import LineChart from '../charts/LineChart';
 
 import schedule from '../../resources/schedule';
+import alabamaSchedule from '../../resources/explorables/winPercentage/alabama.json';
+import boiseStateSchedule from '../../resources/explorables/winPercentage/boiseState.json';
+import michiganSchedule from '../../resources/explorables/winPercentage/michigan.json';
+import nebraksaSchedule from '../../resources/explorables/winPercentage/nebraska.json';
+import notreDameSchedule from '../../resources/explorables/winPercentage/notreDame.json';
+import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioState.json';
+import oklahomaSchedule from '../../resources/explorables/winPercentage/oklahoma.json';
+import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
+import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
+import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
 
 import './WinPercentage.css';
 
@@ -118,16 +128,85 @@ class WinPercentage extends Component {
       }
     });
 
+    //TODO figure out where the missing six wins are?
     console.log('W:', winCount);
     console.log('L:', lossCount);
     console.log('T:', tieCount);
 
+    const teamSchedules = [
+      michiganSchedule,
+      notreDameSchedule,
+      ohioStateSchedule,
+      boiseStateSchedule,
+      alabamaSchedule,
+      oklahomaSchedule,
+      texasSchedule,
+      uscSchedule,
+      nebraksaSchedule,
+      oldDominionSchedule,
+    ];
+
+    const teamsData = _.map(teamSchedules, (schedule) => {
+      const results = {W: 0, L: 0, T: 0};
+      const data = _.map(schedule, ({date, result, oppponent}) => {
+        results[result]++;
+
+        const winPercentage = results.W / (results.W + results.L) * 100;
+
+        return {
+          x: new Date(date),
+          y: winPercentage,
+          radius: 2,
+          tooltipChildren: (
+            <div>
+              <p>
+                {result} {oppponent}
+              </p>
+              <p>Date: {format(date, 'MM/DD/YYYY')}</p>
+              <p>Win %: {winPercentage.toFixed(2)}</p>
+            </div>
+          ),
+        };
+      });
+
+      return {
+        values: data,
+      };
+    });
+
+    const ndVsMich = _.map([notreDameSchedule, michiganSchedule], (schedule) => {
+      const results = {W: 0, L: 0, T: 0};
+      const data = _.map(schedule, ({date, result, oppponent}) => {
+        results[result]++;
+
+        const winPercentage = results.W / (results.W + results.L) * 100;
+
+        return {
+          x: new Date(date),
+          y: winPercentage,
+          radius: 2,
+          tooltipChildren: (
+            <div>
+              <p>
+                {result} {oppponent}
+              </p>
+              <p>Date: {format(date, 'MM/DD/YYYY')}</p>
+              <p>Win %: {winPercentage.toFixed(2)}</p>
+            </div>
+          ),
+        };
+      });
+
+      return {
+        values: data,
+      };
+    });
+
     this.state = {
-      ndWinPercentageByGame: [
-        {id: 'ND', values: ndWinPercentageByGame},
-        {id: 'STAN', values: stanfordWinPercentageByGame},
-      ],
+      ndWinPercentageByGame: [{id: 'ND', values: ndWinPercentageByGame}],
       ndWinPercentageByYear: [{id: 'ND', values: ndWinPercentageByYear}],
+      teams: teamsData,
+      ndVsMich: ndVsMich,
     };
   }
 
@@ -204,6 +283,10 @@ class WinPercentage extends Component {
         </Paragraph>
 
         <Paragraph>So how does this graph compare to Michigan's? Let's take a look:</Paragraph>
+
+        <LineChart seriesData={this.state.teams} domainY={[0, 100]} showDataPoints={false} />
+
+        <LineChart seriesData={this.state.ndVsMich} domainY={[0, 100]} showDataPoints={false} />
       </div>
     );
   }
