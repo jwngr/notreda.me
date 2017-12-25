@@ -1,0 +1,9 @@
+.paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  margin: auto;
+  width: 600px;
+  margin-bottom: 20px;
+}

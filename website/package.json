@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
+    "d3": "^4.12.0",
     "date-fns": "^1.29.0",
     "history": "^4.7.2",
     "prop-types": "^15.5.10",
@@ -18,7 +19,8 @@
     "redux-logger": "^3.0.6",
     "typeface-bungee": "0.0.35",
     "typeface-bungee-shade": "0.0.35",
-    "typeface-merriweather": "0.0.35"
+    "typeface-merriweather": "0.0.35",
+    "victory": "^0.24.2"
   },
   "scripts": {
     "start": "react-scripts start",

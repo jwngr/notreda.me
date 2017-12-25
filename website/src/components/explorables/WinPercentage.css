@@ -1,0 +1,29 @@
+.win,
+.winning-record {
+  fill: green;
+  stroke: green;
+}
+
+.loss,
+.losing-record {
+  fill: red;
+  stroke: red;
+}
+
+.tie,
+.even-record {
+  fill: yellow;
+  stroke: yellow;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Bungee';
+}
+
+svg {
+  margin: 0 auto 20px auto;
+  display: block;
+}

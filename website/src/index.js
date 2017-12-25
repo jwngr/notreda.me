@@ -8,6 +8,9 @@ import {ConnectedRouter, routerMiddleware} from 'react-router-redux';
 
 import registerServiceWorker from './registerServiceWorker';
 
+import Victory from './components/explorables/Victory';
+import YardPoints from './components/explorables/YardPoints';
+import WinPercentage from './components/explorables/WinPercentage';
 import HomeContainer from './containers/HomeContainer';
 
 import './index.css';
@@ -37,6 +40,9 @@ ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
+        <Route path="/explorables/yard-points" component={YardPoints} />
+        <Route path="/explorables/win-percentage" component={WinPercentage} />
+        <Route path="/explorables/victory" component={Victory} />
         <Route path="/:year?/:selectedGameIndex?" component={HomeContainer} />
       </Switch>
     </ConnectedRouter>
