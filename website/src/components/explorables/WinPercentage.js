@@ -10,7 +10,7 @@ import schedule from '../../resources/schedule';
 import alabamaSchedule from '../../resources/explorables/winPercentage/alabama.json';
 import boiseStateSchedule from '../../resources/explorables/winPercentage/boiseState.json';
 import michiganSchedule from '../../resources/explorables/winPercentage/michigan.json';
-import nebraksaSchedule from '../../resources/explorables/winPercentage/nebraska.json';
+import nebraskaSchedule from '../../resources/explorables/winPercentage/nebraska.json';
 import notreDameSchedule from '../../resources/explorables/winPercentage/notreDame.json';
 import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioState.json';
 import oklahomaSchedule from '../../resources/explorables/winPercentage/oklahoma.json';
@@ -133,22 +133,23 @@ class WinPercentage extends Component {
     console.log('L:', lossCount);
     console.log('T:', tieCount);
 
-    const teamSchedules = [
-      michiganSchedule,
-      notreDameSchedule,
-      ohioStateSchedule,
-      boiseStateSchedule,
-      alabamaSchedule,
-      oklahomaSchedule,
-      texasSchedule,
-      uscSchedule,
-      nebraksaSchedule,
-      oldDominionSchedule,
-    ];
+    const teamSchedules = {
+      MICH: michiganSchedule,
+      ND: notreDameSchedule,
+      OSU: ohioStateSchedule,
+      BSU: boiseStateSchedule,
+      ALA: alabamaSchedule,
+      // OK: oklahomaSchedule,
+      // TEXT: texasSchedule,
+      // USC: uscSchedule,
+      // NEB: nebraskaSchedule,
+      // OLD: oldDominionSchedule,
+    };
 
-    const teamsData = _.map(teamSchedules, (schedule) => {
+    const teamsData = _.map(teamSchedules, (schedule, teamName) => {
       const results = {W: 0, L: 0, T: 0};
-      const data = _.map(schedule, ({date, result, oppponent}) => {
+
+      const gameData = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
         results[result]++;
 
         const winPercentage = results.W / (results.W + results.L) * 100;
@@ -156,7 +157,6 @@ class WinPercentage extends Component {
         return {
           x: new Date(date),
           y: winPercentage,
-          radius: 2,
           tooltipChildren: (
             <div>
               <p>
@@ -169,14 +169,49 @@ class WinPercentage extends Component {
         };
       });
 
+      const yearData = [];
+      const yearResults = {W: 0, L: 0, T: 0};
+      _.forEach(schedule, (season) => {
+        let currentYear;
+        _.forEach(season, ({date, result, oppponent}) => {
+          currentYear = currentYear || date.split('/')[2];
+
+          yearResults[result]++;
+        });
+
+        const seasonEndWinPercentage = yearResults.W / (yearResults.W + yearResults.L) * 100;
+
+        let record = `${yearResults.W}-${yearResults.L}`;
+        if (yearResults.T !== 0) {
+          record += `-${yearResults.T}`;
+        }
+
+        yearData.push({
+          x: new Date(currentYear),
+          y: seasonEndWinPercentage,
+          tooltipChildren: (
+            <div>
+              <p>
+                {teamName} {currentYear}
+              </p>
+              <p>Record: {record}</p>
+              <p>Win %: {seasonEndWinPercentage.toFixed(2)}</p>
+            </div>
+          ),
+        });
+      });
+
+      console.log(yearData);
+
       return {
-        values: data,
+        id: teamName,
+        values: yearData,
       };
     });
 
     const ndVsMich = _.map([notreDameSchedule, michiganSchedule], (schedule) => {
       const results = {W: 0, L: 0, T: 0};
-      const data = _.map(schedule, ({date, result, oppponent}) => {
+      const data = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
         results[result]++;
 
         const winPercentage = results.W / (results.W + results.L) * 100;
@@ -285,6 +320,12 @@ class WinPercentage extends Component {
         <Paragraph>So how does this graph compare to Michigan's? Let's take a look:</Paragraph>
 
         <LineChart seriesData={this.state.teams} domainY={[0, 100]} showDataPoints={false} />
+        <LineChart
+          seriesData={this.state.teams}
+          domainX={[new Date('1970'), new Date('2017')]}
+          domainY={[68, 82]}
+          showDataPoints={true}
+        />
 
         <LineChart seriesData={this.state.ndVsMich} domainY={[0, 100]} showDataPoints={false} />
       </div>

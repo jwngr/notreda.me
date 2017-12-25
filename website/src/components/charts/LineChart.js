@@ -47,7 +47,8 @@ class LineChart extends Component {
     const dataPoints = [];
     _.forEach(seriesData, (s, i) => {
       _.forEach(s.values, (d) => {
-        d.seriesId = `series-${s.id || i}`;
+        d.seriesIndex = i;
+        d.seriesId = s.id;
         dataPoints.push(d);
       });
     });
@@ -91,6 +92,8 @@ class LineChart extends Component {
     var line = d3
       .line()
       // .curve(d3.curveStepAfter)
+      .curve(d3.curveCatmullRom.alpha(0.5))
+      // .curve(d3.curveMonotoneX)
       .x(function(d) {
         return scaleX(d.x);
       })
@@ -108,12 +111,33 @@ class LineChart extends Component {
     teams
       .append('path')
       .attr('class', 'line')
-      .attr('d', function(d) {
+      .attr('d', (d) => {
         return line(d.values);
       })
       .attr('class', (d, i) => {
-        return `line ${d.className} series-${d.id || i}`;
+        const classNames = ['line', `series-${i}`];
+        if (typeof d.className === 'string') {
+          classNames.push(d.className);
+        }
+        if (typeof d.id !== 'undefined') {
+          classNames.push(`series-${d.id}`);
+        }
+
+        return classNames.join(' ');
       });
+
+    teams
+      .append('text')
+      .datum((d, i) => {
+        return {id: d.id || i, value: d.values[d.values.length - 1]};
+      })
+      .attr('transform', (d) => {
+        return 'translate(' + scaleX(d.value.x) + ',' + scaleY(d.value.y) + ')';
+      })
+      .attr('x', 3)
+      .attr('dy', '0.35em')
+      .style('font', '10px sans-serif')
+      .text((d) => d.id);
 
     // Chart data points
     if (showDataPoints) {
@@ -125,8 +149,19 @@ class LineChart extends Component {
         .attr('r', (d) => d.radius || DEFAULT_DATUM_CIRCLE_SIZE)
         .attr('cx', (d, i) => scaleX(d.x || i))
         .attr('cy', (d) => scaleY(d.y))
-        .attr('class', (d) => {
-          return `dot ${d.className} ${d.seriesId}`;
+        .attr('class', (d, i) => {
+          const classNames = ['dot'];
+          if (typeof d.className === 'string') {
+            classNames.push(d.className);
+          }
+          if (typeof d.seriesIndex === 'number') {
+            classNames.push(`series-${d.seriesIndex}`);
+          }
+          if (typeof d.seriesId !== 'undefined') {
+            classNames.push(`series-${d.seriesId}`);
+          }
+
+          return classNames.join(' ');
         })
         .on('mouseover', (d, i) => {
           clearTimeout(this.unsetTooltipTimeout);
@@ -136,8 +171,8 @@ class LineChart extends Component {
           const boundingRect = domNode.getBoundingClientRect();
 
           this.setTooltip({
-            x: scaleX(d.x || i) + boundingRect.left + margins.left,
-            y: scaleY(d.y) + boundingRect.top + margins.top,
+            x: scaleX(d.x || i) + window.pageXOffset + boundingRect.left + margins.left,
+            y: scaleY(d.y) + window.pageYOffset + boundingRect.top + margins.top,
             children: d.tooltipChildren,
           });
         })

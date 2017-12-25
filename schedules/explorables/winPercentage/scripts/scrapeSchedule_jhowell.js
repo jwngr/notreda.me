@@ -11,6 +11,7 @@ const scrapeTeamSchedule = async (team, filename) => {
   const games = [];
 
   const bodyHandle = await page.$('body');
+
   const tables = await bodyHandle.$$('table');
 
   // Remove the first table (legend)
@@ -19,7 +20,10 @@ const scrapeTeamSchedule = async (team, filename) => {
   // Reverse the array since it is in reverse chronological order
   tables.reverse();
 
+  // Loop through every season
   for (table of tables) {
+    const currentYearGames = [];
+
     const trs = await table.$$('tr');
 
     // Remove the first (header) and last (record) trs
@@ -30,6 +34,7 @@ const scrapeTeamSchedule = async (team, filename) => {
     year = await year.getProperty('name');
     year = await year.jsonValue();
 
+    // Loop through every game
     for (tr of trs) {
       const tds = await tr.$$('td');
 
@@ -53,19 +58,21 @@ const scrapeTeamSchedule = async (team, filename) => {
       result = await result.jsonValue();
 
       // console.log(`${date} ${result} ${opponent}`);
-      games.push({
+      currentYearGames.push({
         date,
         result,
         opponent,
       });
     }
+
+    games.push(currentYearGames);
   }
 
-  const wins = games.filter((game) => game.result === 'W');
-  const losses = games.filter((game) => game.result === 'L');
-  const ties = games.filter((game) => game.result === 'T');
+  // const wins = games.filter((game) => game.result === 'W');
+  // const losses = games.filter((game) => game.result === 'L');
+  // const ties = games.filter((game) => game.result === 'T');
 
-  console.log(wins.length, losses.length, ties.length);
+  // console.log(wins.length, losses.length, ties.length);
 
   fs.writeFileSync(filename, JSON.stringify(games, null, 2));
 
