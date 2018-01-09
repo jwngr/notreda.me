@@ -5,8 +5,12 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "d3": "^4.12.0",
+    "d3-geo": "^1.9.1",
+    "d3-scale-chromatic": "^1.1.1",
     "date-fns": "^1.29.0",
     "history": "^4.7.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -17,18 +21,28 @@
     "react-scripts": "1.0.17",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
+    "topojson-client": "^3.0.0",
     "typeface-bungee": "0.0.35",
     "typeface-bungee-shade": "0.0.35",
     "typeface-merriweather": "0.0.35",
     "victory": "^0.24.2"
   },
+  "lint-staged": {
+    "{src}/**/*.{js,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "source-map-explorer": "^1.5.0"
   }
 }

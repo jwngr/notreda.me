@@ -15,10 +15,10 @@
 .current-year {
   font-family: 'Bungee';
   font-size: 32px;
-  color: #EFEFEF;
+  color: #efefef;
   display: inline-block;
   padding: 4px 8px;
-  background-color: #5AABBC; /* $primary-blue */
+  background-color: #5aabbc; /* $primary-blue */
   border: solid 3px #302205;
 }
 
@@ -43,8 +43,8 @@
   font-family: 'Bungee';
   font-size: 20px;
   padding: 8px;
-  color: #EFEFEF;
-  background-color: #5AABBC; /* $primary-blue */
+  color: #efefef;
+  background-color: #5aabbc; /* $primary-blue */
   border: solid 3px #302205;
 }
 

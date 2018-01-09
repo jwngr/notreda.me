@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "reformatData.js",
+  "lint-staged": {
+    "{scripts}/**/*.js": ["prettier --write", "git add"]
+  },
   "scripts": {
+    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

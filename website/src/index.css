@@ -1,14 +1,15 @@
 body {
   /* Background image from: http://subtlepatterns.com/awesome-pattern */
   /*background-image: url("./images/background.png");*/
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
-
 
 /*
   Color palette.

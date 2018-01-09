@@ -44,7 +44,7 @@
 .linescore > div:first-of-type > p:not(:first-of-type) {
   font-size: 14px;
   margin: -16px 4px 0 0;
-  background-color: #5AABBC; /* $primary-blue */
+  background-color: #5aabbc; /* $primary-blue */
   border: solid 3px #302205; /* $secondary-black */
-  color: #EFEFEF;
+  color: #efefef;
 }
