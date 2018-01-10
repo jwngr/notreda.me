@@ -1,7 +1,10 @@
-var _ = require('lodash');
-var fs = require('fs');
-var cheerio = require('cheerio');
-var request = require('request-promise');
+const _ = require('lodash');
+const fs = require('fs');
+const path = require('path');
+const cheerio = require('cheerio');
+const request = require('request-promise');
+
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
 
 const years = [
   // '2002',
@@ -22,7 +25,7 @@ const years = [
   '2017',
 ];
 
-var getHtmlForUrl = (url) => {
+const getHtmlForUrl = (url) => {
   return request({
     uri: url,
     transform: (body) => {
@@ -54,7 +57,7 @@ const promises = years.map((year) => {
 return Promise.all(promises)
   .then((results) => {
     _.forEach(results, (gameIds, i) => {
-      const filename = `../data/${years[i]}.json`;
+      const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
       const data = require(filename);
       _.forEach(gameIds, (gameId, j) => {
         data[j].espnGameId = Number(gameId);

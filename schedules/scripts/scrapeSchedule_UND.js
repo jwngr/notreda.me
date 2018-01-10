@@ -1,10 +1,11 @@
-var _ = require('lodash');
-var fs = require('fs');
-var RSVP = require('rsvp');
-var cheerio = require('cheerio');
-var request = require('request-promise');
+const _ = require('lodash');
+const fs = require('fs');
+const path = require('path');
+const RSVP = require('rsvp');
+const cheerio = require('cheerio');
+const request = require('request-promise');
 
-var teamMappings = require('./teamMappings.json');
+const teamMappings = require('./teamMappings.json');
 
 if (process.argv.length !== 3) {
   console.log('USAGE: node scrapeSchedule.js <output_file>');
@@ -17,7 +18,7 @@ if (process.argv.length !== 3) {
  * @param  {number} year The year whose schedule to fetch.
  * @return {Promise<Cheerio>} A Cheerio object containing the HTML schedule data.
  */
-var getHtmlScheduleDataForYear = (year) => {
+const getHtmlScheduleDataForYear = (year) => {
   return request({
     uri: 'http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-' + year + '.html',
     transform: (body) => {
@@ -32,14 +33,14 @@ var getHtmlScheduleDataForYear = (year) => {
  * @param  {number} year The year whose game data to fetch.
  * @return {Promise<Array<Object>>} A promise fulfilled with an array of objects containing game data.
  */
-var getGamesForYear = (year) => {
+const getGamesForYear = (year) => {
   return getHtmlScheduleDataForYear(year).then(($) => {
-    var games = [];
+    const games = [];
 
-    var $scheduleTable = $('#schedtable');
+    const $scheduleTable = $('#schedtable');
 
     // Loop through each row in the schedule table
-    var $rows = [];
+    const $rows = [];
     $scheduleTable.find('tr').each((i, row) => {
       $rows.push($(row));
     });
@@ -51,27 +52,26 @@ var getGamesForYear = (year) => {
 
     // Rows with four cells constitute an actual game
     $rows = $rows.filter(($row) => {
-      var rowCells = $row.children('td');
-      return rowCells.length === 4;
+      return $row.children('td').length === 4;
     });
 
-    var games = _.map($rows, ($row) => {
-      var rowCells = $row.children('td');
+    const games = _.map($rows, ($row) => {
+      const rowCells = $row.children('td');
 
-      var result = $(rowCells[3])
+      const result = $(rowCells[3])
         .text()
         .trim();
-      var opponent = $(rowCells[1])
+      const opponent = $(rowCells[1])
         .text()
         .trim();
 
-      var isHomeGame = _.startsWith(opponent, 'vs.');
+      const isHomeGame = _.startsWith(opponent, 'vs.');
 
       // Strip off the 'vs.' or 'at' at the beginning of the opponent
       opponent = opponent.slice(3).trim();
 
       // Remove '(**** Bowl)' from any bowl games
-      var isBowlGame = false;
+      let isBowlGame = false;
       if (opponent.indexOf('Bowl') !== -1) {
         isBowlGame = true;
         opponent = opponent.split('(')[0].trim();
@@ -102,8 +102,8 @@ var getGamesForYear = (year) => {
   });
 };
 
-var years = _.range(1887, 2016);
-var promises = {};
+const years = _.range(1887, 2016);
+const promises = {};
 _.forEach(years, (year) => {
   // Skip 1890 and 1891 since und.com doesn't have data for those years
   if (year === 1890 || year === 1891) {
@@ -113,13 +113,13 @@ _.forEach(years, (year) => {
   promises[year] = getGamesForYear(year)
     .then((games) => {
       return _.map(games, (game) => {
-        var numOvertimes = 0;
+        let numOvertimes = 0;
 
         // If the game has already been played, get the results and scores
         if (game.result[0] === 'W' || game.result[0] === 'L') {
-          var resultData = game.result.split(', ');
+          const resultData = game.result.split(', ');
           game.result = resultData[0];
-          var scores = resultData[1].split('-');
+          const scores = resultData[1].split('-');
 
           // Calculate the number of overtimes, if applicable
           if (scores[1].indexOf('OT') !== -1 || scores[1].indexOf('ot') !== -1) {

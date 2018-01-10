@@ -1,7 +1,10 @@
 const _ = require('lodash');
 const fs = require('fs');
+const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
+
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
 
 const getHtmlForUrl = (url) => {
   return request({
@@ -148,7 +151,7 @@ const getGameStats = (gameId) => {
 };
 
 const year = 2017;
-const filename = `../data/${year}.json`;
+const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
 const yearData = require(filename);
 
 const promises = _.map(yearData, (gameData) => {

@@ -1,12 +1,15 @@
 const fs = require('fs');
 const _ = require('lodash');
+const path = require('path');
 const format = require('date-fns/format');
 
-const filenames = fs.readdirSync('../data');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
 
-filenames.forEach((filename) => {
-  const year = filename.split('.')[0];
-  const yearData = require(`../data/${filename}`);
+const dataFilenames = fs.readdirSync(INPUT_DATA_DIRECTORY);
+
+dataFilenames.forEach((dataFilename) => {
+  const year = dataFilename.split('.')[0];
+  const yearData = require(`${INPUT_DATA_DIRECTORY}/${dataFilename}`);
 
   yearData.forEach((gameData, i) => {
     if ('date' in gameData) {
@@ -16,5 +19,5 @@ filenames.forEach((filename) => {
     }
   });
 
-  fs.writeFileSync(`../data/${year}.json`, JSON.stringify(yearData, null, 2));
+  fs.writeFileSync(`${INPUT_DATA_DIRECTORY}/${dataFilename}`, JSON.stringify(yearData, null, 2));
 });

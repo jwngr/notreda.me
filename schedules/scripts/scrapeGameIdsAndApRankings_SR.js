@@ -1,7 +1,10 @@
-var _ = require('lodash');
-var fs = require('fs');
-var cheerio = require('cheerio');
-var request = require('request-promise');
+const _ = require('lodash');
+const fs = require('fs');
+const path = require('path');
+const cheerio = require('cheerio');
+const request = require('request-promise');
+
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
 
 const CURRENT_YEAR = 2017;
 const AP_POLL_START_YEAR = 1936;
@@ -10,7 +13,7 @@ const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 const years = [2017];
 // const years = _.range(AP_POLL_START_YEAR, CURRENT_YEAR + 1);
 
-var getHtmlForUrl = (url) => {
+const getHtmlForUrl = (url) => {
   return request({
     uri: url,
     transform: (body) => {
@@ -63,7 +66,7 @@ const promises = years.map((year) => {
 return Promise.all(promises)
   .then((results) => {
     _.forEach(results, (result, i) => {
-      const filename = `../data/${years[i]}.json`;
+      const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
       const yearData = require(filename);
       _.forEach(yearData, (gameData, j) => {
         if (result.gameIds) {

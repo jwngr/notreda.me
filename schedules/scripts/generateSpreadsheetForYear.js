@@ -1,5 +1,9 @@
+const path = require('path');
+
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
+
 const year = 1990;
-const scheduleData = require(`../data/${year}`);
+const scheduleData = require(`${INPUT_DATA_DIRECTORY}/${year}`);
 
 const columns = [
   'Total Score',

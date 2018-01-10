@@ -1,9 +1,12 @@
-var _ = require('lodash');
-var fs = require('fs');
-var cheerio = require('cheerio');
-var request = require('request-promise');
+const _ = require('lodash');
+const fs = require('fs');
+const path = require('path');
+const cheerio = require('cheerio');
+const request = require('request-promise');
 
-var getHtmlForUrl = (url) => {
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
+
+const getHtmlForUrl = (url) => {
   return request({
     uri: url,
     transform: (body) => {
@@ -18,26 +21,26 @@ var getHtmlForUrl = (url) => {
  * @param  {number} gameId The game ID of the game whose data to fetch.
  * @return {Promise<Object>} A promise fulfilled with game stats and line scores.
  */
-var getGameStats = (gameId) => {
+const getGameStats = (gameId) => {
   return getHtmlForUrl(`http://www.espn.com/college-football/matchup?gameId=${gameId}`).then(
     ($) => {
-      var $statsTable = $('.team-stats-list');
+      const $statsTable = $('.team-stats-list');
 
       // Loop through each row in the stats table
-      var stats = {
+      const stats = {
         away: {},
         home: {},
       };
       $statsTable.find('tr').each((i, row) => {
-        var rowCells = $(row).children('td');
+        const rowCells = $(row).children('td');
         if (rowCells.length !== 0) {
-          var statName = $(rowCells[0])
+          const statName = $(rowCells[0])
             .text()
             .trim();
-          var awayValue = $(rowCells[1])
+          const awayValue = $(rowCells[1])
             .text()
             .trim();
-          var homeValue = $(rowCells[2])
+          const homeValue = $(rowCells[2])
             .text()
             .trim();
 
@@ -114,10 +117,10 @@ var getGameStats = (gameId) => {
       stats.home['fumbles'] = -1;
 
       // Line score
-      var $linescore = $('#linescore');
+      const $linescore = $('#linescore');
 
       // Loop through each row in the stats table
-      var linescore = {
+      const linescore = {
         away: [],
         home: [],
       };
@@ -125,7 +128,7 @@ var getGameStats = (gameId) => {
         .find('tbody')
         .find('tr')
         .each((i, row) => {
-          var rowCells = $(row).children('td');
+          const rowCells = $(row).children('td');
 
           const homeOrAway = linescore.away.length === 0 ? 'away' : 'home';
 
@@ -151,7 +154,7 @@ var getGameStats = (gameId) => {
 };
 
 const year = 2017;
-const filename = `../data/${year}.json`;
+const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
 const yearData = require(filename);
 
 const promises = _.map(yearData, (gameData) => {
