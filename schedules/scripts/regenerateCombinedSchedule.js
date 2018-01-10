@@ -2,10 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
-const OUTPUT_SCHEDULE_FILENAME = path.resolve(
-  __dirname,
-  '../../website/src/resources/schedule.json'
-);
+const OUTPUT_SCHEDULE_FILENAME = path.resolve(__dirname, '../../src/resources/schedule.json');
 
 const dataFilenames = fs.readdirSync(INPUT_DATA_DIRECTORY);
 
