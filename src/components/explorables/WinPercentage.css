@@ -1,29 +1,29 @@
 .win,
 .winning-record {
-  fill: green;
-  stroke: green;
+  fill: green !important;
+  stroke: green !important;
 }
 
 .loss,
 .losing-record {
-  fill: red;
-  stroke: red;
+  fill: red !important;
+  stroke: red !important;
 }
 
 .tie,
 .even-record {
-  fill: yellow;
-  stroke: yellow;
+  fill: yellow !important;
+  stroke: yellow !important;
 }
 
 .ND {
-  fill: green;
-  stroke: green;
+  fill: green !important;
+  stroke: green !important;
 }
 
 .STAN {
-  fill: red;
-  stroke: red;
+  fill: red !important;
+  stroke: red !important;
 }
 
 h1 {

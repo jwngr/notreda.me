@@ -37,6 +37,7 @@ class LineChart extends Component {
       rangeY,
       ticksCountX = DEFAULT_TICKS_COUNT_X,
       ticksCountY = DEFAULT_TICKS_COUNT_Y,
+      showLine = true,
       showDataPoints = true,
     } = this.props;
 
@@ -101,43 +102,45 @@ class LineChart extends Component {
         return scaleY(d.y);
       });
 
-    var teams = g
-      .selectAll('.team')
-      .data(seriesData)
-      .enter()
-      .append('g')
-      .attr('class', 'team');
+    if (showLine) {
+      const teams = g
+        .selectAll('.team')
+        .data(seriesData)
+        .enter()
+        .append('g')
+        .attr('class', 'team');
 
-    teams
-      .append('path')
-      .attr('class', 'line')
-      .attr('d', (d) => {
-        return line(d.values);
-      })
-      .attr('class', (d, i) => {
-        const classNames = ['line', `series-${i}`];
-        if (typeof d.className === 'string') {
-          classNames.push(d.className);
-        }
-        if (typeof d.id !== 'undefined') {
-          classNames.push(`series-${d.id}`);
-        }
+      teams
+        .append('path')
+        .attr('class', 'line')
+        .attr('d', (d) => {
+          return line(d.values);
+        })
+        .attr('class', (d, i) => {
+          const classNames = ['line', `series-${i}`];
+          if (typeof d.className === 'string') {
+            classNames.push(d.className);
+          }
+          if (typeof d.id !== 'undefined') {
+            classNames.push(`series-${d.id}`);
+          }
 
-        return classNames.join(' ');
-      });
+          return classNames.join(' ');
+        });
 
-    teams
-      .append('text')
-      .datum((d, i) => {
-        return {id: d.id || i, value: d.values[d.values.length - 1]};
-      })
-      .attr('transform', (d) => {
-        return 'translate(' + scaleX(d.value.x) + ',' + scaleY(d.value.y) + ')';
-      })
-      .attr('x', 3)
-      .attr('dy', '0.35em')
-      .style('font', '10px sans-serif')
-      .text((d) => d.id);
+      teams
+        .append('text')
+        .datum((d, i) => {
+          return {id: d.id || i, value: d.values[d.values.length - 1]};
+        })
+        .attr('transform', (d) => {
+          return 'translate(' + scaleX(d.value.x) + ',' + scaleY(d.value.y) + ')';
+        })
+        .attr('x', 3)
+        .attr('dy', '0.35em')
+        .style('font', '10px sans-serif')
+        .text((d) => d.id);
+    }
 
     // Chart data points
     if (showDataPoints) {
@@ -166,7 +169,6 @@ class LineChart extends Component {
         .on('mouseover', (d, i) => {
           clearTimeout(this.unsetTooltipTimeout);
 
-          // TODO: fix tooltip positioning
           const domNode = findDOMNode(this.chartRef);
           const boundingRect = domNode.getBoundingClientRect();
 
@@ -200,9 +202,6 @@ class LineChart extends Component {
 
     let tooltipContent;
     if (tooltip !== null) {
-      const tooltipText = `${tooltip.year} ${tooltip.opponentId}, ${tooltip.scoreText}, ${
-        tooltip.winPercentage
-      }`;
       tooltipContent = (
         <Tooltip x={tooltip.x} y={tooltip.y}>
           {tooltip.children}

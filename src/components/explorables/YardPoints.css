@@ -7,3 +7,15 @@
   background-color: white;
 }
 */
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Bungee';
+}
+
+svg {
+  margin: 0 auto 20px auto;
+  display: block;
+}

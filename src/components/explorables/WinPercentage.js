@@ -250,25 +250,30 @@ class WinPercentage extends Component {
       <div>
         <h1>Historical Win Percentage</h1>
         <Paragraph>
-          Over the course of my life (since 1990), Notre Dame has a win percentage of a paltry
-          0.6XX. Despite the past three decades,
+          Despite many mediocre &mdash; and some downright awful &mdash; seasons over the past three
+          decades, Notre Dame remains a historically great program based on{' '}
           <a href="https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win-loss_records">
-            Notre Dame remains towards the top of historical win percentage
+            overall win percentage
           </a>{' '}
-          (0.730), behind none other than our rival Michigan Wolverines (0.736). Beyond hearing this
-          statistic from commentators every few games, let's dive into some of the interesting
-          trends and moments regarding the Irish's historical win percentage.
+          . Their 0.7290 historic win percentage is behind only one team, none other than their
+          rival Michigan Wolverines, whose win percentage of 0.7291 is better only at the fourth
+          decimal place. A win over the Wolverines in this weekend's season opener would allow the
+          Irish to once again regain the top spot. In honor of this big upcoming game, let's dive
+          into some of the interesting trends and moments with the Irish's win percentage over the
+          years.
         </Paragraph>
 
         <Paragraph>
-          The first place to start is to chart the historical win percentage after every game the
-          Irish played. Wins are green, losses are red, and ties are yellow. Note that ties are
-          ignored when it comes to calculating win percentage:
+          The place to start is by charting the historical win percentage after every single game
+          the Irish have played. Wins are green, losses are red, and ties are yellow. Note that ties
+          do factor into the win percentage, counting as half a win and half a loss.
         </Paragraph>
 
-        <LineChart seriesData={this.state.ndWinPercentageByGame} domainY={[0, 100]} />
-
-        <LineChart seriesData={this.state.ndWinPercentageByYear} domainY={[0, 100]} />
+        <LineChart
+          seriesData={this.state.ndWinPercentageByGame}
+          domainY={[0, 100]}
+          showLine={false}
+        />
 
         <Note>
           The chart above - and all charts in this post - are interactive! Roll your mouse over the
@@ -276,56 +281,79 @@ class WinPercentage extends Component {
         </Note>
 
         <Paragraph>
-          Let's get this out the way first: Notre Dame has not looked great, historically speaking,
-          the last couple decades. There are almost as many red and yellow dots in this millenia as
-          there are the 1XX years before. And I'll have more to say about that slide at the end
-          ofthe chart later.
+          To more easily digest all this information, let's just chart Notre Dame's win percentage
+          at the culmination of each season. Green indicates a season finishing above 0.500, red a
+          season below 0.500, and yellow a season at exactly 0.500.
+        </Paragraph>
+
+        <LineChart
+          seriesData={this.state.ndWinPercentageByYear}
+          domainY={[0, 100]}
+          showLine={false}
+        />
+
+        <Paragraph>
+          Let's get the obvious out of the way: this graph is not trending in a great direction for
+          Notre Dame. There are almost as many red and yellow dots in this millenia as there are in
+          all years prior. I'll have more to say about this decades-long slide later. For now, let's
+          focus on some less heartwrenching storylines. If we zoom in a little bit by ignoring the
+          first few seasons which are quite noisy, some interesting trends emerge:
+        </Paragraph>
+
+        <LineChart
+          seriesData={this.state.ndWinPercentageByYear}
+          domainY={[60, 90]}
+          showLine={false}
+        />
+
+        <Paragraph>
+          Given Notre Dame historic greatness, even seasons ending with a winning record can lower
+          their overall win percentage. Not only do they need to have a winning record, they need to
+          eclipse their historical win percentage. Taking the current 0.7290 win percentage, Notre
+          Dame needs to win 10 games in a 13 game season or 11 in a 14 game season in order to
+          improve their record. The latter is likely given a 14 game season means they will be
+          playing in the National Championship, but the former is by no means easy. Taking last
+          season as an example, a comeback win against LSU in the Citrus Bowl thanks to Miles Boykin
+          one-handed wondergrab is the only reason Notre Dame's historic win percentage increased.
         </Paragraph>
 
         <Paragraph>
-          Now, on to less heartwrenching storylines, let's zoom in a little bit, ignoring the first
-          few seasons where the small data set makes the data quite noisy:
+          Roughly speaking, the graph can be broken down into four uptrends and four downtrends:
         </Paragraph>
 
-        <LineChart seriesData={this.state.ndWinPercentageByYear} domainY={[60, 90]} />
-
-        <Paragraph>This chart alone shows some interesting things:</Paragraph>
-
-        <Paragraph>
-          First, even a season with a winning record (the green dots), can lower the historical win
-          percentage. Notre Dame's historical greatness is actually a detriment in this case. Not
-          only do you need to have a winning record, you need to eclipse the historical win
-          percentage. Taking the current 0.730 win percentage, Notre Dame needs to win 10 games in a
-          13 game season (12 regular season games plus one bowl game) in order to improve their
-          record. If ND loses to LSU, mention how that "good" season still dropped our win
-          percentage.
-        </Paragraph>
-
-        <Paragraph>
-          Roughly speaking, there appear to be four uptrends and four downtrends:
-        </Paragraph>
+        <Paragraph>TODO: visualize these four regions in a chart</Paragraph>
 
         <Paragraph>
           Ironically enough, the losses that began each downswing are USC (1929), USC (1951), USC
-          (1981), and Boston College (1994). No one said life as a Notre Dame fan was easy.
+          (1981), and... Boston College (1994). No one said life as a Notre Dame fan was easy.
         </Paragraph>
+
+        <Paragraph>*** Miscellaneous ramblings from here on out... ***</Paragraph>
 
         <Paragraph>Losing records and even records always drop the win percentage.</Paragraph>
 
         <Paragraph>
-          There appear to be three main dips of prolonged trending downward, the most recent of
-          which has been ongoing for the past three decades.
+          So how does this graph compare to other top teams, including Michigan? Let's take a look:
         </Paragraph>
 
-        <Paragraph>So how does this graph compare to Michigan's? Let's take a look:</Paragraph>
-
         <LineChart seriesData={this.state.teams} domainY={[0, 100]} showDataPoints={false} />
+
+        <Paragraph>
+          Let's zoom in only back to 1975 (even though these graphs are incomplete and don't even
+          make sense yet...):
+        </Paragraph>
+
         <LineChart
           seriesData={this.state.teams}
           domainX={[new Date('1970'), new Date('2017')]}
           domainY={[68, 82]}
           showDataPoints={true}
         />
+
+        <Paragraph>
+          Dive into how many times Notre Dame and Michigan have traded the top spot over their
+          histories (again, these graphs are incomplete and don't make sense yet...)
+        </Paragraph>
 
         <LineChart seriesData={this.state.ndVsMich} domainY={[0, 100]} showDataPoints={false} />
       </div>

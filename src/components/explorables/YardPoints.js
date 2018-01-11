@@ -1,7 +1,10 @@
 import _ from 'lodash';
 import * as d3 from 'd3';
+import {findDOMNode} from 'react-dom';
 import React, {Component} from 'react';
 
+import Note from './Note';
+import Paragraph from './Paragraph';
 import Tooltip from '../charts/Tooltip';
 
 import schedule from '../../resources/schedule';
@@ -45,6 +48,7 @@ class YardPoints extends Component {
             turnoverDifferential,
             x: rushYardsDifferential,
             y: passYardsDifferential,
+            tooltipChildren: `${scoreText}, ${year} ${opponentId}`,
           };
         }
       });
@@ -62,55 +66,10 @@ class YardPoints extends Component {
     this.state = {
       tooltip: null,
       data: yardsDifferentialData,
-      scatterPlotData: [
-        {
-          question: 'Activity One',
-          answer: 'Some answer',
-          value: 2,
-          consequence: -2,
-        },
-        {
-          question: 'Activity Two',
-          answer: 'Some answer',
-          value: 1,
-          consequence: -2,
-        },
-        {
-          question: 'Activity Three',
-          answer: 'Another answer',
-          value: 1,
-          consequence: -1,
-        },
-        {
-          question: 'Activity Four',
-          answer: 'Another answer',
-          value: 2,
-          consequence: 1,
-        },
-        {
-          question: 'Activity Five',
-          answer: 'Another answer',
-          value: 1,
-          consequence: 2,
-        },
-        {
-          question: 'Activity Six',
-          answer: 'Another answer',
-          value: -2,
-          consequence: -2,
-        },
-        {
-          question: 'Activity Seven',
-          answer: 'Another answer',
-          value: -2,
-          consequence: 2,
-        },
-      ],
     };
   }
 
   setTooltip(tooltip) {
-    console.log('setTooltip:', tooltip);
     this.setState({
       tooltip,
     });
@@ -125,7 +84,7 @@ class YardPoints extends Component {
   }
 
   componentDidMount() {
-    var margin = {
+    var margins = {
       top: 50,
       right: 50,
       bottom: 50,
@@ -134,8 +93,8 @@ class YardPoints extends Component {
 
     const scatterPlotWidth = 500;
     const scatterPlotHeight = 500;
-    var domainWidth = scatterPlotWidth - margin.left - margin.right;
-    var domainHeight = scatterPlotHeight - margin.top - margin.bottom;
+    var domainWidth = scatterPlotWidth - margins.left - margins.right;
+    var domainHeight = scatterPlotHeight - margins.top - margins.bottom;
 
     const scatterPlot = d3
       .select(this.scatterPlotRef)
@@ -153,19 +112,19 @@ class YardPoints extends Component {
 
     const range = Math.max(-min, max);
 
-    var scatterPlotX = d3
+    var scaleX = d3
       .scaleLinear()
       .domain([-range - 50, range + 50])
       .range([0, domainWidth]);
 
-    var scatterPlotY = d3
+    var scaleY = d3
       .scaleLinear()
       .domain([-range - 50, range + 50])
       .range([domainHeight, 0]);
 
     var g = scatterPlot
       .append('g')
-      .attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
+      .attr('transform', 'translate(' + margins.top + ',' + margins.top + ')');
 
     // var tooltip = scatterPlot.append('div')
     //   .attr('class', 'tooltip')
@@ -173,8 +132,8 @@ class YardPoints extends Component {
 
     g
       .append('rect')
-      .attr('width', scatterPlotWidth - margin.left - margin.right)
-      .attr('height', scatterPlotHeight - margin.top - margin.bottom)
+      .attr('width', scatterPlotWidth - margins.left - margins.right)
+      .attr('height', scatterPlotHeight - margins.top - margins.bottom)
       .attr('fill', '#F6F6F6');
 
     g
@@ -184,14 +143,14 @@ class YardPoints extends Component {
       .append('circle')
       .attr('class', 'dot')
       .attr('r', (d) => {
-        console.log(d);
-        return Math.abs(d.turnoverDifferential) + 1;
+        // return Math.abs(d.turnoverDifferential) + 1;
+        return 3;
       })
       .attr('cx', (d) => {
-        return scatterPlotX(d.x);
+        return scaleX(d.x);
       })
       .attr('cy', (d) => {
-        return scatterPlotY(d.y);
+        return scaleY(d.y);
       })
       .style('stroke', (d) => {
         if (d.result === 'W') {
@@ -203,17 +162,17 @@ class YardPoints extends Component {
         }
       })
       .style('fill', (d) => {
-        if (d.turnoverDifferential >= 0) {
-          if (d.result === 'W') {
-            return 'green';
-          } else if (d.result === 'L') {
-            return 'red';
-          } else if (d.result === 'T') {
-            return 'yellow';
-          }
-        } else {
-          return 'transparent';
+        // if (d.turnoverDifferential >= 0) {
+        if (d.result === 'W') {
+          return 'green';
+        } else if (d.result === 'L') {
+          return 'red';
+        } else if (d.result === 'T') {
+          return 'yellow';
         }
+        // } else {
+        //   return 'transparent';
+        // }
       })
       .on('mouseover', (d) => {
         const tooltipHtml = `<p>${d.scoreText}, ${d.year} ${d.opponentId}</p>`;
@@ -221,10 +180,14 @@ class YardPoints extends Component {
 
         clearTimeout(this.unsetTooltipTimeout);
 
-        d.realX = scatterPlotX(d.x);
-        d.realY = scatterPlotX(d.y);
+        const domNode = findDOMNode(this.scatterPlotRef);
+        const boundingRect = domNode.getBoundingClientRect();
 
-        this.setTooltip(d);
+        this.setTooltip({
+          x: scaleX(d.x) + window.pageXOffset + boundingRect.left + margins.left,
+          y: scaleY(d.y) + window.pageYOffset + boundingRect.top + margins.top,
+          children: d.tooltipChildren,
+        });
 
         // tooltip
         //   .transition()
@@ -247,32 +210,72 @@ class YardPoints extends Component {
     g
       .append('g')
       .attr('class', 'x axis')
-      .attr('transform', 'translate(0,' + scatterPlotY.range()[0] / 2 + ')')
-      .call(d3.axisBottom(scatterPlotX).ticks(7));
+      .attr('transform', 'translate(0,' + scaleY.range()[0] / 2 + ')')
+      .call(d3.axisBottom(scaleX).ticks(7));
 
     g
       .append('g')
       .attr('class', 'y axis')
-      .attr('transform', 'translate(' + scatterPlotX.range()[1] / 2 + ', 0)')
-      .call(d3.axisLeft(scatterPlotY).ticks(7));
+      .attr('transform', 'translate(' + scaleX.range()[1] / 2 + ', 0)')
+      .call(d3.axisLeft(scaleY).ticks(7));
   }
 
   render() {
     const {tooltip} = this.state;
 
     let tooltipContent;
-    if (tooltip) {
-      console.log('TOOLTIP:', tooltip.realX, tooltip.realY);
-      const tooltipText = `${tooltip.scoreText}, ${tooltip.year} ${tooltip.opponentId}`;
+    if (tooltip !== null) {
       tooltipContent = (
-        <Tooltip x={tooltip.realX - 50} y={450 - tooltip.realY} text={tooltipText} />
+        <Tooltip x={tooltip.x} y={tooltip.y}>
+          {tooltip.children}
+        </Tooltip>
       );
     }
 
     return (
       <div>
-        <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />
-        {tooltipContent}
+        <h1>Yard Points</h1>
+
+        <Paragraph>
+          The graph below charts every Notre Dame game back to 2000. Green indicates a win, red a
+          loss. The x-axis indicates the rush yards differential between the two teams while the
+          y-axis indicates the pass yards differential (positive numbers indicate ND had more
+          yards).
+        </Paragraph>
+
+        <div>
+          <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />
+          {tooltipContent}
+        </div>
+
+        <Note>
+          The chart above - and all charts in this post - are interactive! Roll your mouse over the
+          data points for stats about that particular game.
+        </Note>
+
+        <Paragraph>Interesting trends to look into:</Paragraph>
+
+        <Paragraph>
+          Winning the rushing battle seems to be more important than winning the passing battle
+          (that is, the division between green and red dots is more obvious when cut by the y-axis
+          than when cut by the x-axis).
+        </Paragraph>
+
+        <Paragraph>
+          There are some crazy outliers: 2009 loss to Navy (top left), 2010 loss to Navy (bottom
+          right), 2005 loss to OSU (top right quadrant).
+        </Paragraph>
+
+        <Paragraph>
+          The biggest blowouts based on yard points are those four red dots in the bottom left, and
+          three of them are against USC (2007, 2008, 2014) and the other is against BC in 2007
+          (WTF?!? What an awful season!).
+        </Paragraph>
+
+        <Paragraph>
+          Turnover margin is the big missing data point. That will probably be discussed in another
+          post.
+        </Paragraph>
       </div>
     );
   }
