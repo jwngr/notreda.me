@@ -35,7 +35,7 @@ const scrapeTeamSchedule = async (team, filename) => {
     year = await year.jsonValue();
 
     // Loop through every game
-    for (tr of trs) {
+    for (let tr of trs) {
       const tds = await tr.$$('td');
 
       // Date

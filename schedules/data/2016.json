@@ -24,7 +24,7 @@
         "penaltyYards": 64,
         "fumblesLost": 0,
         "possession": "32:42",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 26,
@@ -45,7 +45,7 @@
         "penaltyYards": 104,
         "fumblesLost": 0,
         "possession": "27:18",
-        "fumbles": -1
+        "fumbles": 0
       }
     },
     "opponentId": "TEX",
@@ -102,7 +102,7 @@
         "penaltyYards": 88,
         "fumblesLost": 0,
         "possession": "26:28",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 21,
@@ -123,7 +123,7 @@
         "penaltyYards": 94,
         "fumblesLost": 0,
         "possession": "33:32",
-        "fumbles": -1
+        "fumbles": 1
       }
     },
     "opponentId": "NEV",
@@ -178,7 +178,7 @@
         "penaltyYards": 45,
         "fumblesLost": 0,
         "possession": "37:57",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 19,
@@ -199,7 +199,7 @@
         "penaltyYards": 51,
         "fumblesLost": 2,
         "possession": "22:03",
-        "fumbles": -1
+        "fumbles": 2
       }
     },
     "opponentId": "MSU",
@@ -257,7 +257,7 @@
         "penaltyYards": 5,
         "fumblesLost": 0,
         "possession": "30:35",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 24,
@@ -278,7 +278,7 @@
         "penaltyYards": 20,
         "fumblesLost": 2,
         "possession": "29:25",
-        "fumbles": -1
+        "fumbles": 4
       }
     },
     "opponentId": "DUKE",
@@ -328,7 +328,7 @@
         "penaltyYards": 55,
         "fumblesLost": 0,
         "possession": "31:22",
-        "fumbles": -1
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 25,
@@ -349,7 +349,7 @@
         "penaltyYards": 45,
         "fumblesLost": 0,
         "possession": "28:38",
-        "fumbles": -1
+        "fumbles": 0
       }
     },
     "opponentId": "SYR",
@@ -399,7 +399,7 @@
         "penaltyYards": 40,
         "fumblesLost": 2,
         "possession": "27:41",
-        "fumbles": -1
+        "fumbles": 4
       },
       "home": {
         "firstDowns": 14,
@@ -420,7 +420,7 @@
         "penaltyYards": 20,
         "fumblesLost": 2,
         "possession": "32:19",
-        "fumbles": -1
+        "fumbles": 6
       }
     },
     "opponentId": "NCST",
@@ -470,7 +470,7 @@
         "penaltyYards": 40,
         "fumblesLost": 2,
         "possession": "32:51",
-        "fumbles": -1
+        "fumbles": 3
       },
       "home": {
         "firstDowns": 16,
@@ -491,7 +491,7 @@
         "penaltyYards": 47,
         "fumblesLost": 0,
         "possession": "27:09",
-        "fumbles": -1
+        "fumbles": 1
       }
     },
     "opponentId": "STAN",
@@ -541,7 +541,7 @@
         "penaltyYards": 86,
         "fumblesLost": 0,
         "possession": "33:25",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 20,
@@ -562,7 +562,7 @@
         "penaltyYards": 53,
         "fumblesLost": 2,
         "possession": "26:35",
-        "fumbles": -1
+        "fumbles": 3
       }
     },
     "opponentId": "MIAMI",
@@ -612,7 +612,7 @@
         "penaltyYards": 47,
         "fumblesLost": 0,
         "possession": "26:07",
-        "fumbles": -1
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 21,
@@ -633,7 +633,7 @@
         "penaltyYards": 5,
         "fumblesLost": 0,
         "possession": "33:53",
-        "fumbles": -1
+        "fumbles": 0
       }
     },
     "opponentId": "NAVY",
@@ -683,7 +683,7 @@
         "penaltyYards": 68,
         "fumblesLost": 0,
         "possession": "25:38",
-        "fumbles": -1
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 31,
@@ -704,7 +704,7 @@
         "penaltyYards": 35,
         "fumblesLost": 0,
         "possession": "34:22",
-        "fumbles": -1
+        "fumbles": 3
       }
     },
     "opponentId": "ARMY",
@@ -754,7 +754,7 @@
         "penaltyYards": 35,
         "fumblesLost": 1,
         "possession": "32:45",
-        "fumbles": -1
+        "fumbles": 4
       },
       "home": {
         "firstDowns": 22,
@@ -775,7 +775,7 @@
         "penaltyYards": 78,
         "fumblesLost": 0,
         "possession": "27:15",
-        "fumbles": -1
+        "fumbles": 1
       }
     },
     "opponentId": "VT",
@@ -825,7 +825,7 @@
         "penaltyYards": 54,
         "fumblesLost": 1,
         "possession": "28:57",
-        "fumbles": -1
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 23,
@@ -846,7 +846,7 @@
         "penaltyYards": 65,
         "fumblesLost": 1,
         "possession": "31:03",
-        "fumbles": -1
+        "fumbles": 1
       }
     },
     "opponentId": "USC",
