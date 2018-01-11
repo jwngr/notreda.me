@@ -56,7 +56,7 @@ class WinPercentage extends Component {
             gameClassName = 'tie';
           }
 
-          const winPercentage = winCount / (winCount + lossCount) * 100;
+          const winPercentage = (winCount + tieCount / 2) / (winCount + lossCount + tieCount) * 100;
           lastGameOfYearWinPercentage = winPercentage;
 
           const dateObj = new Date(timestamp || date);
@@ -249,6 +249,7 @@ class WinPercentage extends Component {
     return (
       <div>
         <h1>Historical Win Percentage</h1>
+
         <Paragraph>
           Despite many mediocre &mdash; and some downright awful &mdash; seasons over the past three
           decades, Notre Dame remains a historically great program based on{' '}
