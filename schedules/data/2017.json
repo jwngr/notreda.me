@@ -538,10 +538,10 @@
     "sportsReferenceGameId": "2017-10-28-notre-dame",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 9
       },
       "away": {
-        "ap": 16
+        "ap": 14
       }
     },
     "espnGameId": 400934579,
@@ -618,7 +618,7 @@
     "sportsReferenceGameId": "2017-11-04-notre-dame",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 5
       }
     },
     "espnGameId": 400934580,
@@ -695,10 +695,10 @@
     "sportsReferenceGameId": "2017-11-11-miami-fl",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 7
       },
       "away": {
-        "ap": 13
+        "ap": 3
       }
     },
     "espnGameId": 400934581,
@@ -775,7 +775,7 @@
     "sportsReferenceGameId": "2017-11-18-notre-dame",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 3
       }
     },
     "espnGameId": 400934582,
@@ -852,10 +852,10 @@
     "sportsReferenceGameId": "2017-11-25-stanford",
     "rankings": {
       "home": {
-        "ap": 22
+        "ap": 20
       },
       "away": {
-        "ap": 13
+        "ap": 9
       }
     },
     "espnGameId": 400934583,
@@ -930,6 +930,79 @@
     "coverage": "ABC",
     "date": "01/01/2017",
     "location": "Orlando, FL",
-    "opponentId": "LSU"
+    "opponentId": "LSU",
+    "espnGameId": 400953414,
+    "sportsReferenceGameId": "2018-01-01-louisiana-state",
+    "rankings": {
+      "home": {
+        "ap": 14
+      },
+      "away": {
+        "ap": 16
+      }
+    },
+    "linescore": {
+      "away": [
+        0,
+        3,
+        3,
+        15
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        10
+      ]
+    },
+    "score": {
+      "home": 17,
+      "away": 21
+    },
+    "result": "L",
+    "stats": {
+      "away": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 368,
+        "passYards": 216,
+        "passCompletions": 17,
+        "passAttempts": 28,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 1,
+        "rushYards": 152,
+        "rushAttempts": 34,
+        "yardsPerRush": 4.5,
+        "penalties": 4,
+        "penaltyYards": 15,
+        "fumblesLost": 1,
+        "possession": "22:24",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 399,
+        "passYards": 229,
+        "passCompletions": 19,
+        "passAttempts": 33,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 0,
+        "rushYards": 170,
+        "rushAttempts": 42,
+        "yardsPerRush": 4,
+        "penalties": 5,
+        "penaltyYards": 27,
+        "fumblesLost": 0,
+        "possession": "37:36",
+        "fumbles": -1
+      }
+    }
   }
 ]
