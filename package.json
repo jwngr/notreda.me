@@ -16,7 +16,7 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.6",
-    "react-scripts": "1.0.17",
+    "react-scripts": "1.1.0",
     "redux": "^3.7.2",
     "topojson-client": "^3.0.0",
     "typeface-bungee": "0.0.44",
@@ -25,7 +25,10 @@
     "victory": "^0.24.5"
   },
   "lint-staged": {
-    "{src,schedules}/**/*.{js,css}": ["prettier --write", "git add"]
+    "{src,schedules}/**/*.{js,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
