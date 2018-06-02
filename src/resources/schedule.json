@@ -77544,7 +77544,7 @@
       }
     },
     {
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "timestamp": 1514811600000,
       "coverage": "ABC",
@@ -77579,7 +77579,7 @@
         "home": 17,
         "away": 21
       },
-      "result": "L",
+      "result": "W",
       "stats": {
         "away": {
           "firstDowns": 17,
