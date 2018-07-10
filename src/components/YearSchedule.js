@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 
@@ -53,7 +54,7 @@ const YearSchedule = ({selectedYear}) => {
           <div className="schedule">{gamesContent}</div>
         </div>
 
-        <GameSummaryContainer />
+        <Media query="(min-width: 600px)">{(matches) => matches && <GameSummaryContainer />}</Media>
       </div>
     </div>
   );

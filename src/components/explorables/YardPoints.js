@@ -2,6 +2,7 @@ import _ from 'lodash';
 import * as d3 from 'd3';
 import {findDOMNode} from 'react-dom';
 import React, {Component} from 'react';
+import TweetEmbed from 'react-tweet-embed';
 
 import Note from './Note';
 import Paragraph from './Paragraph';
@@ -242,6 +243,12 @@ class YardPoints extends Component {
           y-axis indicates the pass yards differential (positive numbers indicate ND had more
           yards).
         </Paragraph>
+
+        <TweetEmbed id="783943172057694208" options={{cards: 'hidden'}} />
+        <TweetEmbed id="771763270273294336" options={{theme: 'dark'}} />
+        <TweetEmbed id="974086889287364609" />
+        <TweetEmbed id="1016049395110825984" />
+        <TweetEmbed id="1016049395110825984" options={{cards: 'hidden'}} />
 
         <div>
           <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />

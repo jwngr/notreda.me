@@ -5,7 +5,19 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {Link} from 'react-router-dom';
 
-import './Game.css';
+import {
+  AwayGamePrefix,
+  GameDate,
+  DateOpponentWrapper,
+  Location,
+  OpponentLogo,
+  OpponentName,
+  OpponentRanking,
+  OpponentWrapper,
+  Score,
+  TelevisionCoverage,
+  Wrapper,
+} from './Game.styles';
 
 const Game = ({game, year, index, selected}) => {
   let lastColumnContent;
@@ -23,65 +35,63 @@ const Game = ({game, year, index, selected}) => {
     }
 
     lastColumnContent = (
-      <p className="score">
+      <Score>
         {result} {notreDameScore} - {opponentScore}
-      </p>
+      </Score>
     );
   } else if ('timestamp' in game) {
     const time = 'timestamp' in game ? format(game.timestamp, 'h:mm A') : 'TBD';
 
     lastColumnContent = (
-      <div className="coverage">
+      <TelevisionCoverage>
         <p>{time}</p>
         <img
           alt={`${game.coverage} logo`}
           src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
         />
-      </div>
+      </TelevisionCoverage>
     );
   } else {
-    lastColumnContent = <p className="coverage">TBD</p>;
+    lastColumnContent = (
+      <TelevisionCoverage>
+        <p>TBD</p>
+      </TelevisionCoverage>
+    );
   }
 
   const gameClassNames = classNames({
-    game: true,
     selected: selected,
     homeGame: game.isHomeGame,
     awayGame: !game.isHomeGame,
   });
 
-  let awayGamePrefix = game.isHomeGame ? null : <span className="away-game-prefix">@</span>;
+  const gameType = selected ? 'selected' : game.isHomeGame ? 'home' : 'away';
 
   let date = format(game.timestamp || game.date, 'MMMM D');
 
   const opponentRanking = game.isHomeGame
     ? _.get(game, 'rankings.away.ap')
     : _.get(game, 'rankings.home.ap');
-  let opponentRankingContent;
-  if (opponentRanking) {
-    opponentRankingContent = <span className="opponent-ranking">#{opponentRanking}</span>;
-  }
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
-    <Link className={gameClassNames} to={`/${year}/${index + 1}/`}>
-      <img
-        className="opponent-logo"
+    <Wrapper className={gameClassNames} type={gameType} to={`/${year}/${index + 1}/`}>
+      <OpponentLogo
         src={`${game.opponent.logoUrl ||
           'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
         alt={`${game.opponent.name} logo`}
       />
-      <div>
-        <p className="date">{date}</p>
-        <div className="opponent">
-          {awayGamePrefix}
-          {opponentRankingContent}
-          <span className="opponent-name">{game.opponent.name}</span>
-        </div>
-      </div>
-      <p className="location">{game.location}</p>
+      <DateOpponentWrapper>
+        <GameDate>{date}</GameDate>
+        <OpponentWrapper>
+          {!game.isHomeGame && <AwayGamePrefix>@</AwayGamePrefix>}
+          {opponentRanking && <OpponentRanking>#{opponentRanking}</OpponentRanking>}
+          <OpponentName>{game.opponent.name}</OpponentName>
+        </OpponentWrapper>
+      </DateOpponentWrapper>
+      <Location>{game.location}</Location>
       {lastColumnContent}
-    </Link>
+    </Wrapper>
   );
 };
 
