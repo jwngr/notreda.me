@@ -34,18 +34,11 @@
 
 .game-metadata {
   width: 200px;
-  height: 97px;
   border: solid 3px #302205; /* $secondary-black */
 }
 
 .game-metadata-date-container {
   margin: -7px 0 24px 0;
-  text-align: center;
-}
-
-.game-metadata > p {
-  font-size: 14px;
-  font-family: 'Merriweather', serif;
   text-align: center;
 }
 
@@ -59,6 +52,22 @@
   color: #efefef;
 }
 
-.tv-coverage {
-  height: 32px;
+.game-metadata-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.game-metadata-coverage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-metadata-tv-coverage-icon {
+  width: 40px;
+  margin-right: 12px;
 }

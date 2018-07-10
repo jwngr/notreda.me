@@ -4,6 +4,13 @@ import {Link} from 'react-router-dom';
 const gameTypeBackgroundColors = {
   home: 'none',
   away: 'rgba(84, 82, 82, 0.1)',
+  // away: `repeating-linear-gradient(
+  //   45deg,
+  //   #002B5B1A,
+  //   #002B5B1A 5px,
+  //   #DCB4391A 5px,
+  //   #DCB4391A 10px
+  // );`,
   selected: 'rgba(220, 180, 63, 0.5)',
 };
 
@@ -20,12 +27,102 @@ export const Wrapper = styled(Link)`
   align-items: center;
   justify-content: space-around;
   color: #302205;
-
-  background-color: ${(props) => gameTypeBackgroundColors[props.type]};
+  transition: transform 0.2s;
 
   &:hover {
-    background-color: ${(props) => gameTypeBackgroundColorsOnHover[props.type]};
+    transform: scale(1.05);
   }
+`;
+
+export const HomeGameWrapper = Wrapper.extend`
+  &.selected {
+    background: rgba(220, 180, 63, 0.5);
+  }
+
+  &:hover {
+    background: #55555580;
+  }
+`;
+
+export const SelectedGameWrapper = Wrapper.extend`
+  background: repeating-linear-gradient(
+    -135deg,
+    #dcb43980,
+    #dcb43980 1px,
+    transparent 2px,
+    #dcb43980 3px
+  );
+
+  &:hover {
+    background: repeating-linear-gradient(
+      -135deg,
+      #55555580,
+      #55555580 1px,
+      transparent 2px,
+      #55555580 3px
+    );
+  }
+`;
+
+export const AwayGameWrapper = Wrapper.extend`
+  background-image: repeating-linear-gradient(
+    135deg,
+    #002b5b40,
+    #002b5b40 1px,
+    transparent 2px,
+    transparent 2px,
+    #002b5b40 3px
+  );
+
+  &.selected {
+    background-image: repeating-linear-gradient(
+      135deg,
+      rgba(220, 180, 63, 0.8),
+      rgba(220, 180, 63, 0.8) 1px,
+      transparent 2px,
+      transparent 2px,
+      rgba(220, 180, 63, 0.8) 3px
+    );
+  }
+
+  &:hover {
+    background: repeating-linear-gradient(
+      135deg,
+      #55555580,
+      #55555580 1px,
+      transparent 2px,
+      #55555580 3px
+    );
+  }
+  background-size: 4px 4px;
+
+  ${'' /* background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px
+  );
+  background-size: 3px 3px; */};
 `;
 
 export const OpponentLogo = styled.img`

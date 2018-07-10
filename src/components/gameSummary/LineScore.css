@@ -25,19 +25,9 @@
   font-size: 20px;
 }
 
-.linescore > div.quarter-scores > p:nth-of-type(3),
-.linescore > div.quarter-scores > p:nth-of-type(5) {
-  border-right: solid 2px #302205; /* $secondary-black */
-}
-
 /* All scores */
 .linescore > div > p:not(:first-of-type) {
   margin-right: 4px;
-}
-
-/* Total scores */
-.linescore > div.quarter-scores > p:last-of-type {
-  border-left: solid 2px #302205; /* $secondary-black */
 }
 
 /* Quarter indicators */

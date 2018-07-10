@@ -17,6 +17,9 @@ import {
   Score,
   TelevisionCoverage,
   Wrapper,
+  HomeGameWrapper,
+  AwayGameWrapper,
+  SelectedGameWrapper,
 } from './Game.styles';
 
 const Game = ({game, year, index, selected}) => {
@@ -73,9 +76,11 @@ const Game = ({game, year, index, selected}) => {
     ? _.get(game, 'rankings.away.ap')
     : _.get(game, 'rankings.home.ap');
 
+  const WrapperComponent = game.isHomeGame ? HomeGameWrapper : AwayGameWrapper;
+
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
-    <Wrapper className={gameClassNames} type={gameType} to={`/${year}/${index + 1}/`}>
+    <WrapperComponent className={gameClassNames} type={gameType} to={`/${year}/${index + 1}/`}>
       <OpponentLogo
         src={`${game.opponent.logoUrl ||
           'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
@@ -91,7 +96,7 @@ const Game = ({game, year, index, selected}) => {
       </DateOpponentWrapper>
       <Location>{game.location}</Location>
       {lastColumnContent}
-    </Wrapper>
+    </WrapperComponent>
   );
 };
 

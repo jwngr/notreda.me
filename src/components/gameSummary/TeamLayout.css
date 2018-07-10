@@ -1,4 +1,5 @@
-img {
+.team-layout-away img,
+.team-layout-home img {
   height: 60px;
   width: 60px;
 }

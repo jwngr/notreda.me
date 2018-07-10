@@ -23,7 +23,7 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
   if (game.coverage && game.coverage !== 'TBD') {
     tvCoverageIcon = (
       <img
-        className="tv-coverage"
+        className="game-metadata-tv-coverage-icon"
         alt={`${game.coverage} logo`}
         src={require(`../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
       />
@@ -47,11 +47,14 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
           <div className="game-metadata-date-container">
             <p className="game-metadata-date">{date}</p>
           </div>
-          <p>Notre Dame Stadium</p>
-          <p>{game.location}</p>
-          <p>
-            {tvCoverageIcon} {time}
-          </p>
+          <div className="game-metadata-content">
+            <p className="game-metadata-stadium">Notre Dame Stadium</p>
+            <p className="game-metadata-location">{game.location}</p>
+            <div className="game-metadata-coverage">
+              {tvCoverageIcon}
+              <p>{time}</p>
+            </div>
+          </div>
         </div>
       </div>
 
