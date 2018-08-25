@@ -1,53 +1,62 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import createHistory from 'history/createBrowserHistory';
-import {Route, Switch} from 'react-router-dom';
-import {createStore, applyMiddleware} from 'redux';
-import {ConnectedRouter, routerMiddleware} from 'react-router-redux';
+import {compose, createStore, applyMiddleware, combineReducers} from 'redux';
+import {routerForBrowser, initializeCurrentLocation} from 'redux-little-router';
 
+import rootReducers from './reducers/index.js';
 import registerServiceWorker from './registerServiceWorker';
 
-import Victory from './components/explorables/Victory';
-import YardPoints from './components/explorables/YardPoints';
-import Imperialism from './components/explorables/Imperialism';
-import WinPercentage from './components/explorables/WinPercentage';
-import HomeContainer from './containers/HomeContainer';
+import App from './App';
 
 import './index.css';
-
-// Reducers
-import rootReducer from './reducers/index.js';
 
 // Load fonts
 require('typeface-bungee');
 require('typeface-bungee-shade');
 require('typeface-merriweather');
 
-// Create a browser history
-const history = createHistory();
+// Router
+const routes = {
+  '/': {
+    '/:year': {
+      '/:selectedGameIndex': true,
+    },
+  },
+};
+
+const {reducer: routerReducer, middleware: routerMiddleware, enhancer} = routerForBrowser({
+  routes,
+});
 
 // Middleware
-const middleware = [routerMiddleware(history)];
+const middleware = [routerMiddleware];
 if (process.env.NODE_ENV !== 'production') {
   const {logger} = require('redux-logger');
   middleware.push(logger);
 }
 
 // Create the Redux store
-const store = createStore(rootReducer, applyMiddleware(...middleware));
+const store = createStore(
+  combineReducers({
+    router: routerReducer,
+    ...rootReducers,
+  }),
+  compose(
+    enhancer,
+    applyMiddleware(...middleware)
+  )
+);
+
+// Initialize the current location of redux-little-router.
+const initialLocation = store.getState().router;
+if (initialLocation) {
+  store.dispatch(initializeCurrentLocation(initialLocation));
+}
 
 ReactDOM.render(
   <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <Switch>
-        <Route path="/explorables/yard-points" component={YardPoints} />
-        <Route path="/explorables/win-percentage" component={WinPercentage} />
-        <Route path="/explorables/victory" component={Victory} />
-        <Route path="/explorables/imperialism" component={Imperialism} />
-        <Route path="/:year?/:selectedGameIndex?" component={HomeContainer} />
-      </Switch>
-    </ConnectedRouter>
+    <App />
   </Provider>,
   document.getElementById('root')
 );

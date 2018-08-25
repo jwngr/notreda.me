@@ -1,8 +1,6 @@
 import _ from 'lodash';
 import addDays from 'date-fns/add_days';
 import isAfter from 'date-fns/is_after';
-import {combineReducers} from 'redux';
-import {routerReducer} from 'react-router-redux';
 
 import * as actions from '../actions';
 
@@ -10,54 +8,52 @@ import navMenu from './navMenu';
 
 import schedule from '../resources/schedule';
 
-const DEFAULT_YEAR = 2017;
+const DEFAULT_YEAR = 2018;
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
-const getYearFromQueryString = (qs) => {
-  const pathTokens = qs.split('/');
+const getYearFromQueryParams = (params) => {
+  const year = Number(params.year);
 
-  if (pathTokens.length >= 2 && pathTokens[1] !== '') {
-    const year = Number(pathTokens[1]);
-    if (_.has(schedule, year)) {
-      return year;
-    }
+  if (isNaN(year) || !_.has(schedule, year)) {
+    return DEFAULT_YEAR;
   }
 
-  return DEFAULT_YEAR;
+  return year;
 };
 
-const getSelectedGameIndexFromQueryString = (qs) => {
-  const pathTokens = qs.split('/');
+const getSelectedGameIndexFromQueryParams = (params) => {
+  const year = getYearFromQueryParams(params);
 
-  const year = getYearFromQueryString(qs);
+  const selectedGameIndex = Number(params.selectedGameIndex);
 
-  // If the query string contains a valid game index, subtract one from it and use it
-  if (pathTokens.length >= 3 && pathTokens[2] !== '') {
-    const selectedGameIndex = Number(pathTokens[2]);
-    if (
-      !_.isNaN(selectedGameIndex) &&
-      selectedGameIndex > 0 &&
-      selectedGameIndex <= schedule[year].length
-    ) {
+  // Numeric selected game index is provided.
+  if (!isNaN(selectedGameIndex)) {
+    if (selectedGameIndex <= 0 || selectedGameIndex > schedule[year].length) {
+      // If the selected game index is invalid for this year, use the default selected game index.
+      return DEFAULT_SELECTED_GAME_INDEX;
+    } else {
+      // Otherwise, subtract one from the selected game index in the URL since they are 1-based, not
+      // 0-based.
       return selectedGameIndex - 1;
     }
   }
 
+  // No selected game index or a non-numeric game index is provided.
   if (year !== DEFAULT_YEAR) {
-    // If the year is not the default year, show the default game index
+    // If the year is not the default year, show the default game index.
     return DEFAULT_SELECTED_GAME_INDEX;
   } else {
-    // Otherwise, show the latest completed or next upcoming game
+    // Otherwise, show the latest completed or next upcoming game.
     const gamesPlayedCount = _.filter(schedule[year], (game) => game.result).length;
     if (gamesPlayedCount === 0) {
-      // If no games have been played yet, select the default game index
+      // If no games have been played yet, select the default game index.
       return DEFAULT_SELECTED_GAME_INDEX;
     } else if (gamesPlayedCount === schedule[year].length) {
-      // If all games have already played, select the last game
+      // If all games have already played, select the last game.
       return schedule[year].length - 1;
     } else {
       // Otherwise, select the latest completed game until the Tuesday after the game, at which
-      // point, select the next upcoming game
+      // point, select the next upcoming game.
       const latestCompletedGameDate = schedule[year][gamesPlayedCount - 1].date;
       const tuesdayAfterLatestCompletedGameDate = addDays(new Date(latestCompletedGameDate), 3);
       if (isAfter(new Date(), tuesdayAfterLatestCompletedGameDate)) {
@@ -69,25 +65,24 @@ const getSelectedGameIndexFromQueryString = (qs) => {
   }
 };
 
-const rootReducer = combineReducers({
+const rootReducer = {
   navMenu,
-  router: routerReducer,
   selectedYear: (state = DEFAULT_YEAR, action) => {
     switch (action.type) {
-      case actions.CHANGE_ROUTER_LOCATION:
-        return getYearFromQueryString(action.payload.pathname);
+      case actions.ROUTER_LOCATION_CHANGED:
+        return getYearFromQueryParams(action.payload.params);
       default:
         return state;
     }
   },
   selectedGameIndex: (state = DEFAULT_SELECTED_GAME_INDEX, action) => {
     switch (action.type) {
-      case actions.CHANGE_ROUTER_LOCATION:
-        return getSelectedGameIndexFromQueryString(action.payload.pathname);
+      case actions.ROUTER_LOCATION_CHANGED:
+        return getSelectedGameIndexFromQueryParams(action.payload.params);
       default:
         return state;
     }
   },
-});
+};
 
 export default rootReducer;

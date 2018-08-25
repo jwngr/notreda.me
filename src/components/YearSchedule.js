@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
+import {Link} from 'redux-little-router';
 
 import GameContainer from '../containers/GameContainer';
 import GameSummaryContainer from '../containers/GameSummaryContainer';
@@ -31,7 +31,7 @@ const YearSchedule = ({selectedYear}) => {
         <p className="current-year">{`Notre Dame Football ${selectedYear}`}</p>
       </div>
 
-      <Link className="previous-year-container" to={`/${previousYear}`}>
+      <Link className="previous-year-container" href={`/${previousYear}`}>
         <div className="previous-year">
           <span>{String(previousYear)[0]}</span>
           <span>{String(previousYear)[1]}</span>
@@ -40,7 +40,7 @@ const YearSchedule = ({selectedYear}) => {
         </div>
       </Link>
 
-      <Link className="next-year-container" to={`/${nextYear}`}>
+      <Link className="next-year-container" href={`/${nextYear}`}>
         <div className="next-year">
           <span>{String(nextYear)[0]}</span>
           <span>{String(nextYear)[1]}</span>

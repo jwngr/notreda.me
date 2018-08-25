@@ -25,7 +25,7 @@ const TeamLayout = ({team, ranking, homeOrAway}) => {
 
 TeamLayout.propTypes = {
   team: PropTypes.object.isRequired,
-  string: PropTypes.string.isRequired,
+  homeOrAway: PropTypes.string.isRequired,
   ranking: PropTypes.number,
 };
 

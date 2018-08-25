@@ -1,26 +1,27 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import InternalLink from './common/InternalLink';
+// import {Link} from 'redux-little-router';
 
-const gameTypeBackgroundColors = {
-  home: 'none',
-  away: 'rgba(84, 82, 82, 0.1)',
-  // away: `repeating-linear-gradient(
-  //   45deg,
-  //   #002B5B1A,
-  //   #002B5B1A 5px,
-  //   #DCB4391A 5px,
-  //   #DCB4391A 10px
-  // );`,
-  selected: 'rgba(220, 180, 63, 0.5)',
-};
+// const gameTypeBackgroundColors = {
+//   home: 'none',
+//   away: 'rgba(84, 82, 82, 0.1)',
+//   // away: `repeating-linear-gradient(
+//   //   45deg,
+//   //   #002B5B1A,
+//   //   #002B5B1A 5px,
+//   //   #DCB4391A 5px,
+//   //   #DCB4391A 10px
+//   // );`,
+//   selected: 'rgba(220, 180, 63, 0.5)',
+// };
 
-const gameTypeBackgroundColorsOnHover = {
-  home: 'rgba(84, 82, 82, 0.2)',
-  away: 'rgba(84, 82, 82, 0.2)',
-  selected: 'rgba(220, 180, 63, 0.6)',
-};
+// const gameTypeBackgroundColorsOnHover = {
+//   home: 'rgba(84, 82, 82, 0.2)',
+//   away: 'rgba(84, 82, 82, 0.2)',
+//   selected: 'rgba(220, 180, 63, 0.6)',
+// };
 
-export const Wrapper = styled(Link)`
+export const Wrapper = styled(InternalLink)`
   display: flex;
   height: 52px;
   text-decoration: none;
@@ -34,7 +35,7 @@ export const Wrapper = styled(Link)`
   }
 `;
 
-export const HomeGameWrapper = Wrapper.extend`
+export const HomeGameWrapper = styled(Wrapper)`
   &.selected {
     background: rgba(220, 180, 63, 0.5);
   }
@@ -44,27 +45,27 @@ export const HomeGameWrapper = Wrapper.extend`
   }
 `;
 
-export const SelectedGameWrapper = Wrapper.extend`
-  background: repeating-linear-gradient(
-    -135deg,
-    #dcb43980,
-    #dcb43980 1px,
-    transparent 2px,
-    #dcb43980 3px
-  );
+// export const SelectedGameWrapper = styled(Wrapper)`
+//   background: repeating-linear-gradient(
+//     -135deg,
+//     #dcb43980,
+//     #dcb43980 1px,
+//     transparent 2px,
+//     #dcb43980 3px
+//   );
 
-  &:hover {
-    background: repeating-linear-gradient(
-      -135deg,
-      #55555580,
-      #55555580 1px,
-      transparent 2px,
-      #55555580 3px
-    );
-  }
-`;
+//   &:hover {
+//     background: repeating-linear-gradient(
+//       -135deg,
+//       #55555580,
+//       #55555580 1px,
+//       transparent 2px,
+//       #55555580 3px
+//     );
+//   }
+// `;
 
-export const AwayGameWrapper = Wrapper.extend`
+export const AwayGameWrapper = styled(Wrapper)`
   background-image: repeating-linear-gradient(
     135deg,
     #002b5b40,

@@ -1,4 +1,4 @@
-.home-container {
+.football-schedule-container {
   transition: transform 0.5s;
   margin: 28px;
   padding: 24px;
@@ -6,7 +6,7 @@
   background-color: rgba(220, 180, 57, 0.4);
 }
 
-.home-container.nav-menu-open {
+.football-schedule-container.nav-menu-open {
   transform: scale(0.8);
 }
 

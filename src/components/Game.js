@@ -3,7 +3,6 @@ import React from 'react';
 import format from 'date-fns/format';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link} from 'react-router-dom';
 
 import {
   AwayGamePrefix,
@@ -16,10 +15,8 @@ import {
   OpponentWrapper,
   Score,
   TelevisionCoverage,
-  Wrapper,
   HomeGameWrapper,
   AwayGameWrapper,
-  SelectedGameWrapper,
 } from './Game.styles';
 
 const Game = ({game, year, index, selected}) => {
@@ -80,7 +77,7 @@ const Game = ({game, year, index, selected}) => {
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
-    <WrapperComponent className={gameClassNames} type={gameType} to={`/${year}/${index + 1}/`}>
+    <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
       <OpponentLogo
         src={`${game.opponent.logoUrl ||
           'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}

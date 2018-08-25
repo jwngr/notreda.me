@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link} from 'react-router-dom';
+import {Link} from 'redux-little-router';
 
 import './NavMenuDecade.css';
 
@@ -38,7 +38,7 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     });
 
     return (
-      <Link className={yearLinkClasses} to={`/${year}`} key={year} onClick={onClick}>
+      <Link className={yearLinkClasses} href={`/${year}`} key={year} onClick={onClick}>
         {yearEnding}
       </Link>
     );

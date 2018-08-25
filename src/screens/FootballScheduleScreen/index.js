@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import NavMenuContainer from '../containers/NavMenuContainer';
-import YearScheduleContainer from '../containers/YearScheduleContainer';
+import NavMenuContainer from '../../containers/NavMenuContainer';
+import YearScheduleContainer from '../../containers/YearScheduleContainer';
 
-import './Home.css';
+import './index.css';
 
-const Home = ({navMenuOpen, toggleNavMenu}) => {
+const FootballScheduleScreen = ({navMenuOpen, toggleNavMenu}) => {
   const scheduleContainerClasses = classNames({
-    'home-container': true,
+    'football-schedule-container': true,
     'nav-menu-open': navMenuOpen,
   });
 
@@ -34,10 +34,10 @@ const Home = ({navMenuOpen, toggleNavMenu}) => {
   );
 };
 
-Home.propTypes = {
+FootballScheduleScreen.propTypes = {
   children: PropTypes.any,
   navMenuOpen: PropTypes.bool.isRequired,
   toggleNavMenu: PropTypes.func.isRequired,
 };
 
-export default Home;
+export default FootballScheduleScreen;
