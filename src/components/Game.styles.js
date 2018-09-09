@@ -40,8 +40,10 @@ export const HomeGameWrapper = styled(Wrapper)`
     background: rgba(220, 180, 63, 0.5);
   }
 
-  &:hover {
+  ${'' /* &:hover {
     background: #55555580;
+  } */} &:hover {
+    background: rgba(220, 180, 63, 0.3);
   }
 `;
 
@@ -89,13 +91,15 @@ export const AwayGameWrapper = styled(Wrapper)`
   &:hover {
     background: repeating-linear-gradient(
       135deg,
-      #55555580,
-      #55555580 1px,
+      rgba(220, 180, 63, 0.3),
+      rgba(220, 180, 63, 0.3) 1px,
       transparent 2px,
-      #55555580 3px
+      rgba(220, 180, 63, 0.3) 3px
     );
   }
-  background-size: 4px 4px;
+  ${'' /* &:hover {
+    background: rgba(220, 180, 63, 0.3);
+  } */} background-size: 4px 4px;
 
   ${'' /* background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -182,6 +186,9 @@ export const Location = styled.p`
   font-size: 14px;
   width: 200px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 600px) {
     font-size: 12px;
@@ -226,4 +233,10 @@ export const TelevisionCoverage = styled.div`
   img {
     height: 32px;
   }
+`;
+
+export const ShamrockSeriesLogo = styled.img`
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
 `;

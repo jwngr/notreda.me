@@ -1,74 +1,94 @@
 [
   {
     "isHomeGame": true,
-    "date": "09/01/2018",
+    "fullDate": "Sat Sep 01 2018 19:30:00 GMT-0400",
     "location": "Notre Dame, IN",
-    "opponentId": "MICH"
+    "opponentId": "MICH",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": true,
-    "date": "09/08/2018",
+    "fullDate": "Sat Sep 08 2018 15:30:00 GMT-0400",
     "location": "Notre Dame, IN",
-    "opponentId": "BALL"
+    "opponentId": "BALL",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": true,
-    "date": "09/15/2018",
+    "fullDate": "Sat Sep 15 2018 14:30:00 GMT-0400",
     "location": "Notre Dame, IN",
-    "opponentId": "VANDY"
+    "opponentId": "VANDY",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": false,
-    "date": "09/22/2018",
+    "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
+    "isTimeTbd": true,
     "location": "Salem, NC",
-    "opponentId": "WAKE"
+    "opponentId": "WAKE",
+    "coverage": "TBD"
   },
   {
     "isHomeGame": true,
-    "date": "09/29/2018",
+    "fullDate": "Sat Sep 29 2018 19:30:00 GMT-0400",
     "location": "Notre Dame, IN",
-    "opponentId": "STAN"
+    "opponentId": "STAN",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": false,
-    "date": "10/06/2018",
+    "fullDate": "Sat Oct 06 2018 12:00:00 GMT-0400",
+    "isTimeTbd": true,
     "location": "Blacksburg, VA",
-    "opponentId": "VT"
+    "opponentId": "VT",
+    "coverage": "TBD"
   },
   {
     "isHomeGame": true,
-    "date": "10/13/2018",
+    "fullDate": "Sat Oct 13 2018 14:30:00 GMT-0400",
     "location": "Notre Dame, IN",
-    "opponentId": "PITT"
+    "opponentId": "PITT",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": true,
-    "date": "10/27/2018",
+    "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
     "location": "San Diego, CA",
-    "opponentId": "NAVY"
+    "opponentId": "NAVY",
+    "coverage": "CBS"
   },
   {
     "isHomeGame": false,
     "date": "11/03/2018",
+    "fullDate": "Sat Nov 03 2018 12:00:00 GMT-0400",
+    "isTimeTbd": true,
     "location": "Evanston, IL",
-    "opponentId": "NW"
+    "opponentId": "NW",
+    "coverage": "TBD"
   },
   {
     "isHomeGame": true,
-    "date": "11/10/2018",
+    "fullDate": "Sat Nov 10 2018 19:30:00 GMT-0500",
     "location": "Notre Dame, IN",
-    "opponentId": "FSU"
+    "opponentId": "FSU",
+    "coverage": "NBC"
   },
   {
     "isHomeGame": true,
-    "date": "11/17/2018",
-    "location": "Notre Dame, IN",
-    "opponentId": "SYR"
+    "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
+    "time": "2:30 PM",
+    "timezone": "ET",
+    "location": "Bronx, NY",
+    "opponentId": "SYR",
+    "coverage": "NBC",
+    "isShamrockSeries": true
   },
   {
     "isHomeGame": false,
-    "date": "11/24/2018",
+    "fullDate": "Sat Nov 24 2018 12:00:00 GMT-0500",
+    "isTimeTbd": true,
     "location": "Los Angeles, CA",
-    "opponentId": "USC"
+    "opponentId": "USC",
+    "coverage": "TBD"
   }
 ]

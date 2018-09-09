@@ -18,8 +18,12 @@
   color: #efefef;
   display: inline-block;
   padding: 4px 8px;
-  background-color: #5aabbc; /* $primary-blue */
+  /* background-color: #2a8c5f; $primary-blue */
+  background-color: #2a8c5f;
   border: solid 3px #302205;
+  -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+  -webkit-text-stroke-color: #353b3c;
+  text-shadow: black 2px 2px;
 }
 
 .previous-year-container,
@@ -28,6 +32,9 @@
   top: calc(50% - 60px);
   text-decoration: none;
   text-align: center;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #353b3c;
+  text-shadow: black 1px 2px;
 }
 
 .previous-year-container {
@@ -44,7 +51,7 @@
   font-size: 20px;
   padding: 8px;
   color: #efefef;
-  background-color: #5aabbc; /* $primary-blue */
+  background-color: #2a8c5f; /* $primary-blue */
   border: solid 3px #302205;
 }
 

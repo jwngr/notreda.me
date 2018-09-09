@@ -55,18 +55,8 @@
     },
     "espnGameId": 302470087,
     "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        9
-      ],
-      "home": [
-        7,
-        6,
-        7,
-        3
-      ]
+      "away": [0, 3, 0, 9],
+      "home": [7, 6, 7, 3]
     },
     "sportsReferenceGameId": "2010-09-04-notre-dame"
   },
@@ -126,18 +116,8 @@
     },
     "espnGameId": 302540087,
     "linescore": {
-      "away": [
-        14,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        10,
-        7
-      ]
+      "away": [14, 7, 0, 7],
+      "home": [7, 0, 10, 7]
     },
     "sportsReferenceGameId": "2010-09-11-notre-dame"
   },
@@ -197,20 +177,8 @@
     },
     "espnGameId": 302610127,
     "linescore": {
-      "away": [
-        7,
-        0,
-        14,
-        7,
-        3
-      ],
-      "home": [
-        0,
-        7,
-        14,
-        7,
-        6
-      ]
+      "away": [7, 0, 14, 7, 3],
+      "home": [0, 7, 14, 7, 6]
     },
     "sportsReferenceGameId": "2010-09-18-michigan-state"
   },
@@ -270,18 +238,8 @@
     },
     "espnGameId": 302680087,
     "linescore": {
-      "away": [
-        10,
-        6,
-        3,
-        18
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        8
-      ]
+      "away": [10, 6, 3, 18],
+      "home": [3, 3, 0, 8]
     },
     "sportsReferenceGameId": "2010-09-25-notre-dame",
     "rankings": {
@@ -346,18 +304,8 @@
     },
     "espnGameId": 302750103,
     "linescore": {
-      "away": [
-        21,
-        3,
-        7,
-        0
-      ],
-      "home": [
-        7,
-        6,
-        0,
-        0
-      ]
+      "away": [21, 3, 7, 0],
+      "home": [7, 6, 0, 0]
     },
     "sportsReferenceGameId": "2010-10-02-boston-college"
   },
@@ -417,18 +365,8 @@
     },
     "espnGameId": 302820087,
     "linescore": {
-      "away": [
-        3,
-        0,
-        7,
-        7
-      ],
-      "home": [
-        7,
-        10,
-        3,
-        3
-      ]
+      "away": [3, 0, 7, 7],
+      "home": [7, 10, 3, 3]
     },
     "sportsReferenceGameId": "2010-10-09-notre-dame"
   },
@@ -488,18 +426,8 @@
     },
     "espnGameId": 302890087,
     "linescore": {
-      "away": [
-        7,
-        10,
-        0,
-        3
-      ],
-      "home": [
-        7,
-        20,
-        14,
-        3
-      ]
+      "away": [7, 10, 0, 3],
+      "home": [7, 20, 14, 3]
     },
     "sportsReferenceGameId": "2010-10-16-notre-dame"
   },
@@ -559,18 +487,8 @@
     },
     "espnGameId": 302962426,
     "linescore": {
-      "away": [
-        3,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        7,
-        14,
-        14,
-        0
-      ]
+      "away": [3, 7, 0, 7],
+      "home": [7, 14, 14, 0]
     },
     "sportsReferenceGameId": "2010-10-23-navy"
   },
@@ -630,18 +548,8 @@
     },
     "espnGameId": 303030087,
     "linescore": {
-      "away": [
-        12,
-        6,
-        7,
-        3
-      ],
-      "home": [
-        13,
-        7,
-        7,
-        0
-      ]
+      "away": [12, 6, 7, 3],
+      "home": [13, 7, 7, 0]
     },
     "sportsReferenceGameId": "2010-10-30-notre-dame"
   },
@@ -701,18 +609,8 @@
     },
     "espnGameId": 303170087,
     "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        7,
-        14,
-        0
-      ]
+      "away": [3, 0, 0, 0],
+      "home": [7, 7, 14, 0]
     },
     "sportsReferenceGameId": "2010-11-13-notre-dame",
     "rankings": {
@@ -727,6 +625,8 @@
     "date": "11/20/2010",
     "location": "Bronx, NY (Yankee Stadium)",
     "opponentId": "ARMY",
+    "isShamrockSeries": true,
+
     "score": {
       "away": 3,
       "home": 27
@@ -777,18 +677,8 @@
     },
     "espnGameId": 303240087,
     "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        0,
-        17,
-        10,
-        0
-      ]
+      "away": [3, 0, 0, 0],
+      "home": [0, 17, 10, 0]
     },
     "sportsReferenceGameId": "2010-11-20-army"
   },
@@ -848,18 +738,8 @@
     },
     "espnGameId": 303310030,
     "linescore": {
-      "away": [
-        0,
-        13,
-        0,
-        7
-      ],
-      "home": [
-        3,
-        0,
-        10,
-        3
-      ]
+      "away": [0, 13, 0, 7],
+      "home": [3, 0, 10, 3]
     },
     "sportsReferenceGameId": "2010-11-27-southern-california"
   },
@@ -920,18 +800,8 @@
     },
     "espnGameId": 303652390,
     "linescore": {
-      "away": [
-        14,
-        13,
-        3,
-        3
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        14
-      ]
+      "away": [14, 13, 3, 3],
+      "home": [0, 3, 0, 14]
     },
     "sportsReferenceGameId": "2010-12-31-miami-fl"
   }

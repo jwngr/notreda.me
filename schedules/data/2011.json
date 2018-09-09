@@ -55,18 +55,8 @@
     },
     "espnGameId": 312460087,
     "linescore": {
-      "away": [
-        13,
-        3,
-        0,
-        7
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        13
-      ]
+      "away": [13, 3, 0, 7],
+      "home": [0, 0, 7, 13]
     },
     "sportsReferenceGameId": "2011-09-03-notre-dame",
     "rankings": {
@@ -131,18 +121,8 @@
     },
     "espnGameId": 312530130,
     "linescore": {
-      "away": [
-        14,
-        3,
-        7,
-        7
-      ],
-      "home": [
-        0,
-        7,
-        0,
-        28
-      ]
+      "away": [14, 3, 7, 7],
+      "home": [0, 7, 0, 28]
     },
     "sportsReferenceGameId": "2011-09-10-michigan"
   },
@@ -202,18 +182,8 @@
     },
     "espnGameId": 312600087,
     "linescore": {
-      "away": [
-        3,
-        7,
-        0,
-        3
-      ],
-      "home": [
-        14,
-        7,
-        7,
-        3
-      ]
+      "away": [3, 7, 0, 3],
+      "home": [14, 7, 7, 3]
     },
     "sportsReferenceGameId": "2011-09-17-notre-dame",
     "rankings": {
@@ -278,18 +248,8 @@
     },
     "espnGameId": 312670221,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        8
-      ],
-      "home": [
-        3,
-        3,
-        6,
-        0
-      ]
+      "away": [0, 7, 0, 8],
+      "home": [3, 3, 6, 0]
     },
     "sportsReferenceGameId": "2011-09-24-pittsburgh"
   },
@@ -349,18 +309,8 @@
     },
     "espnGameId": 312742509,
     "linescore": {
-      "away": [
-        14,
-        7,
-        14,
-        3
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        7
-      ]
+      "away": [14, 7, 14, 3],
+      "home": [0, 3, 0, 7]
     },
     "sportsReferenceGameId": "2011-10-01-purdue"
   },
@@ -420,18 +370,8 @@
     },
     "espnGameId": 312810087,
     "linescore": {
-      "away": [
-        3,
-        13,
-        0,
-        17
-      ],
-      "home": [
-        21,
-        21,
-        7,
-        10
-      ]
+      "away": [3, 13, 0, 17],
+      "home": [21, 21, 7, 10]
     },
     "sportsReferenceGameId": "2011-10-08-notre-dame"
   },
@@ -491,18 +431,8 @@
     },
     "espnGameId": 312950087,
     "linescore": {
-      "away": [
-        14,
-        3,
-        7,
-        7
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        7
-      ]
+      "away": [14, 3, 7, 7],
+      "home": [0, 10, 0, 7]
     },
     "sportsReferenceGameId": "2011-10-22-notre-dame"
   },
@@ -562,18 +492,8 @@
     },
     "espnGameId": 313020087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        21,
-        7,
-        14
-      ]
+      "away": [0, 7, 0, 7],
+      "home": [14, 21, 7, 14]
     },
     "sportsReferenceGameId": "2011-10-29-notre-dame"
   },
@@ -633,18 +553,8 @@
     },
     "espnGameId": 313090154,
     "linescore": {
-      "away": [
-        10,
-        0,
-        14,
-        0
-      ],
-      "home": [
-        10,
-        7,
-        0,
-        0
-      ]
+      "away": [10, 0, 14, 0],
+      "home": [10, 7, 0, 0]
     },
     "sportsReferenceGameId": "2011-11-05-wake-forest"
   },
@@ -654,6 +564,8 @@
     "date": "11/12/2011",
     "location": "Landover, MD",
     "opponentId": "MD",
+    "isShamrockSeries": true,
+
     "score": {
       "away": 21,
       "home": 45
@@ -704,18 +616,8 @@
     },
     "espnGameId": 313160087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        14
-      ],
-      "home": [
-        10,
-        14,
-        14,
-        7
-      ]
+      "away": [0, 7, 0, 14],
+      "home": [10, 14, 14, 7]
     },
     "sportsReferenceGameId": "2011-11-12-maryland"
   },
@@ -775,18 +677,8 @@
     },
     "espnGameId": 313230087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        10,
-        3,
-        0,
-        3
-      ]
+      "away": [0, 7, 0, 7],
+      "home": [10, 3, 0, 3]
     },
     "sportsReferenceGameId": "2011-11-19-notre-dame",
     "rankings": {
@@ -851,18 +743,8 @@
     },
     "espnGameId": 313300024,
     "linescore": {
-      "away": [
-        0,
-        0,
-        7,
-        7
-      ],
-      "home": [
-        7,
-        14,
-        0,
-        7
-      ]
+      "away": [0, 0, 7, 7],
+      "home": [7, 14, 0, 7]
     },
     "sportsReferenceGameId": "2011-11-26-stanford",
     "rankings": {
@@ -931,18 +813,8 @@
     },
     "espnGameId": 313630087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        3,
-        15
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        0
-      ]
+      "away": [0, 0, 3, 15],
+      "home": [7, 0, 7, 0]
     },
     "sportsReferenceGameId": "2011-12-29-florida-state",
     "rankings": {

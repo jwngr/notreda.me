@@ -55,18 +55,8 @@
     },
     "espnGameId": 292480087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        21,
-        7,
-        0
-      ]
+      "away": [0, 0, 0, 0],
+      "home": [7, 21, 7, 0]
     },
     "sportsReferenceGameId": "2009-09-05-notre-dame",
     "rankings": {
@@ -131,18 +121,8 @@
     },
     "espnGameId": 292550130,
     "linescore": {
-      "away": [
-        3,
-        17,
-        0,
-        14
-      ],
-      "home": [
-        14,
-        3,
-        7,
-        14
-      ]
+      "away": [3, 17, 0, 14],
+      "home": [14, 3, 7, 14]
     },
     "sportsReferenceGameId": "2009-09-12-michigan",
     "rankings": {
@@ -207,18 +187,8 @@
     },
     "espnGameId": 292620087,
     "linescore": {
-      "away": [
-        3,
-        14,
-        6,
-        7
-      ],
-      "home": [
-        13,
-        3,
-        10,
-        7
-      ]
+      "away": [3, 14, 6, 7],
+      "home": [13, 3, 10, 7]
     },
     "sportsReferenceGameId": "2009-09-19-notre-dame"
   },
@@ -278,18 +248,8 @@
     },
     "espnGameId": 292692509,
     "linescore": {
-      "away": [
-        3,
-        14,
-        0,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        0,
-        14
-      ]
+      "away": [3, 14, 0, 7],
+      "home": [7, 0, 0, 14]
     },
     "sportsReferenceGameId": "2009-09-26-purdue"
   },
@@ -349,20 +309,8 @@
     },
     "espnGameId": 292760087,
     "linescore": {
-      "away": [
-        7,
-        10,
-        7,
-        6,
-        0
-      ],
-      "home": [
-        3,
-        13,
-        3,
-        11,
-        7
-      ]
+      "away": [7, 10, 7, 6, 0],
+      "home": [3, 13, 3, 11, 7]
     },
     "sportsReferenceGameId": "2009-10-03-notre-dame"
   },
@@ -422,18 +370,8 @@
     },
     "espnGameId": 292900087,
     "linescore": {
-      "away": [
-        7,
-        6,
-        14,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        13
-      ]
+      "away": [7, 6, 14, 7],
+      "home": [7, 0, 7, 13]
     },
     "sportsReferenceGameId": "2009-10-17-notre-dame",
     "rankings": {
@@ -501,18 +439,8 @@
     },
     "espnGameId": 292970087,
     "linescore": {
-      "away": [
-        2,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        3,
-        10,
-        0,
-        7
-      ]
+      "away": [2, 7, 7, 0],
+      "home": [3, 10, 0, 7]
     },
     "sportsReferenceGameId": "2009-10-24-notre-dame"
   },
@@ -522,6 +450,7 @@
     "date": "10/31/2009",
     "location": "San Antonio, Texas",
     "opponentId": "WSU",
+    "isShamrockSeries": true,
     "score": {
       "away": 14,
       "home": 40
@@ -572,18 +501,8 @@
     },
     "espnGameId": 293040087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        9,
-        21,
-        3,
-        7
-      ]
+      "away": [0, 7, 0, 7],
+      "home": [9, 21, 3, 7]
     },
     "sportsReferenceGameId": "2009-10-31-notre-dame",
     "rankings": {
@@ -648,18 +567,8 @@
     },
     "espnGameId": 293110087,
     "linescore": {
-      "away": [
-        7,
-        7,
-        7,
-        2
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        14
-      ]
+      "away": [7, 7, 7, 2],
+      "home": [0, 0, 7, 14]
     },
     "sportsReferenceGameId": "2009-11-07-notre-dame",
     "rankings": {
@@ -724,18 +633,8 @@
     },
     "espnGameId": 293180221,
     "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        19
-      ],
-      "home": [
-        3,
-        7,
-        10,
-        7
-      ]
+      "away": [0, 3, 0, 19],
+      "home": [3, 7, 10, 7]
     },
     "sportsReferenceGameId": "2009-11-14-pittsburgh",
     "rankings": {
@@ -800,20 +699,8 @@
     },
     "espnGameId": 293250087,
     "linescore": {
-      "away": [
-        0,
-        10,
-        7,
-        3,
-        13
-      ],
-      "home": [
-        7,
-        7,
-        3,
-        3,
-        10
-      ]
+      "away": [0, 10, 7, 3, 13],
+      "home": [7, 7, 3, 3, 10]
     },
     "sportsReferenceGameId": "2009-11-21-notre-dame"
   },
@@ -873,18 +760,8 @@
     },
     "espnGameId": 293320024,
     "linescore": {
-      "away": [
-        14,
-        10,
-        7,
-        7
-      ],
-      "home": [
-        10,
-        10,
-        7,
-        18
-      ]
+      "away": [14, 10, 7, 7],
+      "home": [10, 10, 7, 18]
     },
     "sportsReferenceGameId": "2009-11-28-stanford"
   }

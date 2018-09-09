@@ -17,6 +17,7 @@ import {
   TelevisionCoverage,
   HomeGameWrapper,
   AwayGameWrapper,
+  ShamrockSeriesLogo,
 } from './Game.styles';
 
 const Game = ({game, year, index, selected}) => {
@@ -39,16 +40,23 @@ const Game = ({game, year, index, selected}) => {
         {result} {notreDameScore} - {opponentScore}
       </Score>
     );
-  } else if ('timestamp' in game) {
-    const time = 'timestamp' in game ? format(game.timestamp, 'h:mm A') : 'TBD';
+  } else if ('timestamp' in game || 'fullDate' in game) {
+    let time;
+    if ('fullDate' in game) {
+      time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
+    } else {
+      time = 'timestamp' in game ? format(game.timestamp, 'h:mm A') : 'TBD';
+    }
 
     lastColumnContent = (
       <TelevisionCoverage>
         <p>{time}</p>
-        <img
-          alt={`${game.coverage} logo`}
-          src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
-        />
+        {game.coverage && (
+          <img
+            alt={`${game.coverage} logo`}
+            src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+          />
+        )}
       </TelevisionCoverage>
     );
   } else {
@@ -67,13 +75,29 @@ const Game = ({game, year, index, selected}) => {
 
   const gameType = selected ? 'selected' : game.isHomeGame ? 'home' : 'away';
 
-  let date = format(game.timestamp || game.date, 'MMMM D');
+  let date;
+  if ('fullDate' in game) {
+    date = format(new Date(game.fullDate), 'dddd, MMMM D YYYY');
+  } else {
+    date = format(game.timestamp || game.date, 'MMMM D');
+  }
 
   const opponentRanking = game.isHomeGame
     ? _.get(game, 'rankings.away.ap')
     : _.get(game, 'rankings.home.ap');
 
   const WrapperComponent = game.isHomeGame ? HomeGameWrapper : AwayGameWrapper;
+
+  let shamrockSeriesLogoContent;
+  if (game.isShamrockSeries) {
+    shamrockSeriesLogoContent = (
+      <ShamrockSeriesLogo
+        src={require('../images/shamrock.png')}
+        alt="Shamrock Series"
+        title="Shamrock Series"
+      />
+    );
+  }
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
@@ -91,7 +115,10 @@ const Game = ({game, year, index, selected}) => {
           <OpponentName>{game.opponent.name}</OpponentName>
         </OpponentWrapper>
       </DateOpponentWrapper>
-      <Location>{game.location}</Location>
+      <Location>
+        {game.location}
+        {shamrockSeriesLogoContent}
+      </Location>
       {lastColumnContent}
     </WrapperComponent>
   );

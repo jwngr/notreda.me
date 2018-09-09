@@ -12,12 +12,18 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   const opponent = game.isHomeGame ? awayTeam : homeTeam;
   const atOrVs = game.isHomeGame ? 'vs' : 'at';
 
-  const date = format(game.timestamp || game.date, 'dddd, MMMM D YYYY');
+  let date;
   let time;
-  if ('timestamp' in game) {
-    time = format(game.timestamp || game.date, 'h:mm A');
+  if ('fullDate' in game) {
+    date = format(new Date(game.fullDate), 'dddd, MMMM D YYYY');
+    time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
   } else {
-    time = 'TBD';
+    date = format(game.timestamp || game.date, 'dddd, MMMM D YYYY');
+    if ('timestamp' in game) {
+      time = format(game.timestamp || game.date, 'h:mm A');
+    } else {
+      time = 'TBD';
+    }
   }
 
   const homeApRanking = _.get(game, 'rankings.home.ap');

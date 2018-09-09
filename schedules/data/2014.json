@@ -55,18 +55,8 @@
     },
     "espnGameId": 400548008,
     "linescore": {
-      "away": [
-        7,
-        3,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        14,
-        10,
-        10
-      ]
+      "away": [7, 3, 0, 7],
+      "home": [14, 14, 10, 10]
     },
     "sportsReferenceGameId": "2014-08-30-notre-dame",
     "rankings": {
@@ -131,18 +121,8 @@
     },
     "espnGameId": 400547944,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        14,
-        7,
-        3
-      ]
+      "away": [0, 0, 0, 0],
+      "home": [7, 14, 7, 3]
     },
     "sportsReferenceGameId": "2014-09-06-notre-dame",
     "rankings": {
@@ -157,6 +137,7 @@
     "date": "09/13/2014",
     "location": "Indianapolis, IN(Lucas Oil Stadium)",
     "opponentId": "PUR",
+    "isShamrockSeries": true,
     "score": {
       "away": 14,
       "home": 30
@@ -207,18 +188,8 @@
     },
     "espnGameId": 400547990,
     "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        10,
-        7,
-        6
-      ]
+      "away": [7, 7, 0, 0],
+      "home": [7, 10, 7, 6]
     },
     "sportsReferenceGameId": "2014-09-13-notre-dame",
     "rankings": {
@@ -283,18 +254,8 @@
     },
     "espnGameId": 400547818,
     "linescore": {
-      "away": [
-        0,
-        14,
-        7,
-        10
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        12
-      ]
+      "away": [0, 14, 7, 10],
+      "home": [0, 3, 0, 12]
     },
     "sportsReferenceGameId": "2014-09-27-syracuse",
     "rankings": {
@@ -359,18 +320,8 @@
     },
     "espnGameId": 400548279,
     "linescore": {
-      "away": [
-        7,
-        0,
-        0,
-        7
-      ],
-      "home": [
-        0,
-        7,
-        0,
-        10
-      ]
+      "away": [7, 0, 0, 7],
+      "home": [0, 7, 0, 10]
     },
     "sportsReferenceGameId": "2014-10-04-notre-dame",
     "rankings": {
@@ -438,18 +389,8 @@
     },
     "espnGameId": 400547798,
     "linescore": {
-      "away": [
-        14,
-        12,
-        10,
-        7
-      ],
-      "home": [
-        7,
-        21,
-        7,
-        15
-      ]
+      "away": [14, 12, 10, 7],
+      "home": [7, 21, 7, 15]
     },
     "sportsReferenceGameId": "2014-10-11-notre-dame",
     "rankings": {
@@ -514,18 +455,8 @@
     },
     "espnGameId": 400547767,
     "linescore": {
-      "away": [
-        7,
-        10,
-        7,
-        3
-      ],
-      "home": [
-        7,
-        3,
-        14,
-        7
-      ]
+      "away": [7, 10, 7, 3],
+      "home": [7, 3, 14, 7]
     },
     "sportsReferenceGameId": "2014-10-18-florida-state",
     "rankings": {
@@ -593,18 +524,8 @@
     },
     "espnGameId": 400548465,
     "linescore": {
-      "away": [
-        14,
-        14,
-        0,
-        21
-      ],
-      "home": [
-        7,
-        10,
-        14,
-        8
-      ]
+      "away": [14, 14, 0, 21],
+      "home": [7, 10, 14, 8]
     },
     "sportsReferenceGameId": "2014-11-01-navy",
     "rankings": {
@@ -669,18 +590,8 @@
     },
     "espnGameId": 400548302,
     "linescore": {
-      "away": [
-        3,
-        7,
-        7,
-        14
-      ],
-      "home": [
-        17,
-        17,
-        0,
-        21
-      ]
+      "away": [3, 7, 7, 14],
+      "home": [17, 17, 0, 21]
     },
     "sportsReferenceGameId": "2014-11-08-arizona-state",
     "rankings": {
@@ -748,20 +659,8 @@
     },
     "espnGameId": 400547980,
     "linescore": {
-      "away": [
-        9,
-        14,
-        3,
-        14,
-        3
-      ],
-      "home": [
-        20,
-        7,
-        7,
-        6,
-        0
-      ]
+      "away": [9, 14, 3, 14, 3],
+      "home": [20, 7, 7, 6, 0]
     },
     "sportsReferenceGameId": "2014-11-15-notre-dame",
     "rankings": {
@@ -826,18 +725,8 @@
     },
     "espnGameId": 400547784,
     "linescore": {
-      "away": [
-        14,
-        3,
-        7,
-        7
-      ],
-      "home": [
-        3,
-        3,
-        14,
-        8
-      ]
+      "away": [14, 3, 7, 7],
+      "home": [3, 3, 14, 8]
     },
     "sportsReferenceGameId": "2014-11-22-notre-dame"
   },
@@ -897,18 +786,8 @@
     },
     "espnGameId": 400548318,
     "linescore": {
-      "away": [
-        0,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        21,
-        14,
-        14,
-        0
-      ]
+      "away": [0, 7, 7, 0],
+      "home": [21, 14, 14, 0]
     },
     "sportsReferenceGameId": "2014-11-29-southern-california"
   },
@@ -969,18 +848,8 @@
     },
     "espnGameId": 400610214,
     "linescore": {
-      "away": [
-        7,
-        14,
-        7,
-        3
-      ],
-      "home": [
-        7,
-        7,
-        14,
-        0
-      ]
+      "away": [7, 14, 7, 3],
+      "home": [7, 7, 14, 0]
     },
     "sportsReferenceGameId": "2014-12-30-louisiana-state",
     "rankings": {

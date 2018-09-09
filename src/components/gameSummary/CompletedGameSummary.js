@@ -13,10 +13,17 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
   const homeApRanking = _.get(game, 'rankings.home.ap');
   const awayApRanking = _.get(game, 'rankings.away.ap');
 
-  const date = format(game.timestamp || game.date, 'MMMM D, YYYY');
+  let date;
   let time;
-  if ('timestamp' in game) {
-    time = format(game.timestamp || game.date, 'h:mm A');
+  if ('fullDate' in game) {
+    date = format(new Date(game.fullDate), 'dddd, MMMM D YYYY');
+    time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
+  } else {
+    date = format(game.timestamp || game.date, 'MMMM D, YYYY');
+    let time;
+    if ('timestamp' in game) {
+      time = format(game.timestamp || game.date, 'h:mm A');
+    }
   }
 
   let tvCoverageIcon;

@@ -69497,6 +69497,7 @@
       "date": "10/31/2009",
       "location": "San Antonio, Texas",
       "opponentId": "WSU",
+      "isShamrockSeries": true,
       "score": {
         "away": 14,
         "home": 40
@@ -70593,6 +70594,7 @@
       "date": "11/20/2010",
       "location": "Bronx, NY (Yankee Stadium)",
       "opponentId": "ARMY",
+      "isShamrockSeries": true,
       "score": {
         "away": 3,
         "home": 27
@@ -71458,6 +71460,7 @@
       "date": "11/12/2011",
       "location": "Landover, MD",
       "opponentId": "MD",
+      "isShamrockSeries": true,
       "score": {
         "away": 21,
         "home": 45
@@ -72068,6 +72071,7 @@
       "date": "10/06/2012",
       "location": "Chicago, IL",
       "opponentId": "MIAMI",
+      "isShamrockSeries": true,
       "score": {
         "away": 3,
         "home": 41
@@ -73154,6 +73158,7 @@
       "date": "10/05/2013",
       "location": "Arlington, Texas",
       "opponentId": "AZST",
+      "isShamrockSeries": true,
       "score": {
         "away": 34,
         "home": 37
@@ -73900,6 +73905,7 @@
       "date": "09/13/2014",
       "location": "Indianapolis, IN(Lucas Oil Stadium)",
       "opponentId": "PUR",
+      "isShamrockSeries": true,
       "score": {
         "away": 14,
         "home": 30
@@ -75553,6 +75559,7 @@
         }
       },
       "opponentId": "BC",
+      "isShamrockSeries": true,
       "score": {
         "away": 16,
         "home": 19
@@ -76449,6 +76456,7 @@
         }
       },
       "opponentId": "ARMY",
+      "isShamrockSeries": true,
       "score": {
         "away": 6,
         "home": 44
@@ -77309,7 +77317,6 @@
     {
       "isHomeGame": false,
       "date": "11/11/2017",
-      "coverage": "TBD",
       "location": "Miami, FL",
       "opponentId": "MIAMI",
       "sportsReferenceGameId": "2017-11-11-miami-fl",
@@ -77466,7 +77473,6 @@
     {
       "isHomeGame": false,
       "date": "11/25/2017",
-      "coverage": "TBD",
       "location": "Stanford, CA",
       "opponentId": "STAN",
       "sportsReferenceGameId": "2017-11-25-stanford",
@@ -77629,73 +77635,87 @@
   "2018": [
     {
       "isHomeGame": true,
-      "date": "09/01/2018",
+      "fullDate": "Sat Sep 01 2018 19:30:00 GMT-0400",
       "location": "Notre Dame, IN",
-      "opponentId": "MICH"
+      "opponentId": "MICH",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": true,
-      "date": "09/08/2018",
+      "fullDate": "Sat Sep 08 2018 15:30:00 GMT-0400",
       "location": "Notre Dame, IN",
-      "opponentId": "BALL"
+      "opponentId": "BALL",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": true,
-      "date": "09/15/2018",
+      "fullDate": "Sat Sep 15 2018 14:30:00 GMT-0400",
       "location": "Notre Dame, IN",
-      "opponentId": "VANDY"
+      "opponentId": "VANDY",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": false,
-      "date": "09/22/2018",
+      "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
+      "isTimeTbd": true,
       "location": "Salem, NC",
       "opponentId": "WAKE"
     },
     {
       "isHomeGame": true,
-      "date": "09/29/2018",
+      "fullDate": "Sat Sep 29 2018 19:30:00 GMT-0400",
       "location": "Notre Dame, IN",
-      "opponentId": "STAN"
+      "opponentId": "STAN",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": false,
-      "date": "10/06/2018",
+      "fullDate": "Sat Oct 06 2018 12:00:00 GMT-0400",
+      "isTimeTbd": true,
       "location": "Blacksburg, VA",
       "opponentId": "VT"
     },
     {
       "isHomeGame": true,
-      "date": "10/13/2018",
+      "fullDate": "Sat Oct 13 2018 14:30:00 GMT-0400",
       "location": "Notre Dame, IN",
-      "opponentId": "PITT"
+      "opponentId": "PITT",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": true,
-      "date": "10/27/2018",
+      "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
       "location": "San Diego, CA",
-      "opponentId": "NAVY"
+      "opponentId": "NAVY",
+      "coverage": "CBS"
     },
     {
       "isHomeGame": false,
       "date": "11/03/2018",
+      "fullDate": "Sat Nov 03 2018 12:00:00 GMT-0400",
+      "isTimeTbd": true,
       "location": "Evanston, IL",
       "opponentId": "NW"
     },
     {
       "isHomeGame": true,
-      "date": "11/10/2018",
+      "fullDate": "Sat Nov 10 2018 19:30:00 GMT-0500",
       "location": "Notre Dame, IN",
-      "opponentId": "FSU"
+      "opponentId": "FSU",
+      "coverage": "NBC"
     },
     {
       "isHomeGame": true,
-      "date": "11/17/2018",
-      "location": "Notre Dame, IN",
-      "opponentId": "SYR"
+      "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
+      "location": "Bronx, NY",
+      "opponentId": "SYR",
+      "coverage": "NBC",
+      "isShamrockSeries": true
     },
     {
       "isHomeGame": false,
-      "date": "11/24/2018",
+      "fullDate": "Sat Nov 24 2018 12:00:00 GMT-0500",
+      "isTimeTbd": true,
       "location": "Los Angeles, CA",
       "opponentId": "USC"
     }
