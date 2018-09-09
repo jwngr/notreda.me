@@ -15,10 +15,10 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   let date;
   let time;
   if ('fullDate' in game) {
-    date = format(new Date(game.fullDate), 'dddd, MMMM D YYYY');
+    date = format(new Date(game.fullDate), 'MMMM D, YYYY');
     time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
   } else {
-    date = format(game.timestamp || game.date, 'dddd, MMMM D YYYY');
+    date = format(game.timestamp || game.date, 'MMMM D, YYYY');
     if ('timestamp' in game) {
       time = format(game.timestamp || game.date, 'h:mm A');
     } else {

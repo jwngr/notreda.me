@@ -51,12 +51,13 @@ const Game = ({game, year, index, selected}) => {
     lastColumnContent = (
       <TelevisionCoverage>
         <p>{time}</p>
-        {game.coverage && (
-          <img
-            alt={`${game.coverage} logo`}
-            src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
-          />
-        )}
+        {game.coverage &&
+          game.coverage !== 'TBD' && (
+            <img
+              alt={`${game.coverage} logo`}
+              src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+            />
+          )}
       </TelevisionCoverage>
     );
   } else {
@@ -77,7 +78,7 @@ const Game = ({game, year, index, selected}) => {
 
   let date;
   if ('fullDate' in game) {
-    date = format(new Date(game.fullDate), 'dddd, MMMM D YYYY');
+    date = format(new Date(game.fullDate), 'MMMM D, YYYY');
   } else {
     date = format(game.timestamp || game.date, 'MMMM D');
   }
