@@ -10,7 +10,7 @@ const CURRENT_YEAR = 2017;
 const AP_POLL_START_YEAR = 1936;
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 
-const years = [2017];
+const years = [2018];
 // const years = _.range(AP_POLL_START_YEAR, CURRENT_YEAR + 1);
 
 const getHtmlForUrl = (url) => {

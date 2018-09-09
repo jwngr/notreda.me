@@ -64,7 +64,7 @@ const scrapeGameStats = async (gameId) => {
 };
 
 const fn = async () => {
-  const year = 2000;
+  const year = 2018;
   const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
   const yearData = require(filename);
 

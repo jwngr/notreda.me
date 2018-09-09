@@ -153,7 +153,7 @@ const getGameStats = (gameId) => {
   );
 };
 
-const year = 2017;
+const year = 2018;
 const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
 const yearData = require(filename);
 
@@ -163,7 +163,7 @@ const promises = _.map(yearData, (gameData) => {
     return Promise.resolve();
   } else {
     return getGameStats(gameData.espnGameId).catch((error) => {
-      console.log(`Error scraping stats for game ${gameId}:`, error);
+      console.log(`Error scraping stats for game ${gameData.espnGameId}:`, error);
     });
   }
 });
