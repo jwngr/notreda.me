@@ -7,18 +7,8 @@
     "coverage": "NBC",
     "espnGameId": 401012888,
     "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        7,
-        3,
-        0
-      ]
+      "away": [0, 10, 0, 7],
+      "home": [14, 7, 3, 0]
     },
     "score": {
       "home": 24,
@@ -45,7 +35,7 @@
         "penaltyYards": 52,
         "fumblesLost": 1,
         "possession": "31:33",
-        "fumbles": -1
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 21,
@@ -66,7 +56,7 @@
         "penaltyYards": 40,
         "fumblesLost": 0,
         "possession": "28:27",
-        "fumbles": -1
+        "fumbles": 0
       }
     },
     "sportsReferenceGameId": "2018-09-01-notre-dame",
@@ -87,18 +77,8 @@
     "coverage": "NBC",
     "espnGameId": 401013377,
     "linescore": {
-      "away": [
-        3,
-        3,
-        0,
-        10
-      ],
-      "home": [
-        7,
-        7,
-        10,
-        0
-      ]
+      "away": [3, 3, 0, 10],
+      "home": [7, 7, 10, 0]
     },
     "score": {
       "home": 24,
@@ -125,7 +105,7 @@
         "penaltyYards": 10,
         "fumblesLost": 0,
         "possession": "34:22",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 20,
@@ -146,7 +126,7 @@
         "penaltyYards": 20,
         "fumblesLost": 0,
         "possession": "25:38",
-        "fumbles": -1
+        "fumbles": 1
       }
     },
     "sportsReferenceGameId": "2018-09-08-notre-dame",
