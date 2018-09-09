@@ -77317,6 +77317,7 @@
     {
       "isHomeGame": false,
       "date": "11/11/2017",
+      "coverage": "TBD",
       "location": "Miami, FL",
       "opponentId": "MIAMI",
       "sportsReferenceGameId": "2017-11-11-miami-fl",
@@ -77473,6 +77474,7 @@
     {
       "isHomeGame": false,
       "date": "11/25/2017",
+      "coverage": "TBD",
       "location": "Stanford, CA",
       "opponentId": "STAN",
       "sportsReferenceGameId": "2017-11-25-stanford",
@@ -77638,56 +77640,243 @@
       "fullDate": "Sat Sep 01 2018 19:30:00 GMT-0400",
       "location": "Notre Dame, IN",
       "opponentId": "MICH",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "espnGameId": 401012888,
+      "linescore": {
+        "away": [
+          0,
+          10,
+          0,
+          7
+        ],
+        "home": [
+          14,
+          7,
+          3,
+          0
+        ]
+      },
+      "score": {
+        "home": 24,
+        "away": 17
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 20,
+          "thirdDownAttempts": 6,
+          "thirdDownConversions": 13,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 3,
+          "totalYards": 307,
+          "passYards": 249,
+          "passCompletions": 24,
+          "passAttempts": 36,
+          "yardsPerPass": 6.9,
+          "interceptionsThrown": 1,
+          "rushYards": 58,
+          "rushAttempts": 33,
+          "yardsPerRush": 1.8,
+          "penalties": 7,
+          "penaltyYards": 52,
+          "fumblesLost": 1,
+          "possession": "31:33",
+          "fumbles": 1
+        },
+        "home": {
+          "firstDowns": 21,
+          "thirdDownAttempts": 7,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 302,
+          "passYards": 170,
+          "passCompletions": 12,
+          "passAttempts": 22,
+          "yardsPerPass": 7.7,
+          "interceptionsThrown": 1,
+          "rushYards": 132,
+          "rushAttempts": 47,
+          "yardsPerRush": 2.8,
+          "penalties": 4,
+          "penaltyYards": 40,
+          "fumblesLost": 0,
+          "possession": "28:27",
+          "fumbles": 0
+        }
+      },
+      "sportsReferenceGameId": "2018-09-01-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 12
+        },
+        "away": {
+          "ap": 14
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Sep 08 2018 15:30:00 GMT-0400",
       "location": "Notre Dame, IN",
       "opponentId": "BALL",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "espnGameId": 401013377,
+      "linescore": {
+        "away": [
+          3,
+          3,
+          0,
+          10
+        ],
+        "home": [
+          7,
+          7,
+          10,
+          0
+        ]
+      },
+      "score": {
+        "home": 24,
+        "away": 16
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 24,
+          "thirdDownAttempts": 8,
+          "thirdDownConversions": 23,
+          "fourthDownAttempts": 3,
+          "fourthDownConversions": 3,
+          "totalYards": 349,
+          "passYards": 180,
+          "passCompletions": 23,
+          "passAttempts": 50,
+          "yardsPerPass": 3.6,
+          "interceptionsThrown": 2,
+          "rushYards": 169,
+          "rushAttempts": 47,
+          "yardsPerRush": 3.6,
+          "penalties": 3,
+          "penaltyYards": 10,
+          "fumblesLost": 0,
+          "possession": "34:22",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 20,
+          "thirdDownAttempts": 4,
+          "thirdDownConversions": 14,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 2,
+          "totalYards": 414,
+          "passYards": 297,
+          "passCompletions": 17,
+          "passAttempts": 31,
+          "yardsPerPass": 9.6,
+          "interceptionsThrown": 3,
+          "rushYards": 117,
+          "rushAttempts": 41,
+          "yardsPerRush": 2.9,
+          "penalties": 2,
+          "penaltyYards": 20,
+          "fumblesLost": 0,
+          "possession": "25:38",
+          "fumbles": 1
+        }
+      },
+      "sportsReferenceGameId": "2018-09-08-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Sep 15 2018 14:30:00 GMT-0400",
       "location": "Notre Dame, IN",
       "opponentId": "VANDY",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "sportsReferenceGameId": "2018-09-15-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": false,
       "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
       "isTimeTbd": true,
       "location": "Salem, NC",
-      "opponentId": "WAKE"
+      "opponentId": "WAKE",
+      "coverage": "TBD",
+      "sportsReferenceGameId": "2018-09-22-wake-forest",
+      "rankings": {
+        "away": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Sep 29 2018 19:30:00 GMT-0400",
       "location": "Notre Dame, IN",
       "opponentId": "STAN",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "sportsReferenceGameId": "2018-09-29-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        },
+        "away": {
+          "ap": 10
+        }
+      }
     },
     {
       "isHomeGame": false,
       "fullDate": "Sat Oct 06 2018 12:00:00 GMT-0400",
       "isTimeTbd": true,
       "location": "Blacksburg, VA",
-      "opponentId": "VT"
+      "opponentId": "VT",
+      "coverage": "TBD",
+      "sportsReferenceGameId": "2018-10-06-virginia-tech",
+      "rankings": {
+        "home": {
+          "ap": 12
+        },
+        "away": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Oct 13 2018 14:30:00 GMT-0400",
       "location": "Notre Dame, IN",
       "opponentId": "PITT",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "sportsReferenceGameId": "2018-10-13-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
       "location": "San Diego, CA",
       "opponentId": "NAVY",
-      "coverage": "CBS"
+      "coverage": "CBS",
+      "sportsReferenceGameId": "2018-10-27-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": false,
@@ -77695,29 +77884,60 @@
       "fullDate": "Sat Nov 03 2018 12:00:00 GMT-0400",
       "isTimeTbd": true,
       "location": "Evanston, IL",
-      "opponentId": "NW"
+      "opponentId": "NW",
+      "coverage": "TBD",
+      "sportsReferenceGameId": "2018-11-03-northwestern",
+      "rankings": {
+        "away": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Nov 10 2018 19:30:00 GMT-0500",
       "location": "Notre Dame, IN",
       "opponentId": "FSU",
-      "coverage": "NBC"
+      "coverage": "NBC",
+      "sportsReferenceGameId": "2018-11-10-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": true,
       "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
+      "time": "2:30 PM",
+      "timezone": "ET",
       "location": "Bronx, NY",
       "opponentId": "SYR",
       "coverage": "NBC",
-      "isShamrockSeries": true
+      "isShamrockSeries": true,
+      "sportsReferenceGameId": "2018-11-17-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 8
+        }
+      }
     },
     {
       "isHomeGame": false,
       "fullDate": "Sat Nov 24 2018 12:00:00 GMT-0500",
       "isTimeTbd": true,
       "location": "Los Angeles, CA",
-      "opponentId": "USC"
+      "opponentId": "USC",
+      "coverage": "TBD",
+      "sportsReferenceGameId": "2018-11-24-southern-california",
+      "rankings": {
+        "home": {
+          "ap": 17
+        },
+        "away": {
+          "ap": 8
+        }
+      }
     }
   ],
   "2019": [
