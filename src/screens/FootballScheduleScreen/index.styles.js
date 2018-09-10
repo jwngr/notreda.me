@@ -13,7 +13,7 @@ export const ScheduleScreenWrapper = styled.div`
 
   @media (max-width: 600px) {
     margin: 39px 8px 8px 8px;
-    padding: 20px 8px 8px 8px;
+    padding: 40px 8px 8px 8px;
   }
 
   &.nav-menu-open {

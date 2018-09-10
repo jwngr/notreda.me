@@ -177,7 +177,6 @@ export const OpponentDetailsWrapper = styled.div`
 
   @media (max-width: 600px) {
     width: initial;
-    font-size: 16px;
   }
 `;
 
@@ -233,8 +232,7 @@ export const Score = styled.p`
   }
 
   @media (max-width: 600px) {
-    width: initial;
-    font-size: 16px;
+    margin-right: 12px;
   }
 `;
 

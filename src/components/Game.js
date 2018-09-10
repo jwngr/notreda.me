@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import format from 'date-fns/format';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
@@ -101,6 +102,20 @@ const Game = ({game, year, index, selected}) => {
     );
   }
 
+  const opponentNameContent = (
+    <Media query="(max-width: 600px)">
+      {(matches) =>
+        matches ? (
+          <OpponentName>
+            {game.opponent.name.length > 12 ? game.opponent.abbreviation : game.opponent.name}
+          </OpponentName>
+        ) : (
+          <OpponentName>{game.opponent.name}</OpponentName>
+        )
+      }
+    </Media>
+  );
+
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
@@ -115,7 +130,7 @@ const Game = ({game, year, index, selected}) => {
           <OpponentDetailsWrapper>
             {!game.isHomeGame && <AwayGamePrefix>@</AwayGamePrefix>}
             {opponentRanking && <OpponentRanking>#{opponentRanking}</OpponentRanking>}
-            <OpponentName>{game.opponent.name}</OpponentName>
+            {opponentNameContent}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
       </OpponentWrapper>
