@@ -3,6 +3,88 @@ import {darken, lighten} from 'polished';
 
 import InternalLink from '../../components/common/InternalLink';
 
+export const ScheduleScreenWrapper = styled.div`
+  transition: transform 0.5s;
+  margin: 28px;
+  padding: 24px;
+  border: solid 3px #302205;
+  background-color: rgba(220, 180, 57, 0.4);
+  min-width: 400px;
+
+  @media (max-width: 600px) {
+    margin: 39px 8px 8px 8px;
+    padding: 20px 8px 8px 8px;
+  }
+
+  &.nav-menu-open {
+    transform: scale(0.8);
+  }
+`;
+
+export const ScheduleWrapper = styled.div`
+  display: flex;
+
+  & > div {
+    width: 50%;
+  }
+
+  & > div:first-of-type {
+    margin-right: 12px;
+  }
+
+  @media (max-width: 600px) {
+    & > div:first-of-type {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+`;
+
+export const NavMenuButton = styled.div`
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  height: 47px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+
+  /* Middle line */
+  & > span {
+    display: inline-block;
+    width: 2rem;
+    height: calc(2rem / 7);
+    background: ${(props) => props.theme.colors.green};
+    border: solid 1px ${(props) => props.theme.colors.black};
+    border-radius: calc(2rem / 14);
+    position: relative;
+  }
+
+  /* Upper and lower lines (pseudo-elements of the middle line) */
+  & > span:before,
+  & > span:after {
+    display: inline-block;
+    width: 2rem;
+    height: calc(2rem / 7);
+    background: ${(props) => props.theme.colors.green};
+    border: solid 1px ${(props) => props.theme.colors.black};
+    border-radius: calc(2rem / 14);
+    position: absolute;
+    left: 0;
+    content: '';
+    margin-left: -1px;
+    transform-origin: calc(2rem / 14) center;
+  }
+
+  & > span:before {
+    top: calc(2rem / 4);
+  }
+
+  & > span:after {
+    top: calc((-2rem / 4) - 2px);
+  }
+`;
+
 export const Header = styled.div`
   position: absolute;
   top: 0px;
@@ -70,6 +152,10 @@ const PreviousAndNextYearLink = styled(InternalLink)`
 
   @media (max-width: 600px) {
     font-size: 14px;
+
+    &:hover {
+      background-color: ${(props) => props.theme.colors.green};
+    }
   }
 `;
 
@@ -97,6 +183,10 @@ export const PreviousYearLink = styled(PreviousAndNextYearLink)`
   }
 
   @media (max-width: 700px) {
+    &:hover {
+      animation: none;
+    }
+
     span {
       font-size: 20px;
       margin-right: 0;
@@ -129,6 +219,10 @@ export const NextYearLink = styled(PreviousAndNextYearLink)`
   }
 
   @media (max-width: 700px) {
+    &:hover {
+      animation: none;
+    }
+
     span {
       font-size: 20px;
       margin-left: 0;
