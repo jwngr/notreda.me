@@ -33,6 +33,15 @@ export const Wrapper = styled(InternalLink)`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    justify-content: space-between;
+
+    &:hover {
+      transform: none;
+    }
+  }
 `;
 
 export const HomeGameWrapper = styled(Wrapper)`
@@ -130,6 +139,12 @@ export const AwayGameWrapper = styled(Wrapper)`
   background-size: 3px 3px; */};
 `;
 
+export const OpponentWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
+
 export const OpponentLogo = styled.img`
   height: 40px;
   width: 40px;
@@ -140,7 +155,7 @@ export const OpponentLogo = styled.img`
   }
 `;
 
-export const DateOpponentWrapper = styled.div`
+export const DateOpponentDetailsWrapper = styled.div`
   margin-left: 10px;
 `;
 
@@ -153,7 +168,7 @@ export const GameDate = styled.p`
   }
 `;
 
-export const OpponentWrapper = styled.div`
+export const OpponentDetailsWrapper = styled.div`
   font-size: 20px;
   font-family: 'Bungee';
   width: 250px;
@@ -161,6 +176,7 @@ export const OpponentWrapper = styled.div`
   align-items: center;
 
   @media (max-width: 600px) {
+    width: initial;
     font-size: 16px;
   }
 `;
@@ -190,16 +206,16 @@ export const Location = styled.p`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 600px) {
-    font-size: 12px;
+  @media (max-width: 1200px) {
+    display: none;
   }
 `;
 
 export const Score = styled.p`
   font-size: 22px;
   font-family: 'Bungee';
-  width: 120px;
   text-align: center;
+  width: 120px;
 
   .win {
     color: #465510; /* $secondary-green */
@@ -215,6 +231,11 @@ export const Score = styled.p`
     color: #302205; /* $secondary-black */
     margin-right: 8px;
   }
+
+  @media (max-width: 600px) {
+    width: initial;
+    font-size: 16px;
+  }
 `;
 
 export const TelevisionCoverage = styled.div`
@@ -222,6 +243,7 @@ export const TelevisionCoverage = styled.div`
   align-items: center;
   justify-content: center;
   width: 120px;
+  min-width: 80px;
 
   p {
     width: auto;
@@ -232,6 +254,18 @@ export const TelevisionCoverage = styled.div`
 
   img {
     height: 32px;
+  }
+
+  @media (max-width: 600px) {
+    width: initial;
+
+    p {
+      font-size: 12px;
+    }
+
+    img {
+      height: 24px;
+    }
   }
 `;
 

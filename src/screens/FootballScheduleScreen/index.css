@@ -6,6 +6,13 @@
   background-color: rgba(220, 180, 57, 0.4);
 }
 
+@media (max-width: 600px) {
+  .football-schedule-container {
+    margin: 44px 8px 8px 8px;
+    padding: 8px;
+  }
+}
+
 .football-schedule-container.nav-menu-open {
   transform: scale(0.8);
 }
@@ -51,4 +58,90 @@
 
 .nav-menu-button > span:after {
   top: calc(-2rem / 4);
+}
+
+.master-container {
+  display: flex;
+}
+
+.schedule-container {
+  width: 50%;
+  margin-right: 12px;
+}
+
+.current-year-container {
+  margin: -48px 0 10px 0;
+  text-align: center;
+}
+
+.current-year {
+  font-family: 'Bungee';
+  font-size: 32px;
+  color: #efefef;
+  display: inline-block;
+  padding: 4px 8px;
+  /* background-color: #2a8c5f; $primary-blue */
+  background-color: #2a8c5f;
+  border: solid 3px #302205;
+  -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+  -webkit-text-stroke-color: #353b3c;
+  text-shadow: black 2px 2px;
+}
+
+@media (max-width: 1200px) {
+  .current-year {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .current-year {
+    font-size: 24px;
+  }
+
+  .schedule-container {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.previous-year-container,
+.next-year-container {
+  position: absolute;
+  top: calc(50% - 60px);
+  text-decoration: none;
+  text-align: center;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #353b3c;
+  text-shadow: black 1px 2px;
+}
+
+@media (max-width: 600px) {
+  .previous-year-container,
+  .next-year-container {
+    display: none;
+  }
+}
+
+.previous-year-container {
+  left: 8px;
+}
+
+.next-year-container {
+  right: 8px;
+}
+
+.previous-year,
+.next-year {
+  font-family: 'Bungee';
+  font-size: 20px;
+  padding: 8px;
+  color: #efefef;
+  background-color: #2a8c5f; /* $primary-blue */
+  border: solid 3px #302205;
+}
+
+.previous-year span,
+.next-year span {
+  display: block;
 }

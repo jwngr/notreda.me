@@ -7,6 +7,7 @@ import FootballScheduleScreen from './index';
 const mapStateToProps = (state) => {
   return {
     navMenuOpen: state.navMenu.open,
+    selectedYear: state.selectedYear,
   };
 };
 

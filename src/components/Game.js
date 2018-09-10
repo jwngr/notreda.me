@@ -7,12 +7,13 @@ import classNames from 'classnames';
 import {
   AwayGamePrefix,
   GameDate,
-  DateOpponentWrapper,
+  OpponentWrapper,
+  DateOpponentDetailsWrapper,
   Location,
   OpponentLogo,
   OpponentName,
   OpponentRanking,
-  OpponentWrapper,
+  OpponentDetailsWrapper,
   Score,
   TelevisionCoverage,
   HomeGameWrapper,
@@ -103,19 +104,21 @@ const Game = ({game, year, index, selected}) => {
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
-      <OpponentLogo
-        src={`${game.opponent.logoUrl ||
-          'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
-        alt={`${game.opponent.name} logo`}
-      />
-      <DateOpponentWrapper>
-        <GameDate>{date}</GameDate>
-        <OpponentWrapper>
-          {!game.isHomeGame && <AwayGamePrefix>@</AwayGamePrefix>}
-          {opponentRanking && <OpponentRanking>#{opponentRanking}</OpponentRanking>}
-          <OpponentName>{game.opponent.name}</OpponentName>
-        </OpponentWrapper>
-      </DateOpponentWrapper>
+      <OpponentWrapper>
+        <OpponentLogo
+          src={`${game.opponent.logoUrl ||
+            'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
+          alt={`${game.opponent.name} logo`}
+        />
+        <DateOpponentDetailsWrapper>
+          <GameDate>{date}</GameDate>
+          <OpponentDetailsWrapper>
+            {!game.isHomeGame && <AwayGamePrefix>@</AwayGamePrefix>}
+            {opponentRanking && <OpponentRanking>#{opponentRanking}</OpponentRanking>}
+            <OpponentName>{game.opponent.name}</OpponentName>
+          </OpponentDetailsWrapper>
+        </DateOpponentDetailsWrapper>
+      </OpponentWrapper>
       <Location>
         {game.location}
         {shamrockSeriesLogoContent}
