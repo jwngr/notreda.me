@@ -12,6 +12,8 @@ import GameSummaryContainer from '../../containers/GameSummaryContainer';
 import teams from '../../resources/teams';
 import schedule from '../../resources/schedule';
 
+import {Header, HeaderTitle, NextYearLink, PreviousYearLink} from './index.styles';
+
 import './index.css';
 
 const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
@@ -42,27 +44,23 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
     <React.Fragment>
       <div className={scheduleContainerClasses} onClick={closeNavMenuIfOpen}>
         <div>
-          <div className="current-year-container">
-            <p className="current-year">{`Notre Dame Football ${selectedYear}`}</p>
-          </div>
+          <Header>
+            <PreviousYearLink href={`/${previousYear}`}>
+              <span>&#x2190;</span>
+              <Media query="(min-width: 700px)">
+                <React.Fragment>{previousYear}</React.Fragment>
+              </Media>
+            </PreviousYearLink>
 
-          <Link className="previous-year-container" href={`/${previousYear}`}>
-            <div className="previous-year">
-              <span>{String(previousYear)[0]}</span>
-              <span>{String(previousYear)[1]}</span>
-              <span>{String(previousYear)[2]}</span>
-              <span>{String(previousYear)[3]}</span>
-            </div>
-          </Link>
+            <HeaderTitle>{`Notre Dame Football ${selectedYear}`}</HeaderTitle>
 
-          <Link className="next-year-container" href={`/${nextYear}`}>
-            <div className="next-year">
-              <span>{String(nextYear)[0]}</span>
-              <span>{String(nextYear)[1]}</span>
-              <span>{String(nextYear)[2]}</span>
-              <span>{String(nextYear)[3]}</span>
-            </div>
-          </Link>
+            <NextYearLink href={`/${nextYear}`}>
+              <Media query="(min-width: 700px)">
+                <React.Fragment>{nextYear}</React.Fragment>
+              </Media>
+              <span>&#x2192;</span>
+            </NextYearLink>
+          </Header>
 
           <div className="master-container">
             <Media query="(max-width: 600px)">

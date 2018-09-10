@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
+import {ThemeProvider} from 'styled-components';
 import {compose, createStore, applyMiddleware, combineReducers} from 'redux';
 import {routerForBrowser, initializeCurrentLocation} from 'redux-little-router';
 
+import theme from './resources/theme.json';
 import rootReducers from './reducers/index.js';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -55,9 +57,11 @@ if (initialLocation) {
 }
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <ThemeProvider theme={theme}>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </ThemeProvider>,
   document.getElementById('root')
 );
 
