@@ -10,7 +10,7 @@ export const LinescoreWrapper = styled.div`
   margin-right: 20px;
   border: solid 3px ${(props) => props.theme.colors.black};
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin-right: 0;
     margin-bottom: 32px;
   }
@@ -21,7 +21,7 @@ const LinescoreColumn = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -17px;
 
   p {
     font-size: 20px;
@@ -38,7 +38,7 @@ export const AbbreviationColumn = styled(LinescoreColumn)`
   flex: 1;
   min-width: 80px;
   max-width: 100px;
-  margin-top: -18px;
+  margin-top: -17px;
 
   @media (max-width: 600px) {
     font-size: 20px;
