@@ -20,16 +20,6 @@
     "opponentId": "UVA"
   },
   {
-    "isHomeGame": false,
-    "date": "11/28/2026",
-    "location": {
-      "city": "Los Angeles",
-      "state": "CA",
-      "stadium": "LA Memorial Coliseum"
-    },
-    "opponentId": "USC"
-  },
-  {
     "isHomeGame": true,
     "date": "TBD",
     "location": {
@@ -84,5 +74,15 @@
       "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/28/2026",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
   }
 ]

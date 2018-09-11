@@ -20,42 +20,6 @@
     "opponentId": "STAN"
   },
   {
-    "isHomeGame": true,
-    "date": "11/05/2022",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium"
-    },
-    "opponentId": "CLEM"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/26/2022",
-    "location": {
-      "city": "Los Angeles",
-      "state": "CA",
-      "stadium": "LA Memorial Coliseum"
-    },
-    "opponentId": "USC"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium"
-    },
-    "opponentId": "BC"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": "TBD",
-    "opponentId": "NAVY"
-  },
-  {
     "isHomeGame": false,
     "date": "TBD",
     "location": {
@@ -74,5 +38,41 @@
       "stadium": "Carrier Dome"
     },
     "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/05/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/26/2022",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
   }
 ]

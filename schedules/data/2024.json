@@ -50,14 +50,14 @@
     "opponentId": "UVA"
   },
   {
-    "isHomeGame": false,
-    "date": "11/30/2024",
+    "isHomeGame": true,
+    "date": "TBD",
     "location": {
-      "city": "Los Angelese",
-      "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
-    "opponentId": "USC"
+    "opponentId": "MIAMI"
   },
   {
     "isHomeGame": true,
@@ -70,19 +70,19 @@
     "opponentId": "FSU"
   },
   {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium"
-    },
-    "opponentId": "MIAMI"
-  },
-  {
     "isHomeGame": false,
     "date": "TBD",
     "location": "TBD",
     "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/30/2024",
+    "location": {
+      "city": "Los Angelese",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
   }
 ]

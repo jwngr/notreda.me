@@ -98,5 +98,15 @@
       "stadium": "Heinz Field"
     },
     "opponentId": "PITT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/29/2025",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN"
   }
 ]
