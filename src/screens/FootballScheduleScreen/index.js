@@ -68,7 +68,7 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
         </Header>
 
         <ScheduleWrapper>
-          <Media query="(max-width: 600px)">
+          <Media query="(max-width: 800px)">
             {(matches) =>
               matches ? (
                 <React.Fragment>

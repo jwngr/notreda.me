@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Metadata from './Metadata';
 import LineScore from './Linescore';
-import GameStats from '../GameStats';
+import GameStats from './GameStats';
 import TotalScore from './TotalScore';
 
 import {CompletedGameWrapper, LinescoreMetadataWrapper} from './index.styles';

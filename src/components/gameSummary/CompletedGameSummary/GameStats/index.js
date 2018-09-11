@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import GameStatsRow from './GameStatsRow';
+import GameStatsRow from '../GameStatsRow';
 
-import './GameStats.css';
+import {GameStatsHeader, GameStatsWrapper, StatsUnavailable} from './index.styles';
 
 const GameStats = ({stats, homeTeam, awayTeam}) => {
   // TODO: remove once all games has stats
   if (stats.home.totalYards === -1) {
     return (
-      <p className="stats-unavailable">
+      <StatsUnavailable>
         Stats for this game are not yet available. If you would like to help collect historical
         Notre Dame game stats, see <a href="https://github.com/jwngr/notreda.me/issues/1">here</a>.
-      </p>
+      </StatsUnavailable>
     );
   }
 
@@ -25,12 +25,12 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
   };
 
   return (
-    <div className="game-stats">
-      <div className="table-header">
+    <GameStatsWrapper>
+      <GameStatsHeader>
         <p />
         <p style={awayTeamColorStyles}>{awayTeam.nickname}</p>
         <p style={homeTeamColorStyles}>{homeTeam.nickname}</p>
-      </div>
+      </GameStatsHeader>
 
       <GameStatsRow
         isHeaderRow={true}
@@ -162,7 +162,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
         awayValue={stats.away['possession']}
         homeValue={stats.home['possession']}
       />
-    </div>
+    </GameStatsWrapper>
   );
 };
 

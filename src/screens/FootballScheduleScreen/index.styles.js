@@ -32,9 +32,24 @@ export const ScheduleWrapper = styled.div`
     margin-right: 12px;
   }
 
-  @media (max-width: 600px) {
+  & > div:last-of-type {
+    margin-left: 12px;
+  }
+
+  @media (max-width: 1000px) {
     & > div:first-of-type {
+      width: 40%;
+    }
+
+    & > div:last-of-type {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    & > div {
       width: 100%;
+      margin-left: 0;
       margin-right: 0;
     }
   }
