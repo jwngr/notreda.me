@@ -137,7 +137,8 @@
     "date": "10/11/1952",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -263,7 +264,8 @@
     "date": "10/25/1952",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -389,7 +391,8 @@
     "date": "11/08/1952",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "OKLA",
     "score": {
@@ -455,7 +458,8 @@
     "date": "11/15/1952",
     "location": {
       "city": "East Lansing",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Spartan Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -584,7 +588,8 @@
     "date": "11/29/1952",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC",
     "score": {

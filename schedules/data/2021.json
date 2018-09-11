@@ -1,0 +1,112 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/06/2021",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "09/11/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TOL"
+  },
+  {
+    "isHomeGame": true,
+    "date": "09/18/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "09/25/2021",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "stadium": "Soldier Field"
+    },
+    "opponentId": "WIS"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/09/2021",
+    "location": {
+      "city": "Blacksburg",
+      "state": "VA",
+      "stadium": "Lane Stadium"
+    },
+    "opponentId": "VT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/16/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/06/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/13/2021",
+    "location": {
+      "city": "Charlottesville",
+      "state": "VA",
+      "stadium": "Scott Stadium"
+    },
+    "opponentId": "VT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/20/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/27/2021",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN"
+  }
+]

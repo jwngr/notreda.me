@@ -5,7 +5,8 @@
     "date": "09/24/1949",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -184,7 +185,8 @@
     "date": "10/15/1949",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "TULN",
     "score": {
@@ -313,7 +315,8 @@
     "date": "11/05/1949",
     "location": {
       "city": "East Lansing",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Spartan Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -442,7 +445,8 @@
     "date": "11/19/1949",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -505,7 +509,8 @@
     "date": "11/26/1949",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC",
     "score": {

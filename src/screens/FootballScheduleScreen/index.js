@@ -32,9 +32,6 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
     return <GameContainer key={index} index={index} game={gameClone} year={selectedYear} />;
   });
 
-  const previousYear = selectedYear - 1;
-  const nextYear = selectedYear + 1;
-
   const scheduleContainerClasses = classNames({
     'football-schedule-container': true,
     'nav-menu-open': navMenuOpen,
@@ -46,11 +43,14 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
     }
   };
 
+  let nextYear = selectedYear === 1889 ? 1892 : selectedYear + 1;
+  let previousYear = selectedYear === 1892 ? 1889 : selectedYear - 1;
+
   return (
     <React.Fragment>
       <ScheduleScreenWrapper onClick={closeNavMenuIfOpen}>
         <Header>
-          <PreviousYearLink href={`/${previousYear}`}>
+          <PreviousYearLink className={selectedYear === 1887 && 'hidden'} href={`/${previousYear}`}>
             <span>&#x2190;</span>
             <Media query="(min-width: 700px)">
               <React.Fragment>{previousYear}</React.Fragment>
@@ -59,7 +59,7 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
 
           <HeaderTitle>{`Notre Dame Football ${selectedYear}`}</HeaderTitle>
 
-          <NextYearLink href={`/${nextYear}`}>
+          <NextYearLink className={selectedYear === 2029 && 'hidden'} href={`/${nextYear}`}>
             <Media query="(min-width: 700px)">
               <React.Fragment>{nextYear}</React.Fragment>
             </Media>

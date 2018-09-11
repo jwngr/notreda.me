@@ -11,13 +11,8 @@ dataFilenames.forEach((dataFilename) => {
   const yearData = require(`${INPUT_DATA_DIRECTORY}/${dataFilename}`);
 
   yearData.forEach((gameData, i) => {
-    if (typeof gameData.location === 'string') {
-      const tokens = gameData.location.split(', ');
-
-      gameData.location = {
-        city: tokens[0],
-        state: tokens[1],
-      };
+    if (gameData.location.city === 'Notre Dame' && !gameData.location.stadium) {
+      console.log(year);
     }
   });
 

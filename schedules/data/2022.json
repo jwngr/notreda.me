@@ -1,0 +1,78 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/03/2022",
+    "location": {
+      "city": "Columbus",
+      "state": "OH",
+      "stadium": "Ohio Stadium"
+    },
+    "opponentId": "OSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/15/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/05/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/26/2022",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
+    },
+    "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "Carrier Dome"
+    },
+    "opponentId": "SYR"
+  }
+]

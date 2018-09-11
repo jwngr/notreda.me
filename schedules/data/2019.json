@@ -4,7 +4,8 @@
     "date": "09/02/2019",
     "location": {
       "city": "Louisville",
-      "state": "KY"
+      "state": "KY",
+      "stadium": "Cardinal Stadium"
     },
     "opponentId": "LOU"
   },
@@ -13,7 +14,8 @@
     "date": "09/14/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "UNM"
   },
@@ -22,7 +24,8 @@
     "date": "09/21/2019",
     "location": {
       "city": "Athens",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Sanford Stadium"
     },
     "opponentId": "UGA"
   },
@@ -31,7 +34,8 @@
     "date": "09/28/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "UVA"
   },
@@ -40,7 +44,8 @@
     "date": "10/05/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "BGSU"
   },
@@ -49,7 +54,8 @@
     "date": "10/12/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC"
   },
@@ -58,7 +64,8 @@
     "date": "10/26/2019",
     "location": {
       "city": "Ann Arbor",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Michigan Stadium"
     },
     "opponentId": "MICH"
   },
@@ -67,7 +74,8 @@
     "date": "11/02/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "VT"
   },
@@ -76,7 +84,8 @@
     "date": "11/09/2019",
     "location": {
       "city": "Durham",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Wallace Wade Stadium"
     },
     "opponentId": "DUKE"
   },
@@ -85,7 +94,8 @@
     "date": "11/16/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "NAVY"
   },
@@ -94,7 +104,8 @@
     "date": "11/23/2019",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "BC"
   },
@@ -103,7 +114,8 @@
     "date": "11/30/2019",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN"
   }

@@ -63,7 +63,8 @@
     "date": "10/02/1943",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "GT",
     "score": {
@@ -121,7 +122,8 @@
     "date": "10/09/1943",
     "location": {
       "city": "Ann Arbor",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Michigan Stadium"
     },
     "opponentId": "MICH",
     "score": {
@@ -250,7 +252,8 @@
     "date": "10/23/1943",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "ILL",
     "score": {
@@ -511,7 +514,8 @@
     "date": "11/20/1943",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "IO-PF",
     "score": {

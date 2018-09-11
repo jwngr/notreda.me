@@ -5,7 +5,8 @@
     "date": "09/24/1955",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "SMU",
     "score": {
@@ -68,7 +69,8 @@
     "date": "10/01/1955",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -197,7 +199,8 @@
     "date": "10/15/1955",
     "location": {
       "city": "East Lansing",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Spartan Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -326,7 +329,8 @@
     "date": "10/29/1955",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -518,7 +522,8 @@
     "date": "11/19/1955",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "IOWA",
     "score": {

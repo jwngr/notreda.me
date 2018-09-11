@@ -1,0 +1,102 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "09/23/2023",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "OSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/14/2023",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/28/2023",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "WAKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/04/2023",
+    "location": {
+      "city": "Clemson",
+      "state": "SC",
+      "stadium": "Clemson Memorial Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/25/2023",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Wallace Wade Stadium"
+    },
+    "opponentId": "DUKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Louisville",
+      "state": "KY",
+      "stadium": "Cardinal Stadium"
+    },
+    "opponentId": "LOU"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Raleigh",
+      "state": "NC",
+      "stadium": "Carter-Finley Stadium"
+    },
+    "opponentId": "NCST"
+  }
+]

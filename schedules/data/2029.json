@@ -1,0 +1,62 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/01/2029",
+    "location": {
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "stadium": "Bryant–Denny Stadium"
+    },
+    "opponentId": "BAMA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/06/2029",
+    "location": {
+      "city": "Raleigh",
+      "state": "NC",
+      "stadium": "Carter-Finley Stadium"
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/10/2029",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "WAKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "Carrier Dome"
+    },
+    "opponentId": "SYR"
+  }
+]

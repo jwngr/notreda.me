@@ -47,6 +47,10 @@
   color: #302205;
 }
 
+.nav-menu-decade-years > p {
+  visibility: hidden;
+}
+
 .nav-menu-decade-years > a:hover {
   color: #002b5b;
   background-color: #dcdcdc;

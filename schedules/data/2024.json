@@ -1,0 +1,88 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "08/31/2024",
+    "location": {
+      "city": "College Station",
+      "state": "TX",
+      "stadium": "Kyle Field"
+    },
+    "opponentId": "TA&M"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/14/2024",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/12/2024",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/19/2024",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium"
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/16/2024",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/30/2024",
+    "location": {
+      "city": "Los Angelese",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "09/02/2028",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BAMA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/23/2028",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/04/2028",
+    "location": {
+      "city": "Blacksburg",
+      "state": "VA",
+      "stadium": "Lane Stadium"
+    },
+    "opponentId": "VT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field"
+    },
+    "opponentId": "PITT"
+  }
+]

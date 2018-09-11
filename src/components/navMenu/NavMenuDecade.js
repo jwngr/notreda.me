@@ -37,6 +37,11 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
       'national-championship-year': _.includes(nationalChampionshipYears, year),
     });
 
+    // Notre Dame did not field a team in 1980 or 1981.
+    if (year === 1890 || year === 1891) {
+      return <p key={year} />;
+    }
+
     return (
       <Link className={yearLinkClasses} href={`/${year}`} key={year} onClick={onClick}>
         {yearEnding}

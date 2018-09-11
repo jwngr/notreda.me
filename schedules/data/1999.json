@@ -5,7 +5,8 @@
     "date": "08/28/1999",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "nickname": "Eddie Robinson Classic",
     "opponentId": "KU",
@@ -69,7 +70,8 @@
     "date": "09/04/1999",
     "location": {
       "city": "Ann Arbor",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Michigan Stadium"
     },
     "opponentId": "MICH",
     "score": {
@@ -264,7 +266,8 @@
     "date": "10/02/1999",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "OKLA",
     "score": {

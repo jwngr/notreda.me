@@ -17,13 +17,17 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   if ('fullDate' in game) {
     date = format(new Date(game.fullDate), 'MMMM D, YYYY');
     time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
+  } else if (game.date === 'TBD') {
+    date = 'Date TBD';
   } else {
     date = format(game.timestamp || game.date, 'MMMM D, YYYY');
     if ('timestamp' in game) {
       time = format(game.timestamp || game.date, 'h:mm A');
-    } else {
-      time = 'TBD';
     }
+  }
+
+  if (time && game.coverage) {
+    time = `${game.coverage}, ${time}`;
   }
 
   const homeApRanking = _.get(game, 'rankings.home.ap');
@@ -42,9 +46,15 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
     opponentRankingContent = <p className="ranking">#{opponentRanking}</p>;
   }
 
-  let location = game.location.state
-    ? `${game.location.city}, ${game.location.state}`
-    : `${game.location.city}, ${game.location.country}`;
+  let stadium = game.location.stadium || null;
+  let location;
+  if (game.location === 'TBD') {
+    location = 'Location TBD';
+  } else if (game.location.state) {
+    location = `${game.location.city}, ${game.location.state}`;
+  } else {
+    location = `${game.location.city}, ${game.location.country}`;
+  }
 
   return (
     <div className="future-game-summary-container">
@@ -61,9 +71,8 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
       </div>
       <div className="matchup-details">
         <p className="date">{date}</p>
-        <p className="time">
-          {game.coverage}, {time}
-        </p>
+        <p className="time">{time}</p>
+        <p className="stadium">{stadium}</p>
         <p className="location">{location}</p>
       </div>
     </div>

@@ -13,7 +13,7 @@ const NavMenu = ({open, selectedYear, onClose}) => {
     'nav-menu-open': open,
   });
 
-  const navMenuDecadesContent = _.map(_.rangeRight(1880, 2020, 10), (decade) => {
+  const navMenuDecadesContent = _.map(_.rangeRight(1880, 2030, 10), (decade) => {
     return (
       <NavMenuDecade
         key={decade}

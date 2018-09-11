@@ -68,7 +68,8 @@
     "date": "09/15/1984",
     "location": {
       "city": "East Lansing",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Spartan Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -126,7 +127,8 @@
     "date": "09/22/1984",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "COL",
     "score": {
@@ -247,7 +249,8 @@
     "date": "10/06/1984",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -313,7 +316,8 @@
     "date": "10/13/1984",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -371,7 +375,8 @@
     "date": "10/20/1984",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "SCAR",
     "score": {
@@ -555,7 +560,8 @@
     "date": "11/17/1984",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "PSU",
     "score": {

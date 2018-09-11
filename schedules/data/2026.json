@@ -1,0 +1,88 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/26/2026",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/17/2026",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/28/2026",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "LOU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
+    },
+    "opponentId": "UNC"
+  }
+]

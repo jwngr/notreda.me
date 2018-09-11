@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+
+import TeamLogo from './TeamLogo';
 import InternalLink from './common/InternalLink';
 // import {Link} from 'redux-little-router';
 
@@ -145,7 +147,7 @@ export const OpponentWrapper = styled.div`
   justify-content: space-around;
 `;
 
-export const OpponentLogo = styled.img`
+export const OpponentLogo = styled(TeamLogo)`
   height: 40px;
   width: 40px;
 

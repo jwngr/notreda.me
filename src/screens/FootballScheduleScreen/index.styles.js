@@ -161,6 +161,10 @@ const PreviousAndNextYearLink = styled(InternalLink)`
     background-color: ${(props) => lighten(0.1, props.theme.colors.green)};
   }
 
+  &.hidden {
+    visibility: hidden;
+  }
+
   @media (max-width: 1200px) {
     font-size: 16px;
   }

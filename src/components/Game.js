@@ -81,6 +81,8 @@ const Game = ({game, year, index, selected}) => {
   let date;
   if ('fullDate' in game) {
     date = format(new Date(game.fullDate), 'MMMM D, YYYY');
+  } else if (game.date === 'TBD') {
+    date = 'TBD';
   } else {
     date = format(game.timestamp || game.date, 'MMMM D');
   }
@@ -116,19 +118,20 @@ const Game = ({game, year, index, selected}) => {
     </Media>
   );
 
-  let location = game.location.state
-    ? `${game.location.city}, ${game.location.state}`
-    : `${game.location.city}, ${game.location.country}`;
+  let location;
+  if (game.location === 'TBD') {
+    location = 'TBD';
+  } else if (game.location.state) {
+    location = `${game.location.city}, ${game.location.state}`;
+  } else {
+    location = `${game.location.city}, ${game.location.country}`;
+  }
 
   // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
       <OpponentWrapper>
-        <OpponentLogo
-          src={`${game.opponent.logoUrl ||
-            'http://www.texassports.com/images/logos/Oklahoma.png'}?width=80&height=80&mode=max`}
-          alt={`${game.opponent.name} logo`}
-        />
+        <OpponentLogo team={game.opponent} />
         <DateOpponentDetailsWrapper>
           <GameDate>{date}</GameDate>
           <OpponentDetailsWrapper>

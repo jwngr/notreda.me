@@ -5,7 +5,8 @@
     "date": "09/12/1987",
     "location": {
       "city": "Ann Arbor",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Michigan Stadium"
     },
     "opponentId": "MICH",
     "score": {
@@ -71,7 +72,8 @@
     "date": "09/19/1987",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -326,7 +328,8 @@
     "date": "10/24/1987",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC",
     "score": {
@@ -389,7 +392,8 @@
     "date": "10/31/1987",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -452,7 +456,8 @@
     "date": "11/07/1987",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -515,7 +520,8 @@
     "date": "11/14/1987",
     "location": {
       "city": "Notre Dame",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "BAMA",
     "score": {
