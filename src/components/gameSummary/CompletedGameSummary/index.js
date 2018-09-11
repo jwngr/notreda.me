@@ -3,16 +3,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import format from 'date-fns/format';
 
-import GameStats from './GameStats';
-import LineScore from './LineScore';
-import TeamLayout from './TeamLayout';
+import TotalScore from './TotalScore';
+import GameStats from '../GameStats';
+import LineScore from './Linescore';
 
-import './CompletedGameSummary.css';
+import {
+  Metadata,
+  MetadataDate,
+  CompletedGameWrapper,
+  MetadataDateContainer,
+  LinescoreMetadataWrapper,
+} from './index.styles';
 
 const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
-  const homeApRanking = _.get(game, 'rankings.home.ap');
-  const awayApRanking = _.get(game, 'rankings.away.ap');
-
   let date;
   let time;
   if ('fullDate' in game) {
@@ -32,28 +35,22 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
       <img
         className="game-metadata-tv-coverage-icon"
         alt={`${game.coverage} logo`}
-        src={require(`../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+        src={require(`../../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
       />
     );
   }
 
   // TODO: get correct stadium
   return (
-    <div className="completed-game-summary-container">
-      <div className="total-score">
-        <TeamLayout team={awayTeam} ranking={awayApRanking} homeOrAway="away" />
-        <p className="score">
-          {game.score.away} - {game.score.home}
-        </p>
-        <TeamLayout team={homeTeam} ranking={homeApRanking} homeOrAway="home" />
-      </div>
+    <CompletedGameWrapper>
+      <TotalScore game={game} homeTeam={homeTeam} awayTeam={awayTeam} />
 
-      <div className="linescore-and-metadata-container">
+      <LinescoreMetadataWrapper>
         <LineScore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
-        <div className="game-metadata">
-          <div className="game-metadata-date-container">
-            <p className="game-metadata-date">{date}</p>
-          </div>
+        <Metadata>
+          <MetadataDateContainer>
+            <MetadataDate>{date}</MetadataDate>
+          </MetadataDateContainer>
           <div className="game-metadata-content">
             <p className="game-metadata-stadium">Notre Dame Stadium</p>
             <p className="game-metadata-location">{game.location}</p>
@@ -62,11 +59,11 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
               <p>{time}</p>
             </div>
           </div>
-        </div>
-      </div>
+        </Metadata>
+      </LinescoreMetadataWrapper>
 
       <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
-    </div>
+    </CompletedGameWrapper>
   );
 };
 
