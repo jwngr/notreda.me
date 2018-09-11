@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/10/1977",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 19,
@@ -66,7 +69,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/17/1977",
-    "location": "Jackson, MS",
+    "location": {
+      "city": "Jackson",
+      "state": "MS"
+    },
     "opponentId": "MISS",
     "score": {
       "away": 13,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/24/1977",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 31,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1977",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 6,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1977",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/1977",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 19,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1977",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 10,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/05/1977",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 14,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/12/1977",
-    "location": "Clemson, SC",
+    "location": {
+      "city": "Clemson",
+      "state": "SC"
+    },
     "opponentId": "CLEM",
     "score": {
       "away": 21,
@@ -552,7 +579,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1977",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 0,
@@ -612,7 +642,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/03/1977",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 48,
@@ -673,7 +706,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/02/1977",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 10,

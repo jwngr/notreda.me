@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/23/1887",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 8,
@@ -58,7 +61,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "04/20/1887",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 26,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "04/21/1887",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 10,

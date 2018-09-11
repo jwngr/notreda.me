@@ -3,7 +3,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "09/27/1952",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "PENN",
     "score": {
       "away": 7,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/04/1952",
-    "location": "Austin, Texas",
+    "location": {
+      "city": "Austin",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 14,
@@ -129,7 +135,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/11/1952",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 22,
@@ -189,7 +198,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/18/1952",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 26,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1952",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 14,
@@ -309,7 +324,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1952",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 6,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1952",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 21,
@@ -432,7 +453,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/15/1952",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 3,
@@ -495,7 +519,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/22/1952",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 27,
@@ -555,7 +582,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/29/1952",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/1913",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ON",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1913",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SDAK",
     "score": {
       "away": 7,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1913",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ALMA",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/01/1913",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 35,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/07/1913",
-    "location": "State College, PA",
+    "location": {
+      "city": "State College",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 14,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/22/1913",
-    "location": "St. Louis, MO",
+    "location": {
+      "city": "St. Louis",
+      "state": "MO"
+    },
     "opponentId": "CB",
     "score": {
       "away": 20,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/27/1913",
-    "location": "Austin, Texas",
+    "location": {
+      "city": "Austin",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 30,

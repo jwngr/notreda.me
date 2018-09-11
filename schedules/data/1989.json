@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "08/31/1989",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "UVA",
     "score": {
       "away": 13,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/16/1989",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 24,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/23/1989",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 13,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/30/1989",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 40,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/07/1989",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 27,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/14/1989",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 41,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/21/1989",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 24,
@@ -432,7 +453,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/28/1989",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 7,
@@ -495,7 +519,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1989",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -555,7 +582,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/11/1989",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 6,
@@ -615,7 +645,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/18/1989",
-    "location": "University Park, PA",
+    "location": {
+      "city": "University Park",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 34,
@@ -678,7 +711,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/25/1989",
-    "location": "Coral Gables, FLA",
+    "location": {
+      "city": "Coral Gables",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 10,
@@ -742,7 +778,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1990",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "COL",
     "score": {
       "away": 6,

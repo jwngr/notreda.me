@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/1948",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 27,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/02/1948",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 40,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1948",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/16/1948",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 44,
@@ -233,7 +245,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/23/1948",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 27,
@@ -293,7 +308,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1948",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -353,7 +371,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/06/1948",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 42,
@@ -413,7 +434,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1948",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 7,
@@ -476,7 +500,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/27/1948",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 0,
@@ -536,7 +563,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "12/04/1948",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 14,

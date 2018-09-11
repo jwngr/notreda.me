@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1963",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 14,
@@ -63,7 +66,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/05/1963",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 6,
@@ -118,7 +124,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1963",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 14,
@@ -178,7 +187,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1963",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UCLA",
     "score": {
       "away": 12,
@@ -233,7 +245,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/26/1963",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 14,
@@ -288,7 +303,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/02/1963",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 35,
@@ -348,7 +366,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/09/1963",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 27,
@@ -408,7 +429,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/16/1963",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -468,7 +492,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/28/1963",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "SYR",
     "score": {
       "away": 14,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/15/1979",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 12,
@@ -66,7 +69,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/22/1979",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 22,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 3,
@@ -192,7 +201,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 13,
@@ -252,7 +264,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/13/1979",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 38,
@@ -312,7 +327,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 42,
@@ -375,7 +393,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SCAR",
     "score": {
       "away": 17,
@@ -435,7 +456,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -495,7 +519,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/10/1979",
-    "location": "Knoxville, TN",
+    "location": {
+      "city": "Knoxville",
+      "state": "TN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 18,
@@ -555,7 +582,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/17/1979",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CLEM",
     "score": {
       "away": 16,
@@ -615,7 +645,12 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1979",
-    "location": "Tokyo, Japan",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "stadium": "Korakuen Stadium"
+    },
+    "nickname": "Mirage Bowl",
     "opponentId": "MIAMI",
     "score": {
       "away": 15,

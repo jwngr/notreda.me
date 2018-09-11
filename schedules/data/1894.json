@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/1894",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HILLS",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "10/20/1894",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ALB",
     "score": {
       "away": 6,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/1894",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1894",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RUSH",
     "score": {
       "away": 6,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/29/1894",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ALB",
     "score": {
       "away": 19,

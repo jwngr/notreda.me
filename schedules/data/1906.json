@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1906",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "FRA",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/1906",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HILLS",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/1906",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CHI-P&S",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1906",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/03/1906",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 2,
@@ -278,7 +293,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/10/1906",
-    "location": "Indianapolis, IN",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 12,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1906",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BEL",
     "score": {
       "away": 0,

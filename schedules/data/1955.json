@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1955",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 0,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1955",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 0,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/07/1955",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 14,
@@ -186,7 +195,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/15/1955",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/22/1955",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 22,
@@ -309,7 +324,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1955",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -372,7 +390,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/05/1955",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "PENN",
     "score": {
       "away": 46,
@@ -432,7 +453,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/12/1955",
-    "location": "Chapel Hill, NC",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 27,
@@ -492,7 +516,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1955",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 14,
@@ -552,7 +579,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/26/1955",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,

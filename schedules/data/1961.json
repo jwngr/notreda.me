@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1961",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 6,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/07/1961",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 22,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/1961",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,
@@ -173,7 +182,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/21/1961",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -236,7 +248,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/28/1961",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 12,
@@ -296,7 +311,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/04/1961",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 13,
@@ -351,7 +369,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/11/1961",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 26,
@@ -406,7 +427,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/1961",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SYR",
     "score": {
       "away": 15,
@@ -466,7 +490,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/25/1961",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 21,
@@ -521,7 +548,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/02/1961",
-    "location": "Durham, NC",
+    "location": {
+      "city": "Durham",
+      "state": "NC"
+    },
     "opponentId": "DUKE",
     "score": {
       "away": 13,

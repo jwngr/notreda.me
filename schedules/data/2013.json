@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "08/31/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TEM",
     "score": {
       "away": 6,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 332430087,
     "linescore": {
-      "away": [0, 6, 0, 0],
-      "home": [14, 7, 7, 0]
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2013-08-31-notre-dame",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/07/2013",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 30,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 332500130,
     "linescore": {
-      "away": [7, 6, 7, 10],
-      "home": [10, 17, 7, 7]
+      "away": [
+        7,
+        6,
+        7,
+        10
+      ],
+      "home": [
+        10,
+        17,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-09-07-michigan",
     "rankings": {
@@ -138,7 +164,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/14/2013",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 31,
@@ -190,8 +219,18 @@
     },
     "espnGameId": 332572509,
     "linescore": {
-      "away": [0, 3, 7, 21],
-      "home": [7, 3, 7, 7]
+      "away": [
+        0,
+        3,
+        7,
+        21
+      ],
+      "home": [
+        7,
+        3,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-09-14-purdue",
     "rankings": {
@@ -204,7 +243,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 13,
@@ -256,8 +298,18 @@
     },
     "espnGameId": 332640087,
     "linescore": {
-      "away": [0, 7, 3, 3],
-      "home": [3, 7, 0, 7]
+      "away": [
+        0,
+        7,
+        3,
+        3
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-09-21-notre-dame",
     "rankings": {
@@ -270,7 +322,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 35,
@@ -322,8 +377,18 @@
     },
     "espnGameId": 332710087,
     "linescore": {
-      "away": [14, 7, 6, 8],
-      "home": [7, 0, 7, 7]
+      "away": [
+        14,
+        7,
+        6,
+        8
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-09-28-notre-dame",
     "rankings": {
@@ -339,10 +404,12 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/05/2013",
-    "location": "Arlington, Texas",
+    "location": {
+      "city": "Arlington",
+      "state": "TX"
+    },
     "opponentId": "AZST",
     "isShamrockSeries": true,
-
     "score": {
       "away": 34,
       "home": 37
@@ -393,8 +460,18 @@
     },
     "espnGameId": 332780087,
     "linescore": {
-      "away": [0, 13, 0, 21],
-      "home": [0, 14, 10, 13]
+      "away": [
+        0,
+        13,
+        0,
+        21
+      ],
+      "home": [
+        0,
+        14,
+        10,
+        13
+      ]
     },
     "sportsReferenceGameId": "2013-10-05-notre-dame",
     "rankings": {
@@ -407,7 +484,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 10,
@@ -459,8 +539,18 @@
     },
     "espnGameId": 332920087,
     "linescore": {
-      "away": [7, 3, 0, 0],
-      "home": [7, 7, 0, 0]
+      "away": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2013-10-19-notre-dame"
   },
@@ -468,7 +558,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/26/2013",
-    "location": "USAFA, CO",
+    "location": {
+      "city": "USAFA",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 45,
@@ -520,8 +613,18 @@
     },
     "espnGameId": 332992005,
     "linescore": {
-      "away": [7, 17, 14, 7],
-      "home": [7, 3, 0, 0]
+      "away": [
+        7,
+        17,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2013-10-26-air-force"
   },
@@ -529,7 +632,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 34,
@@ -581,8 +687,18 @@
     },
     "espnGameId": 333060087,
     "linescore": {
-      "away": [7, 13, 0, 14],
-      "home": [10, 7, 7, 14]
+      "away": [
+        7,
+        13,
+        0,
+        14
+      ],
+      "home": [
+        10,
+        7,
+        7,
+        14
+      ]
     },
     "sportsReferenceGameId": "2013-11-02-notre-dame"
   },
@@ -590,7 +706,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/09/2013",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 21,
@@ -642,8 +761,18 @@
     },
     "espnGameId": 333130221,
     "linescore": {
-      "away": [7, 7, 7, 0],
-      "home": [0, 7, 14, 7]
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-11-09-pittsburgh",
     "rankings": {
@@ -656,7 +785,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/2013",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 13,
@@ -708,8 +840,18 @@
     },
     "espnGameId": 333270087,
     "linescore": {
-      "away": [7, 0, 6, 0],
-      "home": [14, 3, 3, 3]
+      "away": [
+        7,
+        0,
+        6,
+        0
+      ],
+      "home": [
+        14,
+        3,
+        3,
+        3
+      ]
     },
     "sportsReferenceGameId": "2013-11-23-notre-dame"
   },
@@ -717,7 +859,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/2013",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 20,
@@ -769,8 +914,18 @@
     },
     "espnGameId": 333340024,
     "linescore": {
-      "away": [3, 3, 14, 0],
-      "home": [7, 7, 10, 3]
+      "away": [
+        3,
+        3,
+        14,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        3
+      ]
     },
     "sportsReferenceGameId": "2013-11-30-stanford",
     "rankings": {
@@ -787,7 +942,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/28/2013",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "RUTG",
     "score": {
       "away": 16,
@@ -839,8 +997,18 @@
     },
     "espnGameId": 333620087,
     "linescore": {
-      "away": [10, 3, 0, 3],
-      "home": [10, 3, 3, 13]
+      "away": [
+        10,
+        3,
+        0,
+        3
+      ],
+      "home": [
+        10,
+        3,
+        3,
+        13
+      ]
     },
     "sportsReferenceGameId": "2013-12-28-notre-dame",
     "rankings": {

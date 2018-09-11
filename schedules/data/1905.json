@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NDHS",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/14/1905",
-    "location": "Milwaukee, WI",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 21,
@@ -168,7 +177,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/21/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 5,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/28/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AM-M",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/11/1905",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 5,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/1905",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BENN",
     "score": {
       "away": 0,
@@ -443,7 +467,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/24/1905",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,

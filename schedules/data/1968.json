@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 21,
@@ -66,7 +69,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 37,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1968",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 51,
@@ -189,7 +198,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 7,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 8,
@@ -309,7 +324,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/26/1968",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 17,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1968",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 14,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 7,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1968",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 6,
@@ -549,7 +576,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/30/1968",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 21,

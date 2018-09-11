@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1938",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KU",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/08/1938",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 14,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1938",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 6,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/1938",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 0,
@@ -231,7 +243,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1938",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 7,
@@ -291,7 +306,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/05/1938",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -351,7 +369,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/1938",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MINN",
     "score": {
       "away": 0,
@@ -414,7 +435,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/19/1938",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 9,
@@ -477,7 +501,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/03/1938",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,

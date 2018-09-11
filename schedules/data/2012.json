@@ -3,7 +3,12 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/01/2012",
-    "location": "Dublin, Ireland",
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "stadium": "Aviva Stadium"
+    },
+    "nickname": "Emerald Isle Classic",
     "opponentId": "NAVY",
     "score": {
       "away": 10,
@@ -55,8 +60,18 @@
     },
     "espnGameId": 322452426,
     "linescore": {
-      "away": [13, 14, 13, 10],
-      "home": [0, 3, 7, 0]
+      "away": [
+        13,
+        14,
+        13,
+        10
+      ],
+      "home": [
+        0,
+        3,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2012-09-01-navy"
   },
@@ -64,7 +79,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/08/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 17,
@@ -116,8 +134,18 @@
     },
     "espnGameId": 322520087,
     "linescore": {
-      "away": [0, 7, 0, 10],
-      "home": [0, 7, 10, 3]
+      "away": [
+        0,
+        7,
+        0,
+        10
+      ],
+      "home": [
+        0,
+        7,
+        10,
+        3
+      ]
     },
     "sportsReferenceGameId": "2012-09-08-notre-dame",
     "rankings": {
@@ -130,7 +158,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/15/2012",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 20,
@@ -182,8 +213,18 @@
     },
     "espnGameId": 322590127,
     "linescore": {
-      "away": [7, 7, 0, 6],
-      "home": [0, 3, 0, 0]
+      "away": [
+        7,
+        7,
+        0,
+        6
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2012-09-15-michigan-state",
     "rankings": {
@@ -199,7 +240,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/22/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 6,
@@ -251,8 +295,18 @@
     },
     "espnGameId": 322660087,
     "linescore": {
-      "away": [0, 0, 0, 6],
-      "home": [0, 10, 0, 3]
+      "away": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        3
+      ]
     },
     "sportsReferenceGameId": "2012-09-22-notre-dame",
     "rankings": {
@@ -268,7 +322,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/2012",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "MIAMI",
     "isShamrockSeries": true,
     "score": {
@@ -321,8 +378,18 @@
     },
     "espnGameId": 322800087,
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [7, 6, 21, 7]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        6,
+        21,
+        7
+      ]
     },
     "sportsReferenceGameId": "2012-10-06-notre-dame",
     "rankings": {
@@ -335,7 +402,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 13,
@@ -387,8 +457,20 @@
     },
     "espnGameId": 322870087,
     "linescore": {
-      "away": [0, 10, 0, 3, 0],
-      "home": [3, 0, 0, 10, 7]
+      "away": [
+        0,
+        10,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        10,
+        7
+      ]
     },
     "sportsReferenceGameId": "2012-10-13-notre-dame",
     "rankings": {
@@ -404,7 +486,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 14,
@@ -456,8 +541,18 @@
     },
     "espnGameId": 322940087,
     "linescore": {
-      "away": [0, 14, 0, 0],
-      "home": [7, 0, 3, 7]
+      "away": [
+        0,
+        14,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        3,
+        7
+      ]
     },
     "sportsReferenceGameId": "2012-10-20-notre-dame",
     "rankings": {
@@ -470,7 +565,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/27/2012",
-    "location": "Norman, OK",
+    "location": {
+      "city": "Norman",
+      "state": "OK"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 30,
@@ -522,8 +620,18 @@
     },
     "espnGameId": 323010201,
     "linescore": {
-      "away": [7, 3, 0, 20],
-      "home": [3, 3, 0, 7]
+      "away": [
+        7,
+        3,
+        0,
+        20
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2012-10-27-oklahoma",
     "rankings": {
@@ -539,7 +647,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 26,
@@ -591,8 +702,20 @@
     },
     "espnGameId": 323080087,
     "linescore": {
-      "away": [3, 7, 10, 0, 6],
-      "home": [3, 3, 0, 14, 9]
+      "away": [
+        3,
+        7,
+        10,
+        0,
+        6
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        14,
+        9
+      ]
     },
     "sportsReferenceGameId": "2012-11-03-notre-dame",
     "rankings": {
@@ -605,7 +728,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/10/2012",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 21,
@@ -657,8 +783,18 @@
     },
     "espnGameId": 323150103,
     "linescore": {
-      "away": [7, 7, 7, 0],
-      "home": [0, 3, 0, 3]
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        3
+      ]
     },
     "sportsReferenceGameId": "2012-11-10-boston-college",
     "rankings": {
@@ -671,7 +807,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/2012",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAKE",
     "score": {
       "away": 0,
@@ -723,8 +862,18 @@
     },
     "espnGameId": 323220087,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [21, 10, 7, 0]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        10,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2012-11-17-notre-dame",
     "rankings": {
@@ -737,7 +886,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/2012",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 22,
@@ -789,8 +941,18 @@
     },
     "espnGameId": 323290030,
     "linescore": {
-      "away": [10, 6, 3, 3],
-      "home": [0, 10, 0, 3]
+      "away": [
+        10,
+        6,
+        3,
+        3
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        3
+      ]
     },
     "sportsReferenceGameId": "2012-11-24-southern-california",
     "rankings": {
@@ -804,7 +966,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/07/2013",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 42,
@@ -856,8 +1021,18 @@
     },
     "espnGameId": 330070333,
     "linescore": {
-      "away": [0, 0, 7, 7],
-      "home": [14, 14, 7, 7]
+      "away": [
+        0,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2013-01-07-alabama",
     "rankings": {

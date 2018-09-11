@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/12/1987",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 26,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/19/1987",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 8,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/26/1987",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 44,
@@ -189,7 +198,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/10/1987",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 22,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/17/1987",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 35,
@@ -309,7 +324,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/24/1987",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 15,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1987",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 13,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1987",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 25,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/1987",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 6,
@@ -552,7 +579,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/21/1987",
-    "location": "University Park, PA",
+    "location": {
+      "city": "University Park",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 20,
@@ -612,7 +642,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/28/1987",
-    "location": "Coral Gables, FLA",
+    "location": {
+      "city": "Coral Gables",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 0,
@@ -676,7 +709,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1987",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "TA&M",
     "score": {
       "away": 35,

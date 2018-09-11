@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/1930",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 14,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1930",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 2,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1930",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 6,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/25/1930",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 35,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1930",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/08/1930",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "PENN",
     "score": {
       "away": 60,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/1930",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DRKE",
     "score": {
       "away": 7,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/22/1930",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 14,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/29/1930",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 6,
@@ -498,7 +525,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/06/1930",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 27,

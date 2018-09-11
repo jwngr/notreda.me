@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/28/1935",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KU",
     "score": {
       "away": 7,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1935",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 14,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/12/1935",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 27,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1935",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 6,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1935",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/02/1935",
-    "location": "Columbus, OH",
+    "location": {
+      "city": "Columbus",
+      "state": "OH"
+    },
     "opponentId": "OSU",
     "score": {
       "away": 18,
@@ -333,7 +351,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/09/1935",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 14,
@@ -388,7 +409,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/16/1935",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 6,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1935",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 13,

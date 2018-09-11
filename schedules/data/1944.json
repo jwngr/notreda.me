@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/30/1944",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 58,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/1944",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TULN",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/1944",
-    "location": "Boston, MA",
+    "location": {
+      "city": "Boston",
+      "state": "MA"
+    },
     "opponentId": "DART",
     "score": {
       "away": 0,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/21/1944",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 13,
@@ -233,7 +245,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/28/1944",
-    "location": "Champaign, IL",
+    "location": {
+      "city": "Champaign",
+      "state": "IL"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 13,
@@ -296,7 +311,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/04/1944",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 32,
@@ -359,7 +377,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/11/1944",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 59,
@@ -422,7 +443,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/1944",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -482,7 +506,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/25/1944",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 21,
@@ -545,7 +572,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "12/02/1944",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GRTLK",
     "score": {
       "away": 7,

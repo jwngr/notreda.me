@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/05/1996",
-    "location": "Nashville, TN",
+    "location": {
+      "city": "Nashville",
+      "state": "TN"
+    },
     "opponentId": "VANDY",
     "score": {
       "away": 14,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/14/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/21/1996",
-    "location": "Austin, Texas",
+    "location": {
+      "city": "Austin",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 27,
@@ -186,7 +195,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OSU",
     "score": {
       "away": 29,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 20,
@@ -312,7 +327,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/19/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 20,
@@ -372,7 +390,12 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1996",
-    "location": "Dublin, Ireland",
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "stadium": "Croke Park"
+    },
+    "nickname": "Shamrock Classic",
     "opponentId": "NAVY",
     "score": {
       "away": 27,
@@ -432,7 +455,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/09/1996",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 48,
@@ -492,7 +518,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 6,
@@ -552,7 +581,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1996",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RUTG",
     "score": {
       "away": 0,
@@ -612,7 +644,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/1996",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,

@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/04/2004",
-    "location": "Provo, UT",
+    "location": {
+      "city": "Provo",
+      "state": "UT"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 17,
@@ -74,7 +77,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/11/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 20,
@@ -150,7 +156,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/18/2004",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 31,
@@ -221,7 +230,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 3,
@@ -292,7 +304,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/02/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 41,
@@ -368,7 +383,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 15,
@@ -439,7 +457,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/2004",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 9,
@@ -510,7 +531,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/23/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 24,
@@ -586,7 +610,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/06/2004",
-    "location": "Knoxville, TN",
+    "location": {
+      "city": "Knoxville",
+      "state": "TN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 17,
@@ -662,7 +689,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/13/2004",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 41,
@@ -738,7 +768,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/27/2004",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 10,
@@ -815,7 +848,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/28/2004",
-    "location": "Phoenix, AZ",
+    "location": {
+      "city": "Phoenix",
+      "state": "AZ"
+    },
     "opponentId": "ORST",
     "score": {
       "away": 38,

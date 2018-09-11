@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/05/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NEV",
     "score": {
       "away": 0,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 292480087,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [7, 21, 7, 0]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2009-09-05-notre-dame",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/12/2009",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 34,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 292550130,
     "linescore": {
-      "away": [3, 17, 0, 14],
-      "home": [14, 3, 7, 14]
+      "away": [
+        3,
+        17,
+        0,
+        14
+      ],
+      "home": [
+        14,
+        3,
+        7,
+        14
+      ]
     },
     "sportsReferenceGameId": "2009-09-12-michigan",
     "rankings": {
@@ -135,7 +161,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/19/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 30,
@@ -187,8 +216,18 @@
     },
     "espnGameId": 292620087,
     "linescore": {
-      "away": [3, 14, 6, 7],
-      "home": [13, 3, 10, 7]
+      "away": [
+        3,
+        14,
+        6,
+        7
+      ],
+      "home": [
+        13,
+        3,
+        10,
+        7
+      ]
     },
     "sportsReferenceGameId": "2009-09-19-notre-dame"
   },
@@ -196,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/26/2009",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 24,
@@ -248,8 +290,18 @@
     },
     "espnGameId": 292692509,
     "linescore": {
-      "away": [3, 14, 0, 7],
-      "home": [7, 0, 0, 14]
+      "away": [
+        3,
+        14,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        0,
+        14
+      ]
     },
     "sportsReferenceGameId": "2009-09-26-purdue"
   },
@@ -257,7 +309,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/03/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 30,
@@ -309,8 +364,20 @@
     },
     "espnGameId": 292760087,
     "linescore": {
-      "away": [7, 10, 7, 6, 0],
-      "home": [3, 13, 3, 11, 7]
+      "away": [
+        7,
+        10,
+        7,
+        6,
+        0
+      ],
+      "home": [
+        3,
+        13,
+        3,
+        11,
+        7
+      ]
     },
     "sportsReferenceGameId": "2009-10-03-notre-dame"
   },
@@ -318,7 +385,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/17/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 34,
@@ -370,8 +440,18 @@
     },
     "espnGameId": 292900087,
     "linescore": {
-      "away": [7, 6, 14, 7],
-      "home": [7, 0, 7, 13]
+      "away": [
+        7,
+        6,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        13
+      ]
     },
     "sportsReferenceGameId": "2009-10-17-notre-dame",
     "rankings": {
@@ -387,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/24/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 16,
@@ -439,8 +522,18 @@
     },
     "espnGameId": 292970087,
     "linescore": {
-      "away": [2, 7, 7, 0],
-      "home": [3, 10, 0, 7]
+      "away": [
+        2,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        3,
+        10,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2009-10-24-notre-dame"
   },
@@ -448,7 +541,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/2009",
-    "location": "San Antonio, Texas",
+    "location": {
+      "city": "San Antonio",
+      "state": "TX"
+    },
     "opponentId": "WSU",
     "isShamrockSeries": true,
     "score": {
@@ -501,8 +597,18 @@
     },
     "espnGameId": 293040087,
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [9, 21, 3, 7]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        9,
+        21,
+        3,
+        7
+      ]
     },
     "sportsReferenceGameId": "2009-10-31-notre-dame",
     "rankings": {
@@ -515,7 +621,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/07/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 23,
@@ -567,8 +676,18 @@
     },
     "espnGameId": 293110087,
     "linescore": {
-      "away": [7, 7, 7, 2],
-      "home": [0, 0, 7, 14]
+      "away": [
+        7,
+        7,
+        7,
+        2
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        14
+      ]
     },
     "sportsReferenceGameId": "2009-11-07-notre-dame",
     "rankings": {
@@ -581,7 +700,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/14/2009",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 22,
@@ -633,8 +755,18 @@
     },
     "espnGameId": 293180221,
     "linescore": {
-      "away": [0, 3, 0, 19],
-      "home": [3, 7, 10, 7]
+      "away": [
+        0,
+        3,
+        0,
+        19
+      ],
+      "home": [
+        3,
+        7,
+        10,
+        7
+      ]
     },
     "sportsReferenceGameId": "2009-11-14-pittsburgh",
     "rankings": {
@@ -647,7 +779,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/21/2009",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UCONN",
     "score": {
       "away": 33,
@@ -699,8 +834,20 @@
     },
     "espnGameId": 293250087,
     "linescore": {
-      "away": [0, 10, 7, 3, 13],
-      "home": [7, 7, 3, 3, 10]
+      "away": [
+        0,
+        10,
+        7,
+        3,
+        13
+      ],
+      "home": [
+        7,
+        7,
+        3,
+        3,
+        10
+      ]
     },
     "sportsReferenceGameId": "2009-11-21-notre-dame"
   },
@@ -708,7 +855,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/28/2009",
-    "location": "Palo Alto, CA",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 38,
@@ -760,8 +910,18 @@
     },
     "espnGameId": 293320024,
     "linescore": {
-      "away": [14, 10, 7, 7],
-      "home": [10, 10, 7, 18]
+      "away": [
+        14,
+        10,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        10,
+        7,
+        18
+      ]
     },
     "sportsReferenceGameId": "2009-11-28-stanford"
   }

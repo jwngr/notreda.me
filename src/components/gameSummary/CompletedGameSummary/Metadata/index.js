@@ -34,6 +34,11 @@ const Metadata = ({game}) => {
     );
   }
 
+  let stadium = game.location.stadium || null;
+  let location = game.location.state
+    ? `${game.location.city}, ${game.location.state}`
+    : `${game.location.city}, ${game.location.country}`;
+
   // TODO: get correct stadium
   return (
     <MetadataWrapper>
@@ -49,8 +54,8 @@ const Metadata = ({game}) => {
         </Media>
       </MetadataDateContainer>
       <MetadataContent>
-        <p>Notre Dame Stadium</p>
-        <p>{game.location}</p>
+        <p>{stadium}</p>
+        <p>{location}</p>
         <MetadataCoverage>
           {tvCoverageIcon}
           <p>{time}</p>

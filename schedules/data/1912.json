@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/05/1912",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "VIA",
     "score": {
       "away": 7,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1912",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ADRN",
     "score": {
       "away": 7,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1912",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MORR",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1912",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 6,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/02/1912",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 3,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/09/1912",
-    "location": "St. Louis, MO",
+    "location": {
+      "city": "St. Louis",
+      "state": "MO"
+    },
     "opponentId": "SLU",
     "score": {
       "away": 47,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/28/1912",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "MARQ",
     "score": {
       "away": 0,

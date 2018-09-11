@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1923",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KAL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1923",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LOMB",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/1923",
-    "location": "Brooklyn, NY",
+    "location": {
+      "city": "Brooklyn",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/20/1923",
-    "location": "Princeton, NJ",
+    "location": {
+      "city": "Princeton",
+      "state": "NJ"
+    },
     "opponentId": "PRIN",
     "score": {
       "away": 25,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1923",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 7,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1923",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 7,
@@ -333,7 +351,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/10/1923",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 7,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1923",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BUT",
     "score": {
       "away": 7,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1923",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 26,
@@ -498,7 +525,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/29/1923",
-    "location": "St. Louis, MO",
+    "location": {
+      "city": "St. Louis",
+      "state": "MO"
+    },
     "opponentId": "SLU",
     "score": {
       "away": 13,

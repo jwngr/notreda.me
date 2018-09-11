@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1929",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 14,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1929",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1929",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/26/1929",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 7,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/02/1929",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 26,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1929",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "DRKE",
     "score": {
       "away": 7,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1929",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "USC",
     "score": {
       "away": 12,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/23/1929",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 26,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/30/1929",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,

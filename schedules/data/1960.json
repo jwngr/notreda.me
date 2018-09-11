@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1960",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CAL",
     "score": {
       "away": 7,
@@ -58,7 +61,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/01/1960",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 51,
@@ -118,7 +124,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/08/1960",
-    "location": "Chapel Hill, NC",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 7,
@@ -173,7 +182,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1960",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 21,
@@ -233,7 +245,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/22/1960",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 6,
@@ -288,7 +303,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/29/1960",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 14,
@@ -348,7 +366,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/05/1960",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 20,
@@ -408,7 +429,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/12/1960",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 21,
@@ -463,7 +487,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/19/1960",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 28,
@@ -523,7 +550,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/26/1960",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 17,

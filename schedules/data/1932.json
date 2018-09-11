@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/08/1932",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HASK",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1932",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DRKE",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/1932",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/29/1932",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/05/1932",
-    "location": "Lawrence, KS",
+    "location": {
+      "city": "Lawrence",
+      "state": "KS"
+    },
     "opponentId": "KU",
     "score": {
       "away": 24,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/1932",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1932",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/26/1932",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -443,7 +467,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/10/1932",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,

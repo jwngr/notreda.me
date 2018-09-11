@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/15/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 24,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/22/1990",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 20,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 11,
@@ -189,7 +198,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/06/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 36,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 27,
@@ -309,7 +324,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 20,
@@ -372,7 +390,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/27/1990",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 31,
@@ -432,7 +453,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1990",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 31,
@@ -492,7 +516,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/10/1990",
-    "location": "Knoxville, TN",
+    "location": {
+      "city": "Knoxville",
+      "state": "TN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 34,
@@ -555,7 +582,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/17/1990",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 24,
@@ -618,7 +648,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1990",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 10,
@@ -682,7 +715,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1990",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "COL",
     "score": {
       "away": 10,

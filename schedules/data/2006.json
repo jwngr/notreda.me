@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/02/2006",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 14,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 262450059,
     "linescore": {
-      "away": [0, 7, 7, 0],
-      "home": [7, 3, 0, 0]
+      "away": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2006-09-02-georgia-tech",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/09/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 17,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 262520087,
     "linescore": {
-      "away": [0, 0, 3, 14],
-      "home": [3, 17, 14, 7]
+      "away": [
+        0,
+        0,
+        3,
+        14
+      ],
+      "home": [
+        3,
+        17,
+        14,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-09-09-notre-dame",
     "rankings": {
@@ -138,7 +164,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/16/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 47,
@@ -190,8 +219,18 @@
     },
     "espnGameId": 262590087,
     "linescore": {
-      "away": [20, 14, 6, 7],
-      "home": [7, 7, 0, 7]
+      "away": [
+        20,
+        14,
+        6,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-09-16-notre-dame",
     "rankings": {
@@ -207,7 +246,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/23/2006",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 40,
@@ -259,8 +301,18 @@
     },
     "espnGameId": 262660127,
     "linescore": {
-      "away": [0, 14, 7, 19],
-      "home": [17, 14, 6, 0]
+      "away": [
+        0,
+        14,
+        7,
+        19
+      ],
+      "home": [
+        17,
+        14,
+        6,
+        0
+      ]
     },
     "sportsReferenceGameId": "2006-09-23-michigan-state",
     "rankings": {
@@ -273,7 +325,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 21,
@@ -325,8 +380,18 @@
     },
     "espnGameId": 262730087,
     "linescore": {
-      "away": [7, 7, 0, 7],
-      "home": [14, 14, 7, 0]
+      "away": [
+        7,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2006-09-30-notre-dame",
     "rankings": {
@@ -339,7 +404,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 10,
@@ -391,8 +459,18 @@
     },
     "espnGameId": 262800087,
     "linescore": {
-      "away": [3, 0, 0, 7],
-      "home": [7, 7, 10, 7]
+      "away": [
+        3,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-10-07-notre-dame",
     "rankings": {
@@ -405,7 +483,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/21/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UCLA",
     "score": {
       "away": 17,
@@ -457,8 +538,18 @@
     },
     "espnGameId": 262940087,
     "linescore": {
-      "away": [0, 14, 0, 3],
-      "home": [7, 3, 3, 7]
+      "away": [
+        0,
+        14,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        3,
+        3,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-10-21-notre-dame",
     "rankings": {
@@ -471,7 +562,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/28/2006",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 14,
@@ -523,8 +617,18 @@
     },
     "espnGameId": 263012426,
     "linescore": {
-      "away": [10, 14, 7, 7],
-      "home": [0, 14, 0, 0]
+      "away": [
+        10,
+        14,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        14,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2006-10-28-navy",
     "rankings": {
@@ -537,7 +641,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 26,
@@ -589,8 +696,18 @@
     },
     "espnGameId": 263080087,
     "linescore": {
-      "away": [7, 6, 13, 0],
-      "home": [14, 17, 7, 7]
+      "away": [
+        7,
+        6,
+        13,
+        0
+      ],
+      "home": [
+        14,
+        17,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-11-04-notre-dame",
     "rankings": {
@@ -603,7 +720,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/11/2006",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 39,
@@ -655,8 +775,18 @@
     },
     "espnGameId": 263152005,
     "linescore": {
-      "away": [20, 7, 6, 6],
-      "home": [3, 0, 7, 7]
+      "away": [
+        20,
+        7,
+        6,
+        6
+      ],
+      "home": [
+        3,
+        0,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-11-11-air-force",
     "rankings": {
@@ -669,7 +799,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/2006",
-    "location": "Notre Dame Stadium",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 9,
@@ -721,8 +854,18 @@
     },
     "espnGameId": 263220087,
     "linescore": {
-      "away": [3, 0, 0, 6],
-      "home": [0, 20, 14, 7]
+      "away": [
+        3,
+        0,
+        0,
+        6
+      ],
+      "home": [
+        0,
+        20,
+        14,
+        7
+      ]
     },
     "sportsReferenceGameId": "2006-11-18-notre-dame",
     "rankings": {
@@ -735,7 +878,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/25/2006",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 24,
@@ -787,8 +933,18 @@
     },
     "espnGameId": 263290030,
     "linescore": {
-      "away": [3, 7, 7, 7],
-      "home": [14, 7, 7, 16]
+      "away": [
+        3,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        16
+      ]
     },
     "sportsReferenceGameId": "2006-11-25-southern-california",
     "rankings": {
@@ -805,7 +961,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/03/2007",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 41,
@@ -857,8 +1016,18 @@
     },
     "espnGameId": 270030099,
     "linescore": {
-      "away": [7, 7, 0, 0],
-      "home": [14, 7, 13, 7]
+      "away": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        13,
+        7
+      ]
     },
     "sportsReferenceGameId": "2007-01-03-louisiana-state",
     "rankings": {

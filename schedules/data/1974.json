@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/09/1974",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 31,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/21/1974",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 49,
@@ -123,7 +129,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 31,
@@ -183,7 +192,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1974",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 19,
@@ -243,7 +255,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RICE",
     "score": {
       "away": 3,
@@ -303,7 +318,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -363,7 +381,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 7,
@@ -423,7 +444,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1974",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 6,
@@ -483,7 +507,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 10,
@@ -546,7 +573,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1974",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 0,
@@ -606,7 +636,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/1974",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 24,
@@ -670,7 +703,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1974",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 11,

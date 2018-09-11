@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/02/1915",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ALMA",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1915",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HASK",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/23/1915",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 19,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1915",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SDAK",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/06/1915",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 7,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/13/1915",
-    "location": "Omaha, NE",
+    "location": {
+      "city": "Omaha",
+      "state": "NE"
+    },
     "opponentId": "CREI",
     "score": {
       "away": 41,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/25/1915",
-    "location": "Austin, Texas",
+    "location": {
+      "city": "Austin",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 36,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/27/1915",
-    "location": "Houston, Texas",
+    "location": {
+      "city": "Houston",
+      "state": "TX"
+    },
     "opponentId": "RICE",
     "score": {
       "away": 55,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/12/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 9,
@@ -63,7 +66,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/19/1981",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 7,
@@ -126,7 +132,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/26/1981",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 14,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/03/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -241,7 +253,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/10/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "FSU",
     "score": {
       "away": 19,
@@ -301,7 +316,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/24/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 14,
@@ -361,7 +379,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -416,7 +437,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1981",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 3,
@@ -471,7 +495,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/14/1981",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 35,
@@ -526,7 +553,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/21/1981",
-    "location": "University Park, PA",
+    "location": {
+      "city": "University Park",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 21,
@@ -586,7 +616,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/27/1981",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 15,

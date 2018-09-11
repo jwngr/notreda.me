@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1909",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OLIV",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/1909",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ROSE",
     "score": {
       "away": 11,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/23/1909",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/30/1909",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 6,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/06/1909",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 11,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1909",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "M-OH",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/20/1909",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/25/1909",
-    "location": "Milwaukee, WI",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
     "opponentId": "MARQ",
     "score": {
       "away": 0,

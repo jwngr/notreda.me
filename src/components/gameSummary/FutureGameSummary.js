@@ -42,6 +42,10 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
     opponentRankingContent = <p className="ranking">#{opponentRanking}</p>;
   }
 
+  let location = game.location.state
+    ? `${game.location.city}, ${game.location.state}`
+    : `${game.location.city}, ${game.location.country}`;
+
   return (
     <div className="future-game-summary-container">
       <div className="matchup-teams">
@@ -60,7 +64,7 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
         <p className="time">
           {game.coverage}, {time}
         </p>
-        <p className="location">{game.location}</p>
+        <p className="location">{location}</p>
       </div>
     </div>
   );

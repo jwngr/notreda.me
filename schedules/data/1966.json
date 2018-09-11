@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1966",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 14,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/01/1966",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 35,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/08/1966",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1966",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 0,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/22/1966",
-    "location": "Norman, OK",
+    "location": {
+      "city": "Norman",
+      "state": "OK"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 38,
@@ -309,7 +324,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1966",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/05/1966",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 0,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/1966",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DUKE",
     "score": {
       "away": 0,
@@ -489,7 +513,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/19/1966",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 10,
@@ -552,7 +579,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/26/1966",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 51,

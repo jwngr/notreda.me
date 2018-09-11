@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "08/31/2002",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "MD",
     "score": {
       "away": 0,
@@ -75,7 +78,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/07/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 17,
@@ -147,7 +153,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/14/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 23,
@@ -222,7 +231,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/21/2002",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 21,
@@ -294,7 +306,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/05/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 7,
@@ -366,7 +381,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 6,
@@ -438,7 +456,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/19/2002",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 21,
@@ -513,7 +534,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/26/2002",
-    "location": "Tallahassee, FL",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL"
+    },
     "opponentId": "FSU",
     "score": {
       "away": 34,
@@ -588,7 +612,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/02/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 14,
@@ -660,7 +687,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/2002",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 23,
@@ -732,7 +762,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/2002",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RUTG",
     "score": {
       "away": 0,
@@ -804,7 +837,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/2002",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 13,
@@ -880,7 +916,11 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/2002",
-    "location": "Jacksonville, FL (ALLTEL Stadium)",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL",
+      "stadium": "ALLTEL Stadium"
+    },
     "opponentId": "NCST",
     "score": {
       "away": 28,

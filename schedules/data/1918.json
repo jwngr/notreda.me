@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/28/1918",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "CASE",
     "score": {
       "away": 26,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/02/1918",
-    "location": "Crawfordsville, IN",
+    "location": {
+      "city": "Crawfordsville",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 67,
@@ -113,7 +119,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/09/1918",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GRTLK",
     "score": {
       "away": 7,
@@ -168,7 +177,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/16/1918",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/23/1918",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 26,
@@ -278,7 +293,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/28/1918",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 0,

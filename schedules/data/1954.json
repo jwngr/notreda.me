@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/1954",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 0,
@@ -66,7 +69,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/02/1954",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 27,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/09/1954",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 33,
@@ -189,7 +198,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/1954",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 19,
@@ -249,7 +261,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1954",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -312,7 +327,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/06/1954",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "PENN",
     "score": {
       "away": 42,
@@ -372,7 +390,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1954",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 13,
@@ -432,7 +453,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/20/1954",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 34,
@@ -495,7 +519,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/27/1954",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 17,
@@ -558,7 +585,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/04/1954",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 26,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/02/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TA&M",
     "score": {
       "away": 10,
@@ -64,7 +67,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/09/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 27,
@@ -128,7 +134,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/16/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 21,
@@ -192,7 +201,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/23/2000",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 21,
@@ -256,7 +268,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 14,
@@ -317,7 +332,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/2000",
-    "location": "Orlando, FLA",
+    "location": {
+      "city": "Orlando",
+      "state": "FL"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 14,
@@ -378,7 +396,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/21/2000",
-    "location": "Morgantown, WV",
+    "location": {
+      "city": "Morgantown",
+      "state": "WV"
+    },
     "opponentId": "WVU",
     "score": {
       "away": 42,
@@ -439,7 +460,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/28/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 31,
@@ -500,7 +524,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/11/2000",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 16,
@@ -561,7 +588,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/18/2000",
-    "location": "Piscataway, NJ",
+    "location": {
+      "city": "Piscataway",
+      "state": "NJ"
+    },
     "opponentId": "RUTG",
     "score": {
       "away": 45,
@@ -622,7 +652,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/25/2000",
-    "location": "Los Angeles",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 38,
@@ -684,7 +717,11 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/2001",
-    "location": "Tempe, AZ - Tostitos Fiesta Bowl",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ"
+    },
+    "nickname": "Tostitos Fiesta Bowl",
     "opponentId": "ORST",
     "score": {
       "away": 41,

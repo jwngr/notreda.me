@@ -3,7 +3,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "10/07/1933",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KU",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/14/1933",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 12,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/21/1933",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/28/1933",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 14,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/04/1933",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -278,7 +293,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/11/1933",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 19,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/18/1933",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 7,
@@ -388,7 +409,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/25/1933",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 19,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "12/02/1933",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 12,

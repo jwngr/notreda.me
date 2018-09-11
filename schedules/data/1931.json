@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/03/1931",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 25,
@@ -58,7 +61,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "10/10/1931",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/17/1931",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DRKE",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/24/1931",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 12,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/31/1931",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 19,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1931",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PENN",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/1931",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/21/1931",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 16,
@@ -443,7 +467,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/28/1931",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 12,

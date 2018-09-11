@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "08/30/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RICE",
     "score": {
       "away": 17,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 400548008,
     "linescore": {
-      "away": [7, 3, 0, 7],
-      "home": [14, 14, 10, 10]
+      "away": [
+        7,
+        3,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        10,
+        10
+      ]
     },
     "sportsReferenceGameId": "2014-08-30-notre-dame",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/06/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 0,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 400547944,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [7, 14, 7, 3]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        3
+      ]
     },
     "sportsReferenceGameId": "2014-09-06-notre-dame",
     "rankings": {
@@ -135,7 +161,11 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/13/2014",
-    "location": "Indianapolis, IN(Lucas Oil Stadium)",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "stadium": "Lucas Oil Stadium"
+    },
     "opponentId": "PUR",
     "isShamrockSeries": true,
     "score": {
@@ -188,8 +218,18 @@
     },
     "espnGameId": 400547990,
     "linescore": {
-      "away": [7, 7, 0, 0],
-      "home": [7, 10, 7, 6]
+      "away": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        10,
+        7,
+        6
+      ]
     },
     "sportsReferenceGameId": "2014-09-13-notre-dame",
     "rankings": {
@@ -202,7 +242,11 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/2014",
-    "location": "East Rutherford, NJ(MetLife Stadium)",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "MetLife Stadium"
+    },
     "opponentId": "SYR",
     "score": {
       "away": 15,
@@ -254,8 +298,18 @@
     },
     "espnGameId": 400547818,
     "linescore": {
-      "away": [0, 14, 7, 10],
-      "home": [0, 3, 0, 12]
+      "away": [
+        0,
+        14,
+        7,
+        10
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        12
+      ]
     },
     "sportsReferenceGameId": "2014-09-27-syracuse",
     "rankings": {
@@ -268,7 +322,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 14,
@@ -320,8 +377,18 @@
     },
     "espnGameId": 400548279,
     "linescore": {
-      "away": [7, 0, 0, 7],
-      "home": [0, 7, 0, 10]
+      "away": [
+        7,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        10
+      ]
     },
     "sportsReferenceGameId": "2014-10-04-notre-dame",
     "rankings": {
@@ -337,7 +404,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 43,
@@ -389,8 +459,18 @@
     },
     "espnGameId": 400547798,
     "linescore": {
-      "away": [14, 12, 10, 7],
-      "home": [7, 21, 7, 15]
+      "away": [
+        14,
+        12,
+        10,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        15
+      ]
     },
     "sportsReferenceGameId": "2014-10-11-notre-dame",
     "rankings": {
@@ -403,7 +483,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/18/2014",
-    "location": "Tallahassee, FLA",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL"
+    },
     "opponentId": "FSU",
     "score": {
       "away": 27,
@@ -455,8 +538,18 @@
     },
     "espnGameId": 400547767,
     "linescore": {
-      "away": [7, 10, 7, 3],
-      "home": [7, 3, 14, 7]
+      "away": [
+        7,
+        10,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        3,
+        14,
+        7
+      ]
     },
     "sportsReferenceGameId": "2014-10-18-florida-state",
     "rankings": {
@@ -472,7 +565,11 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/2014",
-    "location": "Landover, MD(FedEx Field)",
+    "location": {
+      "city": "Landover",
+      "state": "MD",
+      "stadium": "FedEx Field"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 39,
@@ -524,8 +621,18 @@
     },
     "espnGameId": 400548465,
     "linescore": {
-      "away": [14, 14, 0, 21],
-      "home": [7, 10, 14, 8]
+      "away": [
+        14,
+        14,
+        0,
+        21
+      ],
+      "home": [
+        7,
+        10,
+        14,
+        8
+      ]
     },
     "sportsReferenceGameId": "2014-11-01-navy",
     "rankings": {
@@ -538,7 +645,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/08/2014",
-    "location": "Tempe, AZ",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ"
+    },
     "opponentId": "AZST",
     "score": {
       "away": 31,
@@ -590,8 +700,18 @@
     },
     "espnGameId": 400548302,
     "linescore": {
-      "away": [3, 7, 7, 14],
-      "home": [17, 17, 0, 21]
+      "away": [
+        3,
+        7,
+        7,
+        14
+      ],
+      "home": [
+        17,
+        17,
+        0,
+        21
+      ]
     },
     "sportsReferenceGameId": "2014-11-08-arizona-state",
     "rankings": {
@@ -607,7 +727,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/15/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 43,
@@ -659,8 +782,20 @@
     },
     "espnGameId": 400547980,
     "linescore": {
-      "away": [9, 14, 3, 14, 3],
-      "home": [20, 7, 7, 6, 0]
+      "away": [
+        9,
+        14,
+        3,
+        14,
+        3
+      ],
+      "home": [
+        20,
+        7,
+        7,
+        6,
+        0
+      ]
     },
     "sportsReferenceGameId": "2014-11-15-notre-dame",
     "rankings": {
@@ -673,7 +808,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/22/2014",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LOU",
     "score": {
       "away": 31,
@@ -725,8 +863,18 @@
     },
     "espnGameId": 400547784,
     "linescore": {
-      "away": [14, 3, 7, 7],
-      "home": [3, 3, 14, 8]
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        3,
+        14,
+        8
+      ]
     },
     "sportsReferenceGameId": "2014-11-22-notre-dame"
   },
@@ -734,7 +882,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/29/2014",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 14,
@@ -786,8 +937,18 @@
     },
     "espnGameId": 400548318,
     "linescore": {
-      "away": [0, 7, 7, 0],
-      "home": [21, 14, 14, 0]
+      "away": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        21,
+        14,
+        14,
+        0
+      ]
     },
     "sportsReferenceGameId": "2014-11-29-southern-california"
   },
@@ -796,7 +957,11 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/30/2014",
-    "location": "Nashville, TN (LP Field)",
+    "location": {
+      "city": "Nashville",
+      "state": "TN",
+      "stadium": "LP Field)"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 28,
@@ -848,8 +1013,18 @@
     },
     "espnGameId": 400610214,
     "linescore": {
-      "away": [7, 14, 7, 3],
-      "home": [7, 7, 14, 0]
+      "away": [
+        7,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        14,
+        0
+      ]
     },
     "sportsReferenceGameId": "2014-12-30-louisiana-state",
     "rankings": {

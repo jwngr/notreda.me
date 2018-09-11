@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1921",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KAL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1921",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 10,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/08/1921",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 7,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/15/1921",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 33,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/1921",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1921",
-    "location": "Indianapolis, IN",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 7,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/05/1921",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 28,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1921",
-    "location": "Manhattan, NY",
+    "location": {
+      "city": "Manhattan",
+      "state": "NY"
+    },
     "opponentId": "RUTG",
     "score": {
       "away": 0,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/1921",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HASK",
     "score": {
       "away": 7,
@@ -498,7 +525,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/19/1921",
-    "location": "Milwaukee, WI",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
     "opponentId": "MARQ",
     "score": {
       "away": 21,
@@ -553,7 +583,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1921",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/29/1962",
-    "location": "Norman, OK",
+    "location": {
+      "city": "Norman",
+      "state": "OK"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 13,
@@ -58,7 +61,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/06/1962",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 24,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/13/1962",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 8,
@@ -168,7 +177,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1962",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 31,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/27/1962",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 6,
@@ -283,7 +298,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1962",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 12,
@@ -338,7 +356,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/10/1962",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 22,
@@ -393,7 +414,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1962",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 7,
@@ -448,7 +472,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1962",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 12,
@@ -503,7 +530,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/01/1962",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,

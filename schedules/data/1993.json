@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/04/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 12,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/11/1993",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 27,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/18/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 14,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/25/1993",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 17,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/02/1993",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 48,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 0,
@@ -366,7 +384,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/16/1993",
-    "location": "Provo, Utah",
+    "location": {
+      "city": "Provo",
+      "state": "UT"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 45,
@@ -426,7 +447,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/23/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 13,
@@ -486,7 +510,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1993",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 27,
@@ -546,7 +573,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "FSU",
     "score": {
       "away": 24,
@@ -609,7 +639,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/20/1993",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 41,
@@ -673,7 +706,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1993",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "TA&M",
     "score": {
       "away": 21,

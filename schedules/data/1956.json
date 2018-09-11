@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/22/1956",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 13,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1956",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 6,
@@ -123,7 +129,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/13/1956",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 28,
@@ -183,7 +192,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1956",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 47,
@@ -243,7 +255,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/27/1956",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 40,
@@ -303,7 +318,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/03/1956",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 33,
@@ -358,7 +376,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/10/1956",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 13,
@@ -418,7 +439,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1956",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 14,
@@ -473,7 +497,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/24/1956",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 8,
@@ -533,7 +560,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/01/1956",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,

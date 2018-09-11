@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/08/1898",
-    "location": "Champaign, IL",
+    "location": {
+      "city": "Champaign",
+      "state": "IL"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 5,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1898",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/23/1898",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1898",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/05/1898",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 11,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/19/1898",
-    "location": "Albion, MI",
+    "location": {
+      "city": "Albion",
+      "state": "MI"
+    },
     "opponentId": "ALB",
     "score": {
       "away": 60,

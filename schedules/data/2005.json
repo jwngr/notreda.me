@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/03/2005",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 42,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 252460221,
     "linescore": {
-      "away": [7, 28, 7, 0],
-      "home": [10, 3, 0, 8]
+      "away": [
+        7,
+        28,
+        7,
+        0
+      ],
+      "home": [
+        10,
+        3,
+        0,
+        8
+      ]
     },
     "sportsReferenceGameId": "2005-09-03-pittsburgh",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/10/2005",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 17,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 252530130,
     "linescore": {
-      "away": [7, 7, 0, 3],
-      "home": [0, 3, 0, 7]
+      "away": [
+        7,
+        7,
+        0,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2005-09-10-michigan",
     "rankings": {
@@ -138,7 +164,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/17/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 44,
@@ -190,8 +219,20 @@
     },
     "espnGameId": 252600087,
     "linescore": {
-      "away": [14, 10, 14, 0, 6],
-      "home": [7, 10, 7, 14, 3]
+      "away": [
+        14,
+        10,
+        14,
+        0,
+        6
+      ],
+      "home": [
+        7,
+        10,
+        7,
+        14,
+        3
+      ]
     },
     "sportsReferenceGameId": "2005-09-17-notre-dame",
     "rankings": {
@@ -204,7 +245,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/24/2005",
-    "location": "Seattle, WA",
+    "location": {
+      "city": "Seattle",
+      "state": "WA"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 36,
@@ -256,8 +300,18 @@
     },
     "espnGameId": 252670264,
     "linescore": {
-      "away": [3, 9, 7, 17],
-      "home": [0, 3, 0, 14]
+      "away": [
+        3,
+        9,
+        7,
+        17
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        14
+      ]
     },
     "sportsReferenceGameId": "2005-09-24-washington",
     "rankings": {
@@ -270,7 +324,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/01/2005",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 49,
@@ -322,8 +379,18 @@
     },
     "espnGameId": 252742509,
     "linescore": {
-      "away": [7, 21, 7, 14],
-      "home": [0, 0, 14, 14]
+      "away": [
+        7,
+        21,
+        7,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        14,
+        14
+      ]
     },
     "sportsReferenceGameId": "2005-10-01-purdue",
     "rankings": {
@@ -339,7 +406,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 34,
@@ -391,8 +461,18 @@
     },
     "espnGameId": 252880087,
     "linescore": {
-      "away": [14, 0, 7, 13],
-      "home": [7, 14, 0, 10]
+      "away": [
+        14,
+        0,
+        7,
+        13
+      ],
+      "home": [
+        7,
+        14,
+        0,
+        10
+      ]
     },
     "sportsReferenceGameId": "2005-10-15-notre-dame",
     "rankings": {
@@ -408,7 +488,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 23,
@@ -460,8 +543,18 @@
     },
     "espnGameId": 252950087,
     "linescore": {
-      "away": [10, 0, 13, 0],
-      "home": [7, 14, 21, 7]
+      "away": [
+        10,
+        0,
+        13,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        21,
+        7
+      ]
     },
     "sportsReferenceGameId": "2005-10-22-notre-dame",
     "rankings": {
@@ -474,7 +567,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/05/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 21,
@@ -526,8 +622,18 @@
     },
     "espnGameId": 253090087,
     "linescore": {
-      "away": [3, 7, 11, 0],
-      "home": [14, 7, 0, 20]
+      "away": [
+        3,
+        7,
+        11,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        0,
+        20
+      ]
     },
     "sportsReferenceGameId": "2005-11-05-notre-dame",
     "rankings": {
@@ -540,7 +646,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 21,
@@ -592,8 +701,18 @@
     },
     "espnGameId": 253160087,
     "linescore": {
-      "away": [7, 0, 7, 7],
-      "home": [7, 21, 7, 7]
+      "away": [
+        7,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        7
+      ]
     },
     "sportsReferenceGameId": "2005-11-12-notre-dame",
     "rankings": {
@@ -606,7 +725,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/2005",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SYR",
     "score": {
       "away": 10,
@@ -658,8 +780,18 @@
     },
     "espnGameId": 253230087,
     "linescore": {
-      "away": [3, 0, 0, 7],
-      "home": [0, 14, 10, 10]
+      "away": [
+        3,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        14,
+        10,
+        10
+      ]
     },
     "sportsReferenceGameId": "2005-11-19-notre-dame",
     "rankings": {
@@ -672,7 +804,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/26/2005",
-    "location": "Palo Alto, CA",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 38,
@@ -724,8 +859,18 @@
     },
     "espnGameId": 253300024,
     "linescore": {
-      "away": [14, 0, 6, 18],
-      "home": [7, 7, 0, 17]
+      "away": [
+        14,
+        0,
+        6,
+        18
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        17
+      ]
     },
     "sportsReferenceGameId": "2005-11-26-stanford",
     "rankings": {
@@ -739,7 +884,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/02/2006",
-    "location": "Tempe, AZ",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ"
+    },
     "opponentId": "OSU",
     "score": {
       "away": 34,
@@ -791,8 +939,18 @@
     },
     "espnGameId": 260020194,
     "linescore": {
-      "away": [7, 0, 6, 7],
-      "home": [7, 14, 3, 10]
+      "away": [
+        7,
+        0,
+        6,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        3,
+        10
+      ]
     },
     "sportsReferenceGameId": "2006-01-02-notre-dame",
     "rankings": {

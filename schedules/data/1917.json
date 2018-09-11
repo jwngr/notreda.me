@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1917",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KAL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "10/13/1917",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/20/1917",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1917",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SDAK",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/03/1917",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 7,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/10/1917",
-    "location": "Sioux City, Iowa",
+    "location": {
+      "city": "Sioux City",
+      "state": "IA"
+    },
     "opponentId": "MORN",
     "score": {
       "away": 13,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1917",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1917",
-    "location": "Washington, PA",
+    "location": {
+      "city": "Washington",
+      "state": "PA"
+    },
     "opponentId": "WAS",
     "score": {
       "away": 3,

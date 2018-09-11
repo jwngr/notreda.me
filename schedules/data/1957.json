@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/28/1957",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 12,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/05/1957",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 0,
@@ -118,7 +124,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1957",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 21,
@@ -181,7 +190,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1957",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 7,
@@ -241,7 +253,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/02/1957",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 20,
@@ -304,7 +319,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/09/1957",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 6,
@@ -367,7 +385,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/16/1957",
-    "location": "Norman, OK",
+    "location": {
+      "city": "Norman",
+      "state": "OK"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 7,
@@ -427,7 +448,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/23/1957",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 21,
@@ -490,7 +514,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/30/1957",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 12,
@@ -550,7 +577,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/07/1957",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 54,

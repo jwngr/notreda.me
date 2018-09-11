@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/28/1946",
-    "location": "Champaign, IL",
+    "location": {
+      "city": "Champaign",
+      "state": "IL"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 26,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/05/1946",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1946",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 6,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/26/1946",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 41,
@@ -236,7 +248,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1946",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -296,7 +311,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/09/1946",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -359,7 +377,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1946",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -419,7 +440,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/23/1946",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "TULN",
     "score": {
       "away": 41,
@@ -479,7 +503,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/30/1946",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 6,

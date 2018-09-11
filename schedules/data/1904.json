@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1904",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 4,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/08/1904",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AM-M",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1904",
-    "location": "Milwaukee, WI",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 58,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/22/1904",
-    "location": "Columbus, OH",
+    "location": {
+      "city": "Columbus",
+      "state": "OH"
+    },
     "opponentId": "OH-M",
     "score": {
       "away": 17,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1904",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TOL",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/05/1904",
-    "location": "Lawrence, KS",
+    "location": {
+      "city": "Lawrence",
+      "state": "KS"
+    },
     "opponentId": "KU",
     "score": {
       "away": 5,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1904",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/24/1904",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,

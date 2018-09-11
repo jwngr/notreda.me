@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/03/1994",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 15,
@@ -63,7 +66,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/10/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 26,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/17/1994",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 21,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 21,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 15,
@@ -306,7 +321,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/08/1994",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 11,
@@ -366,7 +384,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BYU",
     "score": {
       "away": 21,
@@ -426,7 +447,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 21,
@@ -481,7 +505,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/12/1994",
-    "location": "Orlando, FLA",
+    "location": {
+      "city": "Orlando",
+      "state": "FL"
+    },
     "opponentId": "FSU",
     "score": {
       "away": 23,
@@ -541,7 +568,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1994",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 30,
@@ -596,7 +626,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/26/1994",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 17,
@@ -657,7 +690,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/02/1994",
-    "location": "Tempe, AZ",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ"
+    },
     "opponentId": "COL",
     "score": {
       "away": 41,

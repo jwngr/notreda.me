@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/25/1943",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 41,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/02/1943",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 13,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/09/1943",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 35,
@@ -176,7 +185,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/16/1943",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 50,
@@ -236,7 +248,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/23/1943",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 0,
@@ -296,7 +311,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1943",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 6,
@@ -359,7 +377,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/06/1943",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -422,7 +443,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/13/1943",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 25,
@@ -485,7 +509,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/20/1943",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IO-PF",
     "score": {
       "away": 13,
@@ -548,7 +575,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/27/1943",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "GRTLK",
     "score": {
       "away": 14,

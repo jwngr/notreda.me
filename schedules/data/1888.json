@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "12/06/1888",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HARP",
     "score": {
       "away": 0,

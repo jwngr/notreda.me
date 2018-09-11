@@ -3,7 +3,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "09/28/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SB-AC",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1901",
-    "location": "Columbus, OH",
+    "location": {
+      "city": "Columbus",
+      "state": "OH"
+    },
     "opponentId": "OH-M",
     "score": {
       "away": 6,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/12/1901",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CHI-M",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/26/1901",
-    "location": "Beloit, WI",
+    "location": {
+      "city": "Beloit",
+      "state": "WI"
+    },
     "opponentId": "BEL",
     "score": {
       "away": 5,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LAK",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 6,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 5,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CHI-P&S",
     "score": {
       "away": 0,
@@ -498,7 +525,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/28/1901",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SB-AC",
     "score": {
       "away": 6,

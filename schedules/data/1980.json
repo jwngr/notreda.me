@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/06/1980",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 10,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/20/1980",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 27,
@@ -129,7 +135,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/04/1980",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 26,
@@ -189,7 +198,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1980",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 14,
@@ -252,7 +264,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1980",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 3,
@@ -312,7 +327,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/25/1980",
-    "location": "Tucson, AZ",
+    "location": {
+      "city": "Tucson",
+      "state": "AZ"
+    },
     "opponentId": "ARIZ",
     "score": {
       "away": 20,
@@ -372,7 +390,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1980",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -432,7 +453,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/08/1980",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 3,
@@ -492,7 +516,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/15/1980",
-    "location": "Tuscaloosa, ALA",
+    "location": {
+      "city": "Tuscaloosa",
+      "state": "AL"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 7,
@@ -555,7 +582,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1980",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 10,
@@ -615,7 +645,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/06/1980",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 3,
@@ -679,7 +712,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1980",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "UGA",
     "score": {
       "away": 17,

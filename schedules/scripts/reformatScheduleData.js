@@ -11,10 +11,13 @@ dataFilenames.forEach((dataFilename) => {
   const yearData = require(`${INPUT_DATA_DIRECTORY}/${dataFilename}`);
 
   yearData.forEach((gameData, i) => {
-    if ('date' in gameData) {
-      const date = new Date(gameData.date);
+    if (typeof gameData.location === 'string') {
+      const tokens = gameData.location.split(', ');
 
-      gameData.date = format(date, `MM/DD/${year}`);
+      gameData.location = {
+        city: tokens[0],
+        state: tokens[1],
+      };
     }
   });
 

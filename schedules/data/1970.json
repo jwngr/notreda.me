@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/19/1970",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 35,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/26/1970",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/03/1970",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 29,
@@ -183,7 +192,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/10/1970",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 10,
@@ -243,7 +255,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/17/1970",
-    "location": "Columbia, MO",
+    "location": {
+      "city": "Columbia",
+      "state": "MO"
+    },
     "opponentId": "MIZ",
     "score": {
       "away": 24,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1970",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -366,7 +384,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1970",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 14,
@@ -426,7 +447,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/1970",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 7,
@@ -486,7 +510,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/21/1970",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 0,
@@ -549,7 +576,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/28/1970",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 28,
@@ -610,7 +640,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1970",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "TEX",
     "score": {
       "away": 11,

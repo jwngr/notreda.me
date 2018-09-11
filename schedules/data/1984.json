@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/08/1984",
-    "location": "Indianapolis, IN",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 23,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/15/1984",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 24,
@@ -118,7 +124,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/22/1984",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "COL",
     "score": {
       "away": 14,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/29/1984",
-    "location": "Columbia, MO",
+    "location": {
+      "city": "Columbia",
+      "state": "MO"
+    },
     "opponentId": "MIZ",
     "score": {
       "away": 16,
@@ -233,7 +245,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/06/1984",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 31,
@@ -296,7 +311,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/13/1984",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 21,
@@ -351,7 +369,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1984",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SCAR",
     "score": {
       "away": 36,
@@ -411,7 +432,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/27/1984",
-    "location": "Baton Rouge, LA",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "LA"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 30,
@@ -471,7 +495,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1984",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 17,
@@ -526,7 +553,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1984",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 7,
@@ -581,7 +611,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1984",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 19,
@@ -642,7 +675,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/29/1984",
-    "location": "Honolulu, HI",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 27,

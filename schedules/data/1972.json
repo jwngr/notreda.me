@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/23/1972",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 37,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1972",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 14,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/07/1972",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 16,
@@ -183,7 +192,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/1972",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 16,
@@ -243,7 +255,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/21/1972",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIZ",
     "score": {
       "away": 30,
@@ -303,7 +318,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/28/1972",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TCU",
     "score": {
       "away": 0,
@@ -363,7 +381,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1972",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 23,
@@ -423,7 +444,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/11/1972",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 21,
@@ -483,7 +507,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/1972",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 17,
@@ -543,7 +570,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/02/1972",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 23,
@@ -607,7 +637,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1972",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 40,

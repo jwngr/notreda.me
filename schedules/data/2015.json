@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/05/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 8,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 400763403,
     "linescore": {
-      "away": [0, 0, 3, 0],
-      "home": [14, 3, 14, 7]
+      "away": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        14,
+        3,
+        14,
+        7
+      ]
     },
     "sportsReferenceGameId": "2015-09-05-notre-dame",
     "rankings": {
@@ -69,7 +82,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/12/2015",
-    "location": "Charlottesville, VA",
+    "location": {
+      "city": "Charlottesville",
+      "state": "VA"
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -121,8 +137,18 @@
     },
     "espnGameId": 400756917,
     "linescore": {
-      "away": [12, 0, 14, 8],
-      "home": [0, 14, 0, 13]
+      "away": [
+        12,
+        0,
+        14,
+        8
+      ],
+      "home": [
+        0,
+        14,
+        0,
+        13
+      ]
     },
     "sportsReferenceGameId": "2015-09-12-virginia",
     "rankings": {
@@ -135,7 +161,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/19/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -187,8 +216,18 @@
     },
     "espnGameId": 400756922,
     "linescore": {
-      "away": [0, 7, 0, 15],
-      "home": [7, 6, 3, 14]
+      "away": [
+        0,
+        7,
+        0,
+        15
+      ],
+      "home": [
+        7,
+        6,
+        3,
+        14
+      ]
     },
     "sportsReferenceGameId": "2015-09-19-notre-dame",
     "rankings": {
@@ -204,7 +243,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/26/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -256,8 +298,18 @@
     },
     "espnGameId": 400763583,
     "linescore": {
-      "away": [6, 14, 0, 7],
-      "home": [14, 21, 20, 7]
+      "away": [
+        6,
+        14,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        21,
+        20,
+        7
+      ]
     },
     "sportsReferenceGameId": "2015-09-26-notre-dame",
     "rankings": {
@@ -270,7 +322,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/03/2015",
-    "location": "Clemson, SC",
+    "location": {
+      "city": "Clemson",
+      "state": "SC"
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -322,8 +377,18 @@
     },
     "espnGameId": 400756940,
     "linescore": {
-      "away": [3, 0, 0, 19],
-      "home": [14, 0, 7, 3]
+      "away": [
+        3,
+        0,
+        0,
+        19
+      ],
+      "home": [
+        14,
+        0,
+        7,
+        3
+      ]
     },
     "sportsReferenceGameId": "2015-10-03-clemson",
     "rankings": {
@@ -339,7 +404,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/10/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -391,8 +459,18 @@
     },
     "espnGameId": 400763584,
     "linescore": {
-      "away": [7, 14, 3, 0],
-      "home": [7, 17, 14, 3]
+      "away": [
+        7,
+        14,
+        3,
+        0
+      ],
+      "home": [
+        7,
+        17,
+        14,
+        3
+      ]
     },
     "sportsReferenceGameId": "2015-10-10-notre-dame",
     "rankings": {
@@ -405,7 +483,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/17/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 19,
@@ -457,8 +538,18 @@
     },
     "espnGameId": 400757053,
     "linescore": {
-      "away": [10, 14, 7, 0],
-      "home": [21, 3, 0, 17]
+      "away": [
+        10,
+        14,
+        7,
+        0
+      ],
+      "home": [
+        21,
+        3,
+        0,
+        17
+      ]
     },
     "sportsReferenceGameId": "2015-10-17-notre-dame",
     "rankings": {
@@ -471,7 +562,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/31/2015",
-    "location": "Philadelphia, PA",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA"
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -523,8 +617,18 @@
     },
     "espnGameId": 400763585,
     "linescore": {
-      "away": [7, 7, 3, 7],
-      "home": [3, 7, 0, 10]
+      "away": [
+        7,
+        7,
+        3,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        10
+      ]
     },
     "sportsReferenceGameId": "2015-10-31-temple",
     "rankings": {
@@ -540,7 +644,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/07/2015",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -592,8 +699,18 @@
     },
     "espnGameId": 400756978,
     "linescore": {
-      "away": [7, 14, 7, 14],
-      "home": [3, 0, 14, 13]
+      "away": [
+        7,
+        14,
+        7,
+        14
+      ],
+      "home": [
+        3,
+        0,
+        14,
+        13
+      ]
     },
     "sportsReferenceGameId": "2015-11-07-pittsburgh",
     "rankings": {
@@ -606,7 +723,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/2015",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -658,8 +778,18 @@
     },
     "espnGameId": 400756985,
     "linescore": {
-      "away": [0, 0, 7, 0],
-      "home": [14, 7, 0, 7]
+      "away": [
+        0,
+        0,
+        7,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        0,
+        7
+      ]
     },
     "sportsReferenceGameId": "2015-11-14-notre-dame",
     "rankings": {
@@ -672,7 +802,11 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/21/2015",
-    "location": "Boston, MA(Fenway Park)",
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "stadium": "Fenway Park"
+    },
     "stats": {
       "away": {
         "firstDowns": 13,
@@ -725,8 +859,18 @@
     },
     "espnGameId": 400756986,
     "linescore": {
-      "away": [0, 0, 3, 13],
-      "home": [10, 0, 6, 3]
+      "away": [
+        0,
+        0,
+        3,
+        13
+      ],
+      "home": [
+        10,
+        0,
+        6,
+        3
+      ]
     },
     "sportsReferenceGameId": "2015-11-21-notre-dame",
     "rankings": {
@@ -739,7 +883,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/28/2015",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "stats": {
       "away": {
         "firstDowns": 24,
@@ -791,8 +938,18 @@
     },
     "espnGameId": 400757090,
     "linescore": {
-      "away": [7, 13, 9, 7],
-      "home": [14, 7, 7, 10]
+      "away": [
+        7,
+        13,
+        9,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        10
+      ]
     },
     "sportsReferenceGameId": "2015-11-28-stanford",
     "rankings": {
@@ -809,7 +966,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/2016",
-    "location": "Glendale, AZ",
+    "location": {
+      "city": "Glendale",
+      "state": "AZ"
+    },
     "stats": {
       "away": {
         "firstDowns": 24,
@@ -861,8 +1021,18 @@
     },
     "espnGameId": 400852736,
     "linescore": {
-      "away": [0, 14, 7, 7],
-      "home": [14, 14, 7, 9]
+      "away": [
+        0,
+        14,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        7,
+        9
+      ]
     },
     "sportsReferenceGameId": "2016-01-01-ohio-state",
     "rankings": {

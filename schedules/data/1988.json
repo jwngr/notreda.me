@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/10/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 17,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/17/1988",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 20,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 7,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 14,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/08/1988",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 30,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 30,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 13,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1988",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/05/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RICE",
     "score": {
       "away": 11,
@@ -549,7 +576,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1988",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 3,
@@ -609,7 +639,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/26/1988",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 27,
@@ -673,7 +706,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/02/1988",
-    "location": "Tempe, AZ",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ"
+    },
     "opponentId": "WVU",
     "score": {
       "away": 21,

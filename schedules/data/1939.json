@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1939",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/1939",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 14,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/1939",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 19,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/21/1939",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -228,7 +240,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/28/1939",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 7,
@@ -288,7 +303,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1939",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -348,7 +366,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/11/1939",
-    "location": "Iowa City, Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 6,
@@ -408,7 +429,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/18/1939",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -468,7 +492,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/25/1939",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,

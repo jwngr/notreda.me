@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1922",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KAL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/07/1922",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SLU",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/14/1922",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 20,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/21/1922",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 7,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/28/1922",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 13,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1922",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/11/1922",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/18/1922",
-    "location": "Indianapolis, IN",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN"
+    },
     "opponentId": "BUT",
     "score": {
       "away": 31,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/25/1922",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 19,
@@ -498,7 +525,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/1922",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 6,

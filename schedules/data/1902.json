@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/1902",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1902",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LAK",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/18/1902",
-    "location": "Toledo, OH",
+    "location": {
+      "city": "Toledo",
+      "state": "OH"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 23,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/25/1902",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 11,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/01/1902",
-    "location": "Columbus, OH",
+    "location": {
+      "city": "Columbus",
+      "state": "OH"
+    },
     "opponentId": "OH-M",
     "score": {
       "away": 6,
@@ -278,7 +293,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/08/1902",
-    "location": "Galesburg, IL",
+    "location": {
+      "city": "Galesburg",
+      "state": "IL"
+    },
     "opponentId": "KNOX",
     "score": {
       "away": 5,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/1902",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AM-M",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1902",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DEP",
     "score": {
       "away": 0,
@@ -443,7 +467,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/27/1902",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 6,

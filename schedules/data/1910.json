@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/08/1910",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OLIV",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/22/1910",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AKR",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/29/1910",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/12/1910",
-    "location": "Terre Haute, IN",
+    "location": {
+      "city": "Terre Haute",
+      "state": "IN"
+    },
     "opponentId": "ROSE",
     "score": {
       "away": 41,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1910",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ON",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/24/1910",
-    "location": "Milwaukee, WI",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI"
+    },
     "opponentId": "MARQ",
     "score": {
       "away": 5,

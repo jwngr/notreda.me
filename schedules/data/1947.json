@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/04/1947",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 40,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/11/1947",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 22,
@@ -118,7 +124,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1947",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 0,
@@ -178,7 +187,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1947",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 0,
@@ -238,7 +250,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1947",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -298,7 +313,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1947",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 7,
@@ -361,7 +379,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/15/1947",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 26,
@@ -421,7 +442,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1947",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TULN",
     "score": {
       "away": 6,
@@ -481,7 +505,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/06/1947",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 38,

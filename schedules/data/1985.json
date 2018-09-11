@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/14/1985",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 12,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 10,
@@ -118,7 +124,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/28/1985",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 17,
@@ -173,7 +182,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/05/1985",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 15,
@@ -233,7 +245,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 10,
@@ -293,7 +308,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 3,
@@ -348,7 +366,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 17,
@@ -403,7 +424,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MISS",
     "score": {
       "away": 14,
@@ -458,7 +482,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/16/1985",
-    "location": "University Park, PA",
+    "location": {
+      "city": "University Park",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 6,
@@ -518,7 +545,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/23/1985",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LSU",
     "score": {
       "away": 10,
@@ -578,7 +608,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/1985",
-    "location": "Coral Gables, FLA",
+    "location": {
+      "city": "Coral Gables",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 7,

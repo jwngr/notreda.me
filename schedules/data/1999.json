@@ -3,7 +3,11 @@
     "result": "W",
     "isHomeGame": true,
     "date": "08/28/1999",
-    "location": "South Bend, IN (Eddie Robinson Classic)",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
+    "nickname": "Eddie Robinson Classic",
     "opponentId": "KU",
     "score": {
       "away": 13,
@@ -63,7 +67,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/04/1999",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 22,
@@ -126,7 +133,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/11/1999",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 28,
@@ -189,7 +199,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/18/1999",
-    "location": "South Bend, IN",
+    "location": {
+      "city": "South Bend",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 23,
@@ -249,7 +262,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/02/1999",
-    "location": "South Bend, Ind",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "OKLA",
     "score": {
       "away": 30,
@@ -309,7 +325,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1999",
-    "location": "South Bend, IN",
+    "location": {
+      "city": "South Bend",
+      "state": "IN"
+    },
     "opponentId": "AZST",
     "score": {
       "away": 17,
@@ -364,7 +383,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/1999",
-    "location": "South Bend, IN",
+    "location": {
+      "city": "South Bend",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 24,
@@ -419,7 +441,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1999",
-    "location": "South Bend, IN",
+    "location": {
+      "city": "South Bend",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 24,
@@ -474,7 +499,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/06/1999",
-    "location": "Knoxville, TN",
+    "location": {
+      "city": "Knoxville",
+      "state": "TN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 14,
@@ -537,7 +565,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/13/1999",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 27,
@@ -592,7 +623,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/20/1999",
-    "location": "South Bend, IN",
+    "location": {
+      "city": "South Bend",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 31,
@@ -652,7 +686,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/27/1999",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 37,

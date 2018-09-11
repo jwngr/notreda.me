@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/01/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 33,
@@ -74,7 +77,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/08/2007",
-    "location": "State College, PA",
+    "location": {
+      "city": "State College",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 10,
@@ -150,7 +156,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/15/2007",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 0,
@@ -221,7 +230,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/22/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 31,
@@ -292,7 +304,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/29/2007",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 19,
@@ -363,7 +378,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/06/2007",
-    "location": "Pasadena, CA",
+    "location": {
+      "city": "Pasadena",
+      "state": "CA"
+    },
     "opponentId": "UCLA",
     "score": {
       "away": 20,
@@ -434,7 +452,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/13/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BC",
     "score": {
       "away": 27,
@@ -510,7 +531,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 38,
@@ -586,7 +610,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/03/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 46,
@@ -659,7 +686,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/10/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 41,
@@ -730,7 +760,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/2007",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DUKE",
     "score": {
       "away": 7,
@@ -801,7 +834,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/2007",
-    "location": "Palo Alto, CA",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 21,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1927",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "COE",
     "score": {
       "away": 7,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/08/1927",
-    "location": "Detroit, MI",
+    "location": {
+      "city": "Detroit",
+      "state": "MI"
+    },
     "opponentId": "DET",
     "score": {
       "away": 20,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1927",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 6,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/22/1927",
-    "location": "Bloomington, IN",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 19,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1927",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 7,
@@ -278,7 +293,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/05/1927",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MINN",
     "score": {
       "away": 7,
@@ -333,7 +351,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/12/1927",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 18,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/19/1927",
-    "location": "Des Moines, Iowa",
+    "location": {
+      "city": "Des Moines",
+      "state": "IA"
+    },
     "opponentId": "DRKE",
     "score": {
       "away": 32,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/26/1927",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "USC",
     "score": {
       "away": 6,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ENG",
     "score": {
       "away": 5,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/04/1899",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "CHI",
     "score": {
       "away": 6,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/14/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LAK",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/18/1899",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 0,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/23/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 0,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "RUSH",
     "score": {
       "away": 0,
@@ -443,7 +467,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "11/18/1899",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 10,
@@ -498,7 +525,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/30/1899",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "CHI-P&S",
     "score": {
       "away": 5,

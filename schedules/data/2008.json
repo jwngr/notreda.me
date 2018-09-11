@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/06/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SDSU",
     "score": {
       "away": 13,
@@ -74,7 +77,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/13/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 17,
@@ -145,7 +151,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/20/2008",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 7,
@@ -216,7 +225,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 21,
@@ -287,7 +299,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 21,
@@ -358,7 +373,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/11/2008",
-    "location": "Chapel Hill, NC",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 24,
@@ -434,7 +452,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/25/2008",
-    "location": "Seattle, WA",
+    "location": {
+      "city": "Seattle",
+      "state": "WA"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 33,
@@ -505,7 +526,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/01/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 36,
@@ -578,7 +602,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/08/2008",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 0,
@@ -649,7 +676,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/2008",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 21,
@@ -720,7 +750,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/22/2008",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SYR",
     "score": {
       "away": 24,
@@ -791,7 +824,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/29/2008",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 3,
@@ -868,7 +904,10 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "date": "12/24/2008",
-    "location": "Honolulu, HI",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI"
+    },
     "opponentId": "HAW",
     "score": {
       "away": 49,

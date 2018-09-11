@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/15/1975",
-    "location": "Foxborough, MA",
+    "location": {
+      "city": "Foxborough",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 3,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/20/1975",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 17,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/1975",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 7,
@@ -183,7 +192,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/04/1975",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 10,
@@ -243,7 +255,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/11/1975",
-    "location": "Chapel Hill, NC",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 21,
@@ -303,7 +318,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/18/1975",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 31,
@@ -363,7 +381,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/25/1975",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 24,
@@ -426,7 +447,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1975",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 10,
@@ -486,7 +510,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1975",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 3,
@@ -546,7 +573,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/15/1975",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 20,
@@ -606,7 +636,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/22/1975",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 32,

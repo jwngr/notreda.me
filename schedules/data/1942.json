@@ -3,7 +3,10 @@
     "result": "T",
     "isHomeGame": false,
     "date": "09/26/1942",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 7,
@@ -58,7 +61,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/03/1942",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 13,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/10/1942",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/17/1942",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IO-PF",
     "score": {
       "away": 0,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/24/1942",
-    "location": "Champaign, IL",
+    "location": {
+      "city": "Champaign",
+      "state": "IL"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 21,
@@ -286,7 +301,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1942",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -346,7 +364,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1942",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 0,
@@ -409,7 +430,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/14/1942",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 32,
@@ -472,7 +496,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/21/1942",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 20,
@@ -532,7 +559,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/28/1942",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 13,
@@ -595,7 +625,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "12/05/1942",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "GRTLK",
     "score": {
       "away": 13,

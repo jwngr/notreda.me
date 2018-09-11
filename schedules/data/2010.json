@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/04/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 12,
@@ -55,8 +58,18 @@
     },
     "espnGameId": 302470087,
     "linescore": {
-      "away": [0, 3, 0, 9],
-      "home": [7, 6, 7, 3]
+      "away": [
+        0,
+        3,
+        0,
+        9
+      ],
+      "home": [
+        7,
+        6,
+        7,
+        3
+      ]
     },
     "sportsReferenceGameId": "2010-09-04-notre-dame"
   },
@@ -64,7 +77,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/11/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 28,
@@ -116,8 +132,18 @@
     },
     "espnGameId": 302540087,
     "linescore": {
-      "away": [14, 7, 0, 7],
-      "home": [7, 0, 10, 7]
+      "away": [
+        14,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        10,
+        7
+      ]
     },
     "sportsReferenceGameId": "2010-09-11-notre-dame"
   },
@@ -125,7 +151,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/18/2010",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 31,
@@ -177,8 +206,20 @@
     },
     "espnGameId": 302610127,
     "linescore": {
-      "away": [7, 0, 14, 7, 3],
-      "home": [0, 7, 14, 7, 6]
+      "away": [
+        7,
+        0,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7,
+        6
+      ]
     },
     "sportsReferenceGameId": "2010-09-18-michigan-state"
   },
@@ -186,7 +227,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/25/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 37,
@@ -238,8 +282,18 @@
     },
     "espnGameId": 302680087,
     "linescore": {
-      "away": [10, 6, 3, 18],
-      "home": [3, 3, 0, 8]
+      "away": [
+        10,
+        6,
+        3,
+        18
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        8
+      ]
     },
     "sportsReferenceGameId": "2010-09-25-notre-dame",
     "rankings": {
@@ -252,7 +306,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/02/2010",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 31,
@@ -304,8 +361,18 @@
     },
     "espnGameId": 302750103,
     "linescore": {
-      "away": [21, 3, 7, 0],
-      "home": [7, 6, 0, 0]
+      "away": [
+        21,
+        3,
+        7,
+        0
+      ],
+      "home": [
+        7,
+        6,
+        0,
+        0
+      ]
     },
     "sportsReferenceGameId": "2010-10-02-boston-college"
   },
@@ -313,7 +380,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 17,
@@ -365,8 +435,18 @@
     },
     "espnGameId": 302820087,
     "linescore": {
-      "away": [3, 0, 7, 7],
-      "home": [7, 10, 3, 3]
+      "away": [
+        3,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        10,
+        3,
+        3
+      ]
     },
     "sportsReferenceGameId": "2010-10-09-notre-dame"
   },
@@ -374,7 +454,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WMU",
     "score": {
       "away": 20,
@@ -426,8 +509,18 @@
     },
     "espnGameId": 302890087,
     "linescore": {
-      "away": [7, 10, 0, 3],
-      "home": [7, 20, 14, 3]
+      "away": [
+        7,
+        10,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        20,
+        14,
+        3
+      ]
     },
     "sportsReferenceGameId": "2010-10-16-notre-dame"
   },
@@ -435,7 +528,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/23/2010",
-    "location": "East Rutherford, NJ",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 35,
@@ -487,8 +583,18 @@
     },
     "espnGameId": 302962426,
     "linescore": {
-      "away": [3, 7, 0, 7],
-      "home": [7, 14, 14, 0]
+      "away": [
+        3,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        14,
+        0
+      ]
     },
     "sportsReferenceGameId": "2010-10-23-navy"
   },
@@ -496,7 +602,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/30/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TULSA",
     "score": {
       "away": 28,
@@ -548,8 +657,18 @@
     },
     "espnGameId": 303030087,
     "linescore": {
-      "away": [12, 6, 7, 3],
-      "home": [13, 7, 7, 0]
+      "away": [
+        12,
+        6,
+        7,
+        3
+      ],
+      "home": [
+        13,
+        7,
+        7,
+        0
+      ]
     },
     "sportsReferenceGameId": "2010-10-30-notre-dame"
   },
@@ -557,7 +676,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/2010",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "UTAH",
     "score": {
       "away": 3,
@@ -609,8 +731,18 @@
     },
     "espnGameId": 303170087,
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [7, 7, 14, 0]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        14,
+        0
+      ]
     },
     "sportsReferenceGameId": "2010-11-13-notre-dame",
     "rankings": {
@@ -623,10 +755,13 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/20/2010",
-    "location": "Bronx, NY (Yankee Stadium)",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium"
+    },
     "opponentId": "ARMY",
     "isShamrockSeries": true,
-
     "score": {
       "away": 3,
       "home": 27
@@ -677,8 +812,18 @@
     },
     "espnGameId": 303240087,
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [0, 17, 10, 0]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        17,
+        10,
+        0
+      ]
     },
     "sportsReferenceGameId": "2010-11-20-army"
   },
@@ -686,7 +831,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/27/2010",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,
@@ -738,8 +886,18 @@
     },
     "espnGameId": 303310030,
     "linescore": {
-      "away": [0, 13, 0, 7],
-      "home": [3, 0, 10, 3]
+      "away": [
+        0,
+        13,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        10,
+        3
+      ]
     },
     "sportsReferenceGameId": "2010-11-27-southern-california"
   },
@@ -748,7 +906,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/31/2010",
-    "location": "El Paso, Texas",
+    "location": {
+      "city": "El Paso",
+      "state": "TX"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 17,
@@ -800,8 +961,18 @@
     },
     "espnGameId": 303652390,
     "linescore": {
-      "away": [14, 13, 3, 3],
-      "home": [0, 3, 0, 14]
+      "away": [
+        14,
+        13,
+        3,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        14
+      ]
     },
     "sportsReferenceGameId": "2010-12-31-miami-fl"
   }

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/1924",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "LOMB",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1924",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WAB",
     "score": {
       "away": 0,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1924",
-    "location": "Manhattan, NY",
+    "location": {
+      "city": "Manhattan",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 7,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/25/1924",
-    "location": "Princeton, NJ",
+    "location": {
+      "city": "Princeton",
+      "state": "NJ"
+    },
     "opponentId": "PRIN",
     "score": {
       "away": 12,
@@ -223,7 +235,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1924",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "GT",
     "score": {
       "away": 3,
@@ -278,7 +293,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/08/1924",
-    "location": "Madison, WI",
+    "location": {
+      "city": "Madison",
+      "state": "WI"
+    },
     "opponentId": "WIS",
     "score": {
       "away": 38,
@@ -333,7 +351,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/1924",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 6,
@@ -388,7 +409,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1924",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 6,
@@ -443,7 +467,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/29/1924",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "CAR",
     "score": {
       "away": 40,
@@ -499,7 +526,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1924",
-    "location": "Pasadena, CA",
+    "location": {
+      "city": "Pasadena",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 10,

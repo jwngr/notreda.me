@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1893",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "KAL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/11/1893",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ALB",
     "score": {
       "away": 6,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1893",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DLS",
     "score": {
       "away": 0,
@@ -168,7 +177,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/30/1893",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HILLS",
     "score": {
       "away": 10,
@@ -223,7 +235,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "01/01/1893",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "CHI",
     "score": {
       "away": 0,

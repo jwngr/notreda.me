@@ -2,13 +2,27 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Sep 01 2018 19:30:00 GMT-0400",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "MICH",
     "coverage": "NBC",
     "espnGameId": 401012888,
     "linescore": {
-      "away": [0, 10, 0, 7],
-      "home": [14, 7, 3, 0]
+      "away": [
+        0,
+        10,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        3,
+        0
+      ]
     },
     "score": {
       "home": 24,
@@ -72,13 +86,27 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Sep 08 2018 15:30:00 GMT-0400",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "BALL",
     "coverage": "NBC",
     "espnGameId": 401013377,
     "linescore": {
-      "away": [3, 3, 0, 10],
-      "home": [7, 7, 10, 0]
+      "away": [
+        3,
+        3,
+        0,
+        10
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        0
+      ]
     },
     "score": {
       "home": 24,
@@ -139,7 +167,11 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Sep 15 2018 14:30:00 GMT-0400",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "VANDY",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-09-15-notre-dame",
@@ -153,9 +185,13 @@
     "isHomeGame": false,
     "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
     "isTimeTbd": true,
-    "location": "Salem, NC",
+    "location": {
+      "city": "Salem",
+      "state": "NC",
+      "stadium": "BB&T Field"
+    },
     "opponentId": "WAKE",
-    "coverage": "TBD",
+    "coverage": "ABC",
     "sportsReferenceGameId": "2018-09-22-wake-forest",
     "rankings": {
       "away": {
@@ -166,7 +202,11 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Sep 29 2018 19:30:00 GMT-0400",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "STAN",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-09-29-notre-dame",
@@ -183,7 +223,11 @@
     "isHomeGame": false,
     "fullDate": "Sat Oct 06 2018 12:00:00 GMT-0400",
     "isTimeTbd": true,
-    "location": "Blacksburg, VA",
+    "location": {
+      "city": "Blacksburg",
+      "state": "VA",
+      "stadium": "Lane Stadium"
+    },
     "opponentId": "VT",
     "coverage": "TBD",
     "sportsReferenceGameId": "2018-10-06-virginia-tech",
@@ -199,7 +243,11 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Oct 13 2018 14:30:00 GMT-0400",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "PITT",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-10-13-notre-dame",
@@ -212,7 +260,11 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
-    "location": "San Diego, CA",
+    "location": {
+      "city": "San Diego",
+      "state": "CA",
+      "stadium": "Qualcomm Stadium"
+    },
     "opponentId": "NAVY",
     "coverage": "CBS",
     "sportsReferenceGameId": "2018-10-27-notre-dame",
@@ -227,7 +279,11 @@
     "date": "11/03/2018",
     "fullDate": "Sat Nov 03 2018 12:00:00 GMT-0400",
     "isTimeTbd": true,
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL",
+      "stadium": "Ryan Field"
+    },
     "opponentId": "NW",
     "coverage": "TBD",
     "sportsReferenceGameId": "2018-11-03-northwestern",
@@ -240,7 +296,11 @@
   {
     "isHomeGame": true,
     "fullDate": "Sat Nov 10 2018 19:30:00 GMT-0500",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
     "opponentId": "FSU",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-11-10-notre-dame",
@@ -255,7 +315,11 @@
     "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
     "time": "2:30 PM",
     "timezone": "ET",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "New Yankee Stadium"
+    },
     "opponentId": "SYR",
     "coverage": "NBC",
     "isShamrockSeries": true,
@@ -270,7 +334,11 @@
     "isHomeGame": false,
     "fullDate": "Sat Nov 24 2018 12:00:00 GMT-0500",
     "isTimeTbd": true,
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angelese",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
+    },
     "opponentId": "USC",
     "coverage": "TBD",
     "sportsReferenceGameId": "2018-11-24-southern-california",

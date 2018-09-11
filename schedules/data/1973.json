@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/22/1973",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NW",
     "score": {
       "away": 0,
@@ -63,7 +66,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/29/1973",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 20,
@@ -123,7 +129,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1973",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 10,
@@ -183,7 +192,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/13/1973",
-    "location": "Houston, Texas",
+    "location": {
+      "city": "Houston",
+      "state": "TX"
+    },
     "opponentId": "RICE",
     "score": {
       "away": 28,
@@ -243,7 +255,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/20/1973",
-    "location": "West Point, NY",
+    "location": {
+      "city": "West Point",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 62,
@@ -303,7 +318,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1973",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 14,
@@ -366,7 +384,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1973",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 7,
@@ -426,7 +447,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/10/1973",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 31,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1973",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "AF",
     "score": {
       "away": 15,
@@ -549,7 +576,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/01/1973",
-    "location": "Miami, FLA",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 44,
@@ -610,7 +640,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/31/1973",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 23,

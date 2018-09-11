@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/11/1976",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 31,
@@ -66,7 +69,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/18/1976",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 0,
@@ -121,7 +127,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/25/1976",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 48,
@@ -176,7 +185,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/02/1976",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 24,
@@ -236,7 +248,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/1976",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ORE",
     "score": {
       "away": 0,
@@ -296,7 +311,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/23/1976",
-    "location": "Columbia, SC",
+    "location": {
+      "city": "Columbia",
+      "state": "SC"
+    },
     "opponentId": "SCAR",
     "score": {
       "away": 13,
@@ -359,7 +377,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1976",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 21,
@@ -419,7 +440,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/06/1976",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 14,
@@ -479,7 +503,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1976",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "BAMA",
     "score": {
       "away": 18,
@@ -542,7 +569,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/20/1976",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MIAMI",
     "score": {
       "away": 27,
@@ -602,7 +632,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/27/1976",
-    "location": "Los Angeles, CA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
     "opponentId": "USC",
     "score": {
       "away": 13,
@@ -666,7 +699,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/27/1976",
-    "location": "Jacksonville, FLA",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 9,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1945",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "ILL",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/06/1945",
-    "location": "Atlanta, GA",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
     "opponentId": "GT",
     "score": {
       "away": 40,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/1945",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "DART",
     "score": {
       "away": 0,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/20/1945",
-    "location": "Pittsburgh, PA",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 39,
@@ -233,7 +245,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1945",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 0,
@@ -293,7 +308,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/03/1945",
-    "location": "Cleveland, OH",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 6,
@@ -356,7 +374,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/10/1945",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "ARMY",
     "score": {
       "away": 48,
@@ -419,7 +440,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/17/1945",
-    "location": "Evanston, IL",
+    "location": {
+      "city": "Evanston",
+      "state": "IL"
+    },
     "opponentId": "NW",
     "score": {
       "away": 34,
@@ -479,7 +503,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1945",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "TULN",
     "score": {
       "away": 32,
@@ -539,7 +566,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "12/01/1945",
-    "location": "Chicago, IL",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
     "opponentId": "GRTLK",
     "score": {
       "away": 7,

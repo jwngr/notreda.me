@@ -3,7 +3,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/08/2001",
-    "location": "Lincoln, NE",
+    "location": {
+      "city": "Lincoln",
+      "state": "NE"
+    },
     "opponentId": "NEB",
     "score": {
       "away": 10,
@@ -67,7 +70,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/22/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 17,
@@ -128,7 +134,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/29/2001",
-    "location": "College Station, Texas",
+    "location": {
+      "city": "College Station",
+      "state": "TX"
+    },
     "opponentId": "TA&M",
     "score": {
       "away": 3,
@@ -184,7 +193,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 7,
@@ -240,7 +252,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "WVU",
     "score": {
       "away": 24,
@@ -296,7 +311,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 16,
@@ -352,7 +370,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "10/27/2001",
-    "location": "Chestnut Hill, MA",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA"
+    },
     "opponentId": "BC",
     "score": {
       "away": 17,
@@ -408,7 +429,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/03/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 28,
@@ -469,7 +493,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/2001",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 16,
@@ -525,7 +552,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/24/2001",
-    "location": "Palo Alto, CA",
+    "location": {
+      "city": "Palo Alto",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 13,
@@ -586,7 +616,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/01/2001",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 24,

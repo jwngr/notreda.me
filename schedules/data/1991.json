@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/07/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 27,
@@ -63,7 +66,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/14/1991",
-    "location": "Ann Arbor, MI",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI"
+    },
     "opponentId": "MICH",
     "score": {
       "away": 14,
@@ -126,7 +132,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 10,
@@ -186,7 +195,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "09/28/1991",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 45,
@@ -246,7 +258,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1991",
-    "location": "Stanford, CA",
+    "location": {
+      "city": "Stanford",
+      "state": "CA"
+    },
     "opponentId": "STAN",
     "score": {
       "away": 42,
@@ -306,7 +321,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "PITT",
     "score": {
       "away": 7,
@@ -369,7 +387,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/19/1991",
-    "location": "Colorado Springs, CO",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
     "opponentId": "AF",
     "score": {
       "away": 28,
@@ -429,7 +450,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 20,
@@ -489,7 +513,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -549,7 +576,10 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/09/1991",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TENN",
     "score": {
       "away": 35,
@@ -612,7 +642,10 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/16/1991",
-    "location": "University Park, PA",
+    "location": {
+      "city": "University Park",
+      "state": "PA"
+    },
     "opponentId": "PSU",
     "score": {
       "away": 13,
@@ -675,7 +708,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/30/1991",
-    "location": "Honolulu, HI",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI"
+    },
     "opponentId": "HAW",
     "score": {
       "away": 48,
@@ -736,7 +772,10 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1991",
-    "location": "New Orleans, LA",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA"
+    },
     "opponentId": "FLA",
     "score": {
       "away": 28,

@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1949",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IND",
     "score": {
       "away": 6,
@@ -58,7 +61,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/01/1949",
-    "location": "Seattle, WA",
+    "location": {
+      "city": "Seattle",
+      "state": "WA"
+    },
     "opponentId": "WASH",
     "score": {
       "away": 27,
@@ -113,7 +119,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "10/08/1949",
-    "location": "West Lafayette, IN",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN"
+    },
     "opponentId": "PUR",
     "score": {
       "away": 35,
@@ -173,7 +182,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1949",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "TULN",
     "score": {
       "away": 7,
@@ -236,7 +248,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1949",
-    "location": "Baltimore, MD",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD"
+    },
     "opponentId": "NAVY",
     "score": {
       "away": 0,
@@ -296,7 +311,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/05/1949",
-    "location": "East Lansing, MI",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI"
+    },
     "opponentId": "MSU",
     "score": {
       "away": 34,
@@ -359,7 +377,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/12/1949",
-    "location": "Bronx, NY",
+    "location": {
+      "city": "Bronx",
+      "state": "NY"
+    },
     "opponentId": "UNC",
     "score": {
       "away": 6,
@@ -419,7 +440,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1949",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "IOWA",
     "score": {
       "away": 7,
@@ -479,7 +503,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/26/1949",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "USC",
     "score": {
       "away": 0,
@@ -542,7 +569,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "12/03/1949",
-    "location": "Dallas, Texas",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
     "opponentId": "SMU",
     "score": {
       "away": 27,

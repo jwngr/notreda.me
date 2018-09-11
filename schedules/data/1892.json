@@ -3,7 +3,10 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1892",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "SB-HS",
     "score": {
       "away": 0,
@@ -58,7 +61,10 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/24/1892",
-    "location": "Notre Dame, IN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN"
+    },
     "opponentId": "HILLS",
     "score": {
       "away": 10,
