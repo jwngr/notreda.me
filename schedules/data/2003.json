@@ -75,7 +75,9 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -154,7 +156,9 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -225,7 +229,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2003-09-20-notre-dame"
+    "sportsReferenceGameId": "2003-09-20-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -233,7 +239,8 @@
     "date": "09/27/2003",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -300,7 +307,9 @@
       "home": {
         "ap": 22
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -308,7 +317,8 @@
     "date": "10/11/2003",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Heinz Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -375,7 +385,9 @@
       "home": {
         "ap": 15
       }
-    }
+    },
+    "time": "6:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -451,7 +463,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -459,7 +473,8 @@
     "date": "10/25/2003",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -521,7 +536,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2003-10-25-boston-college"
+    "sportsReferenceGameId": "2003-10-25-boston-college",
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -597,7 +614,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM.",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -668,7 +687,9 @@
         6
       ]
     },
-    "sportsReferenceGameId": "2003-11-08-notre-dame"
+    "sportsReferenceGameId": "2003-11-08-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -739,15 +760,18 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2003-11-15-notre-dame"
+    "sportsReferenceGameId": "2003-11-15-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/29/2003",
     "location": {
-      "city": "Palo Alto",
-      "state": "CA"
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -809,7 +833,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2003-11-29-stanford"
+    "sportsReferenceGameId": "2003-11-29-stanford",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -817,7 +843,8 @@
     "date": "12/06/2003",
     "location": {
       "city": "Syracuse",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Carrier Dome"
     },
     "opponentId": "SYR",
     "score": {
@@ -879,6 +906,8 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2003-12-06-syracuse"
+    "sportsReferenceGameId": "2003-12-06-syracuse",
+    "time": "1:00 PM",
+    "coverage": "ABC"
   }
 ]

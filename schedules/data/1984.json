@@ -5,7 +5,8 @@
     "date": "09/08/1984",
     "location": {
       "city": "Indianapolis",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Hoosier Dome"
     },
     "opponentId": "PUR",
     "score": {
@@ -60,7 +61,8 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -119,7 +121,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -178,7 +181,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -186,7 +190,8 @@
     "date": "09/29/1984",
     "location": {
       "city": "Columbia",
-      "state": "MO"
+      "state": "MO",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MIZ",
     "score": {
@@ -241,7 +246,9 @@
       "away": {
         "ap": 19
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -308,7 +315,9 @@
       "away": {
         "ap": 14
       }
-    }
+    },
+    "time": "7:45 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -367,7 +376,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -431,7 +442,9 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -439,7 +452,8 @@
     "date": "10/27/1984",
     "location": {
       "city": "Baton Rouge",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tiger Stadium"
     },
     "opponentId": "LSU",
     "score": {
@@ -494,7 +508,9 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -502,7 +518,8 @@
     "date": "11/03/1984",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -552,7 +569,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:10 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -611,7 +630,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -619,7 +640,8 @@
     "date": "11/24/1984",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -674,7 +696,9 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "3:40 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -683,7 +707,8 @@
     "date": "12/29/1984",
     "location": {
       "city": "Honolulu",
-      "state": "HI"
+      "state": "HI",
+      "stadium": "Aloha Stadium"
     },
     "opponentId": "SMU",
     "score": {
@@ -741,6 +766,8 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   }
 ]

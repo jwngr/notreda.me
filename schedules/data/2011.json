@@ -77,7 +77,9 @@
       "home": {
         "ap": 16
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -152,7 +154,9 @@
         28
       ]
     },
-    "sportsReferenceGameId": "2011-09-10-michigan"
+    "sportsReferenceGameId": "2011-09-10-michigan",
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -232,7 +236,9 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -240,7 +246,8 @@
     "date": "09/24/2011",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Heinz Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -306,7 +313,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2011-09-24-pittsburgh"
+    "sportsReferenceGameId": "2011-09-24-pittsburgh",
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -314,7 +323,8 @@
     "date": "10/01/2011",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -380,7 +390,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2011-10-01-purdue"
+    "sportsReferenceGameId": "2011-10-01-purdue",
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -455,7 +467,9 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2011-10-08-notre-dame"
+    "sportsReferenceGameId": "2011-10-08-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -530,7 +544,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2011-10-22-notre-dame"
+    "sportsReferenceGameId": "2011-10-22-notre-dame",
+    "time": "7:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -605,7 +621,9 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2011-10-29-notre-dame"
+    "sportsReferenceGameId": "2011-10-29-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -613,7 +631,8 @@
     "date": "11/05/2011",
     "location": {
       "city": "Winston-Salem",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "BB&T Field"
     },
     "opponentId": "WAKE",
     "score": {
@@ -679,7 +698,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2011-11-05-wake-forest"
+    "sportsReferenceGameId": "2011-11-05-wake-forest",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -687,7 +708,8 @@
     "date": "11/12/2011",
     "location": {
       "city": "Landover",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "FedEx Field"
     },
     "opponentId": "MD",
     "isShamrockSeries": true,
@@ -754,7 +776,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2011-11-12-maryland"
+    "sportsReferenceGameId": "2011-11-12-maryland",
+    "time": "7:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -834,7 +858,9 @@
       "home": {
         "ap": 24
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -842,7 +868,8 @@
     "date": "11/26/2011",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -916,7 +943,9 @@
       "away": {
         "ap": 22
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -925,7 +954,8 @@
     "date": "12/29/2011",
     "location": {
       "city": "Orlando",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Citrus Bowl"
     },
     "opponentId": "FSU",
     "score": {
@@ -996,6 +1026,8 @@
       "away": {
         "ap": 25
       }
-    }
+    },
+    "time": "5:30 PM",
+    "coverage": "ESPN/ESPN 3D"
   }
 ]

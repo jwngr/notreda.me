@@ -62,7 +62,9 @@
       "home": {
         "ap": 18
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -129,7 +131,9 @@
       "away": {
         "ap": 16
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -137,7 +141,8 @@
     "date": "09/11/1999",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -195,7 +200,9 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -203,7 +210,8 @@
     "date": "09/18/1999",
     "location": {
       "city": "South Bend",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -258,7 +266,9 @@
       "home": {
         "ap": 24
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -322,7 +332,9 @@
       "away": {
         "ap": 23
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -330,7 +342,8 @@
     "date": "10/09/1999",
     "location": {
       "city": "South Bend",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "AZST",
     "score": {
@@ -380,7 +393,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -388,7 +403,8 @@
     "date": "10/16/1999",
     "location": {
       "city": "South Bend",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC",
     "score": {
@@ -438,7 +454,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -446,7 +464,8 @@
     "date": "10/30/1999",
     "location": {
       "city": "South Bend",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -496,7 +515,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -504,7 +525,8 @@
     "date": "11/06/1999",
     "location": {
       "city": "Knoxville",
-      "state": "TN"
+      "state": "TN",
+      "stadium": "Neyland Stadium"
     },
     "opponentId": "TENN",
     "score": {
@@ -562,7 +584,9 @@
       "away": {
         "ap": 24
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -570,7 +594,8 @@
     "date": "11/13/1999",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -620,7 +645,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -628,7 +655,8 @@
     "date": "11/20/1999",
     "location": {
       "city": "South Bend",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -683,7 +711,9 @@
       "away": {
         "ap": 25
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -691,7 +721,8 @@
     "date": "11/27/1999",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -741,6 +772,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   }
 ]

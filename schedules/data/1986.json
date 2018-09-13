@@ -61,7 +61,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -125,7 +127,9 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -184,7 +188,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -192,7 +198,8 @@
     "date": "10/04/1986",
     "location": {
       "city": "Birmingham",
-      "state": "AL"
+      "state": "AL",
+      "stadium": "Legion Field"
     },
     "opponentId": "BAMA",
     "score": {
@@ -247,7 +254,9 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -306,7 +315,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:30 PM",
+    "coverage": "USA, WGN"
   },
   {
     "result": "W",
@@ -365,7 +376,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:30 PM",
+    "coverage": "USA, WGN"
   },
   {
     "result": "W",
@@ -373,7 +386,8 @@
     "date": "11/01/1986",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -423,7 +437,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "7:00 PM",
+    "coverage": "TBS"
   },
   {
     "result": "W",
@@ -482,7 +498,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "L",
@@ -546,7 +563,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -554,7 +573,8 @@
     "date": "11/22/1986",
     "location": {
       "city": "Baton Rouge",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tiger Stadium"
     },
     "opponentId": "LSU",
     "score": {
@@ -609,7 +629,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -617,7 +639,8 @@
     "date": "11/29/1986",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -672,6 +695,8 @@
       "home": {
         "ap": 17
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   }
 ]

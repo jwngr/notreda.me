@@ -64,7 +64,9 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -128,7 +130,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -192,7 +195,8 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -259,7 +263,8 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -323,7 +328,8 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "T",
@@ -331,7 +337,8 @@
     "date": "10/23/1982",
     "location": {
       "city": "Eugene",
-      "state": "OR"
+      "state": "OR",
+      "stadium": "Autzen Stadium"
     },
     "opponentId": "ORE",
     "score": {
@@ -386,7 +393,8 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "4:00 PM"
   },
   {
     "result": "W",
@@ -394,7 +402,8 @@
     "date": "10/30/1982",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -444,7 +453,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -452,7 +462,8 @@
     "date": "11/06/1982",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -507,7 +518,8 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -574,7 +586,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -582,7 +596,8 @@
     "date": "11/20/1982",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -637,7 +652,8 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "3:00 PM"
   },
   {
     "result": "L",
@@ -645,7 +661,8 @@
     "date": "11/27/1982",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -700,6 +717,8 @@
       "home": {
         "ap": 17
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "CBS"
   }
 ]

@@ -64,7 +64,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "4:20 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -123,7 +125,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -131,7 +134,8 @@
     "date": "09/25/1976",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -181,7 +185,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -245,7 +250,8 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -309,7 +315,8 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -317,7 +324,8 @@
     "date": "10/23/1976",
     "location": {
       "city": "Columbia",
-      "state": "SC"
+      "state": "SC",
+      "stadium": "Williams-Brice Stadium"
     },
     "opponentId": "SCAR",
     "score": {
@@ -375,7 +383,8 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:10 PM"
   },
   {
     "result": "W",
@@ -383,7 +392,8 @@
     "date": "10/30/1976",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Cleveland Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -438,7 +448,8 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "L",
@@ -446,7 +457,8 @@
     "date": "11/06/1976",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -501,7 +513,8 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -568,7 +581,9 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -632,7 +647,8 @@
       "home": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -640,7 +656,8 @@
     "date": "11/27/1976",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -698,7 +715,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -707,7 +726,8 @@
     "date": "12/27/1976",
     "location": {
       "city": "Jacksonville",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Gator Bowl"
     },
     "opponentId": "PSU",
     "score": {
@@ -765,6 +785,8 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "ABC"
   }
 ]

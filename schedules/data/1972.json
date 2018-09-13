@@ -5,7 +5,8 @@
     "date": "09/23/1972",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -60,7 +61,8 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -124,7 +126,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -188,7 +191,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -252,7 +257,8 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -316,7 +322,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -380,7 +387,8 @@
       "home": {
         "ap": 13
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -388,7 +396,8 @@
     "date": "11/04/1972",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Veterans Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -443,7 +452,8 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -451,7 +461,8 @@
     "date": "11/11/1972",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -506,7 +517,8 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "3:05 PM"
   },
   {
     "result": "W",
@@ -570,7 +582,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -578,7 +591,8 @@
     "date": "12/02/1972",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -636,7 +650,9 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -645,7 +661,8 @@
     "date": "01/01/1972",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Orange Bowl"
     },
     "opponentId": "NEB",
     "score": {
@@ -703,6 +720,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "NBC"
   }
 ]

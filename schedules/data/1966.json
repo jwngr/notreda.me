@@ -72,7 +72,8 @@
     "date": "10/01/1966",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -263,7 +264,8 @@
     "date": "10/22/1966",
     "location": {
       "city": "Norman",
-      "state": "OK"
+      "state": "OK",
+      "stadium": "Oklahoma Memorial Stadium"
     },
     "opponentId": "OKLA",
     "score": {
@@ -329,7 +331,8 @@
     "date": "10/29/1966",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "JFK Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -587,7 +590,8 @@
     "date": "11/26/1966",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

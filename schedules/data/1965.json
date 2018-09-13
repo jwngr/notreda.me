@@ -5,7 +5,8 @@
     "date": "09/18/1965",
     "location": {
       "city": "Berkeley",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "California Memorial Stadium"
     },
     "opponentId": "CAL",
     "score": {
@@ -60,7 +61,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "4:30pm",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -68,7 +71,8 @@
     "date": "09/25/1965",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -126,7 +130,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30pm"
   },
   {
     "result": "W",
@@ -190,7 +195,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30pm"
   },
   {
     "result": "W",
@@ -198,7 +204,8 @@
     "date": "10/09/1965",
     "location": {
       "city": "Flushing",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Shea Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -253,7 +260,8 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "8:00pm"
   },
   {
     "result": "W",
@@ -320,7 +328,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30pm",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -384,7 +394,8 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30pm"
   },
   {
     "result": "W",
@@ -392,7 +403,8 @@
     "date": "11/06/1965",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -447,7 +459,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "1:30pm"
   },
   {
     "result": "W",
@@ -511,7 +524,8 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "1:30pm"
   },
   {
     "result": "L",
@@ -578,7 +592,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "1:30pm"
   },
   {
     "result": "T",
@@ -586,7 +601,8 @@
     "date": "11/27/1965",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -641,6 +657,7 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "8:00pm"
   }
 ]

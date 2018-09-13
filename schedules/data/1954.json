@@ -139,7 +139,8 @@
     "date": "10/09/1954",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -266,7 +267,8 @@
     "date": "10/30/1954",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -332,7 +334,8 @@
     "date": "11/06/1954",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Franklin Field"
     },
     "opponentId": "PENN",
     "score": {
@@ -459,7 +462,8 @@
     "date": "11/20/1954",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -592,7 +596,8 @@
     "date": "12/04/1954",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "SMU",
     "score": {

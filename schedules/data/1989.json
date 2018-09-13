@@ -5,7 +5,8 @@
     "date": "08/31/1989",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "UVA",
     "score": {
@@ -60,7 +61,9 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "RAYCOM AND WGN"
   },
   {
     "result": "W",
@@ -127,7 +130,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -191,7 +196,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -199,7 +206,8 @@
     "date": "09/30/1989",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -254,7 +262,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -262,7 +272,8 @@
     "date": "10/07/1989",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -317,7 +328,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "NONE"
   },
   {
     "result": "W",
@@ -325,7 +338,8 @@
     "date": "10/14/1989",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -383,7 +397,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "7:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -450,7 +466,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -517,7 +535,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "5:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -581,7 +601,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "SPORTSCHANNEL"
   },
   {
     "result": "W",
@@ -645,7 +667,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "SPORTSCHANNEL"
   },
   {
     "result": "W",
@@ -653,7 +677,8 @@
     "date": "11/18/1989",
     "location": {
       "city": "University Park",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -711,15 +736,18 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/25/1989",
     "location": {
-      "city": "Coral Gables",
-      "state": "FL"
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -777,7 +805,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "6:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -786,7 +816,8 @@
     "date": "01/01/1990",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "COL",
     "score": {
@@ -844,6 +875,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "NBC"
   }
 ]

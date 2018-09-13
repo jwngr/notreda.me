@@ -68,8 +68,9 @@
     "isHomeGame": false,
     "date": "10/04/1958",
     "location": {
-      "city": "Dallas",
-      "state": "TX"
+      "city": "Dallas (Fair Park)",
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "SMU",
     "score": {
@@ -332,8 +333,9 @@
     "isHomeGame": true,
     "date": "11/01/1958",
     "location": {
-      "city": "Philadelphia",
-      "state": "PA"
+      "city": "Baltimore",
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -396,7 +398,8 @@
     "date": "11/08/1958",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -523,7 +526,8 @@
     "date": "11/22/1958",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -589,7 +593,8 @@
     "date": "11/29/1958",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

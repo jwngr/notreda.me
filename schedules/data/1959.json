@@ -64,7 +64,8 @@
     "date": "10/03/1959",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -127,7 +128,8 @@
     "date": "10/10/1959",
     "location": {
       "city": "Berkeley",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "California Memorial Stadium"
     },
     "opponentId": "CAL",
     "score": {
@@ -431,7 +433,8 @@
     "date": "11/14/1959",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -489,7 +492,8 @@
     "date": "11/21/1959",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {

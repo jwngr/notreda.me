@@ -5,7 +5,8 @@
     "date": "09/04/2004",
     "location": {
       "city": "Provo",
-      "state": "UT"
+      "state": "UT",
+      "stadium": "LaVell Edwards Stadium"
     },
     "opponentId": "BYU",
     "score": {
@@ -71,7 +72,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2004-09-04-brigham-young"
+    "sportsReferenceGameId": "2004-09-04-brigham-young",
+    "time": "9:15 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -151,7 +154,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -226,7 +231,9 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2004-09-18-michigan-state"
+    "sportsReferenceGameId": "2004-09-18-michigan-state",
+    "time": "7:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -301,7 +308,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2004-09-25-notre-dame"
+    "sportsReferenceGameId": "2004-09-25-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -381,7 +390,9 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -456,7 +467,9 @@
         13
       ]
     },
-    "sportsReferenceGameId": "2004-10-09-notre-dame"
+    "sportsReferenceGameId": "2004-10-09-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -464,7 +477,8 @@
     "date": "10/16/2004",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -530,7 +544,9 @@
         6
       ]
     },
-    "sportsReferenceGameId": "2004-10-16-navy"
+    "sportsReferenceGameId": "2004-10-16-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -610,7 +626,9 @@
       "home": {
         "ap": 24
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -618,7 +636,8 @@
     "date": "11/06/2004",
     "location": {
       "city": "Knoxville",
-      "state": "TN"
+      "state": "TN",
+      "stadium": "Neyland Stadium"
     },
     "opponentId": "TENN",
     "score": {
@@ -689,7 +708,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -769,7 +790,9 @@
       "home": {
         "ap": 24
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -777,7 +800,8 @@
     "date": "11/27/2004",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -848,7 +872,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -857,7 +883,8 @@
     "date": "12/28/2004",
     "location": {
       "city": "Phoenix",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Bank One Ballpark"
     },
     "opponentId": "ORST",
     "score": {
@@ -923,6 +950,8 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2004-12-28-notre-dame"
+    "sportsReferenceGameId": "2004-12-28-notre-dame",
+    "time": "9:45 PM",
+    "coverage": "ESPN"
   }
 ]

@@ -5,7 +5,8 @@
     "date": "09/27/1952",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Franklin Field"
     },
     "opponentId": "PENN",
     "score": {
@@ -71,7 +72,8 @@
     "date": "10/04/1952",
     "location": {
       "city": "Austin",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Texas Memorial Stadium"
     },
     "opponentId": "TEX",
     "score": {
@@ -201,7 +203,8 @@
     "date": "10/18/1952",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -328,7 +331,8 @@
     "date": "11/01/1952",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -459,7 +463,7 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Macklin Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -525,7 +529,8 @@
     "date": "11/22/1952",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {

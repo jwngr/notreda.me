@@ -72,7 +72,9 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2008-09-06-notre-dame"
+    "sportsReferenceGameId": "2008-09-06-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -147,7 +149,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2008-09-13-notre-dame"
+    "sportsReferenceGameId": "2008-09-13-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -222,7 +226,9 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2008-09-20-michigan-state"
+    "sportsReferenceGameId": "2008-09-20-michigan-state",
+    "time": "3:30 PM",
+    "coverage": "ABC/ESPN"
   },
   {
     "result": "W",
@@ -297,7 +303,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2008-09-27-notre-dame"
+    "sportsReferenceGameId": "2008-09-27-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -372,7 +380,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2008-10-04-notre-dame"
+    "sportsReferenceGameId": "2008-10-04-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -380,7 +390,8 @@
     "date": "10/11/2008",
     "location": {
       "city": "Chapel Hill",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -451,7 +462,9 @@
       "home": {
         "ap": 22
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC/ESPN2"
   },
   {
     "result": "W",
@@ -459,7 +472,8 @@
     "date": "10/25/2008",
     "location": {
       "city": "Seattle",
-      "state": "WA"
+      "state": "WA",
+      "stadium": "Husky Stadium"
     },
     "opponentId": "WASH",
     "score": {
@@ -525,7 +539,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2008-10-25-washington"
+    "sportsReferenceGameId": "2008-10-25-washington",
+    "time": "8:00 PM",
+    "coverage": "ESPN2"
   },
   {
     "result": "L",
@@ -602,7 +618,9 @@
         9
       ]
     },
-    "sportsReferenceGameId": "2008-11-01-notre-dame"
+    "sportsReferenceGameId": "2008-11-01-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -610,7 +628,8 @@
     "date": "11/08/2008",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -676,7 +695,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2008-11-08-boston-college"
+    "sportsReferenceGameId": "2008-11-08-boston-college",
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -684,7 +705,8 @@
     "date": "11/15/2008",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "M&T Bank Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -750,7 +772,9 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2008-11-15-navy"
+    "sportsReferenceGameId": "2008-11-15-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -825,7 +849,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2008-11-22-notre-dame"
+    "sportsReferenceGameId": "2008-11-22-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -833,7 +859,8 @@
     "date": "11/29/2008",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -904,7 +931,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -913,7 +942,8 @@
     "date": "12/24/2008",
     "location": {
       "city": "Honolulu",
-      "state": "HI"
+      "state": "HI",
+      "stadium": "Aloha Stadium"
     },
     "opponentId": "HAW",
     "score": {
@@ -979,6 +1009,8 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2008-12-24-hawaii"
+    "sportsReferenceGameId": "2008-12-24-hawaii",
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   }
 ]

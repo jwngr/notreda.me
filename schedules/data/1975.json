@@ -4,8 +4,9 @@
     "isHomeGame": true,
     "date": "09/15/1975",
     "location": {
-      "city": "Foxborough",
-      "state": "MA"
+      "city": "Foxboro",
+      "state": "MA",
+      "stadium": "Schaefer Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -60,7 +61,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -68,7 +71,8 @@
     "date": "09/20/1975",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -123,7 +127,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -187,7 +192,8 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -251,7 +257,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -259,7 +266,8 @@
     "date": "10/11/1975",
     "location": {
       "city": "Chapel Hill",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -314,7 +322,8 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -322,7 +331,8 @@
     "date": "10/18/1975",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -377,7 +387,8 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "3:05 PM"
   },
   {
     "result": "L",
@@ -444,7 +455,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -508,7 +521,8 @@
       "home": {
         "ap": 15
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -572,7 +586,8 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -580,7 +595,8 @@
     "date": "11/15/1975",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -635,7 +651,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -643,7 +660,8 @@
     "date": "11/22/1975",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -693,6 +711,7 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "7:30 PM"
   }
 ]

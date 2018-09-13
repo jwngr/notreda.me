@@ -64,7 +64,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -128,7 +130,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -192,7 +196,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -256,7 +261,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "7:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -264,7 +271,8 @@
     "date": "10/08/1988",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -319,7 +327,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -386,7 +396,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -450,7 +462,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -458,7 +471,8 @@
     "date": "10/29/1988",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -513,7 +527,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -577,7 +592,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "WGN-TV"
   },
   {
     "result": "W",
@@ -641,7 +658,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -649,7 +668,8 @@
     "date": "11/26/1988",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -707,7 +727,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -716,7 +738,8 @@
     "date": "01/02/1988",
     "location": {
       "city": "Tempe",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
     },
     "opponentId": "WVU",
     "score": {
@@ -774,6 +797,8 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "4:30 PM",
+    "coverage": "NBC"
   }
 ]

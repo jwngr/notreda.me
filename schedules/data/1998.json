@@ -64,7 +64,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -128,7 +130,9 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -192,7 +196,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -256,7 +262,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -264,7 +272,8 @@
     "date": "10/10/1998",
     "location": {
       "city": "Tempe",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
     },
     "opponentId": "AZST",
     "score": {
@@ -319,7 +328,9 @@
       "away": {
         "ap": 22
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -383,7 +394,9 @@
       "home": {
         "ap": 18
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -447,7 +460,9 @@
       "home": {
         "ap": 16
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -455,7 +470,8 @@
     "date": "11/07/1998",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -510,15 +526,18 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/1998",
     "location": {
-      "city": "Raljon",
-      "state": "MD"
+      "city": "Landover",
+      "state": "MD",
+      "stadium": "Jack Kent Cooke Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -573,7 +592,9 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -637,7 +658,9 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -645,7 +668,8 @@
     "date": "11/28/1998",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -700,7 +724,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -709,7 +735,8 @@
     "date": "01/01/1998",
     "location": {
       "city": "Jacksonville",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Alltel Stadium"
     },
     "opponentId": "GT",
     "score": {
@@ -767,6 +794,8 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "NBC"
   }
 ]

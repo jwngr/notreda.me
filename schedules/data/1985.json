@@ -61,7 +61,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -120,7 +122,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -128,7 +132,8 @@
     "date": "09/28/1985",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -178,7 +183,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "TBS"
   },
   {
     "result": "L",
@@ -186,7 +193,8 @@
     "date": "10/05/1985",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -241,7 +249,9 @@
       "home": {
         "ap": 17
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -305,7 +315,9 @@
       "away": {
         "ap": 19
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "UNITED STATES, WGN"
   },
   {
     "result": "W",
@@ -364,7 +376,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:00 PM"
   },
   {
     "result": "W",
@@ -423,7 +436,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -482,7 +497,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "USA, WGN"
   },
   {
     "result": "L",
@@ -490,7 +507,8 @@
     "date": "11/16/1985",
     "location": {
       "city": "University Park",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -545,7 +563,9 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -609,15 +629,18 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "USA, WGN"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/1985",
     "location": {
-      "city": "Coral Gables",
-      "state": "FL"
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -672,6 +695,8 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   }
 ]

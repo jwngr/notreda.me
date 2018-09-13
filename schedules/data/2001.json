@@ -5,7 +5,8 @@
     "date": "09/08/2001",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Memorial Stadium, Lincoln"
     },
     "opponentId": "NEB",
     "score": {
@@ -64,7 +65,9 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -129,7 +132,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -137,7 +142,8 @@
     "date": "09/29/2001",
     "location": {
       "city": "College Station",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Kyle Field"
     },
     "opponentId": "TA&M",
     "score": {
@@ -188,7 +194,9 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-09-29-texas-am"
+    "sportsReferenceGameId": "2001-09-29-texas-am",
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -248,7 +256,9 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-10-06-notre-dame"
+    "sportsReferenceGameId": "2001-10-06-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -308,7 +318,9 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-10-13-notre-dame"
+    "sportsReferenceGameId": "2001-10-13-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -368,7 +380,9 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-10-20-notre-dame"
+    "sportsReferenceGameId": "2001-10-20-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -376,7 +390,8 @@
     "date": "10/27/2001",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -427,7 +442,9 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-10-27-boston-college"
+    "sportsReferenceGameId": "2001-10-27-boston-college",
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -492,7 +509,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -552,15 +571,18 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-11-17-notre-dame"
+    "sportsReferenceGameId": "2001-11-17-notre-dame",
+    "time": "1:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/24/2001",
     "location": {
-      "city": "Palo Alto",
-      "state": "CA"
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -616,7 +638,9 @@
       "home": {
         "ap": 13
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -624,7 +648,8 @@
     "date": "12/01/2001",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -675,6 +700,8 @@
       "away": [],
       "home": []
     },
-    "sportsReferenceGameId": "2001-12-01-purdue"
+    "sportsReferenceGameId": "2001-12-01-purdue",
+    "time": "3:30 PM",
+    "coverage": "ABC"
   }
 ]

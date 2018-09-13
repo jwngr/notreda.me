@@ -61,7 +61,8 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -128,7 +129,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -136,7 +139,8 @@
     "date": "09/26/1981",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -191,7 +195,8 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -250,7 +255,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -314,7 +320,8 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -378,7 +385,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -437,7 +445,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -496,7 +505,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -504,7 +514,8 @@
     "date": "11/14/1981",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -554,7 +565,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:00 PM"
   },
   {
     "result": "L",
@@ -562,7 +574,8 @@
     "date": "11/21/1981",
     "location": {
       "city": "University Park",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -617,7 +630,8 @@
       "home": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "L",
@@ -625,7 +639,8 @@
     "date": "11/27/1981",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -680,6 +695,8 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "3:00 PM",
+    "coverage": "ABC"
   }
 ]

@@ -5,7 +5,8 @@
     "date": "09/10/1983",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -60,7 +61,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -124,7 +126,8 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -132,7 +135,8 @@
     "date": "09/24/1983",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -187,7 +191,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -195,7 +201,8 @@
     "date": "10/01/1983",
     "location": {
       "city": "Boulder",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Folsom Field"
     },
     "opponentId": "COL",
     "score": {
@@ -245,7 +252,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:30 PM"
   },
   {
     "result": "W",
@@ -253,7 +261,8 @@
     "date": "10/08/1983",
     "location": {
       "city": "Columbia",
-      "state": "SC"
+      "state": "SC",
+      "stadium": "Williams-Brice Stadium"
     },
     "opponentId": "SCAR",
     "score": {
@@ -303,7 +312,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "7:00 PM"
   },
   {
     "result": "W",
@@ -311,7 +321,8 @@
     "date": "10/15/1983",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -361,7 +372,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -420,7 +432,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -484,7 +497,8 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "L",
@@ -548,7 +562,9 @@
       "home": {
         "ap": 18
       }
-    }
+    },
+    "time": "3:45 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -556,7 +572,8 @@
     "date": "11/12/1983",
     "location": {
       "city": "University Park",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -606,7 +623,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "L",
@@ -665,7 +683,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "12:35 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -674,7 +694,8 @@
     "date": "12/29/1983",
     "location": {
       "city": "Memphis",
-      "state": "TN"
+      "state": "TN",
+      "stadium": "Liberty Bowl Memorial Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -729,6 +750,8 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "KATZ"
   }
 ]

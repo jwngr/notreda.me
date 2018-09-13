@@ -61,7 +61,8 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -69,7 +70,8 @@
     "date": "09/30/1967",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -127,7 +129,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -191,7 +194,8 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -258,7 +262,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -266,7 +271,8 @@
     "date": "10/21/1967",
     "location": {
       "city": "Champaign",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "ILL",
     "score": {
@@ -316,7 +322,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -375,7 +382,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -439,7 +448,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -447,7 +457,8 @@
     "date": "11/11/1967",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -502,7 +513,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -510,7 +522,8 @@
     "date": "11/18/1967",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -565,7 +578,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:00 PM"
   },
   {
     "result": "W",
@@ -573,7 +587,8 @@
     "date": "11/24/1967",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -628,6 +643,7 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "8:15 PM"
   }
 ]

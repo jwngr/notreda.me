@@ -62,7 +62,9 @@
       "away": {
         "ap": 25
       }
-    }
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -130,7 +132,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -198,7 +202,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -266,7 +272,9 @@
       "away": {
         "ap": 16
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -331,7 +339,9 @@
       "home": {
         "ap": 25
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -339,7 +349,8 @@
     "date": "10/14/2000",
     "location": {
       "city": "Orlando",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Florida Citrus Bowl"
     },
     "opponentId": "NAVY",
     "score": {
@@ -395,7 +406,9 @@
       "home": {
         "ap": 20
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -403,7 +416,8 @@
     "date": "10/21/2000",
     "location": {
       "city": "Morgantown",
-      "state": "WV"
+      "state": "WV",
+      "stadium": "Mountaineer Field"
     },
     "opponentId": "WVU",
     "score": {
@@ -459,7 +473,9 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -524,7 +540,9 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -589,7 +607,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -597,7 +617,8 @@
     "date": "11/18/2000",
     "location": {
       "city": "Piscataway",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Rutgers Stadium"
     },
     "opponentId": "RUTG",
     "score": {
@@ -653,7 +674,9 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -661,7 +684,8 @@
     "date": "11/25/2000",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -717,7 +741,9 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -726,7 +752,8 @@
     "date": "01/01/2001",
     "location": {
       "city": "Tempe",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
     },
     "nickname": "Tostitos Fiesta Bowl",
     "opponentId": "ORST",
@@ -785,6 +812,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   }
 ]

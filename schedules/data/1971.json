@@ -61,7 +61,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -69,7 +70,8 @@
     "date": "09/25/1971",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -124,7 +126,8 @@
       "away": {
         "ap": 2
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -188,7 +191,9 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -196,7 +201,8 @@
     "date": "10/09/1971",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -251,7 +257,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "8:15 PM"
   },
   {
     "result": "W",
@@ -315,7 +322,8 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -379,7 +387,9 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -443,7 +453,8 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -451,7 +462,8 @@
     "date": "11/06/1971",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -506,7 +518,8 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -570,7 +583,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -578,7 +592,8 @@
     "date": "11/20/1971",
     "location": {
       "city": "Baton Rouge",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tiger Stadium"
     },
     "opponentId": "LSU",
     "score": {
@@ -636,6 +651,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "8:05 PM",
+    "coverage": "ABC"
   }
 ]

@@ -136,7 +136,8 @@
     "date": "10/14/1950",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tulane Stadium (Sugar Bowl)"
     },
     "opponentId": "TULN",
     "score": {
@@ -199,7 +200,8 @@
     "date": "10/21/1950",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -326,7 +328,8 @@
     "date": "11/04/1950",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -443,7 +446,8 @@
     "date": "11/18/1950",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -501,7 +505,8 @@
     "date": "12/02/1950",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

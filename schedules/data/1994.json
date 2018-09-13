@@ -5,7 +5,8 @@
     "date": "09/03/1994",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "NW",
     "score": {
@@ -60,7 +61,9 @@
       "home": {
         "ap": 3
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -127,7 +130,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -191,7 +196,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -255,7 +262,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -319,7 +328,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -327,7 +338,8 @@
     "date": "10/08/1994",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -382,7 +394,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -446,7 +460,9 @@
       "home": {
         "ap": 17
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -505,7 +521,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -513,7 +531,8 @@
     "date": "11/12/1994",
     "location": {
       "city": "Orlando",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Citrus Bowl"
     },
     "opponentId": "FSU",
     "score": {
@@ -568,7 +587,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -627,7 +648,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "T",
@@ -635,7 +658,8 @@
     "date": "11/26/1994",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -690,7 +714,9 @@
       "home": {
         "ap": 17
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -699,7 +725,8 @@
     "date": "01/02/1994",
     "location": {
       "city": "Tempe",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
     },
     "opponentId": "COL",
     "score": {
@@ -754,6 +781,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "4:30 PM",
+    "coverage": "NBC"
   }
 ]

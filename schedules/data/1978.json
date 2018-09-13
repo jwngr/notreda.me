@@ -61,7 +61,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -128,7 +129,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -187,7 +190,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -246,7 +250,8 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -310,7 +315,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "12:40 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -318,7 +325,8 @@
     "date": "10/21/1978",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -373,7 +381,8 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "3:30 PM"
   },
   {
     "result": "W",
@@ -437,7 +446,8 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -445,7 +455,8 @@
     "date": "11/04/1978",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Cleveland Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -503,7 +514,8 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:50 PM"
   },
   {
     "result": "W",
@@ -567,7 +579,8 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -575,7 +588,8 @@
     "date": "11/18/1978",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -633,7 +647,8 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -641,7 +656,8 @@
     "date": "11/25/1978",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -699,7 +715,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "4:10 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -708,7 +726,8 @@
     "date": "01/01/1978",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "HOU",
     "score": {
@@ -766,6 +785,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:00 PM",
+    "coverage": "CBS"
   }
 ]

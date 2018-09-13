@@ -5,7 +5,8 @@
     "date": "09/10/1977",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -63,7 +64,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -71,7 +74,8 @@
     "date": "09/17/1977",
     "location": {
       "city": "Jackson",
-      "state": "MS"
+      "state": "MS",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MISS",
     "score": {
@@ -126,7 +130,8 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -134,7 +139,8 @@
     "date": "09/24/1977",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -189,7 +195,8 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -253,7 +260,8 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -261,7 +269,8 @@
     "date": "10/15/1977",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -316,7 +325,8 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -383,7 +393,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -447,7 +459,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -511,7 +524,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -519,7 +533,8 @@
     "date": "11/12/1977",
     "location": {
       "city": "Clemson",
-      "state": "SC"
+      "state": "SC",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "CLEM",
     "score": {
@@ -577,7 +592,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -641,7 +657,8 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -649,7 +666,8 @@
     "date": "12/03/1977",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -704,7 +722,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:00 PM"
   },
   {
     "result": "W",
@@ -713,7 +732,8 @@
     "date": "01/02/1977",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "TEX",
     "score": {
@@ -771,6 +791,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:00 PM",
+    "coverage": "CBS"
   }
 ]

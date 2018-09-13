@@ -64,7 +64,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "3:20 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -131,7 +133,8 @@
       "away": {
         "ap": 14
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -195,7 +198,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:00 PM"
   },
   {
     "result": "W",
@@ -262,7 +266,8 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -326,7 +331,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -334,7 +340,8 @@
     "date": "10/25/1980",
     "location": {
       "city": "Tucson",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Arizona Stadium"
     },
     "opponentId": "ARIZ",
     "score": {
@@ -389,7 +396,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "10:35 PM"
   },
   {
     "result": "W",
@@ -397,7 +405,8 @@
     "date": "11/01/1980",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -452,7 +461,8 @@
       "home": {
         "ap": 3
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "T",
@@ -460,7 +470,8 @@
     "date": "11/08/1980",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -515,15 +526,17 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/15/1980",
     "location": {
-      "city": "Tuscaloosa",
-      "state": "AL"
+      "city": "Birmingham",
+      "state": "AL",
+      "stadium": "Legion Field"
     },
     "opponentId": "BAMA",
     "score": {
@@ -581,7 +594,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -645,7 +660,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -653,7 +669,8 @@
     "date": "12/06/1980",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -711,7 +728,9 @@
       "away": {
         "ap": 2
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -720,7 +739,8 @@
     "date": "01/01/1980",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Louisiana Superdome"
     },
     "opponentId": "UGA",
     "score": {
@@ -778,6 +798,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:00 PM",
+    "coverage": "ABC"
   }
 ]

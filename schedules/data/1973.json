@@ -61,7 +61,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -69,7 +70,8 @@
     "date": "09/29/1973",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -124,7 +126,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -188,7 +192,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -196,7 +201,8 @@
     "date": "10/13/1973",
     "location": {
       "city": "Houston",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Rice Stadium"
     },
     "opponentId": "RICE",
     "score": {
@@ -251,7 +257,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "8:05 PM"
   },
   {
     "result": "W",
@@ -259,7 +266,8 @@
     "date": "10/20/1973",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Michie Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -314,7 +322,8 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:00 PM"
   },
   {
     "result": "W",
@@ -381,7 +390,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -445,7 +456,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -453,7 +465,8 @@
     "date": "11/10/1973",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -511,7 +524,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -575,7 +589,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:20 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -583,7 +599,8 @@
     "date": "12/01/1973",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl (night)"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -638,7 +655,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:15 PM"
   },
   {
     "result": "W",
@@ -647,7 +665,8 @@
     "date": "12/31/1973",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tulane Stadium"
     },
     "opponentId": "BAMA",
     "score": {
@@ -705,6 +724,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   }
 ]

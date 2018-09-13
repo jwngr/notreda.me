@@ -5,7 +5,8 @@
     "date": "09/28/1957",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -127,7 +128,8 @@
     "date": "10/12/1957",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -391,7 +393,8 @@
     "date": "11/16/1957",
     "location": {
       "city": "Norman",
-      "state": "OK"
+      "state": "OK",
+      "stadium": "Oklahoma Memorial Stadium"
     },
     "opponentId": "OKLA",
     "score": {
@@ -585,7 +588,8 @@
     "date": "12/07/1957",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "SMU",
     "score": {

@@ -74,7 +74,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2012-09-01-navy"
+    "sportsReferenceGameId": "2012-09-01-navy",
+    "time": "9:00 AM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -155,7 +157,9 @@
       "home": {
         "ap": 22
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -239,7 +243,9 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -323,7 +329,9 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -332,7 +340,8 @@
     "date": "10/06/2012",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "MIAMI",
     "isShamrockSeries": true,
@@ -404,7 +413,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -490,7 +501,9 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -571,7 +584,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -580,7 +595,8 @@
     "date": "10/27/2012",
     "location": {
       "city": "Norman",
-      "state": "OK"
+      "state": "OK",
+      "stadium": "Oklahoma Memorial Stadium"
     },
     "opponentId": "OKLA",
     "score": {
@@ -654,7 +670,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -737,7 +755,9 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -746,7 +766,8 @@
     "date": "11/10/2012",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -817,7 +838,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -898,7 +921,9 @@
       "home": {
         "ap": 3
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -907,7 +932,8 @@
     "date": "11/24/2012",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -978,7 +1004,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -986,8 +1014,9 @@
     "isBowlGame": true,
     "date": "01/07/2013",
     "location": {
-      "city": "Miami",
-      "state": "FL"
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Sun Life Stadium"
     },
     "opponentId": "BAMA",
     "score": {
@@ -1061,6 +1090,8 @@
       "away": {
         "ap": 2
       }
-    }
+    },
+    "time": "8:30 PM",
+    "coverage": "ESPN"
   }
 ]

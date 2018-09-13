@@ -61,7 +61,9 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -128,7 +130,9 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -192,7 +196,9 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -200,7 +206,8 @@
     "date": "09/25/1993",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -255,7 +262,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -263,7 +272,8 @@
     "date": "10/02/1993",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -318,7 +328,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -382,7 +394,9 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -390,7 +404,8 @@
     "date": "10/16/1993",
     "location": {
       "city": "Provo",
-      "state": "UT"
+      "state": "UT",
+      "stadium": "Cougar Stadium"
     },
     "opponentId": "BYU",
     "score": {
@@ -445,7 +460,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -509,7 +526,9 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -517,7 +536,8 @@
     "date": "10/30/1993",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Veterans Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -572,7 +592,9 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -639,7 +661,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -706,7 +730,9 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -715,7 +741,8 @@
     "date": "01/01/1993",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "TA&M",
     "score": {
@@ -773,6 +800,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "4:30 PM",
+    "coverage": "NBC"
   }
 ]

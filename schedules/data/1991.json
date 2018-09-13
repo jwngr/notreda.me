@@ -61,7 +61,9 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -128,7 +130,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -192,7 +196,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -200,7 +206,8 @@
     "date": "09/28/1991",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -255,7 +262,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -263,7 +272,8 @@
     "date": "10/05/1991",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -318,7 +328,9 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "11:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -385,7 +397,9 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -393,7 +407,8 @@
     "date": "10/19/1991",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -448,7 +463,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "8:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -512,7 +529,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -576,7 +595,9 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -643,7 +664,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -651,7 +674,8 @@
     "date": "11/16/1991",
     "location": {
       "city": "University Park",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -709,7 +733,9 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -717,7 +743,8 @@
     "date": "11/30/1991",
     "location": {
       "city": "Honolulu",
-      "state": "HI"
+      "state": "HI",
+      "stadium": "Aloha Stadium"
     },
     "opponentId": "HAW",
     "score": {
@@ -772,7 +799,9 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "11:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -781,7 +810,8 @@
     "date": "01/01/1991",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Louisiana Superdome"
     },
     "opponentId": "FLA",
     "score": {
@@ -839,6 +869,8 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   }
 ]

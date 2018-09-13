@@ -69,7 +69,8 @@
     "date": "10/05/1951",
     "location": {
       "city": "Detroit",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "Briggs Stadium[1]"
     },
     "opponentId": "DET",
     "score": {
@@ -196,7 +197,8 @@
     "date": "10/20/1951",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -318,7 +320,8 @@
     "date": "11/03/1951",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -382,7 +385,7 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Macklin Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -448,7 +451,8 @@
     "date": "11/17/1951",
     "location": {
       "city": "Chapel Hill",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -565,7 +569,8 @@
     "date": "12/01/1951",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

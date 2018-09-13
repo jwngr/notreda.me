@@ -61,7 +61,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -69,7 +71,8 @@
     "date": "09/13/1997",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -124,7 +127,9 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -188,7 +193,9 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -252,7 +259,9 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -260,7 +269,8 @@
     "date": "10/04/1997",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -315,7 +325,9 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -323,7 +335,8 @@
     "date": "10/11/1997",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -373,7 +386,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -432,7 +447,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -491,7 +508,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -550,7 +569,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -558,7 +579,8 @@
     "date": "11/15/1997",
     "location": {
       "city": "Baton Rouge",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tiger Stadium"
     },
     "opponentId": "LSU",
     "score": {
@@ -613,7 +635,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -677,7 +701,9 @@
       "away": {
         "ap": 22
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -685,7 +711,8 @@
     "date": "11/29/1997",
     "location": {
       "city": "Honolulu",
-      "state": "HI"
+      "state": "HI",
+      "stadium": "Aloha Stadium"
     },
     "opponentId": "HAW",
     "score": {
@@ -735,7 +762,9 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -744,7 +773,8 @@
     "date": "12/28/1997",
     "location": {
       "city": "Shreveport",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Independence Stadium"
     },
     "opponentId": "LSU",
     "score": {
@@ -799,6 +829,8 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   }
 ]

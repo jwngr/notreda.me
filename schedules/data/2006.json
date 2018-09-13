@@ -5,7 +5,8 @@
     "date": "09/02/2006",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium"
     },
     "opponentId": "GT",
     "score": {
@@ -76,7 +77,9 @@
       "away": {
         "ap": 2
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -159,7 +162,9 @@
       "away": {
         "ap": 19
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -242,7 +247,9 @@
       "away": {
         "ap": 11
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -322,7 +329,9 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -402,7 +411,9 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -482,7 +493,9 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -562,7 +575,9 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -570,7 +585,8 @@
     "date": "10/28/2006",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "M&T Bank Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -641,7 +657,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -721,7 +739,9 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -729,7 +749,8 @@
     "date": "11/11/2006",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -800,7 +821,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "CSTV"
   },
   {
     "result": "W",
@@ -880,7 +903,9 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -888,7 +913,8 @@
     "date": "11/25/2006",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -962,7 +988,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -971,7 +999,8 @@
     "date": "01/03/2007",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Louisiana Superdome"
     },
     "opponentId": "LSU",
     "score": {
@@ -1045,6 +1074,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "FOX"
   }
 ]

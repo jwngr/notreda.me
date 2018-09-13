@@ -5,7 +5,8 @@
     "date": "09/29/1962",
     "location": {
       "city": "Norman",
-      "state": "OK"
+      "state": "OK",
+      "stadium": "Oklahoma Memorial Stadium"
     },
     "opponentId": "OKLA",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/13/1962",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -239,7 +241,8 @@
     "date": "10/27/1962",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -302,7 +305,8 @@
     "date": "11/03/1962",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Philadelphia Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -537,7 +541,8 @@
     "date": "12/01/1962",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

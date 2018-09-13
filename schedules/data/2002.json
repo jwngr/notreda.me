@@ -5,7 +5,8 @@
     "date": "08/31/2002",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "MD",
     "score": {
@@ -72,7 +73,9 @@
       "away": {
         "ap": 21
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -148,7 +151,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -227,7 +232,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -303,7 +310,9 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -379,7 +388,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -455,7 +466,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -463,7 +476,8 @@
     "date": "10/19/2002",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -533,7 +547,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "10:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -541,7 +557,8 @@
     "date": "10/26/2002",
     "location": {
       "city": "Tallahassee",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium"
     },
     "opponentId": "FSU",
     "score": {
@@ -611,7 +628,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -687,7 +706,9 @@
       "home": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -695,7 +716,8 @@
     "date": "11/09/2002",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Ravens Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -762,7 +784,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -838,7 +862,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -846,7 +872,8 @@
     "date": "11/30/2002",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -916,7 +943,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -926,7 +955,7 @@
     "location": {
       "city": "Jacksonville",
       "state": "FL",
-      "stadium": "ALLTEL Stadium"
+      "stadium": "Alltel Stadium"
     },
     "opponentId": "NCST",
     "score": {
@@ -996,6 +1025,8 @@
       "away": {
         "ap": 17
       }
-    }
+    },
+    "time": "12:30 PM",
+    "coverage": "NBC"
   }
 ]

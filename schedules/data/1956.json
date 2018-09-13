@@ -4,8 +4,9 @@
     "isHomeGame": false,
     "date": "09/22/1956",
     "location": {
-      "city": "Dallas",
-      "state": "TX"
+      "city": "Dallas (Fair Park)",
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "SMU",
     "score": {
@@ -324,7 +325,8 @@
     "date": "11/03/1956",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -382,7 +384,8 @@
     "date": "11/10/1956",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -504,7 +507,8 @@
     "date": "11/24/1956",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -567,7 +571,8 @@
     "date": "12/01/1956",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

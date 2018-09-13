@@ -72,7 +72,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-09-01-notre-dame"
+    "sportsReferenceGameId": "2007-09-01-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -80,7 +82,8 @@
     "date": "09/08/2007",
     "location": {
       "city": "State College",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Beaver Stadium"
     },
     "opponentId": "PSU",
     "score": {
@@ -151,7 +154,9 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "6:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -226,7 +231,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-09-15-michigan"
+    "sportsReferenceGameId": "2007-09-15-michigan",
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -301,7 +308,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-09-22-notre-dame"
+    "sportsReferenceGameId": "2007-09-22-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -309,7 +318,8 @@
     "date": "09/29/2007",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -375,7 +385,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2007-09-29-purdue"
+    "sportsReferenceGameId": "2007-09-29-purdue",
+    "time": "12:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -383,7 +395,8 @@
     "date": "10/06/2007",
     "location": {
       "city": "Pasadena",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Rose Bowl"
     },
     "opponentId": "UCLA",
     "score": {
@@ -449,7 +462,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-10-06-ucla"
+    "sportsReferenceGameId": "2007-10-06-ucla",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -529,7 +544,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -609,7 +626,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -686,7 +705,9 @@
         16
       ]
     },
-    "sportsReferenceGameId": "2007-11-03-notre-dame"
+    "sportsReferenceGameId": "2007-11-03-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -761,7 +782,9 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2007-11-10-notre-dame"
+    "sportsReferenceGameId": "2007-11-10-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -836,15 +859,18 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2007-11-17-notre-dame"
+    "sportsReferenceGameId": "2007-11-17-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/2007",
     "location": {
-      "city": "Palo Alto",
-      "state": "CA"
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -910,6 +936,8 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2007-11-24-stanford"
+    "sportsReferenceGameId": "2007-11-24-stanford",
+    "time": "3:30 PM",
+    "coverage": "ESPN"
   }
 ]

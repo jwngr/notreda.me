@@ -64,7 +64,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -131,7 +132,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -139,7 +142,8 @@
     "date": "10/05/1968",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -194,7 +198,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -258,7 +263,8 @@
       "home": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -322,7 +328,8 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "L",
@@ -386,7 +393,9 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "1:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -394,7 +403,8 @@
     "date": "11/02/1968",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "John F. Kennedy Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -449,7 +459,8 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -513,7 +524,8 @@
       "home": {
         "ap": 12
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -577,7 +589,8 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "T",
@@ -585,7 +598,8 @@
     "date": "11/30/1968",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -643,6 +657,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "4:30 PM",
+    "coverage": "ABC"
   }
 ]

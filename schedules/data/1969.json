@@ -61,7 +61,8 @@
       "home": {
         "ap": 11
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "L",
@@ -69,7 +70,8 @@
     "date": "09/27/1969",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -127,7 +129,8 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "W",
@@ -191,7 +194,8 @@
       "away": {
         "ap": 14
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "W",
@@ -199,7 +203,8 @@
     "date": "10/11/1969",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -254,7 +259,8 @@
       "home": {
         "ap": 15
       }
-    }
+    },
+    "time": "2:00 pm"
   },
   {
     "result": "T",
@@ -321,7 +327,8 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "W",
@@ -329,7 +336,8 @@
     "date": "10/25/1969",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tulane Stadium"
     },
     "opponentId": "TULN",
     "score": {
@@ -384,7 +392,8 @@
       "away": {
         "ap": 12
       }
-    }
+    },
+    "time": "8:30 pm"
   },
   {
     "result": "W",
@@ -448,7 +457,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "W",
@@ -456,7 +466,8 @@
     "date": "11/08/1969",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -511,7 +522,8 @@
       "away": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "W",
@@ -519,7 +531,8 @@
     "date": "11/15/1969",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -574,7 +587,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "9:30 pm",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -638,7 +653,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "1:30 pm"
   },
   {
     "result": "L",
@@ -647,7 +663,8 @@
     "date": "01/01/1969",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "TEX",
     "score": {
@@ -705,6 +722,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:00 pm",
+    "coverage": "CBS"
   }
 ]

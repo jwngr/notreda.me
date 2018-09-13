@@ -5,7 +5,8 @@
     "date": "09/19/1970",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -60,7 +61,8 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -124,7 +126,8 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -188,7 +191,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -252,7 +256,8 @@
       "home": {
         "ap": 3
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -260,7 +265,8 @@
     "date": "10/17/1970",
     "location": {
       "city": "Columbia",
-      "state": "MO"
+      "state": "MO",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MIZ",
     "score": {
@@ -318,7 +324,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -326,7 +334,8 @@
     "date": "10/31/1970",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "John F. Kennedy Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -381,7 +390,8 @@
       "home": {
         "ap": 3
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -445,7 +455,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -509,7 +520,8 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -576,7 +588,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -584,7 +597,8 @@
     "date": "11/28/1970",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -639,7 +653,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "4:15 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -648,7 +664,8 @@
     "date": "01/01/1970",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "TEX",
     "score": {
@@ -706,6 +723,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:00 PM",
+    "coverage": "CBS"
   }
 ]

@@ -64,7 +64,8 @@
     "date": "10/07/1961",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -376,7 +377,8 @@
     "date": "11/11/1961",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -498,7 +500,8 @@
     "date": "11/25/1961",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -556,7 +559,8 @@
     "date": "12/02/1961",
     "location": {
       "city": "Durham",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Duke Stadium"
     },
     "opponentId": "DUKE",
     "score": {

@@ -64,7 +64,9 @@
       "away": {
         "ap": 9
       }
-    }
+    },
+    "time": "3:20 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -72,7 +74,8 @@
     "date": "09/22/1979",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -130,7 +133,8 @@
       "away": {
         "ap": 5
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -197,7 +201,8 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -261,7 +266,8 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -269,7 +275,8 @@
     "date": "10/13/1979",
     "location": {
       "city": "Colorado Springs",
-      "state": "CO"
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -324,7 +331,8 @@
       "away": {
         "ap": 10
       }
-    }
+    },
+    "time": "3:30 PM"
   },
   {
     "result": "L",
@@ -391,7 +399,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -455,7 +465,8 @@
       "home": {
         "ap": 14
       }
-    }
+    },
+    "time": "2:30 PM"
   },
   {
     "result": "W",
@@ -519,7 +530,8 @@
       "home": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -527,7 +539,8 @@
     "date": "11/10/1979",
     "location": {
       "city": "Knoxville",
-      "state": "TN"
+      "state": "TN",
+      "stadium": "Neyland Stadium"
     },
     "opponentId": "TENN",
     "score": {
@@ -582,7 +595,8 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "L",
@@ -646,7 +660,8 @@
       "away": {
         "ap": 14
       }
-    }
+    },
+    "time": "1:30 PM"
   },
   {
     "result": "W",
@@ -655,7 +670,7 @@
     "location": {
       "city": "Tokyo",
       "country": "Japan",
-      "stadium": "Korakuen Stadium"
+      "stadium": "National Olympic Stadium"
     },
     "nickname": "Mirage Bowl",
     "opponentId": "MIAMI",
@@ -706,6 +721,7 @@
     "linescore": {
       "away": [],
       "home": []
-    }
+    },
+    "time": "11:00 PM"
   }
 ]

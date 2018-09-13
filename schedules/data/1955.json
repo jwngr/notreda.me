@@ -133,7 +133,8 @@
     "date": "10/07/1955",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Burdine Stadium"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -200,7 +201,7 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Macklin Stadium"
     },
     "opponentId": "MSU",
     "score": {
@@ -266,7 +267,8 @@
     "date": "10/22/1955",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -396,7 +398,8 @@
     "date": "11/05/1955",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Franklin Field"
     },
     "opponentId": "PENN",
     "score": {
@@ -459,7 +462,8 @@
     "date": "11/12/1955",
     "location": {
       "city": "Chapel Hill",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -586,7 +590,8 @@
     "date": "11/26/1955",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

@@ -64,7 +64,9 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "9:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -131,7 +133,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -195,7 +199,8 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "L",
@@ -259,7 +264,8 @@
       "home": {
         "ap": 1
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -323,7 +329,8 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -390,7 +397,9 @@
       "away": {
         "ap": 2
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "W",
@@ -398,7 +407,8 @@
     "date": "10/27/1990",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -453,7 +463,9 @@
       "away": {
         "ap": 3
       }
-    }
+    },
+    "time": "7:45 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -461,7 +473,8 @@
     "date": "11/03/1990",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Giants Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -516,7 +529,8 @@
       "home": {
         "ap": 2
       }
-    }
+    },
+    "time": "12:00 PM"
   },
   {
     "result": "W",
@@ -524,7 +538,8 @@
     "date": "11/10/1990",
     "location": {
       "city": "Knoxville",
-      "state": "TN"
+      "state": "TN",
+      "stadium": "Neyland Stadium"
     },
     "opponentId": "TENN",
     "score": {
@@ -582,7 +597,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -649,7 +666,9 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "4:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -657,7 +676,8 @@
     "date": "11/24/1990",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -715,7 +735,9 @@
       "away": {
         "ap": 7
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -724,7 +746,8 @@
     "date": "01/01/1990",
     "location": {
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Miami Orange Bowl"
     },
     "opponentId": "COL",
     "score": {
@@ -782,6 +805,8 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "NBC"
   }
 ]

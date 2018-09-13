@@ -5,7 +5,8 @@
     "date": "09/03/2005",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Heinz Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -76,7 +77,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -159,7 +162,9 @@
       "away": {
         "ap": 20
       }
-    }
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -241,7 +246,9 @@
       "home": {
         "ap": 10
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -249,7 +256,8 @@
     "date": "09/24/2005",
     "location": {
       "city": "Seattle",
-      "state": "WA"
+      "state": "WA",
+      "stadium": "Husky Stadium"
     },
     "opponentId": "WASH",
     "score": {
@@ -320,7 +328,9 @@
       "away": {
         "ap": 16
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -328,7 +338,8 @@
     "date": "10/01/2005",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -402,7 +413,9 @@
       "away": {
         "ap": 13
       }
-    }
+    },
+    "time": "7:45 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "L",
@@ -485,7 +498,9 @@
       "away": {
         "ap": 1
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -565,7 +580,9 @@
       "home": {
         "ap": 9
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -645,7 +662,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -725,7 +744,9 @@
       "home": {
         "ap": 7
       }
-    }
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -805,15 +826,18 @@
       "home": {
         "ap": 6
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/26/2005",
     "location": {
-      "city": "Palo Alto",
-      "state": "CA"
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -884,7 +908,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -893,7 +919,8 @@
     "date": "01/02/2006",
     "location": {
       "city": "Tempe",
-      "state": "AZ"
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
     },
     "opponentId": "OSU",
     "score": {
@@ -967,6 +994,8 @@
       "away": {
         "ap": 4
       }
-    }
+    },
+    "time": "4:30 PM",
+    "coverage": "ABC"
   }
 ]

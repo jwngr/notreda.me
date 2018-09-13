@@ -72,7 +72,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2010-09-04-notre-dame"
+    "sportsReferenceGameId": "2010-09-04-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -147,7 +149,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2010-09-11-notre-dame"
+    "sportsReferenceGameId": "2010-09-11-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -224,7 +228,9 @@
         6
       ]
     },
-    "sportsReferenceGameId": "2010-09-18-michigan-state"
+    "sportsReferenceGameId": "2010-09-18-michigan-state",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -304,7 +310,9 @@
       "away": {
         "ap": 16
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -312,7 +320,8 @@
     "date": "10/02/2010",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "score": {
@@ -378,7 +387,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2010-10-02-boston-college"
+    "sportsReferenceGameId": "2010-10-02-boston-college",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -453,7 +464,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2010-10-09-notre-dame"
+    "sportsReferenceGameId": "2010-10-09-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -528,7 +541,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2010-10-16-notre-dame"
+    "sportsReferenceGameId": "2010-10-16-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -536,7 +551,8 @@
     "date": "10/23/2010",
     "location": {
       "city": "East Rutherford",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "New Meadowlands Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -602,7 +618,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2010-10-23-navy"
+    "sportsReferenceGameId": "2010-10-23-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS"
   },
   {
     "result": "L",
@@ -677,7 +695,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2010-10-30-notre-dame"
+    "sportsReferenceGameId": "2010-10-30-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -757,7 +777,9 @@
       "away": {
         "ap": 15
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -833,7 +855,9 @@
         0
       ]
     },
-    "sportsReferenceGameId": "2010-11-20-army"
+    "sportsReferenceGameId": "2010-11-20-army",
+    "time": "7:00 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -841,7 +865,8 @@
     "date": "11/27/2010",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -907,7 +932,9 @@
         3
       ]
     },
-    "sportsReferenceGameId": "2010-11-27-southern-california"
+    "sportsReferenceGameId": "2010-11-27-southern-california",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -916,7 +943,8 @@
     "date": "12/31/2010",
     "location": {
       "city": "El Paso",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Sun Bowl Stadium"
     },
     "opponentId": "MIAMI",
     "score": {
@@ -982,6 +1010,8 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2010-12-31-miami-fl"
+    "sportsReferenceGameId": "2010-12-31-miami-fl",
+    "time": "2:00 PM",
+    "coverage": "CBS"
   }
 ]

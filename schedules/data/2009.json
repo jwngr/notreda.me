@@ -77,7 +77,9 @@
       "home": {
         "ap": 23
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -157,7 +159,9 @@
       "away": {
         "ap": 18
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC"
   },
   {
     "result": "W",
@@ -232,7 +236,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2009-09-19-notre-dame"
+    "sportsReferenceGameId": "2009-09-19-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -240,7 +246,8 @@
     "date": "09/26/2009",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -306,7 +313,9 @@
         14
       ]
     },
-    "sportsReferenceGameId": "2009-09-26-purdue"
+    "sportsReferenceGameId": "2009-09-26-purdue",
+    "time": "8:00 PM",
+    "coverage": "ESPN"
   },
   {
     "result": "W",
@@ -383,7 +392,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2009-10-03-notre-dame"
+    "sportsReferenceGameId": "2009-10-03-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -466,7 +477,9 @@
       "away": {
         "ap": 6
       }
-    }
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -541,7 +554,9 @@
         7
       ]
     },
-    "sportsReferenceGameId": "2009-10-24-notre-dame"
+    "sportsReferenceGameId": "2009-10-24-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "W",
@@ -549,7 +564,8 @@
     "date": "10/31/2009",
     "location": {
       "city": "San Antonio",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Alamodome"
     },
     "opponentId": "WSU",
     "isShamrockSeries": true,
@@ -621,7 +637,9 @@
       "home": {
         "ap": 25
       }
-    }
+    },
+    "time": "7:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -701,7 +719,9 @@
       "home": {
         "ap": 19
       }
-    }
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
@@ -709,7 +729,8 @@
     "date": "11/14/2009",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Heinz Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -780,7 +801,9 @@
       "home": {
         "ap": 8
       }
-    }
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC"
   },
   {
     "result": "L",
@@ -857,15 +880,18 @@
         10
       ]
     },
-    "sportsReferenceGameId": "2009-11-21-notre-dame"
+    "sportsReferenceGameId": "2009-11-21-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/28/2009",
     "location": {
-      "city": "Palo Alto",
-      "state": "CA"
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -931,6 +957,8 @@
         18
       ]
     },
-    "sportsReferenceGameId": "2009-11-28-stanford"
+    "sportsReferenceGameId": "2009-11-28-stanford",
+    "time": "8:00 PM",
+    "coverage": "ABC"
   }
 ]
