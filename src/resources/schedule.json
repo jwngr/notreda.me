@@ -75996,6 +75996,7 @@
   "2012": [
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "09/01/2012",
       "location": {
@@ -76072,6 +76073,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "09/08/2012",
       "location": {
@@ -76152,6 +76154,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "09/15/2012",
       "location": {
@@ -76235,6 +76238,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "09/22/2012",
       "location": {
@@ -76318,6 +76322,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "10/06/2012",
       "location": {
@@ -76398,6 +76403,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "10/13/2012",
       "location": {
@@ -76483,6 +76489,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "10/20/2012",
       "location": {
@@ -76563,6 +76570,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "10/27/2012",
       "location": {
@@ -76645,6 +76653,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "11/03/2012",
       "location": {
@@ -76727,6 +76736,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "11/10/2012",
       "location": {
@@ -76806,6 +76816,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "11/17/2012",
       "location": {
@@ -76886,6 +76897,7 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "11/24/2012",
       "location": {
@@ -77050,8 +77062,11 @@
   "2013": [
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "08/31/2013",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77132,6 +77147,8 @@
       "result": "L",
       "isHomeGame": false,
       "date": "09/07/2013",
+      "time": "8:00 PM",
+      "coverage": "ESPN",
       "location": {
         "city": "Ann Arbor",
         "state": "MI",
@@ -77213,11 +77230,15 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "09/14/2013",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Ross-Ade Stadium"
       },
       "opponentId": "PUR",
       "score": {
@@ -77292,8 +77313,11 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "09/21/2013",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77374,6 +77398,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "09/28/2013",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77455,11 +77481,15 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "10/05/2013",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Arlington",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "AT&T Stadium"
       },
       "opponentId": "AZST",
       "isShamrockSeries": true,
@@ -77535,8 +77565,11 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "10/19/2013",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77610,11 +77643,15 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": false,
       "date": "10/26/2013",
+      "time": "5:00 PM",
+      "coverage": "CBSSN",
       "location": {
-        "city": "USAFA",
-        "state": "CO"
+        "city": "Colorado Springs",
+        "state": "CO",
+        "stadium": "Falcon Stadium"
       },
       "opponentId": "AF",
       "score": {
@@ -77684,8 +77721,11 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "11/02/2013",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77761,9 +77801,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/09/2013",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Heinz Field"
       },
       "opponentId": "PITT",
       "score": {
@@ -77838,8 +77881,11 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "date": "11/23/2013",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -77915,9 +77961,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/30/2013",
+      "time": "7:00 PM",
+      "coverage": "FOX",
       "location": {
         "city": "Stanford",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Stanford Stadium"
       },
       "opponentId": "STAN",
       "score": {
@@ -77995,12 +78044,16 @@
     },
     {
       "result": "W",
+      "isVacatedWin": true,
       "isHomeGame": true,
       "isBowlGame": true,
       "date": "12/28/2013",
+      "time": "12:15 PM",
+      "coverage": "ESPN",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "RUTG",
       "score": {
@@ -78079,6 +78132,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "08/30/2014",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78159,6 +78214,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/06/2014",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78239,6 +78296,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/13/2014",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Indianapolis",
         "state": "IN",
@@ -78320,6 +78379,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/27/2014",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "East Rutherford",
         "state": "NJ",
@@ -78400,6 +78461,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/04/2014",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78483,6 +78546,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/11/2014",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78563,9 +78628,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "10/18/2014",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Tallahassee",
-        "state": "FL"
+        "state": "FL",
+        "stadium": "Doak Campbell Stadium"
       },
       "opponentId": "FSU",
       "score": {
@@ -78645,6 +78713,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "11/01/2014",
+      "time": "8:00 PM",
+      "coverage": "CBS",
       "location": {
         "city": "Landover",
         "state": "MD",
@@ -78725,9 +78795,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/08/2014",
+      "time": "3:30 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Tempe",
-        "state": "AZ"
+        "state": "AZ",
+        "stadium": "Sun Devil Stadium"
       },
       "opponentId": "AZST",
       "score": {
@@ -78807,6 +78880,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "11/15/2014",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78889,6 +78964,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "11/22/2014",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -78964,9 +79041,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/29/2014",
+      "time": "3:30 PM",
+      "coverage": "FOX",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "LA Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -79039,11 +79119,14 @@
       "isHomeGame": true,
       "isBowlGame": true,
       "date": "12/30/2014",
+      "time": "3:00 PM",
+      "coverage": "ESPN",
       "location": {
         "city": "Nashville",
         "state": "TN",
-        "stadium": "LP Field)"
+        "stadium": "LP Field"
       },
+      "nickname": "Music City Bowl",
       "opponentId": "LSU",
       "score": {
         "away": 28,
@@ -79121,6 +79204,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/05/2015",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79201,9 +79286,12 @@
       "result": "W",
       "isHomeGame": false,
       "date": "09/12/2015",
+      "time": "3:30 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Charlottesville",
-        "state": "VA"
+        "state": "VA",
+        "stadium": "Scott Stadium"
       },
       "stats": {
         "away": {
@@ -79280,6 +79368,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/19/2015",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79363,6 +79453,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/26/2015",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79443,9 +79535,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "10/03/2015",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Clemson",
-        "state": "SC"
+        "state": "SC",
+        "stadium": "Memorial Stadium"
       },
       "stats": {
         "away": {
@@ -79525,6 +79620,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/10/2015",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79605,6 +79702,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/17/2015",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79685,9 +79784,12 @@
       "result": "W",
       "isHomeGame": false,
       "date": "10/31/2015",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Philadelphia",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Lincoln Financial Field"
       },
       "stats": {
         "away": {
@@ -79767,9 +79869,12 @@
       "result": "W",
       "isHomeGame": false,
       "date": "11/07/2015",
+      "time": "12:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Heinz Field"
       },
       "stats": {
         "away": {
@@ -79846,6 +79951,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "11/14/2015",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -79926,6 +80033,7 @@
       "result": "W",
       "isHomeGame": true,
       "date": "11/21/2015",
+      "time": "7:30 PM",
       "location": {
         "city": "Boston",
         "state": "MA",
@@ -80007,9 +80115,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/28/2015",
+      "time": "7:30 PM",
+      "coverage": "FOX",
       "location": {
         "city": "Stanford",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Stanford Stadium"
       },
       "stats": {
         "away": {
@@ -80090,9 +80201,13 @@
       "isHomeGame": true,
       "isBowlGame": true,
       "date": "01/01/2016",
+      "time": "1:00 PM",
+      "coverage": "ESPN",
+      "nickname": "Fiesta Bowl",
       "location": {
         "city": "Glendale",
-        "state": "AZ"
+        "state": "AZ",
+        "stadium": "University of Phoenix Stadium"
       },
       "stats": {
         "away": {
@@ -80174,10 +80289,13 @@
       "result": "L",
       "isHomeGame": false,
       "date": "09/04/2016",
+      "time": "7:30 PM",
       "location": {
         "city": "Austin",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Darrell K Royal–Texas Memorial Stadium"
       },
+      "coverage": "ABC",
       "stats": {
         "away": {
           "firstDowns": 22,
@@ -80255,6 +80373,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "09/10/2016",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -80335,6 +80455,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "09/17/2016",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -80418,6 +80540,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "09/24/2016",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -80493,9 +80617,12 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/01/2016",
+      "time": "12:00 PM",
+      "coverage": "ESPN",
       "location": {
         "city": "East Rutherford",
-        "state": "NJ"
+        "state": "NJ",
+        "stadium": "MetLife Stadium"
       },
       "stats": {
         "away": {
@@ -80567,9 +80694,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "10/08/2016",
+      "time": "12:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Raleigh",
-        "state": "NC"
+        "state": "NC",
+        "stadium": "Carter–Finley Stadium"
       },
       "stats": {
         "away": {
@@ -80641,6 +80771,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "10/15/2016",
+      "time": "7:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -80716,6 +80848,8 @@
       "result": "W",
       "isHomeGame": true,
       "date": "10/29/2016",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -80791,9 +80925,12 @@
       "result": "L",
       "isHomeGame": true,
       "date": "11/05/2016",
+      "time": "11:30 AM",
+      "coverage": "CBS",
       "location": {
         "city": "Jacksonville",
-        "state": "FL"
+        "state": "FL",
+        "stadium": "EverBank Field"
       },
       "stats": {
         "away": {
@@ -80865,9 +81002,12 @@
       "result": "W",
       "isHomeGame": true,
       "date": "11/12/2016",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "San Antonio",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Alamodome"
       },
       "stats": {
         "away": {
@@ -80940,6 +81080,8 @@
       "result": "L",
       "isHomeGame": true,
       "date": "11/19/2016",
+      "time": "3:30 PM",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -81015,9 +81157,12 @@
       "result": "L",
       "isHomeGame": false,
       "date": "11/26/2016",
+      "time": "3:30 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "LA Memorial Coliseum"
       },
       "stats": {
         "away": {
@@ -81259,7 +81404,8 @@
       "coverage": "ESPN",
       "location": {
         "city": "Chestnut Hill",
-        "state": "MA"
+        "state": "MA",
+        "stadium": "Alumni Stadium"
       },
       "opponentId": "BC",
       "espnGameId": 400934574,
@@ -81490,7 +81636,8 @@
       "coverage": "ABC",
       "location": {
         "city": "Chapel Hill",
-        "state": "NC"
+        "state": "NC",
+        "stadium": "Kenan Memorial Stadium"
       },
       "opponentId": "UNC",
       "sportsReferenceGameId": "2017-10-07-north-carolina",
@@ -81816,10 +81963,12 @@
     {
       "isHomeGame": false,
       "date": "11/11/2017",
-      "coverage": "TBD",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
-        "city": "Miami",
-        "state": "FL"
+        "city": "Miami Gardens",
+        "state": "FL",
+        "stadium": "Hard Rock Stadium"
       },
       "opponentId": "MIAMI",
       "sportsReferenceGameId": "2017-11-11-miami-fl",
@@ -81980,10 +82129,12 @@
     {
       "isHomeGame": false,
       "date": "11/25/2017",
-      "coverage": "TBD",
+      "time": "8:00 PM",
+      "coverage": "ABC",
       "location": {
         "city": "Stanford",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Stanford Stadium"
       },
       "opponentId": "STAN",
       "sportsReferenceGameId": "2017-11-25-stanford",
@@ -82066,9 +82217,12 @@
       "timestamp": 1514811600000,
       "coverage": "ABC",
       "date": "01/01/2017",
+      "time": "1:00 PM",
+      "nickname": "Citrus Bowl",
       "location": {
         "city": "Orlando",
-        "state": "FL"
+        "state": "FL",
+        "stadium": "Camping World Stadium"
       },
       "opponentId": "LSU",
       "espnGameId": 400953414,
@@ -82586,7 +82740,7 @@
       "location": {
         "city": "Bronx",
         "state": "NY",
-        "stadium": "New Yankee Stadium"
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "SYR",
       "coverage": "NBC",

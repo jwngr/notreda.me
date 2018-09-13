@@ -60,18 +60,8 @@
     },
     "espnGameId": 400934573,
     "linescore": {
-      "away": [
-        3,
-        7,
-        0,
-        6
-      ],
-      "home": [
-        21,
-        7,
-        7,
-        14
-      ]
+      "away": [3, 7, 0, 6],
+      "home": [21, 7, 7, 14]
     },
     "sportsReferenceGameId": "2017-09-02-notre-dame"
   },
@@ -136,18 +126,8 @@
     },
     "espnGameId": 400933845,
     "linescore": {
-      "away": [
-        3,
-        7,
-        7,
-        3
-      ],
-      "home": [
-        3,
-        10,
-        3,
-        3
-      ]
+      "away": [3, 7, 7, 3],
+      "home": [3, 10, 3, 3]
     },
     "sportsReferenceGameId": "2017-09-09-notre-dame",
     "rankings": {
@@ -166,7 +146,8 @@
     "coverage": "ESPN",
     "location": {
       "city": "Chestnut Hill",
-      "state": "MA"
+      "state": "MA",
+      "stadium": "Alumni Stadium"
     },
     "opponentId": "BC",
     "espnGameId": 400934574,
@@ -219,18 +200,8 @@
       }
     },
     "linescore": {
-      "away": [
-        7,
-        7,
-        14,
-        21
-      ],
-      "home": [
-        3,
-        7,
-        3,
-        7
-      ]
+      "away": [7, 7, 14, 21],
+      "home": [3, 7, 3, 7]
     },
     "sportsReferenceGameId": "2017-09-16-boston-college"
   },
@@ -247,18 +218,8 @@
     "sportsReferenceGameId": "2017-09-23-michigan-state",
     "espnGameId": 400934575,
     "linescore": {
-      "away": [
-        14,
-        14,
-        7,
-        3
-      ],
-      "home": [
-        7,
-        0,
-        3,
-        8
-      ]
+      "away": [14, 14, 7, 3],
+      "home": [7, 0, 3, 8]
     },
     "score": {
       "home": 18,
@@ -323,18 +284,8 @@
     "sportsReferenceGameId": "2017-09-30-notre-dame",
     "espnGameId": 400934576,
     "linescore": {
-      "away": [
-        7,
-        7,
-        3,
-        0
-      ],
-      "home": [
-        28,
-        17,
-        0,
-        7
-      ]
+      "away": [7, 7, 3, 0],
+      "home": [28, 17, 0, 7]
     },
     "score": {
       "home": 52,
@@ -397,24 +348,15 @@
     "coverage": "ABC",
     "location": {
       "city": "Chapel Hill",
-      "state": "NC"
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
     },
     "opponentId": "UNC",
     "sportsReferenceGameId": "2017-10-07-north-carolina",
     "espnGameId": 400934577,
     "linescore": {
-      "away": [
-        0,
-        16,
-        10,
-        7
-      ],
-      "home": [
-        0,
-        7,
-        0,
-        3
-      ]
+      "away": [0, 16, 10, 7],
+      "home": [0, 7, 0, 3]
     },
     "score": {
       "home": 10,
@@ -484,18 +426,8 @@
     "sportsReferenceGameId": "2017-10-21-notre-dame",
     "espnGameId": 400934578,
     "linescore": {
-      "away": [
-        0,
-        0,
-        14,
-        0
-      ],
-      "home": [
-        14,
-        14,
-        14,
-        7
-      ]
+      "away": [0, 0, 14, 0],
+      "home": [14, 14, 14, 7]
     },
     "score": {
       "home": 49,
@@ -576,18 +508,8 @@
     },
     "espnGameId": 400934579,
     "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        14,
-        14,
-        0
-      ]
+      "away": [7, 7, 0, 0],
+      "home": [7, 14, 14, 0]
     },
     "score": {
       "home": 35,
@@ -657,18 +579,8 @@
     },
     "espnGameId": 400934580,
     "linescore": {
-      "away": [
-        3,
-        7,
-        13,
-        14
-      ],
-      "home": [
-        7,
-        24,
-        10,
-        7
-      ]
+      "away": [3, 7, 13, 14],
+      "home": [7, 24, 10, 7]
     },
     "score": {
       "home": 48,
@@ -723,10 +635,12 @@
   {
     "isHomeGame": false,
     "date": "11/11/2017",
-    "coverage": "TBD",
+    "time": "8:00 PM",
+    "coverage": "ABC",
     "location": {
-      "city": "Miami",
-      "state": "FL"
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Hard Rock Stadium"
     },
     "opponentId": "MIAMI",
     "sportsReferenceGameId": "2017-11-11-miami-fl",
@@ -740,18 +654,8 @@
     },
     "espnGameId": 400934581,
     "linescore": {
-      "away": [
-        0,
-        0,
-        8,
-        0
-      ],
-      "home": [
-        14,
-        13,
-        7,
-        7
-      ]
+      "away": [0, 0, 8, 0],
+      "home": [14, 13, 7, 7]
     },
     "score": {
       "home": 41,
@@ -821,18 +725,8 @@
     },
     "espnGameId": 400934582,
     "linescore": {
-      "away": [
-        0,
-        10,
-        7,
-        0
-      ],
-      "home": [
-        3,
-        7,
-        7,
-        7
-      ]
+      "away": [0, 10, 7, 0],
+      "home": [3, 7, 7, 7]
     },
     "score": {
       "home": 24,
@@ -887,10 +781,12 @@
   {
     "isHomeGame": false,
     "date": "11/25/2017",
-    "coverage": "TBD",
+    "time": "8:00 PM",
+    "coverage": "ABC",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "sportsReferenceGameId": "2017-11-25-stanford",
@@ -904,18 +800,8 @@
     },
     "espnGameId": 400934583,
     "linescore": {
-      "away": [
-        7,
-        3,
-        10,
-        0
-      ],
-      "home": [
-        7,
-        7,
-        3,
-        21
-      ]
+      "away": [7, 3, 10, 0],
+      "home": [7, 7, 3, 21]
     },
     "score": {
       "home": 38,
@@ -973,9 +859,12 @@
     "timestamp": 1514811600000,
     "coverage": "ABC",
     "date": "01/01/2017",
+    "time": "1:00 PM",
+    "nickname": "Citrus Bowl",
     "location": {
       "city": "Orlando",
-      "state": "FL"
+      "state": "FL",
+      "stadium": "Camping World Stadium"
     },
     "opponentId": "LSU",
     "espnGameId": 400953414,
@@ -989,18 +878,8 @@
       }
     },
     "linescore": {
-      "away": [
-        0,
-        3,
-        3,
-        15
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        10
-      ]
+      "away": [0, 3, 3, 15],
+      "home": [0, 0, 7, 10]
     },
     "score": {
       "home": 17,

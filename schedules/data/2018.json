@@ -11,18 +11,8 @@
     "coverage": "NBC",
     "espnGameId": 401012888,
     "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        7,
-        3,
-        0
-      ]
+      "away": [0, 10, 0, 7],
+      "home": [14, 7, 3, 0]
     },
     "score": {
       "home": 24,
@@ -107,18 +97,8 @@
     "coverage": "NBC",
     "espnGameId": 401013377,
     "linescore": {
-      "away": [
-        3,
-        3,
-        0,
-        10
-      ],
-      "home": [
-        7,
-        7,
-        10,
-        0
-      ]
+      "away": [3, 3, 0, 10],
+      "home": [7, 7, 10, 0]
     },
     "score": {
       "home": 24,
@@ -438,7 +418,7 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "New Yankee Stadium"
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "SYR",
     "coverage": "NBC",

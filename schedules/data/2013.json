@@ -1,8 +1,11 @@
 [
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "08/31/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -59,18 +62,8 @@
     },
     "espnGameId": 332430087,
     "linescore": {
-      "away": [
-        0,
-        6,
-        0,
-        0
-      ],
-      "home": [
-        14,
-        7,
-        7,
-        0
-      ]
+      "away": [0, 6, 0, 0],
+      "home": [14, 7, 7, 0]
     },
     "sportsReferenceGameId": "2013-08-31-notre-dame",
     "rankings": {
@@ -83,6 +76,8 @@
     "result": "L",
     "isHomeGame": false,
     "date": "09/07/2013",
+    "time": "8:00 PM",
+    "coverage": "ESPN",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -139,18 +134,8 @@
     },
     "espnGameId": 332500130,
     "linescore": {
-      "away": [
-        7,
-        6,
-        7,
-        10
-      ],
-      "home": [
-        10,
-        17,
-        7,
-        7
-      ]
+      "away": [7, 6, 7, 10],
+      "home": [10, 17, 7, 7]
     },
     "sportsReferenceGameId": "2013-09-07-michigan",
     "rankings": {
@@ -164,11 +149,15 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "09/14/2013",
+    "time": "8:00 PM",
+    "coverage": "ABC",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -221,18 +210,8 @@
     },
     "espnGameId": 332572509,
     "linescore": {
-      "away": [
-        0,
-        3,
-        7,
-        21
-      ],
-      "home": [
-        7,
-        3,
-        7,
-        7
-      ]
+      "away": [0, 3, 7, 21],
+      "home": [7, 3, 7, 7]
     },
     "sportsReferenceGameId": "2013-09-14-purdue",
     "rankings": {
@@ -243,8 +222,11 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "09/21/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -301,18 +283,8 @@
     },
     "espnGameId": 332640087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        3,
-        3
-      ],
-      "home": [
-        3,
-        7,
-        0,
-        7
-      ]
+      "away": [0, 7, 3, 3],
+      "home": [3, 7, 0, 7]
     },
     "sportsReferenceGameId": "2013-09-21-notre-dame",
     "rankings": {
@@ -325,6 +297,8 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -381,18 +355,8 @@
     },
     "espnGameId": 332710087,
     "linescore": {
-      "away": [
-        14,
-        7,
-        6,
-        8
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        7
-      ]
+      "away": [14, 7, 6, 8],
+      "home": [7, 0, 7, 7]
     },
     "sportsReferenceGameId": "2013-09-28-notre-dame",
     "rankings": {
@@ -406,11 +370,15 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "10/05/2013",
+    "time": "7:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Arlington",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "AT&T Stadium"
     },
     "opponentId": "AZST",
     "isShamrockSeries": true,
@@ -464,18 +432,8 @@
     },
     "espnGameId": 332780087,
     "linescore": {
-      "away": [
-        0,
-        13,
-        0,
-        21
-      ],
-      "home": [
-        0,
-        14,
-        10,
-        13
-      ]
+      "away": [0, 13, 0, 21],
+      "home": [0, 14, 10, 13]
     },
     "sportsReferenceGameId": "2013-10-05-notre-dame",
     "rankings": {
@@ -486,8 +444,11 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "10/19/2013",
+    "time": "7:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -544,28 +505,22 @@
     },
     "espnGameId": 332920087,
     "linescore": {
-      "away": [
-        7,
-        3,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        7,
-        0,
-        0
-      ]
+      "away": [7, 3, 0, 0],
+      "home": [7, 7, 0, 0]
     },
     "sportsReferenceGameId": "2013-10-19-notre-dame"
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "10/26/2013",
+    "time": "5:00 PM",
+    "coverage": "CBSSN",
     "location": {
-      "city": "USAFA",
-      "state": "CO"
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium"
     },
     "opponentId": "AF",
     "score": {
@@ -618,25 +573,18 @@
     },
     "espnGameId": 332992005,
     "linescore": {
-      "away": [
-        7,
-        17,
-        14,
-        7
-      ],
-      "home": [
-        7,
-        3,
-        0,
-        0
-      ]
+      "away": [7, 17, 14, 7],
+      "home": [7, 3, 0, 0]
     },
     "sportsReferenceGameId": "2013-10-26-air-force"
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "11/02/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -693,18 +641,8 @@
     },
     "espnGameId": 333060087,
     "linescore": {
-      "away": [
-        7,
-        13,
-        0,
-        14
-      ],
-      "home": [
-        10,
-        7,
-        7,
-        14
-      ]
+      "away": [7, 13, 0, 14],
+      "home": [10, 7, 7, 14]
     },
     "sportsReferenceGameId": "2013-11-02-notre-dame"
   },
@@ -712,9 +650,12 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/09/2013",
+    "time": "8:00 PM",
+    "coverage": "ABC",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Heinz Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -767,18 +708,8 @@
     },
     "espnGameId": 333130221,
     "linescore": {
-      "away": [
-        7,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        0,
-        7,
-        14,
-        7
-      ]
+      "away": [7, 7, 7, 0],
+      "home": [0, 7, 14, 7]
     },
     "sportsReferenceGameId": "2013-11-09-pittsburgh",
     "rankings": {
@@ -789,8 +720,11 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "11/23/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -847,18 +781,8 @@
     },
     "espnGameId": 333270087,
     "linescore": {
-      "away": [
-        7,
-        0,
-        6,
-        0
-      ],
-      "home": [
-        14,
-        3,
-        3,
-        3
-      ]
+      "away": [7, 0, 6, 0],
+      "home": [14, 3, 3, 3]
     },
     "sportsReferenceGameId": "2013-11-23-notre-dame"
   },
@@ -866,9 +790,12 @@
     "result": "L",
     "isHomeGame": false,
     "date": "11/30/2013",
+    "time": "7:00 PM",
+    "coverage": "FOX",
     "location": {
       "city": "Stanford",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Stanford Stadium"
     },
     "opponentId": "STAN",
     "score": {
@@ -921,18 +848,8 @@
     },
     "espnGameId": 333340024,
     "linescore": {
-      "away": [
-        3,
-        3,
-        14,
-        0
-      ],
-      "home": [
-        7,
-        7,
-        10,
-        3
-      ]
+      "away": [3, 3, 14, 0],
+      "home": [7, 7, 10, 3]
     },
     "sportsReferenceGameId": "2013-11-30-stanford",
     "rankings": {
@@ -946,12 +863,16 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/28/2013",
+    "time": "12:15 PM",
+    "coverage": "ESPN",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "RUTG",
     "score": {
@@ -1004,18 +925,8 @@
     },
     "espnGameId": 333620087,
     "linescore": {
-      "away": [
-        10,
-        3,
-        0,
-        3
-      ],
-      "home": [
-        10,
-        3,
-        3,
-        13
-      ]
+      "away": [10, 3, 0, 3],
+      "home": [10, 3, 3, 13]
     },
     "sportsReferenceGameId": "2013-12-28-notre-dame",
     "rankings": {

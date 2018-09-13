@@ -1,6 +1,7 @@
 [
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "09/01/2012",
     "location": {
@@ -60,23 +61,14 @@
     },
     "espnGameId": 322452426,
     "linescore": {
-      "away": [
-        13,
-        14,
-        13,
-        10
-      ],
-      "home": [
-        0,
-        3,
-        7,
-        0
-      ]
+      "away": [13, 14, 13, 10],
+      "home": [0, 3, 7, 0]
     },
     "sportsReferenceGameId": "2012-09-01-navy"
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "09/08/2012",
     "location": {
@@ -135,18 +127,8 @@
     },
     "espnGameId": 322520087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        10
-      ],
-      "home": [
-        0,
-        7,
-        10,
-        3
-      ]
+      "away": [0, 7, 0, 10],
+      "home": [0, 7, 10, 3]
     },
     "sportsReferenceGameId": "2012-09-08-notre-dame",
     "rankings": {
@@ -157,6 +139,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "09/15/2012",
     "location": {
@@ -215,18 +198,8 @@
     },
     "espnGameId": 322590127,
     "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        6
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        0
-      ]
+      "away": [7, 7, 0, 6],
+      "home": [0, 3, 0, 0]
     },
     "sportsReferenceGameId": "2012-09-15-michigan-state",
     "rankings": {
@@ -240,6 +213,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "09/22/2012",
     "location": {
@@ -298,18 +272,8 @@
     },
     "espnGameId": 322660087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        6
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        3
-      ]
+      "away": [0, 0, 0, 6],
+      "home": [0, 10, 0, 3]
     },
     "sportsReferenceGameId": "2012-09-22-notre-dame",
     "rankings": {
@@ -323,6 +287,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "10/06/2012",
     "location": {
@@ -381,18 +346,8 @@
     },
     "espnGameId": 322800087,
     "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        6,
-        21,
-        7
-      ]
+      "away": [3, 0, 0, 0],
+      "home": [7, 6, 21, 7]
     },
     "sportsReferenceGameId": "2012-10-06-notre-dame",
     "rankings": {
@@ -403,6 +358,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "10/13/2012",
     "location": {
@@ -461,20 +417,8 @@
     },
     "espnGameId": 322870087,
     "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        3,
-        0
-      ],
-      "home": [
-        3,
-        0,
-        0,
-        10,
-        7
-      ]
+      "away": [0, 10, 0, 3, 0],
+      "home": [3, 0, 0, 10, 7]
     },
     "sportsReferenceGameId": "2012-10-13-notre-dame",
     "rankings": {
@@ -488,6 +432,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "10/20/2012",
     "location": {
@@ -546,18 +491,8 @@
     },
     "espnGameId": 322940087,
     "linescore": {
-      "away": [
-        0,
-        14,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        0,
-        3,
-        7
-      ]
+      "away": [0, 14, 0, 0],
+      "home": [7, 0, 3, 7]
     },
     "sportsReferenceGameId": "2012-10-20-notre-dame",
     "rankings": {
@@ -568,6 +503,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "10/27/2012",
     "location": {
@@ -625,18 +561,8 @@
     },
     "espnGameId": 323010201,
     "linescore": {
-      "away": [
-        7,
-        3,
-        0,
-        20
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        7
-      ]
+      "away": [7, 3, 0, 20],
+      "home": [3, 3, 0, 7]
     },
     "sportsReferenceGameId": "2012-10-27-oklahoma",
     "rankings": {
@@ -650,6 +576,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "11/03/2012",
     "location": {
@@ -708,20 +635,8 @@
     },
     "espnGameId": 323080087,
     "linescore": {
-      "away": [
-        3,
-        7,
-        10,
-        0,
-        6
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        14,
-        9
-      ]
+      "away": [3, 7, 10, 0, 6],
+      "home": [3, 3, 0, 14, 9]
     },
     "sportsReferenceGameId": "2012-11-03-notre-dame",
     "rankings": {
@@ -732,6 +647,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "11/10/2012",
     "location": {
@@ -789,18 +705,8 @@
     },
     "espnGameId": 323150103,
     "linescore": {
-      "away": [
-        7,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        3
-      ]
+      "away": [7, 7, 7, 0],
+      "home": [0, 3, 0, 3]
     },
     "sportsReferenceGameId": "2012-11-10-boston-college",
     "rankings": {
@@ -811,6 +717,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": true,
     "date": "11/17/2012",
     "location": {
@@ -869,18 +776,8 @@
     },
     "espnGameId": 323220087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        21,
-        10,
-        7,
-        0
-      ]
+      "away": [0, 0, 0, 0],
+      "home": [21, 10, 7, 0]
     },
     "sportsReferenceGameId": "2012-11-17-notre-dame",
     "rankings": {
@@ -891,6 +788,7 @@
   },
   {
     "result": "W",
+    "isVacatedWin": true,
     "isHomeGame": false,
     "date": "11/24/2012",
     "location": {
@@ -948,18 +846,8 @@
     },
     "espnGameId": 323290030,
     "linescore": {
-      "away": [
-        10,
-        6,
-        3,
-        3
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        3
-      ]
+      "away": [10, 6, 3, 3],
+      "home": [0, 10, 0, 3]
     },
     "sportsReferenceGameId": "2012-11-24-southern-california",
     "rankings": {
@@ -1028,18 +916,8 @@
     },
     "espnGameId": 330070333,
     "linescore": {
-      "away": [
-        0,
-        0,
-        7,
-        7
-      ],
-      "home": [
-        14,
-        14,
-        7,
-        7
-      ]
+      "away": [0, 0, 7, 7],
+      "home": [14, 14, 7, 7]
     },
     "sportsReferenceGameId": "2013-01-07-alabama",
     "rankings": {
