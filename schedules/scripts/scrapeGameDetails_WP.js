@@ -104,6 +104,8 @@ const fetchGameDetailsForYear = (year) => {
               let correctedStadium = stadium.replace('–', '-');
               if (correctedStadium === 'FedExField') {
                 correctedStadium = 'FedEx Field';
+              } else if (correctedStadium === 'LA Memorial Coliseum') {
+                correctedStadium = 'LA Memorial Coliseum';
               }
               gamesData[i - 1].location.stadium = correctedStadium;
 
