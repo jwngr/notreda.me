@@ -68,8 +68,10 @@ const fetchGameDetailsForYear = (year) => {
                 });
               }
 
-              if (!_.includes(rowCellText, ' • ')) {
-                rowCellText = ` • ${rowCellText}`;
+              if (j === headerNames.indexOf('Site')) {
+                if (!_.includes(rowCellText, ' • ')) {
+                  rowCellText = ` • ${rowCellText}`;
+                }
               }
 
               rowCellValues.push(rowCellText);
@@ -107,7 +109,11 @@ const fetchGameDetailsForYear = (year) => {
               }
 
               if (stadium) {
-                let correctedStadium = stadium.replace('–', '-');
+                let correctedStadium = stadium
+                  .replace('–', '-')
+                  .split(' [')[0]
+                  .split('[')[0]
+                  .split(' (')[0];
                 if (correctedStadium === 'FedExField') {
                   correctedStadium = 'FedEx Field';
                 } else if (correctedStadium === 'LA Memorial Coliseum') {
@@ -148,6 +154,6 @@ const fetchGameDetailsForYear = (year) => {
     });
 };
 
-_.range(1900, 1950).forEach((year) => {
+_.range(1900, 2017).forEach((year) => {
   fetchGameDetailsForYear(year);
 });
