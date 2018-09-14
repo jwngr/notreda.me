@@ -122,8 +122,9 @@
     "isHomeGame": true,
     "date": "10/19/1924",
     "location": {
-      "city": "Manhattan",
-      "state": "NY"
+      "city": "New York",
+      "state": "NY",
+      "stadium": "Polo Grounds"
     },
     "opponentId": "ARMY",
     "score": {
@@ -181,7 +182,8 @@
     "date": "10/25/1924",
     "location": {
       "city": "Princeton",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Palmer Stadium"
     },
     "opponentId": "PRIN",
     "score": {
@@ -298,7 +300,8 @@
     "date": "11/08/1924",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -415,7 +418,8 @@
     "date": "11/22/1924",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Municipal Grant Park Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -473,7 +477,8 @@
     "date": "11/29/1924",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Forbes Field"
     },
     "opponentId": "CAR",
     "score": {
@@ -532,7 +537,8 @@
     "date": "01/01/1924",
     "location": {
       "city": "Pasadena",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Rose Bowl"
     },
     "opponentId": "STAN",
     "score": {

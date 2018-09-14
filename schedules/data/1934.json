@@ -241,7 +241,8 @@
     "date": "11/03/1934",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -299,7 +300,8 @@
     "date": "11/10/1934",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -357,7 +359,8 @@
     "date": "11/17/1934",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -415,7 +418,8 @@
     "date": "11/24/1934",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -473,7 +477,8 @@
     "date": "12/08/1934",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

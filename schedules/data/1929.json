@@ -5,7 +5,8 @@
     "date": "10/05/1929",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -63,7 +64,8 @@
     "date": "10/12/1929",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -238,7 +240,8 @@
     "date": "11/02/1929",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -414,7 +417,8 @@
     "date": "11/23/1929",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -472,7 +476,8 @@
     "date": "11/30/1929",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {

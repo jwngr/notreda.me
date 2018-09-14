@@ -5,7 +5,8 @@
     "date": "09/28/1918",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Van Horn Field"
     },
     "opponentId": "CASE",
     "score": {
@@ -239,7 +240,8 @@
     "date": "11/23/1918",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Stuart Field"
     },
     "opponentId": "PUR",
     "score": {
@@ -297,7 +299,8 @@
     "date": "11/28/1918",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Nebraska Field"
     },
     "opponentId": "NEB",
     "score": {

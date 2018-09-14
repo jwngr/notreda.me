@@ -68,6 +68,10 @@ const fetchGameDetailsForYear = (year) => {
                 });
               }
 
+              if (!_.includes(rowCellText, ' • ')) {
+                rowCellText = ` • ${rowCellText}`;
+              }
+
               rowCellValues.push(rowCellText);
             });
 
@@ -101,13 +105,16 @@ const fetchGameDetailsForYear = (year) => {
               } else {
                 city = location.split(' (')[0];
               }
-              let correctedStadium = stadium.replace('–', '-');
-              if (correctedStadium === 'FedExField') {
-                correctedStadium = 'FedEx Field';
-              } else if (correctedStadium === 'LA Memorial Coliseum') {
-                correctedStadium = 'LA Memorial Coliseum';
+
+              if (stadium) {
+                let correctedStadium = stadium.replace('–', '-');
+                if (correctedStadium === 'FedExField') {
+                  correctedStadium = 'FedEx Field';
+                } else if (correctedStadium === 'LA Memorial Coliseum') {
+                  correctedStadium = 'LA Memorial Coliseum';
+                }
+                gamesData[i - 1].location.stadium = correctedStadium;
               }
-              gamesData[i - 1].location.stadium = correctedStadium;
 
               // CITY / STATE
               if (
@@ -130,13 +137,17 @@ const fetchGameDetailsForYear = (year) => {
 
       fs.writeFileSync(filename, JSON.stringify(gamesData, null, 2));
 
-      console.log('Success!');
+      console.log(`Success ${year}!`);
     })
     .catch((error) => {
-      console.log('Error fetching team records:', error);
+      let errorMessage = error.message;
+      if (error.statusCode === 404) {
+        errorMessage = '404 page not found.';
+      }
+      console.log(`[ERROR] Failed to fetch schedule for ${year}:`, errorMessage);
     });
 };
 
-_.range(1950, 2018).forEach((year) => {
+_.range(1900, 1950).forEach((year) => {
   fetchGameDetailsForYear(year);
 });

@@ -64,7 +64,8 @@
     "date": "10/06/1945",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -186,7 +187,8 @@
     "date": "10/20/1945",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -313,7 +315,8 @@
     "date": "11/03/1945",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -379,7 +382,8 @@
     "date": "11/10/1945",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -445,7 +449,8 @@
     "date": "11/17/1945",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -508,7 +513,8 @@
     "date": "11/24/1945",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tulane Stadium"
     },
     "opponentId": "TULN",
     "score": {
@@ -570,7 +576,7 @@
     "isHomeGame": false,
     "date": "12/01/1945",
     "location": {
-      "city": "Chicago",
+      "city": "North Chicago",
       "state": "IL"
     },
     "opponentId": "GRTLK",

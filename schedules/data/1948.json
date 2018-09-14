@@ -64,7 +64,8 @@
     "date": "10/02/1948",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -186,7 +187,8 @@
     "date": "10/16/1948",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NEB",
     "score": {
@@ -249,7 +251,8 @@
     "date": "10/23/1948",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -312,7 +315,8 @@
     "date": "10/30/1948",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -375,7 +379,8 @@
     "date": "11/06/1948",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -569,7 +574,8 @@
     "date": "12/04/1948",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

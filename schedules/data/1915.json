@@ -123,7 +123,8 @@
     "date": "10/23/1915",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Nebraska Field"
     },
     "opponentId": "NEB",
     "score": {
@@ -240,7 +241,8 @@
     "date": "11/06/1915",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -356,7 +358,8 @@
     "date": "11/25/1915",
     "location": {
       "city": "Austin",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Clark Field"
     },
     "opponentId": "TEX",
     "score": {
@@ -414,7 +417,8 @@
     "date": "11/27/1915",
     "location": {
       "city": "Houston",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Rice Field"
     },
     "opponentId": "RICE",
     "score": {

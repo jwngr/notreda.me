@@ -182,7 +182,8 @@
     "date": "11/01/1913",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -240,7 +241,8 @@
     "date": "11/07/1913",
     "location": {
       "city": "State College",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "New Beaver Field"
     },
     "opponentId": "PSU",
     "score": {
@@ -356,7 +358,8 @@
     "date": "11/27/1913",
     "location": {
       "city": "Austin",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Clark Field"
     },
     "opponentId": "TEX",
     "score": {

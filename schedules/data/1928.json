@@ -64,7 +64,8 @@
     "date": "10/06/1928",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/13/1928",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "NAVY",
     "score": {
@@ -180,7 +182,8 @@
     "date": "10/20/1928",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -297,7 +300,8 @@
     "date": "11/03/1928",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Franklin Field"
     },
     "opponentId": "PSU",
     "score": {
@@ -355,7 +359,8 @@
     "date": "11/10/1928",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -472,7 +477,8 @@
     "date": "12/01/1928",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

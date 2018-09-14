@@ -182,7 +182,8 @@
     "date": "10/25/1930",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -299,7 +300,8 @@
     "date": "11/08/1930",
     "location": {
       "city": "Philadelphia",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Franklin Field"
     },
     "opponentId": "PENN",
     "score": {
@@ -416,7 +418,8 @@
     "date": "11/22/1930",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -474,7 +477,8 @@
     "date": "11/29/1930",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "ARMY",
     "score": {
@@ -532,7 +536,8 @@
     "date": "12/06/1930",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

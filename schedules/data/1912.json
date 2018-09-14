@@ -241,7 +241,8 @@
     "date": "11/02/1912",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Forbes Field"
     },
     "opponentId": "PITT",
     "score": {
@@ -357,7 +358,8 @@
     "date": "11/28/1912",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Comiskey Park"
     },
     "opponentId": "MARQ",
     "score": {

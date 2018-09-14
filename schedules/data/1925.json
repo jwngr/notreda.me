@@ -182,7 +182,8 @@
     "date": "10/17/1925",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -240,7 +241,8 @@
     "date": "10/24/1925",
     "location": {
       "city": "Minneapolis",
-      "state": "MN"
+      "state": "MN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MINN",
     "score": {
@@ -298,7 +300,8 @@
     "date": "10/31/1925",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -356,7 +359,8 @@
     "date": "11/07/1925",
     "location": {
       "city": "State College",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "New Beaver Field"
     },
     "opponentId": "PSU",
     "score": {
@@ -532,7 +536,8 @@
     "date": "11/26/1925",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NEB",
     "score": {

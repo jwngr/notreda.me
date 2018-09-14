@@ -182,7 +182,8 @@
     "date": "10/21/1939",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -308,7 +309,8 @@
     "date": "11/04/1939",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -371,7 +373,8 @@
     "date": "11/11/1939",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {

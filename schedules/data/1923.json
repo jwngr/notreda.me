@@ -123,7 +123,8 @@
     "date": "10/13/1923",
     "location": {
       "city": "Brooklyn",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Ebbets Field"
     },
     "opponentId": "ARMY",
     "score": {
@@ -181,7 +182,8 @@
     "date": "10/20/1923",
     "location": {
       "city": "Princeton",
-      "state": "NJ"
+      "state": "NJ",
+      "stadium": "Palmer Stadium"
     },
     "opponentId": "PRIN",
     "score": {
@@ -357,7 +359,8 @@
     "date": "11/10/1923",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NEB",
     "score": {

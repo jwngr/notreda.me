@@ -5,7 +5,8 @@
     "date": "10/04/1947",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -63,7 +64,8 @@
     "date": "10/11/1947",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -254,7 +256,8 @@
     "date": "11/01/1947",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Cleveland Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -384,7 +387,8 @@
     "date": "11/15/1947",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -511,7 +515,8 @@
     "date": "12/06/1947",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

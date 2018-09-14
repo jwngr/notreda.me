@@ -64,7 +64,8 @@
     "date": "10/14/1933",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/21/1933",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "CAR",
     "score": {
@@ -239,7 +241,8 @@
     "date": "11/04/1933",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -356,7 +359,8 @@
     "date": "11/18/1933",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -473,7 +477,8 @@
     "date": "12/02/1933",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {

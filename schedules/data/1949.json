@@ -64,7 +64,8 @@
     "date": "10/01/1949",
     "location": {
       "city": "Seattle",
-      "state": "WA"
+      "state": "WA",
+      "stadium": "Husky Stadium"
     },
     "opponentId": "WASH",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/08/1949",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
     },
     "opponentId": "PUR",
     "score": {
@@ -252,7 +254,8 @@
     "date": "10/29/1949",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -381,8 +384,9 @@
     "isHomeGame": true,
     "date": "11/12/1949",
     "location": {
-      "city": "Bronx",
-      "state": "NY"
+      "city": "New York",
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "UNC",
     "score": {
@@ -576,7 +580,8 @@
     "date": "12/03/1949",
     "location": {
       "city": "Dallas",
-      "state": "TX"
+      "state": "TX",
+      "stadium": "Cotton Bowl"
     },
     "opponentId": "SMU",
     "score": {

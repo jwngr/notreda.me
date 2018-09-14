@@ -5,7 +5,8 @@
     "date": "09/28/1946",
     "location": {
       "city": "Champaign",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "ILL",
     "score": {
@@ -186,7 +187,8 @@
     "date": "10/26/1946",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Stadium"
     },
     "opponentId": "IOWA",
     "score": {
@@ -252,7 +254,8 @@
     "date": "11/02/1946",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -314,8 +317,9 @@
     "isHomeGame": true,
     "date": "11/09/1946",
     "location": {
-      "city": "Bronx",
-      "state": "NY"
+      "city": "New York",
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -445,7 +449,8 @@
     "date": "11/23/1946",
     "location": {
       "city": "New Orleans",
-      "state": "LA"
+      "state": "LA",
+      "stadium": "Tulane Stadium"
     },
     "opponentId": "TULN",
     "score": {

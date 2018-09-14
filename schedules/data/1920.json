@@ -123,7 +123,8 @@
     "date": "10/16/1920",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Nebraska Field"
     },
     "opponentId": "NEB",
     "score": {
@@ -240,7 +241,8 @@
     "date": "10/30/1920",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -415,7 +417,8 @@
     "date": "11/20/1920",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Northwestern Field"
     },
     "opponentId": "NW",
     "score": {

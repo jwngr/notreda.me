@@ -64,7 +64,8 @@
     "date": "10/13/1917",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/20/1917",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Nebraska Field"
     },
     "opponentId": "NEB",
     "score": {
@@ -239,7 +241,8 @@
     "date": "11/03/1917",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -414,7 +417,8 @@
     "date": "11/24/1917",
     "location": {
       "city": "Washington",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Cameron Stadium"
     },
     "opponentId": "WAS",
     "score": {

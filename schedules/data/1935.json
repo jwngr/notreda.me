@@ -122,7 +122,8 @@
     "date": "10/12/1935",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -239,7 +240,8 @@
     "date": "10/26/1935",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -297,7 +299,8 @@
     "date": "11/02/1935",
     "location": {
       "city": "Columbus",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Ohio Stadium"
     },
     "opponentId": "OSU",
     "score": {
@@ -414,7 +417,8 @@
     "date": "11/16/1935",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {

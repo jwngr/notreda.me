@@ -64,7 +64,8 @@
     "date": "10/09/1937",
     "location": {
       "city": "Champaign",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "ILL",
     "score": {
@@ -239,7 +240,8 @@
     "date": "10/30/1937",
     "location": {
       "city": "Minneapolis",
-      "state": "MN"
+      "state": "MN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MINN",
     "score": {
@@ -369,7 +371,8 @@
     "date": "11/13/1937",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -432,7 +435,8 @@
     "date": "11/20/1937",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {

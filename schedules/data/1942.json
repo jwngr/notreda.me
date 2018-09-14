@@ -5,7 +5,8 @@
     "date": "09/26/1942",
     "location": {
       "city": "Madison",
-      "state": "WI"
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
     },
     "opponentId": "WIS",
     "score": {
@@ -240,7 +241,8 @@
     "date": "10/24/1942",
     "location": {
       "city": "Champaign",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "ILL",
     "score": {
@@ -306,7 +308,8 @@
     "date": "10/31/1942",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -369,7 +372,8 @@
     "date": "11/07/1942",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -566,7 +570,8 @@
     "date": "11/28/1942",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {
@@ -631,7 +636,7 @@
     "isHomeGame": true,
     "date": "12/05/1942",
     "location": {
-      "city": "Chicago",
+      "city": "North Chicago",
       "state": "IL"
     },
     "opponentId": "GRTLK",

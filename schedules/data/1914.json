@@ -123,7 +123,8 @@
     "date": "10/17/1914",
     "location": {
       "city": "New Haven",
-      "state": "CT"
+      "state": "CT",
+      "stadium": "Yale Field"
     },
     "opponentId": "YALE",
     "score": {
@@ -298,7 +299,8 @@
     "date": "11/07/1914",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -356,7 +358,8 @@
     "date": "11/14/1914",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Comiskey Park"
     },
     "opponentId": "CARL",
     "score": {
@@ -414,7 +417,8 @@
     "date": "11/26/1914",
     "location": {
       "city": "Syracuse",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Archbold Stadium"
     },
     "opponentId": "SYR",
     "score": {

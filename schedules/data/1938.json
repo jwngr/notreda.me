@@ -64,7 +64,8 @@
     "date": "10/08/1938",
     "location": {
       "city": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "stadium": "Grant Field"
     },
     "opponentId": "GT",
     "score": {
@@ -248,7 +249,8 @@
     "date": "10/29/1938",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -311,7 +313,8 @@
     "date": "11/05/1938",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -441,7 +444,8 @@
     "date": "11/19/1938",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -507,7 +511,8 @@
     "date": "12/03/1938",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

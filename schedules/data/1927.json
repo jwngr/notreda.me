@@ -64,7 +64,8 @@
     "date": "10/08/1927",
     "location": {
       "city": "Detroit",
-      "state": "MI"
+      "state": "MI",
+      "stadium": "University of Detroit Stadium"
     },
     "opponentId": "DET",
     "score": {
@@ -122,7 +123,8 @@
     "date": "10/15/1927",
     "location": {
       "city": "Baltimore",
-      "state": "MD"
+      "state": "MD",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -180,7 +182,8 @@
     "date": "10/22/1927",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "IND",
     "score": {
@@ -356,7 +359,8 @@
     "date": "11/12/1927",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -414,7 +418,8 @@
     "date": "11/19/1927",
     "location": {
       "city": "Des Moines",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Drake Stadium"
     },
     "opponentId": "DRKE",
     "score": {
@@ -472,7 +477,8 @@
     "date": "11/26/1927",
     "location": {
       "city": "Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "USC",
     "score": {

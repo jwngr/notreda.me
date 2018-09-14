@@ -182,7 +182,8 @@
     "date": "10/29/1932",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Pitt Stadium"
     },
     "opponentId": "PITT",
     "score": {
@@ -240,7 +241,8 @@
     "date": "11/05/1932",
     "location": {
       "city": "Lawrence",
-      "state": "KS"
+      "state": "KS",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "KU",
     "score": {
@@ -356,8 +358,9 @@
     "isHomeGame": true,
     "date": "11/19/1932",
     "location": {
-      "city": "Cleveland",
-      "state": "OH"
+      "city": "Cleveland OH",
+      "state": "OH",
+      "stadium": "Municipal Stadium"
     },
     "opponentId": "NAVY",
     "score": {
@@ -415,7 +418,8 @@
     "date": "11/26/1932",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -473,7 +477,8 @@
     "date": "12/10/1932",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

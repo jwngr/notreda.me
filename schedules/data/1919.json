@@ -123,7 +123,8 @@
     "date": "10/18/1919",
     "location": {
       "city": "Lincoln",
-      "state": "NE"
+      "state": "NE",
+      "stadium": "Nebraska Field"
     },
     "opponentId": "NEB",
     "score": {
@@ -240,7 +241,8 @@
     "date": "11/01/1919",
     "location": {
       "city": "Indianapolis",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Washington Park"
     },
     "opponentId": "IND",
     "score": {
@@ -298,7 +300,8 @@
     "date": "11/08/1919",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -415,7 +418,8 @@
     "date": "11/22/1919",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Stuart Field"
     },
     "opponentId": "PUR",
     "score": {

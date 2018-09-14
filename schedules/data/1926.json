@@ -64,7 +64,8 @@
     "date": "10/09/1926",
     "location": {
       "city": "Minneapolis",
-      "state": "MN"
+      "state": "MN",
+      "stadium": "Memorial Stadium"
     },
     "opponentId": "MINN",
     "score": {
@@ -181,7 +182,8 @@
     "date": "10/23/1926",
     "location": {
       "city": "Evanston",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Dyche Stadium"
     },
     "opponentId": "NW",
     "score": {
@@ -357,7 +359,8 @@
     "date": "11/13/1926",
     "location": {
       "city": "Bronx",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "Yankee Stadium"
     },
     "opponentId": "ARMY",
     "score": {
@@ -474,7 +477,8 @@
     "date": "11/27/1926",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "stadium": "Forbes Field"
     },
     "opponentId": "CAR",
     "score": {
@@ -532,7 +536,8 @@
     "date": "12/04/1926",
     "location": {
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "stadium": "Memorial Coliseum"
     },
     "opponentId": "USC",
     "score": {

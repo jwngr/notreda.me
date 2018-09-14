@@ -123,7 +123,8 @@
     "date": "10/08/1921",
     "location": {
       "city": "Iowa City",
-      "state": "IA"
+      "state": "IA",
+      "stadium": "Iowa Field"
     },
     "opponentId": "IOWA",
     "score": {
@@ -181,7 +182,8 @@
     "date": "10/15/1921",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "stadium": "Stuart Field"
     },
     "opponentId": "PUR",
     "score": {
@@ -356,7 +358,8 @@
     "date": "11/05/1921",
     "location": {
       "city": "West Point",
-      "state": "NY"
+      "state": "NY",
+      "stadium": "The Plain"
     },
     "opponentId": "ARMY",
     "score": {
@@ -413,8 +416,9 @@
     "isHomeGame": true,
     "date": "11/08/1921",
     "location": {
-      "city": "Manhattan",
-      "state": "NY"
+      "city": "New York",
+      "state": "NY",
+      "stadium": "Polo Grounds"
     },
     "opponentId": "RUTG",
     "score": {
