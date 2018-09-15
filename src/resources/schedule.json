@@ -66,7 +66,7 @@
       "location": {
         "city": "Notre Dame",
         "state": "IN",
-        "stadium": "Cartier Field"
+        "stadium": "Green Stocking Ball Park"
       },
       "opponentId": "MICH",
       "score": {
@@ -5086,7 +5086,7 @@
       "isHomeGame": false,
       "date": "11/21/1903",
       "location": {
-        "city": "Columbus",
+        "city": "Toledo",
         "state": "OH"
       },
       "opponentId": "OH-M",
@@ -6441,7 +6441,8 @@
       "date": "11/03/1906",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -6913,7 +6914,8 @@
       "date": "11/23/1907",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -7738,7 +7740,8 @@
       "date": "10/30/1909",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Forbes Field"
       },
       "opponentId": "PITT",
       "score": {
@@ -8623,7 +8626,8 @@
       "date": "11/04/1911",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Forbes Field"
       },
       "opponentId": "PITT",
       "score": {
@@ -9094,7 +9098,8 @@
       "date": "11/02/1912",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Forbes Field"
       },
       "opponentId": "PITT",
       "score": {
@@ -9210,7 +9215,8 @@
       "date": "11/28/1912",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Comiskey Park"
       },
       "opponentId": "MARQ",
       "score": {
@@ -9447,7 +9453,8 @@
       "date": "11/01/1913",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -9505,7 +9512,8 @@
       "date": "11/07/1913",
       "location": {
         "city": "State College",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "New Beaver Field"
       },
       "opponentId": "PSU",
       "score": {
@@ -9621,7 +9629,8 @@
       "date": "11/27/1913",
       "location": {
         "city": "Austin",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Clark Field"
       },
       "opponentId": "TEX",
       "score": {
@@ -9799,7 +9808,8 @@
       "date": "10/17/1914",
       "location": {
         "city": "New Haven",
-        "state": "CT"
+        "state": "CT",
+        "stadium": "Yale Field"
       },
       "opponentId": "YALE",
       "score": {
@@ -9974,7 +9984,8 @@
       "date": "11/07/1914",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -10032,7 +10043,8 @@
       "date": "11/14/1914",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Comiskey Park"
       },
       "opponentId": "CARL",
       "score": {
@@ -10090,7 +10102,8 @@
       "date": "11/26/1914",
       "location": {
         "city": "Syracuse",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Archbold Stadium"
       },
       "opponentId": "SYR",
       "score": {
@@ -10268,7 +10281,8 @@
       "date": "10/23/1915",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -10385,7 +10399,8 @@
       "date": "11/06/1915",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -10501,7 +10516,8 @@
       "date": "11/25/1915",
       "location": {
         "city": "Austin",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Clark Field"
       },
       "opponentId": "TEX",
       "score": {
@@ -10559,7 +10575,8 @@
       "date": "11/27/1915",
       "location": {
         "city": "Houston",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Rice Field"
       },
       "opponentId": "RICE",
       "score": {
@@ -10854,7 +10871,8 @@
       "date": "11/04/1916",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -11088,7 +11106,8 @@
       "date": "11/30/1916",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -11207,7 +11226,8 @@
       "date": "10/13/1917",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -11265,7 +11285,8 @@
       "date": "10/20/1917",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -11382,7 +11403,8 @@
       "date": "11/03/1917",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -11557,7 +11579,8 @@
       "date": "11/24/1917",
       "location": {
         "city": "Washington",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Cameron Stadium"
       },
       "opponentId": "WAS",
       "score": {
@@ -11617,7 +11640,8 @@
       "date": "09/28/1918",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Van Horn Field"
       },
       "opponentId": "CASE",
       "score": {
@@ -11851,7 +11875,8 @@
       "date": "11/23/1918",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -11909,7 +11934,8 @@
       "date": "11/28/1918",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -12087,7 +12113,8 @@
       "date": "10/18/1919",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -12204,7 +12231,8 @@
       "date": "11/01/1919",
       "location": {
         "city": "Indianapolis",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Washington Park"
       },
       "opponentId": "IND",
       "score": {
@@ -12262,7 +12290,8 @@
       "date": "11/08/1919",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -12379,7 +12408,8 @@
       "date": "11/22/1919",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -12615,7 +12645,8 @@
       "date": "10/16/1920",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -12732,7 +12763,8 @@
       "date": "10/30/1920",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -12907,7 +12939,8 @@
       "date": "11/20/1920",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Northwestern Field"
       },
       "opponentId": "NW",
       "score": {
@@ -13144,7 +13177,8 @@
       "date": "10/08/1921",
       "location": {
         "city": "Iowa City",
-        "state": "IA"
+        "state": "IA",
+        "stadium": "Iowa Field"
       },
       "opponentId": "IOWA",
       "score": {
@@ -13202,7 +13236,8 @@
       "date": "10/15/1921",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -13377,7 +13412,8 @@
       "date": "11/05/1921",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -13434,8 +13470,9 @@
       "isHomeGame": true,
       "date": "11/08/1921",
       "location": {
-        "city": "Manhattan",
-        "state": "NY"
+        "city": "New York",
+        "state": "NY",
+        "stadium": "Polo Grounds"
       },
       "opponentId": "RUTG",
       "score": {
@@ -13789,7 +13826,8 @@
       "date": "10/14/1922",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Stuart Field"
       },
       "opponentId": "PUR",
       "score": {
@@ -13906,7 +13944,8 @@
       "date": "10/28/1922",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -14023,7 +14062,8 @@
       "date": "11/11/1922",
       "location": {
         "city": "West Point",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "The Plain"
       },
       "opponentId": "ARMY",
       "score": {
@@ -14197,7 +14237,8 @@
       "date": "11/30/1922",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Nebraska Field"
       },
       "opponentId": "NEB",
       "score": {
@@ -14375,7 +14416,8 @@
       "date": "10/13/1923",
       "location": {
         "city": "Brooklyn",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Ebbets Field"
       },
       "opponentId": "ARMY",
       "score": {
@@ -14433,7 +14475,8 @@
       "date": "10/20/1923",
       "location": {
         "city": "Princeton",
-        "state": "NJ"
+        "state": "NJ",
+        "stadium": "Palmer Stadium"
       },
       "opponentId": "PRIN",
       "score": {
@@ -14609,7 +14652,8 @@
       "date": "11/10/1923",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NEB",
       "score": {
@@ -14961,8 +15005,9 @@
       "isHomeGame": true,
       "date": "10/19/1924",
       "location": {
-        "city": "Manhattan",
-        "state": "NY"
+        "city": "New York",
+        "state": "NY",
+        "stadium": "Polo Grounds"
       },
       "opponentId": "ARMY",
       "score": {
@@ -15020,7 +15065,8 @@
       "date": "10/25/1924",
       "location": {
         "city": "Princeton",
-        "state": "NJ"
+        "state": "NJ",
+        "stadium": "Palmer Stadium"
       },
       "opponentId": "PRIN",
       "score": {
@@ -15137,7 +15183,8 @@
       "date": "11/08/1924",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -15254,7 +15301,8 @@
       "date": "11/22/1924",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Municipal Grant Park Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -15312,7 +15360,8 @@
       "date": "11/29/1924",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Forbes Field"
       },
       "opponentId": "CAR",
       "score": {
@@ -15371,7 +15420,8 @@
       "date": "01/01/1924",
       "location": {
         "city": "Pasadena",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Rose Bowl"
       },
       "opponentId": "STAN",
       "score": {
@@ -15608,7 +15658,8 @@
       "date": "10/17/1925",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -15666,7 +15717,8 @@
       "date": "10/24/1925",
       "location": {
         "city": "Minneapolis",
-        "state": "MN"
+        "state": "MN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "MINN",
       "score": {
@@ -15724,7 +15776,8 @@
       "date": "10/31/1925",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -15782,7 +15835,8 @@
       "date": "11/07/1925",
       "location": {
         "city": "State College",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "New Beaver Field"
       },
       "opponentId": "PSU",
       "score": {
@@ -15958,7 +16012,8 @@
       "date": "11/26/1925",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NEB",
       "score": {
@@ -16077,7 +16132,8 @@
       "date": "10/09/1926",
       "location": {
         "city": "Minneapolis",
-        "state": "MN"
+        "state": "MN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "MINN",
       "score": {
@@ -16194,7 +16250,8 @@
       "date": "10/23/1926",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -16370,7 +16427,8 @@
       "date": "11/13/1926",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -16487,7 +16545,8 @@
       "date": "11/27/1926",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Forbes Field"
       },
       "opponentId": "CAR",
       "score": {
@@ -16545,7 +16604,8 @@
       "date": "12/04/1926",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -16664,7 +16724,8 @@
       "date": "10/08/1927",
       "location": {
         "city": "Detroit",
-        "state": "MI"
+        "state": "MI",
+        "stadium": "University of Detroit Stadium"
       },
       "opponentId": "DET",
       "score": {
@@ -16722,7 +16783,8 @@
       "date": "10/15/1927",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -16780,7 +16842,8 @@
       "date": "10/22/1927",
       "location": {
         "city": "Bloomington",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "IND",
       "score": {
@@ -16956,7 +17019,8 @@
       "date": "11/12/1927",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -17014,7 +17078,8 @@
       "date": "11/19/1927",
       "location": {
         "city": "Des Moines",
-        "state": "IA"
+        "state": "IA",
+        "stadium": "Drake Stadium"
       },
       "opponentId": "DRKE",
       "score": {
@@ -17072,7 +17137,8 @@
       "date": "11/26/1927",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Soldier Field"
       },
       "opponentId": "USC",
       "score": {
@@ -17191,7 +17257,8 @@
       "date": "10/06/1928",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -17249,7 +17316,8 @@
       "date": "10/13/1928",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Soldier Field"
       },
       "opponentId": "NAVY",
       "score": {
@@ -17307,7 +17375,8 @@
       "date": "10/20/1928",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -17424,7 +17493,8 @@
       "date": "11/03/1928",
       "location": {
         "city": "Philadelphia",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Franklin Field"
       },
       "opponentId": "PSU",
       "score": {
@@ -17482,7 +17552,8 @@
       "date": "11/10/1928",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -17599,7 +17670,8 @@
       "date": "12/01/1928",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -17659,7 +17731,8 @@
       "date": "10/05/1929",
       "location": {
         "city": "Bloomington",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "IND",
       "score": {
@@ -17717,7 +17790,8 @@
       "date": "10/12/1929",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -17892,7 +17966,8 @@
       "date": "11/02/1929",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -18068,7 +18143,8 @@
       "date": "11/23/1929",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -18126,7 +18202,8 @@
       "date": "11/30/1929",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -18363,7 +18440,8 @@
       "date": "10/25/1930",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -18480,7 +18558,8 @@
       "date": "11/08/1930",
       "location": {
         "city": "Philadelphia",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Franklin Field"
       },
       "opponentId": "PENN",
       "score": {
@@ -18597,7 +18676,8 @@
       "date": "11/22/1930",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -18655,7 +18735,8 @@
       "date": "11/29/1930",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Soldier Field"
       },
       "opponentId": "ARMY",
       "score": {
@@ -18713,7 +18794,8 @@
       "date": "12/06/1930",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -18773,7 +18855,8 @@
       "date": "10/03/1931",
       "location": {
         "city": "Bloomington",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "IND",
       "score": {
@@ -18831,7 +18914,8 @@
       "date": "10/10/1931",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Soldier Field"
       },
       "opponentId": "NW",
       "score": {
@@ -19007,7 +19091,8 @@
       "date": "10/31/1931",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "CAR",
       "score": {
@@ -19124,7 +19209,8 @@
       "date": "11/14/1931",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -19241,7 +19327,8 @@
       "date": "11/28/1931",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -19478,7 +19565,8 @@
       "date": "10/29/1932",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -19536,7 +19624,8 @@
       "date": "11/05/1932",
       "location": {
         "city": "Lawrence",
-        "state": "KS"
+        "state": "KS",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "KU",
       "score": {
@@ -19652,8 +19741,9 @@
       "isHomeGame": true,
       "date": "11/19/1932",
       "location": {
-        "city": "Cleveland",
-        "state": "OH"
+        "city": "Cleveland OH",
+        "state": "OH",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -19711,7 +19801,8 @@
       "date": "11/26/1932",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -19769,7 +19860,8 @@
       "date": "12/10/1932",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -19888,7 +19980,8 @@
       "date": "10/14/1933",
       "location": {
         "city": "Bloomington",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "IND",
       "score": {
@@ -19946,7 +20039,8 @@
       "date": "10/21/1933",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "CAR",
       "score": {
@@ -20063,7 +20157,8 @@
       "date": "11/04/1933",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -20180,7 +20275,8 @@
       "date": "11/18/1933",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -20297,7 +20393,8 @@
       "date": "12/02/1933",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -20593,7 +20690,8 @@
       "date": "11/03/1934",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -20651,7 +20749,8 @@
       "date": "11/10/1934",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -20709,7 +20808,8 @@
       "date": "11/17/1934",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -20767,7 +20867,8 @@
       "date": "11/24/1934",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -20825,7 +20926,8 @@
       "date": "12/08/1934",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -21002,7 +21104,8 @@
       "date": "10/12/1935",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -21119,7 +21222,8 @@
       "date": "10/26/1935",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -21177,7 +21281,8 @@
       "date": "11/02/1935",
       "location": {
         "city": "Columbus",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Ohio Stadium"
       },
       "opponentId": "OSU",
       "score": {
@@ -21294,7 +21399,8 @@
       "date": "11/16/1935",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -21590,7 +21696,8 @@
       "date": "10/24/1936",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -21715,7 +21822,8 @@
       "date": "11/07/1936",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -21778,7 +21886,8 @@
       "date": "11/14/1936",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -21903,7 +22012,8 @@
       "date": "12/05/1936",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -22027,7 +22137,8 @@
       "date": "10/09/1937",
       "location": {
         "city": "Champaign",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "ILL",
       "score": {
@@ -22202,7 +22313,8 @@
       "date": "10/30/1937",
       "location": {
         "city": "Minneapolis",
-        "state": "MN"
+        "state": "MN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "MINN",
       "score": {
@@ -22332,7 +22444,8 @@
       "date": "11/13/1937",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -22395,7 +22508,8 @@
       "date": "11/20/1937",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -22583,7 +22697,8 @@
       "date": "10/08/1938",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -22767,7 +22882,8 @@
       "date": "10/29/1938",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -22830,7 +22946,8 @@
       "date": "11/05/1938",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -22960,7 +23077,8 @@
       "date": "11/19/1938",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -23026,7 +23144,8 @@
       "date": "12/03/1938",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -23271,7 +23390,8 @@
       "date": "10/21/1939",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -23397,7 +23517,8 @@
       "date": "11/04/1939",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -23460,7 +23581,8 @@
       "date": "11/11/1939",
       "location": {
         "city": "Iowa City",
-        "state": "IA"
+        "state": "IA",
+        "stadium": "Iowa Stadium"
       },
       "opponentId": "IOWA",
       "score": {
@@ -23838,7 +23960,8 @@
       "date": "10/26/1940",
       "location": {
         "city": "Champaign",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "ILL",
       "score": {
@@ -23901,7 +24024,8 @@
       "date": "11/02/1940",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -23964,7 +24088,8 @@
       "date": "11/09/1940",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -24091,7 +24216,8 @@
       "date": "11/23/1940",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -24157,7 +24283,8 @@
       "date": "12/07/1940",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -24335,7 +24462,8 @@
       "date": "10/11/1941",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -24520,7 +24648,8 @@
       "date": "11/01/1941",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -24586,7 +24715,8 @@
       "date": "11/08/1941",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -24652,7 +24782,8 @@
       "date": "11/15/1941",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -24784,7 +24915,8 @@
       "date": "09/26/1942",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -25019,7 +25151,8 @@
       "date": "10/24/1942",
       "location": {
         "city": "Champaign",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "ILL",
       "score": {
@@ -25085,7 +25218,8 @@
       "date": "10/31/1942",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -25148,7 +25282,8 @@
       "date": "11/07/1942",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -25345,7 +25480,8 @@
       "date": "11/28/1942",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -25410,7 +25546,7 @@
       "isHomeGame": true,
       "date": "12/05/1942",
       "location": {
-        "city": "Chicago",
+        "city": "North Chicago",
         "state": "IL"
       },
       "opponentId": "GRTLK",
@@ -25476,7 +25612,8 @@
       "date": "09/25/1943",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -25660,7 +25797,8 @@
       "date": "10/16/1943",
       "location": {
         "city": "Madison",
-        "state": "WI"
+        "state": "WI",
+        "stadium": "Camp Randall Stadium"
       },
       "opponentId": "WIS",
       "score": {
@@ -25787,7 +25925,8 @@
       "date": "10/30/1943",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Cleveland Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -25853,7 +25992,8 @@
       "date": "11/06/1943",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -25919,7 +26059,8 @@
       "date": "11/13/1943",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -26052,7 +26193,8 @@
       "date": "11/27/1943",
       "location": {
         "city": "Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Comiskey Park"
       },
       "opponentId": "GRTLK",
       "score": {
@@ -26117,7 +26259,8 @@
       "date": "09/30/1944",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -26234,7 +26377,8 @@
       "date": "10/14/1944",
       "location": {
         "city": "Boston",
-        "state": "MA"
+        "state": "MA",
+        "stadium": "Fenway Park"
       },
       "opponentId": "DART",
       "score": {
@@ -26361,7 +26505,8 @@
       "date": "10/28/1944",
       "location": {
         "city": "Champaign",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "ILL",
       "score": {
@@ -26427,7 +26572,8 @@
       "date": "11/04/1944",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -26493,7 +26639,8 @@
       "date": "11/11/1944",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -26623,7 +26770,8 @@
       "date": "11/25/1944",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -26817,7 +26965,8 @@
       "date": "10/06/1945",
       "location": {
         "city": "Atlanta",
-        "state": "GA"
+        "state": "GA",
+        "stadium": "Grant Field"
       },
       "opponentId": "GT",
       "score": {
@@ -26939,7 +27088,8 @@
       "date": "10/20/1945",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -27066,7 +27216,8 @@
       "date": "11/03/1945",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Municipal Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -27132,7 +27283,8 @@
       "date": "11/10/1945",
       "location": {
         "city": "Bronx",
-        "state": "NY"
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -27198,7 +27350,8 @@
       "date": "11/17/1945",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -27261,7 +27414,8 @@
       "date": "11/24/1945",
       "location": {
         "city": "New Orleans",
-        "state": "LA"
+        "state": "LA",
+        "stadium": "Tulane Stadium"
       },
       "opponentId": "TULN",
       "score": {
@@ -27323,7 +27477,7 @@
       "isHomeGame": false,
       "date": "12/01/1945",
       "location": {
-        "city": "Chicago",
+        "city": "North Chicago",
         "state": "IL"
       },
       "opponentId": "GRTLK",
@@ -27389,7 +27543,8 @@
       "date": "09/28/1946",
       "location": {
         "city": "Champaign",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "ILL",
       "score": {
@@ -27570,7 +27725,8 @@
       "date": "10/26/1946",
       "location": {
         "city": "Iowa City",
-        "state": "IA"
+        "state": "IA",
+        "stadium": "Iowa Stadium"
       },
       "opponentId": "IOWA",
       "score": {
@@ -27636,7 +27792,8 @@
       "date": "11/02/1946",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -27698,8 +27855,9 @@
       "isHomeGame": true,
       "date": "11/09/1946",
       "location": {
-        "city": "Bronx",
-        "state": "NY"
+        "city": "New York",
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "ARMY",
       "score": {
@@ -27829,7 +27987,8 @@
       "date": "11/23/1946",
       "location": {
         "city": "New Orleans",
-        "state": "LA"
+        "state": "LA",
+        "stadium": "Tulane Stadium"
       },
       "opponentId": "TULN",
       "score": {
@@ -27961,7 +28120,8 @@
       "date": "10/04/1947",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -28019,7 +28179,8 @@
       "date": "10/11/1947",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Ross-Ade Stadium"
       },
       "opponentId": "PUR",
       "score": {
@@ -28210,7 +28371,8 @@
       "date": "11/01/1947",
       "location": {
         "city": "Cleveland",
-        "state": "OH"
+        "state": "OH",
+        "stadium": "Cleveland Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -28340,7 +28502,8 @@
       "date": "11/15/1947",
       "location": {
         "city": "Evanston",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Dyche Stadium"
       },
       "opponentId": "NW",
       "score": {
@@ -28467,7 +28630,8 @@
       "date": "12/06/1947",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -28594,7 +28758,8 @@
       "date": "10/02/1948",
       "location": {
         "city": "Pittsburgh",
-        "state": "PA"
+        "state": "PA",
+        "stadium": "Pitt Stadium"
       },
       "opponentId": "PITT",
       "score": {
@@ -28716,7 +28881,8 @@
       "date": "10/16/1948",
       "location": {
         "city": "Lincoln",
-        "state": "NE"
+        "state": "NE",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NEB",
       "score": {
@@ -28779,7 +28945,8 @@
       "date": "10/23/1948",
       "location": {
         "city": "Iowa City",
-        "state": "IA"
+        "state": "IA",
+        "stadium": "Iowa Stadium"
       },
       "opponentId": "IOWA",
       "score": {
@@ -28842,7 +29009,8 @@
       "date": "10/30/1948",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -28905,7 +29073,8 @@
       "date": "11/06/1948",
       "location": {
         "city": "Bloomington",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "IND",
       "score": {
@@ -29099,7 +29268,8 @@
       "date": "12/04/1948",
       "location": {
         "city": "Los Angeles",
-        "state": "CA"
+        "state": "CA",
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -29223,7 +29393,8 @@
       "date": "10/01/1949",
       "location": {
         "city": "Seattle",
-        "state": "WA"
+        "state": "WA",
+        "stadium": "Husky Stadium"
       },
       "opponentId": "WASH",
       "score": {
@@ -29281,7 +29452,8 @@
       "date": "10/08/1949",
       "location": {
         "city": "West Lafayette",
-        "state": "IN"
+        "state": "IN",
+        "stadium": "Ross-Ade Stadium"
       },
       "opponentId": "PUR",
       "score": {
@@ -29411,7 +29583,8 @@
       "date": "10/29/1949",
       "location": {
         "city": "Baltimore",
-        "state": "MD"
+        "state": "MD",
+        "stadium": "Memorial Stadium"
       },
       "opponentId": "NAVY",
       "score": {
@@ -29540,8 +29713,9 @@
       "isHomeGame": true,
       "date": "11/12/1949",
       "location": {
-        "city": "Bronx",
-        "state": "NY"
+        "city": "New York",
+        "state": "NY",
+        "stadium": "Yankee Stadium"
       },
       "opponentId": "UNC",
       "score": {
@@ -29735,7 +29909,8 @@
       "date": "12/03/1949",
       "location": {
         "city": "Dallas",
-        "state": "TX"
+        "state": "TX",
+        "stadium": "Cotton Bowl"
       },
       "opponentId": "SMU",
       "score": {
@@ -29932,7 +30107,7 @@
       "location": {
         "city": "New Orleans",
         "state": "LA",
-        "stadium": "Tulane Stadium (Sugar Bowl)"
+        "stadium": "Tulane Stadium"
       },
       "opponentId": "TULN",
       "score": {
@@ -30426,7 +30601,7 @@
       "location": {
         "city": "Detroit",
         "state": "MI",
-        "stadium": "Briggs Stadium[1]"
+        "stadium": "Briggs Stadium"
       },
       "opponentId": "DET",
       "score": {
@@ -32176,7 +32351,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -33551,7 +33726,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -37943,7 +38118,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -39138,7 +39313,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -40452,7 +40627,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -41763,7 +41938,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -43155,7 +43330,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -44537,7 +44712,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -45272,7 +45447,7 @@
       "location": {
         "city": "Miami",
         "state": "FL",
-        "stadium": "Miami Orange Bowl (night)"
+        "stadium": "Miami Orange Bowl"
       },
       "opponentId": "MIAMI",
       "score": {
@@ -46064,7 +46239,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -47573,7 +47748,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -49163,7 +49338,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -50695,7 +50870,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -52194,7 +52369,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -53654,7 +53829,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -54103,7 +54278,7 @@
         }
       },
       "time": "12:00 PM",
-      "coverage": "UNITED STATES, WGN"
+      "coverage": "USA / WGN-TV"
     },
     {
       "result": "W",
@@ -54285,7 +54460,7 @@
         "home": []
       },
       "time": "12:00 PM",
-      "coverage": "USA, WGN"
+      "coverage": "USA / WGN-TV"
     },
     {
       "result": "L",
@@ -54417,7 +54592,7 @@
         }
       },
       "time": "12:00 PM",
-      "coverage": "USA, WGN"
+      "coverage": "USA / WGN-TV"
     },
     {
       "result": "L",
@@ -54805,7 +54980,7 @@
         "home": []
       },
       "time": "12:30 PM",
-      "coverage": "USA, WGN"
+      "coverage": "USA / WGN-TV"
     },
     {
       "result": "W",
@@ -54866,7 +55041,7 @@
         "home": []
       },
       "time": "12:30 PM",
-      "coverage": "USA, WGN"
+      "coverage": "USA / WGN-TV"
     },
     {
       "result": "W",
@@ -55128,7 +55303,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -56665,7 +56840,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -56863,7 +57038,7 @@
         }
       },
       "time": "8:00 PM",
-      "coverage": "RAYCOM AND WGN"
+      "coverage": "RAYCOM / WGN"
     },
     {
       "result": "W",
@@ -57129,8 +57304,7 @@
           "ap": 1
         }
       },
-      "time": "4:00 PM",
-      "coverage": "NONE"
+      "time": "4:00 PM"
     },
     {
       "result": "W",
@@ -58359,7 +58533,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -60047,7 +60221,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -61648,7 +61822,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -63263,7 +63437,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -64830,7 +65004,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -66426,7 +66600,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -68140,7 +68314,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -70013,7 +70187,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -72084,7 +72258,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -73422,7 +73596,7 @@
       },
       "sportsReferenceGameId": "2008-09-20-michigan-state",
       "time": "3:30 PM",
-      "coverage": "ABC/ESPN"
+      "coverage": "ABC / ESPN"
     },
     {
       "result": "W",
@@ -73658,7 +73832,7 @@
         }
       },
       "time": "3:30 PM",
-      "coverage": "ABC/ESPN2"
+      "coverage": "ABC / ESPN2"
     },
     {
       "result": "W",
@@ -74054,7 +74228,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -76040,7 +76214,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -77219,7 +77393,7 @@
         }
       },
       "time": "5:30 PM",
-      "coverage": "ESPN/ESPN 3D"
+      "coverage": "ESPN"
     }
   ],
   "2012": [
@@ -78157,7 +78331,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -80306,7 +80480,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "opponentId": "USC",
       "score": {
@@ -82423,7 +82597,7 @@
       "location": {
         "city": "Los Angeles",
         "state": "CA",
-        "stadium": "LA Memorial Coliseum"
+        "stadium": "Los Angeles Memorial Coliseum"
       },
       "stats": {
         "away": {

@@ -26,8 +26,16 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
     }
   }
 
-  if (time && game.coverage) {
-    time = `${game.coverage}, ${time}`;
+  if (time && game.coverage && game.coverage !== 'TBD') {
+    time = (
+      <React.Fragment>
+        <p>{time}</p>
+        <img
+          alt={`${game.coverage} logo`}
+          src={require(`../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+        />
+      </React.Fragment>
+    );
   }
 
   const homeApRanking = _.get(game, 'rankings.home.ap');
@@ -71,7 +79,7 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
       </div>
       <div className="matchup-details">
         <p className="date">{date}</p>
-        <p className="time">{time}</p>
+        <div className="time">{time}</div>
         <p className="stadium">{stadium}</p>
         <p className="location">{location}</p>
       </div>

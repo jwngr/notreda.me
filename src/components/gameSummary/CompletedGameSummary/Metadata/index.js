@@ -24,14 +24,18 @@ const Metadata = ({game}) => {
     }
   }
 
-  let tvCoverageIcon;
-  if (game.coverage && game.coverage !== 'TBD') {
-    tvCoverageIcon = (
-      <img
-        alt={`${game.coverage} logo`}
-        src={require(`../../../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
-      />
-    );
+  let tvCoverageContent;
+  if (game.coverage) {
+    try {
+      tvCoverageContent = (
+        <img
+          alt={`${game.coverage} logo`}
+          src={require(`../../../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+        />
+      );
+    } catch (error) {
+      tvCoverageContent = <p>{game.coverage}</p>;
+    }
   }
 
   let stadium = game.location.stadium || null;
@@ -39,7 +43,6 @@ const Metadata = ({game}) => {
     ? `${game.location.city}, ${game.location.state}`
     : `${game.location.city}, ${game.location.country}`;
 
-  // TODO: get correct stadium
   return (
     <MetadataWrapper>
       <MetadataDateContainer>
@@ -57,7 +60,7 @@ const Metadata = ({game}) => {
         <p>{stadium}</p>
         <p>{location}</p>
         <MetadataCoverage>
-          {tvCoverageIcon}
+          {tvCoverageContent}
           <p>{time}</p>
         </MetadataCoverage>
       </MetadataContent>
