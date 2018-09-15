@@ -32,11 +32,6 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
     return <GameContainer key={index} index={index} game={gameClone} year={selectedYear} />;
   });
 
-  const scheduleContainerClasses = classNames({
-    'football-schedule-container': true,
-    'nav-menu-open': navMenuOpen,
-  });
-
   const closeNavMenuIfOpen = () => {
     if (navMenuOpen) {
       toggleNavMenu();
