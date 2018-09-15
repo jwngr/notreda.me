@@ -2,7 +2,6 @@ import _ from 'lodash';
 import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import {Fragment} from 'redux-little-router';
 
 import GameContainer from '../../containers/GameContainer';
