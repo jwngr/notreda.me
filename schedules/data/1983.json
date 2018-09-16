@@ -62,7 +62,8 @@
         "ap": 5
       }
     },
-    "time": "2:30 PM"
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "L",
@@ -127,7 +128,8 @@
         "ap": 4
       }
     },
-    "time": "2:30 PM"
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "L",
@@ -193,7 +195,8 @@
       }
     },
     "time": "9:00 PM",
-    "coverage": "CBS"
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -253,7 +256,8 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM"
+    "time": "3:30 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -313,7 +317,8 @@
       "away": [],
       "home": []
     },
-    "time": "7:00 PM"
+    "time": "7:00 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -373,7 +378,8 @@
       "away": [],
       "home": []
     },
-    "time": "1:00 PM"
+    "time": "1:00 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -433,7 +439,8 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM"
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -498,7 +505,8 @@
         "ap": 19
       }
     },
-    "time": "12:00 PM"
+    "time": "12:00 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "L",
@@ -564,7 +572,8 @@
       }
     },
     "time": "3:45 PM",
-    "coverage": "CBS"
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "L",
@@ -624,7 +633,8 @@
       "away": [],
       "home": []
     },
-    "time": "1:00 PM"
+    "time": "1:00 PM",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "L",
@@ -685,7 +695,8 @@
       "home": []
     },
     "time": "12:35 PM",
-    "coverage": "ABC"
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust"
   },
   {
     "result": "W",
@@ -752,6 +763,8 @@
       }
     },
     "time": "8:00 PM",
-    "coverage": "KATZ"
+    "coverage": "KATZ",
+    "nickname": "Liberty Bowl",
+    "headCoach": "Gerry Faust"
   }
 ]

@@ -64,7 +64,8 @@
       }
     },
     "time": "1:00 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "L",
@@ -134,7 +135,8 @@
       }
     },
     "time": "2:30 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -204,7 +206,8 @@
       }
     },
     "time": "1:00 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "L",
@@ -274,7 +277,8 @@
       }
     },
     "time": "3:30 PM",
-    "coverage": "ABC"
+    "coverage": "ABC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -341,7 +345,8 @@
       }
     },
     "time": "2:30 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -408,7 +413,8 @@
       }
     },
     "time": "12:00 PM",
-    "coverage": "CBS"
+    "coverage": "CBS",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -475,7 +481,8 @@
       }
     },
     "time": "12:00 PM",
-    "coverage": "CBS"
+    "coverage": "CBS",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -542,7 +549,8 @@
       }
     },
     "time": "2:30 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -609,7 +617,8 @@
       }
     },
     "time": "2:30 PM",
-    "coverage": "NBC"
+    "coverage": "NBC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -676,7 +685,8 @@
       }
     },
     "time": "3:30 PM",
-    "coverage": "CBS"
+    "coverage": "CBS",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "W",
@@ -743,7 +753,8 @@
       }
     },
     "time": "3:30 PM",
-    "coverage": "ABC"
+    "coverage": "ABC",
+    "headCoach": "Bob Davie"
   },
   {
     "result": "L",
@@ -755,7 +766,7 @@
       "state": "AZ",
       "stadium": "Sun Devil Stadium"
     },
-    "nickname": "Tostitos Fiesta Bowl",
+    "nickname": "Fiesta Bowl",
     "opponentId": "ORST",
     "score": {
       "away": 41,
@@ -814,6 +825,7 @@
       }
     },
     "time": "8:00 PM",
-    "coverage": "ABC"
+    "coverage": "ABC",
+    "headCoach": "Bob Davie"
   }
 ]

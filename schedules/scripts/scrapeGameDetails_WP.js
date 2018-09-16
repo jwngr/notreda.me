@@ -16,7 +16,7 @@ const getHtmlForUrl = (url) => {
 };
 
 const fetchGameDetailsForYear = (year) => {
-  console.log(`[INFO] Fetching year ${year}`);
+  console.log(`[INFO] Fetching year ${year}.`);
 
   return getHtmlForUrl(
     `https://en.wikipedia.org/wiki/${year}_Notre_Dame_Fighting_Irish_football_team`
