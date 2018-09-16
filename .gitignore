@@ -14,6 +14,7 @@ yarn-error.log*
 
 # Firebase
 firebase-debug.log
+.firebase/
 
 # Miscellaneous
 .DS_Store
