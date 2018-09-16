@@ -1,6 +1,6 @@
 body {
   /* Background image from: http://subtlepatterns.com/awesome-pattern */
-  /*background-image: url("./images/background.png");*/
+  background-image: url('./images/background.png');
   background-color: #efefef;
 }
 
