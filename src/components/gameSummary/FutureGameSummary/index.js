@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import React from 'react';
-import format from 'date-fns/format';
 import PropTypes from 'prop-types';
 
 import TeamLogo from '../../TeamLogo';
