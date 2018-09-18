@@ -1,3 +1,4 @@
+import {darken} from 'polished';
 import styled from 'styled-components';
 
 import TeamLogo from './TeamLogo';
@@ -23,12 +24,12 @@ import InternalLink from './common/InternalLink';
 //   selected: 'rgba(220, 180, 63, 0.6)',
 // };
 
-export const Wrapper = styled(InternalLink)`
+const GameWrapper = styled(InternalLink)`
   display: flex;
   height: 52px;
   text-decoration: none;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #302205;
   transition: transform 0.2s;
 
@@ -38,6 +39,7 @@ export const Wrapper = styled(InternalLink)`
 
   @media (max-width: 600px) {
     width: 100%;
+    padding: 0 4px;
     justify-content: space-between;
 
     &:hover {
@@ -46,7 +48,7 @@ export const Wrapper = styled(InternalLink)`
   }
 `;
 
-export const HomeGameWrapper = styled(Wrapper)`
+export const HomeGameWrapper = styled(GameWrapper)`
   &.selected {
     background: rgba(220, 180, 63, 0.5);
   }
@@ -78,7 +80,7 @@ export const HomeGameWrapper = styled(Wrapper)`
 //   }
 // `;
 
-export const AwayGameWrapper = styled(Wrapper)`
+export const AwayGameWrapper = styled(GameWrapper)`
   background-image: repeating-linear-gradient(
     135deg,
     #002b5b40,
@@ -144,7 +146,6 @@ export const AwayGameWrapper = styled(Wrapper)`
 export const OpponentWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-around;
 `;
 
 export const OpponentLogo = styled(TeamLogo)`
@@ -171,8 +172,6 @@ export const GameDate = styled.p`
 `;
 
 export const OpponentDetailsWrapper = styled.div`
-  font-size: 20px;
-  font-family: 'Bungee';
   width: 250px;
   display: flex;
   align-items: center;
@@ -183,20 +182,33 @@ export const OpponentDetailsWrapper = styled.div`
 `;
 
 export const AwayGamePrefix = styled.span`
-  margin-right: 5px;
-`;
-
-export const OpponentRanking = styled.span`
-  font-size: 14px;
-  margin-right: 5px;
-  /*color: #444;*/
+  font-size: 16px;
+  font-family: 'Bungee';
+  margin-right: 4px;
 
   @media (max-width: 600px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 `;
 
-export const OpponentName = styled.span``;
+export const OpponentRanking = styled.span`
+  font-size: 16px;
+  font-family: 'Bungee';
+  margin-right: 4px;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+`;
+
+export const OpponentName = styled.span`
+  font-size: 20px;
+  font-family: 'Bungee';
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+`;
 
 export const Location = styled.p`
   font-family: 'Merriweather', serif;
@@ -213,54 +225,72 @@ export const Location = styled.p`
 `;
 
 export const Score = styled.p`
+  display: flex;
+  min-width: 112px;
   font-size: 22px;
   font-family: 'Bungee';
   text-align: center;
-  width: 120px;
-
-  .win {
-    color: #465510; /* $secondary-green */
-    margin-right: 5px;
-  }
-
-  .loss {
-    color: #5f1709; /* $secondary-red */
-    margin-right: 8px;
-  }
-
-  .tie {
-    color: #302205; /* $secondary-black */
-    margin-right: 8px;
-  }
+  align-items: center;
+  justify-content: space-between;
 
   @media (max-width: 600px) {
-    margin-right: 12px;
+    font-size: 18px;
+    margin-right: 0;
+    min-width: 100px;
   }
+`;
+
+export const ScoreResult = styled.p`
+  width: 20px;
+  margin-right: 4px;
+
+  &.win {
+    color: ${(props) => props.theme.colors.green};
+    margin-right: 5px;
+    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.green)};
+  }
+
+  &.loss {
+    color: ${(props) => props.theme.colors.red};
+    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.red)};
+  }
+
+  &.tie {
+    color: ${(props) => props.theme.colors.mustard};
+    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.mustard)};
+  }
+`;
+
+export const ScoreTotals = styled.p`
+  flex: 1;
 `;
 
 export const TelevisionCoverage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  min-width: 80px;
+  min-width: 120px;
 
   p {
     width: auto;
     font-family: 'Merriweather', serif;
-    font-size: 14px;
-    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   img {
     height: 32px;
+    margin-left: 10px;
   }
 
   @media (max-width: 600px) {
-    width: initial;
+    min-width: 100px;
 
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
 
     img {

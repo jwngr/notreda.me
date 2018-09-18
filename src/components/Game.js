@@ -6,20 +6,22 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import {
-  AwayGamePrefix,
+  Score,
   GameDate,
-  OpponentWrapper,
-  DateOpponentDetailsWrapper,
   Location,
+  ScoreResult,
+  ScoreTotals,
   OpponentLogo,
   OpponentName,
-  OpponentRanking,
-  OpponentDetailsWrapper,
-  Score,
-  TelevisionCoverage,
-  HomeGameWrapper,
+  AwayGamePrefix,
+  OpponentWrapper,
   AwayGameWrapper,
+  HomeGameWrapper,
+  OpponentRanking,
   ShamrockSeriesLogo,
+  TelevisionCoverage,
+  OpponentDetailsWrapper,
+  DateOpponentDetailsWrapper,
 } from './Game.styles';
 
 const Game = ({game, year, index, selected}) => {
@@ -28,18 +30,21 @@ const Game = ({game, year, index, selected}) => {
     const opponentScore = game.isHomeGame ? game.score.away : game.score.home;
     const notreDameScore = game.isHomeGame ? game.score.home : game.score.away;
 
-    let result;
+    let scoreResult;
     if (notreDameScore > opponentScore) {
-      result = <span className="win">W</span>;
+      scoreResult = <ScoreResult className="win">W</ScoreResult>;
     } else if (opponentScore > notreDameScore) {
-      result = <span className="loss">L</span>;
+      scoreResult = <ScoreResult className="loss">L</ScoreResult>;
     } else {
-      result = <span className="tie">T</span>;
+      scoreResult = <ScoreResult className="tie">T</ScoreResult>;
     }
 
     lastColumnContent = (
       <Score>
-        {result} {notreDameScore} - {opponentScore}
+        {scoreResult}
+        <ScoreTotals>
+          {notreDameScore} - {opponentScore}
+        </ScoreTotals>
       </Score>
     );
   } else if ('timestamp' in game || 'fullDate' in game) {

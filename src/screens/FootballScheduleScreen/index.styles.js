@@ -9,11 +9,10 @@ export const ScheduleScreenWrapper = styled.div`
   padding: 24px;
   border: solid 3px #302205;
   background-color: rgba(220, 180, 57, 0.4);
-  min-width: 400px;
 
   @media (max-width: 600px) {
-    margin: 39px 8px 8px 8px;
-    padding: 40px 8px 8px 8px;
+    margin: 39px 6px 6px 6px;
+    padding: 40px 0px 0px 0px;
   }
 
   &.nav-menu-open {
@@ -36,14 +35,6 @@ export const ScheduleWrapper = styled.div`
     margin-left: 12px;
   }
 
-  @media (max-width: 800px) {
-    & > div {
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-    }
-  }
-
   @media (max-width: 1000px and min-width: 801px) {
     & > div:first-of-type {
       width: 40%;
@@ -51,6 +42,15 @@ export const ScheduleWrapper = styled.div`
 
     & > div:last-of-type {
       width: 60%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    & > div:first-of-type,
+    & > div:last-of-type {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 `;
@@ -97,6 +97,16 @@ export const NavMenuButton = styled.div`
 
   & > span:after {
     top: calc((-2rem / 4) - 2px);
+  }
+
+  @media (max-width: 600px) {
+    top: -2px;
+    right: 0;
+  }
+
+  @media (max-width: 400px) {
+    top: -2px;
+    right: 8px;
   }
 `;
 
@@ -149,10 +159,9 @@ const PreviousAndNextYearLink = styled(InternalLink)`
   font-family: 'Bungee';
   font-size: 18px;
   text-decoration: none;
-  -webkit-text-stroke: 1px;
+  ${'' /* -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: ${(props) => props.theme.colors.black};
-  text-shadow: ${(props) => props.theme.colors.black} 1px 1px;
-  padding: 2px 4px;
+  text-shadow: ${(props) => props.theme.colors.black} 1px 1px; */} padding: 2px 4px;
   color: ${(props) => props.theme.colors.white};
   background-color: ${(props) => props.theme.colors.green};
   border: solid 3px #302205;
@@ -170,11 +179,7 @@ const PreviousAndNextYearLink = styled(InternalLink)`
   }
 
   @media (max-width: 600px) {
-    font-size: 14px;
-
-    &:hover {
-      background-color: ${(props) => props.theme.colors.green};
-    }
+    display: none;
   }
 `;
 
