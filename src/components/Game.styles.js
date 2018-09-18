@@ -219,7 +219,11 @@ export const Location = styled.p`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 600px) {
+    display: none;
+  }
+
+  @media (min-width: 800px) and (max-width: 1200px) {
     display: none;
   }
 `;

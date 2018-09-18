@@ -3,9 +3,11 @@ import styled from 'styled-components';
 
 export const MetadataWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};
+  width: 100%;
+  max-width: 520px;
 
-  @media (max-width: 600px) {
-    width: 100%;
+  @media (max-width: 800px) {
+    max-width: 420px;
   }
 `;
 
@@ -29,6 +31,7 @@ export const MetadataDate = styled.p`
 
 export const MetadataContent = styled.div`
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -47,12 +50,10 @@ export const MetadataContent = styled.div`
     margin-bottom: 0;
   }
 
-  @media (max-width: 600px) {
-    max-width: initial;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
+  max-width: initial;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 `;
 
 export const MetadataLocation = styled.div`

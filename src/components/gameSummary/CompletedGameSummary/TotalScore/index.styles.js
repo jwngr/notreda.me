@@ -11,7 +11,7 @@ export const TotalScoreWrapper = styled.div`
   margin-bottom: 32px;
   width: 100%;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     & > div {
       display: flex;
       flex-direction: column;
@@ -29,7 +29,7 @@ export const TeamWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     width: 100%;
   }
 `;
@@ -49,7 +49,7 @@ export const TeamImage = styled(TeamLogo)`
     margin-right: 8px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     width: 40px;
     height: 40px;
     margin: 0 12px;
@@ -66,7 +66,7 @@ export const TeamDetailsWrapper = styled.div`
     text-align: right;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     flex: 1;
     width: 100%;
 
@@ -100,7 +100,7 @@ export const Score = styled.p`
   font-size: 40px;
   white-space: nowrap;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     flex: 1;
     font-size: 32px;
   }

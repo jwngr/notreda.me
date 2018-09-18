@@ -1,5 +1,4 @@
 import React from 'react';
-import Media from 'react-media';
 import PropTypes from 'prop-types';
 import format from 'date-fns/format';
 
@@ -39,6 +38,22 @@ const Metadata = ({game}) => {
     }
   }
 
+  let metadataCoverage;
+  if (time !== 'TBD' && tvCoverageContent !== 'TBD') {
+    metadataCoverage = (
+      <MetadataCoverage>
+        {tvCoverageContent}
+        <p>{time}</p>
+      </MetadataCoverage>
+    );
+  } else if (time !== 'TBD') {
+    metadataCoverage = (
+      <MetadataCoverage>
+        <p>{time}</p>
+      </MetadataCoverage>
+    );
+  }
+
   let stadium = game.location.stadium || null;
   let location = game.location.state
     ? `${game.location.city}, ${game.location.state}`
@@ -47,25 +62,14 @@ const Metadata = ({game}) => {
   return (
     <MetadataWrapper>
       <MetadataDateContainer>
-        <Media query="(min-width: 600px) and (max-width: 1200px)">
-          {(matches) =>
-            matches ? (
-              <MetadataDate>{format(date, 'MMM D, YYYY')}</MetadataDate>
-            ) : (
-              <MetadataDate>{format(date, 'MMMM D, YYYY')}</MetadataDate>
-            )
-          }
-        </Media>
+        <MetadataDate>{format(date, 'MMMM D, YYYY')}</MetadataDate>
       </MetadataDateContainer>
       <MetadataContent>
         <MetadataLocation>
           <p>{stadium}</p>
           <p>{location}</p>
         </MetadataLocation>
-        <MetadataCoverage>
-          {tvCoverageContent}
-          <p>{time}</p>
-        </MetadataCoverage>
+        {metadataCoverage}
       </MetadataContent>
     </MetadataWrapper>
   );

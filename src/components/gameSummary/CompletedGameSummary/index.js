@@ -6,17 +6,14 @@ import LineScore from './Linescore';
 import GameStats from './GameStats';
 import TotalScore from './TotalScore';
 
-import {CompletedGameWrapper, LinescoreMetadataWrapper} from './index.styles';
+import {CompletedGameWrapper} from './index.styles';
 
 const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
   return (
     <CompletedGameWrapper>
       <TotalScore game={game} homeTeam={homeTeam} awayTeam={awayTeam} />
-
-      <LinescoreMetadataWrapper>
-        <LineScore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
-        <Metadata game={game} />
-      </LinescoreMetadataWrapper>
+      <Metadata game={game} />
+      <LineScore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
 
       <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
     </CompletedGameWrapper>

@@ -86,7 +86,7 @@ const GameStatsRow = ({
 
   return (
     <GameStatsRowWrapper className={gameStatsRowClassNames}>
-      <Media query="(max-width: 1000px)">
+      <Media query="(max-width: 1024px)">
         {(matches) =>
           matches ? (
             <StatName>{shortStatNames[statName] || statName}</StatName>

@@ -4,10 +4,12 @@ import styled from 'styled-components';
 export const GameStatsWrapper = styled.div`
   width: 100%;
   max-width: 520px;
+  margin-top: 32px;
   border: solid 3px ${(props) => props.theme.colors.black};
 
-  @media (max-width: 1000px) {
-    margin-top: 8px;
+  @media (max-width: 800px) {
+    max-width: 420px;
+    margin-top: 40px;
   }
 `;
 
