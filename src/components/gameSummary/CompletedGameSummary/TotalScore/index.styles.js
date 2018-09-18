@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import TeamLogo from '../../../TeamLogo';
+
 export const TotalScoreWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -7,51 +9,70 @@ export const TotalScoreWrapper = styled.div`
   justify-content: center;
   font-family: 'Bungee';
   margin-bottom: 32px;
+  width: 100%;
+
+  @media (max-width: 600px) {
+    & > div {
+      display: flex;
+      flex-direction: column;
+
+      & > *:first-of-type {
+        margin-bottom: 12px;
+      }
+    }
+  }
 `;
 
 export const TeamWrapper = styled.div`
+  flex: 1;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
-  img {
-    height: 60px;
-    width: 60px;
+  @media (max-width: 600px) {
+    width: 100%;
   }
+`;
 
-  &.away img {
+export const TeamImage = styled(TeamLogo)`
+  height: 60px;
+  width: 60px;
+
+  &.away {
     order: 1;
     margin-left: 8px;
     margin-right: 20px;
   }
 
-  &.home img {
+  &.home {
     margin-left: 20px;
     margin-right: 8px;
   }
 
   @media (max-width: 600px) {
-    img {
-      height: 40px;
-      width: 40px;
-    }
-
-    &.away img {
-      margin-right: 12px;
-    }
-
-    &.home img {
-      margin-left: 12px;
-    }
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
   }
 `;
 
 export const TeamDetailsWrapper = styled.div`
   display: flex;
+  text-align: left;
   flex-direction: column;
   font-family: 'Merriweather', serif;
 
   &.away {
     text-align: right;
+  }
+
+  @media (max-width: 600px) {
+    flex: 1;
+    width: 100%;
+
+    &.home {
+      text-align: right;
+    }
   }
 `;
 
@@ -67,6 +88,7 @@ export const TeamNickname = styled.p`
 export const TeamRanking = styled.span`
   font-size: 12px;
   color: #777;
+  margin-right: 4px;
 `;
 
 export const TeamRecord = styled.p`
@@ -79,6 +101,7 @@ export const Score = styled.p`
   white-space: nowrap;
 
   @media (max-width: 600px) {
+    flex: 1;
     font-size: 32px;
   }
 `;

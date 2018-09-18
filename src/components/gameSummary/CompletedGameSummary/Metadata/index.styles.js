@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 export const MetadataWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const MetadataDateContainer = styled.div`
@@ -12,8 +16,8 @@ export const MetadataDateContainer = styled.div`
 
 export const MetadataDate = styled.p`
   display: inline;
-  padding: 5px;
-  font-size: 14px;
+  padding: 4px 8px;
+  font-size: 16px;
   font-family: 'Bungee';
   color: ${(props) => props.theme.colors.white};
   background-color: ${(props) => props.theme.colors.green};
@@ -28,7 +32,7 @@ export const MetadataContent = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: -16px;
+  margin-top: -20px;
   text-align: center;
   padding: 8px;
   max-width: 200px;
@@ -45,7 +49,18 @@ export const MetadataContent = styled.div`
 
   @media (max-width: 600px) {
     max-width: initial;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
+`;
+
+export const MetadataLocation = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
 `;
 
 export const MetadataCoverage = styled.div`

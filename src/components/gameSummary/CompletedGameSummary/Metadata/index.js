@@ -8,6 +8,7 @@ import {
   MetadataWrapper,
   MetadataContent,
   MetadataCoverage,
+  MetadataLocation,
   MetadataDateContainer,
 } from './index.styles';
 
@@ -46,7 +47,7 @@ const Metadata = ({game}) => {
   return (
     <MetadataWrapper>
       <MetadataDateContainer>
-        <Media query="(max-width: 1200px)">
+        <Media query="(min-width: 600px) and (max-width: 1200px)">
           {(matches) =>
             matches ? (
               <MetadataDate>{format(date, 'MMM D, YYYY')}</MetadataDate>
@@ -57,8 +58,10 @@ const Metadata = ({game}) => {
         </Media>
       </MetadataDateContainer>
       <MetadataContent>
-        <p>{stadium}</p>
-        <p>{location}</p>
+        <MetadataLocation>
+          <p>{stadium}</p>
+          <p>{location}</p>
+        </MetadataLocation>
         <MetadataCoverage>
           {tvCoverageContent}
           <p>{time}</p>

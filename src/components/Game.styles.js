@@ -224,7 +224,7 @@ export const Location = styled.p`
   }
 `;
 
-export const Score = styled.p`
+export const Score = styled.div`
   display: flex;
   min-width: 112px;
   font-size: 22px;
@@ -264,7 +264,7 @@ export const ScoreResult = styled.p`
   }
 `;
 
-export const ScoreTotals = styled.p`
+export const ScoreTotals = styled.div`
   flex: 1;
 `;
 

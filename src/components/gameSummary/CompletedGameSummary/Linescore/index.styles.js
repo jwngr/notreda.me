@@ -5,6 +5,7 @@ export const LinescoreWrapper = styled.div`
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: space-around;
   flex-direction: row;
   font-family: 'Bungee';
   margin-right: 20px;
@@ -13,6 +14,10 @@ export const LinescoreWrapper = styled.div`
   @media (max-width: 1000px) {
     margin-right: 0;
     margin-bottom: 32px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
   }
 `;
 
@@ -24,6 +29,9 @@ const LinescoreColumn = styled.div`
   margin-top: -17px;
 
   p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
     height: 28px;
     margin-bottom: 4px;
@@ -31,6 +39,12 @@ const LinescoreColumn = styled.div`
 
   p:last-of-type {
     margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    p:not(:first-of-type) {
+      height: 40px;
+    }
   }
 `;
 
@@ -42,18 +56,20 @@ export const AbbreviationColumn = styled(LinescoreColumn)`
 
   @media (max-width: 600px) {
     font-size: 20px;
+    flex: initial;
+    max-width: 80px;
+    min-width: initial;
   }
 `;
 
 export const ScoreColumn = styled(LinescoreColumn)`
-  min-width: 40px;
-  max-width: 80px;
+  width: 40px;
 
   p:first-of-type {
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    padding: 4px 8px 20px 8px;
+    padding: 0 8px;
     background-color: ${(props) => props.theme.colors.green};
     border: solid 3px ${(props) => props.theme.colors.black};
     color: ${(props) => props.theme.colors.white};

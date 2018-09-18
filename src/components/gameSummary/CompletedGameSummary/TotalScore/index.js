@@ -1,12 +1,12 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import PropTypes from 'prop-types';
-
-import TeamLogo from '../../../TeamLogo';
 
 import {
   Score,
   TeamName,
+  TeamImage,
   TeamRecord,
   TeamRanking,
   TeamWrapper,
@@ -15,19 +15,27 @@ import {
   TotalScoreWrapper,
 } from './index.styles';
 
-const Team = ({team, ranking, record, homeOrAway}) => (
-  <TeamWrapper className={homeOrAway}>
-    <TeamLogo team={team} />
-    <TeamDetailsWrapper className={homeOrAway}>
-      <TeamName>
-        {ranking && <TeamRanking>#{ranking}</TeamRanking>}
-        {team.name}
-      </TeamName>
-      <TeamNickname>{team.nickname}</TeamNickname>
-      {record && <TeamRecord>{record}</TeamRecord>}
-    </TeamDetailsWrapper>
-  </TeamWrapper>
-);
+const Team = ({team, score, ranking, record, homeOrAway}) => {
+  let scoreContent;
+  if (score) {
+    scoreContent = <Score>{score}</Score>;
+  }
+
+  return (
+    <TeamWrapper className={homeOrAway}>
+      <TeamImage team={team} className={homeOrAway} />
+      <TeamDetailsWrapper className={homeOrAway}>
+        <TeamName>
+          {ranking && <TeamRanking>#{ranking}</TeamRanking>}
+          {team.name}
+        </TeamName>
+        <TeamNickname>{team.nickname}</TeamNickname>
+        {record && <TeamRecord>{record}</TeamRecord>}
+      </TeamDetailsWrapper>
+      {scoreContent}
+    </TeamWrapper>
+  );
+};
 
 Team.propTypes = {
   team: PropTypes.object.isRequired,
@@ -58,13 +66,48 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
   }
 
   return (
-    <TotalScoreWrapper>
-      <Team team={awayTeam} ranking={awayApRanking} record={awayRecord} homeOrAway="away" />
-      <Score>
-        {game.score.away} - {game.score.home}
-      </Score>
-      <Team team={homeTeam} ranking={homeApRanking} record={homeRecord} homeOrAway="home" />
-    </TotalScoreWrapper>
+    <Media query="(max-width: 600px)">
+      {(matches) =>
+        matches ? (
+          <TotalScoreWrapper>
+            <div>
+              <TeamDetailsWrapper className="away">
+                <TeamName>
+                  {awayApRanking && <TeamRanking>#{awayApRanking}</TeamRanking>}
+                  {awayTeam.name}
+                </TeamName>
+                <TeamNickname>{awayTeam.nickname}</TeamNickname>
+                {awayRecord && <TeamRecord>{awayRecord}</TeamRecord>}
+              </TeamDetailsWrapper>
+              <TeamDetailsWrapper className="home">
+                <TeamName>
+                  {homeApRanking && <TeamRanking>#{homeApRanking}</TeamRanking>}
+                  {homeTeam.name}
+                </TeamName>
+                <TeamNickname>{homeTeam.nickname}</TeamNickname>
+                {homeRecord && <TeamRecord>{homeRecord}</TeamRecord>}
+              </TeamDetailsWrapper>
+            </div>
+            <div>
+              <TeamImage team={awayTeam} />
+              <TeamImage team={homeTeam} />
+            </div>
+            <div>
+              <Score>{game.score.away}</Score>
+              <Score>{game.score.home}</Score>
+            </div>
+          </TotalScoreWrapper>
+        ) : (
+          <TotalScoreWrapper>
+            <Team team={awayTeam} ranking={awayApRanking} record={awayRecord} homeOrAway="away" />
+            <Score>
+              {game.score.away} - {game.score.home}
+            </Score>
+            <Team team={homeTeam} ranking={homeApRanking} record={homeRecord} homeOrAway="home" />
+          </TotalScoreWrapper>
+        )
+      }
+    </Media>
   );
 };
 

@@ -5,6 +5,10 @@ export const CompletedGameWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media (max-width: 600px) {
+    padding: 8px;
+  }
 `;
 
 export const LinescoreMetadataWrapper = styled.div`

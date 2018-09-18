@@ -1,11 +1,17 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import './index.css';
+import {StatName, StatValue, GameStatsRowWrapper} from './index.styles';
 
-import {} from './index.styles';
+const shortStatNames = {
+  '3rd Down Efficiency': '3rd Down Eff.',
+  '4th Down Efficiency': '4th Down Eff.',
+  'Completions / Attempts': 'Comp. / Att.',
+  'Interceptions Thrown': 'Ints. Thrown',
+};
 
 const GameStatsRow = ({
   statName,
@@ -51,7 +57,7 @@ const GameStatsRow = ({
     isHomeHighlighted = Number(awayValue) <= Number(homeValue);
   }
 
-  // Swap highlights if the comparison should be reverse (e.g. stats where lower values are better)
+  // Swap highlights if the comparison should be reversed (e.g. stats where lower values are better).
   if (reverseComparison) {
     const tempIsAwayHighlighted = isAwayHighlighted;
     isAwayHighlighted = isHomeHighlighted;
@@ -62,6 +68,7 @@ const GameStatsRow = ({
   if (isAwayHighlighted) {
     awayStyles = {
       color: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
+      fontWeight: 'bold',
     };
   }
 
@@ -69,20 +76,29 @@ const GameStatsRow = ({
   if (isHomeHighlighted) {
     homeStyles = {
       color: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
+      fontWeight: 'bold',
     };
   }
 
   const gameStatsRowClassNames = classNames({
-    'game-stats-row': true,
     'game-stats-header-row': isHeaderRow,
   });
 
   return (
-    <div className={gameStatsRowClassNames}>
-      <p>{statName}</p>
-      <p style={awayStyles}>{awayValue}</p>
-      <p style={homeStyles}>{homeValue}</p>
-    </div>
+    <GameStatsRowWrapper className={gameStatsRowClassNames}>
+      <Media query="(max-width: 1000px)">
+        {(matches) =>
+          matches ? (
+            <StatName>{shortStatNames[statName] || statName}</StatName>
+          ) : (
+            <StatName>{statName}</StatName>
+          )
+        }
+      </Media>
+
+      <StatValue style={awayStyles}>{awayValue}</StatValue>
+      <StatValue style={homeStyles}>{homeValue}</StatValue>
+    </GameStatsRowWrapper>
   );
 };
 
