@@ -69,8 +69,11 @@ return getHtmlForUrl('https://www.ncaa.com/standings/football/fbs')
     const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
     const data = require(filename);
 
+    const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
+    const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
+
     _.forEach(data, (game, i) => {
-      if (!game.result) {
+      if (i + 1 >= ndGamesPlayed) {
         if (!_.has(teamRecords, game.opponentId)) {
           throw new Error(`Opponent ${game.opponentId} is not in team records dictionary`);
         }
