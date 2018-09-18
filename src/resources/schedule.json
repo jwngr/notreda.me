@@ -85266,6 +85266,70 @@
           "home": "2-0",
           "away": "0-0"
         }
+      },
+      "espnGameId": 401012283,
+      "linescore": {
+        "away": [
+          0,
+          3,
+          7,
+          7
+        ],
+        "home": [
+          10,
+          6,
+          0,
+          6
+        ]
+      },
+      "score": {
+        "home": 22,
+        "away": 17
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 23,
+          "thirdDownAttempts": 5,
+          "thirdDownConversions": 13,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 1,
+          "totalYards": 420,
+          "passYards": 326,
+          "passCompletions": 26,
+          "passAttempts": 43,
+          "yardsPerPass": 7.6,
+          "interceptionsThrown": 1,
+          "rushYards": 94,
+          "rushAttempts": 27,
+          "yardsPerRush": 3.5,
+          "penalties": 5,
+          "penaltyYards": 60,
+          "fumblesLost": 2,
+          "possession": "29:12",
+          "fumbles": 3
+        },
+        "home": {
+          "firstDowns": 24,
+          "thirdDownAttempts": 5,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 380,
+          "passYards": 135,
+          "passCompletions": 16,
+          "passAttempts": 26,
+          "yardsPerPass": 5.2,
+          "interceptionsThrown": 0,
+          "rushYards": 245,
+          "rushAttempts": 48,
+          "yardsPerRush": 5.1,
+          "penalties": 6,
+          "penaltyYards": 63,
+          "fumblesLost": 0,
+          "possession": "30:48",
+          "fumbles": 0
+        }
       }
     },
     {
