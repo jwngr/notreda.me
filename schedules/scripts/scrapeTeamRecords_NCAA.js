@@ -45,12 +45,10 @@ return getHtmlForUrl('https://www.ncaa.com/standings/football/fbs')
 
     const $tableRows = $('.table-wrap tr');
     $tableRows.each((i, row) => {
-      console.log(i);
       const $teamNameCell = $(row).find('.standings-team');
 
       const teamName = $teamNameCell.text().trim();
       if (_.has(teams, teamName)) {
-        console.log(teamName);
         const siblings = $teamNameCell.siblings();
         const wins = Number(
           $(siblings[2])
@@ -76,8 +74,6 @@ return getHtmlForUrl('https://www.ncaa.com/standings/football/fbs')
 
     const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
     const data = require(filename);
-
-    console.log(teamRecords);
 
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
