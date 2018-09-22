@@ -67,7 +67,7 @@ export const GameStatsHeader = styled.div`
 
 export const StatsUnavailable = styled.p`
   width: 400px;
-  line-height: 20px;
+  font-size: 16px;
+  margin-top: 32px;
   text-align: center;
-}
 `;
