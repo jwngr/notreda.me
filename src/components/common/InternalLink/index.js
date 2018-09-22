@@ -5,12 +5,21 @@ import {push} from 'redux-little-router';
 function asInternalLink(WrappedComponent) {
   return class extends React.Component {
     handleClick(e) {
+      const {href, onClick, navigateTo} = this.props;
+
+      // Run the custom onClick method, if provided.
+      onClick && onClick();
+
+      // Navigate to the new route.
+      navigateTo(href);
+
+      // Preven the default link behavior, which is a page reload.
       e.preventDefault();
-      this.props.navigateTo(this.props.href);
     }
 
     render() {
-      const {navigateTo, ...otherProps} = this.props;
+      const {navigateTo, onClick, ...otherProps} = this.props;
+
       return <WrappedComponent onClick={this.handleClick.bind(this)} {...otherProps} />;
     }
   };

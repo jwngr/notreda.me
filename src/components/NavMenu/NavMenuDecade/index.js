@@ -2,23 +2,15 @@ import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link} from 'redux-little-router';
 
-import './NavMenuDecade.css';
+import {
+  NavMenuDecadeYear,
+  MavMenuDecadeHeader,
+  NavMenuDecadeWrapper,
+  NavMenuDecadeYearsWrapper,
+} from './index.styles';
 
-const nationalChampionshipYears = [
-  1924,
-  1929,
-  1930,
-  1943,
-  1946,
-  1947,
-  1949,
-  1966,
-  1973,
-  1977,
-  1988,
-];
+import {getNationalChampionshipYears} from '../../../utils';
 
 const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   let yearsRange = _.rangeRight(startingYear, startingYear + 10);
@@ -34,7 +26,7 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
 
     const yearLinkClasses = classNames({
       'selected-year': year === selectedYear,
-      'national-championship-year': _.includes(nationalChampionshipYears, year),
+      'national-championship-year': _.includes(getNationalChampionshipYears(), year),
     });
 
     // Notre Dame did not field a team in 1980 or 1981.
@@ -43,24 +35,22 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     }
 
     return (
-      <Link className={yearLinkClasses} href={`/${year}`} key={year} onClick={onClick}>
+      <NavMenuDecadeYear className={yearLinkClasses} href={`/${year}`} key={year} onClick={onClick}>
         {yearEnding}
-      </Link>
+      </NavMenuDecadeYear>
     );
   });
 
   return (
-    <div className="nav-menu-decade-container">
-      <div className="nav-menu-decade">
-        <div className="nav-menu-decade-header">
-          <p>
-            {startingYear}
-            <span>s</span>
-          </p>
-        </div>
-        <div className="nav-menu-decade-years">{decadeContent}</div>
-      </div>
-    </div>
+    <NavMenuDecadeWrapper>
+      <MavMenuDecadeHeader>
+        <p>
+          {startingYear}
+          <span>s</span>
+        </p>
+      </MavMenuDecadeHeader>
+      <NavMenuDecadeYearsWrapper>{decadeContent}</NavMenuDecadeYearsWrapper>
+    </NavMenuDecadeWrapper>
   );
 };
 

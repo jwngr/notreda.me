@@ -81,8 +81,6 @@ const Game = ({game, year, index, selected}) => {
     awayGame: !game.isHomeGame,
   });
 
-  const gameType = selected ? 'selected' : game.isHomeGame ? 'home' : 'away';
-
   let date;
   if ('fullDate' in game) {
     date = format(new Date(game.fullDate), 'MMMM D, YYYY');
@@ -133,7 +131,7 @@ const Game = ({game, year, index, selected}) => {
   }
 
   return (
-    <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
+    <WrapperComponent className={gameClassNames} href={`/${year}/${index + 1}/`}>
       <OpponentWrapper>
         <OpponentLogo team={game.opponent} />
         <DateOpponentDetailsWrapper>

@@ -1,18 +1,12 @@
 import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 
 import NavMenuDecade from './NavMenuDecade';
 
-import './NavMenu.css';
+import {NavMenuWrapper, NavMenuDecadesWrapper} from './index.styles';
 
 const NavMenu = ({open, selectedYear, onClose}) => {
-  const navMenuClassNames = classNames({
-    'nav-menu': true,
-    'nav-menu-open': open,
-  });
-
   const navMenuDecadesContent = _.map(_.rangeRight(1880, 2030, 10), (decade) => {
     return (
       <NavMenuDecade
@@ -25,9 +19,9 @@ const NavMenu = ({open, selectedYear, onClose}) => {
   });
 
   return (
-    <nav className={navMenuClassNames}>
-      <div className="nav-menu-decades">{navMenuDecadesContent}</div>
-    </nav>
+    <NavMenuWrapper className={open ? 'open' : ''}>
+      <NavMenuDecadesWrapper>{navMenuDecadesContent}</NavMenuDecadesWrapper>
+    </NavMenuWrapper>
   );
 };
 
