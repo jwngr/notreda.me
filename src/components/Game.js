@@ -110,14 +110,14 @@ const Game = ({game, year, index, selected}) => {
   }
 
   const opponentNameContent = (
-    <Media query="(max-width: 600px)">
+    <Media query="(max-width: 768px)">
       {(matches) =>
         matches ? (
-          <OpponentName>
-            {game.opponent.name.length > 12 ? game.opponent.abbreviation : game.opponent.name}
-          </OpponentName>
+          <OpponentName>{game.opponent.shortName || game.opponent.name}</OpponentName>
         ) : (
-          <OpponentName>{game.opponent.name}</OpponentName>
+          <OpponentName>
+            {game.opponent.name.length > 20 ? game.opponent.shortName : game.opponent.name}
+          </OpponentName>
         )
       }
     </Media>

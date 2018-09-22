@@ -35,14 +35,22 @@ const getHtmlForUrl = (url) => {
 
 return getHtmlForUrl('https://www.ncaa.com/standings/football/fbs')
   .then(($) => {
+    const title = $('title').text();
+
+    if (_.includes(title, 'GDPR')) {
+      throw new Error('GDPR compliance warning. Make sure you run this script with the VPN on.');
+    }
+
     const teamRecords = {};
 
     const $tableRows = $('.table-wrap tr');
     $tableRows.each((i, row) => {
+      console.log(i);
       const $teamNameCell = $(row).find('.standings-team');
 
       const teamName = $teamNameCell.text().trim();
       if (_.has(teams, teamName)) {
+        console.log(teamName);
         const siblings = $teamNameCell.siblings();
         const wins = Number(
           $(siblings[2])
@@ -68,6 +76,8 @@ return getHtmlForUrl('https://www.ncaa.com/standings/football/fbs')
 
     const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
     const data = require(filename);
+
+    console.log(teamRecords);
 
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);

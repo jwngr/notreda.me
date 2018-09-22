@@ -6,7 +6,7 @@ export const MetadataWrapper = styled.div`
   width: 100%;
   max-width: 520px;
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     max-width: 420px;
   }
 `;

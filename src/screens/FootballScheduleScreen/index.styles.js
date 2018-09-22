@@ -46,7 +46,7 @@ export const ScheduleWrapper = styled.div`
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     margin-top: 0;
 
     & > div:first-of-type,
@@ -147,7 +147,7 @@ export const HeaderTitle = styled.div`
     margin: 0 20px;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     font-size: 24px;
     margin: 0 12px;
   }
@@ -183,7 +183,7 @@ const PreviousAndNextYearLink = styled(InternalLink)`
   }
 
   @media (max-width: 600px) {
-    display: none;
+    ${'' /* display: none; */};
   }
 `;
 

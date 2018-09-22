@@ -151,6 +151,7 @@ export const OpponentRanking = styled.span`
 export const OpponentName = styled.span`
   font-size: 20px;
   font-family: 'Bungee';
+  white-space: nowrap;
 
   @media (max-width: 600px) {
     font-size: 18px;
@@ -166,11 +167,11 @@ export const Location = styled.p`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 600px) {
+  @media (max-width: 767px) {
     display: none;
   }
 
-  @media (min-width: 800px) and (max-width: 1200px) {
+  @media (min-width: 950px) and (max-width: 1200px) {
     display: none;
   }
 `;

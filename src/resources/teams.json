@@ -11,6 +11,7 @@
   },
   "AKR": {
     "name": "Buchtel (Akron)",
+    "shortName": "Buchtel",
     "nickname": "Zippers",
     "color": "#9c8d6d"
   },
@@ -25,7 +26,8 @@
     "color": "#a0174b"
   },
   "AM-M": {
-    "name": "American Medical (Chicago)"
+    "name": "American Medical (Chicago)",
+    "shortName": "American Med"
   },
   "ARIZ": {
     "name": "Arizona",
@@ -44,6 +46,7 @@
   },
   "AZST": {
     "name": "Arizona State",
+    "shortName": "Arizona St",
     "nickname": "Sun Devils",
     "color": "#831e3c"
   },
@@ -73,7 +76,8 @@
     "color": "#002a52"
   },
   "BENN": {
-    "name": "Bennett Medical (Chicago)"
+    "name": "Bennett Medical (Chicago)",
+    "shortName": "Bennett Med"
   },
   "BGSU": {
     "name": "Bowling Green",
@@ -112,6 +116,7 @@
   },
   "CB": {
     "name": "Christian Brothers",
+    "shortName": "Christian Bros",
     "nickname": "Buccaneers",
     "color": "#d22b32"
   },
@@ -121,13 +126,16 @@
     "color": "#801525"
   },
   "CHI-D": {
-    "name": "Chicago Dental Surgeons"
+    "name": "Chicago Dental Surgeons",
+    "shortName": "Chicago Dental"
   },
   "CHI-M": {
-    "name": "Chicago Medical"
+    "name": "Chicago Medical",
+    "shortName": "Chicago Med"
   },
   "CHI-P&S": {
-    "name": "Chicago Physicians & Surgeons"
+    "name": "Chicago Physicians & Surgeons",
+    "shortName": "Chi Phys & Surg"
   },
   "CINCY": {
     "name": "Cincinnati",
@@ -200,6 +208,7 @@
   },
   "FSU": {
     "name": "Florida State",
+    "shortName": "Florida St",
     "nickname": "Seminoles",
     "color": "#743440"
   },
@@ -251,7 +260,8 @@
     "color": "#d85442"
   },
   "ILL-C": {
-    "name": "Illinois Cycling Club"
+    "name": "Illinois Cycling Club",
+    "shortName": "Illinois Cycling"
   },
   "IND": {
     "name": "Indiana",
@@ -259,7 +269,8 @@
     "color": "#741e1c"
   },
   "INDAR": {
-    "name": "Indianapolis Artillery"
+    "name": "Indianapolis Artillery",
+    "shortName": "Indy Artillery"
   },
   "IO-PF": {
     "name": "Iowa Pre-Flight",
@@ -287,11 +298,13 @@
   },
   "L-IL": {
     "name": "Loyola (Chicago)",
+    "shortName": "Loyola (Chi)",
     "nickname": "Ramblers",
     "color": "#582324"
   },
   "L-LA": {
     "name": "Loyola (New Orleans)",
+    "shortName": "Loyola (NO)",
     "nickname": "Wolf Pack",
     "color": "#8d1931"
   },
@@ -355,7 +368,8 @@
     "color": "#e4b040"
   },
   "MIZ-O": {
-    "name": "Missouri Osteopaths"
+    "name": "Missouri Osteopaths",
+    "shortName": "Missouri Osteo"
   },
   "MORN": {
     "name": "Morningside",
@@ -369,6 +383,7 @@
   },
   "MSU": {
     "name": "Michigan State",
+    "shortName": "Michigan St",
     "nickname": "Spartans",
     "color": "#26443c"
   },
@@ -394,6 +409,7 @@
   },
   "NDHS": {
     "name": "North Division High School",
+    "shortName": "N Division HS",
     "nickname": "Blue Devils"
   },
   "NEB": {
@@ -418,6 +434,7 @@
   },
   "OH-M": {
     "name": "Ohio Medical",
+    "shortName": "Ohio Med",
     "nickname": "Tigers"
   },
   "OKLA": {
@@ -442,6 +459,7 @@
   },
   "ORST": {
     "name": "Oregon State",
+    "shortName": "Oregon St",
     "nickname": "Beavers",
     "color": "#e77a3a"
   },
@@ -492,6 +510,7 @@
   },
   "RUSH": {
     "name": "Rush Medical",
+    "shortName": "Rush Med",
     "color": "#006a38"
   },
   "RUTG": {
@@ -500,16 +519,16 @@
     "color": "#ec2f24"
   },
   "SB-AC": {
-    "name": "South Bend Athletic Club"
-  },
-  "SB-CAC": {
-    "name": "South Bend Commercial Athletic Club"
+    "name": "South Bend Athletic Club",
+    "shortName": "South Bend Athl"
   },
   "SB-HP": {
-    "name": "South Bend Howard Park"
+    "name": "South Bend Howard Park",
+    "shortName": "South Bend HP"
   },
   "SB-HS": {
     "name": "South Bend High School",
+    "shortName": "South Bend HS",
     "nickname": "Indians"
   },
   "SBON": {
@@ -519,6 +538,7 @@
   },
   "SCAR": {
     "name": "South Carolina",
+    "shortName": "S Carolina",
     "nickname": "Gamecocks",
     "color": "#8d1c2f"
   },
@@ -529,6 +549,7 @@
   },
   "SDSU": {
     "name": "San Diego State",
+    "shortName": "San Diego St",
     "nickname": "Aztecs",
     "color": "#a03041"
   },
@@ -538,7 +559,8 @@
     "color": "#2c5182"
   },
   "SMU": {
-    "name": "SMU",
+    "name": "Southern Methodist",
+    "shortName": "SMU",
     "nickname": "Mustangs",
     "color": "#d5333f"
   },
@@ -583,7 +605,8 @@
     "color": "#fad22a"
   },
   "TOLAA": {
-    "name": "Toledo Athletic Association"
+    "name": "Toledo Athletic Association",
+    "shortName": "Toledo Athl"
   },
   "TULN": {
     "name": "Tulane",
@@ -617,6 +640,7 @@
   },
   "UNC": {
     "name": "North Carolina",
+    "shortName": "N Carolina",
     "nickname": "Tar Heels",
     "color": "#80acd2"
   },
@@ -661,6 +685,7 @@
   },
   "VINC": {
     "name": "St. Vincent's (DePaul)",
+    "shortName": "St. Vincent's",
     "nickname": "Blue Demons",
     "color": "#2974b5"
   },
@@ -670,7 +695,8 @@
     "color": "#8b2942"
   },
   "W&J": {
-    "name": "Washington and Jefferson",
+    "name": "Washington & Jefferson",
+    "shortName": "Wash & Jeff",
     "nickname": "Presidents",
     "color": "#a4343a"
   },
@@ -691,6 +717,7 @@
   },
   "WASHU": {
     "name": "Washington University",
+    "shortName": "Washington Univ",
     "nickname": "Bears",
     "color": "#ad2443"
   },
@@ -701,16 +728,19 @@
   },
   "WMU": {
     "name": "Western Michigan",
+    "shortName": "Western Mich",
     "nickname": "Broncos",
     "color": "#674229"
   },
   "WSU": {
     "name": "Washington State",
+    "shortName": "Washington St",
     "nickname": "Cougars",
     "color": "#8d2a38"
   },
   "WVU": {
     "name": "West Virginia",
+    "shortName": "W Virginia",
     "nickname": "Mountaineers",
     "color": "#08273f"
   },

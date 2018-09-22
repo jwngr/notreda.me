@@ -5,8 +5,6 @@ import PropTypes from 'prop-types';
 import TeamLogo from '../../TeamLogo';
 import Metadata from '../CompletedGameSummary/Metadata';
 
-import './index.css';
-
 import {FutureGameWrapper, MetadataWrapper} from './index.styles';
 
 const FutureGameSummary = ({game, homeTeam, awayTeam}) => {

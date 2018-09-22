@@ -11,9 +11,9 @@ export const TotalScoreWrapper = styled.div`
   font-family: 'Bungee';
   margin-bottom: 32px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1250px) {
     display: grid;
-    grid-gap: 4px 8px;
+    grid-gap: 12px 8px;
     grid-template-areas:
       'awayTeamDetails awayTeamLogo awayTeamScore'
       'homeTeamDetails homeTeamLogo homeTeamScore';
@@ -50,11 +50,9 @@ export const TeamImage = styled(TeamLogo)`
     margin-right: 8px;
   }
 
-  @media (max-width: 1024px) {
-    width: 40px;
-    height: 40px;
-
-    &.away,
+  @media (max-width: 1250px) {
+    ${'' /* width: 40px;
+    height: 40px; */} &.away,
     &.home {
       margin: 0 16px 0 0;
       align-self: center;
@@ -81,7 +79,7 @@ export const TeamDetailsWrapper = styled.div`
     text-align: right;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1250px) {
     &.away,
     &.home {
       text-align: right;
@@ -111,13 +109,13 @@ export const TeamNickname = styled.p`
 
 export const TeamRanking = styled.span`
   font-size: 12px;
-  color: #777;
+  color: ${(props) => props.theme.colors.gray};
   margin-right: 4px;
 `;
 
 export const TeamRecord = styled.p`
   font-size: 12px;
-  color: #777;
+  color: ${(props) => props.theme.colors.gray};
 `;
 
 export const Score = styled.p`
@@ -125,7 +123,7 @@ export const Score = styled.p`
   text-align: center;
   white-space: nowrap;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1250px) {
     &.away,
     &.home {
       align-self: center;

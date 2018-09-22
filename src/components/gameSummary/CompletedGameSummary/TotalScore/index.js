@@ -66,7 +66,7 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
   }
 
   return (
-    <Media query="(max-width: 1024px)">
+    <Media query="(max-width: 1250px)">
       {(matches) =>
         matches ? (
           <TotalScoreWrapper>

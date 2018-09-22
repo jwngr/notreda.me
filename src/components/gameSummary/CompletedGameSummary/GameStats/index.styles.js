@@ -7,7 +7,7 @@ export const GameStatsWrapper = styled.div`
   margin-top: 32px;
   border: solid 3px ${(props) => props.theme.colors.black};
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     max-width: 420px;
     margin-top: 40px;
   }
