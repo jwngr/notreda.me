@@ -39,14 +39,16 @@ const Metadata = ({game}) => {
   }
 
   let metadataCoverage;
-  if (time !== 'TBD' && tvCoverageContent !== 'TBD') {
+  if (time && time !== 'TBD' && tvCoverageContent) {
+    console.log('5');
     metadataCoverage = (
       <MetadataCoverage>
         {tvCoverageContent}
         <p>{time}</p>
       </MetadataCoverage>
     );
-  } else if (time !== 'TBD') {
+  } else if (time && time !== 'TBD') {
+    console.log('6');
     metadataCoverage = (
       <MetadataCoverage>
         <p>{time}</p>

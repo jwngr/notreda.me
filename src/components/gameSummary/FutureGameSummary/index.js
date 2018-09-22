@@ -5,7 +5,14 @@ import PropTypes from 'prop-types';
 import TeamLogo from '../../TeamLogo';
 import Metadata from '../CompletedGameSummary/Metadata';
 
-import {FutureGameWrapper, MetadataWrapper} from './index.styles';
+import {
+  Ranking,
+  AtOrVersus,
+  TeamWrapper,
+  TeamsWrapper,
+  MetadataWrapper,
+  FutureGameWrapper,
+} from './index.styles';
 
 const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   const notreDame = game.isHomeGame ? homeTeam : awayTeam;
@@ -18,29 +25,29 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   const notreDameRanking = game.isHomeGame ? homeApRanking : awayApRanking;
   const opponentRanking = game.isHomeGame ? awayApRanking : homeApRanking;
 
-  let notreDameRankingContent = <p className="ranking">&nbsp;</p>;
+  let notreDameRankingContent = <Ranking>&nbsp;</Ranking>;
   if (notreDameRanking) {
-    notreDameRankingContent = <p className="ranking">#{notreDameRanking}</p>;
+    notreDameRankingContent = <Ranking>#{notreDameRanking}</Ranking>;
   }
 
-  let opponentRankingContent = <p className="ranking">&nbsp;</p>;
+  let opponentRankingContent = <Ranking>&nbsp;</Ranking>;
   if (opponentRanking) {
-    opponentRankingContent = <p className="ranking">#{opponentRanking}</p>;
+    opponentRankingContent = <Ranking>#{opponentRanking}</Ranking>;
   }
 
   return (
     <FutureGameWrapper>
-      <div className="matchup-teams">
-        <div>
+      <TeamsWrapper>
+        <TeamWrapper>
           {notreDameRankingContent}
           <TeamLogo team={notreDame} />
-        </div>
-        <p className="at-or-vs">{atOrVs}</p>
-        <div>
+        </TeamWrapper>
+        <AtOrVersus>{atOrVs}</AtOrVersus>
+        <TeamWrapper>
           <TeamLogo team={opponent} />
           {opponentRankingContent}
-        </div>
-      </div>
+        </TeamWrapper>
+      </TeamsWrapper>
       <MetadataWrapper>
         <Metadata game={game} />
       </MetadataWrapper>
