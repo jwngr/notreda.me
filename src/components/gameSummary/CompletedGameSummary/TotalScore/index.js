@@ -70,32 +70,26 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
       {(matches) =>
         matches ? (
           <TotalScoreWrapper>
-            <div>
-              <TeamDetailsWrapper className="away">
-                <TeamName>
-                  {awayApRanking && <TeamRanking>#{awayApRanking}</TeamRanking>}
-                  {awayTeam.name}
-                </TeamName>
-                <TeamNickname>{awayTeam.nickname}</TeamNickname>
-                {awayRecord && <TeamRecord>{awayRecord}</TeamRecord>}
-              </TeamDetailsWrapper>
-              <TeamDetailsWrapper className="home">
-                <TeamName>
-                  {homeApRanking && <TeamRanking>#{homeApRanking}</TeamRanking>}
-                  {homeTeam.name}
-                </TeamName>
-                <TeamNickname>{homeTeam.nickname}</TeamNickname>
-                {homeRecord && <TeamRecord>{homeRecord}</TeamRecord>}
-              </TeamDetailsWrapper>
-            </div>
-            <div>
-              <TeamImage team={awayTeam} />
-              <TeamImage team={homeTeam} />
-            </div>
-            <div>
-              <Score>{game.score.away}</Score>
-              <Score>{game.score.home}</Score>
-            </div>
+            <TeamDetailsWrapper className="away">
+              <TeamName>
+                {awayApRanking && <TeamRanking>#{awayApRanking}</TeamRanking>}
+                {awayTeam.name}
+              </TeamName>
+              <TeamNickname>{awayTeam.nickname}</TeamNickname>
+              {awayRecord && <TeamRecord>{awayRecord}</TeamRecord>}
+            </TeamDetailsWrapper>
+            <TeamDetailsWrapper className="home">
+              <TeamName>
+                {homeApRanking && <TeamRanking>#{homeApRanking}</TeamRanking>}
+                {homeTeam.name}
+              </TeamName>
+              <TeamNickname>{homeTeam.nickname}</TeamNickname>
+              {homeRecord && <TeamRecord>{homeRecord}</TeamRecord>}
+            </TeamDetailsWrapper>
+            <TeamImage className="away" team={awayTeam} />
+            <TeamImage className="home" team={homeTeam} />
+            <Score className="away">{game.score.away}</Score>
+            <Score className="home">{game.score.home}</Score>
           </TotalScoreWrapper>
         ) : (
           <TotalScoreWrapper>

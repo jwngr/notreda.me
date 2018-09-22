@@ -36,7 +36,7 @@ export const ScheduleWrapper = styled.div`
     margin-left: 12px;
   }
 
-  @media (max-width: 1000px and min-width: 801px) {
+  @media (max-width: 1024px and min-width: 801px) {
     & > div:first-of-type {
       width: 40%;
     }

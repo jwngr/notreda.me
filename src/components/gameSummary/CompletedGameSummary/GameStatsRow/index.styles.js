@@ -18,7 +18,7 @@ export const GameStatsRowWrapper = styled.div`
     padding-left: 20px;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     justify-content: space-around;
 
     &:not(.game-stats-header-row) p:first-of-type {
@@ -39,7 +39,7 @@ export const StatName = styled(StatCell)`
   flex: 1;
   padding-left: 8px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     flex: initial;
     order: 1;
     width: 100px;
@@ -53,7 +53,7 @@ export const StatValue = styled(StatCell)`
   width: 160px;
   text-align: center;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     width: 120px;
 
     &:last-of-type {

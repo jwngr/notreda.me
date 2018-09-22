@@ -42,7 +42,7 @@ export const GameStatsHeader = styled.div`
     border: solid 3px ${(props) => props.theme.colors.black};
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     margin-top: -26px;
     justify-content: space-around;
 

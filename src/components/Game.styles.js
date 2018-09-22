@@ -49,11 +49,11 @@ export const AwayGameWrapper = styled(GameWrapper)`
 
   background-image: repeating-linear-gradient(
     135deg,
-    ${(props) => props.theme.colors.blue}30,
-    ${(props) => props.theme.colors.blue}30 1px,
+    ${(props) => darken(0.2, props.theme.colors.blue)}30,
+    ${(props) => darken(0.2, props.theme.colors.blue)}30 1px,
     transparent 2px,
     transparent 2px,
-    ${(props) => props.theme.colors.blue}30 3px
+    ${(props) => darken(0.2, props.theme.colors.blue)}30 3px
   );
 
   &.selected {
@@ -198,20 +198,20 @@ export const ScoreResult = styled.p`
   &.win {
     color: ${(props) => props.theme.colors.green};
     margin-right: 5px;
-    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
     -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.green)};
   }
 
   &.loss {
     color: ${(props) => props.theme.colors.red};
-    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
     -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.red)};
   }
 
   &.tie {
-    color: ${(props) => props.theme.colors.mustard};
-    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
-    -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.mustard)};
+    color: ${(props) => props.theme.colors.gold};
+    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
+    -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.gold)};
   }
 `;
 

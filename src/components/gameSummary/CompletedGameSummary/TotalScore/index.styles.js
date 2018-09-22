@@ -3,22 +3,20 @@ import styled from 'styled-components';
 import TeamLogo from '../../../TeamLogo';
 
 export const TotalScoreWrapper = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-family: 'Bungee';
   margin-bottom: 32px;
-  width: 100%;
 
   @media (max-width: 1024px) {
-    & > div {
-      display: flex;
-      flex-direction: column;
-
-      & > *:first-of-type {
-        margin-bottom: 12px;
-      }
+    display: grid;
+    grid-gap: 4px 8px;
+    grid-template-areas:
+      'awayTeamDetails awayTeamLogo awayTeamScore'
+      'homeTeamDetails homeTeamLogo homeTeamScore';
     }
   }
 `;
@@ -27,32 +25,49 @@ export const TeamWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
-  @media (max-width: 1024px) {
-    width: 100%;
+  &.away {
+    justify-content: flex-end;
+  }
+
+  &.home {
+    justify-content: flex-start;
   }
 `;
 
 export const TeamImage = styled(TeamLogo)`
-  height: 60px;
-  width: 60px;
+  width: 52px;
+  height: 52px;
 
   &.away {
     order: 1;
     margin-left: 8px;
-    margin-right: 20px;
+    margin-right: 8px;
   }
 
   &.home {
-    margin-left: 20px;
+    margin-left: 8px;
     margin-right: 8px;
   }
 
   @media (max-width: 1024px) {
     width: 40px;
     height: 40px;
-    margin: 0 12px;
+
+    &.away,
+    &.home {
+      margin: 0 16px 0 0;
+      align-self: center;
+      justify-self: center;
+    }
+
+    &.away {
+      grid-area: awayTeamLogo;
+    }
+
+    &.home {
+      grid-area: homeTeamLogo;
+    }
   }
 `;
 
@@ -67,11 +82,20 @@ export const TeamDetailsWrapper = styled.div`
   }
 
   @media (max-width: 1024px) {
-    flex: 1;
-    width: 100%;
+    &.away,
+    &.home {
+      text-align: right;
+      align-self: center;
+      justify-self: right;
+    }
+
+    &.away {
+      grid-area: awayTeamDetails;
+    }
 
     &.home {
       text-align: right;
+      grid-area: homeTeamDetails;
     }
   }
 `;
@@ -97,11 +121,23 @@ export const TeamRecord = styled.p`
 `;
 
 export const Score = styled.p`
-  font-size: 40px;
+  font-size: 36px;
+  text-align: center;
   white-space: nowrap;
 
   @media (max-width: 1024px) {
-    flex: 1;
-    font-size: 32px;
+    &.away,
+    &.home {
+      align-self: center;
+      justify-self: center;
+    }
+
+    &.away {
+      grid-area: awayTeamScore;
+    }
+
+    &.home {
+      grid-area: homeTeamScore;
+    }
   }
 `;
