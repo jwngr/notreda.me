@@ -22,6 +22,7 @@ export const ScheduleScreenWrapper = styled.div`
 
 export const ScheduleWrapper = styled.div`
   display: flex;
+  margin-top: 8px;
 
   & > div {
     width: 50%;
@@ -46,6 +47,8 @@ export const ScheduleWrapper = styled.div`
   }
 
   @media (max-width: 800px) {
+    margin-top: 0;
+
     & > div:first-of-type,
     & > div:last-of-type {
       width: 100%;
@@ -159,9 +162,10 @@ const PreviousAndNextYearLink = styled(InternalLink)`
   font-family: 'Bungee';
   font-size: 18px;
   text-decoration: none;
-  ${'' /* -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: ${(props) => props.theme.colors.black};
-  text-shadow: ${(props) => props.theme.colors.black} 1px 1px; */} padding: 2px 4px;
+  text-shadow: ${(props) => props.theme.colors.black} 1px 1px;
+  padding: 2px 4px;
   color: ${(props) => props.theme.colors.white};
   background-color: ${(props) => props.theme.colors.green};
   border: solid 3px #302205;

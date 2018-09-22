@@ -3,34 +3,18 @@ import styled from 'styled-components';
 
 import TeamLogo from './TeamLogo';
 import InternalLink from './common/InternalLink';
-// import {Link} from 'redux-little-router';
-
-// const gameTypeBackgroundColors = {
-//   home: 'none',
-//   away: 'rgba(84, 82, 82, 0.1)',
-//   // away: `repeating-linear-gradient(
-//   //   45deg,
-//   //   #002B5B1A,
-//   //   #002B5B1A 5px,
-//   //   #DCB4391A 5px,
-//   //   #DCB4391A 10px
-//   // );`,
-//   selected: 'rgba(220, 180, 63, 0.5)',
-// };
-
-// const gameTypeBackgroundColorsOnHover = {
-//   home: 'rgba(84, 82, 82, 0.2)',
-//   away: 'rgba(84, 82, 82, 0.2)',
-//   selected: 'rgba(220, 180, 63, 0.6)',
-// };
 
 const GameWrapper = styled(InternalLink)`
-  display: flex;
   height: 52px;
-  text-decoration: none;
-  align-items: center;
+  padding: 0 4px;
+
+  display: flex;
+  align-content: center;
   justify-content: space-between;
-  color: #302205;
+
+  text-decoration: none;
+  color: ${(props) => props.theme.colors.black};
+
   transition: transform 0.2s;
 
   &:hover {
@@ -38,8 +22,6 @@ const GameWrapper = styled(InternalLink)`
   }
 
   @media (max-width: 600px) {
-    width: 100%;
-    padding: 0 4px;
     justify-content: space-between;
 
     &:hover {
@@ -50,97 +32,62 @@ const GameWrapper = styled(InternalLink)`
 
 export const HomeGameWrapper = styled(GameWrapper)`
   &.selected {
-    background: rgba(220, 180, 63, 0.5);
+    background: ${(props) => props.theme.colors.gold}cc;
   }
 
-  ${'' /* &:hover {
-    background: #55555580;
-  } */} &:hover {
-    background: rgba(220, 180, 63, 0.3);
+  &:hover {
+    background: ${(props) => props.theme.colors.black}20;
+
+    &.selected {
+      background: ${(props) => props.theme.colors.gold}cc;
+    }
   }
 `;
 
-// export const SelectedGameWrapper = styled(Wrapper)`
-//   background: repeating-linear-gradient(
-//     -135deg,
-//     #dcb43980,
-//     #dcb43980 1px,
-//     transparent 2px,
-//     #dcb43980 3px
-//   );
-
-//   &:hover {
-//     background: repeating-linear-gradient(
-//       -135deg,
-//       #55555580,
-//       #55555580 1px,
-//       transparent 2px,
-//       #55555580 3px
-//     );
-//   }
-// `;
-
 export const AwayGameWrapper = styled(GameWrapper)`
+  background-size: 4px 4px;
+
   background-image: repeating-linear-gradient(
     135deg,
-    #002b5b40,
-    #002b5b40 1px,
+    ${(props) => props.theme.colors.blue}30,
+    ${(props) => props.theme.colors.blue}30 1px,
     transparent 2px,
     transparent 2px,
-    #002b5b40 3px
+    ${(props) => props.theme.colors.blue}30 3px
   );
 
   &.selected {
     background-image: repeating-linear-gradient(
       135deg,
-      rgba(220, 180, 63, 0.8),
-      rgba(220, 180, 63, 0.8) 1px,
+      ${(props) => props.theme.colors.gold},
+      ${(props) => props.theme.colors.gold} 1px,
       transparent 2px,
       transparent 2px,
-      rgba(220, 180, 63, 0.8) 3px
+      ${(props) => props.theme.colors.gold} 3px
     );
   }
 
   &:hover {
     background: repeating-linear-gradient(
       135deg,
-      rgba(220, 180, 63, 0.3),
-      rgba(220, 180, 63, 0.3) 1px,
+      ${(props) => props.theme.colors.black}30,
+      ${(props) => props.theme.colors.black}30 1px,
       transparent 2px,
-      rgba(220, 180, 63, 0.3) 3px
+      transparent 2px,
+      ${(props) => props.theme.colors.black}30 3px
     );
-  }
-  ${'' /* &:hover {
-    background: rgba(220, 180, 63, 0.3);
-  } */} background-size: 4px 4px;
 
-  ${'' /* background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -moz-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -ms-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px
-  );
-  background-size: 3px 3px; */};
+    &.selected {
+      background-image: repeating-linear-gradient(
+        135deg,
+        ${(props) => props.theme.colors.gold},
+        ${(props) => props.theme.colors.gold} 1px,
+        transparent 2px,
+        transparent 2px,
+        ${(props) => props.theme.colors.gold} 3px
+      );
+    }
+  }
 `;
 
 export const OpponentWrapper = styled.div`
