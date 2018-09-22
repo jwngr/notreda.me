@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 import {ScoreColumn, LinescoreWrapper, AbbreviationColumn} from './index.styles';
 
+import {getDefaultTeamColor} from '../../../../utils';
+
 const Linescore = ({linescore, homeTeam, awayTeam}) => {
   // TODO: remove once all games have a linescore
   if (linescore.home.length === 0) {
@@ -11,11 +13,11 @@ const Linescore = ({linescore, homeTeam, awayTeam}) => {
   }
 
   const homeTeamColorStyles = {
-    color: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
+    color: homeTeam.color || getDefaultTeamColor(),
   };
 
   const awayTeamColorStyles = {
-    color: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
+    color: awayTeam.color || getDefaultTeamColor(),
   };
 
   let totalScores = {

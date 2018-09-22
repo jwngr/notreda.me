@@ -132,7 +132,6 @@ const Game = ({game, year, index, selected}) => {
     location = `${game.location.city}, ${game.location.country}`;
   }
 
-  // TODO: remove hard-coded URL when all teams have a logo URL
   return (
     <WrapperComponent className={gameClassNames} type={gameType} href={`/${year}/${index + 1}/`}>
       <OpponentWrapper>

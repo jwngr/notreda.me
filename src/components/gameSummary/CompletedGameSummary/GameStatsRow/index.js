@@ -6,6 +6,8 @@ import classNames from 'classnames';
 
 import {StatName, StatValue, GameStatsRowWrapper} from './index.styles';
 
+import {getDefaultTeamColor} from '../../../../utils';
+
 const shortStatNames = {
   '3rd Down Efficiency': '3rd Down Eff.',
   '4th Down Efficiency': '4th Down Eff.',
@@ -67,7 +69,7 @@ const GameStatsRow = ({
   let awayStyles = {};
   if (isAwayHighlighted) {
     awayStyles = {
-      color: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
+      color: awayTeam.color || getDefaultTeamColor(),
       fontWeight: 'bold',
     };
   }
@@ -75,7 +77,7 @@ const GameStatsRow = ({
   let homeStyles = {};
   if (isHomeHighlighted) {
     homeStyles = {
-      color: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
+      color: homeTeam.color || getDefaultTeamColor(),
       fontWeight: 'bold',
     };
   }

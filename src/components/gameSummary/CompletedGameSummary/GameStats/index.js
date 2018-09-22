@@ -5,6 +5,8 @@ import GameStatsRow from '../GameStatsRow';
 
 import {GameStatsHeader, GameStatsWrapper, StatsUnavailable} from './index.styles';
 
+import {getDefaultTeamColor} from '../../../../utils';
+
 const GameStats = ({stats, homeTeam, awayTeam}) => {
   // TODO: remove once all games has stats
   if (stats.home.totalYards === -1) {
@@ -17,11 +19,11 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
   }
 
   const homeTeamColorStyles = {
-    backgroundColor: homeTeam.color || 'blue', // TODO: remove || once all teams have a color
+    backgroundColor: homeTeam.color || getDefaultTeamColor(),
   };
 
   const awayTeamColorStyles = {
-    backgroundColor: awayTeam.color || 'blue', // TODO: remove || once all teams have a color
+    backgroundColor: awayTeam.color || getDefaultTeamColor(),
   };
 
   return (
