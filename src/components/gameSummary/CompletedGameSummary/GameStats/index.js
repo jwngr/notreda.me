@@ -28,6 +28,31 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
     backgroundColor: awayTeam.color || getDefaultTeamColor(),
   };
 
+  let fumblesRow;
+  if (stats.away.fumbles === -1) {
+    fumblesRow = (
+      <GameStatsRow
+        statName="Fumbles Lost"
+        reverseComparison={true}
+        awayTeam={awayTeam}
+        homeTeam={homeTeam}
+        awayValue={`${stats.away['fumblesLost']}`}
+        homeValue={`${stats.home['fumblesLost']}`}
+      />
+    );
+  } else {
+    fumblesRow = (
+      <GameStatsRow
+        statName="Fumbles - Lost"
+        reverseComparison={true}
+        awayTeam={awayTeam}
+        homeTeam={homeTeam}
+        awayValue={`${stats.away['fumbles']} - ${stats.away['fumblesLost']}`}
+        homeValue={`${stats.home['fumbles']} - ${stats.home['fumblesLost']}`}
+      />
+    );
+  }
+
   return (
     <GameStatsWrapper>
       <GameStatsHeader>
@@ -130,14 +155,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
         homeValue={stats.home['interceptionsThrown'] + stats.home['fumblesLost']}
       />
 
-      <GameStatsRow
-        statName="Fumbles - Lost"
-        reverseComparison={true}
-        awayTeam={awayTeam}
-        homeTeam={homeTeam}
-        awayValue={`${stats.away['fumbles']} - ${stats.away['fumblesLost']}`}
-        homeValue={`${stats.home['fumbles']} - ${stats.home['fumblesLost']}`}
-      />
+      {fumblesRow}
 
       <GameStatsRow
         statName="Interceptions Thrown"
