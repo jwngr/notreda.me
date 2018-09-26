@@ -8,6 +8,7 @@ import NewsletterSignupForm from '../../../common/NewsletterSignupForm';
 
 import {
   P,
+  Stat,
   Image,
   Title,
   Byline,
@@ -16,6 +17,7 @@ import {
   Divider,
   Wrapper,
   Subtitle,
+  StatsWrapper,
   SectionTitle,
   StyledExternalLink,
   StyledInternalLink,
@@ -101,7 +103,7 @@ export default () => {
         of 68.2%. Note that this figure includes Notre Dame's vacated wins from the 2012-13 seasons
         since they are just as relevant in this analysis. Of those 107 games in the BK era, 49 have
         been been decided by 8 or fewer points, an anxiety-inducing 45.8% of all games. 2016
-        certainly had the most, but outside of 2017, one possessions are a consistent trend for
+        certainly had the most, but outside of 2017, one possession games are a consistent trend for
         Kelly.
       </P>
 
@@ -119,28 +121,42 @@ export default () => {
 
       <P>
         It almost seems obvious to say that it takes just one play to change the outcome of a one
-        possession game. In fact, there are almost too many to choose from in the BK era:{' '}
+        possession game. In fact, there are almost too many such plays to choose from in the BK era:{' '}
         <StyledExternalLink href="https://www.youtube.com/watch?v=y0htsUV9L3o">
           the deep bomb
         </StyledExternalLink>{' '}
-        to Will Fuller for a win over Virginia ,{' '}
+        to Will Fuller for a win over Virginia,{' '}
         <StyledExternalLink href="https://www.youtube.com/watch?v=u5t-t_bZY_Q">
           the untimely fumble
         </StyledExternalLink>{' '}
-        by Cam McDaniel while running out the clock against Northwestern ,{' '}
+        by Cam McDaniel while running out the clock against Northwestern,{' '}
         <StyledExternalLink href="https://www.youtube.com/watch?v=mqfIcVzeOQM">
           the infamous "pick play"
         </StyledExternalLink>{' '}
-        in a heartbreaking loss to Florida State ,{' '}
+        in a heartbreaking loss to Florida State,{' '}
         <StyledExternalLink href="https://www.youtube.com/watch?v=mv7s2UAwdao">
           the wild overtime affair
         </StyledExternalLink>{' '}
         against Pitt . Given the sheer craziness of college football, it is unsurprising that
         Kelly's win percentage in such contests is only 57.1%, a full 11.1% worse than his overall
-        win percentage. If you ignore the 2016 seasons, Kelly actually has a more respectable 65.9%
-        win percentage in one possession games. But as much as us Irish fans would like to wipe that
-        year from our collective memories, we all saw that and are not going to let Kelly off so
-        lightly for it.
+        win percentage.
+      </P>
+
+      <StatsWrapper>
+        <Stat>
+          <p>Overall Win %</p>
+          <p>68.2%</p>
+        </Stat>
+        <Stat>
+          <p>Win % In One Possession Games</p>
+          <p>57.1%</p>
+        </Stat>
+      </StatsWrapper>
+
+      <P>
+        If you ignore the 2016 seasons, Kelly actually has a more respectable 65.9% win percentage
+        in one possession games. But as much as us Irish fans would like to wipe that year from our
+        collective memories, we all saw that and are not going to let Kelly off so lightly for it.
       </P>
 
       <BarChart
@@ -155,19 +171,8 @@ export default () => {
       <Caption>Brian Kelly's yearly win percentage in one possession games.</Caption>
 
       <P>
-        As we mentioned above, all it takes is one play to change the outcome of a one possession
-        game. Like a deep pass to Fuller, or a penalty on a two point conversion, or a last second
-        field goal. Given the uncertainty in close games, it's not surprising to see Kelly's win
-        percentage in such contests is only 57.1%, a full 11.1% worse than his overall win
-        percentage. 2016 is again the outlier and Kelly actually has a more respectable 65.9% win
-        percentage in one possession games if we do not include that year. And as much as us Irish
-        fans would like to wipe that year from our collective memories, Kelly forced us to sit and
-        watch, so he's not getting off so lightly.
-      </P>
-
-      <P>
         These figures appear to provide some support for this criticism of Kelly, but we really need
-        to compare them on a broader context.
+        to compare them in a broader context.
       </P>
 
       <SectionTitle>Comparing BK To Past Irish Head Coaches</SectionTitle>
@@ -310,9 +315,9 @@ export default () => {
         once again come down to the final drive.
       </P>
 
-      {/* <Divider /> */}
+      <Divider />
 
-      {/* <NewsletterSignupForm /> */}
+      <NewsletterSignupForm />
     </Wrapper>
   );
 };
