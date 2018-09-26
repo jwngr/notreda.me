@@ -17,17 +17,19 @@ export const TableWrapper = styled.div`
 
     th,
     td {
-      font-size: 20px;
+      font-size: 14px;
+      font-family: 'Merriweather', serif;
       padding: 8px 12px;
       text-align: center;
 
       @media (max-width: 700px) {
-        font-size: 16px;
+        font-size: 12px;
         padding: 4px;
       }
     }
 
     th {
+      font-weight: bold;
       color: ${(props) => props.theme.colors.white};
       background-color: ${(props) => props.theme.colors.green}cc;
     }
