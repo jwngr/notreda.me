@@ -7,7 +7,7 @@ export const GameStatsRowWrapper = styled.div`
   justify-content: center;
 
   &:nth-of-type(2n + 1) {
-    background-color: rgba(84, 82, 82, 0.1);
+    background-color: ${(props) => props.theme.colors.gray}2b;
   }
 
   &.game-stats-header-row p:first-of-type {

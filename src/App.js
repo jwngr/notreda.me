@@ -7,11 +7,19 @@ const AsyncFootballScheduleScreen = Loadable({
   loading: () => null,
 });
 
+const AsyncExplorablesScreen = Loadable({
+  loader: () => import('./screens/ExplorablesScreen'),
+  loading: () => null,
+});
+
 class App extends Component {
   render() {
     return (
       <Fragment forRoute="/">
         <div>
+          <Fragment forRoute="/explorables">
+            <AsyncExplorablesScreen />
+          </Fragment>
           <Fragment forRoute="/" forNoMatch>
             <AsyncFootballScheduleScreen />
           </Fragment>

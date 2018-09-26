@@ -7,8 +7,8 @@ export const ScheduleScreenWrapper = styled.div`
   transition: transform 0.5s;
   margin: 28px;
   padding: 24px;
-  border: solid 3px #302205;
-  background-color: rgba(220, 180, 57, 0.4);
+  border: solid 3px ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.gold}66;
 
   @media (max-width: 600px) {
     margin: 39px 6px 6px 6px;
@@ -168,7 +168,7 @@ const PreviousAndNextYearLink = styled(InternalLink)`
   padding: 2px 4px;
   color: ${(props) => props.theme.colors.white};
   background-color: ${(props) => props.theme.colors.green};
-  border: solid 3px #302205;
+  border: solid 3px ${(props) => props.theme.colors.black};
 
   &:hover {
     background-color: ${(props) => lighten(0.1, props.theme.colors.green)};

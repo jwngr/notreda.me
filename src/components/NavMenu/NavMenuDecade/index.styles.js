@@ -7,8 +7,8 @@ export const NavMenuDecadeWrapper = styled.div`
   flex: 1;
   padding: 8px;
   margin: 32px 12px 0 0;
-  background-color: rgba(220, 180, 57, 0.4);
   border: solid 3px ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.gold}66;
 
   @media (max-width: 480px) {
     margin-left: 20px;
@@ -39,11 +39,6 @@ export const MavMenuDecadeHeader = styled.div`
 
   p span {
     font-size: 16px;
-  }
-
-  svg {
-    stroke: #f2f2f2;
-    stroke-width: 3px;
   }
 `;
 

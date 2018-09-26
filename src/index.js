@@ -24,6 +24,9 @@ const routes = {
     '/:year': {
       '/:selectedGameIndex': true,
     },
+    '/explorables': {
+      '/s1e1-down-to-the-wire': true,
+    },
   },
 };
 

@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import backgroundImage from '../../images/background.png';
+
 export const NavMenuWrapper = styled.div`
   position: fixed;
   width: 720px;
@@ -12,10 +14,11 @@ export const NavMenuWrapper = styled.div`
   transition: transform 0.5s, visibility 0s 0.5s;
   overflow: scroll;
   z-index: 10;
-  border: solid 3px #302205;
   padding: 0 0 12px 12px;
-  background: #dcdcdc;
   overflow-y: scroll;
+  border: solid 3px ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.lightGray};
+  background-image: url(${backgroundImage});
 
   &.open {
     visibility: visible;
