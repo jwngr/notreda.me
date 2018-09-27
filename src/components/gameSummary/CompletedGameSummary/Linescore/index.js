@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 import {ScoreColumn, LinescoreWrapper, AbbreviationColumn} from './index.styles';
 
@@ -31,10 +32,13 @@ const Linescore = ({linescore, homeTeam, awayTeam}) => {
     totalScores.away += linescore.away[i];
 
     let header = i < 4 ? i + 1 : `OT ${i - 3}`;
+    const classes = classNames({
+      'overtime-header': _.includes(header, 'OT'),
+    });
 
     return (
       <ScoreColumn key={header}>
-        <p>{header}</p>
+        <p className={classes}>{header}</p>
         <p>{linescore.away[i]}</p>
         <p>{linescore.home[i]}</p>
       </ScoreColumn>

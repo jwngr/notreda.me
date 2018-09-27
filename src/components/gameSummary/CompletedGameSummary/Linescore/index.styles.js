@@ -73,9 +73,10 @@ export const ScoreColumn = styled(LinescoreColumn)`
     -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
     -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.green)};
     text-shadow: ${(props) => props.theme.colors.black} 1px 1px;
-  }
 
-  @media (max-width: 950px) {
-    font-size: 18px;
+    &.overtime-header {
+      font-size: 14px;
+      padding: 0 2px;
+    }
   }
 `;
