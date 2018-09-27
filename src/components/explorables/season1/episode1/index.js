@@ -21,7 +21,6 @@ import {
   StatsWrapper,
   SectionTitle,
   StyledExternalLink,
-  StyledInternalLink,
 } from '../../index.styles';
 
 import data from './data.json';
@@ -53,7 +52,7 @@ export default () => {
       <P>
         Life as a Notre Dame football fan can be stressful. It sometimes feels like we are in a
         heated contest each and every weekend, this most recent{' '}
-        <StyledInternalLink href="/2018/4">blowout victory over Wake Forest</StyledInternalLink>{' '}
+        <StyledExternalLink href="/2018/4">blowout victory over Wake Forest</StyledExternalLink>{' '}
         being the exception, not the norm. But is watching your team compete in close games just
         part of life as a college football fan? Many Irish fans appear not to think so. Although the
         Irish enter the fifth weekend of this 2018 season with an undefeated record, Brian Kelly has
@@ -64,7 +63,7 @@ export default () => {
 
       <P>
         Look no further back than the{' '}
-        <StyledInternalLink href="/2016">2016 season</StyledInternalLink> for how this can go
+        <StyledExternalLink href="/2016">2016 season</StyledExternalLink> for how this can go
         terribly wrong. Despite finishing the season with an overall point differential of +37, the
         Irish managed a meager 4-8 record and it felt like Kelly was on the verge of losing his job.
         While a lot went wrong that season, an abysmal 1-7 record in one possession games - defined
@@ -86,10 +85,10 @@ export default () => {
 
       <P>
         This year's team is touting a much improved 3-0 record in such games, including an{' '}
-        <StyledInternalLink href="/2018/1">opening weekend victory</StyledInternalLink> against the
+        <StyledExternalLink href="/2018/1">opening weekend victory</StyledExternalLink> against the
         currently 14th ranked Michigan. But the offense looked anemic in nail-biter victories over{' '}
-        <StyledInternalLink href="/2018/2">Ball State</StyledInternalLink> and{' '}
-        <StyledInternalLink href="/2018/3">Vanderbilt</StyledInternalLink>, two opponents who won't
+        <StyledExternalLink href="/2018/2">Ball State</StyledExternalLink> and{' '}
+        <StyledExternalLink href="/2018/3">Vanderbilt</StyledExternalLink>, two opponents who won't
         even sniff the top 25 this year. A stroke of bad luck or a single missed tackle could turn
         close wins like those into painful losses. And even when the Irish hold on to win, it is
         hard to quantify the impact it has on the team over the course of the season. Increased wear
@@ -326,7 +325,7 @@ export default () => {
         something special this year. But the number of one possession games Notre Dame has played in
         during his tenure is a troubling trend that has continued into this season. It's unclear if
         Kelly will vanquish a{' '}
-        <StyledInternalLink href="/2018/5">David Shaw-led Stanford team</StyledInternalLink> who has
+        <StyledExternalLink href="/2018/5">David Shaw-led Stanford team</StyledExternalLink> who has
         had his number these past few years, but it is safe to assume this weekend's matchup will
         once again come down to the final drive.
       </P>
