@@ -6,9 +6,10 @@ import backgroundImage from '../../../images/background.png';
 export const BarChartWrapper = styled.div`
   margin: 20px auto;
   overflow: hidden;
+  font-family: 'Inter UI', serif;
+  background-image: url(${backgroundImage});
   background-color: ${(props) => props.theme.colors.lightGray}40;
   border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
-  background-image: url(${backgroundImage});
 `;
 
 export const BarChartSvg = styled.svg`
@@ -50,7 +51,7 @@ export const BarChartSvg = styled.svg`
 
   .x-axis-label,
   .y-axis-label {
-    font-size: 20px;
+    font-size: 16px;
     text-anchor: middle;
 
     @media (max-width: 600px) {

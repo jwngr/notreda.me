@@ -52,7 +52,7 @@ export const Byline = styled.div`
   text-align: center;
   margin: 12px auto 20px auto;
   font-size: 16px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   color: ${(props) => props.theme.colors.gray};
 
   p {
@@ -64,7 +64,7 @@ export const SectionTitle = styled.h2`
   margin: 20px auto;
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   color: ${(props) => props.theme.colors.green};
 `;
 
@@ -72,7 +72,7 @@ export const P = styled.p`
   margin: 20px auto;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   text-align: justify;
   color: ${(props) => props.theme.colors.black};
 `;
@@ -88,7 +88,7 @@ export const Caption = styled.p`
   font-size: 14px;
   text-align: justify;
   margin: -12px auto 20px auto;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   color: ${(props) => props.theme.colors.gray};
 `;
 
@@ -105,6 +105,7 @@ export const StatsWrapper = styled.div`
 
 export const Stat = styled.div`
   display: flex;
+  font-family: 'Inter UI', 'Merriweather', sans-serif;
   flex-direction: column;
   width: calc(50% - 12px);
   margin: 10px 0;
@@ -115,7 +116,7 @@ export const Stat = styled.div`
 
   p:first-of-type {
     padding: 12px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: ${(props) => props.theme.colors.white};
     background-color: ${(props) => props.theme.colors.green};
@@ -128,7 +129,7 @@ export const Stat = styled.div`
     justify-content: center;
     align-items: center;
     padding: 8px;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     color: ${(props) => props.theme.colors.green};
   }

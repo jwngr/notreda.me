@@ -6,6 +6,7 @@ import backgroundImage from '../../../images/background.png';
 export const TableWrapper = styled.div`
   margin: 20px auto;
   overflow: scroll;
+  font-family: 'Inter UI', serif;
   background-image: url(${backgroundImage});
   border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
 
@@ -18,7 +19,6 @@ export const TableWrapper = styled.div`
     th,
     td {
       font-size: 14px;
-      font-family: 'Merriweather', serif;
       padding: 8px 12px;
       text-align: center;
 
