@@ -17,6 +17,8 @@ const Metadata = ({game}) => {
   if ('fullDate' in game) {
     date = format(new Date(game.fullDate), 'MMMM D, YYYY');
     time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
+  } else if (game.date === 'TBD') {
+    date = 'Date To Be Determined';
   } else {
     date = format(new Date(game.timestamp || game.date), 'MMMM D, YYYY');
     if ('timestamp' in game) {
@@ -56,10 +58,15 @@ const Metadata = ({game}) => {
     metadataCoverage = <MetadataCoverage>{tvCoverageContent}</MetadataCoverage>;
   }
 
-  let stadium = game.location.stadium || null;
-  let location = game.location.state
-    ? `${game.location.city}, ${game.location.state}`
-    : `${game.location.city}, ${game.location.country}`;
+  let stadium = game.location.stadium ? <p>{game.location.stadium}</p> : null;
+  let location;
+  if (game.location === 'TBD') {
+    location = 'Location To Be Determined';
+  } else {
+    location = game.location.state
+      ? `${game.location.city}, ${game.location.state}`
+      : `${game.location.city}, ${game.location.country}`;
+  }
 
   return (
     <MetadataWrapper>
@@ -68,7 +75,7 @@ const Metadata = ({game}) => {
       </MetadataDateContainer>
       <MetadataContent>
         <MetadataLocation>
-          <p>{stadium}</p>
+          {stadium}
           <p>{location}</p>
         </MetadataLocation>
         {metadataCoverage}
