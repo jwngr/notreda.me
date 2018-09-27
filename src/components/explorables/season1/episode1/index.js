@@ -201,9 +201,11 @@ export default () => {
       </Caption>
 
       <P>
-        NOTE: Although the two point conversion was only adopted by college football starting with
-        the 1958, an 8 point differential was used for all calculations above. If anything,
-        correcting the records for older coaches would just make Kelly's number look even worse.
+        <i>
+          <b>Note:</b> Although the two point conversion was adopted by college football in 1958, an
+          8 point differential was used for all calculations above. If anything, correcting the
+          percentages for older coaches would just make Kelly's number look even worse.
+        </i>
       </P>
 
       <P>
