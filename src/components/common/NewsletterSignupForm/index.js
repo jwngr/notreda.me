@@ -26,15 +26,13 @@ class NewsletterSignupForm extends Component {
       <Wrapper>
         <Intro>
           <p>Want more deep dives on Notre Dame football?</p>
-          <p>
-            Subscribe to a low-volume newsletter to get notified when the next episode is published.
-          </p>
+          <p>Subscribe to a low-volume newsletter to get notified when new content is published.</p>
         </Intro>
 
         {/* TODO: update before launch!!! */}
         <Form
           method="post"
-          action="//jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&amp;id=46d31d866a"
+          action="//notreda.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&amp;id=c7ca01e19c"
           name="mc-embedded-subscribe-form"
           target="_blank"
           rel="noopener"
@@ -51,7 +49,7 @@ class NewsletterSignupForm extends Component {
           <FormInput
             type="text"
             name="FNAME"
-            placeholder="First name"
+            placeholder="First Name"
             value={this.state.firstName}
             onChange={this.onFirstNameChange}
           />
@@ -59,7 +57,7 @@ class NewsletterSignupForm extends Component {
           {/* From MailChimp: do not remove this or risk form bot signups */}
           <HiddenBotInput
             type="text"
-            name="b_d19fa80c86cc4e9017baf4f4b_46d31d866a"
+            name="b_d19fa80c86cc4e9017baf4f4b_c7ca01e19c"
             tabIndex="-1"
             value=""
           />
