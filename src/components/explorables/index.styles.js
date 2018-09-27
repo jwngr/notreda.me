@@ -162,7 +162,7 @@ export const StyledInternalLink = styled(InternalLink)`
 `;
 
 export const Divider = styled.div`
-  border-top: solid 1px ${(props) => props.theme.colors.green};
+  border-top: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
   margin: 20px auto;
   &::after {
     content: '';
