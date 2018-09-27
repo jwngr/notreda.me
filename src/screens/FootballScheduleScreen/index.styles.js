@@ -182,7 +182,7 @@ const PreviousAndNextYearLink = styled(InternalLink)`
     font-size: 16px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 950px) {
     display: none;
   }
 `;

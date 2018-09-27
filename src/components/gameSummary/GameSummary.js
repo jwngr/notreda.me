@@ -6,8 +6,6 @@ import CompletedGameSummary from './CompletedGameSummary';
 
 import teams from '../../resources/teams';
 
-import './GameSummary.css';
-
 const GameSummary = ({game}) => {
   const notreDame = teams.ND;
   notreDame.abbreviation = 'ND';

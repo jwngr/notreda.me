@@ -9,9 +9,9 @@ export const TotalScoreWrapper = styled.div`
   align-items: center;
   justify-content: center;
   font-family: 'Bungee';
-  margin-bottom: 32px;
+  margin-bottom: 44px;
 
-  @media (max-width: 1250px) {
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
     display: grid;
     grid-gap: 12px 8px;
     grid-template-areas:
@@ -50,9 +50,8 @@ export const TeamImage = styled(TeamLogo)`
     margin-right: 8px;
   }
 
-  @media (max-width: 1250px) {
-    ${'' /* width: 40px;
-    height: 40px; */} &.away,
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
+    &.away,
     &.home {
       margin: 0 16px 0 0;
       align-self: center;
@@ -79,7 +78,7 @@ export const TeamDetailsWrapper = styled.div`
     text-align: right;
   }
 
-  @media (max-width: 1250px) {
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
     &.away,
     &.home {
       text-align: right;
@@ -123,7 +122,7 @@ export const Score = styled.p`
   text-align: center;
   white-space: nowrap;
 
-  @media (max-width: 1250px) {
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
     &.away,
     &.home {
       align-self: center;

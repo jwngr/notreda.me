@@ -15,12 +15,7 @@ import {
   TotalScoreWrapper,
 } from './index.styles';
 
-const Team = ({team, score, ranking, record, homeOrAway}) => {
-  let scoreContent;
-  if (score) {
-    scoreContent = <Score>{score}</Score>;
-  }
-
+const Team = ({team, ranking, record, homeOrAway}) => {
   return (
     <TeamWrapper className={homeOrAway}>
       <TeamImage team={team} className={homeOrAway} />
@@ -32,7 +27,6 @@ const Team = ({team, score, ranking, record, homeOrAway}) => {
         <TeamNickname>{team.nickname}</TeamNickname>
         {record && <TeamRecord>{record}</TeamRecord>}
       </TeamDetailsWrapper>
-      {scoreContent}
     </TeamWrapper>
   );
 };
@@ -66,7 +60,7 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
   }
 
   return (
-    <Media query="(max-width: 1250px)">
+    <Media query="(max-width: 600px), (min-width: 950px) and (max-width: 1120px)">
       {(matches) =>
         matches ? (
           <TotalScoreWrapper>

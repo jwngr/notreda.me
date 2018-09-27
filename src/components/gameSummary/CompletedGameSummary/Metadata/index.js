@@ -25,7 +25,7 @@ const Metadata = ({game}) => {
   }
 
   let tvCoverageContent;
-  if (game.coverage) {
+  if (game.coverage && game.coverage !== 'TBD') {
     try {
       tvCoverageContent = (
         <img
@@ -39,17 +39,17 @@ const Metadata = ({game}) => {
   }
 
   let metadataCoverage;
-  if (time && time !== 'TBD' && tvCoverageContent) {
+  if (time && tvCoverageContent) {
     metadataCoverage = (
       <MetadataCoverage>
         {tvCoverageContent}
-        <p>{time}</p>
+        <p>{time === 'TBD' ? 'Time TBD' : time}</p>
       </MetadataCoverage>
     );
-  } else if (time && time !== 'TBD') {
+  } else if (time) {
     metadataCoverage = (
       <MetadataCoverage>
-        <p>{time}</p>
+        <p>{time === 'TBD' ? 'Time TBD' : time}</p>
       </MetadataCoverage>
     );
   } else if (tvCoverageContent) {

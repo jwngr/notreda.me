@@ -1,53 +1,107 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import PropTypes from 'prop-types';
 
-import TeamLogo from '../../TeamLogo';
 import Metadata from '../CompletedGameSummary/Metadata';
 
 import {
-  Ranking,
+  TeamName,
+  TeamImage,
+  TeamRecord,
   AtOrVersus,
+  TeamRanking,
   TeamWrapper,
+  TeamNickname,
   TeamsWrapper,
   MetadataWrapper,
   FutureGameWrapper,
+  TeamDetailsWrapper,
 } from './index.styles';
 
+const Team = ({team, ranking, record, homeOrAway}) => {
+  return (
+    <TeamWrapper className={homeOrAway}>
+      <TeamImage team={team} className={homeOrAway} />
+      <TeamDetailsWrapper className={homeOrAway}>
+        <TeamName>
+          {ranking && <TeamRanking>#{ranking}</TeamRanking>}
+          {team.name}
+        </TeamName>
+        <TeamNickname>{team.nickname}</TeamNickname>
+        {record && <TeamRecord>{record}</TeamRecord>}
+      </TeamDetailsWrapper>
+    </TeamWrapper>
+  );
+};
+
+Team.propTypes = {
+  team: PropTypes.object.isRequired,
+  ranking: PropTypes.number,
+  homeOrAway: PropTypes.string.isRequired,
+};
+
 const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
-  const notreDame = game.isHomeGame ? homeTeam : awayTeam;
-  const opponent = game.isHomeGame ? awayTeam : homeTeam;
-  const atOrVs = game.isHomeGame ? 'vs' : 'at';
+  let atOrVs = game.isHomeGame ? 'vs' : 'at';
+  atOrVs = 'vs';
 
   const homeApRanking = _.get(game, 'rankings.home.ap');
   const awayApRanking = _.get(game, 'rankings.away.ap');
 
-  const notreDameRanking = game.isHomeGame ? homeApRanking : awayApRanking;
-  const opponentRanking = game.isHomeGame ? awayApRanking : homeApRanking;
-
-  let notreDameRankingContent = <Ranking>&nbsp;</Ranking>;
-  if (notreDameRanking) {
-    notreDameRankingContent = <Ranking>#{notreDameRanking}</Ranking>;
+  let awayRecord;
+  if (game.records) {
+    if (game.records.away.away) {
+      awayRecord = `${game.records.away.overall}, ${game.records.away.away} Away`;
+    } else {
+      awayRecord = game.records.away.overall;
+    }
   }
 
-  let opponentRankingContent = <Ranking>&nbsp;</Ranking>;
-  if (opponentRanking) {
-    opponentRankingContent = <Ranking>#{opponentRanking}</Ranking>;
+  let homeRecord;
+  if (game.records) {
+    if (game.records.home.home) {
+      homeRecord = `${game.records.home.overall}, ${game.records.home.home} Home`;
+    } else {
+      homeRecord = game.records.home.overall;
+    }
   }
 
   return (
     <FutureGameWrapper>
-      <TeamsWrapper>
-        <TeamWrapper>
-          {notreDameRankingContent}
-          <TeamLogo team={notreDame} />
-        </TeamWrapper>
-        <AtOrVersus>{atOrVs}</AtOrVersus>
-        <TeamWrapper>
-          <TeamLogo team={opponent} />
-          {opponentRankingContent}
-        </TeamWrapper>
-      </TeamsWrapper>
+      <Media query="(max-width: 600px), (min-width: 950px) and (max-width: 1120px)">
+        {(matches) =>
+          matches ? (
+            <TeamsWrapper>
+              <TeamDetailsWrapper className="away">
+                <TeamName>
+                  {awayApRanking && <TeamRanking>#{awayApRanking}</TeamRanking>}
+                  {awayTeam.name}
+                </TeamName>
+                <TeamNickname>{awayTeam.nickname}</TeamNickname>
+                {awayRecord && <TeamRecord>{awayRecord}</TeamRecord>}
+              </TeamDetailsWrapper>
+              <TeamDetailsWrapper className="home">
+                <TeamName>
+                  {homeApRanking && <TeamRanking>#{homeApRanking}</TeamRanking>}
+                  {homeTeam.name}
+                </TeamName>
+                <TeamNickname>{homeTeam.nickname}</TeamNickname>
+                {homeRecord && <TeamRecord>{homeRecord}</TeamRecord>}
+              </TeamDetailsWrapper>
+              <TeamImage className="away" team={awayTeam} />
+              <TeamImage className="home" team={homeTeam} />
+              <AtOrVersus>{atOrVs}</AtOrVersus>
+            </TeamsWrapper>
+          ) : (
+            <TeamsWrapper>
+              <Team team={awayTeam} ranking={awayApRanking} record={awayRecord} homeOrAway="away" />
+              <AtOrVersus>{atOrVs}</AtOrVersus>
+              <Team team={homeTeam} ranking={homeApRanking} record={homeRecord} homeOrAway="home" />
+            </TeamsWrapper>
+          )
+        }
+      </Media>
+
       <MetadataWrapper>
         <Metadata game={game} />
       </MetadataWrapper>
