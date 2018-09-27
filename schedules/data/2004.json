@@ -479,7 +479,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "10/16/2004",
     "location": {
       "city": "East Rutherford",
@@ -488,8 +488,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 9,
-      "home": 27
+      "away": 27,
+      "home": 9
     },
     "stats": {
       "away": {
@@ -899,8 +899,8 @@
     },
     "opponentId": "ORST",
     "score": {
-      "away": 38,
-      "home": 21
+      "away": 21,
+      "home": 38
     },
     "stats": {
       "away": {

@@ -68535,7 +68535,7 @@
   "2002": [
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "08/31/2002",
       "location": {
         "city": "East Rutherford",
@@ -68544,8 +68544,8 @@
       },
       "opponentId": "MD",
       "score": {
-        "away": 0,
-        "home": 22
+        "away": 22,
+        "home": 0
       },
       "stats": {
         "away": {
@@ -69255,7 +69255,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/09/2002",
       "location": {
         "city": "Baltimore",
@@ -69264,8 +69264,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 23,
-        "home": 30
+        "away": 30,
+        "home": 23
       },
       "stats": {
         "away": {
@@ -70984,7 +70984,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/16/2004",
       "location": {
         "city": "East Rutherford",
@@ -70993,8 +70993,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 9,
-        "home": 27
+        "away": 27,
+        "home": 9
       },
       "stats": {
         "away": {
@@ -71404,8 +71404,8 @@
       },
       "opponentId": "ORST",
       "score": {
-        "away": 38,
-        "home": 21
+        "away": 21,
+        "home": 38
       },
       "stats": {
         "away": {
@@ -72400,7 +72400,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "01/02/2006",
       "location": {
@@ -72410,8 +72410,8 @@
       },
       "opponentId": "OSU",
       "score": {
-        "away": 34,
-        "home": 20
+        "away": 20,
+        "home": 34
       },
       "stats": {
         "away": {
@@ -73077,7 +73077,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/28/2006",
       "location": {
         "city": "Baltimore",
@@ -73086,8 +73086,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 14,
-        "home": 38
+        "away": 38,
+        "home": 14
       },
       "stats": {
         "away": {
@@ -73495,7 +73495,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "01/03/2007",
       "location": {
@@ -73505,8 +73505,8 @@
       },
       "opponentId": "LSU",
       "score": {
-        "away": 41,
-        "home": 14
+        "away": 14,
+        "home": 41
       },
       "stats": {
         "away": {
@@ -74287,14 +74287,18 @@
           14,
           6,
           8,
-          18
+          7,
+          3,
+          8
         ],
         "home": [
           7,
           14,
           0,
           7,
-          16
+          7,
+          3,
+          6
         ]
       },
       "sportsReferenceGameId": "2007-11-03-notre-dame",
@@ -75154,14 +75158,20 @@
           0,
           7,
           14,
-          12
+          3,
+          3,
+          3,
+          3
         ],
         "home": [
           3,
           14,
           0,
           7,
-          9
+          3,
+          3,
+          3,
+          0
         ]
       },
       "sportsReferenceGameId": "2008-11-01-notre-dame",
@@ -75249,7 +75259,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/15/2008",
       "location": {
         "city": "Baltimore",
@@ -75258,8 +75268,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 21,
-        "home": 27
+        "away": 27,
+        "home": 21
       },
       "stats": {
         "away": {
@@ -75488,7 +75498,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": false,
+      "isHomeGame": true,
       "isBowlGame": true,
       "date": "12/24/2008",
       "location": {
@@ -75498,8 +75508,8 @@
       },
       "opponentId": "HAW",
       "score": {
-        "away": 49,
-        "home": 21
+        "away": 21,
+        "home": 49
       },
       "stats": {
         "away": {
@@ -76449,14 +76459,16 @@
           10,
           7,
           3,
-          13
+          7,
+          6
         ],
         "home": [
           7,
           7,
           3,
           3,
-          10
+          7,
+          3
         ]
       },
       "sportsReferenceGameId": "2009-11-21-notre-dame",
@@ -77099,7 +77111,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/23/2010",
       "location": {
         "city": "East Rutherford",
@@ -77108,8 +77120,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 35,
-        "home": 17
+        "away": 17,
+        "home": 35
       },
       "stats": {
         "away": {
@@ -77495,7 +77507,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "12/31/2010",
       "location": {
@@ -77555,16 +77567,16 @@
       "espnGameId": 303652390,
       "linescore": {
         "away": [
-          14,
-          13,
-          3,
-          3
-        ],
-        "home": [
           0,
           3,
           0,
           14
+        ],
+        "home": [
+          14,
+          13,
+          3,
+          3
         ]
       },
       "sportsReferenceGameId": "2010-12-31-miami-fl",
@@ -78635,8 +78647,8 @@
       "nickname": "Emerald Isle Classic",
       "opponentId": "NAVY",
       "score": {
-        "away": 10,
-        "home": 50
+        "away": 50,
+        "home": 10
       },
       "stats": {
         "away": {
@@ -81069,7 +81081,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "09/27/2014",
       "time": "8:00 PM",
       "coverage": "ABC",
@@ -81080,8 +81092,8 @@
       },
       "opponentId": "SYR",
       "score": {
-        "away": 15,
-        "home": 31
+        "away": 31,
+        "home": 15
       },
       "stats": {
         "away": {
@@ -81407,7 +81419,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/01/2014",
       "time": "8:00 PM",
       "coverage": "CBS",
@@ -81418,8 +81430,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 39,
-        "home": 49
+        "away": 49,
+        "home": 39
       },
       "stats": {
         "away": {
@@ -81817,7 +81829,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "12/30/2014",
       "time": "3:00 PM",
@@ -81830,8 +81842,8 @@
       "nickname": "Music City Bowl",
       "opponentId": "LSU",
       "score": {
-        "away": 28,
-        "home": 31
+        "away": 31,
+        "home": 28
       },
       "stats": {
         "away": {
@@ -82913,7 +82925,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "01/01/2016",
       "time": "1:00 PM",
@@ -82976,16 +82988,16 @@
       "espnGameId": 400852736,
       "linescore": {
         "away": [
-          0,
-          14,
-          7,
-          7
-        ],
-        "home": [
           14,
           14,
           7,
           9
+        ],
+        "home": [
+          0,
+          14,
+          7,
+          7
         ]
       },
       "sportsReferenceGameId": "2016-01-01-ohio-state",

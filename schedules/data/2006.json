@@ -588,7 +588,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "10/28/2006",
     "location": {
       "city": "Baltimore",
@@ -597,8 +597,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 14,
-      "home": 38
+      "away": 38,
+      "home": 14
     },
     "stats": {
       "away": {
@@ -1006,7 +1006,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "01/03/2007",
     "location": {
@@ -1016,8 +1016,8 @@
     },
     "opponentId": "LSU",
     "score": {
-      "away": 41,
-      "home": 14
+      "away": 14,
+      "home": 41
     },
     "stats": {
       "away": {

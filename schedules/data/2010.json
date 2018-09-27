@@ -554,7 +554,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "10/23/2010",
     "location": {
       "city": "East Rutherford",
@@ -563,8 +563,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 35,
-      "home": 17
+      "away": 17,
+      "home": 35
     },
     "stats": {
       "away": {
@@ -950,7 +950,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "12/31/2010",
     "location": {
@@ -1010,16 +1010,16 @@
     "espnGameId": 303652390,
     "linescore": {
       "away": [
-        14,
-        13,
-        3,
-        3
-      ],
-      "home": [
         0,
         3,
         0,
         14
+      ],
+      "home": [
+        14,
+        13,
+        3,
+        3
       ]
     },
     "sportsReferenceGameId": "2010-12-31-miami-fl",

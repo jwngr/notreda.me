@@ -251,7 +251,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "09/27/2014",
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -262,8 +262,8 @@
     },
     "opponentId": "SYR",
     "score": {
-      "away": 15,
-      "home": 31
+      "away": 31,
+      "home": 15
     },
     "stats": {
       "away": {
@@ -589,7 +589,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/01/2014",
     "time": "8:00 PM",
     "coverage": "CBS",
@@ -600,8 +600,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 39,
-      "home": 49
+      "away": 49,
+      "home": 39
     },
     "stats": {
       "away": {
@@ -999,7 +999,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "12/30/2014",
     "time": "3:00 PM",
@@ -1012,8 +1012,8 @@
     "nickname": "Music City Bowl",
     "opponentId": "LSU",
     "score": {
-      "away": 28,
-      "home": 31
+      "away": 31,
+      "home": 28
     },
     "stats": {
       "away": {

@@ -925,7 +925,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "01/02/2006",
     "location": {
@@ -935,8 +935,8 @@
     },
     "opponentId": "OSU",
     "score": {
-      "away": 34,
-      "home": 20
+      "away": 20,
+      "home": 34
     },
     "stats": {
       "away": {

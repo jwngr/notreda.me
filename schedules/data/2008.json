@@ -615,14 +615,20 @@
         0,
         7,
         14,
-        12
+        3,
+        3,
+        3,
+        3
       ],
       "home": [
         3,
         14,
         0,
         7,
-        9
+        3,
+        3,
+        3,
+        0
       ]
     },
     "sportsReferenceGameId": "2008-11-01-notre-dame",
@@ -710,7 +716,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/15/2008",
     "location": {
       "city": "Baltimore",
@@ -719,8 +725,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 21,
-      "home": 27
+      "away": 27,
+      "home": 21
     },
     "stats": {
       "away": {
@@ -949,7 +955,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": false,
+    "isHomeGame": true,
     "isBowlGame": true,
     "date": "12/24/2008",
     "location": {
@@ -959,8 +965,8 @@
     },
     "opponentId": "HAW",
     "score": {
-      "away": 49,
-      "home": 21
+      "away": 21,
+      "home": 49
     },
     "stats": {
       "away": {

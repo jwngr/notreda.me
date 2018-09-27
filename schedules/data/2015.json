@@ -1010,7 +1010,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "01/01/2016",
     "time": "1:00 PM",
@@ -1073,16 +1073,16 @@
     "espnGameId": 400852736,
     "linescore": {
       "away": [
-        0,
-        14,
-        7,
-        7
-      ],
-      "home": [
         14,
         14,
         7,
         9
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        7
       ]
     },
     "sportsReferenceGameId": "2016-01-01-ohio-state",
