@@ -23,7 +23,9 @@ const GameWrapper = styled(InternalLink)`
 
   @media (max-width: 600px) {
     justify-content: space-between;
+  }
 
+  @media (max-width: 768px) {
     &:hover {
       transform: none;
     }
@@ -111,7 +113,7 @@ export const DateOpponentDetailsWrapper = styled.div`
 
 export const GameDate = styled.p`
   font-size: 14px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
 
   @media (max-width: 600px) {
     font-size: 12px;
@@ -159,7 +161,7 @@ export const OpponentName = styled.span`
 `;
 
 export const Location = styled.p`
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   font-size: 14px;
   width: 200px;
   text-align: center;
@@ -167,7 +169,7 @@ export const Location = styled.p`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 600px) {
     display: none;
   }
 
@@ -228,9 +230,8 @@ export const TelevisionCoverage = styled.div`
 
   p {
     width: auto;
-    font-family: 'Merriweather', serif;
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Inter UI', serif;
   }
 
   img {

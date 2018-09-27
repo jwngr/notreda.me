@@ -105,7 +105,7 @@ export const StatsWrapper = styled.div`
 
 export const Stat = styled.div`
   display: flex;
-  font-family: 'Inter UI', 'Merriweather', sans-serif;
+  font-family: 'Inter UI', 'Inter UI', sans-serif;
   flex-direction: column;
   width: calc(50% - 12px);
   margin: 10px 0;

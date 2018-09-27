@@ -67,7 +67,13 @@ export const GameStatsHeader = styled.div`
 
 export const StatsUnavailable = styled.p`
   width: 400px;
-  font-size: 16px;
   margin-top: 32px;
+  font-size: 16px;
+  line-height: 1.4;
   text-align: center;
+  font-family: 'Inter UI', serif;
+
+  a {
+    color: ${(props) => props.theme.colors.green};
+  }
 `;

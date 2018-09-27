@@ -10,7 +10,7 @@ export const ScheduleScreenWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};
   background-color: ${(props) => props.theme.colors.gold}66;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     margin: 39px 6px 6px 6px;
     padding: 40px 0px 0px 0px;
   }
@@ -36,7 +36,7 @@ export const ScheduleWrapper = styled.div`
     margin-left: 12px;
   }
 
-  @media (max-width: 1024px and min-width: 801px) {
+  @media (max-width: 1023px and min-width: 801px) {
     & > div:first-of-type {
       width: 40%;
     }
@@ -60,8 +60,8 @@ export const ScheduleWrapper = styled.div`
 
 export const NavMenuButton = styled.div`
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 32px;
+  right: 32px;
   height: 47px;
   padding: 10px;
   cursor: pointer;
@@ -102,7 +102,7 @@ export const NavMenuButton = styled.div`
     top: calc((-2rem / 4) - 2px);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     top: -2px;
     right: 0;
   }
@@ -119,13 +119,12 @@ export const Header = styled.div`
   left: 0;
   width: 100%;
   height: 56px;
-  min-width: 400px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     height: 80px;
   }
 `;
@@ -152,7 +151,7 @@ export const HeaderTitle = styled.div`
     margin: 0 12px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     width: 228px;
     font-size: 24px;
   }
@@ -182,7 +181,7 @@ const PreviousAndNextYearLink = styled(InternalLink)`
     font-size: 16px;
   }
 
-  @media (max-width: 950px) {
+  @media (max-width: 1023px) {
     display: none;
   }
 `;
@@ -210,15 +209,15 @@ export const PreviousYearLink = styled(PreviousAndNextYearLink)`
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1024px) {
+    padding-left: 4px;
+
     &:hover {
       animation: none;
     }
 
     span {
-      font-size: 20px;
-      margin-right: 0;
-      margin-left: 4px;
+      display: none;
     }
   }
 `;
@@ -246,15 +245,15 @@ export const NextYearLink = styled(PreviousAndNextYearLink)`
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1024px) {
+    padding-right: 4px;
+
     &:hover {
       animation: none;
     }
 
     span {
-      font-size: 20px;
-      margin-left: 0;
-      margin-right: 4px;
+      display: none;
     }
   }
 `;

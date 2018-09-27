@@ -41,8 +41,8 @@ export const MetadataContent = styled.div`
   max-width: 200px;
 
   p {
-    font-size: 14px;
-    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-family: 'Inter UI', serif;
     margin-bottom: 8px;
   }
 

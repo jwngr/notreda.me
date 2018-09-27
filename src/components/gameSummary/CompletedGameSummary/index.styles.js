@@ -7,7 +7,11 @@ export const CompletedGameWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     padding: 8px;
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 20px;
   }
 `;

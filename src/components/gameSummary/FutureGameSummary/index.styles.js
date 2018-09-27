@@ -8,8 +8,12 @@ export const FutureGameWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     padding: 8px;
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 20px;
   }
 `;
 
@@ -58,7 +62,7 @@ export const TeamDetailsWrapper = styled.div`
   display: flex;
   text-align: left;
   flex-direction: column;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
 
   &.away {
     text-align: right;

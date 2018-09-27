@@ -31,7 +31,7 @@ const StatCell = styled.p`
   padding: 6px 0;
   color: ${(props) => props.theme.colors.black};
   font-size: 14px;
-  font-family: 'Merriweather';
+  font-family: 'Inter UI';
   white-space: nowrap;
 `;
 

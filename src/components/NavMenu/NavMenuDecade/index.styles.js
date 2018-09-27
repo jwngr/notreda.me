@@ -58,7 +58,7 @@ export const NavMenuDecadeYear = styled(InternalLink)`
   justify-content: center;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
   color: ${(props) => props.theme.colors.black};
 
   &:hover {

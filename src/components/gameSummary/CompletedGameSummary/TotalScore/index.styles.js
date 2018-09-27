@@ -72,7 +72,7 @@ export const TeamDetailsWrapper = styled.div`
   display: flex;
   text-align: left;
   flex-direction: column;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter UI', serif;
 
   &.away {
     text-align: right;
@@ -98,22 +98,22 @@ export const TeamDetailsWrapper = styled.div`
 `;
 
 export const TeamName = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
 `;
 
 export const TeamNickname = styled.p`
-  font-size: 20px;
+  font-size: 22px;
 `;
 
 export const TeamRanking = styled.span`
-  font-size: 12px;
+  font-size: 14px;
   color: ${(props) => props.theme.colors.gray};
   margin-right: 4px;
 `;
 
 export const TeamRecord = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: ${(props) => props.theme.colors.gray};
 `;
 
