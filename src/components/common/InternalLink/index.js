@@ -13,6 +13,9 @@ function asInternalLink(WrappedComponent) {
       // Navigate to the new route.
       navigateTo(href);
 
+      // Scroll back to the top of the page.
+      window.scrollTo(0, 0);
+
       // Preven the default link behavior, which is a page reload.
       e.preventDefault();
     }
