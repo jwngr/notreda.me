@@ -156,7 +156,7 @@ Game.propTypes = {
   game: PropTypes.object.isRequired,
   year: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
-  isSelected: PropTypes.boolean.isRequired,
+  isSelected: PropTypes.bool.isRequired,
 };
 
 export default Game;
