@@ -4,7 +4,7 @@ import Game from '../components/Game';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    selected: ownProps.index === state.selectedGameIndex,
+    isSelected: ownProps.index === state.selectedGameIndex,
   };
 };
 
