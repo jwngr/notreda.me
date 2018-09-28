@@ -11,7 +11,7 @@ import schedule from '../resources/schedule';
 const DEFAULT_YEAR = 2018;
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
-const getYearFromQueryParams = (params) => {
+const getYearFromQueryParams = (params = {}) => {
   const year = Number(params.year);
 
   if (isNaN(year) || !_.has(schedule, year)) {
@@ -21,7 +21,7 @@ const getYearFromQueryParams = (params) => {
   return year;
 };
 
-const getSelectedGameIndexFromQueryParams = (params) => {
+const getSelectedGameIndexFromQueryParams = (params = {}) => {
   const year = getYearFromQueryParams(params);
 
   const selectedGameIndex = Number(params.selectedGameIndex);
