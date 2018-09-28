@@ -23,7 +23,7 @@ export const Heading = styled.div`
   margin: 20px auto 8px auto;
   text-align: center;
   font-size: 16px;
-  font-family: 'Bungee', serif;
+  font-family: 'Bungee';
   color: ${(props) => props.theme.colors.gray};
 `;
 
@@ -32,7 +32,7 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 44px;
   font-weight: bold;
-  font-family: 'Bungee', serif;
+  font-family: 'Bungee';
   color: ${(props) => props.theme.colors.green};
   -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
   -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.green)};
@@ -44,7 +44,7 @@ export const Subtitle = styled.p`
   margin: 8px auto;
   font-size: 24px;
   max-width: 360px;
-  font-family: 'Bungee', serif;
+  font-family: 'Bungee';
   color: ${(props) => props.theme.colors.black};
 `;
 
@@ -52,7 +52,7 @@ export const Byline = styled.div`
   text-align: center;
   margin: 12px auto 20px auto;
   font-size: 16px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter UI';
   color: ${(props) => props.theme.colors.gray};
 
   p {
@@ -64,7 +64,7 @@ export const SectionTitle = styled.h2`
   margin: 20px auto;
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter UI';
   color: ${(props) => props.theme.colors.green};
 `;
 
@@ -72,7 +72,7 @@ export const P = styled.p`
   margin: 20px auto;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter UI';
   text-align: justify;
   color: ${(props) => props.theme.colors.black};
 `;
@@ -88,7 +88,7 @@ export const Caption = styled.p`
   font-size: 14px;
   text-align: justify;
   margin: -12px auto 20px auto;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter UI';
   color: ${(props) => props.theme.colors.gray};
 `;
 
@@ -105,7 +105,7 @@ export const StatsWrapper = styled.div`
 
 export const Stat = styled.div`
   display: flex;
-  font-family: 'Inter UI', 'Inter UI', sans-serif;
+  font-family: 'Inter UI', sans-serif;
   flex-direction: column;
   width: calc(50% - 12px);
   margin: 10px 0;
