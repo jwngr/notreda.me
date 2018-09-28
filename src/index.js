@@ -15,8 +15,6 @@ import './index.css';
 
 // Load fonts
 require('typeface-bungee');
-require('typeface-bungee-shade');
-require('typeface-merriweather');
 
 // Router
 const routes = {
