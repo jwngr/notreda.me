@@ -66,7 +66,7 @@ export const GameStatsHeader = styled.div`
 `;
 
 export const StatsUnavailable = styled.p`
-  width: 400px;
+  max-width: 400px;
   margin-top: 32px;
   font-size: 16px;
   line-height: 1.4;
