@@ -1,9 +1,6 @@
 # notreda.me
 
-Notre Dame Fighting Irish football schedule
+[notreda.me](https://notreda.me/) is your source for historical Notre Dame Fighting Irish football
+schedules, stats, and analyses.
 
-Requires Node 4.x.x+
-
-Source of truth for schedule data for each year exists at `schedules/data/<YEAR>.json`.
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+[![Notre Dame vs. Michigan 2018 on notreda.me](/src/public/ndMichigan2018Screenshot.png)](https://notreda.me/)
