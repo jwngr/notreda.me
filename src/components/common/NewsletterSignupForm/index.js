@@ -29,7 +29,6 @@ class NewsletterSignupForm extends Component {
           <p>Subscribe to a low-volume newsletter to get notified when new content is published.</p>
         </Intro>
 
-        {/* TODO: update before launch!!! */}
         <Form
           method="post"
           action="//notreda.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&amp;id=c7ca01e19c"

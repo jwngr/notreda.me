@@ -24,7 +24,7 @@ import {
   DateOpponentDetailsWrapper,
 } from './Game.styles';
 
-const Game = ({game, year, index, selected}) => {
+const Game = ({game, year, index, isSelected}) => {
   let lastColumnContent;
   if ('result' in game) {
     const opponentScore = game.isHomeGame ? game.score.away : game.score.home;
@@ -76,7 +76,7 @@ const Game = ({game, year, index, selected}) => {
   }
 
   const gameClassNames = classNames({
-    selected: selected,
+    selected: isSelected,
     homeGame: game.isHomeGame,
     awayGame: !game.isHomeGame,
   });
@@ -108,7 +108,7 @@ const Game = ({game, year, index, selected}) => {
   }
 
   const opponentNameContent = (
-    <Media query="(max-width: 600px)">
+    <Media query="(max-width: 768px)">
       {(matches) =>
         matches ? (
           <OpponentName>{game.opponent.shortName || game.opponent.name}</OpponentName>
@@ -152,9 +152,11 @@ const Game = ({game, year, index, selected}) => {
   );
 };
 
-// TODO: finish these
 Game.propTypes = {
   game: PropTypes.object.isRequired,
+  year: PropTypes.number.isRequired,
+  index: PropTypes.number.isRequired,
+  isSelected: PropTypes.boolean.isRequired,
 };
 
 export default Game;

@@ -10,7 +10,6 @@ import {getDefaultTeamColor} from '../../../../utils';
 const GameStats = ({stats, homeTeam, awayTeam}) => {
   // TODO: remove once all games has stats
   if (stats.home.totalYards === -1) {
-    // TODO: have plan for this before launch.
     return (
       <StatsUnavailable>
         Stats for this game are not yet available.{' '}
