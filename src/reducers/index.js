@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import addDays from 'date-fns/add_days';
+import subDays from 'date-fns/sub_days';
 import isAfter from 'date-fns/is_after';
 
 import * as actions from '../actions';
@@ -52,11 +52,13 @@ const getSelectedGameIndexFromQueryParams = (params = {}) => {
       // If all games have already played, select the last game.
       return schedule[year].length - 1;
     } else {
-      // Otherwise, select the latest completed game until the Tuesday after the game, at which
-      // point, select the next upcoming game.
-      const latestCompletedGameDate = schedule[year][gamesPlayedCount - 1].date;
-      const tuesdayAfterLatestCompletedGameDate = addDays(new Date(latestCompletedGameDate), 3);
-      if (isAfter(new Date(), tuesdayAfterLatestCompletedGameDate)) {
+      // Otherwise, select the latest completed game until the Wednesday before the next game, at
+      // which point, select the next game.
+      // TODO: remove date or fullDate once these are all standardized.
+      const nextCompletedGameDate =
+        schedule[year][gamesPlayedCount].date | schedule[year][gamesPlayedCount].fullDate;
+      const wednesdayBeforeNextGameDate = subDays(new Date(nextCompletedGameDate), 4);
+      if (isAfter(new Date(), wednesdayBeforeNextGameDate)) {
         return gamesPlayedCount;
       } else {
         return gamesPlayedCount - 1;
