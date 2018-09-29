@@ -1067,18 +1067,18 @@
     },
     "opponentId": "OSU",
     "score": {
-      "away": 44,
-      "home": 28
+      "away": 28,
+      "home": 44
     },
     "espnGameId": 400852736,
     "linescore": {
-      "away": [
+      "home": [
         14,
         14,
         7,
         9
       ],
-      "home": [
+      "away": [
         0,
         14,
         7,
@@ -1088,10 +1088,10 @@
     "sportsReferenceGameId": "2016-01-01-ohio-state",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 7
       },
       "away": {
-        "ap": 7
+        "ap": 8
       }
     },
     "headCoach": "Brian Kelly"
