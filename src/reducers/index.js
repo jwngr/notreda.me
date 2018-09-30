@@ -56,7 +56,7 @@ const getSelectedGameIndexFromQueryParams = (params = {}) => {
       // which point, select the next game.
       // TODO: remove date or fullDate once these are all standardized.
       const nextCompletedGameDate =
-        schedule[year][gamesPlayedCount].date | schedule[year][gamesPlayedCount].fullDate;
+        schedule[year][gamesPlayedCount].date || schedule[year][gamesPlayedCount].fullDate;
       const wednesdayBeforeNextGameDate = subDays(new Date(nextCompletedGameDate), 4);
       if (isAfter(new Date(), wednesdayBeforeNextGameDate)) {
         return gamesPlayedCount;
