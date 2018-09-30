@@ -36,16 +36,32 @@ const getHtmlForUrl = (url) => {
 };
 
 const promises = years.map((year) => {
-  return getHtmlForUrl(`http://www.espn.com/college-football/team/schedule/_/id/87/year/${year}`)
+  return getHtmlForUrl(`http://www.espn.com/college-football/team/schedule/_/id/87/season/${year}`)
     .then(($) => {
       const gameIds = [];
 
-      const $scores = $('.score > a');
-      $scores.each((i, $score) => {
-        const gameUrl = $($score).attr('href');
-        const gameId = gameUrl.split('/_/id/')[1];
+      const $rows = $('.Table2__tr');
 
-        gameIds.push(gameId);
+      $rows.each((i, row) => {
+        const $cols = $(row).find('td');
+        if (
+          $cols.length === 7 &&
+          $cols
+            .eq(0)
+            .text()
+            .trim() !== 'Date'
+        ) {
+          const $spans = $cols.eq(2).find('span');
+
+          const gameId = $spans
+            .eq(1)
+            .find('a')
+            .attr('href')
+            .split('gameId=')[1]
+            .trim();
+
+          gameIds.push(gameId);
+        }
       });
 
       return gameIds;
