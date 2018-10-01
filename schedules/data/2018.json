@@ -488,6 +488,9 @@
     "coverage": "ABC",
     "sportsReferenceGameId": "2018-10-06-virginia-tech",
     "rankings": {
+      "home": {
+        "ap": 24
+      },
       "away": {
         "ap": 8
       }
@@ -519,7 +522,7 @@
     "sportsReferenceGameId": "2018-10-13-notre-dame",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
@@ -549,7 +552,7 @@
     "sportsReferenceGameId": "2018-10-27-notre-dame",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
@@ -581,7 +584,7 @@
     "sportsReferenceGameId": "2018-11-03-northwestern",
     "rankings": {
       "away": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
@@ -611,7 +614,7 @@
     "sportsReferenceGameId": "2018-11-10-notre-dame",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
@@ -644,7 +647,7 @@
     "sportsReferenceGameId": "2018-11-17-notre-dame",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
@@ -675,7 +678,7 @@
     "sportsReferenceGameId": "2018-11-24-southern-california",
     "rankings": {
       "away": {
-        "ap": 8
+        "ap": 6
       }
     },
     "records": {
