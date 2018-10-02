@@ -15,3 +15,16 @@ export const CompletedGameWrapper = styled.div`
     padding-bottom: 20px;
   }
 `;
+
+export const VideoHighlights = styled.iframe`
+  width: 100%;
+  height: 294px;
+  max-width: 520px;
+  margin-top: 20px;
+  border: solid 3px ${(props) => props.theme.colors.black};
+
+  @media (max-width: 950px) {
+    max-width: 420px;
+    height: 240px;
+  }
+`;
