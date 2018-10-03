@@ -74,14 +74,6 @@
       }
     },
     "sportsReferenceGameId": "2018-09-01-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 12
-      },
-      "away": {
-        "ap": 14
-      }
-    },
     "records": {
       "home": {
         "overall": "1-0",
@@ -94,7 +86,17 @@
         "away": "0-1"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 12,
+        "coaches": 11
+      },
+      "away": {
+        "ap": 14,
+        "coaches": 14
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -171,11 +173,6 @@
       }
     },
     "sportsReferenceGameId": "2018-09-08-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
     "records": {
       "home": {
         "overall": "2-0",
@@ -188,7 +185,13 @@
         "away": "0-1"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 8
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -201,11 +204,6 @@
     "opponentId": "VANDY",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-09-15-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
     "records": {
       "home": {
         "overall": "3-0",
@@ -282,7 +280,13 @@
         "fumbles": 0
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 8
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -296,11 +300,6 @@
     "opponentId": "WAKE",
     "coverage": "ABC",
     "sportsReferenceGameId": "2018-09-22-wake-forest",
-    "rankings": {
-      "away": {
-        "ap": 8
-      }
-    },
     "records": {
       "home": {
         "overall": "2-2",
@@ -377,7 +376,13 @@
         "fumbles": -1
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 8,
+        "coaches": 8
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -390,14 +395,6 @@
     "opponentId": "STAN",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-09-29-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 8
-      },
-      "away": {
-        "ap": 7
-      }
-    },
     "records": {
       "home": {
         "overall": "5-0",
@@ -474,6 +471,16 @@
         "possession": "34:23",
         "fumbles": 2
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 8
+      },
+      "away": {
+        "ap": 7,
+        "coaches": 7
+      }
     }
   },
   {
@@ -487,14 +494,6 @@
     "opponentId": "VT",
     "coverage": "ABC",
     "sportsReferenceGameId": "2018-10-06-virginia-tech",
-    "rankings": {
-      "home": {
-        "ap": 24
-      },
-      "away": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "3-1",
@@ -507,7 +506,17 @@
         "away": "1-0"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "coaches": 7
+      },
+      "home": {
+        "ap": 24,
+        "coaches": 23
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -520,11 +529,6 @@
     "opponentId": "PITT",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-10-13-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "5-0",
@@ -537,7 +541,13 @@
         "away": "0-2"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -550,11 +560,6 @@
     "opponentId": "NAVY",
     "coverage": "CBS",
     "sportsReferenceGameId": "2018-10-27-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "5-0",
@@ -567,7 +572,13 @@
         "away": "0-2"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -582,11 +593,6 @@
     "opponentId": "NW",
     "coverage": "TBD",
     "sportsReferenceGameId": "2018-11-03-northwestern",
-    "rankings": {
-      "away": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "1-3",
@@ -599,7 +605,13 @@
         "away": "1-0"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -612,11 +624,6 @@
     "opponentId": "FSU",
     "coverage": "NBC",
     "sportsReferenceGameId": "2018-11-10-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "5-0",
@@ -629,7 +636,13 @@
         "away": "1-1"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -645,11 +658,6 @@
     "coverage": "NBC",
     "isShamrockSeries": true,
     "sportsReferenceGameId": "2018-11-17-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "5-0",
@@ -662,7 +670,13 @@
         "away": "1-1"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -676,11 +690,6 @@
     "opponentId": "USC",
     "coverage": "TBD",
     "sportsReferenceGameId": "2018-11-24-southern-california",
-    "rankings": {
-      "away": {
-        "ap": 6
-      }
-    },
     "records": {
       "home": {
         "overall": "3-2",
@@ -693,6 +702,12 @@
         "away": "1-0"
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   }
 ]

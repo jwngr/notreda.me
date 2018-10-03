@@ -75,12 +75,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-08-30-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 17
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -158,12 +158,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-09-06-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 16
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -242,12 +242,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-09-13-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 11
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -325,12 +325,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-09-27-syracuse",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
+      "away": {
         "ap": 8
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -408,6 +408,7 @@
       ]
     },
     "sportsReferenceGameId": "2014-10-04-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 9
@@ -415,8 +416,7 @@
       "away": {
         "ap": 14
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -494,12 +494,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-10-11-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 6
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -577,15 +577,15 @@
       ]
     },
     "sportsReferenceGameId": "2014-10-18-florida-state",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 2
-      },
       "away": {
         "ap": 5
+      },
+      "home": {
+        "ap": 2
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -663,12 +663,13 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-01-navy",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 6
+      "away": {
+        "ap": 6,
+        "cfbPlayoff": 10
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -746,15 +747,17 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-08-arizona-state",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 11
-      },
       "away": {
-        "ap": 8
+        "ap": 8,
+        "cfbPlayoff": 10
+      },
+      "home": {
+        "ap": 11,
+        "cfbPlayoff": 9
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -834,12 +837,13 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-15-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 15
+        "ap": 15,
+        "cfbPlayoff": 18
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -917,7 +921,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-22-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "cfbPlayoff": 24
+      }
+    }
   },
   {
     "result": "L",
@@ -1075,11 +1084,12 @@
       ]
     },
     "sportsReferenceGameId": "2014-12-30-louisiana-state",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "away": {
-        "ap": 22
+      "home": {
+        "ap": 22,
+        "cfbPlayoff": 23
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   }
 ]

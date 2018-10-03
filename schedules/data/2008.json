@@ -463,14 +463,14 @@
       ]
     },
     "sportsReferenceGameId": "2008-10-11-north-carolina",
+    "time": "3:30 PM",
+    "coverage": "ABC / ESPN2",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 22
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC / ESPN2",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -944,14 +944,15 @@
       ]
     },
     "sportsReferenceGameId": "2008-11-29-southern-california",
-    "rankings": {
-      "home": {
-        "ap": 5
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "bcs": 5
+      }
+    }
   },
   {
     "result": "W",

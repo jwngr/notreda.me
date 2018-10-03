@@ -57,13 +57,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 4
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -123,17 +123,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 11
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "1:50 PM",
     "coverage": "ABC",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 1
+      },
+      "home": {
+        "ap": 11
+      }
+    }
   },
   {
     "result": "L",
@@ -193,13 +193,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
         "ap": 13
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "W",
@@ -320,13 +320,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
         "ap": 20
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -386,13 +386,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
         "ap": 5
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "W",
@@ -635,13 +635,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:00 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 13
       }
-    },
-    "time": "1:00 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -701,13 +701,13 @@
       "away": [],
       "home": []
     },
+    "time": "3:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 9
       }
-    },
-    "time": "3:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Gerry Faust"
+    }
   }
 ]

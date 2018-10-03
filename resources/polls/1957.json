@@ -1,0 +1,1484 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 1,
+          "conference": "Big 7",
+          "previousRanking": "NA"
+        },
+        "Texas A&M": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Michigan State": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Minnesota": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Baylor": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Pittsburgh": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Iowa": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Duke": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Georgia Tech": {
+          "record": "0-0",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Navy": {
+          "record": "0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Oregon State": {
+          "record": "0-0",
+          "ranking": 13,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Auburn": {
+          "record": "0-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Kentucky": {
+          "record": "0-0",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1957-09-23",
+      "teams": {
+        "Oklahoma": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "Big 7",
+          "previousRanking": "1"
+        },
+        "Texas A&M": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Georgia Tech": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Michigan State": {
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "1-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Minnesota": {
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Duke": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "10"
+        },
+        "Tennessee": {
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Oregon State": {
+          "record": "1-0-0",
+          "ranking": 9,
+          "conference": "PCC",
+          "previousRanking": "13"
+        },
+        "Michigan": {
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Baylor": {
+          "record": "1-0-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Iowa": {
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Texas": {
+          "record": "1-0-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Houston": {
+          "record": "1-0-0",
+          "ranking": 14,
+          "conference": "MVC",
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "1-0-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "0-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Stanford": {
+          "record": "1-0-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Rice": {
+          "record": "1-0-0",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "1-0-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "16"
+        }
+      }
+    },
+    {
+      "date": "1957-09-30",
+      "teams": {
+        "Oklahoma": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "Big 7",
+          "previousRanking": "1"
+        },
+        "Michigan State": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Minnesota": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Duke": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Texas A&M": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Navy": {
+          "record": "2-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Auburn": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Iowa": {
+          "record": "1-0-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Oregon State": {
+          "record": "2-0-0",
+          "ranking": 9,
+          "conference": "PCC",
+          "previousRanking": "9"
+        },
+        "Michigan": {
+          "record": "1-0-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Baylor": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Army": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "NC State": {
+          "record": "2-0-0",
+          "ranking": 13,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "1-0-1",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Ole Miss": {
+          "record": "2-0-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "19"
+        },
+        "Notre Dame": {
+          "record": "1-0-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Stanford": {
+          "record": "2-0-0",
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Texas Christian": {
+          "record": "1-0-1",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "2-0-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "2-0-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "13"
+        }
+      }
+    },
+    {
+      "date": "1957-10-07",
+      "teams": {
+        "Oklahoma": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Big 7",
+          "previousRanking": "1"
+        },
+        "Michigan State": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Texas A&M": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Minnesota": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Duke": {
+          "record": "3-0-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Michigan": {
+          "record": "2-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Oregon State": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "PCC",
+          "previousRanking": "9"
+        },
+        "Iowa": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Auburn": {
+          "record": "2-0-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Army": {
+          "record": "2-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Arkansas": {
+          "record": "3-0-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Notre Dame": {
+          "record": "2-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "NC State": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "ACC",
+          "previousRanking": "13"
+        },
+        "Ole Miss": {
+          "record": "3-0-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Rice": {
+          "record": "2-0-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Wisconsin": {
+          "record": "2-0-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "1-0-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "North Carolina": {
+          "record": "2-1-0",
+          "ranking": 18,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "1-1-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "2-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1957-10-14",
+      "teams": {
+        "Michigan State": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Oklahoma": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Big 7",
+          "previousRanking": "1"
+        },
+        "Texas A&M": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Minnesota": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Duke": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Iowa": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Oregon State": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "PCC",
+          "previousRanking": "7"
+        },
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Auburn": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Arkansas": {
+          "record": "4-0-0",
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Ole Miss": {
+          "record": "4-0-0",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "NC State": {
+          "record": "4-0-0",
+          "ranking": 12,
+          "conference": "ACC",
+          "previousRanking": "13"
+        },
+        "Wisconsin": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "North Carolina": {
+          "record": "3-1-0",
+          "ranking": 14,
+          "conference": "ACC",
+          "previousRanking": "18"
+        },
+        "Navy": {
+          "record": "3-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "3-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "LSU": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "2-1-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Army": {
+          "record": "2-1-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Rice": {
+          "record": "2-1-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Washington State": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1957-10-21",
+      "teams": {
+        "Oklahoma": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Big 7",
+          "previousRanking": "2"
+        },
+        "Texas A&M": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Iowa": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Duke": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Auburn": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Ole Miss": {
+          "record": "5-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Michigan State": {
+          "record": "3-1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Army": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "LSU": {
+          "record": "4-1-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "NC State": {
+          "record": "4-0-1",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "12"
+        },
+        "Ohio State": {
+          "record": "3-1-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Rice": {
+          "record": "3-1-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Minnesota": {
+          "record": "3-1-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "UCLA": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Illinois": {
+          "record": "2-2-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Navy": {
+          "record": "4-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Oregon": {
+          "record": "4-1-0",
+          "ranking": 18,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "3-2-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        }
+      }
+    },
+    {
+      "date": "1957-10-28",
+      "teams": {
+        "Texas A&M": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Oklahoma": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "Big 7",
+          "previousRanking": "1"
+        },
+        "Iowa": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Auburn": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Michigan State": {
+          "record": "4-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Duke": {
+          "record": "5-0-1",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Ohio State": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Army": {
+          "record": "4-1-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "NC State": {
+          "record": "4-0-2",
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Arkansas": {
+          "record": "5-1-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "4-1-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "20"
+        },
+        "Texas": {
+          "record": "4-2-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Ole Miss": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Oregon": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "18"
+        },
+        "Navy": {
+          "record": "5-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Tennessee": {
+          "record": "4-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Colorado": {
+          "record": "3-2-1",
+          "ranking": 18,
+          "conference": "Big 7",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Dartmouth": {
+          "record": "5-0-0",
+          "ranking": 20,
+          "conference": "Ivy",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1957-11-04",
+      "teams": {
+        "Texas A&M": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Oklahoma": {
+          "record": "6-0-0",
+          "ranking": 2,
+          "conference": "Big 7",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Michigan State": {
+          "record": "5-1-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Iowa": {
+          "record": "5-0-1",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Ohio State": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Navy": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Army": {
+          "record": "5-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "NC State": {
+          "record": "5-0-2",
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "10"
+        },
+        "Michigan": {
+          "record": "4-1-1",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Arkansas": {
+          "record": "5-2-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Oregon": {
+          "record": "6-1-0",
+          "ranking": 13,
+          "conference": "PCC",
+          "previousRanking": "15"
+        },
+        "Ole Miss": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Notre Dame": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Duke": {
+          "record": "5-1-1",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Mississippi State": {
+          "record": "5-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "3-2-1",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "record": "5-1-1",
+          "ranking": 19,
+          "conference": "Big 7",
+          "previousRanking": "NR"
+        },
+        "Virginia Military Institute": {
+          "record": "6-0-1",
+          "ranking": 20,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1957-11-11",
+      "teams": {
+        "Texas A&M": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Oklahoma": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "Big 7",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "record": "7-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "6-1-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Iowa": {
+          "record": "6-0-1",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Ohio State": {
+          "record": "6-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Ole Miss": {
+          "record": "7-1-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Navy": {
+          "record": "6-1-1",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Army": {
+          "record": "6-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Duke": {
+          "record": "5-1-2",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Mississippi State": {
+          "record": "5-2-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Virginia Military Institute": {
+          "record": "7-0-1",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "20"
+        },
+        "Clemson": {
+          "record": "5-2-0",
+          "ranking": 14,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Illinois": {
+          "record": "3-4-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Oregon": {
+          "record": "6-2-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "13"
+        },
+        "Texas Christian": {
+          "record": "4-2-1",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "4-2-1",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "NC State": {
+          "record": "5-1-2",
+          "ranking": 19,
+          "conference": "ACC",
+          "previousRanking": "10"
+        },
+        "Rice": {
+          "record": "4-3-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1957-11-18",
+      "teams": {
+        "Michigan State": {
+          "record": "7-1-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Auburn": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Ohio State": {
+          "record": "7-1-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Texas A&M": {
+          "record": "8-1-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Ole Miss": {
+          "record": "8-1-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Oklahoma": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "Big 7",
+          "previousRanking": "2"
+        },
+        "Navy": {
+          "record": "7-1-1",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Iowa": {
+          "record": "6-1-1",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "5-2-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Army": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Duke": {
+          "record": "6-1-2",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Tennessee": {
+          "record": "6-2-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Rice": {
+          "record": "5-3-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Mississippi State": {
+          "record": "6-2-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Oregon": {
+          "record": "7-2-0",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Virginia Military Institute": {
+          "record": "8-0-1",
+          "ranking": 16,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "Arizona State": {
+          "record": "8-0-0",
+          "ranking": 17,
+          "conference": "BIAA",
+          "previousRanking": "NR"
+        },
+        "Wisconsin": {
+          "record": "5-3-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "5-2-1",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "NC State": {
+          "record": "6-1-2",
+          "ranking": 20,
+          "conference": "ACC",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1957-11-25",
+      "teams": {
+        "Auburn": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "8-1-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Texas A&M": {
+          "record": "8-1-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Oklahoma": {
+          "record": "8-1-0",
+          "ranking": 5,
+          "conference": "Big 7",
+          "previousRanking": "6"
+        },
+        "Iowa": {
+          "record": "7-1-1",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Ole Miss": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Navy": {
+          "record": "7-1-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Rice": {
+          "record": "6-3-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Army": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Arizona State": {
+          "record": "9-0-0",
+          "ranking": 11,
+          "conference": "BIAA",
+          "previousRanking": "17"
+        },
+        "Notre Dame": {
+          "record": "5-3-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Mississippi State": {
+          "record": "6-2-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Wisconsin": {
+          "record": "6-3-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "NC State": {
+          "record": "7-1-2",
+          "ranking": 15,
+          "conference": "ACC",
+          "previousRanking": "20"
+        },
+        "Duke": {
+          "record": "6-2-2",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Virginia Military Institute": {
+          "record": "8-0-1",
+          "ranking": 17,
+          "conference": "Southern",
+          "previousRanking": "16"
+        },
+        "Tennessee": {
+          "record": "6-3-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Oregon State": {
+          "record": "8-2-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "5-2-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Auburn": {
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Michigan State": {
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Oklahoma": {
+          "ranking": 4,
+          "conference": "Big 7",
+          "previousRanking": "5"
+        },
+        "Navy": {
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Iowa": {
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Ole Miss": {
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Rice": {
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Texas A&M": {
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Notre Dame": {
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Texas": {
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Arizona State": {
+          "ranking": 12,
+          "conference": "BIAA",
+          "previousRanking": "11"
+        },
+        "Tennessee": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Mississippi State": {
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "NC State": {
+          "ranking": 15,
+          "conference": "ACC",
+          "previousRanking": "15"
+        },
+        "Duke": {
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Florida": {
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Army": {
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Wisconsin": {
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Virginia Military Institute": {
+          "ranking": 20,
+          "conference": "Southern",
+          "previousRanking": "17"
+        }
+      }
+    }
+  ]
+}

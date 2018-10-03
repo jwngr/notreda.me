@@ -177,12 +177,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Joe Kuharich",
     "rankings": {
       "home": {
         "ap": 8
       }
-    },
-    "headCoach": "Joe Kuharich"
+    }
   },
   {
     "result": "L",
@@ -242,15 +242,15 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Joe Kuharich",
     "rankings": {
-      "home": {
-        "ap": 1
-      },
       "away": {
         "ap": 6
+      },
+      "home": {
+        "ap": 1
       }
-    },
-    "headCoach": "Joe Kuharich"
+    }
   },
   {
     "result": "L",
@@ -310,12 +310,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Joe Kuharich",
     "rankings": {
       "home": {
         "ap": 8
       }
-    },
-    "headCoach": "Joe Kuharich"
+    }
   },
   {
     "result": "L",
@@ -495,12 +495,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Joe Kuharich",
     "rankings": {
       "away": {
         "ap": 10
       }
-    },
-    "headCoach": "Joe Kuharich"
+    }
   },
   {
     "result": "L",
@@ -619,11 +619,6 @@
     "linescore": {
       "away": [],
       "home": []
-    },
-    "rankings": {
-      "home": {
-        "ap": 20
-      }
     },
     "headCoach": "Joe Kuharich"
   }

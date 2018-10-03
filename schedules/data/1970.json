@@ -57,13 +57,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 6
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -123,13 +123,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 6
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -189,13 +189,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 4
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -255,13 +255,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 3
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -321,17 +321,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 18
-      },
-      "away": {
-        "ap": 3
-      }
-    },
     "time": "3:50 PM",
     "coverage": "ABC",
-    "headCoach": "Ara Parseghian"
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 3
+      },
+      "home": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "W",
@@ -391,13 +391,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 3
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -457,13 +457,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 2
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -523,13 +523,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 1
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -589,6 +589,8 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 2
@@ -596,9 +598,7 @@
       "away": {
         "ap": 7
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "L",
@@ -658,14 +658,14 @@
       "away": [],
       "home": []
     },
+    "time": "4:15 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 4
       }
-    },
-    "time": "4:15 PM",
-    "coverage": "ABC",
-    "headCoach": "Ara Parseghian"
+    }
   },
   {
     "result": "W",
@@ -726,17 +726,17 @@
       "away": [],
       "home": []
     },
+    "time": "2:00 PM",
+    "coverage": "CBS",
+    "nickname": "Cotton Bowl",
+    "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 6
       },
       "away": {
-        "ap": 1
+        "ap": 2
       }
-    },
-    "time": "2:00 PM",
-    "coverage": "CBS",
-    "nickname": "Cotton Bowl",
-    "headCoach": "Ara Parseghian"
+    }
   }
 ]

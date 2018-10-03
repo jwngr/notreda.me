@@ -73,14 +73,14 @@
       ]
     },
     "sportsReferenceGameId": "2011-09-03-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 16
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -234,14 +234,14 @@
       ]
     },
     "sportsReferenceGameId": "2011-09-17-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
         "ap": 15
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -864,14 +864,14 @@
       ]
     },
     "sportsReferenceGameId": "2011-11-19-notre-dame",
+    "time": "4:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 24
       }
-    },
-    "time": "4:00 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -947,17 +947,19 @@
       ]
     },
     "sportsReferenceGameId": "2011-11-26-stanford",
-    "rankings": {
-      "home": {
-        "ap": 4
-      },
-      "away": {
-        "ap": 22
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 22,
+        "bcs": 22
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -1034,14 +1036,14 @@
       ]
     },
     "sportsReferenceGameId": "2011-12-29-florida-state",
+    "time": "5:30 PM",
+    "coverage": "ESPN",
+    "nickname": "Champs Sports Bowl",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
         "ap": 25
       }
-    },
-    "time": "5:30 PM",
-    "coverage": "ESPN",
-    "nickname": "Champs Sports Bowl",
-    "headCoach": "Brian Kelly"
+    }
   }
 ]

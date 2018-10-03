@@ -57,6 +57,9 @@
       "away": [],
       "home": []
     },
+    "time": "9:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
@@ -64,10 +67,7 @@
       "away": {
         "ap": 4
       }
-    },
-    "time": "9:00 PM",
-    "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -127,17 +127,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 24
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 1
+      },
+      "home": {
+        "ap": 24
+      }
+    }
   },
   {
     "result": "W",
@@ -197,13 +197,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "L",
@@ -263,13 +263,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -329,13 +329,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 8
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -395,6 +395,9 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 6
@@ -402,10 +405,7 @@
       "away": {
         "ap": 2
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -465,14 +465,14 @@
       "away": [],
       "home": []
     },
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 3
       }
-    },
-    "time": "7:45 PM",
-    "coverage": "ESPN",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -532,13 +532,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 2
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -598,17 +598,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 9
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "2:30 PM",
     "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 1
+      },
+      "home": {
+        "ap": 9
+      }
+    }
   },
   {
     "result": "L",
@@ -668,6 +668,9 @@
       "away": [],
       "home": []
     },
+    "time": "4:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
@@ -675,10 +678,7 @@
       "away": {
         "ap": 18
       }
-    },
-    "time": "4:00 PM",
-    "coverage": "ESPN",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -738,17 +738,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 18
-      },
-      "away": {
-        "ap": 7
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 7
+      },
+      "home": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "L",
@@ -809,17 +809,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "8:00 PM",
     "coverage": "NBC",
     "nickname": "Orange Bowl",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 2
+      },
+      "away": {
+        "ap": 5
+      }
+    }
   }
 ]

@@ -58,14 +58,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 18
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -125,17 +125,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 7
-      },
-      "away": {
-        "ap": 16
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 16
+      },
+      "home": {
+        "ap": 7
+      }
+    }
   },
   {
     "result": "L",
@@ -195,6 +195,9 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 16
@@ -202,10 +205,7 @@
       "away": {
         "ap": 20
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -265,14 +265,14 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 24
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -332,14 +332,14 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 23
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -585,17 +585,18 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 4
-      },
-      "away": {
-        "ap": 24
-      }
-    },
     "time": "7:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 24
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -717,14 +718,14 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 25
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",

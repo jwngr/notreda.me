@@ -58,17 +58,17 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-09-08-nebraska",
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 17
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 17
+      },
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -129,14 +129,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-09-22-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -512,14 +512,15 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-11-03-notre-dame",
-    "rankings": {
-      "away": {
-        "ap": 7
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 7,
+        "bcs": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -643,14 +644,15 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-11-24-stanford",
-    "rankings": {
-      "home": {
-        "ap": 13
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 13,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "W",

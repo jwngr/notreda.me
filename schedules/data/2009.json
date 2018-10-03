@@ -73,14 +73,14 @@
       ]
     },
     "sportsReferenceGameId": "2009-09-05-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "L",
@@ -156,14 +156,14 @@
       ]
     },
     "sportsReferenceGameId": "2009-09-12-michigan",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 18
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -475,6 +475,9 @@
       ]
     },
     "sportsReferenceGameId": "2009-10-17-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 25
@@ -482,10 +485,7 @@
       "away": {
         "ap": 6
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -640,14 +640,15 @@
       ]
     },
     "sportsReferenceGameId": "2009-10-31-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 25
-      }
-    },
     "time": "7:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 25,
+        "bcs": 23
+      }
+    }
   },
   {
     "result": "L",
@@ -723,14 +724,15 @@
       ]
     },
     "sportsReferenceGameId": "2009-11-07-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 19
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 19,
+        "bcs": 22
+      }
+    }
   },
   {
     "result": "L",
@@ -806,14 +808,15 @@
       ]
     },
     "sportsReferenceGameId": "2009-11-14-pittsburgh",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "bcs": 12
+      }
+    }
   },
   {
     "result": "L",

@@ -73,14 +73,14 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-02-georgia-tech",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 2
       }
-    },
-    "time": "8:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -156,6 +156,9 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-09-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 4
@@ -163,10 +166,7 @@
       "away": {
         "ap": 19
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "L",
@@ -242,6 +242,9 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-16-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 2
@@ -249,10 +252,7 @@
       "away": {
         "ap": 11
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -328,14 +328,14 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-23-michigan-state",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 12
       }
-    },
-    "time": "8:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -411,14 +411,14 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-30-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 12
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -494,14 +494,14 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-07-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 12
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -577,14 +577,15 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-21-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 10,
+        "bcs": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -660,14 +661,15 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-28-navy",
-    "rankings": {
-      "home": {
-        "ap": 11
-      }
-    },
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 11,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -743,14 +745,15 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-04-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 11
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 11,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -826,14 +829,15 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-11-air-force",
-    "rankings": {
-      "away": {
-        "ap": 9
-      }
-    },
     "time": "4:00 PM",
     "coverage": "CSTV",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -909,14 +913,15 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-18-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "bcs": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -992,17 +997,19 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-25-southern-california",
-    "rankings": {
-      "home": {
-        "ap": 3
-      },
-      "away": {
-        "ap": 6
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "bcs": 5
+      },
+      "home": {
+        "ap": 3,
+        "bcs": 3
+      }
+    }
   },
   {
     "result": "L",
@@ -1079,17 +1086,19 @@
       ]
     },
     "sportsReferenceGameId": "2007-01-03-louisiana-state",
-    "rankings": {
-      "home": {
-        "ap": 11
-      },
-      "away": {
-        "ap": 4
-      }
-    },
     "time": "8:00 PM",
     "coverage": "FOX",
     "nickname": "Sugar Bowl",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 11,
+        "bcs": 10
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 5
+      }
+    }
   }
 ]

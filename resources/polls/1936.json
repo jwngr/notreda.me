@@ -1,0 +1,871 @@
+{
+  "ap": [
+    {
+      "date": "1936-10-19",
+      "teams": {
+        "Minnesota": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Duke": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "Southern",
+          "previousRanking": "NA"
+        },
+        "Army": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Northwestern": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Purdue": {
+          "record": "3-0-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "3-0-1",
+          "ranking": 6,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Washington": {
+          "record": "3-1-0",
+          "ranking": 8,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Pittsburgh": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Yale": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Duquesne": {
+          "record": "4-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Saint Mary's": {
+          "record": "CA",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "LSU": {
+          "record": "3-0-1",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Texas A&M": {
+          "record": "4-0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Nebraska": {
+          "record": "2-1-0",
+          "ranking": 15,
+          "conference": "Big 6",
+          "previousRanking": "NA"
+        },
+        "Fordham": {
+          "record": "3-0-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Holy Cross": {
+          "record": "4-0-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Tulane": {
+          "record": "3-0-1",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Southern Methodist": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Marquette": {
+          "record": "3-0-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1936-10-26",
+      "teams": {
+        "Minnesota": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Pittsburgh": {
+          "record": "4-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Northwestern": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Western",
+          "previousRanking": "4"
+        },
+        "Washington": {
+          "record": "4-1-0",
+          "ranking": 4,
+          "conference": "PCC",
+          "previousRanking": "8"
+        },
+        "Fordham": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Army": {
+          "record": "4-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "USC": {
+          "record": "4-0-1",
+          "ranking": 7,
+          "conference": "PCC",
+          "previousRanking": "6"
+        },
+        "LSU": {
+          "record": "4-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "Tulane": {
+          "record": "4-0-1",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Marquette": {
+          "record": "4-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Nebraska": {
+          "record": "3-1-0",
+          "ranking": 11,
+          "conference": "Big 6",
+          "previousRanking": "15"
+        },
+        "Yale": {
+          "record": "4-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Duke": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "2"
+        },
+        "Holy Cross": {
+          "record": "5-0-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Southern Methodist": {
+          "record": "3-1-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Auburn": {
+          "record": "4-0-1",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Princeton": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Purdue": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Santa Clara": {
+          "record": "4-0-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Pennsylvania": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Saint Mary's": {
+          "record": "CA",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "12"
+        }
+      }
+    },
+    {
+      "date": "1936-11-02",
+      "teams": {
+        "Northwestern": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "3"
+        },
+        "Minnesota": {
+          "record": "4-1-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Fordham": {
+          "record": "4-0-1",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Marquette": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Pittsburgh": {
+          "record": "4-1-1",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Washington": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "PCC",
+          "previousRanking": "4"
+        },
+        "LSU": {
+          "record": "5-0-1",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Nebraska": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "Big 6",
+          "previousRanking": "11"
+        },
+        "Santa Clara": {
+          "record": "5-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "Tulane": {
+          "record": "5-0-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "USC": {
+          "record": "4-0-1",
+          "ranking": 11,
+          "conference": "PCC",
+          "previousRanking": "7"
+        },
+        "Southern Methodist": {
+          "record": "4-1-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Notre Dame": {
+          "record": "4-1-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "5-0-1",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Duke": {
+          "record": "6-1-0",
+          "ranking": 15,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "Pennsylvania": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Washington State": {
+          "record": "5-0-1",
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Dartmouth": {
+          "record": "5-1-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "3-2-1",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Auburn": {
+          "record": "4-1-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "16"
+        }
+      }
+    },
+    {
+      "date": "1936-11-09",
+      "teams": {
+        "Northwestern": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Minnesota": {
+          "record": "5-1-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Fordham": {
+          "record": "5-0-1",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Alabama": {
+          "record": "6-0-1",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Pittsburgh": {
+          "record": "5-1-1",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "Big 6",
+          "previousRanking": "8"
+        },
+        "LSU": {
+          "record": "6-0-1",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Marquette": {
+          "record": "6-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Santa Clara": {
+          "record": "5-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "5-1-1",
+          "ranking": 10,
+          "conference": "PCC",
+          "previousRanking": "6"
+        },
+        "Pennsylvania": {
+          "record": "5-1-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Dartmouth": {
+          "record": "6-1-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "Duke": {
+          "record": "7-1-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "15"
+        },
+        "Washington State": {
+          "record": "5-1-1",
+          "ranking": 14,
+          "conference": "PCC",
+          "previousRanking": "17"
+        },
+        "USC": {
+          "record": "4-1-1",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "11"
+        },
+        "Texas A&M": {
+          "record": "5-1-1",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Holy Cross": {
+          "record": "6-1-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Texas Christian": {
+          "record": "5-2-1",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "4-2-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Temple": {
+          "record": "5-1-1",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1936-11-16",
+      "teams": {
+        "Northwestern": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Minnesota": {
+          "record": "6-1-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Fordham": {
+          "record": "5-0-1",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Pittsburgh": {
+          "record": "6-1-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "LSU": {
+          "record": "7-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Washington": {
+          "record": "6-1-1",
+          "ranking": 6,
+          "conference": "PCC",
+          "previousRanking": "10"
+        },
+        "Marquette": {
+          "record": "7-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Alabama": {
+          "record": "7-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Santa Clara": {
+          "record": "6-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Pennsylvania": {
+          "record": "6-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Notre Dame": {
+          "record": "5-2-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Dartmouth": {
+          "record": "7-1-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Nebraska": {
+          "record": "5-2-0",
+          "ranking": 13,
+          "conference": "Big 6",
+          "previousRanking": "6"
+        },
+        "Texas A&M": {
+          "record": "6-1-1",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Washington State": {
+          "record": "6-1-1",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "14"
+        },
+        "Duke": {
+          "record": "8-1-0",
+          "ranking": 16,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "Holy Cross": {
+          "record": "7-1-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Ohio State": {
+          "record": "4-3-0",
+          "ranking": 18,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "5-2-1",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Duquesne": {
+          "record": "6-2-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Temple": {
+          "record": "6-1-1",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1936-11-23",
+      "teams": {
+        "Minnesota": {
+          "record": "7-1-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "LSU": {
+          "record": "8-0-1",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "7-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Pittsburgh": {
+          "record": "6-1-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Santa Clara": {
+          "record": "7-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "6-1-1",
+          "ranking": 6,
+          "conference": "PCC",
+          "previousRanking": "6"
+        },
+        "Northwestern": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Fordham": {
+          "record": "5-0-2",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "6-2-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Nebraska": {
+          "record": "6-2-0",
+          "ranking": 10,
+          "conference": "Big 6",
+          "previousRanking": "13"
+        },
+        "Duke": {
+          "record": "8-1-0",
+          "ranking": 11,
+          "conference": "Southern",
+          "previousRanking": "16"
+        },
+        "Duquesne": {
+          "record": "7-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Pennsylvania": {
+          "record": "6-1-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Dartmouth": {
+          "record": "7-1-1",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Marquette": {
+          "record": "7-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Yale": {
+          "record": "7-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "5-2-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "19"
+        },
+        "Texas Christian": {
+          "record": "7-2-1",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Tulane": {
+          "record": "6-2-1",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Washington State": {
+          "record": "6-1-1",
+          "ranking": 20,
+          "conference": "PCC",
+          "previousRanking": "15"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Minnesota": {
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "LSU": {
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Pittsburgh": {
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Alabama": {
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Washington": {
+          "ranking": 5,
+          "conference": "PCC",
+          "previousRanking": "6"
+        },
+        "Santa Clara": {
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Northwestern": {
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Notre Dame": {
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Nebraska": {
+          "ranking": 9,
+          "conference": "Big 6",
+          "previousRanking": "10"
+        },
+        "Pennsylvania": {
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Duke": {
+          "ranking": 11,
+          "conference": "Southern",
+          "previousRanking": "11"
+        },
+        "Yale": {
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Dartmouth": {
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Duquesne": {
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Fordham": {
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Texas Christian": {
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "18"
+        },
+        "Tennessee": {
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Arkansas": {
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Navy": {
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Marquette": {
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "15"
+        }
+      }
+    }
+  ]
+}

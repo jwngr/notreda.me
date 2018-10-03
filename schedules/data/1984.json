@@ -57,13 +57,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 7
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "W",
@@ -245,14 +245,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
         "ap": 19
       }
-    },
-    "time": "3:50 PM",
-    "coverage": "ABC",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -312,6 +312,9 @@
       "away": [],
       "home": []
     },
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 16
@@ -319,10 +322,7 @@
       "away": {
         "ap": 14
       }
-    },
-    "time": "7:45 PM",
-    "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -444,14 +444,14 @@
       "away": [],
       "home": []
     },
+    "time": "12:20 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
         "ap": 11
       }
-    },
-    "time": "12:20 PM",
-    "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "W",
@@ -511,14 +511,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 7
       }
-    },
-    "time": "3:50 PM",
-    "coverage": "ABC",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "W",
@@ -702,14 +702,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:40 PM",
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 14
       }
-    },
-    "time": "3:40 PM",
-    "coverage": "CBS",
-    "headCoach": "Gerry Faust"
+    }
   },
   {
     "result": "L",
@@ -770,6 +770,10 @@
       "away": [],
       "home": []
     },
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "nickname": "Aloha Bowl",
+    "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
         "ap": 17
@@ -777,10 +781,6 @@
       "away": {
         "ap": 10
       }
-    },
-    "time": "8:00 PM",
-    "coverage": "ESPN",
-    "nickname": "Aloha Bowl",
-    "headCoach": "Gerry Faust"
+    }
   }
 ]

@@ -1,0 +1,990 @@
+{
+  "ap": [
+    {
+      "date": "1941-10-13",
+      "teams": {
+        "Minnesota": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Duke": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "Southern",
+          "previousRanking": "NA"
+        },
+        "Fordham": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Northwestern": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Navy": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Santa Clara": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Pennsylvania": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Rice": {
+          "record": "2-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Clemson": {
+          "record": "4-0-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "NA"
+        },
+        "Texas A&M": {
+          "record": "3-0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Nebraska": {
+          "record": "2-0-0",
+          "ranking": 15,
+          "conference": "Big 6",
+          "previousRanking": "NA"
+        },
+        "Oregon State": {
+          "record": "2-1-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Tulane": {
+          "record": "2-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Vanderbilt": {
+          "record": "3-0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Mississippi State": {
+          "record": "2-0-1",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Columbia": {
+          "record": "2-0-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1941-10-20",
+      "teams": {
+        "Minnesota": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Texas": {
+          "record": "4-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Michigan": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Duke": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "Southern",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Fordham": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Notre Dame": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Santa Clara": {
+          "record": "4-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Texas A&M": {
+          "record": "4-0-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Tulane": {
+          "record": "3-1-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Ohio State": {
+          "record": "3-0-0",
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "10"
+        },
+        "Pennsylvania": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Northwestern": {
+          "record": "2-1-0",
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Clemson": {
+          "record": "4-0-0",
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "Vanderbilt": {
+          "record": "4-0-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Oregon": {
+          "record": "3-1-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Temple": {
+          "record": "4-0-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Oregon State": {
+          "record": "2-1-0",
+          "ranking": 18,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Stanford": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Villanova": {
+          "record": "3-0-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1941-10-27",
+      "teams": {
+        "Minnesota": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Texas": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Fordham": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Duke": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Southern",
+          "previousRanking": "4"
+        },
+        "Texas A&M": {
+          "record": "5-0-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Notre Dame": {
+          "record": "5-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Michigan": {
+          "record": "4-1-0",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "3"
+        },
+        "Pennsylvania": {
+          "record": "4-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Northwestern": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "Western",
+          "previousRanking": "13"
+        },
+        "Vanderbilt": {
+          "record": "5-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Navy": {
+          "record": "4-0-1",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Stanford": {
+          "record": "4-1-0",
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "19"
+        },
+        "Temple": {
+          "record": "5-0-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Army": {
+          "record": "4-0-0",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Duquesne": {
+          "record": "5-0-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "3-1-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Mississippi State": {
+          "record": "3-0-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "record": "4-1-0",
+          "ranking": 19,
+          "conference": "Big 6",
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1941-11-03",
+      "teams": {
+        "Texas": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Minnesota": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Fordham": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Duke": {
+          "record": "6-0-0",
+          "ranking": 4,
+          "conference": "Southern",
+          "previousRanking": "4"
+        },
+        "Texas A&M": {
+          "record": "6-0-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Navy": {
+          "record": "5-0-1",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Notre Dame": {
+          "record": "5-0-1",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "5-1-0",
+          "ranking": 8,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Stanford": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "PCC",
+          "previousRanking": "12"
+        },
+        "Northwestern": {
+          "record": "3-2-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "9"
+        },
+        "Army": {
+          "record": "4-0-1",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Duquesne": {
+          "record": "6-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Alabama": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Tulane": {
+          "record": "4-2-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Mississippi State": {
+          "record": "4-0-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Ole Miss": {
+          "record": "4-1-1",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Missouri": {
+          "record": "5-1-0",
+          "ranking": 17,
+          "conference": "Big 6",
+          "previousRanking": "19"
+        },
+        "Syracuse": {
+          "record": "5-1-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Pennsylvania": {
+          "record": "4-1-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "4-1-0",
+          "ranking": 20,
+          "conference": "Western",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1941-11-10",
+      "teams": {
+        "Minnesota": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Texas": {
+          "record": "6-0-1",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Duke": {
+          "record": "7-0-0",
+          "ranking": 3,
+          "conference": "Southern",
+          "previousRanking": "4"
+        },
+        "Texas A&M": {
+          "record": "7-0-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "6-0-1",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Stanford": {
+          "record": "6-1-0",
+          "ranking": 6,
+          "conference": "PCC",
+          "previousRanking": "9"
+        },
+        "Michigan": {
+          "record": "5-1-0",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "8"
+        },
+        "Northwestern": {
+          "record": "4-2-0",
+          "ranking": 8,
+          "conference": "Western",
+          "previousRanking": "10"
+        },
+        "Alabama": {
+          "record": "6-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "Duquesne": {
+          "record": "7-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Fordham": {
+          "record": "5-1-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "5-1-1",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Mississippi State": {
+          "record": "5-0-1",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Pennsylvania": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "Ole Miss": {
+          "record": "5-1-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Missouri": {
+          "record": "6-1-0",
+          "ranking": 16,
+          "conference": "Big 6",
+          "previousRanking": "17"
+        },
+        "Harvard": {
+          "record": "3-2-1",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Boston College": {
+          "record": "5-2-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Army": {
+          "record": "4-1-1",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Ohio State": {
+          "record": "5-1-0",
+          "ranking": 20,
+          "conference": "Western",
+          "previousRanking": "20"
+        }
+      }
+    },
+    {
+      "date": "1941-11-17",
+      "teams": {
+        "Minnesota": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Texas A&M": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Duke": {
+          "record": "8-0-0",
+          "ranking": 3,
+          "conference": "Southern",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "7-0-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "record": "6-1-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Duquesne": {
+          "record": "8-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Alabama": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Missouri": {
+          "record": "7-1-0",
+          "ranking": 8,
+          "conference": "Big 6",
+          "previousRanking": "16"
+        },
+        "Texas": {
+          "record": "6-1-1",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Northwestern": {
+          "record": "4-3-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "8"
+        },
+        "Fordham": {
+          "record": "5-1-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Navy": {
+          "record": "5-1-1",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Pennsylvania": {
+          "record": "6-1-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Ohio State": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "Western",
+          "previousRanking": "20"
+        },
+        "Ole Miss": {
+          "record": "5-1-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Oregon State": {
+          "record": "5-2-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Stanford": {
+          "record": "6-2-0",
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "6"
+        },
+        "Clemson": {
+          "record": "6-1-0",
+          "ranking": 18,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Texas Christian": {
+          "record": "6-2-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Georgia": {
+          "record": "6-1-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Washington": {
+          "record": "4-3-0",
+          "ranking": 20,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1941-11-24",
+      "teams": {
+        "Minnesota": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Texas A&M": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Duke": {
+          "record": "9-0-0",
+          "ranking": 3,
+          "conference": "Southern",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "8-0-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Duquesne": {
+          "record": "8-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "6-1-1",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Missouri": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "Big 6",
+          "previousRanking": "8"
+        },
+        "Fordham": {
+          "record": "6-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Northwestern": {
+          "record": "5-3-0",
+          "ranking": 9,
+          "conference": "Western",
+          "previousRanking": "10"
+        },
+        "Texas": {
+          "record": "6-1-1",
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Navy": {
+          "record": "6-1-1",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Vanderbilt": {
+          "record": "8-1-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Pennsylvania": {
+          "record": "7-1-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Ole Miss": {
+          "record": "6-1-1",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Ohio State": {
+          "record": "6-1-1",
+          "ranking": 15,
+          "conference": "Western",
+          "previousRanking": "14"
+        },
+        "Clemson": {
+          "record": "7-1-0",
+          "ranking": 16,
+          "conference": "Southern",
+          "previousRanking": "18"
+        },
+        "Oregon State": {
+          "record": "6-2-0",
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Harvard": {
+          "record": "5-2-1",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Georgia": {
+          "record": "7-1-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "20"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Minnesota": {
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Duke": {
+          "ranking": 2,
+          "conference": "Southern",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Texas": {
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "10"
+        },
+        "Michigan": {
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Fordham": {
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Missouri": {
+          "ranking": 7,
+          "conference": "Big 6",
+          "previousRanking": "7"
+        },
+        "Duquesne": {
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Texas A&M": {
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Navy": {
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Northwestern": {
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "9"
+        },
+        "Oregon State": {
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "17"
+        },
+        "Ohio State": {
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "15"
+        },
+        "Georgia": {
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Pennsylvania": {
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Mississippi State": {
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Tennessee": {
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Washington State": {
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "18"
+        }
+      }
+    }
+  ]
+}

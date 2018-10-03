@@ -57,14 +57,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 3
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "T",
@@ -124,6 +124,9 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 3
@@ -131,10 +134,7 @@
       "away": {
         "ap": 6
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -194,14 +194,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 7
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -261,14 +261,14 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 6
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "L",
@@ -328,6 +328,9 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 6
@@ -335,10 +338,7 @@
       "away": {
         "ap": 18
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -398,14 +398,14 @@
       "away": [],
       "home": []
     },
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 13
       }
-    },
-    "time": "7:45 PM",
-    "coverage": "ESPN",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -465,14 +465,14 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 10
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -532,13 +532,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 10
       }
-    },
-    "time": "1:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -598,6 +598,9 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 8
@@ -605,10 +608,7 @@
       "away": {
         "ap": 9
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -668,6 +668,9 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 8
@@ -675,10 +678,7 @@
       "away": {
         "ap": 22
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -738,23 +738,23 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 19
-      },
-      "away": {
-        "ap": 5
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 19
+      }
+    }
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1992",
+    "date": "01/01/1993",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -762,8 +762,8 @@
     },
     "opponentId": "TA&M",
     "score": {
-      "away": 3,
-      "home": 28
+      "away": 28,
+      "home": 3
     },
     "stats": {
       "away": {
@@ -809,17 +809,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 4
-      }
-    },
     "time": "1:00 PM",
     "coverage": "NBC",
     "nickname": "Cotton Bowl",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 4
+      }
+    }
   }
 ]

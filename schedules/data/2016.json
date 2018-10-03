@@ -79,12 +79,13 @@
       ]
     },
     "sportsReferenceGameId": "2016-09-04-texas",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
-        "ap": 10
+        "ap": 10,
+        "coaches": 9
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -162,12 +163,13 @@
       ]
     },
     "sportsReferenceGameId": "2016-09-10-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 18
+        "ap": 18,
+        "coaches": 21
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -245,15 +247,17 @@
       ]
     },
     "sportsReferenceGameId": "2016-09-17-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 18
+        "ap": 18,
+        "coaches": 18
       },
       "away": {
-        "ap": 12
+        "ap": 12,
+        "coaches": 8
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -956,11 +960,13 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-26-southern-california",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 12
+        "ap": 12,
+        "coaches": 12,
+        "cfbPlayoff": 12
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   }
 ]

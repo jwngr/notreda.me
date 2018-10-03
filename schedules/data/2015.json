@@ -75,11 +75,6 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-05-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 11
-      }
-    },
     "headCoach": "Brian Kelly"
   },
   {
@@ -158,12 +153,13 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-12-virginia",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
-        "ap": 9
+        "ap": 9,
+        "coaches": 11
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -241,15 +237,17 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-19-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 8
+        "ap": 8,
+        "coaches": 10
       },
       "away": {
-        "ap": 14
+        "ap": 14,
+        "coaches": 16
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -327,12 +325,13 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-26-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 6
+        "ap": 6,
+        "coaches": 8
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -410,15 +409,17 @@
       ]
     },
     "sportsReferenceGameId": "2015-10-03-clemson",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 12
-      },
       "away": {
-        "ap": 6
+        "ap": 6,
+        "coaches": 7
+      },
+      "home": {
+        "ap": 12,
+        "coaches": 11
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -496,12 +497,13 @@
       ]
     },
     "sportsReferenceGameId": "2015-10-10-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -579,12 +581,13 @@
       ]
     },
     "sportsReferenceGameId": "2015-10-17-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 14
+        "ap": 14,
+        "coaches": 13
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -662,15 +665,17 @@
       ]
     },
     "sportsReferenceGameId": "2015-10-31-temple",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 21
-      },
       "away": {
-        "ap": 9
+        "ap": 9,
+        "coaches": 9
+      },
+      "home": {
+        "ap": 21,
+        "coaches": 22
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -748,12 +753,14 @@
       ]
     },
     "sportsReferenceGameId": "2015-11-07-pittsburgh",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
-        "ap": 8
+        "ap": 8,
+        "coaches": 9,
+        "cfbPlayoff": 5
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -831,12 +838,14 @@
       ]
     },
     "sportsReferenceGameId": "2015-11-14-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 6
+        "ap": 6,
+        "coaches": 9,
+        "cfbPlayoff": 4
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -914,13 +923,15 @@
       ]
     },
     "sportsReferenceGameId": "2015-11-21-notre-dame",
+    "coverage": "NBCSN",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 5
+        "ap": 5,
+        "coaches": 5,
+        "cfbPlayoff": 4
       }
-    },
-    "coverage": "NBCSN",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -998,15 +1009,19 @@
       ]
     },
     "sportsReferenceGameId": "2015-11-28-stanford",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 13
-      },
       "away": {
-        "ap": 4
+        "ap": 4,
+        "coaches": 4,
+        "cfbPlayoff": 6
+      },
+      "home": {
+        "ap": 13,
+        "coaches": 12,
+        "cfbPlayoff": 9
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -1086,14 +1101,18 @@
       ]
     },
     "sportsReferenceGameId": "2016-01-01-ohio-state",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 7
-      },
       "away": {
-        "ap": 8
+        "ap": 8,
+        "coaches": 9,
+        "cfbPlayoff": 8
+      },
+      "home": {
+        "ap": 7,
+        "coaches": 5,
+        "cfbPlayoff": 7
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   }
 ]

@@ -69,14 +69,14 @@
       ]
     },
     "sportsReferenceGameId": "2002-08-31-maryland",
-    "rankings": {
-      "away": {
-        "ap": 21
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 21
+      }
+    }
   },
   {
     "result": "W",
@@ -148,14 +148,14 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-07-notre-dame",
+    "time": "12:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -227,6 +227,9 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-14-notre-dame",
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 20
@@ -234,10 +237,7 @@
       "away": {
         "ap": 7
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -309,14 +309,14 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-21-michigan-state",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "ap": 12
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -388,14 +388,14 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-05-notre-dame",
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 9
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -467,14 +467,14 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-12-notre-dame",
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 8
       }
-    },
-    "time": "1:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -546,17 +546,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-19-air-force",
-    "rankings": {
-      "home": {
-        "ap": 18
-      },
-      "away": {
-        "ap": 7
-      }
-    },
     "time": "10:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 7
+      },
+      "home": {
+        "ap": 18
+      }
+    }
   },
   {
     "result": "W",
@@ -628,17 +628,19 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-26-florida-state",
-    "rankings": {
-      "home": {
-        "ap": 11
-      },
-      "away": {
-        "ap": 6
-      }
-    },
     "time": "12:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "bcs": 3
+      },
+      "home": {
+        "ap": 11,
+        "bcs": 12
+      }
+    }
   },
   {
     "result": "L",
@@ -710,14 +712,15 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-02-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 4
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 4,
+        "bcs": 3
+      }
+    }
   },
   {
     "result": "W",
@@ -789,14 +792,15 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-09-navy",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "bcs": 7
+      }
+    }
   },
   {
     "result": "W",
@@ -868,14 +872,15 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-23-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
     "time": "1:00 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "bcs": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -947,17 +952,19 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-30-southern-california",
-    "rankings": {
-      "home": {
-        "ap": 6
-      },
-      "away": {
-        "ap": 7
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 7,
+        "bcs": 7
+      },
+      "home": {
+        "ap": 6,
+        "bcs": 6
+      }
+    }
   },
   {
     "result": "L",
@@ -1030,14 +1037,6 @@
       ]
     },
     "sportsReferenceGameId": "2003-01-01-north-carolina-state",
-    "rankings": {
-      "home": {
-        "ap": 11
-      },
-      "away": {
-        "ap": 17
-      }
-    },
     "time": "12:30 PM",
     "coverage": "NBC",
     "nickname": "Gator Bowl",

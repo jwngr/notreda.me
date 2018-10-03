@@ -57,13 +57,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 5
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "L",
@@ -123,6 +123,9 @@
       "away": [],
       "home": []
     },
+    "time": "12:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 14
@@ -130,10 +133,7 @@
       "away": {
         "ap": 5
       }
-    },
-    "time": "12:50 PM",
-    "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -315,14 +315,14 @@
       "away": [],
       "home": []
     },
+    "time": "12:40 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
     "rankings": {
       "away": {
         "ap": 9
       }
-    },
-    "time": "12:40 PM",
-    "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -382,13 +382,13 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "away": {
         "ap": 20
       }
-    },
-    "time": "3:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -448,13 +448,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 19
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -514,6 +514,8 @@
       "away": [],
       "home": []
     },
+    "time": "1:50 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 15
@@ -521,9 +523,7 @@
       "away": {
         "ap": 11
       }
-    },
-    "time": "1:50 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -583,13 +583,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 14
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -649,16 +649,16 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
-      "home": {
-        "ap": 20
-      },
       "away": {
         "ap": 10
+      },
+      "home": {
+        "ap": 20
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "L",
@@ -718,17 +718,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 3
-      },
-      "away": {
-        "ap": 8
-      }
-    },
     "time": "4:10 PM",
     "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 8
+      },
+      "home": {
+        "ap": 3
+      }
+    }
   },
   {
     "result": "W",
@@ -789,17 +789,14 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 10
-      },
-      "away": {
-        "ap": 9
-      }
-    },
     "time": "2:00 PM",
     "coverage": "CBS",
     "nickname": "Cotton Bowl",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    }
   }
 ]

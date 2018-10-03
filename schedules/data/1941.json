@@ -236,12 +236,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
       "away": {
         "ap": 8
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   },
   {
     "result": "W",
@@ -301,12 +301,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
       "home": {
         "ap": 7
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   },
   {
     "result": "T",
@@ -366,6 +366,7 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
       "home": {
         "ap": 6
@@ -373,8 +374,7 @@
       "away": {
         "ap": 14
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   },
   {
     "result": "W",
@@ -434,6 +434,7 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
       "home": {
         "ap": 7
@@ -441,8 +442,7 @@
       "away": {
         "ap": 6
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   },
   {
     "result": "W",
@@ -502,15 +502,15 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
-      "home": {
-        "ap": 8
-      },
       "away": {
         "ap": 5
+      },
+      "home": {
+        "ap": 8
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   },
   {
     "result": "W",
@@ -570,11 +570,11 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Frank Leahy",
     "rankings": {
       "home": {
         "ap": 4
       }
-    },
-    "headCoach": "Frank Leahy"
+    }
   }
 ]

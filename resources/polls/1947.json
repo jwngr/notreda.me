@@ -1,0 +1,1233 @@
+{
+  "ap": [
+    {
+      "date": "1947-10-06",
+      "teams": {
+        "Notre Dame": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Georgia Tech": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Army": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Illinois": {
+          "record": "2-0-0",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Pennsylvania": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "California": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Georgia": {
+          "record": "2-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Vanderbilt": {
+          "record": "2-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Columbia": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "2-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Duke": {
+          "record": "2-0-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "NA"
+        },
+        "Yale": {
+          "record": "2-0-0",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "2-0-0",
+          "ranking": 15,
+          "conference": "Big 6",
+          "previousRanking": "NA"
+        },
+        "Rice": {
+          "record": "0-1-1",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Minnesota": {
+          "record": "2-0-0",
+          "ranking": 17,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Ole Miss": {
+          "record": "3-0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "North Carolina": {
+          "record": "1-1-0",
+          "ranking": 19,
+          "conference": "Southern",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "1-0-1",
+          "ranking": 20,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1947-10-13",
+      "teams": {
+        "Michigan": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Notre Dame": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Texas": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "California": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "PCC",
+          "previousRanking": "8"
+        },
+        "Georgia Tech": {
+          "record": "3-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Illinois": {
+          "record": "2-0-1",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Army": {
+          "record": "2-0-1",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Pennsylvania": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Penn State": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Vanderbilt": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "USC": {
+          "record": "2-0-1",
+          "ranking": 11,
+          "conference": "PCC",
+          "previousRanking": "20"
+        },
+        "Yale": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Minnesota": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "17"
+        },
+        "Wake Forest": {
+          "record": "3-0-0",
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Rice": {
+          "record": "1-1-1",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "16"
+        },
+        "Virginia": {
+          "record": "3-0-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Duke": {
+          "record": "2-0-1",
+          "ranking": 17,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "NC State": {
+          "record": "2-1-0",
+          "ranking": 18,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "2-1-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Kentucky": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-10-20",
+      "teams": {
+        "Michigan": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Texas": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "California": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "PCC",
+          "previousRanking": "4"
+        },
+        "Illinois": {
+          "record": "3-0-1",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Army": {
+          "record": "3-0-1",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Georgia Tech": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Pennsylvania": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Penn State": {
+          "record": "4-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "USC": {
+          "record": "3-0-1",
+          "ranking": 10,
+          "conference": "PCC",
+          "previousRanking": "11"
+        },
+        "Wake Forest": {
+          "record": "4-0-0",
+          "ranking": 11,
+          "conference": "Southern",
+          "previousRanking": "14"
+        },
+        "Southern Methodist": {
+          "record": "4-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Virginia": {
+          "record": "4-0-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "16"
+        },
+        "Kentucky": {
+          "record": "4-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Duke": {
+          "record": "3-0-1",
+          "ranking": 15,
+          "conference": "Southern",
+          "previousRanking": "17"
+        },
+        "UCLA": {
+          "record": "3-1-0",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "19"
+        },
+        "Baylor": {
+          "record": "4-0-0",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "3-1-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Vanderbilt": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "San Francisco": {
+          "record": "4-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-10-27",
+      "teams": {
+        "Notre Dame": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Michigan": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Texas": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Pennsylvania": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "USC": {
+          "record": "4-0-1",
+          "ranking": 5,
+          "conference": "PCC",
+          "previousRanking": "10"
+        },
+        "Georgia Tech": {
+          "record": "5-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Penn State": {
+          "record": "5-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Southern Methodist": {
+          "record": "5-0-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Duke": {
+          "record": "4-0-1",
+          "ranking": 9,
+          "conference": "Southern",
+          "previousRanking": "15"
+        },
+        "Army": {
+          "record": "3-1-1",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Illinois": {
+          "record": "3-1-1",
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Virginia": {
+          "record": "5-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Kentucky": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "California": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "PCC",
+          "previousRanking": "4"
+        },
+        "Wake Forest": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "Southern",
+          "previousRanking": "11"
+        },
+        "Purdue": {
+          "record": "3-2-0",
+          "ranking": 16,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "4-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Alabama": {
+          "record": "4-2-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "3-2-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Columbia": {
+          "record": "3-2-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-11-03",
+      "teams": {
+        "Notre Dame": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Michigan": {
+          "record": "6-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Southern Methodist": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "Pennsylvania": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "USC": {
+          "record": "5-0-1",
+          "ranking": 5,
+          "conference": "PCC",
+          "previousRanking": "5"
+        },
+        "Georgia Tech": {
+          "record": "6-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Penn State": {
+          "record": "6-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "record": "6-1-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Army": {
+          "record": "4-1-1",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Virginia": {
+          "record": "6-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Illinois": {
+          "record": "3-2-1",
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "11"
+        },
+        "California": {
+          "record": "6-1-0",
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "14"
+        },
+        "Duke": {
+          "record": "4-1-1",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "9"
+        },
+        "Purdue": {
+          "record": "4-2-0",
+          "ranking": 14,
+          "conference": "Western",
+          "previousRanking": "16"
+        },
+        "William & Mary": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "5-2-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Columbia": {
+          "record": "4-2-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "North Carolina": {
+          "record": "4-2-0",
+          "ranking": 18,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Wisconsin": {
+          "record": "4-1-1",
+          "ranking": 19,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "Yale": {
+          "record": "5-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-11-10",
+      "teams": {
+        "Notre Dame": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Michigan": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Pennsylvania": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Southern Methodist": {
+          "record": "7-0-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "USC": {
+          "record": "6-0-1",
+          "ranking": 5,
+          "conference": "PCC",
+          "previousRanking": "5"
+        },
+        "Georgia Tech": {
+          "record": "7-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Texas": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "Penn State": {
+          "record": "7-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Wisconsin": {
+          "record": "5-1-1",
+          "ranking": 9,
+          "conference": "Western",
+          "previousRanking": "19"
+        },
+        "California": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "PCC",
+          "previousRanking": "12"
+        },
+        "Illinois": {
+          "record": "4-2-1",
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "11"
+        },
+        "William & Mary": {
+          "record": "6-1-0",
+          "ranking": 12,
+          "conference": "Southern",
+          "previousRanking": "15"
+        },
+        "Army": {
+          "record": "4-2-1",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Alabama": {
+          "record": "5-2-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Ole Miss": {
+          "record": "6-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Virginia": {
+          "record": "6-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Missouri": {
+          "record": "6-2-0",
+          "ranking": 17,
+          "conference": "Big 6",
+          "previousRanking": "NR"
+        },
+        "Utah": {
+          "record": "7-0-0",
+          "ranking": 18,
+          "conference": "MSAC",
+          "previousRanking": "NR"
+        },
+        "North Carolina": {
+          "record": "5-2-0",
+          "ranking": 19,
+          "conference": "Southern",
+          "previousRanking": "18"
+        },
+        "Minnesota": {
+          "record": "5-2-0",
+          "ranking": 20,
+          "conference": "Western",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-11-17",
+      "teams": {
+        "Michigan": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Notre Dame": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Southern Methodist": {
+          "record": "8-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "USC": {
+          "record": "6-0-1",
+          "ranking": 4,
+          "conference": "PCC",
+          "previousRanking": "5"
+        },
+        "Penn State": {
+          "record": "8-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Pennsylvania": {
+          "record": "6-0-1",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Texas": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Alabama": {
+          "record": "6-2-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "California": {
+          "record": "8-1-0",
+          "ranking": 9,
+          "conference": "PCC",
+          "previousRanking": "10"
+        },
+        "Georgia Tech": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Army": {
+          "record": "4-2-2",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Illinois": {
+          "record": "5-2-1",
+          "ranking": 12,
+          "conference": "Western",
+          "previousRanking": "11"
+        },
+        "North Carolina": {
+          "record": "6-2-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "19"
+        },
+        "William & Mary": {
+          "record": "7-1-0",
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "12"
+        },
+        "Ole Miss": {
+          "record": "7-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Virginia": {
+          "record": "7-1-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Kansas": {
+          "record": "6-0-2",
+          "ranking": 17,
+          "conference": "Big 6",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "5-3-0",
+          "ranking": 18,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Columbia": {
+          "record": "6-2-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Rice": {
+          "record": "4-3-1",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-11-24",
+      "teams": {
+        "Notre Dame": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Michigan": {
+          "record": "9-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Southern Methodist": {
+          "record": "9-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "USC": {
+          "record": "7-0-1",
+          "ranking": 4,
+          "conference": "PCC",
+          "previousRanking": "4"
+        },
+        "Penn State": {
+          "record": "9-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Texas": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Pennsylvania": {
+          "record": "6-0-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Georgia Tech": {
+          "record": "8-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "North Carolina": {
+          "record": "7-2-0",
+          "ranking": 10,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "California": {
+          "record": "9-1-0",
+          "ranking": 11,
+          "conference": "PCC",
+          "previousRanking": "9"
+        },
+        "Army": {
+          "record": "4-2-2",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Kansas": {
+          "record": "7-0-2",
+          "ranking": 13,
+          "conference": "Big 6",
+          "previousRanking": "17"
+        },
+        "William & Mary": {
+          "record": "8-1-0",
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "14"
+        },
+        "Ole Miss": {
+          "record": "7-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Columbia": {
+          "record": "7-2-0",
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "UCLA": {
+          "record": "5-4-0",
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "18"
+        },
+        "Rice": {
+          "record": "5-3-1",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Minnesota": {
+          "record": "6-3-0",
+          "ranking": 19,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "Oklahoma": {
+          "record": "6-2-1",
+          "ranking": 20,
+          "conference": "Big 6",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1947-12-01",
+      "teams": {
+        "Notre Dame": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Michigan": {
+          "record": "9-0-0",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "USC": {
+          "record": "7-0-1",
+          "ranking": 3,
+          "conference": "PCC",
+          "previousRanking": "4"
+        },
+        "Southern Methodist": {
+          "record": "9-0-1",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Penn State": {
+          "record": "9-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Texas": {
+          "record": "9-1-0",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Alabama": {
+          "record": "8-2-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Pennsylvania": {
+          "record": "7-0-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Georgia Tech": {
+          "record": "9-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "North Carolina": {
+          "record": "8-2-0",
+          "ranking": 10,
+          "conference": "Southern",
+          "previousRanking": "10"
+        },
+        "Army": {
+          "record": "5-2-2",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Ole Miss": {
+          "record": "8-2-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Kansas": {
+          "record": "8-0-2",
+          "ranking": 13,
+          "conference": "Big 6",
+          "previousRanking": "13"
+        },
+        "William & Mary": {
+          "record": "9-1-0",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "14"
+        },
+        "California": {
+          "record": "9-1-0",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "11"
+        },
+        "NC State": {
+          "record": "5-3-1",
+          "ranking": 16,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Rice": {
+          "record": "6-3-1",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "18"
+        },
+        "Oklahoma": {
+          "record": "7-2-1",
+          "ranking": 18,
+          "conference": "Big 6",
+          "previousRanking": "20"
+        },
+        "UCLA": {
+          "record": "5-4-0",
+          "ranking": 19,
+          "conference": "PCC",
+          "previousRanking": "17"
+        },
+        "Catawba College": {
+          "ranking": 20,
+          "conference": "",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Notre Dame": {
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Michigan": {
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Southern Methodist": {
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Penn State": {
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Texas": {
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Alabama": {
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Pennsylvania": {
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "USC": {
+          "ranking": 8,
+          "conference": "PCC",
+          "previousRanking": "3"
+        },
+        "North Carolina": {
+          "ranking": 9,
+          "conference": "Southern",
+          "previousRanking": "10"
+        },
+        "Georgia Tech": {
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Army": {
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Kansas": {
+          "ranking": 12,
+          "conference": "Big 6",
+          "previousRanking": "13"
+        },
+        "Ole Miss": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "William & Mary": {
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "California": {
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "15"
+        },
+        "Oklahoma": {
+          "ranking": 16,
+          "conference": "Big 6",
+          "previousRanking": "18"
+        },
+        "NC State": {
+          "ranking": 17,
+          "conference": "Southern",
+          "previousRanking": "16"
+        },
+        "Rice": {
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "17"
+        },
+        "Duke": {
+          "ranking": 19,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Columbia": {
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    }
+  ]
+}

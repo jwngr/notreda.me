@@ -57,12 +57,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "home": {
         "ap": 5
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "W",
@@ -122,15 +122,15 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
-      "home": {
-        "ap": 17
-      },
       "away": {
         "ap": 7
+      },
+      "home": {
+        "ap": 17
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "L",
@@ -190,6 +190,7 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "home": {
         "ap": 4
@@ -197,8 +198,7 @@
       "away": {
         "ap": 3
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "W",
@@ -258,12 +258,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "home": {
         "ap": 12
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "L",
@@ -323,6 +323,7 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "home": {
         "ap": 11
@@ -330,8 +331,7 @@
       "away": {
         "ap": 15
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "W",
@@ -391,12 +391,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "away": {
         "ap": 15
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "L",
@@ -456,12 +456,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "away": {
         "ap": 14
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "W",
@@ -521,12 +521,12 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "away": {
         "ap": 11
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "L",
@@ -586,15 +586,15 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
-      "home": {
-        "ap": 6
-      },
       "away": {
         "ap": 15
+      },
+      "home": {
+        "ap": 6
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   },
   {
     "result": "W",
@@ -654,11 +654,11 @@
       "away": [],
       "home": []
     },
+    "headCoach": "Terry Brennan",
     "rankings": {
       "away": {
         "ap": 18
       }
-    },
-    "headCoach": "Terry Brennan"
+    }
   }
 ]

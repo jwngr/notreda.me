@@ -1,0 +1,851 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "USC": {
+          "record": "0-0",
+          "ranking": 1,
+          "conference": "AAWU",
+          "previousRanking": "NA"
+        },
+        "Ole Miss": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Northwestern": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Wisconsin": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Arkansas": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Navy": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "AAWU",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1963-09-23",
+      "teams": {
+        "USC": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "AAWU",
+          "previousRanking": "1"
+        },
+        "Alabama": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Oklahoma": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Texas": {
+          "record": "1-0-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Navy": {
+          "record": "1-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Wisconsin": {
+          "record": "1-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Northwestern": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Arkansas": {
+          "record": "1-0-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "Georgia Tech": {
+          "record": "1-0-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "1-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1963-09-30",
+      "teams": {
+        "Oklahoma": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "3"
+        },
+        "Alabama": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Texas": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Northwestern": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Wisconsin": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Navy": {
+          "record": "2-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Georgia Tech": {
+          "record": "2-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "USC": {
+          "record": "1-1-0",
+          "ranking": 8,
+          "conference": "AAWU",
+          "previousRanking": "1"
+        },
+        "Pittsburgh": {
+          "record": "2-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Ole Miss": {
+          "record": "1-0-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1963-10-07",
+      "teams": {
+        "Oklahoma": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Texas": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Alabama": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Navy": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Wisconsin": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Pittsburgh": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "USC": {
+          "record": "2-1-0",
+          "ranking": 7,
+          "conference": "AAWU",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "2-0-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "10"
+        }
+      }
+    },
+    {
+      "date": "1963-10-14",
+      "teams": {
+        "Texas": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "2"
+        },
+        "Wisconsin": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Pittsburgh": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "record": "2-0-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Ole Miss": {
+          "record": "2-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Oklahoma": {
+          "record": "2-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Illinois": {
+          "record": "2-0-1",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "3-1-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "3-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Northwestern": {
+          "record": "3-1-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1963-10-21",
+      "teams": {
+        "Texas": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Wisconsin": {
+          "record": "4-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Pittsburgh": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Illinois": {
+          "record": "3-0-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Ole Miss": {
+          "record": "3-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "4-1-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Oklahoma": {
+          "record": "3-1-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Auburn": {
+          "record": "5-0-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Northwestern": {
+          "record": "4-1-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Navy": {
+          "record": "4-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "10"
+        }
+      }
+    },
+    {
+      "date": "1963-10-28",
+      "teams": {
+        "Texas": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Illinois": {
+          "record": "4-0-1",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Ole Miss": {
+          "record": "4-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Navy": {
+          "record": "5-1-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Auburn": {
+          "record": "5-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Oklahoma": {
+          "record": "4-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Alabama": {
+          "record": "5-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Wisconsin": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "3-1-1",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "4-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "3"
+        }
+      }
+    },
+    {
+      "date": "1963-11-04",
+      "teams": {
+        "Texas": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Illinois": {
+          "record": "5-0-1",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "5-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "6-1-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Auburn": {
+          "record": "6-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Oklahoma": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Alabama": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Pittsburgh": {
+          "record": "5-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Michigan State": {
+          "record": "4-1-1",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Ohio State": {
+          "record": "4-1-1",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        }
+      }
+    },
+    {
+      "date": "1963-11-11",
+      "teams": {
+        "Texas": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "record": "7-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Ole Miss": {
+          "record": "6-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "5-1-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Oklahoma": {
+          "record": "6-1-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Pittsburgh": {
+          "record": "6-1-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Alabama": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Illinois": {
+          "record": "5-1-1",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "record": "6-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1963-11-18",
+      "teams": {
+        "Texas": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "7-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "6-1-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Pittsburgh": {
+          "record": "7-1-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Oklahoma": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Illinois": {
+          "record": "6-1-1",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Auburn": {
+          "record": "7-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Nebraska": {
+          "record": "8-1-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        }
+      }
+    },
+    {
+      "date": "1963-11-25",
+      "teams": {
+        "Texas": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "7-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "6-1-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Pittsburgh": {
+          "record": "7-1-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Nebraska": {
+          "record": "9-1-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Illinois": {
+          "record": "6-1-1",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Auburn": {
+          "record": "8-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Oklahoma": {
+          "record": "7-2-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        }
+      }
+    },
+    {
+      "date": "1963-12-02",
+      "teams": {
+        "Texas": {
+          "record": "10-0-0",
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Illinois": {
+          "record": "7-1-1",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Pittsburgh": {
+          "record": "8-1-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Auburn": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Nebraska": {
+          "record": "9-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Ole Miss": {
+          "record": "7-0-2",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Oklahoma": {
+          "record": "8-2-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Michigan State": {
+          "record": "6-2-1",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Texas": {
+          "ranking": 1,
+          "conference": "SWC",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Illinois": {
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Pittsburgh": {
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Auburn": {
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Ole Miss": {
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Alabama": {
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Michigan State": {
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Oklahoma": {
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        }
+      }
+    }
+  ]
+}

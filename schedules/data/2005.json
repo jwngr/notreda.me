@@ -73,14 +73,14 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-03-pittsburgh",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "8:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -156,17 +156,17 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-10-michigan",
-    "rankings": {
-      "home": {
-        "ap": 3
-      },
-      "away": {
-        "ap": 20
-      }
-    },
     "time": "12:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 20
+      },
+      "home": {
+        "ap": 3
+      }
+    }
   },
   {
     "result": "L",
@@ -244,14 +244,14 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-17-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 10
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -327,14 +327,14 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-24-washington",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 16
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -410,17 +410,17 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-01-purdue",
-    "rankings": {
-      "home": {
-        "ap": 22
-      },
-      "away": {
-        "ap": 13
-      }
-    },
     "time": "7:45 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 13
+      },
+      "home": {
+        "ap": 22
+      }
+    }
   },
   {
     "result": "L",
@@ -496,6 +496,9 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-15-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 9
@@ -503,10 +506,7 @@
       "away": {
         "ap": 1
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "W",
@@ -582,14 +582,15 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-22-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "bcs": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -665,14 +666,15 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-05-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "bcs": 14
+      }
+    }
   },
   {
     "result": "W",
@@ -748,14 +750,15 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-12-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 7
-      }
-    },
     "time": "1:00 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 7,
+        "bcs": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -831,14 +834,15 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-19-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "W",
@@ -914,14 +918,15 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-26-stanford",
-    "rankings": {
-      "away": {
-        "ap": 6
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "bcs": 8
+      }
+    }
   },
   {
     "result": "L",
@@ -998,17 +1003,19 @@
       ]
     },
     "sportsReferenceGameId": "2006-01-02-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 4
-      }
-    },
     "time": "4:30 PM",
     "coverage": "ABC",
     "nickname": "Fiesta Bowl",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "bcs": 8
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 6
+      }
+    }
   }
 ]

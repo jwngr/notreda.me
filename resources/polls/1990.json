@@ -1,0 +1,2442 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Miami": {
+          "record": "FL",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Auburn": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Florida State": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Colorado": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Nebraska": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Clemson": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Illinois": {
+          "record": "0-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Texas A&M": {
+          "record": "0-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Arkansas": {
+          "record": "0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Virginia": {
+          "record": "0-0",
+          "ranking": 15,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Brigham Young": {
+          "record": "0-0",
+          "ranking": 16,
+          "conference": "WAC",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Pittsburgh": {
+          "record": "0-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "UCLA": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 21,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 22,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Michigan State": {
+          "record": "0-0",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Houston": {
+          "record": "0-0",
+          "ranking": 24,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "West Virginia": {
+          "record": "0-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1990-09-04",
+      "teams": {
+        "Miami": {
+          "record": "FL",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Notre Dame": {
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Michigan": {
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Colorado": {
+          "record": "0-0-1",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "USC": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "1-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Clemson": {
+          "record": "1-0-0",
+          "ranking": 9,
+          "conference": "ACC",
+          "previousRanking": "10"
+        },
+        "Nebraska": {
+          "record": "1-0-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Illinois": {
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Texas A&M": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Alabama": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Virginia": {
+          "record": "1-0-0",
+          "ranking": 14,
+          "conference": "ACC",
+          "previousRanking": "15"
+        },
+        "Arkansas": {
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Brigham Young": {
+          "record": "1-0-0",
+          "ranking": 16,
+          "conference": "WAC",
+          "previousRanking": "16"
+        },
+        "Pittsburgh": {
+          "record": "1-0-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "Ohio State": {
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "UCLA": {
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "19"
+        },
+        "Washington": {
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "20"
+        },
+        "Penn State": {
+          "ranking": 21,
+          "conference": "Ind",
+          "previousRanking": "21"
+        },
+        "Michigan State": {
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Oklahoma": {
+          "ranking": 23,
+          "conference": "Big 8",
+          "previousRanking": "22"
+        },
+        "Houston": {
+          "ranking": 24,
+          "conference": "SWC",
+          "previousRanking": "24"
+        },
+        "West Virginia": {
+          "record": "1-0-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "1990-09-11",
+      "teams": {
+        "Notre Dame": {
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Michigan": {
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Brigham Young": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "WAC",
+          "previousRanking": "16"
+        },
+        "USC": {
+          "record": "1-0-0",
+          "ranking": 6,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "2-0-1",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Nebraska": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Colorado": {
+          "record": "1-0-1",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Virginia": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "14"
+        },
+        "Texas A&M": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Pittsburgh": {
+          "record": "2-0-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Oklahoma": {
+          "record": "1-0-0",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "23"
+        },
+        "Arkansas": {
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Clemson": {
+          "record": "1-1-0",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "9"
+        },
+        "Ohio State": {
+          "record": "1-0-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Houston": {
+          "record": "1-0-0",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "24"
+        },
+        "Michigan State": {
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Arizona": {
+          "record": "1-0-0",
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Illinois": {
+          "record": "0-1-0",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Washington": {
+          "record": "1-0-0",
+          "ranking": 22,
+          "conference": "Pac-10",
+          "previousRanking": "20"
+        },
+        "Texas": {
+          "record": "1-0-0",
+          "ranking": 23,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "1-0-0",
+          "ranking": 24,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Arizona State": {
+          "record": "1-0-0",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-09-18",
+      "teams": {
+        "Notre Dame": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Auburn": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Brigham Young": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "WAC",
+          "previousRanking": "5"
+        },
+        "USC": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Pac-10",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "3-0-1",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Michigan": {
+          "record": "0-1-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Nebraska": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Virginia": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Oklahoma": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Texas A&M": {
+          "record": "2-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Arkansas": {
+          "record": "1-0-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Houston": {
+          "record": "2-0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "18"
+        },
+        "Illinois": {
+          "record": "1-1-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "21"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Clemson": {
+          "record": "2-1-0",
+          "ranking": 17,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Arizona": {
+          "record": "2-0-0",
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "20"
+        },
+        "Florida": {
+          "record": "2-0-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "24"
+        },
+        "Colorado": {
+          "record": "1-1-1",
+          "ranking": 20,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "2-0-0",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "22"
+        },
+        "Texas": {
+          "record": "1-0-0",
+          "ranking": 22,
+          "conference": "SWC",
+          "previousRanking": "23"
+        },
+        "Arizona State": {
+          "record": "2-0-0",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "25"
+        },
+        "Michigan State": {
+          "record": "0-0-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        },
+        "Pittsburgh": {
+          "record": "2-1-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "13"
+        }
+      }
+    },
+    {
+      "date": "1990-09-25",
+      "teams": {
+        "Notre Dame": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Auburn": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Brigham Young": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "WAC",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "3-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "1-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Virginia": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "10"
+        },
+        "Nebraska": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Oklahoma": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "11"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Texas A&M": {
+          "record": "3-0-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Washington": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Houston": {
+          "record": "2-0-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Illinois": {
+          "record": "2-1-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "Arizona": {
+          "record": "3-0-0",
+          "ranking": 16,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Florida": {
+          "record": "3-0-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "19"
+        },
+        "USC": {
+          "record": "2-1-0",
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "5"
+        },
+        "Clemson": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "ACC",
+          "previousRanking": "17"
+        },
+        "Colorado": {
+          "record": "2-1-1",
+          "ranking": 20,
+          "conference": "Big 8",
+          "previousRanking": "20"
+        },
+        "Arizona State": {
+          "record": "2-0-0",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Michigan State": {
+          "record": "0-1-1",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "24"
+        },
+        "Arkansas": {
+          "record": "1-1-0",
+          "ranking": 23,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Fresno State": {
+          "record": "4-0-0",
+          "ranking": 24,
+          "conference": "Big West",
+          "previousRanking": "NR"
+        },
+        "South Carolina": {
+          "record": "3-0-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-10-02",
+      "teams": {
+        "Notre Dame": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "4-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Michigan": {
+          "record": "2-1-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Virginia": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Auburn": {
+          "record": "2-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Tennessee": {
+          "record": "3-0-2",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Oklahoma": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Nebraska": {
+          "record": "4-0-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Florida": {
+          "record": "4-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Brigham Young": {
+          "record": "4-1-0",
+          "ranking": 11,
+          "conference": "WAC",
+          "previousRanking": "4"
+        },
+        "Colorado": {
+          "record": "3-1-1",
+          "ranking": 12,
+          "conference": "Big 8",
+          "previousRanking": "20"
+        },
+        "Illinois": {
+          "record": "2-1-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Houston": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "USC": {
+          "record": "3-1-0",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Clemson": {
+          "record": "4-1-0",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "19"
+        },
+        "Washington": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "12"
+        },
+        "Michigan State": {
+          "record": "1-1-1",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Texas A&M": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Ohio State": {
+          "record": "2-1-0",
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Arkansas": {
+          "record": "2-1-0",
+          "ranking": 21,
+          "conference": "SWC",
+          "previousRanking": "23"
+        },
+        "Oregon": {
+          "record": "3-1-0",
+          "ranking": 22,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "3-0-0",
+          "ranking": 23,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Fresno State": {
+          "record": "5-0-0",
+          "ranking": 24,
+          "conference": "Big West",
+          "previousRanking": "24"
+        },
+        "Arizona": {
+          "record": "3-1-0",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "16"
+        }
+      }
+    },
+    {
+      "date": "1990-10-09",
+      "teams": {
+        "Michigan": {
+          "record": "3-1-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Virginia": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Oklahoma": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "3-0-2",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Auburn": {
+          "record": "3-0-1",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "record": "5-0-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Notre Dame": {
+          "record": "3-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Florida": {
+          "record": "5-0-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Florida State": {
+          "record": "4-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Illinois": {
+          "record": "3-1-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Houston": {
+          "record": "4-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Brigham Young": {
+          "record": "4-1-0",
+          "ranking": 13,
+          "conference": "WAC",
+          "previousRanking": "11"
+        },
+        "Colorado": {
+          "record": "4-1-1",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "12"
+        },
+        "Clemson": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "USC": {
+          "record": "4-1-0",
+          "ranking": 16,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Washington": {
+          "record": "4-1-0",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Georgia Tech": {
+          "record": "4-0-0",
+          "ranking": 18,
+          "conference": "ACC",
+          "previousRanking": "23"
+        },
+        "Oregon": {
+          "record": "4-1-0",
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "22"
+        },
+        "Texas A&M": {
+          "record": "4-1-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Arizona": {
+          "record": "4-1-0",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "25"
+        },
+        "Indiana": {
+          "record": "4-0-0",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Wyoming": {
+          "record": "6-0-0",
+          "ranking": 23,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "4-1-0",
+          "ranking": 24,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Iowa": {
+          "record": "3-1-0",
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-10-16",
+      "teams": {
+        "Virginia": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "ACC",
+          "previousRanking": "2"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Tennessee": {
+          "record": "4-0-2",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "record": "6-0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Auburn": {
+          "record": "4-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Notre Dame": {
+          "record": "4-1-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Florida State": {
+          "record": "4-1-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Illinois": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Houston": {
+          "record": "5-0-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Michigan": {
+          "record": "3-2-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "record": "5-0-0",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "18"
+        },
+        "Brigham Young": {
+          "record": "5-1-0",
+          "ranking": 12,
+          "conference": "WAC",
+          "previousRanking": "13"
+        },
+        "Washington": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Colorado": {
+          "record": "5-1-1",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "USC": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "16"
+        },
+        "Oklahoma": {
+          "record": "5-1-0",
+          "ranking": 16,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Florida": {
+          "record": "5-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Ole Miss": {
+          "record": "5-1-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "24"
+        },
+        "Texas": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Indiana": {
+          "record": "4-0-1",
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Wyoming": {
+          "record": "7-0-0",
+          "ranking": 21,
+          "conference": "WAC",
+          "previousRanking": "23"
+        },
+        "Iowa": {
+          "record": "4-1-0",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        },
+        "Clemson": {
+          "record": "5-2-0",
+          "ranking": 22,
+          "conference": "ACC",
+          "previousRanking": "15"
+        },
+        "Michigan State": {
+          "record": "2-2-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Texas A&M": {
+          "record": "4-2-0",
+          "ranking": 25,
+          "conference": "SWC",
+          "previousRanking": "20"
+        }
+      }
+    },
+    {
+      "date": "1990-10-23",
+      "teams": {
+        "Virginia": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "ACC",
+          "previousRanking": "1"
+        },
+        "Auburn": {
+          "record": "5-0-1",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "5-1-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Nebraska": {
+          "record": "7-0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Illinois": {
+          "record": "5-1-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Houston": {
+          "record": "6-0-0",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "13"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Brigham Young": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "WAC",
+          "previousRanking": "12"
+        },
+        "Colorado": {
+          "record": "6-1-1",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Tennessee": {
+          "record": "4-1-2",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "4-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "record": "4-1-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Florida": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Iowa": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Georgia Tech": {
+          "record": "5-0-1",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Ole Miss": {
+          "record": "6-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Wyoming": {
+          "record": "8-0-0",
+          "ranking": 18,
+          "conference": "WAC",
+          "previousRanking": "21"
+        },
+        "Clemson": {
+          "record": "6-2-0",
+          "ranking": 19,
+          "conference": "ACC",
+          "previousRanking": "22"
+        },
+        "Michigan": {
+          "record": "3-3-0",
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "USC": {
+          "record": "5-2-0",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Oklahoma": {
+          "record": "5-2-0",
+          "ranking": 22,
+          "conference": "Big 8",
+          "previousRanking": "16"
+        },
+        "Arizona": {
+          "record": "5-2-0",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Texas Christian": {
+          "record": "5-1-0",
+          "ranking": 24,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Oregon": {
+          "record": "5-2-0",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-10-30",
+      "teams": {
+        "Virginia": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "ACC",
+          "previousRanking": "1"
+        },
+        "Notre Dame": {
+          "record": "6-1-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Nebraska": {
+          "record": "8-0-0",
+          "ranking": 3,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Auburn": {
+          "record": "6-0-1",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Illinois": {
+          "record": "6-1-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Houston": {
+          "record": "7-0-0",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Washington": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Colorado": {
+          "record": "7-1-1",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Brigham Young": {
+          "record": "6-1-0",
+          "ranking": 10,
+          "conference": "WAC",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "4-1-2",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Florida State": {
+          "record": "5-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Iowa": {
+          "record": "6-1-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Texas": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Florida": {
+          "record": "6-1-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Georgia Tech": {
+          "record": "6-0-1",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Ole Miss": {
+          "record": "7-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Clemson": {
+          "record": "7-2-0",
+          "ranking": 18,
+          "conference": "ACC",
+          "previousRanking": "19"
+        },
+        "Wyoming": {
+          "record": "9-0-0",
+          "ranking": 19,
+          "conference": "WAC",
+          "previousRanking": "18"
+        },
+        "Michigan": {
+          "record": "4-3-0",
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "20"
+        },
+        "USC": {
+          "record": "6-2-0",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Oregon": {
+          "record": "6-2-0",
+          "ranking": 22,
+          "conference": "Pac-10",
+          "previousRanking": "25"
+        },
+        "Arizona": {
+          "record": "6-2-0",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Penn State": {
+          "record": "5-2-0",
+          "ranking": 24,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Louisville": {
+          "record": "7-1-1",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-11-06",
+      "teams": {
+        "Notre Dame": {
+          "record": "7-1-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Washington": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Houston": {
+          "record": "8-0-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Colorado": {
+          "record": "8-1-1",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Iowa": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Georgia Tech": {
+          "record": "7-0-1",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Brigham Young": {
+          "record": "7-1-0",
+          "ranking": 8,
+          "conference": "WAC",
+          "previousRanking": "10"
+        },
+        "Tennessee": {
+          "record": "5-1-2",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Florida": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Virginia": {
+          "record": "7-1-0",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "6-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Nebraska": {
+          "record": "8-1-0",
+          "ranking": 13,
+          "conference": "Big 8",
+          "previousRanking": "3"
+        },
+        "Texas": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Auburn": {
+          "record": "6-1-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Ole Miss": {
+          "record": "8-1-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Illinois": {
+          "record": "6-2-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Clemson": {
+          "record": "8-2-0",
+          "ranking": 18,
+          "conference": "ACC",
+          "previousRanking": "18"
+        },
+        "Michigan": {
+          "record": "5-3-0",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "20"
+        },
+        "Oregon": {
+          "record": "7-2-0",
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "22"
+        },
+        "Penn State": {
+          "record": "6-2-0",
+          "ranking": 21,
+          "conference": "Ind",
+          "previousRanking": "24"
+        },
+        "Louisville": {
+          "record": "8-1-1",
+          "ranking": 22,
+          "conference": "Ind",
+          "previousRanking": "25"
+        },
+        "USC": {
+          "record": "6-2-1",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Michigan State": {
+          "record": "4-3-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Wyoming": {
+          "record": "9-1-0",
+          "ranking": 25,
+          "conference": "WAC",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1990-11-13",
+      "teams": {
+        "Notre Dame": {
+          "record": "8-1-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Colorado": {
+          "record": "9-1-1",
+          "ranking": 2,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Georgia Tech": {
+          "record": "8-0-1",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Brigham Young": {
+          "record": "8-1-0",
+          "ranking": 5,
+          "conference": "WAC",
+          "previousRanking": "8"
+        },
+        "Florida": {
+          "record": "8-1-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Texas": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Virginia": {
+          "record": "8-1-0",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Florida State": {
+          "record": "7-2-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Washington": {
+          "record": "8-2-0",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "2"
+        },
+        "Nebraska": {
+          "record": "9-1-0",
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "13"
+        },
+        "Houston": {
+          "record": "8-1-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Iowa": {
+          "record": "7-2-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "5-2-2",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Ole Miss": {
+          "record": "8-1-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Michigan": {
+          "record": "6-3-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        },
+        "Clemson": {
+          "record": "8-2-0",
+          "ranking": 17,
+          "conference": "ACC",
+          "previousRanking": "18"
+        },
+        "Penn State": {
+          "record": "7-2-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "21"
+        },
+        "USC": {
+          "record": "7-2-1",
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Louisville": {
+          "record": "9-1-1",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "22"
+        },
+        "Ohio State": {
+          "record": "6-2-1",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Illinois": {
+          "record": "6-3-0",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Michigan State": {
+          "record": "5-3-1",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "24"
+        },
+        "Auburn": {
+          "record": "6-2-1",
+          "ranking": 24,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Southern Mississippi": {
+          "record": "8-3-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1990-11-20",
+      "teams": {
+        "Colorado": {
+          "record": "10-1-1",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "2"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Georgia Tech": {
+          "record": "9-0-1",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Brigham Young": {
+          "record": "9-1-0",
+          "ranking": 4,
+          "conference": "WAC",
+          "previousRanking": "5"
+        },
+        "Florida": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Texas": {
+          "record": "8-1-0",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Notre Dame": {
+          "record": "8-2-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "8-2-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "9-2-0",
+          "ranking": 9,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Nebraska": {
+          "record": "9-1-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "11"
+        },
+        "Penn State": {
+          "record": "8-2-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "Houston": {
+          "record": "9-1-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Iowa": {
+          "record": "8-2-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Tennessee": {
+          "record": "6-2-2",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Michigan": {
+          "record": "7-3-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "Clemson": {
+          "record": "9-2-0",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "17"
+        },
+        "Virginia": {
+          "record": "8-2-0",
+          "ranking": 17,
+          "conference": "ACC",
+          "previousRanking": "8"
+        },
+        "USC": {
+          "record": "8-2-1",
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "19"
+        },
+        "Ohio State": {
+          "record": "7-2-1",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "21"
+        },
+        "Louisville": {
+          "record": "9-1-1",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Ole Miss": {
+          "record": "8-2-0",
+          "ranking": 21,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Illinois": {
+          "record": "7-3-0",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Auburn": {
+          "record": "7-2-1",
+          "ranking": 23,
+          "conference": "SEC",
+          "previousRanking": "24"
+        },
+        "Michigan State": {
+          "record": "6-3-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Southern Mississippi": {
+          "record": "8-3-0",
+          "ranking": 25,
+          "conference": "Ind",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "1990-11-27",
+      "teams": {
+        "Colorado": {
+          "record": "10-1-1",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "record": "9-0-1",
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Brigham Young": {
+          "record": "10-1-0",
+          "ranking": 4,
+          "conference": "WAC",
+          "previousRanking": "4"
+        },
+        "Texas": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Florida": {
+          "record": "9-1-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "9-2-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Florida State": {
+          "record": "8-2-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Washington": {
+          "record": "9-2-0",
+          "ranking": 9,
+          "conference": "Pac-10",
+          "previousRanking": "9"
+        },
+        "Penn State": {
+          "record": "9-2-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Houston": {
+          "record": "9-1-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Tennessee": {
+          "record": "7-2-2",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Michigan": {
+          "record": "8-3-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Clemson": {
+          "record": "9-2-0",
+          "ranking": 14,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Ole Miss": {
+          "record": "9-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "21"
+        },
+        "Illinois": {
+          "record": "8-3-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Louisville": {
+          "record": "9-1-1",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Iowa": {
+          "record": "8-3-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Nebraska": {
+          "record": "9-2-0",
+          "ranking": 19,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Auburn": {
+          "record": "7-2-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "23"
+        },
+        "USC": {
+          "record": "8-3-1",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Oklahoma": {
+          "record": "8-3-0",
+          "ranking": 22,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "record": "7-3-1",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "24"
+        },
+        "Southern Mississippi": {
+          "record": "8-3-0",
+          "ranking": 24,
+          "conference": "Ind",
+          "previousRanking": "25"
+        },
+        "Ohio State": {
+          "record": "7-3-1",
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1990-12-04",
+      "teams": {
+        "Colorado": {
+          "record": "10-1-1",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "record": "10-0-1",
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "2"
+        },
+        "Texas": {
+          "record": "10-1-0",
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "9-2-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Florida State": {
+          "record": "9-2-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Penn State": {
+          "record": "9-2-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Washington": {
+          "record": "9-2-0",
+          "ranking": 8,
+          "conference": "Pac-10",
+          "previousRanking": "9"
+        },
+        "Houston": {
+          "record": "10-1-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Tennessee": {
+          "record": "8-2-2",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Florida": {
+          "record": "9-2-0",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "8-3-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Brigham Young": {
+          "record": "10-2-0",
+          "ranking": 13,
+          "conference": "WAC",
+          "previousRanking": "4"
+        },
+        "Clemson": {
+          "record": "9-2-0",
+          "ranking": 14,
+          "conference": "ACC",
+          "previousRanking": "14"
+        },
+        "Ole Miss": {
+          "record": "9-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Illinois": {
+          "record": "8-3-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "Iowa": {
+          "record": "8-3-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Louisville": {
+          "record": "9-1-1",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Nebraska": {
+          "record": "9-2-0",
+          "ranking": 19,
+          "conference": "Big 8",
+          "previousRanking": "19"
+        },
+        "Oklahoma": {
+          "record": "8-3-0",
+          "ranking": 20,
+          "conference": "Big 8",
+          "previousRanking": "22"
+        },
+        "USC": {
+          "record": "8-3-1",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Michigan State": {
+          "record": "7-3-1",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Southern Mississippi": {
+          "record": "8-3-0",
+          "ranking": 23,
+          "conference": "Ind",
+          "previousRanking": "24"
+        },
+        "Ohio State": {
+          "record": "7-3-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        },
+        "Alabama": {
+          "record": "7-4-0",
+          "ranking": 25,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Colorado": {
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "2"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Florida State": {
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Washington": {
+          "ranking": 5,
+          "conference": "Pac-10",
+          "previousRanking": "8"
+        },
+        "Notre Dame": {
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Tennessee": {
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Clemson": {
+          "ranking": 9,
+          "conference": "ACC",
+          "previousRanking": "14"
+        },
+        "Houston": {
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Penn State": {
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "3"
+        },
+        "Florida": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Louisville": {
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "Texas A&M": {
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Oklahoma": {
+          "ranking": 17,
+          "conference": "Big 8",
+          "previousRanking": "20"
+        },
+        "Iowa": {
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Auburn": {
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "USC": {
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Ole Miss": {
+          "ranking": 21,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Brigham Young": {
+          "ranking": 22,
+          "conference": "WAC",
+          "previousRanking": "13"
+        },
+        "Virginia": {
+          "ranking": 23,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Nebraska": {
+          "ranking": 24,
+          "conference": "Big 8",
+          "previousRanking": "19"
+        },
+        "Illinois": {
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        }
+      }
+    }
+  ]
+}

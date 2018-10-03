@@ -151,14 +151,14 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-08-penn-state",
+    "time": "6:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 14
       }
-    },
-    "time": "6:00 PM",
-    "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "L",
@@ -546,14 +546,14 @@
       ]
     },
     "sportsReferenceGameId": "2007-10-13-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 4
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    }
   },
   {
     "result": "L",
@@ -629,14 +629,15 @@
       ]
     },
     "sportsReferenceGameId": "2007-10-20-notre-dame",
-    "rankings": {
-      "away": {
-        "ap": 13
-      }
-    },
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 13,
+        "bcs": 14
+      }
+    }
   },
   {
     "result": "L",

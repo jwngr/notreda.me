@@ -152,16 +152,18 @@
       ]
     },
     "sportsReferenceGameId": "2017-09-09-notre-dame",
+    "time": "7:30 PM",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 24
+        "ap": 24,
+        "coaches": 25
       },
       "away": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15
       }
-    },
-    "time": "7:30 PM",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -394,13 +396,13 @@
         "fumbles": 0
       }
     },
+    "time": "5:00 PM",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 22
       }
-    },
-    "time": "5:00 PM",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "isHomeGame": false,
@@ -477,13 +479,14 @@
         "fumbles": 3
       }
     },
+    "time": "3:30 PM",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
-        "ap": 21
+        "ap": 21,
+        "coaches": 22
       }
-    },
-    "time": "3:30 PM",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "isHomeGame": true,
@@ -560,16 +563,18 @@
         "fumbles": 0
       }
     },
+    "time": "7:30 PM",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 13,
+        "coaches": 16
       },
       "away": {
-        "ap": 11
+        "ap": 11,
+        "coaches": 10
       }
-    },
-    "time": "7:30 PM",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "isHomeGame": true,
@@ -582,14 +587,6 @@
     },
     "opponentId": "NCST",
     "sportsReferenceGameId": "2017-10-28-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 9
-      },
-      "away": {
-        "ap": 14
-      }
-    },
     "espnGameId": 400934579,
     "linescore": {
       "away": [
@@ -655,7 +652,17 @@
       }
     },
     "time": "3:30 PM",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 10
+      },
+      "away": {
+        "ap": 14,
+        "coaches": 15
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -668,11 +675,6 @@
     },
     "opponentId": "WAKE",
     "sportsReferenceGameId": "2017-11-04-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 5
-      }
-    },
     "espnGameId": 400934580,
     "linescore": {
       "away": [
@@ -738,7 +740,14 @@
       }
     },
     "time": "3:30 PM",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "coaches": 8,
+        "cfbPlayoff": 3
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -752,14 +761,6 @@
     },
     "opponentId": "MIAMI",
     "sportsReferenceGameId": "2017-11-11-miami-fl",
-    "rankings": {
-      "home": {
-        "ap": 7
-      },
-      "away": {
-        "ap": 3
-      }
-    },
     "espnGameId": 400934581,
     "linescore": {
       "away": [
@@ -824,7 +825,19 @@
         "fumbles": 0
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 3,
+        "coaches": 5,
+        "cfbPlayoff": 3
+      },
+      "home": {
+        "ap": 7,
+        "coaches": 6,
+        "cfbPlayoff": 10
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -837,11 +850,6 @@
     },
     "opponentId": "NAVY",
     "sportsReferenceGameId": "2017-11-18-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    },
     "espnGameId": 400934582,
     "linescore": {
       "away": [
@@ -907,7 +915,14 @@
       }
     },
     "time": "3:30 PM",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 8
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -921,14 +936,6 @@
     },
     "opponentId": "STAN",
     "sportsReferenceGameId": "2017-11-25-stanford",
-    "rankings": {
-      "home": {
-        "ap": 20
-      },
-      "away": {
-        "ap": 9
-      }
-    },
     "espnGameId": 400934583,
     "linescore": {
       "away": [
@@ -993,7 +1000,19 @@
         "fumbles": 1
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 8
+      },
+      "home": {
+        "ap": 20,
+        "coaches": 20,
+        "cfbPlayoff": 21
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -1011,14 +1030,6 @@
     "opponentId": "LSU",
     "espnGameId": 400953414,
     "sportsReferenceGameId": "2018-01-01-louisiana-state",
-    "rankings": {
-      "home": {
-        "ap": 14
-      },
-      "away": {
-        "ap": 16
-      }
-    },
     "linescore": {
       "away": [
         0,
@@ -1082,6 +1093,12 @@
         "fumbles": 1
       }
     },
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 13,
+        "coaches": 12
+      }
+    }
   }
 ]

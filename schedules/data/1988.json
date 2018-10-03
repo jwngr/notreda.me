@@ -57,6 +57,9 @@
       "away": [],
       "home": []
     },
+    "time": "9:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 13
@@ -64,10 +67,7 @@
       "away": {
         "ap": 9
       }
-    },
-    "time": "9:00 PM",
-    "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -127,14 +127,14 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -194,13 +194,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 8
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -260,14 +260,14 @@
       "away": [],
       "home": []
     },
+    "time": "7:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 5
       }
-    },
-    "time": "7:00 PM",
-    "coverage": "ESPN",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -327,14 +327,14 @@
       "away": [],
       "home": []
     },
+    "time": "4:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 5
       }
-    },
-    "time": "4:00 PM",
-    "coverage": "ESPN",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -394,6 +394,9 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 4
@@ -401,10 +404,7 @@
       "away": {
         "ap": 1
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -464,13 +464,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 2
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -530,13 +530,13 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 2
       }
-    },
-    "time": "12:00 PM",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -596,14 +596,14 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "coverage": "WGN-TV",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "WGN-TV",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -663,14 +663,14 @@
       "away": [],
       "home": []
     },
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 1
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "CBS",
-    "headCoach": "Lou Holtz"
+    }
   },
   {
     "result": "W",
@@ -730,17 +730,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 1
+      },
+      "home": {
+        "ap": 2
+      }
+    }
   },
   {
     "result": "W",
@@ -801,17 +801,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 3
-      }
-    },
     "time": "4:30 PM",
     "coverage": "NBC",
     "nickname": "Fiesta Bowl",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 13
+      },
+      "away": {
+        "ap": 16
+      }
+    }
   }
 ]

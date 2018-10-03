@@ -57,6 +57,9 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 22
@@ -64,10 +67,7 @@
       "away": {
         "ap": 5
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -127,14 +127,14 @@
       "away": [],
       "home": []
     },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 10
       }
-    },
-    "time": "8:00 PM",
-    "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -194,14 +194,14 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -261,14 +261,14 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 23
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -328,14 +328,14 @@
       "away": [],
       "home": []
     },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 22
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -395,14 +395,14 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 18
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -462,14 +462,15 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 16
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 16,
+        "bcs": 16
+      }
+    }
   },
   {
     "result": "W",
@@ -529,14 +530,15 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "away": {
-        "ap": 13
-      }
-    },
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 13,
+        "bcs": 13
+      }
+    }
   },
   {
     "result": "W",
@@ -596,14 +598,15 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
     "time": "3:30 PM",
     "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 12,
+        "bcs": 12
+      }
+    }
   },
   {
     "result": "W",
@@ -663,14 +666,15 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
     "time": "1:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 10,
+        "bcs": 10
+      }
+    }
   },
   {
     "result": "L",
@@ -730,14 +734,15 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "away": {
-        "ap": 9
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "bcs": 9
+      }
+    }
   },
   {
     "result": "L",
@@ -798,17 +803,14 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 17
-      },
-      "away": {
-        "ap": 12
-      }
-    },
     "time": "12:00 PM",
     "coverage": "NBC",
     "nickname": "Gator Bowl",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
   }
 ]

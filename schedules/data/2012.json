@@ -154,14 +154,14 @@
       ]
     },
     "sportsReferenceGameId": "2012-09-08-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 22
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -238,17 +238,17 @@
       ]
     },
     "sportsReferenceGameId": "2012-09-15-michigan-state",
-    "rankings": {
-      "home": {
-        "ap": 10
-      },
-      "away": {
-        "ap": 20
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 20
+      },
+      "home": {
+        "ap": 10
+      }
+    }
   },
   {
     "result": "W",
@@ -325,6 +325,9 @@
       ]
     },
     "sportsReferenceGameId": "2012-09-22-notre-dame",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 11
@@ -332,10 +335,7 @@
       "away": {
         "ap": 18
       }
-    },
-    "time": "7:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -413,14 +413,14 @@
       ]
     },
     "sportsReferenceGameId": "2012-10-06-notre-dame",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 9
       }
-    },
-    "time": "7:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -499,6 +499,9 @@
       ]
     },
     "sportsReferenceGameId": "2012-10-13-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 7
@@ -506,10 +509,7 @@
       "away": {
         "ap": 17
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -586,14 +586,15 @@
       ]
     },
     "sportsReferenceGameId": "2012-10-20-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 5
-      }
-    },
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "bcs": 5
+      }
+    }
   },
   {
     "result": "W",
@@ -670,17 +671,19 @@
       ]
     },
     "sportsReferenceGameId": "2012-10-27-oklahoma",
-    "rankings": {
-      "home": {
-        "ap": 8
-      },
-      "away": {
-        "ap": 5
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "bcs": 5
+      },
+      "home": {
+        "ap": 8,
+        "bcs": 8
+      }
+    }
   },
   {
     "result": "W",
@@ -761,14 +764,15 @@
       ]
     },
     "sportsReferenceGameId": "2012-11-03-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 4
-      }
-    },
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 4,
+        "bcs": 3
+      }
+    }
   },
   {
     "result": "W",
@@ -845,14 +849,15 @@
       ]
     },
     "sportsReferenceGameId": "2012-11-10-boston-college",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 4,
+        "bcs": 4
+      }
+    }
   },
   {
     "result": "W",
@@ -929,14 +934,15 @@
       ]
     },
     "sportsReferenceGameId": "2012-11-17-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    },
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "bcs": 3
+      }
+    }
   },
   {
     "result": "W",
@@ -1013,14 +1019,15 @@
       ]
     },
     "sportsReferenceGameId": "2012-11-24-southern-california",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 1,
+        "bcs": 1
+      }
+    }
   },
   {
     "result": "L",
@@ -1097,17 +1104,19 @@
       ]
     },
     "sportsReferenceGameId": "2013-01-07-alabama",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 2
-      }
-    },
     "time": "8:30 PM",
     "coverage": "ESPN",
     "nickname": "BCS National Championship Game",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 1,
+        "bcs": 1
+      },
+      "home": {
+        "ap": 2,
+        "bcs": 2
+      }
+    }
   }
 ]

@@ -76,12 +76,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-08-31-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 14
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -159,15 +159,15 @@
       ]
     },
     "sportsReferenceGameId": "2013-09-07-michigan",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 17
-      },
       "away": {
         "ap": 14
+      },
+      "home": {
+        "ap": 17
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -246,12 +246,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-09-14-purdue",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
         "ap": 21
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -330,12 +330,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-09-21-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 22
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "L",
@@ -413,6 +413,7 @@
       ]
     },
     "sportsReferenceGameId": "2013-09-28-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 22
@@ -420,8 +421,7 @@
       "away": {
         "ap": 14
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -501,12 +501,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-10-05-notre-dame",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
         "ap": 22
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -743,7 +743,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-11-02-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "bcs": 25
+      }
+    }
   },
   {
     "result": "L",
@@ -821,12 +826,13 @@
       ]
     },
     "sportsReferenceGameId": "2013-11-09-pittsburgh",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
-        "ap": 24
+        "ap": 24,
+        "bcs": 23
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -983,15 +989,17 @@
       ]
     },
     "sportsReferenceGameId": "2013-11-30-stanford",
+    "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 8
-      },
       "away": {
-        "ap": 25
+        "ap": 25,
+        "bcs": 25
+      },
+      "home": {
+        "ap": 8,
+        "bcs": 8
       }
-    },
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -1071,12 +1079,12 @@
       ]
     },
     "sportsReferenceGameId": "2013-12-28-notre-dame",
+    "nickname": "Pinstripe Bowl",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
         "ap": 25
       }
-    },
-    "nickname": "Pinstripe Bowl",
-    "headCoach": "Brian Kelly"
+    }
   }
 ]

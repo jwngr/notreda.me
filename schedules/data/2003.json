@@ -71,14 +71,14 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-06-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 19
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "L",
@@ -150,17 +150,17 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-13-michigan",
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 15
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 15
+      },
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "L",
@@ -306,14 +306,14 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-27-purdue",
+    "time": "2:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 22
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "W",
@@ -385,14 +385,14 @@
       ]
     },
     "sportsReferenceGameId": "2003-10-11-pittsburgh",
+    "time": "6:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 15
       }
-    },
-    "time": "6:00 PM",
-    "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "L",
@@ -464,14 +464,14 @@
       ]
     },
     "sportsReferenceGameId": "2003-10-18-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "ap": 5
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    }
   },
   {
     "result": "L",
@@ -617,14 +617,15 @@
       ]
     },
     "sportsReferenceGameId": "2003-11-01-notre-dame",
-    "rankings": {
-      "away": {
-        "ap": 5
-      }
-    },
     "time": "2:30 PM.",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "bcs": 3
+      }
+    }
   },
   {
     "result": "W",

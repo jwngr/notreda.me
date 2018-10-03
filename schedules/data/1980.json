@@ -57,6 +57,9 @@
       "away": [],
       "home": []
     },
+    "time": "3:20 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 11
@@ -64,10 +67,7 @@
       "away": {
         "ap": 9
       }
-    },
-    "time": "3:20 PM",
-    "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -127,6 +127,8 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 8
@@ -134,9 +136,7 @@
       "away": {
         "ap": 14
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -196,13 +196,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:00 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "away": {
         "ap": 7
       }
-    },
-    "time": "1:00 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -262,6 +262,8 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 7
@@ -269,9 +271,7 @@
       "away": {
         "ap": 13
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -331,13 +331,13 @@
       "away": [],
       "home": []
     },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 5
       }
-    },
-    "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -397,13 +397,13 @@
       "away": [],
       "home": []
     },
+    "time": "10:35 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "away": {
         "ap": 4
       }
-    },
-    "time": "10:35 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -463,13 +463,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 3
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "T",
@@ -529,13 +529,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "away": {
         "ap": 1
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "W",
@@ -595,17 +595,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 5
-      },
-      "away": {
-        "ap": 6
-      }
-    },
     "time": "3:50 PM",
     "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 6
+      },
+      "home": {
+        "ap": 5
+      }
+    }
   },
   {
     "result": "W",
@@ -665,13 +665,13 @@
       "away": [],
       "home": []
     },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
     "rankings": {
       "home": {
         "ap": 2
       }
-    },
-    "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    }
   },
   {
     "result": "L",
@@ -731,17 +731,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 17
-      },
-      "away": {
-        "ap": 2
-      }
-    },
     "time": "3:50 PM",
     "coverage": "ABC",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 2
+      },
+      "home": {
+        "ap": 17
+      }
+    }
   },
   {
     "result": "L",
@@ -802,17 +802,17 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 7
-      },
-      "away": {
-        "ap": 1
-      }
-    },
     "time": "2:00 PM",
     "coverage": "ABC",
     "nickname": "Sugar Bowl",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 16
+      }
+    }
   }
 ]

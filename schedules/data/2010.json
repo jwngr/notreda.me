@@ -309,14 +309,14 @@
       ]
     },
     "sportsReferenceGameId": "2010-09-25-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
         "ap": 16
       }
-    },
-    "time": "3:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    }
   },
   {
     "result": "W",
@@ -782,14 +782,15 @@
       ]
     },
     "sportsReferenceGameId": "2010-11-13-notre-dame",
-    "rankings": {
-      "away": {
-        "ap": 15
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 15,
+        "bcs": 14
+      }
+    }
   },
   {
     "result": "W",

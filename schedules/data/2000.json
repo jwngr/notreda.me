@@ -58,14 +58,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-09-02-notre-dame",
+    "time": "1:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 25
       }
-    },
-    "time": "1:00 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -126,6 +126,9 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-09-09-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 23
@@ -133,10 +136,7 @@
       "away": {
         "ap": 1
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -197,6 +197,9 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-09-16-notre-dame",
+    "time": "1:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 21
@@ -204,10 +207,7 @@
       "away": {
         "ap": 13
       }
-    },
-    "time": "1:00 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "L",
@@ -268,17 +268,17 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-09-23-michigan-state",
-    "rankings": {
-      "home": {
-        "ap": 23
-      },
-      "away": {
-        "ap": 16
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 16
+      },
+      "home": {
+        "ap": 23
+      }
+    }
   },
   {
     "result": "W",
@@ -339,14 +339,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-10-07-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 25
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -407,14 +407,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-10-14-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 20
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -475,14 +475,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-10-21-west-virginia",
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 20
       }
-    },
-    "time": "12:00 PM",
-    "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -543,14 +543,14 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-10-28-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 19
       }
-    },
-    "time": "2:30 PM",
-    "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    }
   },
   {
     "result": "W",
@@ -611,14 +611,15 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-11-11-notre-dame",
-    "rankings": {
-      "home": {
-        "ap": 11
-      }
-    },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 11,
+        "bcs": 12
+      }
+    }
   },
   {
     "result": "W",
@@ -679,14 +680,15 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-11-18-rutgers",
-    "rankings": {
-      "away": {
-        "ap": 11
-      }
-    },
     "time": "3:30 PM",
     "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 11,
+        "bcs": 11
+      }
+    }
   },
   {
     "result": "W",
@@ -747,14 +749,15 @@
       "home": []
     },
     "sportsReferenceGameId": "2000-11-25-southern-california",
-    "rankings": {
-      "away": {
-        "ap": 11
-      }
-    },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 11,
+        "bcs": 11
+      }
+    }
   },
   {
     "result": "L",
@@ -816,16 +819,18 @@
       "away": [],
       "home": []
     },
-    "rankings": {
-      "home": {
-        "ap": 10
-      },
-      "away": {
-        "ap": 5
-      }
-    },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 10,
+        "bcs": 11
+      },
+      "away": {
+        "ap": 5,
+        "bcs": 6
+      }
+    }
   }
 ]
