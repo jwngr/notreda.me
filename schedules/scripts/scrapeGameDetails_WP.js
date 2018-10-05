@@ -94,6 +94,28 @@ const fetchGameDetailsForYear = (year) => {
               gamesData[i - 1].coverage = rowCellValues[coverageIndex].toUpperCase() || undefined;
             }
 
+            // OPPONENT
+            let opponentIndex = headerNames.indexOf('Opponent');
+            if (opponentIndex === -1) {
+              opponentIndex = headerNames.indexOf('Opponent#');
+            }
+            if (opponentIndex !== -1) {
+              const opponent = rowCellValues[opponentIndex];
+              const isHomeGame = !_.startsWith(opponent, 'at');
+              if (gamesData[i - 1].isHomeGame !== isHomeGame) {
+                // console.log('HOME / AWAY MISMATCH:', year, i - 1, opponent);
+              }
+            }
+
+            // RESULT
+            let resultIndex = headerNames.indexOf('Result');
+            if (resultIndex !== -1) {
+              const result = rowCellValues[resultIndex][0];
+              if (gamesData[i - 1].result !== result) {
+                // console.log('RESULT MISMATCH:', year, i - 1);
+              }
+            }
+
             const siteIndex = headerNames.indexOf('Site');
             if (siteIndex !== -1) {
               // STADIUM

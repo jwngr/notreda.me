@@ -66,7 +66,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "10/05/1951",
     "location": {
       "city": "Detroit",
@@ -75,8 +75,8 @@
     },
     "opponentId": "DET",
     "score": {
-      "away": 6,
-      "home": 40
+      "away": 40,
+      "home": 6
     },
     "stats": {
       "away": {
@@ -124,7 +124,7 @@
     },
     "headCoach": "Frank Leahy",
     "rankings": {
-      "home": {
+      "away": {
         "ap": 5
       }
     }

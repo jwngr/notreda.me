@@ -506,7 +506,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/28/1963",
     "location": {
       "city": "Bronx",
@@ -515,8 +515,8 @@
     },
     "opponentId": "SYR",
     "score": {
-      "away": 14,
-      "home": 7
+      "away": 7,
+      "home": 14
     },
     "stats": {
       "away": {

@@ -121,7 +121,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "10/19/1924",
     "location": {
       "city": "New York",
@@ -130,8 +130,8 @@
     },
     "opponentId": "ARMY",
     "score": {
-      "away": 7,
-      "home": 13
+      "away": 13,
+      "home": 7
     },
     "stats": {
       "away": {
@@ -421,7 +421,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/22/1924",
     "location": {
       "city": "Chicago",
@@ -430,8 +430,8 @@
     },
     "opponentId": "NW",
     "score": {
-      "away": 6,
-      "home": 13
+      "away": 13,
+      "home": 6
     },
     "stats": {
       "away": {

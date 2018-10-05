@@ -1031,7 +1031,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": false,
+    "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/07/2013",
     "location": {
@@ -1041,11 +1041,11 @@
     },
     "opponentId": "BAMA",
     "score": {
-      "away": 14,
-      "home": 42
+      "away": 42,
+      "home": 14
     },
     "stats": {
-      "away": {
+      "home": {
         "firstDowns": 16,
         "thirdDownAttempts": 2,
         "thirdDownConversions": 8,
@@ -1066,7 +1066,7 @@
         "possession": "21:47",
         "fumbles": 1
       },
-      "home": {
+      "away": {
         "firstDowns": 28,
         "thirdDownAttempts": 8,
         "thirdDownConversions": 13,
@@ -1090,13 +1090,13 @@
     },
     "espnGameId": 330070333,
     "linescore": {
-      "away": [
+      "home": [
         0,
         0,
         7,
         7
       ],
-      "home": [
+      "away": [
         14,
         14,
         7,
@@ -1109,11 +1109,11 @@
     "nickname": "BCS National Championship Game",
     "headCoach": "Brian Kelly",
     "rankings": {
-      "away": {
+      "home": {
         "ap": 1,
         "bcs": 1
       },
-      "home": {
+      "away": {
         "ap": 2,
         "bcs": 2
       }

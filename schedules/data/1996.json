@@ -412,7 +412,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/02/1996",
     "location": {
       "city": "Dublin",
@@ -422,8 +422,8 @@
     "nickname": "Shamrock Classic",
     "opponentId": "NAVY",
     "score": {
-      "away": 27,
-      "home": 54
+      "away": 54,
+      "home": 27
     },
     "stats": {
       "away": {
@@ -473,7 +473,7 @@
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {
-      "home": {
+      "away": {
         "ap": 19
       }
     }

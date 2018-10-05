@@ -326,7 +326,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/03/1956",
     "location": {
       "city": "Baltimore",
@@ -335,8 +335,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 33,
-      "home": 7
+      "away": 7,
+      "home": 33
     },
     "stats": {
       "away": {

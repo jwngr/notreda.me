@@ -388,7 +388,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/01/1986",
     "location": {
       "city": "Baltimore",
@@ -397,8 +397,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 14,
-      "home": 33
+      "away": 33,
+      "home": 14
     },
     "stats": {
       "away": {

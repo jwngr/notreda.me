@@ -1,7 +1,7 @@
 [
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "09/03/1994",
     "location": {
       "city": "Chicago",
@@ -10,8 +10,8 @@
     },
     "opponentId": "NW",
     "score": {
-      "away": 15,
-      "home": 42
+      "away": 42,
+      "home": 15
     },
     "stats": {
       "away": {
@@ -61,7 +61,7 @@
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
-      "home": {
+      "away": {
         "ap": 3
       }
     }

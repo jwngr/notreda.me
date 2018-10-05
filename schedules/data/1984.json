@@ -522,7 +522,7 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "11/03/1984",
     "location": {
       "city": "East Rutherford",
@@ -531,8 +531,8 @@
     },
     "opponentId": "NAVY",
     "score": {
-      "away": 17,
-      "home": 18
+      "away": 18,
+      "home": 17
     },
     "stats": {
       "away": {

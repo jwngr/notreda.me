@@ -5110,7 +5110,7 @@
     },
     {
       "result": "T",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/14/1903",
       "location": {
         "city": "Chicago",
@@ -15256,7 +15256,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/19/1924",
       "location": {
         "city": "New York",
@@ -15265,8 +15265,8 @@
       },
       "opponentId": "ARMY",
       "score": {
-        "away": 7,
-        "home": 13
+        "away": 13,
+        "home": 7
       },
       "stats": {
         "away": {
@@ -15556,7 +15556,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/22/1924",
       "location": {
         "city": "Chicago",
@@ -15565,8 +15565,8 @@
       },
       "opponentId": "NW",
       "score": {
-        "away": 6,
-        "home": 13
+        "away": 13,
+        "home": 6
       },
       "stats": {
         "away": {
@@ -25969,11 +25969,12 @@
     },
     {
       "result": "T",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "12/05/1942",
       "location": {
         "city": "North Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Soldier Field"
       },
       "opponentId": "GRTLK",
       "score": {
@@ -26026,7 +26027,7 @@
       },
       "headCoach": "Frank Leahy",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 8
         }
       }
@@ -27934,7 +27935,8 @@
       "date": "12/01/1945",
       "location": {
         "city": "North Chicago",
-        "state": "IL"
+        "state": "IL",
+        "stadium": "Ross Field"
       },
       "opponentId": "GRTLK",
       "score": {
@@ -31101,7 +31103,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/05/1951",
       "location": {
         "city": "Detroit",
@@ -31110,8 +31112,8 @@
       },
       "opponentId": "DET",
       "score": {
-        "away": 6,
-        "home": 40
+        "away": 40,
+        "home": 6
       },
       "stats": {
         "away": {
@@ -31159,7 +31161,7 @@
       },
       "headCoach": "Frank Leahy",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 5
         }
       }
@@ -34666,7 +34668,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/03/1956",
       "location": {
         "city": "Baltimore",
@@ -34675,8 +34677,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 33,
-        "home": 7
+        "away": 7,
+        "home": 33
       },
       "stats": {
         "away": {
@@ -39303,7 +39305,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/28/1963",
       "location": {
         "city": "Bronx",
@@ -39312,8 +39314,8 @@
       },
       "opponentId": "SYR",
       "score": {
-        "away": 14,
-        "home": 7
+        "away": 7,
+        "home": 14
       },
       "stats": {
         "away": {
@@ -54573,7 +54575,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/03/1984",
       "location": {
         "city": "East Rutherford",
@@ -54582,8 +54584,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 17,
-        "home": 18
+        "away": 18,
+        "home": 17
       },
       "stats": {
         "away": {
@@ -55938,7 +55940,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/01/1986",
       "location": {
         "city": "Baltimore",
@@ -55947,8 +55949,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 14,
-        "home": 33
+        "away": 33,
+        "home": 14
       },
       "stats": {
         "away": {
@@ -60510,7 +60512,7 @@
   "1992": [
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "09/05/1992",
       "location": {
         "city": "Chicago",
@@ -60519,8 +60521,8 @@
       },
       "opponentId": "NW",
       "score": {
-        "away": 7,
-        "home": 42
+        "away": 42,
+        "home": 7
       },
       "stats": {
         "away": {
@@ -60570,7 +60572,7 @@
       "coverage": "ABC",
       "headCoach": "Lou Holtz",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 3
         }
       }
@@ -62155,7 +62157,7 @@
   "1994": [
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "09/03/1994",
       "location": {
         "city": "Chicago",
@@ -62164,8 +62166,8 @@
       },
       "opponentId": "NW",
       "score": {
-        "away": 15,
-        "home": 42
+        "away": 42,
+        "home": 15
       },
       "stats": {
         "away": {
@@ -62215,7 +62217,7 @@
       "coverage": "ABC",
       "headCoach": "Lou Holtz",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 3
         }
       }
@@ -64193,7 +64195,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/02/1996",
       "location": {
         "city": "Dublin",
@@ -64203,8 +64205,8 @@
       "nickname": "Shamrock Classic",
       "opponentId": "NAVY",
       "score": {
-        "away": 27,
-        "home": 54
+        "away": 54,
+        "home": 27
       },
       "stats": {
         "away": {
@@ -64254,7 +64256,7 @@
       "coverage": "CBS",
       "headCoach": "Lou Holtz",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 19
         }
       }
@@ -65922,7 +65924,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "11/14/1998",
       "location": {
         "city": "Landover",
@@ -65931,8 +65933,8 @@
       },
       "opponentId": "NAVY",
       "score": {
-        "away": 0,
-        "home": 30
+        "away": 30,
+        "home": 0
       },
       "stats": {
         "away": {
@@ -65982,7 +65984,7 @@
       "coverage": "CBS",
       "headCoach": "Bob Davie",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 12,
           "bcs": 12
         }
@@ -79704,7 +79706,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": false,
+      "isHomeGame": true,
       "isBowlGame": true,
       "date": "01/07/2013",
       "location": {
@@ -79714,11 +79716,11 @@
       },
       "opponentId": "BAMA",
       "score": {
-        "away": 14,
-        "home": 42
+        "away": 42,
+        "home": 14
       },
       "stats": {
-        "away": {
+        "home": {
           "firstDowns": 16,
           "thirdDownAttempts": 2,
           "thirdDownConversions": 8,
@@ -79739,7 +79741,7 @@
           "possession": "21:47",
           "fumbles": 1
         },
-        "home": {
+        "away": {
           "firstDowns": 28,
           "thirdDownAttempts": 8,
           "thirdDownConversions": 13,
@@ -79763,13 +79765,13 @@
       },
       "espnGameId": 330070333,
       "linescore": {
-        "away": [
+        "home": [
           0,
           0,
           7,
           7
         ],
-        "home": [
+        "away": [
           14,
           14,
           7,
@@ -79782,11 +79784,11 @@
       "nickname": "BCS National Championship Game",
       "headCoach": "Brian Kelly",
       "rankings": {
-        "away": {
+        "home": {
           "ap": 1,
           "bcs": 1
         },
-        "home": {
+        "away": {
           "ap": 2,
           "bcs": 2
         }

@@ -643,11 +643,12 @@
   },
   {
     "result": "T",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "12/05/1942",
     "location": {
       "city": "North Chicago",
-      "state": "IL"
+      "state": "IL",
+      "stadium": "Soldier Field"
     },
     "opponentId": "GRTLK",
     "score": {
@@ -700,7 +701,7 @@
     },
     "headCoach": "Frank Leahy",
     "rankings": {
-      "home": {
+      "away": {
         "ap": 8
       }
     }
