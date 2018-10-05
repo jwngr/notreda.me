@@ -541,9 +541,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1924",
+    "date": "01/01/1925",
     "location": {
       "city": "Pasadena",
       "state": "CA",
@@ -551,8 +551,8 @@
     },
     "opponentId": "STAN",
     "score": {
-      "away": 10,
-      "home": 27
+      "away": 27,
+      "home": 10
     },
     "stats": {
       "away": {
@@ -595,8 +595,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        13,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        7,
+        0
+      ]
     },
     "nickname": "Rose Bowl",
     "headCoach": "Knute Rockne"

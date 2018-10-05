@@ -754,8 +754,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        6,
+        6,
+        6,
+        0
+      ],
+      "home": [
+        7,
+        12,
+        0,
+        0
+      ]
     },
     "time": "8:00 PM",
     "coverage": "KATZ",

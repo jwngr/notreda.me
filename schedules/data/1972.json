@@ -666,9 +666,9 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1972",
+    "date": "01/01/1973",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -676,8 +676,8 @@
     },
     "opponentId": "NEB",
     "score": {
-      "away": 40,
-      "home": 6
+      "away": 6,
+      "home": 40
     },
     "stats": {
       "away": {
@@ -720,8 +720,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "home": [
+        7,
+        13,
+        20,
+        0
+      ]
     },
     "time": "8:00 PM",
     "coverage": "NBC",
@@ -729,10 +739,10 @@
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 9
       },
       "away": {
-        "ap": 1
+        "ap": 12
       }
     }
   }

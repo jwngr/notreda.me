@@ -746,9 +746,9 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1998",
+    "date": "01/01/1999",
     "location": {
       "city": "Jacksonville",
       "state": "FL",
@@ -756,8 +756,8 @@
     },
     "opponentId": "GT",
     "score": {
-      "away": 35,
-      "home": 28
+      "away": 28,
+      "home": 35
     },
     "stats": {
       "away": {
@@ -800,8 +800,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        0,
+        13,
+        8
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        7
+      ]
     },
     "time": "12:00 PM",
     "coverage": "NBC",
@@ -809,7 +819,11 @@
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
-        "ap": 22
+        "ap": 12,
+        "bcs": 12
+      },
+      "away": {
+        "ap": 17
       }
     }
   }

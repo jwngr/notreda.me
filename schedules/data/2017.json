@@ -1019,7 +1019,7 @@
     "isBowlGame": true,
     "timestamp": 1514811600000,
     "coverage": "ABC",
-    "date": "01/01/2017",
+    "date": "01/01/2018",
     "time": "1:00 PM",
     "nickname": "Citrus Bowl",
     "location": {
@@ -1096,8 +1096,14 @@
     "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 12
+        "ap": 16,
+        "coaches": 14,
+        "cfbPlayoff": 17
+      },
+      "away": {
+        "ap": 14,
+        "coaches": 15,
+        "cfbPlayoff": 14
       }
     }
   }

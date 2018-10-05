@@ -746,9 +746,9 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1987",
+    "date": "01/01/1988",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -756,8 +756,8 @@
     },
     "opponentId": "TA&M",
     "score": {
-      "away": 35,
-      "home": 10
+      "away": 10,
+      "home": 35
     },
     "stats": {
       "away": {
@@ -800,8 +800,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        15,
+        7,
+        10
+      ]
     },
     "time": "1:30 PM",
     "coverage": "CBS",
@@ -809,10 +819,10 @@
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
-        "ap": 18
+        "ap": 13
       },
       "away": {
-        "ap": 15
+        "ap": 12
       }
     }
   }

@@ -746,7 +746,7 @@
     "result": "W",
     "isHomeGame": true,
     "isBowlGame": true,
-    "date": "01/02/1988",
+    "date": "01/02/1989",
     "location": {
       "city": "Tempe",
       "state": "AZ",
@@ -798,8 +798,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "home": [
+        9,
+        14,
+        3,
+        8
+      ]
     },
     "time": "4:30 PM",
     "coverage": "NBC",
@@ -807,10 +817,10 @@
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
-        "ap": 13
+        "ap": 1
       },
       "away": {
-        "ap": 16
+        "ap": 3
       }
     }
   }

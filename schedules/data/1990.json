@@ -752,9 +752,9 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1990",
+    "date": "01/01/1991",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -762,8 +762,8 @@
     },
     "opponentId": "COL",
     "score": {
-      "away": 10,
-      "home": 9
+      "away": 9,
+      "home": 10
     },
     "stats": {
       "away": {
@@ -806,8 +806,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        3,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        6,
+        3,
+        0
+      ]
     },
     "time": "8:00 PM",
     "coverage": "NBC",
@@ -815,7 +825,7 @@
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
-        "ap": 2
+        "ap": 1
       },
       "away": {
         "ap": 5

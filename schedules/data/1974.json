@@ -739,9 +739,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1974",
+    "date": "01/01/1975",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -749,8 +749,8 @@
     },
     "opponentId": "BAMA",
     "score": {
-      "away": 11,
-      "home": 13
+      "away": 13,
+      "home": 11
     },
     "stats": {
       "away": {
@@ -793,8 +793,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        8
+      ]
     },
     "time": "8:00 PM",
     "coverage": "NBC",
@@ -802,10 +812,10 @@
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
-        "ap": 3
+        "ap": 2
       },
       "away": {
-        "ap": 4
+        "ap": 9
       }
     }
   }

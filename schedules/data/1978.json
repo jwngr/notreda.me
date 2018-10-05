@@ -732,9 +732,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1978",
+    "date": "01/01/1979",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -742,8 +742,8 @@
     },
     "opponentId": "HOU",
     "score": {
-      "away": 34,
-      "home": 35
+      "away": 35,
+      "home": 34
     },
     "stats": {
       "away": {
@@ -786,8 +786,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        12,
+        0,
+        0,
+        23
+      ],
+      "home": [
+        7,
+        13,
+        14,
+        0
+      ]
     },
     "time": "2:00 PM",
     "coverage": "CBS",
@@ -795,7 +805,10 @@
     "headCoach": "Dan Devine",
     "rankings": {
       "home": {
-        "ap": 5
+        "ap": 9
+      },
+      "away": {
+        "ap": 10
       }
     }
   }

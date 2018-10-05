@@ -669,9 +669,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1970",
+    "date": "01/01/1971",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -679,8 +679,8 @@
     },
     "opponentId": "TEX",
     "score": {
-      "away": 11,
-      "home": 24
+      "away": 24,
+      "home": 11
     },
     "stats": {
       "away": {
@@ -723,8 +723,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        14,
+        10,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        8,
+        0,
+        0
+      ]
     },
     "time": "2:00 PM",
     "coverage": "CBS",
@@ -732,10 +742,10 @@
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
-        "ap": 6
+        "ap": 1
       },
       "away": {
-        "ap": 2
+        "ap": 6
       }
     }
   }

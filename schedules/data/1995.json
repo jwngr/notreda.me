@@ -752,7 +752,7 @@
     "result": "L",
     "isHomeGame": true,
     "isBowlGame": true,
-    "date": "01/01/1995",
+    "date": "01/01/1996",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -804,8 +804,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        7,
+        0,
+        17
+      ],
+      "home": [
+        10,
+        0,
+        7,
+        9
+      ]
     },
     "time": "8:00 PM",
     "coverage": "CBS",
@@ -813,10 +823,10 @@
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 6
       },
       "away": {
-        "ap": 1
+        "ap": 8
       }
     }
   }

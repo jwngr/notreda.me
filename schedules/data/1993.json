@@ -747,9 +747,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1993",
+    "date": "01/01/1994",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -757,8 +757,8 @@
     },
     "opponentId": "TA&M",
     "score": {
-      "away": 21,
-      "home": 24
+      "away": 24,
+      "home": 21
     },
     "stats": {
       "away": {
@@ -801,8 +801,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        7,
+        0,
+        14,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        0
+      ]
     },
     "time": "4:30 PM",
     "coverage": "NBC",

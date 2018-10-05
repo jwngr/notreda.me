@@ -738,9 +738,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/02/1977",
+    "date": "01/02/1978",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -748,8 +748,8 @@
     },
     "opponentId": "TEX",
     "score": {
-      "away": 10,
-      "home": 38
+      "away": 38,
+      "home": 10
     },
     "stats": {
       "away": {
@@ -792,8 +792,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        3,
+        21,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        0
+      ]
     },
     "time": "2:00 PM",
     "coverage": "CBS",
@@ -801,7 +811,10 @@
     "headCoach": "Dan Devine",
     "rankings": {
       "home": {
-        "ap": 3
+        "ap": 1
+      },
+      "away": {
+        "ap": 5
       }
     }
   }

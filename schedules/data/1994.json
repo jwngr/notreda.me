@@ -733,7 +733,7 @@
     "result": "L",
     "isHomeGame": true,
     "isBowlGame": true,
-    "date": "01/02/1994",
+    "date": "01/02/1995",
     "location": {
       "city": "Tempe",
       "state": "AZ",
@@ -785,8 +785,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        10,
+        21,
+        3,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        7,
+        7
+      ]
     },
     "time": "4:30 PM",
     "coverage": "NBC",
@@ -797,7 +807,7 @@
         "ap": 2
       },
       "away": {
-        "ap": 8
+        "ap": 4
       }
     }
   }

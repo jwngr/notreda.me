@@ -747,7 +747,7 @@
     "result": "L",
     "isHomeGame": true,
     "isBowlGame": true,
-    "date": "01/01/1980",
+    "date": "01/01/1981",
     "location": {
       "city": "New Orleans",
       "state": "LA",
@@ -799,8 +799,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        10,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        7,
+        0
+      ]
     },
     "time": "2:00 PM",
     "coverage": "ABC",
@@ -808,10 +818,10 @@
     "headCoach": "Dan Devine",
     "rankings": {
       "home": {
-        "ap": 11
+        "ap": 7
       },
       "away": {
-        "ap": 16
+        "ap": 1
       }
     }
   }

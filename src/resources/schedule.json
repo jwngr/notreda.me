@@ -15676,9 +15676,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1924",
+      "date": "01/01/1925",
       "location": {
         "city": "Pasadena",
         "state": "CA",
@@ -15686,8 +15686,8 @@
       },
       "opponentId": "STAN",
       "score": {
-        "away": 10,
-        "home": 27
+        "away": 27,
+        "home": 10
       },
       "stats": {
         "away": {
@@ -15730,8 +15730,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          13,
+          7,
+          7
+        ],
+        "home": [
+          3,
+          0,
+          7,
+          0
+        ]
       },
       "nickname": "Rose Bowl",
       "headCoach": "Knute Rockne"
@@ -43351,9 +43361,9 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1969",
+      "date": "01/01/1970",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -43361,8 +43371,8 @@
       },
       "opponentId": "TEX",
       "score": {
-        "away": 21,
-        "home": 17
+        "away": 17,
+        "home": 21
       },
       "stats": {
         "away": {
@@ -43405,8 +43415,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          7,
+          0,
+          14
+        ],
+        "home": [
+          3,
+          7,
+          0,
+          7
+        ]
       },
       "time": "2:00 pm",
       "coverage": "CBS",
@@ -43414,10 +43434,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 11
+          "ap": 1
         },
         "away": {
-          "ap": 4
+          "ap": 9
         }
       }
     }
@@ -44093,9 +44113,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1970",
+      "date": "01/01/1971",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -44103,8 +44123,8 @@
       },
       "opponentId": "TEX",
       "score": {
-        "away": 11,
-        "home": 24
+        "away": 24,
+        "home": 11
       },
       "stats": {
         "away": {
@@ -44147,8 +44167,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          14,
+          10,
+          0,
+          0
+        ],
+        "home": [
+          3,
+          8,
+          0,
+          0
+        ]
       },
       "time": "2:00 PM",
       "coverage": "CBS",
@@ -44156,10 +44186,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 6
+          "ap": 1
         },
         "away": {
-          "ap": 2
+          "ap": 6
         }
       }
     }
@@ -45500,9 +45530,9 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1972",
+      "date": "01/01/1973",
       "location": {
         "city": "Miami",
         "state": "FL",
@@ -45510,8 +45540,8 @@
       },
       "opponentId": "NEB",
       "score": {
-        "away": 40,
-        "home": 6
+        "away": 6,
+        "home": 40
       },
       "stats": {
         "away": {
@@ -45554,8 +45584,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          0,
+          0,
+          6
+        ],
+        "home": [
+          7,
+          13,
+          20,
+          0
+        ]
       },
       "time": "8:00 PM",
       "coverage": "NBC",
@@ -45563,10 +45603,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 13
+          "ap": 9
         },
         "away": {
-          "ap": 1
+          "ap": 12
         }
       }
     }
@@ -46246,7 +46286,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "12/31/1973",
       "location": {
@@ -46256,8 +46296,8 @@
       },
       "opponentId": "BAMA",
       "score": {
-        "away": 23,
-        "home": 24
+        "away": 24,
+        "home": 23
       },
       "stats": {
         "away": {
@@ -46300,8 +46340,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          6,
+          8,
+          7,
+          3
+        ],
+        "home": [
+          0,
+          10,
+          7,
+          6
+        ]
       },
       "time": "8:00 PM",
       "coverage": "ABC",
@@ -46309,10 +46359,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 3
+          "ap": 1
         },
         "away": {
-          "ap": 1
+          "ap": 3
         }
       }
     }
@@ -47058,9 +47108,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1974",
+      "date": "01/01/1975",
       "location": {
         "city": "Miami",
         "state": "FL",
@@ -47068,8 +47118,8 @@
       },
       "opponentId": "BAMA",
       "score": {
-        "away": 11,
-        "home": 13
+        "away": 13,
+        "home": 11
       },
       "stats": {
         "away": {
@@ -47112,8 +47162,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          7,
+          6,
+          0,
+          0
+        ],
+        "home": [
+          0,
+          3,
+          0,
+          8
+        ]
       },
       "time": "8:00 PM",
       "coverage": "NBC",
@@ -47121,10 +47181,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 3
+          "ap": 2
         },
         "away": {
-          "ap": 4
+          "ap": 9
         }
       }
     }
@@ -48650,8 +48710,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          3,
+          0,
+          0,
+          6
+        ],
+        "home": [
+          7,
+          13,
+          0,
+          0
+        ]
       },
       "time": "9:00 PM",
       "coverage": "ABC",
@@ -49407,9 +49477,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/02/1977",
+      "date": "01/02/1978",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -49417,8 +49487,8 @@
       },
       "opponentId": "TEX",
       "score": {
-        "away": 10,
-        "home": 38
+        "away": 38,
+        "home": 10
       },
       "stats": {
         "away": {
@@ -49461,8 +49531,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          3,
+          21,
+          7,
+          7
+        ],
+        "home": [
+          3,
+          7,
+          0,
+          0
+        ]
       },
       "time": "2:00 PM",
       "coverage": "CBS",
@@ -49470,7 +49550,10 @@
       "headCoach": "Dan Devine",
       "rankings": {
         "home": {
-          "ap": 3
+          "ap": 1
+        },
+        "away": {
+          "ap": 5
         }
       }
     }
@@ -50209,9 +50292,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1978",
+      "date": "01/01/1979",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -50219,8 +50302,8 @@
       },
       "opponentId": "HOU",
       "score": {
-        "away": 34,
-        "home": 35
+        "away": 35,
+        "home": 34
       },
       "stats": {
         "away": {
@@ -50263,8 +50346,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          12,
+          0,
+          0,
+          23
+        ],
+        "home": [
+          7,
+          13,
+          14,
+          0
+        ]
       },
       "time": "2:00 PM",
       "coverage": "CBS",
@@ -50272,7 +50365,10 @@
       "headCoach": "Dan Devine",
       "rankings": {
         "home": {
-          "ap": 5
+          "ap": 9
+        },
+        "away": {
+          "ap": 10
         }
       }
     }
@@ -51764,7 +51860,7 @@
       "result": "L",
       "isHomeGame": true,
       "isBowlGame": true,
-      "date": "01/01/1980",
+      "date": "01/01/1981",
       "location": {
         "city": "New Orleans",
         "state": "LA",
@@ -51816,8 +51912,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          10,
+          7,
+          0,
+          0
+        ],
+        "home": [
+          3,
+          0,
+          7,
+          0
+        ]
       },
       "time": "2:00 PM",
       "coverage": "ABC",
@@ -51825,10 +51931,10 @@
       "headCoach": "Dan Devine",
       "rankings": {
         "home": {
-          "ap": 11
+          "ap": 7
         },
         "away": {
-          "ap": 16
+          "ap": 1
         }
       }
     }
@@ -54037,8 +54143,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          6,
+          6,
+          6,
+          0
+        ],
+        "home": [
+          7,
+          12,
+          0,
+          0
+        ]
       },
       "time": "8:00 PM",
       "coverage": "KATZ",
@@ -54766,7 +54882,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "12/29/1984",
       "location": {
@@ -54776,8 +54892,8 @@
       },
       "opponentId": "SMU",
       "score": {
-        "away": 27,
-        "home": 20
+        "away": 20,
+        "home": 27
       },
       "stats": {
         "away": {
@@ -54820,8 +54936,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          10,
+          7,
+          3
+        ],
+        "home": [
+          7,
+          10,
+          0,
+          10
+        ]
       },
       "time": "8:00 PM",
       "coverage": "ESPN",
@@ -54829,10 +54955,10 @@
       "headCoach": "Gerry Faust",
       "rankings": {
         "home": {
-          "ap": 17
+          "ap": 10
         },
         "away": {
-          "ap": 10
+          "ap": 17
         }
       }
     }
@@ -57011,9 +57137,9 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1987",
+      "date": "01/01/1988",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -57021,8 +57147,8 @@
       },
       "opponentId": "TA&M",
       "score": {
-        "away": 35,
-        "home": 10
+        "away": 10,
+        "home": 35
       },
       "stats": {
         "away": {
@@ -57065,8 +57191,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          7,
+          3,
+          0,
+          0
+        ],
+        "home": [
+          3,
+          15,
+          7,
+          10
+        ]
       },
       "time": "1:30 PM",
       "coverage": "CBS",
@@ -57074,10 +57210,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 18
+          "ap": 13
         },
         "away": {
-          "ap": 15
+          "ap": 12
         }
       }
     }
@@ -57830,7 +57966,7 @@
       "result": "W",
       "isHomeGame": true,
       "isBowlGame": true,
-      "date": "01/02/1988",
+      "date": "01/02/1989",
       "location": {
         "city": "Tempe",
         "state": "AZ",
@@ -57882,8 +58018,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "home": [
+          9,
+          14,
+          3,
+          8
+        ]
       },
       "time": "4:30 PM",
       "coverage": "NBC",
@@ -57891,10 +58037,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 13
+          "ap": 1
         },
         "away": {
-          "ap": 16
+          "ap": 3
         }
       }
     }
@@ -58723,7 +58869,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "01/01/1990",
       "location": {
@@ -58733,8 +58879,8 @@
       },
       "opponentId": "COL",
       "score": {
-        "away": 6,
-        "home": 21
+        "away": 21,
+        "home": 6
       },
       "stats": {
         "away": {
@@ -58777,8 +58923,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          0,
+          14,
+          7
+        ],
+        "home": [
+          0,
+          0,
+          6,
+          0
+        ]
       },
       "time": "8:00 PM",
       "coverage": "NBC",
@@ -58786,10 +58942,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 4
+          "ap": 1
         },
         "away": {
-          "ap": 1
+          "ap": 4
         }
       }
     }
@@ -59548,9 +59704,9 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1990",
+      "date": "01/01/1991",
       "location": {
         "city": "Miami",
         "state": "FL",
@@ -59558,8 +59714,8 @@
       },
       "opponentId": "COL",
       "score": {
-        "away": 10,
-        "home": 9
+        "away": 9,
+        "home": 10
       },
       "stats": {
         "away": {
@@ -59602,8 +59758,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "home": [
+          0,
+          6,
+          3,
+          0
+        ]
       },
       "time": "8:00 PM",
       "coverage": "NBC",
@@ -59611,7 +59777,7 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 2
+          "ap": 1
         },
         "away": {
           "ap": 5
@@ -60438,9 +60604,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1991",
+      "date": "01/01/1992",
       "location": {
         "city": "New Orleans",
         "state": "LA",
@@ -60448,8 +60614,8 @@
       },
       "opponentId": "FLA",
       "score": {
-        "away": 28,
-        "home": 39
+        "away": 39,
+        "home": 28
       },
       "stats": {
         "away": {
@@ -60492,8 +60658,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          7,
+          10,
+          22
+        ],
+        "home": [
+          10,
+          6,
+          0,
+          12
+        ]
       },
       "time": "8:00 PM",
       "coverage": "ABC",
@@ -60501,10 +60677,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 6
+          "ap": 3
         },
         "away": {
-          "ap": 5
+          "ap": 18
         }
       }
     }
@@ -61317,8 +61493,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          0,
+          7,
+          14,
+          7
+        ],
+        "home": [
+          0,
+          0,
+          0,
+          3
+        ]
       },
       "time": "1:00 PM",
       "coverage": "NBC",
@@ -62083,9 +62269,9 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1993",
+      "date": "01/01/1994",
       "location": {
         "city": "Dallas",
         "state": "TX",
@@ -62093,8 +62279,8 @@
       },
       "opponentId": "TA&M",
       "score": {
-        "away": 21,
-        "home": 24
+        "away": 24,
+        "home": 21
       },
       "stats": {
         "away": {
@@ -62137,8 +62323,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          7,
+          0,
+          14,
+          3
+        ],
+        "home": [
+          7,
+          7,
+          7,
+          0
+        ]
       },
       "time": "4:30 PM",
       "coverage": "NBC",
@@ -62889,7 +63085,7 @@
       "result": "L",
       "isHomeGame": true,
       "isBowlGame": true,
-      "date": "01/02/1994",
+      "date": "01/02/1995",
       "location": {
         "city": "Tempe",
         "state": "AZ",
@@ -62941,8 +63137,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          10,
+          21,
+          3,
+          7
+        ],
+        "home": [
+          3,
+          7,
+          7,
+          7
+        ]
       },
       "time": "4:30 PM",
       "coverage": "NBC",
@@ -62953,7 +63159,7 @@
           "ap": 2
         },
         "away": {
-          "ap": 8
+          "ap": 4
         }
       }
     }
@@ -63712,7 +63918,7 @@
       "result": "L",
       "isHomeGame": true,
       "isBowlGame": true,
-      "date": "01/01/1995",
+      "date": "01/01/1996",
       "location": {
         "city": "Miami",
         "state": "FL",
@@ -63764,8 +63970,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          7,
+          7,
+          0,
+          17
+        ],
+        "home": [
+          10,
+          0,
+          7,
+          9
+        ]
       },
       "time": "8:00 PM",
       "coverage": "CBS",
@@ -63773,10 +63989,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 9
+          "ap": 6
         },
         "away": {
-          "ap": 1
+          "ap": 8
         }
       }
     }
@@ -65312,7 +65528,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
       "date": "12/28/1997",
       "location": {
@@ -65322,8 +65538,8 @@
       },
       "opponentId": "LSU",
       "score": {
-        "away": 27,
-        "home": 9
+        "away": 9,
+        "home": 27
       },
       "stats": {
         "away": {
@@ -65366,8 +65582,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          3,
+          3,
+          0,
+          3
+        ],
+        "home": [
+          0,
+          3,
+          10,
+          14
+        ]
       },
       "time": "8:00 PM",
       "coverage": "ESPN",
@@ -65375,6 +65601,9 @@
       "headCoach": "Bob Davie",
       "rankings": {
         "away": {
+          "ap": 15
+        },
+        "home": {
           "ap": 15
         }
       }
@@ -66128,9 +66357,9 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "isBowlGame": true,
-      "date": "01/01/1998",
+      "date": "01/01/1999",
       "location": {
         "city": "Jacksonville",
         "state": "FL",
@@ -66138,8 +66367,8 @@
       },
       "opponentId": "GT",
       "score": {
-        "away": 35,
-        "home": 28
+        "away": 28,
+        "home": 35
       },
       "stats": {
         "away": {
@@ -66182,8 +66411,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          7,
+          0,
+          13,
+          8
+        ],
+        "home": [
+          7,
+          14,
+          7,
+          7
+        ]
       },
       "time": "12:00 PM",
       "coverage": "NBC",
@@ -66191,7 +66430,11 @@
       "headCoach": "Bob Davie",
       "rankings": {
         "home": {
-          "ap": 22
+          "ap": 12,
+          "bcs": 12
+        },
+        "away": {
+          "ap": 17
         }
       }
     }
@@ -67806,8 +68049,18 @@
         }
       },
       "linescore": {
-        "away": [],
-        "home": []
+        "away": [
+          3,
+          9,
+          29,
+          0
+        ],
+        "home": [
+          0,
+          3,
+          0,
+          6
+        ]
       },
       "time": "8:00 PM",
       "coverage": "ABC",
@@ -69516,7 +69769,7 @@
       "result": "L",
       "isHomeGame": true,
       "isBowlGame": true,
-      "date": "01/01/2002",
+      "date": "01/01/2003",
       "location": {
         "city": "Jacksonville",
         "state": "FL",
@@ -69586,7 +69839,16 @@
       "time": "12:30 PM",
       "coverage": "NBC",
       "nickname": "Gator Bowl",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "rankings": {
+        "home": {
+          "ap": 11,
+          "bcs": 10
+        },
+        "away": {
+          "ap": 17
+        }
+      }
     }
   ],
   "2003": [
@@ -85091,7 +85353,7 @@
       "isBowlGame": true,
       "timestamp": 1514811600000,
       "coverage": "ABC",
-      "date": "01/01/2017",
+      "date": "01/01/2018",
       "time": "1:00 PM",
       "nickname": "Citrus Bowl",
       "location": {
@@ -85168,8 +85430,14 @@
       "headCoach": "Brian Kelly",
       "rankings": {
         "home": {
-          "ap": 13,
-          "coaches": 12
+          "ap": 16,
+          "coaches": 14,
+          "cfbPlayoff": 17
+        },
+        "away": {
+          "ap": 14,
+          "coaches": 15,
+          "cfbPlayoff": 14
         }
       }
     }

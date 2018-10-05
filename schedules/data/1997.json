@@ -780,7 +780,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
     "date": "12/28/1997",
     "location": {
@@ -790,8 +790,8 @@
     },
     "opponentId": "LSU",
     "score": {
-      "away": 27,
-      "home": 9
+      "away": 9,
+      "home": 27
     },
     "stats": {
       "away": {
@@ -834,8 +834,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        3,
+        3,
+        0,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        10,
+        14
+      ]
     },
     "time": "8:00 PM",
     "coverage": "ESPN",
@@ -843,6 +853,9 @@
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
+        "ap": 15
+      },
+      "home": {
         "ap": 15
       }
     }

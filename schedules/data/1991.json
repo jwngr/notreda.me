@@ -817,9 +817,9 @@
   },
   {
     "result": "W",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
-    "date": "01/01/1991",
+    "date": "01/01/1992",
     "location": {
       "city": "New Orleans",
       "state": "LA",
@@ -827,8 +827,8 @@
     },
     "opponentId": "FLA",
     "score": {
-      "away": 28,
-      "home": 39
+      "away": 39,
+      "home": 28
     },
     "stats": {
       "away": {
@@ -871,8 +871,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        7,
+        10,
+        22
+      ],
+      "home": [
+        10,
+        6,
+        0,
+        12
+      ]
     },
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -880,10 +890,10 @@
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
-        "ap": 6
+        "ap": 3
       },
       "away": {
-        "ap": 5
+        "ap": 18
       }
     }
   }

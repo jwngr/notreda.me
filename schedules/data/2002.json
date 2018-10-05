@@ -970,7 +970,7 @@
     "result": "L",
     "isHomeGame": true,
     "isBowlGame": true,
-    "date": "01/01/2002",
+    "date": "01/01/2003",
     "location": {
       "city": "Jacksonville",
       "state": "FL",
@@ -1040,6 +1040,15 @@
     "time": "12:30 PM",
     "coverage": "NBC",
     "nickname": "Gator Bowl",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 11,
+        "bcs": 10
+      },
+      "away": {
+        "ap": 17
+      }
+    }
   }
 ]

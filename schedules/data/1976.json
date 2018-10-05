@@ -786,8 +786,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        3,
+        0,
+        0,
+        6
+      ],
+      "home": [
+        7,
+        13,
+        0,
+        0
+      ]
     },
     "time": "9:00 PM",
     "coverage": "ABC",

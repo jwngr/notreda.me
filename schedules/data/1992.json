@@ -806,8 +806,18 @@
       }
     },
     "linescore": {
-      "away": [],
-      "home": []
+      "away": [
+        0,
+        7,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        3
+      ]
     },
     "time": "1:00 PM",
     "coverage": "NBC",
