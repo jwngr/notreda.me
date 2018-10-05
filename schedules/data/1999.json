@@ -139,7 +139,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": true,
+    "isHomeGame": false,
     "date": "09/11/1999",
     "location": {
       "city": "West Lafayette",
@@ -148,8 +148,8 @@
     },
     "opponentId": "PUR",
     "score": {
-      "away": 28,
-      "home": 23
+      "away": 23,
+      "home": 28
     },
     "stats": {
       "away": {
@@ -200,10 +200,10 @@
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
-        "ap": 16
+        "ap": 20
       },
       "away": {
-        "ap": 20
+        "ap": 16
       }
     }
   },

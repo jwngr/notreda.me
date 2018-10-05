@@ -25,7 +25,6 @@ const teamNamesMap = {
   'Miami (FL)': 'Maimi',
   'Texas Christian': 'TCU',
   SMU: 'Southern Methodist',
-  'Great Lakes Navy': 'Great Lakes',
   'North Carolina State': 'NC State',
 };
 
@@ -132,7 +131,7 @@ const scrapePollsForYear = async (year) => {
   return pollResults;
 };
 
-const fn = async () => {
+(async () => {
   browser = await puppeteer.launch({
     headless: true,
     handleSIGINT: false,
@@ -153,9 +152,7 @@ const fn = async () => {
     }
   }
 
-  browser.close();
+  await browser.close();
 
   console.log(green('[INFO] Success!'));
-};
-
-fn();
+})();

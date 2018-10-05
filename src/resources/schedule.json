@@ -63026,17 +63026,17 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "09/09/1995",
       "location": {
-        "city": "Notre Dame",
+        "city": "West Lafayette",
         "state": "IN",
         "stadium": "Ross-Ade Stadium"
       },
       "opponentId": "PUR",
       "score": {
-        "away": 28,
-        "home": 35
+        "away": 35,
+        "home": 28
       },
       "stats": {
         "away": {
@@ -63086,7 +63086,7 @@
       "coverage": "ABC",
       "headCoach": "Lou Holtz",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 25
         }
       }
@@ -63160,7 +63160,7 @@
     },
     {
       "result": "W",
-      "isHomeGame": false,
+      "isHomeGame": true,
       "date": "09/23/1995",
       "location": {
         "city": "South Bend",
@@ -63169,8 +63169,8 @@
       },
       "opponentId": "TEX",
       "score": {
-        "away": 55,
-        "home": 27
+        "away": 27,
+        "home": 55
       },
       "stats": {
         "away": {
@@ -63221,10 +63221,10 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "away": {
-          "ap": 21
+          "ap": 13
         },
         "home": {
-          "ap": 13
+          "ap": 21
         }
       }
     },
@@ -63300,17 +63300,17 @@
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/07/1995",
       "location": {
-        "city": "Notre Dame",
-        "state": "IN",
+        "city": "Seattle",
+        "state": "WA",
         "stadium": "Husky Stadium"
       },
       "opponentId": "WASH",
       "score": {
-        "away": 21,
-        "home": 29
+        "away": 29,
+        "home": 21
       },
       "stats": {
         "away": {
@@ -63361,16 +63361,16 @@
       "headCoach": "Lou Holtz",
       "rankings": {
         "home": {
-          "ap": 23
+          "ap": 15
         },
         "away": {
-          "ap": 15
+          "ap": 23
         }
       }
     },
     {
       "result": "W",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "10/14/1995",
       "location": {
         "city": "East Rutherford",
@@ -63379,8 +63379,8 @@
       },
       "opponentId": "ARMY",
       "score": {
-        "away": 27,
-        "home": 28
+        "away": 28,
+        "home": 27
       },
       "stats": {
         "away": {
@@ -63430,7 +63430,7 @@
       "coverage": "ABC",
       "headCoach": "Lou Holtz",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 17
         }
       }
@@ -66335,7 +66335,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": true,
+      "isHomeGame": false,
       "date": "09/11/1999",
       "location": {
         "city": "West Lafayette",
@@ -66344,8 +66344,8 @@
       },
       "opponentId": "PUR",
       "score": {
-        "away": 28,
-        "home": 23
+        "away": 23,
+        "home": 28
       },
       "stats": {
         "away": {
@@ -66396,10 +66396,10 @@
       "headCoach": "Bob Davie",
       "rankings": {
         "home": {
-          "ap": 16
+          "ap": 20
         },
         "away": {
-          "ap": 20
+          "ap": 16
         }
       }
     },
