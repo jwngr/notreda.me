@@ -41,16 +41,6 @@
   },
   {
     "isHomeGame": true,
-    "date": "10/28/2023",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium"
-    },
-    "opponentId": "WAKE"
-  },
-  {
-    "isHomeGame": true,
     "date": "10/14/2023",
     "location": {
       "city": "Notre Dame",
@@ -58,6 +48,16 @@
       "stadium": "Notre Dame Stadium"
     },
     "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/28/2023",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "WAKE"
   },
   {
     "isHomeGame": true,

@@ -668,7 +668,7 @@
   },
   {
     "result": "L",
-    "isHomeGame": false,
+    "isHomeGame": true,
     "isBowlGame": true,
     "date": "01/01/1970",
     "location": {
@@ -678,8 +678,8 @@
     },
     "opponentId": "TEX",
     "score": {
-      "away": 17,
-      "home": 21
+      "away": 21,
+      "home": 17
     },
     "stats": {
       "away": {
@@ -741,10 +741,10 @@
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
-        "ap": 1
+        "ap": 9
       },
       "away": {
-        "ap": 9
+        "ap": 1
       }
     }
   }

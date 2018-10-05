@@ -63,7 +63,7 @@
     {
       "result": "L",
       "isHomeGame": true,
-      "date": "04/20/1887",
+      "date": "04/20/1888",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -123,7 +123,7 @@
     {
       "result": "L",
       "isHomeGame": true,
-      "date": "04/21/1887",
+      "date": "04/21/1888",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -670,7 +670,7 @@
     {
       "result": "L",
       "isHomeGame": false,
-      "date": "01/01/1893",
+      "date": "01/01/1894",
       "location": {
         "city": "Chicago",
         "state": "IL"
@@ -43361,7 +43361,7 @@
     },
     {
       "result": "L",
-      "isHomeGame": false,
+      "isHomeGame": true,
       "isBowlGame": true,
       "date": "01/01/1970",
       "location": {
@@ -43371,8 +43371,8 @@
       },
       "opponentId": "TEX",
       "score": {
-        "away": 17,
-        "home": 21
+        "away": 21,
+        "home": 17
       },
       "stats": {
         "away": {
@@ -43434,10 +43434,10 @@
       "headCoach": "Ara Parseghian",
       "rankings": {
         "home": {
-          "ap": 1
+          "ap": 9
         },
         "away": {
-          "ap": 9
+          "ap": 1
         }
       }
     }
@@ -59760,14 +59760,14 @@
       "linescore": {
         "away": [
           0,
+          6,
           3,
-          7,
           0
         ],
         "home": [
           0,
-          6,
           3,
+          7,
           0
         ]
       },
@@ -86632,16 +86632,6 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/28/2023",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium"
-      },
-      "opponentId": "WAKE"
-    },
-    {
-      "isHomeGame": true,
       "date": "10/14/2023",
       "location": {
         "city": "Notre Dame",
@@ -86649,6 +86639,16 @@
         "stadium": "Notre Dame Stadium"
       },
       "opponentId": "USC"
+    },
+    {
+      "isHomeGame": true,
+      "date": "10/28/2023",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "WAKE"
     },
     {
       "isHomeGame": true,
