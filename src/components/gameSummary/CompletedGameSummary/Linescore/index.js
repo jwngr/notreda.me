@@ -31,9 +31,17 @@ const Linescore = ({linescore, homeTeam, awayTeam}) => {
     totalScores.home += linescore.home[i];
     totalScores.away += linescore.away[i];
 
-    let header = i < 4 ? i + 1 : `OT ${i - 3}`;
+    let header = i + 1;
+    if (i >= 4) {
+      if (numQuarters > 6) {
+        header = `OT${i - 3}`;
+      } else {
+        header = `OT ${i - 3}`;
+      }
+    }
     const classes = classNames({
-      'overtime-header': _.includes(header, 'OT'),
+      'overtime-header': i >= 4,
+      'three-plus-overtime-header': i >= 4 && numQuarters > 6,
     });
 
     return (

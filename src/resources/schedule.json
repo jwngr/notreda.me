@@ -64400,6 +64400,7 @@
         "away": [],
         "home": []
       },
+      "numOvertimes": 1,
       "time": "2:30 PM",
       "coverage": "NBC",
       "headCoach": "Lou Holtz",
@@ -64736,6 +64737,7 @@
         "away": [],
         "home": []
       },
+      "numOvertimes": 1,
       "time": "8:00 PM",
       "coverage": "ABC",
       "headCoach": "Lou Holtz",
@@ -67358,6 +67360,7 @@
         "away": [],
         "home": []
       },
+      "numOvertimes": 1,
       "sportsReferenceGameId": "2000-09-09-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
@@ -67775,6 +67778,7 @@
         "away": [],
         "home": []
       },
+      "numOvertimes": 1,
       "sportsReferenceGameId": "2000-10-28-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
@@ -69931,7 +69935,8 @@
         "home": {
           "ap": 19
         }
-      }
+      },
+      "numOvertimes": 1
     },
     {
       "result": "L",
@@ -72004,7 +72009,8 @@
         "home": {
           "ap": 10
         }
-      }
+      },
+      "numOvertimes": 1
     },
     {
       "result": "W",
@@ -74599,7 +74605,8 @@
       "sportsReferenceGameId": "2007-11-03-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "numOvertimes": 3
     },
     {
       "result": "L",
@@ -75472,7 +75479,8 @@
       "sportsReferenceGameId": "2008-11-01-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "numOvertimes": 4
     },
     {
       "result": "L",
@@ -76274,7 +76282,8 @@
       "sportsReferenceGameId": "2009-10-03-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "numOvertimes": 1
     },
     {
       "result": "L",
@@ -76773,7 +76782,8 @@
       "sportsReferenceGameId": "2009-11-21-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "numOvertimes": 2
     },
     {
       "result": "L",
@@ -77089,7 +77099,8 @@
       "sportsReferenceGameId": "2010-09-18-michigan-state",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "numOvertimes": 1
     },
     {
       "result": "L",
@@ -79446,7 +79457,8 @@
         "away": {
           "ap": 17
         }
-      }
+      },
+      "numOvertimes": 1
     },
     {
       "result": "W",
@@ -79689,6 +79701,7 @@
           10,
           0,
           3,
+          0,
           3
         ],
         "home": [
@@ -79697,6 +79710,7 @@
           0,
           14,
           3,
+          0,
           6
         ]
       },
@@ -79709,7 +79723,8 @@
           "ap": 4,
           "bcs": 3
         }
-      }
+      },
+      "numOvertimes": 3
     },
     {
       "result": "W",
@@ -81992,7 +82007,8 @@
           "ap": 15,
           "cfbPlayoff": 18
         }
-      }
+      },
+      "numOvertimes": 1
     },
     {
       "result": "L",
@@ -83447,7 +83463,8 @@
           "ap": 10,
           "coaches": 9
         }
-      }
+      },
+      "numOvertimes": 2
     },
     {
       "result": "W",
