@@ -76,11 +76,26 @@ const scrapeNotreDameSchedule = async () => {
       // Result
       let result = await getText(tds[3]);
 
+      // Scores
+      let homeScore;
+      let awayScore;
+      if (result === 'W' || result === 'T') {
+        homeScore = await getText(tds[4]);
+        awayScore = await getText(tds[5]);
+      } else {
+        homeScore = await getText(tds[5]);
+        awayScore = await getText(tds[4]);
+      }
+
       currentYearGames.push({
         date,
         result,
         opponent,
         isHomeGame,
+        score: {
+          home: Number(homeScore),
+          away: Number(awayScore),
+        },
       });
     }
 
@@ -119,6 +134,16 @@ const scrapeNotreDameSchedule = async () => {
 
           if (game.result !== ndSchedule[year][i].result) {
             console.log('RESULT MISMATCH:', year, game.opponentId, i);
+          }
+
+          if (
+            (game.score.home !== ndSchedule[year][i].score.home &&
+              game.score.home !== ndSchedule[year][i].score.away) ||
+            (game.score.away !== ndSchedule[year][i].score.home &&
+              game.score.away !== ndSchedule[year][i].score.away)
+          ) {
+            console.log('SCORE MISMATCH:', year, game.opponentId, i);
+            console.log(game.score, ndSchedule[year][i].score);
           }
         });
       }
