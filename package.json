@@ -18,7 +18,7 @@
     "react-loadable": "^5.5.0",
     "react-media": "^1.8.0",
     "react-redux": "^5.0.6",
-    "react-scripts": "1.1.5",
+    "react-scripts": "2.0.4",
     "react-tweet-embed": "^1.1.0",
     "redux": "^4.0.0",
     "redux-little-router": "^15.1.1",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "chalk": "^2.3.0",
     "cheerio": "^1.0.0-rc.2",
-    "husky": "^0.14.3",
+    "husky": "^1.1.1",
     "lint-staged": "^7.2.2",
     "prettier": "^1.10.2",
     "puppeteer": "^1.8.0",
@@ -52,5 +52,11 @@
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
     "source-map-explorer": "^1.5.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
