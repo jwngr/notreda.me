@@ -11,9 +11,54 @@
             "value": "no-cache"
           }
         ]
+      },
+      {
+        "source": "/sitemap.xml",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=300, s-maxage=600"
+          }
+        ]
       }
     ],
     "rewrites": [
+      {
+        "source": "/service-worker.js",
+        "destination": "/service-worker.js"
+      },
+      {
+        "source": "/sitemap.xml",
+        "destination": "/sitemap.xml"
+      },
+      {
+        "source": "/manifest.json",
+        "destination": "/manifest.json"
+      },
+      {
+        "source": "/favicon-16x16.png",
+        "destination": "/favicon-16x16.png"
+      },
+      {
+        "source": "/favicon-32x32.png",
+        "destination": "/favicon-32x32.png"
+      },
+      {
+        "source": "/favicon-96x96.png",
+        "destination": "/favicon-96x96.png"
+      },
+      {
+        "source": "/favicon-192x192.png",
+        "destination": "/favicon-192x192.png"
+      },
+      {
+        "source": "/apple-touch-icon-180x180.png",
+        "destination": "/apple-touch-icon-180x180.png"
+      },
+      {
+        "source": "/ndMichigan2018Screenshot.png",
+        "destination": "/ndMichigan2018Screenshot.png"
+      },
       {
         "source": "**",
         "destination": "/index.html"
