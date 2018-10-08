@@ -3,8 +3,6 @@ import {Fragment} from 'redux-little-router';
 
 import ExplorableSeasonOneEpisodeOne from '../../components/explorables/season1/episode1';
 
-import {} from './index.styles';
-
 export default () => {
   return (
     <React.Fragment>
