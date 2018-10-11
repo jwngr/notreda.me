@@ -1,12 +1,10 @@
 const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
+const logger = require('../lib/logger');
+const scraper = require('../lib/scraper');
+const schedules = require('../lib/schedules');
 
-const year = 2018;
+logger.info('Updating records for current season...');
 
 const teams = {
   ND: 'http://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish',
@@ -24,97 +22,87 @@ const teams = {
   USC: 'http://www.espn.com/college-football/team/_/id/30/usc-trojans',
 };
 
-const getHtmlForUrl = (url) => {
-  return request({
-    uri: url,
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
-};
-
 const teamRecords = {};
 
-const promises = _.map(teams, (espnUrl, teamAbbreviation) => {
-  return getHtmlForUrl(espnUrl).then(($) => {
-    const $gameRows = $('.club-schedule li');
+const promises = _.map(teams, async (espnUrl, teamAbbreviation) => {
+  const $ = await scraper.get(espnUrl);
 
-    let wins = 0;
-    let losses = 0;
-    let homeWins = 0;
-    let homeLosses = 0;
-    let awayWins = 0;
-    let awayLosses = 0;
+  const $gameRows = $('.club-schedule li');
 
-    $gameRows.each((i, row) => {
-      const gameInfo = $(row)
-        .find('.game-info')
-        .text()
-        .trim();
-      const gameResult = $(row)
-        .find('.game-result')
-        .text()
-        .trim();
+  let wins = 0;
+  let losses = 0;
+  let homeWins = 0;
+  let homeLosses = 0;
+  let awayWins = 0;
+  let awayLosses = 0;
 
-      const isHomeGame = !_.includes(gameInfo, '@');
+  $gameRows.each((i, row) => {
+    const gameInfo = $(row)
+      .find('.game-info')
+      .text()
+      .trim();
+    const gameResult = $(row)
+      .find('.game-result')
+      .text()
+      .trim();
 
-      if (gameResult === 'W') {
-        wins += 1;
-        if (isHomeGame) {
-          homeWins += 1;
-        } else {
-          awayWins += 1;
-        }
-      } else if (gameResult === 'L') {
-        losses += 1;
-        if (isHomeGame) {
-          homeLosses += 1;
-        } else {
-          awayLosses += 1;
-        }
+    const isHomeGame = !_.includes(gameInfo, '@');
+
+    if (gameResult === 'W') {
+      wins += 1;
+      if (isHomeGame) {
+        homeWins += 1;
+      } else {
+        awayWins += 1;
       }
-    });
-
-    teamRecords[teamAbbreviation] = {
-      overall: `${wins}-${losses}`,
-      home: `${homeWins}-${homeLosses}`,
-      away: `${awayWins}-${awayLosses}`,
-    };
+    } else if (gameResult === 'L') {
+      losses += 1;
+      if (isHomeGame) {
+        homeLosses += 1;
+      } else {
+        awayLosses += 1;
+      }
+    }
   });
+
+  teamRecords[teamAbbreviation] = {
+    overall: `${wins}-${losses}`,
+    home: `${homeWins}-${homeLosses}`,
+    away: `${awayWins}-${awayLosses}`,
+  };
 });
 
 return Promise.all(promises)
   .then(() => {
-    const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-    const data = require(filename);
+    const seasonScheduleData = schedules.getForCurrentSeason();
 
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
 
-    _.forEach(data, (game, i) => {
-      if (i + 1 >= ndGamesPlayed) {
-        if (!_.has(teamRecords, game.opponentId)) {
-          throw new Error(`Opponent ${game.opponentId} is not in team records dictionary`);
+    seasonScheduleData.forEach((gameData, i) => {
+      if (i > ndGamesPlayed) {
+        if (!_.has(teamRecords, gameData.opponentId)) {
+          throw new Error(`Opponent ${gameData.opponentId} is not in team records dictionary`);
         }
 
-        if (game.isHomeGame) {
-          game.records = {
+        if (gameData.isHomeGame) {
+          gameData.records = {
             home: teamRecords['ND'],
-            away: teamRecords[game.opponentId],
+            away: teamRecords[gameData.opponentId],
           };
         } else {
-          game.records = {
-            home: teamRecords[game.opponentId],
+          gameData.records = {
+            home: teamRecords[gameData.opponentId],
             away: teamRecords['ND'],
           };
         }
       }
     });
 
-    fs.writeFileSync(filename, JSON.stringify(data, null, 2));
+    schedules.updateForCurrentSeason(seasonScheduleData);
 
-    console.log('Success!');
+    logger.success('Records for current season updated!');
   })
   .catch((error) => {
-    console.log('Error fetching team records:', error);
+    logger.success('Failed to update records for current season!', {error});
   });

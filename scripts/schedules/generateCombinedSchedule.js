@@ -1,26 +1,23 @@
-const fs = require('fs');
-const path = require('path');
+const logger = require('../lib/logger');
+const schedules = require('../lib/schedules');
 
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
-const COMBINED_SCHEDULE_FILENAME = path.resolve(__dirname, '../../src/resources/schedule.json');
+logger.info('Generating combined schedule...');
 
-const combinedScheduleData = {};
+const allSeasonsScheduleData = {};
 
-fs.readdirSync(SCHEDULE_DATA_DIRECTORY).forEach((scheduleDataFilename) => {
-  const year = scheduleDataFilename.split('.')[0];
-  const scheduleData = require(`${SCHEDULE_DATA_DIRECTORY}/${scheduleDataFilename}`);
+schedules.ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = schedules.getForSeason(season);
 
   // Optional: perform any updates to the yearly data here.
-  scheduleData.forEach((gameData, i) => {});
+  seasonScheduleData.forEach((gameData, i) => {
+    delete gameData.foo;
+  });
 
-  combinedScheduleData[year] = scheduleData;
+  allSeasonsScheduleData[season] = seasonScheduleData;
 
-  // Write the current year's schedule data.
-  fs.writeFileSync(
-    `${SCHEDULE_DATA_DIRECTORY}/${scheduleDataFilename}`,
-    JSON.stringify(scheduleData, null, 2)
-  );
+  schedules.updateForSeason(season, seasonScheduleData);
 });
 
-// Write the combined schedule.
-fs.writeFileSync(COMBINED_SCHEDULE_FILENAME, JSON.stringify(combinedScheduleData, null, 2));
+schedules.updateForAllSeasons(allSeasonsScheduleData);
+
+logger.success('Combined schedule generated!');

@@ -1,30 +1,20 @@
 const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
 
-const teams = require('../../src/resources/teams.json');
+const polls = require('../lib/polls');
+const teams = require('../lib/teams');
+const logger = require('../lib/logger');
+const schedules = require('../lib/schedules');
 
-const red = chalk.bold.red;
-const green = chalk.bold.green;
+logger.info('Updating poll rankings in schedule data...');
 
-const POLL_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
+polls.AP_POLL_SEASONS.forEach((season) => {
+  const seasonPollsData = polls.getForSeason(season);
+  const seasonScheduleData = schedules.getForSeason(season);
 
-const CURRENT_YEAR = 2018;
-const AP_POLL_YEARS = _.range(1936, CURRENT_YEAR + 1);
-
-_.forEach(AP_POLL_YEARS, (year) => {
-  const pollFilename = `${POLL_DATA_DIRECTORY}/${year}.json`;
-  const scheduleFilename = `${SCHEDULE_DATA_DIRECTORY}/${year}.json`;
-
-  const polls = require(pollFilename);
-  const games = require(scheduleFilename);
-
-  games.forEach((game) => {
+  seasonScheduleData.forEach((game) => {
     const gameDate = new Date(game.date || game.fullDate || game.timestamp);
 
-    _.forEach(polls, (pollData, pollId) => {
+    _.forEach(seasonPollsData, (pollData, pollId) => {
       let currentWeekPollData;
       pollData.forEach((weekPollData) => {
         if (weekPollData.date === 'Preseason' || new Date(weekPollData.date) < gameDate) {
@@ -42,7 +32,7 @@ _.forEach(AP_POLL_YEARS, (year) => {
           );
         }
 
-        const opponentTeamName = teams[game.opponentId].name;
+        const opponentTeamName = teams.get(game.opponentId).name;
         if (opponentTeamName in currentWeekPollData.teams) {
           const homeOrAway = game.isHomeGame ? 'away' : 'home';
           _.set(
@@ -55,7 +45,7 @@ _.forEach(AP_POLL_YEARS, (year) => {
     });
   });
 
-  fs.writeFileSync(scheduleFilename, JSON.stringify(games, null, 2));
+  schedules.updateForSeason(season, seasonScheduleData);
 });
 
-console.log(green('Success!'));
+logger.success('Poll rankings in schedule data updated!');

@@ -1,20 +1,24 @@
 const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
+const logger = require('../lib/logger');
+const schedules = require('../lib/schedules');
 
-const dataFilenames = fs.readdirSync(INPUT_DATA_DIRECTORY);
+logger.info('Validating schedule data...');
 
-dataFilenames.forEach((dataFilename) => {
-  const year = dataFilename.split('.')[0];
-  const yearData = require(`${INPUT_DATA_DIRECTORY}/${dataFilename}`);
+let numErrorsFound = 0;
+
+schedules.ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = schedules.getForSeason(season);
 
   let previousGameDate;
-  yearData.forEach((gameData) => {
+  seasonScheduleData.forEach((gameData) => {
     const currentGameDate = new Date(gameData.date || gameData.fullDate || gameData.timestamp);
     if (typeof previousGameDate !== 'undefined' && currentGameDate < previousGameDate) {
-      console.log('DATE WRONG:', year, gameData.opponentId);
+      logger.error('Date for game is before prior game.', {
+        season,
+        ..._.pick(gameData, ['date', 'opponentId']),
+      });
+      numErrorsFound++;
     }
     previousGameDate = currentGameDate;
 
@@ -32,36 +36,36 @@ dataFilenames.forEach((dataFilename) => {
       }
 
       if (gameData.result !== calculatedResult) {
-        console.log('RESULT WRONG:', year, gameData.opponentId);
+        logger.error('Result does not match up with scores.', {
+          season,
+          ..._.pick(gameData, ['result', 'score', 'opponentId']),
+        });
+        numErrorsFound++;
       }
 
       if (_.size(gameData.linescore.away) !== 0) {
         if (gameData.score.away !== _.sum(gameData.linescore.away)) {
-          console.log(
-            'AWAY LINESCORE WRONG:',
-            year,
-            gameData.opponentId,
-            gameData.score.away,
-            gameData.linescore.away
-          );
+          logger.error('Away team linescore does not add up to away team score.', {
+            season,
+            ..._.pick(gameData, ['score', 'linescore', 'opponentId']),
+          });
+          numErrorsFound++;
         }
 
         if (gameData.score.home !== _.sum(gameData.linescore.home)) {
-          console.log(
-            'HOME LINESCORE WRONG:',
-            year,
-            gameData.opponentId,
-            gameData.score.home,
-            gameData.linescore.home
-          );
+          logger.error('Home team linescore does not add up to home team score.', {
+            season,
+            ..._.pick(gameData, ['score', 'linescore', 'opponentId']),
+          });
+          numErrorsFound++;
         }
-
-        gameData.linescore.away.forEach((score, i) => {
-          if (i >= 4 && score > 8) {
-            console.log(year, gameData.opponentId, i, score);
-          }
-        });
       }
     }
   });
 });
+
+if (numErrorsFound === 0) {
+  logger.info('Schedule data validated!');
+} else {
+  logger.error(`${numErrorsFound} errors found in schedule data!`);
+}
