@@ -2,7 +2,7 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../../../resources/polls');
+const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../../../data/polls');
 const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../../../schedules/data');
 
 const pollsDataFilenames = fs.readdirSync(POLLS_DATA_DIRECTORY);

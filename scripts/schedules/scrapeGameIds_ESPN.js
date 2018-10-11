@@ -4,7 +4,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
 const years = [
   // '2002',

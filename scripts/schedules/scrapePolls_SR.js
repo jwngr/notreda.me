@@ -9,7 +9,7 @@ const teams = require('../../src/resources/teams.json');
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
-const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../resources/polls');
+const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 
 const CURRENT_YEAR = 2018;
 const AP_POLL_YEARS = _.range(1936, CURRENT_YEAR + 1);

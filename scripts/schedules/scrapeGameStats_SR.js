@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
 process.setMaxListeners(Infinity);
 

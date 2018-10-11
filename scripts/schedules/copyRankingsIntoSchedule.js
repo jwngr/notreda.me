@@ -8,7 +8,7 @@ const teams = require('../../src/resources/teams.json');
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
-const POLL_DATA_DIRECTORY = path.resolve(__dirname, '../../resources/polls');
+const POLL_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
 
 const CURRENT_YEAR = 2018;
