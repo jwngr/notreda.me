@@ -79,8 +79,10 @@ return Promise.all(promises)
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
 
+    console.log('GAMES PLAYED:', ndGamesPlayed);
+
     seasonScheduleData.forEach((gameData, i) => {
-      if (i > ndGamesPlayed) {
+      if (i + 1 >= ndGamesPlayed) {
         if (!_.has(teamRecords, gameData.opponentId)) {
           throw new Error(`Opponent ${gameData.opponentId} is not in team records dictionary`);
         }

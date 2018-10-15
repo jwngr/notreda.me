@@ -86056,14 +86056,14 @@
       "sportsReferenceGameId": "2018-10-13-notre-dame",
       "records": {
         "home": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         },
         "away": {
-          "overall": "3-3",
+          "overall": "3-4",
           "home": "3-1",
-          "away": "0-2"
+          "away": "0-3"
         }
       },
       "headCoach": "Brian Kelly",
@@ -86072,10 +86072,74 @@
           "ap": 5,
           "coaches": 5
         }
+      },
+      "espnGameId": 401013148,
+      "linescore": {
+        "away": [
+          7,
+          0,
+          7,
+          0
+        ],
+        "home": [
+          0,
+          6,
+          6,
+          7
+        ]
+      },
+      "score": {
+        "home": 19,
+        "away": 14
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 14,
+          "thirdDownAttempts": 4,
+          "thirdDownConversions": 12,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 2,
+          "totalYards": 242,
+          "passYards": 126,
+          "passCompletions": 19,
+          "passAttempts": 30,
+          "yardsPerPass": 4.2,
+          "interceptionsThrown": 0,
+          "rushYards": 116,
+          "rushAttempts": 30,
+          "yardsPerRush": 3.9,
+          "penalties": 8,
+          "penaltyYards": 80,
+          "fumblesLost": 0,
+          "possession": "33:27",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 23,
+          "thirdDownAttempts": 7,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 2,
+          "totalYards": 344,
+          "passYards": 264,
+          "passCompletions": 26,
+          "passAttempts": 32,
+          "yardsPerPass": 8.3,
+          "interceptionsThrown": 2,
+          "rushYards": 80,
+          "rushAttempts": 38,
+          "yardsPerRush": 2.1,
+          "penalties": 4,
+          "penaltyYards": 35,
+          "fumblesLost": 0,
+          "possession": "26:33",
+          "fumbles": 1
+        }
       }
     },
     {
-      "isHomeGame": true,
+      "isHomeGame": false,
       "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
       "location": {
         "city": "San Diego",
@@ -86087,20 +86151,20 @@
       "sportsReferenceGameId": "2018-10-27-notre-dame",
       "records": {
         "home": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         },
         "away": {
-          "overall": "2-3",
-          "home": "2-0",
+          "overall": "2-4",
+          "home": "2-1",
           "away": "0-3"
         }
       },
       "headCoach": "Brian Kelly",
       "rankings": {
         "home": {
-          "ap": 5,
+          "ap": 4,
           "coaches": 5
         }
       }
@@ -86120,20 +86184,20 @@
       "sportsReferenceGameId": "2018-11-03-northwestern",
       "records": {
         "home": {
-          "overall": "2-3",
-          "home": "0-3",
+          "overall": "3-3",
+          "home": "1-3",
           "away": "2-0"
         },
         "away": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         }
       },
       "headCoach": "Brian Kelly",
       "rankings": {
         "away": {
-          "ap": 5,
+          "ap": 4,
           "coaches": 5
         }
       }
@@ -86151,8 +86215,8 @@
       "sportsReferenceGameId": "2018-11-10-notre-dame",
       "records": {
         "home": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         },
         "away": {
@@ -86164,7 +86228,7 @@
       "headCoach": "Brian Kelly",
       "rankings": {
         "home": {
-          "ap": 5,
+          "ap": 4,
           "coaches": 5
         }
       }
@@ -86185,8 +86249,8 @@
       "sportsReferenceGameId": "2018-11-17-notre-dame",
       "records": {
         "home": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         },
         "away": {
@@ -86198,7 +86262,7 @@
       "headCoach": "Brian Kelly",
       "rankings": {
         "home": {
-          "ap": 5,
+          "ap": 4,
           "coaches": 5
         }
       }
@@ -86217,20 +86281,20 @@
       "sportsReferenceGameId": "2018-11-24-southern-california",
       "records": {
         "home": {
-          "overall": "3-2",
-          "home": "2-0",
+          "overall": "4-2",
+          "home": "3-0",
           "away": "1-2"
         },
         "away": {
-          "overall": "6-0",
-          "home": "4-0",
+          "overall": "7-0",
+          "home": "5-0",
           "away": "2-0"
         }
       },
       "headCoach": "Brian Kelly",
       "rankings": {
         "away": {
-          "ap": 5,
+          "ap": 4,
           "coaches": 5
         }
       }
