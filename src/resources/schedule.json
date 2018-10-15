@@ -86150,12 +86150,12 @@
       "coverage": "CBS",
       "sportsReferenceGameId": "2018-10-27-notre-dame",
       "records": {
-        "home": {
+        "away": {
           "overall": "7-0",
           "home": "5-0",
           "away": "2-0"
         },
-        "away": {
+        "home": {
           "overall": "2-4",
           "home": "2-1",
           "away": "0-3"
@@ -86163,7 +86163,7 @@
       },
       "headCoach": "Brian Kelly",
       "rankings": {
-        "home": {
+        "away": {
           "ap": 4,
           "coaches": 5
         }
