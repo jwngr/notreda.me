@@ -52,7 +52,7 @@ DECADES.forEach((seasons) => {
 
   const statNames = stats.map((stat) => stat.text).join(',');
 
-  const lines = [`Year,Date,Team,Linescore,${statNames},Stats Source URL`];
+  const lines = [`Season,Date,Team,Linescore,${statNames},Stats Source URL`];
 
   seasons.forEach((season) => {
     const seasonScheduleData = schedules.getForSeason(season);
