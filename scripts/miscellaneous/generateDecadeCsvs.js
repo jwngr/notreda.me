@@ -3,8 +3,10 @@ const fs = require('fs');
 const path = require('path');
 const format = require('date-fns/format');
 
-const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './decadeCsvs');
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
+const logger = require('../lib/logger');
+const schedules = require('../lib/schedules');
+
+const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
 const DECADES = [
   _.range(1887, 1890),
@@ -43,18 +45,19 @@ const stats = [
   {name: 'possession', text: 'Possession'},
 ];
 
-DECADES.forEach((years) => {
-  const firstYear = years[0];
+logger.info('Generating CSVs...');
+
+DECADES.forEach((seasons) => {
+  const firstYear = seasons[0];
 
   const statNames = stats.map((stat) => stat.text).join(',');
 
-  const lines = [`Year,Date,Team,${statNames}`];
+  const lines = [`Year,Date,Team,Linescore,${statNames},Stats Source URL`];
 
-  years.forEach((year) => {
-    const scheduleFilename = `${SCHEDULE_DATA_DIRECTORY}/${year}.json`;
-    const games = require(scheduleFilename);
+  seasons.forEach((season) => {
+    const seasonScheduleData = schedules.getForSeason(season);
 
-    games.forEach((game) => {
+    seasonScheduleData.forEach((game) => {
       let homeTeamAbbreviation = game.isHomeGame ? 'ND' : game.opponentId;
       let awayTeamAbbreviation = game.isHomeGame ? game.opponentId : 'ND';
 
@@ -62,6 +65,9 @@ DECADES.forEach((years) => {
         new Date(game.date || game.fullDate || game.timestamp),
         'MM/DD/YYYY'
       );
+
+      let homeLinescore = _.get(game, ['linescore', 'home'], []).join('|');
+      let awayLinescore = _.get(game, ['linescore', 'away'], []).join('|');
 
       let homeStatValues = '';
       if (_.get(game, 'stats.home.totalYards', -1) !== -1) {
@@ -73,8 +79,10 @@ DECADES.forEach((years) => {
         awayStatValues = stats.map((stat) => game.stats.away[stat.name]).join(',');
       }
 
-      lines.push(`${year},${gameDateString},${awayTeamAbbreviation},${awayStatValues}`);
-      lines.push(`,,${homeTeamAbbreviation},${homeStatValues}`);
+      lines.push(
+        `${season},${gameDateString},${awayTeamAbbreviation},${awayLinescore},${awayStatValues}`
+      );
+      lines.push(`,,${homeTeamAbbreviation},${homeLinescore},${homeStatValues}`);
     });
   });
 
@@ -82,4 +90,4 @@ DECADES.forEach((years) => {
   fs.writeFileSync(outputFilename, lines.join('\n'));
 });
 
-console.log('Success!');
+logger.success('CSVs generated!');
