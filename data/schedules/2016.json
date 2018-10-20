@@ -1,0 +1,973 @@
+[
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/04/2016",
+    "time": "7:30 PM",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "stadium": "Darrell K. Royal-Texas Memorial Stadium"
+    },
+    "coverage": "ABC",
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 444,
+        "passYards": 238,
+        "passCompletions": 17,
+        "passAttempts": 30,
+        "yardsPerPass": 7.9,
+        "interceptionsThrown": 0,
+        "rushYards": 206,
+        "rushAttempts": 46,
+        "yardsPerRush": 4.5,
+        "penalties": 8,
+        "penaltyYards": 64,
+        "fumblesLost": 0,
+        "possession": "32:42",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 517,
+        "passYards": 280,
+        "passCompletions": 16,
+        "passAttempts": 27,
+        "yardsPerPass": 10.4,
+        "interceptionsThrown": 1,
+        "rushYards": 237,
+        "rushAttempts": 59,
+        "yardsPerRush": 4,
+        "penalties": 11,
+        "penaltyYards": 104,
+        "fumblesLost": 0,
+        "possession": "27:18",
+        "fumbles": 0
+      }
+    },
+    "opponentId": "TEX",
+    "score": {
+      "away": 47,
+      "home": 50
+    },
+    "espnGameId": 400868946,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        14,
+        9,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        14,
+        10,
+        6,
+        7,
+        6
+      ]
+    },
+    "sportsReferenceGameId": "2016-09-04-texas",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 10,
+        "coaches": 9
+      }
+    },
+    "numOvertimes": 2
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/10/2016",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 300,
+        "passYards": 201,
+        "passCompletions": 12,
+        "passAttempts": 26,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 1,
+        "rushYards": 99,
+        "rushAttempts": 30,
+        "yardsPerRush": 3.3,
+        "penalties": 11,
+        "penaltyYards": 88,
+        "fumblesLost": 0,
+        "possession": "26:28",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 444,
+        "passYards": 205,
+        "passCompletions": 19,
+        "passAttempts": 27,
+        "yardsPerPass": 7.6,
+        "interceptionsThrown": 1,
+        "rushYards": 239,
+        "rushAttempts": 46,
+        "yardsPerRush": 5.2,
+        "penalties": 9,
+        "penaltyYards": 94,
+        "fumblesLost": 0,
+        "possession": "33:32",
+        "fumbles": 1
+      }
+    },
+    "opponentId": "NEV",
+    "score": {
+      "away": 10,
+      "home": 39
+    },
+    "espnGameId": 400868947,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        3,
+        7
+      ],
+      "home": [
+        0,
+        25,
+        14,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2016-09-10-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 18,
+        "coaches": 21
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/17/2016",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 501,
+        "passYards": 241,
+        "passCompletions": 19,
+        "passAttempts": 26,
+        "yardsPerPass": 9.3,
+        "interceptionsThrown": 1,
+        "rushYards": 260,
+        "rushAttempts": 52,
+        "yardsPerRush": 5,
+        "penalties": 3,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "37:57",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 401,
+        "passYards": 344,
+        "passCompletions": 20,
+        "passAttempts": 37,
+        "yardsPerPass": 9.3,
+        "interceptionsThrown": 1,
+        "rushYards": 57,
+        "rushAttempts": 25,
+        "yardsPerRush": 2.3,
+        "penalties": 4,
+        "penaltyYards": 51,
+        "fumblesLost": 2,
+        "possession": "22:03",
+        "fumbles": 2
+      }
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 36,
+      "home": 28
+    },
+    "espnGameId": 400868948,
+    "linescore": {
+      "away": [
+        0,
+        15,
+        21,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2016-09-17-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 18,
+        "coaches": 18
+      },
+      "away": {
+        "ap": 12,
+        "coaches": 8
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/24/2016",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 498,
+        "passYards": 290,
+        "passCompletions": 24,
+        "passAttempts": 32,
+        "yardsPerPass": 9.1,
+        "interceptionsThrown": 1,
+        "rushYards": 208,
+        "rushAttempts": 42,
+        "yardsPerRush": 5,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "30:35",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 534,
+        "passYards": 381,
+        "passCompletions": 22,
+        "passAttempts": 37,
+        "yardsPerPass": 10.3,
+        "interceptionsThrown": 1,
+        "rushYards": 153,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.1,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 2,
+        "possession": "29:25",
+        "fumbles": 4
+      }
+    },
+    "opponentId": "DUKE",
+    "score": {
+      "away": 38,
+      "home": 35
+    },
+    "espnGameId": 400868949,
+    "linescore": {
+      "away": [
+        14,
+        14,
+        0,
+        10
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2016-09-24-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/01/2016",
+    "time": "12:00 PM",
+    "coverage": "ESPN",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "MetLife Stadium"
+    },
+    "stats": {
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 654,
+        "passYards": 471,
+        "passCompletions": 23,
+        "passAttempts": 35,
+        "yardsPerPass": 13.5,
+        "interceptionsThrown": 1,
+        "rushYards": 183,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.9,
+        "penalties": 6,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "31:22",
+        "fumbles": 1
+      },
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 489,
+        "passYards": 363,
+        "passCompletions": 31,
+        "passAttempts": 51,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 0,
+        "rushYards": 126,
+        "rushAttempts": 37,
+        "yardsPerRush": 3.4,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "28:38",
+        "fumbles": 0
+      }
+    },
+    "opponentId": "SYR",
+    "score": {
+      "home": 33,
+      "away": 50
+    },
+    "espnGameId": 400868950,
+    "linescore": {
+      "away": [
+        23,
+        10,
+        14,
+        3
+      ],
+      "home": [
+        13,
+        14,
+        0,
+        6
+      ]
+    },
+    "sportsReferenceGameId": "2016-10-01-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/08/2016",
+    "time": "12:00 PM",
+    "coverage": "ABC",
+    "location": {
+      "city": "Raleigh",
+      "state": "NC",
+      "stadium": "Carter-Finley Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 1,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 113,
+        "passYards": 54,
+        "passCompletions": 9,
+        "passAttempts": 26,
+        "yardsPerPass": 2.1,
+        "interceptionsThrown": 1,
+        "rushYards": 59,
+        "rushAttempts": 38,
+        "yardsPerRush": 1.6,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "27:41",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 5,
+        "totalYards": 198,
+        "passYards": 41,
+        "passCompletions": 7,
+        "passAttempts": 14,
+        "yardsPerPass": 2.9,
+        "interceptionsThrown": 0,
+        "rushYards": 157,
+        "rushAttempts": 51,
+        "yardsPerRush": 3.1,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 2,
+        "possession": "32:19",
+        "fumbles": 6
+      }
+    },
+    "opponentId": "NCST",
+    "score": {
+      "away": 3,
+      "home": 10
+    },
+    "espnGameId": 400868951,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2016-10-08-north-carolina-state",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/15/2016",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 296,
+        "passYards": 120,
+        "passCompletions": 10,
+        "passAttempts": 20,
+        "yardsPerPass": 6,
+        "interceptionsThrown": 1,
+        "rushYards": 176,
+        "rushAttempts": 40,
+        "yardsPerRush": 4.4,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "32:51",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 307,
+        "passYards": 154,
+        "passCompletions": 14,
+        "passAttempts": 29,
+        "yardsPerPass": 5.3,
+        "interceptionsThrown": 2,
+        "rushYards": 153,
+        "rushAttempts": 35,
+        "yardsPerRush": 4.4,
+        "penalties": 7,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "27:09",
+        "fumbles": 1
+      }
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 17,
+      "home": 10
+    },
+    "espnGameId": 400868952,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        9,
+        8
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2016-10-15-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/29/2016",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 306,
+        "passYards": 288,
+        "passCompletions": 26,
+        "passAttempts": 42,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 1,
+        "rushYards": 18,
+        "rushAttempts": 35,
+        "yardsPerRush": 0.5,
+        "penalties": 10,
+        "penaltyYards": 86,
+        "fumblesLost": 0,
+        "possession": "33:25",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 411,
+        "passYards": 263,
+        "passCompletions": 25,
+        "passAttempts": 38,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 0,
+        "rushYards": 148,
+        "rushAttempts": 29,
+        "yardsPerRush": 5.1,
+        "penalties": 7,
+        "penaltyYards": 53,
+        "fumblesLost": 2,
+        "possession": "26:35",
+        "fumbles": 3
+      }
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 27,
+      "home": 30
+    },
+    "espnGameId": 400868953,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        10,
+        10
+      ],
+      "home": [
+        17,
+        3,
+        0,
+        10
+      ]
+    },
+    "sportsReferenceGameId": "2016-10-29-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/05/2016",
+    "time": "11:30 AM",
+    "coverage": "CBS",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL",
+      "stadium": "EverBank Field"
+    },
+    "stats": {
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 370,
+        "passYards": 223,
+        "passCompletions": 19,
+        "passAttempts": 27,
+        "yardsPerPass": 8.3,
+        "interceptionsThrown": 0,
+        "rushYards": 147,
+        "rushAttempts": 29,
+        "yardsPerRush": 5.1,
+        "penalties": 7,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "26:07",
+        "fumbles": 2
+      },
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 4,
+        "fourthDownConversions": 5,
+        "totalYards": 368,
+        "passYards": 48,
+        "passCompletions": 5,
+        "passAttempts": 8,
+        "yardsPerPass": 6,
+        "interceptionsThrown": 0,
+        "rushYards": 320,
+        "rushAttempts": 56,
+        "yardsPerRush": 5.7,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "33:53",
+        "fumbles": 0
+      }
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "home": 28,
+      "away": 27
+    },
+    "espnGameId": 400868954,
+    "linescore": {
+      "away": [
+        10,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2016-11-05-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/12/2016",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "San Antonio",
+      "state": "TX",
+      "stadium": "Alamodome"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 242,
+        "passYards": 13,
+        "passCompletions": 2,
+        "passAttempts": 8,
+        "yardsPerPass": 1.6,
+        "interceptionsThrown": 1,
+        "rushYards": 229,
+        "rushAttempts": 42,
+        "yardsPerRush": 5.5,
+        "penalties": 7,
+        "penaltyYards": 68,
+        "fumblesLost": 0,
+        "possession": "25:38",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 31,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 476,
+        "passYards": 215,
+        "passCompletions": 18,
+        "passAttempts": 29,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 1,
+        "rushYards": 261,
+        "rushAttempts": 43,
+        "yardsPerRush": 6.1,
+        "penalties": 7,
+        "penaltyYards": 35,
+        "fumblesLost": 0,
+        "possession": "34:22",
+        "fumbles": 3
+      }
+    },
+    "opponentId": "ARMY",
+    "isShamrockSeries": true,
+    "score": {
+      "away": 6,
+      "home": 44
+    },
+    "espnGameId": 400868919,
+    "linescore": {
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        17,
+        6,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2016-11-12-army",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/19/2016",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 419,
+        "passYards": 267,
+        "passCompletions": 22,
+        "passAttempts": 29,
+        "yardsPerPass": 9.2,
+        "interceptionsThrown": 1,
+        "rushYards": 152,
+        "rushAttempts": 47,
+        "yardsPerRush": 3.2,
+        "penalties": 5,
+        "penaltyYards": 35,
+        "fumblesLost": 1,
+        "possession": "32:45",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 449,
+        "passYards": 249,
+        "passCompletions": 17,
+        "passAttempts": 34,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 0,
+        "rushYards": 200,
+        "rushAttempts": 36,
+        "yardsPerRush": 5.6,
+        "penalties": 10,
+        "penaltyYards": 78,
+        "fumblesLost": 0,
+        "possession": "27:15",
+        "fumbles": 1
+      }
+    },
+    "opponentId": "VT",
+    "score": {
+      "away": 34,
+      "home": 31
+    },
+    "espnGameId": 400868955,
+    "linescore": {
+      "away": [
+        0,
+        14,
+        7,
+        13
+      ],
+      "home": [
+        10,
+        14,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2016-11-19-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/26/2016",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 408,
+        "passYards": 254,
+        "passCompletions": 21,
+        "passAttempts": 39,
+        "yardsPerPass": 6.5,
+        "interceptionsThrown": 1,
+        "rushYards": 154,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.2,
+        "penalties": 6,
+        "penaltyYards": 54,
+        "fumblesLost": 1,
+        "possession": "28:57",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 412,
+        "passYards": 205,
+        "passCompletions": 19,
+        "passAttempts": 30,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 0,
+        "rushYards": 207,
+        "rushAttempts": 38,
+        "yardsPerRush": 5.4,
+        "penalties": 7,
+        "penaltyYards": 65,
+        "fumblesLost": 1,
+        "possession": "31:03",
+        "fumbles": 1
+      }
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 27,
+      "home": 45
+    },
+    "espnGameId": 400868956,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        14,
+        6
+      ],
+      "home": [
+        10,
+        14,
+        14,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2016-11-26-southern-california",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 12,
+        "coaches": 12,
+        "cfbPlayoff": 12
+      }
+    }
+  }
+]

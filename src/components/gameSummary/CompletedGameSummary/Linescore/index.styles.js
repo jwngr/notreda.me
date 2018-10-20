@@ -79,4 +79,13 @@ export const ScoreColumn = styled(LinescoreColumn)`
       padding: 0 2px;
     }
   }
+
+  @media (max-width: 600px) {
+    p:first-of-type {
+      &.three-plus-overtime-header {
+        font-size: 12px;
+        padding: 0;
+      }
+    }
+  }
 `;

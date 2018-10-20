@@ -1,0 +1,835 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/05/1992",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "stadium": "Soldier Field"
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 42,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 3
+      }
+    }
+  },
+  {
+    "result": "T",
+    "isHomeGame": true,
+    "date": "09/12/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 17,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 3
+      },
+      "away": {
+        "ap": 6
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/19/1992",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 52,
+      "home": 31
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 7
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/26/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 0,
+      "home": 48
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/03/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 33,
+      "home": 16
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 6
+      },
+      "away": {
+        "ap": 18
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/10/1992",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 52,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 13
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/24/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BYU",
+    "score": {
+      "away": 16,
+      "home": 42
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 10
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/31/1992",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "Giants Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 7,
+      "home": 38
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:00 PM",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 10
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/07/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 7,
+      "home": 54
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 9
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/14/1992",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PSU",
+    "score": {
+      "away": 16,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 22
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/28/1992",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 31,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 19
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "01/01/1993",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "stadium": "Cotton Bowl"
+    },
+    "opponentId": "TA&M",
+    "score": {
+      "away": 28,
+      "home": 3
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC",
+    "nickname": "Cotton Bowl",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 4
+      }
+    }
+  }
+]

@@ -2,7 +2,7 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../data');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
 const dataFilenames = fs.readdirSync(INPUT_DATA_DIRECTORY);
 

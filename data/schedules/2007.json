@@ -1,0 +1,961 @@
+[
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/01/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "GT",
+    "score": {
+      "away": 33,
+      "home": 3
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 380,
+        "passYards": 131,
+        "passCompletions": 11,
+        "passAttempts": 24,
+        "yardsPerPass": 5,
+        "interceptionsThrown": 0,
+        "rushYards": 259,
+        "rushAttempts": 43,
+        "yardsPerRush": 6,
+        "penalties": 6,
+        "penaltyYards": 53,
+        "fumblesLost": 0,
+        "possession": "18:20",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 122,
+        "passYards": 204,
+        "passCompletions": 15,
+        "passAttempts": 22,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 0,
+        "rushYards": -8,
+        "rushAttempts": 41,
+        "yardsPerRush": -0.2,
+        "penalties": 3,
+        "penaltyYards": 25,
+        "fumblesLost": 3,
+        "possession": "18:20",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 272440087,
+    "linescore": {
+      "away": [
+        6,
+        10,
+        3,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-09-01-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/08/2007",
+    "location": {
+      "city": "State College",
+      "state": "PA",
+      "stadium": "Beaver Stadium"
+    },
+    "opponentId": "PSU",
+    "score": {
+      "away": 10,
+      "home": 31
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 9,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 144,
+        "passYards": 194,
+        "passCompletions": 17,
+        "passAttempts": 32,
+        "yardsPerPass": 4.5,
+        "interceptionsThrown": 1,
+        "rushYards": 0,
+        "rushAttempts": 26,
+        "yardsPerRush": 0,
+        "penalties": 13,
+        "penaltyYards": 82,
+        "fumblesLost": 0,
+        "possession": "15:34",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 295,
+        "passYards": 149,
+        "passCompletions": 12,
+        "passAttempts": 22,
+        "yardsPerPass": 6,
+        "interceptionsThrown": 1,
+        "rushYards": 164,
+        "rushAttempts": 46,
+        "yardsPerRush": 3.6,
+        "penalties": 7,
+        "penaltyYards": 65,
+        "fumblesLost": 2,
+        "possession": "20:16",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 272510213,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2007-09-08-penn-state",
+    "time": "6:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/15/2007",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 0,
+      "home": 38
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 79,
+        "passYards": 150,
+        "passCompletions": 13,
+        "passAttempts": 22,
+        "yardsPerPass": 3.9,
+        "interceptionsThrown": 2,
+        "rushYards": -6,
+        "rushAttempts": 33,
+        "yardsPerRush": -0.2,
+        "penalties": 7,
+        "penaltyYards": 51,
+        "fumblesLost": 2,
+        "possession": "16:16",
+        "fumbles": 6
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 379,
+        "passYards": 90,
+        "passCompletions": 7,
+        "passAttempts": 16,
+        "yardsPerPass": 5.6,
+        "interceptionsThrown": 0,
+        "rushYards": 289,
+        "rushAttempts": 61,
+        "yardsPerRush": 4.7,
+        "penalties": 4,
+        "penaltyYards": 37,
+        "fumblesLost": 2,
+        "possession": "20:24",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 272580130,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        10,
+        21,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-09-15-michigan",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/22/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 31,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 354,
+        "passYards": 143,
+        "passCompletions": 11,
+        "passAttempts": 24,
+        "yardsPerPass": 5.6,
+        "interceptionsThrown": 1,
+        "rushYards": 219,
+        "rushAttempts": 49,
+        "yardsPerRush": 4.5,
+        "penalties": 3,
+        "penaltyYards": 20,
+        "fumblesLost": 1,
+        "possession": "20:09",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 9,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 203,
+        "passYards": 118,
+        "passCompletions": 11,
+        "passAttempts": 20,
+        "yardsPerPass": 4.3,
+        "interceptionsThrown": 0,
+        "rushYards": 117,
+        "rushAttempts": 35,
+        "yardsPerRush": 3.3,
+        "penalties": 4,
+        "penaltyYards": 35,
+        "fumblesLost": 1,
+        "possession": "16:31",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 272650087,
+    "linescore": {
+      "away": [
+        14,
+        3,
+        14,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-09-22-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/29/2007",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 19,
+      "home": 33
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 4,
+        "fourthDownConversions": 6,
+        "totalYards": 426,
+        "passYards": 391,
+        "passCompletions": 34,
+        "passAttempts": 52,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 2,
+        "rushYards": 49,
+        "rushAttempts": 26,
+        "yardsPerRush": 1.9,
+        "penalties": 11,
+        "penaltyYards": 110,
+        "fumblesLost": 1,
+        "possession": "16:14",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 371,
+        "passYards": 274,
+        "passCompletions": 22,
+        "passAttempts": 37,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 2,
+        "rushYards": 119,
+        "rushAttempts": 42,
+        "yardsPerRush": 2.8,
+        "penalties": 9,
+        "penaltyYards": 67,
+        "fumblesLost": 0,
+        "possession": "20:26",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 272722509,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        6,
+        13
+      ],
+      "home": [
+        10,
+        13,
+        3,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2007-09-29-purdue",
+    "time": "12:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/06/2007",
+    "location": {
+      "city": "Pasadena",
+      "state": "CA",
+      "stadium": "Rose Bowl"
+    },
+    "opponentId": "UCLA",
+    "score": {
+      "away": 20,
+      "home": 6
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 12,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 140,
+        "passYards": 113,
+        "passCompletions": 18,
+        "passAttempts": 28,
+        "yardsPerPass": 3.4,
+        "interceptionsThrown": 0,
+        "rushYards": 46,
+        "rushAttempts": 38,
+        "yardsPerRush": 1.2,
+        "penalties": 8,
+        "penaltyYards": 61,
+        "fumblesLost": 0,
+        "possession": "19:10",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 282,
+        "passYards": 233,
+        "passCompletions": 16,
+        "passAttempts": 38,
+        "yardsPerPass": 5.1,
+        "interceptionsThrown": 4,
+        "rushYards": 89,
+        "rushAttempts": 37,
+        "yardsPerRush": 2.4,
+        "penalties": 11,
+        "penaltyYards": 93,
+        "fumblesLost": 3,
+        "possession": "16:52",
+        "fumbles": 5
+      }
+    },
+    "espnGameId": 272790026,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        17,
+        0
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-10-06-ucla",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/13/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 27,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 3,
+        "totalYards": 459,
+        "passYards": 291,
+        "passCompletions": 32,
+        "passAttempts": 49,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 1,
+        "rushYards": 168,
+        "rushAttempts": 34,
+        "yardsPerRush": 4.9,
+        "penalties": 15,
+        "penaltyYards": 131,
+        "fumblesLost": 0,
+        "possession": "23:43",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 4,
+        "totalYards": 222,
+        "passYards": 206,
+        "passCompletions": 18,
+        "passAttempts": 49,
+        "yardsPerPass": 4,
+        "interceptionsThrown": 2,
+        "rushYards": 27,
+        "rushAttempts": 21,
+        "yardsPerRush": 1.3,
+        "penalties": 7,
+        "penaltyYards": 64,
+        "fumblesLost": 0,
+        "possession": "12:57",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 272860087,
+    "linescore": {
+      "away": [
+        6,
+        7,
+        14,
+        0
+      ],
+      "home": [
+        0,
+        0,
+        14,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-10-13-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 4
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/20/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 38,
+      "home": 0
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 462,
+        "passYards": 235,
+        "passCompletions": 21,
+        "passAttempts": 38,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 0,
+        "rushYards": 227,
+        "rushAttempts": 36,
+        "yardsPerRush": 6.3,
+        "penalties": 8,
+        "penaltyYards": 52,
+        "fumblesLost": 1,
+        "possession": "18:15",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 165,
+        "passYards": 157,
+        "passCompletions": 17,
+        "passAttempts": 33,
+        "yardsPerPass": 3.5,
+        "interceptionsThrown": 1,
+        "rushYards": 48,
+        "rushAttempts": 30,
+        "yardsPerRush": 1.6,
+        "penalties": 3,
+        "penaltyYards": 35,
+        "fumblesLost": 2,
+        "possession": "25:02",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 272930087,
+    "linescore": {
+      "away": [
+        7,
+        10,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-10-20-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 13,
+        "bcs": 14
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/03/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 46,
+      "home": 44
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 338,
+        "passYards": 82,
+        "passCompletions": 6,
+        "passAttempts": 9,
+        "yardsPerPass": 9,
+        "interceptionsThrown": 0,
+        "rushYards": 257,
+        "rushAttempts": 66,
+        "yardsPerRush": 3.9,
+        "penalties": 5,
+        "penaltyYards": 47,
+        "fumblesLost": 1,
+        "possession": "17:59",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 6,
+        "fourthDownConversions": 8,
+        "totalYards": 375,
+        "passYards": 175,
+        "passCompletions": 17,
+        "passAttempts": 27,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 0,
+        "rushYards": 235,
+        "rushAttempts": 63,
+        "yardsPerRush": 3.7,
+        "penalties": 4,
+        "penaltyYards": 36,
+        "fumblesLost": 1,
+        "possession": "18:41",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 273070087,
+    "linescore": {
+      "away": [
+        0,
+        14,
+        6,
+        8,
+        7,
+        3,
+        8
+      ],
+      "home": [
+        7,
+        14,
+        0,
+        7,
+        7,
+        3,
+        6
+      ]
+    },
+    "sportsReferenceGameId": "2007-11-03-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "numOvertimes": 3
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/10/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 41,
+      "home": 24
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 405,
+        "passYards": 120,
+        "passCompletions": 10,
+        "passAttempts": 16,
+        "yardsPerPass": 7.5,
+        "interceptionsThrown": 0,
+        "rushYards": 285,
+        "rushAttempts": 63,
+        "yardsPerRush": 4.5,
+        "penalties": 3,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "20:46",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 5,
+        "totalYards": 304,
+        "passYards": 293,
+        "passCompletions": 22,
+        "passAttempts": 40,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 0,
+        "rushYards": 58,
+        "rushAttempts": 38,
+        "yardsPerRush": 1.5,
+        "penalties": 2,
+        "penaltyYards": 60,
+        "fumblesLost": 2,
+        "possession": "15:54",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 273140087,
+    "linescore": {
+      "away": [
+        10,
+        7,
+        14,
+        10
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2007-11-10-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/17/2007",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "DUKE",
+    "score": {
+      "away": 7,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 232,
+        "passYards": 148,
+        "passCompletions": 18,
+        "passAttempts": 38,
+        "yardsPerPass": 3.6,
+        "interceptionsThrown": 0,
+        "rushYards": 94,
+        "rushAttempts": 27,
+        "yardsPerRush": 3.5,
+        "penalties": 6,
+        "penaltyYards": 55,
+        "fumblesLost": 2,
+        "possession": "15:05",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 414,
+        "passYards": 207,
+        "passCompletions": 16,
+        "passAttempts": 32,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 0,
+        "rushYards": 220,
+        "rushAttempts": 48,
+        "yardsPerRush": 4.6,
+        "penalties": 11,
+        "penaltyYards": 103,
+        "fumblesLost": 1,
+        "possession": "21:35",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 273210087,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2007-11-17-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/24/2007",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 21,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 313,
+        "passYards": 233,
+        "passCompletions": 19,
+        "passAttempts": 32,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 1,
+        "rushYards": 117,
+        "rushAttempts": 38,
+        "yardsPerRush": 3.1,
+        "penalties": 4,
+        "penaltyYards": 46,
+        "fumblesLost": 3,
+        "possession": "15:36",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 327,
+        "passYards": 175,
+        "passCompletions": 15,
+        "passAttempts": 33,
+        "yardsPerPass": 4.6,
+        "interceptionsThrown": 2,
+        "rushYards": 175,
+        "rushAttempts": 44,
+        "yardsPerRush": 4,
+        "penalties": 8,
+        "penaltyYards": 81,
+        "fumblesLost": 0,
+        "possession": "20:34",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 273280024,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2007-11-24-stanford",
+    "time": "3:30 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis"
+  }
+]

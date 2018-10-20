@@ -1,0 +1,1033 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/04/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 12,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 322,
+        "passYards": 254,
+        "passCompletions": 31,
+        "passAttempts": 42,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 2,
+        "rushYards": 102,
+        "rushAttempts": 32,
+        "yardsPerRush": 3.2,
+        "penalties": 5,
+        "penaltyYards": 33,
+        "fumblesLost": 0,
+        "possession": "21:05",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 358,
+        "passYards": 215,
+        "passCompletions": 19,
+        "passAttempts": 26,
+        "yardsPerPass": 7.9,
+        "interceptionsThrown": 0,
+        "rushYards": 153,
+        "rushAttempts": 36,
+        "yardsPerRush": 4.3,
+        "penalties": 2,
+        "penaltyYards": 15,
+        "fumblesLost": 1,
+        "possession": "15:35",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 302470087,
+    "linescore": {
+      "away": [
+        0,
+        3,
+        0,
+        9
+      ],
+      "home": [
+        7,
+        6,
+        7,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2010-09-04-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/11/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 28,
+      "home": 24
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 532,
+        "passYards": 244,
+        "passCompletions": 24,
+        "passAttempts": 40,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 0,
+        "rushYards": 288,
+        "rushAttempts": 41,
+        "yardsPerRush": 7,
+        "penalties": 8,
+        "penaltyYards": 99,
+        "fumblesLost": 0,
+        "possession": "20:49",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 535,
+        "passYards": 392,
+        "passCompletions": 21,
+        "passAttempts": 44,
+        "yardsPerPass": 8.7,
+        "interceptionsThrown": 3,
+        "rushYards": 154,
+        "rushAttempts": 32,
+        "yardsPerRush": 4.8,
+        "penalties": 4,
+        "penaltyYards": 29,
+        "fumblesLost": 0,
+        "possession": "15:51",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 302540087,
+    "linescore": {
+      "away": [
+        14,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        10,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2010-09-11-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/18/2010",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 31,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 461,
+        "passYards": 375,
+        "passCompletions": 32,
+        "passAttempts": 55,
+        "yardsPerPass": 6.7,
+        "interceptionsThrown": 1,
+        "rushYards": 92,
+        "rushAttempts": 26,
+        "yardsPerRush": 3.5,
+        "penalties": 7,
+        "penaltyYards": 72,
+        "fumblesLost": 2,
+        "possession": "15:15",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 477,
+        "passYards": 296,
+        "passCompletions": 24,
+        "passAttempts": 34,
+        "yardsPerPass": 8.1,
+        "interceptionsThrown": 1,
+        "rushYards": 203,
+        "rushAttempts": 43,
+        "yardsPerRush": 4.7,
+        "penalties": 11,
+        "penaltyYards": 79,
+        "fumblesLost": 0,
+        "possession": "20:41",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 302610127,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7,
+        6
+      ]
+    },
+    "sportsReferenceGameId": "2010-09-18-michigan-state",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Brian Kelly",
+    "numOvertimes": 1
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/25/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 37,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 404,
+        "passYards": 238,
+        "passCompletions": 19,
+        "passAttempts": 32,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 2,
+        "rushYards": 166,
+        "rushAttempts": 44,
+        "yardsPerRush": 3.8,
+        "penalties": 5,
+        "penaltyYards": 30,
+        "fumblesLost": 1,
+        "possession": "24:35",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 351,
+        "passYards": 323,
+        "passCompletions": 26,
+        "passAttempts": 45,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 1,
+        "rushYards": 44,
+        "rushAttempts": 23,
+        "yardsPerRush": 1.9,
+        "penalties": 6,
+        "penaltyYards": 62,
+        "fumblesLost": 1,
+        "possession": "14:15",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 302680087,
+    "linescore": {
+      "away": [
+        10,
+        6,
+        3,
+        18
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        8
+      ]
+    },
+    "sportsReferenceGameId": "2010-09-25-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 16
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/02/2010",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium"
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 31,
+      "home": 13
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 315,
+        "passYards": 209,
+        "passCompletions": 24,
+        "passAttempts": 45,
+        "yardsPerPass": 4.5,
+        "interceptionsThrown": 1,
+        "rushYards": 112,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.6,
+        "penalties": 2,
+        "penaltyYards": 22,
+        "fumblesLost": 2,
+        "possession": "17:25",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 270,
+        "passYards": 289,
+        "passCompletions": 27,
+        "passAttempts": 47,
+        "yardsPerPass": 5.6,
+        "interceptionsThrown": 2,
+        "rushYards": 5,
+        "rushAttempts": 23,
+        "yardsPerRush": 0.2,
+        "penalties": 12,
+        "penaltyYards": 120,
+        "fumblesLost": 0,
+        "possession": "19:15",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 302750103,
+    "linescore": {
+      "away": [
+        21,
+        3,
+        7,
+        0
+      ],
+      "home": [
+        7,
+        6,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2010-10-02-boston-college",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/09/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 17,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 4,
+        "totalYards": 382,
+        "passYards": 286,
+        "passCompletions": 27,
+        "passAttempts": 39,
+        "yardsPerPass": 7,
+        "interceptionsThrown": 1,
+        "rushYards": 110,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.5,
+        "penalties": 3,
+        "penaltyYards": 23,
+        "fumblesLost": 1,
+        "possession": "19:22",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 329,
+        "passYards": 262,
+        "passCompletions": 24,
+        "passAttempts": 39,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 0,
+        "rushYards": 87,
+        "rushAttempts": 31,
+        "yardsPerRush": 2.8,
+        "penalties": 6,
+        "penaltyYards": 60,
+        "fumblesLost": 0,
+        "possession": "17:18",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 302820087,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        10,
+        3,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2010-10-09-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/16/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "WMU",
+    "score": {
+      "away": 20,
+      "home": 44
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 314,
+        "passYards": 300,
+        "passCompletions": 28,
+        "passAttempts": 43,
+        "yardsPerPass": 6.4,
+        "interceptionsThrown": 2,
+        "rushYards": 37,
+        "rushAttempts": 26,
+        "yardsPerRush": 1.4,
+        "penalties": 2,
+        "penaltyYards": 23,
+        "fumblesLost": 2,
+        "possession": "18:05",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 448,
+        "passYards": 318,
+        "passCompletions": 20,
+        "passAttempts": 30,
+        "yardsPerPass": 10,
+        "interceptionsThrown": 1,
+        "rushYards": 149,
+        "rushAttempts": 34,
+        "yardsPerRush": 4.4,
+        "penalties": 9,
+        "penaltyYards": 80,
+        "fumblesLost": 0,
+        "possession": "18:35",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 302890087,
+    "linescore": {
+      "away": [
+        7,
+        10,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        20,
+        14,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2010-10-16-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/23/2010",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "New Meadowlands Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 17,
+      "home": 35
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 363,
+        "passYards": 262,
+        "passCompletions": 25,
+        "passAttempts": 38,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 2,
+        "rushYards": 106,
+        "rushAttempts": 30,
+        "yardsPerRush": 3.5,
+        "penalties": 1,
+        "penaltyYards": 15,
+        "fumblesLost": 0,
+        "possession": "14:51",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 438,
+        "passYards": 71,
+        "passCompletions": 2,
+        "passAttempts": 2,
+        "yardsPerPass": 35.5,
+        "interceptionsThrown": 0,
+        "rushYards": 367,
+        "rushAttempts": 60,
+        "yardsPerRush": 6.1,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "21:49",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 302962426,
+    "linescore": {
+      "away": [
+        3,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        14,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2010-10-23-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/30/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TULSA",
+    "score": {
+      "away": 28,
+      "home": 27
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 399,
+        "passYards": 222,
+        "passCompletions": 18,
+        "passAttempts": 34,
+        "yardsPerPass": 5.8,
+        "interceptionsThrown": 0,
+        "rushYards": 203,
+        "rushAttempts": 39,
+        "yardsPerRush": 5.2,
+        "penalties": 12,
+        "penaltyYards": 133,
+        "fumblesLost": 2,
+        "possession": "18:05",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 458,
+        "passYards": 341,
+        "passCompletions": 33,
+        "passAttempts": 56,
+        "yardsPerPass": 6,
+        "interceptionsThrown": 3,
+        "rushYards": 124,
+        "rushAttempts": 24,
+        "yardsPerRush": 5.2,
+        "penalties": 7,
+        "penaltyYards": 46,
+        "fumblesLost": 1,
+        "possession": "27:33",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 303030087,
+    "linescore": {
+      "away": [
+        12,
+        6,
+        7,
+        3
+      ],
+      "home": [
+        13,
+        7,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2010-10-30-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/13/2010",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UTAH",
+    "score": {
+      "away": 3,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 4,
+        "totalYards": 265,
+        "passYards": 211,
+        "passCompletions": 24,
+        "passAttempts": 40,
+        "yardsPerPass": 4.8,
+        "interceptionsThrown": 1,
+        "rushYards": 71,
+        "rushAttempts": 29,
+        "yardsPerRush": 2.4,
+        "penalties": 11,
+        "penaltyYards": 70,
+        "fumblesLost": 1,
+        "possession": "21:15",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 10,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 256,
+        "passYards": 136,
+        "passCompletions": 13,
+        "passAttempts": 20,
+        "yardsPerPass": 6.4,
+        "interceptionsThrown": 0,
+        "rushYards": 127,
+        "rushAttempts": 29,
+        "yardsPerRush": 4.4,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "15:25",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 303170087,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        14,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2010-11-13-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 15,
+        "bcs": 14
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/20/2010",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium"
+    },
+    "opponentId": "ARMY",
+    "isShamrockSeries": true,
+    "score": {
+      "away": 3,
+      "home": 27
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 8,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 174,
+        "passYards": 39,
+        "passCompletions": 2,
+        "passAttempts": 8,
+        "yardsPerPass": 4.9,
+        "interceptionsThrown": 2,
+        "rushYards": 135,
+        "rushAttempts": 43,
+        "yardsPerRush": 3.1,
+        "penalties": 3,
+        "penaltyYards": 28,
+        "fumblesLost": 0,
+        "possession": "17:21",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 15,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 369,
+        "passYards": 214,
+        "passCompletions": 13,
+        "passAttempts": 20,
+        "yardsPerPass": 10.7,
+        "interceptionsThrown": 1,
+        "rushYards": 155,
+        "rushAttempts": 38,
+        "yardsPerRush": 4.1,
+        "penalties": 5,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "18:38",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 303240087,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        17,
+        10,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2010-11-20-army",
+    "time": "7:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/27/2010",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 20,
+      "home": 16
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 15,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 296,
+        "passYards": 154,
+        "passCompletions": 20,
+        "passAttempts": 34,
+        "yardsPerPass": 4.4,
+        "interceptionsThrown": 3,
+        "rushYards": 147,
+        "rushAttempts": 32,
+        "yardsPerRush": 4.6,
+        "penalties": 1,
+        "penaltyYards": 10,
+        "fumblesLost": 1,
+        "possession": "17:18",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 12,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 261,
+        "passYards": 187,
+        "passCompletions": 22,
+        "passAttempts": 39,
+        "yardsPerPass": 4.8,
+        "interceptionsThrown": 1,
+        "rushYards": 74,
+        "rushAttempts": 29,
+        "yardsPerRush": 2.6,
+        "penalties": 8,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "19:20",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 303310030,
+    "linescore": {
+      "away": [
+        0,
+        13,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        10,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2010-11-27-southern-california",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "12/31/2010",
+    "location": {
+      "city": "El Paso",
+      "state": "TX",
+      "stadium": "Sun Bowl Stadium"
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 33,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 397,
+        "passYards": 201,
+        "passCompletions": 15,
+        "passAttempts": 29,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 0,
+        "rushYards": 196,
+        "rushAttempts": 48,
+        "yardsPerRush": 4.1,
+        "penalties": 3,
+        "penaltyYards": 20,
+        "fumblesLost": 0,
+        "possession": "22:27",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 406,
+        "passYards": 335,
+        "passCompletions": 26,
+        "passAttempts": 40,
+        "yardsPerPass": 8,
+        "interceptionsThrown": 4,
+        "rushYards": 87,
+        "rushAttempts": 25,
+        "yardsPerRush": 3.5,
+        "penalties": 10,
+        "penaltyYards": 90,
+        "fumblesLost": 0,
+        "possession": "13:13",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 303652390,
+    "linescore": {
+      "home": [
+        0,
+        3,
+        0,
+        14
+      ],
+      "away": [
+        14,
+        13,
+        3,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2010-12-31-miami-fl",
+    "time": "2:00 PM",
+    "coverage": "CBS",
+    "nickname": "Sun Bowl",
+    "headCoach": "Brian Kelly"
+  }
+]

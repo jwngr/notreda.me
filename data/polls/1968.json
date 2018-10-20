@@ -1,0 +1,1724 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Purdue": {
+          "record": "0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Oregon State": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "Pac-8",
+          "previousRanking": "NA"
+        },
+        "Florida": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Texas A&M": {
+          "record": "0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Indiana": {
+          "record": "0-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Nebraska": {
+          "record": "0-0",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "Minnesota": {
+          "record": "0-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "UCLA": {
+          "record": "0-0",
+          "ranking": 16,
+          "conference": "Pac-8",
+          "previousRanking": "NA"
+        },
+        "Arizona State": {
+          "record": "0-0",
+          "ranking": 17,
+          "conference": "WAC",
+          "previousRanking": "NA"
+        },
+        "LSU": {
+          "record": "0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Syracuse": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1968-09-16",
+      "teams": {
+        "Purdue": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "USC": {
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Notre Dame": {
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Texas": {
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "Oklahoma": {
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Florida": {
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Alabama": {
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Oregon State": {
+          "ranking": 8,
+          "conference": "Pac-8",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Penn State": {
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Houston": {
+          "record": "1-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "0-0-1",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Texas A&M": {
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Nebraska": {
+          "record": "1-0-0",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Indiana": {
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Minnesota": {
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "UCLA": {
+          "ranking": 16,
+          "conference": "Pac-8",
+          "previousRanking": "16"
+        },
+        "Georgia": {
+          "record": "0-0-1",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "LSU": {
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "18"
+        }
+      }
+    },
+    {
+      "date": "1968-09-23",
+      "teams": {
+        "Purdue": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Notre Dame": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "USC": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "1-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Florida": {
+          "record": "1-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Texas": {
+          "record": "0-0-1",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Alabama": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "UCLA": {
+          "record": "1-0-0",
+          "ranking": 8,
+          "conference": "Pac-8",
+          "previousRanking": "16"
+        },
+        "Nebraska": {
+          "record": "2-0-0",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Houston": {
+          "record": "1-0-1",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Ohio State": {
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Kansas": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Indiana": {
+          "record": "1-0-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "LSU": {
+          "record": "1-0-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "Tennessee": {
+          "record": "0-0-1",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Minnesota": {
+          "record": "0-1-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "Oregon State": {
+          "record": "0-1-0",
+          "ranking": 18,
+          "conference": "Pac-8",
+          "previousRanking": "8"
+        },
+        "Arizona State": {
+          "record": "1-0-0",
+          "ranking": 19,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        },
+        "Wyoming": {
+          "record": "1-1-0",
+          "ranking": 20,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-09-30",
+      "teams": {
+        "Purdue": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "USC": {
+          "record": "2-0-0",
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "3"
+        },
+        "Penn State": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Florida": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "1-1-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "1-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Nebraska": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Kansas": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "12"
+        },
+        "UCLA": {
+          "record": "2-0-0",
+          "ranking": 9,
+          "conference": "Pac-8",
+          "previousRanking": "8"
+        },
+        "LSU": {
+          "record": "2-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Alabama": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Houston": {
+          "record": "1-0-1",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Arizona State": {
+          "record": "2-0-0",
+          "ranking": 14,
+          "conference": "WAC",
+          "previousRanking": "19"
+        },
+        "Tennessee": {
+          "record": "1-0-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Georgia": {
+          "record": "1-0-1",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Texas A&M": {
+          "record": "1-1-0",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "California": {
+          "record": "2-0-0",
+          "ranking": 18,
+          "conference": "Pac-8",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "record": "2-0-0",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Arkansas": {
+          "record": "2-0-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-10-07",
+      "teams": {
+        "Purdue": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "USC": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Notre Dame": {
+          "record": "2-1-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Kansas": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Florida": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "LSU": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Nebraska": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "2-0-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Houston": {
+          "record": "2-0-1",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Michigan State": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        },
+        "Ole Miss": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Arkansas": {
+          "record": "3-0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Syracuse": {
+          "record": "2-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "California": {
+          "record": "3-0-0",
+          "ranking": 16,
+          "conference": "Pac-8",
+          "previousRanking": "18"
+        },
+        "Georgia": {
+          "record": "2-0-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Stanford": {
+          "record": "3-0-0",
+          "ranking": 18,
+          "conference": "Pac-8",
+          "previousRanking": "NR"
+        },
+        "Florida State": {
+          "record": "2-1-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Oregon State": {
+          "record": "2-1-0",
+          "ranking": 20,
+          "conference": "Pac-8",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-10-14",
+      "teams": {
+        "USC": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Penn State": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Kansas": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Purdue": {
+          "record": "3-1-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Notre Dame": {
+          "record": "3-1-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Florida": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "3-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Arkansas": {
+          "record": "4-0-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Georgia": {
+          "record": "3-0-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Syracuse": {
+          "record": "3-1-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Nebraska": {
+          "record": "3-1-0",
+          "ranking": 13,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Stanford": {
+          "record": "3-1-0",
+          "ranking": 14,
+          "conference": "Pac-8",
+          "previousRanking": "18"
+        },
+        "Texas Tech": {
+          "record": "3-0-1",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "3-1-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "Texas": {
+          "record": "2-1-1",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "3-1-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Indiana": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Missouri": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-10-21",
+      "teams": {
+        "USC": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "4-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Kansas": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "Big 8",
+          "previousRanking": "4"
+        },
+        "Penn State": {
+          "record": "4-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "4-1-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "4-0-1",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Purdue": {
+          "record": "4-1-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Georgia": {
+          "record": "4-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Syracuse": {
+          "record": "3-1-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "California": {
+          "record": "4-1-0",
+          "ranking": 11,
+          "conference": "Pac-8",
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "4-1-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Texas": {
+          "record": "3-1-1",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "17"
+        },
+        "Missouri": {
+          "record": "4-1-0",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "20"
+        },
+        "Florida": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Arkansas": {
+          "record": "4-1-0",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Ole Miss": {
+          "record": "4-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "LSU": {
+          "record": "4-1-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Texas Tech": {
+          "record": "3-0-2",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Florida State": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-10-28",
+      "teams": {
+        "USC": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Kansas": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "Big 8",
+          "previousRanking": "3"
+        },
+        "Penn State": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "4-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Purdue": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Georgia": {
+          "record": "5-0-1",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "California": {
+          "record": "5-1-0",
+          "ranking": 8,
+          "conference": "Pac-8",
+          "previousRanking": "11"
+        },
+        "Michigan": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Missouri": {
+          "record": "5-1-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Texas": {
+          "record": "4-1-1",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Notre Dame": {
+          "record": "4-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Southern Methodist": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Houston": {
+          "record": "3-1-1",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "record": "4-2-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Arkansas": {
+          "record": "5-1-0",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "16"
+        },
+        "Florida State": {
+          "record": "4-1-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Ohio": {
+          "record": "6-0-0",
+          "ranking": 19,
+          "conference": "MAC",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "4-1-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "15"
+        }
+      }
+    },
+    {
+      "date": "1968-11-04",
+      "teams": {
+        "USC": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "6-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Kansas": {
+          "record": "7-0-0",
+          "ranking": 3,
+          "conference": "Big 8",
+          "previousRanking": "3"
+        },
+        "Penn State": {
+          "record": "6-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "5-0-1",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Purdue": {
+          "record": "6-1-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Missouri": {
+          "record": "6-1-0",
+          "ranking": 8,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Georgia": {
+          "record": "5-0-2",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "record": "5-1-1",
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "California": {
+          "record": "5-1-1",
+          "ranking": 11,
+          "conference": "Pac-8",
+          "previousRanking": "8"
+        },
+        "Notre Dame": {
+          "record": "5-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Houston": {
+          "record": "3-1-2",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Arkansas": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "17"
+        },
+        "Oregon State": {
+          "record": "5-2-0",
+          "ranking": 15,
+          "conference": "Pac-8",
+          "previousRanking": "NR"
+        },
+        "Ohio": {
+          "record": "7-0-0",
+          "ranking": 16,
+          "conference": "MAC",
+          "previousRanking": "19"
+        },
+        "Michigan State": {
+          "record": "4-3-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        },
+        "Auburn": {
+          "record": "5-2-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Wyoming": {
+          "record": "6-2-0",
+          "ranking": 19,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "5-2-0",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "14"
+        }
+      }
+    },
+    {
+      "date": "1968-11-11",
+      "teams": {
+        "USC": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "7-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Michigan": {
+          "record": "7-1-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Georgia": {
+          "record": "6-0-2",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Missouri": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "8"
+        },
+        "Kansas": {
+          "record": "7-1-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "3"
+        },
+        "Texas": {
+          "record": "6-1-1",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "10"
+        },
+        "Notre Dame": {
+          "record": "6-2-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Arkansas": {
+          "record": "7-1-0",
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Tennessee": {
+          "record": "5-1-1",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Auburn": {
+          "record": "6-2-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Oregon State": {
+          "record": "6-2-0",
+          "ranking": 13,
+          "conference": "Pac-8",
+          "previousRanking": "15"
+        },
+        "Houston": {
+          "record": "4-1-2",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "13"
+        },
+        "Purdue": {
+          "record": "6-2-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Alabama": {
+          "record": "6-2-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Ohio": {
+          "record": "8-0-0",
+          "ranking": 17,
+          "conference": "MAC",
+          "previousRanking": "16"
+        },
+        "California": {
+          "record": "5-2-1",
+          "ranking": 18,
+          "conference": "Pac-8",
+          "previousRanking": "11"
+        },
+        "Indiana": {
+          "record": "6-2-0",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Wyoming": {
+          "record": "6-2-0",
+          "ranking": 20,
+          "conference": "WAC",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1968-11-18",
+      "teams": {
+        "USC": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "8-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Michigan": {
+          "record": "8-1-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Georgia": {
+          "record": "7-0-2",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Texas": {
+          "record": "7-1-1",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "Kansas": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "6-1-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Arkansas": {
+          "record": "8-1-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "10"
+        },
+        "Notre Dame": {
+          "record": "7-2-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Houston": {
+          "record": "5-1-2",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Purdue": {
+          "record": "7-2-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Missouri": {
+          "record": "7-2-0",
+          "ranking": 13,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Oklahoma": {
+          "record": "5-3-0",
+          "ranking": 14,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Oregon State": {
+          "record": "6-3-0",
+          "ranking": 16,
+          "conference": "Pac-8",
+          "previousRanking": "13"
+        },
+        "Ohio": {
+          "record": "9-0-0",
+          "ranking": 17,
+          "conference": "MAC",
+          "previousRanking": "17"
+        },
+        "California": {
+          "record": "6-2-1",
+          "ranking": 18,
+          "conference": "Pac-8",
+          "previousRanking": "18"
+        },
+        "Auburn": {
+          "record": "6-3-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Wyoming": {
+          "record": "7-2-0",
+          "ranking": 20,
+          "conference": "WAC",
+          "previousRanking": "20"
+        }
+      }
+    },
+    {
+      "date": "1968-11-25",
+      "teams": {
+        "Ohio State": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "USC": {
+          "record": "9-0-0",
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "record": "9-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Georgia": {
+          "record": "7-0-2",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Kansas": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "record": "7-1-1",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "7-1-1",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Arkansas": {
+          "record": "9-1-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Notre Dame": {
+          "record": "7-2-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Houston": {
+          "record": "6-1-2",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Oklahoma": {
+          "record": "6-3-0",
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "14"
+        },
+        "Purdue": {
+          "record": "8-2-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Michigan": {
+          "record": "8-2-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Oregon State": {
+          "record": "7-3-0",
+          "ranking": 14,
+          "conference": "Pac-8",
+          "previousRanking": "16"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Missouri": {
+          "record": "7-3-0",
+          "ranking": 16,
+          "conference": "Big 8",
+          "previousRanking": "13"
+        },
+        "Ohio": {
+          "record": "10-0-0",
+          "ranking": 17,
+          "conference": "MAC",
+          "previousRanking": "17"
+        },
+        "Auburn": {
+          "record": "6-3-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "19"
+        },
+        "Arizona": {
+          "record": "8-1-0",
+          "ranking": 19,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        },
+        "Arizona State": {
+          "record": "7-2-0",
+          "ranking": 20,
+          "conference": "WAC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1968-12-02",
+      "teams": {
+        "Ohio State": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "USC": {
+          "record": "9-0-1",
+          "ranking": 2,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "9-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Georgia": {
+          "record": "8-0-2",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Texas": {
+          "record": "8-1-1",
+          "ranking": 5,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Kansas": {
+          "record": "9-1-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "7-2-1",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "8-1-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Arkansas": {
+          "record": "9-1-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "Oklahoma": {
+          "record": "7-3-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "11"
+        },
+        "Purdue": {
+          "record": "8-2-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Alabama": {
+          "record": "8-2-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Michigan": {
+          "record": "8-2-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Oregon State": {
+          "record": "7-3-0",
+          "ranking": 14,
+          "conference": "Pac-8",
+          "previousRanking": "14"
+        },
+        "Ohio": {
+          "record": "10-0-0",
+          "ranking": 15,
+          "conference": "MAC",
+          "previousRanking": "17"
+        },
+        "Missouri": {
+          "record": "7-3-0",
+          "ranking": 16,
+          "conference": "Big 8",
+          "previousRanking": "16"
+        },
+        "Arizona State": {
+          "record": "8-2-0",
+          "ranking": 17,
+          "conference": "WAC",
+          "previousRanking": "20"
+        },
+        "Houston": {
+          "record": "6-2-2",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Florida State": {
+          "record": "8-2-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "7-3-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Ohio State": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Texas": {
+          "ranking": 3,
+          "conference": "SWC",
+          "previousRanking": "5"
+        },
+        "USC": {
+          "ranking": 4,
+          "conference": "Pac-8",
+          "previousRanking": "2"
+        },
+        "Notre Dame": {
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Arkansas": {
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Kansas": {
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Georgia": {
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Missouri": {
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "16"
+        },
+        "Purdue": {
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Oklahoma": {
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Michigan": {
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Tennessee": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Southern Methodist": {
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Oregon State": {
+          "ranking": 15,
+          "conference": "Pac-8",
+          "previousRanking": "14"
+        },
+        "Auburn": {
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Houston": {
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "LSU": {
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Ohio": {
+          "ranking": 20,
+          "conference": "MAC",
+          "previousRanking": "15"
+        }
+      }
+    }
+  ]
+}

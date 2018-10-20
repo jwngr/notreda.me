@@ -1,0 +1,668 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/18/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 7,
+      "home": 50
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 2
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/25/1971",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 8,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 2
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/02/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 2,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/09/1971",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Orange Bowl"
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 17,
+      "home": 0
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:15 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 7
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/16/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UNC",
+    "score": {
+      "away": 0,
+      "home": 16
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/23/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 28,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/30/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 0,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 12
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/06/1971",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 56,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:00 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 8
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/13/1971",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TULN",
+    "score": {
+      "away": 7,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/20/1971",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "LA",
+      "stadium": "Tiger Stadium"
+    },
+    "opponentId": "LSU",
+    "score": {
+      "away": 8,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:05 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 7
+      },
+      "home": {
+        "ap": 14
+      }
+    }
+  }
+]

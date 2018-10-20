@@ -1,0 +1,987 @@
+{
+  "ap": [
+    {
+      "date": "1942-10-12",
+      "teams": {
+        "Ohio State": {
+          "record": "3-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Georgia": {
+          "record": "4-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "2-1-0",
+          "ranking": 3,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Illinois": {
+          "record": "3-0-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Georgia Tech": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Wisconsin": {
+          "record": "3-0-1",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Pennsylvania": {
+          "record": "2-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Colgate": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Washington State": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "PCC",
+          "previousRanking": "NA"
+        },
+        "Boston College": {
+          "record": "2-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Vanderbilt": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Duquesne": {
+          "record": "3-0-0",
+          "ranking": 13,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Minnesota": {
+          "record": "1-2-0",
+          "ranking": 14,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Santa Clara": {
+          "record": "3-0-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "2-0-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "TCU": {
+          "record": "3-0-0",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Army": {
+          "record": "2-0-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Iowa": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "Western",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1942-10-19",
+      "teams": {
+        "Ohio State": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Georgia": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Alabama": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Michigan": {
+          "record": "3-1-0",
+          "ranking": 4,
+          "conference": "Western",
+          "previousRanking": "3"
+        },
+        "Illinois": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Georgia Tech": {
+          "record": "4-0-0",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Wisconsin": {
+          "record": "4-0-1",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Notre Dame": {
+          "record": "2-1-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Santa Clara": {
+          "record": "4-0-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "Boston College": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Army": {
+          "record": "3-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "TCU": {
+          "record": "4-0-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "17"
+        },
+        "Minnesota": {
+          "record": "2-2-0",
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "14"
+        },
+        "UCLA": {
+          "record": "2-2-0",
+          "ranking": 14,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Mississippi State": {
+          "record": "2-2-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Pennsylvania": {
+          "record": "2-1-1",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Tennessee": {
+          "record": "2-1-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "North Carolina": {
+          "record": "3-0-1",
+          "ranking": 19,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "Syracuse": {
+          "record": "4-0-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1942-10-26",
+      "teams": {
+        "Ohio State": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Georgia": {
+          "record": "6-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Alabama": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Notre Dame": {
+          "record": "3-1-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Georgia Tech": {
+          "record": "5-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Wisconsin": {
+          "record": "5-0-1",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Boston College": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "10"
+        },
+        "Army": {
+          "record": "4-0-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "TCU": {
+          "record": "5-0-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Minnesota": {
+          "record": "3-2-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "13"
+        },
+        "UCLA": {
+          "record": "3-2-0",
+          "ranking": 11,
+          "conference": "PCC",
+          "previousRanking": "14"
+        },
+        "Illinois": {
+          "record": "4-1-0",
+          "ranking": 12,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "record": "3-2-0",
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "4"
+        },
+        "Pennsylvania": {
+          "record": "3-1-1",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Syracuse": {
+          "record": "5-0-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "20"
+        },
+        "Tulsa": {
+          "record": "5-0-0",
+          "ranking": 15,
+          "conference": "MVC",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "5-1-0",
+          "ranking": 17,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "William & Mary": {
+          "record": "4-0-1",
+          "ranking": 18,
+          "conference": "Southern",
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "5-1-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "3-1-1",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "17"
+        }
+      }
+    },
+    {
+      "date": "1942-11-02",
+      "teams": {
+        "Georgia": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Wisconsin": {
+          "record": "6-0-1",
+          "ranking": 2,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Georgia Tech": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "4-1-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Boston College": {
+          "record": "5-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Ohio State": {
+          "record": "5-1-0",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "1"
+        },
+        "Minnesota": {
+          "record": "4-2-0",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "10"
+        },
+        "Alabama": {
+          "record": "5-1-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Pennsylvania": {
+          "record": "4-1-1",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "UCLA": {
+          "record": "4-2-0",
+          "ranking": 10,
+          "conference": "PCC",
+          "previousRanking": "11"
+        },
+        "Michigan": {
+          "record": "4-2-0",
+          "ranking": 11,
+          "conference": "Western",
+          "previousRanking": "13"
+        },
+        "Tulsa": {
+          "record": "6-0-0",
+          "ranking": 12,
+          "conference": "MVC",
+          "previousRanking": "15"
+        },
+        "Tennessee": {
+          "record": "4-1-1",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Texas": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "17"
+        },
+        "Santa Clara": {
+          "record": "5-1-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Baylor": {
+          "record": "6-1-0",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "William & Mary": {
+          "record": "5-0-1",
+          "ranking": 17,
+          "conference": "Southern",
+          "previousRanking": "18"
+        },
+        "Fresno State": {
+          "ranking": 18,
+          "conference": "",
+          "previousRanking": "NR"
+        },
+        "Army": {
+          "record": "4-1-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Illinois": {
+          "record": "4-2-0",
+          "ranking": 20,
+          "conference": "Western",
+          "previousRanking": "12"
+        }
+      }
+    },
+    {
+      "date": "1942-11-09",
+      "teams": {
+        "Georgia": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Boston College": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Notre Dame": {
+          "record": "5-1-1",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Alabama": {
+          "record": "6-1-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Michigan": {
+          "record": "5-2-0",
+          "ranking": 6,
+          "conference": "Western",
+          "previousRanking": "11"
+        },
+        "Wisconsin": {
+          "record": "6-1-1",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "2"
+        },
+        "Texas": {
+          "record": "7-1-0",
+          "ranking": 8,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Tulsa": {
+          "record": "7-0-0",
+          "ranking": 9,
+          "conference": "MVC",
+          "previousRanking": "12"
+        },
+        "Ohio State": {
+          "record": "6-1-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Tennessee": {
+          "record": "5-1-1",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "Iowa": {
+          "record": "6-2-0",
+          "ranking": 12,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "Illinois": {
+          "record": "5-2-0",
+          "ranking": 13,
+          "conference": "Western",
+          "previousRanking": "20"
+        },
+        "Washington State": {
+          "record": "5-1-0",
+          "ranking": 14,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "William & Mary": {
+          "record": "6-0-1",
+          "ranking": 15,
+          "conference": "Southern",
+          "previousRanking": "17"
+        },
+        "Minnesota": {
+          "record": "4-3-0",
+          "ranking": 16,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Pennsylvania": {
+          "record": "4-2-1",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "UCLA": {
+          "record": "4-3-0",
+          "ranking": 18,
+          "conference": "PCC",
+          "previousRanking": "10"
+        },
+        "Hardin-Simmons": {
+          "record": "8-0-0",
+          "ranking": 19,
+          "conference": "BIAA",
+          "previousRanking": "NR"
+        },
+        "Williams": {
+          "ranking": 20,
+          "conference": "",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1942-11-16",
+      "teams": {
+        "Georgia": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Georgia Tech": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Boston College": {
+          "record": "7-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Michigan": {
+          "record": "6-2-0",
+          "ranking": 4,
+          "conference": "Western",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "record": "7-1-0",
+          "ranking": 5,
+          "conference": "Western",
+          "previousRanking": "10"
+        },
+        "Tulsa": {
+          "record": "8-0-0",
+          "ranking": 6,
+          "conference": "MVC",
+          "previousRanking": "9"
+        },
+        "Wisconsin": {
+          "record": "7-1-1",
+          "ranking": 7,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Notre Dame": {
+          "record": "5-2-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Alabama": {
+          "record": "6-2-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Minnesota": {
+          "record": "5-3-0",
+          "ranking": 10,
+          "conference": "Western",
+          "previousRanking": "16"
+        },
+        "Tennessee": {
+          "record": "6-1-1",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Washington State": {
+          "record": "6-1-0",
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "14"
+        },
+        "William & Mary": {
+          "record": "7-0-1",
+          "ranking": 13,
+          "conference": "Southern",
+          "previousRanking": "15"
+        },
+        "Santa Clara": {
+          "record": "6-1-0",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "7-2-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "8"
+        },
+        "USC": {
+          "record": "3-3-1",
+          "ranking": 16,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "Hardin-Simmons": {
+          "record": "9-0-0",
+          "ranking": 17,
+          "conference": "BIAA",
+          "previousRanking": "19"
+        },
+        "Indiana": {
+          "record": "5-3-0",
+          "ranking": 18,
+          "conference": "Western",
+          "previousRanking": "NR"
+        },
+        "TCU": {
+          "record": "6-2-0",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "4-3-0",
+          "ranking": 18,
+          "conference": "PCC",
+          "previousRanking": "18"
+        }
+      }
+    },
+    {
+      "date": "1942-11-23",
+      "teams": {
+        "Boston College": {
+          "record": "8-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Georgia Tech": {
+          "record": "9-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "8-1-0",
+          "ranking": 3,
+          "conference": "Western",
+          "previousRanking": "5"
+        },
+        "Wisconsin": {
+          "record": "8-1-1",
+          "ranking": 4,
+          "conference": "Western",
+          "previousRanking": "7"
+        },
+        "Georgia": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Tulsa": {
+          "record": "9-0-0",
+          "ranking": 6,
+          "conference": "MVC",
+          "previousRanking": "6"
+        },
+        "Alabama": {
+          "record": "7-2-0",
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Notre Dame": {
+          "record": "6-2-1",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Michigan": {
+          "record": "6-3-0",
+          "ranking": 9,
+          "conference": "Western",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "7-1-1",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "UCLA": {
+          "record": "5-3-0",
+          "ranking": 11,
+          "conference": "PCC",
+          "previousRanking": "18"
+        },
+        "Santa Clara": {
+          "record": "6-2-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Stanford": {
+          "record": "5-4-0",
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "NR"
+        },
+        "USC": {
+          "record": "3-3-1",
+          "ranking": 14,
+          "conference": "PCC",
+          "previousRanking": "16"
+        },
+        "Washington State": {
+          "record": "6-1-1",
+          "ranking": 15,
+          "conference": "PCC",
+          "previousRanking": "12"
+        },
+        "Auburn": {
+          "record": "5-4-1",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Mississippi State": {
+          "record": "6-2-0",
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "7-2-0",
+          "ranking": 18,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "William & Mary": {
+          "record": "7-1-1",
+          "ranking": 19,
+          "conference": "Southern",
+          "previousRanking": "13"
+        },
+        "Minnesota": {
+          "record": "5-4-0",
+          "ranking": 20,
+          "conference": "Western",
+          "previousRanking": "10"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Ohio State": {
+          "ranking": 1,
+          "conference": "Western",
+          "previousRanking": "3"
+        },
+        "Georgia": {
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "Wisconsin": {
+          "ranking": 3,
+          "conference": "Western",
+          "previousRanking": "4"
+        },
+        "Tulsa": {
+          "ranking": 4,
+          "conference": "MVC",
+          "previousRanking": "6"
+        },
+        "Georgia Tech": {
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Notre Dame": {
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Tennessee": {
+          "ranking": 7,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Boston College": {
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Michigan": {
+          "ranking": 9,
+          "conference": "Western",
+          "previousRanking": "9"
+        },
+        "Alabama": {
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "7"
+        },
+        "Texas": {
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "18"
+        },
+        "Stanford": {
+          "ranking": 12,
+          "conference": "PCC",
+          "previousRanking": "12"
+        },
+        "UCLA": {
+          "ranking": 13,
+          "conference": "PCC",
+          "previousRanking": "11"
+        },
+        "William & Mary": {
+          "ranking": 14,
+          "conference": "Southern",
+          "previousRanking": "19"
+        },
+        "Santa Clara": {
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "12"
+        },
+        "Auburn": {
+          "ranking": 16,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Washington State": {
+          "ranking": 17,
+          "conference": "PCC",
+          "previousRanking": "15"
+        },
+        "Mississippi State": {
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "16"
+        },
+        "Holy Cross": {
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Minnesota": {
+          "ranking": 19,
+          "conference": "Western",
+          "previousRanking": "20"
+        },
+        "Penn State": {
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    }
+  ]
+}

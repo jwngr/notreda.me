@@ -1,0 +1,1038 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/06/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "SDSU",
+    "score": {
+      "away": 13,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 345,
+        "passYards": 281,
+        "passCompletions": 29,
+        "passAttempts": 59,
+        "yardsPerPass": 4.6,
+        "interceptionsThrown": 1,
+        "rushYards": 71,
+        "rushAttempts": 15,
+        "yardsPerRush": 4.7,
+        "penalties": 11,
+        "penaltyYards": 100,
+        "fumblesLost": 1,
+        "possession": "17:48",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 342,
+        "passYards": 237,
+        "passCompletions": 21,
+        "passAttempts": 34,
+        "yardsPerPass": 7,
+        "interceptionsThrown": 2,
+        "rushYards": 105,
+        "rushAttempts": 34,
+        "yardsPerRush": 3.1,
+        "penalties": 7,
+        "penaltyYards": 58,
+        "fumblesLost": 2,
+        "possession": "18:52",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 282500087,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        6,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2008-09-06-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/13/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 17,
+      "home": 35
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 388,
+        "passYards": 229,
+        "passCompletions": 19,
+        "passAttempts": 28,
+        "yardsPerPass": 8.2,
+        "interceptionsThrown": 2,
+        "rushYards": 159,
+        "rushAttempts": 42,
+        "yardsPerRush": 3.8,
+        "penalties": 7,
+        "penaltyYards": 79,
+        "fumblesLost": 4,
+        "possession": "19:32",
+        "fumbles": 7
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 260,
+        "passYards": 147,
+        "passCompletions": 10,
+        "passAttempts": 21,
+        "yardsPerPass": 7,
+        "interceptionsThrown": 2,
+        "rushYards": 113,
+        "rushAttempts": 34,
+        "yardsPerRush": 3.3,
+        "penalties": 3,
+        "penaltyYards": 38,
+        "fumblesLost": 0,
+        "possession": "17:08",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 282570087,
+    "linescore": {
+      "away": [
+        7,
+        10,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        7,
+        0,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2008-09-13-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/20/2008",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 7,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 258,
+        "passYards": 276,
+        "passCompletions": 24,
+        "passAttempts": 41,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 2,
+        "rushYards": 16,
+        "rushAttempts": 22,
+        "yardsPerRush": 0.7,
+        "penalties": 4,
+        "penaltyYards": 24,
+        "fumblesLost": 1,
+        "possession": "15:39",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 346,
+        "passYards": 143,
+        "passCompletions": 12,
+        "passAttempts": 26,
+        "yardsPerPass": 5.5,
+        "interceptionsThrown": 0,
+        "rushYards": 203,
+        "rushAttempts": 43,
+        "yardsPerRush": 4.7,
+        "penalties": 6,
+        "penaltyYards": 65,
+        "fumblesLost": 1,
+        "possession": "20:14",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 282640127,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        3,
+        10
+      ]
+    },
+    "sportsReferenceGameId": "2008-09-20-michigan-state",
+    "time": "3:30 PM",
+    "coverage": "ABC / ESPN",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/27/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 21,
+      "home": 38
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 462,
+        "passYards": 359,
+        "passCompletions": 29,
+        "passAttempts": 55,
+        "yardsPerPass": 6.5,
+        "interceptionsThrown": 1,
+        "rushYards": 103,
+        "rushAttempts": 17,
+        "yardsPerRush": 6.1,
+        "penalties": 5,
+        "penaltyYards": 43,
+        "fumblesLost": 0,
+        "possession": "15:14",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 4,
+        "totalYards": 476,
+        "passYards": 283,
+        "passCompletions": 20,
+        "passAttempts": 35,
+        "yardsPerPass": 7.9,
+        "interceptionsThrown": 0,
+        "rushYards": 201,
+        "rushAttempts": 40,
+        "yardsPerRush": 5,
+        "penalties": 6,
+        "penaltyYards": 44,
+        "fumblesLost": 0,
+        "possession": "21:26",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 282710087,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        14,
+        21,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2008-09-27-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/04/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 21,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 9,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 343,
+        "passYards": 230,
+        "passCompletions": 18,
+        "passAttempts": 28,
+        "yardsPerPass": 6.5,
+        "interceptionsThrown": 3,
+        "rushYards": 161,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.4,
+        "penalties": 9,
+        "penaltyYards": 56,
+        "fumblesLost": 1,
+        "possession": "16:00",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 430,
+        "passYards": 359,
+        "passCompletions": 29,
+        "passAttempts": 40,
+        "yardsPerPass": 8.7,
+        "interceptionsThrown": 0,
+        "rushYards": 83,
+        "rushAttempts": 27,
+        "yardsPerRush": 3.1,
+        "penalties": 8,
+        "penaltyYards": 75,
+        "fumblesLost": 0,
+        "possession": "20:00",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 282780087,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        14
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2008-10-04-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/11/2008",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium"
+    },
+    "opponentId": "UNC",
+    "score": {
+      "away": 24,
+      "home": 29
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 472,
+        "passYards": 414,
+        "passCompletions": 31,
+        "passAttempts": 48,
+        "yardsPerPass": 8,
+        "interceptionsThrown": 2,
+        "rushYards": 89,
+        "rushAttempts": 30,
+        "yardsPerRush": 3,
+        "penalties": 4,
+        "penaltyYards": 33,
+        "fumblesLost": 3,
+        "possession": "20:25",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 322,
+        "passYards": 209,
+        "passCompletions": 18,
+        "passAttempts": 32,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 0,
+        "rushYards": 121,
+        "rushAttempts": 32,
+        "yardsPerRush": 3.8,
+        "penalties": 7,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "16:15",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 282850153,
+    "linescore": {
+      "away": [
+        7,
+        10,
+        7,
+        0
+      ],
+      "home": [
+        3,
+        6,
+        13,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2008-10-11-north-carolina",
+    "time": "3:30 PM",
+    "coverage": "ABC / ESPN2",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/25/2008",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "stadium": "Husky Stadium"
+    },
+    "opponentId": "WASH",
+    "score": {
+      "away": 33,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 6,
+        "totalYards": 459,
+        "passYards": 229,
+        "passCompletions": 15,
+        "passAttempts": 28,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 1,
+        "rushYards": 252,
+        "rushAttempts": 49,
+        "yardsPerRush": 5.1,
+        "penalties": 7,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "22:32",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 9,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 124,
+        "passYards": 139,
+        "passCompletions": 11,
+        "passAttempts": 25,
+        "yardsPerPass": 3.9,
+        "interceptionsThrown": 0,
+        "rushYards": 26,
+        "rushAttempts": 23,
+        "yardsPerRush": 1.1,
+        "penalties": 5,
+        "penaltyYards": 50,
+        "fumblesLost": 0,
+        "possession": "13:03",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 282990264,
+    "linescore": {
+      "away": [
+        14,
+        3,
+        10,
+        6
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2008-10-25-washington",
+    "time": "8:00 PM",
+    "coverage": "ESPN2",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/01/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 36,
+      "home": 33
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 3,
+        "totalYards": 346,
+        "passYards": 179,
+        "passCompletions": 15,
+        "passAttempts": 30,
+        "yardsPerPass": 5.6,
+        "interceptionsThrown": 3,
+        "rushYards": 178,
+        "rushAttempts": 47,
+        "yardsPerRush": 3.8,
+        "penalties": 8,
+        "penaltyYards": 53,
+        "fumblesLost": 0,
+        "possession": "19:16",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 386,
+        "passYards": 277,
+        "passCompletions": 23,
+        "passAttempts": 44,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 0,
+        "rushYards": 115,
+        "rushAttempts": 39,
+        "yardsPerRush": 2.9,
+        "penalties": 6,
+        "penaltyYards": 60,
+        "fumblesLost": 0,
+        "possession": "17:24",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 283060087,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        7,
+        14,
+        3,
+        3,
+        3,
+        3
+      ],
+      "home": [
+        3,
+        14,
+        0,
+        7,
+        3,
+        3,
+        3,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2008-11-01-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "numOvertimes": 4
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/08/2008",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium"
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 0,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 292,
+        "passYards": 238,
+        "passCompletions": 26,
+        "passAttempts": 46,
+        "yardsPerPass": 4.9,
+        "interceptionsThrown": 4,
+        "rushYards": 66,
+        "rushAttempts": 21,
+        "yardsPerRush": 3.1,
+        "penalties": 6,
+        "penaltyYards": 58,
+        "fumblesLost": 1,
+        "possession": "17:13",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 246,
+        "passYards": 79,
+        "passCompletions": 9,
+        "passAttempts": 22,
+        "yardsPerPass": 3.6,
+        "interceptionsThrown": 0,
+        "rushYards": 167,
+        "rushAttempts": 41,
+        "yardsPerRush": 4.1,
+        "penalties": 9,
+        "penaltyYards": 90,
+        "fumblesLost": 0,
+        "possession": "19:27",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 283130103,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        7,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2008-11-08-boston-college",
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/15/2008",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "stadium": "M&T Bank Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 27,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 10,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 340,
+        "passYards": 115,
+        "passCompletions": 15,
+        "passAttempts": 19,
+        "yardsPerPass": 5.8,
+        "interceptionsThrown": 2,
+        "rushYards": 230,
+        "rushAttempts": 51,
+        "yardsPerRush": 4.5,
+        "penalties": 6,
+        "penaltyYards": 72,
+        "fumblesLost": 3,
+        "possession": "21:22",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 1,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 242,
+        "passYards": 67,
+        "passCompletions": 3,
+        "passAttempts": 14,
+        "yardsPerPass": 4.6,
+        "interceptionsThrown": 0,
+        "rushYards": 178,
+        "rushAttempts": 45,
+        "yardsPerRush": 4,
+        "penalties": 5,
+        "penaltyYards": 44,
+        "fumblesLost": 1,
+        "possession": "15:15",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 283202426,
+    "linescore": {
+      "away": [
+        7,
+        3,
+        14,
+        3
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2008-11-15-navy",
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/22/2008",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "SYR",
+    "score": {
+      "away": 24,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 317,
+        "passYards": 154,
+        "passCompletions": 14,
+        "passAttempts": 26,
+        "yardsPerPass": 5.7,
+        "interceptionsThrown": 0,
+        "rushYards": 170,
+        "rushAttempts": 36,
+        "yardsPerRush": 4.7,
+        "penalties": 7,
+        "penaltyYards": 50,
+        "fumblesLost": 2,
+        "possession": "17:21",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 332,
+        "passYards": 314,
+        "passCompletions": 22,
+        "passAttempts": 41,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 0,
+        "rushYards": 41,
+        "rushAttempts": 28,
+        "yardsPerRush": 1.5,
+        "penalties": 5,
+        "penaltyYards": 50,
+        "fumblesLost": 0,
+        "possession": "19:19",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 283270087,
+    "linescore": {
+      "away": [
+        3,
+        7,
+        0,
+        14
+      ],
+      "home": [
+        3,
+        10,
+        10,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2008-11-22-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/29/2008",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 3,
+      "home": 38
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 4,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 91,
+        "passYards": 70,
+        "passCompletions": 11,
+        "passAttempts": 22,
+        "yardsPerPass": 1.9,
+        "interceptionsThrown": 2,
+        "rushYards": 50,
+        "rushAttempts": 27,
+        "yardsPerRush": 1.9,
+        "penalties": 2,
+        "penaltyYards": 22,
+        "fumblesLost": 1,
+        "possession": "15:59",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 449,
+        "passYards": 289,
+        "passCompletions": 23,
+        "passAttempts": 33,
+        "yardsPerPass": 8.3,
+        "interceptionsThrown": 3,
+        "rushYards": 175,
+        "rushAttempts": 33,
+        "yardsPerRush": 5.3,
+        "penalties": 8,
+        "penaltyYards": 80,
+        "fumblesLost": 0,
+        "possession": "20:34",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 283340030,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        17,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2008-11-29-southern-california",
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "bcs": 5
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "date": "12/24/2008",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI",
+      "stadium": "Aloha Stadium"
+    },
+    "opponentId": "HAW",
+    "score": {
+      "away": 21,
+      "home": 49
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 358,
+        "passYards": 381,
+        "passCompletions": 28,
+        "passAttempts": 44,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 1,
+        "rushYards": 32,
+        "rushAttempts": 19,
+        "yardsPerRush": 1.7,
+        "penalties": 8,
+        "penaltyYards": 69,
+        "fumblesLost": 0,
+        "possession": "16:27",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 478,
+        "passYards": 421,
+        "passCompletions": 24,
+        "passAttempts": 28,
+        "yardsPerPass": 14.8,
+        "interceptionsThrown": 0,
+        "rushYards": 65,
+        "rushAttempts": 34,
+        "yardsPerRush": 1.9,
+        "penalties": 5,
+        "penaltyYards": 60,
+        "fumblesLost": 1,
+        "possession": "20:02",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 283590087,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        21,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2008-12-24-hawaii",
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "nickname": "Hawaii Bowl",
+    "headCoach": "Charlie Weis"
+  }
+]

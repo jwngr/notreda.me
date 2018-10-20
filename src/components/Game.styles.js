@@ -220,6 +220,11 @@ export const ScoreResult = styled.p`
 
 export const ScoreTotals = styled.div`
   flex: 1;
+
+  &.overtime-game {
+    margin-top: 6px;
+    line-height: 14px;
+  }
 `;
 
 export const TelevisionCoverage = styled.div`
@@ -256,4 +261,8 @@ export const ShamrockSeriesLogo = styled.img`
   width: 20px;
   height: 20px;
   margin-left: 4px;
+`;
+
+export const OvertimeIndicator = styled.span`
+  font-size: 12px;
 `;

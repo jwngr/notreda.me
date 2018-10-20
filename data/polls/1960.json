@@ -1,0 +1,1471 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Syracuse": {
+          "record": "0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Ole Miss": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "AAWU",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Illinois": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "AAWU",
+          "previousRanking": "NA"
+        },
+        "Pittsburgh": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Michigan State": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Clemson": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "NA"
+        },
+        "TCU": {
+          "record": "0-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Auburn": {
+          "record": "0-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Georgia": {
+          "record": "0-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Northwestern": {
+          "record": "0-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Iowa": {
+          "record": "0-0",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NA"
+        },
+        "Arkansas": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1960-09-19",
+      "teams": {
+        "Ole Miss": {
+          "record": "1-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Syracuse": {
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Washington": {
+          "record": "1-0-0",
+          "ranking": 3,
+          "conference": "AAWU",
+          "previousRanking": "3"
+        },
+        "Illinois": {
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Alabama": {
+          "record": "1-0-0",
+          "ranking": 5,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Kansas": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "1-0-0",
+          "ranking": 8,
+          "conference": "AAWU",
+          "previousRanking": "NR"
+        },
+        "Clemson": {
+          "ranking": 9,
+          "conference": "ACC",
+          "previousRanking": "9"
+        },
+        "Oregon State": {
+          "record": "1-0-0",
+          "ranking": 10,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "1-0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "19"
+        },
+        "Nebraska": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "1-0-0",
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Northwestern": {
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Texas": {
+          "record": "0-1-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "4"
+        },
+        "Missouri": {
+          "record": "1-0-0",
+          "ranking": 16,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Pittsburgh": {
+          "record": "0-1-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "LSU": {
+          "record": "1-0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Iowa": {
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Ohio State": {
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "16"
+        }
+      }
+    },
+    {
+      "date": "1960-09-26",
+      "teams": {
+        "Ole Miss": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Syracuse": {
+          "record": "1-0-0",
+          "ranking": 2,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Washington": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "AAWU",
+          "previousRanking": "3"
+        },
+        "Illinois": {
+          "record": "1-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Kansas": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "7"
+        },
+        "Northwestern": {
+          "record": "1-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Clemson": {
+          "record": "1-0-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "9"
+        },
+        "Iowa": {
+          "record": "1-0-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        },
+        "Ohio State": {
+          "record": "1-0-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "20"
+        },
+        "Georgia Tech": {
+          "record": "2-0-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "13"
+        },
+        "Tennessee": {
+          "record": "1-0-0",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Notre Dame": {
+          "record": "1-0-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "1-1-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Arkansas": {
+          "record": "2-0-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "1-0-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "5"
+        },
+        "UCLA": {
+          "record": "1-0-1",
+          "ranking": 16,
+          "conference": "AAWU",
+          "previousRanking": "8"
+        },
+        "Navy": {
+          "record": "2-0-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Minnesota": {
+          "record": "1-0-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "record": "2-0-0",
+          "ranking": 19,
+          "conference": "Big 8",
+          "previousRanking": "16"
+        },
+        "Penn State": {
+          "record": "1-0-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "11"
+        }
+      }
+    },
+    {
+      "date": "1960-10-03",
+      "teams": {
+        "Syracuse": {
+          "record": "2-0-0",
+          "ranking": 1,
+          "conference": "Ind",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Iowa": {
+          "record": "2-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Illinois": {
+          "record": "2-0-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Ohio State": {
+          "record": "2-0-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Navy": {
+          "record": "3-0-0",
+          "ranking": 6,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Purdue": {
+          "record": "1-0-1",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Clemson": {
+          "record": "2-0-0",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Arkansas": {
+          "record": "3-0-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Kansas": {
+          "record": "2-1-0",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Missouri": {
+          "record": "3-0-0",
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "19"
+        },
+        "Washington": {
+          "record": "2-1-0",
+          "ranking": 12,
+          "conference": "AAWU",
+          "previousRanking": "3"
+        },
+        "Michigan State": {
+          "record": "1-0-1",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Minnesota": {
+          "record": "2-0-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Texas": {
+          "record": "2-1-0",
+          "ranking": 15,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "UCLA": {
+          "record": "1-0-1",
+          "ranking": 16,
+          "conference": "AAWU",
+          "previousRanking": "16"
+        },
+        "Alabama": {
+          "record": "2-0-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "15"
+        },
+        "Army": {
+          "record": "3-0-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "3-0-0",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Baylor": {
+          "record": "2-0-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1960-10-10",
+      "teams": {
+        "Ole Miss": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Iowa": {
+          "record": "3-0-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Ohio State": {
+          "record": "3-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Syracuse": {
+          "record": "3-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "1"
+        },
+        "Navy": {
+          "record": "4-0-0",
+          "ranking": 5,
+          "conference": "Ind",
+          "previousRanking": "6"
+        },
+        "Missouri": {
+          "record": "4-0-0",
+          "ranking": 6,
+          "conference": "Big 8",
+          "previousRanking": "11"
+        },
+        "Baylor": {
+          "record": "3-0-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Clemson": {
+          "record": "3-0-0",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "8"
+        },
+        "Kansas": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Minnesota": {
+          "record": "3-0-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Texas": {
+          "record": "3-1-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "15"
+        },
+        "Wisconsin": {
+          "record": "3-0-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Washington": {
+          "record": "3-1-0",
+          "ranking": 13,
+          "conference": "AAWU",
+          "previousRanking": "12"
+        },
+        "Michigan State": {
+          "record": "1-1-1",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Alabama": {
+          "record": "2-0-1",
+          "ranking": 15,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "UCLA": {
+          "record": "1-0-1",
+          "ranking": 15,
+          "conference": "AAWU",
+          "previousRanking": "16"
+        },
+        "Oregon State": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Arizona State": {
+          "record": "4-0-0",
+          "ranking": 18,
+          "conference": "BIAA",
+          "previousRanking": "NR"
+        },
+        "Georgia Tech": {
+          "record": "3-1-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "2-1-0",
+          "ranking": 20,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1960-10-17",
+      "teams": {
+        "Iowa": {
+          "record": "4-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "5-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "1"
+        },
+        "Syracuse": {
+          "record": "4-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Navy": {
+          "record": "5-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "5"
+        },
+        "Missouri": {
+          "record": "5-0-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "6"
+        },
+        "Minnesota": {
+          "record": "4-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Baylor": {
+          "record": "4-0-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Washington": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "AAWU",
+          "previousRanking": "13"
+        },
+        "Ohio State": {
+          "record": "3-1-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Purdue": {
+          "record": "2-1-1",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Wisconsin": {
+          "record": "3-1-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Tennessee": {
+          "record": "3-0-1",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "record": "2-1-1",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Arkansas": {
+          "record": "4-1-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Kansas": {
+          "record": "3-1-1",
+          "ranking": 15,
+          "conference": "Big 8",
+          "previousRanking": "9"
+        },
+        "Texas": {
+          "record": "3-2-0",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "11"
+        },
+        "Auburn": {
+          "record": "3-1-0",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Oregon State": {
+          "record": "4-1-0",
+          "ranking": 18,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "UCLA": {
+          "record": "1-1-1",
+          "ranking": 19,
+          "conference": "AAWU",
+          "previousRanking": "15"
+        },
+        "Rice": {
+          "record": "3-1-0",
+          "ranking": 20,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1960-10-24",
+      "teams": {
+        "Iowa": {
+          "record": "5-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Ole Miss": {
+          "record": "6-0-0",
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Syracuse": {
+          "record": "5-0-0",
+          "ranking": 3,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Navy": {
+          "record": "6-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Missouri": {
+          "record": "6-0-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Minnesota": {
+          "record": "5-0-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Baylor": {
+          "record": "5-0-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Ohio State": {
+          "record": "4-1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "AAWU",
+          "previousRanking": "8"
+        },
+        "Michigan State": {
+          "record": "3-1-1",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Tennessee": {
+          "record": "4-0-1",
+          "ranking": 11,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "Arkansas": {
+          "record": "4-2-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Rice": {
+          "record": "4-1-0",
+          "ranking": 13,
+          "conference": "SWC",
+          "previousRanking": "20"
+        },
+        "Auburn": {
+          "record": "4-1-0",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Duke": {
+          "record": "4-1-0",
+          "ranking": 15,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        },
+        "Oregon State": {
+          "record": "4-2-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "18"
+        },
+        "Purdue": {
+          "record": "2-2-1",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "New Mexico State": {
+          "record": "6-0-0",
+          "ranking": 18,
+          "conference": "BIAA",
+          "previousRanking": "NR"
+        },
+        "Kansas": {
+          "record": "4-1-1",
+          "ranking": 19,
+          "conference": "Big 8",
+          "previousRanking": "15"
+        }
+      }
+    },
+    {
+      "date": "1960-10-31",
+      "teams": {
+        "Iowa": {
+          "record": "6-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Missouri": {
+          "record": "7-0-0",
+          "ranking": 2,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Minnesota": {
+          "record": "6-0-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Navy": {
+          "record": "7-0-0",
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Ohio State": {
+          "record": "5-1-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Ole Miss": {
+          "record": "6-0-1",
+          "ranking": 6,
+          "conference": "SEC",
+          "previousRanking": "2"
+        },
+        "Washington": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "AAWU",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "5-0-1",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "11"
+        },
+        "Syracuse": {
+          "record": "5-1-0",
+          "ranking": 9,
+          "conference": "Ind",
+          "previousRanking": "3"
+        },
+        "Rice": {
+          "record": "5-1-0",
+          "ranking": 10,
+          "conference": "SWC",
+          "previousRanking": "13"
+        },
+        "Baylor": {
+          "record": "5-1-0",
+          "ranking": 11,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Auburn": {
+          "record": "5-1-0",
+          "ranking": 12,
+          "conference": "SEC",
+          "previousRanking": "14"
+        },
+        "Duke": {
+          "record": "5-1-0",
+          "ranking": 13,
+          "conference": "ACC",
+          "previousRanking": "15"
+        },
+        "Pittsburgh": {
+          "record": "3-2-2",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "3-1-1",
+          "ranking": 15,
+          "conference": "AAWU",
+          "previousRanking": "NR"
+        },
+        "Arkansas": {
+          "record": "5-2-0",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "12"
+        },
+        "Michigan State": {
+          "record": "3-2-1",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Colorado": {
+          "record": "5-1-0",
+          "ranking": 18,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Utah State": {
+          "record": "7-0-0",
+          "ranking": 18,
+          "conference": "Skyline",
+          "previousRanking": "NR"
+        },
+        "New Mexico State": {
+          "record": "7-0-0",
+          "ranking": 20,
+          "conference": "BIAA",
+          "previousRanking": "18"
+        }
+      }
+    },
+    {
+      "date": "1960-11-07",
+      "teams": {
+        "Minnesota": {
+          "record": "7-0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "Missouri": {
+          "record": "8-0-0",
+          "ranking": 2,
+          "conference": "Big 8",
+          "previousRanking": "2"
+        },
+        "Ohio State": {
+          "record": "6-1-0",
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Ole Miss": {
+          "record": "7-0-1",
+          "ranking": 4,
+          "conference": "SEC",
+          "previousRanking": "6"
+        },
+        "Iowa": {
+          "record": "6-1-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Washington": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "AAWU",
+          "previousRanking": "7"
+        },
+        "Duke": {
+          "record": "6-1-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "13"
+        },
+        "Navy": {
+          "record": "7-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "4"
+        },
+        "Arkansas": {
+          "record": "6-2-0",
+          "ranking": 9,
+          "conference": "SWC",
+          "previousRanking": "16"
+        },
+        "Auburn": {
+          "record": "6-1-0",
+          "ranking": 10,
+          "conference": "SEC",
+          "previousRanking": "12"
+        },
+        "UCLA": {
+          "record": "4-1-1",
+          "ranking": 11,
+          "conference": "AAWU",
+          "previousRanking": "15"
+        },
+        "Pittsburgh": {
+          "record": "4-2-2",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Michigan State": {
+          "record": "4-2-1",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Tennessee": {
+          "record": "5-1-1",
+          "ranking": 14,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "New Mexico State": {
+          "record": "7-0-0",
+          "ranking": 15,
+          "conference": "BIAA",
+          "previousRanking": "20"
+        },
+        "Rice": {
+          "record": "5-2-0",
+          "ranking": 16,
+          "conference": "SWC",
+          "previousRanking": "10"
+        },
+        "Syracuse": {
+          "record": "5-2-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "9"
+        },
+        "Yale": {
+          "record": "7-0-0",
+          "ranking": 17,
+          "conference": "Ivy",
+          "previousRanking": "NR"
+        },
+        "Utah State": {
+          "record": "8-0-0",
+          "ranking": 19,
+          "conference": "Skyline",
+          "previousRanking": "18"
+        },
+        "Florida": {
+          "record": "6-2-0",
+          "ranking": 20,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1960-11-14",
+      "teams": {
+        "Missouri": {
+          "record": "9-0-0",
+          "ranking": 1,
+          "conference": "Big 8",
+          "previousRanking": "2"
+        },
+        "Iowa": {
+          "record": "7-1-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Ole Miss": {
+          "record": "8-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "4"
+        },
+        "Minnesota": {
+          "record": "7-1-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Washington": {
+          "record": "8-1-0",
+          "ranking": 5,
+          "conference": "AAWU",
+          "previousRanking": "6"
+        },
+        "Duke": {
+          "record": "7-1-0",
+          "ranking": 6,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Arkansas": {
+          "record": "7-2-0",
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "9"
+        },
+        "Navy": {
+          "record": "8-1-0",
+          "ranking": 8,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Auburn": {
+          "record": "7-1-0",
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "10"
+        },
+        "Ohio State": {
+          "record": "6-2-0",
+          "ranking": 10,
+          "conference": "Big Ten",
+          "previousRanking": "3"
+        },
+        "UCLA": {
+          "record": "5-1-1",
+          "ranking": 11,
+          "conference": "AAWU",
+          "previousRanking": "11"
+        },
+        "Michigan State": {
+          "record": "5-2-1",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Purdue": {
+          "record": "3-4-1",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "New Mexico State": {
+          "record": "8-0-0",
+          "ranking": 14,
+          "conference": "BIAA",
+          "previousRanking": "15"
+        },
+        "Rice": {
+          "record": "6-2-0",
+          "ranking": 14,
+          "conference": "SWC",
+          "previousRanking": "16"
+        },
+        "Syracuse": {
+          "record": "6-2-0",
+          "ranking": 14,
+          "conference": "Ind",
+          "previousRanking": "17"
+        },
+        "Yale": {
+          "record": "8-0-0",
+          "ranking": 14,
+          "conference": "Ivy",
+          "previousRanking": "17"
+        },
+        "Alabama": {
+          "record": "6-1-1",
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "7-2-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "20"
+        },
+        "Oregon": {
+          "record": "7-2-0",
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1960-11-21",
+      "teams": {
+        "Minnesota": {
+          "record": "8-1-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Iowa": {
+          "record": "8-1-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Ole Miss": {
+          "record": "8-0-1",
+          "ranking": 3,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Washington": {
+          "record": "9-1-0",
+          "ranking": 4,
+          "conference": "AAWU",
+          "previousRanking": "5"
+        },
+        "Missouri": {
+          "record": "9-1-0",
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "1"
+        },
+        "Arkansas": {
+          "record": "8-2-0",
+          "ranking": 6,
+          "conference": "SWC",
+          "previousRanking": "7"
+        },
+        "Navy": {
+          "record": "8-1-0",
+          "ranking": 7,
+          "conference": "Ind",
+          "previousRanking": "8"
+        },
+        "Auburn": {
+          "record": "8-1-0",
+          "ranking": 8,
+          "conference": "SEC",
+          "previousRanking": "9"
+        },
+        "Ohio State": {
+          "record": "7-2-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "10"
+        },
+        "Kansas": {
+          "record": "7-2-1",
+          "ranking": 10,
+          "conference": "Big 8",
+          "previousRanking": "NR"
+        },
+        "Duke": {
+          "record": "7-2-0",
+          "ranking": 11,
+          "conference": "ACC",
+          "previousRanking": "6"
+        },
+        "Rice": {
+          "record": "7-2-0",
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "14"
+        },
+        "Yale": {
+          "record": "9-0-0",
+          "ranking": 13,
+          "conference": "Ivy",
+          "previousRanking": "14"
+        },
+        "Michigan State": {
+          "record": "6-2-1",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "New Mexico State": {
+          "record": "9-0-0",
+          "ranking": 15,
+          "conference": "BIAA",
+          "previousRanking": "14"
+        },
+        "Penn State": {
+          "record": "6-3-0",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "7-1-1",
+          "ranking": 17,
+          "conference": "SEC",
+          "previousRanking": "18"
+        },
+        "Syracuse": {
+          "record": "7-2-0",
+          "ranking": 17,
+          "conference": "Ind",
+          "previousRanking": "14"
+        },
+        "Baylor": {
+          "record": "7-2-0",
+          "ranking": 19,
+          "conference": "SWC",
+          "previousRanking": "NR"
+        },
+        "Florida": {
+          "record": "7-2-0",
+          "ranking": 19,
+          "conference": "SEC",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Minnesota": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Ole Miss": {
+          "ranking": 2,
+          "conference": "SEC",
+          "previousRanking": "3"
+        },
+        "Iowa": {
+          "ranking": 3,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Navy": {
+          "ranking": 4,
+          "conference": "Ind",
+          "previousRanking": "7"
+        },
+        "Missouri": {
+          "ranking": 5,
+          "conference": "Big 8",
+          "previousRanking": "5"
+        },
+        "Washington": {
+          "ranking": 6,
+          "conference": "AAWU",
+          "previousRanking": "4"
+        },
+        "Arkansas": {
+          "ranking": 7,
+          "conference": "SWC",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Alabama": {
+          "ranking": 9,
+          "conference": "SEC",
+          "previousRanking": "17"
+        },
+        "Duke": {
+          "ranking": 10,
+          "conference": "ACC",
+          "previousRanking": "11"
+        },
+        "Kansas": {
+          "ranking": 11,
+          "conference": "Big 8",
+          "previousRanking": "10"
+        },
+        "Baylor": {
+          "ranking": 12,
+          "conference": "SWC",
+          "previousRanking": "19"
+        },
+        "Auburn": {
+          "ranking": 13,
+          "conference": "SEC",
+          "previousRanking": "8"
+        },
+        "Yale": {
+          "ranking": 14,
+          "conference": "Ivy",
+          "previousRanking": "13"
+        },
+        "Michigan State": {
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Penn State": {
+          "ranking": 16,
+          "conference": "Ind",
+          "previousRanking": "15"
+        },
+        "New Mexico State": {
+          "ranking": 17,
+          "conference": "BIAA",
+          "previousRanking": "15"
+        },
+        "Florida": {
+          "ranking": 18,
+          "conference": "SEC",
+          "previousRanking": "19"
+        },
+        "Purdue": {
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Syracuse": {
+          "ranking": 19,
+          "conference": "Ind",
+          "previousRanking": "17"
+        }
+      }
+    }
+  ]
+}

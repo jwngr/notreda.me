@@ -1,0 +1,1022 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/03/2005",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 42,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 33,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 502,
+        "passYards": 227,
+        "passCompletions": 18,
+        "passAttempts": 27,
+        "yardsPerPass": 8.4,
+        "interceptionsThrown": 1,
+        "rushYards": 275,
+        "rushAttempts": 50,
+        "yardsPerRush": 5.5,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "20:06",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 3,
+        "totalYards": 323,
+        "passYards": 258,
+        "passCompletions": 20,
+        "passAttempts": 35,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 1,
+        "rushYards": 103,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.3,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "16:45",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 252460221,
+    "linescore": {
+      "away": [
+        7,
+        28,
+        7,
+        0
+      ],
+      "home": [
+        10,
+        3,
+        0,
+        8
+      ]
+    },
+    "sportsReferenceGameId": "2005-09-03-pittsburgh",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/10/2005",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 17,
+      "home": 10
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 244,
+        "passYards": 165,
+        "passCompletions": 19,
+        "passAttempts": 30,
+        "yardsPerPass": 4.7,
+        "interceptionsThrown": 0,
+        "rushYards": 104,
+        "rushAttempts": 44,
+        "yardsPerRush": 2.4,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "18:56",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 15,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 337,
+        "passYards": 228,
+        "passCompletions": 19,
+        "passAttempts": 44,
+        "yardsPerPass": 5.1,
+        "interceptionsThrown": 1,
+        "rushYards": 114,
+        "rushAttempts": 29,
+        "yardsPerRush": 3.9,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "17:44",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 252530130,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        0,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2005-09-10-michigan",
+    "time": "12:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 20
+      },
+      "home": {
+        "ap": 3
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/17/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 44,
+      "home": 41
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 488,
+        "passYards": 339,
+        "passCompletions": 16,
+        "passAttempts": 27,
+        "yardsPerPass": 12.1,
+        "interceptionsThrown": 1,
+        "rushYards": 161,
+        "rushAttempts": 36,
+        "yardsPerRush": 4.5,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 2,
+        "possession": "14:52",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 31,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 4,
+        "totalYards": 594,
+        "passYards": 508,
+        "passCompletions": 33,
+        "passAttempts": 60,
+        "yardsPerPass": 8.1,
+        "interceptionsThrown": 1,
+        "rushYards": 107,
+        "rushAttempts": 38,
+        "yardsPerRush": 2.8,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "21:48",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 252600087,
+    "linescore": {
+      "away": [
+        14,
+        10,
+        14,
+        0,
+        6
+      ],
+      "home": [
+        7,
+        10,
+        7,
+        14,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2005-09-17-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 10
+      }
+    },
+    "numOvertimes": 1
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/24/2005",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "stadium": "Husky Stadium"
+    },
+    "opponentId": "WASH",
+    "score": {
+      "away": 36,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 31,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 3,
+        "totalYards": 560,
+        "passYards": 329,
+        "passCompletions": 25,
+        "passAttempts": 37,
+        "yardsPerPass": 8.8,
+        "interceptionsThrown": 0,
+        "rushYards": 233,
+        "rushAttempts": 47,
+        "yardsPerRush": 5,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "22:16",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 10,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 449,
+        "passYards": 424,
+        "passCompletions": 19,
+        "passAttempts": 40,
+        "yardsPerPass": 10.2,
+        "interceptionsThrown": 1,
+        "rushYards": 41,
+        "rushAttempts": 22,
+        "yardsPerRush": 1.9,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 2,
+        "possession": "14:25",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 252670264,
+    "linescore": {
+      "away": [
+        3,
+        9,
+        7,
+        17
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2005-09-24-washington",
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 16
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/01/2005",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 49,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 32,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 621,
+        "passYards": 468,
+        "passCompletions": 30,
+        "passAttempts": 39,
+        "yardsPerPass": 12,
+        "interceptionsThrown": 2,
+        "rushYards": 153,
+        "rushAttempts": 50,
+        "yardsPerRush": 3.1,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "22:02",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 29,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 514,
+        "passYards": 350,
+        "passCompletions": 33,
+        "passAttempts": 58,
+        "yardsPerPass": 6,
+        "interceptionsThrown": 1,
+        "rushYards": 164,
+        "rushAttempts": 24,
+        "yardsPerRush": 6.8,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "14:36",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 252742509,
+    "linescore": {
+      "away": [
+        7,
+        21,
+        7,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        14,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2005-10-01-purdue",
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 13
+      },
+      "home": {
+        "ap": 22
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/15/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 34,
+      "home": 31
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 476,
+        "passYards": 317,
+        "passCompletions": 17,
+        "passAttempts": 33,
+        "yardsPerPass": 9.1,
+        "interceptionsThrown": 2,
+        "rushYards": 175,
+        "rushAttempts": 31,
+        "yardsPerRush": 5.6,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "13:21",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 28,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 417,
+        "passYards": 284,
+        "passCompletions": 19,
+        "passAttempts": 35,
+        "yardsPerPass": 7.5,
+        "interceptionsThrown": 1,
+        "rushYards": 153,
+        "rushAttempts": 52,
+        "yardsPerRush": 2.9,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "23:20",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 252880087,
+    "linescore": {
+      "away": [
+        14,
+        0,
+        7,
+        13
+      ],
+      "home": [
+        7,
+        14,
+        0,
+        10
+      ]
+    },
+    "sportsReferenceGameId": "2005-10-15-notre-dame",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 9
+      },
+      "away": {
+        "ap": 1
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/22/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BYU",
+    "score": {
+      "away": 23,
+      "home": 49
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 392,
+        "passYards": 344,
+        "passCompletions": 26,
+        "passAttempts": 45,
+        "yardsPerPass": 7,
+        "interceptionsThrown": 2,
+        "rushYards": 75,
+        "rushAttempts": 34,
+        "yardsPerRush": 2.2,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "20:20",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 511,
+        "passYards": 471,
+        "passCompletions": 32,
+        "passAttempts": 41,
+        "yardsPerPass": 11.4,
+        "interceptionsThrown": 0,
+        "rushYards": 44,
+        "rushAttempts": 23,
+        "yardsPerRush": 1.9,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 2,
+        "possession": "16:21",
+        "fumbles": 3
+      }
+    },
+    "espnGameId": 252950087,
+    "linescore": {
+      "away": [
+        10,
+        0,
+        13,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        21,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2005-10-22-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "bcs": 16
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/05/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TENN",
+    "score": {
+      "away": 21,
+      "home": 41
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 296,
+        "passYards": 205,
+        "passCompletions": 13,
+        "passAttempts": 32,
+        "yardsPerPass": 5.8,
+        "interceptionsThrown": 2,
+        "rushYards": 109,
+        "rushAttempts": 39,
+        "yardsPerRush": 2.8,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "17:15",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 343,
+        "passYards": 309,
+        "passCompletions": 20,
+        "passAttempts": 33,
+        "yardsPerPass": 8.9,
+        "interceptionsThrown": 0,
+        "rushYards": 48,
+        "rushAttempts": 34,
+        "yardsPerRush": 1.4,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "19:33",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 253090087,
+    "linescore": {
+      "away": [
+        3,
+        7,
+        11,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        0,
+        20
+      ]
+    },
+    "sportsReferenceGameId": "2005-11-05-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "bcs": 14
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/12/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 21,
+      "home": 42
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 314,
+        "passYards": 75,
+        "passCompletions": 4,
+        "passAttempts": 10,
+        "yardsPerPass": 7.5,
+        "interceptionsThrown": 1,
+        "rushYards": 239,
+        "rushAttempts": 58,
+        "yardsPerRush": 4.1,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 1,
+        "possession": "19:35",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 29,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 505,
+        "passYards": 284,
+        "passCompletions": 22,
+        "passAttempts": 31,
+        "yardsPerPass": 9.2,
+        "interceptionsThrown": 1,
+        "rushYards": 221,
+        "rushAttempts": 39,
+        "yardsPerRush": 5.7,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "17:05",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 253160087,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2005-11-12-notre-dame",
+    "time": "1:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 7,
+        "bcs": 11
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/19/2005",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "SYR",
+    "score": {
+      "away": 10,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 221,
+        "passYards": 99,
+        "passCompletions": 9,
+        "passAttempts": 22,
+        "yardsPerPass": 3.5,
+        "interceptionsThrown": 1,
+        "rushYards": 143,
+        "rushAttempts": 38,
+        "yardsPerRush": 3.8,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "17:07",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 3,
+        "totalYards": 420,
+        "passYards": 292,
+        "passCompletions": 22,
+        "passAttempts": 38,
+        "yardsPerPass": 7.5,
+        "interceptionsThrown": 0,
+        "rushYards": 134,
+        "rushAttempts": 36,
+        "yardsPerRush": 3.7,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "19:34",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 253230087,
+    "linescore": {
+      "away": [
+        3,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        14,
+        10,
+        10
+      ]
+    },
+    "sportsReferenceGameId": "2005-11-19-notre-dame",
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "bcs": 9
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/26/2005",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 38,
+      "home": 31
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 30,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 663,
+        "passYards": 443,
+        "passCompletions": 25,
+        "passAttempts": 38,
+        "yardsPerPass": 11.4,
+        "interceptionsThrown": 2,
+        "rushYards": 231,
+        "rushAttempts": 50,
+        "yardsPerRush": 4.6,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "21:15",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 1,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 336,
+        "passYards": 402,
+        "passCompletions": 23,
+        "passAttempts": 36,
+        "yardsPerPass": 9.6,
+        "interceptionsThrown": 0,
+        "rushYards": -11,
+        "rushAttempts": 25,
+        "yardsPerRush": -0.4,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "15:08",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 253300024,
+    "linescore": {
+      "away": [
+        14,
+        0,
+        6,
+        18
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        17
+      ]
+    },
+    "sportsReferenceGameId": "2005-11-26-stanford",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "bcs": 8
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "01/02/2006",
+    "location": {
+      "city": "Tempe",
+      "state": "AZ",
+      "stadium": "Sun Devil Stadium"
+    },
+    "opponentId": "OSU",
+    "score": {
+      "away": 20,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 348,
+        "passYards": 327,
+        "passCompletions": 29,
+        "passAttempts": 45,
+        "yardsPerPass": 6.4,
+        "interceptionsThrown": 0,
+        "rushYards": 62,
+        "rushAttempts": 28,
+        "yardsPerRush": 2.2,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 2,
+        "possession": "17:57",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 617,
+        "passYards": 355,
+        "passCompletions": 19,
+        "passAttempts": 28,
+        "yardsPerPass": 12.2,
+        "interceptionsThrown": 0,
+        "rushYards": 275,
+        "rushAttempts": 36,
+        "yardsPerRush": 7.6,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "18:43",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 260020194,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        6,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        3,
+        10
+      ]
+    },
+    "sportsReferenceGameId": "2006-01-02-notre-dame",
+    "time": "4:30 PM",
+    "coverage": "ABC",
+    "nickname": "Fiesta Bowl",
+    "headCoach": "Charlie Weis",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "bcs": 8
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 6
+      }
+    }
+  }
+]

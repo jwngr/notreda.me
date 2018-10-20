@@ -1,0 +1,815 @@
+[
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/09/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIZ",
+    "score": {
+      "away": 3,
+      "home": 0
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/23/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 28,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 14
+      },
+      "away": {
+        "ap": 5
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/30/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 6,
+      "home": 10
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/07/1978",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 29,
+      "home": 25
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/14/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 17,
+      "home": 26
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:40 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 9
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/21/1978",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium"
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 38,
+      "home": 15
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 20
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/28/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 0,
+      "home": 20
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 19
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/04/1978",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH",
+      "stadium": "Cleveland Municipal Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 7,
+      "home": 27
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:50 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 15
+      },
+      "away": {
+        "ap": 11
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/11/1978",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TENN",
+    "score": {
+      "away": 14,
+      "home": 31
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/18/1978",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Grant Field"
+    },
+    "opponentId": "GT",
+    "score": {
+      "away": 38,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 10
+      },
+      "home": {
+        "ap": 20
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/25/1978",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 25,
+      "home": 27
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "4:10 PM",
+    "coverage": "ABC",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "away": {
+        "ap": 8
+      },
+      "home": {
+        "ap": 3
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "01/01/1979",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "stadium": "Cotton Bowl"
+    },
+    "opponentId": "HOU",
+    "score": {
+      "away": 35,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [
+        12,
+        0,
+        0,
+        23
+      ],
+      "home": [
+        7,
+        13,
+        14,
+        0
+      ]
+    },
+    "time": "2:00 PM",
+    "coverage": "CBS",
+    "nickname": "Cotton Bowl",
+    "headCoach": "Dan Devine",
+    "rankings": {
+      "home": {
+        "ap": 9
+      },
+      "away": {
+        "ap": 10
+      }
+    }
+  }
+]

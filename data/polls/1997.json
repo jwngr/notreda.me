@@ -1,0 +1,2729 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Florida": {
+          "record": "0-0",
+          "ranking": 2,
+          "conference": "SEC (East)",
+          "previousRanking": "NA"
+        },
+        "Florida State": {
+          "record": "0-0",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 4,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 5,
+          "conference": "SEC (East)",
+          "previousRanking": "NA"
+        },
+        "Nebraska": {
+          "record": "0-0",
+          "ranking": 6,
+          "conference": "Big 12 (North)",
+          "previousRanking": "NA"
+        },
+        "North Carolina": {
+          "record": "0-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Colorado": {
+          "record": "0-0",
+          "ranking": 8,
+          "conference": "Big 12 (North)",
+          "previousRanking": "NA"
+        },
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "LSU": {
+          "record": "0-0",
+          "ranking": 10,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 12,
+          "conference": "Big 12 (South)",
+          "previousRanking": "NA"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 13,
+          "conference": "Big East",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "0-0",
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 15,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Auburn": {
+          "record": "0-0",
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Syracuse": {
+          "record": "0-0",
+          "ranking": 17,
+          "conference": "Big East",
+          "previousRanking": "NA"
+        },
+        "Stanford": {
+          "record": "0-0",
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Brigham Young": {
+          "record": "0-0",
+          "ranking": 19,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "NA"
+        },
+        "Clemson": {
+          "record": "0-0",
+          "ranking": 20,
+          "conference": "ACC",
+          "previousRanking": "NA"
+        },
+        "Iowa": {
+          "record": "0-0",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 22,
+          "conference": "Pac-10",
+          "previousRanking": "NA"
+        },
+        "Kansas State": {
+          "record": "0-0",
+          "ranking": 23,
+          "conference": "Big 12 (North)",
+          "previousRanking": "NA"
+        },
+        "Wisconsin": {
+          "record": "0-0",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        },
+        "Michigan State": {
+          "record": "0-0",
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "NA"
+        }
+      }
+    },
+    {
+      "date": "1997-08-25",
+      "teams": {
+        "Penn State": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Florida": {
+          "ranking": 2,
+          "conference": "SEC (East)",
+          "previousRanking": "2"
+        },
+        "Florida State": {
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Washington": {
+          "ranking": 4,
+          "conference": "Pac-10",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "ranking": 5,
+          "conference": "SEC (East)",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "ranking": 6,
+          "conference": "Big 12 (North)",
+          "previousRanking": "6"
+        },
+        "North Carolina": {
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Colorado": {
+          "ranking": 8,
+          "conference": "Big 12 (North)",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "LSU": {
+          "ranking": 10,
+          "conference": "SEC (West)",
+          "previousRanking": "10"
+        },
+        "Notre Dame": {
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Texas": {
+          "ranking": 12,
+          "conference": "Big 12 (South)",
+          "previousRanking": "12"
+        },
+        "Syracuse": {
+          "record": "1-0",
+          "ranking": 13,
+          "conference": "Big East",
+          "previousRanking": "17"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 14,
+          "conference": "Big East",
+          "previousRanking": "13"
+        },
+        "Michigan": {
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Alabama": {
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "15"
+        },
+        "Auburn": {
+          "ranking": 17,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Stanford": {
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Brigham Young": {
+          "ranking": 19,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "19"
+        },
+        "Clemson": {
+          "ranking": 20,
+          "conference": "ACC",
+          "previousRanking": "20"
+        },
+        "Iowa": {
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "21"
+        },
+        "Kansas State": {
+          "ranking": 22,
+          "conference": "Big 12 (North)",
+          "previousRanking": "23"
+        },
+        "USC": {
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "22"
+        },
+        "Northwestern": {
+          "record": "1-0",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "1997-09-02",
+      "teams": {
+        "Penn State": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Florida": {
+          "record": "1-0",
+          "ranking": 2,
+          "conference": "SEC (East)",
+          "previousRanking": "2"
+        },
+        "Tennessee": {
+          "record": "1-0",
+          "ranking": 3,
+          "conference": "SEC (East)",
+          "previousRanking": "5"
+        },
+        "Washington": {
+          "ranking": 4,
+          "conference": "Pac-10",
+          "previousRanking": "4"
+        },
+        "Florida State": {
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Nebraska": {
+          "record": "1-0",
+          "ranking": 6,
+          "conference": "Big 12 (North)",
+          "previousRanking": "6"
+        },
+        "North Carolina": {
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Colorado": {
+          "ranking": 8,
+          "conference": "Big 12 (North)",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "1-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "LSU": {
+          "ranking": 10,
+          "conference": "SEC (West)",
+          "previousRanking": "10"
+        },
+        "Notre Dame": {
+          "ranking": 11,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Texas": {
+          "ranking": 12,
+          "conference": "Big 12 (South)",
+          "previousRanking": "12"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 13,
+          "conference": "Big East",
+          "previousRanking": "14"
+        },
+        "Michigan": {
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Alabama": {
+          "record": "1-0",
+          "ranking": 15,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Auburn": {
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "17"
+        },
+        "Stanford": {
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Clemson": {
+          "ranking": 18,
+          "conference": "ACC",
+          "previousRanking": "20"
+        },
+        "Brigham Young": {
+          "ranking": 19,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "19"
+        },
+        "Iowa": {
+          "ranking": 20,
+          "conference": "Big Ten",
+          "previousRanking": "21"
+        },
+        "Kansas State": {
+          "ranking": 21,
+          "conference": "Big 12 (North)",
+          "previousRanking": "22"
+        },
+        "Northwestern": {
+          "record": "1-0",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "24"
+        },
+        "USC": {
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Colorado State": {
+          "record": "1-0",
+          "ranking": 24,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "NR"
+        },
+        "Michigan State": {
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "1997-09-08",
+      "teams": {
+        "Penn State": {
+          "record": "1-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Florida": {
+          "record": "2-0",
+          "ranking": 2,
+          "conference": "SEC (East)",
+          "previousRanking": "2"
+        },
+        "Washington": {
+          "record": "1-0",
+          "ranking": 3,
+          "conference": "Pac-10",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "2-0",
+          "ranking": 4,
+          "conference": "SEC (East)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "1-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Nebraska": {
+          "record": "1-0",
+          "ranking": 6,
+          "conference": "Big 12 (North)",
+          "previousRanking": "6"
+        },
+        "North Carolina": {
+          "record": "1-0",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Colorado": {
+          "record": "1-0",
+          "ranking": 8,
+          "conference": "Big 12 (North)",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "1-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "LSU": {
+          "record": "1-0",
+          "ranking": 10,
+          "conference": "SEC (West)",
+          "previousRanking": "10"
+        },
+        "Texas": {
+          "record": "1-0",
+          "ranking": 11,
+          "conference": "Big 12 (South)",
+          "previousRanking": "12"
+        },
+        "Notre Dame": {
+          "record": "1-0",
+          "ranking": 12,
+          "conference": "Ind",
+          "previousRanking": "11"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 13,
+          "conference": "Big East",
+          "previousRanking": "13"
+        },
+        "Michigan": {
+          "ranking": 14,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Alabama": {
+          "record": "1-0",
+          "ranking": 15,
+          "conference": "SEC (West)",
+          "previousRanking": "15"
+        },
+        "Auburn": {
+          "record": "1-0",
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Stanford": {
+          "record": "1-0",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Iowa": {
+          "record": "1-0",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "20"
+        },
+        "Clemson": {
+          "record": "1-0",
+          "ranking": 19,
+          "conference": "ACC",
+          "previousRanking": "18"
+        },
+        "Kansas State": {
+          "record": "1-0",
+          "ranking": 20,
+          "conference": "Big 12 (North)",
+          "previousRanking": "21"
+        },
+        "Michigan State": {
+          "record": "1-0",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        },
+        "Virginia Tech": {
+          "record": "1-0",
+          "ranking": 22,
+          "conference": "Big East",
+          "previousRanking": "NR"
+        },
+        "USC": {
+          "record": "0-1",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Arizona State": {
+          "record": "1-0",
+          "ranking": 24,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Colorado State": {
+          "record": "1-1",
+          "ranking": 25,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "24"
+        }
+      }
+    },
+    {
+      "date": "1997-09-15",
+      "teams": {
+        "Penn State": {
+          "record": "2-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Washington": {
+          "record": "2-0",
+          "ranking": 2,
+          "conference": "Pac-10",
+          "previousRanking": "3"
+        },
+        "Florida": {
+          "record": "2-0",
+          "ranking": 3,
+          "conference": "SEC (East)",
+          "previousRanking": "2"
+        },
+        "Tennessee": {
+          "record": "2-0",
+          "ranking": 4,
+          "conference": "SEC (East)",
+          "previousRanking": "4"
+        },
+        "Florida State": {
+          "record": "2-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "North Carolina": {
+          "record": "2-0",
+          "ranking": 6,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Nebraska": {
+          "record": "2-0",
+          "ranking": 7,
+          "conference": "Big 12 (North)",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "1-0",
+          "ranking": 8,
+          "conference": "Big Ten",
+          "previousRanking": "14"
+        },
+        "Ohio State": {
+          "record": "2-0",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "LSU": {
+          "record": "2-0",
+          "ranking": 10,
+          "conference": "SEC (West)",
+          "previousRanking": "10"
+        },
+        "Alabama": {
+          "record": "2-0",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "15"
+        },
+        "Auburn": {
+          "record": "2-0",
+          "ranking": 12,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Iowa": {
+          "record": "2-0",
+          "ranking": 13,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Arizona State": {
+          "record": "2-0",
+          "ranking": 14,
+          "conference": "Pac-10",
+          "previousRanking": "24"
+        },
+        "Colorado": {
+          "record": "1-1",
+          "ranking": 15,
+          "conference": "Big 12 (North)",
+          "previousRanking": "8"
+        },
+        "Clemson": {
+          "record": "2-0",
+          "ranking": 16,
+          "conference": "ACC",
+          "previousRanking": "19"
+        },
+        "Michigan State": {
+          "record": "2-0",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "21"
+        },
+        "Virginia Tech": {
+          "record": "2-0",
+          "ranking": 18,
+          "conference": "Big East",
+          "previousRanking": "22"
+        },
+        "Washington State": {
+          "record": "2-0",
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Kansas State": {
+          "record": "2-0",
+          "ranking": 20,
+          "conference": "Big 12 (North)",
+          "previousRanking": "20"
+        },
+        "Stanford": {
+          "record": "1-1",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Miami": {
+          "record": "FL",
+          "ranking": 22,
+          "conference": "Big East",
+          "previousRanking": "13"
+        },
+        "Colorado State": {
+          "record": "2-1",
+          "ranking": 23,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "25"
+        },
+        "UCLA": {
+          "record": "1-2",
+          "ranking": 24,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Georgia": {
+          "record": "2-0",
+          "ranking": 25,
+          "conference": "SEC (East)",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-09-22",
+      "teams": {
+        "Florida": {
+          "record": "3-0",
+          "ranking": 1,
+          "conference": "SEC (East)",
+          "previousRanking": "3"
+        },
+        "Penn State": {
+          "record": "3-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Nebraska": {
+          "record": "3-0",
+          "ranking": 3,
+          "conference": "Big 12 (North)",
+          "previousRanking": "7"
+        },
+        "Florida State": {
+          "record": "3-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "North Carolina": {
+          "record": "3-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "6"
+        },
+        "Michigan": {
+          "record": "2-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "3-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Auburn": {
+          "record": "3-0",
+          "ranking": 8,
+          "conference": "SEC (West)",
+          "previousRanking": "12"
+        },
+        "Tennessee": {
+          "record": "2-1",
+          "ranking": 9,
+          "conference": "SEC (East)",
+          "previousRanking": "4"
+        },
+        "Washington": {
+          "record": "2-1",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "2"
+        },
+        "Iowa": {
+          "record": "3-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "13"
+        },
+        "Michigan State": {
+          "record": "3-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "LSU": {
+          "record": "2-1",
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "10"
+        },
+        "Virginia Tech": {
+          "record": "3-0",
+          "ranking": 14,
+          "conference": "Big East",
+          "previousRanking": "18"
+        },
+        "Washington State": {
+          "record": "3-0",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "19"
+        },
+        "Colorado": {
+          "record": "1-1",
+          "ranking": 16,
+          "conference": "Big 12 (North)",
+          "previousRanking": "15"
+        },
+        "Clemson": {
+          "record": "2-1",
+          "ranking": 17,
+          "conference": "ACC",
+          "previousRanking": "16"
+        },
+        "Kansas State": {
+          "record": "2-0",
+          "ranking": 18,
+          "conference": "Big 12 (North)",
+          "previousRanking": "20"
+        },
+        "Georgia": {
+          "record": "3-0",
+          "ranking": 19,
+          "conference": "SEC (East)",
+          "previousRanking": "25"
+        },
+        "Stanford": {
+          "record": "2-1",
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Alabama": {
+          "record": "2-1",
+          "ranking": 21,
+          "conference": "SEC (West)",
+          "previousRanking": "11"
+        },
+        "Texas A&M": {
+          "record": "2-0",
+          "ranking": 22,
+          "conference": "Big 12 (South)",
+          "previousRanking": "NR"
+        },
+        "Brigham Young": {
+          "record": "1-1",
+          "ranking": 23,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "NR"
+        },
+        "UCLA": {
+          "record": "1-2",
+          "ranking": 24,
+          "conference": "Pac-10",
+          "previousRanking": "24"
+        },
+        "Arizona State": {
+          "record": "2-1",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "14"
+        }
+      }
+    },
+    {
+      "date": "1997-09-29",
+      "teams": {
+        "Florida": {
+          "record": "4-0",
+          "ranking": 1,
+          "conference": "SEC (East)",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "record": "3-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Nebraska": {
+          "record": "3-0",
+          "ranking": 3,
+          "conference": "Big 12 (North)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "3-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "North Carolina": {
+          "record": "4-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "record": "3-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "record": "4-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Auburn": {
+          "record": "4-0",
+          "ranking": 8,
+          "conference": "SEC (West)",
+          "previousRanking": "8"
+        },
+        "Tennessee": {
+          "record": "2-1",
+          "ranking": 9,
+          "conference": "SEC (East)",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "2-1",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Iowa": {
+          "record": "4-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Michigan State": {
+          "record": "3-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "LSU": {
+          "record": "3-1",
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "13"
+        },
+        "Virginia Tech": {
+          "record": "4-0",
+          "ranking": 14,
+          "conference": "Big East",
+          "previousRanking": "14"
+        },
+        "Washington State": {
+          "record": "4-0",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Colorado": {
+          "record": "2-1",
+          "ranking": 16,
+          "conference": "Big 12 (North)",
+          "previousRanking": "16"
+        },
+        "Kansas State": {
+          "record": "3-0",
+          "ranking": 17,
+          "conference": "Big 12 (North)",
+          "previousRanking": "18"
+        },
+        "Georgia": {
+          "record": "3-0",
+          "ranking": 18,
+          "conference": "SEC (East)",
+          "previousRanking": "19"
+        },
+        "Stanford": {
+          "record": "3-1",
+          "ranking": 19,
+          "conference": "Pac-10",
+          "previousRanking": "20"
+        },
+        "Alabama": {
+          "record": "3-1",
+          "ranking": 20,
+          "conference": "SEC (West)",
+          "previousRanking": "21"
+        },
+        "Texas A&M": {
+          "record": "3-0",
+          "ranking": 21,
+          "conference": "Big 12 (South)",
+          "previousRanking": "22"
+        },
+        "UCLA": {
+          "record": "2-2",
+          "ranking": 22,
+          "conference": "Pac-10",
+          "previousRanking": "24"
+        },
+        "Air Force": {
+          "record": "5-0",
+          "ranking": 23,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "NR"
+        },
+        "Brigham Young": {
+          "record": "2-1",
+          "ranking": 24,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "23"
+        },
+        "Arizona State": {
+          "record": "3-1",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "1997-10-06",
+      "teams": {
+        "Florida": {
+          "record": "5-0",
+          "ranking": 1,
+          "conference": "SEC (East)",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "record": "4-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Nebraska": {
+          "record": "4-0",
+          "ranking": 3,
+          "conference": "Big 12 (North)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "4-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "North Carolina": {
+          "record": "5-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "record": "4-0",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Ohio State": {
+          "record": "5-0",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Auburn": {
+          "record": "5-0",
+          "ranking": 8,
+          "conference": "SEC (West)",
+          "previousRanking": "8"
+        },
+        "Tennessee": {
+          "record": "3-1",
+          "ranking": 9,
+          "conference": "SEC (East)",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "3-1",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Michigan State": {
+          "record": "4-0",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Washington State": {
+          "record": "5-0",
+          "ranking": 12,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Georgia": {
+          "record": "4-0",
+          "ranking": 13,
+          "conference": "SEC (East)",
+          "previousRanking": "18"
+        },
+        "LSU": {
+          "record": "4-1",
+          "ranking": 14,
+          "conference": "SEC (West)",
+          "previousRanking": "13"
+        },
+        "Texas A&M": {
+          "record": "4-0",
+          "ranking": 15,
+          "conference": "Big 12 (South)",
+          "previousRanking": "21"
+        },
+        "Stanford": {
+          "record": "4-1",
+          "ranking": 16,
+          "conference": "Pac-10",
+          "previousRanking": "19"
+        },
+        "Iowa": {
+          "record": "4-1",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "UCLA": {
+          "record": "3-2",
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "22"
+        },
+        "Air Force": {
+          "record": "6-0",
+          "ranking": 19,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "23"
+        },
+        "Oklahoma State": {
+          "record": "5-0",
+          "ranking": 20,
+          "conference": "Big 12 (South)",
+          "previousRanking": "NR"
+        },
+        "Brigham Young": {
+          "record": "3-1",
+          "ranking": 21,
+          "conference": "WAC (Mountain)",
+          "previousRanking": "24"
+        },
+        "Kansas State": {
+          "record": "3-1",
+          "ranking": 22,
+          "conference": "Big 12 (North)",
+          "previousRanking": "17"
+        },
+        "Virginia Tech": {
+          "record": "4-1",
+          "ranking": 23,
+          "conference": "Big East",
+          "previousRanking": "14"
+        },
+        "Colorado": {
+          "record": "2-2",
+          "ranking": 24,
+          "conference": "Big 12 (North)",
+          "previousRanking": "16"
+        },
+        "Georgia Tech": {
+          "record": "3-1",
+          "ranking": 25,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-10-13",
+      "teams": {
+        "Penn State": {
+          "record": "5-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Nebraska": {
+          "record": "5-0",
+          "ranking": 2,
+          "conference": "Big 12 (North)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "5-0",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "North Carolina": {
+          "record": "6-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Michigan": {
+          "record": "5-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Auburn": {
+          "record": "6-0",
+          "ranking": 6,
+          "conference": "SEC (West)",
+          "previousRanking": "8"
+        },
+        "Florida": {
+          "record": "5-1",
+          "ranking": 7,
+          "conference": "SEC (East)",
+          "previousRanking": "1"
+        },
+        "LSU": {
+          "record": "5-1",
+          "ranking": 8,
+          "conference": "SEC (West)",
+          "previousRanking": "14"
+        },
+        "Tennessee": {
+          "record": "4-1",
+          "ranking": 9,
+          "conference": "SEC (East)",
+          "previousRanking": "9"
+        },
+        "Washington": {
+          "record": "4-1",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Ohio State": {
+          "record": "5-1",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Michigan State": {
+          "record": "5-0",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Washington State": {
+          "record": "5-0",
+          "ranking": 13,
+          "conference": "Pac-10",
+          "previousRanking": "12"
+        },
+        "Texas A&M": {
+          "record": "5-0",
+          "ranking": 14,
+          "conference": "Big 12 (South)",
+          "previousRanking": "15"
+        },
+        "Iowa": {
+          "record": "4-1",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Oklahoma State": {
+          "record": "6-0",
+          "ranking": 16,
+          "conference": "Big 12 (South)",
+          "previousRanking": "20"
+        },
+        "UCLA": {
+          "record": "4-2",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "18"
+        },
+        "Air Force": {
+          "record": "7-0",
+          "ranking": 18,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "19"
+        },
+        "Georgia": {
+          "record": "4-1",
+          "ranking": 19,
+          "conference": "SEC (East)",
+          "previousRanking": "13"
+        },
+        "Kansas State": {
+          "record": "4-1",
+          "ranking": 20,
+          "conference": "Big 12 (North)",
+          "previousRanking": "22"
+        },
+        "Georgia Tech": {
+          "record": "4-1",
+          "ranking": 21,
+          "conference": "ACC",
+          "previousRanking": "25"
+        },
+        "Virginia Tech": {
+          "record": "5-1",
+          "ranking": 22,
+          "conference": "Big East",
+          "previousRanking": "23"
+        },
+        "West Virginia": {
+          "record": "5-1",
+          "ranking": 23,
+          "conference": "Big East",
+          "previousRanking": "NR"
+        },
+        "Wisconsin": {
+          "record": "6-1",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Stanford": {
+          "record": "4-2",
+          "ranking": 25,
+          "conference": "Pac-10",
+          "previousRanking": "16"
+        }
+      }
+    },
+    {
+      "date": "1997-10-20",
+      "teams": {
+        "Nebraska": {
+          "record": "6-0",
+          "ranking": 1,
+          "conference": "Big 12 (North)",
+          "previousRanking": "2"
+        },
+        "Penn State": {
+          "record": "6-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "6-0",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "North Carolina": {
+          "record": "7-0",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Michigan": {
+          "record": "6-0",
+          "ranking": 5,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "Florida": {
+          "record": "6-1",
+          "ranking": 6,
+          "conference": "SEC (East)",
+          "previousRanking": "7"
+        },
+        "Washington": {
+          "record": "5-1",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Tennessee": {
+          "record": "5-1",
+          "ranking": 8,
+          "conference": "SEC (East)",
+          "previousRanking": "9"
+        },
+        "Ohio State": {
+          "record": "6-1",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Washington State": {
+          "record": "6-0",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "13"
+        },
+        "Auburn": {
+          "record": "6-1",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "6"
+        },
+        "Oklahoma State": {
+          "record": "6-0",
+          "ranking": 12,
+          "conference": "Big 12 (South)",
+          "previousRanking": "16"
+        },
+        "UCLA": {
+          "record": "5-2",
+          "ranking": 13,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Kansas State": {
+          "record": "5-1",
+          "ranking": 14,
+          "conference": "Big 12 (North)",
+          "previousRanking": "20"
+        },
+        "Michigan State": {
+          "record": "5-1",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Georgia": {
+          "record": "5-1",
+          "ranking": 16,
+          "conference": "SEC (East)",
+          "previousRanking": "19"
+        },
+        "LSU": {
+          "record": "5-2",
+          "ranking": 17,
+          "conference": "SEC (West)",
+          "previousRanking": "8"
+        },
+        "Iowa": {
+          "record": "4-2",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Virginia Tech": {
+          "record": "5-1",
+          "ranking": 19,
+          "conference": "Big East",
+          "previousRanking": "22"
+        },
+        "Texas A&M": {
+          "record": "5-1",
+          "ranking": 20,
+          "conference": "Big 12 (South)",
+          "previousRanking": "14"
+        },
+        "West Virginia": {
+          "record": "5-1",
+          "ranking": 21,
+          "conference": "Big East",
+          "previousRanking": "23"
+        },
+        "Purdue": {
+          "record": "5-1",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Arizona State": {
+          "record": "5-2",
+          "ranking": 23,
+          "conference": "Pac-10",
+          "previousRanking": "NR"
+        },
+        "Toledo": {
+          "record": "6-0",
+          "ranking": 24,
+          "conference": "MAC (West)",
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "4-2",
+          "ranking": 25,
+          "conference": "SEC (West)",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-10-27",
+      "teams": {
+        "Nebraska": {
+          "record": "7-0",
+          "ranking": 1,
+          "conference": "Big 12 (North)",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "record": "6-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Florida State": {
+          "record": "7-0",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Michigan": {
+          "record": "7-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "5"
+        },
+        "North Carolina": {
+          "record": "7-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Florida": {
+          "record": "6-1",
+          "ranking": 6,
+          "conference": "SEC (East)",
+          "previousRanking": "6"
+        },
+        "Washington": {
+          "record": "6-1",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "5-1",
+          "ranking": 8,
+          "conference": "SEC (East)",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "7-1",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Washington State": {
+          "record": "7-0",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Auburn": {
+          "record": "7-1",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "11"
+        },
+        "UCLA": {
+          "record": "6-2",
+          "ranking": 12,
+          "conference": "Pac-10",
+          "previousRanking": "13"
+        },
+        "Kansas State": {
+          "record": "6-1",
+          "ranking": 13,
+          "conference": "Big 12 (North)",
+          "previousRanking": "14"
+        },
+        "Georgia": {
+          "record": "6-1",
+          "ranking": 14,
+          "conference": "SEC (East)",
+          "previousRanking": "16"
+        },
+        "Iowa": {
+          "record": "5-2",
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "LSU": {
+          "record": "5-2",
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "17"
+        },
+        "West Virginia": {
+          "record": "6-1",
+          "ranking": 17,
+          "conference": "Big East",
+          "previousRanking": "21"
+        },
+        "Purdue": {
+          "record": "6-1",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "22"
+        },
+        "Oklahoma State": {
+          "record": "6-1",
+          "ranking": 19,
+          "conference": "Big 12 (South)",
+          "previousRanking": "12"
+        },
+        "Arizona State": {
+          "record": "5-2",
+          "ranking": 20,
+          "conference": "Pac-10",
+          "previousRanking": "23"
+        },
+        "Michigan State": {
+          "record": "5-2",
+          "ranking": 21,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Toledo": {
+          "record": "7-0",
+          "ranking": 22,
+          "conference": "MAC (West)",
+          "previousRanking": "24"
+        },
+        "Virginia Tech": {
+          "record": "5-2",
+          "ranking": 23,
+          "conference": "Big East",
+          "previousRanking": "19"
+        },
+        "Southern Mississippi": {
+          "record": "5-2",
+          "ranking": 24,
+          "conference": "CUSA",
+          "previousRanking": "NR"
+        },
+        "Texas A&M": {
+          "record": "5-2",
+          "ranking": 25,
+          "conference": "Big 12 (South)",
+          "previousRanking": "20"
+        }
+      }
+    },
+    {
+      "date": "1997-11-03",
+      "teams": {
+        "Nebraska": {
+          "record": "8-0",
+          "ranking": 1,
+          "conference": "Big 12 (North)",
+          "previousRanking": "1"
+        },
+        "Penn State": {
+          "record": "7-0",
+          "ranking": 2,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Florida State": {
+          "record": "8-0",
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Michigan": {
+          "record": "8-0",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "North Carolina": {
+          "record": "8-0",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "Washington": {
+          "record": "7-1",
+          "ranking": 6,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Ohio State": {
+          "record": "8-1",
+          "ranking": 7,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Tennessee": {
+          "record": "6-1",
+          "ranking": 8,
+          "conference": "SEC (East)",
+          "previousRanking": "8"
+        },
+        "Georgia": {
+          "record": "7-1",
+          "ranking": 9,
+          "conference": "SEC (East)",
+          "previousRanking": "14"
+        },
+        "UCLA": {
+          "record": "7-2",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "12"
+        },
+        "Kansas State": {
+          "record": "7-1",
+          "ranking": 11,
+          "conference": "Big 12 (North)",
+          "previousRanking": "13"
+        },
+        "Iowa": {
+          "record": "6-2",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "15"
+        },
+        "Florida": {
+          "record": "6-2",
+          "ranking": 13,
+          "conference": "SEC (East)",
+          "previousRanking": "6"
+        },
+        "LSU": {
+          "record": "6-2",
+          "ranking": 14,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Arizona State": {
+          "record": "6-2",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "20"
+        },
+        "Washington State": {
+          "record": "7-1",
+          "ranking": 16,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Auburn": {
+          "record": "7-2",
+          "ranking": 17,
+          "conference": "SEC (West)",
+          "previousRanking": "11"
+        },
+        "Toledo": {
+          "record": "8-0",
+          "ranking": 18,
+          "conference": "MAC (West)",
+          "previousRanking": "22"
+        },
+        "Mississippi State": {
+          "record": "6-2",
+          "ranking": 19,
+          "conference": "SEC (West)",
+          "previousRanking": "NR"
+        },
+        "Virginia Tech": {
+          "record": "6-2",
+          "ranking": 20,
+          "conference": "Big East",
+          "previousRanking": "23"
+        },
+        "Texas A&M": {
+          "record": "6-2",
+          "ranking": 21,
+          "conference": "Big 12 (South)",
+          "previousRanking": "25"
+        },
+        "Syracuse": {
+          "record": "6-3",
+          "ranking": 22,
+          "conference": "Big East",
+          "previousRanking": "NR"
+        },
+        "Purdue": {
+          "record": "6-2",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Southern Mississippi": {
+          "record": "6-2",
+          "ranking": 24,
+          "conference": "CUSA",
+          "previousRanking": "24"
+        },
+        "Oklahoma State": {
+          "record": "6-2",
+          "ranking": 25,
+          "conference": "Big 12 (South)",
+          "previousRanking": "19"
+        }
+      }
+    },
+    {
+      "date": "1997-11-10",
+      "teams": {
+        "Michigan": {
+          "record": "9-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Florida State": {
+          "record": "9-0",
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "3"
+        },
+        "Nebraska": {
+          "record": "9-0",
+          "ranking": 3,
+          "conference": "Big 12 (North)",
+          "previousRanking": "1"
+        },
+        "Ohio State": {
+          "record": "9-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "record": "7-1",
+          "ranking": 5,
+          "conference": "SEC (East)",
+          "previousRanking": "8"
+        },
+        "Penn State": {
+          "record": "7-1",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "2"
+        },
+        "Georgia": {
+          "record": "7-1",
+          "ranking": 7,
+          "conference": "SEC (East)",
+          "previousRanking": "9"
+        },
+        "North Carolina": {
+          "record": "8-1",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "UCLA": {
+          "record": "7-2",
+          "ranking": 9,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Kansas State": {
+          "record": "8-1",
+          "ranking": 10,
+          "conference": "Big 12 (North)",
+          "previousRanking": "11"
+        },
+        "LSU": {
+          "record": "7-2",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "14"
+        },
+        "Florida": {
+          "record": "7-2",
+          "ranking": 12,
+          "conference": "SEC (East)",
+          "previousRanking": "13"
+        },
+        "Washington": {
+          "record": "7-2",
+          "ranking": 13,
+          "conference": "Pac-10",
+          "previousRanking": "6"
+        },
+        "Washington State": {
+          "record": "8-1",
+          "ranking": 14,
+          "conference": "Pac-10",
+          "previousRanking": "16"
+        },
+        "Arizona State": {
+          "record": "7-2",
+          "ranking": 15,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Auburn": {
+          "record": "7-2",
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "17"
+        },
+        "Mississippi State": {
+          "record": "6-2",
+          "ranking": 17,
+          "conference": "SEC (West)",
+          "previousRanking": "19"
+        },
+        "Texas A&M": {
+          "record": "7-2",
+          "ranking": 18,
+          "conference": "Big 12 (South)",
+          "previousRanking": "21"
+        },
+        "Virginia Tech": {
+          "record": "7-2",
+          "ranking": 19,
+          "conference": "Big East",
+          "previousRanking": "20"
+        },
+        "Purdue": {
+          "record": "7-2",
+          "ranking": 19,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Syracuse": {
+          "record": "7-3",
+          "ranking": 21,
+          "conference": "Big East",
+          "previousRanking": "22"
+        },
+        "Iowa": {
+          "record": "6-3",
+          "ranking": 22,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Wisconsin": {
+          "record": "8-2",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        },
+        "Oklahoma State": {
+          "record": "7-2",
+          "ranking": 24,
+          "conference": "Big 12 (South)",
+          "previousRanking": "25"
+        },
+        "Missouri": {
+          "record": "6-4",
+          "ranking": 25,
+          "conference": "Big 12 (North)",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-11-17",
+      "teams": {
+        "Michigan": {
+          "record": "10-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Florida State": {
+          "record": "10-0",
+          "ranking": 2,
+          "conference": "ACC",
+          "previousRanking": "2"
+        },
+        "Nebraska": {
+          "record": "10-0",
+          "ranking": 3,
+          "conference": "Big 12 (North)",
+          "previousRanking": "3"
+        },
+        "Ohio State": {
+          "record": "10-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Tennessee": {
+          "record": "8-1",
+          "ranking": 5,
+          "conference": "SEC (East)",
+          "previousRanking": "5"
+        },
+        "Penn State": {
+          "record": "8-1",
+          "ranking": 6,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "UCLA": {
+          "record": "8-2",
+          "ranking": 7,
+          "conference": "Pac-10",
+          "previousRanking": "9"
+        },
+        "North Carolina": {
+          "record": "9-1",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "8"
+        },
+        "Kansas State": {
+          "record": "9-1",
+          "ranking": 9,
+          "conference": "Big 12 (North)",
+          "previousRanking": "10"
+        },
+        "Florida": {
+          "record": "8-2",
+          "ranking": 10,
+          "conference": "SEC (East)",
+          "previousRanking": "12"
+        },
+        "Washington State": {
+          "record": "9-1",
+          "ranking": 11,
+          "conference": "Pac-10",
+          "previousRanking": "14"
+        },
+        "Arizona State": {
+          "record": "8-2",
+          "ranking": 12,
+          "conference": "Pac-10",
+          "previousRanking": "15"
+        },
+        "Auburn": {
+          "record": "8-2",
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Georgia": {
+          "record": "7-2",
+          "ranking": 14,
+          "conference": "SEC (East)",
+          "previousRanking": "7"
+        },
+        "Mississippi State": {
+          "record": "7-2",
+          "ranking": 15,
+          "conference": "SEC (West)",
+          "previousRanking": "17"
+        },
+        "Texas A&M": {
+          "record": "8-2",
+          "ranking": 16,
+          "conference": "Big 12 (South)",
+          "previousRanking": "18"
+        },
+        "Washington": {
+          "record": "7-3",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "13"
+        },
+        "Syracuse": {
+          "record": "8-3",
+          "ranking": 18,
+          "conference": "Big East",
+          "previousRanking": "21"
+        },
+        "Virginia Tech": {
+          "record": "7-2",
+          "ranking": 19,
+          "conference": "Big East",
+          "previousRanking": "19"
+        },
+        "LSU": {
+          "record": "7-3",
+          "ranking": 20,
+          "conference": "SEC (West)",
+          "previousRanking": "11"
+        },
+        "Missouri": {
+          "record": "7-4",
+          "ranking": 21,
+          "conference": "Big 12 (North)",
+          "previousRanking": "25"
+        },
+        "West Virginia": {
+          "record": "7-2",
+          "ranking": 22,
+          "conference": "Big East",
+          "previousRanking": "NR"
+        },
+        "Purdue": {
+          "record": "7-3",
+          "ranking": 23,
+          "conference": "Big Ten",
+          "previousRanking": "19"
+        },
+        "Wisconsin": {
+          "record": "8-3",
+          "ranking": 24,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Colorado State": {
+          "record": "8-2",
+          "ranking": 25,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-11-24",
+      "teams": {
+        "Michigan": {
+          "record": "11-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Nebraska": {
+          "record": "10-0",
+          "ranking": 2,
+          "conference": "Big 12 (North)",
+          "previousRanking": "3"
+        },
+        "Tennessee": {
+          "record": "9-1",
+          "ranking": 3,
+          "conference": "SEC (East)",
+          "previousRanking": "5"
+        },
+        "Penn State": {
+          "record": "9-1",
+          "ranking": 4,
+          "conference": "Big Ten",
+          "previousRanking": "6"
+        },
+        "Florida State": {
+          "record": "10-1",
+          "ranking": 5,
+          "conference": "ACC",
+          "previousRanking": "2"
+        },
+        "UCLA": {
+          "record": "9-2",
+          "ranking": 6,
+          "conference": "Pac-10",
+          "previousRanking": "7"
+        },
+        "Florida": {
+          "record": "9-2",
+          "ranking": 7,
+          "conference": "SEC (East)",
+          "previousRanking": "10"
+        },
+        "North Carolina": {
+          "record": "10-1",
+          "ranking": 8,
+          "conference": "ACC",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "10-2",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Washington State": {
+          "record": "10-1",
+          "ranking": 10,
+          "conference": "Pac-10",
+          "previousRanking": "11"
+        },
+        "Kansas State": {
+          "record": "10-1",
+          "ranking": 11,
+          "conference": "Big 12 (North)",
+          "previousRanking": "9"
+        },
+        "Arizona State": {
+          "record": "8-2",
+          "ranking": 12,
+          "conference": "Pac-10",
+          "previousRanking": "12"
+        },
+        "Auburn": {
+          "record": "9-2",
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "13"
+        },
+        "Georgia": {
+          "record": "8-2",
+          "ranking": 14,
+          "conference": "SEC (East)",
+          "previousRanking": "14"
+        },
+        "Texas A&M": {
+          "record": "8-2",
+          "ranking": 15,
+          "conference": "Big 12 (South)",
+          "previousRanking": "16"
+        },
+        "Syracuse": {
+          "record": "8-3",
+          "ranking": 16,
+          "conference": "Big East",
+          "previousRanking": "18"
+        },
+        "LSU": {
+          "record": "7-3",
+          "ranking": 17,
+          "conference": "SEC (West)",
+          "previousRanking": "20"
+        },
+        "Purdue": {
+          "record": "8-3",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "23"
+        },
+        "Missouri": {
+          "record": "7-4",
+          "ranking": 19,
+          "conference": "Big 12 (North)",
+          "previousRanking": "21"
+        },
+        "Colorado State": {
+          "record": "9-2",
+          "ranking": 20,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "25"
+        },
+        "Washington": {
+          "record": "7-4",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Mississippi State": {
+          "record": "7-3",
+          "ranking": 22,
+          "conference": "SEC (West)",
+          "previousRanking": "15"
+        },
+        "Southern Mississippi": {
+          "record": "8-3",
+          "ranking": 23,
+          "conference": "CUSA",
+          "previousRanking": "NR"
+        },
+        "Air Force": {
+          "record": "10-2",
+          "ranking": 24,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "NR"
+        },
+        "Oklahoma State": {
+          "record": "8-3",
+          "ranking": 25,
+          "conference": "Big 12 (South)",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-12-01",
+      "teams": {
+        "Michigan": {
+          "record": "11-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Nebraska": {
+          "record": "11-0",
+          "ranking": 2,
+          "conference": "Big 12 (North)",
+          "previousRanking": "2"
+        },
+        "Tennessee": {
+          "record": "10-1",
+          "ranking": 3,
+          "conference": "SEC (East)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "10-1",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "5"
+        },
+        "UCLA": {
+          "record": "9-2",
+          "ranking": 5,
+          "conference": "Pac-10",
+          "previousRanking": "6"
+        },
+        "Florida": {
+          "record": "9-2",
+          "ranking": 6,
+          "conference": "SEC (East)",
+          "previousRanking": "7"
+        },
+        "North Carolina": {
+          "record": "10-1",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "8"
+        },
+        "Washington State": {
+          "record": "10-1",
+          "ranking": 8,
+          "conference": "Pac-10",
+          "previousRanking": "10"
+        },
+        "Ohio State": {
+          "record": "10-2",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Kansas State": {
+          "record": "10-1",
+          "ranking": 10,
+          "conference": "Big 12 (North)",
+          "previousRanking": "11"
+        },
+        "Auburn": {
+          "record": "9-2",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "13"
+        },
+        "Penn State": {
+          "record": "9-2",
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "4"
+        },
+        "Georgia": {
+          "record": "9-2",
+          "ranking": 13,
+          "conference": "SEC (East)",
+          "previousRanking": "14"
+        },
+        "Texas A&M": {
+          "record": "9-2",
+          "ranking": 14,
+          "conference": "Big 12 (South)",
+          "previousRanking": "15"
+        },
+        "Syracuse": {
+          "record": "9-3",
+          "ranking": 15,
+          "conference": "Big East",
+          "previousRanking": "16"
+        },
+        "LSU": {
+          "record": "8-3",
+          "ranking": 16,
+          "conference": "SEC (West)",
+          "previousRanking": "17"
+        },
+        "Arizona State": {
+          "record": "8-3",
+          "ranking": 17,
+          "conference": "Pac-10",
+          "previousRanking": "12"
+        },
+        "Purdue": {
+          "record": "8-3",
+          "ranking": 18,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Missouri": {
+          "record": "7-4",
+          "ranking": 19,
+          "conference": "Big 12 (North)",
+          "previousRanking": "19"
+        },
+        "Colorado State": {
+          "record": "9-2",
+          "ranking": 20,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "20"
+        },
+        "Washington": {
+          "record": "7-4",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Southern Mississippi": {
+          "record": "8-3",
+          "ranking": 22,
+          "conference": "CUSA",
+          "previousRanking": "23"
+        },
+        "Air Force": {
+          "record": "10-2",
+          "ranking": 23,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "24"
+        },
+        "Oklahoma State": {
+          "record": "8-3",
+          "ranking": 24,
+          "conference": "Big 12 (South)",
+          "previousRanking": "25"
+        },
+        "Michigan State": {
+          "record": "7-4",
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "1997-12-08",
+      "teams": {
+        "Michigan": {
+          "record": "11-0",
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Nebraska": {
+          "record": "12-0",
+          "ranking": 2,
+          "conference": "Big 12 (North)",
+          "previousRanking": "2"
+        },
+        "Tennessee": {
+          "record": "11-1",
+          "ranking": 3,
+          "conference": "SEC (East)",
+          "previousRanking": "3"
+        },
+        "Florida State": {
+          "record": "10-1",
+          "ranking": 4,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "UCLA": {
+          "record": "9-2",
+          "ranking": 5,
+          "conference": "Pac-10",
+          "previousRanking": "5"
+        },
+        "Florida": {
+          "record": "9-2",
+          "ranking": 6,
+          "conference": "SEC (East)",
+          "previousRanking": "6"
+        },
+        "North Carolina": {
+          "record": "10-1",
+          "ranking": 7,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Washington State": {
+          "record": "10-1",
+          "ranking": 8,
+          "conference": "Pac-10",
+          "previousRanking": "8"
+        },
+        "Ohio State": {
+          "record": "10-2",
+          "ranking": 9,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "Kansas State": {
+          "record": "10-1",
+          "ranking": 10,
+          "conference": "Big 12 (North)",
+          "previousRanking": "10"
+        },
+        "Penn State": {
+          "record": "9-2",
+          "ranking": 11,
+          "conference": "Big Ten",
+          "previousRanking": "12"
+        },
+        "Georgia": {
+          "record": "9-2",
+          "ranking": 12,
+          "conference": "SEC (East)",
+          "previousRanking": "13"
+        },
+        "Auburn": {
+          "record": "9-3",
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "11"
+        },
+        "Syracuse": {
+          "record": "9-3",
+          "ranking": 14,
+          "conference": "Big East",
+          "previousRanking": "15"
+        },
+        "LSU": {
+          "record": "8-3",
+          "ranking": 15,
+          "conference": "SEC (West)",
+          "previousRanking": "16"
+        },
+        "Arizona State": {
+          "record": "8-3",
+          "ranking": 16,
+          "conference": "Pac-10",
+          "previousRanking": "17"
+        },
+        "Purdue": {
+          "record": "8-3",
+          "ranking": 17,
+          "conference": "Big Ten",
+          "previousRanking": "18"
+        },
+        "Colorado State": {
+          "record": "10-2",
+          "ranking": 18,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "20"
+        },
+        "Missouri": {
+          "record": "7-4",
+          "ranking": 19,
+          "conference": "Big 12 (North)",
+          "previousRanking": "19"
+        },
+        "Texas A&M": {
+          "record": "9-3",
+          "ranking": 20,
+          "conference": "Big 12 (South)",
+          "previousRanking": "14"
+        },
+        "Washington": {
+          "record": "7-4",
+          "ranking": 21,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Southern Mississippi": {
+          "record": "8-3",
+          "ranking": 22,
+          "conference": "CUSA",
+          "previousRanking": "22"
+        },
+        "Air Force": {
+          "record": "10-2",
+          "ranking": 23,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "23"
+        },
+        "Oklahoma State": {
+          "record": "8-3",
+          "ranking": 24,
+          "conference": "Big 12 (South)",
+          "previousRanking": "24"
+        },
+        "Michigan State": {
+          "record": "7-4",
+          "ranking": 25,
+          "conference": "Big Ten",
+          "previousRanking": "25"
+        }
+      }
+    },
+    {
+      "date": "Final",
+      "teams": {
+        "Michigan": {
+          "ranking": 1,
+          "conference": "Big Ten",
+          "previousRanking": "1"
+        },
+        "Nebraska": {
+          "ranking": 2,
+          "conference": "Big 12 (North)",
+          "previousRanking": "2"
+        },
+        "Florida State": {
+          "ranking": 3,
+          "conference": "ACC",
+          "previousRanking": "4"
+        },
+        "Florida": {
+          "ranking": 4,
+          "conference": "SEC (East)",
+          "previousRanking": "6"
+        },
+        "UCLA": {
+          "ranking": 5,
+          "conference": "Pac-10",
+          "previousRanking": "5"
+        },
+        "North Carolina": {
+          "ranking": 6,
+          "conference": "ACC",
+          "previousRanking": "7"
+        },
+        "Tennessee": {
+          "ranking": 7,
+          "conference": "SEC (East)",
+          "previousRanking": "3"
+        },
+        "Kansas State": {
+          "ranking": 8,
+          "conference": "Big 12 (North)",
+          "previousRanking": "10"
+        },
+        "Washington State": {
+          "ranking": 9,
+          "conference": "Pac-10",
+          "previousRanking": "8"
+        },
+        "Georgia": {
+          "ranking": 10,
+          "conference": "SEC (East)",
+          "previousRanking": "12"
+        },
+        "Auburn": {
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "13"
+        },
+        "Ohio State": {
+          "ranking": 12,
+          "conference": "Big Ten",
+          "previousRanking": "9"
+        },
+        "LSU": {
+          "ranking": 13,
+          "conference": "SEC (West)",
+          "previousRanking": "15"
+        },
+        "Arizona State": {
+          "ranking": 14,
+          "conference": "Pac-10",
+          "previousRanking": "16"
+        },
+        "Purdue": {
+          "ranking": 15,
+          "conference": "Big Ten",
+          "previousRanking": "17"
+        },
+        "Penn State": {
+          "ranking": 16,
+          "conference": "Big Ten",
+          "previousRanking": "11"
+        },
+        "Colorado State": {
+          "ranking": 17,
+          "conference": "WAC (Pacific)",
+          "previousRanking": "18"
+        },
+        "Washington": {
+          "ranking": 18,
+          "conference": "Pac-10",
+          "previousRanking": "21"
+        },
+        "Southern Mississippi": {
+          "ranking": 19,
+          "conference": "CUSA",
+          "previousRanking": "22"
+        },
+        "Texas A&M": {
+          "ranking": 20,
+          "conference": "Big 12 (South)",
+          "previousRanking": "20"
+        },
+        "Syracuse": {
+          "ranking": 21,
+          "conference": "Big East",
+          "previousRanking": "14"
+        },
+        "Ole Miss": {
+          "ranking": 22,
+          "conference": "SEC (West)",
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "ranking": 23,
+          "conference": "Big 12 (North)",
+          "previousRanking": "19"
+        },
+        "Oklahoma State": {
+          "ranking": 24,
+          "conference": "Big 12 (South)",
+          "previousRanking": "24"
+        },
+        "Georgia Tech": {
+          "ranking": 25,
+          "conference": "ACC",
+          "previousRanking": "NR"
+        }
+      }
+    }
+  ]
+}

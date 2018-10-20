@@ -18,6 +18,7 @@ import {
   AwayGameWrapper,
   HomeGameWrapper,
   OpponentRanking,
+  OvertimeIndicator,
   ShamrockSeriesLogo,
   TelevisionCoverage,
   OpponentDetailsWrapper,
@@ -39,11 +40,27 @@ const Game = ({game, year, index, isSelected}) => {
       scoreResult = <ScoreResult className="tie">T</ScoreResult>;
     }
 
+    let overtimeContent;
+    if (game.numOvertimes) {
+      overtimeContent = (
+        <OvertimeIndicator>
+          <span style={{marginRight: '2px'}}>{game.numOvertimes}</span> OT
+        </OvertimeIndicator>
+      );
+    }
+
+    const scoreTotalClasses = classNames({
+      'overtime-game': game.numOvertimes,
+    });
+
     lastColumnContent = (
       <Score>
         {scoreResult}
-        <ScoreTotals>
-          {notreDameScore} - {opponentScore}
+        <ScoreTotals className={scoreTotalClasses}>
+          <p>
+            {notreDameScore} - {opponentScore}
+          </p>
+          {overtimeContent}
         </ScoreTotals>
       </Score>
     );

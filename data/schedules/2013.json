@@ -1,0 +1,1090 @@
+[
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "08/31/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "TEM",
+    "score": {
+      "away": 6,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 362,
+        "passYards": 228,
+        "passCompletions": 23,
+        "passAttempts": 47,
+        "yardsPerPass": 4.9,
+        "interceptionsThrown": 0,
+        "rushYards": 134,
+        "rushAttempts": 29,
+        "yardsPerRush": 4.6,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 1,
+        "possession": "39:30",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 543,
+        "passYards": 355,
+        "passCompletions": 17,
+        "passAttempts": 27,
+        "yardsPerPass": 13.1,
+        "interceptionsThrown": 0,
+        "rushYards": 188,
+        "rushAttempts": 35,
+        "yardsPerRush": 5.4,
+        "penalties": 9,
+        "penaltyYards": 63,
+        "fumblesLost": 0,
+        "possession": "31:53",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 332430087,
+    "linescore": {
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2013-08-31-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/07/2013",
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium"
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 30,
+      "home": 41
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 410,
+        "passYards": 314,
+        "passCompletions": 29,
+        "passAttempts": 53,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 2,
+        "rushYards": 96,
+        "rushAttempts": 19,
+        "yardsPerRush": 5.1,
+        "penalties": 4,
+        "penaltyYards": 33,
+        "fumblesLost": 0,
+        "possession": "25:56",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 460,
+        "passYards": 294,
+        "passCompletions": 21,
+        "passAttempts": 33,
+        "yardsPerPass": 8.9,
+        "interceptionsThrown": 1,
+        "rushYards": 166,
+        "rushAttempts": 39,
+        "yardsPerRush": 4.3,
+        "penalties": 6,
+        "penaltyYards": 50,
+        "fumblesLost": 0,
+        "possession": "34:04",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 332500130,
+    "linescore": {
+      "away": [
+        7,
+        6,
+        7,
+        10
+      ],
+      "home": [
+        10,
+        17,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2013-09-07-michigan",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 14
+      },
+      "home": {
+        "ap": 17
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": false,
+    "date": "09/14/2013",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 31,
+      "home": 24
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 400,
+        "passYards": 309,
+        "passCompletions": 20,
+        "passAttempts": 33,
+        "yardsPerPass": 9.4,
+        "interceptionsThrown": 0,
+        "rushYards": 91,
+        "rushAttempts": 37,
+        "yardsPerRush": 2.5,
+        "penalties": 3,
+        "penaltyYards": 23,
+        "fumblesLost": 1,
+        "possession": "31:12",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 294,
+        "passYards": 256,
+        "passCompletions": 25,
+        "passAttempts": 41,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 1,
+        "rushYards": 38,
+        "rushAttempts": 21,
+        "yardsPerRush": 1.8,
+        "penalties": 6,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "28:48",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 332572509,
+    "linescore": {
+      "away": [
+        0,
+        3,
+        7,
+        21
+      ],
+      "home": [
+        7,
+        3,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2013-09-14-purdue",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 21
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "09/21/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 13,
+      "home": 17
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 254,
+        "passYards": 135,
+        "passCompletions": 16,
+        "passAttempts": 36,
+        "yardsPerPass": 3.8,
+        "interceptionsThrown": 1,
+        "rushYards": 119,
+        "rushAttempts": 35,
+        "yardsPerRush": 3.4,
+        "penalties": 10,
+        "penaltyYards": 115,
+        "fumblesLost": 0,
+        "possession": "30:32",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 220,
+        "passYards": 142,
+        "passCompletions": 14,
+        "passAttempts": 34,
+        "yardsPerPass": 4.2,
+        "interceptionsThrown": 0,
+        "rushYards": 78,
+        "rushAttempts": 32,
+        "yardsPerRush": 2.4,
+        "penalties": 8,
+        "penaltyYards": 86,
+        "fumblesLost": 0,
+        "possession": "29:22",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 332640087,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        3,
+        3
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2013-09-21-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/28/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "OKLA",
+    "score": {
+      "away": 35,
+      "home": 21
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 450,
+        "passYards": 238,
+        "passCompletions": 23,
+        "passAttempts": 31,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 0,
+        "rushYards": 212,
+        "rushAttempts": 42,
+        "yardsPerRush": 5,
+        "penalties": 4,
+        "penaltyYards": 31,
+        "fumblesLost": 0,
+        "possession": "35:44",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 12,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 324,
+        "passYards": 104,
+        "passCompletions": 9,
+        "passAttempts": 25,
+        "yardsPerPass": 4.2,
+        "interceptionsThrown": 3,
+        "rushYards": 220,
+        "rushAttempts": 29,
+        "yardsPerRush": 7.6,
+        "penalties": 8,
+        "penaltyYards": 77,
+        "fumblesLost": 0,
+        "possession": "24:16",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 332710087,
+    "linescore": {
+      "away": [
+        14,
+        7,
+        6,
+        8
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2013-09-28-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 22
+      },
+      "away": {
+        "ap": 14
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "10/05/2013",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Arlington",
+      "state": "TX",
+      "stadium": "AT&T Stadium"
+    },
+    "opponentId": "AZST",
+    "isShamrockSeries": true,
+    "score": {
+      "away": 34,
+      "home": 37
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 427,
+        "passYards": 362,
+        "passCompletions": 33,
+        "passAttempts": 47,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 2,
+        "rushYards": 65,
+        "rushAttempts": 25,
+        "yardsPerRush": 2.6,
+        "penalties": 4,
+        "penaltyYards": 45,
+        "fumblesLost": 1,
+        "possession": "25:15",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 424,
+        "passYards": 279,
+        "passCompletions": 17,
+        "passAttempts": 38,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 1,
+        "rushYards": 145,
+        "rushAttempts": 37,
+        "yardsPerRush": 3.9,
+        "penalties": 9,
+        "penaltyYards": 64,
+        "fumblesLost": 0,
+        "possession": "34:05",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 332780087,
+    "linescore": {
+      "away": [
+        0,
+        13,
+        0,
+        21
+      ],
+      "home": [
+        0,
+        14,
+        10,
+        13
+      ]
+    },
+    "sportsReferenceGameId": "2013-10-05-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 22
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "10/19/2013",
+    "time": "7:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 10,
+      "home": 14
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 330,
+        "passYards": 201,
+        "passCompletions": 20,
+        "passAttempts": 34,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 1,
+        "rushYards": 129,
+        "rushAttempts": 31,
+        "yardsPerRush": 4.2,
+        "penalties": 11,
+        "penaltyYards": 95,
+        "fumblesLost": 0,
+        "possession": "31:18",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 300,
+        "passYards": 166,
+        "passCompletions": 14,
+        "passAttempts": 25,
+        "yardsPerPass": 6.6,
+        "interceptionsThrown": 0,
+        "rushYards": 134,
+        "rushAttempts": 40,
+        "yardsPerRush": 3.3,
+        "penalties": 6,
+        "penaltyYards": 38,
+        "fumblesLost": 1,
+        "possession": "28:42",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 332920087,
+    "linescore": {
+      "away": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2013-10-19-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": false,
+    "date": "10/26/2013",
+    "time": "5:00 PM",
+    "coverage": "CBSSN",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium"
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 45,
+      "home": 10
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 466,
+        "passYards": 331,
+        "passCompletions": 18,
+        "passAttempts": 26,
+        "yardsPerPass": 12.7,
+        "interceptionsThrown": 0,
+        "rushYards": 135,
+        "rushAttempts": 37,
+        "yardsPerRush": 3.6,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "29:10",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 339,
+        "passYards": 49,
+        "passCompletions": 8,
+        "passAttempts": 12,
+        "yardsPerPass": 4.1,
+        "interceptionsThrown": 0,
+        "rushYards": 290,
+        "rushAttempts": 65,
+        "yardsPerRush": 4.5,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 2,
+        "possession": "30:50",
+        "fumbles": 2
+      }
+    },
+    "espnGameId": 332992005,
+    "linescore": {
+      "away": [
+        7,
+        17,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
+    },
+    "sportsReferenceGameId": "2013-10-26-air-force",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "11/02/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 34,
+      "home": 38
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 28,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 419,
+        "passYards": 88,
+        "passCompletions": 6,
+        "passAttempts": 9,
+        "yardsPerPass": 9.8,
+        "interceptionsThrown": 0,
+        "rushYards": 331,
+        "rushAttempts": 70,
+        "yardsPerRush": 4.7,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "37:36",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 2,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 506,
+        "passYards": 242,
+        "passCompletions": 12,
+        "passAttempts": 20,
+        "yardsPerPass": 12.1,
+        "interceptionsThrown": 2,
+        "rushYards": 264,
+        "rushAttempts": 36,
+        "yardsPerRush": 7.3,
+        "penalties": 5,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "22:24",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 333060087,
+    "linescore": {
+      "away": [
+        7,
+        13,
+        0,
+        14
+      ],
+      "home": [
+        10,
+        7,
+        7,
+        14
+      ]
+    },
+    "sportsReferenceGameId": "2013-11-02-notre-dame",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "bcs": 25
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/09/2013",
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 21,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 456,
+        "passYards": 318,
+        "passCompletions": 18,
+        "passAttempts": 39,
+        "yardsPerPass": 8.2,
+        "interceptionsThrown": 2,
+        "rushYards": 138,
+        "rushAttempts": 24,
+        "yardsPerRush": 5.8,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 1,
+        "possession": "23:27",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 355,
+        "passYards": 243,
+        "passCompletions": 22,
+        "passAttempts": 35,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 0,
+        "rushYards": 112,
+        "rushAttempts": 41,
+        "yardsPerRush": 2.7,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "36:33",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 333130221,
+    "linescore": {
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7
+      ]
+    },
+    "sportsReferenceGameId": "2013-11-09-pittsburgh",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 24,
+        "bcs": 23
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "date": "11/23/2013",
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "BYU",
+    "score": {
+      "away": 13,
+      "home": 23
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 20,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 415,
+        "passYards": 168,
+        "passCompletions": 21,
+        "passAttempts": 36,
+        "yardsPerPass": 4.7,
+        "interceptionsThrown": 1,
+        "rushYards": 247,
+        "rushAttempts": 47,
+        "yardsPerRush": 5.3,
+        "penalties": 6,
+        "penaltyYards": 47,
+        "fumblesLost": 0,
+        "possession": "26:09",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 470,
+        "passYards": 235,
+        "passCompletions": 15,
+        "passAttempts": 28,
+        "yardsPerPass": 8.4,
+        "interceptionsThrown": 1,
+        "rushYards": 235,
+        "rushAttempts": 47,
+        "yardsPerRush": 5,
+        "penalties": 4,
+        "penaltyYards": 25,
+        "fumblesLost": 0,
+        "possession": "33:51",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 333270087,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        6,
+        0
+      ],
+      "home": [
+        14,
+        3,
+        3,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2013-11-23-notre-dame",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/30/2013",
+    "time": "7:00 PM",
+    "coverage": "FOX",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 20,
+      "home": 27
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 263,
+        "passYards": 199,
+        "passCompletions": 16,
+        "passAttempts": 34,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 2,
+        "rushYards": 64,
+        "rushAttempts": 24,
+        "yardsPerRush": 2.7,
+        "penalties": 3,
+        "penaltyYards": 15,
+        "fumblesLost": 0,
+        "possession": "25:18",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 13,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 419,
+        "passYards": 158,
+        "passCompletions": 12,
+        "passAttempts": 18,
+        "yardsPerPass": 8.8,
+        "interceptionsThrown": 2,
+        "rushYards": 261,
+        "rushAttempts": 51,
+        "yardsPerRush": 5.1,
+        "penalties": 5,
+        "penaltyYards": 52,
+        "fumblesLost": 0,
+        "possession": "34:42",
+        "fumbles": 0
+      }
+    },
+    "espnGameId": 333340024,
+    "linescore": {
+      "away": [
+        3,
+        3,
+        14,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        3
+      ]
+    },
+    "sportsReferenceGameId": "2013-11-30-stanford",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "away": {
+        "ap": 25,
+        "bcs": 25
+      },
+      "home": {
+        "ap": 8,
+        "bcs": 8
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isVacatedWin": true,
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "date": "12/28/2013",
+    "time": "12:15 PM",
+    "coverage": "ESPN",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium"
+    },
+    "opponentId": "RUTG",
+    "score": {
+      "away": 16,
+      "home": 29
+    },
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 3,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 236,
+        "passYards": 156,
+        "passCompletions": 10,
+        "passAttempts": 29,
+        "yardsPerPass": 5.4,
+        "interceptionsThrown": 4,
+        "rushYards": 80,
+        "rushAttempts": 26,
+        "yardsPerRush": 3.1,
+        "penalties": 3,
+        "penaltyYards": 33,
+        "fumblesLost": 0,
+        "possession": "21:44",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 31,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 494,
+        "passYards": 319,
+        "passCompletions": 27,
+        "passAttempts": 47,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 0,
+        "rushYards": 175,
+        "rushAttempts": 43,
+        "yardsPerRush": 4.1,
+        "penalties": 8,
+        "penaltyYards": 69,
+        "fumblesLost": 1,
+        "possession": "38:16",
+        "fumbles": 1
+      }
+    },
+    "espnGameId": 333620087,
+    "linescore": {
+      "away": [
+        10,
+        3,
+        0,
+        3
+      ],
+      "home": [
+        10,
+        3,
+        3,
+        13
+      ]
+    },
+    "sportsReferenceGameId": "2013-12-28-notre-dame",
+    "nickname": "Pinstripe Bowl",
+    "headCoach": "Brian Kelly",
+    "rankings": {
+      "home": {
+        "ap": 25
+      }
+    }
+  }
+]

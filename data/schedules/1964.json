@@ -1,0 +1,647 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/26/1964",
+    "location": {
+      "city": "Madison",
+      "state": "WI",
+      "stadium": "Camp Randall Stadium"
+    },
+    "opponentId": "WIS",
+    "score": {
+      "away": 31,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/03/1964",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 15,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/10/1964",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium"
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 34,
+      "home": 7
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 6
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/17/1964",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UCLA",
+    "score": {
+      "away": 0,
+      "home": 24
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/24/1964",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 6,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 2
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/31/1964",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA",
+      "stadium": "John F. Kennedy Stadium"
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 0,
+      "home": 40
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 2
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/07/1964",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium"
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 17,
+      "home": 15
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/14/1964",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 7,
+      "home": 34
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/21/1964",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "IOWA",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/28/1964",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "Los Angeles Memorial Coliseum"
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 17,
+      "home": 20
+    },
+    "stats": {
+      "away": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      },
+      "home": {
+        "totalYards": -1,
+        "passYards": -1,
+        "passAttempts": -1,
+        "passCompletions": -1,
+        "rushYards": -1,
+        "rushAttempts": -1,
+        "firstDowns": -1,
+        "thirdDownAttempts": -1,
+        "thirdDownConversions": -1,
+        "fourthDownAttempts": -1,
+        "fourthDownConversions": -1,
+        "penalties": -1,
+        "penaltyYards": -1,
+        "fumbles": -1,
+        "fumblesLost": -1,
+        "interceptionsThrown": -1,
+        "possession": -1
+      }
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 1
+      }
+    }
+  }
+]

@@ -80,7 +80,8 @@
     "shortName": "Bennett Med"
   },
   "BGSU": {
-    "name": "Bowling Green",
+    "name": "Bowling Green State",
+    "shortName": "Bowling Green St",
     "nickname": "Falcons",
     "color": "#df5838"
   },
@@ -90,7 +91,7 @@
     "color": "#152848"
   },
   "BYU": {
-    "name": "BYU",
+    "name": "Brigham Young",
     "nickname": "Cougars",
     "color": "#0d3565"
   },
@@ -173,7 +174,7 @@
     "color": "#fbdb4b"
   },
   "DET": {
-    "name": "Detroit",
+    "name": "Detroit Mercy",
     "nickname": "Titans",
     "color": "#992c34"
   },
@@ -218,8 +219,9 @@
     "color": "#561d87"
   },
   "GRTLK": {
-    "name": "Great Lakes",
-    "nickname": "Midshipmen"
+    "name": "Great Lakes Navy",
+    "shortName": "Great Lakes",
+    "nickname": "Bluejackets"
   },
   "GT": {
     "name": "Georgia Tech",
@@ -474,7 +476,7 @@
     "color": "#e87e3b"
   },
   "PENN": {
-    "name": "Penn",
+    "name": "Pennsylvania",
     "nickname": "Quakers",
     "color": "#6b1928"
   },
