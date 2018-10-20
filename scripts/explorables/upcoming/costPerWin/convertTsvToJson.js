@@ -2,12 +2,6 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-// 2018 salary data: http://sports.usatoday.com/ncaa/salaries/football/coach
-// 2017 salary data: https://web.archive.org/web/20180104001957/http://sports.usatoday.com/ncaa/salaries
-// 2016 salary data: https://web.archive.org/web/20171018235605/http://sports.usatoday.com/ncaa/salaries
-// 2015 salary data: https://web.archive.org/web/20161006063710/http://sports.usatoday.com/ncaa/salaries
-// 2014 salary data: https://web.archive.org/web/20141122062319/http://sports.usatoday.com/ncaa/salaries
-
 const TSV_INPUT_FILE = path.resolve(__dirname, './data/coachSalaries2018.tsv');
 const JSON_OUTPUT_FILE = path.resolve(__dirname, './data/coachSalaries2018.json');
 
