@@ -1,0 +1,94 @@
+{
+  "1939": [
+    {
+      "date": "09/30/1939",
+      "result": "W",
+      "opponent": "Memphis (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1939",
+      "result": "L",
+      "opponent": "Mississippi",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/14/1939",
+      "result": "T",
+      "opponent": "Washington & Lee",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/21/1939",
+      "result": "L",
+      "opponent": "Mississippi State",
+      "isHomeGame": false,
+      "score": {
+        "home": 37,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1939",
+      "result": "L",
+      "opponent": "Sewanee",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/03/1939",
+      "result": "W",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/11/1939",
+      "result": "W",
+      "opponent": "Samford (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/18/1939",
+      "result": "L",
+      "opponent": "Clemson",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/25/1939",
+      "result": "L",
+      "opponent": "Centenary",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    }
+  ]
+}

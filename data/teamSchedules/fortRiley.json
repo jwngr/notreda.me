@@ -1,0 +1,94 @@
+{
+  "1943": [
+    {
+      "date": "09/12/1943",
+      "result": "L",
+      "opponent": "Great Lakes Navy",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 19
+      }
+    },
+    {
+      "date": "09/25/1943",
+      "result": "W",
+      "opponent": "Lowry Field (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 60,
+        "away": 20
+      }
+    },
+    {
+      "date": "10/09/1943",
+      "result": "W",
+      "opponent": "Norman NAS (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 39,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/16/1943",
+      "result": "W",
+      "opponent": "Denver",
+      "isHomeGame": true,
+      "score": {
+        "home": 47,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/23/1943",
+      "result": "T",
+      "opponent": "Camp Grant",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/30/1943",
+      "result": "L",
+      "opponent": "Iowa Pre-Flight",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 2
+      }
+    },
+    {
+      "date": "11/13/1943",
+      "result": "W",
+      "opponent": "Fort Warren (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/20/1943",
+      "result": "W",
+      "opponent": "Camp Grant",
+      "isHomeGame": false,
+      "score": {
+        "home": 10,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/25/1943",
+      "result": "W",
+      "opponent": "Kansas",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 7
+      }
+    }
+  ]
+}

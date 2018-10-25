@@ -1,0 +1,84 @@
+{
+  "1944": [
+    {
+      "date": "09/16/1944",
+      "result": "W",
+      "opponent": "New Mexico",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 2
+      }
+    },
+    {
+      "date": "09/30/1944",
+      "result": "W",
+      "opponent": "Lubbock Field",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1944",
+      "result": "W",
+      "opponent": "Lubbock Field",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/14/1944",
+      "result": "W",
+      "opponent": "West Texas A&M",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/21/1944",
+      "result": "L",
+      "opponent": "Norman NAS",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/28/1944",
+      "result": "W",
+      "opponent": "South Plains Field (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 53,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/05/1944",
+      "result": "L",
+      "opponent": "Second Air Force (Colorado)",
+      "isHomeGame": true,
+      "score": {
+        "home": 46,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/26/1944",
+      "result": "L",
+      "opponent": "Randolph Field",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 0
+      }
+    }
+  ]
+}

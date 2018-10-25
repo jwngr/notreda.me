@@ -1,0 +1,796 @@
+{
+  "1882": [
+    {
+      "date": "10/07/1882",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/14/1882",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/04/1882",
+      "result": "L",
+      "opponent": "Yale",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1886": [
+    {
+      "date": "10/02/1886",
+      "result": "T",
+      "opponent": "Williams",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/06/1886",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": true,
+      "score": {
+        "home": 54,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/09/1886",
+      "result": "L",
+      "opponent": "Williams",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/16/1886",
+      "result": "L",
+      "opponent": "Yale",
+      "isHomeGame": false,
+      "score": {
+        "home": 96,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/20/1886",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 59,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/23/1886",
+      "result": "L",
+      "opponent": "Dartmouth",
+      "isHomeGame": false,
+      "score": {
+        "home": 11,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/30/1886",
+      "result": "W",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/06/1886",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 8
+      }
+    },
+    {
+      "date": "11/17/1886",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": true,
+      "score": {
+        "home": 62,
+        "away": 0
+      }
+    }
+  ],
+  "1887": [
+    {
+      "date": "10/08/1887",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 62,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/29/1887",
+      "result": "W",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": true,
+      "score": {
+        "home": 72,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1887",
+      "result": "W",
+      "opponent": "Dartmouth",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 15
+      }
+    },
+    {
+      "date": "11/12/1887",
+      "result": "W",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 54,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1887",
+      "result": "W",
+      "opponent": "Stevens",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/24/1887",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 36,
+        "away": 0
+      }
+    }
+  ],
+  "1888": [
+    {
+      "date": "10/06/1888",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/20/1888",
+      "result": "W",
+      "opponent": "Stevens",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 12
+      }
+    },
+    {
+      "date": "10/24/1888",
+      "result": "L",
+      "opponent": "Yale",
+      "isHomeGame": true,
+      "score": {
+        "home": 68,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1888",
+      "result": "W",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 48,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/31/1888",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 42,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/17/1888",
+      "result": "L",
+      "opponent": "Dartmouth",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/24/1888",
+      "result": "L",
+      "opponent": "Williams",
+      "isHomeGame": false,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    }
+  ],
+  "1889": [
+    {
+      "date": "10/12/1889",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 62,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/19/1889",
+      "result": "W",
+      "opponent": "Brown (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 48,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1889",
+      "result": "W",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 10,
+        "away": 9
+      }
+    },
+    {
+      "date": "11/09/1889",
+      "result": "W",
+      "opponent": "Stevens",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/16/1889",
+      "result": "L",
+      "opponent": "Dartmouth",
+      "isHomeGame": false,
+      "score": {
+        "home": 42,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/23/1889",
+      "result": "L",
+      "opponent": "Williams",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 6
+      }
+    }
+  ],
+  "1891": [
+    {
+      "date": "09/30/1891",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 4
+      }
+    },
+    {
+      "date": "10/14/1891",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/21/1891",
+      "result": "L",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/31/1891",
+      "result": "W",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/07/1891",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 24,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/14/1891",
+      "result": "L",
+      "opponent": "Dartmouth",
+      "isHomeGame": true,
+      "score": {
+        "home": 8,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/21/1891",
+      "result": "L",
+      "opponent": "Williams",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/26/1891",
+      "result": "W",
+      "opponent": "Stevens",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    }
+  ],
+  "1892": [
+    {
+      "date": "10/01/1892",
+      "result": "W",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 4
+      }
+    },
+    {
+      "date": "10/08/1892",
+      "result": "W",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/15/1892",
+      "result": "W",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/29/1892",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/02/1892",
+      "result": "W",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/09/1892",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/12/1892",
+      "result": "L",
+      "opponent": "Cornell",
+      "isHomeGame": false,
+      "score": {
+        "home": 44,
+        "away": 12
+      }
+    }
+  ],
+  "1893": [
+    {
+      "date": "10/04/1893",
+      "result": "W",
+      "opponent": "Boston College (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1893",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/01/1893",
+      "result": "W",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/04/1893",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 36,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/08/1893",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 4
+      }
+    },
+    {
+      "date": "11/11/1893",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/15/1893",
+      "result": "W",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/25/1893",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 6
+      }
+    }
+  ],
+  "1894": [
+    {
+      "date": "10/20/1894",
+      "result": "L",
+      "opponent": "Army",
+      "isHomeGame": false,
+      "score": {
+        "home": 42,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1894",
+      "result": "W",
+      "opponent": "Brown",
+      "isHomeGame": true,
+      "score": {
+        "home": 8,
+        "away": 4
+      }
+    },
+    {
+      "date": "10/31/1894",
+      "result": "L",
+      "opponent": "Williams",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/03/1894",
+      "result": "W",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/17/1894",
+      "result": "L",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/24/1894",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 4
+      }
+    },
+    {
+      "date": "11/29/1894",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 4
+      }
+    }
+  ],
+  "1895": [
+    {
+      "date": "10/19/1895",
+      "result": "L",
+      "opponent": "Dartmouth",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/23/1895",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/13/1895",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/16/1895",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 4
+      }
+    },
+    {
+      "date": "11/23/1895",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1898": [
+    {
+      "date": "10/29/1898",
+      "result": "T",
+      "opponent": "Trinity (Connecticut)",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1898",
+      "result": "W",
+      "opponent": "Boston College (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/12/1898",
+      "result": "W",
+      "opponent": "New Hampshire (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1898",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 10,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/24/1898",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 8,
+        "away": 6
+      }
+    }
+  ],
+  "1899": [
+    {
+      "date": "10/14/1899",
+      "result": "L",
+      "opponent": "Boston College (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/21/1899",
+      "result": "L",
+      "opponent": "Wesleyan",
+      "isHomeGame": false,
+      "score": {
+        "home": 44,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/28/1899",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 5
+      }
+    },
+    {
+      "date": "11/11/1899",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/25/1899",
+      "result": "L",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 29,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/30/1899",
+      "result": "L",
+      "opponent": "Tufts",
+      "isHomeGame": true,
+      "score": {
+        "home": 10,
+        "away": 6
+      }
+    }
+  ]
+}

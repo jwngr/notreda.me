@@ -1,0 +1,126 @@
+{
+  "1923": [
+    {
+      "date": "10/06/1923",
+      "result": "L",
+      "opponent": "Utah",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/13/1923",
+      "result": "L",
+      "opponent": "Washington",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/18/1923",
+      "result": "L",
+      "opponent": "Oregon",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/03/1923",
+      "result": "L",
+      "opponent": "Montana",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/10/1923",
+      "result": "L",
+      "opponent": "Gonzaga",
+      "isHomeGame": false,
+      "score": {
+        "home": 53,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/17/1923",
+      "result": "W",
+      "opponent": "Willamette (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 10,
+        "away": 0
+      }
+    }
+  ],
+  "1924": [
+    {
+      "date": "10/04/1924",
+      "result": "L",
+      "opponent": "Oregon State",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1924",
+      "result": "L",
+      "opponent": "Washington",
+      "isHomeGame": false,
+      "score": {
+        "home": 55,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/25/1924",
+      "result": "L",
+      "opponent": "Oregon",
+      "isHomeGame": false,
+      "score": {
+        "home": 40,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/08/1924",
+      "result": "W",
+      "opponent": "Willamette (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/15/1924",
+      "result": "L",
+      "opponent": "Gonzaga",
+      "isHomeGame": false,
+      "score": {
+        "home": 63,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/22/1924",
+      "result": "L",
+      "opponent": "Montana",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    }
+  ]
+}

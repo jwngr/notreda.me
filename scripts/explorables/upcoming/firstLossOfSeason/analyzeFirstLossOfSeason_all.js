@@ -1,0 +1,109 @@
+const _ = require('lodash');
+const fs = require('fs');
+
+const logger = require('../../../lib/logger');
+const teamSchedules = require('../../../lib/teamSchedules');
+
+const seasonCountsPerTeam = {};
+const teamCountsPerSeason = {};
+const weekOfFirstLossPerTeam = {};
+const weekOfFirstLossPerSeason = {};
+const undefeatedTeamsPerSeason = {};
+
+logger.info('Analyzing first loss of season for all teams...');
+
+teamSchedules.forEach((teamName, teamScheduleData) => {
+  _.forEach(teamScheduleData, (games, season) => {
+    season = Number(season);
+
+    teamCountsPerSeason[season] = (teamCountsPerSeason[season] || 0) + 1;
+    seasonCountsPerTeam[teamName] = (seasonCountsPerTeam[teamName] || 0) + 1;
+
+    const firstLossWeek = _.findIndex(games, ['result', 'L']);
+
+    if (firstLossWeek === -1) {
+      undefeatedTeamsPerSeason[season] = (undefeatedTeamsPerSeason[season] || 0) + 1;
+    } else {
+      _.update(weekOfFirstLossPerTeam, [teamName, firstLossWeek], (x) => (x || 0) + 1);
+      _.update(weekOfFirstLossPerSeason, [season, firstLossWeek], (x) => (x || 0) + 1);
+    }
+  });
+});
+
+/***************************************/
+/* WEEK OF FIRST LOSS SEASON AVERAGES  */
+/***************************************/
+const weekOfFirstLossSeasonAverages = {};
+_.forEach(weekOfFirstLossPerSeason, (weekLossCounts, season) => {
+  const teamCount = teamCountsPerSeason[season];
+
+  let lossCount = 0;
+
+  weekOfFirstLossSeasonAverages[season] = {
+    teamCount,
+    undefeatedTeamCount: undefeatedTeamsPerSeason[season] || 0,
+    firstWeekLossPercentages: [],
+  };
+
+  weekLossCounts.forEach((currentWeekLossCount) => {
+    lossCount += currentWeekLossCount || 0;
+    weekOfFirstLossSeasonAverages[season].firstWeekLossPercentages.push(
+      Number(((lossCount * 100) / teamCount).toFixed(2))
+    );
+  });
+});
+
+const weeks = [];
+_.forEach(weekOfFirstLossSeasonAverages, (seasonData, season) => {
+  if (season >= 1990) {
+    seasonData.firstWeekLossPercentages.forEach((val, i) => {
+      weeks[i] = weeks[i] || [];
+      weeks[i].push(val);
+    });
+  }
+});
+
+weekOfFirstLossSeasonAverages.averages = [];
+weeks.forEach((week) => {
+  weekOfFirstLossSeasonAverages.averages.push(Number((_.sum(week) / _.size(week)).toFixed(2)));
+});
+
+fs.writeFileSync(
+  './data/firstWeekLosses.json',
+  JSON.stringify(weekOfFirstLossSeasonAverages, null, 2)
+);
+
+/************************************/
+/* WEEK OF FIRST LOSS TEAM LEADERS  */
+/************************************/
+_.range(0, 13).forEach((weekIndex) => {
+  const currentWeekTeams = [];
+  _.forEach(weekOfFirstLossPerTeam, (weekLossCounts, teamName) => {
+    currentWeekTeams.push({
+      teamName,
+      lossCount: weekLossCounts[weekIndex],
+      lossCountPercentage: Number(
+        ((weekLossCounts[weekIndex] * 100) / seasonCountsPerTeam[teamName]).toFixed(2)
+      ),
+    });
+  });
+
+  const currentWeekTeamsSortedByLossCount = _.sortBy(currentWeekTeams, ({lossCount}) => -lossCount);
+  const currentWeekTeamsSortedByLossCountPercentage = _.sortBy(
+    currentWeekTeams,
+    ({lossCountPercentage}) => -lossCountPercentage
+  );
+
+  console.log(
+    `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT:`,
+    _.take(currentWeekTeamsSortedByLossCount, 5).map(
+      ({teamName, lossCount}) => `${teamName}-${lossCount}`
+    )
+  );
+  // console.log(
+  //   `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
+  //   _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
+  // );
+});
+
+logger.success('Successfully analyzed first loss of season for all teams!');

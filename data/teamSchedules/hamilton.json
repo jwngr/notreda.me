@@ -1,0 +1,54 @@
+{
+  "1907": [
+    {
+      "date": "09/28/1907",
+      "result": "L",
+      "opponent": "Cornell",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/12/1907",
+      "result": "L",
+      "opponent": "Lafayette",
+      "isHomeGame": false,
+      "score": {
+        "home": 43,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1907",
+      "result": "L",
+      "opponent": "Syracuse",
+      "isHomeGame": false,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/02/1907",
+      "result": "W",
+      "opponent": "Union (New York) (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/09/1907",
+      "result": "L",
+      "opponent": "Colgate",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 10
+      }
+    }
+  ]
+}

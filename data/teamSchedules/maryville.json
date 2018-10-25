@@ -1,0 +1,136 @@
+{
+  "1906": [
+    {
+      "date": "09/29/1906",
+      "result": "T",
+      "opponent": "Georgia Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/04/1906",
+      "result": "L",
+      "opponent": "Mississippi",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/06/1906",
+      "result": "L",
+      "opponent": "Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1906",
+      "result": "T",
+      "opponent": "Auburn",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/13/1906",
+      "result": "W",
+      "opponent": "Tennessee",
+      "isHomeGame": false,
+      "score": {
+        "home": 11,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1906",
+      "result": "W",
+      "opponent": "Centre (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 4
+      }
+    },
+    {
+      "date": "11/17/1906",
+      "result": "L",
+      "opponent": "Sewanee",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/29/1906",
+      "result": "W",
+      "opponent": "Bingham (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 17,
+        "away": 10
+      }
+    }
+  ],
+  "1907": [
+    {
+      "date": "10/05/1907",
+      "result": "L",
+      "opponent": "Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 17,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1907",
+      "result": "L",
+      "opponent": "Auburn",
+      "isHomeGame": false,
+      "score": {
+        "home": 29,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/09/1907",
+      "result": "L",
+      "opponent": "Clemson",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1907",
+      "result": "L",
+      "opponent": "Tennessee",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/11/1907",
+      "result": "L",
+      "opponent": "Kentucky (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    }
+  ]
+}

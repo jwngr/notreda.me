@@ -1,0 +1,94 @@
+{
+  "1903": [
+    {
+      "date": "09/27/1903",
+      "result": "L",
+      "opponent": "Iowa",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/03/1903",
+      "result": "W",
+      "opponent": "Coe (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 10,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1903",
+      "result": "L",
+      "opponent": "Chicago",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/10/1903",
+      "result": "L",
+      "opponent": "Highland Park (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/24/1903",
+      "result": "L",
+      "opponent": "Northern Iowa (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 5
+      }
+    },
+    {
+      "date": "10/31/1903",
+      "result": "L",
+      "opponent": "Grinnell",
+      "isHomeGame": true,
+      "score": {
+        "home": 15,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/07/1903",
+      "result": "L",
+      "opponent": "Drake",
+      "isHomeGame": false,
+      "score": {
+        "home": 25,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/14/1903",
+      "result": "L",
+      "opponent": "Coe (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 5
+      }
+    },
+    {
+      "date": "11/20/1903",
+      "result": "L",
+      "opponent": "Iowa State",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    }
+  ]
+}

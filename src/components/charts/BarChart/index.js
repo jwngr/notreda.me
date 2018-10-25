@@ -6,6 +6,7 @@ import React, {Component} from 'react';
 import {BarChartWrapper, BarChartSvg} from './index.styles';
 
 const DEFAULT_CHART_HEIGHT = 300;
+const BAR_CHART_BORDER_WIDTH = 6;
 
 class BarChart extends Component {
   constructor() {
@@ -122,7 +123,10 @@ class BarChart extends Component {
 
   getBarChartWidth() {
     // Return width of wrapper element, minus border.
-    return document.querySelector('.bar-chart-wrapper').getBoundingClientRect().width - 6;
+    return (
+      document.querySelector('.bar-chart-wrapper').getBoundingClientRect().width -
+      BAR_CHART_BORDER_WIDTH
+    );
   }
 
   resizeBarChart() {

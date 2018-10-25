@@ -1,0 +1,3454 @@
+{
+  "1927": [
+    {
+      "date": "09/24/1927",
+      "result": "W",
+      "opponent": "Adrian (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 44,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/01/1927",
+      "result": "L",
+      "opponent": "Army",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1927",
+      "result": "L",
+      "opponent": "Notre Dame",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1927",
+      "result": "W",
+      "opponent": "Loras (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 58,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/29/1927",
+      "result": "W",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 24,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/05/1927",
+      "result": "W",
+      "opponent": "Haskell (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/11/1927",
+      "result": "W",
+      "opponent": "St. Louis (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1927",
+      "result": "W",
+      "opponent": "Carnegie Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/24/1927",
+      "result": "W",
+      "opponent": "South Dakota State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 0
+      }
+    }
+  ],
+  "1928": [
+    {
+      "date": "09/29/1928",
+      "result": "W",
+      "opponent": "DePaul (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 39,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/06/1928",
+      "result": "W",
+      "opponent": "Tulsa (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/13/1928",
+      "result": "W",
+      "opponent": "Louisville (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 46,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/20/1928",
+      "result": "W",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1928",
+      "result": "W",
+      "opponent": "Dayton (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/03/1928",
+      "result": "W",
+      "opponent": "St. Louis (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/10/1928",
+      "result": "W",
+      "opponent": "Michigan State",
+      "isHomeGame": true,
+      "score": {
+        "home": 39,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/17/1928",
+      "result": "W",
+      "opponent": "Fordham",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/29/1928",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 13
+      }
+    }
+  ],
+  "1929": [
+    {
+      "date": "09/28/1929",
+      "result": "W",
+      "opponent": "DePaul (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/05/1929",
+      "result": "W",
+      "opponent": "Dayton (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/12/1929",
+      "result": "W",
+      "opponent": "Tulsa (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/26/1929",
+      "result": "W",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/02/1929",
+      "result": "T",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/09/1929",
+      "result": "W",
+      "opponent": "West Virginia",
+      "isHomeGame": false,
+      "score": {
+        "home": 36,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/16/1929",
+      "result": "W",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 25,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/23/1929",
+      "result": "L",
+      "opponent": "Oregon State",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/30/1929",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 13
+      }
+    }
+  ],
+  "1930": [
+    {
+      "date": "09/26/1930",
+      "result": "W",
+      "opponent": "Adrian (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 59,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/03/1930",
+      "result": "W",
+      "opponent": "Albion (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 51,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/10/1930",
+      "result": "W",
+      "opponent": "Grinnell",
+      "isHomeGame": true,
+      "score": {
+        "home": 47,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/17/1930",
+      "result": "W",
+      "opponent": "West Virginia",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/01/1930",
+      "result": "L",
+      "opponent": "Iowa",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 3
+      }
+    },
+    {
+      "date": "11/08/1930",
+      "result": "L",
+      "opponent": "Fordham",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/15/1930",
+      "result": "T",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/22/1930",
+      "result": "T",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/29/1930",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "12/06/1930",
+      "result": "L",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 9,
+        "away": 6
+      }
+    }
+  ],
+  "1931": [
+    {
+      "date": "09/22/1931",
+      "result": "L",
+      "opponent": "DePaul (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/02/1931",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/09/1931",
+      "result": "W",
+      "opponent": "Iowa State",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/16/1931",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/23/1931",
+      "result": "W",
+      "opponent": "West Virginia",
+      "isHomeGame": true,
+      "score": {
+        "home": 9,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/31/1931",
+      "result": "W",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/07/1931",
+      "result": "L",
+      "opponent": "Fordham",
+      "isHomeGame": true,
+      "score": {
+        "home": 39,
+        "away": 9
+      }
+    },
+    {
+      "date": "11/14/1931",
+      "result": "T",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/21/1931",
+      "result": "W",
+      "opponent": "Michigan State",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/28/1931",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1932": [
+    {
+      "date": "09/30/1932",
+      "result": "W",
+      "opponent": "Eastern Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/07/1932",
+      "result": "W",
+      "opponent": "Washington & Jefferson",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1932",
+      "result": "L",
+      "opponent": "Holy Cross (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 9,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/21/1932",
+      "result": "W",
+      "opponent": "West Virginia",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/28/1932",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1932",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/12/1932",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/19/1932",
+      "result": "L",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/24/1932",
+      "result": "W",
+      "opponent": "Oregon State",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 6
+      }
+    },
+    {
+      "date": "12/03/1932",
+      "result": "W",
+      "opponent": "Loyola (New Orleans) (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 12
+      }
+    }
+  ],
+  "1933": [
+    {
+      "date": "09/29/1933",
+      "result": "W",
+      "opponent": "Eastern Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/06/1933",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/13/1933",
+      "result": "W",
+      "opponent": "Washington & Jefferson",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/20/1933",
+      "result": "L",
+      "opponent": "Duquesne",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1933",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/04/1933",
+      "result": "W",
+      "opponent": "Holy Cross (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/11/1933",
+      "result": "W",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/25/1933",
+      "result": "W",
+      "opponent": "Michigan State",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    }
+  ],
+  "1934": [
+    {
+      "date": "09/28/1934",
+      "result": "W",
+      "opponent": "Central Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/05/1934",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 25,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/12/1934",
+      "result": "W",
+      "opponent": "Washington & Jefferson",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/20/1934",
+      "result": "T",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1934",
+      "result": "L",
+      "opponent": "Duquesne",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/03/1934",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/17/1934",
+      "result": "L",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/24/1934",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "12/01/1934",
+      "result": "W",
+      "opponent": "Washington State",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1935": [
+    {
+      "date": "09/27/1935",
+      "result": "W",
+      "opponent": "Central Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 43,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/04/1935",
+      "result": "W",
+      "opponent": "Haskell (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1935",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/19/1935",
+      "result": "L",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/26/1935",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 15
+      }
+    },
+    {
+      "date": "11/02/1935",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/09/1935",
+      "result": "W",
+      "opponent": "Bucknell",
+      "isHomeGame": true,
+      "score": {
+        "home": 53,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/23/1935",
+      "result": "L",
+      "opponent": "Duquesne",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/28/1935",
+      "result": "W",
+      "opponent": "Texas Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 7
+      }
+    }
+  ],
+  "1936": [
+    {
+      "date": "09/25/1936",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/03/1936",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/09/1936",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 46,
+        "away": 12
+      }
+    },
+    {
+      "date": "10/17/1936",
+      "result": "L",
+      "opponent": "Auburn",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/24/1936",
+      "result": "W",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/30/1936",
+      "result": "W",
+      "opponent": "Duquesne",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/07/1936",
+      "result": "W",
+      "opponent": "Bucknell",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/14/1936",
+      "result": "W",
+      "opponent": "Xavier (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/21/1936",
+      "result": "L",
+      "opponent": "North Dakota (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/26/1936",
+      "result": "W",
+      "opponent": "Creighton",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1937": [
+    {
+      "date": "09/24/1937",
+      "result": "W",
+      "opponent": "Hillsdale (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 60,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/01/1937",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/09/1937",
+      "result": "W",
+      "opponent": "Texas Tech",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/16/1937",
+      "result": "W",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/23/1937",
+      "result": "W",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/30/1937",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/06/1937",
+      "result": "L",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/13/1937",
+      "result": "W",
+      "opponent": "North Dakota (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/21/1937",
+      "result": "W",
+      "opponent": "Creighton",
+      "isHomeGame": false,
+      "score": {
+        "home": 48,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/25/1937",
+      "result": "L",
+      "opponent": "Duquesne",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    }
+  ],
+  "1938": [
+    {
+      "date": "09/24/1938",
+      "result": "L",
+      "opponent": "Purdue",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 6
+      }
+    },
+    {
+      "date": "09/30/1938",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1938",
+      "result": "W",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/12/1938",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 9,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/23/1938",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/28/1938",
+      "result": "L",
+      "opponent": "Duquesne",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/05/1938",
+      "result": "W",
+      "opponent": "North Dakota (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/12/1938",
+      "result": "W",
+      "opponent": "North Carolina State",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1938",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 39,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/27/1938",
+      "result": "W",
+      "opponent": "Santa Clara",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    }
+  ],
+  "1939": [
+    {
+      "date": "09/22/1939",
+      "result": "W",
+      "opponent": "Central Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/29/1939",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/14/1939",
+      "result": "L",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/21/1939",
+      "result": "W",
+      "opponent": "North Carolina State",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/28/1939",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/04/1939",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/11/1939",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/18/1939",
+      "result": "W",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 36,
+        "away": 13
+      }
+    },
+    {
+      "date": "12/02/1939",
+      "result": "T",
+      "opponent": "Duquesne",
+      "isHomeGame": false,
+      "score": {
+        "home": 10,
+        "away": 10
+      }
+    }
+  ],
+  "1940": [
+    {
+      "date": "09/27/1940",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 42,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/04/1940",
+      "result": "W",
+      "opponent": "Catholic (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1940",
+      "result": "W",
+      "opponent": "Eastern Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 47,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/18/1940",
+      "result": "W",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1940",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 10,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/02/1940",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/09/1940",
+      "result": "W",
+      "opponent": "Texas Christian",
+      "isHomeGame": true,
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/16/1940",
+      "result": "L",
+      "opponent": "Gonzaga",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/23/1940",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    }
+  ],
+  "1941": [
+    {
+      "date": "09/27/1941",
+      "result": "W",
+      "opponent": "Indiana",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/03/1941",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 54,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/10/1941",
+      "result": "W",
+      "opponent": "Central Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 45,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/18/1941",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/24/1941",
+      "result": "L",
+      "opponent": "Arkansas",
+      "isHomeGame": true,
+      "score": {
+        "home": 9,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/01/1941",
+      "result": "W",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/08/1941",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/16/1941",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/23/1941",
+      "result": "W",
+      "opponent": "Creighton",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    }
+  ],
+  "1942": [
+    {
+      "date": "10/02/1942",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1942",
+      "result": "W",
+      "opponent": "Fort Knox (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/16/1942",
+      "result": "W",
+      "opponent": "Manhattan",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/24/1942",
+      "result": "W",
+      "opponent": "Georgetown",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/01/1942",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 10,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/14/1942",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 9,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/21/1942",
+      "result": "L",
+      "opponent": "Arkansas",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/28/1942",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 6
+      }
+    },
+    {
+      "date": "12/06/1942",
+      "result": "L",
+      "opponent": "St. Mary's",
+      "isHomeGame": true,
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    }
+  ],
+  "1945": [
+    {
+      "date": "09/28/1945",
+      "result": "W",
+      "opponent": "Alma (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/05/1945",
+      "result": "W",
+      "opponent": "Scranton (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 42,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/13/1945",
+      "result": "L",
+      "opponent": "Mississippi State",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/21/1945",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1945",
+      "result": "W",
+      "opponent": "Drake",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/03/1945",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 32,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/10/1945",
+      "result": "W",
+      "opponent": "Cincinnati (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/18/1945",
+      "result": "W",
+      "opponent": "St. Louis",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/22/1945",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 13
+      }
+    }
+  ],
+  "1946": [
+    {
+      "date": "09/20/1946",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/05/1946",
+      "result": "L",
+      "opponent": "Holy Cross",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/13/1946",
+      "result": "W",
+      "opponent": "San Francisco",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/18/1946",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/25/1946",
+      "result": "W",
+      "opponent": "Drake",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/27/1946",
+      "result": "W",
+      "opponent": "Scranton (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/01/1946",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 20
+      }
+    },
+    {
+      "date": "11/08/1946",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/15/1946",
+      "result": "W",
+      "opponent": "St. Louis",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/29/1946",
+      "result": "L",
+      "opponent": "Miami (Florida)",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 7
+      }
+    }
+  ],
+  "1947": [
+    {
+      "date": "09/19/1947",
+      "result": "W",
+      "opponent": "Central Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/26/1947",
+      "result": "L",
+      "opponent": "Oklahoma",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 20
+      }
+    },
+    {
+      "date": "10/03/1947",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/11/1947",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 18
+      }
+    },
+    {
+      "date": "10/19/1947",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 12
+      }
+    },
+    {
+      "date": "10/24/1947",
+      "result": "W",
+      "opponent": "Duquesne",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/01/1947",
+      "result": "W",
+      "opponent": "St. Mary's",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/08/1947",
+      "result": "W",
+      "opponent": "Nevada",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/15/1947",
+      "result": "W",
+      "opponent": "St. Louis",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/22/1947",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 20
+      }
+    }
+  ],
+  "1948": [
+    {
+      "date": "09/24/1948",
+      "result": "W",
+      "opponent": "Toledo (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 36,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/01/1948",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/08/1948",
+      "result": "W",
+      "opponent": "San Francisco",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/15/1948",
+      "result": "L",
+      "opponent": "Miami (Florida)",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/22/1948",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/29/1948",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/06/1948",
+      "result": "L",
+      "opponent": "Denver",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 27
+      }
+    },
+    {
+      "date": "11/14/1948",
+      "result": "W",
+      "opponent": "St. Louis",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/27/1948",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 22
+      }
+    }
+  ],
+  "1949": [
+    {
+      "date": "09/23/1949",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/30/1949",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/07/1949",
+      "result": "L",
+      "opponent": "San Francisco",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/15/1949",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 24,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/21/1949",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1949",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/04/1949",
+      "result": "L",
+      "opponent": "Miami (Florida)",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/13/1949",
+      "result": "W",
+      "opponent": "St. Louis",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/24/1949",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 7
+      }
+    }
+  ],
+  "1950": [
+    {
+      "date": "09/22/1950",
+      "result": "W",
+      "opponent": "Hillsdale (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 0
+      }
+    },
+    {
+      "date": "09/29/1950",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/06/1950",
+      "result": "L",
+      "opponent": "Wichita State",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/13/1950",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/21/1950",
+      "result": "T",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/27/1950",
+      "result": "W",
+      "opponent": "Drake",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/03/1950",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/12/1950",
+      "result": "W",
+      "opponent": "Duquesne",
+      "isHomeGame": true,
+      "score": {
+        "home": 47,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/18/1950",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/26/1950",
+      "result": "L",
+      "opponent": "San Francisco",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 13
+      }
+    }
+  ],
+  "1951": [
+    {
+      "date": "09/22/1951",
+      "result": "W",
+      "opponent": "Toledo (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 32
+      }
+    },
+    {
+      "date": "09/28/1951",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/05/1951",
+      "result": "L",
+      "opponent": "Notre Dame",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/12/1951",
+      "result": "L",
+      "opponent": "Drake",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/19/1951",
+      "result": "W",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/26/1951",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/03/1951",
+      "result": "W",
+      "opponent": "Bradley",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/10/1951",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/17/1951",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/23/1951",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 9,
+        "away": 7
+      }
+    },
+    {
+      "date": "12/01/1951",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 20
+      }
+    }
+  ],
+  "1952": [
+    {
+      "date": "09/26/1952",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/04/1952",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/11/1952",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 27
+      }
+    },
+    {
+      "date": "10/18/1952",
+      "result": "W",
+      "opponent": "Drake",
+      "isHomeGame": true,
+      "score": {
+        "home": 57,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/25/1952",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/01/1952",
+      "result": "W",
+      "opponent": "Fordham",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 20
+      }
+    },
+    {
+      "date": "11/07/1952",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 20
+      }
+    },
+    {
+      "date": "11/14/1952",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 62,
+        "away": 21
+      }
+    },
+    {
+      "date": "11/29/1952",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 19
+      }
+    }
+  ],
+  "1953": [
+    {
+      "date": "09/18/1953",
+      "result": "W",
+      "opponent": "North Dakota State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 6
+      }
+    },
+    {
+      "date": "09/25/1953",
+      "result": "W",
+      "opponent": "Wayne State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 48,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/02/1953",
+      "result": "L",
+      "opponent": "Fordham",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/09/1953",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": true,
+      "score": {
+        "home": 25,
+        "away": 19
+      }
+    },
+    {
+      "date": "10/17/1953",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/24/1953",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/07/1953",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/15/1953",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 20
+      }
+    },
+    {
+      "date": "11/21/1953",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/26/1953",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 6
+      }
+    }
+  ],
+  "1954": [
+    {
+      "date": "09/18/1954",
+      "result": "L",
+      "opponent": "Cincinnati",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 13
+      }
+    },
+    {
+      "date": "09/25/1954",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/01/1954",
+      "result": "L",
+      "opponent": "Quantico Marines (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1954",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/22/1954",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 18
+      }
+    },
+    {
+      "date": "10/29/1954",
+      "result": "L",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/06/1954",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 19
+      }
+    },
+    {
+      "date": "11/20/1954",
+      "result": "L",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 0
+      }
+    },
+    {
+      "date": "12/04/1954",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 7
+      }
+    }
+  ],
+  "1955": [
+    {
+      "date": "09/23/1955",
+      "result": "L",
+      "opponent": "Toledo (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/30/1955",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1955",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1955",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/21/1955",
+      "result": "W",
+      "opponent": "Oklahoma State",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/29/1955",
+      "result": "T",
+      "opponent": "Cincinnati",
+      "isHomeGame": false,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1955",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/11/1955",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1955",
+      "result": "W",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 13
+      }
+    }
+  ],
+  "1956": [
+    {
+      "date": "09/22/1956",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/30/1956",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 8,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/13/1956",
+      "result": "L",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/20/1956",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": true,
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1956",
+      "result": "W",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/03/1956",
+      "result": "L",
+      "opponent": "Cincinnati",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/10/1956",
+      "result": "L",
+      "opponent": "Drake",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/17/1956",
+      "result": "L",
+      "opponent": "Oklahoma State",
+      "isHomeGame": false,
+      "score": {
+        "home": 25,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/25/1956",
+      "result": "L",
+      "opponent": "Dayton",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 13
+      }
+    },
+    {
+      "date": "12/01/1956",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": false,
+      "score": {
+        "home": 39,
+        "away": 7
+      }
+    }
+  ],
+  "1957": [
+    {
+      "date": "09/21/1957",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/05/1957",
+      "result": "L",
+      "opponent": "Air Force",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 12
+      }
+    },
+    {
+      "date": "10/12/1957",
+      "result": "W",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/19/1957",
+      "result": "W",
+      "opponent": "Xavier (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 30,
+        "away": 20
+      }
+    },
+    {
+      "date": "10/26/1957",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 16
+      }
+    },
+    {
+      "date": "11/02/1957",
+      "result": "W",
+      "opponent": "Cincinnati",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/09/1957",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/16/1957",
+      "result": "W",
+      "opponent": "Quantico Marines (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/23/1957",
+      "result": "L",
+      "opponent": "Dayton",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 10
+      }
+    }
+  ],
+  "1958": [
+    {
+      "date": "09/19/1958",
+      "result": "W",
+      "opponent": "George Washington",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "09/26/1958",
+      "result": "L",
+      "opponent": "Air Force",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/03/1958",
+      "result": "W",
+      "opponent": "Quantico Marines (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "10/11/1958",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/18/1958",
+      "result": "W",
+      "opponent": "Xavier (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 31,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/25/1958",
+      "result": "L",
+      "opponent": "Arizona State",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/01/1958",
+      "result": "T",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/08/1958",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 40,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/22/1958",
+      "result": "W",
+      "opponent": "Dayton",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 7
+      }
+    }
+  ],
+  "1959": [
+    {
+      "date": "09/18/1959",
+      "result": "W",
+      "opponent": "George Washington",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 6
+      }
+    },
+    {
+      "date": "09/26/1959",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/02/1959",
+      "result": "L",
+      "opponent": "Kentucky",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/09/1959",
+      "result": "L",
+      "opponent": "Tulane",
+      "isHomeGame": false,
+      "score": {
+        "home": 25,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/17/1959",
+      "result": "W",
+      "opponent": "Xavier",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/24/1959",
+      "result": "L",
+      "opponent": "Tulsa",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/30/1959",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 9
+      }
+    },
+    {
+      "date": "11/07/1959",
+      "result": "W",
+      "opponent": "Dayton",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/14/1959",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/21/1959",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 40,
+        "away": 6
+      }
+    }
+  ],
+  "1960": [
+    {
+      "date": "09/23/1960",
+      "result": "L",
+      "opponent": "Iowa State",
+      "isHomeGame": true,
+      "score": {
+        "home": 44,
+        "away": 21
+      }
+    },
+    {
+      "date": "10/01/1960",
+      "result": "W",
+      "opponent": "Xavier",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/07/1960",
+      "result": "W",
+      "opponent": "Cincinnati",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1960",
+      "result": "W",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 17
+      }
+    },
+    {
+      "date": "10/22/1960",
+      "result": "W",
+      "opponent": "Dayton",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1960",
+      "result": "W",
+      "opponent": "Quantico Marines (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/04/1960",
+      "result": "W",
+      "opponent": "Marquette",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/12/1960",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/19/1960",
+      "result": "L",
+      "opponent": "Michigan State",
+      "isHomeGame": false,
+      "score": {
+        "home": 43,
+        "away": 15
+      }
+    }
+  ],
+  "1961": [
+    {
+      "date": "09/22/1961",
+      "result": "W",
+      "opponent": "Western Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/29/1961",
+      "result": "W",
+      "opponent": "Xavier",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 8
+      }
+    },
+    {
+      "date": "10/13/1961",
+      "result": "W",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 3
+      }
+    },
+    {
+      "date": "10/20/1961",
+      "result": "L",
+      "opponent": "Navy",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 19
+      }
+    },
+    {
+      "date": "10/28/1961",
+      "result": "W",
+      "opponent": "Dayton",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/04/1961",
+      "result": "L",
+      "opponent": "Army",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/10/1961",
+      "result": "W",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/18/1961",
+      "result": "L",
+      "opponent": "Arizona State",
+      "isHomeGame": false,
+      "score": {
+        "home": 40,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/25/1961",
+      "result": "L",
+      "opponent": "Cincinnati",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 13
+      }
+    }
+  ],
+  "1962": [
+    {
+      "date": "09/22/1962",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 0
+      }
+    },
+    {
+      "date": "09/29/1962",
+      "result": "L",
+      "opponent": "Xavier",
+      "isHomeGame": false,
+      "score": {
+        "home": 24,
+        "away": 20
+      }
+    },
+    {
+      "date": "10/05/1962",
+      "result": "L",
+      "opponent": "New Mexico State",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/12/1962",
+      "result": "L",
+      "opponent": "Kentucky",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 8
+      }
+    },
+    {
+      "date": "10/26/1962",
+      "result": "L",
+      "opponent": "Dayton",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 12
+      }
+    },
+    {
+      "date": "11/03/1962",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/09/1962",
+      "result": "W",
+      "opponent": "Cincinnati",
+      "isHomeGame": true,
+      "score": {
+        "home": 15,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/17/1962",
+      "result": "L",
+      "opponent": "South Carolina",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/24/1962",
+      "result": "L",
+      "opponent": "Memphis",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 8
+      }
+    }
+  ],
+  "1963": [
+    {
+      "date": "09/21/1963",
+      "result": "L",
+      "opponent": "Bowling Green State",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/27/1963",
+      "result": "W",
+      "opponent": "Northern Michigan (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/04/1963",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 12
+      }
+    },
+    {
+      "date": "10/12/1963",
+      "result": "L",
+      "opponent": "Kentucky",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 18
+      }
+    },
+    {
+      "date": "10/19/1963",
+      "result": "L",
+      "opponent": "Cincinnati",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/26/1963",
+      "result": "T",
+      "opponent": "Dayton",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/02/1963",
+      "result": "L",
+      "opponent": "Houston",
+      "isHomeGame": false,
+      "score": {
+        "home": 55,
+        "away": 18
+      }
+    },
+    {
+      "date": "11/08/1963",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 14
+      }
+    },
+    {
+      "date": "11/15/1963",
+      "result": "W",
+      "opponent": "Xavier",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    }
+  ],
+  "1964": [
+    {
+      "date": "09/19/1964",
+      "result": "L",
+      "opponent": "Kentucky",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "09/25/1964",
+      "result": "W",
+      "opponent": "Toledo",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/02/1964",
+      "result": "L",
+      "opponent": "Cincinnati",
+      "isHomeGame": true,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/10/1964",
+      "result": "L",
+      "opponent": "Villanova",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/17/1964",
+      "result": "L",
+      "opponent": "Wichita State",
+      "isHomeGame": false,
+      "score": {
+        "home": 8,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/23/1964",
+      "result": "W",
+      "opponent": "Dayton",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/30/1964",
+      "result": "L",
+      "opponent": "Miami (Florida)",
+      "isHomeGame": true,
+      "score": {
+        "home": 10,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/06/1964",
+      "result": "W",
+      "opponent": "Virginia Military Institute",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 7
+      }
+    },
+    {
+      "date": "11/14/1964",
+      "result": "L",
+      "opponent": "Xavier",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 27
+      }
+    },
+    {
+      "date": "11/21/1964",
+      "result": "L",
+      "opponent": "Boston College",
+      "isHomeGame": false,
+      "score": {
+        "home": 17,
+        "away": 9
+      }
+    }
+  ]
+}

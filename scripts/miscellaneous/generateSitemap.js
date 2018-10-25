@@ -6,7 +6,7 @@ const SITEMAP_FILENAME = path.resolve(__dirname, '../../public/sitemap.xml');
 
 const scheduleFilenames = fs.readdirSync(SCHEDULE_DATA_DIRECTORY);
 
-const paths = ['/', '/explorables/s1e1-down-to-the-wire/'];
+const paths = ['/', '/explorables/s1e1-down-to-the-wire/', '/explorables/s1e2-TODO'];
 
 scheduleFilenames.forEach((filename) => {
   const year = filename.split('.json')[0];

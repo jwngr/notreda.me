@@ -1,14 +1,14 @@
 const _ = require('lodash');
 
 const logger = require('../lib/logger');
-const schedules = require('../lib/schedules');
+const ndSchedules = require('../lib/ndSchedules');
 
 logger.info('Validating schedule data...');
 
 let numErrorsFound = 0;
 
-schedules.ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = schedules.getForSeason(season);
+ndSchedules.ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
 
   let previousGameDate;
   seasonScheduleData.forEach((gameData) => {

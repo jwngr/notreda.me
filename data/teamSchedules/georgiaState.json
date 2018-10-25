@@ -1,0 +1,622 @@
+{
+  "2013": [
+    {
+      "date": "08/30/2013",
+      "result": "L",
+      "opponent": "Samford (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 21
+      }
+    },
+    {
+      "date": "09/07/2013",
+      "result": "L",
+      "opponent": "Tennessee-Chattanooga (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 42,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/14/2013",
+      "result": "L",
+      "opponent": "West Virginia",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/21/2013",
+      "result": "L",
+      "opponent": "Jacksonville State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 26
+      }
+    },
+    {
+      "date": "10/05/2013",
+      "result": "L",
+      "opponent": "Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 45,
+        "away": 3
+      }
+    },
+    {
+      "date": "10/12/2013",
+      "result": "L",
+      "opponent": "Troy",
+      "isHomeGame": true,
+      "score": {
+        "home": 35,
+        "away": 28
+      }
+    },
+    {
+      "date": "10/19/2013",
+      "result": "L",
+      "opponent": "Texas State",
+      "isHomeGame": false,
+      "score": {
+        "home": 24,
+        "away": 17
+      }
+    },
+    {
+      "date": "10/26/2013",
+      "result": "L",
+      "opponent": "Louisiana-Monroe",
+      "isHomeGame": false,
+      "score": {
+        "home": 38,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/02/2013",
+      "result": "L",
+      "opponent": "Western Kentucky",
+      "isHomeGame": true,
+      "score": {
+        "home": 44,
+        "away": 28
+      }
+    },
+    {
+      "date": "11/16/2013",
+      "result": "L",
+      "opponent": "Louisiana-Lafayette",
+      "isHomeGame": true,
+      "score": {
+        "home": 35,
+        "away": 21
+      }
+    },
+    {
+      "date": "11/23/2013",
+      "result": "L",
+      "opponent": "Arkansas State",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 33
+      }
+    },
+    {
+      "date": "11/30/2013",
+      "result": "L",
+      "opponent": "South Alabama",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 17
+      }
+    }
+  ],
+  "2014": [
+    {
+      "date": "08/27/2014",
+      "result": "W",
+      "opponent": "Abilene Christian (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 38,
+        "away": 37
+      }
+    },
+    {
+      "date": "09/06/2014",
+      "result": "L",
+      "opponent": "New Mexico State",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 31
+      }
+    },
+    {
+      "date": "09/13/2014",
+      "result": "L",
+      "opponent": "Air Force",
+      "isHomeGame": true,
+      "score": {
+        "home": 48,
+        "away": 38
+      }
+    },
+    {
+      "date": "09/20/2014",
+      "result": "L",
+      "opponent": "Washington",
+      "isHomeGame": false,
+      "score": {
+        "home": 45,
+        "away": 14
+      }
+    },
+    {
+      "date": "10/04/2014",
+      "result": "L",
+      "opponent": "Louisiana-Lafayette",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 31
+      }
+    },
+    {
+      "date": "10/11/2014",
+      "result": "L",
+      "opponent": "Arkansas State",
+      "isHomeGame": true,
+      "score": {
+        "home": 52,
+        "away": 10
+      }
+    },
+    {
+      "date": "10/18/2014",
+      "result": "L",
+      "opponent": "South Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 30,
+        "away": 27
+      }
+    },
+    {
+      "date": "10/25/2014",
+      "result": "L",
+      "opponent": "Georgia Southern",
+      "isHomeGame": true,
+      "score": {
+        "home": 69,
+        "away": 31
+      }
+    },
+    {
+      "date": "11/01/2014",
+      "result": "L",
+      "opponent": "Appalachian State",
+      "isHomeGame": false,
+      "score": {
+        "home": 44,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/08/2014",
+      "result": "L",
+      "opponent": "Troy",
+      "isHomeGame": false,
+      "score": {
+        "home": 45,
+        "away": 21
+      }
+    },
+    {
+      "date": "11/22/2014",
+      "result": "L",
+      "opponent": "Clemson",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/29/2014",
+      "result": "L",
+      "opponent": "Texas State",
+      "isHomeGame": true,
+      "score": {
+        "home": 54,
+        "away": 31
+      }
+    }
+  ],
+  "2015": [
+    {
+      "date": "09/04/2015",
+      "result": "L",
+      "opponent": "Charlotte",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 20
+      }
+    },
+    {
+      "date": "09/12/2015",
+      "result": "W",
+      "opponent": "New Mexico State",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 32
+      }
+    },
+    {
+      "date": "09/19/2015",
+      "result": "L",
+      "opponent": "Oregon",
+      "isHomeGame": false,
+      "score": {
+        "home": 61,
+        "away": 28
+      }
+    },
+    {
+      "date": "10/03/2015",
+      "result": "L",
+      "opponent": "Liberty (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 33
+      }
+    },
+    {
+      "date": "10/10/2015",
+      "result": "L",
+      "opponent": "Appalachian State",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 3
+      }
+    },
+    {
+      "date": "10/17/2015",
+      "result": "W",
+      "opponent": "Ball State",
+      "isHomeGame": false,
+      "score": {
+        "home": 31,
+        "away": 19
+      }
+    },
+    {
+      "date": "10/31/2015",
+      "result": "L",
+      "opponent": "Arkansas State",
+      "isHomeGame": false,
+      "score": {
+        "home": 48,
+        "away": 34
+      }
+    },
+    {
+      "date": "11/07/2015",
+      "result": "L",
+      "opponent": "Louisiana-Lafayette",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 21
+      }
+    },
+    {
+      "date": "11/14/2015",
+      "result": "W",
+      "opponent": "Texas State",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 19
+      }
+    },
+    {
+      "date": "11/21/2015",
+      "result": "W",
+      "opponent": "South Alabama",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/27/2015",
+      "result": "W",
+      "opponent": "Troy",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 21
+      }
+    },
+    {
+      "date": "12/05/2015",
+      "result": "W",
+      "opponent": "Georgia Southern",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 7
+      }
+    },
+    {
+      "date": "12/19/2015",
+      "result": "L",
+      "opponent": "San Jose State",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 16
+      }
+    }
+  ],
+  "2016": [
+    {
+      "date": "09/02/2016",
+      "result": "L",
+      "opponent": "Ball State",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 21
+      }
+    },
+    {
+      "date": "09/10/2016",
+      "result": "L",
+      "opponent": "Air Force",
+      "isHomeGame": false,
+      "score": {
+        "home": 48,
+        "away": 14
+      }
+    },
+    {
+      "date": "09/17/2016",
+      "result": "L",
+      "opponent": "Wisconsin",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 17
+      }
+    },
+    {
+      "date": "10/01/2016",
+      "result": "L",
+      "opponent": "Appalachian State",
+      "isHomeGame": false,
+      "score": {
+        "home": 17,
+        "away": 3
+      }
+    },
+    {
+      "date": "10/08/2016",
+      "result": "W",
+      "opponent": "Texas State",
+      "isHomeGame": true,
+      "score": {
+        "home": 41,
+        "away": 21
+      }
+    },
+    {
+      "date": "10/15/2016",
+      "result": "L",
+      "opponent": "Troy",
+      "isHomeGame": false,
+      "score": {
+        "home": 31,
+        "away": 21
+      }
+    },
+    {
+      "date": "10/22/2016",
+      "result": "W",
+      "opponent": "Tennessee-Martin (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 6
+      }
+    },
+    {
+      "date": "10/29/2016",
+      "result": "L",
+      "opponent": "South Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/03/2016",
+      "result": "L",
+      "opponent": "Arkansas State",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 16
+      }
+    },
+    {
+      "date": "11/12/2016",
+      "result": "L",
+      "opponent": "Louisiana-Monroe",
+      "isHomeGame": true,
+      "score": {
+        "home": 37,
+        "away": 23
+      }
+    },
+    {
+      "date": "11/19/2016",
+      "result": "W",
+      "opponent": "Georgia Southern",
+      "isHomeGame": true,
+      "score": {
+        "home": 30,
+        "away": 24
+      }
+    },
+    {
+      "date": "12/03/2016",
+      "result": "L",
+      "opponent": "Idaho",
+      "isHomeGame": false,
+      "score": {
+        "home": 37,
+        "away": 12
+      }
+    }
+  ],
+  "2017": [
+    {
+      "date": "08/31/2017",
+      "result": "L",
+      "opponent": "Tennessee State (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 17,
+        "away": 10
+      }
+    },
+    {
+      "date": "09/16/2017",
+      "result": "L",
+      "opponent": "Penn State",
+      "isHomeGame": false,
+      "score": {
+        "home": 56,
+        "away": 0
+      }
+    },
+    {
+      "date": "09/23/2017",
+      "result": "W",
+      "opponent": "Charlotte",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/2017",
+      "result": "W",
+      "opponent": "Coastal Carolina",
+      "isHomeGame": false,
+      "score": {
+        "home": 27,
+        "away": 21
+      }
+    },
+    {
+      "date": "10/14/2017",
+      "result": "W",
+      "opponent": "Louisiana-Monroe",
+      "isHomeGame": false,
+      "score": {
+        "home": 47,
+        "away": 37
+      }
+    },
+    {
+      "date": "10/21/2017",
+      "result": "L",
+      "opponent": "Troy",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 10
+      }
+    },
+    {
+      "date": "10/26/2017",
+      "result": "W",
+      "opponent": "South Alabama",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/04/2017",
+      "result": "W",
+      "opponent": "Georgia Southern",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 17
+      }
+    },
+    {
+      "date": "11/11/2017",
+      "result": "W",
+      "opponent": "Texas State",
+      "isHomeGame": false,
+      "score": {
+        "home": 33,
+        "away": 30
+      }
+    },
+    {
+      "date": "11/25/2017",
+      "result": "L",
+      "opponent": "Appalachian State",
+      "isHomeGame": true,
+      "score": {
+        "home": 31,
+        "away": 10
+      }
+    },
+    {
+      "date": "12/02/2017",
+      "result": "L",
+      "opponent": "Idaho",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 10
+      }
+    },
+    {
+      "date": "12/16/2017",
+      "result": "W",
+      "opponent": "Western Kentucky",
+      "isHomeGame": true,
+      "score": {
+        "home": 27,
+        "away": 17
+      }
+    }
+  ]
+}

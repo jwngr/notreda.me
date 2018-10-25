@@ -4,7 +4,7 @@ const path = require('path');
 const format = require('date-fns/format');
 
 const logger = require('../lib/logger');
-const schedules = require('../lib/schedules');
+const ndSchedules = require('../lib/ndSchedules');
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
@@ -55,7 +55,7 @@ DECADES.forEach((seasons) => {
   const lines = [`Season,Date,Team,Linescore,${statNames},Stats Source URL`];
 
   seasons.forEach((season) => {
-    const seasonScheduleData = schedules.getForSeason(season);
+    const seasonScheduleData = ndSchedules.getForSeason(season);
 
     seasonScheduleData.forEach((game) => {
       let homeTeamAbbreviation = game.isHomeGame ? 'ND' : game.opponentId;

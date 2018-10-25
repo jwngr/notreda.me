@@ -1,0 +1,74 @@
+{
+  "1904": [
+    {
+      "date": "10/01/1904",
+      "result": "W",
+      "opponent": "New Hampshire",
+      "isHomeGame": true,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1904",
+      "result": "L",
+      "opponent": "Bowdoin",
+      "isHomeGame": false,
+      "score": {
+        "home": 52,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1904",
+      "result": "T",
+      "opponent": "Kents Hill (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/29/1904",
+      "result": "L",
+      "opponent": "Amherst",
+      "isHomeGame": true,
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1904",
+      "result": "L",
+      "opponent": "Bates",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/12/1904",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1904",
+      "result": "W",
+      "opponent": "Maine",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 11
+      }
+    }
+  ]
+}

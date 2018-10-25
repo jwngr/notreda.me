@@ -59,6 +59,7 @@ class NewsletterSignupForm extends Component {
             name="b_d19fa80c86cc4e9017baf4f4b_c7ca01e19c"
             tabIndex="-1"
             value=""
+            onChange={() => {}}
           />
 
           <SubscribeButton>Subscribe</SubscribeButton>

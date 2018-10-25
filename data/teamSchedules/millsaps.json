@@ -1,0 +1,94 @@
+{
+  "1924": [
+    {
+      "date": "09/27/1924",
+      "result": "W",
+      "opponent": "Clarke Memorial (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/04/1924",
+      "result": "L",
+      "opponent": "Mississippi State",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/11/1924",
+      "result": "L",
+      "opponent": "Birmingham-Southern",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/17/1924",
+      "result": "L",
+      "opponent": "Mississippi College",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/24/1924",
+      "result": "L",
+      "opponent": "Hendrix (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/01/1924",
+      "result": "W",
+      "opponent": "Rhodes (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/08/1924",
+      "result": "T",
+      "opponent": "Spring Hill (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 20
+      }
+    },
+    {
+      "date": "11/14/1924",
+      "result": "W",
+      "opponent": "Samford",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/27/1924",
+      "result": "L",
+      "opponent": "Mississippi",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "1903": [
+    {
+      "date": "10/03/1903",
+      "result": "W",
+      "opponent": "Vanderbilt",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/10/1903",
+      "result": "L",
+      "opponent": "Sewanee",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/14/1903",
+      "result": "W",
+      "opponent": "Alabama",
+      "isHomeGame": false,
+      "score": {
+        "home": 44,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/16/1903",
+      "result": "W",
+      "opponent": "Louisiana State (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 41,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/18/1903",
+      "result": "W",
+      "opponent": "Tulane (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/26/1903",
+      "result": "T",
+      "opponent": "Clemson",
+      "isHomeGame": true,
+      "score": {
+        "home": 11,
+        "away": 11
+      }
+    }
+  ],
+  "1905": [
+    {
+      "date": "10/03/1905",
+      "result": "W",
+      "opponent": "Georgia",
+      "isHomeGame": false,
+      "score": {
+        "home": 39,
+        "away": 10
+      }
+    },
+    {
+      "date": "10/06/1905",
+      "result": "L",
+      "opponent": "Virginia Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/21/1905",
+      "result": "L",
+      "opponent": "Sewanee",
+      "isHomeGame": false,
+      "score": {
+        "home": 9,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1905",
+      "result": "L",
+      "opponent": "Georgia Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/31/1905",
+      "result": "W",
+      "opponent": "Tennessee-Chattanooga (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 11,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/11/1905",
+      "result": "L",
+      "opponent": "Kentucky (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/20/1905",
+      "result": "W",
+      "opponent": "Mississippi (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    }
+  ]
+}

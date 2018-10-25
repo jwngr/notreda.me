@@ -1,0 +1,156 @@
+{
+  "1943": [
+    {
+      "date": "09/18/1943",
+      "result": "L",
+      "opponent": "Pacific",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/26/1943",
+      "result": "L",
+      "opponent": "Del Monte Pre-Flight",
+      "isHomeGame": true,
+      "score": {
+        "home": 34,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/10/1943",
+      "result": "W",
+      "opponent": "San Francisco",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/17/1943",
+      "result": "W",
+      "opponent": "St. Mary's",
+      "isHomeGame": true,
+      "score": {
+        "home": 21,
+        "away": 7
+      }
+    },
+    {
+      "date": "10/23/1943",
+      "result": "W",
+      "opponent": "Pleasanton Navy (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 46,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/07/1943",
+      "result": "T",
+      "opponent": "St. Mary's Pre-Flight",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/20/1943",
+      "result": "W",
+      "opponent": "California",
+      "isHomeGame": false,
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    }
+  ],
+  "1944": [
+    {
+      "date": "09/24/1944",
+      "result": "T",
+      "opponent": "Fleet City (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 7,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/30/1944",
+      "result": "W",
+      "opponent": "Nevada (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 35,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1944",
+      "result": "W",
+      "opponent": "St. Mary's (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1944",
+      "result": "T",
+      "opponent": "March Field",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 20
+      }
+    },
+    {
+      "date": "10/21/1944",
+      "result": "W",
+      "opponent": "Pacific (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/27/1944",
+      "result": "L",
+      "opponent": "UCLA",
+      "isHomeGame": false,
+      "score": {
+        "home": 26,
+        "away": 13
+      }
+    },
+    {
+      "date": "11/04/1944",
+      "result": "W",
+      "opponent": "California",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/12/1944",
+      "result": "L",
+      "opponent": "St. Mary's Pre-Flight",
+      "isHomeGame": true,
+      "score": {
+        "home": 32,
+        "away": 13
+      }
+    }
+  ]
+}

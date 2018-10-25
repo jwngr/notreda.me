@@ -1,0 +1,166 @@
+{
+  "1904": [
+    {
+      "date": "10/01/1904",
+      "result": "W",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1904",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 23,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/12/1904",
+      "result": "W",
+      "opponent": "New Hampshire",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/15/1904",
+      "result": "L",
+      "opponent": "Bates",
+      "isHomeGame": true,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/19/1904",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/05/1904",
+      "result": "L",
+      "opponent": "Bowdoin",
+      "isHomeGame": false,
+      "score": {
+        "home": 22,
+        "away": 5
+      }
+    },
+    {
+      "date": "11/12/1904",
+      "result": "W",
+      "opponent": "Tufts",
+      "isHomeGame": true,
+      "score": {
+        "home": 28,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/19/1904",
+      "result": "L",
+      "opponent": "Colby",
+      "isHomeGame": true,
+      "score": {
+        "home": 12,
+        "away": 11
+      }
+    }
+  ],
+  "1905": [
+    {
+      "date": "09/30/1905",
+      "result": "W",
+      "opponent": "Kents Hill (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/07/1905",
+      "result": "L",
+      "opponent": "Harvard",
+      "isHomeGame": false,
+      "score": {
+        "home": 22,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/14/1905",
+      "result": "L",
+      "opponent": "Brown",
+      "isHomeGame": false,
+      "score": {
+        "home": 34,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/21/1905",
+      "result": "L",
+      "opponent": "Tufts",
+      "isHomeGame": false,
+      "score": {
+        "home": 12,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/28/1905",
+      "result": "T",
+      "opponent": "Bates",
+      "isHomeGame": true,
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/04/1905",
+      "result": "W",
+      "opponent": "New Hampshire",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/11/1905",
+      "result": "W",
+      "opponent": "Colby (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 16,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/18/1905",
+      "result": "W",
+      "opponent": "Bowdoin",
+      "isHomeGame": true,
+      "score": {
+        "home": 18,
+        "away": 0
+      }
+    }
+  ]
+}

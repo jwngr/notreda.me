@@ -1,12 +1,12 @@
 const logger = require('../lib/logger');
-const schedules = require('../lib/schedules');
+const ndSchedules = require('../lib/ndSchedules');
 
 logger.info('Generating combined schedule...');
 
 const allSeasonsScheduleData = {};
 
-schedules.ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = schedules.getForSeason(season);
+ndSchedules.ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
 
   // Optional: perform any updates to the yearly data here.
   seasonScheduleData.forEach((gameData, i) => {
@@ -15,9 +15,9 @@ schedules.ALL_SEASONS.forEach((season) => {
 
   allSeasonsScheduleData[season] = seasonScheduleData;
 
-  schedules.updateForSeason(season, seasonScheduleData);
+  ndSchedules.updateForSeason(season, seasonScheduleData);
 });
 
-schedules.updateForAllSeasons(allSeasonsScheduleData);
+ndSchedules.updateForAllSeasons(allSeasonsScheduleData);
 
 logger.success('Combined schedule generated!');

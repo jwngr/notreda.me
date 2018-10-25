@@ -1,0 +1,64 @@
+{
+  "1904": [
+    {
+      "date": "10/01/1904",
+      "result": "L",
+      "opponent": "Sewanee",
+      "isHomeGame": false,
+      "score": {
+        "home": 58,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/08/1904",
+      "result": "W",
+      "opponent": "Nashville",
+      "isHomeGame": false,
+      "score": {
+        "home": 21,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/22/1904",
+      "result": "W",
+      "opponent": "Centre (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/11/1904",
+      "result": "L",
+      "opponent": "Mississippi State",
+      "isHomeGame": false,
+      "score": {
+        "home": 59,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/12/1904",
+      "result": "L",
+      "opponent": "Mississippi",
+      "isHomeGame": true,
+      "score": {
+        "home": 42,
+        "away": 0
+      }
+    },
+    {
+      "date": "11/16/1904",
+      "result": "L",
+      "opponent": "Georgia Tech",
+      "isHomeGame": false,
+      "score": {
+        "home": 59,
+        "away": 0
+      }
+    }
+  ]
+}

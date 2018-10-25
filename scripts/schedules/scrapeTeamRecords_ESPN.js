@@ -2,7 +2,7 @@ const _ = require('lodash');
 
 const logger = require('../lib/logger');
 const scraper = require('../lib/scraper');
-const schedules = require('../lib/schedules');
+const ndSchedules = require('../lib/ndSchedules');
 
 logger.info('Updating records for current season...');
 
@@ -74,7 +74,7 @@ const promises = _.map(teams, async (espnUrl, teamAbbreviation) => {
 
 return Promise.all(promises)
   .then(() => {
-    const seasonScheduleData = schedules.getForCurrentSeason();
+    const seasonScheduleData = ndSchedules.getForCurrentSeason();
 
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
@@ -99,7 +99,7 @@ return Promise.all(promises)
       }
     });
 
-    schedules.updateForCurrentSeason(seasonScheduleData);
+    ndSchedules.updateForCurrentSeason(seasonScheduleData);
 
     logger.success('Records for current season updated!');
   })

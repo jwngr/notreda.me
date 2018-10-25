@@ -2,18 +2,18 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../../../schedules/data');
+const logger = require('../../../lib/logger');
+const ndSchedules = require('../../../lib/ndSchedules');
 
-const scheduleDataFilenames = fs.readdirSync(SCHEDULE_DATA_DIRECTORY);
+const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
 let numGames = 0;
 const scorigamiMatrix = [];
 
-scheduleDataFilenames.forEach((scheduleDataFilename) => {
-  const games = require(`${SCHEDULE_DATA_DIRECTORY}/${scheduleDataFilename}`);
+ndSchedules.ALL_PLAYED_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
 
-  games.forEach((gameData) => {
+  seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
       numGames++;
 
@@ -23,15 +23,15 @@ scheduleDataFilenames.forEach((scheduleDataFilename) => {
       const currentEntry = _.get(scorigamiMatrix, [highScore, lowScore], 0);
       _.set(scorigamiMatrix, [highScore, lowScore], currentEntry + 1);
 
-      if (scheduleDataFilename === `2018.json`) {
+      if (season === 2018) {
         console.log('2018', gameData.opponentId, currentEntry);
       }
     }
   });
 });
 
-console.log('NUM GAMES:', numGames);
-console.log('SCORIGAMI MATRIX:', JSON.stringify(scorigamiMatrix));
+logger.info('NUM GAMES:', numGames);
+logger.info('SCORIGAMI MATRIX:', JSON.stringify(scorigamiMatrix));
 
 fs.writeFileSync(
   `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,

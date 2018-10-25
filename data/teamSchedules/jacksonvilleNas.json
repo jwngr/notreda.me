@@ -1,0 +1,124 @@
+{
+  "1942": [
+    {
+      "date": "09/19/1942",
+      "result": "W",
+      "opponent": "Florida",
+      "isHomeGame": true,
+      "score": {
+        "home": 20,
+        "away": 7
+      }
+    },
+    {
+      "date": "09/25/1942",
+      "result": "L",
+      "opponent": "Georgia",
+      "isHomeGame": true,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/03/1942",
+      "result": "W",
+      "opponent": "Miami (Florida)",
+      "isHomeGame": false,
+      "score": {
+        "home": 14,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/11/1942",
+      "result": "W",
+      "opponent": "Spence Field (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 33,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/18/1942",
+      "result": "W",
+      "opponent": "Daniel Field (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 55,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/25/1942",
+      "result": "W",
+      "opponent": "Tampa (non-IA)",
+      "isHomeGame": true,
+      "score": {
+        "home": 26,
+        "away": 0
+      }
+    },
+    {
+      "date": "10/30/1942",
+      "result": "L",
+      "opponent": "Georgia Pre-Flight",
+      "isHomeGame": false,
+      "score": {
+        "home": 20,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/08/1942",
+      "result": "L",
+      "opponent": "Rollins (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 13,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/14/1942",
+      "result": "W",
+      "opponent": "Clemson",
+      "isHomeGame": true,
+      "score": {
+        "home": 24,
+        "away": 6
+      }
+    },
+    {
+      "date": "11/21/1942",
+      "result": "W",
+      "opponent": "Pensacola NAS (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 16,
+        "away": 10
+      }
+    },
+    {
+      "date": "11/28/1942",
+      "result": "W",
+      "opponent": "Duke",
+      "isHomeGame": true,
+      "score": {
+        "home": 13,
+        "away": 0
+      }
+    },
+    {
+      "date": "12/05/1942",
+      "result": "W",
+      "opponent": "Spence Field (non-IA)",
+      "isHomeGame": false,
+      "score": {
+        "home": 19,
+        "away": 6
+      }
+    }
+  ]
+}
