@@ -86194,16 +86194,17 @@
       },
       "opponentId": "NAVY",
       "coverage": "CBS",
+      "espnGameId": 401013189,
       "sportsReferenceGameId": "2018-10-27-notre-dame",
       "records": {
         "home": {
-          "overall": "2-5",
-          "home": "2-2",
+          "overall": "2-6",
+          "home": "2-3",
           "away": "0-3"
         },
         "away": {
-          "overall": "7-0",
-          "home": "5-0",
+          "overall": "8-0",
+          "home": "6-0",
           "away": "2-0"
         }
       },
@@ -86212,6 +86213,69 @@
         "away": {
           "ap": 3,
           "coaches": 3
+        }
+      },
+      "linescore": {
+        "away": [
+          13,
+          14,
+          10,
+          7
+        ],
+        "home": [
+          0,
+          0,
+          14,
+          8
+        ]
+      },
+      "score": {
+        "home": 22,
+        "away": 44
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 28,
+          "thirdDownAttempts": 7,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 3,
+          "fourthDownConversions": 3,
+          "totalYards": 584,
+          "passYards": 330,
+          "passCompletions": 27,
+          "passAttempts": 33,
+          "yardsPerPass": 10,
+          "interceptionsThrown": 1,
+          "rushYards": 254,
+          "rushAttempts": 43,
+          "yardsPerRush": 5.9,
+          "penalties": 3,
+          "penaltyYards": 40,
+          "fumblesLost": 1,
+          "possession": "31:57",
+          "fumbles": -1
+        },
+        "home": {
+          "firstDowns": 14,
+          "thirdDownAttempts": 2,
+          "thirdDownConversions": 12,
+          "fourthDownAttempts": 2,
+          "fourthDownConversions": 3,
+          "totalYards": 344,
+          "passYards": 52,
+          "passCompletions": 4,
+          "passAttempts": 12,
+          "yardsPerPass": 4.3,
+          "interceptionsThrown": 1,
+          "rushYards": 292,
+          "rushAttempts": 48,
+          "yardsPerRush": 6.1,
+          "penalties": 4,
+          "penaltyYards": 16,
+          "fumblesLost": 1,
+          "possession": "28:03",
+          "fumbles": -1
         }
       }
     },
@@ -86230,13 +86294,13 @@
       "sportsReferenceGameId": "2018-11-03-northwestern",
       "records": {
         "home": {
-          "overall": "4-3",
-          "home": "1-3",
+          "overall": "5-3",
+          "home": "2-3",
           "away": "3-0"
         },
         "away": {
-          "overall": "7-0",
-          "home": "5-0",
+          "overall": "8-0",
+          "home": "6-0",
           "away": "2-0"
         }
       },
@@ -86261,13 +86325,13 @@
       "sportsReferenceGameId": "2018-11-10-notre-dame",
       "records": {
         "home": {
-          "overall": "7-0",
-          "home": "5-0",
+          "overall": "8-0",
+          "home": "6-0",
           "away": "2-0"
         },
         "away": {
-          "overall": "4-3",
-          "home": "3-1",
+          "overall": "4-4",
+          "home": "3-2",
           "away": "1-2"
         }
       },
@@ -86295,13 +86359,13 @@
       "sportsReferenceGameId": "2018-11-17-notre-dame",
       "records": {
         "home": {
-          "overall": "7-0",
-          "home": "5-0",
+          "overall": "8-0",
+          "home": "6-0",
           "away": "2-0"
         },
         "away": {
-          "overall": "5-2",
-          "home": "4-0",
+          "overall": "6-2",
+          "home": "5-0",
           "away": "1-2"
         }
       },
@@ -86327,13 +86391,13 @@
       "sportsReferenceGameId": "2018-11-24-southern-california",
       "records": {
         "home": {
-          "overall": "4-3",
-          "home": "3-0",
+          "overall": "4-4",
+          "home": "3-1",
           "away": "1-3"
         },
         "away": {
-          "overall": "7-0",
-          "home": "5-0",
+          "overall": "8-0",
+          "home": "6-0",
           "away": "2-0"
         }
       },
