@@ -57,7 +57,7 @@ const promises = years.map((year) => {
             .eq(1)
             .find('a')
             .attr('href')
-            .split('gameId=')[1]
+            .split('gameId/')[1]
             .trim();
 
           gameIds.push(gameId);

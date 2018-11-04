@@ -755,7 +755,7 @@
         "penaltyYards": 40,
         "fumblesLost": 1,
         "possession": "31:57",
-        "fumbles": -1
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 14,
@@ -776,7 +776,7 @@
         "penaltyYards": 16,
         "fumblesLost": 1,
         "possession": "28:03",
-        "fumbles": -1
+        "fumbles": 2
       }
     }
   },
@@ -794,14 +794,14 @@
     "sportsReferenceGameId": "2018-11-03-northwestern",
     "records": {
       "home": {
-        "overall": "5-3",
-        "home": "2-3",
+        "overall": "5-4",
+        "home": "2-4",
         "away": "3-0"
       },
       "away": {
-        "overall": "8-0",
+        "overall": "9-0",
         "home": "6-0",
-        "away": "2-0"
+        "away": "3-0"
       }
     },
     "headCoach": "Brian Kelly",
@@ -809,6 +809,70 @@
       "away": {
         "ap": 3,
         "coaches": 3
+      }
+    },
+    "espnGameId": 401013345,
+    "linescore": {
+      "away": [
+        7,
+        0,
+        14,
+        10
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        14
+      ]
+    },
+    "score": {
+      "home": 21,
+      "away": 31
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 14,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 3,
+        "totalYards": 464,
+        "passYards": 343,
+        "passCompletions": 22,
+        "passAttempts": 34,
+        "yardsPerPass": 10.1,
+        "interceptionsThrown": 0,
+        "rushYards": 121,
+        "rushAttempts": 40,
+        "yardsPerRush": 3,
+        "penalties": 8,
+        "penaltyYards": 58,
+        "fumblesLost": 1,
+        "possession": "29:36",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 4,
+        "totalYards": 249,
+        "passYards": 141,
+        "passCompletions": 16,
+        "passAttempts": 29,
+        "yardsPerPass": 4.9,
+        "interceptionsThrown": 0,
+        "rushYards": 108,
+        "rushAttempts": 40,
+        "yardsPerRush": 2.7,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "fumblesLost": 0,
+        "possession": "30:24",
+        "fumbles": -1
       }
     }
   },
@@ -825,14 +889,14 @@
     "sportsReferenceGameId": "2018-11-10-notre-dame",
     "records": {
       "home": {
-        "overall": "8-0",
+        "overall": "9-0",
         "home": "6-0",
-        "away": "2-0"
+        "away": "3-0"
       },
       "away": {
-        "overall": "4-4",
+        "overall": "4-5",
         "home": "3-2",
-        "away": "1-2"
+        "away": "1-3"
       }
     },
     "headCoach": "Brian Kelly",
@@ -859,14 +923,14 @@
     "sportsReferenceGameId": "2018-11-17-notre-dame",
     "records": {
       "home": {
-        "overall": "8-0",
+        "overall": "9-0",
         "home": "6-0",
-        "away": "2-0"
+        "away": "3-0"
       },
       "away": {
-        "overall": "6-2",
+        "overall": "7-2",
         "home": "5-0",
-        "away": "1-2"
+        "away": "2-2"
       }
     },
     "headCoach": "Brian Kelly",
@@ -895,14 +959,14 @@
     "sportsReferenceGameId": "2018-11-24-southern-california",
     "records": {
       "home": {
-        "overall": "4-4",
+        "overall": "5-4",
         "home": "3-1",
-        "away": "1-3"
+        "away": "2-3"
       },
       "away": {
-        "overall": "8-0",
+        "overall": "9-0",
         "home": "6-0",
-        "away": "2-0"
+        "away": "3-0"
       }
     },
     "headCoach": "Brian Kelly",
