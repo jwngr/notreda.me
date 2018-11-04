@@ -4,7 +4,8 @@ import styled from 'styled-components';
 import backgroundImage from '../../../images/background.png';
 
 export const LineChartWrapper = styled.div`
-  margin: 20px auto;
+  position: relative;
+  margin: 20px auto 8px auto;
   overflow: hidden;
   font-family: 'Inter UI', serif;
   background-image: url(${backgroundImage});
@@ -17,26 +18,8 @@ export const LineChartSvg = styled.svg`
     fill: ${(props) => darken(0.2, props.theme.colors.green)};
   }
 
-  .bar {
-    rect {
-      fill: ${(props) => props.theme.colors.green};
-      stroke: ${(props) => darken(0.2, props.theme.colors.green)};
-      stroke-width: 2px;
-    }
-
-    text {
-      font-size: 14px;
-      text-anchor: middle;
-      fill: ${(props) => darken(0.2, props.theme.colors.green)};
-
-      @media (max-width: 600px) {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .x-axis,
-  .y-axis {
+  .line-chart-x-axis,
+  .line-chart-y-axis {
     font-size: 14px;
 
     path,
@@ -49,8 +32,8 @@ export const LineChartSvg = styled.svg`
     }
   }
 
-  .x-axis-label,
-  .y-axis-label {
+  .line-chart-x-axis-label,
+  .line-chart-y-axis-label {
     font-size: 16px;
     text-anchor: middle;
 
@@ -64,7 +47,7 @@ export const LineChartSvg = styled.svg`
     stroke-width: 2px;
   }
 
-  .area {
+  .line-area {
     fill: ${(props) => props.theme.colors.green};
     stroke: ${(props) => darken(0.2, props.theme.colors.green)};
     stroke-width: 2px;

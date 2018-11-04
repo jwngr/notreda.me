@@ -6,11 +6,13 @@ import React, {Component} from 'react';
 import {BarChartWrapper, BarChartSvg} from './index.styles';
 
 const DEFAULT_CHART_HEIGHT = 300;
+const DEFAULT_MARGINS = {top: 40, right: 20, bottom: 60, left: 80};
+const DEFAULT_MARGINS_SMALL = {top: 20, right: 10, bottom: 50, left: 60};
 const BAR_CHART_BORDER_WIDTH = 6;
 
 class BarChart extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.barChart = null;
 
@@ -28,12 +30,9 @@ class BarChart extends Component {
     } = this.props;
 
     const width = this.getBarChartWidth();
-    let margins = _.assign({top: 40, right: 20, bottom: 60, left: 80}, this.props.margins);
+    let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (width < 600) {
-      margins = _.assign(
-        {top: 20, right: 10, bottom: 50, left: 60},
-        _.get(this.props.margins, 'sm')
-      );
+      margins = {...DEFAULT_MARGINS_SMALL, ..._.get(this.props.margins, 'sm')};
     }
 
     this.barChart = d3
@@ -54,11 +53,11 @@ class BarChart extends Component {
       .range([DEFAULT_CHART_HEIGHT, 0]);
 
     const bars = this.barChart
-      .selectAll('.bar')
+      .selectAll('.bar-chart-bar')
       .data(data)
       .enter()
       .append('g')
-      .attr('class', 'bar')
+      .attr('class', 'bar-chart-bar')
       .attr('transform', (d) => `translate(${margins.left}, ${margins.top})`);
 
     // append the rectangles for the bar chart
@@ -72,20 +71,21 @@ class BarChart extends Component {
     // add the x-axis
     this.barChart
       .append('g')
-      .attr('class', 'x-axis')
+      .attr('class', 'bar-chart-x-axis')
       .attr('transform', `translate(${margins.left}, ${DEFAULT_CHART_HEIGHT + margins.top})`)
       .call(d3.axisBottom(xScale).tickFormat((i) => xAxisTickLabels[i]));
 
     // add the y-axis
     this.barChart
       .append('g')
-      .attr('class', 'y-axis')
+      .attr('class', 'bar-chart-y-axis')
       .call(d3.axisLeft(yScale).tickFormat((d) => formatCount(d)))
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
 
     // Bar height counts
     bars
       .append('text')
+      .attr('class', 'bar-chart-height-counts')
       .attr('x', (d, i) => xScale(i) + xScale.bandwidth() / 2)
       .attr('y', (d) => yScale(d) - 4)
       .text((d) => formatCount(d));
@@ -93,7 +93,7 @@ class BarChart extends Component {
     // X-axis label
     this.barChart
       .append('text')
-      .attr('class', 'x-axis-label')
+      .attr('class', 'bar-chart-x-axis-label')
       .attr(
         'transform',
         `translate(${margins.left +
@@ -107,7 +107,7 @@ class BarChart extends Component {
     // Y-axis label
     this.barChart
       .append('text')
-      .attr('class', 'y-axis-label')
+      .attr('class', 'bar-chart-y-axis-label')
       .attr('transform', 'rotate(-90)')
       .attr('x', 0 - (DEFAULT_CHART_HEIGHT + margins.left) / 2)
       .attr('y', width < 600 ? 20 : 26)

@@ -7,14 +7,15 @@ export const TableWrapper = styled.div`
   margin: 20px auto;
   overflow: scroll;
   font-family: 'Inter UI', serif;
-  background-image: url(${backgroundImage});
-  border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
+  display: inline;
 
   table {
     margin: auto;
-    width: 100%;
+    max-width: 100%;
     color: ${(props) => darken(0.2, props.theme.colors.green)};
     border-collapse: collapse;
+    background-image: url(${backgroundImage});
+    border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
 
     th,
     td {

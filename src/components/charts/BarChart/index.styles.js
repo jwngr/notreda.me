@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import backgroundImage from '../../../images/background.png';
 
 export const BarChartWrapper = styled.div`
-  margin: 20px auto;
+  margin: 20px auto 8px auto;
   overflow: hidden;
   font-family: 'Inter UI', serif;
   background-image: url(${backgroundImage});
@@ -17,7 +17,7 @@ export const BarChartSvg = styled.svg`
     fill: ${(props) => darken(0.2, props.theme.colors.green)};
   }
 
-  .bar {
+  .bar-chart-bar {
     rect {
       fill: ${(props) => props.theme.colors.green};
       stroke: ${(props) => darken(0.2, props.theme.colors.green)};
@@ -35,8 +35,8 @@ export const BarChartSvg = styled.svg`
     }
   }
 
-  .x-axis,
-  .y-axis {
+  .bar-chart-x-axis,
+  .bar-chart-y-axis {
     font-size: 14px;
 
     path,
@@ -49,8 +49,8 @@ export const BarChartSvg = styled.svg`
     }
   }
 
-  .x-axis-label,
-  .y-axis-label {
+  .bar-chart-x-axis-label,
+  .bar-chart-y-axis-label {
     font-size: 16px;
     text-anchor: middle;
 

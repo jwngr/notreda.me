@@ -27,6 +27,7 @@ import data from './data.json';
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
 
 const title = 'Down To The Wire';
+const subtitle = 'One Possession Games In The Brian Kelly Era';
 
 export default () => {
   return (
@@ -42,7 +43,7 @@ export default () => {
 
       <Title>{title}</Title>
 
-      <Subtitle>One Possession Games In The Brian Kelly Era</Subtitle>
+      <Subtitle maxWidth="330px">{subtitle}</Subtitle>
 
       <Byline>
         <p>September 27, 2018</p>

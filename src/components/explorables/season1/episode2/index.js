@@ -2,8 +2,10 @@ import _ from 'lodash';
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
+import Table from '../../../charts/Table';
 import LineChart from '../../../charts/LineChart';
 import NewsletterSignupForm from '../../../common/NewsletterSignupForm';
+import LosslessRecordLineGraph from './LosslessRecordLineGraph';
 
 import {
   P,
@@ -21,42 +23,15 @@ import {
   StyledExternalLink,
 } from '../../index.styles';
 
-import ndFirstWeekLossPercentages from './data/ndFirstWeekLossPercentages.json';
+import {SliderRangeWrapper} from './index.styles';
+
+import {getNdFirstLossSeriesData, getAllTeamFirstLossSeriesData} from './dataHelpers';
+
+import alabamaRecordsUnderSaban from './data/alabamaRecordsUnderSaban.json';
 import firstWeekLossPercentagesPerSeason from './data/firstWeekLossPercentagesPerSeason.json';
 
 const title = 'Chasing Perfection';
-
-const ndFirstLossSeriesData = [
-  {
-    id: 'firstLoss',
-    values: ndFirstWeekLossPercentages.alltime.map((val, i) => ({
-      x: i + 1,
-      y: 100 - val,
-      radius: 6,
-      tooltipChildren: (
-        <div>
-          <p>{(100 - val).toFixed(1)}%</p>
-        </div>
-      ),
-    })),
-  },
-];
-
-const ndSince1990FirstLossSeriesData = [
-  {
-    id: 'firstLoss',
-    values: ndFirstWeekLossPercentages.since1990.map((val, i) => ({
-      x: i + 1,
-      y: 100 - val,
-      radius: 6,
-      tooltipChildren: (
-        <div>
-          <p>{(100 - val).toFixed(1)}%</p>
-        </div>
-      ),
-    })),
-  },
-];
+const subtitle = 'When Teams Stumble En Route To An Undefeated Season';
 
 const seasonFirstLossSeriesData = [];
 const seasonAverageFirstLossSeriesData = [];
@@ -85,54 +60,107 @@ _.forEach(firstWeekLossPercentagesPerSeason, (seasonData, season) => {
   }
 });
 
-export default () => {
-  return (
-    <Wrapper>
-      <Helmet>
-        <title>{`${title} | notreda.me`}</title>
-      </Helmet>
+export default class S1E2 extends React.Component {
+  state = {
+    ndFirstLossSeriesData_1887_2017: getNdFirstLossSeriesData(1887, 2017),
+    allFirstLossSeriesData_1887_2017: getAllTeamFirstLossSeriesData(1887, 2017),
+    ndFirstLossSeriesData_1990_2017: getNdFirstLossSeriesData(1990, 2017),
+    ndFirstLossSeriesData_2010_2017: getNdFirstLossSeriesData(2010, 2017),
+    ndFirstLossSeriesData_1943_1949: getNdFirstLossSeriesData(1943, 1949),
+    ndFirstLossSeriesData_interactive: getNdFirstLossSeriesData(1887, 2017),
+  };
 
-      <Heading>
-        <p>Explorables</p>
-        <p>Season 1, Episode 2</p>
-      </Heading>
+  onNdSeasonsChange = ([startSeason, endSeason]) => {
+    this.setState({
+      ndFirstLossSeriesData_interactive: getNdFirstLossSeriesData(startSeason, endSeason),
+    });
+  };
 
-      <Title>{title}</Title>
+  render() {
+    const {
+      ndFirstLossSeriesData_1887_2017,
+      allFirstLossSeriesData_1887_2017,
+      ndFirstLossSeriesData_1990_2017,
+      ndFirstLossSeriesData_2010_2017,
+      ndFirstLossSeriesData_1943_1949,
+      ndFirstLossSeriesData_interactive,
+    } = this.state;
 
-      <Subtitle>Which Week Teams Typically Falter</Subtitle>
+    return (
+      <Wrapper>
+        <Helmet>
+          <title>{`${title} | notreda.me`}</title>
+        </Helmet>
 
-      <Byline>
-        <p>October 25, 2018</p>
-        <StyledExternalLink href="https://jwn.gr">Jacob Wenger</StyledExternalLink>
-      </Byline>
+        <Heading>
+          <p>Explorables</p>
+          <p>Season 1, Episode 2</p>
+        </Heading>
 
-      <P>ND CHART:</P>
+        <Title>{title}</Title>
 
-      <LineChart seriesData={ndFirstLossSeriesData} domainY={[0, 100]} showLine={true} />
+        <Subtitle>{subtitle}</Subtitle>
 
-      <P>SEASON AVERAGE CHART:</P>
+        <Byline>
+          <p>October 25, 2018</p>
+          <StyledExternalLink href="https://jwn.gr">Jacob Wenger</StyledExternalLink>
+        </Byline>
 
-      <LineChart seriesData={seasonAverageFirstLossSeriesData} domainY={[0, 100]} showLine={true} />
+        <Table
+          headers={['Season', 'Record', 'Final AP Ranking']}
+          rows={alabamaRecordsUnderSaban}
+          highlightedRowIndexes={[2]}
+        />
 
-      <P>ND SINCE 1990 CHART:</P>
+        <Caption>
+          Despite Alabama's dominance under Nick Saban, there has only been a single season during
+          his tenure in which they have gone undefeated.
+        </Caption>
 
-      <LineChart seriesData={ndSince1990FirstLossSeriesData} domainY={[0, 100]} showLine={true} />
+        <P>ND CHART:</P>
 
-      <P>SEASON AVERAGE SINCE 1990 CHART:</P>
+        <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_1887_2017} />
 
-      <LineChart
-        seriesData={seasonAverageSince1990FirstLossSeriesData}
-        domainY={[0, 100]}
-        showLine={true}
-      />
+        <LosslessRecordLineGraph seriesData={allFirstLossSeriesData_1887_2017} />
 
-      <P>SEASON CHART:</P>
+        <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_1990_2017} />
 
-      <LineChart seriesData={seasonFirstLossSeriesData} domainY={[0, 100]} showLine={true} />
+        <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_2010_2017} />
 
-      <Divider />
+        <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_1943_1949} />
 
-      <NewsletterSignupForm />
-    </Wrapper>
-  );
-};
+        <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_interactive}>
+          <SliderRangeWrapper min={1887} max={2017} onChange={this.onNdSeasonsChange} />
+        </LosslessRecordLineGraph>
+
+        <P>SEASON AVERAGE CHART:</P>
+
+        {/* <LineChart
+          seriesData={seasonAverageFirstLossSeriesData}
+          domainY={[0, 100]}
+          showLine={true}
+        />
+
+        <P>ND SINCE 1990 CHART:</P>
+
+        <LineChart seriesData={ndSince1990FirstLossSeriesData} domainY={[0, 100]} showLine={true} />
+
+        <P>SEASON AVERAGE SINCE 1990 CHART:</P>
+
+        <LineChart
+          seriesData={seasonAverageSince1990FirstLossSeriesData}
+          domainY={[0, 100]}
+          showLine={true}
+        />
+
+        <P>SEASON CHART:</P>
+
+        <LineChart seriesData={seasonFirstLossSeriesData} domainY={[0, 100]} showLine={true} /> */}
+
+        <Divider />
+
+        <NewsletterSignupForm />
+      </Wrapper>
+    );
+  }
+}

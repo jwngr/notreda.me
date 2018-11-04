@@ -9,6 +9,7 @@ const teamCountsPerSeason = {};
 const weekOfFirstLossPerTeam = {};
 const weekOfFirstLossPerSeason = {};
 const undefeatedTeamsPerSeason = {};
+const numTeamsWithLosslessRecordPerSeason = {};
 
 logger.info('Analyzing first loss of season for all teams...');
 
@@ -16,16 +17,28 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
   _.forEach(teamScheduleData, (games, season) => {
     season = Number(season);
 
-    teamCountsPerSeason[season] = (teamCountsPerSeason[season] || 0) + 1;
-    seasonCountsPerTeam[teamName] = (seasonCountsPerTeam[teamName] || 0) + 1;
+    if (season < 2018) {
+      _.range(0, _.size(games)).forEach((i) => {
+        _.update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => x || 0);
+      });
 
-    const firstLossWeek = _.findIndex(games, ['result', 'L']);
+      teamCountsPerSeason[season] = (teamCountsPerSeason[season] || 0) + 1;
+      seasonCountsPerTeam[teamName] = (seasonCountsPerTeam[teamName] || 0) + 1;
 
-    if (firstLossWeek === -1) {
-      undefeatedTeamsPerSeason[season] = (undefeatedTeamsPerSeason[season] || 0) + 1;
-    } else {
-      _.update(weekOfFirstLossPerTeam, [teamName, firstLossWeek], (x) => (x || 0) + 1);
-      _.update(weekOfFirstLossPerSeason, [season, firstLossWeek], (x) => (x || 0) + 1);
+      const firstLossWeekIndex = _.findIndex(games, ['result', 'L']);
+
+      if (firstLossWeekIndex === -1) {
+        undefeatedTeamsPerSeason[season] = (undefeatedTeamsPerSeason[season] || 0) + 1;
+        _.range(0, _.size(games)).forEach((i) => {
+          _.update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => (x || 0) + 1);
+        });
+      } else {
+        _.update(weekOfFirstLossPerTeam, [teamName, firstLossWeekIndex], (x) => (x || 0) + 1);
+        _.update(weekOfFirstLossPerSeason, [season, firstLossWeekIndex], (x) => (x || 0) + 1);
+        _.range(0, firstLossWeekIndex).forEach((i) => {
+          _.update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => (x || 0) + 1);
+        });
+      }
     }
   });
 });
@@ -105,5 +118,15 @@ _.range(0, 13).forEach((weekIndex) => {
   //   _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
   // );
 });
+
+logger.info(
+  'NUM TEAMS PER SEASON W/ LOSSLESS RECORD:',
+  _.mapValues(numTeamsWithLosslessRecordPerSeason, (numTeamswithLosslessRecordPerWeek, season) => {
+    return {
+      losslessRecordsAttained: numTeamswithLosslessRecordPerWeek,
+      numTeams: teamCountsPerSeason[season],
+    };
+  })
+);
 
 logger.success('Successfully analyzed first loss of season for all teams!');

@@ -43,7 +43,7 @@ export const Subtitle = styled.p`
   text-align: center;
   margin: 8px auto;
   font-size: 24px;
-  max-width: 360px;
+  max-width: ${(props) => props.maxWidth || '440px'};
   font-family: 'Bungee';
   color: ${(props) => props.theme.colors.black};
 `;
@@ -80,14 +80,14 @@ export const P = styled.p`
 export const Image = styled.img`
   width: 100%;
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 8px auto;
   border: solid 3px ${(props) => props.theme.colors.black};
 `;
 
 export const Caption = styled.p`
   font-size: 14px;
   text-align: justify;
-  margin: -12px auto 20px auto;
+  margin: 8px auto 20px auto;
   font-family: 'Inter UI';
   color: ${(props) => props.theme.colors.gray};
 `;
