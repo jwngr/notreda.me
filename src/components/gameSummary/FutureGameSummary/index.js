@@ -45,8 +45,14 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
   let atOrVs = game.isHomeGame ? 'vs' : 'at';
   atOrVs = 'vs';
 
-  const homeApRanking = _.get(game, 'rankings.home.ap');
-  const awayApRanking = _.get(game, 'rankings.away.ap');
+  const homeApRanking =
+    _.get(game, 'rankings.home.bcs') ||
+    _.get(game, 'rankings.home.cfbPlayoff') ||
+    _.get(game, 'rankings.home.ap');
+  const awayApRanking =
+    _.get(game, 'rankings.away.bcs') ||
+    _.get(game, 'rankings.away.cfbPlayoff') ||
+    _.get(game, 'rankings.away.ap');
 
   let awayRecord;
   if (game.records) {

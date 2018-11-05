@@ -108,8 +108,12 @@ const Game = ({game, year, index, isSelected}) => {
   }
 
   const opponentRanking = game.isHomeGame
-    ? _.get(game, 'rankings.away.ap')
-    : _.get(game, 'rankings.home.ap');
+    ? _.get(game, 'rankings.away.bcs') ||
+      _.get(game, 'rankings.away.cfbPlayoff') ||
+      _.get(game, 'rankings.away.ap')
+    : _.get(game, 'rankings.home.bcs') ||
+      _.get(game, 'rankings.home.cfbPlayoff') ||
+      _.get(game, 'rankings.home.ap');
 
   const WrapperComponent = game.isHomeGame ? HomeGameWrapper : AwayGameWrapper;
 
