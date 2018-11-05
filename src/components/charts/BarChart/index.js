@@ -25,6 +25,7 @@ class BarChart extends Component {
       yMax,
       xAxisLabel,
       yAxisLabel,
+      yTicksCount,
       formatCount = d3.format(',.0f'),
       xAxisTickLabels,
     } = this.props;
@@ -73,13 +74,17 @@ class BarChart extends Component {
       .append('g')
       .attr('class', 'bar-chart-x-axis')
       .attr('transform', `translate(${margins.left}, ${DEFAULT_CHART_HEIGHT + margins.top})`)
-      .call(d3.axisBottom(xScale).tickFormat((i) => xAxisTickLabels[i]));
+      .call(d3.axisBottom(xScale).tickFormat((i) => _.get(xAxisTickLabels, i, i)));
 
     // add the y-axis
+    let yAxis = d3.axisLeft(yScale).tickFormat((d) => formatCount(d));
+    if (typeof yTicksCount !== 'undefined') {
+      yAxis.ticks(yTicksCount);
+    }
     this.barChart
       .append('g')
       .attr('class', 'bar-chart-y-axis')
-      .call(d3.axisLeft(yScale).tickFormat((d) => formatCount(d)))
+      .call(yAxis)
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
 
     // Bar height counts
@@ -148,7 +153,8 @@ BarChart.propTypes = {
   formatCount: PropTypes.func,
   xAxisLabel: PropTypes.string.isRequired,
   yAxisLabel: PropTypes.string.isRequired,
-  xAxisTickLabels: PropTypes.array.isRequired,
+  yTicksCount: PropTypes.number,
+  xAxisTickLabels: PropTypes.array,
 };
 
 export default BarChart;
