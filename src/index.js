@@ -24,6 +24,7 @@ const routes = {
     },
     '/explorables': {
       '/s1e1-down-to-the-wire': true,
+      '/s1e2-chasing-perfection': true,
     },
   },
 };

@@ -6,9 +6,8 @@ export default ({children, seriesData}) => {
   return (
     <LineChart
       seriesData={seriesData}
-      xAxisLabel="Record"
-      yAxisLabel="% Seasons With Record"
-      formatXAxisTickLabels={(x) => `${x}-0`}
+      xAxisLabel="Games Played Before First Loss"
+      yAxisLabel="Percentage of Seasons"
       formatYAxisTickLabels={(x) => `${x}%`}
       domainY={[0, 100]}
       showLine={true}
