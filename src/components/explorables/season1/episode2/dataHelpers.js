@@ -5,6 +5,7 @@ import weekOfFirstLoss_nd from './data/weekOfFirstLoss_nd.json';
 import weekOfFirstLoss_all from './data/weekOfFirstLoss_all.json';
 import undefeatedSeasons_nd from './data/undefeatedSeasons_nd.json';
 import undefeatedSeasons_all from './data/undefeatedSeasons_all.json';
+import weekOfFirstLoss_alabama from './data/weekOfFirstLoss_alabama.json';
 
 const TEAM_NAMES_MAP = {
   army: 'Army',
@@ -23,36 +24,27 @@ const TEAM_NAMES_MAP = {
   southernCalifornia: 'USC',
 };
 
-export const getNdFirstLossSeriesData = (startSeason, endSeason) => {
+const getFirstLossSeriesData = (weekOfFirstLossData, startSeason, endSeason) => {
   const firstLossOfSeasonIndexes = [];
   const numSeasonsWithAtLeastThisManyGames = [];
 
   _.range(startSeason, endSeason + 1).forEach((season) => {
     // Exclude years ND did not play.
     if (season !== 1890 && season !== 1891) {
-      const seasonData = weekOfFirstLoss_nd[season];
+      const {numGamesInSeason, numGamesPlayedBeforeFirstLoss} = weekOfFirstLossData[season];
 
-      let gamesWonBeforeFirstLoss;
-      if (seasonData.weekOfFirstLossIndex === null) {
-        // Undefeated season.
-        gamesWonBeforeFirstLoss = seasonData.numGames;
-      } else {
-        // Season with loss.
-        gamesWonBeforeFirstLoss = seasonData.weekOfFirstLossIndex;
-      }
-
-      _.range(0, gamesWonBeforeFirstLoss).forEach((i) => {
+      _.range(0, numGamesPlayedBeforeFirstLoss).forEach((i) => {
         _.update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + 1);
       });
 
-      _.range(0, seasonData.numGames).forEach((i) => {
+      _.range(0, numGamesInSeason).forEach((i) => {
         _.update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + 1);
       });
     }
   });
 
   const weeklyLossPercentages = [];
-  _.range(0, 13).forEach((weekIndex) => {
+  _.range(0, _.size(firstLossOfSeasonIndexes) + 1).forEach((weekIndex) => {
     let percentageOfSeasonsWithFirstLossLaterThanThisWeek = 100;
     if (firstLossOfSeasonIndexes[weekIndex]) {
       percentageOfSeasonsWithFirstLossLaterThanThisWeek =
@@ -79,6 +71,57 @@ export const getNdFirstLossSeriesData = (startSeason, endSeason) => {
           </div>
         ),
       })),
+    },
+  ];
+};
+
+export const getNdFirstLossSeriesData = (startSeason, endSeason) => {
+  return getFirstLossSeriesData(weekOfFirstLoss_nd, startSeason, endSeason);
+};
+
+export const getAlabamaFirstLossSeriesData = (startSeason, endSeason) => {
+  return getFirstLossSeriesData(weekOfFirstLoss_alabama, startSeason, endSeason);
+};
+
+export const getNdFirstLossOverTimeLineChartData = (startSeason, endSeason) => {
+  const gamesPlayedBeforeFirstLossPerSeason = [];
+
+  _.range(startSeason, endSeason + 1).forEach((season) => {
+    // Exclude years ND did not play.
+    if (season !== 1890 && season !== 1891) {
+      gamesPlayedBeforeFirstLossPerSeason.push({
+        season,
+        ...weekOfFirstLoss_nd[season],
+      });
+    }
+  });
+
+  return [
+    {
+      id: 'firstLoss',
+      values: gamesPlayedBeforeFirstLossPerSeason.map(
+        ({season, recordBeforeFirstLoss, numGamesInSeason, numGamesPlayedBeforeFirstLoss}) => {
+          const gameOrGames = numGamesPlayedBeforeFirstLoss === 1 ? 'game' : 'games';
+          const withoutLossOrBeforeFirstLoss =
+            numGamesInSeason === numGamesPlayedBeforeFirstLoss
+              ? 'without loss'
+              : 'before first loss';
+
+          return {
+            x: season,
+            y: numGamesPlayedBeforeFirstLoss,
+            radius: 2,
+            tooltipChildren: (
+              <div>
+                <p>
+                  <b>{season}:</b> {numGamesPlayedBeforeFirstLoss} {gameOrGames} played{' '}
+                  {withoutLossOrBeforeFirstLoss} ({recordBeforeFirstLoss})
+                </p>
+              </div>
+            ),
+          };
+        }
+      ),
     },
   ];
 };
@@ -143,6 +186,42 @@ export const getUndefeatedTeamCountsPerSeasonTableData = (startSeason, endSeason
     undefeatedTeamCounts[i],
     latestYearWithUndefeatedTeamCounts[i],
   ]);
+};
+
+export const getUndefeatedTeamCountsPerSeasonLineChartData = (startSeason, endSeason) => {
+  const undefeatedTeamCountsPerSeason = _.range(startSeason, endSeason + 1).map((season) => {
+    return {
+      season,
+      undefeatedTeams: undefeatedSeasons_all[season] || [],
+    };
+  });
+
+  return [
+    {
+      id: 'undefeatedTeamCounts',
+      values: undefeatedTeamCountsPerSeason.map(({season, undefeatedTeams}) => {
+        const undefeatedTeamsCount = _.size(undefeatedTeams);
+
+        const teamOrTeams = undefeatedTeamsCount === 1 ? 'team' : 'teams';
+        const undefeatedTeamList =
+          undefeatedTeamsCount === 0 ? null : ` (${undefeatedTeams.join(', ')})`;
+
+        return {
+          x: season,
+          y: undefeatedTeamsCount,
+          radius: 2,
+          tooltipChildren: (
+            <div>
+              <p>
+                <b>{season}:</b> {undefeatedTeamsCount} undefeated {teamOrTeams}
+                {undefeatedTeamList}
+              </p>
+            </div>
+          ),
+        };
+      }),
+    },
+  ];
 };
 
 export const getUndefeatedSeasonCountsPerTeamTableData = (startSeason, endSeason) => {

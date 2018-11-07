@@ -23,26 +23,47 @@ ndSchedules.ALL_PLAYED_SEASONS.forEach((season) => {
   }
 
   let firstLossOfSeasonEncountered = false;
+  let winsBeforeFirstLoss = 0;
+  let tiesBeforeFirstLoss = 0;
   seasonScheduleData.forEach((gameData, i) => {
-    if (!firstLossOfSeasonEncountered && gameData.result === 'L') {
-      if (typeof firstLossOfSeasonIndexes[i] === 'undefined') {
-        firstLossOfSeasonIndexes[i] = [{season, ranking: finalNdRankingInApPoll}];
-      } else {
-        firstLossOfSeasonIndexes[i].push({season, ranking: finalNdRankingInApPoll});
-      }
+    if (gameData.result === 'L') {
+      if (!firstLossOfSeasonEncountered) {
+        if (typeof firstLossOfSeasonIndexes[i] === 'undefined') {
+          firstLossOfSeasonIndexes[i] = [{season, ranking: finalNdRankingInApPoll}];
+        } else {
+          firstLossOfSeasonIndexes[i].push({season, ranking: finalNdRankingInApPoll});
+        }
 
-      weekOfFirstLossPerSeason[season] = {
-        weekOfFirstLossIndex: i,
-        numGames: seasonScheduleData.length,
-      };
-      firstLossOfSeasonEncountered = true;
-      firstLossOfSeasonsIndexTotal += i + 1;
+        let recordBeforeFirstLoss = `${winsBeforeFirstLoss}-0`;
+        if (tiesBeforeFirstLoss > 0) {
+          recordBeforeFirstLoss += `-${tiesBeforeFirstLoss}`;
+        }
+
+        weekOfFirstLossPerSeason[season] = {
+          numGamesInSeason: seasonScheduleData.length,
+          numGamesPlayedBeforeFirstLoss: i,
+          recordBeforeFirstLoss,
+        };
+
+        firstLossOfSeasonEncountered = true;
+        firstLossOfSeasonsIndexTotal += i + 1;
+      }
+    } else if (gameData.result === 'W') {
+      winsBeforeFirstLoss++;
+    } else {
+      tiesBeforeFirstLoss++;
     }
 
     if (!firstLossOfSeasonEncountered) {
+      let recordBeforeFirstLoss = `${winsBeforeFirstLoss}-0`;
+      if (tiesBeforeFirstLoss > 0) {
+        recordBeforeFirstLoss += `-${tiesBeforeFirstLoss}`;
+      }
+
       weekOfFirstLossPerSeason[season] = {
-        weekOfFirstLossIndex: null,
-        numGames: seasonScheduleData.length,
+        numGamesInSeason: seasonScheduleData.length,
+        numGamesPlayedBeforeFirstLoss: seasonScheduleData.length,
+        recordBeforeFirstLoss,
       };
     }
   });

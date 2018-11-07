@@ -2,7 +2,11 @@ import {darken} from 'polished';
 import styled from 'styled-components';
 
 export const SliderWrapper = styled.div`
-  width: 200px;
+  width: ${(props) => `${props.width}px`};
+
+  @media (max-width: 600px) {
+    max-width: ${(props) => `${props.widthSm}px`};
+  }
 
   .slider {
     -webkit-appearance: none;

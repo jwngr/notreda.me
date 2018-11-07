@@ -1,8 +1,11 @@
 import React from 'react';
 import Slider from 'rc-slider';
 import PropTypes from 'prop-types';
+import {darken, lighten} from 'polished';
 
 import {SliderWrapper} from './index.styles';
+
+import theme from '../../../resources/theme.json';
 
 import 'rc-slider/assets/index.css';
 
@@ -31,23 +34,39 @@ class SliderRange extends React.Component {
   };
 
   render() {
-    const {value} = this.state;
-    const {min, max, className} = this.props;
+    const {min, max, width = 200, widthSm = 140, className} = this.props;
 
     return (
-      <SliderWrapper className={className}>
-        <p>
-          Seasons: {value[0]} - {value[1]}
-        </p>
+      <SliderWrapper className={className} width={width} widthSm={widthSm}>
         <Range
           min={min}
           max={max}
           marks={{
-            [min]: min,
-            [max]: max,
+            [min]: {
+              style: {fontFamily: 'Inter UI', fontSize: '14px'},
+              label: min,
+            },
+            [max]: {
+              style: {fontFamily: 'Inter UI', fontSize: '14px'},
+              label: min,
+            },
           }}
           onChange={this.handleChange}
           defaultValue={[min, max]}
+          trackStyle={[{backgroundColor: theme.colors.green}]}
+          handleStyle={[
+            {backgroundColor: theme.colors.green, borderColor: darken(0.2, theme.colors.green)},
+          ]}
+          railStyle={{backgroundColor: lighten(0.2, theme.colors.gray)}}
+          dotStyle={{
+            backgroundColor: lighten(0.2, theme.colors.gray),
+            borderColor: theme.colors.gray,
+          }}
+          activeDotStyle={{
+            backgroundColor: 'red',
+            borderColor: 'red',
+            color: 'red',
+          }}
         />
       </SliderWrapper>
     );
@@ -57,6 +76,8 @@ class SliderRange extends React.Component {
 SliderRange.propTypes = {
   min: PropTypes.number.isRequired,
   max: PropTypes.number.isRequired,
+  width: PropTypes.number,
+  widthSm: PropTypes.number,
   onChange: PropTypes.func,
   className: PropTypes.string,
   initialValue: PropTypes.array,

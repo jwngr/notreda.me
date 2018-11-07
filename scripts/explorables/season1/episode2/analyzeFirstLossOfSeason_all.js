@@ -81,43 +81,47 @@ weeks.forEach((week) => {
   weekOfFirstLossSeasonAverages.averages.push(Number((_.sum(week) / _.size(week)).toFixed(2)));
 });
 
-fs.writeFileSync(
-  './data/firstWeekLosses.json',
-  JSON.stringify(weekOfFirstLossSeasonAverages, null, 2)
-);
-
 /************************************/
 /* WEEK OF FIRST LOSS TEAM LEADERS  */
 /************************************/
-_.range(0, 13).forEach((weekIndex) => {
-  const currentWeekTeams = [];
-  _.forEach(weekOfFirstLossPerTeam, (weekLossCounts, teamName) => {
-    currentWeekTeams.push({
-      teamName,
-      lossCount: weekLossCounts[weekIndex],
-      lossCountPercentage: Number(
-        ((weekLossCounts[weekIndex] * 100) / seasonCountsPerTeam[teamName]).toFixed(2)
-      ),
+const runningTeamCounts = {};
+_.range(0, 15)
+  .reverse()
+  .forEach((weekIndex) => {
+    const currentWeekTeams = [];
+    _.forEach(weekOfFirstLossPerTeam, (weekLossCounts, teamName) => {
+      runningTeamCounts[teamName] = runningTeamCounts[teamName] || 0;
+      runningTeamCounts[teamName] += weekLossCounts[weekIndex];
+      currentWeekTeams.push({
+        teamName,
+        lossCount: runningTeamCounts[teamName],
+        lossCountPercentage: Number(
+          ((runningTeamCounts[teamName] * 100) / seasonCountsPerTeam[teamName]).toFixed(2)
+        ),
+      });
     });
+
+    const currentWeekTeamsSortedByLossCount = _.sortBy(
+      currentWeekTeams,
+      ({lossCount}) => -lossCount
+    );
+    const currentWeekTeamsSortedByLossCountPercentage = _.sortBy(
+      currentWeekTeams,
+      ({lossCountPercentage}) => -lossCountPercentage
+    );
+
+    console.log(
+      `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT:`,
+      _.take(currentWeekTeamsSortedByLossCount, 5).map(
+        ({teamName, lossCount}) => `${teamName}-${lossCount}`
+      )
+    );
+
+    // console.log(
+    //   `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
+    //   _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
+    // );
   });
-
-  const currentWeekTeamsSortedByLossCount = _.sortBy(currentWeekTeams, ({lossCount}) => -lossCount);
-  const currentWeekTeamsSortedByLossCountPercentage = _.sortBy(
-    currentWeekTeams,
-    ({lossCountPercentage}) => -lossCountPercentage
-  );
-
-  console.log(
-    `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT:`,
-    _.take(currentWeekTeamsSortedByLossCount, 5).map(
-      ({teamName, lossCount}) => `${teamName}-${lossCount}`
-    )
-  );
-  // console.log(
-  //   `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
-  //   _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
-  // );
-});
 
 logger.info(
   'NUM TEAMS PER SEASON W/ LOSSLESS RECORD:',

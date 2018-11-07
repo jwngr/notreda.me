@@ -9,6 +9,7 @@ import NewsletterSignupForm from '../../../common/NewsletterSignupForm';
 
 import {
   P,
+  Note,
   Stat,
   Image,
   Title,
@@ -85,12 +86,12 @@ export default () => {
       </Caption>
 
       <P>
-        This year's team is touting a much improved 3-0 record in such games, including an{' '}
+        This season's team is touting a much improved 3-0 record in such games, including an{' '}
         <StyledExternalLink href="/2018/1">opening weekend victory</StyledExternalLink> against the
         currently 14th ranked Michigan. But the offense looked anemic in nail-biter victories over{' '}
         <StyledExternalLink href="/2018/2">Ball State</StyledExternalLink> and{' '}
         <StyledExternalLink href="/2018/3">Vanderbilt</StyledExternalLink>, two opponents who won't
-        even sniff the top 25 this year. A stroke of bad luck or a single missed tackle could turn
+        even sniff the top 25 this season. A stroke of bad luck or a single missed tackle could turn
         close wins like those into painful losses. And even when the Irish hold on to win, it is
         hard to quantify the impact it has on the team over the course of the season. Increased wear
         and tear on starters - or, worse yet, injuries at the tail end of games - may be avoided if
@@ -118,7 +119,7 @@ export default () => {
 
       <BarChart
         data={data.nd.brianKellyEra.onePossessionGameCounts}
-        xAxisLabel="Year"
+        xAxisLabel="Season"
         yAxisLabel="One Possession Games"
         xAxisTickLabels={['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018']}
         margins={{left: 60, sm: {left: 48}}}
@@ -167,14 +168,14 @@ export default () => {
         If you ignore the 2016 season, Kelly actually has a more respectable 65.9% win percentage in
         one possession games. And while that may seem fairly close to his overall win percentage,
         that figure itself rises to 72.6% if we discard that same 2016 season. But as much as we
-        Irish fans would like to wipe that year from our collective memories, we all experienced it
-        and will not soon forget it.
+        Irish fans would like to wipe that season from our collective memories, we all experienced
+        it and will not soon forget it.
       </P>
 
       <BarChart
         data={data.nd.brianKellyEra.onePossesssionGameWinPercentages}
         yMax={100}
-        xAxisLabel="Year"
+        xAxisLabel="Season"
         formatCount={(d) => `${d}%`}
         yAxisLabel="Win % In One Possession Games"
         xAxisTickLabels={['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018']}
@@ -201,7 +202,7 @@ export default () => {
       <Table
         headers={[
           'Head Coach',
-          'Years Coached',
+          'Seasons Coached',
           'National Titles',
           'Games Coached',
           '% One Possession Games',
@@ -214,13 +215,11 @@ export default () => {
         Brian Kelly plays in a lot more one possession games than the Irish head coaching legends.
       </Caption>
 
-      <P>
-        <i>
-          <b>Note:</b> Although the two point conversion was only adopted by college football in
-          1958, an 8 point differential was used for all calculations above. If anything, correcting
-          the percentages for older coaches would just make Kelly's number look worse in comparison.
-        </i>
-      </P>
+      <Note>
+        Although the two point conversion was only adopted by college football in 1958, an 8 point
+        differential was used for all calculations above. If anything, correcting the percentages
+        for older coaches would just make Kelly's number look worse in comparison.
+      </Note>
 
       <P>
         Kelly clearly ends up on the wrong end of this chart, far from his peers who have brought
@@ -243,11 +242,11 @@ export default () => {
 
       <P>
         To get an idea of how Kelly's numbers measure up against other modern coaches, we can look
-        at every team who has finished in the top 25 during his nine year tenure. There are 71 such
-        teams on that list, starting with the final rankings of the 2010 season and including this
-        week's top 25 (welcome to the party Kentucky!). Before we see the whole list, let's first
-        look at the top 15 teams sorted in ascending order of the percentage of games they have
-        played over the past nine seasons which were decided by just one possession:
+        at every team who has finished in the top 25 during his nine season tenure. There are 71
+        such teams on that list, starting with the final rankings of the 2010 season and including
+        this week's top 25 (welcome to the party Kentucky!). Before we see the whole list, let's
+        first look at the top 15 teams sorted in ascending order of the percentage of games they
+        have played over the past nine seasons which were decided by just one possession:
       </P>
 
       <Table
@@ -277,7 +276,7 @@ export default () => {
 
       <P>
         So where does Notre Dame fit into this list? Let's expand it to include all 71 of the top 25
-        teams from the past nine years and get scrolling.
+        teams from the past nine seasons and get scrolling.
       </P>
 
       <Table
@@ -323,11 +322,11 @@ export default () => {
 
       <P>
         Brian Kelly has had his share of success at Notre Dame and the team may just be poised to do
-        something special this year. But the number of one possession games Notre Dame has played in
-        during his tenure is a troubling trend that has continued into this season. It's unclear if
-        Kelly will vanquish a{' '}
+        something special this season. But the number of one possession games Notre Dame has played
+        in during his tenure is a troubling trend that has continued into this season. It's unclear
+        if Kelly will vanquish a{' '}
         <StyledExternalLink href="/2018/5">David Shaw-led Stanford team</StyledExternalLink> who has
-        had his number these past few years, but it is safe to assume this weekend's matchup will
+        had his number these past few seasons, but it is safe to assume this weekend's matchup will
         once again come down to the final drive.
       </P>
 

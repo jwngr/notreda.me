@@ -51,8 +51,8 @@ class LineChart extends Component {
       yAxisLabel,
       formatXAxisTickLabels = (x) => x,
       formatYAxisTickLabels = (x) => x,
-      ticksCountX = DEFAULT_TICKS_COUNT_X,
-      ticksCountY = DEFAULT_TICKS_COUNT_Y,
+      xAxisTicksCount = DEFAULT_TICKS_COUNT_X,
+      yAxisTicksCount = DEFAULT_TICKS_COUNT_Y,
     } = this.props;
 
     let margins = this.getMargins();
@@ -62,14 +62,14 @@ class LineChart extends Component {
     //   .append('g')
     //   .attr('class', 'line-chart-x-axis')
     //   .attr('transform', 'translate(0,' + this.scaleY.range()[0] + ')')
-    //   .call(d3.axisBottom(this.scaleX).ticks(ticksCountX));
+    //   .call(d3.axisBottom(this.scaleX).ticks(xAxisTicksCount));
 
     // // Y-axis
     // this.lineChart
     //   .append('g')
     //   .attr('class', 'line-chart-y-axis')
     //   // .attr('transform', 'translate(' + this.scaleX.range()[1] / 2 + ', 0)')
-    //   .call(d3.axisLeft(this.scaleY).ticks(ticksCountY));
+    //   .call(d3.axisLeft(this.scaleY).ticks(yAxisTicksCount));
 
     // X-axis
     this.lineChart
@@ -79,7 +79,7 @@ class LineChart extends Component {
       .call(
         d3
           .axisBottom(this.scaleX)
-          .ticks(ticksCountX)
+          .ticks(xAxisTicksCount)
           .tickFormat((i) => formatXAxisTickLabels(i))
       );
 
@@ -90,7 +90,7 @@ class LineChart extends Component {
       .call(
         d3
           .axisLeft(this.scaleY)
-          .ticks(ticksCountY)
+          .ticks(yAxisTicksCount)
           .tickFormat((i) => formatYAxisTickLabels(i))
       )
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
@@ -125,7 +125,7 @@ class LineChart extends Component {
   };
 
   drawChartData = () => {
-    let {seriesData, showLine = true, showDataPoints = true} = this.props;
+    let {seriesData, showLine = true, showArea = true, showDataPoints = true} = this.props;
 
     const margins = this.getMargins();
 
@@ -145,18 +145,20 @@ class LineChart extends Component {
       .attr('transform', () => `translate(${margins.left}, ${margins.top})`);
 
     // Add the area under the line.
-    var area = d3
-      .area()
-      .curve(d3.curveMonotoneX)
-      .x((d) => this.scaleX(d.x))
-      .y0(this.scaleY(0))
-      .y1((d) => this.scaleY(d.y));
+    if (showArea) {
+      var area = d3
+        .area()
+        .curve(d3.curveMonotoneX)
+        .x((d) => this.scaleX(d.x))
+        .y0(this.scaleY(0))
+        .y1((d) => this.scaleY(d.y));
 
-    gData
-      .append('path')
-      .data([dataPoints])
-      .attr('class', 'line-area')
-      .attr('d', area);
+      gData
+        .append('path')
+        .data([dataPoints])
+        .attr('class', 'line-area')
+        .attr('d', area);
+    }
 
     // Chart lines
     var line = d3
@@ -342,9 +344,12 @@ class LineChart extends Component {
 
 // TODO: add prop types
 LineChart.propTypes = {
+  showArea: PropTypes.bool,
   seriesData: PropTypes.array.isRequired,
   xAxisLabel: PropTypes.string.isRequired,
   yAxisLabel: PropTypes.string.isRequired,
+  xAxisTicksCount: PropTypes.number,
+  yAxisTicksCount: PropTypes.number,
   formatXAxisTickLabels: PropTypes.func,
   formatYAxisTickLabels: PropTypes.func,
 };

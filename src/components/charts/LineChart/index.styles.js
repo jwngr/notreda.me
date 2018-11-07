@@ -63,4 +63,59 @@ export const LineChartSvg = styled.svg`
     stroke-width: 2px;
     z-index: 10;
   }
+
+  .series-1 {
+    stroke: ${(props) => darken(0.2, '#377eb8')};
+  }
+
+  .dot.series-1 {
+    fill: ${(props) => '#377eb8'};
+    stroke: ${(props) => darken(0.2, '#377eb8')};
+    stroke-width: 2px;
+    z-index: 10;
+  }
+
+  .series-2 {
+    stroke: ${(props) => darken(0.2, '#984ea3')};
+  }
+
+  .dot.series-2 {
+    fill: ${(props) => '#984ea3'};
+    stroke: ${(props) => darken(0.2, '#984ea3')};
+    stroke-width: 2px;
+    z-index: 10;
+  }
+
+  .series-3 {
+    stroke: ${(props) => darken(0.2, '#ff7f00')};
+  }
+
+  .dot.series-3 {
+    fill: ${(props) => '#ff7f00'};
+    stroke: ${(props) => darken(0.2, '#ff7f00')};
+    stroke-width: 2px;
+    z-index: 10;
+  }
+
+  .series-4 {
+    stroke: ${(props) => darken(0.2, '#a65628')};
+  }
+
+  .dot.series-4 {
+    fill: ${(props) => '#a65628'};
+    stroke: ${(props) => darken(0.2, '#a65628')};
+    stroke-width: 2px;
+    z-index: 10;
+  }
+
+  .series-5 {
+    stroke: ${(props) => darken(0.2, '#ffff33')};
+  }
+
+  .dot.series-5 {
+    fill: ${(props) => '#ffff33'};
+    stroke: ${(props) => darken(0.2, '#ffff33')};
+    stroke-width: 2px;
+    z-index: 10;
+  }
 `;

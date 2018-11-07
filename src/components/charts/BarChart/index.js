@@ -25,7 +25,8 @@ class BarChart extends Component {
       yMax,
       xAxisLabel,
       yAxisLabel,
-      yTicksCount,
+      yAxisTicksCount,
+      showCounts = true,
       formatCount = d3.format(',.0f'),
       xAxisTickLabels,
     } = this.props;
@@ -70,16 +71,17 @@ class BarChart extends Component {
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d));
 
     // add the x-axis
+    let xAxis = d3.axisBottom(xScale).tickFormat((i) => _.get(xAxisTickLabels, i, i));
     this.barChart
       .append('g')
       .attr('class', 'bar-chart-x-axis')
       .attr('transform', `translate(${margins.left}, ${DEFAULT_CHART_HEIGHT + margins.top})`)
-      .call(d3.axisBottom(xScale).tickFormat((i) => _.get(xAxisTickLabels, i, i)));
+      .call(xAxis);
 
     // add the y-axis
     let yAxis = d3.axisLeft(yScale).tickFormat((d) => formatCount(d));
-    if (typeof yTicksCount !== 'undefined') {
-      yAxis.ticks(yTicksCount);
+    if (typeof yAxisTicksCount !== 'undefined') {
+      yAxis = yAxis.ticks(yAxisTicksCount);
     }
     this.barChart
       .append('g')
@@ -88,12 +90,14 @@ class BarChart extends Component {
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
 
     // Bar height counts
-    bars
-      .append('text')
-      .attr('class', 'bar-chart-height-counts')
-      .attr('x', (d, i) => xScale(i) + xScale.bandwidth() / 2)
-      .attr('y', (d) => yScale(d) - 4)
-      .text((d) => formatCount(d));
+    if (showCounts) {
+      bars
+        .append('text')
+        .attr('class', 'bar-chart-height-counts')
+        .attr('x', (d, i) => xScale(i) + xScale.bandwidth() / 2)
+        .attr('y', (d) => yScale(d) - 4)
+        .text((d) => formatCount(d));
+    }
 
     // X-axis label
     this.barChart
@@ -150,11 +154,12 @@ class BarChart extends Component {
 BarChart.propTypes = {
   data: PropTypes.array.isRequired,
   yMax: PropTypes.number,
+  showCounts: PropTypes.bool,
   formatCount: PropTypes.func,
   xAxisLabel: PropTypes.string.isRequired,
   yAxisLabel: PropTypes.string.isRequired,
-  yTicksCount: PropTypes.number,
   xAxisTickLabels: PropTypes.array,
+  yAxisTicksCount: PropTypes.number,
 };
 
 export default BarChart;

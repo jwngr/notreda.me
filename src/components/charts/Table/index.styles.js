@@ -52,4 +52,10 @@ export const TableWrapper = styled.div`
       color: ${(props) => props.theme.colors.green};
     }
   }
+
+  @media (max-width: 700px) {
+    table {
+      min-width: 100%;
+    }
+  }
 `;

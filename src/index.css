@@ -70,3 +70,19 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
+/**
+ * Customize rc-slider styles for SliderRange component, making sure to repeat class names to
+ * increase selector specificity.
+ */
+.rc-slider-tooltip-inner.rc-slider-tooltip-inner.rc-slider-tooltip-inner {
+  font-family: 'Inter UI';
+  padding: 6px 8px 4px 8px;
+  font-size: 12px;
+  color: #efefef;
+  background-color: #2a8c5f;
+}
+
+.rc-slider-tooltip-arrow.rc-slider-tooltip-arrow.rc-slider-tooltip-arrow {
+  border-top-color: #2a8c5f;
+}

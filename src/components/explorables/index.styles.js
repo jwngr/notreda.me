@@ -1,3 +1,4 @@
+import React from 'react';
 import {darken} from 'polished';
 import styled from 'styled-components';
 
@@ -168,3 +169,13 @@ export const Divider = styled.div`
     content: '';
   }
 `;
+
+export const Note = ({children}) => {
+  return (
+    <P>
+      <i>
+        <b>Note:</b> {children}
+      </i>
+    </P>
+  );
+};
