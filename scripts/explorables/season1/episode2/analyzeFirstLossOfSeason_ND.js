@@ -55,21 +55,23 @@ ndSchedules.ALL_PLAYED_SEASONS.forEach((season) => {
     }
 
     if (!firstLossOfSeasonEncountered) {
-      let recordBeforeFirstLoss = `${winsBeforeFirstLoss}-0`;
-      if (tiesBeforeFirstLoss > 0) {
-        recordBeforeFirstLoss += `-${tiesBeforeFirstLoss}`;
-      }
-
-      weekOfFirstLossPerSeason[season] = {
-        numGamesInSeason: seasonScheduleData.length,
-        numGamesPlayedBeforeFirstLoss: seasonScheduleData.length,
-        recordBeforeFirstLoss,
-      };
     }
   });
 
   if (!firstLossOfSeasonEncountered) {
     undefeatedSeasons.push(season);
+
+    let recordBeforeFirstLoss = `${winsBeforeFirstLoss}-0`;
+    if (tiesBeforeFirstLoss > 0) {
+      recordBeforeFirstLoss += `-${tiesBeforeFirstLoss}`;
+    }
+
+    weekOfFirstLossPerSeason[season] = {
+      numGamesInSeason: seasonScheduleData.length,
+      numGamesPlayedBeforeFirstLoss: seasonScheduleData.length,
+      recordBeforeFirstLoss,
+    };
+    console.log(season, recordBeforeFirstLoss);
   }
 });
 

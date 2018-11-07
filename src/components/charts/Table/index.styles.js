@@ -12,6 +12,7 @@ export const TableWrapper = styled.div`
   table {
     margin: auto;
     max-width: 100%;
+    min-width: 400px;
     color: ${(props) => darken(0.2, props.theme.colors.green)};
     border-collapse: collapse;
     background-image: url(${backgroundImage});

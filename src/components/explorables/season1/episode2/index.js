@@ -1,9 +1,8 @@
-import _ from 'lodash';
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
 import Table from '../../../charts/Table';
-import LineChart from '../../../charts/LineChart';
+import PerSeasonBarChart from '../../../charts/PerSeasonBarChart';
 import NewsletterSignupForm from '../../../common/NewsletterSignupForm';
 import LosslessRecordLineGraph from './LosslessRecordLineGraph';
 
@@ -28,44 +27,16 @@ import {
   getAlabamaFirstLossSeriesData,
   getAllTeamFirstLossSeriesData,
   getNdUndefeatedSeasonTableData,
-  getNdFirstLossOverTimeLineChartData,
+  getNdFirstLossOverTimeBarChartData,
   getUndefeatedTeamCountsPerSeasonTableData,
   getUndefeatedSeasonCountsPerTeamTableData,
-  getUndefeatedTeamCountsPerSeasonLineChartData,
+  getUndefeatedTeamCountsPerSeasonBarChartData,
 } from './dataHelpers';
 
 import alabamaRecordsUnderSaban from './data/alabamaRecordsUnderSaban.json';
-import firstWeekLossPercentagesPerSeason from './data/firstWeekLossPercentagesPerSeason.json';
 
 const title = 'Chasing Perfection';
 const subtitle = 'When Teams Stumble En Route To Undefeated Seasons';
-
-const seasonFirstLossSeriesData = [];
-const seasonAverageFirstLossSeriesData = [];
-const seasonAverageSince1990FirstLossSeriesData = [];
-_.forEach(firstWeekLossPercentagesPerSeason, (seasonData, season) => {
-  const seriesData = {
-    id: `firstLoss-${season}`,
-    values: (seasonData.firstWeekLossPercentages || seasonData).map((val, i) => ({
-      x: i + 1,
-      y: 100 - val,
-      radius: 4,
-      tooltipChildren: (
-        <div>
-          <p>{(100 - val).toFixed(1)}%</p>
-        </div>
-      ),
-    })),
-  };
-
-  if (season === 'averages') {
-    seasonAverageFirstLossSeriesData.push(seriesData);
-  } else if (season === 'averagesSince1990') {
-    seasonAverageSince1990FirstLossSeriesData.push(seriesData);
-  } else {
-    seasonFirstLossSeriesData.push(seriesData);
-  }
-});
 
 export default class S1E2 extends React.Component {
   state = {
@@ -76,7 +47,7 @@ export default class S1E2 extends React.Component {
     allFirstLossSeriesData_interactiveEndSeason: 2017,
     allFirstLossSeriesData_interactive: getAllTeamFirstLossSeriesData(1917, 2017),
     allFirstLossSeriesData_1917_2017: getAllTeamFirstLossSeriesData(1917, 2017),
-    ndFirstLossOverTimeLineChartData: getNdFirstLossOverTimeLineChartData(1887, 2017),
+    ndFirstLossOverTimeBarChartData: getNdFirstLossOverTimeBarChartData(1887, 2017),
     ndFirstLossSeriesData_1990_2017: getNdFirstLossSeriesData(1990, 2017),
     ndFirstLossSeriesData_2010_2017: getNdFirstLossSeriesData(2010, 2017),
     ndFirstLossSeriesData_1943_1949: getNdFirstLossSeriesData(1943, 1949),
@@ -92,7 +63,7 @@ export default class S1E2 extends React.Component {
       1917,
       2017
     ),
-    undefeatedTeamCountsPerSeasonLineChartData: getUndefeatedTeamCountsPerSeasonLineChartData(
+    undefeatedTeamCountsPerSeasonBarChartData: getUndefeatedTeamCountsPerSeasonBarChartData(
       1869,
       2017
     ),
@@ -121,13 +92,13 @@ export default class S1E2 extends React.Component {
       ndFirstLossSeriesData_1990_2017,
       ndFirstLossSeriesData_2010_2017,
       ndFirstLossSeriesData_1943_1949,
-      ndFirstLossOverTimeLineChartData,
+      ndFirstLossOverTimeBarChartData,
       allFirstLossSeriesData_1917_2017,
       ndFirstLossSeriesData_interactive,
       allFirstLossSeriesData_interactive,
       alabamaFirstLossSeriesData_2007_2017,
       undefeatedTeamCountsPerSeasonTableData,
-      undefeatedTeamCountsPerSeasonLineChartData,
+      undefeatedTeamCountsPerSeasonBarChartData,
       ndFirstLossSeriesData_interactiveEndSeason,
       ndFirstLossSeriesData_interactiveStartSeason,
       allFirstLossSeriesData_interactiveEndSeason,
@@ -177,8 +148,8 @@ export default class S1E2 extends React.Component {
         />
 
         <Caption>
-          Despite Alabama's dominance under Nick Saban, there has only been a single season during
-          his tenure in which they have gone undefeated.
+          Despite Alabama's dominance under Nick Saban, the Crimson Tide have only have only gone
+          undefeated one time during his tenure.
         </Caption>
 
         <P>
@@ -203,8 +174,8 @@ export default class S1E2 extends React.Component {
           #1 Alabama, #2 Clemson, and #12 UCF). It is nearly impossible to read or listen to
           anything about Notre Dame football without the topic turning to them potentially winning
           out. While everyone else looks ahead, we should not forget that even making it to this
-          point in the season without any losses is a feat that should be celebrated. Let's dive
-          into the record books to see just how impressive it is.
+          point in the season without any losses is a feat worth celebrating. Let's dive into the
+          record books to see just how impressive it is.
         </P>
 
         <SectionTitle>When Notre Dame Loses</SectionTitle>
@@ -212,8 +183,8 @@ export default class S1E2 extends React.Component {
         <P>
           Notre Dame has been playing football for a <i>long</i> time. Excluding the 1890 and 1891
           seasons, they have fielded a team every year since 1887, making 2018 the 130th season of
-          Fighting Irish football. 15 of those past seasons (11.6%) ended with a zero in the loss
-          column, the remaining 114 containing at least one loss. Naturally, those losses came
+          Fighting Irish football. 23 of those past seasons (17.8%) ended with a zero in the loss
+          column, the remaining 106 containing at least one loss. Naturally, those losses came
           spread across different points in the season. They lost their opener in some seasons
           while, in others, they did not lose until their postseason bowl game. To get a feel for
           this, we can chart the percentage of all-time seasons in which Notre Dame played a certain
@@ -243,18 +214,19 @@ export default class S1E2 extends React.Component {
           , they take care of business and make it through the first game unscathed in nearly 9 out
           of every 10 seasons. The numbers drop precipitously from there, with Notre Dame making it
           2 games into the season without a loss in around two-thirds of all seasons and 3 games in
-          just a hair under half. From there, it's a somewhat gradual downward slope through 8 games
-          (a quarter of all seasons) to 10 games (a seventh of all seasons) to 12 games (only twice,
-          in 1988 and 2012) until hitting the ground at 13 games, a point they have never reached
-          undefeated.
+          just a hair under half. From there, it is a somewhat gradual downward slope through 8
+          games (a quarter of all seasons) to 10 games (a seventh of all seasons) to 12 games (only
+          twice, in <StyledExternalLink href="/1988/">1988</StyledExternalLink> and{' '}
+          <StyledExternalLink href="/2012/">2012</StyledExternalLink>) until bottoming out at 13
+          games, a point they have never reached undefeated.
         </P>
 
         <Note>
           For much of its history, Notre Dame played schedules with far fewer than the modern 12-14
           game slates. The percentages above are normalized to only include seasons in which Notre
-          Dame played at least that many games. So, although Notre Dame has only reached 12-0 twice
-          in 129 seasons (just 1.5% of all seasons), the chart above only considers the 36 seasons
-          in which they have played at least 12 games, resulting in a value of 5.6%.
+          Dame played at least that many games. So, although Notre Dame only reached 12-0 twice in
+          129 seasons (just 1.5% of all seasons), the chart above only considers the 36 seasons in
+          which they have played at least 12 games, resulting in a value of 5.6%.
         </Note>
 
         <P>
@@ -262,9 +234,8 @@ export default class S1E2 extends React.Component {
           they played at least nine games, there is a little over 1 in 5 chance they would be
           undefeated at this point in the season. For fans like myself who have only been watching
           for the past couple decades, this may seem pretty surprising. And that would be fair,
-          since Irish football has not exactly been playing like the behemoth it once was, as
-          evidenced by the looking at the same chart as above using only seasons dating back to
-          1990.
+          since Irish football is not exactly the behemoth it once was, as evidenced by only looking
+          at seasons dating back to 1990.
         </P>
 
         <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_1990_2017}>
@@ -284,7 +255,7 @@ export default class S1E2 extends React.Component {
           two times (<StyledExternalLink href="/1993/">1993</StyledExternalLink> and{' '}
           <StyledExternalLink href="/2012/">2012</StyledExternalLink>) since 1990. And yes, I am
           cherry-picking the numbers a bit here since Notre Dame happened to win a National
-          Championship with an undefeated season in 1988 and won its first 11 en route to a #2
+          Championship with an undefeated season in 1988 and won its first 11 games en route to a #2
           finish in 1989. But even including those seasons, the percentages do not favorably compare
           to the historical marks. To drive home this point, look at the same chart covering the
           seasons since Brian Kelly took over in 2010 (remembering that the current 2018 season is
@@ -298,8 +269,8 @@ export default class S1E2 extends React.Component {
         </LosslessRecordLineGraph>
 
         <Caption>
-          The 2012 season sticks out like a sore thumb when only looking at seasons during Brian
-          Kelly's tenure.
+          During Brian Kelly's tenure, the 2012 season sticks out like a sore thumb amongst many
+          early-season losses.
         </Caption>
 
         <P>
@@ -328,7 +299,8 @@ export default class S1E2 extends React.Component {
           There are too many interesting stretches of Notre Dame football history to cover in this
           blog post, so here is an interactive version of the chart which allows you to analyze the
           data over any consecutive range of seasons. Use it to compare the numbers for other former
-          head coaches or to see how the Irish fared while you were a student.
+          head coaches, to see how the Irish fared while you were a student, or just to see how it
+          flattens out over time.
         </P>
 
         <LosslessRecordLineGraph seriesData={ndFirstLossSeriesData_interactive}>
@@ -346,45 +318,47 @@ export default class S1E2 extends React.Component {
         </LosslessRecordLineGraph>
 
         <Caption>
-          This chart is interactive! Use the slider in the top right of the graph to see for
-          yourself how the data changes over time.
+          This chart is interactive! Use the slider in the top right to see for yourself how the
+          data changes over time.
         </Caption>
 
         <P>
-          In addition to the aggregate data, we can also visualize how far into each individual
+          In addition to aggregating the data, we can also visualize how far into each individual
           season Notre Dame made it before encountering their first defeat.
         </P>
 
-        <LineChart
-          seriesData={ndFirstLossOverTimeLineChartData}
+        <PerSeasonBarChart
+          data={ndFirstLossOverTimeBarChartData}
           xAxisLabel="Season"
           yAxisLabel="Games Won Or Tied Before First Loss"
           margins={{left: 60, sm: {left: 48}}}
         />
 
         <Caption>
-          The Notre Dame of modern times is less consistent at starting off strong than in seasons
+          The Notre Dame of modern times is less consistent at starting off strong than in decades
           past.
         </Caption>
 
         <P>
           This view of the data shows that Notre Dame is far from its days as a consistent
-          powerhouse. Most of the seasons in which it lost one of its opening two games came in
+          powerhouse. Most of the seasons in which it lost one of its opening two games have come in
           recent decades. Notre Dame put together an impressive 36-year run from 1897 to 1932 in
           which they never lost an opener. Compare that to the 1984-86 seasons which all started at
           least 0-1 and a stretch from 1997 to 2011 in which they strung together more than two wins
-          to kick off the season just once &mdash; an 8-0 start in 2002. As was the case with 2012,
-          the start of this current 2018 season bucks these recent trends.
+          to kick off the season just once &mdash; an 8-0 start in{' '}
+          <StyledExternalLink href="/2002/">2002</StyledExternalLink>. As was the case with 2012,
+          the start of this current 2018 season bucks these recent trends and gives us a glimpse of
+          the past.
         </P>
 
         <SectionTitle>When Everyone Else Loses</SectionTitle>
 
         <P>
           As we saw in{' '}
-          <StyledExternalLink href="/explorabes/s1e1-down-to-the-wire">
-            "Down To The Wire,"
-          </StyledExternalLink>{' '}
-          Notre Dame's statistics in isolation are not enough. We need to also analyze the
+          <StyledExternalLink href="/explorables/s1e1-down-to-the-wire">
+            "Down To The Wire"
+          </StyledExternalLink>
+          , Notre Dame's statistics in isolation are not enough. We need to also analyze the
           competition. So let's look at a similar chart with aggregate data from every major college
           football team dating back to 1887.
         </P>
@@ -402,6 +376,13 @@ export default class S1E2 extends React.Component {
           football team since 1887.
         </Caption>
 
+        <Note>
+          While you might expect half of all teams to lose their first game, the data above only
+          includes teams in the top division (currently called the NCAA Division I Football Bowl
+          Subdivision). Since many teams open their season with wins against teams from lower
+          divisions, nearly two-thirds of teams have historically won or tied their opening game.
+        </Note>
+
         <P>
           Notre Dame's historic numbers &mdash; and most of the marks under Brian Kelly &mdash; are
           better across the board, except of course for the few teams who have reached the heights
@@ -414,7 +395,7 @@ export default class S1E2 extends React.Component {
           a mountain compared to everyone else's molehills. They have reached 11-0 in over a third
           of those seasons and 12-0 in almost one out of every five. And, as a quirk of typically
           only playing 13 games and having done quite well in postseason contests, they actually see
-          a bump at 14 games.
+          a bump from 13 to 14 games.
         </P>
 
         <LosslessRecordLineGraph seriesData={alabamaFirstLossSeriesData_2007_2017}>
@@ -429,70 +410,72 @@ export default class S1E2 extends React.Component {
         </Caption>
 
         <P>
-          Since it is a bit hard to compare all these charts on their own, let's put everything
-          together into one chart.
+          Since it is a bit difficult to compare all these charts on their own, let's put everything
+          together into a single chart.
         </P>
 
         <LosslessRecordLineGraph
           seriesData={[
-            ...alabamaFirstLossSeriesData_2007_2017,
             ...ndFirstLossSeriesData_1887_2017,
             ...ndFirstLossSeriesData_1990_2017,
             ...ndFirstLossSeriesData_2010_2017,
             ...ndFirstLossSeriesData_1943_1949,
+            ...alabamaFirstLossSeriesData_2007_2017,
             ...allFirstLossSeriesData_1917_2017,
           ]}
           showArea={false}
+          showLineLabels={false}
         >
           <Legend>
             <div>
               <Color hex="#2a8c5f" />
-              <span>Alabama 2007 - 2017</span>
+              <span>ND [1887-2017]</span>
             </div>
             <div>
               <Color hex="#377eb8" />
-              <span>ND 1887 - 2017</span>
+              <span>ND [1990-2017]</span>
             </div>
             <div>
               <Color hex="#984ea3" />
-              <span>ND 1990 - 2017</span>
+              <span>ND [2010-17]</span>
             </div>
             <div>
               <Color hex="#ff7f00" />
-              <span>ND 2010 - 2017</span>
+              <span>ND [1943-49]</span>
             </div>
             <div>
-              <Color hex="#a65628" />
-              <span>ND 1943 - 1949</span>
+              <Color hex="#b50321" />
+              <span>Alabama [2007-17]</span>
             </div>
             <div>
-              <Color hex="#ffff33" />
-              <span>All Teams 1917 - 2017</span>
+              <Color hex="#19dabf" />
+              <span>All [1917-2017]</span>
             </div>
           </Legend>
         </LosslessRecordLineGraph>
 
         <Caption>
-          Putting everything together, from dominant dynasties to certain ranges of Notre Dame
-          history to the average across all teams.
+          The modern Alabama and 1940s Notre Dame dynasties started seasons much stronger than more
+          modern Irish teams and all teams in general.
         </Caption>
 
         <P>
           As dominant as modern-day Alabama is, the Notre Dame dynasty from 1943-49 was even more
-          so, at least on this metric. Notre Dame since 1990 trends just a few percentage points
-          above the NCAA average. Under Brian Kelly, the Irish's numbers look generally healthier,
-          although they were certainly buoyed by the great 2012 season. After factoring in whenever
-          the Irish first fall this season &mdash; if at all &mdash; they will look even better.
+          so, at least on this metric. Meanwhile, Notre Dame teams since 1990 trend just a few
+          percentage points above the all team average. Under Brian Kelly, the Irish's numbers look
+          generally healthier, although they were certainly buoyed by the great 2012 season. After
+          factoring in whenever the Irish first fall this season &mdash; if they do at all &mdash;
+          his numbers will look even better.
         </P>
 
         <SectionTitle>When Teams Do Not Lose</SectionTitle>
 
         <P>
           Enough talk about losses; let's look at those teams which never lost. Dating back to 1869
-          &mdash; the first season of intercollegiate football in the United States &mdash; there
-          have been 423 teams who have gone undefeated. Nearly a third of those 149 football seasons
-          ended with four or more undefeated teams, including two seasons &mdash; 1910 and 1920
-          &mdash; which saw a record ten undefeated teams.
+          &mdash; the first season of intercollegiate football in the United States &mdash; 431
+          teams have gone undefeated, spread across 109 unique schools. Nearly a third of those 149
+          football seasons ended with four or more undefeated teams, including two seasons &mdash;
+          1910 and 1920 &mdash; which saw a record ten undefeated teams.
         </P>
 
         <Table
@@ -501,7 +484,7 @@ export default class S1E2 extends React.Component {
         />
 
         <Caption>
-          A majority of seasons have ended with anywhere from zero to three undefeated teams.
+          A large majority of seasons have ended with anywhere from zero to three undefeated teams.
         </Caption>
 
         <Note>
@@ -519,8 +502,8 @@ export default class S1E2 extends React.Component {
           in the first matchup between those two teams.
         </P>
 
-        <LineChart
-          seriesData={undefeatedTeamCountsPerSeasonLineChartData}
+        <PerSeasonBarChart
+          data={undefeatedTeamCountsPerSeasonBarChartData}
           xAxisLabel="Season"
           yAxisLabel="Undefeated Teams"
           margins={{left: 60, sm: {left: 48}}}
@@ -549,7 +532,7 @@ export default class S1E2 extends React.Component {
         <Table
           headers={['Team Name', 'Undefeated Seasons Since 1869', 'Latest']}
           rows={undefeatedSeasonCountsPerTeamTableData_1869_2017}
-          highlightedRowIndexes={[3]}
+          highlightedRowIndexes={[2]}
         />
 
         <Caption>
@@ -557,18 +540,18 @@ export default class S1E2 extends React.Component {
         </Caption>
 
         <Note>
-          Only seasons during which a school played in the top-division of college football are
+          Only seasons during which a school played in the top division of college football are
           included. For example, Harvard went undefeated in 2014, but since it now plays in the
-          Football Championship Subdivision, it is not included in the table above.
+          Football Championship Subdivision, it is not counted.
         </Note>
 
         <P>
-          The table above is accurate according to the official records, but it does not take into
-          account that Princeton, Yale, and Harvard are some of the oldest football programs and
-          went lossless in seasons in which they only played a handful of games. In fact, in
-          Princeton's first six undefeated seasons, it played a total of just 10 games, fewer than
-          modern teams play in a single season. If we take a more recent snapshot, say the last 100
-          years of college football, a familiar name leads the pack.
+          The table above may be accurate according to the official records, but it does not take
+          into account that Princeton, Yale, Harvard, and even Notre Dame are some of the oldest
+          football programs and went lossless in seasons in which they only played a handful of
+          games. In fact, in Princeton's first six undefeated seasons, it played a total of just 10
+          games, fewer than modern teams play in a single season. If we take a more recent snapshot,
+          say the last 100 years of college football, a familiar name leads the pack.
         </P>
 
         <Table
@@ -581,30 +564,30 @@ export default class S1E2 extends React.Component {
           Notre Dame has had more undefeated seasons than any other school over the past century.
         </Caption>
 
-        <SectionTitle>Chasing Undefeated Season #16</SectionTitle>
+        <SectionTitle>Chasing Undefeated Season Number 24</SectionTitle>
 
         <P>
-          Notre Dame sits at 9-0, five wins away from the school's 16th undefeated season. It would
+          Notre Dame sits at 9-0, five wins away from the school's 24th undefeated season. It would
           be its first since they last{' '}
           <StyledExternalLink href="/1988/">won a National Championship in 1988</StyledExternalLink>
           . But, as we saw above, even making it to this point in the season without a loss puts the
           Irish in rare company. In fact, the Irish have started this season with as many wins as
-          they finished with in two-thirds of their all-time undefeated seasons.
+          they finished with in all but a handful of their all-time undefeated seasons.
         </P>
 
         <Table
           headers={['Season', 'Games Played', 'Record']}
           rows={ndUndefeatedSeasonTableData}
-          highlightedRowIndexes={[3, 5, 10, 13, 14]}
+          highlightedRowIndexes={[11, 13, 18, 21, 22]}
         />
 
         <Caption>
-          The 2018 Notre Dame team has already notched as many wins as they had in all be 5 of its
-          15 all-time undefeated seasons.
+          Notre Dame's win count at this point in the 2018 season is already as high as it was in
+          all but five of its 23 all-time undefeated seasons.
         </Caption>
 
         <P>
-          Notre Dame's next obstacle is a senior day{' '}
+          The next obstacle in Notre Dame's path to an undefeated season is a senior day{' '}
           <StyledExternalLink href="/2018/10/">
             home game against a 4-5 Florida State
           </StyledExternalLink>{' '}

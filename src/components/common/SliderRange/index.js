@@ -48,7 +48,7 @@ class SliderRange extends React.Component {
             },
             [max]: {
               style: {fontFamily: 'Inter UI', fontSize: '14px'},
-              label: min,
+              label: max,
             },
           }}
           onChange={this.handleChange}

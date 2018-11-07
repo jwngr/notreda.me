@@ -98,23 +98,23 @@ export const LineChartSvg = styled.svg`
   }
 
   .series-4 {
-    stroke: ${(props) => darken(0.2, '#a65628')};
+    stroke: ${(props) => darken(0.2, '#b50321')};
   }
 
   .dot.series-4 {
-    fill: ${(props) => '#a65628'};
-    stroke: ${(props) => darken(0.2, '#a65628')};
+    fill: ${(props) => '#b50321'};
+    stroke: ${(props) => darken(0.2, '#b50321')};
     stroke-width: 2px;
     z-index: 10;
   }
 
   .series-5 {
-    stroke: ${(props) => darken(0.2, '#ffff33')};
+    stroke: ${(props) => darken(0.2, '#19dabf')};
   }
 
   .dot.series-5 {
-    fill: ${(props) => '#ffff33'};
-    stroke: ${(props) => darken(0.2, '#ffff33')};
+    fill: ${(props) => '#19dabf'};
+    stroke: ${(props) => darken(0.2, '#19dabf')};
     stroke-width: 2px;
     z-index: 10;
   }

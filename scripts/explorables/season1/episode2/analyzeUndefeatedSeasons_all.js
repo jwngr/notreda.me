@@ -2,11 +2,11 @@ const _ = require('lodash');
 
 const logger = require('../../../lib/logger');
 const teamSchedules = require('../../../lib/teamSchedules');
+const undefeatedTeamNamesMap = require('./undefeatedTeamNamesMap.json');
 
 let totalUndefeatedTeamsCount = 0;
 const undefeatedTeamsPerSeason = {};
 const undefeatedSeasonsPerTeam = {};
-const notreDameUndefeatedSeasons = [];
 const undefeatedTeamCountsPerSeason = {};
 
 logger.info('Analyzing undefeated seasons...');
@@ -24,21 +24,11 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
     const firstLossWeek = _.findIndex(games, ['result', 'L']);
 
     if (firstLossWeek === -1) {
-      if (teamName === 'notreDame') {
-        const numGames = _.size(games);
-
-        const ties = _.filter(games, ({result}) => result === 'T');
-
-        notreDameUndefeatedSeasons.push({
-          season,
-          numGames: numGames,
-          record: `${numGames - _.size(ties)}-0-${_.size(ties)}`,
-        });
-      }
       totalUndefeatedTeamsCount++;
-      undefeatedTeamsPerSeason[season].push(teamName);
+      undefeatedTeamsPerSeason[season].push(undefeatedTeamNamesMap[teamName]);
       undefeatedTeamCountsPerSeason[season] = (undefeatedTeamCountsPerSeason[season] || 0) + 1;
-      undefeatedSeasonsPerTeam[teamName] = (undefeatedSeasonsPerTeam[teamName] || 0) + 1;
+      undefeatedSeasonsPerTeam[undefeatedTeamNamesMap[teamName]] =
+        (undefeatedSeasonsPerTeam[undefeatedTeamNamesMap[teamName]] || 0) + 1;
     }
     // }
   });
@@ -75,8 +65,5 @@ _.forEach(sortedUndefeatedSeasonsPerTeam, ({count, teamName}) => {
 });
 
 console.log(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
-
-console.log('\n\n');
-logger.info('NOTRE DAME UNDEFEATED SEASONS:', notreDameUndefeatedSeasons);
 
 logger.success('Successfully analyzed undefeated seasons!');

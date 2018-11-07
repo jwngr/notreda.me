@@ -36,6 +36,13 @@ class LineChart extends Component {
     });
   }
 
+  handleMouseMove = (event) => {
+    this.mouse = {
+      x: event.pageX,
+      y: event.pageY,
+    };
+  };
+
   getMargins = () => {
     let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (this.width < 600) {
@@ -125,7 +132,13 @@ class LineChart extends Component {
   };
 
   drawChartData = () => {
-    let {seriesData, showLine = true, showArea = true, showDataPoints = true} = this.props;
+    let {
+      seriesData,
+      showLine = true,
+      showArea = true,
+      showLineLabels = true,
+      showDataPoints = true,
+    } = this.props;
 
     const margins = this.getMargins();
 
@@ -168,7 +181,7 @@ class LineChart extends Component {
       .y((d) => this.scaleY(d.y));
 
     if (showLine) {
-      const showLineIds = _.size(seriesData) !== 1;
+      const showLineIds = showLineLabels && _.size(seriesData) !== 1;
 
       const teams = gData
         .selectAll('.team')
@@ -236,11 +249,15 @@ class LineChart extends Component {
         .on('mouseover', (d, i) => {
           clearTimeout(this.unsetTooltipTimeout);
 
-          this.setTooltip({
-            x: this.scaleX(d.x || i) + margins.left,
-            y: this.scaleY(d.y) + margins.top,
-            children: d.tooltipChildren,
-          });
+          if (this.mouse) {
+            // It is possible for the mouse to initially be on a spot which should show a tooltip,
+            // so simply ignore that case.
+            this.setTooltip({
+              x: this.mouse.x,
+              y: this.mouse.y,
+              children: d.tooltipChildren,
+            });
+          }
         })
         .on('mouseout', (d) => {
           this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
@@ -250,6 +267,8 @@ class LineChart extends Component {
 
   componentDidMount() {
     let {seriesData, domainX, rangeX, domainY, rangeY} = this.props;
+
+    document.addEventListener('mousemove', this.handleMouseMove);
 
     this.width = this.getLineChartWidth();
 
@@ -304,6 +323,7 @@ class LineChart extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.debouncedResizeLineChart);
+    document.removeEventListener('mousemove', this.handleMouseMove);
   }
 
   getLineChartWidth() {
@@ -333,11 +353,13 @@ class LineChart extends Component {
     }
 
     return (
-      <LineChartWrapper className="line-chart-wrapper">
-        <LineChartSvg innerRef={(r) => (this.lineChartRef = r)} />
+      <React.Fragment>
         {tooltipContent}
-        {this.props.children}
-      </LineChartWrapper>
+        <LineChartWrapper className="line-chart-wrapper">
+          <LineChartSvg innerRef={(r) => (this.lineChartRef = r)} />
+          {this.props.children}
+        </LineChartWrapper>
+      </React.Fragment>
     );
   }
 }
@@ -345,6 +367,7 @@ class LineChart extends Component {
 // TODO: add prop types
 LineChart.propTypes = {
   showArea: PropTypes.bool,
+  showLineLabels: PropTypes.bool,
   seriesData: PropTypes.array.isRequired,
   xAxisLabel: PropTypes.string.isRequired,
   yAxisLabel: PropTypes.string.isRequired,

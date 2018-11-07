@@ -8,6 +8,16 @@ export const Legend = styled.div`
   top: 8px;
   right: 8px;
   font-size: 14px;
+
+  & > div {
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 export const Color = styled.div`
@@ -17,6 +27,11 @@ export const Color = styled.div`
   display: inline-block;
   margin-right: 4px;
   border: solid 2px ${(props) => darken(0.2, props.hex)};
+
+  @media (max-width: 600px) {
+    width: 12px;
+    height: 12px;
+  }
 `;
 
 export const SliderRangeWrapper = styled(SliderRange)`
@@ -30,4 +45,8 @@ export const LosslessRecordLineGraphSeasons = styled.p`
   top: 20px;
   right: 20px;
   font-size: 20px;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
