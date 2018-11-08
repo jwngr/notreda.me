@@ -67,4 +67,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+// TODO: get service workers working again...
+navigator.serviceWorker.getRegistrations().then(function(registrations) {
+  for (let registration of registrations) {
+    registration.unregister();
+  }
+});
+
+// registerServiceWorker();
