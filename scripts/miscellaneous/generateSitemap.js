@@ -1,21 +1,18 @@
+const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
-const SITEMAP_FILENAME = path.resolve(__dirname, '../../public/sitemap.xml');
+const ndSchedules = require('../lib/ndSchedules');
 
-const scheduleFilenames = fs.readdirSync(SCHEDULE_DATA_DIRECTORY);
+const SITEMAP_FILENAME = path.resolve(__dirname, '../../public/sitemap.xml');
 
 const paths = ['/', '/explorables/s1e1-down-to-the-wire/', '/explorables/s1e2-chasing-perfection'];
 
-scheduleFilenames.forEach((filename) => {
-  const year = filename.split('.json')[0];
-  const games = require(`${SCHEDULE_DATA_DIRECTORY}/${filename}`);
+_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
+  paths.push(`/${season}/`);
 
-  paths.push(`/${year}/`);
-
-  games.forEach((game, i) => {
-    paths.push(`/${year}/${i + 1}/`);
+  seasonScheduleData.forEach((gameData, i) => {
+    paths.push(`/${season}/${i + 1}/`);
   });
 });
 
