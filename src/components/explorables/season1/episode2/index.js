@@ -148,8 +148,8 @@ export default class S1E2 extends React.Component {
         />
 
         <Caption>
-          Despite Alabama's dominance under Nick Saban, the Crimson Tide have only have only gone
-          undefeated one time during his tenure.
+          Despite Alabama's dominance under Nick Saban, the Crimson Tide have only gone undefeated
+          one time during his tenure.
         </Caption>
 
         <P>
