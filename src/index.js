@@ -7,7 +7,7 @@ import {routerForBrowser, initializeCurrentLocation} from 'redux-little-router';
 
 import theme from './resources/theme.json';
 import rootReducers from './reducers/index.js';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 import App from './App';
 
