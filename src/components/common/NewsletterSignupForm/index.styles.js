@@ -23,19 +23,19 @@ export const Intro = styled.div`
   text-align: center;
 
   p:first-of-type {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.2;
     font-weight: bold;
     margin-bottom: 10px;
     color: ${(props) => props.theme.colors.green};
 
     @media (max-width: 600px) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 
   p:nth-of-type(2) {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     color: ${(props) => props.theme.colors.black};
   }
@@ -54,14 +54,14 @@ export const FormInput = styled.input`
   display: block;
   width: 100%;
   max-width: 360px;
-  height: 60px;
+  height: 52px;
   margin: 20px auto;
   padding: 10px;
   color: ${(props) => props.theme.colors.green};
   background-image: url(${backgroundImage});
   background-color: ${(props) => props.theme.colors.gray}40;
   border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 
   &::placeholder {
@@ -81,11 +81,11 @@ export const FormInput = styled.input`
 
 export const SubscribeButton = styled.button`
   display: block;
-  width: 200px;
-  height: 60px;
+  width: 160px;
+  height: 52px;
   margin: auto;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Bungee';
 
   color: ${(props) => props.theme.colors.white};
