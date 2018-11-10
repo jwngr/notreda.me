@@ -68,7 +68,7 @@ ReactDOM.render(
 );
 
 // TODO: get service workers working again...
-navigator.serviceWorker.getRegistrations().then(function(registrations) {
+navigator.serviceWorker.getRegistrations().then((registrations) => {
   for (let registration of registrations) {
     registration.unregister();
   }
