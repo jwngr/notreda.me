@@ -26,6 +26,11 @@ export const Heading = styled.div`
   font-size: 16px;
   font-family: 'Bungee';
   color: ${(props) => props.theme.colors.gray};
+
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme.colors.gray};
+  }
 `;
 
 export const Title = styled.h1`

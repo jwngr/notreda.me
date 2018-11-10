@@ -114,7 +114,7 @@ export default class S1E2 extends React.Component {
         </Helmet>
 
         <Heading>
-          <p>Explorables</p>
+          <a href="/explorables">Explorables</a>
           <p>Season 1, Episode 2</p>
         </Heading>
 

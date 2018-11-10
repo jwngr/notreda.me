@@ -38,7 +38,7 @@ export default () => {
       </Helmet>
 
       <Heading>
-        <p>Explorables</p>
+        <a href="/explorables">Explorables</a>
         <p>Season 1, Episode 1</p>
       </Heading>
 
