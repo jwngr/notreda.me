@@ -853,7 +853,7 @@
         "penaltyYards": 58,
         "fumblesLost": 1,
         "possession": "29:36",
-        "fumbles": -1
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 16,
@@ -874,7 +874,7 @@
         "penaltyYards": 0,
         "fumblesLost": 0,
         "possession": "30:24",
-        "fumbles": -1
+        "fumbles": 1
       }
     }
   },
@@ -888,6 +888,7 @@
     },
     "opponentId": "FSU",
     "coverage": "NBC",
+    "highlightsYouTubeVideoId": "euIlgxCHBYY",
     "sportsReferenceGameId": "2018-11-10-notre-dame",
     "records": {
       "home": {
@@ -907,6 +908,70 @@
         "ap": 3,
         "coaches": 3,
         "cfbPlayoff": 3
+      }
+    },
+    "espnGameId": 401013171,
+    "linescore": {
+      "away": [
+        0,
+        6,
+        7,
+        0
+      ],
+      "home": [
+        17,
+        15,
+        3,
+        7
+      ]
+    },
+    "score": {
+      "home": 42,
+      "away": 13
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 6,
+        "totalYards": 322,
+        "passYards": 216,
+        "passCompletions": 23,
+        "passAttempts": 48,
+        "yardsPerPass": 4.5,
+        "interceptionsThrown": 1,
+        "rushYards": 106,
+        "rushAttempts": 30,
+        "yardsPerRush": 3.5,
+        "penalties": 5,
+        "penaltyYards": 35,
+        "fumblesLost": 1,
+        "possession": "28:00",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 16,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 495,
+        "passYards": 130,
+        "passCompletions": 12,
+        "passAttempts": 25,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 2,
+        "rushYards": 365,
+        "rushAttempts": 50,
+        "yardsPerRush": 7.3,
+        "penalties": 8,
+        "penaltyYards": 74,
+        "fumblesLost": 0,
+        "possession": "32:00",
+        "fumbles": -1
       }
     }
   },
