@@ -991,13 +991,13 @@
     "sportsReferenceGameId": "2018-11-17-notre-dame",
     "records": {
       "home": {
-        "overall": "10-0",
-        "home": "7-0",
+        "overall": "11-0",
+        "home": "8-0",
         "away": "3-0"
       },
       "away": {
-        "overall": "8-2",
-        "home": "6-0",
+        "overall": "8-3",
+        "home": "6-1",
         "away": "2-2"
       }
     },
@@ -1012,6 +1012,70 @@
         "ap": 12,
         "coaches": 12,
         "cfbPlayoff": 12
+      }
+    },
+    "espnGameId": 401013182,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "home": [
+        13,
+        7,
+        9,
+        7
+      ]
+    },
+    "score": {
+      "home": 36,
+      "away": 3
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 234,
+        "passYards": 115,
+        "passCompletions": 15,
+        "passAttempts": 35,
+        "yardsPerPass": 3.3,
+        "interceptionsThrown": 3,
+        "rushYards": 119,
+        "rushAttempts": 38,
+        "yardsPerRush": 3.1,
+        "penalties": 3,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "27:47",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 6,
+        "thirdDownConversions": 15,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 2,
+        "totalYards": 463,
+        "passYards": 292,
+        "passCompletions": 23,
+        "passAttempts": 38,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 1,
+        "rushYards": 171,
+        "rushAttempts": 36,
+        "yardsPerRush": 4.8,
+        "penalties": 7,
+        "penaltyYards": 55,
+        "fumblesLost": 0,
+        "possession": "32:13",
+        "fumbles": -1
       }
     }
   },
@@ -1029,13 +1093,13 @@
     "sportsReferenceGameId": "2018-11-24-southern-california",
     "records": {
       "home": {
-        "overall": "5-5",
+        "overall": "5-6",
         "home": "3-2",
-        "away": "2-3"
+        "away": "2-4"
       },
       "away": {
-        "overall": "10-0",
-        "home": "7-0",
+        "overall": "11-0",
+        "home": "8-0",
         "away": "3-0"
       }
     },
