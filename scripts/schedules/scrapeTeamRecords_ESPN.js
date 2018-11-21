@@ -79,6 +79,8 @@ return Promise.all(promises)
     const ndOverallRecordTokens = teamRecords.ND.overall.split('-');
     const ndGamesPlayed = Number(ndOverallRecordTokens[0]) + Number(ndOverallRecordTokens[1]);
 
+    // TODO: properly handle neutral site games for ND.
+
     seasonScheduleData.forEach((gameData, i) => {
       if (i + 1 >= ndGamesPlayed) {
         if (!_.has(teamRecords, gameData.opponentId)) {
