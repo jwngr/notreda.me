@@ -86590,17 +86590,18 @@
       },
       "opponentId": "USC",
       "coverage": "ABC",
+      "highlightsYouTubeVideoId": "Lb8oyowI5E0",
       "sportsReferenceGameId": "2018-11-24-southern-california",
       "records": {
         "home": {
-          "overall": "5-6",
-          "home": "3-2",
+          "overall": "5-7",
+          "home": "3-3",
           "away": "2-4"
         },
         "away": {
-          "overall": "11-0",
+          "overall": "12-0",
           "home": "7-0",
-          "away": "4-0"
+          "away": "5-0"
         }
       },
       "headCoach": "Brian Kelly",
@@ -86609,6 +86610,70 @@
           "ap": 3,
           "coaches": 3,
           "cfbPlayoff": 3
+        }
+      },
+      "espnGameId": 401012800,
+      "linescore": {
+        "away": [
+          0,
+          7,
+          10,
+          7
+        ],
+        "home": [
+          7,
+          3,
+          0,
+          7
+        ]
+      },
+      "score": {
+        "home": 17,
+        "away": 24
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 23,
+          "thirdDownAttempts": 6,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 2,
+          "totalYards": 473,
+          "passYards": 352,
+          "passCompletions": 22,
+          "passAttempts": 39,
+          "yardsPerPass": 9,
+          "interceptionsThrown": 1,
+          "rushYards": 121,
+          "rushAttempts": 31,
+          "yardsPerRush": 3.9,
+          "penalties": 3,
+          "penaltyYards": 38,
+          "fumblesLost": 0,
+          "possession": "25:49",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 24,
+          "thirdDownAttempts": 7,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 443,
+          "passYards": 349,
+          "passCompletions": 37,
+          "passAttempts": 51,
+          "yardsPerPass": 6.8,
+          "interceptionsThrown": 0,
+          "rushYards": 94,
+          "rushAttempts": 24,
+          "yardsPerRush": 3.9,
+          "penalties": 8,
+          "penaltyYards": 71,
+          "fumblesLost": 2,
+          "possession": "34:11",
+          "fumbles": 2
         }
       }
     }
