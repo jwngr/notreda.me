@@ -86676,6 +86676,31 @@
           "fumbles": 2
         }
       }
+    },
+    {
+      "isBowlGame": true,
+      "isHomeGame": false,
+      "fullDate": "Wed Jan 2 2019 16:00:00 GMT-0500",
+      "nickname": "Goodyear Cotton Bowl Class - College Football Playoff Semifinal",
+      "coverage": "ESPN",
+      "location": {
+        "city": "Dallas",
+        "state": "TX",
+        "stadium": "AT&T Stadium"
+      },
+      "opponentId": "CLEM",
+      "rankings": {
+        "home": {
+          "ap": 2,
+          "coaches": 2,
+          "cfbPlayoff": 2
+        },
+        "away": {
+          "ap": 3,
+          "coaches": 3,
+          "cfbPlayoff": 3
+        }
+      }
     }
   ],
   "2019": [
