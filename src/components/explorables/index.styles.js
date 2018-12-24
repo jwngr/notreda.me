@@ -49,6 +49,7 @@ export const Subtitle = styled.p`
   text-align: center;
   margin: 8px auto;
   font-size: 24px;
+  font-variant: small-caps;
   max-width: ${(props) => props.maxWidth || '440px'};
   font-family: 'Bungee';
   color: ${(props) => props.theme.colors.black};
@@ -104,6 +105,7 @@ export const StatsWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin: -10px 0;
+
   @media (max-width: 600px) {
     justify-content: center;
   }
@@ -124,6 +126,7 @@ export const Stat = styled.div`
     padding: 12px;
     font-size: 18px;
     font-weight: bold;
+    font-variant: small-caps;
     color: ${(props) => props.theme.colors.white};
     background-color: ${(props) => props.theme.colors.green};
     border-bottom: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};

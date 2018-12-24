@@ -8,6 +8,7 @@ export const Legend = styled.div`
   top: 8px;
   right: 8px;
   font-size: 14px;
+  font-variant: small-caps;
 
   & > div {
     margin: 2px 0;
@@ -45,6 +46,7 @@ export const LosslessRecordLineGraphSeasons = styled.p`
   top: 20px;
   right: 20px;
   font-size: 20px;
+  font-variant: small-caps;
 
   @media (max-width: 600px) {
     font-size: 16px;

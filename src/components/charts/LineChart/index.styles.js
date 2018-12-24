@@ -36,6 +36,7 @@ export const LineChartSvg = styled.svg`
   .line-chart-y-axis-label {
     font-size: 16px;
     text-anchor: middle;
+    font-variant: small-caps;
 
     @media (max-width: 600px) {
       font-size: 14px;

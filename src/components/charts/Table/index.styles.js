@@ -32,6 +32,7 @@ export const TableWrapper = styled.div`
 
     th {
       font-weight: bold;
+      font-variant: small-caps;
       color: ${(props) => props.theme.colors.white};
       background-color: ${(props) => props.theme.colors.green}cc;
     }
