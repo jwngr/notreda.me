@@ -20,6 +20,7 @@ const teams = {
   FSU: 'http://www.espn.com/college-football/team/_/id/52/florida-state-seminoles',
   SYR: 'http://www.espn.com/college-football/team/_/id/183/syracuse-orange',
   USC: 'http://www.espn.com/college-football/team/_/id/30/usc-trojans',
+  CLEM: 'http://www.espn.com/college-football/team/_/id/228/clemson-tigers',
 };
 
 const teamRecords = {};

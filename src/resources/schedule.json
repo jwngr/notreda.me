@@ -86681,7 +86681,7 @@
       "isBowlGame": true,
       "isHomeGame": false,
       "fullDate": "Sat Dec 29 2018 16:00:00 GMT-0500",
-      "nickname": "Goodyear Cotton Bowl Class - College Football Playoff Semifinal",
+      "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
       "coverage": "ESPN",
       "location": {
         "city": "Dallas",
@@ -86699,6 +86699,83 @@
           "ap": 3,
           "coaches": 3,
           "cfbPlayoff": 3
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "14-0",
+          "home": "9-0",
+          "away": "5-0"
+        },
+        "away": {
+          "overall": "12-1",
+          "home": "8-0",
+          "away": "4-1"
+        }
+      },
+      "espnGameId": 401032079,
+      "highlightsYouTubeVideoId": "8gDbOj7Xt5w",
+      "linescore": {
+        "away": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "home": [
+          3,
+          20,
+          7,
+          0
+        ]
+      },
+      "score": {
+        "home": 30,
+        "away": 3
+      },
+      "result": "L",
+      "stats": {
+        "away": {
+          "firstDowns": 17,
+          "thirdDownAttempts": 5,
+          "thirdDownConversions": 17,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 2,
+          "totalYards": 248,
+          "passYards": 160,
+          "passCompletions": 17,
+          "passAttempts": 34,
+          "yardsPerPass": 4.7,
+          "interceptionsThrown": 1,
+          "rushYards": 88,
+          "rushAttempts": 35,
+          "yardsPerRush": 2.5,
+          "penalties": 7,
+          "penaltyYards": 50,
+          "fumblesLost": 1,
+          "possession": "27:06",
+          "fumbles": 2
+        },
+        "home": {
+          "firstDowns": 26,
+          "thirdDownAttempts": 9,
+          "thirdDownConversions": 18,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 538,
+          "passYards": 327,
+          "passCompletions": 27,
+          "passAttempts": 41,
+          "yardsPerPass": 8,
+          "interceptionsThrown": 0,
+          "rushYards": 211,
+          "rushAttempts": 37,
+          "yardsPerRush": 5.7,
+          "penalties": 6,
+          "penaltyYards": 65,
+          "fumblesLost": 1,
+          "possession": "32:54",
+          "fumbles": 2
         }
       }
     }
