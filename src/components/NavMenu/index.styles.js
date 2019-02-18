@@ -19,6 +19,7 @@ export const NavMenuWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};
   background-color: ${(props) => props.theme.colors.lightGray};
   background-image: url(${backgroundImage});
+  overscroll-behavior: contain;
 
   &.open {
     visibility: visible;
