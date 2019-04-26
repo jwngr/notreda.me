@@ -8,7 +8,7 @@ import navMenu from './navMenu';
 
 import schedule from '../resources/schedule';
 
-const DEFAULT_YEAR = 2018;
+const DEFAULT_YEAR = 2019;
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
 const getYearFromQueryParams = (params = {}) => {

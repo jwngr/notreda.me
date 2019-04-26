@@ -11,7 +11,7 @@ const green = chalk.bold.green;
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 
-const CURRENT_YEAR = 2018;
+const CURRENT_YEAR = 2019;
 const AP_POLL_YEARS = _.range(1936, CURRENT_YEAR + 1);
 
 const unknownTeams = new Set();
