@@ -32,12 +32,23 @@
   {
     "isHomeGame": true,
     "date": "09/25/2021",
+    "isShamrockSeries": true,
     "location": {
       "city": "Chicago",
       "state": "IL",
       "stadium": "Soldier Field"
     },
     "opponentId": "WIS"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/02/2021",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "CINCY"
   },
   {
     "isHomeGame": false,
@@ -61,7 +72,7 @@
   },
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "10/30/2021",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
