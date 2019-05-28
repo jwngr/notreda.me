@@ -100,11 +100,21 @@ const Game = ({game, year, index, isSelected}) => {
 
   let date;
   if ('fullDate' in game) {
-    date = format(new Date(game.fullDate), 'MMMM D, YYYY');
+    date = new Date(game.fullDate);
   } else if (game.date === 'TBD') {
     date = 'TBD';
   } else {
-    date = format(game.timestamp || game.date, 'MMMM D');
+    date = new Date(game.timestamp || game.date);
+  }
+
+  // Format the date, making sure to add the year for games which happen in early January for
+  // clarity.
+  if (date !== 'TBD') {
+    if (date.getFullYear() === year) {
+      date = format(date, 'MMMM D');
+    } else {
+      date = format(date, 'MMMM D, YYYY');
+    }
   }
 
   const opponentRanking = game.isHomeGame
