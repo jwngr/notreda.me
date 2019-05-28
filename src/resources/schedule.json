@@ -86783,7 +86783,8 @@
   "2019": [
     {
       "isHomeGame": false,
-      "date": "09/02/2019",
+      "fullDate": "Sat Sep 2 2019 17:00:00 GMT-0400",
+      "coverage": "ESPN",
       "location": {
         "city": "Louisville",
         "state": "KY",
@@ -86795,6 +86796,7 @@
       "isHomeGame": true,
       "date": "09/14/2019",
       "fullDate": "Sat Sep 14 2019 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86815,6 +86817,7 @@
     {
       "isHomeGame": true,
       "fullDate": "Sat Sep 28 2019 15:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86825,6 +86828,7 @@
     {
       "isHomeGame": true,
       "fullDate": "Sat Oct 05 2019 15:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86836,6 +86840,7 @@
       "isHomeGame": true,
       "date": "10/12/2019",
       "fullDate": "Sat Oct 12 2019 19:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86856,6 +86861,7 @@
     {
       "isHomeGame": true,
       "fullDate": "Sat Nov 02 2019 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86876,6 +86882,7 @@
     {
       "isHomeGame": true,
       "fullDate": "Sat Nov 16 2019 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -86885,6 +86892,7 @@
     },
     {
       "isHomeGame": true,
+      "coverage": "NBC",
       "fullDate": "Sat Nov 23 2019 14:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
@@ -86895,7 +86903,7 @@
     },
     {
       "isHomeGame": false,
-      "date": "11/30/2019",
+      "date": "11/30/2020",
       "location": {
         "city": "Stanford",
         "state": "CA",
