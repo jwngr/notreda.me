@@ -86790,11 +86790,93 @@
         "state": "KY",
         "stadium": "Cardinal Stadium"
       },
-      "opponentId": "LOU"
+      "opponentId": "LOU",
+      "espnGameId": 401112436,
+      "highlightsYouTubeVideoId": "6cPd0WiI6ws",
+      "linescore": {
+        "away": [
+          14,
+          7,
+          7,
+          7
+        ],
+        "home": [
+          14,
+          0,
+          0,
+          3
+        ]
+      },
+      "score": {
+        "home": 17,
+        "away": 35
+      },
+      "result": "W",
+      "stats": {
+        "away": {
+          "firstDowns": 18,
+          "thirdDownAttempts": 5,
+          "thirdDownConversions": 12,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 1,
+          "totalYards": 423,
+          "passYards": 193,
+          "passCompletions": 14,
+          "passAttempts": 23,
+          "yardsPerPass": 8.4,
+          "interceptionsThrown": 0,
+          "rushYards": 230,
+          "rushAttempts": 42,
+          "yardsPerRush": 5.5,
+          "penalties": 4,
+          "penaltyYards": 20,
+          "fumblesLost": 1,
+          "possession": "28:00",
+          "fumbles": 2
+        },
+        "home": {
+          "firstDowns": 21,
+          "thirdDownAttempts": 6,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 2,
+          "totalYards": 383,
+          "passYards": 134,
+          "passCompletions": 12,
+          "passAttempts": 28,
+          "yardsPerPass": 4.8,
+          "interceptionsThrown": 0,
+          "rushYards": 249,
+          "rushAttempts": 47,
+          "yardsPerRush": 5.3,
+          "penalties": 8,
+          "penaltyYards": 50,
+          "fumblesLost": 3,
+          "possession": "32:00",
+          "fumbles": 5
+        }
+      },
+      "sportsReferenceGameId": "2019-09-02-louisville",
+      "rankings": {
+        "away": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "0-1",
+          "home": "0-1",
+          "away": "0-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
-      "date": "09/14/2019",
       "fullDate": "Sat Sep 14 2019 14:30:00 GMT-0400",
       "coverage": "NBC",
       "location": {
@@ -86802,17 +86884,57 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "UNM"
+      "opponentId": "UNM",
+      "sportsReferenceGameId": "2019-09-14-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        }
+      }
     },
     {
       "isHomeGame": false,
-      "date": "Sat Sep 21 2019 20:00:00 GMT-0400",
+      "fullDate": "Sat Sep 21 2019 20:00:00 GMT-0400",
+      "coverage": "CBS",
       "location": {
         "city": "Athens",
         "state": "GA",
         "stadium": "Sanford Stadium"
       },
-      "opponentId": "UGA"
+      "opponentId": "UGA",
+      "sportsReferenceGameId": "2019-09-21-georgia",
+      "rankings": {
+        "home": {
+          "ap": 3
+        },
+        "away": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86823,7 +86945,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "UVA"
+      "opponentId": "UVA",
+      "sportsReferenceGameId": "2019-09-28-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86834,7 +86974,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "BGSU"
+      "opponentId": "BGSU",
+      "sportsReferenceGameId": "2019-10-05-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86846,7 +87004,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "USC"
+      "opponentId": "USC",
+      "sportsReferenceGameId": "2019-10-12-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        }
+      }
     },
     {
       "isHomeGame": false,
@@ -86856,7 +87032,28 @@
         "state": "MI",
         "stadium": "Michigan Stadium"
       },
-      "opponentId": "MICH"
+      "opponentId": "MICH",
+      "sportsReferenceGameId": "2019-10-26-michigan",
+      "rankings": {
+        "home": {
+          "ap": 7
+        },
+        "away": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86867,7 +87064,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "VT"
+      "opponentId": "VT",
+      "sportsReferenceGameId": "2019-11-02-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "0-1",
+          "home": "0-0",
+          "away": "0-1"
+        }
+      }
     },
     {
       "isHomeGame": false,
@@ -86877,7 +87092,25 @@
         "state": "NC",
         "stadium": "Wallace Wade Stadium"
       },
-      "opponentId": "DUKE"
+      "opponentId": "DUKE",
+      "sportsReferenceGameId": "2019-11-09-duke",
+      "rankings": {
+        "away": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "0-1",
+          "home": "0-1",
+          "away": "0-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86888,7 +87121,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "NAVY"
+      "opponentId": "NAVY",
+      "sportsReferenceGameId": "2019-11-16-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        }
+      }
     },
     {
       "isHomeGame": true,
@@ -86899,7 +87150,25 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "BC"
+      "opponentId": "BC",
+      "sportsReferenceGameId": "2019-11-23-notre-dame",
+      "rankings": {
+        "home": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        }
+      }
     },
     {
       "isHomeGame": false,
@@ -86909,7 +87178,28 @@
         "state": "CA",
         "stadium": "Stanford Stadium"
       },
-      "opponentId": "STAN"
+      "opponentId": "STAN",
+      "sportsReferenceGameId": "2019-11-30-stanford",
+      "rankings": {
+        "home": {
+          "ap": 25
+        },
+        "away": {
+          "ap": 9
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "1-0",
+          "home": "1-0",
+          "away": "0-0"
+        },
+        "away": {
+          "overall": "1-0",
+          "home": "0-0",
+          "away": "1-0"
+        }
+      }
     }
   ],
   "2020": [
