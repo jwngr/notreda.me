@@ -7,20 +7,19 @@ const ndSchedules = require('../lib/ndSchedules');
 logger.info('Updating records for current season...');
 
 const teams = {
-  ND: 'http://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish',
-  MICH: 'http://www.espn.com/college-football/team/_/id/130/michigan-wolverines',
-  BALL: 'http://www.espn.com/college-football/team/_/id/2050/ball-state-cardinals',
-  VANDY: 'http://www.espn.com/college-football/team/_/id/238/vanderbilt-commodores',
-  WAKE: 'http://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons',
-  STAN: 'http://www.espn.com/college-football/team/_/id/24/stanford-cardinal',
-  VT: 'http://www.espn.com/college-football/team/_/id/259/virginia-tech-hokies',
-  PITT: 'http://www.espn.com/college-football/team/_/id/221/pittsburgh-panthers',
-  NAVY: 'http://www.espn.com/college-football/team/_/id/2426/navy-midshipmen',
-  NW: 'http://www.espn.com/college-football/team/_/id/77/northwestern-wildcats',
-  FSU: 'http://www.espn.com/college-football/team/_/id/52/florida-state-seminoles',
-  SYR: 'http://www.espn.com/college-football/team/_/id/183/syracuse-orange',
-  USC: 'http://www.espn.com/college-football/team/_/id/30/usc-trojans',
-  CLEM: 'http://www.espn.com/college-football/team/_/id/228/clemson-tigers',
+  ND: 'https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish',
+  LOU: 'https://www.espn.com/college-football/team/_/id/2050/ball-state-cardinals',
+  UNM: 'https://www.espn.com/college-football/team/_/id/167/new-mexico-lobos',
+  UGA: 'https://www.espn.com/college-football/team/_/id/61/georgia-bulldogs',
+  UVA: 'https://www.espn.com/college-football/team/_/id/258/virginia-cavaliers',
+  BGSU: 'https://www.espn.com/college-football/team/_/id/189/bowling-green-falcons',
+  USC: 'https://www.espn.com/college-football/team/_/id/30/usc-trojans',
+  MICH: 'https://www.espn.com/college-football/team/_/id/130/michigan-wolverines',
+  VT: 'https://www.espn.com/college-football/team/_/id/259/virginia-tech-hokies',
+  DUKE: 'https://www.espn.com/college-football/team/_/id/150/duke-blue-devils',
+  NAVY: 'https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen',
+  BC: 'https://www.espn.com/college-football/team/_/id/103/boston-college-eagles',
+  STAN: 'https://www.espn.com/college-football/team/_/id/24/stanford-cardinal',
 };
 
 const teamRecords = {};

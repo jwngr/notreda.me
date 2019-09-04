@@ -4,7 +4,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 
 const CURRENT_YEAR = 2019;
 const AP_POLL_START_YEAR = 1936;

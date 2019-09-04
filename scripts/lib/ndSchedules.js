@@ -5,7 +5,7 @@ const path = require('path');
 const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 const COMBINED_SCHEDULE_FILENAME = path.resolve(__dirname, '../../src/resources/schedule.json');
 
-const CURRENT_SEASON = 2018;
+const CURRENT_SEASON = 2019;
 module.exports.CURRENT_SEASON = CURRENT_SEASON;
 module.exports.ALL_SEASONS = [1887, 1888, 1889, ..._.range(1892, 2030)];
 module.exports.ALL_PLAYED_SEASONS = [1887, 1888, 1889, ..._.range(1892, CURRENT_SEASON + 1)];

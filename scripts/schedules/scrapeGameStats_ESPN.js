@@ -153,7 +153,7 @@ const getGameStats = (gameId) => {
   );
 };
 
-const year = 2018;
+const year = 2019;
 const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
 const yearData = require(filename);
 

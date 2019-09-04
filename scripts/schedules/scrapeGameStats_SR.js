@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 
 process.setMaxListeners(Infinity);
 
@@ -64,7 +64,7 @@ const scrapeGameStats = async (gameId) => {
 };
 
 const fn = async () => {
-  const year = 2018;
+  const year = 2019;
   const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
   const yearData = require(filename);
 

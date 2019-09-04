@@ -138,7 +138,7 @@ const scrapePollsForYear = async (year) => {
   });
 
   // for (const year of AP_POLL_YEARS) {
-  for (const year of [2018]) {
+  for (const year of [2019]) {
     console.log(`[INFO] Scraping polls for ${year}.`);
 
     try {
