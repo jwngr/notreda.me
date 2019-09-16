@@ -104,21 +104,86 @@
     },
     "opponentId": "UNM",
     "sportsReferenceGameId": "2019-09-14-notre-dame",
+    "highlightsYouTubeVideoId": "7xXMKdV2dJA",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
+        "overall": "1-1",
         "home": "1-0",
-        "away": "0-0"
+        "away": "0-1"
+      }
+    },
+    "espnGameId": 401114336,
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        31,
+        14,
+        14
+      ]
+    },
+    "score": {
+      "home": 66,
+      "away": 14
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 4,
+        "thirdDownConversions": 18,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 3,
+        "totalYards": 363,
+        "passYards": 151,
+        "passCompletions": 10,
+        "passAttempts": 29,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 3,
+        "rushYards": 212,
+        "rushAttempts": 46,
+        "yardsPerRush": 4.6,
+        "penalties": 5,
+        "penaltyYards": 39,
+        "fumblesLost": 1,
+        "possession": "35:06",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 1,
+        "thirdDownConversions": 10,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 5,
+        "totalYards": 591,
+        "passYards": 434,
+        "passCompletions": 17,
+        "passAttempts": 27,
+        "yardsPerPass": 16.1,
+        "interceptionsThrown": 0,
+        "rushYards": 157,
+        "rushAttempts": 38,
+        "yardsPerRush": 4.1,
+        "penalties": 7,
+        "penaltyYards": 53,
+        "fumblesLost": 0,
+        "possession": "24:54",
+        "fumbles": 0
       }
     }
   },
@@ -138,18 +203,18 @@
         "ap": 3
       },
       "away": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "3-0",
+        "home": "2-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       }
     }
@@ -167,18 +232,21 @@
     "sportsReferenceGameId": "2019-09-28-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
+      },
+      "away": {
+        "ap": 21
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "3-0",
+        "home": "2-0",
         "away": "1-0"
       }
     }
@@ -196,19 +264,19 @@
     "sportsReferenceGameId": "2019-10-05-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0"
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1"
       }
     }
   },
@@ -226,19 +294,19 @@
     "sportsReferenceGameId": "2019-10-12-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0"
+        "overall": "2-1",
+        "home": "2-0",
+        "away": "0-1"
       }
     }
   },
@@ -254,21 +322,21 @@
     "sportsReferenceGameId": "2019-10-26-michigan",
     "rankings": {
       "home": {
-        "ap": 7
+        "ap": 11
       },
       "away": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "1-0",
+        "overall": "2-0",
+        "home": "2-0",
         "away": "0-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       }
     }
@@ -286,18 +354,18 @@
     "sportsReferenceGameId": "2019-11-02-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "0-1",
-        "home": "0-0",
+        "overall": "2-1",
+        "home": "2-0",
         "away": "0-1"
       }
     }
@@ -314,18 +382,18 @@
     "sportsReferenceGameId": "2019-11-09-duke",
     "rankings": {
       "away": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "0-1",
-        "home": "0-1",
-        "away": "0-0"
+        "overall": "2-1",
+        "home": "1-1",
+        "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       }
     }
@@ -343,18 +411,18 @@
     "sportsReferenceGameId": "2019-11-16-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "1-0",
+        "overall": "2-0",
+        "home": "2-0",
         "away": "0-0"
       }
     }
@@ -372,18 +440,18 @@
     "sportsReferenceGameId": "2019-11-23-notre-dame",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       },
       "away": {
-        "overall": "1-0",
-        "home": "1-0",
+        "overall": "2-1",
+        "home": "2-1",
         "away": "0-0"
       }
     }
@@ -399,22 +467,19 @@
     "opponentId": "STAN",
     "sportsReferenceGameId": "2019-11-30-stanford",
     "rankings": {
-      "home": {
-        "ap": 25
-      },
       "away": {
-        "ap": 9
+        "ap": 7
       }
     },
     "records": {
       "home": {
-        "overall": "1-0",
+        "overall": "1-2",
         "home": "1-0",
-        "away": "0-0"
+        "away": "0-2"
       },
       "away": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "1-0"
       }
     }
