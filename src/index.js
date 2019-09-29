@@ -8,6 +8,7 @@ import {routerForBrowser, initializeCurrentLocation} from 'redux-little-router';
 import theme from './resources/theme.json';
 import rootReducers from './reducers/index.js';
 // import registerServiceWorker from './registerServiceWorker';
+import {unregister} from './registerServiceWorker';
 
 import App from './App';
 
@@ -67,5 +68,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// TODO: get service workers working again...
-// registerServiceWorker();
+// TODO: get service workers working again at some point...
+unregister();
