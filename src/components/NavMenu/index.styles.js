@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import {NavMenuDecadeWrapper} from './NavMenuDecade/index.styles';
+
 import backgroundImage from '../../images/background.png';
 
 export const NavMenuWrapper = styled.div`
@@ -20,6 +22,8 @@ export const NavMenuWrapper = styled.div`
   background-color: ${(props) => props.theme.colors.lightGray};
   background-image: url(${backgroundImage});
   overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
 
   &.open {
     visibility: visible;
@@ -31,4 +35,56 @@ export const NavMenuWrapper = styled.div`
 export const NavMenuDecadesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+`;
+
+export const NavMenuLinksSectionWrapper = styled(NavMenuDecadeWrapper)`
+  margin: 32px auto 0 auto;
+  position: relative;
+  left: -12px;
+
+  @media (max-width: 480px) {
+    margin-left: 20px;
+    margin-right: 28px;
+    left: 0;
+  }
+`;
+
+export const NavMenuLink = styled.a`
+  flex: 1;
+  color: ${(props) => props.theme.colors.black};
+  font-size: 16px;
+  font-family: 'Inter UI', serif;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+export const NavMenuLinksDivider = styled.p`
+  width: 24px;
+  font-size: 4px;
+  text-align: center;
+  font-family: 'Inter UI', serif;
+
+  @media (max-width: 350px) {
+    display: none;
+  }
+`;
+
+export const NavMenuLinksWrapper = styled.div`
+  display: flex;
+  padding: 8px 12px 0 12px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 480px) {
+    padding: 8px 4px 0 4px;
+  }
+
+  @media (max-width: 350px) {
+    flex-direction: column;
+  }
 `;

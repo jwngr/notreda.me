@@ -4,7 +4,15 @@ import PropTypes from 'prop-types';
 
 import NavMenuDecade from './NavMenuDecade';
 
-import {NavMenuWrapper, NavMenuDecadesWrapper} from './index.styles';
+import {
+  NavMenuLink,
+  NavMenuWrapper,
+  NavMenuLinksDivider,
+  NavMenuLinksWrapper,
+  NavMenuDecadesWrapper,
+  NavMenuLinksSectionWrapper,
+} from './index.styles';
+import {MavMenuDecadeHeader} from './NavMenuDecade/index.styles';
 
 const NavMenu = ({open, selectedYear, onClose}) => {
   const navMenuDecadesContent = _.map(_.rangeRight(1880, 2030, 10), (decade) => {
@@ -20,6 +28,19 @@ const NavMenu = ({open, selectedYear, onClose}) => {
 
   return (
     <NavMenuWrapper className={open ? 'open' : ''}>
+      <NavMenuLinksSectionWrapper>
+        <MavMenuDecadeHeader>
+          <p>Links</p>
+        </MavMenuDecadeHeader>
+        <NavMenuLinksWrapper>
+          <NavMenuLink href="/explorables">Explorables</NavMenuLink>
+          <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
+          <NavMenuLink href="https://www.github.com/jwngr/notreda.me/">GitHub</NavMenuLink>
+          <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
+          <NavMenuLink href="https://jwn.gr/">@jwngr</NavMenuLink>
+        </NavMenuLinksWrapper>
+      </NavMenuLinksSectionWrapper>
+
       <NavMenuDecadesWrapper>{navMenuDecadesContent}</NavMenuDecadesWrapper>
     </NavMenuWrapper>
   );
