@@ -551,7 +551,8 @@
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
-        "ap": 7
+        "ap": 7,
+        "bcs": 3
       },
       "home": {
         "ap": 18
@@ -718,7 +719,7 @@
     "rankings": {
       "home": {
         "ap": 4,
-        "bcs": 3
+        "bcs": 7
       }
     }
   },
@@ -878,7 +879,7 @@
     "rankings": {
       "home": {
         "ap": 8,
-        "bcs": 6
+        "bcs": 7
       }
     }
   },
@@ -958,11 +959,11 @@
     "rankings": {
       "away": {
         "ap": 7,
-        "bcs": 7
+        "bcs": 10
       },
       "home": {
         "ap": 6,
-        "bcs": 6
+        "bcs": 4
       }
     }
   },

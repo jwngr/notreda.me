@@ -553,7 +553,12 @@
     "sportsReferenceGameId": "2004-10-16-navy",
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "bcs": 23
+      }
+    }
   },
   {
     "result": "L",
@@ -719,7 +724,10 @@
     "rankings": {
       "home": {
         "ap": 9,
-        "bcs": 8
+        "bcs": 15
+      },
+      "away": {
+        "bcs": 25
       }
     }
   },

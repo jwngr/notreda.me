@@ -215,9 +215,9 @@
         "away": "1-0"
       },
       "away": {
-        "overall": "2-0",
+        "overall": "2-1",
         "home": "1-0",
-        "away": "1-0"
+        "away": "1-1"
       }
     },
     "linescore": {
@@ -392,6 +392,7 @@
     },
     "opponentId": "BGSU",
     "sportsReferenceGameId": "2019-10-05-notre-dame",
+    "highlightsYouTubeVideoId": "ALhXzLbvvag",
     "rankings": {
       "home": {
         "ap": 9
@@ -399,14 +400,78 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "1-3",
+        "overall": "1-4",
         "home": "1-1",
-        "away": "0-2"
+        "away": "0-3"
+      }
+    },
+    "espnGameId": 401114337,
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        14,
+        10,
+        7
+      ]
+    },
+    "score": {
+      "home": 52,
+      "away": 0
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 19,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 2,
+        "totalYards": 228,
+        "passYards": 110,
+        "passCompletions": 15,
+        "passAttempts": 27,
+        "yardsPerPass": 4.1,
+        "interceptionsThrown": 1,
+        "rushYards": 118,
+        "rushAttempts": 42,
+        "yardsPerRush": 2.8,
+        "penalties": 6,
+        "penaltyYards": 39,
+        "fumblesLost": 0,
+        "possession": "33:20",
+        "fumbles": -1
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 573,
+        "passYards": 340,
+        "passCompletions": 21,
+        "passAttempts": 27,
+        "yardsPerPass": 12.6,
+        "interceptionsThrown": 0,
+        "rushYards": 233,
+        "rushAttempts": 34,
+        "yardsPerRush": 6.9,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "26:40",
+        "fumbles": -1
       }
     }
   },
@@ -429,8 +494,8 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       },
       "away": {
@@ -460,13 +525,13 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "3-0",
+        "overall": "4-1",
+        "home": "4-0",
         "away": "0-1"
       },
       "away": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       }
     }
@@ -489,14 +554,14 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "2-2",
+        "overall": "3-2",
         "home": "2-1",
-        "away": "0-1"
+        "away": "1-1"
       }
     }
   },
@@ -517,13 +582,13 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "3-2",
+        "home": "1-2",
         "away": "2-0"
       },
       "away": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       }
     }
@@ -546,13 +611,13 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "2-1",
-        "home": "2-0",
+        "overall": "3-1",
+        "home": "3-0",
         "away": "0-1"
       }
     }
@@ -575,14 +640,14 @@
     },
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "3-2",
+        "overall": "3-3",
         "home": "2-2",
-        "away": "1-0"
+        "away": "1-1"
       }
     }
   },
@@ -603,13 +668,13 @@
     },
     "records": {
       "home": {
-        "overall": "2-3",
-        "home": "1-1",
+        "overall": "3-3",
+        "home": "2-1",
         "away": "1-2"
       },
       "away": {
-        "overall": "3-1",
-        "home": "2-0",
+        "overall": "4-1",
+        "home": "3-0",
         "away": "1-1"
       }
     }
