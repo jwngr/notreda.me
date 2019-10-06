@@ -4,7 +4,11 @@ const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
+const logger = require('../lib/logger');
+
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
+
+logger.info('Scraping game stats from ESPN...');
 
 const getHtmlForUrl = (url) => {
   return request({
@@ -163,7 +167,7 @@ const promises = _.map(yearData, (gameData) => {
     return Promise.resolve();
   } else {
     return getGameStats(gameData.espnGameId).catch((error) => {
-      console.log(`Error scraping stats for game ${gameData.espnGameId}:`, error);
+      logger.error(`Failed to scrape stats from ESPN for game ${gameData.espnGameId}.`, {error});
     });
   }
 });
@@ -199,8 +203,8 @@ return Promise.all(promises)
 
     fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
 
-    console.log('Success!');
+    logger.info('Successfuly scraped game stats from ESPN!');
   })
   .catch((error) => {
-    console.log('Failed to scrape stats:', error);
+    logger.error('Failed to scrape game stats from ESPN.', {error});
   });

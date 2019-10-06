@@ -4,6 +4,9 @@ const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
+const logger = require('../lib/logger');
+const ndSchedules = require('../lib/ndSchedules');
+
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 
 const years = [
@@ -27,6 +30,21 @@ const years = [
   '2019',
 ];
 
+logger.info('Updating ESPN game IDs...');
+
+/**
+ * Returns the number of games with an ESPN game ID for the provided season.
+ *
+ * @param {number} season The current season.
+ */
+const getEspnGameIdCountForSeason = (season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
+  return _.chain(seasonScheduleData)
+    .filter(({espnGameId}) => !!espnGameId)
+    .size()
+    .value();
+};
+
 const getHtmlForUrl = (url) => {
   return request({
     uri: url,
@@ -41,7 +59,7 @@ const promises = years.map((year) => {
     .then(($) => {
       const gameIds = [];
 
-      const $rows = $('.Table2__tr');
+      const $rows = $('tr.Table__TR');
 
       $rows.each((i, row) => {
         const $cols = $(row).find('td');
@@ -65,10 +83,25 @@ const promises = years.map((year) => {
         }
       });
 
+      const previousEspnGameIdCount = getEspnGameIdCountForSeason(year);
+      const espnGameIdCountDifference = gameIds.length - previousEspnGameIdCount;
+      if (espnGameIdCountDifference === 0) {
+        logger.info('No new ESPN game IDs found.');
+      } else if (espnGameIdCountDifference > 0) {
+        logger.info(
+          `${espnGameIdCountDifference} new ESPN game ${
+            espnGameIdCountDifference === 1 ? 'ID' : 'IDs'
+          } found.`
+        );
+      } else {
+        logger.error(`Found fewer ESPN game IDs than expected.`);
+      }
+
       return gameIds;
     })
     .catch((error) => {
-      console.log(`Error fetching game IDs for ${year}`, error);
+      logger.error(`Error fetching game IDs for ${year}`, {error});
+      throw error;
     });
 });
 
@@ -83,8 +116,8 @@ return Promise.all(promises)
       fs.writeFileSync(filename, JSON.stringify(data, null, 2));
     });
 
-    console.log('Success!');
+    logger.info('Successfully updated ESPN game IDs!');
   })
   .catch((error) => {
-    console.log(`Error fetching all game IDs`, error);
+    logger.error(`Error fetching ESPN game IDs.`, {error});
   });
