@@ -49,8 +49,13 @@ const GameStatsRow = ({
     const awayPercentage = Number(awayTokens[0]) / Number(awayTokens[1]) || 0;
     const homePercentage = Number(homeTokens[0]) / Number(homeTokens[1]) || 0;
 
-    isAwayHighlighted = Number(awayPercentage) >= Number(homePercentage);
-    isHomeHighlighted = Number(awayPercentage) <= Number(homePercentage);
+    if (Number(homePercentage) === Number(awayPercentage)) {
+      isAwayHighlighted = Number(awayTokens[1]) <= Number(homeTokens[1]);
+      isHomeHighlighted = Number(awayTokens[1]) >= Number(homeTokens[1]);
+    } else {
+      isAwayHighlighted = Number(awayPercentage) > Number(homePercentage);
+      isHomeHighlighted = Number(awayPercentage) < Number(homePercentage);
+    }
 
     awayValue = `${awayValue} (${(awayPercentage * 100).toFixed(0)}%)`;
     homeValue = `${homeValue} (${(homePercentage * 100).toFixed(0)}%)`;
