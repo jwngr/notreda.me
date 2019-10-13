@@ -55,7 +55,7 @@ const parsePollRows = async (pollRows) => {
       const ranking = Number(rowValues[2]);
       const teamNameAndRecord = rowValues[3];
       const previousRanking = rowValues[4] || 'NR';
-      const conference = rowValues[6];
+      const conference = rowCells.length === 8 ? rowValues[7] : rowValues[6];
 
       let record;
       let teamName;
