@@ -450,7 +450,7 @@
         "penaltyYards": 39,
         "fumblesLost": 0,
         "possession": "33:20",
-        "fumbles": -1
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 27,
@@ -471,7 +471,7 @@
         "penaltyYards": 5,
         "fumblesLost": 0,
         "possession": "26:40",
-        "fumbles": -1
+        "fumbles": 0
       }
     }
   },
@@ -487,6 +487,7 @@
     },
     "opponentId": "USC",
     "sportsReferenceGameId": "2019-10-12-notre-dame",
+    "highlightsYouTubeVideoId": "TjM7kDhpHw8",
     "rankings": {
       "home": {
         "ap": 9
@@ -494,16 +495,80 @@
     },
     "records": {
       "home": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "3-2",
+        "overall": "3-3",
         "home": "3-0",
-        "away": "0-2"
+        "away": "0-3"
       }
-    }
+    },
+    "espnGameId": 401114222,
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 5,
+        "thirdDownConversions": 12,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 426,
+        "passYards": 255,
+        "passCompletions": 24,
+        "passAttempts": 35,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 0,
+        "rushYards": 171,
+        "rushAttempts": 35,
+        "yardsPerRush": 4.9,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 0,
+        "possession": "28:36",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 17,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 1,
+        "totalYards": 473,
+        "passYards": 165,
+        "passCompletions": 17,
+        "passAttempts": 32,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 0,
+        "rushYards": 308,
+        "rushAttempts": 48,
+        "yardsPerRush": 6.4,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "31:24",
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 30,
+      "away": 27
+    },
+    "linescore": {
+      "away": [
+        3,
+        0,
+        10,
+        14
+      ],
+      "home": [
+        0,
+        17,
+        3,
+        10
+      ]
+    },
+    "result": "W"
   },
   {
     "isHomeGame": false,
@@ -525,13 +590,13 @@
     },
     "records": {
       "home": {
-        "overall": "4-1",
+        "overall": "5-1",
         "home": "4-0",
-        "away": "0-1"
+        "away": "1-1"
       },
       "away": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       }
     }
@@ -554,13 +619,13 @@
     },
     "records": {
       "home": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "3-2",
-        "home": "2-1",
+        "overall": "4-2",
+        "home": "3-1",
         "away": "1-1"
       }
     }
@@ -582,13 +647,13 @@
     },
     "records": {
       "home": {
-        "overall": "3-2",
-        "home": "1-2",
+        "overall": "4-2",
+        "home": "2-2",
         "away": "2-0"
       },
       "away": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       }
     }
@@ -611,14 +676,14 @@
     },
     "records": {
       "home": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       },
       "away": {
-        "overall": "3-1",
+        "overall": "4-1",
         "home": "3-0",
-        "away": "0-1"
+        "away": "1-1"
       }
     }
   },
@@ -640,8 +705,8 @@
     },
     "records": {
       "home": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       },
       "away": {
@@ -673,8 +738,8 @@
         "away": "1-2"
       },
       "away": {
-        "overall": "4-1",
-        "home": "3-0",
+        "overall": "5-1",
+        "home": "4-0",
         "away": "1-1"
       }
     }
