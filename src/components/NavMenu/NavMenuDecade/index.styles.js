@@ -11,8 +11,12 @@ export const NavMenuDecadeWrapper = styled.div`
   background-color: ${(props) => props.theme.colors.gold}66;
 
   @media (max-width: 480px) {
-    margin-left: 20px;
-    margin-right: 28px;
+    margin-left: 12px;
+    margin-right: 24px;
+
+    &:last-of-type {
+      margin-bottom: 24px;
+    }
   }
 `;
 
@@ -67,7 +71,6 @@ export const NavMenuDecadeYear = styled(InternalLink)`
   }
 
   &.national-championship-year {
-    font-weight: bold;
     background-image: repeating-linear-gradient(
       135deg,
       ${(props) => darken(0.2, props.theme.colors.green)}40,
@@ -82,7 +85,19 @@ export const NavMenuDecadeYear = styled(InternalLink)`
     }
   }
 
+  &.current-year {
+    background-image: repeating-linear-gradient(
+      -135deg,
+      ${(props) => darken(0.2, props.theme.colors.blue)}40,
+      ${(props) => darken(0.2, props.theme.colors.blue)}40 1px,
+      transparent 2px,
+      transparent 2px,
+      ${(props) => darken(0.2, props.theme.colors.blue)}40 3px
+    );
+  }
+
   &.selected-year {
+    font-weight: bold;
     background-color: ${(props) => props.theme.colors.gold};
   }
 

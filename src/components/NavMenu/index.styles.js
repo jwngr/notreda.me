@@ -30,6 +30,11 @@ export const NavMenuWrapper = styled.div`
     transform: translateX(0px);
     transition: transform 0.5s;
   }
+
+  @media (max-width: 480px) {
+    padding-bottom: 0;
+    border: none;
+  }
 `;
 
 export const NavMenuDecadesWrapper = styled.div`
@@ -43,8 +48,8 @@ export const NavMenuLinksSectionWrapper = styled(NavMenuDecadeWrapper)`
   left: -12px;
 
   @media (max-width: 480px) {
-    margin-left: 20px;
-    margin-right: 28px;
+    margin-left: 12px;
+    margin-right: 24px;
     left: 0;
   }
 `;

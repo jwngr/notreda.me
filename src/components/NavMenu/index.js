@@ -41,7 +41,10 @@ const NavMenu = ({open, selectedYear, onClose}) => {
         </NavMenuLinksWrapper>
       </NavMenuLinksSectionWrapper>
 
-      <NavMenuDecadesWrapper>{navMenuDecadesContent}</NavMenuDecadesWrapper>
+      <NavMenuDecadesWrapper>
+        {navMenuDecadesContent}
+        <p>&nbsp;</p>
+      </NavMenuDecadesWrapper>
     </NavMenuWrapper>
   );
 };

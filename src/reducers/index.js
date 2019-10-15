@@ -7,15 +7,15 @@ import * as actions from '../actions';
 import navMenu from './navMenu';
 
 import schedule from '../resources/schedule';
+import {CURRENT_YEAR} from '../lib/constants.js';
 
-const DEFAULT_YEAR = 2019;
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
 const getYearFromQueryParams = (params = {}) => {
   const year = Number(params.year);
 
   if (isNaN(year) || !_.has(schedule, year)) {
-    return DEFAULT_YEAR;
+    return CURRENT_YEAR;
   }
 
   return year;
@@ -39,7 +39,7 @@ const getSelectedGameIndexFromQueryParams = (params = {}) => {
   }
 
   // No selected game index or a non-numeric game index is provided.
-  if (year !== DEFAULT_YEAR) {
+  if (year !== CURRENT_YEAR) {
     // If the year is not the default year, show the default game index.
     return DEFAULT_SELECTED_GAME_INDEX;
   } else {
@@ -69,7 +69,7 @@ const getSelectedGameIndexFromQueryParams = (params = {}) => {
 
 const rootReducer = {
   navMenu,
-  selectedYear: (state = DEFAULT_YEAR, action) => {
+  selectedYear: (state = CURRENT_YEAR, action) => {
     switch (action.type) {
       case actions.ROUTER_LOCATION_CHANGED:
         return getYearFromQueryParams(action.payload.params);
