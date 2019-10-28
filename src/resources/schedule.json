@@ -87375,6 +87375,7 @@
       },
       "opponentId": "MICH",
       "sportsReferenceGameId": "2019-10-26-michigan",
+      "highlightsYouTubeVideoId": "etk4xjpxiL8",
       "rankings": {
         "home": {
           "ap": 19
@@ -87385,16 +87386,80 @@
       },
       "records": {
         "home": {
-          "overall": "5-2",
-          "home": "4-0",
+          "overall": "6-2",
+          "home": "5-0",
           "away": "1-2"
         },
         "away": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         }
-      }
+      },
+      "espnGameId": 401112227,
+      "stats": {
+        "away": {
+          "firstDowns": 12,
+          "thirdDownAttempts": 3,
+          "thirdDownConversions": 15,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 1,
+          "totalYards": 180,
+          "passYards": 133,
+          "passCompletions": 11,
+          "passAttempts": 29,
+          "yardsPerPass": 4.6,
+          "interceptionsThrown": 0,
+          "rushYards": 47,
+          "rushAttempts": 31,
+          "yardsPerRush": 1.5,
+          "penalties": 7,
+          "penaltyYards": 62,
+          "fumblesLost": 2,
+          "possession": "25:23",
+          "fumbles": 3
+        },
+        "home": {
+          "firstDowns": 23,
+          "thirdDownAttempts": 4,
+          "thirdDownConversions": 13,
+          "fourthDownAttempts": 0,
+          "fourthDownConversions": 0,
+          "totalYards": 437,
+          "passYards": 134,
+          "passCompletions": 8,
+          "passAttempts": 14,
+          "yardsPerPass": 9.6,
+          "interceptionsThrown": 0,
+          "rushYards": 303,
+          "rushAttempts": 57,
+          "yardsPerRush": 5.3,
+          "penalties": 4,
+          "penaltyYards": 50,
+          "fumblesLost": 0,
+          "possession": "34:37",
+          "fumbles": 3
+        }
+      },
+      "score": {
+        "home": 45,
+        "away": 14
+      },
+      "linescore": {
+        "away": [
+          0,
+          0,
+          7,
+          7
+        ],
+        "home": [
+          3,
+          14,
+          7,
+          21
+        ]
+      },
+      "result": "L"
     },
     {
       "isHomeGame": true,
@@ -87409,14 +87474,14 @@
       "sportsReferenceGameId": "2019-11-02-notre-dame",
       "rankings": {
         "home": {
-          "ap": 8
+          "ap": 16
         }
       },
       "records": {
         "home": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         },
         "away": {
           "overall": "5-2",
@@ -87437,19 +87502,19 @@
       "sportsReferenceGameId": "2019-11-09-duke",
       "rankings": {
         "away": {
-          "ap": 8
+          "ap": 16
         }
       },
       "records": {
         "home": {
-          "overall": "4-3",
+          "overall": "4-4",
           "home": "2-2",
-          "away": "2-1"
+          "away": "2-2"
         },
         "away": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         }
       }
     },
@@ -87466,18 +87531,18 @@
       "sportsReferenceGameId": "2019-11-16-notre-dame",
       "rankings": {
         "home": {
-          "ap": 8
+          "ap": 16
         }
       },
       "records": {
         "home": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         },
         "away": {
-          "overall": "5-1",
-          "home": "4-0",
+          "overall": "6-1",
+          "home": "5-0",
           "away": "1-1"
         }
       }
@@ -87495,19 +87560,19 @@
       "sportsReferenceGameId": "2019-11-23-notre-dame",
       "rankings": {
         "home": {
-          "ap": 8
+          "ap": 16
         }
       },
       "records": {
         "home": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         },
         "away": {
-          "overall": "4-3",
+          "overall": "4-4",
           "home": "3-2",
-          "away": "1-1"
+          "away": "1-2"
         }
       }
     },
@@ -87523,19 +87588,19 @@
       "sportsReferenceGameId": "2019-11-30-stanford",
       "rankings": {
         "away": {
-          "ap": 8
+          "ap": 16
         }
       },
       "records": {
         "home": {
-          "overall": "3-4",
-          "home": "2-2",
+          "overall": "4-4",
+          "home": "3-2",
           "away": "1-2"
         },
         "away": {
-          "overall": "5-1",
+          "overall": "5-2",
           "home": "4-0",
-          "away": "1-1"
+          "away": "1-2"
         }
       }
     }
