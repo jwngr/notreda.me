@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
-import {Fragment} from 'redux-little-router';
+import {Route, Switch} from 'react-router-dom';
 
 import GameContainer from '../../containers/GameContainer';
 import NavMenuContainer from '../../containers/NavMenuContainer';
@@ -65,16 +65,16 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
           <Media query="(max-width: 950px)">
             {(matches) =>
               matches ? (
-                <React.Fragment>
-                  <Fragment forRoute="/:year/:selectedGameIndex">
+                <Switch>
+                  <Route path="/:year/:selectedGameIndex">
                     <GameSummaryContainer />
-                  </Fragment>
-                  <Fragment forRoute="/" forNoMatch>
+                  </Route>
+                  <Route path="/">
                     <div className="schedule-container">
                       <div className="schedule">{gamesContent}</div>
                     </div>
-                  </Fragment>
-                </React.Fragment>
+                  </Route>
+                </Switch>
               ) : (
                 <React.Fragment>
                   <div className="schedule-container">

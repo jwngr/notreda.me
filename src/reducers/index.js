@@ -1,6 +1,8 @@
 import _ from 'lodash';
-import subDays from 'date-fns/sub_days';
-import isAfter from 'date-fns/is_after';
+import subDays from 'date-fns/subDays';
+import isAfter from 'date-fns/isAfter';
+import {combineReducers} from 'redux';
+import {connectRouter} from 'connected-react-router';
 
 import * as actions from '../actions';
 
@@ -11,8 +13,13 @@ import {CURRENT_YEAR} from '../lib/constants.js';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
-const getYearFromQueryParams = (params = {}) => {
-  const year = Number(params.year);
+const getYearFromUrl = (url = '') => {
+  const tokens = url.split('/').filter((val) => val !== '');
+
+  let year;
+  if (tokens.length > 0 && tokens[0].length === 4) {
+    year = Number(tokens[0]);
+  }
 
   if (isNaN(year) || !_.has(schedule, year)) {
     return CURRENT_YEAR;
@@ -21,10 +28,15 @@ const getYearFromQueryParams = (params = {}) => {
   return year;
 };
 
-const getSelectedGameIndexFromQueryParams = (params = {}) => {
-  const year = getYearFromQueryParams(params);
+const getSelectedGameIndexFromUrl = (url = '') => {
+  const year = getYearFromUrl(url);
 
-  const selectedGameIndex = Number(params.selectedGameIndex);
+  const tokens = url.split('/').filter((val) => val !== '');
+
+  let selectedGameIndex;
+  if (tokens.length > 1) {
+    selectedGameIndex = Number(tokens[1]);
+  }
 
   // Numeric selected game index is provided.
   if (!isNaN(selectedGameIndex)) {
@@ -72,7 +84,7 @@ const rootReducer = {
   selectedYear: (state = CURRENT_YEAR, action) => {
     switch (action.type) {
       case actions.ROUTER_LOCATION_CHANGED:
-        return getYearFromQueryParams(action.payload.params);
+        return getYearFromUrl(_.get(action.payload, 'location.pathname'));
       default:
         return state;
     }
@@ -80,11 +92,17 @@ const rootReducer = {
   selectedGameIndex: (state = DEFAULT_SELECTED_GAME_INDEX, action) => {
     switch (action.type) {
       case actions.ROUTER_LOCATION_CHANGED:
-        return getSelectedGameIndexFromQueryParams(action.payload.params);
+        return getSelectedGameIndexFromUrl(_.get(action.payload, 'location.pathname'));
       default:
         return state;
     }
   },
 };
 
-export default rootReducer;
+const createRootReducer = (history) =>
+  combineReducers({
+    router: connectRouter(history),
+    ...rootReducer,
+  });
+
+export default createRootReducer;

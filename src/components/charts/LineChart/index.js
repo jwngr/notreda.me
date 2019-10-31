@@ -356,7 +356,7 @@ class LineChart extends Component {
       <React.Fragment>
         {tooltipContent}
         <LineChartWrapper className="line-chart-wrapper">
-          <LineChartSvg innerRef={(r) => (this.lineChartRef = r)} />
+          <LineChartSvg ref={(r) => (this.lineChartRef = r)} />
           {this.props.children}
         </LineChartWrapper>
       </React.Fragment>

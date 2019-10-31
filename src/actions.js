@@ -1,5 +1,5 @@
-// Router location changed action from redux-little-router.
-export const ROUTER_LOCATION_CHANGED = 'ROUTER_LOCATION_CHANGED';
+// Router location changed action from react-router-dom.
+export const ROUTER_LOCATION_CHANGED = '@@router/LOCATION_CHANGE';
 
 export const TOGGLE_NAV_MENU = 'OPEN_NAV_MENU';
 

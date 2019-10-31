@@ -43,7 +43,7 @@ const scrapeTeamSchedule = async (team, filename) => {
       date = await date.jsonValue();
       date += `/${year}`;
       date = new Date(date);
-      date = format(date, 'MM/DD/YYYY');
+      date = format(date, 'MM/dd/yyyy');
 
       // Opponent
       let opponent = await tds[2].$('a');

@@ -183,7 +183,7 @@ class BarChart extends Component {
       <React.Fragment>
         {tooltipContent}
         <PerSeasonBarChartWrapper className="bar-chart-wrapper">
-          <PerSeasonBarChartSvg innerRef={(r) => (this.perSeasonBarChartRef = r)} />
+          <PerSeasonBarChartSvg ref={(r) => (this.perSeasonBarChartRef = r)} />
         </PerSeasonBarChartWrapper>
       </React.Fragment>
     );

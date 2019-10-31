@@ -63,7 +63,7 @@ DECADES.forEach((seasons) => {
 
       let gameDateString = format(
         new Date(game.date || game.fullDate || game.timestamp),
-        'MM/DD/YYYY'
+        'MM/dd/yyyy'
       );
 
       let homeLinescore = _.get(game, ['linescore', 'home'], []).join('|');

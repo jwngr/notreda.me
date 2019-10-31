@@ -1,10 +1,10 @@
 import {darken} from 'polished';
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 import TeamLogo from './TeamLogo';
-import InternalLink from './common/InternalLink';
 
-const GameWrapper = styled(InternalLink)`
+const GameWrapper = styled(Link)`
   height: 52px;
   padding: 0 4px;
 

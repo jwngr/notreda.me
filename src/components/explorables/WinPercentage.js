@@ -56,7 +56,8 @@ class WinPercentage extends Component {
             gameClassName = 'tie';
           }
 
-          const winPercentage = (winCount + tieCount / 2) / (winCount + lossCount + tieCount) * 100;
+          const winPercentage =
+            ((winCount + tieCount / 2) / (winCount + lossCount + tieCount)) * 100;
           lastGameOfYearWinPercentage = winPercentage;
 
           const dateObj = new Date(timestamp || date);
@@ -71,7 +72,7 @@ class WinPercentage extends Component {
                 <p>
                   {result} {opponentId}
                 </p>
-                <p>Date: {format(dateObj, 'MM/DD/YYYY')}</p>
+                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
                 <p>Win %: {winPercentage.toFixed(2)}</p>
               </div>
             ),
@@ -89,7 +90,7 @@ class WinPercentage extends Component {
                 <p>
                   {result} {opponentId}
                 </p>
-                <p>Date: {format(dateObj, 'MM/DD/YYYY')}</p>
+                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
                 <p>Win %: {stanfordWinPercentage.toFixed(2)}</p>
               </div>
             ),
@@ -152,7 +153,7 @@ class WinPercentage extends Component {
       const gameData = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
         results[result]++;
 
-        const winPercentage = results.W / (results.W + results.L) * 100;
+        const winPercentage = (results.W / (results.W + results.L)) * 100;
 
         return {
           x: new Date(date),
@@ -162,7 +163,7 @@ class WinPercentage extends Component {
               <p>
                 {result} {oppponent}
               </p>
-              <p>Date: {format(date, 'MM/DD/YYYY')}</p>
+              <p>Date: {format(date, 'MM/dd/yyyy')}</p>
               <p>Win %: {winPercentage.toFixed(2)}</p>
             </div>
           ),
@@ -179,7 +180,7 @@ class WinPercentage extends Component {
           yearResults[result]++;
         });
 
-        const seasonEndWinPercentage = yearResults.W / (yearResults.W + yearResults.L) * 100;
+        const seasonEndWinPercentage = (yearResults.W / (yearResults.W + yearResults.L)) * 100;
 
         let record = `${yearResults.W}-${yearResults.L}`;
         if (yearResults.T !== 0) {
@@ -214,7 +215,7 @@ class WinPercentage extends Component {
       const data = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
         results[result]++;
 
-        const winPercentage = results.W / (results.W + results.L) * 100;
+        const winPercentage = (results.W / (results.W + results.L)) * 100;
 
         return {
           x: new Date(date),
@@ -225,7 +226,7 @@ class WinPercentage extends Component {
               <p>
                 {result} {oppponent}
               </p>
-              <p>Date: {format(date, 'MM/DD/YYYY')}</p>
+              <p>Date: {format(date, 'MM/dd/yyyy')}</p>
               <p>Win %: {winPercentage.toFixed(2)}</p>
             </div>
           ),

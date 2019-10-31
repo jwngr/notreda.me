@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {push} from 'redux-little-router';
+import {push} from 'connected-react-router';
 
 function asInternalLink(WrappedComponent) {
   return class extends React.Component {

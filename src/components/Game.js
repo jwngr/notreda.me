@@ -67,21 +67,20 @@ const Game = ({game, year, index, isSelected}) => {
   } else if ('timestamp' in game || 'fullDate' in game) {
     let time;
     if ('fullDate' in game) {
-      time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm A');
+      time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm a');
     } else {
-      time = 'timestamp' in game ? format(game.timestamp, 'h:mm A') : 'TBD';
+      time = 'timestamp' in game ? format(game.timestamp, 'h:mm a') : 'TBD';
     }
 
     lastColumnContent = (
       <TelevisionCoverage>
         <p>{time}</p>
-        {game.coverage &&
-          game.coverage !== 'TBD' && (
-            <img
-              alt={`${game.coverage} logo`}
-              src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
-            />
-          )}
+        {game.coverage && game.coverage !== 'TBD' && (
+          <img
+            alt={`${game.coverage} logo`}
+            src={require(`../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
+          />
+        )}
       </TelevisionCoverage>
     );
   } else {
@@ -111,9 +110,9 @@ const Game = ({game, year, index, isSelected}) => {
   // clarity.
   if (date !== 'TBD') {
     if (date.getFullYear() === year) {
-      date = format(date, 'MMMM D');
+      date = format(date, 'MMMM d');
     } else {
-      date = format(date, 'MMMM D, YYYY');
+      date = format(date, 'MMMM d, yyyy');
     }
   }
 
@@ -162,7 +161,7 @@ const Game = ({game, year, index, isSelected}) => {
   }
 
   return (
-    <WrapperComponent className={gameClassNames} href={`/${year}/${index + 1}/`}>
+    <WrapperComponent className={gameClassNames} to={`/${year}/${index + 1}/`}>
       <OpponentWrapper>
         <OpponentLogo team={game.opponent} />
         <DateOpponentDetailsWrapper>

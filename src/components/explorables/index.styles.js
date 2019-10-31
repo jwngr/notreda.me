@@ -81,7 +81,7 @@ export const P = styled.p`
   line-height: 1.5;
   font-family: 'Inter UI';
   text-align: justify;
-  word-break: break-all;
+  word-break: break-word;
   color: ${(props) => props.theme.colors.black};
 `;
 
@@ -97,7 +97,7 @@ export const Caption = styled.p`
   text-align: justify;
   margin: 8px auto 20px auto;
   font-family: 'Inter UI';
-  word-break: break-all;
+  word-break: break-word;
   color: ${(props) => props.theme.colors.gray};
 `;
 

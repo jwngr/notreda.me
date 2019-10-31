@@ -1,68 +1,50 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Loadable from 'react-loadable';
 import {Provider} from 'react-redux';
+import {Route, Switch} from 'react-router-dom';
 import {ThemeProvider} from 'styled-components';
-import {compose, createStore, applyMiddleware, combineReducers} from 'redux';
-import {routerForBrowser, initializeCurrentLocation} from 'redux-little-router';
+import {ConnectedRouter} from 'connected-react-router';
+
+import configureStore, {history} from './configureStore.js';
 
 import theme from './resources/theme.json';
-import rootReducers from './reducers/index.js';
 // import registerServiceWorker from './registerServiceWorker';
 import {unregister} from './registerServiceWorker';
-
-import App from './App';
 
 import './index.css';
 
 // Load fonts
 require('typeface-bungee');
 
-// Router
-const routes = {
-  '/': {
-    '/:year': {
-      '/:selectedGameIndex': true,
-    },
-    '/explorables': {
-      '/s1e1-down-to-the-wire': true,
-      '/s1e2-chasing-perfection': true,
-    },
-  },
-};
-
-const {reducer: routerReducer, middleware: routerMiddleware, enhancer} = routerForBrowser({
-  routes,
+const AsyncFootballScheduleScreen = Loadable({
+  loader: () => import('./screens/FootballScheduleScreen/container'),
+  loading: () => null,
 });
 
-// Middleware
-const middleware = [routerMiddleware];
-if (process.env.NODE_ENV !== 'production') {
-  const {logger} = require('redux-logger');
-  middleware.push(logger);
-}
+const AsyncExplorablesScreen = Loadable({
+  loader: () => import('./screens/ExplorablesScreen'),
+  loading: () => null,
+});
 
-// Create the Redux store
-const store = createStore(
-  combineReducers({
-    router: routerReducer,
-    ...rootReducers,
-  }),
-  compose(
-    enhancer,
-    applyMiddleware(...middleware)
-  )
-);
-
-// Initialize the current location of redux-little-router.
-const initialLocation = store.getState().router;
-if (initialLocation) {
-  store.dispatch(initializeCurrentLocation(initialLocation));
-}
+// Create the Redux store.
+const store = configureStore();
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <Provider store={store}>
-      <App />
+      <ConnectedRouter history={history}>
+        <>
+          <Switch>
+            <Route path="/explorables">
+              <AsyncExplorablesScreen />
+            </Route>
+            <Route path="/">
+              <AsyncFootballScheduleScreen />
+            </Route>
+          </Switch>
+        </>
+      </ConnectedRouter>
     </Provider>
   </ThemeProvider>,
   document.getElementById('root')

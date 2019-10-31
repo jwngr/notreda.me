@@ -60,7 +60,7 @@ const scrapeNotreDameSchedule = async () => {
       let date = await getText(tds[0]);
       date += `/${year}`;
       date = new Date(date);
-      date = format(date, 'MM/DD/YYYY');
+      date = format(date, 'MM/dd/yyyy');
 
       // Location
       let isHomeGame = await getText(tds[1]);
