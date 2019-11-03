@@ -87471,6 +87471,7 @@
         "stadium": "Notre Dame Stadium"
       },
       "opponentId": "VT",
+      "highlightsYouTubeVideoId": "IL9N6C8VC8c",
       "sportsReferenceGameId": "2019-11-02-notre-dame",
       "rankings": {
         "home": {
@@ -87488,7 +87489,71 @@
           "home": "4-1",
           "away": "1-1"
         }
-      }
+      },
+      "espnGameId": 401112501,
+      "stats": {
+        "away": {
+          "firstDowns": 12,
+          "thirdDownAttempts": 4,
+          "thirdDownConversions": 16,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 240,
+          "passYards": 139,
+          "passCompletions": 9,
+          "passAttempts": 28,
+          "yardsPerPass": 5,
+          "interceptionsThrown": 1,
+          "rushYards": 101,
+          "rushAttempts": 36,
+          "yardsPerRush": 2.8,
+          "penalties": 6,
+          "penaltyYards": 53,
+          "fumblesLost": 1,
+          "possession": "28:48",
+          "fumbles": 1
+        },
+        "home": {
+          "firstDowns": 25,
+          "thirdDownAttempts": 8,
+          "thirdDownConversions": 20,
+          "fourthDownAttempts": 3,
+          "fourthDownConversions": 3,
+          "totalYards": 447,
+          "passYards": 341,
+          "passCompletions": 29,
+          "passAttempts": 53,
+          "yardsPerPass": 6.4,
+          "interceptionsThrown": 2,
+          "rushYards": 106,
+          "rushAttempts": 38,
+          "yardsPerRush": 2.8,
+          "penalties": 7,
+          "penaltyYards": 75,
+          "fumblesLost": 1,
+          "possession": "31:12",
+          "fumbles": 1
+        }
+      },
+      "score": {
+        "home": 21,
+        "away": 20
+      },
+      "linescore": {
+        "away": [
+          7,
+          7,
+          3,
+          3
+        ],
+        "home": [
+          7,
+          7,
+          0,
+          7
+        ]
+      },
+      "result": "W"
     },
     {
       "isHomeGame": false,
