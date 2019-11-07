@@ -1,9 +1,8 @@
 const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
 
+const espn = require('../lib/espn');
 const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
 
@@ -45,64 +44,24 @@ const getEspnGameIdCountForSeason = (season) => {
     .value();
 };
 
-const getHtmlForUrl = (url) => {
-  return request({
-    uri: url,
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
-};
-
 const promises = years.map((year) => {
-  return getHtmlForUrl(`http://www.espn.com/college-football/team/schedule/_/id/87/season/${year}`)
-    .then(($) => {
-      const gameIds = [];
+  return espn.fetchGameIdsForSeason(year).then((gameIds) => {
+    const previousEspnGameIdCount = getEspnGameIdCountForSeason(year);
+    const espnGameIdCountDifference = gameIds.length - previousEspnGameIdCount;
+    if (espnGameIdCountDifference === 0) {
+      logger.info('No new ESPN game IDs found.');
+    } else if (espnGameIdCountDifference > 0) {
+      logger.info(
+        `${espnGameIdCountDifference} new ESPN game ${
+          espnGameIdCountDifference === 1 ? 'ID' : 'IDs'
+        } found.`
+      );
+    } else {
+      logger.error(`Found fewer ESPN game IDs than expected.`);
+    }
 
-      const $rows = $('tr.Table__TR');
-
-      $rows.each((i, row) => {
-        const $cols = $(row).find('td');
-        if (
-          $cols.length === 7 &&
-          $cols
-            .eq(0)
-            .text()
-            .trim() !== 'Date'
-        ) {
-          const $spans = $cols.eq(2).find('span');
-
-          const gameId = $spans
-            .eq(1)
-            .find('a')
-            .attr('href')
-            .split('gameId/')[1]
-            .trim();
-
-          gameIds.push(gameId);
-        }
-      });
-
-      const previousEspnGameIdCount = getEspnGameIdCountForSeason(year);
-      const espnGameIdCountDifference = gameIds.length - previousEspnGameIdCount;
-      if (espnGameIdCountDifference === 0) {
-        logger.info('No new ESPN game IDs found.');
-      } else if (espnGameIdCountDifference > 0) {
-        logger.info(
-          `${espnGameIdCountDifference} new ESPN game ${
-            espnGameIdCountDifference === 1 ? 'ID' : 'IDs'
-          } found.`
-        );
-      } else {
-        logger.error(`Found fewer ESPN game IDs than expected.`);
-      }
-
-      return gameIds;
-    })
-    .catch((error) => {
-      logger.error(`Error fetching game IDs for ${year}`, {error});
-      throw error;
-    });
+    return gameIds;
+  });
 });
 
 return Promise.all(promises)
