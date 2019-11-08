@@ -93,18 +93,16 @@ const fetchStatsForGame = (gameId) => {
               stats.home['firstDowns'] = Number(homeValue);
               break;
             case '3rd down efficiency':
-              // TODO: these are flipped.
-              stats.away['thirdDownAttempts'] = Number(awayValue.split('-')[0]);
-              stats.home['thirdDownAttempts'] = Number(homeValue.split('-')[0]);
-              stats.away['thirdDownConversions'] = Number(awayValue.split('-')[1]);
-              stats.home['thirdDownConversions'] = Number(homeValue.split('-')[1]);
+              stats.away['thirdDownAttempts'] = Number(awayValue.split('-')[1]);
+              stats.home['thirdDownAttempts'] = Number(homeValue.split('-')[1]);
+              stats.away['thirdDownConversions'] = Number(awayValue.split('-')[0]);
+              stats.home['thirdDownConversions'] = Number(homeValue.split('-')[0]);
               break;
             case '4th down efficiency':
-              // TODO: these are flipped.
-              stats.away['fourthDownAttempts'] = Number(awayValue.split('-')[0]);
-              stats.home['fourthDownAttempts'] = Number(homeValue.split('-')[0]);
-              stats.away['fourthDownConversions'] = Number(awayValue.split('-')[1]);
-              stats.home['fourthDownConversions'] = Number(homeValue.split('-')[1]);
+              stats.away['fourthDownAttempts'] = Number(awayValue.split('-')[1]);
+              stats.home['fourthDownAttempts'] = Number(homeValue.split('-')[1]);
+              stats.away['fourthDownConversions'] = Number(awayValue.split('-')[0]);
+              stats.home['fourthDownConversions'] = Number(homeValue.split('-')[0]);
               break;
             case 'Total Yards':
               stats.away['totalYards'] = Number(awayValue);

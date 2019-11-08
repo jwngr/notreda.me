@@ -73,16 +73,16 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
         statName="3rd Down Efficiency"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['thirdDownAttempts']} / ${stats.away['thirdDownConversions']}`}
-        homeValue={`${stats.home['thirdDownAttempts']} / ${stats.home['thirdDownConversions']}`}
+        awayValue={`${stats.away['thirdDownConversions']} / ${stats.away['thirdDownAttempts']}`}
+        homeValue={`${stats.home['thirdDownConversions']} / ${stats.home['thirdDownAttempts']}`}
       />
 
       <GameStatsRow
         statName="4th Down Efficiency"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['fourthDownAttempts']} / ${stats.away['fourthDownConversions']}`}
-        homeValue={`${stats.home['fourthDownAttempts']} / ${stats.home['fourthDownConversions']}`}
+        awayValue={`${stats.away['fourthDownConversions']} / ${stats.away['fourthDownAttempts']}`}
+        homeValue={`${stats.home['fourthDownConversions']} / ${stats.home['fourthDownAttempts']}`}
       />
 
       <GameStatsRow

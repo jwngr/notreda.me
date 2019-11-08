@@ -10,7 +10,7 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
 
   // Optional: perform any updates to the yearly data here.
   seasonScheduleData.forEach((gameData, i) => {
-    delete gameData.foo;
+    // delete gameData.foo;
   });
 
   allSeasonsScheduleData[season] = seasonScheduleData;
