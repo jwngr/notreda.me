@@ -36,6 +36,20 @@ const updateNdSchedule = async () => {
     }
   });
 
+  logger.info(`Fetching ESPN team records for ${SEASON}...`);
+  const [notreDameWeeklyRecords, opponentRecords] = await Promise.all([
+    espn.fetchNotreDameWeeklyRecordsForCurrentSeason(),
+    Promise.all(_.map(seasonScheduleData, ({opponentId}) => espn.fetchTeamRecordUpThroughNotreDameGameForCurrentSeason(opponentId)))
+  ]);
+
+  seasonScheduleData.forEach((gameData, i) => {
+    gameData.records = {
+      home: gameData.isHomeGame ? notreDameWeeklyRecords[i] : opponentRecords[i],
+      away: gameData.isHomeGame ? opponentRecords[i] : notreDameWeeklyRecords[i],
+    };
+  });
+
+  logger.info(`Updating ND schedule data file for ${SEASON}...`);
   return ndSchedules.updateForSeason(SEASON, seasonScheduleData);
 };
 

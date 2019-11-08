@@ -1,12 +1,16 @@
 const _ = require('lodash');
 
+const teams = require('./teams');
 const logger = require('./logger');
 const scraper = require('./scraper');
+
+const ESPN_TEAM_HOME_PAGE_URL_PREFIX = `https://www.espn.com/college-football/team/_/id/`;
 
 /**
  * Returns a list of ESPN game IDs for the provided season.
  *
  * @param  {number} season The season whose game IDs to fetch.
+ * 
  * @return {Promise<number[]>} An array of game IDs.
  */
 const fetchGameIdsForSeason = (season) => {
@@ -51,13 +55,18 @@ const fetchGameIdsForSeason = (season) => {
  * Returns a list of game stats and line scores from ESPN for the provided game.
  *
  * @param  {number} gameId The game ID of the game whose data to fetch.
+ * 
  * @return {Promise<Object>} A promise fulfilled with game stats and line scores.
  */
 const fetchStatsForGame = (gameId) => {
-  return scraper
-    .get(`http://www.espn.com/college-football/matchup?gameId=${gameId}`)
-    .then(($) => {
-      const $statsTable = $('.team-stats-list');
+  return Promise.all([
+    scraper
+    .get(`http://www.espn.com/college-football/matchup?gameId=${gameId}`),
+    scraper
+    .get(`http://www.espn.com/college-football/boxscore?gameId=${gameId}`),
+  ])
+    .then(([$matchup, $boxscore]) => {
+      const $statsTable = $matchup('.team-stats-list');
 
       // Loop through each row in the stats table
       const stats = {
@@ -66,15 +75,15 @@ const fetchStatsForGame = (gameId) => {
       };
 
       $statsTable.find('tr').each((i, row) => {
-        const rowCells = $(row).children('td');
+        const rowCells = $matchup(row).children('td');
         if (rowCells.length !== 0) {
-          const statName = $(rowCells[0])
+          const statName = $matchup(rowCells[0])
             .text()
             .trim();
-          const awayValue = $(rowCells[1])
+          const awayValue = $matchup(rowCells[1])
             .text()
             .trim();
-          const homeValue = $(rowCells[2])
+          const homeValue = $matchup(rowCells[2])
             .text()
             .trim();
 
@@ -84,12 +93,14 @@ const fetchStatsForGame = (gameId) => {
               stats.home['firstDowns'] = Number(homeValue);
               break;
             case '3rd down efficiency':
+              // TODO: these are flipped.
               stats.away['thirdDownAttempts'] = Number(awayValue.split('-')[0]);
               stats.home['thirdDownAttempts'] = Number(homeValue.split('-')[0]);
               stats.away['thirdDownConversions'] = Number(awayValue.split('-')[1]);
               stats.home['thirdDownConversions'] = Number(homeValue.split('-')[1]);
               break;
             case '4th down efficiency':
+              // TODO: these are flipped.
               stats.away['fourthDownAttempts'] = Number(awayValue.split('-')[0]);
               stats.home['fourthDownAttempts'] = Number(homeValue.split('-')[0]);
               stats.away['fourthDownConversions'] = Number(awayValue.split('-')[1]);
@@ -143,28 +154,39 @@ const fetchStatsForGame = (gameId) => {
               stats.away['possession'] = awayValue;
               stats.home['possession'] = homeValue;
               break;
+            case 'Turnovers':
+                // Ignore turnovers stat since it can be computed by adding interceptions and lost
+                // fumbles.
+                break;
             default:
               logger.error('Unexpected stat name.', {gameId, statName});
           }
         }
       });
 
-      stats.away['fumbles'] = -1;
-      stats.home['fumbles'] = -1;
+      // Fetch total fumbles (lost and recovered) from the boxscore page since the matchup page only
+      // provides stats for lost fumbles.
+      const $fumbleStatsContainer = $boxscore('#gamepackage-fumbles');
+      $fumbleStatsContainer.find('.col').each((i, teamFumbleStatsContainer) => {
+        const teamFubmleTotalsRow = $boxscore(teamFumbleStatsContainer).find('tr');
+        const teamFumbles = $boxscore(_.last(teamFubmleTotalsRow)).find('.fum')
+            .text()
+            .trim();
+
+        const homeOrAway = i === 0 ? 'away' : 'home';
+        stats[homeOrAway].fumbles = Number(teamFumbles);
+      });
 
       // Line score
-      const $linescore = $('#linescore');
-
-      // Loop through each row in the stats table
       const linescore = {
         away: [],
         home: [],
       };
-      $linescore
+      $matchup('#linescore')
         .find('tbody')
         .find('tr')
         .each((i, row) => {
-          const rowCells = $(row).children('td');
+          const rowCells = $matchup(row).children('td');
 
           const homeOrAway = linescore.away.length === 0 ? 'away' : 'home';
 
@@ -172,7 +194,7 @@ const fetchStatsForGame = (gameId) => {
             // Skip first (team abbreviation) and last (total score) cells
             if (index > 0 && index !== rowCells.length - 1) {
               const score = Number(
-                $(rowCell)
+                $matchup(rowCell)
                   .text()
                   .trim()
               );
@@ -196,9 +218,130 @@ const fetchStatsForGame = (gameId) => {
     });
 };
 
-const fetchTeamRecordsForSeason = (SEASON) => {};
+/**
+ * Returns the overall, home, and away records for the provided team during the current season up
+ * through their matchup against Notre Dame.
+ *
+ * @param  {string} teamId The team ID whose record to fetch.
+ * 
+ * @return {Promise<Object>} A promise fulfilled with the provided team's overall, home, and away
+ *     records.
+ */
+const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => {
+  const {espnId} = teams.get(teamId); 
+  const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
+
+  let wins = 0;
+  let losses = 0;
+  let homeWins = 0;
+  let homeLosses = 0;
+  let awayWins = 0;
+  let awayLosses = 0;
+
+  let teamAlreadyFacedNotreDame = false;
+  $('.club-schedule li').each((i, row) => {
+    // Only fetch team records up through when they play Notre Dame.
+    if (!teamAlreadyFacedNotreDame) {
+      const gameInfo = $(row)
+        .find('.game-info')
+        .text()
+        .trim();
+      const gameResult = $(row)
+        .find('.game-result')
+        .text()
+        .trim();
+
+      const isHomeGame = !_.includes(gameInfo, '@');
+
+      if (gameResult === 'W') {
+        wins += 1;
+        if (isHomeGame) {
+          homeWins += 1;
+        } else {
+          awayWins += 1;
+        }
+      } else if (gameResult === 'L') {
+        losses += 1;
+        if (isHomeGame) {
+          homeLosses += 1;
+        } else {
+          awayLosses += 1;
+        }
+      }
+      
+      teamAlreadyFacedNotreDame = _.endsWith(gameInfo, ' ND');
+    }
+  });
+
+  return {
+    overall: `${wins}-${losses}`,
+    home: `${homeWins}-${homeLosses}`,
+    away: `${awayWins}-${awayLosses}`,
+  };
+};
+
+/**
+ * Returns the overall, home, and away records for each week of Notre Dame's current season.
+ *
+ * @param  {string} teamId The team ID whose record to fetch.
+ * 
+ * @return {Promise<Object>} A promise fulfilled with the provided team's overall, home, and away
+ *     records.
+ */
+const fetchNotreDameWeeklyRecordsForCurrentSeason = async () => {
+  const {espnId} = teams.get('ND'); 
+  const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
+
+  let wins = 0;
+  let losses = 0;
+  let homeWins = 0;
+  let homeLosses = 0;
+  let awayWins = 0;
+  let awayLosses = 0;
+
+  let weeklyRecords = [];
+
+  $('.club-schedule li').each((i, row) => {
+    const gameInfo = $(row)
+      .find('.game-info')
+      .text()
+      .trim();
+    const gameResult = $(row)
+      .find('.game-result')
+      .text()
+      .trim();
+
+    const isHomeGame = !_.includes(gameInfo, '@');
+
+    if (gameResult === 'W') {
+      wins += 1;
+      if (isHomeGame) {
+        homeWins += 1;
+      } else {
+        awayWins += 1;
+      }
+    } else if (gameResult === 'L') {
+      losses += 1;
+      if (isHomeGame) {
+        homeLosses += 1;
+      } else {
+        awayLosses += 1;
+      }
+    }
+
+    weeklyRecords.push({
+      overall: `${wins}-${losses}`,
+      home: `${homeWins}-${homeLosses}`,
+      away: `${awayWins}-${awayLosses}`,
+    })
+  });
+
+  return weeklyRecords;
+}
 
 module.exports = {
   fetchStatsForGame,
   fetchGameIdsForSeason,
+  fetchNotreDameWeeklyRecordsForCurrentSeason,
+  fetchTeamRecordUpThroughNotreDameGameForCurrentSeason
 };
