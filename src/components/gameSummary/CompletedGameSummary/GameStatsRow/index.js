@@ -50,9 +50,19 @@ const GameStatsRow = ({
     const homePercentage = Number(homeTokens[0]) / Number(homeTokens[1]) || 0;
 
     if (Number(homePercentage) === Number(awayPercentage)) {
-      isAwayHighlighted = Number(awayTokens[1]) <= Number(homeTokens[1]);
-      isHomeHighlighted = Number(awayTokens[1]) >= Number(homeTokens[1]);
+      // If the teams' percentages are exactly the same...
+      if (Number(homePercentage) === 0) {
+        // ... and they are both zero, highlight the team with the smaller second token value, which
+        // indicates attempts (0-0 is treated as better than 0-3).
+        isAwayHighlighted = Number(awayTokens[1]) <= Number(homeTokens[1]);
+        isHomeHighlighted = Number(awayTokens[1]) >= Number(homeTokens[1]);
+      } else {
+        // ... and they are non-zero, highlight both teams (1-2 is treated the same as 2-4).
+        isAwayHighlighted = true;
+        isHomeHighlighted = true;
+      }
     } else {
+      // Otherwise, if the teams' percentages are different, highlight the higher one.
       isAwayHighlighted = Number(awayPercentage) > Number(homePercentage);
       isHomeHighlighted = Number(awayPercentage) < Number(homePercentage);
     }
