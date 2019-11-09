@@ -77,7 +77,8 @@
     "sportsReferenceGameId": "2019-09-02-louisville",
     "rankings": {
       "away": {
-        "ap": 9
+        "ap": 9,
+        "coaches": 9
       }
     },
     "records": {
@@ -107,7 +108,8 @@
     "highlightsYouTubeVideoId": "7xXMKdV2dJA",
     "rankings": {
       "home": {
-        "ap": 7
+        "ap": 7,
+        "coaches": 7
       }
     },
     "records": {
@@ -202,10 +204,12 @@
     "highlightsYouTubeVideoId": "L43HVaImNPU",
     "rankings": {
       "home": {
-        "ap": 3
+        "ap": 3,
+        "coaches": 3
       },
       "away": {
-        "ap": 7
+        "ap": 7,
+        "coaches": 7
       }
     },
     "records": {
@@ -299,10 +303,12 @@
     "highlightsYouTubeVideoId": "BhBSv3zBmis",
     "rankings": {
       "home": {
-        "ap": 10
+        "ap": 10,
+        "coaches": 10
       },
       "away": {
-        "ap": 18
+        "ap": 18,
+        "coaches": 18
       }
     },
     "records": {
@@ -395,7 +401,8 @@
     "highlightsYouTubeVideoId": "ALhXzLbvvag",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 9,
+        "coaches": 10
       }
     },
     "records": {
@@ -490,7 +497,8 @@
     "highlightsYouTubeVideoId": "TjM7kDhpHw8",
     "rankings": {
       "home": {
-        "ap": 9
+        "ap": 9,
+        "coaches": 10
       }
     },
     "records": {
@@ -584,10 +592,12 @@
     "highlightsYouTubeVideoId": "etk4xjpxiL8",
     "rankings": {
       "home": {
-        "ap": 19
+        "ap": 19,
+        "coaches": 20
       },
       "away": {
-        "ap": 8
+        "ap": 8,
+        "coaches": 7
       }
     },
     "records": {
@@ -681,7 +691,8 @@
     "sportsReferenceGameId": "2019-11-02-notre-dame",
     "rankings": {
       "home": {
-        "ap": 16
+        "ap": 16,
+        "coaches": 16
       }
     },
     "records": {
@@ -774,7 +785,9 @@
     "sportsReferenceGameId": "2019-11-09-duke",
     "rankings": {
       "away": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 15
       }
     },
     "records": {
@@ -803,10 +816,14 @@
     "sportsReferenceGameId": "2019-11-16-notre-dame",
     "rankings": {
       "home": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 15
       },
       "away": {
-        "ap": 25
+        "ap": 25,
+        "coaches": 25,
+        "cfbPlayoff": 24
       }
     },
     "records": {
@@ -835,7 +852,9 @@
     "sportsReferenceGameId": "2019-11-23-notre-dame",
     "rankings": {
       "home": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 15
       }
     },
     "records": {
@@ -863,7 +882,9 @@
     "sportsReferenceGameId": "2019-11-30-stanford",
     "rankings": {
       "away": {
-        "ap": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 15
       }
     },
     "records": {

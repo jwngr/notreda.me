@@ -3703,5 +3703,162 @@
         }
       }
     }
+  ],
+  "cfbPlayoff": [
+    {
+      "date": "2019-11-06",
+      "teams": {
+        "Ohio State": {
+          "record": "8-0",
+          "ranking": 1,
+          "conference": "Big Ten (East)",
+          "previousRanking": "NA"
+        },
+        "LSU": {
+          "record": "8-0",
+          "ranking": 2,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Alabama": {
+          "record": "8-0",
+          "ranking": 3,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Penn State": {
+          "record": "8-0",
+          "ranking": 4,
+          "conference": "Big Ten (East)",
+          "previousRanking": "NA"
+        },
+        "Clemson": {
+          "record": "9-0",
+          "ranking": 5,
+          "conference": "ACC (Atlantic)",
+          "previousRanking": "NA"
+        },
+        "Georgia": {
+          "record": "7-1",
+          "ranking": 6,
+          "conference": "SEC (East)",
+          "previousRanking": "NA"
+        },
+        "Oregon": {
+          "record": "8-1",
+          "ranking": 7,
+          "conference": "Pac-12 (North)",
+          "previousRanking": "NA"
+        },
+        "Utah": {
+          "record": "8-1",
+          "ranking": 8,
+          "conference": "Pac-12 (South)",
+          "previousRanking": "NA"
+        },
+        "Oklahoma": {
+          "record": "7-1",
+          "ranking": 9,
+          "conference": "Big 12",
+          "previousRanking": "NA"
+        },
+        "Florida": {
+          "record": "7-2",
+          "ranking": 10,
+          "conference": "SEC (East)",
+          "previousRanking": "NA"
+        },
+        "Auburn": {
+          "record": "7-2",
+          "ranking": 11,
+          "conference": "SEC (West)",
+          "previousRanking": "NA"
+        },
+        "Baylor": {
+          "record": "8-0",
+          "ranking": 12,
+          "conference": "Big 12",
+          "previousRanking": "NA"
+        },
+        "Wisconsin": {
+          "record": "6-2",
+          "ranking": 13,
+          "conference": "Big Ten (West)",
+          "previousRanking": "NA"
+        },
+        "Michigan": {
+          "record": "7-2",
+          "ranking": 14,
+          "conference": "Big Ten (East)",
+          "previousRanking": "NA"
+        },
+        "Notre Dame": {
+          "record": "6-2",
+          "ranking": 15,
+          "conference": "Ind",
+          "previousRanking": "NA"
+        },
+        "Kansas State": {
+          "record": "6-2",
+          "ranking": 16,
+          "conference": "Big 12",
+          "previousRanking": "NA"
+        },
+        "Minnesota": {
+          "record": "8-0",
+          "ranking": 17,
+          "conference": "Big Ten (West)",
+          "previousRanking": "NA"
+        },
+        "Iowa": {
+          "record": "6-2",
+          "ranking": 18,
+          "conference": "Big Ten (West)",
+          "previousRanking": "NA"
+        },
+        "Wake Forest": {
+          "record": "7-1",
+          "ranking": 19,
+          "conference": "ACC (Atlantic)",
+          "previousRanking": "NA"
+        },
+        "Cincinnati": {
+          "record": "7-1",
+          "ranking": 20,
+          "conference": "American (East)",
+          "previousRanking": "NA"
+        },
+        "Memphis": {
+          "record": "8-1",
+          "ranking": 21,
+          "conference": "American (West)",
+          "previousRanking": "NA"
+        },
+        "Boise State": {
+          "record": "7-1",
+          "ranking": 22,
+          "conference": "MWC (Mountain)",
+          "previousRanking": "NA"
+        },
+        "Oklahoma State": {
+          "record": "6-3",
+          "ranking": 23,
+          "conference": "Big 12",
+          "previousRanking": "NA"
+        },
+        "Navy": {
+          "record": "7-1",
+          "ranking": 24,
+          "conference": "American (West)",
+          "previousRanking": "NA"
+        },
+        "Southern Methodist": {
+          "record": "8-1",
+          "ranking": 25,
+          "conference": "American (West)",
+          "previousRanking": "NA"
+        }
+      }
+    }
   ]
 }

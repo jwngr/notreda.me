@@ -1,21 +1,24 @@
 const _ = require('lodash');
 
 const espn = require('../lib/espn');
+const polls = require('../lib/polls');
 const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
+const sportsReference = require('../lib/sportsReference');
 
 const SEASON = ndSchedules.CURRENT_SEASON;
 
 const updateNdSchedule = async () => {
   const seasonScheduleData = ndSchedules.getForSeason(SEASON);
 
-  logger.info(`Fetching ESPN game IDs for ${SEASON}...`);
+  logger.info(`Updating data for ${SEASON} season...`);
+  
+  logger.info(`Updating game stats...`);
   const espnGameIds = await espn.fetchGameIdsForSeason(SEASON);
   espnGameIds.forEach((espnGameId, i) => {
     seasonScheduleData[i].espnGameId = Number(espnGameId);
   });
 
-  logger.info(`Fetching ESPN game stats for ${SEASON}...`);
   const espnGameStats = await Promise.all(
     _.map(seasonScheduleData, (gameData) => {
       if ('espnGameId' in gameData && !('stats' in gameData)) {
@@ -36,7 +39,7 @@ const updateNdSchedule = async () => {
     }
   });
 
-  logger.info(`Fetching ESPN team records for ${SEASON}...`);
+  logger.info(`Updating team records...`);
   const [notreDameWeeklyRecords, opponentRecords] = await Promise.all([
     espn.fetchNotreDameWeeklyRecordsForCurrentSeason(),
     Promise.all(_.map(seasonScheduleData, ({opponentId}) => espn.fetchTeamRecordUpThroughNotreDameGameForCurrentSeason(opponentId)))
@@ -48,6 +51,10 @@ const updateNdSchedule = async () => {
       away: gameData.isHomeGame ? opponentRecords[i] : notreDameWeeklyRecords[i],
     };
   });
+
+  logger.info(`Updating polls...`);
+  const currentSeasonPollsData = await sportsReference.fetchPollsForSeason(SEASON);
+  polls.updateForSeason(SEASON, currentSeasonPollsData, seasonScheduleData);
 
   logger.info(`Updating ND schedule data file for ${SEASON}...`);
   return ndSchedules.updateForSeason(SEASON, seasonScheduleData);
