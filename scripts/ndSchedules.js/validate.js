@@ -64,7 +64,7 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
 
     if (gameData.stats) {
       if (_.get(gameData, 'stats.away.thirdDownConversions', 0) > _.get(gameData, 'stats.away.thirdDownAttempts', 0)) {
-        logger.error('Game has more 3rd down conversions than attempts.', {
+        logger.error('Game has more away 3rd down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),
         });
@@ -72,7 +72,23 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
       }
 
       if (_.get(gameData, 'stats.away.fourthDownConversions', 0) > _.get(gameData, 'stats.away.fourthDownAttempts', 0)) {
-        logger.error('Game has more 4th down conversions than attempts.', {
+        logger.error('Game has more away 4th down conversions than attempts.', {
+          season,
+          ..._.pick(gameData, ['date', 'opponentId']),
+        });
+        numErrorsFound++;
+      }
+
+      if (_.get(gameData, 'stats.home.thirdDownConversions', 0) > _.get(gameData, 'stats.home.thirdDownAttempts', 0)) {
+        logger.error('Game has more home 3rd down conversions than attempts.', {
+          season,
+          ..._.pick(gameData, ['date', 'opponentId']),
+        });
+        numErrorsFound++;
+      }
+
+      if (_.get(gameData, 'stats.home.fourthDownConversions', 0) > _.get(gameData, 'stats.home.fourthDownAttempts', 0)) {
+        logger.error('Game has more home 4th down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),
         });
