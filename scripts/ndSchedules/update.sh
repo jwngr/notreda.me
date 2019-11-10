@@ -4,43 +4,42 @@ set -e
 
 echo "[INFO] Updating data files..."
 
-git checkout master
-if [ $? eq 0 ]; then
-  echo "[ERROR] Failed to check out master branch."
+if [ "$(git symbolic-ref --short -q HEAD)" != "master" ]; then
+  echo "[ERROR] This script must be run on the master branch."
   exit -1
 fi
 
 git pull origin master
-if [ $? eq 0 ]; then
+if [ $? -ne 0 ]; then
   echo "[ERROR] Failed to git pull latest source code."
   exit -1
 fi
 
 node ./update.js
-if [ $? eq 0 ]; then
+if [ $? -ne 0 ]; then
   echo "[ERROR] Failed to update ND schedule."
   exit -1
 fi
 
-if [ -z "$(git status --porcelain)" ]; then 
+if [ -z "$(git status --porcelain)" ]; then
   echo "[INFO] No updated data files detected."
-else 
+else
   echo "[INFO] Detected updated data files..."
 
-  git add .
-  if [ $? eq 0 ]; then
+  git add -A
+  if [ $? -ne 0 ]; then
     echo "[ERROR] Failed to git add files."
     exit -1
   fi
 
   git commit -m "[CRON] Automatically updated data files"
-  if [ $? eq 0 ]; then
+  if [ $? -ne 0 ]; then
     echo "[ERROR] Failed to git commit files."
     exit -1
   fi
 
   git push origin master
-  if [ $? eq 0 ]; then
+  if [ $? -ne 0 ]; then
     echo "[ERROR] Failed to git push files."
     exit -1
   fi
