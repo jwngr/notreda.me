@@ -4,6 +4,11 @@ set -e
 
 echo "[INFO] Updating data files..."
 
+if [ "$(uname -s)" != "Linux" ]; then
+  echo "[ERROR] This script is only intended to be on the production server."
+  exit -1
+fi
+
 if [ "$(git symbolic-ref --short -q HEAD)" != "master" ]; then
   echo "[ERROR] This script must be run on the master branch."
   exit -1
