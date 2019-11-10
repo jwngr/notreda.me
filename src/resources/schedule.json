@@ -87586,16 +87586,80 @@
       },
       "records": {
         "home": {
-          "overall": "4-4",
-          "home": "2-2",
+          "overall": "4-5",
+          "home": "2-3",
           "away": "2-2"
         },
         "away": {
-          "overall": "6-2",
+          "overall": "7-2",
           "home": "5-0",
-          "away": "1-2"
+          "away": "2-2"
         }
-      }
+      },
+      "espnGameId": 401111654,
+      "stats": {
+        "away": {
+          "firstDowns": 21,
+          "thirdDownAttempts": 17,
+          "thirdDownConversions": 9,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 0,
+          "totalYards": 469,
+          "passYards": 181,
+          "passCompletions": 18,
+          "passAttempts": 32,
+          "yardsPerPass": 5.7,
+          "interceptionsThrown": 2,
+          "rushYards": 288,
+          "rushAttempts": 42,
+          "yardsPerRush": 6.9,
+          "penalties": 8,
+          "penaltyYards": 56,
+          "fumblesLost": 0,
+          "possession": "32:52",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 10,
+          "thirdDownAttempts": 16,
+          "thirdDownConversions": 3,
+          "fourthDownAttempts": 3,
+          "fourthDownConversions": 1,
+          "totalYards": 197,
+          "passYards": 102,
+          "passCompletions": 16,
+          "passAttempts": 31,
+          "yardsPerPass": 3.3,
+          "interceptionsThrown": 1,
+          "rushYards": 95,
+          "rushAttempts": 30,
+          "yardsPerRush": 3.2,
+          "penalties": 8,
+          "penaltyYards": 63,
+          "fumblesLost": 1,
+          "possession": "27:08",
+          "fumbles": 2
+        }
+      },
+      "score": {
+        "home": 7,
+        "away": 38
+      },
+      "linescore": {
+        "away": [
+          14,
+          7,
+          7,
+          10
+        ],
+        "home": [
+          0,
+          7,
+          0,
+          0
+        ]
+      },
+      "result": "W"
     },
     {
       "isHomeGame": true,
@@ -87622,9 +87686,9 @@
       },
       "records": {
         "home": {
-          "overall": "6-2",
+          "overall": "7-2",
           "home": "5-0",
-          "away": "1-2"
+          "away": "2-2"
         },
         "away": {
           "overall": "7-1",
@@ -87653,13 +87717,13 @@
       },
       "records": {
         "home": {
-          "overall": "6-2",
+          "overall": "7-2",
           "home": "5-0",
-          "away": "1-2"
+          "away": "2-2"
         },
         "away": {
-          "overall": "5-4",
-          "home": "3-2",
+          "overall": "5-5",
+          "home": "3-3",
           "away": "2-2"
         }
       }
@@ -87683,14 +87747,14 @@
       },
       "records": {
         "home": {
-          "overall": "4-4",
+          "overall": "4-5",
           "home": "3-2",
-          "away": "1-2"
+          "away": "1-3"
         },
         "away": {
-          "overall": "6-2",
+          "overall": "7-2",
           "home": "5-0",
-          "away": "1-2"
+          "away": "2-2"
         }
       }
     }
