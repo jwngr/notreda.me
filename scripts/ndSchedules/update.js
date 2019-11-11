@@ -4,7 +4,6 @@ const espn = require('../lib/espn');
 const polls = require('../lib/polls');
 const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
-const sportsReference = require('../lib/sportsReference');
 
 const SEASON = ndSchedules.CURRENT_SEASON;
 
@@ -53,7 +52,7 @@ const updateNdSchedule = async () => {
   });
 
   logger.info(`Updating polls...`);
-  const currentSeasonPollsData = await sportsReference.fetchPollsForSeason(SEASON);
+  const currentSeasonPollsData = await espn.fetchPollsForSeason(SEASON);
   polls.updateForSeason(SEASON, currentSeasonPollsData, seasonScheduleData);
 
   logger.info(`Updating ND schedule data file for ${SEASON}...`);

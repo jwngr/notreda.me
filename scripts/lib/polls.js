@@ -30,8 +30,14 @@ const updateForSeason = (season, seasonPollsData, seasonScheduleData = []) => {
     _.forEach(seasonPollsData, (pollData, pollId) => {
       let currentWeekPollData;
       pollData.forEach((weekPollData) => {
-        if (weekPollData.date === 'Preseason' || new Date(weekPollData.date) < gameDate) {
+        if (weekPollData.date === 'Preseason') {
           currentWeekPollData = weekPollData;
+        } else {
+          const pollDate = new Date(weekPollData.date);
+          pollDate.setHours(23);
+          if (pollDate < gameDate) {
+            currentWeekPollData = weekPollData;
+          }
         }
       });
 
