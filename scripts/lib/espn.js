@@ -176,6 +176,12 @@ const fetchStatsForGame = (gameId) => {
     .get(`http://www.espn.com/college-football/boxscore?gameId=${gameId}`),
   ])
     .then(([$matchup, $boxscore]) => {
+      // If the game is not over, return early with no data.
+      const gameStatus = $matchup('.status-detail').text().trim();
+      if (gameStatus !== 'Final') {
+        return;
+      }
+      
       const $statsTable = $matchup('.team-stats-list');
 
       // Loop through each row in the stats table
