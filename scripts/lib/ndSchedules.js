@@ -3,7 +3,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
-const COMBINED_SCHEDULE_FILENAME = path.resolve(__dirname, '../../src/resources/schedule.json');
+const COMBINED_SCHEDULE_FILENAME = path.resolve(
+  __dirname,
+  '../../website/src/resources/schedule.json'
+);
 
 const CURRENT_SEASON = 2019;
 module.exports.CURRENT_SEASON = CURRENT_SEASON;
@@ -34,7 +37,7 @@ const updateForSeason = (season, seasonScheduleData) => {
 
   updateForAllSeasons({
     ...getForAllSeasons(),
-    [season]: seasonScheduleData
+    [season]: seasonScheduleData,
   });
 };
 module.exports.updateForSeason = updateForSeason;
@@ -51,7 +54,7 @@ module.exports.updateForAllSeasons = updateForAllSeasons;
 module.exports.transformForAllSeasons = async (transform) => {
   const allSeasonsScheduleData = {};
 
-  const updateForSeasonPromises = []
+  const updateForSeasonPromises = [];
   ALL_SEASONS.forEach((season) => {
     const seasonScheduleData = getForSeason(season);
 
@@ -64,8 +67,5 @@ module.exports.transformForAllSeasons = async (transform) => {
     updateForSeasonPromises.push(updateForSeason(season, seasonScheduleData));
   });
 
-  await Promise.all([
-    ...updateForSeasonPromises,
-    updateForAllSeasons(allSeasonsScheduleData)
-  ])
+  await Promise.all([...updateForSeasonPromises, updateForAllSeasons(allSeasonsScheduleData)]);
 };

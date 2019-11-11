@@ -11,7 +11,7 @@ const updateNdSchedule = async () => {
   const seasonScheduleData = ndSchedules.getForSeason(SEASON);
 
   logger.info(`Updating data for ${SEASON} season...`);
-  
+
   logger.info(`Updating game stats...`);
   const espnGameIds = await espn.fetchGameIdsForSeason(SEASON);
   espnGameIds.forEach((espnGameId, i) => {
@@ -41,7 +41,11 @@ const updateNdSchedule = async () => {
   logger.info(`Updating team records...`);
   const [notreDameWeeklyRecords, opponentRecords] = await Promise.all([
     espn.fetchNotreDameWeeklyRecordsForCurrentSeason(),
-    Promise.all(_.map(seasonScheduleData, ({opponentId}) => espn.fetchTeamRecordUpThroughNotreDameGameForCurrentSeason(opponentId)))
+    Promise.all(
+      _.map(seasonScheduleData, ({opponentId}) =>
+        espn.fetchTeamRecordUpThroughNotreDameGameForCurrentSeason(opponentId)
+      )
+    ),
   ]);
 
   seasonScheduleData.forEach((gameData, i) => {
