@@ -1,11 +1,11 @@
 # Dependencies
-/node_modules
+node_modules/
 
 # Testing
-/coverage
+coverage/
 
 # Production
-/website/build
+build/
 
 # npm / yarn
 npm-debug.log*

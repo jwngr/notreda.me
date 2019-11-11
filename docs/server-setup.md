@@ -61,6 +61,7 @@ server for Six Degrees of Wikipedia.
 1.  Install the required npm dependencies:
 
     ```bash
+    $ cd scripts/
     $ npm install
     ```
 
