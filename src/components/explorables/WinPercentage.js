@@ -257,7 +257,7 @@ class WinPercentage extends Component {
           <a href="https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win-loss_records">
             overall win percentage
           </a>{' '}
-          . Their 0.7290 historic win percentage is behind only one team, none other than their
+          . Their 0.7290 historical win percentage is behind only one team, none other than their
           rival Michigan Wolverines, whose win percentage of 0.7291 is better only at the fourth
           decimal place. A win over the Wolverines in this weekend's season opener would allow the
           Irish to once again regain the top spot. In honor of this big upcoming game, let's dive
@@ -309,14 +309,14 @@ class WinPercentage extends Component {
         />
 
         <Paragraph>
-          Given Notre Dame historic greatness, even seasons ending with a winning record can lower
+          Given Notre Dame historical greatness, even seasons ending with a winning record can lower
           their overall win percentage. Not only do they need to have a winning record, they need to
           eclipse their historical win percentage. Taking the current 0.7290 win percentage, Notre
           Dame needs to win 10 games in a 13 game season or 11 in a 14 game season in order to
           improve their record. The latter is likely given a 14 game season means they will be
           playing in the National Championship, but the former is by no means easy. Taking last
           season as an example, a comeback win against LSU in the Citrus Bowl thanks to Miles Boykin
-          one-handed wondergrab is the only reason Notre Dame's historic win percentage increased.
+          one-handed wondergrab is the only reason Notre Dame's historical win percentage increased.
         </Paragraph>
 
         <Paragraph>

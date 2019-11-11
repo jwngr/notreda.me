@@ -384,10 +384,11 @@ export default class S1E2 extends React.Component {
         </Note>
 
         <P>
-          Notre Dame's historic numbers &mdash; and most of the marks under Brian Kelly &mdash; are
-          better across the board, except of course for the few teams who have reached the heights
-          of 13-0 and 14-0. No team has ever achieved a 15-0 record, although it is possible for
-          those teams who sometimes schedule an extra 13th regular season game.
+          Notre Dame's historical numbers &mdash; and most of the marks under Brian Kelly &mdash;
+          are better across the board, except of course for the few teams who have reached the
+          heights of 13-0 and 14-0. No team has ever achieved a 15-0 record, although it is possible
+          for those teams who sometimes schedule an extra 13th regular season game or play in a
+          conference championship game.
         </P>
 
         <P>
