@@ -6,7 +6,11 @@
     "location": {
       "city": "Dublin",
       "country": "Ireland",
-      "stadium": "Aviva Stadium"
+      "stadium": "Aviva Stadium",
+      "coordinates": [
+        53.335065,
+        -6.228575
+      ]
     },
     "opponentId": "NAVY"
   },
@@ -16,7 +20,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "ARK"
   },
@@ -26,7 +34,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WMU"
   },
@@ -36,7 +48,11 @@
     "location": {
       "city": "Charlotte",
       "state": "NC",
-      "stadium": "Bank of America Stadium"
+      "stadium": "Bank of America Stadium",
+      "coordinates": [
+        35.225688,
+        -80.852879
+      ]
     },
     "opponentId": "WAKE"
   },
@@ -47,7 +63,11 @@
     "location": {
       "city": "Green Bay",
       "state": "WI",
-      "stadium": "Lambeau Field"
+      "stadium": "Lambeau Field",
+      "coordinates": [
+        44.501172,
+        -88.062262
+      ]
     },
     "opponentId": "WIS"
   },
@@ -57,7 +77,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN"
   },
@@ -67,7 +91,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT"
   },
@@ -77,7 +105,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "DUKE"
   },
@@ -87,7 +119,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "CLEM"
   },
@@ -97,7 +133,11 @@
     "location": {
       "city": "Atlanta",
       "state": "GA",
-      "stadium": "Bobby Dodd Stadium"
+      "stadium": "Bobby Dodd Stadium",
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
     },
     "opponentId": "GT"
   },
@@ -107,7 +147,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "LOU"
   },
@@ -117,7 +161,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC"
   }

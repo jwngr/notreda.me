@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "KAL",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MTU",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "WMU",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "Indianapolis",
       "state": "IN",
-      "stadium": "Washington Park"
+      "stadium": "Washington Park",
+      "coordinates": [
+        39.813797,
+        -86.115227
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -306,7 +326,11 @@
     "location": {
       "city": "West Point",
       "state": "NY",
-      "stadium": "The Plain"
+      "stadium": "The Plain",
+      "coordinates": [
+        41.392624,
+        -73.956769
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -366,7 +390,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -426,7 +454,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Stuart Field"
+      "stadium": "Stuart Field",
+      "coordinates": [
+        28.01244,
+        -82.42516
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -485,7 +517,11 @@
     "date": "11/27/1919",
     "location": {
       "city": "Sioux City",
-      "state": "IA"
+      "state": "IA",
+      "coordinates": [
+        42.49561,
+        -96.405589
+      ]
     },
     "opponentId": "MORN",
     "score": {

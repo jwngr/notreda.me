@@ -6,7 +6,11 @@
     "location": {
       "city": "Madison",
       "state": "WI",
-      "stadium": "Camp Randall Stadium"
+      "stadium": "Camp Randall Stadium",
+      "coordinates": [
+        43.069885,
+        -89.412619
+      ]
     },
     "opponentId": "WIS",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IO-PF",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "Champaign",
       "state": "IL",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        40.099167,
+        -88.235833
+      ]
     },
     "opponentId": "ILL",
     "score": {
@@ -314,7 +334,11 @@
     "location": {
       "city": "Cleveland",
       "state": "OH",
-      "stadium": "Municipal Stadium"
+      "stadium": "Cleveland Municipal Stadium",
+      "coordinates": [
+        41.506005,
+        -81.699666
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -379,7 +403,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -447,7 +475,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -515,7 +547,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -580,7 +616,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -646,9 +686,13 @@
     "isHomeGame": false,
     "date": "12/05/1942",
     "location": {
-      "city": "North Chicago",
+      "city": "Chicago",
       "state": "IL",
-      "stadium": "Soldier Field"
+      "stadium": "Soldier Field",
+      "coordinates": [
+        41.862105,
+        -87.616721
+      ]
     },
     "opponentId": "GRTLK",
     "score": {

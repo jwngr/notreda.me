@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "KAL",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "WMU",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "VALPO",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "West Point",
       "state": "NY",
-      "stadium": "The Plain"
+      "stadium": "The Plain",
+      "coordinates": [
+        41.392624,
+        -73.956769
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -306,7 +326,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -365,7 +389,11 @@
     "date": "11/13/1920",
     "location": {
       "city": "Indianapolis",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        39.768452,
+        -86.156212
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -425,7 +453,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Northwestern Field"
+      "stadium": "Northwestern Field",
+      "coordinates": [
+        42.066395,
+        -87.690927
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -485,7 +517,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Old College Field"
+      "stadium": "Old College Field",
+      "coordinates": [
+        42.74688,
+        -84.4837
+      ]
     },
     "opponentId": "MSU",
     "score": {

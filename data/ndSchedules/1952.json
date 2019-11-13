@@ -6,7 +6,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "Franklin Field"
+      "stadium": "Franklin Field",
+      "coordinates": [
+        39.950122,
+        -75.190006
+      ]
     },
     "opponentId": "PENN",
     "score": {
@@ -74,7 +78,11 @@
     "location": {
       "city": "Austin",
       "state": "TX",
-      "stadium": "Texas Memorial Stadium"
+      "stadium": "Texas Memorial Stadium",
+      "coordinates": [
+        30.282861,
+        -97.733119
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -142,7 +150,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -207,7 +219,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -272,7 +288,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -337,7 +357,11 @@
     "location": {
       "city": "Cleveland",
       "state": "OH",
-      "stadium": "Municipal Stadium"
+      "stadium": "Cleveland Municipal Stadium",
+      "coordinates": [
+        41.506005,
+        -81.699666
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -402,7 +426,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -470,7 +498,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Macklin Stadium"
+      "stadium": "Macklin Stadium",
+      "coordinates": [
+        42.728056,
+        -84.484722
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -538,7 +570,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -603,7 +639,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {

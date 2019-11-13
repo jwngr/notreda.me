@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "KU",
     "score": {
@@ -65,7 +69,11 @@
     "date": "10/05/1935",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "coordinates": [
+        40.438739,
+        -80.00268
+      ]
     },
     "opponentId": "CAR",
     "score": {
@@ -125,7 +133,11 @@
     "location": {
       "city": "Madison",
       "state": "WI",
-      "stadium": "Camp Randall Stadium"
+      "stadium": "Camp Randall Stadium",
+      "coordinates": [
+        43.069885,
+        -89.412619
+      ]
     },
     "opponentId": "WIS",
     "score": {
@@ -185,7 +197,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -245,7 +261,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Municipal Stadium"
+      "stadium": "Municipal Stadium",
+      "coordinates": [
+        39.329444,
+        -76.601389
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -305,7 +325,11 @@
     "location": {
       "city": "Columbus",
       "state": "OH",
-      "stadium": "Ohio Stadium"
+      "stadium": "Ohio Stadium",
+      "coordinates": [
+        40.001667,
+        -83.019722
+      ]
     },
     "opponentId": "OSU",
     "score": {
@@ -365,7 +389,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -425,7 +453,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -485,7 +517,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {

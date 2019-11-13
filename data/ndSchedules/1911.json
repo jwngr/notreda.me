@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ONU",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "VIA",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "BUT",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "L-IL",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Forbes Field"
+      "stadium": "Forbes Field",
+      "coordinates": [
+        40.44118,
+        -79.95255
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -306,7 +326,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "SBON",
     "score": {
@@ -365,7 +389,11 @@
     "date": "11/20/1911",
     "location": {
       "city": "Crawfordsville",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        40.04286,
+        -86.90334
+      ]
     },
     "opponentId": "WAB",
     "score": {
@@ -424,7 +452,11 @@
     "date": "11/30/1911",
     "location": {
       "city": "Milwaukee",
-      "state": "WI"
+      "state": "WI",
+      "coordinates": [
+        43.041069,
+        -87.909416
+      ]
     },
     "opponentId": "MARQ",
     "score": {

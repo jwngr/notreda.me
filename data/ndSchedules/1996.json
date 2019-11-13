@@ -6,7 +6,11 @@
     "location": {
       "city": "Nashville",
       "state": "TN",
-      "stadium": "Vanderbilt Stadium"
+      "stadium": "Vanderbilt Stadium",
+      "coordinates": [
+        36.144167,
+        -86.808889
+      ]
     },
     "opponentId": "VANDY",
     "score": {
@@ -73,7 +77,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -140,7 +148,11 @@
     "location": {
       "city": "Austin",
       "state": "TX",
-      "stadium": "Darrell K Royal - Texas Memorial Stadium"
+      "stadium": "Darrell K Royal - Texas Memorial Stadium",
+      "coordinates": [
+        30.282861,
+        -97.733119
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -210,7 +222,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OSU",
     "score": {
@@ -280,7 +296,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WASH",
     "score": {
@@ -350,7 +370,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -418,7 +442,11 @@
     "location": {
       "city": "Dublin",
       "country": "Ireland",
-      "stadium": "Croke Park"
+      "stadium": "Croke Park",
+      "coordinates": [
+        53.360552,
+        -6.251466
+      ]
     },
     "nickname": "Shamrock Classic",
     "opponentId": "NAVY",
@@ -486,7 +514,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -553,7 +585,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -620,7 +656,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "RUTG",
     "score": {
@@ -687,7 +727,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {

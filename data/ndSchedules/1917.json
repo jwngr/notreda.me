@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "KAL",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Madison",
       "state": "WI",
-      "stadium": "Camp Randall Stadium"
+      "stadium": "Camp Randall Stadium",
+      "coordinates": [
+        43.069885,
+        -89.412619
+      ]
     },
     "opponentId": "WIS",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "SD",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "West Point",
       "state": "NY",
-      "stadium": "The Plain"
+      "stadium": "The Plain",
+      "coordinates": [
+        41.392624,
+        -73.956769
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -305,7 +325,11 @@
     "date": "11/10/1917",
     "location": {
       "city": "Sioux City",
-      "state": "IA"
+      "state": "IA",
+      "coordinates": [
+        42.49561,
+        -96.405589
+      ]
     },
     "opponentId": "MORN",
     "score": {
@@ -365,7 +389,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -425,7 +453,11 @@
     "location": {
       "city": "Washington",
       "state": "PA",
-      "stadium": "Cameron Stadium"
+      "stadium": "Cameron Stadium",
+      "coordinates": [
+        40.164321,
+        -80.245765
+      ]
     },
     "opponentId": "W&J",
     "score": {

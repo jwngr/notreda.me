@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "OLIV",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "AKR",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Old College Field"
+      "stadium": "Old College Field",
+      "coordinates": [
+        42.74688,
+        -84.4837
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -185,7 +197,11 @@
     "date": "11/12/1910",
     "location": {
       "city": "Terre Haute",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        39.46648,
+        -87.41258
+      ]
     },
     "opponentId": "ROSE",
     "score": {
@@ -245,7 +261,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ONU",
     "score": {
@@ -304,7 +324,11 @@
     "date": "11/24/1910",
     "location": {
       "city": "Milwaukee",
-      "state": "WI"
+      "state": "WI",
+      "coordinates": [
+        43.041069,
+        -87.909416
+      ]
     },
     "opponentId": "MARQ",
     "score": {

@@ -5,7 +5,11 @@
     "location": {
       "city": "Tallahassee",
       "state": "FL",
-      "stadium": "Doak Campbell Stadium"
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU"
   },
@@ -15,7 +19,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TOL"
   },
@@ -25,7 +33,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR"
   },
@@ -36,7 +48,11 @@
     "location": {
       "city": "Chicago",
       "state": "IL",
-      "stadium": "Soldier Field"
+      "stadium": "Soldier Field",
+      "coordinates": [
+        41.862105,
+        -87.616721
+      ]
     },
     "opponentId": "WIS"
   },
@@ -46,7 +62,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "CINCY"
   },
@@ -56,7 +76,11 @@
     "location": {
       "city": "Blacksburg",
       "state": "VA",
-      "stadium": "Lane Stadium"
+      "stadium": "Lane Stadium",
+      "coordinates": [
+        37.219885,
+        -80.418311
+      ]
     },
     "opponentId": "VT"
   },
@@ -66,7 +90,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC"
   },
@@ -76,7 +104,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC"
   },
@@ -86,7 +118,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY"
   },
@@ -96,7 +132,11 @@
     "location": {
       "city": "Charlottesville",
       "state": "VA",
-      "stadium": "Scott Stadium"
+      "stadium": "Scott Stadium",
+      "coordinates": [
+        38.031255,
+        -78.513484
+      ]
     },
     "opponentId": "UVA"
   },
@@ -106,7 +146,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT"
   },
@@ -114,9 +158,13 @@
     "isHomeGame": false,
     "date": "11/27/2021",
     "location": {
-      "city": "Palo Alto",
+      "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN"
   }

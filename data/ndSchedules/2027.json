@@ -5,7 +5,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR"
   },
@@ -15,7 +19,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT"
   },
@@ -25,7 +33,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "VT"
   },
@@ -35,7 +47,11 @@
     "location": {
       "city": "Clemson",
       "state": "SC",
-      "stadium": "Clemson Memorial Stadium"
+      "stadium": "Clemson Memorial Stadium",
+      "coordinates": [
+        34.678643,
+        -82.84322
+      ]
     },
     "opponentId": "CLEM"
   },
@@ -45,7 +61,11 @@
     "location": {
       "city": "Durham",
       "state": "NC",
-      "stadium": "Wallace Wade Stadium"
+      "stadium": "Wallace Wade Stadium",
+      "coordinates": [
+        35.995208,
+        -78.941782
+      ]
     },
     "opponentId": "DUKE"
   },
@@ -55,7 +75,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU"
   },
@@ -65,7 +89,11 @@
     "location": {
       "city": "Winston-Salem",
       "state": "NC",
-      "stadium": "BB&T Field"
+      "stadium": "BB&T Field",
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
     },
     "opponentId": "WAKE"
   }

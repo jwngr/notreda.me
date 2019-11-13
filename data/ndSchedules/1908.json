@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "HILLS",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "FRA",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Ferry Field"
+      "stadium": "Ferry Field",
+      "coordinates": [
+        42.28426,
+        -83.79831
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "CHI-P&S",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ONU",
     "score": {
@@ -305,7 +325,11 @@
     "date": "11/07/1908",
     "location": {
       "city": "Indianapolis",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        39.768452,
+        -86.156212
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -364,7 +388,11 @@
     "date": "11/13/1908",
     "location": {
       "city": "Crawfordsville",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        40.04286,
+        -86.90334
+      ]
     },
     "opponentId": "WAB",
     "score": {
@@ -424,7 +452,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "VIA",
     "score": {
@@ -483,7 +515,11 @@
     "date": "11/26/1908",
     "location": {
       "city": "Milwaukee",
-      "state": "WI"
+      "state": "WI",
+      "coordinates": [
+        43.041069,
+        -87.909416
+      ]
     },
     "opponentId": "MARQ",
     "score": {

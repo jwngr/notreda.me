@@ -5,7 +5,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "coverage": "NBC",
@@ -105,7 +109,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BALL",
     "coverage": "NBC",
@@ -201,7 +209,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "VANDY",
     "coverage": "NBC",
@@ -296,9 +308,13 @@
     "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
     "time": "12:00 PM",
     "location": {
-      "city": "Salem",
+      "city": "Winston-Salem",
       "state": "NC",
-      "stadium": "BB&T Field"
+      "stadium": "BB&T Field",
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
     },
     "opponentId": "WAKE",
     "coverage": "ABC",
@@ -394,7 +410,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "coverage": "NBC",
@@ -494,7 +514,11 @@
     "location": {
       "city": "Blacksburg",
       "state": "VA",
-      "stadium": "Lane Stadium"
+      "stadium": "Lane Stadium",
+      "coordinates": [
+        37.219885,
+        -80.418311
+      ]
     },
     "opponentId": "VT",
     "coverage": "ABC",
@@ -594,7 +618,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "coverage": "NBC",
@@ -690,7 +718,11 @@
     "location": {
       "city": "San Diego",
       "state": "CA",
-      "stadium": "Qualcomm Stadium"
+      "stadium": "Qualcomm Stadium",
+      "coordinates": [
+        32.783058,
+        -117.119851
+      ]
     },
     "opponentId": "NAVY",
     "coverage": "CBS",
@@ -787,7 +819,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Ryan Field"
+      "stadium": "Ryan Field",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "coverage": "ESPN",
@@ -884,7 +920,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "FSU",
     "coverage": "NBC",
@@ -983,7 +1023,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "SYR",
     "coverage": "NBC",
@@ -1086,7 +1130,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "coverage": "ABC",
@@ -1184,9 +1232,13 @@
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
     "coverage": "ESPN",
     "location": {
-      "city": "Dallas",
+      "city": "Arlington",
       "state": "TX",
-      "stadium": "AT&T Stadium"
+      "stadium": "AT&T Stadium",
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "CLEM",
     "rankings": {

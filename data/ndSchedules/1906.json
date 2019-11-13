@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "FRA",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "HILLS",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "CHI-P&S",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Stuart Field"
+      "stadium": "Stuart Field",
+      "coordinates": [
+        28.01244,
+        -82.42516
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -305,7 +325,11 @@
     "date": "11/10/1906",
     "location": {
       "city": "Indianapolis",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        39.768452,
+        -86.156212
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -365,7 +389,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "BEL",
     "score": {

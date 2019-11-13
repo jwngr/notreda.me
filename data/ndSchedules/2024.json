@@ -5,7 +5,11 @@
     "location": {
       "city": "College Station",
       "state": "TX",
-      "stadium": "Kyle Field"
+      "stadium": "Kyle Field",
+      "coordinates": [
+        30.609883,
+        -96.340544
+      ]
     },
     "opponentId": "TA&M"
   },
@@ -15,7 +19,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR"
   },
@@ -25,7 +33,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN"
   },
@@ -35,7 +47,11 @@
     "location": {
       "city": "Atlanta",
       "state": "GA",
-      "stadium": "Bobby Dodd Stadium"
+      "stadium": "Bobby Dodd Stadium",
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
     },
     "opponentId": "GT"
   },
@@ -45,7 +61,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UVA"
   },
@@ -55,7 +75,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MIAMI"
   },
@@ -65,7 +89,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "FSU"
   },
@@ -81,7 +109,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC"
   }

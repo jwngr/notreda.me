@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "CASE",
     "score": {
@@ -65,7 +69,11 @@
     "date": "10/07/1916",
     "location": {
       "city": "Cleveland",
-      "state": "OH"
+      "state": "OH",
+      "coordinates": [
+        41.496751,
+        -81.693768
+      ]
     },
     "opponentId": "CASE",
     "score": {
@@ -125,7 +133,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "HASK",
     "score": {
@@ -185,7 +197,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "WAB",
     "score": {
@@ -245,7 +261,11 @@
     "location": {
       "city": "West Point",
       "state": "NY",
-      "stadium": "The Plain"
+      "stadium": "The Plain",
+      "coordinates": [
+        41.392624,
+        -73.956769
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -304,7 +324,11 @@
     "date": "11/11/1916",
     "location": {
       "city": "Sioux Falls",
-      "state": "SD"
+      "state": "SD",
+      "coordinates": [
+        43.541686,
+        -96.732403
+      ]
     },
     "opponentId": "SD",
     "score": {
@@ -364,7 +388,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Old College Field"
+      "stadium": "Old College Field",
+      "coordinates": [
+        42.74688,
+        -84.4837
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -424,7 +452,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ALMA",
     "score": {
@@ -484,7 +516,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {

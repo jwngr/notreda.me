@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ALMA",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "HASK",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "SD",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "West Point",
       "state": "NY",
-      "stadium": "The Plain"
+      "stadium": "The Plain",
+      "coordinates": [
+        41.392624,
+        -73.956769
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -305,7 +325,11 @@
     "date": "11/13/1915",
     "location": {
       "city": "Omaha",
-      "state": "NE"
+      "state": "NE",
+      "coordinates": [
+        41.250907,
+        -95.938403
+      ]
     },
     "opponentId": "CREI",
     "score": {
@@ -365,7 +389,11 @@
     "location": {
       "city": "Austin",
       "state": "TX",
-      "stadium": "Clark Field"
+      "stadium": "Clark Field",
+      "coordinates": [
+        30.28062,
+        -97.735082
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -425,7 +453,11 @@
     "location": {
       "city": "Houston",
       "state": "TX",
-      "stadium": "Rice Field"
+      "stadium": "Rice Field",
+      "coordinates": [
+        29.716198,
+        -95.409291
+      ]
     },
     "opponentId": "RICE",
     "score": {

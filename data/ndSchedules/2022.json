@@ -5,7 +5,11 @@
     "location": {
       "city": "Columbus",
       "state": "OH",
-      "stadium": "Ohio Stadium"
+      "stadium": "Ohio Stadium",
+      "coordinates": [
+        40.001667,
+        -83.019722
+      ]
     },
     "opponentId": "OSU"
   },
@@ -15,7 +19,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN"
   },
@@ -25,7 +33,11 @@
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
-      "stadium": "Kenan Memorial Stadium"
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC"
   },
@@ -35,7 +47,11 @@
     "location": {
       "city": "Syracuse",
       "state": "NY",
-      "stadium": "Carrier Dome"
+      "stadium": "Carrier Dome",
+      "coordinates": [
+        43.036062,
+        -76.136434
+      ]
     },
     "opponentId": "SYR"
   },
@@ -45,7 +61,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC"
   },
@@ -55,7 +75,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "CLEM"
   },
@@ -71,7 +95,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC"
   }

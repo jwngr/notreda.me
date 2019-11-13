@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "LAK",
     "score": {
@@ -125,7 +133,11 @@
     "date": "10/18/1902",
     "location": {
       "city": "Toledo",
-      "state": "OH"
+      "state": "OH",
+      "coordinates": [
+        -89.03361,
+        -83.535721
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -184,7 +196,11 @@
     "date": "10/25/1902",
     "location": {
       "city": "Bloomington",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        39.166592,
+        -86.534889
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -243,7 +259,11 @@
     "date": "11/01/1902",
     "location": {
       "city": "Columbus",
-      "state": "OH"
+      "state": "OH",
+      "coordinates": [
+        39.961178,
+        -82.998795
+      ]
     },
     "opponentId": "OH-M",
     "score": {
@@ -302,7 +322,11 @@
     "date": "11/08/1902",
     "location": {
       "city": "Galesburg",
-      "state": "IL"
+      "state": "IL",
+      "coordinates": [
+        40.947498,
+        -90.37249
+      ]
     },
     "opponentId": "KNOX",
     "score": {
@@ -362,7 +386,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "AM-M",
     "score": {
@@ -422,7 +450,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "DEP",
     "score": {
@@ -481,7 +513,11 @@
     "date": "11/27/1902",
     "location": {
       "city": "West Lafayette",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        40.454769,
+        -86.915703
+      ]
     },
     "opponentId": "PUR",
     "score": {
