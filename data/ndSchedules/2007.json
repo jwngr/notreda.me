@@ -79,7 +79,11 @@
     "sportsReferenceGameId": "2007-09-01-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.6
+    }
   },
   {
     "result": "L",
@@ -166,6 +170,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 72.21
     }
   },
   {
@@ -248,7 +256,11 @@
     "sportsReferenceGameId": "2007-09-15-michigan",
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.17
+    }
   },
   {
     "result": "L",
@@ -330,7 +342,11 @@
     "sportsReferenceGameId": "2007-09-22-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.6
+    }
   },
   {
     "result": "L",
@@ -412,7 +428,11 @@
     "sportsReferenceGameId": "2007-09-29-purdue",
     "time": "12:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 80.53
+    }
   },
   {
     "result": "W",
@@ -494,7 +514,11 @@
     "sportsReferenceGameId": "2007-10-06-ucla",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.32
+    }
   },
   {
     "result": "L",
@@ -581,6 +605,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.79
     }
   },
   {
@@ -669,6 +697,10 @@
         "ap": 13,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 68.96
     }
   },
   {
@@ -758,7 +790,11 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "numOvertimes": 3
+    "numOvertimes": 3,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 51.48
+    }
   },
   {
     "result": "L",
@@ -840,7 +876,11 @@
     "sportsReferenceGameId": "2007-11-10-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.62
+    }
   },
   {
     "result": "W",
@@ -922,7 +962,11 @@
     "sportsReferenceGameId": "2007-11-17-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "rain",
+      "temperature": 39.29
+    }
   },
   {
     "result": "W",
@@ -1004,6 +1048,10 @@
     "sportsReferenceGameId": "2007-11-24-stanford",
     "time": "3:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 60.64
+    }
   }
 ]

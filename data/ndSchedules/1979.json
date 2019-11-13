@@ -71,6 +71,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.86
     }
   },
   {
@@ -144,6 +148,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "temperature": 67.38,
+      "icon": "unknown"
     }
   },
   {
@@ -217,6 +225,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 81.6
     }
   },
   {
@@ -287,6 +299,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 51.55
     }
   },
   {
@@ -357,6 +373,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 59.03
     }
   },
   {
@@ -431,6 +451,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 75.73
     }
   },
   {
@@ -501,6 +525,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 63.36
     }
   },
   {
@@ -571,6 +599,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "temperature": 44.49,
+      "icon": "unknown"
     }
   },
   {
@@ -641,6 +673,10 @@
       "away": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.26
     }
   },
   {
@@ -711,6 +747,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 65.45
     }
   },
   {
@@ -777,6 +817,10 @@
       "home": []
     },
     "time": "11:00 PM",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "weather": {
+      "temperature": 50.83,
+      "icon": "unknown"
+    }
   }
 ]

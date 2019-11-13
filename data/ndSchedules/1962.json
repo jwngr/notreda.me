@@ -61,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 60.97
+    }
   },
   {
     "result": "L",
@@ -125,7 +129,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "fog",
+      "temperature": 49.07
+    }
   },
   {
     "result": "L",
@@ -189,7 +197,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 40.98
+    }
   },
   {
     "result": "L",
@@ -253,7 +265,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.14
+    }
   },
   {
     "result": "L",
@@ -322,6 +338,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 36.03
     }
   },
   {
@@ -386,7 +406,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.97
+    }
   },
   {
     "result": "W",
@@ -450,7 +474,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 41.14
+    }
   },
   {
     "result": "W",
@@ -514,7 +542,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "rain",
+      "temperature": 37.17
+    }
   },
   {
     "result": "W",
@@ -578,7 +610,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 38.07
+    }
   },
   {
     "result": "L",
@@ -647,6 +683,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.94
     }
   }
 ]

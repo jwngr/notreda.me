@@ -67,6 +67,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 81.03
     }
   },
   {
@@ -132,7 +136,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.05
+    }
   },
   {
     "result": "W",
@@ -197,7 +205,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 80.9
+    }
   },
   {
     "result": "W",
@@ -268,6 +280,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 54.32
     }
   },
   {
@@ -342,6 +358,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 61.26
     }
   },
   {
@@ -408,7 +428,11 @@
     },
     "time": "12:20 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "fog",
+      "temperature": 62.53
+    }
   },
   {
     "result": "L",
@@ -479,6 +503,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 50.93
     }
   },
   {
@@ -550,6 +578,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 82.84
     }
   },
   {
@@ -616,7 +648,11 @@
     },
     "time": "12:10 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49.92
+    }
   },
   {
     "result": "W",
@@ -682,7 +718,11 @@
     },
     "time": "12:20 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 42.41
+    }
   },
   {
     "result": "W",
@@ -753,6 +793,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 55.23
     }
   },
   {
@@ -839,6 +883,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.97
     }
   }
 ]

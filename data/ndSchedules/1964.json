@@ -61,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Ara Parseghian"
+    "headCoach": "Ara Parseghian",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 60.96
+    }
   },
   {
     "result": "W",
@@ -130,6 +134,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 44.2
     }
   },
   {
@@ -199,6 +207,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "temperature": 49.67,
+      "icon": "unknown"
     }
   },
   {
@@ -268,6 +280,10 @@
       "home": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.09
     }
   },
   {
@@ -337,6 +353,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 33.21
     }
   },
   {
@@ -406,6 +426,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.83
     }
   },
   {
@@ -475,6 +499,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 39.62
     }
   },
   {
@@ -544,6 +572,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 36.11
     }
   },
   {
@@ -613,6 +645,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "snow",
+      "temperature": 21.14
     }
   },
   {
@@ -682,6 +718,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.58
     }
   }
 ]

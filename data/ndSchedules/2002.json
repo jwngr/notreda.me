@@ -80,6 +80,10 @@
       "home": {
         "ap": 21
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 63.96
     }
   },
   {
@@ -163,6 +167,10 @@
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 90.41
     }
   },
   {
@@ -249,6 +257,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 88.17
     }
   },
   {
@@ -332,6 +344,10 @@
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.56
     }
   },
   {
@@ -415,6 +431,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62.75
     }
   },
   {
@@ -498,6 +518,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66.44
     }
   },
   {
@@ -585,6 +609,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 42.15
     }
   },
   {
@@ -673,6 +701,10 @@
         "ap": 11,
         "bcs": 12
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 75.11
     }
   },
   {
@@ -757,6 +789,10 @@
         "ap": 4,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 40.35
     }
   },
   {
@@ -841,6 +877,10 @@
         "ap": 9,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.97
     }
   },
   {
@@ -925,6 +965,10 @@
         "ap": 8,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 44.91
     }
   },
   {
@@ -1013,6 +1057,10 @@
         "ap": 6,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 55.69
     }
   },
   {
@@ -1102,6 +1150,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "temperature": 69.29,
+      "icon": "unknown"
     }
   }
 ]

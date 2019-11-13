@@ -69,6 +69,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 85.57
     }
   },
   {
@@ -143,6 +147,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 85.16
     }
   },
   {
@@ -217,6 +225,10 @@
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "temperature": 87.65,
+      "icon": "unknown"
     }
   },
   {
@@ -288,6 +300,10 @@
       "home": {
         "ap": 24
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.36
     }
   },
   {
@@ -359,6 +375,10 @@
       "away": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.07
     }
   },
   {
@@ -425,7 +445,11 @@
     },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 64.54
+    }
   },
   {
     "result": "W",
@@ -491,7 +515,11 @@
     },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "rain",
+      "temperature": 64.77
+    }
   },
   {
     "result": "W",
@@ -557,7 +585,11 @@
     },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 73.56
+    }
   },
   {
     "result": "L",
@@ -632,6 +664,10 @@
         "ap": 4,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 54.52
     }
   },
   {
@@ -698,7 +734,11 @@
     },
     "time": "3:30 PM",
     "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 52.25
+    }
   },
   {
     "result": "L",
@@ -769,6 +809,10 @@
       "away": {
         "ap": 25
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 43.65
     }
   },
   {
@@ -835,6 +879,10 @@
     },
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.03
+    }
   }
 ]

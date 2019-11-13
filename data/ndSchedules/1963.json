@@ -66,6 +66,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.08
     }
   },
   {
@@ -199,6 +203,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 53.19
     }
   },
   {
@@ -263,7 +271,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Hugh Devore"
+    "headCoach": "Hugh Devore",
+    "weather": {
+      "icon": "rain",
+      "temperature": 61.12
+    }
   },
   {
     "result": "L",
@@ -327,7 +339,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Hugh Devore"
+    "headCoach": "Hugh Devore",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 57.25
+    }
   },
   {
     "result": "L",
@@ -396,6 +412,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 40.06
     }
   },
   {
@@ -465,6 +485,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 37.17
     }
   },
   {
@@ -534,6 +558,10 @@
       "home": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.05
     }
   },
   {
@@ -598,6 +626,10 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Hugh Devore"
+    "headCoach": "Hugh Devore",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.97
+    }
   }
 ]

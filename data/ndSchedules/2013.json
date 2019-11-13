@@ -85,6 +85,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.4
     }
   },
   {
@@ -175,6 +179,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 69.24
     }
   },
   {
@@ -263,6 +271,10 @@
       "away": {
         "ap": 21
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 53.75
     }
   },
   {
@@ -351,6 +363,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.96
     }
   },
   {
@@ -441,6 +457,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79.02
     }
   },
   {
@@ -530,6 +550,10 @@
       "away": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 52.7
     }
   },
   {
@@ -613,7 +637,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-10-19-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.98
+    }
   },
   {
     "result": "W",
@@ -696,7 +724,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-10-26-air-force",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 52.78
+    }
   },
   {
     "result": "W",
@@ -784,6 +816,10 @@
       "home": {
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.14
     }
   },
   {
@@ -872,6 +908,10 @@
         "ap": 24,
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.87
     }
   },
   {
@@ -955,7 +995,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-11-23-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 22.2
+    }
   },
   {
     "result": "L",
@@ -1047,6 +1091,10 @@
         "ap": 8,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54.29
     }
   },
   {
@@ -1137,6 +1185,10 @@
       "home": {
         "ap": 25
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 53.57
     }
   }
 ]

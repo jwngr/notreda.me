@@ -69,6 +69,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 57.02
     }
   },
   {
@@ -141,6 +145,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.72
     }
   },
   {
@@ -210,6 +218,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 35.01
     }
   },
   {
@@ -279,6 +291,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "temperature": 28.85,
+      "icon": "unknown"
     }
   },
   {
@@ -348,6 +364,10 @@
       "home": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 34.42
     }
   },
   {
@@ -417,6 +437,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.68
     }
   },
   {
@@ -489,6 +513,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 35.82
     }
   },
   {
@@ -561,6 +589,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 50.1
     }
   },
   {
@@ -630,6 +662,10 @@
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "temperature": 30.8,
+      "icon": "unknown"
     }
   },
   {
@@ -702,6 +738,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 11
     }
   }
 ]

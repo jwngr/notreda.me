@@ -91,7 +91,11 @@
         "coaches": 9
       }
     },
-    "numOvertimes": 2
+    "numOvertimes": 2,
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 78.89
+    }
   },
   {
     "result": "W",
@@ -180,6 +184,10 @@
         "ap": 18,
         "coaches": 21
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.32
     }
   },
   {
@@ -273,6 +281,10 @@
         "ap": 12,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.49
     }
   },
   {
@@ -356,7 +368,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-09-24-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 74.49
+    }
   },
   {
     "result": "W",
@@ -439,7 +455,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-01-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.59
+    }
   },
   {
     "result": "L",
@@ -522,7 +542,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-08-north-carolina-state",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "rain",
+      "temperature": 65.74
+    }
   },
   {
     "result": "L",
@@ -605,7 +629,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-15-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 67.8
+    }
   },
   {
     "result": "W",
@@ -688,7 +716,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-29-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 67.92
+    }
   },
   {
     "result": "L",
@@ -771,7 +803,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-05-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 72.13
+    }
   },
   {
     "result": "W",
@@ -855,7 +891,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-12-army",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 70.69
+    }
   },
   {
     "result": "L",
@@ -938,7 +978,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-19-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 36.41
+    }
   },
   {
     "result": "L",
@@ -1028,6 +1072,10 @@
         "coaches": 12,
         "cfbPlayoff": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53.52
     }
   }
 ]

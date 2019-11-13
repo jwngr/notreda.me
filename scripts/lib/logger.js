@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const red = chalk.bold.red;
 const black = chalk.bold.black;
 const green = chalk.bold.green;
-const orange = chalk.bold.orange;
+const orange = chalk.bold.yellow;
 
 const _log = (message, data, color) => {
   if (typeof data === 'undefined') {

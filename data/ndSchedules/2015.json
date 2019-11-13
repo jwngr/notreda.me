@@ -80,7 +80,11 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-05-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 70.94
+    }
   },
   {
     "result": "W",
@@ -169,6 +173,10 @@
         "ap": 9,
         "coaches": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.74
     }
   },
   {
@@ -262,6 +270,10 @@
         "ap": 14,
         "coaches": 16
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 65.06
     }
   },
   {
@@ -351,6 +363,10 @@
         "ap": 6,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 72.45
     }
   },
   {
@@ -444,6 +460,10 @@
         "ap": 12,
         "coaches": 11
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 63.05
     }
   },
   {
@@ -533,6 +553,10 @@
         "ap": 15,
         "coaches": 15
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62.84
     }
   },
   {
@@ -622,6 +646,10 @@
         "ap": 14,
         "coaches": 13
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 32.52
     }
   },
   {
@@ -715,6 +743,10 @@
         "ap": 21,
         "coaches": 22
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.44
     }
   },
   {
@@ -805,6 +837,10 @@
         "coaches": 9,
         "cfbPlayoff": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 54.3
     }
   },
   {
@@ -895,6 +931,10 @@
         "coaches": 9,
         "cfbPlayoff": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.54
     }
   },
   {
@@ -986,6 +1026,10 @@
         "coaches": 5,
         "cfbPlayoff": 4
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 34.52
     }
   },
   {
@@ -1081,6 +1125,10 @@
         "coaches": 12,
         "cfbPlayoff": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.63
     }
   },
   {
@@ -1178,6 +1226,10 @@
         "coaches": 5,
         "cfbPlayoff": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.1
     }
   }
 ]

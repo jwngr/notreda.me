@@ -79,7 +79,11 @@
     "sportsReferenceGameId": "2004-09-04-brigham-young",
     "time": "9:15 PM",
     "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.97
+    }
   },
   {
     "result": "W",
@@ -166,6 +170,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.27
     }
   },
   {
@@ -248,7 +256,11 @@
     "sportsReferenceGameId": "2004-09-18-michigan-state",
     "time": "7:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 58.18
+    }
   },
   {
     "result": "W",
@@ -330,7 +342,11 @@
     "sportsReferenceGameId": "2004-09-25-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.71
+    }
   },
   {
     "result": "L",
@@ -417,6 +433,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 55.86
     }
   },
   {
@@ -499,7 +519,11 @@
     "sportsReferenceGameId": "2004-10-09-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.86
+    }
   },
   {
     "result": "W",
@@ -586,6 +610,10 @@
       "away": {
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 59.9
     }
   },
   {
@@ -674,6 +702,10 @@
         "ap": 24,
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 65.49
     }
   },
   {
@@ -765,6 +797,10 @@
       "away": {
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 58.38
     }
   },
   {
@@ -853,6 +889,10 @@
         "ap": 24,
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 42.83
     }
   },
   {
@@ -941,6 +981,10 @@
         "ap": 1,
         "bcs": 1
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 55.97
     }
   },
   {
@@ -1025,6 +1069,10 @@
     "time": "9:45 PM",
     "coverage": "ESPN",
     "nickname": "Insight Bowl",
-    "headCoach": "Kent Baer"
+    "headCoach": "Kent Baer",
+    "weather": {
+      "icon": "rain",
+      "temperature": 57.26
+    }
   }
 ]

@@ -84,6 +84,10 @@
       "home": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 76.5
     }
   },
   {
@@ -166,7 +170,11 @@
     "sportsReferenceGameId": "2011-09-10-michigan",
     "time": "8:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 64.05
+    }
   },
   {
     "result": "W",
@@ -253,6 +261,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 67.95
     }
   },
   {
@@ -335,7 +347,11 @@
     "sportsReferenceGameId": "2011-09-24-pittsburgh",
     "time": "12:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.65
+    }
   },
   {
     "result": "W",
@@ -417,7 +433,11 @@
     "sportsReferenceGameId": "2011-10-01-purdue",
     "time": "8:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.03
+    }
   },
   {
     "result": "W",
@@ -499,7 +519,11 @@
     "sportsReferenceGameId": "2011-10-08-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79.05
+    }
   },
   {
     "result": "L",
@@ -581,7 +605,11 @@
     "sportsReferenceGameId": "2011-10-22-notre-dame",
     "time": "7:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.18
+    }
   },
   {
     "result": "W",
@@ -663,7 +691,11 @@
     "sportsReferenceGameId": "2011-10-29-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 48.63
+    }
   },
   {
     "result": "W",
@@ -745,7 +777,11 @@
     "sportsReferenceGameId": "2011-11-05-wake-forest",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 37.16
+    }
   },
   {
     "result": "W",
@@ -828,7 +864,11 @@
     "sportsReferenceGameId": "2011-11-12-maryland",
     "time": "7:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.87
+    }
   },
   {
     "result": "W",
@@ -915,6 +955,10 @@
       "home": {
         "ap": 24
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 51.79
     }
   },
   {
@@ -1007,6 +1051,10 @@
         "ap": 4,
         "bcs": 6
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52.1
     }
   },
   {
@@ -1096,6 +1144,10 @@
       "away": {
         "ap": 25
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52.96
     }
   }
 ]

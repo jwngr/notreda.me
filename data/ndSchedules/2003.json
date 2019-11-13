@@ -83,7 +83,11 @@
         "ap": 19
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.36
+    }
   },
   {
     "result": "L",
@@ -169,6 +173,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 74.43
     }
   },
   {
@@ -247,7 +255,11 @@
     "sportsReferenceGameId": "2003-09-20-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 70.57
+    }
   },
   {
     "result": "L",
@@ -330,6 +342,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 62.61
     }
   },
   {
@@ -413,6 +429,10 @@
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.43
     }
   },
   {
@@ -497,6 +517,10 @@
         "ap": 5,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.12
     }
   },
   {
@@ -575,7 +599,11 @@
     "sportsReferenceGameId": "2003-10-25-boston-college",
     "time": "12:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 55.16
+    }
   },
   {
     "result": "L",
@@ -659,6 +687,10 @@
         "ap": 5,
         "bcs": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.26
     }
   },
   {
@@ -737,7 +769,11 @@
     "sportsReferenceGameId": "2003-11-08-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 31.96
+    }
   },
   {
     "result": "W",
@@ -815,7 +851,11 @@
     "sportsReferenceGameId": "2003-11-15-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 39.88
+    }
   },
   {
     "result": "W",
@@ -893,7 +933,11 @@
     "sportsReferenceGameId": "2003-11-29-stanford",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 54
+    }
   },
   {
     "result": "L",
@@ -971,6 +1015,10 @@
     "sportsReferenceGameId": "2003-12-06-syracuse",
     "time": "1:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "fog",
+      "temperature": 21.07
+    }
   }
 ]

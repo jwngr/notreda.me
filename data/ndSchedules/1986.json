@@ -68,6 +68,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.42
     }
   },
   {
@@ -139,6 +143,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 65.55
     }
   },
   {
@@ -205,7 +213,11 @@
     },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.01
+    }
   },
   {
     "result": "L",
@@ -276,6 +288,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 87.14,
+      "icon": "unknown"
     }
   },
   {
@@ -342,7 +358,11 @@
     },
     "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.97
+    }
   },
   {
     "result": "W",
@@ -408,7 +428,11 @@
     },
     "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 58.23
+    }
   },
   {
     "result": "W",
@@ -474,7 +498,11 @@
     },
     "time": "7:00 PM",
     "coverage": "TBS",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.15
+    }
   },
   {
     "result": "W",
@@ -539,7 +567,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.82
+    }
   },
   {
     "result": "L",
@@ -610,6 +642,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 34.2
     }
   },
   {
@@ -681,6 +717,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 69.23
     }
   },
   {
@@ -752,6 +792,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 64.56
     }
   }
 ]

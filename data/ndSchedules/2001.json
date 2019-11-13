@@ -72,6 +72,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 59.14
     }
   },
   {
@@ -144,6 +148,10 @@
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.86
     }
   },
   {
@@ -211,7 +219,11 @@
     "sportsReferenceGameId": "2001-09-29-texas-am",
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.11
+    }
   },
   {
     "result": "W",
@@ -278,7 +290,11 @@
     "sportsReferenceGameId": "2001-10-06-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 48.03
+    }
   },
   {
     "result": "W",
@@ -345,7 +361,11 @@
     "sportsReferenceGameId": "2001-10-13-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "rain",
+      "temperature": 68.54
+    }
   },
   {
     "result": "W",
@@ -412,7 +432,11 @@
     "sportsReferenceGameId": "2001-10-20-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 67.33
+    }
   },
   {
     "result": "L",
@@ -479,7 +503,11 @@
     "sportsReferenceGameId": "2001-10-27-boston-college",
     "time": "7:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.86
+    }
   },
   {
     "result": "L",
@@ -552,6 +580,10 @@
         "ap": 7,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 59.68
     }
   },
   {
@@ -619,7 +651,11 @@
     "sportsReferenceGameId": "2001-11-17-notre-dame",
     "time": "1:00 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 51.4
+    }
   },
   {
     "result": "L",
@@ -692,6 +728,10 @@
         "ap": 13,
         "bcs": 10
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 48.03
     }
   },
   {
@@ -759,6 +799,10 @@
     "sportsReferenceGameId": "2001-12-01-purdue",
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "temperature": 40.69,
+      "icon": "unknown"
+    }
   }
 ]

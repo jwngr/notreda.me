@@ -96,6 +96,10 @@
         "home": "0-0",
         "away": "1-0"
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.55
     }
   },
   {
@@ -195,6 +199,10 @@
         "possession": "24:54",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75.44
     }
   },
   {
@@ -298,6 +306,10 @@
         "possession": "34:31",
         "fumbles": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 76.9
     }
   },
   {
@@ -401,6 +413,10 @@
         "possession": "26:28",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 67.75
     }
   },
   {
@@ -500,6 +516,10 @@
         "possession": "26:40",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63.45
     }
   },
   {
@@ -600,7 +620,11 @@
         10
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.88
+    }
   },
   {
     "isHomeGame": false,
@@ -703,7 +727,11 @@
         21
       ]
     },
-    "result": "L"
+    "result": "L",
+    "weather": {
+      "icon": "rain",
+      "temperature": 50.83
+    }
   },
   {
     "isHomeGame": true,
@@ -802,7 +830,11 @@
         7
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 43.2
+    }
   },
   {
     "isHomeGame": false,
@@ -902,7 +934,11 @@
         0
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 37.17
+    }
   },
   {
     "isHomeGame": true,

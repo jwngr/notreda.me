@@ -84,6 +84,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 75.95
     }
   },
   {
@@ -171,6 +175,10 @@
       "home": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.73
     }
   },
   {
@@ -259,6 +267,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.16
     }
   },
   {
@@ -346,6 +358,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 65.11
     }
   },
   {
@@ -436,6 +452,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 43.62
     }
   },
   {
@@ -523,6 +543,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 56.63
     }
   },
   {
@@ -613,6 +637,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.41
     }
   },
   {
@@ -701,6 +729,10 @@
         "ap": 6,
         "cfbPlayoff": 10
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 46.02
     }
   },
   {
@@ -793,6 +825,10 @@
         "ap": 11,
         "cfbPlayoff": 9
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 87.81
     }
   },
   {
@@ -884,7 +920,11 @@
         "cfbPlayoff": 18
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 28.45
+    }
   },
   {
     "result": "L",
@@ -971,6 +1011,10 @@
       "away": {
         "cfbPlayoff": 24
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 47.36
     }
   },
   {
@@ -1053,7 +1097,11 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-29-southern-california",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 70.33
+    }
   },
   {
     "result": "W",
@@ -1143,6 +1191,10 @@
         "ap": 22,
         "cfbPlayoff": 23
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 37.46
     }
   }
 ]

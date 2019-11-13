@@ -79,7 +79,11 @@
     "sportsReferenceGameId": "2008-09-06-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 71.97
+    }
   },
   {
     "result": "W",
@@ -161,7 +165,11 @@
     "sportsReferenceGameId": "2008-09-13-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "rain",
+      "temperature": 74.65
+    }
   },
   {
     "result": "L",
@@ -243,7 +251,11 @@
     "sportsReferenceGameId": "2008-09-20-michigan-state",
     "time": "3:30 PM",
     "coverage": "ABC / ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.79
+    }
   },
   {
     "result": "W",
@@ -325,7 +337,11 @@
     "sportsReferenceGameId": "2008-09-27-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 72.62
+    }
   },
   {
     "result": "W",
@@ -407,7 +423,11 @@
     "sportsReferenceGameId": "2008-10-04-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 58.79
+    }
   },
   {
     "result": "L",
@@ -494,6 +514,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.61
     }
   },
   {
@@ -576,7 +600,11 @@
     "sportsReferenceGameId": "2008-10-25-washington",
     "time": "8:00 PM",
     "coverage": "ESPN2",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 47.75
+    }
   },
   {
     "result": "L",
@@ -667,7 +695,11 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "numOvertimes": 4
+    "numOvertimes": 4,
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.3
+    }
   },
   {
     "result": "L",
@@ -749,7 +781,11 @@
     "sportsReferenceGameId": "2008-11-08-boston-college",
     "time": "8:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "rain",
+      "temperature": 58.38
+    }
   },
   {
     "result": "W",
@@ -831,7 +867,11 @@
     "sportsReferenceGameId": "2008-11-15-navy",
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "rain",
+      "temperature": 65.5
+    }
   },
   {
     "result": "L",
@@ -913,7 +953,11 @@
     "sportsReferenceGameId": "2008-11-22-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 25.09
+    }
   },
   {
     "result": "L",
@@ -1001,6 +1045,10 @@
         "ap": 5,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59.08
     }
   },
   {
@@ -1085,6 +1133,10 @@
     "time": "8:00 PM",
     "coverage": "ESPN",
     "nickname": "Hawaii Bowl",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 74.59
+    }
   }
 ]

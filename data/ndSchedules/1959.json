@@ -61,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "rain",
+      "temperature": 69.22
+    }
   },
   {
     "result": "L",
@@ -194,7 +198,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.03
+    }
   },
   {
     "result": "L",
@@ -258,7 +266,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 44.17
+    }
   },
   {
     "result": "L",
@@ -327,6 +339,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.07
     }
   },
   {
@@ -391,7 +407,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "rain",
+      "temperature": 51.21
+    }
   },
   {
     "result": "L",
@@ -460,6 +480,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 23.16
     }
   },
   {
@@ -524,7 +548,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.65
+    }
   },
   {
     "result": "W",
@@ -662,6 +690,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 19.19
     }
   }
 ]

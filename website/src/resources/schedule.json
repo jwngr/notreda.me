@@ -32534,6 +32534,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.44
       }
     },
     {
@@ -32603,6 +32607,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 59.44
       }
     },
     {
@@ -32672,6 +32680,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "temperature": 62.06,
+        "icon": "unknown"
       }
     },
     {
@@ -32810,6 +32822,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 52.56
       }
     },
     {
@@ -32874,7 +32890,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "rain",
+        "temperature": 42.82
+      }
     },
     {
       "result": "W",
@@ -32938,7 +32958,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 20.86
+      }
     },
     {
       "result": "T",
@@ -33002,7 +33026,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "temperature": 29.86,
+        "icon": "unknown"
+      }
     },
     {
       "result": "L",
@@ -33066,7 +33094,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.69
+      }
     }
   ],
   "1951": [
@@ -33137,6 +33169,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 34.42
       }
     },
     {
@@ -33206,6 +33242,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 67.91
       }
     },
     {
@@ -33275,6 +33315,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.15
       }
     },
     {
@@ -33339,7 +33383,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 41.09
+      }
     },
     {
       "result": "W",
@@ -33408,6 +33456,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.28
       }
     },
     {
@@ -33477,6 +33529,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 40.26
       }
     },
     {
@@ -33549,6 +33605,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 30.12
       }
     },
     {
@@ -33613,7 +33673,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 46.85
+      }
     },
     {
       "result": "T",
@@ -33677,7 +33741,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Frank Leahy"
+      "headCoach": "Frank Leahy",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 24.81
+      }
     },
     {
       "result": "W",
@@ -33746,6 +33814,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 52.84
       }
     }
   ],
@@ -33820,6 +33892,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 57.02
       }
     },
     {
@@ -33892,6 +33968,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 67.72
       }
     },
     {
@@ -33961,6 +34041,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 35.01
       }
     },
     {
@@ -34030,6 +34114,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "temperature": 28.85,
+        "icon": "unknown"
       }
     },
     {
@@ -34099,6 +34187,10 @@
         "home": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 34.42
       }
     },
     {
@@ -34168,6 +34260,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.68
       }
     },
     {
@@ -34240,6 +34336,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 35.82
       }
     },
     {
@@ -34312,6 +34412,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 50.1
       }
     },
     {
@@ -34381,6 +34485,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "temperature": 30.8,
+        "icon": "unknown"
       }
     },
     {
@@ -34453,6 +34561,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 11
       }
     }
   ],
@@ -34527,6 +34639,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 71.99
       }
     },
     {
@@ -34668,6 +34784,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.09
       }
     },
     {
@@ -34740,6 +34860,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 49.1
       }
     },
     {
@@ -34812,6 +34936,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 44.22
       }
     },
     {
@@ -34881,6 +35009,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "snow",
+        "temperature": 30.86
       }
     },
     {
@@ -34950,6 +35082,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 35.89
       }
     },
     {
@@ -35022,6 +35158,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 39.32
       }
     },
     {
@@ -35094,6 +35234,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 55.01
       }
     },
     {
@@ -35163,6 +35307,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 31.12
       }
     }
   ],
@@ -35237,6 +35385,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 62.37
       }
     },
     {
@@ -35309,6 +35461,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 68
       }
     },
     {
@@ -35378,6 +35534,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 52.6
       }
     },
     {
@@ -35447,6 +35607,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 41.34
       }
     },
     {
@@ -35519,6 +35683,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 48.11
       }
     },
     {
@@ -35588,6 +35756,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 33.9
       }
     },
     {
@@ -35657,6 +35829,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 34.91
       }
     },
     {
@@ -35801,6 +35977,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 34.15
       }
     },
     {
@@ -35870,6 +36050,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 47.66
       }
     }
   ],
@@ -35941,6 +36125,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 57.16
       }
     },
     {
@@ -36010,6 +36198,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.12
       }
     },
     {
@@ -36082,6 +36274,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 79.06
       }
     },
     {
@@ -36295,6 +36491,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.08
       }
     },
     {
@@ -36364,6 +36564,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 39.71
       }
     },
     {
@@ -36433,6 +36637,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 44.86
       }
     },
     {
@@ -36502,6 +36710,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "snow",
+        "temperature": 29.07
       }
     },
     {
@@ -36571,6 +36783,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.03
       }
     }
   ],
@@ -36642,6 +36858,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 82.18
       }
     },
     {
@@ -36711,6 +36931,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 51.21
       }
     },
     {
@@ -36780,6 +37004,10 @@
         "home": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 61.12
       }
     },
     {
@@ -36849,6 +37077,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 55.18
       }
     },
     {
@@ -36918,6 +37150,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 35.2
       }
     },
     {
@@ -36982,7 +37218,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Terry Brennan"
+      "headCoach": "Terry Brennan",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.06
+      }
     },
     {
       "result": "L",
@@ -37051,6 +37291,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 37.65
       }
     },
     {
@@ -37115,7 +37359,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Terry Brennan"
+      "headCoach": "Terry Brennan",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 21.14
+      }
     },
     {
       "result": "L",
@@ -37253,6 +37501,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 52.86
       }
     }
   ],
@@ -37388,6 +37640,10 @@
         "home": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 42.21
       }
     },
     {
@@ -37460,6 +37716,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 37.4
       }
     },
     {
@@ -37529,6 +37789,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 33.21
       }
     },
     {
@@ -37601,6 +37865,10 @@
         "away": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.07
       }
     },
     {
@@ -37742,6 +38010,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 50.03
       }
     },
     {
@@ -37814,6 +38086,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 24.2
       }
     },
     {
@@ -37883,6 +38159,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "snow",
+        "temperature": 29.07
       }
     },
     {
@@ -37952,6 +38232,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 49.94
       }
     }
   ],
@@ -38023,6 +38307,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 53.19
       }
     },
     {
@@ -38095,6 +38383,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 58.07
       }
     },
     {
@@ -38167,6 +38459,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.09
       }
     },
     {
@@ -38236,6 +38532,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.12
       }
     },
     {
@@ -38308,6 +38608,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 48.16
       }
     },
     {
@@ -38377,6 +38681,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.25
       }
     },
     {
@@ -38446,6 +38754,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 33.68
       }
     },
     {
@@ -38515,6 +38827,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 57.16
       }
     },
     {
@@ -38656,6 +38972,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.12
       }
     }
   ],
@@ -38722,7 +39042,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "rain",
+        "temperature": 69.22
+      }
     },
     {
       "result": "L",
@@ -38855,7 +39179,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 56.03
+      }
     },
     {
       "result": "L",
@@ -38919,7 +39247,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 44.17
+      }
     },
     {
       "result": "L",
@@ -38988,6 +39320,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.07
       }
     },
     {
@@ -39052,7 +39388,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "rain",
+        "temperature": 51.21
+      }
     },
     {
       "result": "L",
@@ -39121,6 +39461,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 23.16
       }
     },
     {
@@ -39185,7 +39529,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 55.65
+      }
     },
     {
       "result": "W",
@@ -39323,6 +39671,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 19.19
       }
     }
   ],
@@ -39389,7 +39741,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 65.07
+      }
     },
     {
       "result": "L",
@@ -39458,6 +39814,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 39.15
       }
     },
     {
@@ -39522,7 +39882,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.98
+      }
     },
     {
       "result": "L",
@@ -39591,6 +39955,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 61.12
       }
     },
     {
@@ -39656,7 +40024,11 @@
         "home": []
       },
       "coverage": "ABC",
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 40.13
+      }
     },
     {
       "result": "L",
@@ -39725,6 +40097,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 46.23
       }
     },
     {
@@ -39794,6 +40170,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 41.14
       }
     },
     {
@@ -39858,7 +40238,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 72.49
+      }
     },
     {
       "result": "L",
@@ -39927,6 +40311,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 40.06
       }
     },
     {
@@ -39991,7 +40379,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 54.51
+      }
     }
   ],
   "1961": [
@@ -40057,7 +40449,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 61.12
+      }
     },
     {
       "result": "W",
@@ -40190,6 +40586,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 44.2
       }
     },
     {
@@ -40262,6 +40662,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 45.06
       }
     },
     {
@@ -40331,6 +40735,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 49.07
       }
     },
     {
@@ -40395,7 +40803,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 27.12
+      }
     },
     {
       "result": "W",
@@ -40459,7 +40871,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 25.56
+      }
     },
     {
       "result": "W",
@@ -40528,6 +40944,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 33.21
       }
     },
     {
@@ -40656,7 +41076,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 41.21
+      }
     }
   ],
   "1962": [
@@ -40722,7 +41146,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 60.97
+      }
     },
     {
       "result": "L",
@@ -40786,7 +41214,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "fog",
+        "temperature": 49.07
+      }
     },
     {
       "result": "L",
@@ -40850,7 +41282,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 40.98
+      }
     },
     {
       "result": "L",
@@ -40914,7 +41350,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 59.14
+      }
     },
     {
       "result": "L",
@@ -40983,6 +41423,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 36.03
       }
     },
     {
@@ -41047,7 +41491,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.97
+      }
     },
     {
       "result": "W",
@@ -41111,7 +41559,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 41.14
+      }
     },
     {
       "result": "W",
@@ -41175,7 +41627,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "rain",
+        "temperature": 37.17
+      }
     },
     {
       "result": "W",
@@ -41239,7 +41695,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Joe Kuharich"
+      "headCoach": "Joe Kuharich",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 38.07
+      }
     },
     {
       "result": "L",
@@ -41308,6 +41768,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.94
       }
     }
   ],
@@ -41379,6 +41843,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 56.08
       }
     },
     {
@@ -41512,6 +41980,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 53.19
       }
     },
     {
@@ -41576,7 +42048,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Hugh Devore"
+      "headCoach": "Hugh Devore",
+      "weather": {
+        "icon": "rain",
+        "temperature": 61.12
+      }
     },
     {
       "result": "L",
@@ -41640,7 +42116,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Hugh Devore"
+      "headCoach": "Hugh Devore",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 57.25
+      }
     },
     {
       "result": "L",
@@ -41709,6 +42189,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 40.06
       }
     },
     {
@@ -41778,6 +42262,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "fog",
+        "temperature": 37.17
       }
     },
     {
@@ -41847,6 +42335,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.05
       }
     },
     {
@@ -41911,7 +42403,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Hugh Devore"
+      "headCoach": "Hugh Devore",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.97
+      }
     }
   ],
   "1964": [
@@ -41977,7 +42473,11 @@
         "away": [],
         "home": []
       },
-      "headCoach": "Ara Parseghian"
+      "headCoach": "Ara Parseghian",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 60.96
+      }
     },
     {
       "result": "W",
@@ -42046,6 +42546,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 44.2
       }
     },
     {
@@ -42115,6 +42619,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "temperature": 49.67,
+        "icon": "unknown"
       }
     },
     {
@@ -42184,6 +42692,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.09
       }
     },
     {
@@ -42253,6 +42765,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 33.21
       }
     },
     {
@@ -42322,6 +42838,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.83
       }
     },
     {
@@ -42391,6 +42911,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 39.62
       }
     },
     {
@@ -42460,6 +42984,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 36.11
       }
     },
     {
@@ -42529,6 +43057,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "snow",
+        "temperature": 21.14
       }
     },
     {
@@ -42598,6 +43130,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 48.58
       }
     }
   ],
@@ -42671,6 +43207,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.52
       }
     },
     {
@@ -42884,6 +43424,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 57.85
       }
     },
     {
@@ -43098,6 +43642,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.57
       }
     },
     {
@@ -43311,6 +43859,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "temperature": 68.38,
+        "icon": "unknown"
       }
     }
   ],
@@ -43454,6 +44006,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 44.18
       }
     },
     {
@@ -43664,6 +44220,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "temperature": 61.44,
+        "icon": "unknown"
       }
     },
     {
@@ -43733,6 +44293,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 42.11
       }
     },
     {
@@ -43802,6 +44366,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 35.2
       }
     },
     {
@@ -43871,6 +44439,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 36.11
       }
     },
     {
@@ -44015,6 +44587,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.57
       }
     }
   ],
@@ -44368,7 +44944,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Ara Parseghian"
+      "headCoach": "Ara Parseghian",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 60.37
+      }
     },
     {
       "result": "W",
@@ -44504,6 +45084,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "snow",
+        "temperature": 30.15
       }
     },
     {
@@ -44574,6 +45158,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.65
       }
     },
     {
@@ -44644,6 +45232,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 59.13
       }
     },
     {
@@ -44714,6 +45306,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "temperature": 68.98,
+        "icon": "unknown"
       }
     }
   ],
@@ -45144,6 +45740,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 50.1
       }
     },
     {
@@ -45214,6 +45814,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.17
       }
     },
     {
@@ -45428,6 +46032,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 58.78
       }
     }
   ],
@@ -45500,6 +46108,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.22
       }
     },
     {
@@ -45643,6 +46255,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.21
       }
     },
     {
@@ -45713,6 +46329,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.94
       }
     },
     {
@@ -45786,6 +46406,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.13
       }
     },
     {
@@ -45856,6 +46480,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 66.69
       }
     },
     {
@@ -45926,6 +46554,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 49.07
       }
     },
     {
@@ -45996,6 +46628,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 48.63
       }
     },
     {
@@ -46067,6 +46703,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 29.18
       }
     },
     {
@@ -46137,6 +46777,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 48.16
       }
     },
     {
@@ -46223,6 +46867,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "temperature": 56.09,
+        "icon": "unknown"
       }
     }
   ],
@@ -46295,6 +46943,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 80.42
       }
     },
     {
@@ -46365,6 +47017,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.08
       }
     },
     {
@@ -46435,6 +47091,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.05
       }
     },
     {
@@ -46505,6 +47165,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 55.18
       }
     },
     {
@@ -46649,6 +47313,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.05
       }
     },
     {
@@ -46719,6 +47387,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 51.21
       }
     },
     {
@@ -46789,6 +47461,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 36.11
       }
     },
     {
@@ -46862,6 +47538,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.07
       }
     },
     {
@@ -46933,6 +47613,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 54.38
       }
     },
     {
@@ -47019,6 +47703,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "temperature": 62.21,
+        "icon": "unknown"
       }
     }
   ],
@@ -47091,6 +47779,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 66.16
       }
     },
     {
@@ -47302,6 +47994,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 82.97
       }
     },
     {
@@ -47372,6 +48068,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 76.04
       }
     },
     {
@@ -47443,6 +48143,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 62.2
       }
     },
     {
@@ -47513,6 +48217,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 74.07
       }
     },
     {
@@ -47583,6 +48291,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.64
       }
     },
     {
@@ -47653,6 +48365,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 48.16
       }
     },
     {
@@ -47799,6 +48515,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 58.5
       }
     },
     {
@@ -47869,6 +48589,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.21
       }
     },
     {
@@ -47940,6 +48664,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 55.15
       }
     },
     {
@@ -48010,6 +48738,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 56.08
       }
     },
     {
@@ -48080,6 +48812,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 48.16
       }
     },
     {
@@ -48150,6 +48886,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 54.1
       }
     },
     {
@@ -48220,6 +48960,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.17
       }
     },
     {
@@ -48360,6 +49104,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 35.2
       }
     },
     {
@@ -48434,6 +49182,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.22
       }
     },
     {
@@ -48520,6 +49272,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 73.4
       }
     }
   ],
@@ -48592,6 +49348,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 75.78
       }
     },
     {
@@ -48663,6 +49423,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "temperature": 77,
+        "icon": "unknown"
       }
     },
     {
@@ -48733,6 +49497,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 66.73
       }
     },
     {
@@ -48803,6 +49571,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 71.86
       }
     },
     {
@@ -48873,6 +49645,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "temperature": 62.02,
+        "icon": "unknown"
       }
     },
     {
@@ -48947,6 +49723,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 56.24
       }
     },
     {
@@ -49017,6 +49797,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 46.75
       }
     },
     {
@@ -49090,6 +49874,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 32.03
       }
     },
     {
@@ -49161,6 +49949,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.32
       }
     },
     {
@@ -49234,6 +50026,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 72
       }
     },
     {
@@ -49320,6 +50116,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.44
       }
     }
   ],
@@ -49393,6 +50193,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 68.93
       }
     },
     {
@@ -49463,6 +50267,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.14
       }
     },
     {
@@ -49533,6 +50341,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 68.52
       }
     },
     {
@@ -49603,6 +50415,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.81
       }
     },
     {
@@ -49673,6 +50489,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.61
       }
     },
     {
@@ -49743,6 +50563,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 38.12
       }
     },
     {
@@ -49817,6 +50641,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.42
       }
     },
     {
@@ -49887,6 +50715,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 72.07
       }
     },
     {
@@ -49960,6 +50792,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 41.14
       }
     },
     {
@@ -50030,6 +50866,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 59.07
       }
     },
     {
@@ -50104,6 +50944,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.58
       }
     },
     {
@@ -50190,6 +51034,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 69.1
       }
     }
   ],
@@ -50263,6 +51111,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.56
       }
     },
     {
@@ -50333,6 +51185,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "temperature": 58.19,
+        "icon": "unknown"
       }
     },
     {
@@ -50403,6 +51259,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.86
       }
     },
     {
@@ -50473,6 +51333,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.84
       }
     },
     {
@@ -50543,6 +51407,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 80.14
       }
     },
     {
@@ -50613,6 +51481,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.89
       }
     },
     {
@@ -50687,6 +51559,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.12
       }
     },
     {
@@ -50757,6 +51633,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 55.18
       }
     },
     {
@@ -50827,6 +51707,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 62.46
       }
     },
     {
@@ -50897,6 +51781,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 42.81
       }
     },
     {
@@ -50967,6 +51855,10 @@
         "home": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 68.03
       }
     }
   ],
@@ -51043,6 +51935,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 76.57
       }
     },
     {
@@ -51108,7 +52004,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Dan Devine"
+      "headCoach": "Dan Devine",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 72.15
+      }
     },
     {
       "result": "W",
@@ -51173,7 +52073,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Dan Devine"
+      "headCoach": "Dan Devine",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.68
+      }
     },
     {
       "result": "W",
@@ -51243,6 +52147,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 79.17
       }
     },
     {
@@ -51313,6 +52221,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 43.05
       }
     },
     {
@@ -51386,6 +52298,10 @@
         "home": {
           "ap": 19
         }
+      },
+      "weather": {
+        "temperature": 70.14,
+        "icon": "unknown"
       }
     },
     {
@@ -51456,6 +52372,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.61
       }
     },
     {
@@ -51526,6 +52446,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 60.31
       }
     },
     {
@@ -51600,6 +52524,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 37.35
       }
     },
     {
@@ -51670,6 +52598,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 42.2
       }
     },
     {
@@ -51744,6 +52676,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 61.31
       }
     },
     {
@@ -51830,6 +52766,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 47.77
       }
     }
   ],
@@ -51906,6 +52846,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.14
       }
     },
     {
@@ -51976,6 +52920,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 86.86
       }
     },
     {
@@ -52046,6 +52994,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "temperature": 74.83,
+        "icon": "unknown"
       }
     },
     {
@@ -52116,6 +53068,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 55.73
       }
     },
     {
@@ -52186,6 +53142,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 58.92
       }
     },
     {
@@ -52260,6 +53220,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 62.19
       }
     },
     {
@@ -52330,6 +53294,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 53.54
       }
     },
     {
@@ -52400,6 +53368,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 66.3
       }
     },
     {
@@ -52473,6 +53445,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "temperature": 54.65,
+        "icon": "unknown"
       }
     },
     {
@@ -52543,6 +53519,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 41.07
       }
     },
     {
@@ -52613,6 +53593,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 73.14
       }
     },
     {
@@ -52699,6 +53683,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 41.13
       }
     }
   ],
@@ -52771,6 +53759,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 89.79
       }
     },
     {
@@ -52845,6 +53837,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 69.32
       }
     },
     {
@@ -52910,7 +53906,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Dan Devine"
+      "headCoach": "Dan Devine",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 67.4
+      }
     },
     {
       "result": "W",
@@ -52975,7 +53975,11 @@
         "home": []
       },
       "time": "1:30 PM",
-      "headCoach": "Dan Devine"
+      "headCoach": "Dan Devine",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 50.6
+      }
     },
     {
       "result": "W",
@@ -53116,6 +54120,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 55.07
       }
     },
     {
@@ -53186,6 +54194,10 @@
         "home": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 52.5
       }
     },
     {
@@ -53259,6 +54271,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 63.88
       }
     },
     {
@@ -53329,6 +54345,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.08
       }
     },
     {
@@ -53402,6 +54422,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.66
       }
     },
     {
@@ -53476,6 +54500,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 60.67
       }
     },
     {
@@ -53562,6 +54590,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 23.1
       }
     }
   ],
@@ -53638,6 +54670,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 66.86
       }
     },
     {
@@ -53711,6 +54747,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "temperature": 67.38,
+        "icon": "unknown"
       }
     },
     {
@@ -53784,6 +54824,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 81.6
       }
     },
     {
@@ -53854,6 +54898,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.55
       }
     },
     {
@@ -53924,6 +54972,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 59.03
       }
     },
     {
@@ -53998,6 +55050,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 75.73
       }
     },
     {
@@ -54068,6 +55124,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.36
       }
     },
     {
@@ -54138,6 +55198,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "temperature": 44.49,
+        "icon": "unknown"
       }
     },
     {
@@ -54208,6 +55272,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 55.26
       }
     },
     {
@@ -54278,6 +55346,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.45
       }
     },
     {
@@ -54344,7 +55416,11 @@
         "home": []
       },
       "time": "11:00 PM",
-      "headCoach": "Dan Devine"
+      "headCoach": "Dan Devine",
+      "weather": {
+        "temperature": 50.83,
+        "icon": "unknown"
+      }
     }
   ],
   "1980": [
@@ -54420,6 +55496,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 77.94
       }
     },
     {
@@ -54493,6 +55573,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 86.05
       }
     },
     {
@@ -54563,6 +55647,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 43.05
       }
     },
     {
@@ -54636,6 +55724,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 50.01
       }
     },
     {
@@ -54706,6 +55798,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 60.26
       }
     },
     {
@@ -54776,6 +55872,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.6
       }
     },
     {
@@ -54846,6 +55946,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 48.39
       }
     },
     {
@@ -54916,6 +56020,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 72.47
       }
     },
     {
@@ -54990,6 +56098,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "temperature": 62.31,
+        "icon": "unknown"
       }
     },
     {
@@ -55060,6 +56172,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.19
       }
     },
     {
@@ -55134,6 +56250,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 59.87
       }
     },
     {
@@ -55220,6 +56340,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.44
       }
     }
   ],
@@ -55292,6 +56416,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.53
       }
     },
     {
@@ -55366,6 +56494,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.41
       }
     },
     {
@@ -55436,6 +56568,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "temperature": 82.24,
+        "icon": "unknown"
       }
     },
     {
@@ -55501,7 +56637,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 59.18
+      }
     },
     {
       "result": "L",
@@ -55571,6 +56711,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 60.51
       }
     },
     {
@@ -55641,6 +56785,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 41.13
       }
     },
     {
@@ -55706,7 +56854,11 @@
         "home": []
       },
       "time": "1:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.94
+      }
     },
     {
       "result": "W",
@@ -55771,7 +56923,11 @@
         "home": []
       },
       "time": "1:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 53.37
+      }
     },
     {
       "result": "W",
@@ -55836,7 +56992,11 @@
         "home": []
       },
       "time": "3:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.62
+      }
     },
     {
       "result": "L",
@@ -55906,6 +57066,10 @@
         "home": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 34.91
       }
     },
     {
@@ -55977,6 +57141,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 73.91
       }
     }
   ],
@@ -56053,6 +57221,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.68
       }
     },
     {
@@ -56123,6 +57295,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.37
       }
     },
     {
@@ -56193,6 +57369,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 71.14
       }
     },
     {
@@ -56266,6 +57446,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 62.86
       }
     },
     {
@@ -56336,6 +57520,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 45.53
       }
     },
     {
@@ -56406,6 +57594,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 68.87
       }
     },
     {
@@ -56471,7 +57663,11 @@
         "home": []
       },
       "time": "1:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 69.16
+      }
     },
     {
       "result": "W",
@@ -56541,6 +57737,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 43.17
       }
     },
     {
@@ -56615,6 +57815,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 25.16
       }
     },
     {
@@ -56685,6 +57889,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 38.52
       }
     },
     {
@@ -56756,6 +57964,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.63
       }
     }
   ],
@@ -56828,6 +58040,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "temperature": 96.51,
+        "icon": "unknown"
       }
     },
     {
@@ -56898,6 +58114,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 72.46
       }
     },
     {
@@ -56969,6 +58189,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 79.07
       }
     },
     {
@@ -57034,7 +58258,11 @@
         "home": []
       },
       "time": "3:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 65.46
+      }
     },
     {
       "result": "W",
@@ -57099,7 +58327,11 @@
         "home": []
       },
       "time": "7:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "temperature": 64.18,
+        "icon": "unknown"
+      }
     },
     {
       "result": "W",
@@ -57164,7 +58396,11 @@
         "home": []
       },
       "time": "1:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.52
+      }
     },
     {
       "result": "W",
@@ -57229,7 +58465,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "rain",
+        "temperature": 60.74
+      }
     },
     {
       "result": "W",
@@ -57299,6 +58539,10 @@
         "home": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 53.2
       }
     },
     {
@@ -57370,6 +58614,10 @@
         "home": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.7
       }
     },
     {
@@ -57435,7 +58683,11 @@
         "home": []
       },
       "time": "1:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 31.12
+      }
     },
     {
       "result": "L",
@@ -57501,7 +58753,11 @@
       },
       "time": "12:35 PM",
       "coverage": "ABC",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.21
+      }
     },
     {
       "result": "W",
@@ -57584,6 +58840,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 14.87
       }
     }
   ],
@@ -57656,6 +58916,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 81.03
       }
     },
     {
@@ -57721,7 +58985,11 @@
         "home": []
       },
       "time": "1:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 61.05
+      }
     },
     {
       "result": "W",
@@ -57786,7 +59054,11 @@
         "home": []
       },
       "time": "2:30 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 80.9
+      }
     },
     {
       "result": "W",
@@ -57857,6 +59129,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 54.32
       }
     },
     {
@@ -57931,6 +59207,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 61.26
       }
     },
     {
@@ -57997,7 +59277,11 @@
       },
       "time": "12:20 PM",
       "coverage": "ESPN",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "fog",
+        "temperature": 62.53
+      }
     },
     {
       "result": "L",
@@ -58068,6 +59352,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 50.93
       }
     },
     {
@@ -58139,6 +59427,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.84
       }
     },
     {
@@ -58205,7 +59497,11 @@
       },
       "time": "12:10 PM",
       "coverage": "ESPN",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 49.92
+      }
     },
     {
       "result": "W",
@@ -58271,7 +59567,11 @@
       },
       "time": "12:20 PM",
       "coverage": "ESPN",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 42.41
+      }
     },
     {
       "result": "W",
@@ -58342,6 +59642,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 55.23
       }
     },
     {
@@ -58428,6 +59732,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 72.97
       }
     }
   ],
@@ -58501,6 +59809,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 64.29
       }
     },
     {
@@ -58567,7 +59879,11 @@
       },
       "time": "7:30 PM",
       "coverage": "ESPN",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 62.6
+      }
     },
     {
       "result": "L",
@@ -58633,7 +59949,11 @@
       },
       "time": "12:00 PM",
       "coverage": "TBS",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "temperature": 72.85,
+        "icon": "unknown"
+      }
     },
     {
       "result": "L",
@@ -58704,6 +60024,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 61.61
       }
     },
     {
@@ -58775,6 +60099,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.13
       }
     },
     {
@@ -58840,7 +60168,11 @@
         "home": []
       },
       "time": "2:00 PM",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 69.6
+      }
     },
     {
       "result": "W",
@@ -58906,7 +60238,11 @@
       },
       "time": "3:30 PM",
       "coverage": "ABC",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.96
+      }
     },
     {
       "result": "W",
@@ -58972,7 +60308,11 @@
       },
       "time": "12:00 PM",
       "coverage": "USA / WGN-TV",
-      "headCoach": "Gerry Faust"
+      "headCoach": "Gerry Faust",
+      "weather": {
+        "icon": "rain",
+        "temperature": 47.08
+      }
     },
     {
       "result": "L",
@@ -59043,6 +60383,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "temperature": 38.2,
+        "icon": "unknown"
       }
     },
     {
@@ -59114,6 +60458,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 34.13
       }
     },
     {
@@ -59185,6 +60533,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 75.92
       }
     }
   ],
@@ -59258,6 +60610,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 67.42
       }
     },
     {
@@ -59329,6 +60685,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 65.55
       }
     },
     {
@@ -59395,7 +60755,11 @@
       },
       "time": "3:30 PM",
       "coverage": "ABC",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 82.01
+      }
     },
     {
       "result": "L",
@@ -59466,6 +60830,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "temperature": 87.14,
+        "icon": "unknown"
       }
     },
     {
@@ -59532,7 +60900,11 @@
       },
       "time": "12:30 PM",
       "coverage": "USA / WGN-TV",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.97
+      }
     },
     {
       "result": "W",
@@ -59598,7 +60970,11 @@
       },
       "time": "12:30 PM",
       "coverage": "USA / WGN-TV",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 58.23
+      }
     },
     {
       "result": "W",
@@ -59664,7 +61040,11 @@
       },
       "time": "7:00 PM",
       "coverage": "TBS",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 53.15
+      }
     },
     {
       "result": "W",
@@ -59729,7 +61109,11 @@
         "home": []
       },
       "time": "1:00 PM",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.82
+      }
     },
     {
       "result": "L",
@@ -59800,6 +61184,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 34.2
       }
     },
     {
@@ -59871,6 +61259,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 69.23
       }
     },
     {
@@ -59942,6 +61334,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 64.56
       }
     }
   ],
@@ -60018,6 +61414,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 70.26
       }
     },
     {
@@ -60092,6 +61492,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 62.56
       }
     },
     {
@@ -60162,6 +61566,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "temperature": 80.75,
+        "icon": "unknown"
       }
     },
     {
@@ -60233,6 +61641,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 49.09
       }
     },
     {
@@ -60303,6 +61715,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 68.88
       }
     },
     {
@@ -60374,6 +61790,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 43.66
       }
     },
     {
@@ -60444,6 +61864,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 59.62
       }
     },
     {
@@ -60514,6 +61938,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 53.19
       }
     },
     {
@@ -60588,6 +62016,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 55.43
       }
     },
     {
@@ -60659,6 +62091,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "temperature": 20.59,
+        "icon": "unknown"
       }
     },
     {
@@ -60733,6 +62169,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 76.95
       }
     },
     {
@@ -60819,6 +62259,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 43.23
       }
     }
   ],
@@ -60895,6 +62339,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.14
       }
     },
     {
@@ -60966,6 +62414,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 78.16
       }
     },
     {
@@ -61036,6 +62488,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 68.97
       }
     },
     {
@@ -61107,6 +62563,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 65.07
       }
     },
     {
@@ -61178,6 +62638,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.12
       }
     },
     {
@@ -61252,6 +62716,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.98
       }
     },
     {
@@ -61322,6 +62790,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.08
       }
     },
     {
@@ -61392,6 +62864,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 53.55
       }
     },
     {
@@ -61463,6 +62939,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 44.2
       }
     },
     {
@@ -61534,6 +63014,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 44.2
       }
     },
     {
@@ -61608,6 +63092,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.86
       }
     },
     {
@@ -61694,6 +63182,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 56.99
       }
     }
   ],
@@ -61767,6 +63259,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 69.46
       }
     },
     {
@@ -61841,6 +63337,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.44
       }
     },
     {
@@ -61912,6 +63412,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 51.25
       }
     },
     {
@@ -62053,6 +63557,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 75.21
       }
     },
     {
@@ -62127,6 +63635,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 60.66
       }
     },
     {
@@ -62201,6 +63713,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.67
       }
     },
     {
@@ -62275,6 +63791,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 64.66
       }
     },
     {
@@ -62346,6 +63866,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.19
       }
     },
     {
@@ -62417,6 +63941,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.34
       }
     },
     {
@@ -62565,6 +64093,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 76.3
       }
     },
     {
@@ -62651,6 +64183,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 68.37
       }
     }
   ],
@@ -62727,6 +64263,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 59.55
       }
     },
     {
@@ -62801,6 +64341,10 @@
         "home": {
           "ap": 24
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.08
       }
     },
     {
@@ -62871,6 +64415,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.16
       }
     },
     {
@@ -62941,6 +64489,10 @@
         "home": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 83.54
       }
     },
     {
@@ -63011,6 +64563,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 63.03
       }
     },
     {
@@ -63085,6 +64641,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 61.89
       }
     },
     {
@@ -63156,6 +64716,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.94
       }
     },
     {
@@ -63226,6 +64790,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 78.36
       }
     },
     {
@@ -63300,6 +64868,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 44.28
       }
     },
     {
@@ -63374,6 +64946,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 39.81
       }
     },
     {
@@ -63448,6 +65024,10 @@
         "home": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.57
       }
     },
     {
@@ -63534,6 +65114,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 74.25
       }
     }
   ],
@@ -63607,6 +65191,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 87.27
       }
     },
     {
@@ -63681,6 +65269,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 73.84
       }
     },
     {
@@ -63752,6 +65344,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.18
       }
     },
     {
@@ -63823,6 +65419,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "temperature": 63.84,
+        "icon": "unknown"
       }
     },
     {
@@ -63894,6 +65494,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 58.92
       }
     },
     {
@@ -63968,6 +65572,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 55.94
       }
     },
     {
@@ -64039,6 +65647,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 48.97
       }
     },
     {
@@ -64110,6 +65722,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 66.39
       }
     },
     {
@@ -64181,6 +65797,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 24.2
       }
     },
     {
@@ -64255,6 +65875,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 38.11
       }
     },
     {
@@ -64329,6 +65953,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "temperature": 40.41,
+        "icon": "unknown"
       }
     },
     {
@@ -64400,6 +66028,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 75.39
       }
     },
     {
@@ -64486,6 +66118,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.99
       }
     }
   ],
@@ -64559,6 +66195,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 79.41
       }
     },
     {
@@ -64633,6 +66273,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 73.55
       }
     },
     {
@@ -64704,6 +66348,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 58.94
       }
     },
     {
@@ -64775,6 +66423,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 63.81
       }
     },
     {
@@ -64849,6 +66501,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 79.34
       }
     },
     {
@@ -64920,6 +66576,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.58
       }
     },
     {
@@ -64991,6 +66651,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 58.97
       }
     },
     {
@@ -65061,6 +66725,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.38
       }
     },
     {
@@ -65135,6 +66803,10 @@
         "away": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 39.78
       }
     },
     {
@@ -65209,6 +66881,10 @@
         "away": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 30.58
       }
     },
     {
@@ -65283,6 +66959,10 @@
         "home": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 65.46
       }
     },
     {
@@ -65369,6 +67049,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 33.8
       }
     }
   ],
@@ -65442,6 +67126,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.99
       }
     },
     {
@@ -65516,6 +67204,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 63.51
       }
     },
     {
@@ -65587,6 +67279,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.54
       }
     },
     {
@@ -65658,6 +67354,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "temperature": 62.75,
+        "icon": "unknown"
       }
     },
     {
@@ -65729,6 +67429,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.42
       }
     },
     {
@@ -65800,6 +67504,10 @@
         "home": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 41.42
       }
     },
     {
@@ -65871,6 +67579,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "temperature": 48.86,
+        "icon": "unknown"
       }
     },
     {
@@ -65942,6 +67654,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.75
       }
     },
     {
@@ -66013,6 +67729,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 48.94
       }
     },
     {
@@ -66087,6 +67807,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.34
       }
     },
     {
@@ -66161,6 +67885,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 37.59
       }
     },
     {
@@ -66247,6 +67975,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.39
       }
     }
   ],
@@ -66320,6 +68052,10 @@
         "away": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 59.24
       }
     },
     {
@@ -66394,6 +68130,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 78.67
       }
     },
     {
@@ -66465,6 +68205,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 67.83
       }
     },
     {
@@ -66536,6 +68280,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 64.55
       }
     },
     {
@@ -66607,6 +68355,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 60.74
       }
     },
     {
@@ -66678,6 +68430,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.37
       }
     },
     {
@@ -66749,6 +68505,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 68.88
       }
     },
     {
@@ -66815,7 +68575,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.56
+      }
     },
     {
       "result": "L",
@@ -66886,6 +68650,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 80.92
       }
     },
     {
@@ -66952,7 +68720,11 @@
       },
       "time": "1:30 PM",
       "coverage": "NBC",
-      "headCoach": "Lou Holtz"
+      "headCoach": "Lou Holtz",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 48.67
+      }
     },
     {
       "result": "T",
@@ -67023,6 +68795,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.24
       }
     },
     {
@@ -67109,6 +68885,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.75
       }
     }
   ],
@@ -67182,6 +68962,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 79.26
       }
     },
     {
@@ -67253,6 +69037,10 @@
         "away": {
           "ap": 25
         }
+      },
+      "weather": {
+        "temperature": 72.51,
+        "icon": "unknown"
       }
     },
     {
@@ -67324,6 +69112,10 @@
         "home": {
           "ap": 24
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.58
       }
     },
     {
@@ -67398,6 +69190,10 @@
         "home": {
           "ap": 21
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 57.08
       }
     },
     {
@@ -67472,6 +69268,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 76.53
       }
     },
     {
@@ -67546,6 +69346,10 @@
         "away": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.26
       }
     },
     {
@@ -67617,6 +69421,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 72.74
       }
     },
     {
@@ -67691,6 +69499,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 38.68
       }
     },
     {
@@ -67762,6 +69574,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 47.19
       }
     },
     {
@@ -67833,6 +69649,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 29.31
       }
     },
     {
@@ -67904,6 +69724,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 44.66
       }
     },
     {
@@ -67990,6 +69814,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 51.75
       }
     }
   ],
@@ -68063,6 +69891,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "temperature": 74.19,
+        "icon": "unknown"
       }
     },
     {
@@ -68134,6 +69966,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 53.42
       }
     },
     {
@@ -68208,6 +70044,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.19
       }
     },
     {
@@ -68282,6 +70122,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 56
       }
     },
     {
@@ -68356,6 +70200,10 @@
         "away": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 68.27
       }
     },
     {
@@ -68428,6 +70276,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 52.58
       }
     },
     {
@@ -68500,6 +70352,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "temperature": 59.25,
+        "icon": "unknown"
       }
     },
     {
@@ -68571,6 +70427,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 50.93
       }
     },
     {
@@ -68642,6 +70502,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 49.23
       }
     },
     {
@@ -68713,6 +70577,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 37.8
       }
     },
     {
@@ -68785,6 +70653,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 53.6
       }
     }
   ],
@@ -68858,6 +70730,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 82.27
       }
     },
     {
@@ -68929,6 +70805,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "temperature": 77.94,
+        "icon": "unknown"
       }
     },
     {
@@ -69000,6 +70880,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 63.88
       }
     },
     {
@@ -69071,6 +70955,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.08
       }
     },
     {
@@ -69142,6 +71030,10 @@
         "home": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 75.49
       }
     },
     {
@@ -69208,7 +71100,11 @@
       },
       "time": "3:30 PM",
       "coverage": "CBS",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 62.08
+      }
     },
     {
       "result": "L",
@@ -69274,7 +71170,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 56.71
+      }
     },
     {
       "result": "W",
@@ -69340,7 +71240,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.87
+      }
     },
     {
       "result": "W",
@@ -69406,7 +71310,11 @@
       },
       "time": "1:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 50.72
+      }
     },
     {
       "result": "W",
@@ -69477,6 +71385,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 44.15
       }
     },
     {
@@ -69548,6 +71460,10 @@
         "away": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 43.89
       }
     },
     {
@@ -69614,7 +71530,11 @@
       },
       "time": "7:30 PM",
       "coverage": "ESPN",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 75.09
+      }
     },
     {
       "result": "L",
@@ -69700,6 +71620,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 40.78
       }
     }
   ],
@@ -69776,6 +71700,10 @@
         "away": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 86.93
       }
     },
     {
@@ -69847,6 +71775,10 @@
         "away": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 66.48
       }
     },
     {
@@ -69918,6 +71850,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 90.49
       }
     },
     {
@@ -69989,6 +71925,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.15
       }
     },
     {
@@ -70060,6 +72000,10 @@
         "away": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 90.46
       }
     },
     {
@@ -70132,6 +72076,10 @@
           "ap": 18,
           "bcs": 16
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.75
       }
     },
     {
@@ -70204,6 +72152,10 @@
           "ap": 16,
           "bcs": 13
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.73
       }
     },
     {
@@ -70276,6 +72228,10 @@
           "ap": 13,
           "bcs": 12
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.07
       }
     },
     {
@@ -70348,6 +72304,10 @@
           "ap": 12,
           "bcs": 10
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 54.47
       }
     },
     {
@@ -70420,6 +72380,10 @@
           "ap": 10,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 40.78
       }
     },
     {
@@ -70492,6 +72456,10 @@
           "ap": 9,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 54.08
       }
     },
     {
@@ -70579,6 +72547,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "temperature": 63.18,
+        "icon": "unknown"
       }
     }
   ],
@@ -70653,6 +72625,10 @@
         "home": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 85.57
       }
     },
     {
@@ -70727,6 +72703,10 @@
         "home": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 85.16
       }
     },
     {
@@ -70801,6 +72781,10 @@
         "away": {
           "ap": 16
         }
+      },
+      "weather": {
+        "temperature": 87.65,
+        "icon": "unknown"
       }
     },
     {
@@ -70872,6 +72856,10 @@
         "home": {
           "ap": 24
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 77.36
       }
     },
     {
@@ -70943,6 +72931,10 @@
         "away": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.07
       }
     },
     {
@@ -71009,7 +73001,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 64.54
+      }
     },
     {
       "result": "W",
@@ -71075,7 +73071,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "rain",
+        "temperature": 64.77
+      }
     },
     {
       "result": "W",
@@ -71141,7 +73141,11 @@
       },
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 73.56
+      }
     },
     {
       "result": "L",
@@ -71216,6 +73220,10 @@
           "ap": 4,
           "bcs": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 54.52
       }
     },
     {
@@ -71282,7 +73290,11 @@
       },
       "time": "3:30 PM",
       "coverage": "CBS",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 52.25
+      }
     },
     {
       "result": "L",
@@ -71353,6 +73365,10 @@
         "away": {
           "ap": 25
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 43.65
       }
     },
     {
@@ -71419,7 +73435,11 @@
       },
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.03
+      }
     }
   ],
   "2000": [
@@ -71493,6 +73513,10 @@
         "away": {
           "ap": 25
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 89.93
       }
     },
     {
@@ -71570,6 +73594,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.84
       }
     },
     {
@@ -71645,6 +73673,10 @@
         "away": {
           "ap": 13
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 62.92
       }
     },
     {
@@ -71720,6 +73752,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 63.13
       }
     },
     {
@@ -71792,6 +73828,10 @@
         "home": {
           "ap": 25
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 45.02
       }
     },
     {
@@ -71864,6 +73904,10 @@
         "home": {
           "ap": 20
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.43
       }
     },
     {
@@ -71936,6 +73980,10 @@
         "away": {
           "ap": 20
         }
+      },
+      "weather": {
+        "temperature": 72.33,
+        "icon": "unknown"
       }
     },
     {
@@ -72010,6 +74058,10 @@
           "ap": 19,
           "bcs": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 55.7
       }
     },
     {
@@ -72083,6 +74135,10 @@
           "ap": 11,
           "bcs": 11
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 44.82
       }
     },
     {
@@ -72156,6 +74212,10 @@
           "ap": 11,
           "bcs": 11
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 38.72
       }
     },
     {
@@ -72229,6 +74289,10 @@
           "ap": 11,
           "bcs": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 69.09
       }
     },
     {
@@ -72317,6 +74381,10 @@
           "ap": 5,
           "bcs": 6
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.68
       }
     }
   ],
@@ -72394,6 +74462,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 59.14
       }
     },
     {
@@ -72466,6 +74538,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.86
       }
     },
     {
@@ -72533,7 +74609,11 @@
       "sportsReferenceGameId": "2001-09-29-texas-am",
       "time": "3:30 PM",
       "coverage": "ABC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 82.11
+      }
     },
     {
       "result": "W",
@@ -72600,7 +74680,11 @@
       "sportsReferenceGameId": "2001-10-06-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 48.03
+      }
     },
     {
       "result": "W",
@@ -72667,7 +74751,11 @@
       "sportsReferenceGameId": "2001-10-13-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "rain",
+        "temperature": 68.54
+      }
     },
     {
       "result": "W",
@@ -72734,7 +74822,11 @@
       "sportsReferenceGameId": "2001-10-20-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 67.33
+      }
     },
     {
       "result": "L",
@@ -72801,7 +74893,11 @@
       "sportsReferenceGameId": "2001-10-27-boston-college",
       "time": "7:30 PM",
       "coverage": "ESPN",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.86
+      }
     },
     {
       "result": "L",
@@ -72874,6 +74970,10 @@
           "ap": 7,
           "bcs": 4
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 59.68
       }
     },
     {
@@ -72941,7 +75041,11 @@
       "sportsReferenceGameId": "2001-11-17-notre-dame",
       "time": "1:00 PM",
       "coverage": "NBC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 51.4
+      }
     },
     {
       "result": "L",
@@ -73014,6 +75118,10 @@
           "ap": 13,
           "bcs": 10
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 48.03
       }
     },
     {
@@ -73081,7 +75189,11 @@
       "sportsReferenceGameId": "2001-12-01-purdue",
       "time": "3:30 PM",
       "coverage": "ABC",
-      "headCoach": "Bob Davie"
+      "headCoach": "Bob Davie",
+      "weather": {
+        "temperature": 40.69,
+        "icon": "unknown"
+      }
     }
   ],
   "2002": [
@@ -73166,6 +75278,10 @@
         "home": {
           "ap": 21
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 63.96
       }
     },
     {
@@ -73249,6 +75365,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 90.41
       }
     },
     {
@@ -73335,6 +75455,10 @@
         "away": {
           "ap": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 88.17
       }
     },
     {
@@ -73418,6 +75542,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 77.56
       }
     },
     {
@@ -73501,6 +75629,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.75
       }
     },
     {
@@ -73584,6 +75716,10 @@
         "home": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 66.44
       }
     },
     {
@@ -73671,6 +75807,10 @@
         "home": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 42.15
       }
     },
     {
@@ -73759,6 +75899,10 @@
           "ap": 11,
           "bcs": 12
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 75.11
       }
     },
     {
@@ -73843,6 +75987,10 @@
           "ap": 4,
           "bcs": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 40.35
       }
     },
     {
@@ -73927,6 +76075,10 @@
           "ap": 9,
           "bcs": 7
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 61.97
       }
     },
     {
@@ -74011,6 +76163,10 @@
           "ap": 8,
           "bcs": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 44.91
       }
     },
     {
@@ -74099,6 +76255,10 @@
           "ap": 6,
           "bcs": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 55.69
       }
     },
     {
@@ -74188,6 +76348,10 @@
         "away": {
           "ap": 17
         }
+      },
+      "weather": {
+        "temperature": 69.29,
+        "icon": "unknown"
       }
     }
   ],
@@ -74276,7 +76440,11 @@
           "ap": 19
         }
       },
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 77.36
+      }
     },
     {
       "result": "L",
@@ -74362,6 +76530,10 @@
         "home": {
           "ap": 5
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 74.43
       }
     },
     {
@@ -74440,7 +76612,11 @@
       "sportsReferenceGameId": "2003-09-20-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 70.57
+      }
     },
     {
       "result": "L",
@@ -74523,6 +76699,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 62.61
       }
     },
     {
@@ -74606,6 +76786,10 @@
         "home": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 63.43
       }
     },
     {
@@ -74690,6 +76874,10 @@
           "ap": 5,
           "bcs": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 66.12
       }
     },
     {
@@ -74768,7 +76956,11 @@
       "sportsReferenceGameId": "2003-10-25-boston-college",
       "time": "12:00 PM",
       "coverage": "ABC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 55.16
+      }
     },
     {
       "result": "L",
@@ -74852,6 +77044,10 @@
           "ap": 5,
           "bcs": 3
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 52.26
       }
     },
     {
@@ -74930,7 +77126,11 @@
       "sportsReferenceGameId": "2003-11-08-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 31.96
+      }
     },
     {
       "result": "W",
@@ -75008,7 +77208,11 @@
       "sportsReferenceGameId": "2003-11-15-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 39.88
+      }
     },
     {
       "result": "W",
@@ -75086,7 +77290,11 @@
       "sportsReferenceGameId": "2003-11-29-stanford",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 54
+      }
     },
     {
       "result": "L",
@@ -75164,7 +77372,11 @@
       "sportsReferenceGameId": "2003-12-06-syracuse",
       "time": "1:00 PM",
       "coverage": "ABC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "fog",
+        "temperature": 21.07
+      }
     }
   ],
   "2004": [
@@ -75248,7 +77460,11 @@
       "sportsReferenceGameId": "2004-09-04-brigham-young",
       "time": "9:15 PM",
       "coverage": "ESPN",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.97
+      }
     },
     {
       "result": "W",
@@ -75335,6 +77551,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 78.27
       }
     },
     {
@@ -75417,7 +77637,11 @@
       "sportsReferenceGameId": "2004-09-18-michigan-state",
       "time": "7:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 58.18
+      }
     },
     {
       "result": "W",
@@ -75499,7 +77723,11 @@
       "sportsReferenceGameId": "2004-09-25-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 67.71
+      }
     },
     {
       "result": "L",
@@ -75586,6 +77814,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 55.86
       }
     },
     {
@@ -75668,7 +77900,11 @@
       "sportsReferenceGameId": "2004-10-09-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Tyrone Willingham"
+      "headCoach": "Tyrone Willingham",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.86
+      }
     },
     {
       "result": "W",
@@ -75755,6 +77991,10 @@
         "away": {
           "bcs": 23
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 59.9
       }
     },
     {
@@ -75843,6 +78083,10 @@
           "ap": 24,
           "bcs": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 65.49
       }
     },
     {
@@ -75934,6 +78178,10 @@
         "away": {
           "bcs": 25
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 58.38
       }
     },
     {
@@ -76022,6 +78270,10 @@
           "ap": 24,
           "bcs": 25
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 42.83
       }
     },
     {
@@ -76110,6 +78362,10 @@
           "ap": 1,
           "bcs": 1
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 55.97
       }
     },
     {
@@ -76194,7 +78450,11 @@
       "time": "9:45 PM",
       "coverage": "ESPN",
       "nickname": "Insight Bowl",
-      "headCoach": "Kent Baer"
+      "headCoach": "Kent Baer",
+      "weather": {
+        "icon": "rain",
+        "temperature": 57.26
+      }
     }
   ],
   "2005": [
@@ -76283,6 +78543,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 61.11
       }
     },
     {
@@ -76373,6 +78637,10 @@
         "home": {
           "ap": 3
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 82.07
       }
     },
     {
@@ -76463,7 +78731,11 @@
           "ap": 10
         }
       },
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.31
+      }
     },
     {
       "result": "W",
@@ -76550,6 +78822,10 @@
         "away": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.54
       }
     },
     {
@@ -76640,6 +78916,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 60.98
       }
     },
     {
@@ -76730,6 +79010,10 @@
         "away": {
           "ap": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 60.17
       }
     },
     {
@@ -76818,6 +79102,10 @@
           "ap": 9,
           "bcs": 16
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 50.09
       }
     },
     {
@@ -76906,6 +79194,10 @@
           "ap": 8,
           "bcs": 14
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 61.54
       }
     },
     {
@@ -76994,6 +79286,10 @@
           "ap": 7,
           "bcs": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.77
       }
     },
     {
@@ -77082,6 +79378,10 @@
           "ap": 6,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.66
       }
     },
     {
@@ -77170,6 +79470,10 @@
           "ap": 6,
           "bcs": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 47.28
       }
     },
     {
@@ -77264,6 +79568,10 @@
           "ap": 4,
           "bcs": 6
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 72.82
       }
     }
   ],
@@ -77353,6 +79661,10 @@
         "away": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 74
       }
     },
     {
@@ -77443,6 +79755,10 @@
         "away": {
           "ap": 19
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 71.46
       }
     },
     {
@@ -77533,6 +79849,10 @@
         "away": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 75.09
       }
     },
     {
@@ -77620,6 +79940,10 @@
         "away": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 63.57
       }
     },
     {
@@ -77707,6 +80031,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 57.73
       }
     },
     {
@@ -77794,6 +80122,10 @@
         "home": {
           "ap": 12
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 67.74
       }
     },
     {
@@ -77882,6 +80214,10 @@
           "ap": 10,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 61.09
       }
     },
     {
@@ -77970,6 +80306,10 @@
           "ap": 11,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 59.05
       }
     },
     {
@@ -78058,6 +80398,10 @@
           "ap": 11,
           "bcs": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.07
       }
     },
     {
@@ -78146,6 +80490,10 @@
           "ap": 9,
           "bcs": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.69
       }
     },
     {
@@ -78234,6 +80582,10 @@
           "ap": 6,
           "bcs": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 41.05
       }
     },
     {
@@ -78326,6 +80678,10 @@
           "ap": 3,
           "bcs": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 56.27
       }
     },
     {
@@ -78420,6 +80776,10 @@
           "ap": 4,
           "bcs": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 55.88
       }
     }
   ],
@@ -78504,7 +80864,11 @@
       "sportsReferenceGameId": "2007-09-01-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 78.6
+      }
     },
     {
       "result": "L",
@@ -78591,6 +80955,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 72.21
       }
     },
     {
@@ -78673,7 +81041,11 @@
       "sportsReferenceGameId": "2007-09-15-michigan",
       "time": "3:30 PM",
       "coverage": "ABC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.17
+      }
     },
     {
       "result": "L",
@@ -78755,7 +81127,11 @@
       "sportsReferenceGameId": "2007-09-22-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.6
+      }
     },
     {
       "result": "L",
@@ -78837,7 +81213,11 @@
       "sportsReferenceGameId": "2007-09-29-purdue",
       "time": "12:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 80.53
+      }
     },
     {
       "result": "W",
@@ -78919,7 +81299,11 @@
       "sportsReferenceGameId": "2007-10-06-ucla",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 63.32
+      }
     },
     {
       "result": "L",
@@ -79006,6 +81390,10 @@
         "away": {
           "ap": 4
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.79
       }
     },
     {
@@ -79094,6 +81482,10 @@
           "ap": 13,
           "bcs": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 68.96
       }
     },
     {
@@ -79183,7 +81575,11 @@
       "time": "2:30 PM",
       "coverage": "NBC",
       "headCoach": "Charlie Weis",
-      "numOvertimes": 3
+      "numOvertimes": 3,
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 51.48
+      }
     },
     {
       "result": "L",
@@ -79265,7 +81661,11 @@
       "sportsReferenceGameId": "2007-11-10-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.62
+      }
     },
     {
       "result": "W",
@@ -79347,7 +81747,11 @@
       "sportsReferenceGameId": "2007-11-17-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "rain",
+        "temperature": 39.29
+      }
     },
     {
       "result": "W",
@@ -79429,7 +81833,11 @@
       "sportsReferenceGameId": "2007-11-24-stanford",
       "time": "3:30 PM",
       "coverage": "ESPN",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 60.64
+      }
     }
   ],
   "2008": [
@@ -79513,7 +81921,11 @@
       "sportsReferenceGameId": "2008-09-06-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 71.97
+      }
     },
     {
       "result": "W",
@@ -79595,7 +82007,11 @@
       "sportsReferenceGameId": "2008-09-13-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "rain",
+        "temperature": 74.65
+      }
     },
     {
       "result": "L",
@@ -79677,7 +82093,11 @@
       "sportsReferenceGameId": "2008-09-20-michigan-state",
       "time": "3:30 PM",
       "coverage": "ABC / ESPN",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 77.79
+      }
     },
     {
       "result": "W",
@@ -79759,7 +82179,11 @@
       "sportsReferenceGameId": "2008-09-27-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 72.62
+      }
     },
     {
       "result": "W",
@@ -79841,7 +82265,11 @@
       "sportsReferenceGameId": "2008-10-04-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 58.79
+      }
     },
     {
       "result": "L",
@@ -79928,6 +82356,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.61
       }
     },
     {
@@ -80010,7 +82442,11 @@
       "sportsReferenceGameId": "2008-10-25-washington",
       "time": "8:00 PM",
       "coverage": "ESPN2",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 47.75
+      }
     },
     {
       "result": "L",
@@ -80101,7 +82537,11 @@
       "time": "2:30 PM",
       "coverage": "NBC",
       "headCoach": "Charlie Weis",
-      "numOvertimes": 4
+      "numOvertimes": 4,
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 57.3
+      }
     },
     {
       "result": "L",
@@ -80183,7 +82623,11 @@
       "sportsReferenceGameId": "2008-11-08-boston-college",
       "time": "8:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "rain",
+        "temperature": 58.38
+      }
     },
     {
       "result": "W",
@@ -80265,7 +82709,11 @@
       "sportsReferenceGameId": "2008-11-15-navy",
       "time": "12:00 PM",
       "coverage": "CBS",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "rain",
+        "temperature": 65.5
+      }
     },
     {
       "result": "L",
@@ -80347,7 +82795,11 @@
       "sportsReferenceGameId": "2008-11-22-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 25.09
+      }
     },
     {
       "result": "L",
@@ -80435,6 +82887,10 @@
           "ap": 5,
           "bcs": 5
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.08
       }
     },
     {
@@ -80519,7 +82975,11 @@
       "time": "8:00 PM",
       "coverage": "ESPN",
       "nickname": "Hawaii Bowl",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 74.59
+      }
     }
   ],
   "2009": [
@@ -80608,6 +83068,10 @@
         "home": {
           "ap": 23
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 74.99
       }
     },
     {
@@ -80695,6 +83159,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 73.35
       }
     },
     {
@@ -80777,7 +83245,11 @@
       "sportsReferenceGameId": "2009-09-19-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.11
+      }
     },
     {
       "result": "W",
@@ -80859,7 +83331,11 @@
       "sportsReferenceGameId": "2009-09-26-purdue",
       "time": "8:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 60.6
+      }
     },
     {
       "result": "W",
@@ -80944,7 +83420,11 @@
       "time": "3:30 PM",
       "coverage": "NBC",
       "headCoach": "Charlie Weis",
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "rain",
+        "temperature": 52.97
+      }
     },
     {
       "result": "L",
@@ -81034,6 +83514,10 @@
         "away": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.71
       }
     },
     {
@@ -81116,7 +83600,11 @@
       "sportsReferenceGameId": "2009-10-24-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 45.12
+      }
     },
     {
       "result": "W",
@@ -81205,6 +83693,10 @@
           "ap": 25,
           "bcs": 23
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 56.99
       }
     },
     {
@@ -81293,6 +83785,10 @@
           "ap": 19,
           "bcs": 22
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 66.33
       }
     },
     {
@@ -81381,6 +83877,10 @@
           "ap": 8,
           "bcs": 12
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.97
       }
     },
     {
@@ -81468,7 +83968,11 @@
       "time": "2:30 PM",
       "coverage": "NBC",
       "headCoach": "Charlie Weis",
-      "numOvertimes": 2
+      "numOvertimes": 2,
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.02
+      }
     },
     {
       "result": "L",
@@ -81550,7 +84054,11 @@
       "sportsReferenceGameId": "2009-11-28-stanford",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Charlie Weis"
+      "headCoach": "Charlie Weis",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 59.8
+      }
     }
   ],
   "2010": [
@@ -81634,7 +84142,11 @@
       "sportsReferenceGameId": "2010-09-04-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 63.5
+      }
     },
     {
       "result": "L",
@@ -81716,7 +84228,11 @@
       "sportsReferenceGameId": "2010-09-11-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 62.36
+      }
     },
     {
       "result": "L",
@@ -81801,7 +84317,11 @@
       "time": "8:00 PM",
       "coverage": "ABC",
       "headCoach": "Brian Kelly",
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 59.05
+      }
     },
     {
       "result": "L",
@@ -81888,6 +84408,10 @@
         "away": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 54.76
       }
     },
     {
@@ -81970,7 +84494,11 @@
       "sportsReferenceGameId": "2010-10-02-boston-college",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.81
+      }
     },
     {
       "result": "W",
@@ -82052,7 +84580,11 @@
       "sportsReferenceGameId": "2010-10-09-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 81.91
+      }
     },
     {
       "result": "W",
@@ -82134,7 +84666,11 @@
       "sportsReferenceGameId": "2010-10-16-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 66.46
+      }
     },
     {
       "result": "L",
@@ -82216,7 +84752,11 @@
       "sportsReferenceGameId": "2010-10-23-navy",
       "time": "12:00 PM",
       "coverage": "CBS",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 63.98
+      }
     },
     {
       "result": "L",
@@ -82298,7 +84838,11 @@
       "sportsReferenceGameId": "2010-10-30-notre-dame",
       "time": "2:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 60.05
+      }
     },
     {
       "result": "W",
@@ -82386,6 +84930,10 @@
           "ap": 15,
           "bcs": 14
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 53.94
       }
     },
     {
@@ -82469,7 +85017,11 @@
       "sportsReferenceGameId": "2010-11-20-army",
       "time": "7:00 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 47.35
+      }
     },
     {
       "result": "W",
@@ -82551,7 +85103,11 @@
       "sportsReferenceGameId": "2010-11-27-southern-california",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "rain",
+        "temperature": 52.64
+      }
     },
     {
       "result": "W",
@@ -82635,7 +85191,11 @@
       "time": "2:00 PM",
       "coverage": "CBS",
       "nickname": "Sun Bowl",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 33.92
+      }
     }
   ],
   "2011": [
@@ -82724,6 +85284,10 @@
         "home": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 76.5
       }
     },
     {
@@ -82806,7 +85370,11 @@
       "sportsReferenceGameId": "2011-09-10-michigan",
       "time": "8:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 64.05
+      }
     },
     {
       "result": "W",
@@ -82893,6 +85461,10 @@
         "away": {
           "ap": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 67.95
       }
     },
     {
@@ -82975,7 +85547,11 @@
       "sportsReferenceGameId": "2011-09-24-pittsburgh",
       "time": "12:00 PM",
       "coverage": "ABC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.65
+      }
     },
     {
       "result": "W",
@@ -83057,7 +85633,11 @@
       "sportsReferenceGameId": "2011-10-01-purdue",
       "time": "8:00 PM",
       "coverage": "ESPN",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.03
+      }
     },
     {
       "result": "W",
@@ -83139,7 +85719,11 @@
       "sportsReferenceGameId": "2011-10-08-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 79.05
+      }
     },
     {
       "result": "L",
@@ -83221,7 +85805,11 @@
       "sportsReferenceGameId": "2011-10-22-notre-dame",
       "time": "7:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.18
+      }
     },
     {
       "result": "W",
@@ -83303,7 +85891,11 @@
       "sportsReferenceGameId": "2011-10-29-notre-dame",
       "time": "3:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 48.63
+      }
     },
     {
       "result": "W",
@@ -83385,7 +85977,11 @@
       "sportsReferenceGameId": "2011-11-05-wake-forest",
       "time": "8:00 PM",
       "coverage": "ABC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 37.16
+      }
     },
     {
       "result": "W",
@@ -83468,7 +86064,11 @@
       "sportsReferenceGameId": "2011-11-12-maryland",
       "time": "7:30 PM",
       "coverage": "NBC",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.87
+      }
     },
     {
       "result": "W",
@@ -83555,6 +86155,10 @@
         "home": {
           "ap": 24
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 51.79
       }
     },
     {
@@ -83647,6 +86251,10 @@
           "ap": 4,
           "bcs": 6
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 52.1
       }
     },
     {
@@ -83736,6 +86344,10 @@
         "away": {
           "ap": 25
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 52.96
       }
     }
   ],
@@ -83822,7 +86434,11 @@
       "sportsReferenceGameId": "2012-09-01-navy",
       "time": "9:00 AM",
       "coverage": "CBS",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.64
+      }
     },
     {
       "result": "W",
@@ -83910,6 +86526,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 66.61
       }
     },
     {
@@ -84001,6 +86621,10 @@
         "home": {
           "ap": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.05
       }
     },
     {
@@ -84092,6 +86716,10 @@
         "away": {
           "ap": 18
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 48.38
       }
     },
     {
@@ -84181,6 +86809,10 @@
         "home": {
           "ap": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 44.95
       }
     },
     {
@@ -84275,7 +86907,11 @@
           "ap": 17
         }
       },
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "rain",
+        "temperature": 60.88
+      }
     },
     {
       "result": "W",
@@ -84364,6 +87000,10 @@
           "ap": 5,
           "bcs": 5
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 53.02
       }
     },
     {
@@ -84457,6 +87097,10 @@
           "ap": 8,
           "bcs": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 38.88
       }
     },
     {
@@ -84553,7 +87197,11 @@
           "bcs": 3
         }
       },
-      "numOvertimes": 3
+      "numOvertimes": 3,
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 40.51
+      }
     },
     {
       "result": "W",
@@ -84642,6 +87290,10 @@
           "ap": 4,
           "bcs": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 35.73
       }
     },
     {
@@ -84731,6 +87383,10 @@
           "ap": 3,
           "bcs": 3
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 43.62
       }
     },
     {
@@ -84820,6 +87476,10 @@
           "ap": 1,
           "bcs": 1
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 63.73
       }
     },
     {
@@ -84914,6 +87574,10 @@
           "ap": 2,
           "bcs": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 72.17
       }
     }
   ],
@@ -85004,6 +87668,10 @@
         "home": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 78.4
       }
     },
     {
@@ -85094,6 +87762,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 69.24
       }
     },
     {
@@ -85182,6 +87854,10 @@
         "away": {
           "ap": 21
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 53.75
       }
     },
     {
@@ -85270,6 +87946,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 59.96
       }
     },
     {
@@ -85360,6 +88040,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 79.02
       }
     },
     {
@@ -85449,6 +88133,10 @@
         "away": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 52.7
       }
     },
     {
@@ -85532,7 +88220,11 @@
         ]
       },
       "sportsReferenceGameId": "2013-10-19-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.98
+      }
     },
     {
       "result": "W",
@@ -85615,7 +88307,11 @@
         ]
       },
       "sportsReferenceGameId": "2013-10-26-air-force",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 52.78
+      }
     },
     {
       "result": "W",
@@ -85703,6 +88399,10 @@
         "home": {
           "bcs": 25
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.14
       }
     },
     {
@@ -85791,6 +88491,10 @@
           "ap": 24,
           "bcs": 23
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 53.87
       }
     },
     {
@@ -85874,7 +88578,11 @@
         ]
       },
       "sportsReferenceGameId": "2013-11-23-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 22.2
+      }
     },
     {
       "result": "L",
@@ -85966,6 +88674,10 @@
           "ap": 8,
           "bcs": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 54.29
       }
     },
     {
@@ -86056,6 +88768,10 @@
         "home": {
           "ap": 25
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 53.57
       }
     }
   ],
@@ -86145,6 +88861,10 @@
         "home": {
           "ap": 17
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 75.95
       }
     },
     {
@@ -86232,6 +88952,10 @@
         "home": {
           "ap": 16
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 56.73
       }
     },
     {
@@ -86320,6 +89044,10 @@
         "home": {
           "ap": 11
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 51.16
       }
     },
     {
@@ -86407,6 +89135,10 @@
         "away": {
           "ap": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 65.11
       }
     },
     {
@@ -86497,6 +89229,10 @@
         "away": {
           "ap": 14
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 43.62
       }
     },
     {
@@ -86584,6 +89320,10 @@
         "home": {
           "ap": 6
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 56.63
       }
     },
     {
@@ -86674,6 +89414,10 @@
         "home": {
           "ap": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 67.41
       }
     },
     {
@@ -86762,6 +89506,10 @@
           "ap": 6,
           "cfbPlayoff": 10
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 46.02
       }
     },
     {
@@ -86854,6 +89602,10 @@
           "ap": 11,
           "cfbPlayoff": 9
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 87.81
       }
     },
     {
@@ -86945,7 +89697,11 @@
           "cfbPlayoff": 18
         }
       },
-      "numOvertimes": 1
+      "numOvertimes": 1,
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 28.45
+      }
     },
     {
       "result": "L",
@@ -87032,6 +89788,10 @@
         "away": {
           "cfbPlayoff": 24
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 47.36
       }
     },
     {
@@ -87114,7 +89874,11 @@
         ]
       },
       "sportsReferenceGameId": "2014-11-29-southern-california",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 70.33
+      }
     },
     {
       "result": "W",
@@ -87204,6 +89968,10 @@
           "ap": 22,
           "cfbPlayoff": 23
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 37.46
       }
     }
   ],
@@ -87289,7 +90057,11 @@
         ]
       },
       "sportsReferenceGameId": "2015-09-05-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 70.94
+      }
     },
     {
       "result": "W",
@@ -87378,6 +90150,10 @@
           "ap": 9,
           "coaches": 11
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 71.74
       }
     },
     {
@@ -87471,6 +90247,10 @@
           "ap": 14,
           "coaches": 16
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 65.06
       }
     },
     {
@@ -87560,6 +90340,10 @@
           "ap": 6,
           "coaches": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 72.45
       }
     },
     {
@@ -87653,6 +90437,10 @@
           "ap": 12,
           "coaches": 11
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 63.05
       }
     },
     {
@@ -87742,6 +90530,10 @@
           "ap": 15,
           "coaches": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 62.84
       }
     },
     {
@@ -87831,6 +90623,10 @@
           "ap": 14,
           "coaches": 13
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 32.52
       }
     },
     {
@@ -87924,6 +90720,10 @@
           "ap": 21,
           "coaches": 22
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.44
       }
     },
     {
@@ -88014,6 +90814,10 @@
           "coaches": 9,
           "cfbPlayoff": 5
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 54.3
       }
     },
     {
@@ -88104,6 +90908,10 @@
           "coaches": 9,
           "cfbPlayoff": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 48.54
       }
     },
     {
@@ -88195,6 +91003,10 @@
           "coaches": 5,
           "cfbPlayoff": 4
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 34.52
       }
     },
     {
@@ -88290,6 +91102,10 @@
           "coaches": 12,
           "cfbPlayoff": 9
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 45.63
       }
     },
     {
@@ -88387,6 +91203,10 @@
           "coaches": 5,
           "cfbPlayoff": 7
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 64.1
       }
     }
   ],
@@ -88483,7 +91303,11 @@
           "coaches": 9
         }
       },
-      "numOvertimes": 2
+      "numOvertimes": 2,
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 78.89
+      }
     },
     {
       "result": "W",
@@ -88572,6 +91396,10 @@
           "ap": 18,
           "coaches": 21
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 69.32
       }
     },
     {
@@ -88665,6 +91493,10 @@
           "ap": 12,
           "coaches": 8
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 67.49
       }
     },
     {
@@ -88748,7 +91580,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-09-24-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 74.49
+      }
     },
     {
       "result": "W",
@@ -88831,7 +91667,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-10-01-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 61.59
+      }
     },
     {
       "result": "L",
@@ -88914,7 +91754,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-10-08-north-carolina-state",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "rain",
+        "temperature": 65.74
+      }
     },
     {
       "result": "L",
@@ -88997,7 +91841,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-10-15-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 67.8
+      }
     },
     {
       "result": "W",
@@ -89080,7 +91928,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-10-29-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 67.92
+      }
     },
     {
       "result": "L",
@@ -89163,7 +92015,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-11-05-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 72.13
+      }
     },
     {
       "result": "W",
@@ -89247,7 +92103,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-11-12-army",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 70.69
+      }
     },
     {
       "result": "L",
@@ -89330,7 +92190,11 @@
         ]
       },
       "sportsReferenceGameId": "2016-11-19-notre-dame",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 36.41
+      }
     },
     {
       "result": "L",
@@ -89420,6 +92284,10 @@
           "coaches": 12,
           "cfbPlayoff": 12
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 53.52
       }
     }
   ],
@@ -89505,7 +92373,11 @@
       },
       "sportsReferenceGameId": "2017-09-02-notre-dame",
       "time": "3:30 PM",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "rain",
+        "temperature": 60.1
+      }
     },
     {
       "result": "L",
@@ -89598,6 +92470,10 @@
           "ap": 15,
           "coaches": 15
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.15
       }
     },
     {
@@ -89681,7 +92557,11 @@
       },
       "sportsReferenceGameId": "2017-09-16-boston-college",
       "time": "3:30 PM",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 77.94
+      }
     },
     {
       "isHomeGame": false,
@@ -89764,7 +92644,11 @@
         }
       },
       "time": "8:00 PM",
-      "headCoach": "Brian Kelly"
+      "headCoach": "Brian Kelly",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 80.08
+      }
     },
     {
       "isHomeGame": true,
@@ -89852,6 +92736,10 @@
         "home": {
           "ap": 22
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 65.88
       }
     },
     {
@@ -89941,6 +92829,10 @@
           "ap": 21,
           "coaches": 22
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 82.78
       }
     },
     {
@@ -90034,6 +92926,10 @@
           "ap": 11,
           "coaches": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 69.42
       }
     },
     {
@@ -90127,6 +93023,10 @@
           "ap": 14,
           "coaches": 15
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 40.31
       }
     },
     {
@@ -90217,6 +93117,10 @@
           "coaches": 8,
           "cfbPlayoff": 3
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 43.46
       }
     },
     {
@@ -90312,6 +93216,10 @@
           "coaches": 6,
           "cfbPlayoff": 10
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 77.46
       }
     },
     {
@@ -90402,6 +93310,10 @@
           "coaches": 9,
           "cfbPlayoff": 8
         }
+      },
+      "weather": {
+        "icon": "rain",
+        "temperature": 41.63
       }
     },
     {
@@ -90497,6 +93409,10 @@
           "coaches": 20,
           "cfbPlayoff": 21
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 63.83
       }
     },
     {
@@ -90593,6 +93509,10 @@
           "coaches": 15,
           "cfbPlayoff": 14
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 56.95
       }
     }
   ],
@@ -90699,6 +93619,10 @@
           "ap": 14,
           "coaches": 14
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 80.78
       }
     },
     {
@@ -90799,6 +93723,10 @@
           "ap": 8,
           "coaches": 8
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 66.06
       }
     },
     {
@@ -90899,6 +93827,10 @@
           "ap": 8,
           "coaches": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 81.25
       }
     },
     {
@@ -91000,6 +93932,10 @@
           "ap": 8,
           "coaches": 8
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 83.88
       }
     },
     {
@@ -91104,6 +94040,10 @@
           "ap": 7,
           "coaches": 7
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 54.38
       }
     },
     {
@@ -91208,6 +94148,10 @@
           "possession": "32:42",
           "fumbles": 2
         }
+      },
+      "weather": {
+        "icon": "partly-cloudy-night",
+        "temperature": 71
       }
     },
     {
@@ -91308,6 +94252,10 @@
           "possession": "26:33",
           "fumbles": 1
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 49.59
       }
     },
     {
@@ -91408,6 +94356,10 @@
           "possession": "28:03",
           "fumbles": 2
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 76.15
       }
     },
     {
@@ -91510,6 +94462,10 @@
           "possession": "30:24",
           "fumbles": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 45.26
       }
     },
     {
@@ -91611,6 +94567,10 @@
           "possession": "32:00",
           "fumbles": 0
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 26.74
       }
     },
     {
@@ -91720,6 +94680,10 @@
           "possession": "32:13",
           "fumbles": -1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 46.5
       }
     },
     {
@@ -91821,6 +94785,10 @@
           "possession": "34:11",
           "fumbles": 2
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 55.3
       }
     },
     {
@@ -91927,6 +94895,10 @@
           "possession": "32:54",
           "fumbles": 2
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 39.4
       }
     }
   ],
@@ -92028,6 +95000,10 @@
           "home": "0-0",
           "away": "1-0"
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 81.55
       }
     },
     {
@@ -92127,6 +95103,10 @@
           "possession": "24:54",
           "fumbles": 0
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 75.44
       }
     },
     {
@@ -92230,6 +95210,10 @@
           "possession": "34:31",
           "fumbles": 4
         }
+      },
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 76.9
       }
     },
     {
@@ -92333,6 +95317,10 @@
           "possession": "26:28",
           "fumbles": 1
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 67.75
       }
     },
     {
@@ -92432,6 +95420,10 @@
           "possession": "26:40",
           "fumbles": 0
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 63.45
       }
     },
     {
@@ -92532,7 +95524,11 @@
           10
         ]
       },
-      "result": "W"
+      "result": "W",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 49.88
+      }
     },
     {
       "isHomeGame": false,
@@ -92635,7 +95631,11 @@
           21
         ]
       },
-      "result": "L"
+      "result": "L",
+      "weather": {
+        "icon": "rain",
+        "temperature": 50.83
+      }
     },
     {
       "isHomeGame": true,
@@ -92734,7 +95734,11 @@
           7
         ]
       },
-      "result": "W"
+      "result": "W",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 43.2
+      }
     },
     {
       "isHomeGame": false,
@@ -92834,7 +95838,11 @@
           0
         ]
       },
-      "result": "W"
+      "result": "W",
+      "weather": {
+        "icon": "clear-night",
+        "temperature": 37.17
+      }
     },
     {
       "isHomeGame": true,

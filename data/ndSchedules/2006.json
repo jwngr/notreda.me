@@ -84,6 +84,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 74
     }
   },
   {
@@ -174,6 +178,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 71.46
     }
   },
   {
@@ -264,6 +272,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75.09
     }
   },
   {
@@ -351,6 +363,10 @@
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 63.57
     }
   },
   {
@@ -438,6 +454,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 57.73
     }
   },
   {
@@ -525,6 +545,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 67.74
     }
   },
   {
@@ -613,6 +637,10 @@
         "ap": 10,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.09
     }
   },
   {
@@ -701,6 +729,10 @@
         "ap": 11,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 59.05
     }
   },
   {
@@ -789,6 +821,10 @@
         "ap": 11,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.07
     }
   },
   {
@@ -877,6 +913,10 @@
         "ap": 9,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.69
     }
   },
   {
@@ -965,6 +1005,10 @@
         "ap": 6,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 41.05
     }
   },
   {
@@ -1057,6 +1101,10 @@
         "ap": 3,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.27
     }
   },
   {
@@ -1151,6 +1199,10 @@
         "ap": 4,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 55.88
     }
   }
 ]

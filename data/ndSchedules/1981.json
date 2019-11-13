@@ -67,6 +67,10 @@
       "home": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 82.53
     }
   },
   {
@@ -141,6 +145,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.41
     }
   },
   {
@@ -211,6 +219,10 @@
       "away": {
         "ap": 13
       }
+    },
+    "weather": {
+      "temperature": 82.24,
+      "icon": "unknown"
     }
   },
   {
@@ -276,7 +288,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 59.18
+    }
   },
   {
     "result": "L",
@@ -346,6 +362,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 60.51
     }
   },
   {
@@ -416,6 +436,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 41.13
     }
   },
   {
@@ -481,7 +505,11 @@
       "home": []
     },
     "time": "1:30 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 64.94
+    }
   },
   {
     "result": "W",
@@ -546,7 +574,11 @@
       "home": []
     },
     "time": "1:30 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 53.37
+    }
   },
   {
     "result": "W",
@@ -611,7 +643,11 @@
       "home": []
     },
     "time": "3:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.62
+    }
   },
   {
     "result": "L",
@@ -681,6 +717,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 34.91
     }
   },
   {
@@ -752,6 +792,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 73.91
     }
   }
 ]

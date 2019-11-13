@@ -84,6 +84,10 @@
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 61.11
     }
   },
   {
@@ -174,6 +178,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.07
     }
   },
   {
@@ -264,7 +272,11 @@
         "ap": 10
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73.31
+    }
   },
   {
     "result": "W",
@@ -351,6 +363,10 @@
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.54
     }
   },
   {
@@ -441,6 +457,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 60.98
     }
   },
   {
@@ -531,6 +551,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.17
     }
   },
   {
@@ -619,6 +643,10 @@
         "ap": 9,
         "bcs": 16
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 50.09
     }
   },
   {
@@ -707,6 +735,10 @@
         "ap": 8,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 61.54
     }
   },
   {
@@ -795,6 +827,10 @@
         "ap": 7,
         "bcs": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 65.77
     }
   },
   {
@@ -883,6 +919,10 @@
         "ap": 6,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.66
     }
   },
   {
@@ -971,6 +1011,10 @@
         "ap": 6,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 47.28
     }
   },
   {
@@ -1065,6 +1109,10 @@
         "ap": 4,
         "bcs": 6
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.82
     }
   }
 ]

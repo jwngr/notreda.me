@@ -68,6 +68,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 87.27
     }
   },
   {
@@ -142,6 +146,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 73.84
     }
   },
   {
@@ -213,6 +221,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 65.18
     }
   },
   {
@@ -284,6 +296,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 63.84,
+      "icon": "unknown"
     }
   },
   {
@@ -355,6 +371,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 58.92
     }
   },
   {
@@ -429,6 +449,10 @@
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 55.94
     }
   },
   {
@@ -500,6 +524,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.97
     }
   },
   {
@@ -571,6 +599,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66.39
     }
   },
   {
@@ -642,6 +674,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 24.2
     }
   },
   {
@@ -716,6 +752,10 @@
       "away": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 38.11
     }
   },
   {
@@ -790,6 +830,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 40.41,
+      "icon": "unknown"
     }
   },
   {
@@ -861,6 +905,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 75.39
     }
   },
   {
@@ -947,6 +995,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.99
     }
   }
 ]

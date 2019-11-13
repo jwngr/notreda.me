@@ -66,6 +66,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 34.42
     }
   },
   {
@@ -135,6 +139,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.91
     }
   },
   {
@@ -204,6 +212,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.15
     }
   },
   {
@@ -268,7 +280,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 41.09
+    }
   },
   {
     "result": "W",
@@ -337,6 +353,10 @@
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.28
     }
   },
   {
@@ -406,6 +426,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 40.26
     }
   },
   {
@@ -478,6 +502,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 30.12
     }
   },
   {
@@ -542,7 +570,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 46.85
+    }
   },
   {
     "result": "T",
@@ -606,7 +638,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 24.81
+    }
   },
   {
     "result": "W",
@@ -675,6 +711,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 52.84
     }
   }
 ]

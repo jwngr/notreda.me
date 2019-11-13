@@ -66,6 +66,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 82.18
     }
   },
   {
@@ -135,6 +139,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 51.21
     }
   },
   {
@@ -204,6 +212,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 61.12
     }
   },
   {
@@ -273,6 +285,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.18
     }
   },
   {
@@ -342,6 +358,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 35.2
     }
   },
   {
@@ -406,7 +426,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Terry Brennan"
+    "headCoach": "Terry Brennan",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.06
+    }
   },
   {
     "result": "L",
@@ -475,6 +499,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 37.65
     }
   },
   {
@@ -539,7 +567,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Terry Brennan"
+    "headCoach": "Terry Brennan",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 21.14
+    }
   },
   {
     "result": "L",
@@ -677,6 +709,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52.86
     }
   }
 ]

@@ -68,6 +68,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 59.24
     }
   },
   {
@@ -142,6 +146,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 78.67
     }
   },
   {
@@ -213,6 +221,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.83
     }
   },
   {
@@ -284,6 +296,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 64.55
     }
   },
   {
@@ -355,6 +371,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 60.74
     }
   },
   {
@@ -426,6 +446,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73.37
     }
   },
   {
@@ -497,6 +521,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 68.88
     }
   },
   {
@@ -563,7 +591,11 @@
     },
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 63.56
+    }
   },
   {
     "result": "L",
@@ -634,6 +666,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 80.92
     }
   },
   {
@@ -700,7 +736,11 @@
     },
     "time": "1:30 PM",
     "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 48.67
+    }
   },
   {
     "result": "T",
@@ -771,6 +811,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.24
     }
   },
   {
@@ -857,6 +901,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59.75
     }
   }
 ]

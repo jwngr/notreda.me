@@ -71,6 +71,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.68
     }
   },
   {
@@ -141,6 +145,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.37
     }
   },
   {
@@ -211,6 +219,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 71.14
     }
   },
   {
@@ -284,6 +296,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.86
     }
   },
   {
@@ -354,6 +370,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 45.53
     }
   },
   {
@@ -424,6 +444,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 68.87
     }
   },
   {
@@ -489,7 +513,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 69.16
+    }
   },
   {
     "result": "W",
@@ -559,6 +587,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 43.17
     }
   },
   {
@@ -633,6 +665,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 25.16
     }
   },
   {
@@ -703,6 +739,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 38.52
     }
   },
   {
@@ -774,6 +814,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.63
     }
   }
 ]

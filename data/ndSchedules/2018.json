@@ -101,6 +101,10 @@
         "ap": 14,
         "coaches": 14
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 80.78
     }
   },
   {
@@ -201,6 +205,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.06
     }
   },
   {
@@ -301,6 +309,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.25
     }
   },
   {
@@ -402,6 +414,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 83.88
     }
   },
   {
@@ -506,6 +522,10 @@
         "ap": 7,
         "coaches": 7
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54.38
     }
   },
   {
@@ -610,6 +630,10 @@
         "possession": "32:42",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 71
     }
   },
   {
@@ -710,6 +734,10 @@
         "possession": "26:33",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49.59
     }
   },
   {
@@ -810,6 +838,10 @@
         "possession": "28:03",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 76.15
     }
   },
   {
@@ -912,6 +944,10 @@
         "possession": "30:24",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.26
     }
   },
   {
@@ -1013,6 +1049,10 @@
         "possession": "32:00",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 26.74
     }
   },
   {
@@ -1122,6 +1162,10 @@
         "possession": "32:13",
         "fumbles": -1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.5
     }
   },
   {
@@ -1223,6 +1267,10 @@
         "possession": "34:11",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 55.3
     }
   },
   {
@@ -1329,6 +1377,10 @@
         "possession": "32:54",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 39.4
     }
   }
 ]

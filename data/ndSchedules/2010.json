@@ -79,7 +79,11 @@
     "sportsReferenceGameId": "2010-09-04-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 63.5
+    }
   },
   {
     "result": "L",
@@ -161,7 +165,11 @@
     "sportsReferenceGameId": "2010-09-11-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.36
+    }
   },
   {
     "result": "L",
@@ -246,7 +254,11 @@
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.05
+    }
   },
   {
     "result": "L",
@@ -333,6 +345,10 @@
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54.76
     }
   },
   {
@@ -415,7 +431,11 @@
     "sportsReferenceGameId": "2010-10-02-boston-college",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.81
+    }
   },
   {
     "result": "W",
@@ -497,7 +517,11 @@
     "sportsReferenceGameId": "2010-10-09-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.91
+    }
   },
   {
     "result": "W",
@@ -579,7 +603,11 @@
     "sportsReferenceGameId": "2010-10-16-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.46
+    }
   },
   {
     "result": "L",
@@ -661,7 +689,11 @@
     "sportsReferenceGameId": "2010-10-23-navy",
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 63.98
+    }
   },
   {
     "result": "L",
@@ -743,7 +775,11 @@
     "sportsReferenceGameId": "2010-10-30-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.05
+    }
   },
   {
     "result": "W",
@@ -831,6 +867,10 @@
         "ap": 15,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53.94
     }
   },
   {
@@ -914,7 +954,11 @@
     "sportsReferenceGameId": "2010-11-20-army",
     "time": "7:00 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 47.35
+    }
   },
   {
     "result": "W",
@@ -996,7 +1040,11 @@
     "sportsReferenceGameId": "2010-11-27-southern-california",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "rain",
+      "temperature": 52.64
+    }
   },
   {
     "result": "W",
@@ -1080,6 +1128,10 @@
     "time": "2:00 PM",
     "coverage": "CBS",
     "nickname": "Sun Bowl",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 33.92
+    }
   }
 ]

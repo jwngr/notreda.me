@@ -425,6 +425,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 50.1
     }
   },
   {
@@ -495,6 +499,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.17
     }
   },
   {
@@ -709,6 +717,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 58.78
     }
   }
 ]

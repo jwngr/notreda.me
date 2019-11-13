@@ -71,6 +71,10 @@
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 76.57
     }
   },
   {
@@ -136,7 +140,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 72.15
+    }
   },
   {
     "result": "W",
@@ -201,7 +209,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 63.68
+    }
   },
   {
     "result": "W",
@@ -271,6 +283,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79.17
     }
   },
   {
@@ -341,6 +357,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 43.05
     }
   },
   {
@@ -414,6 +434,10 @@
       "home": {
         "ap": 19
       }
+    },
+    "weather": {
+      "temperature": 70.14,
+      "icon": "unknown"
     }
   },
   {
@@ -484,6 +508,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.61
     }
   },
   {
@@ -554,6 +582,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.31
     }
   },
   {
@@ -628,6 +660,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 37.35
     }
   },
   {
@@ -698,6 +734,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 42.2
     }
   },
   {
@@ -772,6 +812,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 61.31
     }
   },
   {
@@ -858,6 +902,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 47.77
     }
   }
 ]

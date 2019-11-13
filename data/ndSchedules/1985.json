@@ -68,6 +68,10 @@
       "away": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 64.29
     }
   },
   {
@@ -134,7 +138,11 @@
     },
     "time": "7:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.6
+    }
   },
   {
     "result": "L",
@@ -200,7 +208,11 @@
     },
     "time": "12:00 PM",
     "coverage": "TBS",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "temperature": 72.85,
+      "icon": "unknown"
+    }
   },
   {
     "result": "L",
@@ -271,6 +283,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 61.61
     }
   },
   {
@@ -342,6 +358,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.13
     }
   },
   {
@@ -407,7 +427,11 @@
       "home": []
     },
     "time": "2:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 69.6
+    }
   },
   {
     "result": "W",
@@ -473,7 +497,11 @@
     },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.96
+    }
   },
   {
     "result": "W",
@@ -539,7 +567,11 @@
     },
     "time": "12:00 PM",
     "coverage": "USA / WGN-TV",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "rain",
+      "temperature": 47.08
+    }
   },
   {
     "result": "L",
@@ -610,6 +642,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "temperature": 38.2,
+      "icon": "unknown"
     }
   },
   {
@@ -681,6 +717,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 34.13
     }
   },
   {
@@ -752,6 +792,10 @@
       "home": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 75.92
     }
   }
 ]

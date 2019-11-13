@@ -348,7 +348,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Ara Parseghian"
+    "headCoach": "Ara Parseghian",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.37
+    }
   },
   {
     "result": "W",
@@ -484,6 +488,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "snow",
+      "temperature": 30.15
     }
   },
   {
@@ -554,6 +562,10 @@
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 64.65
     }
   },
   {
@@ -624,6 +636,10 @@
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.13
     }
   },
   {
@@ -694,6 +710,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "temperature": 68.98,
+      "icon": "unknown"
     }
   }
 ]

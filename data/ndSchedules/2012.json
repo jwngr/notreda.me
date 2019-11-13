@@ -81,7 +81,11 @@
     "sportsReferenceGameId": "2012-09-01-navy",
     "time": "9:00 AM",
     "coverage": "CBS",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.64
+    }
   },
   {
     "result": "W",
@@ -169,6 +173,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.61
     }
   },
   {
@@ -260,6 +268,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54.05
     }
   },
   {
@@ -351,6 +363,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.38
     }
   },
   {
@@ -440,6 +456,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 44.95
     }
   },
   {
@@ -534,7 +554,11 @@
         "ap": 17
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "rain",
+      "temperature": 60.88
+    }
   },
   {
     "result": "W",
@@ -623,6 +647,10 @@
         "ap": 5,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.02
     }
   },
   {
@@ -716,6 +744,10 @@
         "ap": 8,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 38.88
     }
   },
   {
@@ -812,7 +844,11 @@
         "bcs": 3
       }
     },
-    "numOvertimes": 3
+    "numOvertimes": 3,
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 40.51
+    }
   },
   {
     "result": "W",
@@ -901,6 +937,10 @@
         "ap": 4,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 35.73
     }
   },
   {
@@ -990,6 +1030,10 @@
         "ap": 3,
         "bcs": 3
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.62
     }
   },
   {
@@ -1079,6 +1123,10 @@
         "ap": 1,
         "bcs": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.73
     }
   },
   {
@@ -1173,6 +1221,10 @@
         "ap": 2,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.17
     }
   }
 ]
