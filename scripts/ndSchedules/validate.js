@@ -12,7 +12,7 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
 
   let previousGameDate;
   seasonScheduleData.forEach((gameData) => {
-    const currentGameDate = new Date(gameData.date || gameData.fullDate || gameData.timestamp);
+    const currentGameDate = new Date(gameData.date || gameData.fullDate);
     if (typeof previousGameDate !== 'undefined' && currentGameDate < previousGameDate) {
       logger.error('Date for game is before prior game.', {
         season,
@@ -63,7 +63,10 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
     }
 
     if (gameData.stats) {
-      if (_.get(gameData, 'stats.away.thirdDownConversions', 0) > _.get(gameData, 'stats.away.thirdDownAttempts', 0)) {
+      if (
+        _.get(gameData, 'stats.away.thirdDownConversions', 0) >
+        _.get(gameData, 'stats.away.thirdDownAttempts', 0)
+      ) {
         logger.error('Game has more away 3rd down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),
@@ -71,7 +74,10 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
         numErrorsFound++;
       }
 
-      if (_.get(gameData, 'stats.away.fourthDownConversions', 0) > _.get(gameData, 'stats.away.fourthDownAttempts', 0)) {
+      if (
+        _.get(gameData, 'stats.away.fourthDownConversions', 0) >
+        _.get(gameData, 'stats.away.fourthDownAttempts', 0)
+      ) {
         logger.error('Game has more away 4th down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),
@@ -79,7 +85,10 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
         numErrorsFound++;
       }
 
-      if (_.get(gameData, 'stats.home.thirdDownConversions', 0) > _.get(gameData, 'stats.home.thirdDownAttempts', 0)) {
+      if (
+        _.get(gameData, 'stats.home.thirdDownConversions', 0) >
+        _.get(gameData, 'stats.home.thirdDownAttempts', 0)
+      ) {
         logger.error('Game has more home 3rd down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),
@@ -87,7 +96,10 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
         numErrorsFound++;
       }
 
-      if (_.get(gameData, 'stats.home.fourthDownConversions', 0) > _.get(gameData, 'stats.home.fourthDownAttempts', 0)) {
+      if (
+        _.get(gameData, 'stats.home.fourthDownConversions', 0) >
+        _.get(gameData, 'stats.home.fourthDownAttempts', 0)
+      ) {
         logger.error('Game has more home 4th down conversions than attempts.', {
           season,
           ..._.pick(gameData, ['date', 'opponentId']),

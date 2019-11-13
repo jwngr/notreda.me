@@ -25,7 +25,7 @@ const updateForSeason = (season, seasonPollsData, seasonScheduleData = []) => {
 
   // Copy the updated poll rankings into the ND season schedule data.
   seasonScheduleData.forEach((game) => {
-    const gameDate = new Date(game.date || game.fullDate || game.timestamp);
+    const gameDate = new Date(game.date || game.fullDate);
 
     _.forEach(seasonPollsData, (pollData, pollId) => {
       let currentWeekPollData;

@@ -16,14 +16,12 @@ const Metadata = ({game}) => {
   let time;
   if ('fullDate' in game) {
     date = format(new Date(game.fullDate), 'MMMM d, yyyy');
+    // TODO(cleanup): remove isTimeTbd logic.
     time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm a');
   } else if (game.date === 'TBD') {
     date = 'Date To Be Determined';
   } else {
-    date = format(new Date(game.timestamp || game.date), 'MMMM d, yyyy');
-    if ('timestamp' in game) {
-      time = format(new Date(game.timestamp || game.date), 'h:mm a');
-    }
+    date = format(new Date(game.date), 'MMMM d, yyyy');
   }
 
   let tvCoverageContent;
