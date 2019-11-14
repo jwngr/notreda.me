@@ -197,6 +197,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 47.63,
+      "icon": "unknown"
     }
   },
   {
@@ -479,6 +483,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "temperature": 54.58,
+      "icon": "unknown"
     }
   },
   {
@@ -551,6 +559,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 16.8,
+      "icon": "unknown"
     }
   },
   {
@@ -692,6 +704,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "temperature": 17.72,
+      "icon": "unknown"
     }
   }
 ]

@@ -28,3 +28,19 @@ export const VideoHighlights = styled.iframe`
     height: 240px;
   }
 `;
+
+export const CoverageLocationWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & > div:first-of-type {
+    margin-right: 6px;
+  }
+
+  & > div:last-of-type {
+    margin-left: 6px;
+  }
+`;

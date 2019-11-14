@@ -61,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "temperature": 53.9,
+      "icon": "unknown"
+    }
   },
   {
     "result": "W",
@@ -478,6 +482,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 35.46
     }
   },
   {
@@ -619,6 +627,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "temperature": 47.54,
+      "icon": "unknown"
     }
   }
 ]

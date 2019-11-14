@@ -1,19 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Metadata from './Metadata';
+import Coverage from '../Coverage';
+import Location from '../Location';
 import LineScore from './Linescore';
 import GameStats from './GameStats';
 import TotalScore from './TotalScore';
+import MatchupHistory from '../MatchupHistory';
 
-import {VideoHighlights, CompletedGameWrapper} from './index.styles';
+import {VideoHighlights, CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
 
 const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
   return (
     <CompletedGameWrapper>
       <TotalScore game={game} homeTeam={homeTeam} awayTeam={awayTeam} />
 
-      <Metadata game={game} />
+      <CoverageLocationWrapper>
+        <Coverage game={game} />
+        <Location game={game} />
+      </CoverageLocationWrapper>
 
       <LineScore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
 
@@ -28,6 +33,10 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
       )}
 
       <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
+      <MatchupHistory
+        game={game}
+        opponentId={game.isHomeGame ? awayTeam.abbreviation : homeTeam.abbreviation}
+      />
     </CompletedGameWrapper>
   );
 };

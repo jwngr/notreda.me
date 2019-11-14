@@ -125,7 +125,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Hugh Devore"
+    "headCoach": "Hugh Devore",
+    "weather": {
+      "temperature": 56.64,
+      "icon": "unknown"
+    }
   },
   {
     "result": "W",
@@ -263,6 +267,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "temperature": 46.9,
+      "icon": "unknown"
     }
   },
   {
@@ -476,6 +484,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "temperature": 59.63,
+      "icon": "unknown"
     }
   },
   {
@@ -545,6 +557,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "temperature": 49.08,
+      "icon": "unknown"
     }
   },
   {
@@ -614,6 +630,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "temperature": 48.39,
+      "icon": "unknown"
     }
   },
   {
@@ -683,6 +703,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "temperature": 34.09,
+      "icon": "unknown"
     }
   }
 ]

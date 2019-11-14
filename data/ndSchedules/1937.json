@@ -125,7 +125,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Elmer Layden"
+    "headCoach": "Elmer Layden",
+    "weather": {
+      "temperature": 46.44,
+      "icon": "unknown"
+    }
   },
   {
     "result": "L",
@@ -462,6 +466,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "temperature": 52.62,
+      "icon": "unknown"
     }
   },
   {
