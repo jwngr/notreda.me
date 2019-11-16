@@ -27,7 +27,8 @@
     "styled-components": "^4.4.1",
     "topojson-client": "^3.0.0",
     "typeface-bungee": "0.0.72",
-    "victory": "^0.24.5"
+    "victory": "^0.24.5",
+    "weathericons": "^2.1.0"
   },
   "lint-staged": {
     "{src,schedules}/**/*.{js,css}": [

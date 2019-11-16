@@ -12,18 +12,31 @@ if (typeof DARK_SKY_API_KEY === 'undefined') {
   process.exit(-1);
 }
 
-module.exports.fetchForecast = ([latitude, longitude], timestampInSeconds) => {
+module.exports.fetchForGame = ([latitude, longitude], kickoffTimeInSeconds) => {
+  let errorMessage;
+  if (typeof latitude !== 'number' || latitude < -90 || latitude > 90) {
+    errorMessage = 'Latitude must be a number between -90 and 90.';
+  } else if (typeof latitude !== 'number' || longitude < -180 || longitude > 180) {
+    errorMessage = 'Longitude must be a number between -180 and 180.';
+  } else if (typeof kickoffTimeInSeconds !== 'number') {
+    errorMessage = 'Timestamp must be a number.';
+  }
+
+  if (typeof errorMessage !== 'undefined') {
+    throw new Error(`Invalid argument passed to fetchForecast(): ${errorMessage}`);
+  }
+
   // Handle the forecast request differently depending on whether or not the timestamp is in the
   // past or future.
-  let isHistoricalForecastRequest = new Date(timestampInSeconds * 1000) < Date.now();
+  let isHistoricalForecastRequest = new Date(kickoffTimeInSeconds * 1000) < Date.now();
 
   let url = `${DARK_SKY_API_HOST}/forecast/${DARK_SKY_API_KEY}/${latitude},${longitude}`;
   const params = {};
   if (isHistoricalForecastRequest) {
     params.exclude = 'minutely,hourly,daily';
-    url += `,${timestampInSeconds}`;
+    url += `,${kickoffTimeInSeconds}`;
   } else {
-    params.exclude = 'minutely';
+    params.exclude = 'currently,minutely,daily';
     params.extend = 'hourly';
   }
 
@@ -38,40 +51,49 @@ module.exports.fetchForecast = ([latitude, longitude], timestampInSeconds) => {
     .then((response) => {
       const forecast = response.data;
 
-      let weather;
+      let chosenForecast;
       if (isHistoricalForecastRequest) {
-        weather = _.pick(forecast.currently, ['icon', 'temperature']);
+        // For historical games, simply get the current weather forecast since it will exactly match
+        // the provided timestamp.
+        chosenForecast = forecast.currently;
       } else {
-        // TODO: handle date for future games to get the right hour.
-        weather = _.pick(forecast.currently, ['icon', 'temperature']);
+        // For future games, find the hourly forecast closest to the proivded timestamp.
+        let closestHourlyForecast = null;
+        _.forEach(forecast.hourly.data, (currentHourlyForecast) => {
+          const currentTimeDistance = Math.abs(kickoffTimeInSeconds - currentHourlyForecast.time);
+          const closestHourlyForecastTimeDistance =
+            closestHourlyForecast === null
+              ? Infinity
+              : Math.abs(kickoffTimeInSeconds - closestHourlyForecast.time);
+
+          if (currentTimeDistance < closestHourlyForecastTimeDistance) {
+            closestHourlyForecast = currentHourlyForecast;
+          }
+        });
+
+        chosenForecast = closestHourlyForecast;
       }
 
-      // TODO: handle forecasts which have no icon nor temperature.
+      // Pull the icon and temperature from the chosen forecast.
+      const weather = _.pick(chosenForecast, ['icon', 'temperature']);
+
+      // Log a warning if any data is missing.
+      let warning;
+      if (_.size(weather) === 0) {
+        warning = 'No weather found.';
+      } else if (typeof weather.icon === 'undefined') {
+        warning = 'Weather icon not found.';
+      } else if (typeof weather.temperature === 'undefined') {
+        warning = 'Weather temperature not found.';
+      }
+
+      if (typeof warning !== 'undefined') {
+        logger.warning(warning, {latitude, longitude, kickoffTimeInSeconds});
+      }
 
       return weather;
     })
     .catch((error) => {
-      console.log(error);
-      throw new Error(error.response.data.message || error.response.data.error);
-    });
-};
-
-module.exports.fetchHistoricalForecast = ([latitude, longitude], timestamp) => {
-  // TODO: handle date.
-  return axios({
-    method: 'GET',
-    url: `${DARK_SKY_API_HOST}/forecast/${DARK_SKY_API_KEY}/${latitude},${longitude}`,
-    headers: {
-      'Accept-Encoding': 'gzip',
-    },
-    params: {
-      exclude: 'minutely',
-      extend: 'hourly',
-    },
-  })
-    .then((response) => response.data)
-    .catch((error) => {
-      console.log(error);
       throw new Error(error.response.data.message || error.response.data.error);
     });
 };

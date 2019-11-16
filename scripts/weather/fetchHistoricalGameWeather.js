@@ -1,5 +1,6 @@
 const _ = require('lodash');
 
+const utils = require('../lib/utils');
 const logger = require('../lib/logger');
 const weather = require('../lib/weather');
 const ndSchedules = require('../lib/ndSchedules');
@@ -11,34 +12,25 @@ _.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
   let currentSeasonFetchWeatherPromises = [];
 
   _.forEach(seasonScheduleData, (gameData) => {
-    // TODO: already fetched weather for seasons after and including 1950.
-    if (gameData.result && !gameData.weather && season < '1950') {
-      let d;
-      if (gameData.fullDate) {
-        d = new Date(gameData.fullDate);
-      } else if (gameData.time) {
-        d = new Date(gameData.date + ' ' + gameData.time);
-      } else {
-        d = new Date(gameData.date);
-      }
-
-      const timestamp = d.getTime() / 1000;
+    if (gameData.result && !gameData.weather && season === '2000') {
       const [lat, lon] = gameData.location.coordinates;
 
       currentSeasonFetchWeatherPromises.push(
-        weather.fetchForecast([lat, lon], timestamp).then((weather) => {
-          if (!weather.temperature) {
-            logger.warning('NO FORECAST!', {
-              season,
-              opponentId: gameData.opponentId,
-              location: gameData.location.city + ', ' + gameData.location.state,
-              timestamp,
-            });
-          } else {
-            weather.icon = weather.icon || 'unknown';
-            gameData.weather = weather;
-          }
-        })
+        weather
+          .fetchForGame([lat, lon], utils.getGameTimestampInSeconds(gameData))
+          .then((weather) => {
+            if (!weather.temperature) {
+              logger.warning('NO FORECAST!', {
+                season,
+                opponentId: gameData.opponentId,
+                location: gameData.location.city + ', ' + gameData.location.state,
+                timestamp,
+              });
+            } else {
+              weather.icon = weather.icon || 'unknown';
+              gameData.weather = weather;
+            }
+          })
       );
     }
   });

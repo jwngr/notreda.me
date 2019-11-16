@@ -108,6 +108,8 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
       }
     }
   });
+
+  // TODO: ensure game coverage corresponds to an actual PNG in the webstie images directory.
 });
 
 if (numErrorsFound === 0) {

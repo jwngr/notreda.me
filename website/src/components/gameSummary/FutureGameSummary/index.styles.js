@@ -169,15 +169,31 @@ export const AtOrVersus = styled.p`
   }
 `;
 
-export const MetadataWrapper = styled.div`
+export const StatsWrapper = styled.div`
   width: 100%;
   display: flex;
-  margin-top: 32px;
-  flex-direction: row;
+  margin-top: 20px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   @media (max-width: 600px) {
     flex-direction: column;
+  }
+`;
+
+export const CoverageLocationWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & > div:first-of-type {
+    margin-right: 6px;
+  }
+
+  & > div:last-of-type {
+    margin-left: 6px;
   }
 `;

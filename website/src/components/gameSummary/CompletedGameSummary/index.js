@@ -8,7 +8,7 @@ import GameStats from './GameStats';
 import TotalScore from './TotalScore';
 import MatchupHistory from '../MatchupHistory';
 
-import {VideoHighlights, CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
+import {CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
 
 const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
   return (
@@ -20,22 +20,19 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
         <Location game={game} />
       </CoverageLocationWrapper>
 
-      <LineScore linescore={game.linescore} homeTeam={homeTeam} awayTeam={awayTeam} />
-
-      {game.highlightsYouTubeVideoId && (
-        <VideoHighlights
-          width="100%"
-          height="100%"
-          src={`https://www.youtube.com/embed/${game.highlightsYouTubeVideoId}`}
-          title={`${homeTeam.name} at ${awayTeam.name} Highlights`}
-          allowFullScreen
-        />
-      )}
+      <LineScore
+        homeTeam={homeTeam}
+        awayTeam={awayTeam}
+        linescore={game.linescore}
+        highlightsYouTubeVideoId={game.highlightsYouTubeVideoId}
+      />
 
       <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
+
       <MatchupHistory
         game={game}
         opponentId={game.isHomeGame ? awayTeam.abbreviation : homeTeam.abbreviation}
+        numGamesToDisplay={15}
       />
     </CompletedGameWrapper>
   );
