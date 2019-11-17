@@ -9,7 +9,6 @@ const ndSchedules = require('../lib/ndSchedules');
 const SEASON = ndSchedules.CURRENT_SEASON;
 
 sentry.initialize();
-sentry.captureMessage('TEST 3', 'debug');
 
 const updateNdSchedule = async () => {
   const seasonScheduleData = ndSchedules.getForSeason(SEASON);
