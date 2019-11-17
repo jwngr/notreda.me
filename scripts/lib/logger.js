@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const red = chalk.bold.red;
 const black = chalk.bold.black;
 const green = chalk.bold.green;
-const orange = chalk.bold.orange;
+const yellow = chalk.bold.yellow;
 
 const _log = (message, data, color) => {
   if (typeof data === 'undefined') {
@@ -18,7 +18,7 @@ module.exports.info = (message, data) => {
 };
 
 module.exports.warning = (message, data) => {
-  _log(`[WARNING] ${message}`, data, orange);
+  _log(`[WARNING] ${message}`, data, yellow);
 };
 
 module.exports.error = (message, data) => {
@@ -27,4 +27,18 @@ module.exports.error = (message, data) => {
 
 module.exports.success = (message, data) => {
   _log(`[SUCCESS] ${message}`, data, green);
+};
+
+module.exports.todo = (message, data) => {
+  _log(`[TODO] ${message}`, data, red);
+};
+
+module.exports.fail = (message, data) => {
+  _log(`[FAIL] ${message}`, data, red);
+};
+
+module.exports.newline = (numNewLines) => {
+  for (let i = 0; i < numNewLines; i++) {
+    console.log();
+  }
 };
