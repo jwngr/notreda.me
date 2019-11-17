@@ -69,10 +69,10 @@ server for Six Degrees of Wikipedia.
 
     ```
     # Run the ND schedule update script every 15 minutes.
-    */15 * * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && NODE_ENV="production" ./update.sh
+    */15 * * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && ./update.sh
 
     # Run the future ND schedules audit script every day at 6 AM.
-    0 6 * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && NODE_ENV="production" node auditFutureSchedules.js
+    0 6 * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && node auditFutureSchedules.js
     ```
 
 1.  Install a mail service in order to read logs from cron jobs:
