@@ -28,9 +28,9 @@ const updateNdSchedule = async () => {
 
         // ... and were completed less than a week ago. This provides for ESPN to update the stats,
         // which they often do.
-        // if (daysSinceGame < 7) {
-        return espn.fetchStatsForGame(gameData.espnGameId);
-        // }
+        if (daysSinceGame < 7) {
+          return espn.fetchStatsForGame(gameData.espnGameId);
+        }
       }
     })
   );
