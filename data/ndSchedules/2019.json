@@ -345,7 +345,7 @@
     "stats": {
       "away": {
         "firstDowns": 19,
-        "thirdDownAttempts": 15,
+        "thirdDownAttempts": 14,
         "thirdDownConversions": 4,
         "fourthDownAttempts": 2,
         "fourthDownConversions": 1,
@@ -715,15 +715,15 @@
         "thirdDownConversions": 4,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 1,
-        "totalYards": 240,
+        "totalYards": 235,
         "passYards": 139,
         "passCompletions": 9,
         "passAttempts": 28,
         "yardsPerPass": 5,
         "interceptionsThrown": 1,
-        "rushYards": 101,
+        "rushYards": 96,
         "rushAttempts": 36,
-        "yardsPerRush": 2.8,
+        "yardsPerRush": 2.7,
         "penalties": 6,
         "penaltyYards": 53,
         "fumblesLost": 1,
@@ -736,11 +736,11 @@
         "thirdDownConversions": 8,
         "fourthDownAttempts": 3,
         "fourthDownConversions": 3,
-        "totalYards": 447,
-        "passYards": 341,
+        "totalYards": 442,
+        "passYards": 336,
         "passCompletions": 29,
         "passAttempts": 53,
-        "yardsPerPass": 6.4,
+        "yardsPerPass": 6.3,
         "interceptionsThrown": 2,
         "rushYards": 106,
         "rushAttempts": 38,
@@ -924,7 +924,7 @@
         "penaltyYards": 20,
         "fumblesLost": 4,
         "possession": "35:37",
-        "fumbles": 0
+        "fumbles": -1
       },
       "home": {
         "firstDowns": 18,
@@ -945,7 +945,7 @@
         "penaltyYards": 15,
         "fumblesLost": 0,
         "possession": "24:23",
-        "fumbles": 0
+        "fumbles": -1
       }
     },
     "score": {
