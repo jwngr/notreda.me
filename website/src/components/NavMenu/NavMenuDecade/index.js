@@ -18,8 +18,6 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   let yearsRange = _.rangeRight(startingYear, startingYear + 10);
   if (startingYear === 1880) {
     yearsRange = [1889, 1888, 1887];
-  } else if (startingYear === 2030) {
-    yearsRange = _.range(2030, LATEST_YEAR + 1);
   }
 
   const decadeContent = _.map(yearsRange, (year) => {
@@ -35,7 +33,7 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     });
 
     // Notre Dame did not field a team in 1980 or 1981.
-    if (year === 1890 || year === 1891) {
+    if (year === 1890 || year === 1891 || year > LATEST_YEAR) {
       return <p key={year} />;
     }
 
