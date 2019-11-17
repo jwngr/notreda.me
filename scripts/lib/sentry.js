@@ -7,7 +7,7 @@ const config = require('./loadConfig');
 let _isSentryInitialized = false;
 
 module.exports.initialize = () => {
-  if (process.env.NODE_ENV !== 'production' && !_isSentryInitialized) {
+  if (process.env.NODE_ENV === 'production' && !_isSentryInitialized) {
     const SENTRY_DSN = _.get(config, 'sentry.dsn');
     if (typeof SENTRY_DSN === 'undefined') {
       throw new Error('Provided config file does not contain a Sentry DSN.');
