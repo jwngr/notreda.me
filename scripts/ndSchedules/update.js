@@ -3,9 +3,12 @@ const _ = require('lodash');
 const espn = require('../lib/espn');
 const polls = require('../lib/polls');
 const logger = require('../lib/logger');
+const sentry = require('../lib/sentry');
 const ndSchedules = require('../lib/ndSchedules');
 
 const SEASON = ndSchedules.CURRENT_SEASON;
+
+sentry.initialize();
 
 const updateNdSchedule = async () => {
   const seasonScheduleData = ndSchedules.getForSeason(SEASON);
@@ -37,6 +40,15 @@ const updateNdSchedule = async () => {
 
   espnGameStats.forEach((gameStats, i) => {
     if (typeof gameStats !== 'undefined') {
+      if (!('result' in seasonScheduleData[i])) {
+        // If this is the initial stats dump for a game which just ended, log a message to Sentry to
+        // manually add a highlights video for the game.
+        sentry.captureMessage(
+          `Add highlights video for ${SEASON} game versus ${seasonScheduleData[i].opponentId}`,
+          'warning'
+        );
+      }
+
       const homeTeamWon = gameStats.score.home > gameStats.score.away;
       seasonScheduleData[i] = {
         ...seasonScheduleData[i],
