@@ -20,9 +20,17 @@ const updateNdSchedule = async () => {
 
   const espnGameStats = await Promise.all(
     _.map(seasonScheduleData, (gameData) => {
-      if ('espnGameId' in gameData && !('stats' in gameData)) {
-        // Only fetch stats for games which have an ESPN game ID and do not already have stats.
+      // Only fetch stats for games which have an ESPN game ID...
+      if ('espnGameId' in gameData) {
+        // Determine how many days it has been since the game.
+        const millisecondsSinceGame = Date.now() - new Date(gameData.fullDate).getTime();
+        const daysSinceGame = Math.floor(millisecondsSinceGame / (1000 * 60 * 60 * 24));
+
+        // ... and were completed less than a week ago. This provides for ESPN to update the stats,
+        // which they often do.
+        // if (daysSinceGame < 7) {
         return espn.fetchStatsForGame(gameData.espnGameId);
+        // }
       }
     })
   );
