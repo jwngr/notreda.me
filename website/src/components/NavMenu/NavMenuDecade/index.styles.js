@@ -6,13 +6,18 @@ import InternalLink from '../../common/InternalLink';
 export const NavMenuDecadeWrapper = styled.div`
   flex: 1;
   padding: 8px;
-  max-width: 218px;
   margin: 32px 12px 0 0;
   border: solid 3px ${(props) => props.theme.colors.black};
   background-color: ${(props) => props.theme.colors.gold}66;
 
+  &:last-of-type {
+    max-width: 218px;
+  }
+
   @media (max-width: 700px) {
-    max-width: none;
+    &:last-of-type {
+      max-width: none;
+    }
   }
 
   @media (max-width: 480px) {
