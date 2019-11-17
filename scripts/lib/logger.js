@@ -37,7 +37,7 @@ module.exports.fail = (message, data) => {
   _log(`[FAIL] ${message}`, data, red);
 };
 
-module.exports.newline = (numNewLines) => {
+module.exports.newline = (numNewLines = 1) => {
   for (let i = 0; i < numNewLines; i++) {
     console.log();
   }

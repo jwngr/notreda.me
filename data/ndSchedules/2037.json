@@ -1,23 +1,13 @@
 [
   {
     "isHomeGame": true,
-    "date": "09/04/2027",
+    "date": "10/03/2037",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium"
     },
-    "opponentId": "PUR"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/06/2027",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium"
-    },
-    "opponentId": "VT"
+    "opponentId": "NCST"
   },
   {
     "isHomeGame": true,
@@ -27,7 +17,7 @@
       "state": "IN",
       "stadium": "Notre Dame Stadium"
     },
-    "opponentId": "GT"
+    "opponentId": "MIAMI"
   },
   {
     "isHomeGame": false,
@@ -43,21 +33,11 @@
     "isHomeGame": false,
     "date": "TBD",
     "location": {
-      "city": "Durham",
-      "state": "NC",
-      "stadium": "Wallace Wade Stadium"
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "Carrier Dome"
     },
-    "opponentId": "DUKE"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "East Lansing",
-      "state": "MI",
-      "stadium": "Spartan Stadium"
-    },
-    "opponentId": "MSU"
+    "opponentId": "SYR"
   },
   {
     "isHomeGame": false,

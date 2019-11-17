@@ -2,6 +2,7 @@ const _ = require('lodash');
 
 const logger = require('./logger');
 const scraper = require('./scraper');
+const ndSchedules = require('./ndSchedules');
 
 const _normalizeOpponentName = (val) => {
   return (
@@ -32,7 +33,7 @@ const fetchFutureNdSchedules = () => {
 
         // Ignore columns under the "FUTURE NOTRE DAME FOOTBALL SCHEDULES" section which do not
         // have a "team-hd" class.
-        if (season !== '') {
+        if (season !== '' && Number(season) > ndSchedules.CURRENT_SEASON) {
           schedules[season] = [];
 
           $(futureSeasonScheduleCol)
@@ -43,7 +44,8 @@ const fetchFutureNdSchedules = () => {
                 .trim()
                 .split(' - ');
 
-              const date = gameInfoTokens[0] === 'TBA' ? 'TBD' : new Date(gameInfoTokens[0]);
+              const date =
+                gameInfoTokens[0] === 'TBA' ? 'TBD' : new Date(`${gameInfoTokens[0]}/${season}`);
               // TODO: this is not correct.
               const isHomeGame = !_.startsWith(gameInfoTokens[1], 'at');
               const opponentName = _.clone(gameInfoTokens[1])

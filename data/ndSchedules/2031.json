@@ -1,0 +1,52 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/01/2031",
+    "location": {
+      "city": "Clemson",
+      "state": "SC",
+      "stadium": "Clemson Memorial Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/11/2031",
+    "location": {
+      "city": "Charlottesville",
+      "state": "VA",
+      "stadium": "Scott Stadium"
+    },
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/22/2031",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field"
+    },
+    "opponentId": "PITT"
+  }
+]

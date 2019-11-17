@@ -10,6 +10,16 @@
     "opponentId": "TA&M"
   },
   {
+    "isHomeGame": true,
+    "date": "09/07/2024",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NIU"
+  },
+  {
     "isHomeGame": false,
     "date": "09/14/2024",
     "location": {

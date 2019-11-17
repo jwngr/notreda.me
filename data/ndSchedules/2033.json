@@ -1,0 +1,62 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/03/2033",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium"
+    },
+    "opponentId": "MICH"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/24/2033",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Wallace Wade Stadium"
+    },
+    "opponentId": "DUKE"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "VT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium"
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Louisville",
+      "state": "KY",
+      "stadium": "Cardinal Stadium"
+    },
+    "opponentId": "LOU"
+  }
+]

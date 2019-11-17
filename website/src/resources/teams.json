@@ -430,6 +430,12 @@
     "nickname": "Golden Eagles",
     "color": "#962c4c"
   },
+  "MRSH": {
+    "name": "Marshall",
+    "nickname": "Thundering Herd",
+    "color": "#01632f",
+    "espnId": 276
+  },
   "MSU": {
     "name": "Michigan State",
     "shortName": "Michigan St",
@@ -476,6 +482,12 @@
     "nickname": "Wolf Pack",
     "color": "#132549",
     "espnId": 2440
+  },
+  "NIU": {
+    "name": "Northern Illinois",
+    "nickname": "Huskies",
+    "color": "#e0134c",
+    "espnId": 2459
   },
   "NW": {
     "name": "Northwestern",

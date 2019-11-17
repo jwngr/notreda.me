@@ -1,0 +1,52 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "11/02/2030",
+    "location": {
+      "city": "Louisville",
+      "state": "KY",
+      "stadium": "Cardinal Stadium"
+    },
+    "opponentId": "LOU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "DUKE"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium"
+    },
+    "opponentId": "BC"
+  }
+]

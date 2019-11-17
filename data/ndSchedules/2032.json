@@ -1,0 +1,52 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "10/30/2032",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium"
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "LOU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "WAKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Hard Rock Stadium"
+    },
+    "opponentId": "MIAMI"
+  }
+]

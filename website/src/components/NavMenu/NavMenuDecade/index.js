@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import {CURRENT_YEAR} from '../../../lib/constants.js';
+import {LATEST_YEAR, CURRENT_YEAR} from '../../../lib/constants.js';
 
 import {
   NavMenuDecadeYear,
@@ -18,6 +18,8 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
   let yearsRange = _.rangeRight(startingYear, startingYear + 10);
   if (startingYear === 1880) {
     yearsRange = [1889, 1888, 1887];
+  } else if (startingYear === 2030) {
+    yearsRange = _.range(2030, LATEST_YEAR + 1);
   }
 
   const decadeContent = _.map(yearsRange, (year) => {

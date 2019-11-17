@@ -87828,7 +87828,7 @@
   "2020": [
     {
       "isHomeGame": false,
-      "date": "09/05/2020",
+      "date": "08/29/2020",
       "nickname": "Aer Lingus College Football Classic",
       "location": {
         "city": "Dublin",
@@ -87890,7 +87890,7 @@
     },
     {
       "isHomeGame": false,
-      "date": "10/16/2020",
+      "date": "10/17/2020",
       "location": {
         "city": "Pittsburgh",
         "state": "PA",
@@ -88085,6 +88085,16 @@
     },
     {
       "isHomeGame": true,
+      "date": "09/10/2022",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "MRSH"
+    },
+    {
+      "isHomeGame": true,
       "date": "10/15/2022",
       "location": {
         "city": "Notre Dame",
@@ -88092,6 +88102,12 @@
         "stadium": "Notre Dame Stadium"
       },
       "opponentId": "STAN"
+    },
+    {
+      "isHomeGame": false,
+      "date": "10/22/2022",
+      "location": "TBD",
+      "opponentId": "NAVY"
     },
     {
       "isHomeGame": false,
@@ -88132,12 +88148,6 @@
         "stadium": "Notre Dame Stadium"
       },
       "opponentId": "CLEM"
-    },
-    {
-      "isHomeGame": false,
-      "date": "TBD",
-      "location": "TBD",
-      "opponentId": "NAVY"
     },
     {
       "isHomeGame": true,
@@ -88264,6 +88274,16 @@
       "opponentId": "TA&M"
     },
     {
+      "isHomeGame": true,
+      "date": "09/07/2024",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "NIU"
+    },
+    {
       "isHomeGame": false,
       "date": "09/14/2024",
       "location": {
@@ -88343,6 +88363,16 @@
   "2025": [
     {
       "isHomeGame": true,
+      "date": "09/13/2025",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "TA&M"
+    },
+    {
+      "isHomeGame": true,
       "date": "09/20/2025",
       "location": {
         "city": "Notre Dame",
@@ -88350,16 +88380,6 @@
         "stadium": "Notre Dame Stadium"
       },
       "opponentId": "PUR"
-    },
-    {
-      "isHomeGame": true,
-      "date": "09/27/2025",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium"
-      },
-      "opponentId": "TA&M"
     },
     {
       "isHomeGame": false,
@@ -88440,16 +88460,6 @@
         "stadium": "Heinz Field"
       },
       "opponentId": "PITT"
-    },
-    {
-      "isHomeGame": false,
-      "date": "11/29/2025",
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "stadium": "Stanford Stadium"
-      },
-      "opponentId": "STAN"
     }
   ],
   "2026": [
@@ -88553,13 +88563,13 @@
     },
     {
       "isHomeGame": true,
-      "date": "TBD",
+      "date": "11/06/2027",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "GT"
+      "opponentId": "VT"
     },
     {
       "isHomeGame": true,
@@ -88569,7 +88579,7 @@
         "state": "IN",
         "stadium": "Notre Dame Stadium"
       },
-      "opponentId": "VT"
+      "opponentId": "GT"
     },
     {
       "isHomeGame": false,
@@ -88750,6 +88760,442 @@
         "stadium": "Carrier Dome"
       },
       "opponentId": "SYR"
+    }
+  ],
+  "2030": [
+    {
+      "isHomeGame": false,
+      "date": "11/02/2030",
+      "location": {
+        "city": "Louisville",
+        "state": "KY",
+        "stadium": "Cardinal Stadium"
+      },
+      "opponentId": "LOU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "DUKE"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "FSU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "UNC"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Chestnut Hill",
+        "state": "MA",
+        "stadium": "Alumni Stadium"
+      },
+      "opponentId": "BC"
+    }
+  ],
+  "2031": [
+    {
+      "isHomeGame": false,
+      "date": "09/01/2031",
+      "location": {
+        "city": "Clemson",
+        "state": "SC",
+        "stadium": "Clemson Memorial Stadium"
+      },
+      "opponentId": "CLEM"
+    },
+    {
+      "isHomeGame": false,
+      "date": "10/11/2031",
+      "location": {
+        "city": "Charlottesville",
+        "state": "VA",
+        "stadium": "Scott Stadium"
+      },
+      "opponentId": "UVA"
+    },
+    {
+      "isHomeGame": true,
+      "date": "11/22/2031",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "NCST"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "MIAMI"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "stadium": "Heinz Field"
+      },
+      "opponentId": "PITT"
+    }
+  ],
+  "2032": [
+    {
+      "isHomeGame": false,
+      "date": "10/30/2032",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "stadium": "Bobby Dodd Stadium"
+      },
+      "opponentId": "GT"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "FSU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "LOU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "WAKE"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Miami Gardens",
+        "state": "FL",
+        "stadium": "Hard Rock Stadium"
+      },
+      "opponentId": "MIAMI"
+    }
+  ],
+  "2033": [
+    {
+      "isHomeGame": false,
+      "date": "09/03/2033",
+      "location": {
+        "city": "Ann Arbor",
+        "state": "MI",
+        "stadium": "Michigan Stadium"
+      },
+      "opponentId": "MICH"
+    },
+    {
+      "isHomeGame": false,
+      "date": "09/24/2033",
+      "location": {
+        "city": "Durham",
+        "state": "NC",
+        "stadium": "Wallace Wade Stadium"
+      },
+      "opponentId": "DUKE"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "PITT"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "VT"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Chestnut Hill",
+        "state": "MA",
+        "stadium": "Alumni Stadium"
+      },
+      "opponentId": "BC"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Louisville",
+        "state": "KY",
+        "stadium": "Cardinal Stadium"
+      },
+      "opponentId": "LOU"
+    }
+  ],
+  "2034": [
+    {
+      "isHomeGame": true,
+      "date": "09/02/2034",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "MICH"
+    },
+    {
+      "isHomeGame": false,
+      "date": "10/26/2034",
+      "location": {
+        "city": "Miami Gardens",
+        "state": "FL",
+        "stadium": "Hard Rock Stadium"
+      },
+      "opponentId": "MIAMI"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "CLEM"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "SYR"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "UVA"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "stadium": "Heinz Field"
+      },
+      "opponentId": "PITT"
+    }
+  ],
+  "2035": [
+    {
+      "isHomeGame": false,
+      "date": "11/10/2035",
+      "location": {
+        "city": "Raleigh",
+        "state": "NC",
+        "stadium": "Carter-Finley Stadium"
+      },
+      "opponentId": "NCST"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "BC"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "DUKE"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Charlottesville",
+        "state": "VA",
+        "stadium": "Scott Stadium"
+      },
+      "opponentId": "UVA"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Louisville",
+        "state": "KY",
+        "stadium": "Cardinal Stadium"
+      },
+      "opponentId": "LOU"
+    }
+  ],
+  "2036": [
+    {
+      "isHomeGame": false,
+      "date": "09/01/2036",
+      "location": {
+        "city": "Blacksburg",
+        "state": "VA",
+        "stadium": "Lane Stadium"
+      },
+      "opponentId": "VT"
+    },
+    {
+      "isHomeGame": false,
+      "date": "09/27/2036",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "stadium": "Bobby Dodd Stadium"
+      },
+      "opponentId": "GT"
+    },
+    {
+      "isHomeGame": true,
+      "date": "10/04/2036",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "FSU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "11/01/2036",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "PITT"
+    },
+    {
+      "isHomeGame": true,
+      "date": "11/08/2036",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "UNC"
+    }
+  ],
+  "2037": [
+    {
+      "isHomeGame": true,
+      "date": "10/03/2037",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "NCST"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium"
+      },
+      "opponentId": "MIAMI"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Clemson",
+        "state": "SC",
+        "stadium": "Clemson Memorial Stadium"
+      },
+      "opponentId": "CLEM"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Syracuse",
+        "state": "NY",
+        "stadium": "Carrier Dome"
+      },
+      "opponentId": "SYR"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": {
+        "city": "Winston-Salem",
+        "state": "NC",
+        "stadium": "BB&T Field"
+      },
+      "opponentId": "WAKE"
     }
   ]
 }

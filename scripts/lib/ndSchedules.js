@@ -10,7 +10,9 @@ const COMBINED_SCHEDULE_FILENAME = path.resolve(
 
 const CURRENT_SEASON = 2019;
 module.exports.CURRENT_SEASON = CURRENT_SEASON;
-const ALL_SEASONS = [1887, 1888, 1889, ..._.range(1892, 2030)];
+const LATEST_SEASON = 2037;
+module.exports.LATEST_SEASON = LATEST_SEASON;
+const ALL_SEASONS = [1887, 1888, 1889, ..._.range(1892, LATEST_SEASON + 1)];
 module.exports.ALL_SEASONS = ALL_SEASONS;
 module.exports.ALL_PLAYED_SEASONS = [1887, 1888, 1889, ..._.range(1892, CURRENT_SEASON + 1)];
 module.exports.AP_POLL_SEASONS = _.range(1936, CURRENT_SEASON + 1);
