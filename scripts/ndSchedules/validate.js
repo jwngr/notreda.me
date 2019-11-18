@@ -107,6 +107,37 @@ ndSchedules.ALL_SEASONS.forEach((season) => {
         numErrorsFound++;
       }
     }
+
+    if (gameData.location !== 'TBD') {
+      const actualLocationKeys = Object.keys(gameData.location).sort();
+      const expectedKeysDomesticGames = ['city', 'state', 'stadium', 'coordinates'].sort();
+      const expectedKeysInternationalGames = ['city', 'country', 'stadium', 'coordinates'].sort();
+      // TODO: remove this once all games have stadiums.
+      const expectedKeysDomesticGamesNoStadium = ['city', 'state', 'coordinates'].sort();
+      if (
+        !_.isEqual(actualLocationKeys, expectedKeysDomesticGames) &&
+        !_.isEqual(actualLocationKeys, expectedKeysInternationalGames) &&
+        !_.isEqual(actualLocationKeys, expectedKeysDomesticGamesNoStadium)
+      ) {
+        logger.error('Location does not have expected keys.', {
+          season,
+          ..._.pick(gameData, ['location', 'opponentId']),
+        });
+        numErrorsFound++;
+      }
+
+      // TODO: check lat and lon more strictly (e.g. ensure values are valid).
+      if (
+        !(gameData.location.coordinates instanceof Array) ||
+        gameData.location.coordinates.length !== 2
+      ) {
+        logger.error('Location does not valid coordiantes.', {
+          season,
+          ..._.pick(gameData, ['location', 'opponentId']),
+        });
+        numErrorsFound++;
+      }
+    }
   });
 
   // TODO: ensure game coverage corresponds to an actual PNG in the webstie images directory.
