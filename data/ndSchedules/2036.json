@@ -1,0 +1,52 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "09/01/2036",
+    "location": {
+      "city": "Blacksburg",
+      "state": "VA",
+      "stadium": "Lane Stadium"
+    },
+    "opponentId": "VT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/27/2036",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium"
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/04/2036",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/01/2036",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "PITT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/08/2036",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "UNC"
+  }
+]

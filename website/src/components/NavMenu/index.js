@@ -15,7 +15,7 @@ import {
 import {MavMenuDecadeHeader} from './NavMenuDecade/index.styles';
 
 const NavMenu = ({open, selectedYear, onClose}) => {
-  const navMenuDecadesContent = _.map(_.rangeRight(1880, 2030, 10), (decade) => {
+  const navMenuDecadesContent = _.map(_.rangeRight(1880, 2040, 10), (decade) => {
     return (
       <NavMenuDecade
         key={decade}

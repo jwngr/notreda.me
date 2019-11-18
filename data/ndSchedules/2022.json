@@ -15,6 +15,16 @@
   },
   {
     "isHomeGame": true,
+    "date": "09/10/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MRSH"
+  },
+  {
+    "isHomeGame": true,
     "date": "10/15/2022",
     "location": {
       "city": "Notre Dame",
@@ -26,6 +36,12 @@
       ]
     },
     "opponentId": "STAN"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/22/2022",
+    "location": "TBD",
+    "opponentId": "NAVY"
   },
   {
     "isHomeGame": false,
@@ -82,12 +98,6 @@
       ]
     },
     "opponentId": "CLEM"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": "TBD",
-    "opponentId": "NAVY"
   },
   {
     "isHomeGame": true,

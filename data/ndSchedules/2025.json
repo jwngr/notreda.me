@@ -1,6 +1,20 @@
 [
   {
     "isHomeGame": true,
+    "date": "09/13/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "TA&M"
+  },
+  {
+    "isHomeGame": true,
     "date": "09/20/2025",
     "location": {
       "city": "Notre Dame",
@@ -12,20 +26,6 @@
       ]
     },
     "opponentId": "PUR"
-  },
-  {
-    "isHomeGame": true,
-    "date": "09/27/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "TA&M"
   },
   {
     "isHomeGame": false,
@@ -138,19 +138,5 @@
       ]
     },
     "opponentId": "PITT"
-  },
-  {
-    "isHomeGame": false,
-    "date": "11/29/2025",
-    "location": {
-      "city": "Stanford",
-      "state": "CA",
-      "stadium": "Stanford Stadium",
-      "coordinates": [
-        37.434444,
-        -122.161111
-      ]
-    },
-    "opponentId": "STAN"
   }
 ]

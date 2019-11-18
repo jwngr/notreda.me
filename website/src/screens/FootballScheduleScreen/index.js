@@ -10,6 +10,7 @@ import GameSummaryContainer from '../../containers/GameSummaryContainer';
 
 import teams from '../../resources/teams';
 import schedule from '../../resources/schedule';
+import {LATEST_YEAR} from '../../lib/constants';
 
 import {
   Header,
@@ -53,7 +54,7 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
 
           <HeaderTitle>{`Notre Dame Football ${selectedYear}`}</HeaderTitle>
 
-          <NextYearLink className={selectedYear === 2029 && 'hidden'} href={`/${nextYear}`}>
+          <NextYearLink className={selectedYear === LATEST_YEAR && 'hidden'} href={`/${nextYear}`}>
             <Media query="(min-width: 700px)">
               <React.Fragment>{nextYear}</React.Fragment>
             </Media>

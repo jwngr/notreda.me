@@ -373,7 +373,7 @@
     "stats": {
       "away": {
         "firstDowns": 19,
-        "thirdDownAttempts": 15,
+        "thirdDownAttempts": 14,
         "thirdDownConversions": 4,
         "fourthDownAttempts": 2,
         "fourthDownConversions": 1,
@@ -775,15 +775,15 @@
         "thirdDownConversions": 4,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 1,
-        "totalYards": 240,
+        "totalYards": 235,
         "passYards": 139,
         "passCompletions": 9,
         "passAttempts": 28,
         "yardsPerPass": 5,
         "interceptionsThrown": 1,
-        "rushYards": 101,
+        "rushYards": 96,
         "rushAttempts": 36,
-        "yardsPerRush": 2.8,
+        "yardsPerRush": 2.7,
         "penalties": 6,
         "penaltyYards": 53,
         "fumblesLost": 1,
@@ -796,11 +796,11 @@
         "thirdDownConversions": 8,
         "fourthDownAttempts": 3,
         "fourthDownConversions": 3,
-        "totalYards": 447,
-        "passYards": 341,
+        "totalYards": 442,
+        "passYards": 336,
         "passCompletions": 29,
         "passAttempts": 53,
-        "yardsPerPass": 6.4,
+        "yardsPerPass": 6.3,
         "interceptionsThrown": 2,
         "rushYards": 106,
         "rushAttempts": 38,
@@ -954,35 +954,100 @@
       ]
     },
     "opponentId": "NAVY",
+    "highlightsYouTubeVideoId": "hDUSuGfdImg",
     "sportsReferenceGameId": "2019-11-16-notre-dame",
     "rankings": {
       "home": {
         "ap": 16,
         "coaches": 16,
-        "cfbPlayoff": 15
+        "cfbPlayoff": 16
       },
       "away": {
         "ap": 21,
         "coaches": 21,
-        "cfbPlayoff": 24
+        "cfbPlayoff": 23
       }
     },
     "records": {
       "home": {
-        "overall": "7-2",
-        "home": "5-0",
+        "overall": "8-2",
+        "home": "6-0",
         "away": "2-2"
       },
       "away": {
-        "overall": "7-1",
+        "overall": "7-2",
         "home": "5-0",
-        "away": "2-1"
+        "away": "2-2"
       }
     },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 34.7
-    }
+    },
+    "espnGameId": 401114338,
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 16,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 4,
+        "totalYards": 360,
+        "passYards": 79,
+        "passCompletions": 4,
+        "passAttempts": 13,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 0,
+        "rushYards": 281,
+        "rushAttempts": 64,
+        "yardsPerRush": 4.4,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 4,
+        "possession": "36:00",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 410,
+        "passYards": 305,
+        "passCompletions": 16,
+        "passAttempts": 22,
+        "yardsPerPass": 13.9,
+        "interceptionsThrown": 0,
+        "rushYards": 105,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.4,
+        "penalties": 2,
+        "penaltyYards": 15,
+        "fumblesLost": 0,
+        "possession": "24:00",
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 52,
+      "away": 20
+    },
+    "linescore": {
+      "away": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "home": [
+        14,
+        24,
+        7,
+        7
+      ]
+    },
+    "result": "W"
   },
   {
     "isHomeGame": true,
@@ -1001,15 +1066,15 @@
     "sportsReferenceGameId": "2019-11-23-notre-dame",
     "rankings": {
       "home": {
-        "ap": 16,
-        "coaches": 16,
-        "cfbPlayoff": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 16
       }
     },
     "records": {
       "home": {
-        "overall": "7-2",
-        "home": "5-0",
+        "overall": "8-2",
+        "home": "6-0",
         "away": "2-2"
       },
       "away": {
@@ -1035,20 +1100,20 @@
     "sportsReferenceGameId": "2019-11-30-stanford",
     "rankings": {
       "away": {
-        "ap": 16,
-        "coaches": 16,
-        "cfbPlayoff": 15
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 16
       }
     },
     "records": {
       "home": {
-        "overall": "4-5",
+        "overall": "4-6",
         "home": "3-2",
-        "away": "1-3"
+        "away": "1-4"
       },
       "away": {
-        "overall": "7-2",
-        "home": "5-0",
+        "overall": "8-2",
+        "home": "6-0",
         "away": "2-2"
       }
     }

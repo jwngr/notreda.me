@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import {CURRENT_YEAR} from '../../../lib/constants.js';
+import {LATEST_YEAR, CURRENT_YEAR} from '../../../lib/constants.js';
 
 import {
   NavMenuDecadeYear,
@@ -33,7 +33,7 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     });
 
     // Notre Dame did not field a team in 1980 or 1981.
-    if (year === 1890 || year === 1891) {
+    if (year === 1890 || year === 1891 || year > LATEST_YEAR) {
       return <p key={year} />;
     }
 

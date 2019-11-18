@@ -3,9 +3,12 @@ const _ = require('lodash');
 const espn = require('../lib/espn');
 const polls = require('../lib/polls');
 const logger = require('../lib/logger');
+const sentry = require('../lib/sentry');
 const ndSchedules = require('../lib/ndSchedules');
 
 const SEASON = ndSchedules.CURRENT_SEASON;
+
+sentry.initialize();
 
 const updateNdSchedule = async () => {
   const seasonScheduleData = ndSchedules.getForSeason(SEASON);
@@ -20,15 +23,32 @@ const updateNdSchedule = async () => {
 
   const espnGameStats = await Promise.all(
     _.map(seasonScheduleData, (gameData) => {
-      if ('espnGameId' in gameData && !('stats' in gameData)) {
-        // Only fetch stats for games which have an ESPN game ID and do not already have stats.
-        return espn.fetchStatsForGame(gameData.espnGameId);
+      // Only fetch stats for games which have an ESPN game ID...
+      if ('espnGameId' in gameData) {
+        // Determine how many days it has been since the game.
+        const millisecondsSinceGame = Date.now() - new Date(gameData.fullDate).getTime();
+        const daysSinceGame = Math.floor(millisecondsSinceGame / (1000 * 60 * 60 * 24));
+
+        // ... and were completed less than a week ago. This provides for ESPN to update the stats,
+        // which they often do.
+        if (daysSinceGame < 7) {
+          return espn.fetchStatsForGame(gameData.espnGameId);
+        }
       }
     })
   );
 
   espnGameStats.forEach((gameStats, i) => {
     if (typeof gameStats !== 'undefined') {
+      if (!('result' in seasonScheduleData[i])) {
+        // If this is the initial stats dump for a game which just ended, log a message to Sentry to
+        // manually add a highlights video for the game.
+        sentry.captureMessage(
+          `Add highlights video for ${SEASON} game versus ${seasonScheduleData[i].opponentId}`,
+          'warning'
+        );
+      }
+
       const homeTeamWon = gameStats.score.home > gameStats.score.away;
       seasonScheduleData[i] = {
         ...seasonScheduleData[i],

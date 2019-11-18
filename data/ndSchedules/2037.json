@@ -1,0 +1,52 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "10/03/2037",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium"
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Clemson",
+      "state": "SC",
+      "stadium": "Clemson Memorial Stadium"
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "Carrier Dome"
+    },
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Winston-Salem",
+      "state": "NC",
+      "stadium": "BB&T Field"
+    },
+    "opponentId": "WAKE"
+  }
+]

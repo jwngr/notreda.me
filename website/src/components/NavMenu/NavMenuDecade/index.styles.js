@@ -10,6 +10,16 @@ export const NavMenuDecadeWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};
   background-color: ${(props) => props.theme.colors.gold}66;
 
+  &:last-of-type {
+    max-width: 218px;
+  }
+
+  @media (max-width: 700px) {
+    &:last-of-type {
+      max-width: none;
+    }
+  }
+
   @media (max-width: 480px) {
     margin-left: 12px;
     margin-right: 24px;
