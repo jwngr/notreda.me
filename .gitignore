@@ -8,8 +8,7 @@ coverage/
 build/
 
 # Configuration files
-config/dev.config.json
-config/prod.config.json
+config/config.json
 
 # npm / yarn
 npm-debug.log*
