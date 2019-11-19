@@ -4,18 +4,14 @@ import styled from 'styled-components';
 export const LinescoreWrapper = styled.div`
   width: 100%;
   display: flex;
+  padding-right: 8px;
   margin-top: 32px;
-  max-width: 520px;
   text-align: center;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
   font-family: 'Bungee';
   border: solid 3px ${(props) => props.theme.colors.black};
-
-  @media (max-width: 950px) {
-    max-width: 420px;
-  }
 `;
 
 const LinescoreColumn = styled.div`

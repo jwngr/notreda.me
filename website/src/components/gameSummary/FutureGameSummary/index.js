@@ -19,8 +19,8 @@ import {
   StatsWrapper,
   FutureGameWrapper,
   TeamDetailsWrapper,
-  CoverageLocationWrapper,
 } from './index.styles';
+import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 
 const Team = ({team, ranking, record, homeOrAway}) => {
   return (

@@ -17,6 +17,13 @@ DATA IRREGULARITIES (institutional knowledge I need to write down):
   - Many old games do not have any weather info.
   - All games with weather have both temperature and icon (although icon is "unknown" for many games)
   - Most future games (except maybe the next game) do not have any weather info.
+- Team names
+  - Longest: Chicago Physicians & Surgeons (CHI-P&S; 29 letters)
+  - Shortest: USC (USC; 3 letters)
+- Nicknames
+  - Longest: Fighting Engineers (ROSE; 18 letters)
+  - Shortest: Utes (Utah; 4 letters); Owls (Rice; 4 letters)
+  - Some team do not have a nickname (e.g, Rush Medical (1894), Illinois Cycling Club (1895), Indianapolis Artillery (1895))
 
 Run test with every property to see if I can completely list all of them and determine if they
 should be cleaned up if they are trying to do too much.

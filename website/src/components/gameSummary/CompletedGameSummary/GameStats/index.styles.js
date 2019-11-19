@@ -1,24 +1,83 @@
 import {darken} from 'polished';
 import styled from 'styled-components';
 
+export const STATS_SECTION_BREAKPOINTS = [1350, 1300, 950, 700];
+
 export const GameStatsWrapper = styled.div`
   width: 100%;
-  max-width: 520px;
   margin-top: 32px;
   border: solid 3px ${(props) => props.theme.colors.black};
-
-  @media (max-width: 950px) {
-    max-width: 420px;
-    margin-top: 40px;
-  }
 `;
 
-export const GameStatsHeader = styled.div`
+export const GameStatsHeaderRow = styled.div`
   width: 100%;
+  padding: 0;
   display: flex;
   margin-top: -17px;
+`;
 
-  & > p {
+export const STATS_HEADER_COLUMN_STYLES = {
+  // Stat names are the left column (large version).
+  leftLarge: `
+    flex: unset;
+    width: 180px;
+
+    &:nth-of-type(2) {
+      order: 1;
+      margin-left: 0;
+      margin-right: 12px;
+    }
+
+    &:last-of-type {
+      order: 2;
+      margin-right: 12px;
+    }
+  `,
+
+  // Stat names are the left column (small version).
+  leftSmall: `
+    flex: unset;
+    width: 160px;
+
+    &:nth-of-type(2) {
+      order: 1;
+      margin-left: 0;
+      margin-right: 8px;
+    }
+
+    &:last-of-type {
+      order: 2;
+      margin-right: 8px;
+    }
+  `,
+
+  // Stat names are the middle column.
+  middle: `
+    flex: 1;
+    width: unset;
+
+    &:nth-of-type(2) {
+      order: 0;
+      margin-left: 4px;
+      margin-right: 0;
+    }
+
+    &:last-of-type {
+      order: 2;
+      margin-right: 4px;
+    }
+  `,
+};
+
+export const GameStatsHeader = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    flex: 1;
+    min-width: 132px;
+    max-width: 200px;
     display: flex;
     padding: 4px 0;
     text-align: center;
@@ -27,41 +86,59 @@ export const GameStatsHeader = styled.div`
     -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
     -webkit-text-stroke-color: ${(props) => darken(0.2, props.theme.colors.green)};
     text-shadow: ${(props) => props.theme.colors.black} 1px 1px;
-  }
-
-  & > p:first-of-type {
-    flex: 1;
-  }
-
-  & > p:not(:first-of-type) {
-    width: 154px;
-    margin-right: 4px;
-    font-size: 14px;
     font-family: 'Bungee';
+    font-size: ${({longestHeaderTextLength}) => (longestHeaderTextLength > 14 ? '12px' : '14px')};
     color: ${(props) => props.theme.colors.white};
     border: solid 3px ${(props) => props.theme.colors.black};
   }
 
-  @media (max-width: 1024px) {
-    margin-top: -26px;
-    justify-content: space-around;
+  @media (min-width: ${STATS_SECTION_BREAKPOINTS[0] + 1}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftLarge}
+  }
 
-    & > p:first-of-type {
-      order: 1;
-      width: 100px;
-      flex: initial;
-      text-align: center;
-      font-weight: normal;
-    }
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[0]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftSmall}
+  }
 
-    & > p:not(:first-of-type) {
-      width: 112px;
-      margin: 0 4px;
-    }
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.middle}
+  }
 
-    & > p:last-of-type {
-      order: 2;
-    }
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[2]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftLarge}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[3]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.middle}
+  }
+`;
+
+export const STATS_HEADER_SPACER_STYLES = {
+  left: `
+    flex: 1;
+    order: 0;
+    width: unset;
+  `,
+  middle: `
+    flex: unset;
+    order: 1;
+    width: 100px;
+  `,
+};
+
+export const GameStatsHeaderSpacer = styled.div`
+  ${STATS_HEADER_SPACER_STYLES.left}
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) {
+    ${STATS_HEADER_SPACER_STYLES.middle}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[2]}px) {
+    ${STATS_HEADER_SPACER_STYLES.left}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[3]}px) {
+    ${STATS_HEADER_SPACER_STYLES.middle}
   }
 `;
 

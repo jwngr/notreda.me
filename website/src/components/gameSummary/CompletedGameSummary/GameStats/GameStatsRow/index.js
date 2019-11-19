@@ -2,11 +2,12 @@ import _ from 'lodash';
 import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 
 import {StatName, StatValue, GameStatsRowWrapper} from './index.styles';
 
-import {getDefaultTeamColor} from '../../../../utils';
+import {getDefaultTeamColor} from '../../../../../utils';
+
+import {STATS_SECTION_BREAKPOINTS} from '../index.styles';
 
 const shortStatNames = {
   '3rd Down Efficiency': '3rd Down Eff.',
@@ -21,7 +22,7 @@ const GameStatsRow = ({
   homeTeam,
   awayValue,
   homeValue,
-  isHeaderRow,
+  isStatsGroupRow,
   reverseComparison,
 }) => {
   let isAwayHighlighted;
@@ -97,20 +98,22 @@ const GameStatsRow = ({
     };
   }
 
-  const gameStatsRowClassNames = classNames({
-    'game-stats-header-row': isHeaderRow,
-  });
-
   return (
-    <GameStatsRowWrapper className={gameStatsRowClassNames}>
-      <Media query="(max-width: 1024px)">
-        {(matches) =>
-          matches ? (
-            <StatName>{shortStatNames[statName] || statName}</StatName>
-          ) : (
-            <StatName>{statName}</StatName>
-          )
-        }
+    <GameStatsRowWrapper>
+      {/* Show shortened stat names when the stat names column is in the middle. */}
+      <Media
+        queries={{
+          middle1: `(max-width: ${
+            STATS_SECTION_BREAKPOINTS[1]
+          }px) and (min-width: ${STATS_SECTION_BREAKPOINTS[2] + 1}px)`,
+          middle2: `(max-width: ${STATS_SECTION_BREAKPOINTS[3]}px)`,
+        }}
+      >
+        {(matches) => (
+          <StatName isStatsGroupRow={isStatsGroupRow}>
+            {matches.middle1 || matches.middle2 ? shortStatNames[statName] || statName : statName}
+          </StatName>
+        )}
       </Media>
 
       <StatValue style={awayStyles}>{awayValue}</StatValue>
@@ -125,7 +128,7 @@ GameStatsRow.propTypes = {
   homeTeam: PropTypes.object.isRequired,
   awayValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   homeValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  isHeaderRow: PropTypes.bool,
+  isStatsGroupRow: PropTypes.bool,
   reverseComparison: PropTypes.bool,
 };
 

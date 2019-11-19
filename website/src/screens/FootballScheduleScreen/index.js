@@ -16,6 +16,7 @@ import {
   Header,
   HeaderTitle,
   NextYearLink,
+  GamesWrapper,
   NavMenuButton,
   ScheduleWrapper,
   PreviousYearLink,
@@ -71,17 +72,12 @@ const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
                     <GameSummaryContainer />
                   </Route>
                   <Route path="/">
-                    <div className="schedule-container">
-                      <div className="schedule">{gamesContent}</div>
-                    </div>
+                    <GamesWrapper>{gamesContent}</GamesWrapper>
                   </Route>
                 </Switch>
               ) : (
                 <React.Fragment>
-                  <div className="schedule-container">
-                    <div className="schedule">{gamesContent}</div>
-                  </div>
-
+                  <GamesWrapper>{gamesContent}</GamesWrapper>
                   <GameSummaryContainer />
                 </React.Fragment>
               )

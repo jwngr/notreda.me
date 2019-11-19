@@ -24,10 +24,6 @@ export const ScheduleWrapper = styled.div`
   display: flex;
   margin-top: 8px;
 
-  & > div {
-    width: 50%;
-  }
-
   & > div:first-of-type {
     margin-right: 12px;
   }
@@ -56,6 +52,10 @@ export const ScheduleWrapper = styled.div`
       margin-right: 0;
     }
   }
+`;
+
+export const GamesWrapper = styled.div`
+  flex: 1;
 `;
 
 export const NavMenuButton = styled.div`

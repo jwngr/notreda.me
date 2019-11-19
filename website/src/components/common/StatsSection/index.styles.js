@@ -21,7 +21,7 @@ export const StatsSectionTitle = styled.div`
   p {
     display: inline;
     padding: 4px 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Bungee';
     color: ${(props) => props.theme.colors.white};
     background-color: ${(props) => props.theme.colors.green};

@@ -7,7 +7,7 @@ import {
   Temperature,
   WeatherIcon,
   WeatherWrapper,
-  LocationWrapper,
+  LocationInnerWrapper,
   StadiumLocationWrapper,
 } from './index.styles';
 
@@ -86,8 +86,8 @@ const Location = ({game}) => {
   }
 
   return (
-    <StatsSection title="Location" style={{marginLeft: '6px'}}>
-      <LocationWrapper>
+    <StatsSection title="Location">
+      <LocationInnerWrapper>
         {weatherContent}
         <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
           {/* Stadium */}
@@ -96,7 +96,7 @@ const Location = ({game}) => {
           {/* Location */}
           <p>{location}</p>
         </StadiumLocationWrapper>
-      </LocationWrapper>
+      </LocationInnerWrapper>
     </StatsSection>
   );
 };

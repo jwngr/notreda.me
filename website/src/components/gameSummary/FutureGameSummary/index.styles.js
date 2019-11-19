@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import TeamLogo from '../../TeamLogo';
 
 export const FutureGameWrapper = styled.div`
+  flex: 1;
+  /* TODO(cleanup): For some reason, specifying a width is needed to force this div to flex. */
+  width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,21 +182,5 @@ export const StatsWrapper = styled.div`
 
   @media (max-width: 600px) {
     flex-direction: column;
-  }
-`;
-
-export const CoverageLocationWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  & > div:first-of-type {
-    margin-right: 6px;
-  }
-
-  & > div:last-of-type {
-    margin-left: 6px;
   }
 `;
