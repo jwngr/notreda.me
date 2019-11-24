@@ -6,7 +6,11 @@
     "location": {
       "city": "Madison",
       "state": "WI",
-      "stadium": "Camp Randall Stadium"
+      "stadium": "Camp Randall Stadium",
+      "coordinates": [
+        43.069885,
+        -89.412619
+      ]
     },
     "opponentId": "WIS",
     "score": {
@@ -57,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Ara Parseghian"
+    "headCoach": "Ara Parseghian",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 60.96
+    }
   },
   {
     "result": "W",
@@ -66,7 +74,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -122,6 +134,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 44.2
     }
   },
   {
@@ -131,7 +147,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -187,6 +207,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "temperature": 49.67,
+      "icon": "unknown"
     }
   },
   {
@@ -196,7 +220,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UCLA",
     "score": {
@@ -252,6 +280,10 @@
       "home": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.09
     }
   },
   {
@@ -261,7 +293,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -317,6 +353,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 33.21
     }
   },
   {
@@ -326,7 +366,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "John F. Kennedy Stadium"
+      "stadium": "John F. Kennedy Stadium",
+      "coordinates": [
+        39.9014,
+        -75.1719
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -382,6 +426,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.83
     }
   },
   {
@@ -391,7 +439,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -447,6 +499,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 39.62
     }
   },
   {
@@ -456,7 +512,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -512,6 +572,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 36.11
     }
   },
   {
@@ -521,7 +585,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -577,6 +645,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "snow",
+      "temperature": 21.14
     }
   },
   {
@@ -586,7 +658,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -642,6 +718,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.58
     }
   }
 ]

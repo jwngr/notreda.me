@@ -5,7 +5,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "coverage": "NBC",
@@ -97,6 +101,10 @@
         "ap": 14,
         "coaches": 14
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 80.78
     }
   },
   {
@@ -105,7 +113,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BALL",
     "coverage": "NBC",
@@ -193,6 +205,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.06
     }
   },
   {
@@ -201,7 +217,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "VANDY",
     "coverage": "NBC",
@@ -289,6 +309,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.25
     }
   },
   {
@@ -296,9 +320,13 @@
     "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
     "time": "12:00 PM",
     "location": {
-      "city": "Salem",
+      "city": "Winston-Salem",
       "state": "NC",
-      "stadium": "BB&T Field"
+      "stadium": "BB&T Field",
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
     },
     "opponentId": "WAKE",
     "coverage": "ABC",
@@ -386,6 +414,10 @@
         "ap": 8,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 83.88
     }
   },
   {
@@ -394,7 +426,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "coverage": "NBC",
@@ -486,6 +522,10 @@
         "ap": 7,
         "coaches": 7
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54.38
     }
   },
   {
@@ -494,7 +534,11 @@
     "location": {
       "city": "Blacksburg",
       "state": "VA",
-      "stadium": "Lane Stadium"
+      "stadium": "Lane Stadium",
+      "coordinates": [
+        37.219885,
+        -80.418311
+      ]
     },
     "opponentId": "VT",
     "coverage": "ABC",
@@ -586,6 +630,10 @@
         "possession": "32:42",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 71
     }
   },
   {
@@ -594,7 +642,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "coverage": "NBC",
@@ -682,6 +734,10 @@
         "possession": "26:33",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49.59
     }
   },
   {
@@ -690,7 +746,11 @@
     "location": {
       "city": "San Diego",
       "state": "CA",
-      "stadium": "Qualcomm Stadium"
+      "stadium": "Qualcomm Stadium",
+      "coordinates": [
+        32.783058,
+        -117.119851
+      ]
     },
     "opponentId": "NAVY",
     "coverage": "CBS",
@@ -778,6 +838,10 @@
         "possession": "28:03",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 76.15
     }
   },
   {
@@ -787,7 +851,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Ryan Field"
+      "stadium": "Ryan Field",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "coverage": "ESPN",
@@ -876,6 +944,10 @@
         "possession": "30:24",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.26
     }
   },
   {
@@ -884,7 +956,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "FSU",
     "coverage": "NBC",
@@ -973,6 +1049,10 @@
         "possession": "32:00",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 26.74
     }
   },
   {
@@ -983,7 +1063,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "SYR",
     "coverage": "NBC",
@@ -1078,6 +1162,10 @@
         "possession": "32:13",
         "fumbles": -1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.5
     }
   },
   {
@@ -1086,7 +1174,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "coverage": "ABC",
@@ -1175,6 +1267,10 @@
         "possession": "34:11",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 55.3
     }
   },
   {
@@ -1184,9 +1280,13 @@
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
     "coverage": "ESPN",
     "location": {
-      "city": "Dallas",
+      "city": "Arlington",
       "state": "TX",
-      "stadium": "AT&T Stadium"
+      "stadium": "AT&T Stadium",
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "CLEM",
     "rankings": {
@@ -1277,6 +1377,10 @@
         "possession": "32:54",
         "fumbles": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 39.4
     }
   }
 ]

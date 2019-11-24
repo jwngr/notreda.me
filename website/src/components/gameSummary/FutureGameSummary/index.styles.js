@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import TeamLogo from '../../TeamLogo';
 
 export const FutureGameWrapper = styled.div`
+  flex: 1;
+  /* TODO(cleanup): For some reason, specifying a width is needed to force this div to flex. */
+  width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,11 +172,11 @@ export const AtOrVersus = styled.p`
   }
 `;
 
-export const MetadataWrapper = styled.div`
+export const StatsWrapper = styled.div`
   width: 100%;
   display: flex;
-  margin-top: 32px;
-  flex-direction: row;
+  margin-top: 20px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 

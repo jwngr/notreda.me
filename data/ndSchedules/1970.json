@@ -6,7 +6,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Dyche Stadium"
+      "stadium": "Dyche Stadium",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -63,6 +67,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 80.42
     }
   },
   {
@@ -72,7 +80,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -129,6 +141,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.08
     }
   },
   {
@@ -138,7 +154,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -195,6 +215,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.05
     }
   },
   {
@@ -204,7 +228,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -261,6 +289,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 55.18
     }
   },
   {
@@ -270,7 +302,11 @@
     "location": {
       "city": "Columbia",
       "state": "MO",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        38.935833,
+        -92.333056
+      ]
     },
     "opponentId": "MIZ",
     "score": {
@@ -340,7 +376,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "John F. Kennedy Stadium"
+      "stadium": "John F. Kennedy Stadium",
+      "coordinates": [
+        39.9014,
+        -75.1719
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -397,6 +437,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.05
     }
   },
   {
@@ -406,7 +450,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -463,6 +511,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 51.21
     }
   },
   {
@@ -472,7 +524,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -529,6 +585,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 36.11
     }
   },
   {
@@ -538,7 +598,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -598,6 +662,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.07
     }
   },
   {
@@ -607,7 +675,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -665,6 +737,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 54.38
     }
   },
   {
@@ -675,7 +751,11 @@
     "location": {
       "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -747,6 +827,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "temperature": 62.21,
+      "icon": "unknown"
     }
   }
 ]

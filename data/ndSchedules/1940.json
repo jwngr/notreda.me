@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PAC",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "CAR",
     "score": {
@@ -191,7 +203,11 @@
     "location": {
       "city": "Champaign",
       "state": "IL",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        40.099167,
+        -88.235833
+      ]
     },
     "opponentId": "ILL",
     "score": {
@@ -247,6 +263,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 54.35,
+      "icon": "unknown"
     }
   },
   {
@@ -256,7 +276,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -312,6 +336,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 52.62,
+      "icon": "unknown"
     }
   },
   {
@@ -321,7 +349,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Municipal Stadium"
+      "stadium": "Municipal Stadium",
+      "coordinates": [
+        39.329444,
+        -76.601389
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -377,6 +409,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "temperature": 39.74,
+      "icon": "unknown"
     }
   },
   {
@@ -386,7 +422,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -451,7 +491,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Dyche Stadium"
+      "stadium": "Dyche Stadium",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -519,7 +563,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {

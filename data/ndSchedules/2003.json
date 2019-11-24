@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WSU",
     "score": {
@@ -71,7 +75,7 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-06-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -79,7 +83,11 @@
         "ap": 19
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.36
+    }
   },
   {
     "result": "L",
@@ -88,7 +96,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -151,7 +163,7 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-13-michigan",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -161,6 +173,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 74.43
     }
   },
   {
@@ -170,7 +186,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -233,9 +253,13 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-20-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 70.57
+    }
   },
   {
     "result": "L",
@@ -244,7 +268,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -307,13 +335,17 @@
       ]
     },
     "sportsReferenceGameId": "2003-09-27-purdue",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 62.61
     }
   },
   {
@@ -323,7 +355,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -386,13 +422,17 @@
       ]
     },
     "sportsReferenceGameId": "2003-10-11-pittsburgh",
-    "time": "6:00 PM",
+    "time": "6:00 PM",
     "coverage": "ESPN",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.43
     }
   },
   {
@@ -402,7 +442,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -465,7 +509,7 @@
       ]
     },
     "sportsReferenceGameId": "2003-10-18-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -473,6 +517,10 @@
         "ap": 5,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.12
     }
   },
   {
@@ -482,7 +530,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -545,9 +597,13 @@
       ]
     },
     "sportsReferenceGameId": "2003-10-25-boston-college",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 55.16
+    }
   },
   {
     "result": "L",
@@ -556,7 +612,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -619,7 +679,7 @@
       ]
     },
     "sportsReferenceGameId": "2003-11-01-notre-dame",
-    "time": "2:30 PM.",
+    "time": "2:30 PM.",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -627,6 +687,10 @@
         "ap": 5,
         "bcs": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.26
     }
   },
   {
@@ -636,7 +700,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -699,9 +767,13 @@
       ]
     },
     "sportsReferenceGameId": "2003-11-08-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 31.96
+    }
   },
   {
     "result": "W",
@@ -710,7 +782,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -773,9 +849,13 @@
       ]
     },
     "sportsReferenceGameId": "2003-11-15-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 39.88
+    }
   },
   {
     "result": "W",
@@ -784,7 +864,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -847,9 +931,13 @@
       ]
     },
     "sportsReferenceGameId": "2003-11-29-stanford",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 54
+    }
   },
   {
     "result": "L",
@@ -858,7 +946,11 @@
     "location": {
       "city": "Syracuse",
       "state": "NY",
-      "stadium": "Carrier Dome"
+      "stadium": "Carrier Dome",
+      "coordinates": [
+        43.036062,
+        -76.136434
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -921,8 +1013,12 @@
       ]
     },
     "sportsReferenceGameId": "2003-12-06-syracuse",
-    "time": "1:00 PM",
+    "time": "1:00 PM",
     "coverage": "ABC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "fog",
+      "temperature": 21.07
+    }
   }
 ]

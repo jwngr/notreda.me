@@ -6,7 +6,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "UVA",
     "score": {
@@ -64,6 +68,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 69.46
     }
   },
   {
@@ -73,7 +81,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -134,6 +146,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.44
     }
   },
   {
@@ -143,7 +159,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -201,6 +221,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 51.25
     }
   },
   {
@@ -210,7 +234,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -277,7 +305,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -334,6 +366,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75.21
     }
   },
   {
@@ -343,7 +379,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -404,6 +444,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 60.66
     }
   },
   {
@@ -413,7 +457,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -474,6 +522,10 @@
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.67
     }
   },
   {
@@ -483,7 +535,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -544,6 +600,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 64.66
     }
   },
   {
@@ -553,7 +613,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -611,6 +675,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.19
     }
   },
   {
@@ -620,7 +688,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -678,6 +750,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 51.34
     }
   },
   {
@@ -687,7 +763,11 @@
     "location": {
       "city": "University Park",
       "state": "PA",
-      "stadium": "Beaver Stadium"
+      "stadium": "Beaver Stadium",
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -757,7 +837,11 @@
     "location": {
       "city": "Miami",
       "state": "FL",
-      "stadium": "Miami Orange Bowl"
+      "stadium": "Orange Bowl",
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -818,6 +902,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 76.3
     }
   },
   {
@@ -828,7 +916,11 @@
     "location": {
       "city": "Miami",
       "state": "FL",
-      "stadium": "Miami Orange Bowl"
+      "stadium": "Orange Bowl",
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -900,6 +992,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 68.37
     }
   }
 ]

@@ -6,7 +6,11 @@
     "location": {
       "city": "Atlanta",
       "state": "GA",
-      "stadium": "Bobby Dodd Stadium"
+      "stadium": "Bobby Dodd Stadium",
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -73,13 +77,17 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-02-georgia-tech",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 74
     }
   },
   {
@@ -89,7 +97,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -156,7 +168,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-09-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -166,6 +178,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 71.46
     }
   },
   {
@@ -175,7 +191,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -242,7 +262,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-16-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -252,6 +272,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75.09
     }
   },
   {
@@ -261,7 +285,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -328,13 +356,17 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-23-michigan-state",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 63.57
     }
   },
   {
@@ -344,7 +376,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -411,13 +447,17 @@
       ]
     },
     "sportsReferenceGameId": "2006-09-30-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 57.73
     }
   },
   {
@@ -427,7 +467,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -494,13 +538,17 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-07-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 67.74
     }
   },
   {
@@ -510,7 +558,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UCLA",
     "score": {
@@ -577,7 +629,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-21-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -585,6 +637,10 @@
         "ap": 10,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.09
     }
   },
   {
@@ -594,7 +650,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "M&T Bank Stadium"
+      "stadium": "M&T Bank Stadium",
+      "coordinates": [
+        39.277954,
+        -76.623112
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -661,7 +721,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-10-28-navy",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -669,6 +729,10 @@
         "ap": 11,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 59.05
     }
   },
   {
@@ -678,7 +742,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -745,7 +813,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-04-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -753,6 +821,10 @@
         "ap": 11,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.07
     }
   },
   {
@@ -762,7 +834,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -829,7 +905,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-11-air-force",
-    "time": "4:00 PM",
+    "time": "4:00 PM",
     "coverage": "CSTV",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -837,6 +913,10 @@
         "ap": 9,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.69
     }
   },
   {
@@ -846,7 +926,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -913,7 +997,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-18-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -921,6 +1005,10 @@
         "ap": 6,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 41.05
     }
   },
   {
@@ -930,7 +1018,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -997,7 +1089,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-11-25-southern-california",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -1009,6 +1101,10 @@
         "ap": 3,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.27
     }
   },
   {
@@ -1019,7 +1115,11 @@
     "location": {
       "city": "New Orleans",
       "state": "LA",
-      "stadium": "Louisiana Superdome"
+      "stadium": "Louisiana Superdome",
+      "coordinates": [
+        29.950833,
+        -90.081111
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -1086,7 +1186,7 @@
       ]
     },
     "sportsReferenceGameId": "2007-01-03-louisiana-state",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "FOX",
     "nickname": "Sugar Bowl",
     "headCoach": "Charlie Weis",
@@ -1099,6 +1199,10 @@
         "ap": 4,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 55.88
     }
   }
 ]

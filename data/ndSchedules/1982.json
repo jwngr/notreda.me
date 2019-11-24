@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -67,6 +71,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.68
     }
   },
   {
@@ -76,7 +84,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -133,6 +145,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.37
     }
   },
   {
@@ -142,7 +158,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -199,6 +219,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 71.14
     }
   },
   {
@@ -208,7 +232,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -268,6 +296,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.86
     }
   },
   {
@@ -277,7 +309,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "ARIZ",
     "score": {
@@ -334,6 +370,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 45.53
     }
   },
   {
@@ -343,7 +383,11 @@
     "location": {
       "city": "Eugene",
       "state": "OR",
-      "stadium": "Autzen Stadium"
+      "stadium": "Autzen Stadium",
+      "coordinates": [
+        44.058251,
+        -123.068532
+      ]
     },
     "opponentId": "ORE",
     "score": {
@@ -400,6 +444,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 68.87
     }
   },
   {
@@ -409,7 +457,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -461,7 +513,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 69.16
+    }
   },
   {
     "result": "W",
@@ -470,7 +526,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -527,6 +587,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 43.17
     }
   },
   {
@@ -536,7 +600,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -597,6 +665,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 25.16
     }
   },
   {
@@ -606,7 +678,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -663,6 +739,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 38.52
     }
   },
   {
@@ -672,7 +752,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -730,6 +814,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.63
     }
   }
 ]

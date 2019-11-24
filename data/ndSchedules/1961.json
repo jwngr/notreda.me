@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -57,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 61.12
+    }
   },
   {
     "result": "W",
@@ -66,7 +74,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -126,7 +138,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -182,6 +198,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 44.2
     }
   },
   {
@@ -191,7 +211,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -250,6 +274,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 45.06
     }
   },
   {
@@ -259,7 +287,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -315,6 +347,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 49.07
     }
   },
   {
@@ -324,7 +360,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -375,7 +415,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 27.12
+    }
   },
   {
     "result": "W",
@@ -384,7 +428,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -435,7 +483,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 25.56
+    }
   },
   {
     "result": "W",
@@ -444,7 +496,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -500,6 +556,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 33.21
     }
   },
   {
@@ -509,7 +569,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -569,7 +633,11 @@
     "location": {
       "city": "Durham",
       "state": "NC",
-      "stadium": "Duke Stadium"
+      "stadium": "Duke Stadium",
+      "coordinates": [
+        35.995278,
+        -78.941667
+      ]
     },
     "opponentId": "DUKE",
     "score": {
@@ -620,6 +688,10 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 41.21
+    }
   }
 ]

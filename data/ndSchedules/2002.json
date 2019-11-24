@@ -6,7 +6,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "MD",
     "score": {
@@ -69,13 +73,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-08-31-maryland",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 21
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 63.96
     }
   },
   {
@@ -85,7 +93,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -148,13 +160,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-07-notre-dame",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 90.41
     }
   },
   {
@@ -164,7 +180,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -227,7 +247,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-14-notre-dame",
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -237,6 +257,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 88.17
     }
   },
   {
@@ -246,7 +270,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -309,13 +337,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-09-21-michigan-state",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.56
     }
   },
   {
@@ -325,7 +357,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -388,13 +424,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-05-notre-dame",
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62.75
     }
   },
   {
@@ -404,7 +444,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -467,13 +511,17 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-12-notre-dame",
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66.44
     }
   },
   {
@@ -483,7 +531,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -546,7 +598,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-19-air-force",
-    "time": "10:00 PM",
+    "time": "10:00 PM",
     "coverage": "ESPN",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -557,6 +609,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 42.15
     }
   },
   {
@@ -566,7 +622,11 @@
     "location": {
       "city": "Tallahassee",
       "state": "FL",
-      "stadium": "Doak Campbell Stadium"
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -629,7 +689,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-10-26-florida-state",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -641,6 +701,10 @@
         "ap": 11,
         "bcs": 12
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 75.11
     }
   },
   {
@@ -650,7 +714,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -713,7 +781,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-02-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -721,6 +789,10 @@
         "ap": 4,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 40.35
     }
   },
   {
@@ -730,7 +802,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Ravens Stadium"
+      "stadium": "Ravens Stadium",
+      "coordinates": [
+        39.277954,
+        -76.623112
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -793,7 +869,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-09-navy",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -801,6 +877,10 @@
         "ap": 9,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.97
     }
   },
   {
@@ -810,7 +890,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "RUTG",
     "score": {
@@ -873,7 +957,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-23-notre-dame",
-    "time": "1:00 PM",
+    "time": "1:00 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -881,6 +965,10 @@
         "ap": 8,
         "bcs": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 44.91
     }
   },
   {
@@ -890,7 +978,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -953,7 +1045,7 @@
       ]
     },
     "sportsReferenceGameId": "2002-11-30-southern-california",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -965,6 +1057,10 @@
         "ap": 6,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 55.69
     }
   },
   {
@@ -975,7 +1071,11 @@
     "location": {
       "city": "Jacksonville",
       "state": "FL",
-      "stadium": "Alltel Stadium"
+      "stadium": "Alltel Stadium",
+      "coordinates": [
+        30.323861,
+        -81.637472
+      ]
     },
     "opponentId": "NCST",
     "score": {
@@ -1038,7 +1138,7 @@
       ]
     },
     "sportsReferenceGameId": "2003-01-01-north-carolina-state",
-    "time": "12:30 PM",
+    "time": "12:30 PM",
     "coverage": "NBC",
     "nickname": "Gator Bowl",
     "headCoach": "Tyrone Willingham",
@@ -1050,6 +1150,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "temperature": 69.29,
+      "icon": "unknown"
     }
   }
 ]

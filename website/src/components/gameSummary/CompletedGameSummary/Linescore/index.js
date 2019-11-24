@@ -3,11 +3,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import YouTubeIcon from '../../../common/YouTubeIcon';
+
 import {ScoreColumn, LinescoreWrapper, AbbreviationColumn} from './index.styles';
 
 import {getDefaultTeamColor} from '../../../../utils';
 
-const Linescore = ({linescore, homeTeam, awayTeam}) => {
+const Linescore = ({homeTeam, awayTeam, linescore, highlightsYouTubeVideoId}) => {
   // TODO: remove once all games have a linescore
   if (linescore.home.length === 0) {
     return null;
@@ -66,6 +68,13 @@ const Linescore = ({linescore, homeTeam, awayTeam}) => {
         <p style={awayTeamColorStyles}>{totalScores.away}</p>
         <p style={homeTeamColorStyles}>{totalScores.home}</p>
       </ScoreColumn>
+      {highlightsYouTubeVideoId && (
+        <YouTubeIcon
+          title="Video highlights"
+          style={{width: '40px', marginTop: '16px'}}
+          highlightsYouTubeVideoId={highlightsYouTubeVideoId}
+        />
+      )}
     </LinescoreWrapper>
   );
 };
@@ -74,6 +83,7 @@ Linescore.propTypes = {
   awayTeam: PropTypes.object.isRequired,
   homeTeam: PropTypes.object.isRequired,
   linescore: PropTypes.object.isRequired,
+  highlightsYouTubeVideoId: PropTypes.string,
 };
 
 export default Linescore;

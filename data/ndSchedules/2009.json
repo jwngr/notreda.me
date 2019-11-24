@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NEV",
     "score": {
@@ -80,6 +84,10 @@
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 74.99
     }
   },
   {
@@ -89,7 +97,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -163,6 +175,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73.35
     }
   },
   {
@@ -172,7 +188,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -241,7 +261,11 @@
     "sportsReferenceGameId": "2009-09-19-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.11
+    }
   },
   {
     "result": "W",
@@ -250,7 +274,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -319,7 +347,11 @@
     "sportsReferenceGameId": "2009-09-26-purdue",
     "time": "8:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 60.6
+    }
   },
   {
     "result": "W",
@@ -328,7 +360,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WASH",
     "score": {
@@ -400,7 +436,11 @@
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "rain",
+      "temperature": 52.97
+    }
   },
   {
     "result": "L",
@@ -409,7 +449,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -486,6 +530,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.71
     }
   },
   {
@@ -495,7 +543,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -564,7 +616,11 @@
     "sportsReferenceGameId": "2009-10-24-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 45.12
+    }
   },
   {
     "result": "W",
@@ -573,7 +629,11 @@
     "location": {
       "city": "San Antonio",
       "state": "TX",
-      "stadium": "Alamodome"
+      "stadium": "Alamodome",
+      "coordinates": [
+        29.416815,
+        -98.478932
+      ]
     },
     "opponentId": "WSU",
     "isShamrockSeries": true,
@@ -649,6 +709,10 @@
         "ap": 25,
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.99
     }
   },
   {
@@ -658,7 +722,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -733,6 +801,10 @@
         "ap": 19,
         "bcs": 22
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 66.33
     }
   },
   {
@@ -742,7 +814,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -817,6 +893,10 @@
         "ap": 8,
         "bcs": 12
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.97
     }
   },
   {
@@ -826,7 +906,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UCONN",
     "score": {
@@ -900,7 +984,11 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "numOvertimes": 2
+    "numOvertimes": 2,
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.02
+    }
   },
   {
     "result": "L",
@@ -909,7 +997,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -978,6 +1070,10 @@
     "sportsReferenceGameId": "2009-11-28-stanford",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59.8
+    }
   }
 ]

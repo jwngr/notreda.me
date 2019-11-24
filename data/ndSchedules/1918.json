@@ -6,7 +6,11 @@
     "location": {
       "city": "Cleveland",
       "state": "OH",
-      "stadium": "Van Horn Field"
+      "stadium": "Van Horn Field",
+      "coordinates": [
+        41.501691,
+        -81.606254
+      ]
     },
     "opponentId": "CASE",
     "score": {
@@ -65,7 +69,11 @@
     "date": "11/02/1918",
     "location": {
       "city": "Crawfordsville",
-      "state": "IN"
+      "state": "IN",
+      "coordinates": [
+        40.04286,
+        -86.90334
+      ]
     },
     "opponentId": "WAB",
     "score": {
@@ -125,7 +133,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "GRTLK",
     "score": {
@@ -185,7 +197,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Old College Field"
+      "stadium": "Old College Field",
+      "coordinates": [
+        42.74688,
+        -84.4837
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -245,7 +261,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Stuart Field"
+      "stadium": "Stuart Field",
+      "coordinates": [
+        28.01244,
+        -82.42516
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -305,7 +325,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Nebraska Field"
+      "stadium": "Nebraska Field",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {

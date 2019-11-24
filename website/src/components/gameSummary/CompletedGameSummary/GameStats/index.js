@@ -1,22 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import GameStatsRow from '../GameStatsRow';
+import GameStatsRow from './GameStatsRow';
 
-import {GameStatsHeader, GameStatsWrapper, StatsUnavailable} from './index.styles';
+import {
+  GameStatsHeader,
+  GameStatsWrapper,
+  GameStatsHeaderRow,
+  GameStatsHeaderSpacer,
+} from './index.styles';
 
 import {getDefaultTeamColor} from '../../../../utils';
 
 const GameStats = ({stats, homeTeam, awayTeam}) => {
-  // TODO: remove once all games has stats
+  // TODO: remove once all games have stats.
   if (stats.home.totalYards === -1) {
-    return (
-      <StatsUnavailable>
-        Stats for this game are not yet available.{' '}
-        <a href="https://github.com/jwngr/notreda.me/issues/1">I'm looking for help</a> collecting
-        historical Notre Dame game stats.
-      </StatsUnavailable>
-    );
+    return null;
   }
 
   const homeTeamColorStyles = {
@@ -52,16 +51,26 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
     );
   }
 
+  // Some historical teams do not have a nickname, so display their short name or full name instead.
+  const awayTeamHeaderText = awayTeam.nickname || awayTeam.shortName || awayTeam.name;
+  const homeTeamHeaderText = homeTeam.nickname || homeTeam.shortName || homeTeam.name;
+
+  const longestHeaderTextLength = Math.max(awayTeamHeaderText.length, homeTeamHeaderText.length);
+
   return (
     <GameStatsWrapper>
-      <GameStatsHeader>
-        <p />
-        <p style={awayTeamColorStyles}>{awayTeam.nickname}</p>
-        <p style={homeTeamColorStyles}>{homeTeam.nickname}</p>
-      </GameStatsHeader>
+      <GameStatsHeaderRow longestHeaderTextLength={longestHeaderTextLength}>
+        <GameStatsHeaderSpacer />
+        <GameStatsHeader>
+          <p style={awayTeamColorStyles}>{awayTeamHeaderText}</p>
+        </GameStatsHeader>
+        <GameStatsHeader>
+          <p style={homeTeamColorStyles}>{homeTeamHeaderText}</p>
+        </GameStatsHeader>
+      </GameStatsHeaderRow>
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         statName="1st Downs"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
@@ -86,7 +95,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         statName="Total Yards"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
@@ -95,7 +104,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         statName="Pass Yards"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
@@ -120,7 +129,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         statName="Rush Yards"
         awayTeam={awayTeam}
         homeTeam={homeTeam}
@@ -145,7 +154,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         reverseComparison={true}
         statName="Turnovers"
         awayTeam={awayTeam}
@@ -166,7 +175,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         reverseComparison={true}
         statName="Penalties"
         awayTeam={awayTeam}
@@ -176,7 +185,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
       />
 
       <GameStatsRow
-        isHeaderRow={true}
+        isStatsGroupRow={true}
         statName="Possession"
         awayTeam={awayTeam}
         homeTeam={homeTeam}

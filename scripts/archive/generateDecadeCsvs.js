@@ -61,10 +61,7 @@ DECADES.forEach((seasons) => {
       let homeTeamAbbreviation = game.isHomeGame ? 'ND' : game.opponentId;
       let awayTeamAbbreviation = game.isHomeGame ? game.opponentId : 'ND';
 
-      let gameDateString = format(
-        new Date(game.date || game.fullDate || game.timestamp),
-        'MM/dd/yyyy'
-      );
+      let gameDateString = format(new Date(game.date || game.fullDate), 'MM/dd/yyyy');
 
       let homeLinescore = _.get(game, ['linescore', 'home'], []).join('|');
       let awayLinescore = _.get(game, ['linescore', 'away'], []).join('|');

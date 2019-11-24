@@ -4,9 +4,13 @@
     "isHomeGame": false,
     "date": "09/22/1956",
     "location": {
-      "city": "Dallas (Fair Park)",
+      "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -62,6 +66,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 82.18
     }
   },
   {
@@ -71,7 +79,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -127,6 +139,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 51.21
     }
   },
   {
@@ -136,7 +152,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -192,6 +212,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 61.12
     }
   },
   {
@@ -201,7 +225,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -257,6 +285,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.18
     }
   },
   {
@@ -266,7 +298,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -322,6 +358,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 35.2
     }
   },
   {
@@ -331,7 +371,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.330024,
+        -76.601532
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -382,7 +426,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Terry Brennan"
+    "headCoach": "Terry Brennan",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.06
+    }
   },
   {
     "result": "L",
@@ -391,7 +439,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -447,6 +499,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 37.65
     }
   },
   {
@@ -456,7 +512,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -507,7 +567,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Terry Brennan"
+    "headCoach": "Terry Brennan",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 21.14
+    }
   },
   {
     "result": "L",
@@ -516,7 +580,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -581,7 +649,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -637,6 +709,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52.86
     }
   }
 ]

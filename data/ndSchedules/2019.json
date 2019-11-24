@@ -6,7 +6,11 @@
     "location": {
       "city": "Louisville",
       "state": "KY",
-      "stadium": "Cardinal Stadium"
+      "stadium": "Cardinal Stadium",
+      "coordinates": [
+        38.206123,
+        -85.759065
+      ]
     },
     "opponentId": "LOU",
     "espnGameId": 401112436,
@@ -92,6 +96,10 @@
         "home": "0-0",
         "away": "1-0"
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.55
     }
   },
   {
@@ -101,7 +109,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNM",
     "sportsReferenceGameId": "2019-09-14-notre-dame",
@@ -187,6 +199,10 @@
         "possession": "24:54",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75.44
     }
   },
   {
@@ -196,7 +212,11 @@
     "location": {
       "city": "Athens",
       "state": "GA",
-      "stadium": "Sanford Stadium"
+      "stadium": "Sanford Stadium",
+      "coordinates": [
+        33.94981,
+        -83.374454
+      ]
     },
     "opponentId": "UGA",
     "espnGameId": 401110800,
@@ -286,6 +306,10 @@
         "possession": "34:31",
         "fumbles": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 76.9
     }
   },
   {
@@ -295,7 +319,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UVA",
     "espnGameId": 401112472,
@@ -385,6 +413,10 @@
         "possession": "26:28",
         "fumbles": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 67.75
     }
   },
   {
@@ -394,7 +426,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BGSU",
     "sportsReferenceGameId": "2019-10-05-notre-dame",
@@ -480,6 +516,10 @@
         "possession": "26:40",
         "fumbles": 0
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63.45
     }
   },
   {
@@ -490,7 +530,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "sportsReferenceGameId": "2019-10-12-notre-dame",
@@ -576,7 +620,11 @@
         10
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.88
+    }
   },
   {
     "isHomeGame": false,
@@ -585,7 +633,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "sportsReferenceGameId": "2019-10-26-michigan",
@@ -675,7 +727,11 @@
         21
       ]
     },
-    "result": "L"
+    "result": "L",
+    "weather": {
+      "icon": "rain",
+      "temperature": 50.83
+    }
   },
   {
     "isHomeGame": true,
@@ -684,7 +740,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "VT",
     "highlightsYouTubeVideoId": "K0ZDXoz5i-o",
@@ -770,7 +830,11 @@
         7
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 43.2
+    }
   },
   {
     "isHomeGame": false,
@@ -778,7 +842,11 @@
     "location": {
       "city": "Durham",
       "state": "NC",
-      "stadium": "Wallace Wade Stadium"
+      "stadium": "Wallace Wade Stadium",
+      "coordinates": [
+        35.995208,
+        -78.941782
+      ]
     },
     "opponentId": "DUKE",
     "coverage": "ACCN",
@@ -866,7 +934,11 @@
         0
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 37.17
+    }
   },
   {
     "isHomeGame": true,
@@ -875,7 +947,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "highlightsYouTubeVideoId": "hDUSuGfdImg",
@@ -903,6 +979,10 @@
         "home": "5-0",
         "away": "2-2"
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 34.7
     },
     "espnGameId": 401114338,
     "stats": {
@@ -976,7 +1056,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "sportsReferenceGameId": "2019-11-23-notre-dame",
@@ -1062,7 +1146,11 @@
         7
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 35.2
+    }
   },
   {
     "isHomeGame": false,
@@ -1070,7 +1158,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "sportsReferenceGameId": "2019-11-30-stanford",

@@ -6,7 +6,11 @@
     "location": {
       "city": "Indianapolis",
       "state": "IN",
-      "stadium": "Hoosier Dome"
+      "stadium": "Hoosier Dome",
+      "coordinates": [
+        39.763611,
+        -86.163333
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -63,6 +67,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 81.03
     }
   },
   {
@@ -72,7 +80,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -124,7 +136,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61.05
+    }
   },
   {
     "result": "W",
@@ -133,7 +149,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -185,7 +205,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 80.9
+    }
   },
   {
     "result": "W",
@@ -194,7 +218,11 @@
     "location": {
       "city": "Columbia",
       "state": "MO",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        38.935833,
+        -92.333056
+      ]
     },
     "opponentId": "MIZ",
     "score": {
@@ -252,6 +280,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 54.32
     }
   },
   {
@@ -261,7 +293,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -322,6 +358,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 61.26
     }
   },
   {
@@ -331,7 +371,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -384,7 +428,11 @@
     },
     "time": "12:20 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "fog",
+      "temperature": 62.53
+    }
   },
   {
     "result": "L",
@@ -393,7 +441,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SCAR",
     "score": {
@@ -451,6 +503,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 50.93
     }
   },
   {
@@ -460,7 +516,11 @@
     "location": {
       "city": "Baton Rouge",
       "state": "LA",
-      "stadium": "Tiger Stadium"
+      "stadium": "Tiger Stadium",
+      "coordinates": [
+        30.411887,
+        -91.183795
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -518,6 +578,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 82.84
     }
   },
   {
@@ -527,7 +591,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -580,7 +648,11 @@
     },
     "time": "12:10 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49.92
+    }
   },
   {
     "result": "W",
@@ -589,7 +661,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -642,7 +718,11 @@
     },
     "time": "12:20 PM",
     "coverage": "ESPN",
-    "headCoach": "Gerry Faust"
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 42.41
+    }
   },
   {
     "result": "W",
@@ -651,7 +731,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -709,6 +793,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 55.23
     }
   },
   {
@@ -719,7 +807,11 @@
     "location": {
       "city": "Honolulu",
       "state": "HI",
-      "stadium": "Aloha Stadium"
+      "stadium": "Aloha Stadium",
+      "coordinates": [
+        21.373,
+        -157.93
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -791,6 +883,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.97
     }
   }
 ]

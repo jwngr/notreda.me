@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "nickname": "Eddie Robinson Classic",
     "opponentId": "KU",
@@ -58,13 +62,17 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 85.57
     }
   },
   {
@@ -74,7 +82,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -125,7 +137,7 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -135,6 +147,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 85.16
     }
   },
   {
@@ -144,7 +160,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -195,7 +215,7 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -205,6 +225,10 @@
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "temperature": 87.65,
+      "icon": "unknown"
     }
   },
   {
@@ -214,7 +238,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -265,13 +293,17 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 24
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77.36
     }
   },
   {
@@ -281,7 +313,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -332,13 +368,17 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.07
     }
   },
   {
@@ -348,7 +388,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AZST",
     "score": {
@@ -399,9 +443,13 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 64.54
+    }
   },
   {
     "result": "W",
@@ -410,7 +458,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -461,9 +513,13 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "rain",
+      "temperature": 64.77
+    }
   },
   {
     "result": "W",
@@ -472,7 +528,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -523,9 +583,13 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 73.56
+    }
   },
   {
     "result": "L",
@@ -534,7 +598,11 @@
     "location": {
       "city": "Knoxville",
       "state": "TN",
-      "stadium": "Neyland Stadium"
+      "stadium": "Neyland Stadium",
+      "coordinates": [
+        35.954888,
+        -83.924955
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -585,7 +653,7 @@
       "away": [],
       "home": []
     },
-    "time": "7:30 PM",
+    "time": "7:30 PM",
     "coverage": "ESPN",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -596,6 +664,10 @@
         "ap": 4,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 54.52
     }
   },
   {
@@ -605,7 +677,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -656,9 +732,13 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "CBS",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 52.25
+    }
   },
   {
     "result": "L",
@@ -667,7 +747,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -718,13 +802,17 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
         "ap": 25
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 43.65
     }
   },
   {
@@ -734,7 +822,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -785,8 +877,12 @@
       "away": [],
       "home": []
     },
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.03
+    }
   }
 ]

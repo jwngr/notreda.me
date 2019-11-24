@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -57,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "rain",
+      "temperature": 69.22
+    }
   },
   {
     "result": "L",
@@ -66,7 +74,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -131,7 +143,11 @@
     "location": {
       "city": "Berkeley",
       "state": "CA",
-      "stadium": "California Memorial Stadium"
+      "stadium": "California Memorial Stadium",
+      "coordinates": [
+        37.871111,
+        -122.250833
+      ]
     },
     "opponentId": "CAL",
     "score": {
@@ -182,7 +198,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.03
+    }
   },
   {
     "result": "L",
@@ -191,7 +211,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -242,7 +266,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 44.17
+    }
   },
   {
     "result": "L",
@@ -251,7 +279,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -307,6 +339,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.07
     }
   },
   {
@@ -316,7 +352,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -367,7 +407,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "rain",
+      "temperature": 51.21
+    }
   },
   {
     "result": "L",
@@ -376,7 +420,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -432,6 +480,10 @@
       "away": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 23.16
     }
   },
   {
@@ -441,7 +493,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -492,7 +548,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.65
+    }
   },
   {
     "result": "W",
@@ -501,7 +561,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -566,7 +630,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -622,6 +690,10 @@
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 19.19
     }
   }
 ]

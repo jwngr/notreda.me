@@ -7,7 +7,11 @@
     "location": {
       "city": "Dublin",
       "country": "Ireland",
-      "stadium": "Aviva Stadium"
+      "stadium": "Aviva Stadium",
+      "coordinates": [
+        53.335065,
+        -6.228575
+      ]
     },
     "nickname": "Emerald Isle Classic",
     "opponentId": "NAVY",
@@ -77,7 +81,11 @@
     "sportsReferenceGameId": "2012-09-01-navy",
     "time": "9:00 AM",
     "coverage": "CBS",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.64
+    }
   },
   {
     "result": "W",
@@ -87,7 +95,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -161,6 +173,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.61
     }
   },
   {
@@ -171,7 +187,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -248,6 +268,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54.05
     }
   },
   {
@@ -258,7 +282,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -335,6 +363,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.38
     }
   },
   {
@@ -345,7 +377,11 @@
     "location": {
       "city": "Chicago",
       "state": "IL",
-      "stadium": "Soldier Field"
+      "stadium": "Soldier Field",
+      "coordinates": [
+        41.862105,
+        -87.616721
+      ]
     },
     "opponentId": "MIAMI",
     "isShamrockSeries": true,
@@ -420,6 +456,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 44.95
     }
   },
   {
@@ -430,7 +470,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -510,7 +554,11 @@
         "ap": 17
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "rain",
+      "temperature": 60.88
+    }
   },
   {
     "result": "W",
@@ -520,7 +568,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -595,6 +647,10 @@
         "ap": 5,
         "bcs": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.02
     }
   },
   {
@@ -605,7 +661,11 @@
     "location": {
       "city": "Norman",
       "state": "OK",
-      "stadium": "Oklahoma Memorial Stadium"
+      "stadium": "Oklahoma Memorial Stadium",
+      "coordinates": [
+        35.205196,
+        -97.44276
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -684,6 +744,10 @@
         "ap": 8,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 38.88
     }
   },
   {
@@ -694,7 +758,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -776,7 +844,11 @@
         "bcs": 3
       }
     },
-    "numOvertimes": 3
+    "numOvertimes": 3,
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 40.51
+    }
   },
   {
     "result": "W",
@@ -786,7 +858,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -861,6 +937,10 @@
         "ap": 4,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 35.73
     }
   },
   {
@@ -871,7 +951,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WAKE",
     "score": {
@@ -946,6 +1030,10 @@
         "ap": 3,
         "bcs": 3
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.62
     }
   },
   {
@@ -956,7 +1044,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -1031,6 +1123,10 @@
         "ap": 1,
         "bcs": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.73
     }
   },
   {
@@ -1041,7 +1137,11 @@
     "location": {
       "city": "Miami Gardens",
       "state": "FL",
-      "stadium": "Sun Life Stadium"
+      "stadium": "Sun Life Stadium",
+      "coordinates": [
+        25.957783,
+        -80.238978
+      ]
     },
     "opponentId": "BAMA",
     "score": {
@@ -1121,6 +1221,10 @@
         "ap": 2,
         "bcs": 2
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.17
     }
   }
 ]

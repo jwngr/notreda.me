@@ -3,7 +3,9 @@ import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
 
-import Metadata from '../CompletedGameSummary/Metadata';
+import Coverage from '../Coverage';
+import Location from '../Location';
+import MatchupHistory from '../MatchupHistory';
 
 import {
   TeamName,
@@ -14,10 +16,11 @@ import {
   TeamWrapper,
   TeamNickname,
   TeamsWrapper,
-  MetadataWrapper,
+  StatsWrapper,
   FutureGameWrapper,
   TeamDetailsWrapper,
 } from './index.styles';
+import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 
 const Team = ({team, ranking, record, homeOrAway}) => {
   return (
@@ -108,9 +111,13 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
         }
       </Media>
 
-      <MetadataWrapper>
-        <Metadata game={game} />
-      </MetadataWrapper>
+      <StatsWrapper>
+        <CoverageLocationWrapper>
+          <Coverage game={game} />
+          <Location game={game} />
+        </CoverageLocationWrapper>
+        <MatchupHistory game={game} />
+      </StatsWrapper>
     </FutureGameWrapper>
   );
 };

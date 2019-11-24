@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -57,13 +61,17 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 87.27
     }
   },
   {
@@ -73,7 +81,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -124,7 +136,7 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
@@ -134,6 +146,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 73.84
     }
   },
   {
@@ -143,7 +159,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -194,13 +214,17 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 65.18
     }
   },
   {
@@ -210,7 +234,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -261,13 +289,17 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 63.84,
+      "icon": "unknown"
     }
   },
   {
@@ -277,7 +309,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -328,13 +364,17 @@
       "away": [],
       "home": []
     },
-    "time": "11:00 PM",
+    "time": "11:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 58.92
     }
   },
   {
@@ -344,7 +384,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -395,7 +439,7 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
@@ -405,6 +449,10 @@
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 55.94
     }
   },
   {
@@ -414,7 +462,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -465,13 +517,17 @@
       "away": [],
       "home": []
     },
-    "time": "8:30 PM",
+    "time": "8:30 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 48.97
     }
   },
   {
@@ -481,7 +537,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -532,13 +592,17 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66.39
     }
   },
   {
@@ -548,7 +612,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -599,13 +667,17 @@
       "away": [],
       "home": []
     },
-    "time": "4:00 PM",
+    "time": "4:00 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 24.2
     }
   },
   {
@@ -615,7 +687,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -666,7 +742,7 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
@@ -676,6 +752,10 @@
       "away": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 38.11
     }
   },
   {
@@ -685,7 +765,11 @@
     "location": {
       "city": "University Park",
       "state": "PA",
-      "stadium": "Beaver Stadium"
+      "stadium": "Beaver Stadium",
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -736,7 +820,7 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
@@ -746,6 +830,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 40.41,
+      "icon": "unknown"
     }
   },
   {
@@ -755,7 +843,11 @@
     "location": {
       "city": "Honolulu",
       "state": "HI",
-      "stadium": "Aloha Stadium"
+      "stadium": "Aloha Stadium",
+      "coordinates": [
+        21.373,
+        -157.93
+      ]
     },
     "opponentId": "HAW",
     "score": {
@@ -806,13 +898,17 @@
       "away": [],
       "home": []
     },
-    "time": "11:00 PM",
+    "time": "11:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 75.39
     }
   },
   {
@@ -823,7 +919,11 @@
     "location": {
       "city": "New Orleans",
       "state": "LA",
-      "stadium": "Louisiana Superdome"
+      "stadium": "Louisiana Superdome",
+      "coordinates": [
+        29.950833,
+        -90.081111
+      ]
     },
     "opponentId": "FLA",
     "score": {
@@ -884,7 +984,7 @@
         12
       ]
     },
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "nickname": "Sugar Bowl",
     "headCoach": "Lou Holtz",
@@ -895,6 +995,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.99
     }
   }
 ]

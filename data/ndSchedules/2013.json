@@ -9,7 +9,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TEM",
     "score": {
@@ -81,6 +85,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.4
     }
   },
   {
@@ -92,7 +100,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -167,6 +179,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 69.24
     }
   },
   {
@@ -179,7 +195,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -251,6 +271,10 @@
       "away": {
         "ap": 21
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 53.75
     }
   },
   {
@@ -263,7 +287,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -335,6 +363,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.96
     }
   },
   {
@@ -346,7 +378,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -421,6 +457,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79.02
     }
   },
   {
@@ -433,7 +473,11 @@
     "location": {
       "city": "Arlington",
       "state": "TX",
-      "stadium": "AT&T Stadium"
+      "stadium": "AT&T Stadium",
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "AZST",
     "isShamrockSeries": true,
@@ -506,6 +550,10 @@
       "away": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 52.7
     }
   },
   {
@@ -518,7 +566,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -585,7 +637,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-10-19-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.98
+    }
   },
   {
     "result": "W",
@@ -597,7 +653,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -664,7 +724,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-10-26-air-force",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 52.78
+    }
   },
   {
     "result": "W",
@@ -676,7 +740,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -748,6 +816,10 @@
       "home": {
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.14
     }
   },
   {
@@ -759,7 +831,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -832,6 +908,10 @@
         "ap": 24,
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.87
     }
   },
   {
@@ -844,7 +924,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -911,7 +995,11 @@
       ]
     },
     "sportsReferenceGameId": "2013-11-23-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 22.2
+    }
   },
   {
     "result": "L",
@@ -922,7 +1010,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -999,6 +1091,10 @@
         "ap": 8,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54.29
     }
   },
   {
@@ -1012,7 +1108,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "RUTG",
     "score": {
@@ -1085,6 +1185,10 @@
       "home": {
         "ap": 25
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 53.57
     }
   }
 ]

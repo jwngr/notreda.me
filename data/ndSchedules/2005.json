@@ -6,7 +6,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -73,13 +77,17 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-03-pittsburgh",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 61.11
     }
   },
   {
@@ -89,7 +97,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -156,7 +168,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-10-michigan",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -166,6 +178,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.07
     }
   },
   {
@@ -175,7 +191,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -244,7 +264,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-17-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -252,7 +272,11 @@
         "ap": 10
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73.31
+    }
   },
   {
     "result": "W",
@@ -261,7 +285,11 @@
     "location": {
       "city": "Seattle",
       "state": "WA",
-      "stadium": "Husky Stadium"
+      "stadium": "Husky Stadium",
+      "coordinates": [
+        47.650288,
+        -122.301573
+      ]
     },
     "opponentId": "WASH",
     "score": {
@@ -328,13 +356,17 @@
       ]
     },
     "sportsReferenceGameId": "2005-09-24-washington",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.54
     }
   },
   {
@@ -344,7 +376,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -411,7 +447,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-01-purdue",
-    "time": "7:45 PM",
+    "time": "7:45 PM",
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -421,6 +457,10 @@
       "home": {
         "ap": 22
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 60.98
     }
   },
   {
@@ -430,7 +470,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -497,7 +541,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-15-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -507,6 +551,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.17
     }
   },
   {
@@ -516,7 +564,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -583,7 +635,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-10-22-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -591,6 +643,10 @@
         "ap": 9,
         "bcs": 16
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 50.09
     }
   },
   {
@@ -600,7 +656,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -667,7 +727,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-05-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -675,6 +735,10 @@
         "ap": 8,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 61.54
     }
   },
   {
@@ -684,7 +748,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -751,7 +819,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-12-notre-dame",
-    "time": "1:00 PM",
+    "time": "1:00 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -759,6 +827,10 @@
         "ap": 7,
         "bcs": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 65.77
     }
   },
   {
@@ -768,7 +840,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -835,7 +911,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-19-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -843,6 +919,10 @@
         "ap": 6,
         "bcs": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.66
     }
   },
   {
@@ -852,7 +932,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -919,7 +1003,7 @@
       ]
     },
     "sportsReferenceGameId": "2005-11-26-stanford",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -927,6 +1011,10 @@
         "ap": 6,
         "bcs": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 47.28
     }
   },
   {
@@ -937,7 +1025,11 @@
     "location": {
       "city": "Tempe",
       "state": "AZ",
-      "stadium": "Sun Devil Stadium"
+      "stadium": "Sun Devil Stadium",
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "opponentId": "OSU",
     "score": {
@@ -1004,7 +1096,7 @@
       ]
     },
     "sportsReferenceGameId": "2006-01-02-notre-dame",
-    "time": "4:30 PM",
+    "time": "4:30 PM",
     "coverage": "ABC",
     "nickname": "Fiesta Bowl",
     "headCoach": "Charlie Weis",
@@ -1017,6 +1109,10 @@
         "ap": 4,
         "bcs": 6
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.82
     }
   }
 ]

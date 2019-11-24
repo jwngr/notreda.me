@@ -6,7 +6,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Memorial Stadium, Lincoln"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -58,7 +62,7 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-09-08-nebraska",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -68,6 +72,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 59.14
     }
   },
   {
@@ -77,7 +85,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -129,13 +141,17 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-09-22-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
         "ap": 23
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.86
     }
   },
   {
@@ -145,7 +161,11 @@
     "location": {
       "city": "College Station",
       "state": "TX",
-      "stadium": "Kyle Field"
+      "stadium": "Kyle Field",
+      "coordinates": [
+        30.609883,
+        -96.340544
+      ]
     },
     "opponentId": "TA&M",
     "score": {
@@ -197,9 +217,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-09-29-texas-am",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.11
+    }
   },
   {
     "result": "W",
@@ -208,7 +232,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -260,9 +288,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-10-06-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 48.03
+    }
   },
   {
     "result": "W",
@@ -271,7 +303,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WVU",
     "score": {
@@ -323,9 +359,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-10-13-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "rain",
+      "temperature": 68.54
+    }
   },
   {
     "result": "W",
@@ -334,7 +374,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -386,9 +430,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-10-20-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 67.33
+    }
   },
   {
     "result": "L",
@@ -397,7 +445,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -449,9 +501,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-10-27-boston-college",
-    "time": "7:30 PM",
+    "time": "7:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45.86
+    }
   },
   {
     "result": "L",
@@ -460,7 +516,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -512,7 +572,7 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-11-03-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -520,6 +580,10 @@
         "ap": 7,
         "bcs": 4
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 59.68
     }
   },
   {
@@ -529,7 +593,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -581,9 +649,13 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-11-17-notre-dame",
-    "time": "1:00 PM",
+    "time": "1:00 PM",
     "coverage": "NBC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 51.4
+    }
   },
   {
     "result": "L",
@@ -592,7 +664,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -644,7 +720,7 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-11-24-stanford",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
     "rankings": {
@@ -652,6 +728,10 @@
         "ap": 13,
         "bcs": 10
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 48.03
     }
   },
   {
@@ -661,7 +741,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -713,8 +797,12 @@
       "home": []
     },
     "sportsReferenceGameId": "2001-12-01-purdue",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Bob Davie"
+    "headCoach": "Bob Davie",
+    "weather": {
+      "temperature": 40.69,
+      "icon": "unknown"
+    }
   }
 ]

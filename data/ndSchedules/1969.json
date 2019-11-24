@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -57,12 +61,16 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.22
     }
   },
   {
@@ -72,7 +80,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -123,7 +135,7 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
@@ -141,7 +153,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -192,12 +208,16 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.21
     }
   },
   {
@@ -207,7 +227,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -258,12 +282,16 @@
       "away": [],
       "home": []
     },
-    "time": "2:00 pm",
+    "time": "2:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.94
     }
   },
   {
@@ -273,7 +301,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -324,7 +356,7 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
@@ -333,6 +365,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52.13
     }
   },
   {
@@ -342,7 +378,11 @@
     "location": {
       "city": "New Orleans",
       "state": "LA",
-      "stadium": "Tulane Stadium"
+      "stadium": "Tulane Stadium",
+      "coordinates": [
+        29.942778,
+        -90.1175
+      ]
     },
     "opponentId": "TULN",
     "score": {
@@ -393,12 +433,16 @@
       "away": [],
       "home": []
     },
-    "time": "8:30 pm",
+    "time": "8:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 66.69
     }
   },
   {
@@ -408,7 +452,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -459,12 +507,16 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 49.07
     }
   },
   {
@@ -474,7 +526,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -525,12 +581,16 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 48.63
     }
   },
   {
@@ -540,7 +600,11 @@
     "location": {
       "city": "Atlanta",
       "state": "GA",
-      "stadium": "Grant Field"
+      "stadium": "Grant Field",
+      "coordinates": [
+        33.772356,
+        -84.392881
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -591,13 +655,17 @@
       "away": [],
       "home": []
     },
-    "time": "9:30 pm",
+    "time": "9:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 29.18
     }
   },
   {
@@ -607,7 +675,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -658,12 +730,16 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 pm",
+    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 48.16
     }
   },
   {
@@ -674,7 +750,11 @@
     "location": {
       "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -735,7 +815,7 @@
         7
       ]
     },
-    "time": "2:00 pm",
+    "time": "2:00 PM",
     "coverage": "CBS",
     "nickname": "Cotton Bowl",
     "headCoach": "Ara Parseghian",
@@ -746,6 +826,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "temperature": 56.09,
+      "icon": "unknown"
     }
   }
 ]

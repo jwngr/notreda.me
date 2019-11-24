@@ -6,7 +6,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -67,6 +71,10 @@
       "home": {
         "ap": 7
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.14
     }
   },
   {
@@ -76,7 +84,11 @@
     "location": {
       "city": "Jackson",
       "state": "MS",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        32.329639,
+        -90.179778
+      ]
     },
     "opponentId": "MISS",
     "score": {
@@ -133,6 +145,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 86.86
     }
   },
   {
@@ -142,7 +158,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -199,6 +219,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "temperature": 74.83,
+      "icon": "unknown"
     }
   },
   {
@@ -208,7 +232,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -265,6 +293,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.73
     }
   },
   {
@@ -274,7 +306,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -331,6 +367,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 58.92
     }
   },
   {
@@ -340,7 +380,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -401,6 +445,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 62.19
     }
   },
   {
@@ -410,7 +458,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -467,6 +519,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 53.54
     }
   },
   {
@@ -476,7 +532,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -533,6 +593,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66.3
     }
   },
   {
@@ -542,7 +606,11 @@
     "location": {
       "city": "Clemson",
       "state": "SC",
-      "stadium": "Memorial Stadium"
+      "stadium": "Clemson Memorial Stadium",
+      "coordinates": [
+        34.678611,
+        -82.843056
+      ]
     },
     "opponentId": "CLEM",
     "score": {
@@ -602,6 +670,10 @@
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "temperature": 54.65,
+      "icon": "unknown"
     }
   },
   {
@@ -611,7 +683,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -668,6 +744,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 41.07
     }
   },
   {
@@ -677,7 +757,11 @@
     "location": {
       "city": "Miami",
       "state": "FL",
-      "stadium": "Miami Orange Bowl"
+      "stadium": "Orange Bowl",
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -734,6 +818,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 73.14
     }
   },
   {
@@ -744,7 +832,11 @@
     "location": {
       "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -816,6 +908,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 41.13
     }
   }
 ]

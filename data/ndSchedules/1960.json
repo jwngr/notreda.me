@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "CAL",
     "score": {
@@ -57,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 65.07
+    }
   },
   {
     "result": "L",
@@ -66,7 +74,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -122,6 +134,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 39.15
     }
   },
   {
@@ -131,7 +147,11 @@
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
-      "stadium": "Kenan Memorial Stadium"
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -182,7 +202,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.98
+    }
   },
   {
     "result": "L",
@@ -191,7 +215,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -247,6 +275,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 61.12
     }
   },
   {
@@ -256,7 +288,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Dyche Stadium"
+      "stadium": "Dyche Stadium",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -308,7 +344,11 @@
       "home": []
     },
     "coverage": "ABC",
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 40.13
+    }
   },
   {
     "result": "L",
@@ -317,7 +357,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "Municipal Stadium"
+      "stadium": "Philadelphia Municipal Stadium",
+      "coordinates": [
+        39.9014,
+        -75.1719
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -373,6 +417,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 46.23
     }
   },
   {
@@ -382,7 +430,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -438,6 +490,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 41.14
     }
   },
   {
@@ -447,7 +503,11 @@
     "location": {
       "city": "Miami",
       "state": "FL",
-      "stadium": "Miami Orange Bowl"
+      "stadium": "Orange Bowl",
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -498,7 +558,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72.49
+    }
   },
   {
     "result": "L",
@@ -507,7 +571,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -563,6 +631,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 40.06
     }
   },
   {
@@ -572,7 +644,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -623,6 +699,10 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Joe Kuharich"
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54.51
+    }
   }
 ]

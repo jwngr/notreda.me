@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "VIA",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "ADRN",
     "score": {
@@ -126,7 +134,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MORR",
     "score": {
@@ -186,7 +198,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "WAB",
     "score": {
@@ -246,7 +262,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Forbes Field"
+      "stadium": "Forbes Field",
+      "coordinates": [
+        40.44118,
+        -79.95255
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -305,7 +325,11 @@
     "date": "11/09/1912",
     "location": {
       "city": "St. Louis",
-      "state": "MO"
+      "state": "MO",
+      "coordinates": [
+        38.63028,
+        -90.20031
+      ]
     },
     "opponentId": "SLU",
     "score": {
@@ -365,7 +389,11 @@
     "location": {
       "city": "Chicago",
       "state": "IL",
-      "stadium": "Comiskey Park"
+      "stadium": "Comiskey Park",
+      "coordinates": [
+        41.832,
+        -87.634
+      ]
     },
     "opponentId": "MARQ",
     "score": {

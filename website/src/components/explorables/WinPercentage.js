@@ -38,7 +38,7 @@ class WinPercentage extends Component {
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage;
 
-      _.forEach(schedule[year], ({result, opponentId, date, timestamp}) => {
+      _.forEach(schedule[year], ({result, opponentId, date}) => {
         // Exclude future games
         if (result) {
           let gameClassName;
@@ -60,7 +60,7 @@ class WinPercentage extends Component {
             ((winCount + tieCount / 2) / (winCount + lossCount + tieCount)) * 100;
           lastGameOfYearWinPercentage = winPercentage;
 
-          const dateObj = new Date(timestamp || date);
+          const dateObj = new Date(date);
 
           ndWinPercentageByGame.push({
             x: dateObj,
@@ -201,8 +201,6 @@ class WinPercentage extends Component {
           ),
         });
       });
-
-      console.log(yearData);
 
       return {
         id: teamName,

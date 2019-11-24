@@ -1,12 +1,37 @@
+const _ = require('lodash');
+
+const utils = require('../lib/utils');
 const logger = require('../lib/logger');
-const openWeatherMap = require('../lib/openWeatherMap');
+const weather = require('../lib/weather');
+const ndSchedules = require('../lib/ndSchedules');
 
-logger.info('Updating weather for upcoming game...');
+const currentSeasonSchedule = ndSchedules.getForCurrentSeason();
 
-const CITY_ID = 235123;
-return openWeatherMap.fetchForecastByCityId(CITY_ID).then((forecast) => {
-  console.log('FORECAST:', JSON.stringify(forecast));
-  logger.success('Updated weather for upcoming game!');
-}).catch((error) => {
-  logger.error(`Failed to update weather for upcoming game: ${error.message}`)
-});
+const nextUpcomingCurrentSeasonGame = _.find(
+  currentSeasonSchedule,
+  ({result}) => typeof result === 'undefined'
+);
+
+if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {
+  logger.warning('Not fetching weather since current season is over.');
+  process.exit(-1);
+}
+
+const gameInfoString = `${ndSchedules.CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
+logger.info(`Fetching weather for ${gameInfoString}...`);
+
+return weather
+  .fetchForGame(
+    nextUpcomingCurrentSeasonGame.location.coordinates,
+    utils.getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame)
+  )
+  .then((weather) => {
+    nextUpcomingCurrentSeasonGame.weather = weather;
+
+    ndSchedules.updateForCurrentSeason(currentSeasonSchedule);
+
+    logger.success(`Updated weather for ${gameInfoString}!`);
+  })
+  .catch((error) => {
+    logger.error(`Failed to update weather for upcoming game: ${error.message}`);
+  });

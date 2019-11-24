@@ -64,13 +64,9 @@ const Game = ({game, year, index, isSelected}) => {
         </ScoreTotals>
       </Score>
     );
-  } else if ('timestamp' in game || 'fullDate' in game) {
-    let time;
-    if ('fullDate' in game) {
-      time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm a');
-    } else {
-      time = 'timestamp' in game ? format(game.timestamp, 'h:mm a') : 'TBD';
-    }
+  } else if ('fullDate' in game) {
+    // TODO(cleanup): remove isTimeTbd logic.
+    const time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm a');
 
     lastColumnContent = (
       <TelevisionCoverage>
@@ -103,7 +99,7 @@ const Game = ({game, year, index, isSelected}) => {
   } else if (game.date === 'TBD') {
     date = 'TBD';
   } else {
-    date = new Date(game.timestamp || game.date);
+    date = new Date(game.date);
   }
 
   // Format the date, making sure to add the year for games which happen in early January for

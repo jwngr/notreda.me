@@ -8,7 +8,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "RICE",
     "score": {
@@ -80,6 +84,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 75.95
     }
   },
   {
@@ -91,7 +99,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -163,6 +175,10 @@
       "home": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56.73
     }
   },
   {
@@ -174,7 +190,11 @@
     "location": {
       "city": "Indianapolis",
       "state": "IN",
-      "stadium": "Lucas Oil Stadium"
+      "stadium": "Lucas Oil Stadium",
+      "coordinates": [
+        39.759515,
+        -86.16259
+      ]
     },
     "opponentId": "PUR",
     "isShamrockSeries": true,
@@ -247,6 +267,10 @@
       "home": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.16
     }
   },
   {
@@ -258,7 +282,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "MetLife Stadium"
+      "stadium": "MetLife Stadium",
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -330,6 +358,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 65.11
     }
   },
   {
@@ -341,7 +373,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -416,6 +452,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 43.62
     }
   },
   {
@@ -427,7 +467,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -499,6 +543,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 56.63
     }
   },
   {
@@ -510,7 +558,11 @@
     "location": {
       "city": "Tallahassee",
       "state": "FL",
-      "stadium": "Doak Campbell Stadium"
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -585,6 +637,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.41
     }
   },
   {
@@ -596,7 +652,11 @@
     "location": {
       "city": "Landover",
       "state": "MD",
-      "stadium": "FedEx Field"
+      "stadium": "FedEx Field",
+      "coordinates": [
+        38.907543,
+        -76.864631
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -669,6 +729,10 @@
         "ap": 6,
         "cfbPlayoff": 10
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 46.02
     }
   },
   {
@@ -680,7 +744,11 @@
     "location": {
       "city": "Tempe",
       "state": "AZ",
-      "stadium": "Sun Devil Stadium"
+      "stadium": "Sun Devil Stadium",
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "opponentId": "AZST",
     "score": {
@@ -757,6 +825,10 @@
         "ap": 11,
         "cfbPlayoff": 9
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 87.81
     }
   },
   {
@@ -768,7 +840,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -844,7 +920,11 @@
         "cfbPlayoff": 18
       }
     },
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 28.45
+    }
   },
   {
     "result": "L",
@@ -855,7 +935,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "LOU",
     "score": {
@@ -927,6 +1011,10 @@
       "away": {
         "cfbPlayoff": 24
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 47.36
     }
   },
   {
@@ -938,7 +1026,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -1005,7 +1097,11 @@
       ]
     },
     "sportsReferenceGameId": "2014-11-29-southern-california",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 70.33
+    }
   },
   {
     "result": "W",
@@ -1017,7 +1113,11 @@
     "location": {
       "city": "Nashville",
       "state": "TN",
-      "stadium": "LP Field"
+      "stadium": "LP Field",
+      "coordinates": [
+        36.166349,
+        -86.771429
+      ]
     },
     "nickname": "Music City Bowl",
     "opponentId": "LSU",
@@ -1091,6 +1191,10 @@
         "ap": 22,
         "cfbPlayoff": 23
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 37.46
     }
   }
 ]

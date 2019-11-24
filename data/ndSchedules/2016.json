@@ -7,7 +7,11 @@
     "location": {
       "city": "Austin",
       "state": "TX",
-      "stadium": "Darrell K. Royal-Texas Memorial Stadium"
+      "stadium": "Darrell K Royal - Texas Memorial Stadium",
+      "coordinates": [
+        30.282861,
+        -97.733119
+      ]
     },
     "highlightsYouTubeVideoId": "dI7kwB9nkA8",
     "coverage": "ABC",
@@ -87,7 +91,11 @@
         "coaches": 9
       }
     },
-    "numOvertimes": 2
+    "numOvertimes": 2,
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 78.89
+    }
   },
   {
     "result": "W",
@@ -98,7 +106,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "sIiAHnJLA64",
     "stats": {
@@ -172,6 +184,10 @@
         "ap": 18,
         "coaches": 21
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 69.32
     }
   },
   {
@@ -183,7 +199,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "fBzyUGBtd2g",
     "stats": {
@@ -261,6 +281,10 @@
         "ap": 12,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.49
     }
   },
   {
@@ -272,7 +296,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "L9wdmpy96ow",
     "stats": {
@@ -340,7 +368,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-09-24-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 74.49
+    }
   },
   {
     "result": "W",
@@ -351,7 +383,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "MetLife Stadium"
+      "stadium": "MetLife Stadium",
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "highlightsYouTubeVideoId": "xXv8G3util0",
     "stats": {
@@ -419,7 +455,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-01-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61.59
+    }
   },
   {
     "result": "L",
@@ -430,7 +470,11 @@
     "location": {
       "city": "Raleigh",
       "state": "NC",
-      "stadium": "Carter-Finley Stadium"
+      "stadium": "Carter-Finley Stadium",
+      "coordinates": [
+        35.800652,
+        -78.719587
+      ]
     },
     "highlightsYouTubeVideoId": "9JOynLpcfmk",
     "stats": {
@@ -498,7 +542,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-08-north-carolina-state",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "rain",
+      "temperature": 65.74
+    }
   },
   {
     "result": "L",
@@ -509,7 +557,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "hFQSF6C73ag",
     "stats": {
@@ -577,7 +629,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-15-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 67.8
+    }
   },
   {
     "result": "W",
@@ -588,7 +644,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "rzBDqtam9-M",
     "stats": {
@@ -656,7 +716,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-10-29-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 67.92
+    }
   },
   {
     "result": "L",
@@ -667,7 +731,11 @@
     "location": {
       "city": "Jacksonville",
       "state": "FL",
-      "stadium": "EverBank Field"
+      "stadium": "EverBank Field",
+      "coordinates": [
+        30.323972,
+        -81.637665
+      ]
     },
     "highlightsYouTubeVideoId": "2oadiICk5_g",
     "stats": {
@@ -735,7 +803,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-05-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 72.13
+    }
   },
   {
     "result": "W",
@@ -746,7 +818,11 @@
     "location": {
       "city": "San Antonio",
       "state": "TX",
-      "stadium": "Alamodome"
+      "stadium": "Alamodome",
+      "coordinates": [
+        29.416815,
+        -98.478932
+      ]
     },
     "highlightsYouTubeVideoId": "C-0obKBeMOI",
     "stats": {
@@ -815,7 +891,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-12-army",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 70.69
+    }
   },
   {
     "result": "L",
@@ -826,7 +906,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "C49gMiZ4IHM",
     "stats": {
@@ -894,7 +978,11 @@
       ]
     },
     "sportsReferenceGameId": "2016-11-19-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 36.41
+    }
   },
   {
     "result": "L",
@@ -905,7 +993,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "highlightsYouTubeVideoId": "DkYS8FYjJ2s",
     "stats": {
@@ -980,6 +1072,10 @@
         "coaches": 12,
         "cfbPlayoff": 12
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53.52
     }
   }
 ]

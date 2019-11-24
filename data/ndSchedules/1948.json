@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -57,7 +61,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 46.19
+    }
   },
   {
     "result": "W",
@@ -66,7 +74,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -117,7 +129,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 58.77
+    }
   },
   {
     "result": "W",
@@ -126,7 +142,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -182,6 +202,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46.19
     }
   },
   {
@@ -191,7 +215,11 @@
     "location": {
       "city": "Lincoln",
       "state": "NE",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -247,6 +275,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 47.07,
+      "icon": "unknown"
     }
   },
   {
@@ -256,7 +288,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -321,7 +357,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.330024,
+        -76.601532
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -377,6 +417,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 50.68
     }
   },
   {
@@ -386,7 +430,11 @@
     "location": {
       "city": "Bloomington",
       "state": "IN",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.180835,
+        -86.525633
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -451,7 +499,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -510,6 +562,10 @@
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 41.14
     }
   },
   {
@@ -519,7 +575,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WASH",
     "score": {
@@ -575,6 +635,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 30.15
     }
   },
   {
@@ -584,7 +648,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -640,6 +708,10 @@
       "away": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.72
     }
   }
 ]

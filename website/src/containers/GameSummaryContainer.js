@@ -6,9 +6,13 @@ import GameSummary from '../components/gameSummary/GameSummary';
 import teams from '../resources/teams';
 import schedule from '../resources/schedule';
 
-const mapStateToProps = (state) => {
-  const games = schedule[state.selectedYear];
-  const game = _.clone(games[state.selectedGameIndex]);
+const mapStateToProps = ({selectedYear, selectedGameIndex}) => {
+  const games = schedule[selectedYear];
+  const game = _.clone(games[selectedGameIndex]);
+
+  game.season = Number(selectedYear);
+
+  game.weekIndex = Number(selectedGameIndex);
 
   game.opponent = teams[game.opponentId];
   game.opponent.abbreviation = game.opponentId;

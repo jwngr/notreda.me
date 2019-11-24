@@ -6,7 +6,11 @@
     "location": {
       "city": "Norman",
       "state": "OK",
-      "stadium": "Oklahoma Memorial Stadium"
+      "stadium": "Oklahoma Memorial Stadium",
+      "coordinates": [
+        35.205196,
+        -97.44276
+      ]
     },
     "opponentId": "OKLA",
     "score": {
@@ -65,6 +69,10 @@
       "home": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 71.99
     }
   },
   {
@@ -74,7 +82,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -139,7 +151,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -198,6 +214,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.09
     }
   },
   {
@@ -207,7 +227,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -266,6 +290,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 49.1
     }
   },
   {
@@ -275,7 +303,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -334,6 +366,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 44.22
     }
   },
   {
@@ -343,7 +379,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "Franklin Field"
+      "stadium": "Franklin Field",
+      "coordinates": [
+        39.950122,
+        -75.190006
+      ]
     },
     "opponentId": "PENN",
     "score": {
@@ -399,6 +439,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "snow",
+      "temperature": 30.86
     }
   },
   {
@@ -408,7 +452,11 @@
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
-      "stadium": "Kenan Memorial Stadium"
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -464,6 +512,10 @@
       "away": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 35.89
     }
   },
   {
@@ -473,7 +525,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -532,6 +588,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 39.32
     }
   },
   {
@@ -541,7 +601,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -600,6 +664,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 55.01
     }
   },
   {
@@ -609,7 +677,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -665,6 +737,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 31.12
     }
   }
 ]

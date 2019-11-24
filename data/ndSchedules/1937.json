@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "DRKE",
     "score": {
@@ -66,7 +70,11 @@
     "location": {
       "city": "Champaign",
       "state": "IL",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        40.099167,
+        -88.235833
+      ]
     },
     "opponentId": "ILL",
     "score": {
@@ -117,7 +125,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Elmer Layden"
+    "headCoach": "Elmer Layden",
+    "weather": {
+      "temperature": 46.44,
+      "icon": "unknown"
+    }
   },
   {
     "result": "L",
@@ -125,7 +137,11 @@
     "date": "10/16/1937",
     "location": {
       "city": "Pittsburgh",
-      "state": "PA"
+      "state": "PA",
+      "coordinates": [
+        40.438739,
+        -80.00268
+      ]
     },
     "opponentId": "CAR",
     "score": {
@@ -185,7 +201,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -245,7 +265,11 @@
     "location": {
       "city": "Minneapolis",
       "state": "MN",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        44.975535,
+        -93.229192
+      ]
     },
     "opponentId": "MINN",
     "score": {
@@ -310,7 +334,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -378,7 +406,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -434,6 +466,10 @@
       "home": {
         "ap": 18
       }
+    },
+    "weather": {
+      "temperature": 52.62,
+      "icon": "unknown"
     }
   },
   {
@@ -443,7 +479,11 @@
     "location": {
       "city": "Evanston",
       "state": "IL",
-      "stadium": "Dyche Stadium"
+      "stadium": "Dyche Stadium",
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -508,7 +548,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {

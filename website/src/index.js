@@ -13,10 +13,12 @@ import theme from './resources/theme.json';
 import {unregister} from './registerServiceWorker';
 
 import './index.css';
+import './weather-icons.min.css';
 
 // Load fonts
 require('typeface-bungee');
 
+// TODO: migrate to React.lazy().
 const AsyncFootballScheduleScreen = Loadable({
   loader: () => import('./screens/FootballScheduleScreen/container'),
   loading: () => null,

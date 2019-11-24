@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -75,7 +79,11 @@
     "sportsReferenceGameId": "2010-09-04-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 63.5
+    }
   },
   {
     "result": "L",
@@ -84,7 +92,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -153,7 +165,11 @@
     "sportsReferenceGameId": "2010-09-11-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.36
+    }
   },
   {
     "result": "L",
@@ -162,7 +178,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -234,7 +254,11 @@
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
-    "numOvertimes": 1
+    "numOvertimes": 1,
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.05
+    }
   },
   {
     "result": "L",
@@ -243,7 +267,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -317,6 +345,10 @@
       "away": {
         "ap": 16
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54.76
     }
   },
   {
@@ -326,7 +358,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -395,7 +431,11 @@
     "sportsReferenceGameId": "2010-10-02-boston-college",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.81
+    }
   },
   {
     "result": "W",
@@ -404,7 +444,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -473,7 +517,11 @@
     "sportsReferenceGameId": "2010-10-09-notre-dame",
     "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 81.91
+    }
   },
   {
     "result": "W",
@@ -482,7 +530,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WMU",
     "score": {
@@ -551,7 +603,11 @@
     "sportsReferenceGameId": "2010-10-16-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 66.46
+    }
   },
   {
     "result": "L",
@@ -560,7 +616,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "New Meadowlands Stadium"
+      "stadium": "New Meadowlands Stadium",
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -629,7 +689,11 @@
     "sportsReferenceGameId": "2010-10-23-navy",
     "time": "12:00 PM",
     "coverage": "CBS",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 63.98
+    }
   },
   {
     "result": "L",
@@ -638,7 +702,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TULSA",
     "score": {
@@ -707,7 +775,11 @@
     "sportsReferenceGameId": "2010-10-30-notre-dame",
     "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 60.05
+    }
   },
   {
     "result": "W",
@@ -716,7 +788,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UTAH",
     "score": {
@@ -791,6 +867,10 @@
         "ap": 15,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53.94
     }
   },
   {
@@ -800,7 +880,11 @@
     "location": {
       "city": "Bronx",
       "state": "NY",
-      "stadium": "Yankee Stadium"
+      "stadium": "Yankee Stadium",
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "isShamrockSeries": true,
@@ -870,7 +954,11 @@
     "sportsReferenceGameId": "2010-11-20-army",
     "time": "7:00 PM",
     "coverage": "NBC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 47.35
+    }
   },
   {
     "result": "W",
@@ -879,7 +967,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -948,7 +1040,11 @@
     "sportsReferenceGameId": "2010-11-27-southern-california",
     "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "rain",
+      "temperature": 52.64
+    }
   },
   {
     "result": "W",
@@ -958,7 +1054,11 @@
     "location": {
       "city": "El Paso",
       "state": "TX",
-      "stadium": "Sun Bowl Stadium"
+      "stadium": "Sun Bowl Stadium",
+      "coordinates": [
+        31.773168,
+        -106.507983
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -1028,6 +1128,10 @@
     "time": "2:00 PM",
     "coverage": "CBS",
     "nickname": "Sun Bowl",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 33.92
+    }
   }
 ]

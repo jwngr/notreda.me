@@ -5,7 +5,11 @@
     "location": {
       "city": "Tuscaloosa",
       "state": "AL",
-      "stadium": "Bryant–Denny Stadium"
+      "stadium": "Bryant–Denny Stadium",
+      "coordinates": [
+        33.207665,
+        -87.55048
+      ]
     },
     "opponentId": "BAMA"
   },
@@ -15,7 +19,11 @@
     "location": {
       "city": "Raleigh",
       "state": "NC",
-      "stadium": "Carter-Finley Stadium"
+      "stadium": "Carter-Finley Stadium",
+      "coordinates": [
+        35.800652,
+        -78.719587
+      ]
     },
     "opponentId": "NCST"
   },
@@ -25,7 +33,11 @@
     "location": {
       "city": "Tallahassee",
       "state": "FL",
-      "stadium": "Doak Campbell Stadium"
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU"
   },
@@ -35,7 +47,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT"
   },
@@ -45,7 +61,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WAKE"
   },
@@ -55,7 +75,11 @@
     "location": {
       "city": "Syracuse",
       "state": "NY",
-      "stadium": "Carrier Dome"
+      "stadium": "Carrier Dome",
+      "coordinates": [
+        43.036062,
+        -76.136434
+      ]
     },
     "opponentId": "SYR"
   }

@@ -6,7 +6,11 @@
     "location": {
       "city": "Chicago",
       "state": "IL",
-      "stadium": "Soldier Field"
+      "stadium": "Soldier Field",
+      "coordinates": [
+        41.862105,
+        -87.616721
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -57,13 +61,17 @@
       "away": [],
       "home": []
     },
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 59.24
     }
   },
   {
@@ -73,7 +81,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -124,7 +136,7 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
@@ -134,6 +146,10 @@
       "away": {
         "ap": 6
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 78.67
     }
   },
   {
@@ -143,7 +159,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -194,13 +214,17 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.83
     }
   },
   {
@@ -210,7 +234,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -261,13 +289,17 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 64.55
     }
   },
   {
@@ -277,7 +309,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -328,13 +364,17 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 60.74
     }
   },
   {
@@ -344,7 +384,11 @@
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
-      "stadium": "Alumni Stadium"
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -395,13 +439,17 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73.37
     }
   },
   {
@@ -411,7 +459,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -462,13 +514,17 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 68.88
     }
   },
   {
@@ -478,7 +534,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -529,9 +589,13 @@
       "away": [],
       "home": []
     },
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 63.56
+    }
   },
   {
     "result": "L",
@@ -540,7 +604,11 @@
     "location": {
       "city": "Orlando",
       "state": "FL",
-      "stadium": "Citrus Bowl"
+      "stadium": "Florida Citrus Bowl",
+      "coordinates": [
+        28.539074,
+        -81.404028
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -591,13 +659,17 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 80.92
     }
   },
   {
@@ -607,7 +679,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -658,9 +734,13 @@
       "away": [],
       "home": []
     },
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 48.67
+    }
   },
   {
     "result": "T",
@@ -669,7 +749,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -720,13 +804,17 @@
       "away": [],
       "home": []
     },
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.24
     }
   },
   {
@@ -737,7 +825,11 @@
     "location": {
       "city": "Tempe",
       "state": "AZ",
-      "stadium": "Sun Devil Stadium"
+      "stadium": "Sun Devil Stadium",
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -798,7 +890,7 @@
         7
       ]
     },
-    "time": "4:30 PM",
+    "time": "4:30 PM",
     "coverage": "NBC",
     "nickname": "Fiesta Bowl",
     "headCoach": "Lou Holtz",
@@ -809,6 +901,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59.75
     }
   }
 ]

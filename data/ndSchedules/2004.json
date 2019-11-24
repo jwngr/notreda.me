@@ -6,7 +6,11 @@
     "location": {
       "city": "Provo",
       "state": "UT",
-      "stadium": "LaVell Edwards Stadium"
+      "stadium": "LaVell Edwards Stadium",
+      "coordinates": [
+        40.257211,
+        -111.654612
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -73,9 +77,13 @@
       ]
     },
     "sportsReferenceGameId": "2004-09-04-brigham-young",
-    "time": "9:15 PM",
+    "time": "9:15 PM",
     "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 49.97
+    }
   },
   {
     "result": "W",
@@ -84,7 +92,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -151,13 +163,17 @@
       ]
     },
     "sportsReferenceGameId": "2004-09-11-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.27
     }
   },
   {
@@ -167,7 +183,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -234,9 +254,13 @@
       ]
     },
     "sportsReferenceGameId": "2004-09-18-michigan-state",
-    "time": "7:00 PM",
+    "time": "7:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 58.18
+    }
   },
   {
     "result": "W",
@@ -245,7 +269,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "WASH",
     "score": {
@@ -312,9 +340,13 @@
       ]
     },
     "sportsReferenceGameId": "2004-09-25-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.71
+    }
   },
   {
     "result": "L",
@@ -323,7 +355,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -390,13 +426,17 @@
       ]
     },
     "sportsReferenceGameId": "2004-10-02-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 55.86
     }
   },
   {
@@ -406,7 +446,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -473,9 +517,13 @@
       ]
     },
     "sportsReferenceGameId": "2004-10-09-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Tyrone Willingham"
+    "headCoach": "Tyrone Willingham",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.86
+    }
   },
   {
     "result": "W",
@@ -484,7 +532,11 @@
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
-      "stadium": "Giants Stadium"
+      "stadium": "Giants Stadium",
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -551,13 +603,17 @@
       ]
     },
     "sportsReferenceGameId": "2004-10-16-navy",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 59.9
     }
   },
   {
@@ -567,7 +623,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -634,7 +694,7 @@
       ]
     },
     "sportsReferenceGameId": "2004-10-23-notre-dame",
-    "time": "1:30 PM",
+    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -642,6 +702,10 @@
         "ap": 24,
         "bcs": 23
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 65.49
     }
   },
   {
@@ -651,7 +715,11 @@
     "location": {
       "city": "Knoxville",
       "state": "TN",
-      "stadium": "Neyland Stadium"
+      "stadium": "Neyland Stadium",
+      "coordinates": [
+        35.954888,
+        -83.924955
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -718,7 +786,7 @@
       ]
     },
     "sportsReferenceGameId": "2004-11-06-tennessee",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -729,6 +797,10 @@
       "away": {
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 58.38
     }
   },
   {
@@ -738,7 +810,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -805,7 +881,7 @@
       ]
     },
     "sportsReferenceGameId": "2004-11-13-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -813,6 +889,10 @@
         "ap": 24,
         "bcs": 25
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 42.83
     }
   },
   {
@@ -822,7 +902,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -889,7 +973,7 @@
       ]
     },
     "sportsReferenceGameId": "2004-11-27-southern-california",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Tyrone Willingham",
     "rankings": {
@@ -897,6 +981,10 @@
         "ap": 1,
         "bcs": 1
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 55.97
     }
   },
   {
@@ -907,7 +995,11 @@
     "location": {
       "city": "Phoenix",
       "state": "AZ",
-      "stadium": "Bank One Ballpark"
+      "stadium": "Bank One Ballpark",
+      "coordinates": [
+        33.445268,
+        -112.066143
+      ]
     },
     "opponentId": "ORST",
     "score": {
@@ -974,9 +1066,13 @@
       ]
     },
     "sportsReferenceGameId": "2004-12-28-notre-dame",
-    "time": "9:45 PM",
+    "time": "9:45 PM",
     "coverage": "ESPN",
     "nickname": "Insight Bowl",
-    "headCoach": "Kent Baer"
+    "headCoach": "Kent Baer",
+    "weather": {
+      "icon": "rain",
+      "temperature": 57.26
+    }
   }
 ]

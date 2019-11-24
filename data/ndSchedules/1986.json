@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -64,6 +68,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.42
     }
   },
   {
@@ -73,7 +81,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -131,6 +143,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 65.55
     }
   },
   {
@@ -140,7 +156,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -193,7 +213,11 @@
     },
     "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82.01
+    }
   },
   {
     "result": "L",
@@ -202,7 +226,11 @@
     "location": {
       "city": "Birmingham",
       "state": "AL",
-      "stadium": "Legion Field"
+      "stadium": "Legion Field",
+      "coordinates": [
+        33.5114,
+        -86.842774
+      ]
     },
     "opponentId": "BAMA",
     "score": {
@@ -260,6 +288,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "temperature": 87.14,
+      "icon": "unknown"
     }
   },
   {
@@ -269,7 +301,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -320,9 +356,13 @@
       "away": [],
       "home": []
     },
-    "time": "12:30 PM",
+    "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 66.97
+    }
   },
   {
     "result": "W",
@@ -331,7 +371,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -382,9 +426,13 @@
       "away": [],
       "home": []
     },
-    "time": "12:30 PM",
+    "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 58.23
+    }
   },
   {
     "result": "W",
@@ -393,7 +441,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.330024,
+        -76.601532
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -446,7 +498,11 @@
     },
     "time": "7:00 PM",
     "coverage": "TBS",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.15
+    }
   },
   {
     "result": "W",
@@ -455,7 +511,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -507,7 +567,11 @@
       "home": []
     },
     "time": "1:00 PM",
-    "headCoach": "Lou Holtz"
+    "headCoach": "Lou Holtz",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57.82
+    }
   },
   {
     "result": "L",
@@ -516,7 +580,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -574,6 +642,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 34.2
     }
   },
   {
@@ -583,7 +655,11 @@
     "location": {
       "city": "Baton Rouge",
       "state": "LA",
-      "stadium": "Tiger Stadium"
+      "stadium": "Tiger Stadium",
+      "coordinates": [
+        30.411887,
+        -91.183795
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -641,6 +717,10 @@
       "home": {
         "ap": 8
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 69.23
     }
   },
   {
@@ -650,7 +730,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -708,6 +792,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 64.56
     }
   }
 ]

@@ -5,7 +5,11 @@
     "date": "10/08/1898",
     "location": {
       "city": "Champaign",
-      "state": "IL"
+      "state": "IL",
+      "coordinates": [
+        40.116421,
+        -88.243385
+      ]
     },
     "opponentId": "ILL",
     "score": {
@@ -65,7 +69,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -124,7 +132,11 @@
     "date": "10/23/1898",
     "location": {
       "city": "Ann Arbor",
-      "state": "MI"
+      "state": "MI",
+      "coordinates": [
+        42.281422,
+        -83.748482
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -184,7 +196,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "DEP",
     "score": {
@@ -244,7 +260,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Cartier Field"
+      "stadium": "Cartier Field",
+      "coordinates": [
+        41.701239,
+        -86.234417
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -303,7 +323,11 @@
     "date": "11/19/1898",
     "location": {
       "city": "Albion",
-      "state": "MI"
+      "state": "MI",
+      "coordinates": [
+        42.248001,
+        -84.753021
+      ]
     },
     "opponentId": "ALB",
     "score": {

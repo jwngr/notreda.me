@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -62,6 +66,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 53.19
     }
   },
   {
@@ -69,9 +77,13 @@
     "isHomeGame": false,
     "date": "10/04/1958",
     "location": {
-      "city": "Dallas (Fair Park)",
+      "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -130,6 +142,10 @@
       "home": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 58.07
     }
   },
   {
@@ -139,7 +155,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -198,6 +218,10 @@
       "away": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.09
     }
   },
   {
@@ -207,7 +231,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "DUKE",
     "score": {
@@ -263,6 +291,10 @@
       "home": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.12
     }
   },
   {
@@ -272,7 +304,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -331,6 +367,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 48.16
     }
   },
   {
@@ -340,7 +380,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.330024,
+        -76.601532
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -396,6 +440,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.25
     }
   },
   {
@@ -405,7 +453,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -461,6 +513,10 @@
       "away": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 33.68
     }
   },
   {
@@ -470,7 +526,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -526,6 +586,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 57.16
     }
   },
   {
@@ -535,7 +599,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -603,7 +671,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -659,6 +731,10 @@
       "away": {
         "ap": 18
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54.12
     }
   }
 ]

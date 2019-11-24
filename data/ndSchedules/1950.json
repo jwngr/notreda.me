@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -65,6 +69,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59.44
     }
   },
   {
@@ -74,7 +82,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -130,6 +142,10 @@
       "home": {
         "ap": 1
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 59.44
     }
   },
   {
@@ -139,7 +155,11 @@
     "location": {
       "city": "New Orleans",
       "state": "LA",
-      "stadium": "Tulane Stadium"
+      "stadium": "Tulane Stadium",
+      "coordinates": [
+        29.942778,
+        -90.1175
+      ]
     },
     "opponentId": "TULN",
     "score": {
@@ -195,6 +215,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "temperature": 62.06,
+      "icon": "unknown"
     }
   },
   {
@@ -204,7 +228,11 @@
     "location": {
       "city": "Bloomington",
       "state": "IN",
-      "stadium": "Memorial Stadium"
+      "stadium": "Memorial Stadium",
+      "coordinates": [
+        39.180835,
+        -86.525633
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -269,7 +297,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -325,6 +357,10 @@
       "away": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 52.56
     }
   },
   {
@@ -334,7 +370,11 @@
     "location": {
       "city": "Cleveland",
       "state": "OH",
-      "stadium": "Municipal Stadium"
+      "stadium": "Cleveland Municipal Stadium",
+      "coordinates": [
+        41.506005,
+        -81.699666
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -385,7 +425,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "rain",
+      "temperature": 42.82
+    }
   },
   {
     "result": "W",
@@ -394,7 +438,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -445,7 +493,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 20.86
+    }
   },
   {
     "result": "T",
@@ -454,7 +506,11 @@
     "location": {
       "city": "Iowa City",
       "state": "IA",
-      "stadium": "Iowa Stadium"
+      "stadium": "Iowa Stadium",
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -505,7 +561,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "temperature": 29.86,
+      "icon": "unknown"
+    }
   },
   {
     "result": "L",
@@ -514,7 +574,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -565,6 +629,10 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 51.69
+    }
   }
 ]

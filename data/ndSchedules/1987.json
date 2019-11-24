@@ -6,7 +6,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -67,6 +71,10 @@
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 70.26
     }
   },
   {
@@ -76,7 +84,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -137,6 +149,10 @@
       "away": {
         "ap": 17
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 62.56
     }
   },
   {
@@ -146,7 +162,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -197,12 +217,16 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 8
       }
+    },
+    "weather": {
+      "temperature": 80.75,
+      "icon": "unknown"
     }
   },
   {
@@ -212,7 +236,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -270,6 +298,10 @@
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 49.09
     }
   },
   {
@@ -279,7 +311,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -330,12 +366,16 @@
       "away": [],
       "home": []
     },
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 68.88
     }
   },
   {
@@ -345,7 +385,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -403,6 +447,10 @@
       "home": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 43.66
     }
   },
   {
@@ -412,7 +460,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -463,12 +515,16 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 59.62
     }
   },
   {
@@ -478,7 +534,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -529,12 +589,16 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
         "ap": 9
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 53.19
     }
   },
   {
@@ -544,7 +608,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BAMA",
     "score": {
@@ -605,6 +673,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 55.43
     }
   },
   {
@@ -614,7 +686,11 @@
     "location": {
       "city": "University Park",
       "state": "PA",
-      "stadium": "Beaver Stadium"
+      "stadium": "Beaver Stadium",
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -665,13 +741,17 @@
       "away": [],
       "home": []
     },
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
         "ap": 7
       }
+    },
+    "weather": {
+      "temperature": 20.59,
+      "icon": "unknown"
     }
   },
   {
@@ -681,7 +761,11 @@
     "location": {
       "city": "Miami",
       "state": "FL",
-      "stadium": "Miami Orange Bowl"
+      "stadium": "Orange Bowl",
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -742,6 +826,10 @@
       "home": {
         "ap": 2
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 76.95
     }
   },
   {
@@ -752,7 +840,11 @@
     "location": {
       "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TA&M",
     "score": {
@@ -824,6 +916,10 @@
       "away": {
         "ap": 12
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 43.23
     }
   }
 ]

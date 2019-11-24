@@ -8,7 +8,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "G7DrFK-CNvA",
     "stats": {
@@ -76,7 +80,11 @@
       ]
     },
     "sportsReferenceGameId": "2015-09-05-notre-dame",
-    "headCoach": "Brian Kelly"
+    "headCoach": "Brian Kelly",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 70.94
+    }
   },
   {
     "result": "W",
@@ -87,7 +95,11 @@
     "location": {
       "city": "Charlottesville",
       "state": "VA",
-      "stadium": "Scott Stadium"
+      "stadium": "Scott Stadium",
+      "coordinates": [
+        38.031255,
+        -78.513484
+      ]
     },
     "highlightsYouTubeVideoId": "gzVWbJSdDdc",
     "stats": {
@@ -161,6 +173,10 @@
         "ap": 9,
         "coaches": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.74
     }
   },
   {
@@ -172,7 +188,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "I7SEv78_6sw",
     "stats": {
@@ -250,6 +270,10 @@
         "ap": 14,
         "coaches": 16
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 65.06
     }
   },
   {
@@ -261,7 +285,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "T3afbWJ5ufQ",
     "stats": {
@@ -335,6 +363,10 @@
         "ap": 6,
         "coaches": 8
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 72.45
     }
   },
   {
@@ -346,7 +378,11 @@
     "location": {
       "city": "Clemson",
       "state": "SC",
-      "stadium": "Memorial Stadium"
+      "stadium": "Clemson Memorial Stadium",
+      "coordinates": [
+        34.678611,
+        -82.843056
+      ]
     },
     "highlightsYouTubeVideoId": "QcsF2Q6Rgdk",
     "stats": {
@@ -424,6 +460,10 @@
         "ap": 12,
         "coaches": 11
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 63.05
     }
   },
   {
@@ -435,7 +475,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "y8Rw-kOCWoU",
     "stats": {
@@ -509,6 +553,10 @@
         "ap": 15,
         "coaches": 15
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62.84
     }
   },
   {
@@ -520,7 +568,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "7EhVWTXeaNs",
     "stats": {
@@ -594,6 +646,10 @@
         "ap": 14,
         "coaches": 13
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 32.52
     }
   },
   {
@@ -605,7 +661,11 @@
     "location": {
       "city": "Philadelphia",
       "state": "PA",
-      "stadium": "Lincoln Financial Field"
+      "stadium": "Lincoln Financial Field",
+      "coordinates": [
+        39.900599,
+        -75.167657
+      ]
     },
     "highlightsYouTubeVideoId": "7-a2z1qfiVk",
     "stats": {
@@ -683,6 +743,10 @@
         "ap": 21,
         "coaches": 22
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.44
     }
   },
   {
@@ -694,7 +758,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field"
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "highlightsYouTubeVideoId": "crK15bFeQfM",
     "stats": {
@@ -769,6 +837,10 @@
         "coaches": 9,
         "cfbPlayoff": 5
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 54.3
     }
   },
   {
@@ -780,7 +852,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "highlightsYouTubeVideoId": "lOJbXVTFYBo",
     "stats": {
@@ -855,6 +931,10 @@
         "coaches": 9,
         "cfbPlayoff": 4
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48.54
     }
   },
   {
@@ -865,7 +945,11 @@
     "location": {
       "city": "Boston",
       "state": "MA",
-      "stadium": "Fenway Park"
+      "stadium": "Fenway Park",
+      "coordinates": [
+        42.346407,
+        -71.097239
+      ]
     },
     "highlightsYouTubeVideoId": "hBDY8PoeEF0",
     "stats": {
@@ -942,6 +1026,10 @@
         "coaches": 5,
         "cfbPlayoff": 4
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 34.52
     }
   },
   {
@@ -953,7 +1041,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "highlightsYouTubeVideoId": "3GavD98eKy4",
     "stats": {
@@ -1033,6 +1125,10 @@
         "coaches": 12,
         "cfbPlayoff": 9
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 45.63
     }
   },
   {
@@ -1046,7 +1142,11 @@
     "location": {
       "city": "Glendale",
       "state": "AZ",
-      "stadium": "University of Phoenix Stadium"
+      "stadium": "University of Phoenix Stadium",
+      "coordinates": [
+        33.528045,
+        -112.261014
+      ]
     },
     "highlightsYouTubeVideoId": "DW_8rCjBGfQ",
     "stats": {
@@ -1126,6 +1226,10 @@
         "coaches": 5,
         "cfbPlayoff": 7
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.1
     }
   }
 ]

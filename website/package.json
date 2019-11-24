@@ -27,7 +27,8 @@
     "styled-components": "^4.4.1",
     "topojson-client": "^3.0.0",
     "typeface-bungee": "0.0.72",
-    "victory": "^0.24.5"
+    "victory": "^0.24.5",
+    "weathericons": "^2.1.0"
   },
   "lint-staged": {
     "{src,schedules}/**/*.{js,css}": [
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "husky": "^3.0.9",
+    "jest": "^24.9.0",
     "lint-staged": "^9.4.2",
     "prettier": "^1.10.2",
     "redux-logger": "^3.0.6",

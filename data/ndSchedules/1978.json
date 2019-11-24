@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MIZ",
     "score": {
@@ -63,6 +67,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 89.79
     }
   },
   {
@@ -72,7 +80,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -133,6 +145,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 69.32
     }
   },
   {
@@ -142,7 +158,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -194,7 +214,11 @@
       "home": []
     },
     "time": "2:30 PM",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67.4
+    }
   },
   {
     "result": "W",
@@ -203,7 +227,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Spartan Stadium"
+      "stadium": "Spartan Stadium",
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -255,7 +283,11 @@
       "home": []
     },
     "time": "1:30 PM",
-    "headCoach": "Dan Devine"
+    "headCoach": "Dan Devine",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 50.6
+    }
   },
   {
     "result": "W",
@@ -264,7 +296,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -331,7 +367,11 @@
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
-      "stadium": "Falcon Stadium"
+      "stadium": "Falcon Stadium",
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -388,6 +428,10 @@
       "away": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 55.07
     }
   },
   {
@@ -397,7 +441,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -454,6 +502,10 @@
       "home": {
         "ap": 19
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 52.5
     }
   },
   {
@@ -463,7 +515,11 @@
     "location": {
       "city": "Cleveland",
       "state": "OH",
-      "stadium": "Cleveland Municipal Stadium"
+      "stadium": "Cleveland Municipal Stadium",
+      "coordinates": [
+        41.506005,
+        -81.699666
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -523,6 +579,10 @@
       "away": {
         "ap": 11
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63.88
     }
   },
   {
@@ -532,7 +592,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -589,6 +653,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.08
     }
   },
   {
@@ -598,7 +666,11 @@
     "location": {
       "city": "Atlanta",
       "state": "GA",
-      "stadium": "Grant Field"
+      "stadium": "Grant Field",
+      "coordinates": [
+        33.772356,
+        -84.392881
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -658,6 +730,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 64.66
     }
   },
   {
@@ -667,7 +743,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "Los Angeles Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -728,6 +808,10 @@
       "home": {
         "ap": 3
       }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 60.67
     }
   },
   {
@@ -738,7 +822,11 @@
     "location": {
       "city": "Dallas",
       "state": "TX",
-      "stadium": "Cotton Bowl"
+      "stadium": "Cotton Bowl",
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "HOU",
     "score": {
@@ -810,6 +898,10 @@
       "away": {
         "ap": 10
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 23.1
     }
   }
 ]

@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -73,9 +77,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-01-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78.6
+    }
   },
   {
     "result": "L",
@@ -84,7 +92,11 @@
     "location": {
       "city": "State College",
       "state": "PA",
-      "stadium": "Beaver Stadium"
+      "stadium": "Beaver Stadium",
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -151,13 +163,17 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-08-penn-state",
-    "time": "6:00 PM",
+    "time": "6:00 PM",
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
     "rankings": {
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 72.21
     }
   },
   {
@@ -167,7 +183,11 @@
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
-      "stadium": "Michigan Stadium"
+      "stadium": "Michigan Stadium",
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -234,9 +254,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-15-michigan",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.17
+    }
   },
   {
     "result": "L",
@@ -245,7 +269,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -312,9 +340,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-22-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 71.6
+    }
   },
   {
     "result": "L",
@@ -323,7 +355,11 @@
     "location": {
       "city": "West Lafayette",
       "state": "IN",
-      "stadium": "Ross-Ade Stadium"
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -390,9 +426,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-09-29-purdue",
-    "time": "12:00 PM",
+    "time": "12:00 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 80.53
+    }
   },
   {
     "result": "W",
@@ -401,7 +441,11 @@
     "location": {
       "city": "Pasadena",
       "state": "CA",
-      "stadium": "Rose Bowl"
+      "stadium": "Rose Bowl",
+      "coordinates": [
+        34.161186,
+        -118.1677
+      ]
     },
     "opponentId": "UCLA",
     "score": {
@@ -468,9 +512,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-10-06-ucla",
-    "time": "8:00 PM",
+    "time": "8:00 PM",
     "coverage": "ABC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 63.32
+    }
   },
   {
     "result": "L",
@@ -479,7 +527,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -546,13 +598,17 @@
       ]
     },
     "sportsReferenceGameId": "2007-10-13-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
       "away": {
         "ap": 4
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 56.79
     }
   },
   {
@@ -562,7 +618,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -629,7 +689,7 @@
       ]
     },
     "sportsReferenceGameId": "2007-10-20-notre-dame",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {
@@ -637,6 +697,10 @@
         "ap": 13,
         "bcs": 14
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 68.96
     }
   },
   {
@@ -646,7 +710,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -719,10 +787,14 @@
       ]
     },
     "sportsReferenceGameId": "2007-11-03-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "numOvertimes": 3
+    "numOvertimes": 3,
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 51.48
+    }
   },
   {
     "result": "L",
@@ -731,7 +803,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -798,9 +874,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-11-10-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.62
+    }
   },
   {
     "result": "W",
@@ -809,7 +889,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "DUKE",
     "score": {
@@ -876,9 +960,13 @@
       ]
     },
     "sportsReferenceGameId": "2007-11-17-notre-dame",
-    "time": "2:30 PM",
+    "time": "2:30 PM",
     "coverage": "NBC",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "rain",
+      "temperature": 39.29
+    }
   },
   {
     "result": "W",
@@ -887,7 +975,11 @@
     "location": {
       "city": "Stanford",
       "state": "CA",
-      "stadium": "Stanford Stadium"
+      "stadium": "Stanford Stadium",
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -954,8 +1046,12 @@
       ]
     },
     "sportsReferenceGameId": "2007-11-24-stanford",
-    "time": "3:30 PM",
+    "time": "3:30 PM",
     "coverage": "ESPN",
-    "headCoach": "Charlie Weis"
+    "headCoach": "Charlie Weis",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 60.64
+    }
   }
 ]

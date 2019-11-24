@@ -6,7 +6,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IND",
     "score": {
@@ -62,6 +66,10 @@
       "home": {
         "ap": 14
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 34.42
     }
   },
   {
@@ -71,7 +79,11 @@
     "location": {
       "city": "Detroit",
       "state": "MI",
-      "stadium": "Briggs Stadium"
+      "stadium": "Briggs Stadium",
+      "coordinates": [
+        42.331944,
+        -83.068889
+      ]
     },
     "opponentId": "DET",
     "score": {
@@ -127,6 +139,10 @@
       "away": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 67.91
     }
   },
   {
@@ -136,7 +152,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "SMU",
     "score": {
@@ -192,6 +212,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43.15
     }
   },
   {
@@ -201,7 +225,11 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Pitt Stadium"
+      "stadium": "Pitt Stadium",
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -252,7 +280,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 41.09
+    }
   },
   {
     "result": "W",
@@ -261,7 +293,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -317,6 +353,10 @@
       "home": {
         "ap": 15
       }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47.28
     }
   },
   {
@@ -326,7 +366,11 @@
     "location": {
       "city": "Baltimore",
       "state": "MD",
-      "stadium": "Municipal Stadium"
+      "stadium": "Municipal Stadium",
+      "coordinates": [
+        39.329444,
+        -76.601389
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -382,6 +426,10 @@
       "home": {
         "ap": 13
       }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 40.26
     }
   },
   {
@@ -391,7 +439,11 @@
     "location": {
       "city": "East Lansing",
       "state": "MI",
-      "stadium": "Macklin Stadium"
+      "stadium": "Macklin Stadium",
+      "coordinates": [
+        42.728056,
+        -84.484722
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -450,6 +502,10 @@
       "home": {
         "ap": 5
       }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 30.12
     }
   },
   {
@@ -459,7 +515,11 @@
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
-      "stadium": "Kenan Memorial Stadium"
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -510,7 +570,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 46.85
+    }
   },
   {
     "result": "T",
@@ -519,7 +583,11 @@
     "location": {
       "city": "Notre Dame",
       "state": "IN",
-      "stadium": "Notre Dame Stadium"
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -570,7 +638,11 @@
       "away": [],
       "home": []
     },
-    "headCoach": "Frank Leahy"
+    "headCoach": "Frank Leahy",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 24.81
+    }
   },
   {
     "result": "W",
@@ -579,7 +651,11 @@
     "location": {
       "city": "Los Angeles",
       "state": "CA",
-      "stadium": "LA Memorial Coliseum"
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -635,6 +711,10 @@
       "home": {
         "ap": 20
       }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 52.84
     }
   }
 ]
