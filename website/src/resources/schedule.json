@@ -96254,7 +96254,11 @@
           7
         ]
       },
-      "result": "W"
+      "result": "W",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 35.2
+      }
     },
     {
       "isHomeGame": false,

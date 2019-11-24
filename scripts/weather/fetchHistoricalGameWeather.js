@@ -12,7 +12,7 @@ _.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
   let currentSeasonFetchWeatherPromises = [];
 
   _.forEach(seasonScheduleData, (gameData) => {
-    if (gameData.result && !gameData.weather && season === '2000') {
+    if (gameData.result && !gameData.weather && season === '2019') {
       const [lat, lon] = gameData.location.coordinates;
 
       currentSeasonFetchWeatherPromises.push(
