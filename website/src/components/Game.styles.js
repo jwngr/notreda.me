@@ -240,7 +240,24 @@ export const TelevisionCoverage = styled.div`
   }
 
   img {
-    height: 32px;
+    height: ${({channel}) => {
+      switch (channel) {
+        case 'espn2':
+          return '11px';
+        case 'accn':
+        case 'espn':
+        case 'cbssn':
+          return '14px';
+        case 'cstv':
+          return '20px';
+        case 'fox':
+          return '20px';
+        case 'tbs':
+          return '26px';
+        default:
+          return '32px';
+      }
+    }};
     margin-left: 10px;
   }
 
