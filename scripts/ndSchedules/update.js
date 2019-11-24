@@ -2,8 +2,10 @@ const _ = require('lodash');
 
 const espn = require('../lib/espn');
 const polls = require('../lib/polls');
+const utils = require('../lib/utils');
 const logger = require('../lib/logger');
 const sentry = require('../lib/sentry');
+const weather = require('../lib/weather');
 const ndSchedules = require('../lib/ndSchedules');
 
 const SEASON = ndSchedules.CURRENT_SEASON;

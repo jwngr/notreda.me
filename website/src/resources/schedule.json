@@ -96263,6 +96263,7 @@
     {
       "isHomeGame": false,
       "date": "11/30/2019",
+      "fullDate": "Sat Nov 30 2019 13:00:00 GMT-0800",
       "location": {
         "city": "Stanford",
         "state": "CA",
@@ -96294,8 +96295,8 @@
         }
       },
       "weather": {
-        "icon": "clear-day",
-        "temperature": 49
+        "icon": "partly-cloudy-day",
+        "temperature": 50
       }
     }
   ],
