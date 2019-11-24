@@ -248,9 +248,8 @@ export const TelevisionCoverage = styled.div`
         case 'espn':
         case 'cbssn':
           return '14px';
-        case 'cstv':
-          return '20px';
         case 'fox':
+        case 'cstv':
           return '20px';
         case 'tbs':
           return '26px';
@@ -269,7 +268,22 @@ export const TelevisionCoverage = styled.div`
     }
 
     img {
-      height: 24px;
+      height: ${({channel}) => {
+        switch (channel) {
+          case 'espn':
+          case 'espn2':
+            return '10px';
+          case 'fox':
+          case 'accn':
+          case 'cstv':
+          case 'cbssn':
+            return '14px';
+          case 'tbs':
+            return '18px';
+          default:
+            return '24px';
+        }
+      }};
     }
   }
 `;
