@@ -76,6 +76,7 @@ module.exports.fetchForGame = ([latitude, longitude], kickoffTimeInSeconds) => {
 
       // Pull the icon and temperature from the chosen forecast.
       const weather = _.pick(chosenForecast, ['icon', 'temperature']);
+      weather.temperature = 'temperature' in weather && Math.round(weather.temperature);
 
       // Log a warning if any data is missing.
       let warning;

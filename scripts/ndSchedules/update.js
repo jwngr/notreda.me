@@ -79,6 +79,24 @@ const updateNdSchedule = async () => {
   const currentSeasonPollsData = await espn.fetchPollsForSeason(SEASON);
   polls.updateForSeason(SEASON, currentSeasonPollsData, seasonScheduleData);
 
+  logger.info(`Updating weather for upcoming game...`);
+  const nextUpcomingCurrentSeasonGame = _.find(
+    seasonScheduleData,
+    ({result}) => typeof result === 'undefined'
+  );
+
+  if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {
+    logger.info('Not fetching weather since current season is over.');
+  } else {
+    const gameInfoString = `${ndSchedules.CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
+    logger.info(`Fetching weather for ${gameInfoString}...`);
+
+    nextUpcomingCurrentSeasonGame.weather = await weather.fetchForGame(
+      nextUpcomingCurrentSeasonGame.location.coordinates,
+      utils.getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame)
+    );
+  }
+
   logger.info(`Updating ND schedule data file for ${SEASON}...`);
   return ndSchedules.updateForSeason(SEASON, seasonScheduleData);
 };

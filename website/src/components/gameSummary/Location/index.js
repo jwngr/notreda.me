@@ -78,9 +78,7 @@ const Location = ({game}) => {
             title={`Weather forecast at kickoff: ${text}`}
           ></WeatherIcon>
         )}
-        <Temperature isWeatherIconPresent={!!icon}>
-          {Math.round(game.weather.temperature)}&deg;F
-        </Temperature>
+        <Temperature isWeatherIconPresent={!!icon}>{game.weather.temperature}&deg;F</Temperature>
       </WeatherWrapper>
     );
   }
