@@ -6,7 +6,7 @@ module.exports.withCommas = (value) => {
   return String(value).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 };
 
-module.exports.getGameTimestampInSeconds = ({date, time, fullDate}) => {
+const getGameDate = ({date, time, fullDate}) => {
   let d;
   if (fullDate) {
     d = new Date(fullDate);
@@ -16,5 +16,11 @@ module.exports.getGameTimestampInSeconds = ({date, time, fullDate}) => {
     d = new Date(date);
   }
 
+  return d;
+};
+module.exports.getGameDate = getGameDate;
+
+module.exports.getGameTimestampInSeconds = ({date, time, fullDate}) => {
+  const d = getGameDate({date, time, fullDate});
   return d.getTime() / 1000;
 };

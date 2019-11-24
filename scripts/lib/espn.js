@@ -3,6 +3,7 @@ const _ = require('lodash');
 const teams = require('./teams');
 const logger = require('./logger');
 const scraper = require('./scraper');
+const {CURRENT_SEASON} = require('./ndSchedules');
 
 const ESPN_TEAM_HOME_PAGE_URL_PREFIX = `https://www.espn.com/college-football/team/_/id/`;
 
@@ -152,16 +153,15 @@ const fetchGameIdsForSeason = (season) => {
       $rows.each((i, row) => {
         const $cols = $(row).find('td');
         if (
-          $cols.length === 7 &&
+          // Get game IDs for both completed (7 columns) and upcoming (5 columns).
+          ($cols.length === 5 || $cols.length === 7) &&
           $cols
             .eq(0)
             .text()
             .trim() !== 'Date'
         ) {
-          const $spans = $cols.eq(2).find('span');
-
-          const gameId = $spans
-            .eq(1)
+          const gameId = $cols
+            .eq(2)
             .find('a')
             .attr('href')
             .split('gameId/')[1]
@@ -538,10 +538,36 @@ const fetchPollsForSeason = async (season) => {
   return pollRankings;
 };
 
+/**
+ * Returns the kickoff time for the provided game.
+ *
+ * @return {Promise<Date>} The kickoff time for the provided game, or 'TBD' if the game has not yet
+ *     been assigned a kickoff time.
+ */
+const fetchKickoffTimeForGame = (espnGameId) => {
+  return scraper
+    .get(`https://www.espn.com/college-football/game/_/gameId/${espnGameId}`)
+    .then(($) => {
+      const $gameStatusSpans = $('.game-status > span');
+      const gameKickoffDate = $gameStatusSpans.eq(1).attr('data-date');
+
+      if (gameKickoffDate) {
+        return new Date(gameKickoffDate);
+      }
+
+      return 'TBD';
+    })
+    .catch((error) => {
+      logger.error(`Error fetching kickoff time for game.`, {error, espnGameId});
+      throw error;
+    });
+};
+
 module.exports = {
   fetchStatsForGame,
   fetchPollsForSeason,
   fetchGameIdsForSeason,
+  fetchKickoffTimeForGame,
   fetchNotreDameWeeklyRecordsForCurrentSeason,
   fetchTeamRecordUpThroughNotreDameGameForCurrentSeason,
 };
