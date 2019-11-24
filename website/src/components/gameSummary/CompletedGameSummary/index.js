@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Coverage from '../Coverage';
 import Location from '../Location';
 import LineScore from './Linescore';
 import GameStats from './GameStats';
 import TotalScore from './TotalScore';
+import GameCoverage from '../GameCoverage';
 import MatchupHistory from '../MatchupHistory';
 
 import {CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
@@ -16,7 +16,7 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
       <TotalScore game={game} homeTeam={homeTeam} awayTeam={awayTeam} />
 
       <CoverageLocationWrapper>
-        <Coverage game={game} />
+        <GameCoverage game={game} />
         <Location game={game} />
       </CoverageLocationWrapper>
 

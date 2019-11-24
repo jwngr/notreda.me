@@ -3,8 +3,8 @@ import React from 'react';
 import Media from 'react-media';
 import PropTypes from 'prop-types';
 
-import Coverage from '../Coverage';
 import Location from '../Location';
+import GameCoverage from '../GameCoverage';
 import MatchupHistory from '../MatchupHistory';
 
 import {
@@ -113,7 +113,7 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
 
       <StatsWrapper>
         <CoverageLocationWrapper>
-          <Coverage game={game} />
+          <GameCoverage game={game} />
           <Location game={game} />
         </CoverageLocationWrapper>
         <MatchupHistory game={game} />
