@@ -39,4 +39,6 @@ export const RecentMatchups = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  margin-top: ${({matchupsCount}) => (matchupsCount > 1 ? '-60px' : 0)};
 `;

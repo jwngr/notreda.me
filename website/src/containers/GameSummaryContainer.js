@@ -9,7 +9,10 @@ import schedule from '../resources/schedule';
 const mapStateToProps = ({selectedYear, selectedGameIndex}) => {
   const games = schedule[selectedYear];
   const game = _.clone(games[selectedGameIndex]);
+
   game.season = Number(selectedYear);
+
+  game.weekIndex = Number(selectedGameIndex);
 
   game.opponent = teams[game.opponentId];
   game.opponent.abbreviation = game.opponentId;

@@ -62,8 +62,6 @@ class YardPoints extends Component {
       }
     });
 
-    console.log(yardsDifferentialData);
-
     this.state = {
       tooltip: null,
       data: yardsDifferentialData,
@@ -131,14 +129,12 @@ class YardPoints extends Component {
     //   .attr('class', 'tooltip')
     //   .style('opacity', 0);
 
-    g
-      .append('rect')
+    g.append('rect')
       .attr('width', scatterPlotWidth - margins.left - margins.right)
       .attr('height', scatterPlotHeight - margins.top - margins.bottom)
       .attr('fill', '#F6F6F6');
 
-    g
-      .selectAll('circle')
+    g.selectAll('circle')
       .data(this.state.data)
       .enter()
       .append('circle')
@@ -177,7 +173,6 @@ class YardPoints extends Component {
       })
       .on('mouseover', (d) => {
         const tooltipHtml = `<p>${d.scoreText}, ${d.year} ${d.opponentId}</p>`;
-        console.log(tooltipHtml);
 
         clearTimeout(this.unsetTooltipTimeout);
 
@@ -200,7 +195,6 @@ class YardPoints extends Component {
         //   .style('top', (d3.event.pageY - 28) + 'px');
       })
       .on('mouseout', (d) => {
-        console.log('OUT');
         // tooltip
         //   .transition()
         //   .duration(500)
@@ -208,14 +202,12 @@ class YardPoints extends Component {
         this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
       });
 
-    g
-      .append('g')
+    g.append('g')
       .attr('class', 'x axis')
       .attr('transform', 'translate(0,' + scaleY.range()[0] / 2 + ')')
       .call(d3.axisBottom(scaleX).ticks(7));
 
-    g
-      .append('g')
+    g.append('g')
       .attr('class', 'y axis')
       .attr('transform', 'translate(' + scaleX.range()[1] / 2 + ', 0)')
       .call(d3.axisLeft(scaleY).ticks(7));

@@ -1,7 +1,4 @@
-import _ from 'lodash';
-
 import theme from './resources/theme';
-import schedule from './resources/schedule';
 
 /**
  * Returns the default team color.
@@ -46,44 +43,6 @@ export const getWindowDimensions = () => {
     width: window.innerWidth || e.clientWidth || g.clientWidth,
     height: window.innerHeight || e.clientHeight || g.clientHeight,
   };
-};
-
-/**
- * Returns an array of all historical and future games against the specified opponent.
- *
- * @param {string} opponentId The opponent ID whose games to fetch.
- *
- * @return {Object} An object containing two arrays with keys `past` and `future`.
- */
-export const getGamesAgainstTeam = (opponentId) => {
-  const gamesAgainstTeam = {
-    past: [],
-    future: [],
-  };
-
-  _.forEach(schedule, (currentSeasonGames, currentSeason) => {
-    _.forEach(currentSeasonGames, (currentGame, i) => {
-      if (currentGame.opponentId === opponentId) {
-        const pastOrFuture = currentGame.result ? 'past' : 'future';
-        gamesAgainstTeam[pastOrFuture].push({
-          season: Number(currentSeason),
-          weekIndex: i + 1,
-          ...currentGame,
-        });
-      }
-    });
-  });
-
-  return gamesAgainstTeam;
-};
-
-/**
- * Returns an array of all historical games against the specified opponent.
- *
- * @param {string} opponentId The opponent ID whose games to fetch.
- */
-export const getHistoricalGamesAgainstTeam = (opponentId) => {
-  return getGamesAgainstTeam(opponentId).filter(({result}) => _.includes(['W', 'L', 'T'], result));
 };
 
 /**

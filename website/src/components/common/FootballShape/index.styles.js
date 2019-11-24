@@ -8,6 +8,7 @@ const _isGameCompeleted = (result) => _.includes(['W', 'L', 'T'], result);
 
 export const FootballShapeSvg = styled.svg`
   .football {
+    cursor: pointer;
     stroke-width: 2px;
     stroke: ${({type, theme, result, isSelected}) => {
       let color;
@@ -21,11 +22,12 @@ export const FootballShapeSvg = styled.svg`
 
       return darken(0.2, color);
     }};
-    stroke-dasharray: ${({type}) => (type === 'past' ? 0 : '4px')};
+    stroke-dasharray: ${({type}) => (type === 'future' ? '4px' : 0)};
     stroke-dashoffset: 3px;
   }
 
   .laces {
+    cursor: pointer;
     stroke-width: 2px;
     stroke-linecap: round;
 
@@ -39,7 +41,7 @@ export const FootballShapeSvg = styled.svg`
 
   .pattern {
     rect {
-      fill: ${({type, result}) => {
+      fill: ${({type, theme, result}) => {
         if (type === 'past') {
           return _isGameCompeleted(result) ? getColorForResult(result) : 'black';
         } else {
@@ -49,7 +51,7 @@ export const FootballShapeSvg = styled.svg`
     }
 
     line {
-      stroke: ${({theme, result, isHomeGame}) => {
+      stroke: ${({type, theme, result, isHomeGame}) => {
         if (isHomeGame) {
           return 'transparent';
         }
@@ -61,6 +63,22 @@ export const FootballShapeSvg = styled.svg`
       stroke-width: 2px;
     }
   }
+`;
+
+export const Text = styled.p`
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 10px);
+  color: ${({type, theme, result, isSelected}) => {
+    if (isSelected) {
+      return result === 'T' ? darken(0.2, theme.colors.gold) : theme.colors.gold;
+    } else {
+      return theme.colors.white;
+    }
+  }};
+  font-size: 14px;
+  font-family: 'Inter UI', serif;
+  width: 100%;
 `;
 
 export const Leg = styled.div`

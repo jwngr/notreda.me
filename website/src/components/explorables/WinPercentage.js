@@ -202,8 +202,6 @@ class WinPercentage extends Component {
         });
       });
 
-      console.log(yearData);
-
       return {
         id: teamName,
         values: yearData,

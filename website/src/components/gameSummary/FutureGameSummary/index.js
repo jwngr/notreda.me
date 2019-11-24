@@ -116,11 +116,7 @@ const FutureGameSummary = ({game, homeTeam, awayTeam}) => {
           <Coverage game={game} />
           <Location game={game} />
         </CoverageLocationWrapper>
-        <MatchupHistory
-          game={game}
-          opponentId={game.isHomeGame ? awayTeam.abbreviation : homeTeam.abbreviation}
-          numGamesToDisplay={15}
-        />
+        <MatchupHistory game={game} />
       </StatsWrapper>
     </FutureGameWrapper>
   );

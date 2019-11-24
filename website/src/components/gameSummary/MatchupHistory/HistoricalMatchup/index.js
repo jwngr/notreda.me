@@ -5,7 +5,7 @@ import {push} from 'connected-react-router';
 
 import FootballShape from '../../../common/FootballShape';
 
-import {Score, Season, FootballScoreWrapper, HistoricalMatchupWrapper} from './index.styles';
+import {Season, FootballScoreWrapper, HistoricalMatchupWrapper} from './index.styles';
 
 const HistoricalMatchup = ({
   gaps,
@@ -17,21 +17,17 @@ const HistoricalMatchup = ({
   isSelected,
   navigateTo,
   isSeasonOnTop,
-  specialPosition,
+  specialPositions,
 }) => {
+  let text;
   let title;
-  let scoreContent;
   if (result) {
     const ndScore = isHomeGame ? score.home : score.away;
     const opponentScore = isHomeGame ? score.away : score.home;
 
-    const winLossOrTie = result === 'W' ? 'win' : result === 'L' ? 'loss' : 'tie';
+    text = `${ndScore}-${opponentScore}`;
 
-    scoreContent = (
-      <Score isSelected={isSelected} result={result}>
-        {ndScore}-{opponentScore}
-      </Score>
-    );
+    const winLossOrTie = result === 'W' ? 'win' : result === 'L' ? 'loss' : 'tie';
 
     title = `${season} Notre Dame ${winLossOrTie} by a score of ${ndScore} to ${opponentScore}.`;
   } else {
@@ -39,7 +35,11 @@ const HistoricalMatchup = ({
   }
 
   const seasonContent = (
-    <Season isSeasonOnTop={isSeasonOnTop} isSelected={isSelected}>
+    <Season
+      isSeasonOnTop={isSeasonOnTop}
+      isSelected={isSelected}
+      onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
+    >
       {season}
     </Season>
   );
@@ -47,24 +47,24 @@ const HistoricalMatchup = ({
   return (
     <HistoricalMatchupWrapper result={result} isSeasonOnTop={isSeasonOnTop}>
       {isSeasonOnTop && seasonContent}
-      <FootballScoreWrapper onClick={() => navigateTo(`/${season}/${weekIndex}`)}>
+      <FootballScoreWrapper>
         <FootballShape
           type={result ? 'past' : 'future'}
+          text={text}
+          title={title}
           result={result}
-          season={season}
           isSelected={isSelected}
           isHomeGame={isHomeGame}
-          title={title}
+          onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
           legs={
             isSeasonOnTop
               ? {
-                  left: specialPosition === 'first' ? false : gaps.left ? 'gap' : true,
-                  right: specialPosition === 'last' ? false : gaps.right ? 'gap' : true,
+                  left: specialPositions.first ? false : gaps.left ? 'gap' : true,
+                  right: specialPositions.last ? false : gaps.right ? 'gap' : true,
                 }
               : undefined
           }
         />
-        {scoreContent}
       </FootballScoreWrapper>
       {!isSeasonOnTop && seasonContent}
     </HistoricalMatchupWrapper>
@@ -73,12 +73,12 @@ const HistoricalMatchup = ({
 
 HistoricalMatchup.propTypes = {
   gaps: PropTypes.shape({
-    left: PropTypes.bool,
-    right: PropTypes.bool,
+    left: PropTypes.bool.isRequired,
+    right: PropTypes.bool.isRequired,
   }).isRequired,
   score: PropTypes.shape({
-    home: PropTypes.number,
-    away: PropTypes.number,
+    home: PropTypes.number.isRequired,
+    away: PropTypes.number.isRequired,
   }),
   result: PropTypes.string,
   season: PropTypes.number.isRequired,
@@ -87,7 +87,10 @@ HistoricalMatchup.propTypes = {
   navigateTo: PropTypes.func.isRequired,
   isSelected: PropTypes.bool.isRequired,
   isSeasonOnTop: PropTypes.bool.isRequired,
-  specialPosition: PropTypes.string,
+  specialPositions: PropTypes.shape({
+    first: PropTypes.bool.isRequired,
+    last: PropTypes.bool.isRequired,
+  }).isRequired,
 };
 
 const mapDispatchToProps = (dispatch) => ({

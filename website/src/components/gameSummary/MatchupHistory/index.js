@@ -1,68 +1,67 @@
 import _ from 'lodash';
 import React from 'react';
+import Media from 'react-media';
 import PropTypes from 'prop-types';
 
-import {getGamesAgainstTeam} from '../../../utils';
+import {useWindowSize} from '../../../hooks';
+
+import {getMatchupsAgainstTeam, getFilteredMatchupsAgainstTeam} from '../../../lib/matchupHistory';
 
 import StatsSection from '../../common/StatsSection';
 import HistoricalMatchup from './HistoricalMatchup';
 
 import {Records, RecentMatchups, MatchupHistoryWrapper} from './index.styles';
 
-const MatchupHistory = ({game, opponentId, numGamesToDisplay}) => {
-  const {past, future} = getGamesAgainstTeam(opponentId);
+const _areConsecutiveMatchups = (allSeasonsWithMatchupsAgainstTeam, season1, season2) => {
+  return (
+    _.indexOf(allSeasonsWithMatchupsAgainstTeam, season1) ===
+    _.indexOf(allSeasonsWithMatchupsAgainstTeam, season2) - 1
+  );
+};
 
-  let gaps;
-  let gamesToShow;
-  if (typeof numGamesToDisplay === 'undefined') {
-    // If the number of games to display is not specfied, display all games.
-    gamesToShow = [...past, ...future];
+const _getMaxMatchupsCountFromWindowWidth = (width) => {
+  if (width > 1420) {
+    return 15;
+  } else if (width > 1326) {
+    return 13;
+  } else if (width > 1250) {
+    return 11;
+  } else if (width > 1200) {
+    return 9;
+  } else if (width > 1110) {
+    return 11;
+  } else if (width > 970) {
+    return 9;
+  } else if (width > 950) {
+    return 7;
+  } else if (width > 680) {
+    return 15;
+  } else if (width > 600) {
+    return 13;
+  } else if (width > 520) {
+    return 11;
+  } else if (width > 440) {
+    return 9;
+  } else if (width > 360) {
+    return 7;
   } else {
-    const futureGameSeasons = future.map(({season}) => season);
-
-    let numPastGamesToDisplay = numGamesToDisplay;
-    if (future.length !== 0) {
-      // Always show the next matchup.
-      numPastGamesToDisplay -= 1;
-
-      // If the currently viewed season is a future game, show all future games leading up to it.
-      const futureGameSeasonsIndex = _.indexOf(futureGameSeasons, game.season);
-      if (futureGameSeasonsIndex !== -1) {
-        numPastGamesToDisplay -= futureGameSeasonsIndex + 1;
-      }
-    }
-
-    gaps = {
-      left: [],
-      right: [],
-    };
-    let hiddenPriorGamesCount = past.length - numPastGamesToDisplay;
-    let hiddenFutureGamesCount = future.length;
-    gamesToShow = _.takeRight(past, numPastGamesToDisplay);
-    if (future.length !== 0) {
-      // Always show the next matchup.
-      gamesToShow.push(future[0]);
-      hiddenFutureGamesCount--;
-
-      const futureGameSeasonsIndex = _.indexOf(futureGameSeasons, game.season);
-      if (futureGameSeasonsIndex === 0 && future.length > 1) {
-        // If the currently viewed season is the next matchup and there are multipe future matchups,
-        // show the following matchup as well.
-        hiddenFutureGamesCount--;
-        gamesToShow.push(future[1]);
-      } else if (futureGameSeasonsIndex > 0) {
-        // If the currently viewed season is a future matchup which is not the next matchup, show it
-        // as well, including a gap between the matchups if they are not sequential.
-        hiddenFutureGamesCount--;
-        gamesToShow.push(future[futureGameSeasonsIndex]);
-
-        if (futureGameSeasonsIndex !== 1) {
-          gaps.right.push(future[0].season);
-          gaps.left.push(future[futureGameSeasonsIndex].season);
-        }
-      }
-    }
+    return 5;
   }
+};
+
+const MatchupHistory = ({game: selectedGame}) => {
+  const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} = getMatchupsAgainstTeam(
+    selectedGame.opponentId
+  );
+
+  const {width} = useWindowSize();
+  const maxMatchupsCount = _getMaxMatchupsCountFromWindowWidth(width);
+
+  const matchupsToShow = getFilteredMatchupsAgainstTeam(
+    selectedGame.opponentId,
+    selectedGame.season,
+    maxMatchupsCount
+  );
 
   const recordAgainstTeam = {
     overall: {
@@ -82,12 +81,16 @@ const MatchupHistory = ({game, opponentId, numGamesToDisplay}) => {
     },
   };
 
-  past.forEach(({result, isHomeGame}) => {
+  pastMatchupsAgainstTeam.forEach(({result, isHomeGame}) => {
     recordAgainstTeam.overall[result] += 1;
     recordAgainstTeam[isHomeGame ? 'home' : 'away'][result] += 1;
   });
 
-  const homeOrAway = game.isHomeGame ? 'home' : 'away';
+  const selectedGameHomeOrAway = selectedGame.isHomeGame ? 'home' : 'away';
+  const allSeasonsWithMatchupsAgainstTeam = [
+    ...pastMatchupsAgainstTeam,
+    ...futureMatchupsAgainstTeam,
+  ].map(({season}) => season);
 
   return (
     <StatsSection title="Matchup History" style={{marginTop: '32px'}}>
@@ -102,41 +105,65 @@ const MatchupHistory = ({game, opponentId, numGamesToDisplay}) => {
             </p>
           </div>
           <div>
-            <p>Overall Record</p>
+            <Media query="(max-width: 600px)">
+              {(matches) => (matches ? <p>Overall</p> : <p>Overall Record</p>)}
+            </Media>
             <p>
               {recordAgainstTeam.overall.W}-{recordAgainstTeam.overall.L}-
               {recordAgainstTeam.overall.T}
             </p>
           </div>
           <div>
-            <p>{game.isHomeGame ? 'Home' : 'Away'} Record</p>
+            <Media query="(max-width: 600px)">
+              {(matches) =>
+                matches ? (
+                  <p>{_.capitalize(selectedGameHomeOrAway)}</p>
+                ) : (
+                  <p>{_.capitalize(selectedGameHomeOrAway)} Record</p>
+                )
+              }
+            </Media>
             <p>
-              {recordAgainstTeam[homeOrAway].W}-{recordAgainstTeam[homeOrAway].L}-
-              {recordAgainstTeam[homeOrAway].T}
+              {recordAgainstTeam[selectedGameHomeOrAway].W}-
+              {recordAgainstTeam[selectedGameHomeOrAway].L}-
+              {recordAgainstTeam[selectedGameHomeOrAway].T}
             </p>
           </div>
         </Records>
-        <RecentMatchups>
-          {gamesToShow.map(({result, score, season, weekIndex, isHomeGame}, i, coll) => {
-            let specialPosition;
-            if (i === 0) {
-              specialPosition = 'first';
-            } else if (i === _.size(coll) - 1) {
-              specialPosition = 'last';
-            }
+        <RecentMatchups matchupsCount={matchupsToShow.length}>
+          {matchupsToShow.map(({result, score, season, weekIndex, isHomeGame}, i) => {
+            let specialPositions = {
+              first: i === 0,
+              last: i === _.size(matchupsToShow) - 1,
+            };
 
             return (
               <HistoricalMatchup
-                key={`${season}-${weekIndex}`}
+                key={`historical-matchup-${season}-${weekIndex}`}
                 score={score}
                 result={result}
                 season={season}
                 weekIndex={weekIndex}
                 isHomeGame={isHomeGame}
-                isSelected={season === game.season}
+                isSelected={season === selectedGame.season && weekIndex === selectedGame.weekIndex}
                 isSeasonOnTop={i % 2 === 0}
-                gaps={{left: _.includes(gaps.left, season), right: _.includes(gaps.right, season)}}
-                specialPosition={specialPosition}
+                gaps={{
+                  left:
+                    i > 0 &&
+                    !_areConsecutiveMatchups(
+                      allSeasonsWithMatchupsAgainstTeam,
+                      matchupsToShow[i + -1].season,
+                      season
+                    ),
+                  right:
+                    i < _.size(matchupsToShow) - 1 &&
+                    !_areConsecutiveMatchups(
+                      allSeasonsWithMatchupsAgainstTeam,
+                      season,
+                      matchupsToShow[i + 1].season
+                    ),
+                }}
+                specialPositions={specialPositions}
               />
             );
           })}
@@ -148,8 +175,6 @@ const MatchupHistory = ({game, opponentId, numGamesToDisplay}) => {
 
 MatchupHistory.propTypes = {
   game: PropTypes.object.isRequired,
-  opponentId: PropTypes.string.isRequired,
-  numGamesToDisplay: PropTypes.number,
 };
 
 export default MatchupHistory;

@@ -3,16 +3,19 @@ import PropTypes from 'prop-types';
 
 import {StatsSectionTitle, StatsSectionWrapper, StatsChildrenWrapper} from './index.styles';
 
-const StatsSection = ({title, style, children}) => {
-  return (
-    <StatsSectionWrapper style={style}>
-      <StatsSectionTitle>
-        <p>{title}</p>
-      </StatsSectionTitle>
-      <StatsChildrenWrapper>{children}</StatsChildrenWrapper>
-    </StatsSectionWrapper>
-  );
-};
+class StatsSection extends React.Component {
+  render() {
+    const {title, style, children, ...rest} = this.props;
+    return (
+      <StatsSectionWrapper style={style} {...rest}>
+        <StatsSectionTitle>
+          <p>{title}</p>
+        </StatsSectionTitle>
+        <StatsChildrenWrapper>{children}</StatsChildrenWrapper>
+      </StatsSectionWrapper>
+    );
+  }
+}
 
 StatsSection.propTypes = {
   style: PropTypes.object,

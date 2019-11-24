@@ -2,6 +2,7 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
+const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
 
 const SITEMAP_FILENAME = path.resolve(__dirname, '../../public/sitemap.xml');
@@ -28,4 +29,4 @@ ${urls.join('\n')}
 
 fs.writeFileSync(SITEMAP_FILENAME, sitemap);
 
-console.log(`[INFO] Sitemap successfully written to ${SITEMAP_FILENAME}!`);
+logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);

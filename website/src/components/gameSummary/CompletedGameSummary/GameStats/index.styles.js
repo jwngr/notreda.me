@@ -141,16 +141,3 @@ export const GameStatsHeaderSpacer = styled.div`
     ${STATS_HEADER_SPACER_STYLES.middle}
   }
 `;
-
-export const StatsUnavailable = styled.p`
-  max-width: 400px;
-  margin-top: 32px;
-  font-size: 16px;
-  line-height: 1.4;
-  text-align: center;
-  font-family: 'Inter UI', serif;
-
-  a {
-    color: ${(props) => props.theme.colors.green};
-  }
-`;

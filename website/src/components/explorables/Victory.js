@@ -66,8 +66,6 @@ class Victory extends Component {
       }
     });
 
-    console.log(yardsDifferentialData);
-
     this.state = {
       data: yardsDifferentialData,
     };

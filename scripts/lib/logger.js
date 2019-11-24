@@ -7,8 +7,10 @@ const yellow = chalk.bold.yellow;
 
 const _log = (message, data, color) => {
   if (typeof data === 'undefined') {
+    // eslint-disable-next-line no-console
     console.log(color(message));
   } else {
+    // eslint-disable-next-line no-console
     console.log(color(message), data);
   }
 };
@@ -39,6 +41,7 @@ module.exports.fail = (message, data) => {
 
 module.exports.newline = (numNewLines = 1) => {
   for (let i = 0; i < numNewLines; i++) {
+    // eslint-disable-next-line no-console
     console.log();
   }
 };

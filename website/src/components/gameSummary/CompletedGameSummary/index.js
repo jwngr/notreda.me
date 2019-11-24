@@ -27,13 +27,9 @@ const CompletedGameSummary = ({game, homeTeam, awayTeam}) => {
         highlightsYouTubeVideoId={game.highlightsYouTubeVideoId}
       />
 
-      <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
+      <MatchupHistory game={game} />
 
-      <MatchupHistory
-        game={game}
-        opponentId={game.isHomeGame ? awayTeam.abbreviation : homeTeam.abbreviation}
-        numGamesToDisplay={15}
-      />
+      <GameStats stats={game.stats} awayTeam={awayTeam} homeTeam={homeTeam} />
     </CompletedGameWrapper>
   );
 };
