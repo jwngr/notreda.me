@@ -72,7 +72,7 @@ server for Six Degrees of Wikipedia.
     */15 * * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && ./update.sh
 
     # Run the next game weather update script every hour (7 minutes after the hour starts).
-    7 * * * * cd /home/jwngr/notreda.me/scripts/weather && node ./updateWeatherForUpcomingGame.sh
+    7 * * * * cd /home/jwngr/notreda.me/scripts/weather && ./updateWeatherForUpcomingGame.sh
 
     # Run the future ND schedules audit script every day at 6 AM.
     0 6 * * * cd /home/jwngr/notreda.me/scripts/ndSchedules && node auditFutureSchedules.js
