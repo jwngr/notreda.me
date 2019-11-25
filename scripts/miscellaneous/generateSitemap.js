@@ -5,9 +5,14 @@ const path = require('path');
 const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
 
-const SITEMAP_FILENAME = path.resolve(__dirname, '../../public/sitemap.xml');
+const SITEMAP_FILENAME = path.resolve(__dirname, '../../website/public/sitemap.xml');
 
-const paths = ['/', '/explorables/s1e1-down-to-the-wire/', '/explorables/s1e2-chasing-perfection'];
+const paths = [
+  '/',
+  '/explorables/',
+  '/explorables/s1e1-down-to-the-wire/',
+  '/explorables/s1e2-chasing-perfection',
+];
 
 _.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
   paths.push(`/${season}/`);
