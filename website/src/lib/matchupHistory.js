@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import schedule from '../resources/schedule';
-import {CURRENT_YEAR} from './constants';
+import {CURRENT_SEASON} from './constants';
 
 /**
  * Returns an array of all historical and future matchups against the specified opponent.
@@ -131,7 +131,7 @@ export const getFilteredMatchupsAgainstTeam = (
         futureMatchupsAgainstTeam[selectedMatchupIndexWithinFutureMatchupsArray]
       );
     } else if (
-      selectedSeason === CURRENT_YEAR &&
+      selectedSeason === CURRENT_SEASON &&
       selectedMatchupIndexWithinFutureMatchupsArray === 0 &&
       futureMatchupsAgainstTeam.length > 1
     ) {

@@ -7,8 +7,9 @@ const logger = require('../lib/logger');
 const sentry = require('../lib/sentry');
 const weather = require('../lib/weather');
 const ndSchedules = require('../lib/ndSchedules');
+const {CURRENT_SEASON, ND_HEAD_COACH} = require('../lib/constants');
 
-const SEASON = ndSchedules.CURRENT_SEASON;
+const SEASON = CURRENT_SEASON;
 
 sentry.initialize();
 
@@ -47,6 +48,9 @@ const updateNdSchedule = async () => {
           `Add highlights video for ${SEASON} game versus ${currentSeasonSchedule[i].opponentId}`,
           'warning'
         );
+
+        // Also add the ND head coach as a top-level key to the game data.
+        currentSeasonSchedule[i].headCoach = ND_HEAD_COACH;
       }
 
       const homeTeamWon = gameStats.score.home > gameStats.score.away;

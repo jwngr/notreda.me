@@ -88,6 +88,9 @@ const Location = ({game}) => {
       <LocationInnerWrapper>
         {weatherContent}
         <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
+          {/* Nickname */}
+          {game.nickname ? <p>{game.nickname}</p> : null}
+
           {/* Stadium */}
           {game.location.stadium ? <p>{game.location.stadium}</p> : null}
 

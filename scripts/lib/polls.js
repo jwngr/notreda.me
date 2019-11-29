@@ -3,11 +3,9 @@ const fs = require('fs');
 const path = require('path');
 
 const teams = require('./teams');
-const {CURRENT_SEASON} = require('./ndSchedules');
+const {CURRENT_SEASON} = require('./constants');
 
 const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
-
-module.exports.AP_POLL_SEASONS = _.range(1936, 2019);
 
 module.exports.getForSeason = (season) => {
   try {
@@ -51,7 +49,7 @@ const updateForSeason = (season, seasonPollsData, seasonScheduleData = []) => {
           );
         }
 
-        const opponentTeamName = teams.get(game.opponentId).name;
+        const opponentTeamName = teams.getById(game.opponentId).name;
         if (opponentTeamName in currentWeekPollData.teams) {
           const homeOrAway = game.isHomeGame ? 'away' : 'home';
           _.set(

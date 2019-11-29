@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import {LATEST_YEAR, CURRENT_YEAR} from '../../../lib/constants.js';
+import {LATEST_YEAR, CURRENT_SEASON} from '../../../lib/constants.js';
 
 import {
   NavMenuDecadeYear,
@@ -27,7 +27,7 @@ const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     }
 
     const yearLinkClasses = classNames({
-      'current-year': year === CURRENT_YEAR,
+      'current-year': year === CURRENT_SEASON,
       'selected-year': year === selectedYear,
       'national-championship-year': _.includes(getNationalChampionshipYears(), year),
     });

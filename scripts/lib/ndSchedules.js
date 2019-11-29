@@ -2,20 +2,13 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
+const {ALL_SEASONS, CURRENT_SEASON} = require('./constants');
+
 const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 const COMBINED_SCHEDULE_FILENAME = path.resolve(
   __dirname,
   '../../website/src/resources/schedule.json'
 );
-
-const CURRENT_SEASON = 2019;
-module.exports.CURRENT_SEASON = CURRENT_SEASON;
-const LATEST_SEASON = 2037;
-module.exports.LATEST_SEASON = LATEST_SEASON;
-const ALL_SEASONS = [1887, 1888, 1889, ..._.range(1892, LATEST_SEASON + 1)];
-module.exports.ALL_SEASONS = ALL_SEASONS;
-module.exports.ALL_PLAYED_SEASONS = [1887, 1888, 1889, ..._.range(1892, CURRENT_SEASON + 1)];
-module.exports.AP_POLL_SEASONS = _.range(1936, CURRENT_SEASON + 1);
 
 const getForSeason = (season) => {
   try {

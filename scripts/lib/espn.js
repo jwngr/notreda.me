@@ -3,7 +3,7 @@ const _ = require('lodash');
 const teams = require('./teams');
 const logger = require('./logger');
 const scraper = require('./scraper');
-const {CURRENT_SEASON} = require('./ndSchedules');
+const {isNumber} = require('./utils');
 
 const ESPN_TEAM_HOME_PAGE_URL_PREFIX = `https://www.espn.com/college-football/team/_/id/`;
 
@@ -123,7 +123,7 @@ const _getPollRankingsForWeek = ($, weekIndex) => {
           previousRanking: previousWeekRanking,
         };
 
-        if (typeof points === 'number' && !isNaN(points)) {
+        if (isNumber(points)) {
           teamData.points = points;
         }
 
@@ -325,14 +325,14 @@ const fetchStatsForGame = (gameId) => {
       // count is 0, but we can at the very least check to see if there were any fumbles lost in
       // the game (which is available right at the conclusion of the game). If there are any lost
       // fumbles at all, the fumbles count for at least one team should be non-zero. So if they are
-      // both zero, we know the data is just not available yet, so set the fumble counts to -1 for
-      // now which will hide it on the site itself.
+      // both zero, we know the data is just not available yet, so delete the fumble counts for now
+      // which will hide it on the site itself.
       if (
         stats.home.fumblesLost + stats.away.fumblesLost > 0 &&
         stats.home.fumbles + stats.away.fumbles === 0
       ) {
-        stats.home.fumbles = -1;
-        stats.away.fumbles = -1;
+        delete stats.home.fumbles;
+        delete stats.away.fumbles;
       }
 
       // Line score
@@ -386,7 +386,7 @@ const fetchStatsForGame = (gameId) => {
  *     records.
  */
 const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => {
-  const {espnId} = teams.get(teamId);
+  const {espnId} = teams.getById(teamId);
   const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
 
   let wins = 0;
@@ -447,7 +447,7 @@ const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => 
  *     records.
  */
 const fetchNotreDameWeeklyRecordsForCurrentSeason = async () => {
-  const {espnId} = teams.get('ND');
+  const {espnId} = teams.getById('ND');
   const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
 
   let wins = 0;
