@@ -7,6 +7,7 @@ ndSchedules.transformForAllSeasons((gameData, season, gameIndex) => {
   // if (season === 2018) {
   //   delete gameData.result;
   // }
+  delete gameData.sportsReferenceGameId;
 });
 
 logger.success('Schedule data transformed!');

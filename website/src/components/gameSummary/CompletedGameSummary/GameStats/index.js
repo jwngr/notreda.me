@@ -13,8 +13,8 @@ import {
 import {getDefaultTeamColor} from '../../../../utils';
 
 const GameStats = ({stats, homeTeam, awayTeam}) => {
-  // TODO: remove once all games have stats.
-  if (stats.home.totalYards === -1) {
+  // Return early for games which do not have any stats (such as older or future games).
+  if (typeof stats === 'undefined') {
     return null;
   }
 
@@ -27,15 +27,15 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
   };
 
   let fumblesRow;
-  if (stats.away.fumbles === -1) {
+  if (typeof stats.away.fumbles === 'undefined') {
     fumblesRow = (
       <GameStatsRow
         statName="Fumbles Lost"
         reverseComparison={true}
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['fumblesLost']}`}
-        homeValue={`${stats.home['fumblesLost']}`}
+        awayValue={`${stats.away.fumblesLost}`}
+        homeValue={`${stats.home.fumblesLost}`}
       />
     );
   } else {
@@ -45,8 +45,8 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
         reverseComparison={true}
         awayTeam={awayTeam}
         homeTeam={homeTeam}
-        awayValue={`${stats.away['fumbles']} - ${stats.away['fumblesLost']}`}
-        homeValue={`${stats.home['fumbles']} - ${stats.home['fumblesLost']}`}
+        awayValue={`${stats.away.fumbles} - ${stats.away.fumblesLost}`}
+        homeValue={`${stats.home.fumbles} - ${stats.home.fumblesLost}`}
       />
     );
   }
@@ -197,7 +197,7 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
 };
 
 GameStats.propTypes = {
-  stats: PropTypes.object.isRequired,
+  stats: PropTypes.object,
   awayTeam: PropTypes.object.isRequired,
   homeTeam: PropTypes.object.isRequired,
 };

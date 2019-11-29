@@ -20,7 +20,7 @@ const auditFutureNdSchedules = async () => {
     const priorFutureSeasonNdSchedule = ndSchedules.getForSeason(futureSeason);
 
     const priorOpponentNames = priorFutureSeasonNdSchedule.map(({opponentId}) => {
-      return teams.get(opponentId).name;
+      return teams.getById(opponentId).name;
     });
     const newOpponentNames = newFutureSeasonNdSchedule.map(({opponentName}) => opponentName);
 
@@ -36,7 +36,7 @@ const auditFutureNdSchedules = async () => {
 
     const wrongDateGames = [];
     newFutureSeasonNdSchedule.forEach((newGameData) => {
-      const team = teams.getFromName(newGameData.opponentName);
+      const team = teams.getByName(newGameData.opponentName);
       const priorGameData = _.find(
         priorFutureSeasonNdSchedule,
         ({opponentId}) => team.id === opponentId

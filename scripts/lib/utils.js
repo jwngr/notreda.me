@@ -1,4 +1,4 @@
-module.exports.withCommas = (value) => {
+const withCommas = (value) => {
   if (typeof value !== 'number') {
     throw new Error(`Expected a number, but got ${value} of type "${typeof value}".`);
   }
@@ -18,9 +18,35 @@ const getGameDate = ({date, time, fullDate}) => {
 
   return d;
 };
-module.exports.getGameDate = getGameDate;
 
-module.exports.getGameTimestampInSeconds = ({date, time, fullDate}) => {
+const getGameTimestampInSeconds = ({date, time, fullDate}) => {
   const d = getGameDate({date, time, fullDate});
   return d.getTime() / 1000;
+};
+
+const isNumber = (val) => {
+  return typeof val === 'number' && !isNaN(val);
+};
+
+const isString = (val) => {
+  return typeof val === 'string';
+};
+
+const isNonEmptyString = (val) => {
+  return typeof val === 'string' && val !== '';
+};
+
+const getPossessionInSeconds = (possession) => {
+  const [minutes, seconds] = possession.split(':');
+  return Number(minutes) * 60 + Number(seconds);
+};
+
+module.exports = {
+  isString,
+  isNumber,
+  withCommas,
+  getGameDate,
+  isNonEmptyString,
+  getPossessionInSeconds,
+  getGameTimestampInSeconds,
 };

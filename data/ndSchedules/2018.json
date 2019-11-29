@@ -78,7 +78,6 @@
         "fumbles": 0
       }
     },
-    "sportsReferenceGameId": "2018-09-01-notre-dame",
     "records": {
       "home": {
         "overall": "1-0",
@@ -186,7 +185,6 @@
         "fumbles": 1
       }
     },
-    "sportsReferenceGameId": "2018-09-08-notre-dame",
     "records": {
       "home": {
         "overall": "2-0",
@@ -225,7 +223,6 @@
     },
     "opponentId": "VANDY",
     "coverage": "NBC",
-    "sportsReferenceGameId": "2018-09-15-notre-dame",
     "highlightsYouTubeVideoId": "m07W96ROU9Y",
     "records": {
       "home": {
@@ -330,7 +327,6 @@
     },
     "opponentId": "WAKE",
     "coverage": "ABC",
-    "sportsReferenceGameId": "2018-09-22-wake-forest",
     "highlightsYouTubeVideoId": "GR5k0Ev9R3s",
     "records": {
       "home": {
@@ -434,7 +430,6 @@
     },
     "opponentId": "STAN",
     "coverage": "NBC",
-    "sportsReferenceGameId": "2018-09-29-notre-dame",
     "highlightsYouTubeVideoId": "hi3f-rYUmXA",
     "records": {
       "home": {
@@ -542,7 +537,6 @@
     },
     "opponentId": "VT",
     "coverage": "ABC",
-    "sportsReferenceGameId": "2018-10-06-virginia-tech",
     "highlightsYouTubeVideoId": "XGm1RyGcN1g",
     "records": {
       "home": {
@@ -650,7 +644,6 @@
     },
     "opponentId": "PITT",
     "coverage": "NBC",
-    "sportsReferenceGameId": "2018-10-13-notre-dame",
     "highlightsYouTubeVideoId": "KNxKwNoul-I",
     "records": {
       "home": {
@@ -755,7 +748,6 @@
     "opponentId": "NAVY",
     "coverage": "CBS",
     "espnGameId": 401013189,
-    "sportsReferenceGameId": "2018-10-27-notre-dame",
     "highlightsYouTubeVideoId": "H-WuNqpj0mU",
     "records": {
       "home": {
@@ -859,7 +851,6 @@
     },
     "opponentId": "NW",
     "coverage": "ESPN",
-    "sportsReferenceGameId": "2018-11-03-northwestern",
     "highlightsYouTubeVideoId": "7LKS8RIGi5Y",
     "records": {
       "home": {
@@ -965,7 +956,6 @@
     "opponentId": "FSU",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "euIlgxCHBYY",
-    "sportsReferenceGameId": "2018-11-10-notre-dame",
     "records": {
       "home": {
         "overall": "10-0",
@@ -1059,7 +1049,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
     "time": "2:30 PM",
-    "timezone": "ET",
     "location": {
       "city": "Bronx",
       "state": "NY",
@@ -1072,7 +1061,6 @@
     "opponentId": "SYR",
     "coverage": "NBC",
     "isShamrockSeries": true,
-    "sportsReferenceGameId": "2018-11-17-notre-dame",
     "highlightsYouTubeVideoId": "bWblA0GDXlA",
     "records": {
       "home": {
@@ -1139,7 +1127,7 @@
         "penaltyYards": 45,
         "fumblesLost": 0,
         "possession": "27:47",
-        "fumbles": -1
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 23,
@@ -1160,7 +1148,7 @@
         "penaltyYards": 55,
         "fumblesLost": 0,
         "possession": "32:13",
-        "fumbles": -1
+        "fumbles": 0
       }
     },
     "weather": {
@@ -1183,7 +1171,6 @@
     "opponentId": "USC",
     "coverage": "ABC",
     "highlightsYouTubeVideoId": "Lb8oyowI5E0",
-    "sportsReferenceGameId": "2018-11-24-southern-california",
     "records": {
       "home": {
         "overall": "5-7",
@@ -1313,6 +1300,7 @@
         "away": "4-1"
       }
     },
+    "headCoach": "Brian Kelly",
     "espnGameId": 401032079,
     "highlightsYouTubeVideoId": "8gDbOj7Xt5w",
     "linescore": {

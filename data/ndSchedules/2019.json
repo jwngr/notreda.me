@@ -78,7 +78,6 @@
         "fumbles": 5
       }
     },
-    "sportsReferenceGameId": "2019-09-02-louisville",
     "rankings": {
       "away": {
         "ap": 9,
@@ -100,7 +99,8 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 82
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -116,7 +116,6 @@
       ]
     },
     "opponentId": "UNM",
-    "sportsReferenceGameId": "2019-09-14-notre-dame",
     "highlightsYouTubeVideoId": "7xXMKdV2dJA",
     "rankings": {
       "home": {
@@ -203,7 +202,8 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 75
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": false,
@@ -220,7 +220,6 @@
     },
     "opponentId": "UGA",
     "espnGameId": 401110800,
-    "sportsReferenceGameId": "2019-09-21-georgia",
     "highlightsYouTubeVideoId": "L43HVaImNPU",
     "rankings": {
       "home": {
@@ -310,7 +309,8 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 77
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -327,7 +327,6 @@
     },
     "opponentId": "UVA",
     "espnGameId": 401112472,
-    "sportsReferenceGameId": "2019-09-28-notre-dame",
     "highlightsYouTubeVideoId": "BhBSv3zBmis",
     "rankings": {
       "home": {
@@ -417,7 +416,8 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 68
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -433,7 +433,6 @@
       ]
     },
     "opponentId": "BGSU",
-    "sportsReferenceGameId": "2019-10-05-notre-dame",
     "highlightsYouTubeVideoId": "ALhXzLbvvag",
     "rankings": {
       "home": {
@@ -520,7 +519,8 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 63
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -537,7 +537,6 @@
       ]
     },
     "opponentId": "USC",
-    "sportsReferenceGameId": "2019-10-12-notre-dame",
     "highlightsYouTubeVideoId": "TjM7kDhpHw8",
     "rankings": {
       "home": {
@@ -624,7 +623,8 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 50
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": false,
@@ -640,7 +640,6 @@
       ]
     },
     "opponentId": "MICH",
-    "sportsReferenceGameId": "2019-10-26-michigan",
     "highlightsYouTubeVideoId": "etk4xjpxiL8",
     "rankings": {
       "home": {
@@ -731,7 +730,8 @@
     "weather": {
       "icon": "rain",
       "temperature": 51
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -748,7 +748,6 @@
     },
     "opponentId": "VT",
     "highlightsYouTubeVideoId": "K0ZDXoz5i-o",
-    "sportsReferenceGameId": "2019-11-02-notre-dame",
     "rankings": {
       "home": {
         "ap": 16,
@@ -834,7 +833,8 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 43
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": false,
@@ -851,7 +851,6 @@
     "opponentId": "DUKE",
     "coverage": "ACCN",
     "highlightsYouTubeVideoId": "zfVdhdCbU0Y",
-    "sportsReferenceGameId": "2019-11-09-duke",
     "rankings": {
       "away": {
         "ap": 15,
@@ -938,7 +937,8 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 37
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -955,7 +955,6 @@
     },
     "opponentId": "NAVY",
     "highlightsYouTubeVideoId": "hDUSuGfdImg",
-    "sportsReferenceGameId": "2019-11-16-notre-dame",
     "rankings": {
       "home": {
         "ap": 16,
@@ -1047,7 +1046,8 @@
         7
       ]
     },
-    "result": "W"
+    "result": "W",
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
@@ -1063,7 +1063,6 @@
       ]
     },
     "opponentId": "BC",
-    "sportsReferenceGameId": "2019-11-23-notre-dame",
     "highlightsYouTubeVideoId": "VvC68n_FRgY",
     "rankings": {
       "home": {
@@ -1151,7 +1150,8 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 35
-    }
+    },
+    "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": false,
@@ -1168,7 +1168,6 @@
       ]
     },
     "opponentId": "STAN",
-    "sportsReferenceGameId": "2019-11-30-stanford",
     "rankings": {
       "away": {
         "ap": 15,

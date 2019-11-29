@@ -4,14 +4,13 @@ const path = require('path');
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
+const {CURRENT_SEASON, AP_POLL_SEASONS} = require('../lib/constants');
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
 
-const CURRENT_YEAR = 2019;
-const AP_POLL_START_YEAR = 1936;
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 
-const years = [2019];
-// const years = _.range(AP_POLL_START_YEAR, CURRENT_YEAR + 1);
+const years = [CURRENT_SEASON];
+// const years = _.range(AP_POLL_SEASONS[0], CURRENT_SEASON + 1);
 
 const getHtmlForUrl = (url) => {
   return request({

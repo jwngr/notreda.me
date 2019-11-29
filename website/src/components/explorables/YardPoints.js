@@ -20,7 +20,7 @@ class YardPoints extends Component {
 
     _.forEach(schedule, (yearData, year) => {
       let currentData = schedule[year].map(({stats, score, opponentId, result, isHomeGame}) => {
-        if (stats && _.get(stats, 'home.rushYards', -1) !== -1) {
+        if (typeof stats !== 'undefined') {
           let rushYardsDifferential;
           let passYardsDifferential;
 
