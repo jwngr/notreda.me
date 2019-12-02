@@ -68,26 +68,28 @@ const updateNdSchedule = async () => {
     ({result}) => typeof result === 'undefined'
   );
 
-  for (gameData of currentSeasonUpcomingGames) {
-    const priorGameDate = utils.getGameDate(gameData);
-    const newGameDate = await espn.fetchKickoffTimeForGame(gameData.espnGameId);
+  for (const currentSeasonUpcomingGameData of currentSeasonUpcomingGames) {
+    const priorGameDate = utils.getGameDate(currentSeasonUpcomingGameData);
+    const newGameDate = await espn.fetchKickoffTimeForGame(
+      currentSeasonUpcomingGameData.espnGameId
+    );
 
-    const priorIsTimeTbd = typeof gameData.fullDate === 'undefined';
+    const priorIsTimeTbd = typeof currentSeasonUpcomingGameData.fullDate === 'undefined';
     const newIsTimeTbd = newGameDate === 'TBD';
 
     if (priorIsTimeTbd && !newIsTimeTbd) {
       sentry.captureMessage(
-        `Manually add newly announced kickoff time for ${SEASON} ${gameData.opponentId} game`,
+        `Manually add newly announced kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`,
         'warning'
       );
     } else if (newIsTimeTbd && !priorIsTimeTbd) {
       sentry.captureMessage(
-        `Manually remove kickoff time for ${SEASON} ${gameData.opponentId} game`,
+        `Manually remove kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`,
         'warning'
       );
     } else if (newGameDate.getTime() !== priorGameDate.getTime()) {
       sentry.captureMessage(
-        `Manually update kickoff time for ${SEASON} ${gameData.opponentId} game`,
+        `Manually update kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`,
         'warning'
       );
     }
