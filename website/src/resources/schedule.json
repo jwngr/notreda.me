@@ -52249,21 +52249,85 @@
       },
       "records": {
         "home": {
-          "overall": "4-7",
-          "home": "3-3",
+          "overall": "4-8",
+          "home": "3-4",
           "away": "1-4"
         },
         "away": {
-          "overall": "9-2",
+          "overall": "10-2",
           "home": "7-0",
-          "away": "2-2"
+          "away": "3-2"
         }
       },
       "weather": {
         "icon": "rain",
-        "temperature": 47
+        "temperature": 48
       },
-      "espnGameId": 401114212
+      "espnGameId": 401114212,
+      "headCoach": "Brian Kelly",
+      "stats": {
+        "away": {
+          "firstDowns": 24,
+          "thirdDownAttempts": 14,
+          "thirdDownConversions": 4,
+          "fourthDownAttempts": 2,
+          "fourthDownConversions": 2,
+          "totalYards": 445,
+          "passYards": 255,
+          "passCompletions": 17,
+          "passAttempts": 30,
+          "yardsPerPass": 8.5,
+          "interceptionsThrown": 0,
+          "rushYards": 190,
+          "rushAttempts": 37,
+          "yardsPerRush": 5.1,
+          "penalties": 11,
+          "penaltyYards": 95,
+          "fumblesLost": 0,
+          "possession": "29:57",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 26,
+          "thirdDownAttempts": 14,
+          "thirdDownConversions": 4,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 394,
+          "passYards": 276,
+          "passCompletions": 28,
+          "passAttempts": 47,
+          "yardsPerPass": 5.9,
+          "interceptionsThrown": 0,
+          "rushYards": 118,
+          "rushAttempts": 28,
+          "yardsPerRush": 4.2,
+          "penalties": 6,
+          "penaltyYards": 56,
+          "fumblesLost": 2,
+          "possession": "30:03",
+          "fumbles": 2
+        }
+      },
+      "score": {
+        "home": 24,
+        "away": 45
+      },
+      "linescore": {
+        "away": [
+          7,
+          14,
+          7,
+          17
+        ],
+        "home": [
+          10,
+          7,
+          0,
+          7
+        ]
+      },
+      "result": "W"
     }
   ],
   "2020": [
