@@ -7,4 +7,5 @@ schedules, stats, and analyses.
 
 ## Documentation
 
+- [Data Notes](./docs/data-notes.md) - Notes on source data irregularities.
 - [Server Setup](./docs/server-setup.md) - How to set up a server to run notreda.me.
