@@ -3,11 +3,6 @@ const ndSchedules = require('../lib/ndSchedules');
 
 logger.info('Transforming schedule data...');
 
-ndSchedules.transformForAllSeasons((gameData, season, gameIndex) => {
-  // if (season === 2018) {
-  //   delete gameData.result;
-  // }
-  delete gameData.sportsReferenceGameId;
-});
+ndSchedules.transformForAllSeasons((gameData, season, gameIndex) => {});
 
 logger.success('Schedule data transformed!');
