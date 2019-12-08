@@ -1257,5 +1257,40 @@
       ]
     },
     "result": "W"
+  },
+  {
+    "isHomeGame": false,
+    "coverage": "ABC",
+    "fullDate": "Sat Dec 28 2019 12:00:00 GMT-0500",
+    "nickname": "Camping World Bowl",
+    "location": {
+      "city": "Orlando",
+      "state": "FL",
+      "stadium": "Camping World Stadium",
+      "coordinates": [
+        28.539074,
+        -81.404028
+      ]
+    },
+    "opponentId": "ISU",
+    "rankings": {
+      "away": {
+        "ap": 14,
+        "coaches": 14,
+        "cfbPlayoff": 15
+      }
+    },
+    "records": {
+      "away": {
+        "overall": "10-2",
+        "home": "7-0",
+        "away": "3-2"
+      },
+      "home": {
+        "overall": "7-5",
+        "home": "6-2",
+        "away": "1-3"
+      }
+    }
   }
 ]

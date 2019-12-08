@@ -69,7 +69,7 @@ const Game = ({game, year, index, isSelected}) => {
     const time = game.isTimeTbd ? 'TBD' : format(new Date(game.fullDate), 'h:mm a');
 
     lastColumnContent = (
-      <TelevisionCoverage channel={game.coverage.toLowerCase()}>
+      <TelevisionCoverage channel={game.coverage && game.coverage.toLowerCase()}>
         <p>{time}</p>
         {game.coverage && game.coverage !== 'TBD' && (
           <img
