@@ -14,7 +14,7 @@ module.exports = ({location, isGameOver}, assert) => {
     const expectedKeysDomesticGames = ['city', 'state', 'stadium', 'coordinates'].sort();
     const expectedKeysInternationalGames = ['city', 'country', 'stadium', 'coordinates'].sort();
 
-    // TODO: remove the next line once all games have stadiums.
+    // TODO: Remove the next line once all games have stadiums.
     const expectedKeysDomesticGamesNoStadium = ['city', 'state', 'coordinates'].sort();
 
     wrappedAssert(
@@ -24,7 +24,6 @@ module.exports = ({location, isGameOver}, assert) => {
       'Location does not have expected keys.'
     );
 
-    // TODO: check lat and lon more strictly (e.g. ensure values are valid).
     wrappedAssert(
       location.coordinates instanceof Array && location.coordinates.length === 2,
       'Location has invalid coordinates.'

@@ -4,14 +4,24 @@ const logger = require('./logger');
 const scraper = require('./scraper');
 const {CURRENT_SEASON} = require('./constants');
 
-const _normalizeOpponentName = (val) => {
-  return (
-    {
-      'Bowling Green': 'Bowling Green State',
-      Pitt: 'Pittsburgh',
-      'Miami (FL)': 'Miami',
-    }[val] || val
-  ).trim();
+const AWAY_GAMES_WITHOUT_AT = {
+  2020: ['Navy', 'Wake Forest', 'Wisconsin'],
+};
+
+const OPPONENT_NAME_MAPPINGS = {
+  'Bowling Green': 'Bowling Green State',
+  Pitt: 'Pittsburgh',
+  'Miami (FL)': 'Miami',
+};
+
+const _getNormalizedOpponentName = (rawOpponentNameString) => {
+  const val = _.clone(rawOpponentNameString)
+    .replace(/^at /g, '')
+    .replace(/^vs /g, '')
+    .replace(/\(in .*$/g, '')
+    .trim();
+
+  return OPPONENT_NAME_MAPPINGS[val] || val;
 };
 
 /**
@@ -42,21 +52,22 @@ const fetchFutureNdSchedules = () => {
               const gameInfoTokens = $(gameli)
                 .text()
                 .trim()
-                .split(' - ');
+                .split(' - ')
+                .map((val) => val.trim());
 
               const date =
                 gameInfoTokens[0] === 'TBA' ? 'TBD' : new Date(`${gameInfoTokens[0]}/${season}`);
-              // TODO: this is not correct.
-              const isHomeGame = !_.startsWith(gameInfoTokens[1], 'at');
-              const opponentName = _.clone(gameInfoTokens[1])
-                .replace(/^at /g, '')
-                .replace(/^vs /g, '')
-                .replace(/\(in .*$/g, '');
+
+              const opponentName = _getNormalizedOpponentName(gameInfoTokens[1]);
+
+              const isHomeGame =
+                !_.startsWith(gameInfoTokens[1], 'at') &&
+                !_.includes(AWAY_GAMES_WITHOUT_AT[season], opponentName);
 
               const gameData = {
                 date,
                 isHomeGame,
-                opponentName: _normalizeOpponentName(opponentName),
+                opponentName,
               };
 
               if (_.includes(gameInfoTokens[1], '(in ')) {

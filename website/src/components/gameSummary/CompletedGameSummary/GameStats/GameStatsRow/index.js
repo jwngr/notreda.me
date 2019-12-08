@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import {StatName, StatValue, GameStatsRowWrapper} from './index.styles';
 
-import {getDefaultTeamColor} from '../../../../../utils';
+import {DEFAULT_TEAM_COLOR} from '../../../../../lib/constants';
 
 import {STATS_SECTION_BREAKPOINTS} from '../index.styles';
 
@@ -85,7 +85,7 @@ const GameStatsRow = ({
   let awayStyles = {};
   if (isAwayHighlighted) {
     awayStyles = {
-      color: awayTeam.color || getDefaultTeamColor(),
+      color: awayTeam.color || DEFAULT_TEAM_COLOR,
       fontWeight: 'bold',
     };
   }
@@ -93,7 +93,7 @@ const GameStatsRow = ({
   let homeStyles = {};
   if (isHomeHighlighted) {
     homeStyles = {
-      color: homeTeam.color || getDefaultTeamColor(),
+      color: homeTeam.color || DEFAULT_TEAM_COLOR,
       fontWeight: 'bold',
     };
   }

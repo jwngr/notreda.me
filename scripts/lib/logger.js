@@ -15,6 +15,11 @@ const _log = (message, data, color) => {
   }
 };
 
+module.exports.log = (...args) => {
+  // eslint-disable-next-line no-console
+  console.log(...args);
+};
+
 module.exports.info = (message, data) => {
   _log(`[INFO] ${message}`, data, black);
 };
@@ -29,10 +34,6 @@ module.exports.error = (message, data) => {
 
 module.exports.success = (message, data) => {
   _log(`[SUCCESS] ${message}`, data, green);
-};
-
-module.exports.todo = (message, data) => {
-  _log(`[TODO] ${message}`, data, red);
 };
 
 module.exports.fail = (message, data) => {

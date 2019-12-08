@@ -77,7 +77,8 @@ const getGamesForYear = (year) => {
         opponent = opponent.split('(')[0].trim();
       }
 
-      // TODO: clean up state abbreviations
+      // Clean up state abbreviations
+      // ???
 
       // Ignore Blue-Gold spring games and cancelled games
       if (!_.includes(opponent, 'Game') && result !== 'Cancelled') {

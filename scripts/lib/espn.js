@@ -15,7 +15,7 @@ const NORMALIZED_TEAM_NAMES = {
   'North Carolina State': 'NC State',
 };
 
-// TODO: pull these dynamically instead of hard-coding them.
+// TODO: Pull these dynamically instead of hard-coding them.
 const AP_COACHES_POLL_DATES_2019 = [
   'Preseason',
   '2019-09-03',

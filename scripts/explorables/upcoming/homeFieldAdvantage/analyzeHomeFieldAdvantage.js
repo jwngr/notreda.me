@@ -1,185 +1,122 @@
 const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
 
-const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../../../schedules/data');
+const logger = require('../../../lib/logger');
+const ndSchedules = require('../../../lib/ndSchedules');
 
-const scheduleDataFilenames = fs.readdirSync(SCHEDULE_DATA_DIRECTORY);
+const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
-let games = {
-  total: 0,
-  home: {
-    total: 0,
+const _getInitialStats = () =>
+  _.clone({
     wins: 0,
     losses: 0,
     ties: 0,
+  });
+
+const _getGamesPlayed = (statsKey) => {
+  const {wins, losses, ties} = _.get(stats, statsKey);
+  return wins + losses + ties;
+};
+
+const _getRecord = (statsKey) => {
+  const {wins, losses, ties} = _.get(stats, statsKey);
+  return `${wins}-${losses}-${ties}`;
+};
+
+const _getWinPercentage = (statsKey) => {
+  const {wins, ties} = _.get(stats, statsKey);
+
+  const gamesPlayed = _getGamesPlayed(statsKey);
+  if (gamesPlayed === 0) {
+    return '0%';
+  }
+
+  // Ties count as half of a win.
+  const adjustedWins = wins + ties * 0.5;
+
+  return ((adjustedWins / gamesPlayed) * 100).toFixed(2) + '%';
+};
+
+// Initialize stats.
+const stats = {
+  overall: _getInitialStats(),
+  locations: {
+    home: _getInitialStats(),
+    away: _getInitialStats(),
+    neutral: _getInitialStats(),
   },
-  away: {
-    total: 0,
-    wins: 0,
-    losses: 0,
-    ties: 0,
-  },
-  ndStadium: {
-    total: 0,
-    wins: 0,
-    losses: 0,
-    ties: 0,
-  },
-  cartierField: {
-    total: 0,
-    wins: 0,
-    losses: 0,
-    ties: 0,
-  },
-  neutralHomeGames: {
-    total: 0,
-    wins: 0,
-    losses: 0,
-    ties: 0,
+  headCoaches: {},
+  homeStadiums: {
+    notreDameStadium: _getInitialStats(),
+    cartierField: _getInitialStats(),
+    greenStockingBallPark: _getInitialStats(),
+    neutralHome: _getInitialStats(),
   },
 };
 
-const ndStadiums = new Set();
+_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData) => {
+  const currentYearStats = _getInitialStats();
 
-const GAME_RESULTS_MAP = {
-  W: 'wins',
-  L: 'losses',
-  T: 'ties',
-};
-
-// TODO: per coach stats
-
-scheduleDataFilenames.forEach((scheduleDataFilename) => {
-  const year = scheduleDataFilename.replace('.json', '');
-  const schedule = require(`${SCHEDULE_DATA_DIRECTORY}/${scheduleDataFilename}`);
-
-  let currentYearStats = {
-    total: 0,
-    home: {
-      total: 0,
-      wins: 0,
-      losses: 0,
-      ties: 0,
-    },
-    away: {
-      total: 0,
-      wins: 0,
-      losses: 0,
-      ties: 0,
-    },
-  };
-
-  schedule.forEach((gameData) => {
+  seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
-      games.total++;
-      currentYearStats.total++;
+      const resultString = _getResultString(gameData.result);
 
+      let homeAwayOrNeutral;
       if (gameData.isHomeGame) {
-        games.home.total++;
-        games.home[GAME_RESULTS_MAP[gameData.result]]++;
-
-        currentYearStats.home.total++;
-        currentYearStats.home[GAME_RESULTS_MAP[gameData.result]]++;
-
-        if (gameData.location.city === 'Notre Dame') {
-          ndStadiums.add(gameData.location.stadium);
-        }
-
-        // TODO: what is "Green Stocking Ball Park"?
-
-        if (gameData.location.stadium === 'Notre Dame Stadium') {
-          games.ndStadium.total++;
-          games.ndStadium[GAME_RESULTS_MAP[gameData.result]]++;
-        } else if (gameData.location.stadium === 'Cartier Field') {
-          games.cartierField.total++;
-          games.cartierField[GAME_RESULTS_MAP[gameData.result]]++;
-        } else {
-          games.neutralHomeGames.total++;
-          games.neutralHomeGames[GAME_RESULTS_MAP[gameData.result]]++;
-        }
+        homeAwayOrNeutral = gameData.location.city === 'Notre Dame' ? 'home' : 'neutral';
       } else {
-        games.away.total++;
-        games.away[GAME_RESULTS_MAP[gameData.result]]++;
+        // TODO: Handle neutral site away games.
+        homeAwayOrNeutral = 'away';
+      }
 
-        currentYearStats.away.total++;
-        currentYearStats.away[GAME_RESULTS_MAP[gameData.result]]++;
+      stats.headCoaches[gameData.headCoach] =
+        stats.headCoaches[gameData.headCoach] || _getInitialStats();
+
+      stats.overall[resultString]++;
+      stats.locations[homeAwayOrNeutral][resultString]++;
+      currentYearStats[resultString]++;
+      stats.headCoaches[gameData.headCoach][resultString]++;
+
+      if (gameData.location.city === 'Notre Dame') {
+        let homeStadiumsKey;
+        switch (gameData.location.stadium) {
+          case 'Notre Dame Stadium':
+            homeStadiumsKey = 'notreDameStadium';
+            break;
+          case 'Cartier Field':
+            homeStadiumsKey = 'cartierField';
+            break;
+          case 'Green Stocking Ball Park':
+            homeStadiumsKey = 'greenStockingBallPark';
+            break;
+          default:
+            throw new Error('Unexpected home game stadium.');
+        }
+
+        stats.homeStadiums[homeStadiumsKey].total++;
+        stats.homeStadiums[homeStadiumsKey][resultString]++;
       }
     }
   });
-
-  console.log(
-    `${year} HOME GAMES WIN PERCENTAGE:`,
-    ((currentYearStats.home.wins / currentYearStats.home.total) * 100).toFixed(2) + '%'
-  );
-  console.log(
-    `${year} AWAY GAMES WIN PERCENTAGE:`,
-    ((currentYearStats.away.wins / currentYearStats.away.total) * 100).toFixed(2) + '%'
-  );
-
-  console.log('-------------------------');
 });
 
-console.log(ndStadiums);
+const headers = ['Stat', 'Games Played', 'Record', 'Win Percentage'];
+logger.log(headers.join('\t'));
 
-console.log('NUM GAMES:', games.total);
+const rows = [
+  ['Overall', 'overall'],
+  ['Home', 'locations.home'],
+  ['Away', 'locations.away'],
+  ['Neutral', 'locations.neutral'],
+  ['ND Stadium', 'homeStadiums.notreDameStadium'],
+  ['Cartier Field', 'homeStadiums.cartierField'],
+  ['Green Stocking Ball Park', 'homeStadiums.greenStockingBallPark'],
+  ..._.map(Object.keys(stats.headCoaches), (headCoach) => [headCoach, ['headCoaches', headCoach]]),
+];
 
-console.log('-------------------------');
-
-console.log('NUM HOME GAMES:', games.home.total);
-console.log('HOME GAMES RECORD:', `${games.home.wins}-${games.home.losses}-${games.home.ties}`);
-console.log(
-  'HOME GAMES WIN PERCENTAGE:',
-  ((games.home.wins / games.home.total) * 100).toFixed(2) + '%'
-);
-
-console.log('-------------------------');
-
-console.log('NUM AWAY GAMES:', games.away.total);
-console.log('AWAY GAMES RECORD:', `${games.away.wins}-${games.away.losses}-${games.away.ties}`);
-console.log(
-  'AWAY GAMES WIN PERCENTAGE:',
-  ((games.away.wins / games.away.total) * 100).toFixed(2) + '%'
-);
-
-console.log('-------------------------');
-
-console.log('NUM ND STADIUM GAMES:', games.ndStadium.total);
-console.log(
-  'ND STADIUM GAMES RECORD:',
-  `${games.ndStadium.wins}-${games.ndStadium.losses}-${games.ndStadium.ties}`
-);
-console.log(
-  'ND STADIUM GAMES WIN PERCENTAGE:',
-  ((games.ndStadium.wins / games.ndStadium.total) * 100).toFixed(2) + '%'
-);
-
-console.log('-------------------------');
-
-console.log('NUM CARTIER FIELD GAMES:', games.cartierField.total);
-console.log(
-  'CARTIER FIELD GAMES RECORD:',
-  `${games.cartierField.wins}-${games.cartierField.losses}-${games.cartierField.ties}`
-);
-console.log(
-  'CARTIER FIELD GAMES WIN PERCENTAGE:',
-  ((games.cartierField.wins / games.cartierField.total) * 100).toFixed(2) + '%'
-);
-
-console.log('-------------------------');
-
-console.log('NUM NEUTRAL HOME GAMES:', games.neutralHomeGames.total);
-console.log(
-  'NEUTRAL HOME GAMES RECORD:',
-  `${games.neutralHomeGames.wins}-${games.neutralHomeGames.losses}-${games.neutralHomeGames.ties}`
-);
-console.log(
-  'NEUTRAL HOME GAMES WIN PERCENTAGE:',
-  ((games.neutralHomeGames.wins / games.neutralHomeGames.total) * 100).toFixed(2) + '%'
-);
-
-// fs.writeFileSync(
-//   `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,
-//   JSON.stringify(scorigamiMatrix, null, 2)
-// );
+_.forEach(rows, ([statName, statsKey]) => {
+  logger.log(
+    [statName, _getGamesPlayed(statsKey), _getRecord(statsKey), _getWinPercentage(statsKey)].join(
+      '\t'
+    )
+  );
+});

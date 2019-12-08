@@ -1,12 +1,6 @@
 import theme from './resources/theme';
 
-/**
- * Returns the default team color.
- * TODO: move this to constants.js.
- */
-export const getDefaultTeamColor = () => {
-  return theme.colors.red;
-};
+// TODO: Move this file into ./lib.
 
 /**
  * Returns the theme color for the provided result.

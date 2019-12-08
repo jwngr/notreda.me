@@ -10,7 +10,7 @@ import {
   GameStatsHeaderSpacer,
 } from './index.styles';
 
-import {getDefaultTeamColor} from '../../../../utils';
+import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
 
 const GameStats = ({stats, homeTeam, awayTeam}) => {
   // Return early for games which do not have any stats (such as older or future games).
@@ -19,11 +19,11 @@ const GameStats = ({stats, homeTeam, awayTeam}) => {
   }
 
   const homeTeamColorStyles = {
-    backgroundColor: homeTeam.color || getDefaultTeamColor(),
+    backgroundColor: homeTeam.color || DEFAULT_TEAM_COLOR,
   };
 
   const awayTeamColorStyles = {
-    backgroundColor: awayTeam.color || getDefaultTeamColor(),
+    backgroundColor: awayTeam.color || DEFAULT_TEAM_COLOR,
   };
 
   let fumblesRow;

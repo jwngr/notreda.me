@@ -88,9 +88,8 @@ const fn = async () => {
 
   let results;
   try {
-    results = await Promise.all(promises);
-
-    // TODO: filter out undefined values caused by failures
+    // Filter out undefined values caused by failures.
+    results = _.filter(await Promise.all(promises), _.identity);
 
     _.forEach(results, (result, index) => {
       _.merge(yearData[index], {stats: result});

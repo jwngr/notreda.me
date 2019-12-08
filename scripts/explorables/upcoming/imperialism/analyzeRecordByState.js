@@ -1,132 +1,121 @@
 const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
 
-const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../../../schedules/data');
+const logger = require('../../../lib/logger');
+const ndSchedules = require('../../../lib/ndSchedules');
 
-const schedulesDataFilenames = fs.readdirSync(SCHEDULE_DATA_DIRECTORY);
+// TODO: Analyze record based on location of opponent's campus, not just where the game was played.
 
-let stateRecords = {};
-let countryRecords = {};
+const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
-// TODO: analyze record based on state where opponent is from, now where game was played
+const _getInitialStats = () =>
+  _.clone({
+    games: 0,
+    wins: 0,
+    losses: 0,
+    ties: 0,
+    latestResult: null,
+    nextScheduledGame: null,
+    teams: new Set(),
+  });
 
-const GAME_RESULTS_MAP = {
-  W: 'wins',
-  L: 'losses',
-  T: 'ties',
+const _getGamesPlayed = (statsKey) => {
+  const {wins, losses, ties} = _.get(stats, statsKey);
+  return wins + losses + ties;
 };
 
-schedulesDataFilenames.forEach((schedulesDataFilename) => {
-  const year = schedulesDataFilename.split('.')[0];
-  const schedule = require(`${SCHEDULE_DATA_DIRECTORY}/${schedulesDataFilename}`);
+const _getRecord = (statsKey) => {
+  const {wins, losses, ties} = _.get(stats, statsKey);
+  return `${wins}-${losses}-${ties}`;
+};
 
-  schedule.forEach((gameData) => {
-    const state = _.get(gameData, 'location.state');
-    const country = _.get(gameData, 'location.country', 'USA');
+const _getWinPercentage = (statsKey) => {
+  const {wins, ties} = _.get(stats, statsKey);
 
-    if (state) {
-      if (!(state in stateRecords)) {
-        stateRecords[state] = {
-          games: 0,
-          wins: 0,
-          losses: 0,
-          ties: 0,
-          latestResult: null,
-          nextScheduledGame: null,
-          teams: new Set(),
-        };
+  const gamesPlayed = _getGamesPlayed(statsKey);
+  if (gamesPlayed === 0) {
+    return '0%';
+  }
+
+  // Ties count as half of a win.
+  const adjustedWins = wins + ties * 0.5;
+
+  return ((adjustedWins / gamesPlayed) * 100).toFixed(2) + '%';
+};
+
+let stats = {
+  state: {},
+  country: {},
+};
+
+_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
+  seasonScheduleData.forEach((gameData) => {
+    if (gameData.location !== 'TBD') {
+      const stateOrCountryKey =
+        typeof gameData.location.state === 'undefined' ? 'country' : 'state';
+      const stateOrCountryValue = _.get(gameData, ['location', stateOrCountryKey]);
+
+      if (!_.has(stats[stateOrCountryKey], stateOrCountryValue)) {
+        stats[stateOrCountryKey][stateOrCountryValue] = _getInitialStats();
       }
 
       if (gameData.result) {
-        stateRecords[state].games += 1;
-        stateRecords[state][GAME_RESULTS_MAP[gameData.result]] += 1;
-        stateRecords[state].latestResult = gameData.result;
-        stateRecords[state].teams.add(gameData.opponentId);
-      } else if (stateRecords[state].nextScheduledGame === null) {
-        stateRecords[state].nextScheduledGame =
-          gameData.date === 'TBD' ? `${year} TBD` : gameData.date;
+        stats[stateOrCountryKey][stateOrCountryValue][_getResultString(gameData.result)] += 1;
+        stats[stateOrCountryKey][stateOrCountryValue].latestResult = gameData.result;
+        stats[stateOrCountryKey][stateOrCountryValue].teams.add(gameData.opponentId);
+      } else if (stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame === null) {
+        stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame =
+          gameData.date === 'TBD' ? `${season} TBD` : gameData.date;
       }
-    }
-
-    if (!(country in countryRecords)) {
-      countryRecords[country] = {
-        games: 0,
-        wins: 0,
-        losses: 0,
-        ties: 0,
-        latestResult: null,
-        nextScheduledGame: null,
-        teams: new Set(),
-      };
-    }
-
-    if (gameData.result) {
-      countryRecords[country].games += 1;
-      countryRecords[country][GAME_RESULTS_MAP[gameData.result]] += 1;
-      countryRecords[country].latestResult = gameData.result;
-      countryRecords[country].teams.add(gameData.opponentId);
-    } else if (countryRecords[country].nextScheduledGame === null) {
-      countryRecords[country].nextScheduledGame =
-        gameData.date === 'TBD' ? `${year} TBD` : gameData.date;
     }
   });
 });
 
-const getWinPercentage = ({games, wins}) => {
-  return ((wins / games) * 100).toFixed(2);
-};
+logger.log(
+  [
+    'State',
+    'Games Played',
+    'Record',
+    'Win Percentage',
+    'Latest Result',
+    'Next Scheduled Game',
+  ].join('\t')
+);
 
-_.forEach(stateRecords, (details, state) => {
-  console.log(
-    state,
-    details.games,
-    `${details.wins}-${details.losses}-${details.ties}`,
-    getWinPercentage(details) + '%',
-    details.latestResult,
-    details.nextScheduledGame || 'None',
-    details.teams
+_.forEach(stats.state, (stateStats, state) => {
+  logger.log(
+    [
+      state,
+      _getGamesPlayed(['state', state]),
+      _getRecord(['state', state]),
+      _getGamesPlayed(['state', state]),
+      stateStats.latestResult,
+      stateStats.nextScheduledGame || 'None',
+    ].join('\t')
   );
 });
 
-console.log('-------------------------');
+logger.newline();
 
-const stateRecordsPlayed = _.filter(stateRecords, ({games}) => games > 0);
-
-console.log('NUM STATES PLAYED:', _.size(stateRecordsPlayed));
-console.log(
-  'LATEST GAME IN STATES PLAYED RECORD:',
-  _.size(_.filter(stateRecordsPlayed, ({latestResult}) => latestResult === 'W')),
-  '-',
-  _.size(_.filter(stateRecordsPlayed, ({latestResult}) => latestResult === 'L')),
-  '-',
-  _.size(_.filter(stateRecordsPlayed, ({latestResult}) => latestResult === 'T'))
+logger.log(
+  [
+    'Country',
+    'Games Played',
+    'Record',
+    'Win Percentage',
+    'Latest Result',
+    'Next Scheduled Game',
+  ].join('\t')
 );
 
-console.log('-------------------------');
-
-_.forEach(countryRecords, (details, country) => {
-  console.log(
-    country,
-    details.games,
-    `${details.wins}-${details.losses}-${details.ties}`,
-    getWinPercentage(details) + '%',
-    details.latestResult,
-    details.nextScheduledGame || 'None',
-    details.teams
+_.forEach(stats.country, (countryStats, country) => {
+  logger.log(
+    [
+      country,
+      _getGamesPlayed(['country', country]),
+      _getRecord(['country', country]),
+      _getGamesPlayed(['country', country]),
+      countryStats.latestResult,
+      countryStats.nextScheduledGame || 'None',
+    ].join('\t')
   );
 });
-
-console.log('-------------------------');
-
-const countryRecordsPlayed = _.filter(countryRecords, ({games}) => games > 0);
-
-console.log('NUM COUNTRIES PLAYED:', _.size(countryRecordsPlayed));
-console.log(
-  'LATEST GAME IN COUNTRIES PLAYED RECORD:',
-  _.size(_.filter(countryRecordsPlayed, ({latestResult}) => latestResult === 'W')),
-  '-',
-  _.size(_.filter(countryRecordsPlayed, ({latestResult}) => latestResult === 'L')),
-  '-',
-  _.size(_.filter(countryRecordsPlayed, ({latestResult}) => latestResult === 'T'))
-);

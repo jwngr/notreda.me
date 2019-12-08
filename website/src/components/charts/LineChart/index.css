@@ -58,14 +58,12 @@ const colors = [
   stroke: #f781bf;
 }
 
-/* TODO: update color scheme */
-
 .series-8 {
-  stroke: #f781bf;
+  stroke: #8007d1;
 }
 
 .series-9 {
-  stroke: #f781bf;
+  stroke: #000000;
 }
 
 .dot.series-0 {
@@ -100,12 +98,10 @@ const colors = [
   fill: #f781bf;
 }
 
-/* TODO: update color scheme */
-
 .dot.series-8 {
-  fill: #f781bf;
+  fill: #8007d1;
 }
 
 .dot.series-9 {
-  fill: #f781bf;
+  fill: #000000;
 }

@@ -7,7 +7,7 @@ import YouTubeIcon from '../../../common/YouTubeIcon';
 
 import {ScoreColumn, LinescoreWrapper, AbbreviationColumn} from './index.styles';
 
-import {getDefaultTeamColor} from '../../../../utils';
+import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
 
 const Linescore = ({homeTeam, awayTeam, linescore, highlightsYouTubeVideoId}) => {
   // TODO: remove once all games have a linescore
@@ -16,11 +16,11 @@ const Linescore = ({homeTeam, awayTeam, linescore, highlightsYouTubeVideoId}) =>
   }
 
   const homeTeamColorStyles = {
-    color: homeTeam.color || getDefaultTeamColor(),
+    color: homeTeam.color || DEFAULT_TEAM_COLOR,
   };
 
   const awayTeamColorStyles = {
-    color: awayTeam.color || getDefaultTeamColor(),
+    color: awayTeam.color || DEFAULT_TEAM_COLOR,
   };
 
   let totalScores = {

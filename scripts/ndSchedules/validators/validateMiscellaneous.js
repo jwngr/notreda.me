@@ -42,7 +42,7 @@ module.exports = (
     /*********************************/
     /*  HIGHLIGHTS YOUTUBE VIDEO ID  */
     /*********************************/
-    // TODO: add highlights video IDs for older games.
+    // TODO: Add highlights video IDs for older games.
     if (season >= 2015) {
       assert(
         isNonEmptyString(highlightsYouTubeVideoId),

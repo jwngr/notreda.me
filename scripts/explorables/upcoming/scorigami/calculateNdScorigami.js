@@ -3,35 +3,30 @@ const fs = require('fs');
 const path = require('path');
 
 const logger = require('../../../lib/logger');
-const {ALL_PLAYED_SEASONS} = require('../../../lib/constants');
+const ndSchedules = require('../../../lib/ndSchedules');
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
-let numGames = 0;
+let gamesPlayedCount = 0;
 const scorigamiMatrix = [];
 
-ALL_PLAYED_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
-
+_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData) => {
   seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
-      numGames++;
+      gamesPlayedCount++;
 
       const highScore = Math.max(gameData.score.home, gameData.score.away);
       const lowScore = Math.min(gameData.score.home, gameData.score.away);
 
-      const currentEntry = _.get(scorigamiMatrix, [highScore, lowScore], 0);
-      _.set(scorigamiMatrix, [highScore, lowScore], currentEntry + 1);
-
-      if (season === 2018) {
-        console.log('2018', gameData.opponentId, currentEntry);
-      }
+      _.update(scorigamiMatrix, [highScore, lowScore], (val) => (val || 0) + 1);
     }
   });
 });
 
-logger.info('NUM GAMES:', numGames);
-logger.info('SCORIGAMI MATRIX:', JSON.stringify(scorigamiMatrix));
+logger.log('Games played count:', gamesPlayedCount);
+
+logger.log('\nScorigami matrix:');
+logger.log(JSON.stringify(scorigamiMatrix));
 
 fs.writeFileSync(
   `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,

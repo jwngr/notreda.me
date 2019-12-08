@@ -31,8 +31,6 @@ const getForAllSeasons = () => {
 module.exports.getForAllSeasons = getForAllSeasons;
 
 const updateForSeason = (season, seasonScheduleData) => {
-  // TODO: handle file not existing.
-
   fs.writeFileSync(
     `${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`,
     JSON.stringify(seasonScheduleData, null, 2)

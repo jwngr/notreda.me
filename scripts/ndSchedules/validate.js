@@ -71,8 +71,6 @@ ALL_SEASONS.forEach((season) => {
 
     previousGameData = _currentGameData;
   });
-
-  // TODO: ensure game coverage corresponds to an actual PNG in the webstie images directory.
 });
 
 if (_numIgnoredErrorsFound !== 0) {

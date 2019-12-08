@@ -34,15 +34,22 @@ const auditFutureNdSchedules = async () => {
       .value();
     const diffGames = _.union(priorFirstDiff, newFirstDiff);
 
-    const wrongDateGames = [];
+    const gamesWithWrongDate = [];
+    const gamesWithWrongHomeStatus = [];
     newFutureSeasonNdSchedule.forEach((newGameData) => {
       const team = teams.getByName(newGameData.opponentName);
+
+      // Only check for changes if the game is already in the prior games list.
       const priorGameData = _.find(
         priorFutureSeasonNdSchedule,
         ({opponentId}) => team.id === opponentId
       );
+
       if (typeof priorGameData !== 'undefined') {
-        // Only check for date changes if the game is already in the prior games list.
+        if (priorGameData.isHomeGame !== newGameData.isHomeGame) {
+          gamesWithWrongHomeStatus.push('@' + newGameData.opponentName);
+        }
+
         const priorDate =
           priorGameData.date === 'TBD'
             ? 'TBD'
@@ -68,12 +75,12 @@ const auditFutureNdSchedules = async () => {
         }
 
         if (hasWrongGameDate) {
-          wrongDateGames.push('*' + newGameData.opponentName);
+          gamesWithWrongDate.push('*' + newGameData.opponentName);
         }
       }
     });
 
-    const gamesNeedingUpdating = _.union(diffGames, wrongDateGames);
+    const gamesNeedingUpdating = _.union(diffGames, gamesWithWrongDate, gamesWithWrongHomeStatus);
     if (gamesNeedingUpdating.length === 0) {
       logger.info(`${futureSeason}: CLEAR`);
     } else {
@@ -89,8 +96,9 @@ const auditFutureNdSchedules = async () => {
 
   if (needsUpdating) {
     logger.newline(2);
-    logger.todo('MANUALLY UPDATE FUTURE ND SCHEDULES');
-    logger.todo('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
+
+    logger.fail('MANUALLY UPDATE FUTURE ND SCHEDULES');
+    logger.fail('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
 
     // Log a message to Sentry to manually update the future ND schedules.
     sentry.captureMessage('Manually update future ND schedules', 'warning');
