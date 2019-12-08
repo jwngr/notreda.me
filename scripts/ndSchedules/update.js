@@ -24,6 +24,14 @@ const updateNdSchedule = async () => {
     currentSeasonSchedule[i].espnGameId = Number(espnGameId);
   });
 
+  // Check for new games, such as bowl games, being added to the schedule. If they are different,
+  // exit early by throwing an error since future updates will not work properly.
+  if (currentSeasonSchedule.length !== espnGameIds.length) {
+    const errorMessage = `Manually add new game(s) for ${SEASON} season`;
+    sentry.captureMessage(errorMessage, 'warning');
+    throw new Error(errorMessage);
+  }
+
   const espnGameStats = await Promise.all(
     _.map(currentSeasonSchedule, (gameData) => {
       // Determine how many days it has been since the game kicked off.
@@ -68,6 +76,7 @@ const updateNdSchedule = async () => {
     ({result}) => typeof result === 'undefined'
   );
 
+  // Audit the kickoff time for upcoming games.
   for (const currentSeasonUpcomingGameData of currentSeasonUpcomingGames) {
     const priorGameDate = utils.getGameDate(currentSeasonUpcomingGameData);
     const newGameDate = await espn.fetchKickoffTimeForGame(
@@ -97,10 +106,10 @@ const updateNdSchedule = async () => {
 
   logger.info(`Updating team records...`);
   const [notreDameWeeklyRecords, opponentRecords] = await Promise.all([
-    espn.fetchNotreDameWeeklyRecordsForCurrentSeason(),
+    espn.fetchNotreDameWeeklyRecordsForSeason(SEASON),
     Promise.all(
       _.map(currentSeasonSchedule, ({opponentId}) =>
-        espn.fetchTeamRecordUpThroughNotreDameGameForCurrentSeason(opponentId)
+        espn.fetchTeamRecordUpThroughNotreDameGameForSeason(SEASON, opponentId)
       )
     ),
   ]);
@@ -124,14 +133,26 @@ const updateNdSchedule = async () => {
 
   if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {
     logger.info('Not fetching weather since current season is over.');
+  } else if (typeof nextUpcomingCurrentSeasonGame.fullDate === 'undefined') {
+    logger.info('Not fetching weather since next upcoming game has no kickoff time.');
   } else {
-    const gameInfoString = `${ndSchedules.CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
-    logger.info(`Fetching weather for ${gameInfoString}...`);
-
-    nextUpcomingCurrentSeasonGame.weather = await weather.fetchForGame(
-      nextUpcomingCurrentSeasonGame.location.coordinates,
-      utils.getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame)
+    const millisecondsUntilNextUpcomingGame =
+      new Date(nextUpcomingCurrentSeasonGame.fullDate).getTime() - Date.now();
+    const daysUntilNextUpcomingGame = Math.floor(
+      millisecondsUntilNextUpcomingGame / (1000 * 60 * 60 * 24)
     );
+
+    if (daysUntilNextUpcomingGame >= 7) {
+      logger.info('Not fetching weather since next upcoming game is more than 7 days away.');
+    } else {
+      const gameInfoString = `${ndSchedules.CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
+      logger.info(`Fetching weather for ${gameInfoString}...`);
+
+      nextUpcomingCurrentSeasonGame.weather = await weather.fetchForGame(
+        nextUpcomingCurrentSeasonGame.location.coordinates,
+        utils.getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame)
+      );
+    }
   }
 
   logger.info(`Updating ND schedule data file for ${SEASON}...`);

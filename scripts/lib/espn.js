@@ -5,8 +5,6 @@ const logger = require('./logger');
 const scraper = require('./scraper');
 const {isNumber} = require('./utils');
 
-const ESPN_TEAM_HOME_PAGE_URL_PREFIX = `https://www.espn.com/college-football/team/_/id/`;
-
 const NORMALIZED_TEAM_NAMES = {
   Pitt: 'Pittsburgh',
   'Miami (FL)': 'Maimi',
@@ -46,6 +44,10 @@ const CFP_POLL_DATES_2019 = [
 
 const _getEspnRankingsUrl = (season, weekIndex) => {
   return `https://www.espn.com/college-football/rankings/_/week/${weekIndex}/year/${season}/seasontype/2`;
+};
+
+const _getEspnTeamScheduleUrl = (season, teamId) => {
+  return `http://www.espn.com/college-football/team/schedule/_/id/${teamId}/season/${season}`;
 };
 
 const _normalizeTeamName = (teamName) => {
@@ -377,17 +379,18 @@ const fetchStatsForGame = (gameId) => {
 };
 
 /**
- * Returns the overall, home, and away records for the provided team during the current season up
+ * Returns the overall, home, and away records for the provided team during the provided season up
  * through their matchup against Notre Dame.
  *
+ * @param  {number} season The season whose records to fetch.
  * @param  {string} teamId The team ID whose record to fetch.
  *
  * @return {Promise<Object>} A promise fulfilled with the provided team's overall, home, and away
  *     records.
  */
-const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => {
+const fetchTeamRecordUpThroughNotreDameGameForSeason = async (season, teamId) => {
   const {espnId} = teams.getById(teamId);
-  const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
+  const $ = await scraper.get(_getEspnTeamScheduleUrl(season, espnId));
 
   let wins = 0;
   let losses = 0;
@@ -395,39 +398,73 @@ const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => 
   let homeLosses = 0;
   let awayWins = 0;
   let awayLosses = 0;
+  let neutralWins = 0;
+  let neutralLosses = 0;
 
+  let upcomingGameIsBowlGame = false;
   let teamAlreadyFacedNotreDame = false;
-  $('.club-schedule li').each((i, row) => {
-    // Only fetch team records up through when they play Notre Dame.
-    if (!teamAlreadyFacedNotreDame) {
-      const gameInfo = $(row)
-        .find('.game-info')
-        .text()
-        .trim();
-      const gameResult = $(row)
-        .find('.game-result')
-        .text()
-        .trim();
+  $('tr.Table__TR').each((i, row) => {
+    // Only fetch team records up through when they play Notre Dame for completed games (i.e., non-
+    // header rows with 7 columns).
+    const $cols = $(row).find('td');
 
-      const isHomeGame = !_.includes(gameInfo, '@');
+    upcomingGameIsBowlGame =
+      upcomingGameIsBowlGame ||
+      ($cols.length === 1 &&
+        _.includes(
+          $cols
+            .eq(0)
+            .text()
+            .toLowerCase(),
+          'bowl'
+        ));
+
+    if (
+      !teamAlreadyFacedNotreDame &&
+      $cols.length === 7 &&
+      $cols
+        .eq(0)
+        .text()
+        .trim() !== 'Date'
+    ) {
+      const gameInfo = $cols
+        .eq(1)
+        .text()
+        .trim();
+      const gameResult = $cols
+        .eq(2)
+        .text()
+        .trim()[0];
+
+      // Bowl games are played at neutral sites and do not indicate either side with an @.
+      let locationKey;
+      if (upcomingGameIsBowlGame) {
+        locationKey = 'neutral';
+      } else {
+        locationKey = !_.includes(gameInfo, '@') ? 'home' : 'away';
+      }
 
       if (gameResult === 'W') {
         wins += 1;
-        if (isHomeGame) {
+        if (locationKey === 'home') {
           homeWins += 1;
-        } else {
+        } else if (locationKey === 'away') {
           awayWins += 1;
+        } else {
+          neutralWins += 1;
         }
       } else if (gameResult === 'L') {
         losses += 1;
-        if (isHomeGame) {
+        if (locationKey === 'home') {
           homeLosses += 1;
-        } else {
+        } else if (locationKey === 'away') {
           awayLosses += 1;
+        } else {
+          neutralLosses += 1;
         }
       }
 
-      teamAlreadyFacedNotreDame = _.endsWith(gameInfo, ' ND');
+      teamAlreadyFacedNotreDame = _.includes(gameInfo, 'Notre Dame');
     }
   });
 
@@ -435,20 +472,24 @@ const fetchTeamRecordUpThroughNotreDameGameForCurrentSeason = async (teamId) => 
     overall: `${wins}-${losses}`,
     home: `${homeWins}-${homeLosses}`,
     away: `${awayWins}-${awayLosses}`,
+    // TODO: Properly handle and backfill neutral games.
+    // neutral: `${neutralWins}-${neutralLosses}`,
   };
 };
 
 /**
- * Returns the overall, home, and away records for each week of Notre Dame's current season.
+ * Returns the overall, home, and away records for each week of Notre Dame's provided season.
  *
- * @param  {string} teamId The team ID whose record to fetch.
+ * @param  {number} season The season whose records to fetch.
  *
  * @return {Promise<Object>} A promise fulfilled with the provided team's overall, home, and away
  *     records.
  */
-const fetchNotreDameWeeklyRecordsForCurrentSeason = async () => {
+const fetchNotreDameWeeklyRecordsForSeason = async (season) => {
+  // TODO: Re-use fetchTeamRecordUpThroughNotreDameGameForSeason() instead of copying it.
+
   const {espnId} = teams.getById('ND');
-  const $ = await scraper.get(`${ESPN_TEAM_HOME_PAGE_URL_PREFIX}${espnId}`);
+  const $ = await scraper.get(_getEspnTeamScheduleUrl(season, espnId));
 
   let wins = 0;
   let losses = 0;
@@ -456,42 +497,82 @@ const fetchNotreDameWeeklyRecordsForCurrentSeason = async () => {
   let homeLosses = 0;
   let awayWins = 0;
   let awayLosses = 0;
+  let neutralWins = 0;
+  let neutralLosses = 0;
 
   let weeklyRecords = [];
 
-  $('.club-schedule li').each((i, row) => {
-    const gameInfo = $(row)
-      .find('.game-info')
-      .text()
-      .trim();
-    const gameResult = $(row)
-      .find('.game-result')
-      .text()
-      .trim();
+  let upcomingGameIsBowlGame = false;
+  $('tr.Table__TR').each((i, row) => {
+    const $cols = $(row).find('td');
 
-    const isHomeGame = !_.includes(gameInfo, '@');
+    // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
+    // have a row above them which say the bowl's name).
+    const isIgnoredRow =
+      $cols
+        .eq(0)
+        .text()
+        .trim() === 'Date' ||
+      ($cols.length !== 5 && $cols.length !== 7);
+    upcomingGameIsBowlGame =
+      upcomingGameIsBowlGame ||
+      ($cols.length === 1 &&
+        _.includes(
+          $cols
+            .eq(0)
+            .text()
+            .toLowerCase(),
+          'bowl'
+        ));
 
-    if (gameResult === 'W') {
-      wins += 1;
-      if (isHomeGame) {
-        homeWins += 1;
-      } else {
-        awayWins += 1;
+    if (!isIgnoredRow) {
+      if ($cols.length === 7) {
+        const gameInfo = $cols
+          .eq(1)
+          .text()
+          .trim();
+        const gameResult = $cols
+          .eq(2)
+          .text()
+          .trim()[0];
+
+        // Bowl games are played at neutral sites and do not indicate either side with an @.
+        let locationKey;
+        if (upcomingGameIsBowlGame) {
+          locationKey = 'neutral';
+        } else {
+          locationKey = !_.includes(gameInfo, '@') ? 'home' : 'away';
+        }
+
+        if (gameResult === 'W') {
+          wins += 1;
+          if (locationKey === 'home') {
+            homeWins += 1;
+          } else if (locationKey === 'away') {
+            awayWins += 1;
+          } else {
+            neutralWins += 1;
+          }
+        } else if (gameResult === 'L') {
+          losses += 1;
+          if (locationKey === 'home') {
+            homeLosses += 1;
+          } else if (locationKey === 'away') {
+            awayLosses += 1;
+          } else {
+            neutralLosses += 1;
+          }
+        }
       }
-    } else if (gameResult === 'L') {
-      losses += 1;
-      if (isHomeGame) {
-        homeLosses += 1;
-      } else {
-        awayLosses += 1;
-      }
+
+      weeklyRecords.push({
+        overall: `${wins}-${losses}`,
+        home: `${homeWins}-${homeLosses}`,
+        away: `${awayWins}-${awayLosses}`,
+        // TODO: Properly handle and backfill neutral games.
+        // neutral: `${neutralWins}-${neutralLosses}`,
+      });
     }
-
-    weeklyRecords.push({
-      overall: `${wins}-${losses}`,
-      home: `${homeWins}-${homeLosses}`,
-      away: `${awayWins}-${awayLosses}`,
-    });
   });
 
   return weeklyRecords;
@@ -511,17 +592,22 @@ const fetchPollsForSeason = async (season) => {
   const headlineText = $headline.text().trim();
 
   // Determine how many weeks of ranking have been released to date.
-  const currentweekIndex = _.includes(headlineText, 'Preseason')
-    ? 0
-    : Number(headlineText.split('Week ')[1]) - 1;
+  let currentWeekIndex;
+  if (_.includes(headlineText, 'Preseason')) {
+    currentWeekIndex = 0;
+  } else if (_.includes(headlineText, 'Week')) {
+    currentWeekIndex = Number(headlineText.split('Week ')[1]) - 1;
+  } else {
+    currentWeekIndex = 15;
+  }
 
   // Fetch the HTML for all previous week rankings.
   const $priorWeeksRankings = await Promise.all(
-    _.range(1, currentweekIndex + 1).map((i) => scraper.get(_getEspnRankingsUrl(season, i)))
+    _.range(1, currentWeekIndex + 1).map((i) => scraper.get(_getEspnRankingsUrl(season, i)))
   );
 
   // Scrape the actual rankings for each week using the HTML.
-  const currentWeekRankings = _getPollRankingsForWeek($currentWeekRankings, currentweekIndex);
+  const currentWeekRankings = _getPollRankingsForWeek($currentWeekRankings, currentWeekIndex);
   const priorWeeksRankings = _.map($priorWeeksRankings, ($priorWeekRankings, i) =>
     _getPollRankingsForWeek($priorWeekRankings, i)
   );
@@ -568,6 +654,6 @@ module.exports = {
   fetchPollsForSeason,
   fetchGameIdsForSeason,
   fetchKickoffTimeForGame,
-  fetchNotreDameWeeklyRecordsForCurrentSeason,
-  fetchTeamRecordUpThroughNotreDameGameForCurrentSeason,
+  fetchNotreDameWeeklyRecordsForSeason,
+  fetchTeamRecordUpThroughNotreDameGameForSeason,
 };
