@@ -1,9 +1,12 @@
 const _ = require('lodash');
 
 const logger = require('../lib/logger');
+const sentry = require('../lib/sentry');
 const validators = require('./validators');
 const ndSchedules = require('../lib/ndSchedules');
 const {ALL_SEASONS, CURRENT_SEASON} = require('../lib/constants');
+
+sentry.initialize();
 
 logger.info('Validating schedule data...');
 
@@ -81,4 +84,5 @@ if (_numErrorsFound === 0) {
   logger.info('Schedule data successfully validated with no errors!');
 } else {
   logger.error(`${_numErrorsFound} errors found in schedule data!`);
+  sentry.captureMessage(`${_numErrorsFound} errors found in schedule data`, 'warning');
 }

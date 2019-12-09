@@ -26,6 +26,12 @@ if [ $? -ne 0 ]; then
   exit -1
 fi
 
+node ./validate.js
+if [ $? -ne 0 ]; then
+  echo "[ERROR] Failed to validate updated ND schedule."
+  exit -1
+fi
+
 if [ -z "$(git status --porcelain)" ]; then
   echo "[INFO] No updated data files detected."
 else
