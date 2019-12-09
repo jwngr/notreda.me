@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
@@ -40,7 +41,9 @@ const HistoricalMatchup = ({
       isSelected={isSelected}
       onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
     >
-      {season}
+      {_.map(String(season), (digit) => (
+        <span>{digit}</span>
+      ))}
     </Season>
   );
 
