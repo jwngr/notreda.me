@@ -63,6 +63,9 @@ const getSelectedGameIndexFromUrl = (url = '') => {
     } else if (gamesPlayedCount === schedule[year].length) {
       // If all games have already played, select the last game.
       return schedule[year].length - 1;
+    } else if (schedule[year][gamesPlayedCount].isBowlGame) {
+      // If the next upcoming game is a bowl game, select it.
+      return gamesPlayedCount;
     } else {
       // Otherwise, select the latest completed game until the Wednesday before the next game, at
       // which point, select the next game.
