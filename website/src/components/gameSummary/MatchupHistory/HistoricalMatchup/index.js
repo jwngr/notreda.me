@@ -41,8 +41,8 @@ const HistoricalMatchup = ({
       isSelected={isSelected}
       onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
     >
-      {_.map(String(season), (digit) => (
-        <span>{digit}</span>
+      {_.map(String(season), (digit, i) => (
+        <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
       ))}
     </Season>
   );
@@ -56,6 +56,7 @@ const HistoricalMatchup = ({
           text={text}
           title={title}
           result={result}
+          uniqueFillPatternId={`${season}-${weekIndex}`}
           isSelected={isSelected}
           isHomeGame={isHomeGame}
           onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}

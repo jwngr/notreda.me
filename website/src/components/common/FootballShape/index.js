@@ -1,10 +1,19 @@
-import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
 
 import {Leg, Text, FootballShapeSvg} from './index.styles';
 
-const FootballShape = ({type, text, title, result, legs = {}, onClick, isHomeGame, isSelected}) => {
+const FootballShape = ({
+  type,
+  text,
+  title,
+  result,
+  legs = {},
+  onClick,
+  isHomeGame,
+  isSelected,
+  uniqueFillPatternId,
+}) => {
   let leftLeg;
   if (legs.left) {
     leftLeg = <Leg type="left">{legs.left === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
@@ -14,8 +23,6 @@ const FootballShape = ({type, text, title, result, legs = {}, onClick, isHomeGam
   if (legs.right) {
     rightLeg = <Leg type="right">{legs.right === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
   }
-
-  const randomNumber = _.random(10000000);
 
   return (
     <>
@@ -38,7 +45,7 @@ const FootballShape = ({type, text, title, result, legs = {}, onClick, isHomeGam
         <path
           onClick={onClick}
           className="football"
-          fill={`url(#pattern-${randomNumber})`}
+          fill={`url(#fill-pattern-${uniqueFillPatternId})`}
           d="M24.3585167,0.063430208 C35.1119935,-0.6284714 46.6072293,4.36977614 52.597914,13.6040857 C54.7297115,16.8900946 47.7985071,22.2410883 45.5381744,23.9389606 C40.8288076,27.476048 35.0715102,29.4979341 29.2104611,29.9219608 C18.5877272,30.6905583 5.76969773,25.7610451 0.275655548,16.0523187 C-1.54345102,12.8377005 6.1544002,7.27463607 8.34504921,5.68440188 C13.0321845,2.281693 18.5929238,0.434412586 24.3585166,0.0634300975"
         ></path>
         {type === 'future' && (
@@ -53,7 +60,7 @@ const FootballShape = ({type, text, title, result, legs = {}, onClick, isHomeGam
         )}
         <defs>
           <pattern
-            id={`pattern-${randomNumber}`}
+            id={`fill-pattern-${uniqueFillPatternId}`}
             className="pattern"
             width="3"
             height="10"
@@ -88,6 +95,7 @@ FootballShape.propTypes = {
   }),
   isHomeGame: PropTypes.bool,
   isSelected: PropTypes.bool,
+  uniqueFillPatternId: PropTypes.string.isRequired,
 };
 
 FootballShape.defaultProps = {
