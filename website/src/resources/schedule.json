@@ -52365,7 +52365,11 @@
           "away": "3-2"
         }
       },
-      "espnGameId": 401135276
+      "espnGameId": 401135276,
+      "weather": {
+        "icon": "rain",
+        "temperature": 74
+      }
     }
   ],
   "2020": [
