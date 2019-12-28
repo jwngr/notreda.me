@@ -1283,12 +1283,12 @@
     },
     "records": {
       "home": {
-        "overall": "7-5",
+        "overall": "7-6",
         "home": "5-2",
         "away": "2-3"
       },
       "away": {
-        "overall": "10-2",
+        "overall": "11-2",
         "home": "7-0",
         "away": "3-2"
       }
@@ -1297,6 +1297,68 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 77
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 455,
+        "passYards": 247,
+        "passCompletions": 20,
+        "passAttempts": 28,
+        "yardsPerPass": 8.8,
+        "interceptionsThrown": 0,
+        "rushYards": 208,
+        "rushAttempts": 37,
+        "yardsPerRush": 5.6,
+        "penalties": 3,
+        "penaltyYards": 30,
+        "fumblesLost": 0,
+        "possession": "32:48"
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 0,
+        "totalYards": 272,
+        "passYards": 227,
+        "passCompletions": 18,
+        "passAttempts": 32,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 0,
+        "rushYards": 45,
+        "rushAttempts": 27,
+        "yardsPerRush": 1.7,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 2,
+        "possession": "27:12"
+      }
+    },
+    "score": {
+      "home": 9,
+      "away": 33
+    },
+    "linescore": {
+      "away": [
+        10,
+        10,
+        10,
+        3
+      ],
+      "home": [
+        0,
+        6,
+        3,
+        0
+      ]
+    },
+    "result": "W"
   }
 ]
