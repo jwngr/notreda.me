@@ -472,8 +472,7 @@ const fetchTeamRecordUpThroughNotreDameGameForSeason = async (season, teamId) =>
     overall: `${wins}-${losses}`,
     home: `${homeWins}-${homeLosses}`,
     away: `${awayWins}-${awayLosses}`,
-    // TODO: Properly handle and backfill neutral games.
-    // neutral: `${neutralWins}-${neutralLosses}`,
+    neutral: `${neutralWins}-${neutralLosses}`,
   };
 };
 
@@ -507,7 +506,7 @@ const fetchNotreDameWeeklyRecordsForSeason = async (season) => {
     const $cols = $(row).find('td');
 
     // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
-    // have a row above them which say the bowl's name).
+    // have a header row above them which say the bowl's name).
     const isIgnoredRow =
       $cols
         .eq(0)
@@ -569,8 +568,7 @@ const fetchNotreDameWeeklyRecordsForSeason = async (season) => {
         overall: `${wins}-${losses}`,
         home: `${homeWins}-${homeLosses}`,
         away: `${awayWins}-${awayLosses}`,
-        // TODO: Properly handle and backfill neutral games.
-        // neutral: `${neutralWins}-${neutralLosses}`,
+        neutral: `${neutralWins}-${neutralLosses}`,
       });
     }
   });

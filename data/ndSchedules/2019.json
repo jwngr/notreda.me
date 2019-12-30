@@ -88,12 +88,14 @@
       "home": {
         "overall": "0-1",
         "home": "0-1",
-        "away": "0-0"
+        "away": "0-0",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "1-0",
         "home": "0-0",
-        "away": "1-0"
+        "away": "1-0",
+        "neutral": "0-0"
       }
     },
     "weather": {
@@ -127,12 +129,14 @@
       "home": {
         "overall": "2-0",
         "home": "1-0",
-        "away": "1-0"
+        "away": "1-0",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "1-1",
         "home": "1-0",
-        "away": "0-1"
+        "away": "0-1",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401114336,
@@ -235,12 +239,14 @@
       "home": {
         "overall": "4-0",
         "home": "3-0",
-        "away": "1-0"
+        "away": "1-0",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "2-1",
         "home": "1-0",
-        "away": "1-1"
+        "away": "1-1",
+        "neutral": "0-0"
       }
     },
     "linescore": {
@@ -342,12 +348,14 @@
       "home": {
         "overall": "3-1",
         "home": "2-0",
-        "away": "1-1"
+        "away": "1-1",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "4-1",
         "home": "3-0",
-        "away": "1-1"
+        "away": "1-1",
+        "neutral": "0-0"
       }
     },
     "linescore": {
@@ -444,12 +452,14 @@
       "home": {
         "overall": "4-1",
         "home": "3-0",
-        "away": "1-1"
+        "away": "1-1",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "1-4",
         "home": "1-1",
-        "away": "0-3"
+        "away": "0-3",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401114337,
@@ -548,12 +558,14 @@
       "home": {
         "overall": "5-1",
         "home": "4-0",
-        "away": "1-1"
+        "away": "1-1",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "3-3",
         "home": "3-0",
-        "away": "0-3"
+        "away": "0-3",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401114222,
@@ -655,12 +667,14 @@
       "home": {
         "overall": "6-2",
         "home": "5-0",
-        "away": "1-2"
+        "away": "1-2",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "5-2",
         "home": "4-0",
-        "away": "1-2"
+        "away": "1-2",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401112227,
@@ -758,12 +772,14 @@
       "home": {
         "overall": "6-2",
         "home": "5-0",
-        "away": "1-2"
+        "away": "1-2",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "5-3",
         "home": "4-1",
-        "away": "1-2"
+        "away": "1-2",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401112501,
@@ -862,12 +878,14 @@
       "home": {
         "overall": "4-5",
         "home": "2-3",
-        "away": "2-2"
+        "away": "2-2",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "7-2",
         "home": "5-0",
-        "away": "2-2"
+        "away": "2-2",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401111654,
@@ -971,12 +989,14 @@
       "home": {
         "overall": "8-2",
         "home": "6-0",
-        "away": "2-2"
+        "away": "2-2",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "7-2",
         "home": "5-0",
-        "away": "2-2"
+        "away": "2-2",
+        "neutral": "0-0"
       }
     },
     "weather": {
@@ -1075,12 +1095,14 @@
       "home": {
         "overall": "9-2",
         "home": "7-0",
-        "away": "2-2"
+        "away": "2-2",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "5-6",
         "home": "3-3",
-        "away": "2-3"
+        "away": "2-3",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401112514,
@@ -1179,12 +1201,14 @@
       "home": {
         "overall": "4-8",
         "home": "3-4",
-        "away": "1-4"
+        "away": "1-4",
+        "neutral": "0-0"
       },
       "away": {
         "overall": "10-2",
         "home": "7-0",
-        "away": "3-2"
+        "away": "3-2",
+        "neutral": "0-0"
       }
     },
     "weather": {
@@ -1261,6 +1285,7 @@
   {
     "isBowlGame": true,
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "coverage": "ABC",
     "fullDate": "Sat Dec 28 2019 12:00:00 GMT-0500",
     "nickname": "Camping World Bowl",
@@ -1274,6 +1299,7 @@
       ]
     },
     "opponentId": "ISU",
+    "highlightsYouTubeVideoId": "BrzEcImDAJM",
     "rankings": {
       "away": {
         "ap": 14,
@@ -1285,12 +1311,14 @@
       "home": {
         "overall": "7-6",
         "home": "5-2",
-        "away": "2-3"
+        "away": "2-3",
+        "neutral": "0-1"
       },
       "away": {
         "overall": "11-2",
         "home": "7-0",
-        "away": "3-2"
+        "away": "3-2",
+        "neutral": "1-0"
       }
     },
     "espnGameId": 401135276,

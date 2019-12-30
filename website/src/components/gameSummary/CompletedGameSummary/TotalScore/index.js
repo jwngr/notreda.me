@@ -49,7 +49,9 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
 
   let awayRecord;
   if (game.records) {
-    if (game.records.away.away) {
+    if (game.isNeutralSiteGame && game.records.away.neutral) {
+      awayRecord = `${game.records.away.overall}, ${game.records.away.neutral} Neutral Site`;
+    } else if (game.records.away.away) {
       awayRecord = `${game.records.away.overall}, ${game.records.away.away} Away`;
     } else {
       awayRecord = game.records.away.overall;
@@ -58,7 +60,9 @@ const TotalScore = ({game, homeTeam, awayTeam}) => {
 
   let homeRecord;
   if (game.records) {
-    if (game.records.home.home) {
+    if (game.isNeutralSiteGame && game.records.home.neutral) {
+      homeRecord = `${game.records.home.overall}, ${game.records.home.neutral} Neutral Site`;
+    } else if (game.records.home.home) {
       homeRecord = `${game.records.home.overall}, ${game.records.home.home} Home`;
     } else {
       homeRecord = game.records.home.overall;

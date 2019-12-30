@@ -85,4 +85,7 @@ if (_numErrorsFound === 0) {
 } else {
   logger.error(`${_numErrorsFound} errors found in schedule data!`);
   sentry.captureMessage(`${_numErrorsFound} errors found in schedule data`, 'warning');
+
+  // Exit with a non-zero error code.
+  process.exit(-1);
 }

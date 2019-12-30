@@ -19,7 +19,9 @@ module.exports = (
       opponentId,
       isVacatedWin,
       isShamrockSeries,
+      isNeutralSiteGame,
       highlightsYouTubeVideoId,
+      isLatestGameCompletedGame,
     },
     seasonScheduleData,
   ],
@@ -35,17 +37,20 @@ module.exports = (
     // Completed games.
 
     /****************/
-    /*  headCoach  */
+    /*  HEAD COACH  */
     /****************/
     assert(isNonEmptyString(headCoach), 'Completed game must have a head coach.', {headCoach});
 
     /*********************************/
     /*  HIGHLIGHTS YOUTUBE VIDEO ID  */
     /*********************************/
+    // Ensure all completed games since 2015 have a YouTube highlights video, adding an exception
+    // for the latest completed game since it needs to be manually added after the game is
+    // completed.
     // TODO: Add highlights video IDs for older games.
     if (season >= 2015) {
       assert(
-        isNonEmptyString(highlightsYouTubeVideoId),
+        isNonEmptyString(highlightsYouTubeVideoId) || isLatestGameCompletedGame,
         'Completed game must have a highlights video ID.',
         {
           highlightsYouTubeVideoId,
@@ -101,6 +106,22 @@ module.exports = (
       typeof isBowlGame === 'undefined' || isBowlGame === true,
       'Bowl games should set isBowlGame to true.',
       {isBowlGame}
+    );
+
+    assert(
+      typeof isBowlGame === 'undefined' || weekIndex === seasonScheduleData.length - 1,
+      'Bowl games should be at the end of a season.',
+      {isBowlGame, weekIndex, seasonGamesCount: seasonScheduleData.lengt}
+    );
+
+    /************************/
+    /*  NEUTRAL SITE GAMES  */
+    /************************/
+    // TODO: Backfill isNeutralSiteGame field.
+    assert(
+      typeof isNeutralSiteGame === 'undefined' || isNeutralSiteGame === true,
+      'Neutral site games should set isNeutralSiteGame to true.',
+      {isNeutralSiteGame}
     );
 
     assert(
