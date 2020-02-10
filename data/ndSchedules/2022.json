@@ -29,6 +29,20 @@
   },
   {
     "isHomeGame": true,
+    "date": "09/17/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "CAL"
+  },
+  {
+    "isHomeGame": true,
     "date": "10/15/2022",
     "location": {
       "city": "Notre Dame",

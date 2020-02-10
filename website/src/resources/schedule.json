@@ -52374,8 +52374,8 @@
       "highlightsYouTubeVideoId": "BrzEcImDAJM",
       "rankings": {
         "away": {
-          "ap": 14,
-          "coaches": 14,
+          "ap": 12,
+          "coaches": 11,
           "cfbPlayoff": 15
         }
       },
@@ -52482,7 +52482,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "09/12/2020",
+      "fullDate": "Sat Sep 12 2020 14:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52496,7 +52496,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "09/19/2020",
+      "fullDate": "Sat Sep 19 2020 14:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52524,7 +52524,7 @@
     },
     {
       "isHomeGame": false,
-      "date": "10/03/2020",
+      "fullDate": "Sat Oct 03 2020 19:30:00 GMT-0400",
       "isShamrockSeries": true,
       "location": {
         "city": "Green Bay",
@@ -52539,7 +52539,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/10/2020",
+      "fullDate": "Sat Oct 10 2020 19:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52568,6 +52568,7 @@
     {
       "isHomeGame": true,
       "date": "10/31/2020",
+      "fullDate": "Sat Oct 31 2020 15:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52581,7 +52582,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "11/07/2020",
+      "fullDate": "Sat Nov 07 2020 20:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52609,7 +52610,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "11/21/2020",
+      "fullDate": "Sat Nov 21 2020 15:30:00 GMT-0400",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -52835,6 +52836,20 @@
         ]
       },
       "opponentId": "MRSH"
+    },
+    {
+      "isHomeGame": true,
+      "date": "09/17/2022",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "CAL"
     },
     {
       "isHomeGame": true,
