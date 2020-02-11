@@ -38,6 +38,7 @@ const auditFutureNdSchedules = async () => {
     const gamesWithWrongHomeStatus = [];
     newFutureSeasonNdSchedule.forEach((newGameData) => {
       const team = teams.getByName(newGameData.opponentName);
+console.log(team.id)
 
       // Only check for changes if the game is already in the prior games list.
       const priorGameData = _.find(
@@ -58,17 +59,25 @@ const auditFutureNdSchedules = async () => {
         // Ensure both dates are either "TBD" or within 1 day of each other.
         let hasWrongGameDate = false;
         if (priorDate === 'TBD') {
+          console.log('A');
           if (newGameData.date !== 'TBD') {
+          console.log('B');
             hasWrongGameDate = true;
           }
         } else {
+          console.log('C');
           if (newGameData.date === 'TBD') {
+          console.log('D');
             hasWrongGameDate = true;
           } else {
+          console.log('E');
             // Calculate the difference between the dates in days.
+console.log(priorDate);
+console.log(newGameDate.date);
             var timeDiffInMilliseconds = Math.abs(priorDate.getTime() - newGameData.date.getTime());
             var timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 24);
             if (timeDiffInDays >= 1) {
+          console.log('F');
               hasWrongGameDate = true;
             }
           }
