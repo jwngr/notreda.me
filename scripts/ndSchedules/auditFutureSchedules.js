@@ -65,9 +65,10 @@ const auditFutureNdSchedules = async () => {
           if (newGameData.date === 'TBD') {
             hasWrongGameDate = true;
           } else {
-            // Calculate the difference between the dates in days.
+            // Calculate the difference between the dates in days, leaving 30 hours of potential
+            // difference.
             var timeDiffInMilliseconds = Math.abs(priorDate.getTime() - newGameData.date.getTime());
-            var timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 24);
+            var timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 30);
             if (timeDiffInDays >= 1) {
               hasWrongGameDate = true;
             }
