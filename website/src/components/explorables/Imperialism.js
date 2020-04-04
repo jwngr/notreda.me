@@ -25,10 +25,7 @@ class Imperialism extends Component {
     const height = 600;
 
     // Chart
-    const map = d3
-      .select(this.imperialismMapRef)
-      .attr('width', width)
-      .attr('height', height);
+    const map = d3.select(this.imperialismMapRef).attr('width', width).attr('height', height);
 
     var unemployment = d3.map();
 
@@ -38,26 +35,16 @@ class Imperialism extends Component {
 
     var path = geoPath();
 
-    var scaleX = d3
-      .scaleLinear()
-      .domain([1, 10])
-      .rangeRound([600, 860]);
+    var scaleX = d3.scaleLinear().domain([1, 10]).rangeRound([600, 860]);
 
-    var color = d3
-      .scaleThreshold()
-      .domain(d3.range(2, 10))
-      .range(schemeBlues[9]);
+    var color = d3.scaleThreshold().domain(d3.range(2, 10)).range(schemeBlues[9]);
 
-    var g = map
-      .append('g')
-      .attr('class', 'key')
-      .attr('transform', 'translate(0,40)');
+    var g = map.append('g').attr('class', 'key').attr('transform', 'translate(0,40)');
 
     // Color bar in legend
-    g
-      .selectAll('rect')
+    g.selectAll('rect')
       .data(
-        color.range().map(function(d) {
+        color.range().map(function (d) {
           d = color.invertExtent(d);
           if (d[0] == null) d[0] = scaleX.domain()[0];
           if (d[1] == null) d[1] = scaleX.domain()[1];
@@ -67,19 +54,18 @@ class Imperialism extends Component {
       .enter()
       .append('rect')
       .attr('height', 8)
-      .attr('x', function(d) {
+      .attr('x', function (d) {
         return scaleX(d[0]);
       })
-      .attr('width', function(d) {
+      .attr('width', function (d) {
         return scaleX(d[1]) - scaleX(d[0]);
       })
-      .attr('fill', function(d) {
+      .attr('fill', function (d) {
         return color(d[0]);
       });
 
     // Legend title
-    g
-      .append('text')
+    g.append('text')
       .attr('class', 'caption')
       .attr('x', scaleX.range()[0])
       .attr('y', -6)
@@ -89,23 +75,19 @@ class Imperialism extends Component {
       .text('Unemployment rate');
 
     // Legend ticks
-    g
-      .call(
-        d3
-          .axisBottom(scaleX)
-          .tickSize(13)
-          .tickFormat((x, i) => {
-            return i ? x : x + '%';
-          })
-          .tickValues(color.domain())
-      )
+    g.call(
+      d3
+        .axisBottom(scaleX)
+        .tickSize(13)
+        .tickFormat((x, i) => {
+          return i ? x : x + '%';
+        })
+        .tickValues(color.domain())
+    )
       .select('.domain')
       .remove();
 
-    d3
-      .queue()
-      .defer(d3.json, 'https://d3js.org/us-10m.v1.json')
-      .await(ready);
+    d3.queue().defer(d3.json, 'https://d3js.org/us-10m.v1.json').await(ready);
 
     function ready(error, us) {
       if (error) throw error;
@@ -117,19 +99,19 @@ class Imperialism extends Component {
         .data(feature(us, us.objects.counties).features)
         .enter()
         .append('path')
-        .attr('fill', function(d) {
+        .attr('fill', function (d) {
           return color((d.rate = unemployment.get(d.id)));
         })
         .attr('d', path)
         .append('title')
-        .text(function(d) {
+        .text(function (d) {
           return d.rate + '%';
         });
 
       map
         .append('path')
         .datum(
-          mesh(us, us.objects.states, function(a, b) {
+          mesh(us, us.objects.states, function (a, b) {
             return a !== b;
           })
         )

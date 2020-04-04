@@ -82,8 +82,9 @@ describe('matchupHistory.getFilteredMatchupsAgainstTeam()', () => {
 
   DRAKE_EXPECTED_SEASONS.forEach(([selectedSeason, expectedSeasons]) => {
     const gameIndex = _.findIndex(allMatchupsAgainstDrake, ({season}) => season === selectedSeason);
-    test(`returns subset of matchups if max is smaller than total [Drake matchup #${gameIndex +
-      1} - ${selectedSeason}]`, () => {
+    test(`returns subset of matchups if max is smaller than total [Drake matchup #${
+      gameIndex + 1
+    } - ${selectedSeason}]`, () => {
       expect(
         getFilteredMatchupsAgainstTeam('DRKE', selectedSeason, 5).map(({season}) => season)
       ).toStrictEqual(expectedSeasons);
@@ -92,8 +93,9 @@ describe('matchupHistory.getFilteredMatchupsAgainstTeam()', () => {
 
   USC_EXPECTED_SEASONS.forEach(([selectedSeason, expectedSeasons]) => {
     const gameIndex = _.findIndex(allMatchupsAgainstUsc, ({season}) => season === selectedSeason);
-    test(`returns subset of matchups if max is smaller than total [USC matchup #${gameIndex +
-      1} - ${selectedSeason}]`, () => {
+    test(`returns subset of matchups if max is smaller than total [USC matchup #${
+      gameIndex + 1
+    } - ${selectedSeason}]`, () => {
       expect(
         getFilteredMatchupsAgainstTeam('USC', selectedSeason, 11).map(({season}) => season)
       ).toStrictEqual(expectedSeasons);

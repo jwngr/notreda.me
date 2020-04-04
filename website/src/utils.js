@@ -47,10 +47,7 @@ export const getWindowDimensions = () => {
  * @return {string} The user's local time zone string (e.g. "PST", "EDT") for the provided date.
  */
 export const getTimeZoneString = (date) => {
-  return date
-    .toTimeString()
-    .match(new RegExp('[A-Z](?!.*[(])', 'g'))
-    .join('');
+  return date.toTimeString().match(new RegExp('[A-Z](?!.*[(])', 'g')).join('');
 };
 
 /**

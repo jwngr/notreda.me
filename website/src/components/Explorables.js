@@ -134,10 +134,7 @@ class Explorables extends Component {
       .domain([0, 250]) //max value
       .range([height, 0]);
 
-    const colors = d3
-      .scaleOrdinal()
-      .domain(['apples', 'bananas'])
-      .range(['red', 'green']);
+    const colors = d3.scaleOrdinal().domain(['apples', 'bananas']).range(['red', 'green']);
 
     const graph = chart
       .selectAll('.graph')
@@ -237,26 +234,24 @@ class Explorables extends Component {
       .append('g')
       .attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
 
-    g
-      .append('rect')
+    g.append('rect')
       .attr('width', scatterPlotWidth - margin.left - margin.right)
       .attr('height', scatterPlotHeight - margin.top - margin.bottom)
       .attr('fill', '#F6F6F6');
 
-    g
-      .selectAll('circle')
+    g.selectAll('circle')
       .data(this.state.scatterPlotData)
       .enter()
       .append('circle')
       .attr('class', 'dot')
       .attr('r', 4)
-      .attr('cx', function(d) {
+      .attr('cx', function (d) {
         return scatterPlotX(d.consequence);
       })
-      .attr('cy', function(d) {
+      .attr('cy', function (d) {
         return scatterPlotY(d.value);
       })
-      .style('fill', function(d) {
+      .style('fill', function (d) {
         if (d.value >= 0 && d.consequence <= 0) {
           // Top left
           return '#60B19C';
@@ -272,14 +267,12 @@ class Explorables extends Component {
         }
       });
 
-    g
-      .append('g')
+    g.append('g')
       .attr('class', 'x axis')
       .attr('transform', 'translate(0,' + scatterPlotY.range()[0] / 2 + ')')
       .call(d3.axisBottom(scatterPlotX).ticks(5));
 
-    g
-      .append('g')
+    g.append('g')
       .attr('class', 'y axis')
       .attr('transform', 'translate(' + scatterPlotX.range()[1] / 2 + ', 0)')
       .call(d3.axisLeft(scatterPlotY).ticks(5));

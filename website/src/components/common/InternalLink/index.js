@@ -34,7 +34,4 @@ const mapDispatchToProps = (dispatch) => ({
   },
 });
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(asInternalLink('a'));
+export default connect(null, mapDispatchToProps)(asInternalLink('a'));

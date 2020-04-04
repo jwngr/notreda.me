@@ -141,20 +141,11 @@ class WinPercentage extends Component {
     var domainWidth = chartWidth - margin.left - margin.right;
     var domainHeight = chartHeight - margin.top - margin.bottom;
 
-    const chart = d3
-      .select(this.chartRef)
-      .attr('width', chartWidth)
-      .attr('height', chartHeight);
+    const chart = d3.select(this.chartRef).attr('width', chartWidth).attr('height', chartHeight);
 
-    var chartX = d3
-      .scaleLinear()
-      .domain([0, this.state.data.length])
-      .range([0, domainWidth]);
+    var chartX = d3.scaleLinear().domain([0, this.state.data.length]).range([0, domainWidth]);
 
-    var chartY = d3
-      .scaleLinear()
-      .domain([0, 100])
-      .range([domainHeight, 0]);
+    var chartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
 
     var g = chart.append('g').attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
 
@@ -245,10 +236,7 @@ class WinPercentage extends Component {
       .domain([startingYear, startingYear + this.state.yearData.length])
       .range([0, domainWidth]);
 
-    var yearChartY = d3
-      .scaleLinear()
-      .domain([0, 100])
-      .range([domainHeight, 0]);
+    var yearChartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
 
     var yearG = yearChart
       .append('g')

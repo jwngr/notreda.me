@@ -19,9 +19,6 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-const NavMenuContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(NavMenu);
+const NavMenuContainer = connect(mapStateToProps, mapDispatchToProps)(NavMenu);
 
 export default NavMenuContainer;

@@ -19,7 +19,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(FootballScheduleScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(FootballScheduleScreen);

@@ -129,11 +129,9 @@ class BarChart extends Component {
       .attr('class', 'per-season-bar-chart-x-axis-label')
       .attr(
         'transform',
-        `translate(${margins.left +
-          (width - margins.left - margins.right) / 2}, ${DEFAULT_CHART_HEIGHT +
-          margins.top +
-          margins.bottom -
-          10})`
+        `translate(${margins.left + (width - margins.left - margins.right) / 2}, ${
+          DEFAULT_CHART_HEIGHT + margins.top + margins.bottom - 10
+        })`
       )
       .text(xAxisLabel);
 

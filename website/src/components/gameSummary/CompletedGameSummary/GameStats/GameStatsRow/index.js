@@ -103,9 +103,9 @@ const GameStatsRow = ({
       {/* Show shortened stat names when the stat names column is in the middle. */}
       <Media
         queries={{
-          middle1: `(max-width: ${
-            STATS_SECTION_BREAKPOINTS[1]
-          }px) and (min-width: ${STATS_SECTION_BREAKPOINTS[2] + 1}px)`,
+          middle1: `(max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) and (min-width: ${
+            STATS_SECTION_BREAKPOINTS[2] + 1
+          }px)`,
           middle2: `(max-width: ${STATS_SECTION_BREAKPOINTS[3]}px)`,
         }}
       >

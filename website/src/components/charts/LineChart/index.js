@@ -108,11 +108,9 @@ class LineChart extends Component {
       .attr('class', 'line-chart-x-axis-label')
       .attr(
         'transform',
-        `translate(${margins.left +
-          (this.width - margins.left - margins.right) / 2}, ${DEFAULT_CHART_HEIGHT +
-          margins.top +
-          margins.bottom -
-          10})`
+        `translate(${margins.left + (this.width - margins.left - margins.right) / 2}, ${
+          DEFAULT_CHART_HEIGHT + margins.top + margins.bottom - 10
+        })`
       )
       .text(xAxisLabel);
 
@@ -166,11 +164,7 @@ class LineChart extends Component {
         .y0(this.scaleY(0))
         .y1((d) => this.scaleY(d.y));
 
-      gData
-        .append('path')
-        .data([dataPoints])
-        .attr('class', 'line-area')
-        .attr('d', area);
+      gData.append('path').data([dataPoints]).attr('class', 'line-area').attr('d', area);
     }
 
     // Chart lines
