@@ -28,16 +28,9 @@ const fetchTop25TeamEspnIds = (year) => {
 
     $teamRows.each((i, row) => {
       const $tds = $(row).find('td');
-      const $teamLink = $tds
-        .eq(1)
-        .children()
-        .eq(1);
+      const $teamLink = $tds.eq(1).children().eq(1);
 
-      const teamName = $teamLink
-        .children()
-        .eq(0)
-        .text()
-        .trim();
+      const teamName = $teamLink.children().eq(0).text().trim();
 
       if (teamName) {
         top25TeamUrls[teamName] = Number($teamLink.attr('href').split('/')[7]);
@@ -58,25 +51,12 @@ const fetchYearlyResults = (teamEspnId, year) => {
 
     $rows.each((i, row) => {
       const $cols = $(row).find('td');
-      if (
-        $cols.length === 7 &&
-        $cols
-          .eq(0)
-          .text()
-          .trim() !== 'Date'
-      ) {
+      if ($cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
         const $spans = $cols.eq(2).find('span');
 
-        const result = $spans
-          .eq(0)
-          .text()
-          .trim();
+        const result = $spans.eq(0).text().trim();
 
-        const score = $spans
-          .eq(1)
-          .text()
-          .trim()
-          .split(' ')[0];
+        const score = $spans.eq(1).text().trim().split(' ')[0];
 
         if (result !== '') {
           results.push({

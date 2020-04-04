@@ -58,12 +58,8 @@ const getGamesForYear = (year) => {
     const games = _.map($rows, ($row) => {
       const rowCells = $row.children('td');
 
-      const result = $(rowCells[3])
-        .text()
-        .trim();
-      const opponent = $(rowCells[1])
-        .text()
-        .trim();
+      const result = $(rowCells[3]).text().trim();
+      const opponent = $(rowCells[1]).text().trim();
 
       const isHomeGame = _.startsWith(opponent, 'vs.');
 
@@ -87,12 +83,8 @@ const getGamesForYear = (year) => {
           isHomeGame,
           isBowlGame,
           opponent: teamMappings[opponent],
-          date: $(rowCells[0])
-            .text()
-            .trim(),
-          location: $(rowCells[2])
-            .text()
-            .trim(),
+          date: $(rowCells[0]).text().trim(),
+          location: $(rowCells[2]).text().trim(),
         };
       }
     });
@@ -157,16 +149,16 @@ _.forEach(years, (year) => {
         return game;
       });
     })
-    .catch(function(error) {
+    .catch(function (error) {
       console.log(`Error scraping ${year} schedule:`, error);
     });
 });
 
 return RSVP.hash(promises)
-  .then(function(result) {
+  .then(function (result) {
     fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
     console.log(`Schedule written to ${process.argv[2]}!`);
   })
-  .catch(function(error) {
+  .catch(function (error) {
     console.log('Failed to scrape schedule for all years:', error);
   });

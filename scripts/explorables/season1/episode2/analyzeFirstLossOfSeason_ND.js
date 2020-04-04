@@ -83,7 +83,10 @@ logger.info('NUM UNDEFEATED SEASONS:', undefeatedSeasons.length);
 logger.info('UNDEFEATED SEASONS:', undefeatedSeasons);
 
 logger.info('NUM SEASONS WITH LOSS:', numSeasonsWithLoss);
-logger.info('FIRST LOSS OF SEASON INDEXES:', firstLossOfSeasonIndexes.map((years) => years.length));
+logger.info(
+  'FIRST LOSS OF SEASON INDEXES:',
+  firstLossOfSeasonIndexes.map((years) => years.length)
+);
 logger.info(
   'FIRST LOSS OF SEASON INDEXES PERCENTAGES:',
   firstLossOfSeasonIndexes.map((years) =>

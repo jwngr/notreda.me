@@ -35,9 +35,7 @@ const promises = years.map((year) => {
         const statName = $($game).attr('data-stat');
 
         if (statName === 'date_game' && year >= SPORTS_REFERENCE_GAME_STATS_START_YEAR) {
-          const gameUrl = $($game)
-            .find('a')
-            .attr('href');
+          const gameUrl = $($game).find('a').attr('href');
           const gameId = gameUrl.split('/cfb/boxscores/')[1].split('.html')[0];
           gameIds.push(gameId);
         } else if (statName === 'school_name') {

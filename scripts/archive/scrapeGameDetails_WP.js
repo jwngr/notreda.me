@@ -22,9 +22,7 @@ const fetchGameDetailsForYear = (year) => {
     `https://en.wikipedia.org/wiki/${year}_Notre_Dame_Fighting_Irish_football_team`
   )
     .then(($) => {
-      let $scheduleTable = $('#Schedule')
-        .parent()
-        .next();
+      let $scheduleTable = $('#Schedule').parent().next();
 
       if ($scheduleTable[0].name !== 'table') {
         $scheduleTable = $scheduleTable.next();
@@ -41,20 +39,14 @@ const fetchGameDetailsForYear = (year) => {
           $(row)
             .children('th')
             .each((j, elem) => {
-              headerNames.push(
-                $(elem)
-                  .text()
-                  .trim()
-              );
+              headerNames.push($(elem).text().trim());
             });
         } else if (i <= gamesData.length) {
           const rowCellValues = [];
           $(row)
             .children('td')
             .each((j, elem) => {
-              let rowCellText = $(elem)
-                .text()
-                .trim();
+              let rowCellText = $(elem).text().trim();
 
               // Fix formatting issue in 1961 site data.
               if (j === headerNames.indexOf('Site') && !_.includes(rowCellText, ' • ')) {

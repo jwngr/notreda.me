@@ -56,10 +56,7 @@ const scrapTeamRecords = async () => {
       teamName = TEAM_NAMES_MAP[teamName];
     }
 
-    const record = $rowCells
-      .eq(2)
-      .text()
-      .trim();
+    const record = $rowCells.eq(2).text().trim();
 
     const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]);
 

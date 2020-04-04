@@ -58,10 +58,7 @@ const _getPollRankingsForWeek = ($, weekIndex) => {
   const pollRankings = {};
 
   $('.InnerLayout__child.mb2').each((i, poll) => {
-    const pollTitle = $(poll)
-      .find('.Table__Title')
-      .text()
-      .trim();
+    const pollTitle = $(poll).find('.Table__Title').text().trim();
 
     let pollType;
     if (_.includes(pollTitle, 'AP')) {
@@ -87,20 +84,11 @@ const _getPollRankingsForWeek = ($, weekIndex) => {
     $pollRows.each((j, pollRow) => {
       const $rowCells = $(pollRow).find('td');
       if ($rowCells.length !== 0) {
-        const rowCellValues = _.map($rowCells, (rowCell) =>
-          $(rowCell)
-            .text()
-            .trim()
-        );
+        const rowCellValues = _.map($rowCells, (rowCell) => $(rowCell).text().trim());
 
         const currentWeekRanking = Number(rowCellValues[0]) || previousTeamCurrentWeekRanking;
         previousTeamCurrentWeekRanking = currentWeekRanking;
-        const teamName = _normalizeTeamName(
-          $($rowCells[1])
-            .find('.pl3')
-            .text()
-            .trim()
-        );
+        const teamName = _normalizeTeamName($($rowCells[1]).find('.pl3').text().trim());
         const record = rowCellValues[2];
         const points = Number(rowCellValues[3]);
 
@@ -111,9 +99,7 @@ const _getPollRankingsForWeek = ($, weekIndex) => {
         } else if (trend === '-') {
           previousWeekRanking = currentWeekRanking;
         } else {
-          const trendElementClasses = $($rowCells[4])
-            .find('.trend')
-            .attr('class');
+          const trendElementClasses = $($rowCells[4]).find('.trend').attr('class');
           previousWeekRanking = _.includes(trendElementClasses, 'positive')
             ? currentWeekRanking + Number(trend)
             : currentWeekRanking - Number(trend);
@@ -157,17 +143,9 @@ const fetchGameIdsForSeason = (season) => {
         if (
           // Get game IDs for both completed (7 columns) and upcoming (5 columns).
           ($cols.length === 5 || $cols.length === 7) &&
-          $cols
-            .eq(0)
-            .text()
-            .trim() !== 'Date'
+          $cols.eq(0).text().trim() !== 'Date'
         ) {
-          const gameId = $cols
-            .eq(2)
-            .find('a')
-            .attr('href')
-            .split('gameId/')[1]
-            .trim();
+          const gameId = $cols.eq(2).find('a').attr('href').split('gameId/')[1].trim();
 
           gameIds.push(gameId);
         }
@@ -195,9 +173,7 @@ const fetchStatsForGame = (gameId) => {
   ])
     .then(([$matchup, $boxscore]) => {
       // If the game is not over, return early with no data.
-      const gameStatus = $matchup('.status-detail')
-        .text()
-        .trim();
+      const gameStatus = $matchup('.status-detail').text().trim();
       if (gameStatus !== 'Final') {
         return;
       }
@@ -213,15 +189,9 @@ const fetchStatsForGame = (gameId) => {
       $statsTable.find('tr').each((i, row) => {
         const rowCells = $matchup(row).children('td');
         if (rowCells.length !== 0) {
-          const statName = $matchup(rowCells[0])
-            .text()
-            .trim();
-          const awayValue = $matchup(rowCells[1])
-            .text()
-            .trim();
-          const homeValue = $matchup(rowCells[2])
-            .text()
-            .trim();
+          const statName = $matchup(rowCells[0]).text().trim();
+          const awayValue = $matchup(rowCells[1]).text().trim();
+          const homeValue = $matchup(rowCells[2]).text().trim();
 
           switch (statName) {
             case '1st Downs':
@@ -353,11 +323,7 @@ const fetchStatsForGame = (gameId) => {
           _.forEach(rowCells, (rowCell, index) => {
             // Skip first (team abbreviation) and last (total score) cells
             if (index > 0 && index !== rowCells.length - 1) {
-              const score = Number(
-                $matchup(rowCell)
-                  .text()
-                  .trim()
-              );
+              const score = Number($matchup(rowCell).text().trim());
               linescore[homeOrAway].push(score);
             }
           });
@@ -410,31 +376,11 @@ const fetchTeamRecordUpThroughNotreDameGameForSeason = async (season, teamId) =>
 
     upcomingGameIsBowlGame =
       upcomingGameIsBowlGame ||
-      ($cols.length === 1 &&
-        _.includes(
-          $cols
-            .eq(0)
-            .text()
-            .toLowerCase(),
-          'bowl'
-        ));
+      ($cols.length === 1 && _.includes($cols.eq(0).text().toLowerCase(), 'bowl'));
 
-    if (
-      !teamAlreadyFacedNotreDame &&
-      $cols.length === 7 &&
-      $cols
-        .eq(0)
-        .text()
-        .trim() !== 'Date'
-    ) {
-      const gameInfo = $cols
-        .eq(1)
-        .text()
-        .trim();
-      const gameResult = $cols
-        .eq(2)
-        .text()
-        .trim()[0];
+    if (!teamAlreadyFacedNotreDame && $cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
+      const gameInfo = $cols.eq(1).text().trim();
+      const gameResult = $cols.eq(2).text().trim()[0];
 
       // Bowl games are played at neutral sites and do not indicate either side with an @.
       let locationKey;
@@ -508,32 +454,15 @@ const fetchNotreDameWeeklyRecordsForSeason = async (season) => {
     // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
     // have a header row above them which say the bowl's name).
     const isIgnoredRow =
-      $cols
-        .eq(0)
-        .text()
-        .trim() === 'Date' ||
-      ($cols.length !== 5 && $cols.length !== 7);
+      $cols.eq(0).text().trim() === 'Date' || ($cols.length !== 5 && $cols.length !== 7);
     upcomingGameIsBowlGame =
       upcomingGameIsBowlGame ||
-      ($cols.length === 1 &&
-        _.includes(
-          $cols
-            .eq(0)
-            .text()
-            .toLowerCase(),
-          'bowl'
-        ));
+      ($cols.length === 1 && _.includes($cols.eq(0).text().toLowerCase(), 'bowl'));
 
     if (!isIgnoredRow) {
       if ($cols.length === 7) {
-        const gameInfo = $cols
-          .eq(1)
-          .text()
-          .trim();
-        const gameResult = $cols
-          .eq(2)
-          .text()
-          .trim()[0];
+        const gameInfo = $cols.eq(1).text().trim();
+        const gameResult = $cols.eq(2).text().trim()[0];
 
         // Bowl games are played at neutral sites and do not indicate either side with an @.
         let locationKey;

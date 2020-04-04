@@ -96,9 +96,7 @@ dataFilenames.forEach((dataFilename) => {
     console.log('\n', year);
     console.log({
       ...games[year],
-      record: `${games[year].onePossesssionWinsCount}-${games[year].onePossesssionLossesCount}-${
-        games[year].onePossesssionTiesCount
-      }`,
+      record: `${games[year].onePossesssionWinsCount}-${games[year].onePossesssionLossesCount}-${games[year].onePossesssionTiesCount}`,
       overallWinPercentage:
         getPercentage(games[year].totalWinsCount, games[year].totalGamesCount) + '%',
       onePossesssionGameWinPercentage:
@@ -117,9 +115,7 @@ _.forEach(coachOrder, (coach) => {
   console.log(
     coach,
     coachData.onePossesssionGamesCount,
-    `${coachData.onePossesssionWinsCount}-${coachData.onePossesssionLossesCount}-${
-      coachData.onePossesssionTiesCount
-    }`,
+    `${coachData.onePossesssionWinsCount}-${coachData.onePossesssionLossesCount}-${coachData.onePossesssionTiesCount}`,
     getPercentage(coachData.onePossesssionWinsCount, coachData.onePossesssionGamesCount) + '%',
     getPercentage(coachData.onePossesssionGamesCount, coachData.totalGamesCount) + '%',
     ((coachData.totalDifferential * 1.0) / coachData.totalGamesCount).toFixed(2)

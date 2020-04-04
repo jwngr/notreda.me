@@ -36,10 +36,7 @@ const fetchFutureNdSchedules = () => {
       const schedules = {};
 
       $('.col-sm-6.schedu-list').each((seasonIndex, futureSeasonScheduleCol) => {
-        const season = $(futureSeasonScheduleCol)
-          .find('.team-hd')
-          .text()
-          .trim();
+        const season = $(futureSeasonScheduleCol).find('.team-hd').text().trim();
 
         // Ignore columns under the "FUTURE NOTRE DAME FOOTBALL SCHEDULES" section which do not
         // have a "team-hd" class.

@@ -21,9 +21,7 @@ return getHtmlForUrl(
   `https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`
 )
   .then(($) => {
-    let $scheduleTable = $('#Seasons')
-      .parent()
-      .next();
+    let $scheduleTable = $('#Seasons').parent().next();
 
     const $scheduleTableRows = $scheduleTable.find('tr');
 
@@ -33,20 +31,14 @@ return getHtmlForUrl(
         $(row)
           .children('th')
           .each((j, elem) => {
-            headerNames.push(
-              $(elem)
-                .text()
-                .trim()
-            );
+            headerNames.push($(elem).text().trim());
           });
       } else if (i > 0) {
         const rowCellValues = [];
         $(row)
           .children('td')
           .each((j, elem) => {
-            let rowCellText = $(elem)
-              .text()
-              .trim();
+            let rowCellText = $(elem).text().trim();
 
             rowCellValues.push(rowCellText);
           });

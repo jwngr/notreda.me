@@ -126,8 +126,9 @@ module.exports = ({stats, isGameOver, isLatestGameCompletedGame}, assert, ignore
           isNumber(totalYards) && totalYards === passYards + rushYards,
           `${_.capitalize(
             homeOrAway
-          )} total yards must be the sum of rush and pass yards (${totalYards} total vs. ${passYards +
-            rushYards} sum).`
+          )} total yards must be the sum of rush and pass yards (${totalYards} total vs. ${
+            passYards + rushYards
+          } sum).`
         );
 
         /*************/
