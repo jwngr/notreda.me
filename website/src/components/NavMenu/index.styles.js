@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import {NavMenuDecadeWrapper} from './NavMenuDecade/index.styles';
-
 import backgroundImage from '../../images/background.png';
 
 export const NavMenuWrapper = styled.div`
@@ -42,10 +40,13 @@ export const NavMenuDecadesWrapper = styled.div`
   flex-wrap: wrap;
 `;
 
-export const NavMenuLinksSectionWrapper = styled(NavMenuDecadeWrapper)`
+export const NavMenuLinksSectionWrapper = styled.div`
   margin: 32px auto 0 auto;
   position: relative;
   left: -12px;
+  padding: 8px;
+  border: solid 3px ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.gold}66;
 
   @media (max-width: 480px) {
     margin-left: 12px;
