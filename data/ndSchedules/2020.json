@@ -1,22 +1,7 @@
 [
   {
-    "isHomeGame": false,
-    "date": "08/29/2020",
-    "nickname": "Aer Lingus College Football Classic",
-    "location": {
-      "city": "Dublin",
-      "country": "Ireland",
-      "stadium": "Aviva Stadium",
-      "coordinates": [
-        53.335065,
-        -6.228575
-      ]
-    },
-    "opponentId": "NAVY"
-  },
-  {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 12 2020 14:30:00 GMT-0400",
+    "date": "TBD",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -26,83 +11,11 @@
         -86.233917
       ]
     },
-    "opponentId": "ARK"
+    "opponentId": "CLEM"
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 19 2020 14:30:00 GMT-0400",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "WMU"
-  },
-  {
-    "isHomeGame": false,
-    "date": "09/26/2020",
-    "location": {
-      "city": "Charlotte",
-      "state": "NC",
-      "stadium": "Bank of America Stadium",
-      "coordinates": [
-        35.225688,
-        -80.852879
-      ]
-    },
-    "opponentId": "WAKE"
-  },
-  {
-    "isHomeGame": false,
-    "fullDate": "Sat Oct 03 2020 19:30:00 GMT-0400",
-    "isShamrockSeries": true,
-    "location": {
-      "city": "Green Bay",
-      "state": "WI",
-      "stadium": "Lambeau Field",
-      "coordinates": [
-        44.501172,
-        -88.062262
-      ]
-    },
-    "opponentId": "WIS"
-  },
-  {
-    "isHomeGame": true,
-    "fullDate": "Sat Oct 10 2020 19:30:00 GMT-0400",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "STAN"
-  },
-  {
-    "isHomeGame": false,
-    "date": "10/17/2020",
-    "location": {
-      "city": "Pittsburgh",
-      "state": "PA",
-      "stadium": "Heinz Field",
-      "coordinates": [
-        40.445773,
-        -80.014982
-      ]
-    },
-    "opponentId": "PITT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "10/31/2020",
-    "fullDate": "Sat Oct 31 2020 15:30:00 GMT-0400",
+    "date": "TBD",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -116,7 +29,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 07 2020 20:30:00 GMT-0400",
+    "date": "TBD",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -126,25 +39,11 @@
         -86.233917
       ]
     },
-    "opponentId": "CLEM"
-  },
-  {
-    "isHomeGame": false,
-    "date": "11/14/2020",
-    "location": {
-      "city": "Atlanta",
-      "state": "GA",
-      "stadium": "Bobby Dodd Stadium",
-      "coordinates": [
-        33.772284,
-        -84.392859
-      ]
-    },
-    "opponentId": "GT"
+    "opponentId": "FSU"
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 21 2020 15:30:00 GMT-0400",
+    "date": "TBD",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -157,17 +56,87 @@
     "opponentId": "LOU"
   },
   {
-    "isHomeGame": false,
-    "date": "11/28/2020",
+    "isHomeGame": true,
+    "date": "TBD",
     "location": {
-      "city": "Los Angeles",
-      "state": "CA",
-      "stadium": "LA Memorial Coliseum",
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
       "coordinates": [
-        34.014167,
-        -118.287778
+        41.698399,
+        -86.233917
       ]
     },
-    "opponentId": "USC"
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium",
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906851,
+        -79.048108
+      ]
+    },
+    "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
+    },
+    "opponentId": "PITT"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Winston-Salem",
+      "state": "NC",
+      "stadium": "BB&T Field",
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
+    },
+    "opponentId": "WAKE"
   }
 ]
