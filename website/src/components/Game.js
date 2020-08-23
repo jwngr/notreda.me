@@ -27,7 +27,13 @@ import {
 
 const Game = ({game, year, index, isSelected}) => {
   let lastColumnContent;
-  if ('result' in game) {
+  if (game.isCanceled) {
+    lastColumnContent = (
+      <TelevisionCoverage>
+        <p>Canceled</p>
+      </TelevisionCoverage>
+    );
+  } else if ('result' in game) {
     const opponentScore = game.isHomeGame ? game.score.away : game.score.home;
     const notreDameScore = game.isHomeGame ? game.score.home : game.score.away;
 

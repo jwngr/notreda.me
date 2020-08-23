@@ -6,7 +6,13 @@ import StatsSection from '../../common/StatsSection';
 
 import {getTvChannelUrl, getTimeZoneString} from '../../../utils';
 
-import {ChannelLogo, ChannelName, DateAndTimeWrapper, CoverageInnerWrapper} from './index.styles';
+import {
+  ChannelLogo,
+  ChannelName,
+  DateAndTimeWrapper,
+  CoverageInnerWrapper,
+  CanceledText,
+} from './index.styles';
 
 const GameCoverage = ({game}) => {
   const isGameOver = typeof game.result !== 'undefined';
@@ -14,6 +20,8 @@ const GameCoverage = ({game}) => {
   let mainContent;
   if (game.date === 'TBD') {
     mainContent = <p>Date and time to be determined</p>;
+  } else if (game.isCanceled) {
+    mainContent = <CanceledText>Canceled</CanceledText>;
   } else {
     let date;
     let time;

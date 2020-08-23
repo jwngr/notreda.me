@@ -56,3 +56,7 @@ export const ChannelName = styled.p`
   font-weight: bold;
   margin-right: 16px;
 `;
+
+export const CanceledText = styled.p`
+  color: ${({theme}) => theme.colors.red};
+`;

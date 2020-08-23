@@ -1,7 +1,8 @@
 [
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "09/12/2020",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -11,11 +12,27 @@
         -86.233917
       ]
     },
-    "opponentId": "CLEM"
+    "opponentId": "DUKE",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "09/19/2020",
+    "coverage": "NBC",
+    "isCanceled": true,
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -25,109 +42,26 @@
         -86.233917
       ]
     },
-    "opponentId": "DUKE"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "FSU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "LOU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "SYR"
+    "opponentId": "WMU",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Chestnut Hill",
-      "state": "MA",
-      "stadium": "Alumni Stadium",
-      "coordinates": [
-        42.335,
-        -71.166389
-      ]
-    },
-    "opponentId": "BC"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Atlanta",
-      "state": "GA",
-      "stadium": "Bobby Dodd Stadium",
-      "coordinates": [
-        33.772284,
-        -84.392859
-      ]
-    },
-    "opponentId": "GT"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Durham",
-      "state": "NC",
-      "stadium": "Kenan Memorial Stadium",
-      "coordinates": [
-        35.906851,
-        -79.048108
-      ]
-    },
-    "opponentId": "UNC"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Pittsburgh",
-      "state": "PA",
-      "stadium": "Heinz Field",
-      "coordinates": [
-        40.445773,
-        -80.014982
-      ]
-    },
-    "opponentId": "PITT"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
+    "date": "09/26/2020",
+    "coverage": "TBD",
     "location": {
       "city": "Winston-Salem",
       "state": "NC",
@@ -137,6 +71,252 @@
         -80.254258
       ]
     },
-    "opponentId": "WAKE"
+    "opponentId": "WAKE",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/10/2020",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "FSU",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/17/2020",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "LOU",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/24/2020",
+    "coverage": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field",
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
+    },
+    "opponentId": "PITT",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/31/2020",
+    "coverage": "TBD",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Bobby Dodd Stadium",
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
+    },
+    "opponentId": "GT",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/07/2020",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "CLEM",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/14/2020",
+    "coverage": "TBD",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium",
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
+    },
+    "opponentId": "BC",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/27/2020",
+    "coverage": "TBD",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906851,
+        -79.048108
+      ]
+    },
+    "opponentId": "UNC",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "date": "12/05/2020",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "SYR",
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   }
 ]
