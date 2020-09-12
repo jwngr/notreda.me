@@ -52467,7 +52467,7 @@
   "2020": [
     {
       "isHomeGame": true,
-      "date": "09/12/2020",
+      "fullDate": "Sat Sep 12 2020 14:30:00 GMT-0400",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
@@ -52496,7 +52496,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "09/19/2020",
+      "fullDate": "Sat Sep 19 2020 14:30:00 GMT-0400",
       "coverage": "NBC",
       "isCanceled": true,
       "location": {
@@ -52509,6 +52509,35 @@
         ]
       },
       "opponentId": "WMU",
+      "records": {
+        "home": {
+          "overall": "0-0",
+          "home": "0-0",
+          "away": "0-0",
+          "neutral": "0-0"
+        },
+        "away": {
+          "overall": "0-0",
+          "home": "0-0",
+          "away": "0-0",
+          "neutral": "0-0"
+        }
+      }
+    },
+    {
+      "isHomeGame": true,
+      "fullDate": "Sat Sep 19 2020 14:30:00 GMT-0400",
+      "coverage": "NBC",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "USF",
       "records": {
         "home": {
           "overall": "0-0",
@@ -52555,7 +52584,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/10/2020",
+      "fullDate": "Sat Oct 10 2020 19:30:00 GMT-0400",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
@@ -52584,7 +52613,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/17/2020",
+      "fullDate": "Sat Oct 17 2020 14:30:00 GMT-0400",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
@@ -52671,7 +52700,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "11/07/2020",
+      "fullDate": "Sat Nov 07 2020 19:30:00 GMT-0500",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
