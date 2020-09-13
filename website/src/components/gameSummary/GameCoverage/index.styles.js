@@ -38,6 +38,7 @@ export const ChannelLogo = styled.img`
       case 'espn':
         return '60px';
       case 'nbcsn':
+      case 'usa':
         return '44px';
       case 'fox':
       case 'unknown':

@@ -250,6 +250,7 @@ export const TelevisionCoverage = styled.div`
           return '14px';
         case 'fox':
         case 'cstv':
+        case 'usa':
           return '20px';
         case 'tbs':
           return '26px';
@@ -278,6 +279,7 @@ export const TelevisionCoverage = styled.div`
           case 'cstv':
           case 'cbssn':
             return '14px';
+          case 'usa':
           case 'tbs':
             return '18px';
           default:
