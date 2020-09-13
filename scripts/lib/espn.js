@@ -143,7 +143,7 @@ const fetchGameIdsForSeason = (season) => {
         if (
           // Get game IDs for both completed (7 columns) and upcoming (5 columns).
           ($cols.length === 5 || $cols.length === 7) &&
-          $cols.eq(0).text().trim() !== 'Date'
+          $cols.eq(0).text().trim().toLowerCase() !== 'date'
         ) {
           const gameId = $cols.eq(2).find('a').attr('href').split('gameId/')[1].trim();
 
@@ -454,7 +454,8 @@ const fetchNotreDameWeeklyRecordsForSeason = async (season) => {
     // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
     // have a header row above them which say the bowl's name).
     const isIgnoredRow =
-      $cols.eq(0).text().trim() === 'Date' || ($cols.length !== 5 && $cols.length !== 7);
+      $cols.eq(0).text().trim().toLowerCase() === 'date' ||
+      ($cols.length !== 5 && $cols.length !== 7);
     upcomingGameIsBowlGame =
       upcomingGameIsBowlGame ||
       ($cols.length === 1 && _.includes($cols.eq(0).text().toLowerCase(), 'bowl'));
@@ -561,8 +562,8 @@ const fetchKickoffTimeForGame = (espnGameId) => {
   return scraper
     .get(`https://www.espn.com/college-football/game/_/gameId/${espnGameId}`)
     .then(($) => {
-      const $gameStatusSpans = $('.game-status > span');
-      const gameKickoffDate = $gameStatusSpans.eq(1).attr('data-date');
+      const $gameStatusSpans = $('.game-date-time > span');
+      const gameKickoffDate = $gameStatusSpans.eq(0).attr('data-date');
 
       if (gameKickoffDate) {
         return new Date(gameKickoffDate);
