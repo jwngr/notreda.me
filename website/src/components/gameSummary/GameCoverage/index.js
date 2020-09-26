@@ -22,6 +22,8 @@ const GameCoverage = ({game}) => {
     mainContent = <p>Date and time to be determined</p>;
   } else if (game.isCanceled) {
     mainContent = <CanceledText>Canceled</CanceledText>;
+  } else if (game.isPostponed) {
+    mainContent = <p>Postponed</p>;
   } else {
     let date;
     let time;

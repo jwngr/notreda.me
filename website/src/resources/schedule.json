@@ -52561,8 +52561,8 @@
       "result": "W",
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     },
@@ -52580,36 +52580,102 @@
         ]
       },
       "opponentId": "USF",
+      "highlightsYouTubeVideoId": "DFt9HRKEMjQ",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
+          "overall": "1-1",
           "home": "1-0",
-          "away": "0-0",
+          "away": "0-1",
           "neutral": "0-0"
         }
       },
       "espnGameId": 401241282,
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       },
       "weather": {
         "icon": "cloudy",
         "temperature": 67
-      }
+      },
+      "headCoach": "Brian Kelly",
+      "stats": {
+        "away": {
+          "firstDowns": 11,
+          "thirdDownAttempts": 15,
+          "thirdDownConversions": 2,
+          "fourthDownAttempts": 5,
+          "fourthDownConversions": 1,
+          "totalYards": 231,
+          "passYards": 125,
+          "passCompletions": 12,
+          "passAttempts": 29,
+          "yardsPerPass": 4.3,
+          "interceptionsThrown": 0,
+          "rushYards": 106,
+          "rushAttempts": 33,
+          "yardsPerRush": 3.2,
+          "penalties": 4,
+          "penaltyYards": 40,
+          "fumblesLost": 0,
+          "possession": "27:33",
+          "fumbles": 0
+        },
+        "home": {
+          "firstDowns": 21,
+          "thirdDownAttempts": 14,
+          "thirdDownConversions": 8,
+          "fourthDownAttempts": 2,
+          "fourthDownConversions": 2,
+          "totalYards": 429,
+          "passYards": 148,
+          "passCompletions": 13,
+          "passAttempts": 21,
+          "yardsPerPass": 7,
+          "interceptionsThrown": 0,
+          "rushYards": 281,
+          "rushAttempts": 45,
+          "yardsPerRush": 6.2,
+          "penalties": 2,
+          "penaltyYards": 25,
+          "fumblesLost": 0,
+          "possession": "32:27",
+          "fumbles": 2
+        }
+      },
+      "score": {
+        "home": 52,
+        "away": 0
+      },
+      "linescore": {
+        "away": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "home": [
+          14,
+          21,
+          10,
+          7
+        ]
+      },
+      "result": "W"
     },
     {
       "isHomeGame": false,
       "date": "09/26/2020",
       "coverage": "TBD",
+      "isPostponed": true,
       "location": {
         "city": "Winston-Salem",
         "state": "NC",
@@ -52622,23 +52688,23 @@
       "opponentId": "WAKE",
       "records": {
         "home": {
-          "overall": "0-1",
+          "overall": "0-2",
           "home": "0-1",
-          "away": "0-0",
+          "away": "0-1",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234596,
+      "espnGameId": 401234606,
       "rankings": {
         "away": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     },
@@ -52658,8 +52724,8 @@
       "opponentId": "FSU",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
@@ -52670,11 +52736,11 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234606,
+      "espnGameId": 401234613,
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     },
@@ -52694,23 +52760,26 @@
       "opponentId": "LOU",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "1-1",
+          "home": "1-1",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234613,
+      "espnGameId": 401234622,
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
+        },
+        "away": {
+          "ap": 24
         }
       }
     },
@@ -52730,23 +52799,26 @@
       "opponentId": "PITT",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234622,
+      "espnGameId": 401234626,
       "rankings": {
         "away": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
+        },
+        "home": {
+          "ap": 21
         }
       }
     },
@@ -52766,23 +52838,23 @@
       "opponentId": "GT",
       "records": {
         "home": {
-          "overall": "0-0",
-          "home": "0-0",
+          "overall": "0-1",
+          "home": "0-1",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234626,
+      "espnGameId": 401234632,
       "rankings": {
         "away": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     },
@@ -52802,23 +52874,23 @@
       "opponentId": "CLEM",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "0-0",
+          "overall": "2-0",
+          "home": "1-0",
           "away": "1-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234632,
+      "espnGameId": 401234637,
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         },
         "away": {
           "ap": 1,
@@ -52842,23 +52914,23 @@
       "opponentId": "BC",
       "records": {
         "home": {
-          "overall": "0-0",
+          "overall": "1-0",
           "home": "0-0",
-          "away": "0-0",
+          "away": "1-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234637,
+      "espnGameId": 401234650,
       "rankings": {
         "away": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     },
@@ -52884,21 +52956,21 @@
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234650,
+      "espnGameId": 401234662,
       "rankings": {
         "away": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         },
         "home": {
-          "ap": 18,
-          "coaches": 19
+          "ap": 11,
+          "coaches": 12
         }
       }
     },
@@ -52918,23 +52990,23 @@
       "opponentId": "SYR",
       "records": {
         "home": {
-          "overall": "1-0",
-          "home": "1-0",
+          "overall": "2-0",
+          "home": "2-0",
           "away": "0-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "0-1",
+          "overall": "0-2",
           "home": "0-0",
-          "away": "0-1",
+          "away": "0-2",
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234662,
+      "espnGameId": 401248042,
       "rankings": {
         "home": {
-          "ap": 10,
-          "coaches": 10
+          "ap": 7,
+          "coaches": 7
         }
       }
     }

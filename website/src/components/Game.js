@@ -33,6 +33,12 @@ const Game = ({game, year, index, isSelected}) => {
         <p>Canceled</p>
       </TelevisionCoverage>
     );
+  } else if (game.isPostponed) {
+    lastColumnContent = (
+      <TelevisionCoverage>
+        <p>Posponed</p>
+      </TelevisionCoverage>
+    );
   } else if ('result' in game) {
     const opponentScore = game.isHomeGame ? game.score.away : game.score.home;
     const notreDameScore = game.isHomeGame ? game.score.home : game.score.away;

@@ -19,6 +19,7 @@ const EXPECTED_TV_CHANNELS = [
   'RAYCOM / WGN',
   'SPORTSCHANNEL',
   'TBS',
+  'USA',
   'USA / WGN-TV',
   'WGN-TV',
 ];
