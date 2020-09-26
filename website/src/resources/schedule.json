@@ -52672,45 +52672,8 @@
       "result": "W"
     },
     {
-      "isHomeGame": false,
-      "date": "09/26/2020",
-      "coverage": "TBD",
-      "isPostponed": true,
-      "location": {
-        "city": "Winston-Salem",
-        "state": "NC",
-        "stadium": "BB&T Field",
-        "coordinates": [
-          36.13015,
-          -80.254258
-        ]
-      },
-      "opponentId": "WAKE",
-      "records": {
-        "home": {
-          "overall": "0-2",
-          "home": "0-1",
-          "away": "0-1",
-          "neutral": "0-0"
-        },
-        "away": {
-          "overall": "2-0",
-          "home": "2-0",
-          "away": "0-0",
-          "neutral": "0-0"
-        }
-      },
-      "espnGameId": 401234606,
-      "rankings": {
-        "away": {
-          "ap": 7,
-          "coaches": 7
-        }
-      }
-    },
-    {
       "isHomeGame": true,
-      "fullDate": "Sat Oct 10 2020 19:30:00 GMT-0400",
+      "fullDate": "Sat Oct 10 2020 19:00:00 GMT-0400",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
@@ -52736,7 +52699,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234613,
+      "espnGameId": 401234606,
       "rankings": {
         "home": {
           "ap": 7,
@@ -52772,7 +52735,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234622,
+      "espnGameId": 401234613,
       "rankings": {
         "home": {
           "ap": 7,
@@ -52811,7 +52774,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234626,
+      "espnGameId": 401234622,
       "rankings": {
         "away": {
           "ap": 7,
@@ -52850,7 +52813,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234632,
+      "espnGameId": 401234626,
       "rankings": {
         "away": {
           "ap": 7,
@@ -52860,7 +52823,7 @@
     },
     {
       "isHomeGame": true,
-      "fullDate": "Sat Nov 07 2020 19:30:00 GMT-0500",
+      "fullDate": "Sat Nov 07 2020 19:00:00 GMT-0500",
       "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
@@ -52886,7 +52849,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234637,
+      "espnGameId": 401234632,
       "rankings": {
         "home": {
           "ap": 7,
@@ -52926,7 +52889,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234650,
+      "espnGameId": 401234637,
       "rankings": {
         "away": {
           "ap": 7,
@@ -52962,7 +52925,7 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401234662,
+      "espnGameId": 401234650,
       "rankings": {
         "away": {
           "ap": 7,
@@ -53002,9 +52965,46 @@
           "neutral": "0-0"
         }
       },
-      "espnGameId": 401248042,
+      "espnGameId": 401234662,
       "rankings": {
         "home": {
+          "ap": 7,
+          "coaches": 7
+        }
+      }
+    },
+    {
+      "isHomeGame": false,
+      "date": "12/12/2020",
+      "coverage": "TBD",
+      "isPostponed": true,
+      "location": {
+        "city": "Winston-Salem",
+        "state": "NC",
+        "stadium": "BB&T Field",
+        "coordinates": [
+          36.13015,
+          -80.254258
+        ]
+      },
+      "opponentId": "WAKE",
+      "records": {
+        "home": {
+          "overall": "0-2",
+          "home": "0-1",
+          "away": "0-1",
+          "neutral": "0-0"
+        },
+        "away": {
+          "overall": "2-0",
+          "home": "2-0",
+          "away": "0-0",
+          "neutral": "0-0"
+        }
+      },
+      "espnGameId": 401248042,
+      "rankings": {
+        "away": {
           "ap": 7,
           "coaches": 7
         }

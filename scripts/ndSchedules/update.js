@@ -78,6 +78,11 @@ const updateNdSchedule = async () => {
 
   // Audit the kickoff time for upcoming games.
   for (const currentSeasonUpcomingGameData of currentSeasonUpcomingGames) {
+    // Skip auditing games which have been cancelled or postponed.
+    if (currentSeasonUpcomingGameData.isCanceled || currentSeasonUpcomingGameData.isPostponed) {
+      continue;
+    }
+
     const priorGameDate = utils.getGameDate(currentSeasonUpcomingGameData);
     const newGameDate = await espn.fetchKickoffTimeForGame(
       currentSeasonUpcomingGameData.espnGameId
@@ -96,7 +101,7 @@ const updateNdSchedule = async () => {
         `Manually remove kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`,
         'warning'
       );
-    } else if (newGameDate.getTime() !== priorGameDate.getTime()) {
+    } else if (!newIsTimeTbd && newGameDate.getTime() !== priorGameDate.getTime()) {
       sentry.captureMessage(
         `Manually update kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`,
         'warning'
@@ -128,7 +133,8 @@ const updateNdSchedule = async () => {
   logger.info(`Updating weather for upcoming game...`);
   const nextUpcomingCurrentSeasonGame = _.find(
     currentSeasonSchedule,
-    ({result}) => typeof result === 'undefined'
+    ({result, isPostponed, isCanceled}) =>
+      !isPostponed && !isCanceled && typeof result === 'undefined'
   );
 
   if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {

@@ -30,6 +30,7 @@ module.exports.initialize = () => {
 };
 
 module.exports.captureMessage = (message, level) => {
+  logger[level](message);
   if (_isSentryInitialized) {
     sentry.captureMessage(message, level);
   }

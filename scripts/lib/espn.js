@@ -562,14 +562,15 @@ const fetchKickoffTimeForGame = (espnGameId) => {
   return scraper
     .get(`https://www.espn.com/college-football/game/_/gameId/${espnGameId}`)
     .then(($) => {
-      const $gameStatusSpans = $('.game-date-time > span');
-      const gameKickoffDate = $gameStatusSpans.eq(0).attr('data-date');
+      const $gameStatusSpan = $('.game-date-time > span').eq(0);
+      const gameKickoffTime = $gameStatusSpan.attr('data-date');
+      const isKickoffTimeTbd = $gameStatusSpan.find('.game-date').attr('data-istbd') === 'true';
 
-      if (gameKickoffDate) {
-        return new Date(gameKickoffDate);
+      if (!gameKickoffTime || isKickoffTimeTbd) {
+        return 'TBD';
       }
 
-      return 'TBD';
+      return new Date(gameKickoffTime);
     })
     .catch((error) => {
       logger.error(`Error fetching kickoff time for game.`, {error, espnGameId});
