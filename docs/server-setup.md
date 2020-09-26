@@ -32,11 +32,11 @@ server for Six Degrees of Wikipedia.
     $ gcloud compute ssh sdow-web-server-# --project=sdow-prod
     ```
 
-1.  Install required operating system dependencies:
+1.  Install [nvm](https://github.com/nvm-sh/nvm#install--update-script):
 
     ```bash
-    $ sudo apt-get -q update
-    $ sudo apt-get -yq nodejs
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+    $ nvm install node
     ```
 
 1.  Clone this directory via HTTPS as `jwngr-ops` and navigate into the repo:
@@ -64,6 +64,8 @@ server for Six Degrees of Wikipedia.
     $ cd scripts/
     $ npm install
     ```
+
+1.  Copy the `config.json` into the repo's `config/` directory, making sure to enable Sentry.
 
 1.  Run `crontab -e` and add the following cron jobs to that file:
 
