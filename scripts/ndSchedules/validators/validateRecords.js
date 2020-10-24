@@ -120,12 +120,15 @@ module.exports = (
                 } else {
                   // Opponent's actual games played count from their record should be no more than
                   // 1 away from the ND's expected games played count.
-                  wrappedAssert(
-                    Math.abs(gamesPlayedCountFromRecord - ndExpectedGamesPlayed) <= 1,
-                    `${_.capitalize(
-                      homeOrAway
-                    )} (opponent) overall record has unexpected number of games.`
-                  );
+                  // Exlude 2020 because COVID caused so many postponements.
+                  if (season !== 2020) {
+                    wrappedAssert(
+                      Math.abs(gamesPlayedCountFromRecord - ndExpectedGamesPlayed) <= 1,
+                      `${_.capitalize(
+                        homeOrAway
+                      )} (opponent) overall record has unexpected number of games.`
+                    );
+                  }
                 }
 
                 const [awayWinCount, awayLossCount, awayTieCount] = _parseRecord(
