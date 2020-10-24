@@ -38,10 +38,11 @@ const updateNdSchedule = async () => {
       const millisecondsSinceGame = Date.now() - new Date(gameData.fullDate).getTime();
       const daysSinceGame = Math.floor(millisecondsSinceGame / (1000 * 60 * 60 * 24));
 
-      // If the game was completed within the last week and is no more than one day out, attempt to
+      // If the game was completed within the last month and is no more than one day out, attempt to
       // fetch stats for it. If the game has not yet ended, this will exit early. Re-fetching game
-      // stats for one week allows time for ESPN to update the stats later, which they often do.
-      if (daysSinceGame < 7 && daysSinceGame >= -1) {
+      // stats for a month allows time for ESPN to update the stats later, which they often do.
+      const MAX_DAYS_SINCE_GAME_TO_FETCH = 30;
+      if (daysSinceGame < MAX_DAYS_SINCE_GAME_TO_FETCH && daysSinceGame >= -1) {
         return espn.fetchStatsForGame(gameData.espnGameId);
       }
     })
