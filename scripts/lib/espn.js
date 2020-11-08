@@ -174,7 +174,7 @@ const fetchStatsForGame = (gameId) => {
     .then(([$matchup, $boxscore]) => {
       // If the game is not over, return early with no data.
       const gameStatus = $matchup('.status-detail').text().trim();
-      if (gameStatus !== 'Final') {
+      if (!gameStatus.startsWith('Final')) {
         return;
       }
 
