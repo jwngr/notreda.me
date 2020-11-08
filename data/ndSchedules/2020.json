@@ -99,8 +99,8 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 10,
+        "coaches": 10
       }
     }
   },
@@ -136,8 +136,8 @@
     "espnGameId": 401241282,
     "rankings": {
       "home": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 7,
+        "coaches": 7
       }
     },
     "weather": {
@@ -241,8 +241,8 @@
     "espnGameId": 401234606,
     "rankings": {
       "home": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 5,
+        "coaches": 5
       }
     },
     "weather": {
@@ -458,8 +458,8 @@
     "espnGameId": 401234622,
     "rankings": {
       "away": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 3,
+        "coaches": 3
       },
       "home": {
         "ap": 21
@@ -735,16 +735,14 @@
         6,
         10,
         10,
-        7,
-        0
+        7
       ],
       "home": [
         10,
         13,
         0,
         10,
-        7,
-        7
+        14
       ]
     },
     "result": "W"
@@ -780,8 +778,8 @@
     "espnGameId": 401234637,
     "rankings": {
       "away": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 2,
+        "coaches": 2
       }
     }
   },
@@ -816,8 +814,8 @@
     "espnGameId": 401234650,
     "rankings": {
       "away": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 2,
+        "coaches": 2
       },
       "home": {
         "ap": 14,
@@ -856,8 +854,8 @@
     "espnGameId": 401234662,
     "rankings": {
       "home": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 2,
+        "coaches": 2
       }
     }
   },
@@ -892,8 +890,8 @@
     "espnGameId": 401248042,
     "rankings": {
       "away": {
-        "ap": 4,
-        "coaches": 4
+        "ap": 2,
+        "coaches": 2
       }
     }
   }
