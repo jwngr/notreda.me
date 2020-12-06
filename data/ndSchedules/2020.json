@@ -547,9 +547,9 @@
     "highlightsYouTubeVideoId": "EdamPX97mrw",
     "records": {
       "home": {
-        "overall": "3-3",
-        "home": "2-2",
-        "away": "1-1",
+        "overall": "5-4",
+        "home": "3-2",
+        "away": "2-2",
         "neutral": "0-0"
       },
       "away": {
@@ -708,17 +708,17 @@
         "thirdDownConversions": 10,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 0,
-        "totalYards": 519,
+        "totalYards": 518,
         "passYards": 310,
         "passCompletions": 22,
         "passAttempts": 39,
         "yardsPerPass": 7.9,
         "interceptionsThrown": 0,
-        "rushYards": 209,
-        "rushAttempts": 41,
-        "yardsPerRush": 5.1,
+        "rushYards": 208,
+        "rushAttempts": 40,
+        "yardsPerRush": 5.2,
         "penalties": 7,
-        "penaltyYards": 51,
+        "penaltyYards": 50,
         "fumblesLost": 1,
         "possession": "30:22",
         "fumbles": 1
@@ -749,8 +749,9 @@
   },
   {
     "isHomeGame": false,
-    "date": "11/14/2020",
-    "coverage": "TBD",
+    "fullDate": "Sat Nov 14 2020 15:30:00 GMT-0500",
+    "coverage": "ABC",
+    "highlightsYouTubeVideoId": "qnx-plDC-CM",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -763,15 +764,15 @@
     "opponentId": "BC",
     "records": {
       "home": {
-        "overall": "5-3",
-        "home": "3-1",
+        "overall": "5-4",
+        "home": "3-2",
         "away": "2-2",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "7-0",
+        "overall": "8-0",
         "home": "5-0",
-        "away": "2-0",
+        "away": "3-0",
         "neutral": "0-0"
       }
     },
@@ -781,12 +782,77 @@
         "ap": 2,
         "coaches": 2
       }
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 29,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 557,
+        "passYards": 283,
+        "passCompletions": 20,
+        "passAttempts": 28,
+        "yardsPerPass": 10.1,
+        "interceptionsThrown": 0,
+        "rushYards": 274,
+        "rushAttempts": 49,
+        "yardsPerRush": 5.6,
+        "penalties": 8,
+        "penaltyYards": 69,
+        "fumblesLost": 3,
+        "possession": "34:27",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 357,
+        "passYards": 272,
+        "passCompletions": 18,
+        "passAttempts": 40,
+        "yardsPerPass": 6.8,
+        "interceptionsThrown": 1,
+        "rushYards": 85,
+        "rushAttempts": 25,
+        "yardsPerRush": 3.4,
+        "penalties": 6,
+        "penaltyYards": 56,
+        "fumblesLost": 1,
+        "possession": "25:33",
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 31,
+      "away": 45
+    },
+    "linescore": {
+      "away": [
+        10,
+        21,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        6,
+        7,
+        8
+      ]
+    },
+    "result": "W"
   },
   {
     "isHomeGame": false,
-    "date": "11/27/2020",
-    "coverage": "TBD",
+    "fullDate": "Sat Nov 27 2020 15:30:00 GMT-0500",
+    "coverage": "ABC",
+    "highlightsYouTubeVideoId": "TMNfTtoqpkE",
     "location": {
       "city": "Durham",
       "state": "NC",
@@ -799,15 +865,15 @@
     "opponentId": "UNC",
     "records": {
       "home": {
-        "overall": "5-2",
-        "home": "3-0",
+        "overall": "6-3",
+        "home": "4-1",
         "away": "2-2",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "7-0",
+        "overall": "9-0",
         "home": "5-0",
-        "away": "2-0",
+        "away": "4-0",
         "neutral": "0-0"
       }
     },
@@ -818,15 +884,80 @@
         "coaches": 2
       },
       "home": {
-        "ap": 14,
-        "coaches": 24
+        "ap": 25,
+        "coaches": 23
       }
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 478,
+        "passYards": 279,
+        "passCompletions": 23,
+        "passAttempts": 33,
+        "yardsPerPass": 8.5,
+        "interceptionsThrown": 0,
+        "rushYards": 199,
+        "rushAttempts": 36,
+        "yardsPerRush": 5.5,
+        "penalties": 4,
+        "penaltyYards": 24,
+        "fumblesLost": 0,
+        "possession": "35:04",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 2,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 298,
+        "passYards": 211,
+        "passCompletions": 17,
+        "passAttempts": 27,
+        "yardsPerPass": 7.8,
+        "interceptionsThrown": 0,
+        "rushYards": 87,
+        "rushAttempts": 30,
+        "yardsPerRush": 2.9,
+        "penalties": 9,
+        "penaltyYards": 90,
+        "fumblesLost": 0,
+        "possession": "24:56",
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 17,
+      "away": 31
+    },
+    "linescore": {
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        3,
+        0,
+        0
+      ]
+    },
+    "result": "W"
   },
   {
     "isHomeGame": true,
-    "date": "12/05/2020",
+    "fullDate": "Sat Dec 05 2020 14:30:00 GMT-0500",
     "coverage": "NBC",
+    "highlightsYouTubeVideoId": "ZrGSAxrX9xE",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -839,15 +970,15 @@
     "opponentId": "SYR",
     "records": {
       "home": {
-        "overall": "7-0",
-        "home": "5-0",
-        "away": "2-0",
+        "overall": "10-0",
+        "home": "6-0",
+        "away": "4-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "1-7",
-        "home": "1-4",
-        "away": "0-3",
+        "overall": "1-10",
+        "home": "1-5",
+        "away": "0-5",
         "neutral": "0-0"
       }
     },
@@ -857,41 +988,112 @@
         "ap": 2,
         "coaches": 2
       }
-    }
-  },
-  {
-    "isHomeGame": false,
-    "date": "12/12/2020",
-    "coverage": "TBD",
-    "location": {
-      "city": "Winston-Salem",
-      "state": "NC",
-      "stadium": "BB&T Field",
-      "coordinates": [
-        36.13015,
-        -80.254258
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 15,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 414,
+        "passYards": 185,
+        "passCompletions": 18,
+        "passAttempts": 30,
+        "yardsPerPass": 6.2,
+        "interceptionsThrown": 1,
+        "rushYards": 229,
+        "rushAttempts": 35,
+        "yardsPerRush": 6.5,
+        "penalties": 8,
+        "penaltyYards": 90,
+        "fumblesLost": 3,
+        "possession": "26:10",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 568,
+        "passYards": 285,
+        "passCompletions": 24,
+        "passAttempts": 37,
+        "yardsPerPass": 7.7,
+        "interceptionsThrown": 1,
+        "rushYards": 283,
+        "rushAttempts": 40,
+        "yardsPerRush": 7.1,
+        "penalties": 4,
+        "penaltyYards": 40,
+        "fumblesLost": 1,
+        "possession": "33:50",
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 45,
+      "away": 21
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        21,
+        14,
+        7
       ]
     },
-    "opponentId": "WAKE",
+    "result": "W"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Dec 19 2020 16:00:00 GMT-0500",
+    "nickname": "ACC Championship Game",
+    "coverage": "ABC",
+    "location": {
+      "city": "Charlotte",
+      "state": "NC",
+      "stadium": "Bank of America Stadium",
+      "coordinates": [
+        35.225688,
+        -80.852879
+      ]
+    },
+    "opponentId": "CLEM",
     "records": {
       "home": {
-        "overall": "4-2",
-        "home": "3-1",
-        "away": "1-1",
+        "overall": "10-0",
+        "home": "6-0",
+        "away": "4-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "7-0",
+        "overall": "9-1",
         "home": "5-0",
-        "away": "2-0",
+        "away": "4-1",
         "neutral": "0-0"
       }
     },
-    "espnGameId": 401248042,
+    "espnGameId": 401256001,
     "rankings": {
-      "away": {
+      "home": {
         "ap": 2,
-        "coaches": 2
+        "coaches": 2,
+        "cfbPlayoff": 2
+      },
+      "away": {
+        "ap": 4,
+        "coaches": 3,
+        "cfbPlayoff": 3
       }
     }
   }
