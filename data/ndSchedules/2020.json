@@ -846,7 +846,11 @@
         8
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 47
+    }
   },
   {
     "isHomeGame": false,
@@ -951,7 +955,11 @@
         0
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63
+    }
   },
   {
     "isHomeGame": true,
@@ -1052,7 +1060,11 @@
         7
       ]
     },
-    "result": "W"
+    "result": "W",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 37
+    }
   },
   {
     "isHomeGame": true,

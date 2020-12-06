@@ -4,6 +4,7 @@ const utils = require('../lib/utils');
 const logger = require('../lib/logger');
 const weather = require('../lib/weather');
 const ndSchedules = require('../lib/ndSchedules');
+const {CURRENT_SEASON} = require('../lib/constants');
 
 logger.info('Updating weather for historical games...');
 
@@ -12,7 +13,7 @@ _.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
   let currentSeasonFetchWeatherPromises = [];
 
   _.forEach(seasonScheduleData, (gameData) => {
-    if (gameData.result && !gameData.weather && season === '2019') {
+    if (gameData.result && !gameData.weather && season === CURRENT_SEASON) {
       const [lat, lon] = gameData.location.coordinates;
 
       currentSeasonFetchWeatherPromises.push(
