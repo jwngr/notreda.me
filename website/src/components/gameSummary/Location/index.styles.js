@@ -43,4 +43,5 @@ export const StadiumLocationWrapper = styled.div`
   flex-direction: column;
   align-items: ${({center}) => (center ? 'center' : 'start')};
   justify-content: center;
+  text-align: center;
 `;
