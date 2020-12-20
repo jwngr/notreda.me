@@ -53533,6 +53533,7 @@
       }
     },
     {
+      "isNeutralSiteGame": true,
       "isHomeGame": true,
       "fullDate": "Sat Dec 19 2020 16:00:00 GMT-0500",
       "nickname": "ACC Championship Game",
@@ -53551,15 +53552,15 @@
       "records": {
         "home": {
           "overall": "10-1",
-          "home": "6-1",
+          "home": "6-0",
           "away": "4-0",
-          "neutral": "0-0"
+          "neutral": "0-1"
         },
         "away": {
-          "overall": "7-1",
+          "overall": "10-1",
           "home": "5-0",
-          "away": "2-1",
-          "neutral": "0-0"
+          "away": "4-1",
+          "neutral": "1-0"
         }
       },
       "espnGameId": 401256001,
@@ -53638,12 +53639,16 @@
           7
         ]
       },
-      "result": "L"
+      "result": "L",
+      "weather": {
+        "icon": "partly-cloudy-day",
+        "temperature": 49
+      }
     },
     {
+      "isNeutralSiteGame": true,
       "isBowlGame": true,
       "isHomeGame": false,
-      "date": "01/01/2021",
       "fullDate": "Fri Jan 01 2021 16:00:00 GMT-0500",
       "nickname": "Capital One Rose Bowl - College Football Playoff Semifinal",
       "location": {
@@ -53655,7 +53660,33 @@
           -97.094719
         ]
       },
-      "opponentId": "BAMA"
+      "opponentId": "BAMA",
+      "records": {
+        "home": {
+          "overall": "11-0",
+          "home": "5-0",
+          "away": "5-0",
+          "neutral": "1-0"
+        },
+        "away": {
+          "overall": "10-1",
+          "home": "6-0",
+          "away": "4-0",
+          "neutral": "0-1"
+        }
+      },
+      "rankings": {
+        "away": {
+          "ap": 2,
+          "coaches": 2,
+          "cfbPlayoff": 2
+        },
+        "home": {
+          "ap": 1,
+          "coaches": 1,
+          "cfbPlayoff": 1
+        }
+      }
     }
   ],
   "2021": [

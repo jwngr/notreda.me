@@ -24,9 +24,9 @@ const updateNdSchedule = async () => {
     currentSeasonSchedule[i].espnGameId = Number(espnGameId);
   });
 
-  // Check for new games, such as bowl games, being added to the schedule. If they are different,
-  // exit early by throwing an error since future updates will not work properly.
-  if (currentSeasonSchedule.length !== espnGameIds.length) {
+  // Check for new games, such as bowl games, being added to the schedule. If there are new games
+  // added, exit early since future updates will not work properly.
+  if (currentSeasonSchedule.length < espnGameIds.length) {
     const errorMessage = `Manually add new game(s) for ${SEASON} season`;
     sentry.captureMessage(errorMessage, 'warning');
     throw new Error(errorMessage);
