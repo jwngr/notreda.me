@@ -1071,6 +1071,7 @@
     "fullDate": "Sat Dec 19 2020 16:00:00 GMT-0500",
     "nickname": "ACC Championship Game",
     "coverage": "ABC",
+    "highlightsYouTubeVideoId": "bsIXUEOXiDA",
     "location": {
       "city": "Charlotte",
       "state": "NC",
@@ -1083,15 +1084,15 @@
     "opponentId": "CLEM",
     "records": {
       "home": {
-        "overall": "10-0",
-        "home": "6-0",
+        "overall": "10-1",
+        "home": "6-1",
         "away": "4-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "9-1",
+        "overall": "7-1",
         "home": "5-0",
-        "away": "4-1",
+        "away": "2-1",
         "neutral": "0-0"
       }
     },
@@ -1107,6 +1108,87 @@
         "coaches": 3,
         "cfbPlayoff": 3
       }
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 541,
+        "passYards": 322,
+        "passCompletions": 25,
+        "passAttempts": 39,
+        "yardsPerPass": 8.3,
+        "interceptionsThrown": 1,
+        "rushYards": 219,
+        "rushAttempts": 27,
+        "yardsPerRush": 8.1,
+        "penalties": 5,
+        "penaltyYards": 60,
+        "fumblesLost": 0,
+        "possession": "28:08",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 263,
+        "passYards": 219,
+        "passCompletions": 20,
+        "passAttempts": 28,
+        "yardsPerPass": 7.8,
+        "interceptionsThrown": 0,
+        "rushYards": 44,
+        "rushAttempts": 30,
+        "yardsPerRush": 1.5,
+        "penalties": 2,
+        "penaltyYards": 25,
+        "fumblesLost": 0,
+        "possession": "31:52",
+        "fumbles": 3
+      }
+    },
+    "score": {
+      "home": 10,
+      "away": 34
+    },
+    "linescore": {
+      "away": [
+        7,
+        17,
+        7,
+        3
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        7
+      ]
+    },
+    "result": "L"
+  },
+  {
+    "isBowlGame": true,
+    "isHomeGame": false,
+    "date": "01/01/2021",
+    "fullDate": "Fri Jan 01 2021 16:00:00 GMT-0500",
+    "nickname": "Capital One Rose Bowl - College Football Playoff Semifinal",
+    "location": {
+      "city": "Arlington",
+      "state": "TX",
+      "stadium": "AT&T Stadium",
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
+    },
+    "opponentId": "BAMA"
   }
 ]
