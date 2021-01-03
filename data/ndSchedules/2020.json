@@ -547,9 +547,9 @@
     "highlightsYouTubeVideoId": "EdamPX97mrw",
     "records": {
       "home": {
-        "overall": "5-4",
-        "home": "3-2",
-        "away": "2-2",
+        "overall": "2-5",
+        "home": "1-3",
+        "away": "1-2",
         "neutral": "0-0"
       },
       "away": {
@@ -1091,10 +1091,10 @@
         "neutral": "0-1"
       },
       "away": {
-        "overall": "10-1",
+        "overall": "7-1",
         "home": "5-0",
-        "away": "4-1",
-        "neutral": "1-0"
+        "away": "2-1",
+        "neutral": "0-0"
       }
     },
     "espnGameId": 401256001,
@@ -1185,6 +1185,7 @@
     "isHomeGame": false,
     "fullDate": "Fri Jan 01 2021 16:00:00 GMT-0500",
     "nickname": "Capital One Rose Bowl - College Football Playoff Semifinal",
+    "highlightsYouTubeVideoId": "k8PuihJAUGc",
     "location": {
       "city": "Arlington",
       "state": "TX",
@@ -1197,29 +1198,98 @@
     "opponentId": "BAMA",
     "records": {
       "home": {
-        "overall": "11-0",
+        "overall": "12-0",
         "home": "5-0",
         "away": "5-0",
-        "neutral": "1-0"
+        "neutral": "2-0"
       },
       "away": {
-        "overall": "10-1",
-        "home": "6-0",
+        "overall": "10-2",
+        "home": "6-2",
         "away": "4-0",
-        "neutral": "0-1"
+        "neutral": "0-2"
       }
     },
     "rankings": {
       "away": {
-        "ap": 2,
-        "coaches": 2,
-        "cfbPlayoff": 2
+        "ap": 4,
+        "coaches": 4,
+        "cfbPlayoff": 4
       },
       "home": {
         "ap": 1,
         "coaches": 1,
         "cfbPlayoff": 1
       }
+    },
+    "espnGameId": 401240152,
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 16,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 2,
+        "totalYards": 375,
+        "passYards": 236,
+        "passCompletions": 28,
+        "passAttempts": 42,
+        "yardsPerPass": 5.6,
+        "interceptionsThrown": 1,
+        "rushYards": 139,
+        "rushAttempts": 38,
+        "yardsPerRush": 3.7,
+        "penalties": 3,
+        "penaltyYards": 25,
+        "fumblesLost": 0,
+        "possession": "33:43",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 6,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 437,
+        "passYards": 297,
+        "passCompletions": 25,
+        "passAttempts": 30,
+        "yardsPerPass": 9.9,
+        "interceptionsThrown": 0,
+        "rushYards": 140,
+        "rushAttempts": 25,
+        "yardsPerRush": 5.6,
+        "penalties": 6,
+        "penaltyYards": 59,
+        "fumblesLost": 0,
+        "possession": "26:17",
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 31,
+      "away": 14
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        3
+      ]
+    },
+    "result": "L",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 40
     }
   }
 ]
