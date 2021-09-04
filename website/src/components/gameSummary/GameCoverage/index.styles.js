@@ -32,6 +32,7 @@ export const ChannelLogo = styled.img`
       case 'cbssn':
       case 'cstv':
       case 'espn2':
+      case 'peacock':
         return '80px';
       case 'accn':
         return '72px';

@@ -254,6 +254,8 @@ export const TelevisionCoverage = styled.div`
           return '20px';
         case 'tbs':
           return '26px';
+        case 'peacock':
+          return '48px';
         default:
           return '32px';
       }
@@ -273,6 +275,7 @@ export const TelevisionCoverage = styled.div`
         switch (channel) {
           case 'espn':
           case 'espn2':
+          case 'peacock':
             return '10px';
           case 'fox':
           case 'accn':
