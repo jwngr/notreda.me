@@ -5,6 +5,7 @@ const format = require('date-fns/format');
 
 const logger = require('../lib/logger');
 const ndSchedules = require('../lib/ndSchedules');
+const {CURRENT_SEASON} = require('../lib/constants');
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
@@ -23,6 +24,7 @@ const DECADES = [
   _.range(1990, 2000),
   _.range(2000, 2010),
   _.range(2010, 2020),
+  _.range(2020, CURRENT_SEASON),
 ];
 
 const stats = [

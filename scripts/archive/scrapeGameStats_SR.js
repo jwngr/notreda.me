@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const puppeteer = require('puppeteer');
-
+const {CURRENT_SEASON} = require('../lib/constants');
+ 
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
@@ -64,7 +65,7 @@ const scrapeGameStats = async (gameId) => {
 };
 
 const fn = async () => {
-  const year = 2020;
+  const year = CURRENT_SEASON;
   const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
   const yearData = require(filename);
 

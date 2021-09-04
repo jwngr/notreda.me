@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 const LATEST_SEASON = 2037;
-const CURRENT_SEASON = 2020;
+const CURRENT_SEASON = 2021;
 
 module.exports = {
   LATEST_SEASON,
