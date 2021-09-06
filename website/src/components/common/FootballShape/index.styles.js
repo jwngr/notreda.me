@@ -83,10 +83,10 @@ export const Text = styled.p`
 
 export const Leg = styled.div`
   height: 0;
-  width: 21px;
+  width: 24px;
   border-bottom: solid 2px ${({theme}) => theme.colors.black};
   position: absolute;
-  bottom: 0;
+  bottom: -1;
   left: ${({type}) => (type === 'left' ? 0 : 'initial')};
   right: ${({type}) => (type === 'right' ? 0 : 'initial')};
   transform: rotate(${({type}) => (type === 'right' ? 52 : -52)}deg);
