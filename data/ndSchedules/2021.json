@@ -317,7 +317,7 @@
     "result": "W"
   },
   {
-    "isHomeGame": true,
+    "isHomeGame": false,
     "fullDate": "Sat Sep 25 2021 12:00:00 GMT-0400",
     "coverage": "FOX",
     "isShamrockSeries": true,
@@ -335,26 +335,26 @@
     "espnGameId": 401282707,
     "records": {
       "home": {
-        "overall": "4-0",
-        "home": "3-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
         "overall": "1-2",
         "home": "1-2",
         "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-0",
+        "home": "3-0",
+        "away": "1-0",
         "neutral": "0-0"
       }
     },
     "rankings": {
       "home": {
-        "ap": 12,
-        "coaches": 10
-      },
-      "away": {
         "ap": 18,
         "coaches": 15
+      },
+      "away": {
+        "ap": 12,
+        "coaches": 10
       }
     },
     "weather": {
@@ -424,7 +424,7 @@
         3
       ]
     },
-    "result": "L"
+    "result": "W"
   },
   {
     "isHomeGame": true,
