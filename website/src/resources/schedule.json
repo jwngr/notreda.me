@@ -54082,6 +54082,7 @@
       "fullDate": "Sat Sep 25 2021 12:00:00 GMT-0400",
       "coverage": "FOX",
       "isShamrockSeries": true,
+      "highlightsYouTubeVideoId": "daf6cH18ukQ",
       "location": {
         "city": "Chicago",
         "state": "IL",
@@ -54095,14 +54096,14 @@
       "espnGameId": 401282707,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "1-1",
-          "home": "1-1",
+          "overall": "1-2",
+          "home": "1-2",
           "away": "0-0",
           "neutral": "0-0"
         }
@@ -54120,7 +54121,71 @@
       "weather": {
         "icon": "clear-day",
         "temperature": 61
-      }
+      },
+      "headCoach": "Brian Kelly",
+      "stats": {
+        "away": {
+          "firstDowns": 17,
+          "thirdDownAttempts": 16,
+          "thirdDownConversions": 5,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 1,
+          "totalYards": 242,
+          "passYards": 239,
+          "passCompletions": 21,
+          "passAttempts": 37,
+          "yardsPerPass": 6.5,
+          "interceptionsThrown": 0,
+          "rushYards": 3,
+          "rushAttempts": 32,
+          "yardsPerRush": 0.1,
+          "penalties": 11,
+          "penaltyYards": 93,
+          "fumblesLost": 1,
+          "possession": "31:36",
+          "fumbles": 2
+        },
+        "home": {
+          "firstDowns": 16,
+          "thirdDownAttempts": 14,
+          "thirdDownConversions": 1,
+          "fourthDownAttempts": 1,
+          "fourthDownConversions": 0,
+          "totalYards": 318,
+          "passYards": 240,
+          "passCompletions": 18,
+          "passAttempts": 41,
+          "yardsPerPass": 5.9,
+          "interceptionsThrown": 4,
+          "rushYards": 78,
+          "rushAttempts": 28,
+          "yardsPerRush": 2.8,
+          "penalties": 5,
+          "penaltyYards": 33,
+          "fumblesLost": 1,
+          "possession": "28:24",
+          "fumbles": 2
+        }
+      },
+      "score": {
+        "home": 13,
+        "away": 41
+      },
+      "linescore": {
+        "away": [
+          0,
+          10,
+          0,
+          31
+        ],
+        "home": [
+          3,
+          0,
+          7,
+          3
+        ]
+      },
+      "result": "L"
     },
     {
       "isHomeGame": true,
@@ -54139,8 +54204,8 @@
       "espnGameId": 401282708,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
@@ -54160,6 +54225,10 @@
           "ap": 8,
           "coaches": 9
         }
+      },
+      "weather": {
+        "icon": "cloudy",
+        "temperature": 67
       }
     },
     {
@@ -54179,14 +54248,14 @@
       "espnGameId": 401282656,
       "records": {
         "home": {
-          "overall": "2-1",
-          "home": "2-0",
+          "overall": "3-1",
+          "home": "3-0",
           "away": "0-1",
           "neutral": "0-0"
         },
         "away": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         }
@@ -54219,8 +54288,8 @@
       "espnGameId": 401282709,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
@@ -54259,8 +54328,8 @@
       "espnGameId": 401282673,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
@@ -54299,8 +54368,8 @@
       "espnGameId": 401282710,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
@@ -54340,8 +54409,8 @@
           "neutral": "0-0"
         },
         "away": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         }
@@ -54370,8 +54439,8 @@
       "espnGameId": 401282697,
       "records": {
         "home": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         },
@@ -54411,8 +54480,8 @@
           "neutral": "0-0"
         },
         "away": {
-          "overall": "3-0",
-          "home": "2-0",
+          "overall": "4-0",
+          "home": "3-0",
           "away": "1-0",
           "neutral": "0-0"
         }
