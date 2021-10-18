@@ -51,7 +51,7 @@ export default () => (
 
     <Wrapper>
       <Title>Explorables</Title>
-      <Subtitle>Interactive Blogs Posts On Fighting Irish Football</Subtitle>
+      <Subtitle>Interactive blog posts on Fighting Irish football</Subtitle>
 
       <Divider />
       {posts.map((postInfo) => (
