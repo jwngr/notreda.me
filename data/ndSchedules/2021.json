@@ -8,10 +8,7 @@
       "city": "Tallahassee",
       "state": "FL",
       "stadium": "Doak Campbell Stadium",
-      "coordinates": [
-        30.438088,
-        -84.304527
-      ]
+      "coordinates": [30.438088, -84.304527]
     },
     "opponentId": "FSU",
     "espnGameId": 401282614,
@@ -31,8 +28,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 9,
+        "coaches": 7
       }
     },
     "weather": {
@@ -89,20 +86,8 @@
       "away": 41
     },
     "linescore": {
-      "away": [
-        7,
-        10,
-        21,
-        0,
-        3
-      ],
-      "home": [
-        7,
-        7,
-        6,
-        18,
-        0
-      ]
+      "away": [7, 10, 21, 0, 3],
+      "home": [7, 7, 6, 18, 0]
     },
     "result": "W"
   },
@@ -115,10 +100,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "TOL",
     "espnGameId": 401282705,
@@ -138,8 +120,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 8,
+        "coaches": 7
       }
     },
     "weather": {
@@ -196,18 +178,8 @@
       "away": 29
     },
     "linescore": {
-      "away": [
-        6,
-        10,
-        0,
-        13
-      ],
-      "home": [
-        7,
-        7,
-        0,
-        18
-      ]
+      "away": [6, 10, 0, 13],
+      "home": [7, 7, 0, 18]
     },
     "result": "W"
   },
@@ -220,10 +192,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "espnGameId": 401282706,
@@ -243,8 +212,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 12,
+        "coaches": 10
       },
       "away": {
         "ap": 25
@@ -304,18 +273,8 @@
       "away": 13
     },
     "linescore": {
-      "away": [
-        3,
-        0,
-        10,
-        0
-      ],
-      "home": [
-        0,
-        10,
-        7,
-        10
-      ]
+      "away": [3, 0, 10, 0],
+      "home": [0, 10, 7, 10]
     },
     "result": "W"
   },
@@ -329,10 +288,7 @@
       "city": "Chicago",
       "state": "IL",
       "stadium": "Soldier Field",
-      "coordinates": [
-        41.862105,
-        -87.616721
-      ]
+      "coordinates": [41.862105, -87.616721]
     },
     "opponentId": "WIS",
     "espnGameId": 401282707,
@@ -356,8 +312,8 @@
         "coaches": 15
       },
       "away": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 12,
+        "coaches": 10
       }
     },
     "weather": {
@@ -414,18 +370,8 @@
       "away": 41
     },
     "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        31
-      ],
-      "home": [
-        3,
-        0,
-        7,
-        3
-      ]
+      "away": [0, 10, 0, 31],
+      "home": [3, 0, 7, 3]
     },
     "result": "W"
   },
@@ -438,10 +384,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "CINCY",
     "espnGameId": 401282708,
@@ -461,12 +404,12 @@
     },
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 9,
+        "coaches": 7
       },
       "away": {
-        "ap": 2,
-        "coaches": 3
+        "ap": 7,
+        "coaches": 8
       }
     },
     "weather": {
@@ -523,18 +466,8 @@
       "away": 24
     },
     "linescore": {
-      "away": [
-        0,
-        17,
-        0,
-        7
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        6
-      ]
+      "away": [0, 17, 0, 7],
+      "home": [0, 0, 7, 6]
     },
     "result": "L"
   },
@@ -546,10 +479,7 @@
       "city": "Blacksburg",
       "state": "VA",
       "stadium": "Lane Stadium",
-      "coordinates": [
-        37.219885,
-        -80.418311
-      ]
+      "coordinates": [37.219885, -80.418311]
     },
     "opponentId": "VT",
     "highlightsYouTubeVideoId": "QkYAPDMVJOI",
@@ -570,12 +500,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 13,
+        "ap": 14,
         "coaches": 13
-      },
-      "home": {
-        "ap": 15,
-        "coaches": 15
       }
     },
     "weather": {
@@ -632,18 +558,8 @@
       "away": 32
     },
     "linescore": {
-      "away": [
-        0,
-        14,
-        7,
-        11
-      ],
-      "home": [
-        7,
-        6,
-        9,
-        7
-      ]
+      "away": [0, 14, 7, 11],
+      "home": [7, 6, 9, 7]
     },
     "result": "W"
   },
@@ -651,14 +567,12 @@
     "isHomeGame": true,
     "fullDate": "Sat Oct 23 2021 19:30:00 GMT-0400",
     "coverage": "NBC",
+    "highlightsYouTubeVideoId": "tUEZ9piolh0",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
     "espnGameId": 401282709,
@@ -670,9 +584,9 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-3",
+        "overall": "3-4",
         "home": "1-3",
-        "away": "2-0",
+        "away": "2-1",
         "neutral": "0-0"
       }
     },
@@ -680,10 +594,6 @@
       "home": {
         "ap": 13,
         "coaches": 13
-      },
-      "away": {
-        "ap": 15,
-        "coaches": 14
       }
     },
     "weather": {
@@ -707,13 +617,14 @@
         "rushYards": 129,
         "rushAttempts": 33,
         "yardsPerRush": 3.9,
-        "penalties": 8,
+        "penalties": 9,
         "penaltyYards": 65,
         "fumblesLost": 1,
-        "possession": "28:37"
+        "possession": "28:37",
+        "fumbles": 2
       },
       "home": {
-        "firstDowns": 25,
+        "firstDowns": 26,
         "thirdDownAttempts": 12,
         "thirdDownConversions": 8,
         "fourthDownAttempts": 1,
@@ -730,7 +641,8 @@
         "penalties": 4,
         "penaltyYards": 39,
         "fumblesLost": 0,
-        "possession": "31:23"
+        "possession": "31:23",
+        "fumbles": 0
       }
     },
     "score": {
@@ -738,18 +650,8 @@
       "away": 16
     },
     "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        13
-      ],
-      "home": [
-        7,
-        10,
-        7,
-        7
-      ]
+      "away": [0, 3, 0, 13],
+      "home": [7, 10, 7, 7]
     },
     "result": "W"
   },
@@ -761,10 +663,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UNC",
     "espnGameId": 401282673,
@@ -786,15 +685,11 @@
       "home": {
         "ap": 13,
         "coaches": 13
-      },
-      "away": {
-        "ap": 21,
-        "coaches": 20
       }
     },
     "weather": {
-      "icon": "rain",
-      "temperature": 52
+      "icon": "cloudy",
+      "temperature": 53
     }
   },
   {
@@ -805,10 +700,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
     "espnGameId": 401282710,
@@ -828,8 +720,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 11,
+        "coaches": 11
       }
     }
   },
@@ -840,17 +732,14 @@
       "city": "Charlottesville",
       "state": "VA",
       "stadium": "Scott Stadium",
-      "coordinates": [
-        38.031255,
-        -78.513484
-      ]
+      "coordinates": [38.031255, -78.513484]
     },
     "opponentId": "UVA",
     "espnGameId": 401282688,
     "records": {
       "home": {
-        "overall": "5-2",
-        "home": "3-1",
+        "overall": "6-2",
+        "home": "4-1",
         "away": "2-1",
         "neutral": "0-0"
       },
@@ -863,8 +752,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 11,
+        "coaches": 11
       }
     }
   },
@@ -876,10 +765,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
     "espnGameId": 401282697,
@@ -899,8 +785,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 11,
+        "coaches": 11
       }
     }
   },
@@ -911,10 +797,7 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [
-        37.434444,
-        -122.161111
-      ]
+      "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
     "espnGameId": 401282711,
@@ -934,8 +817,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 13,
-        "coaches": 13
+        "ap": 11,
+        "coaches": 11
       }
     }
   }
