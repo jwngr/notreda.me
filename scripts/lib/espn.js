@@ -14,31 +14,25 @@ const NORMALIZED_TEAM_NAMES = {
 };
 
 // TODO: Pull these dynamically instead of hard-coding them.
-const AP_COACHES_POLL_DATES_2020 = [
+const AP_COACHES_POLL_DATES_2021 = [
   'Preseason',
-  '2020-09-06',
-  '2020-09-13',
-  '2020-09-20',
-  '2020-09-27',
-  '2020-10-04',
-  '2020-10-11',
-  '2020-10-18',
-  '2020-10-25',
-  '2020-11-01',
-  '2020-11-08',
-  '2020-11-15',
-  '2020-11-22',
-  '2020-11-29',
-  '2020-12-06',
+  '2021-09-05',
+  '2021-09-12',
+  '2021-09-19',
+  '2021-09-26',
+  '2021-10-03',
+  '2021-10-10',
+  '2021-10-17',
+  '2021-10-24',
+  '2021-10-31',
+  '2021-11-07',
+  '2021-11-14',
+  '2021-11-21',
+  '2021-11-28',
+  '2021-12-05',
 ];
 
-const CFP_POLL_DATES_2020 = [
-  '2020-11-24',
-  '2020-12-01',
-  '2020-12-08',
-  '2020-12-15',
-  '2020-12-22',
-];
+const CFP_POLL_DATES_2021 = ['2021-11-23', '2021-11-30', '2021-12-07', '2021-12-14', '2021-12-21'];
 
 const _getEspnRankingsUrl = (season, weekIndex) => {
   return `https://www.espn.com/college-football/rankings/_/week/${weekIndex}/year/${season}/seasontype/2`;
@@ -72,8 +66,8 @@ const _getPollRankingsForWeek = ($, weekIndex) => {
     pollRankings[pollType] = {
       date:
         pollType === 'cfbPlayoff'
-          ? CFP_POLL_DATES_2020[weekIndex - 10]
-          : AP_COACHES_POLL_DATES_2020[weekIndex],
+          ? CFP_POLL_DATES_2021[weekIndex - 10]
+          : AP_COACHES_POLL_DATES_2021[weekIndex],
       teams: {},
     };
 
@@ -530,7 +524,8 @@ const fetchPollsForSeason = async (season) => {
   // Fetch the HTML for all previous week rankings.
   const $priorWeeksRankings = await Promise.all(
     _.range(1, currentWeekIndex + 1).map((i) => {
-      return scraper.get(_getEspnRankingsUrl(season, i))})
+      return scraper.get(_getEspnRankingsUrl(season, i));
+    })
   );
 
   // Scrape the actual rankings for each week using the HTML.
