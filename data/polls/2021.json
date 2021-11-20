@@ -1244,471 +1244,6 @@
       "date": "2021-10-24",
       "teams": {
         "Georgia": {
-          "record": "7-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1575
-        },
-        "Cincinnati": {
-          "record": "7-0",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1477
-        },
-        "Alabama": {
-          "record": "7-1",
-          "ranking": 3,
-          "previousRanking": 4,
-          "points": 1417
-        },
-        "Oklahoma": {
-          "record": "8-0",
-          "ranking": 4,
-          "previousRanking": 3,
-          "points": 1383
-        },
-        "Ohio State": {
-          "record": "6-1",
-          "ranking": 5,
-          "previousRanking": 5,
-          "points": 1311
-        },
-        "Michigan": {
-          "record": "7-0",
-          "ranking": 6,
-          "previousRanking": 6,
-          "points": 1270
-        },
-        "Oregon": {
-          "record": "6-1",
-          "ranking": 7,
-          "previousRanking": 10,
-          "points": 1165
-        },
-        "Michigan State": {
-          "record": "7-0",
-          "ranking": 8,
-          "previousRanking": 9,
-          "points": 1160
-        },
-        "Iowa": {
-          "record": "6-1",
-          "ranking": 9,
-          "previousRanking": 11,
-          "points": 1035
-        },
-        "Ole Miss": {
-          "record": "6-1",
-          "ranking": 10,
-          "previousRanking": 12,
-          "points": 1034
-        },
-        "Notre Dame": {
-          "record": "6-1",
-          "ranking": 11,
-          "previousRanking": 13,
-          "points": 922
-        },
-        "Kentucky": {
-          "record": "6-1",
-          "ranking": 12,
-          "previousRanking": 15,
-          "points": 849
-        },
-        "Wake Forest": {
-          "record": "7-0",
-          "ranking": 13,
-          "previousRanking": 16,
-          "points": 801
-        },
-        "Texas A&M": {
-          "record": "6-2",
-          "ranking": 14,
-          "previousRanking": 17,
-          "points": 700
-        },
-        "Oklahoma State": {
-          "record": "6-1",
-          "ranking": 15,
-          "previousRanking": 8,
-          "points": 682
-        },
-        "Baylor": {
-          "record": "6-1",
-          "ranking": 16,
-          "previousRanking": 20,
-          "points": 513
-        },
-        "Pittsburgh": {
-          "record": "6-1",
-          "ranking": 17,
-          "previousRanking": 23,
-          "points": 510
-        },
-        "Auburn": {
-          "record": "5-2",
-          "ranking": 18,
-          "previousRanking": 19,
-          "points": 481
-        },
-        "Southern Methodist": {
-          "record": "7-0",
-          "ranking": 19,
-          "previousRanking": 21,
-          "points": 473
-        },
-        "Penn State": {
-          "record": "5-2",
-          "ranking": 20,
-          "previousRanking": 7,
-          "points": 471
-        },
-        "San Diego State": {
-          "record": "7-0",
-          "ranking": 21,
-          "previousRanking": 22,
-          "points": 390
-        },
-        "Iowa State": {
-          "record": "5-2",
-          "ranking": 22,
-          "previousRanking": "NR",
-          "points": 298
-        },
-        "UTSA": {
-          "record": "8-0",
-          "ranking": 23,
-          "previousRanking": 24,
-          "points": 235
-        },
-        "Coastal Carolina": {
-          "record": "6-1",
-          "ranking": 24,
-          "previousRanking": 14,
-          "points": 132
-        },
-        "BYU": {
-          "record": "6-2",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 44
-        }
-      }
-    },
-    {
-      "date": "2021-10-31",
-      "teams": {
-        "Georgia": {
-          "record": "8-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1575
-        },
-        "Cincinnati": {
-          "record": "8-0",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1455
-        },
-        "Alabama": {
-          "record": "7-1",
-          "ranking": 3,
-          "previousRanking": 3,
-          "points": 1413
-        },
-        "Oklahoma": {
-          "record": "9-0",
-          "ranking": 4,
-          "previousRanking": 4,
-          "points": 1382
-        },
-        "Michigan State": {
-          "record": "8-0",
-          "ranking": 5,
-          "previousRanking": 8,
-          "points": 1340
-        },
-        "Ohio State": {
-          "record": "7-1",
-          "ranking": 6,
-          "previousRanking": 5,
-          "points": 1296
-        },
-        "Oregon": {
-          "record": "7-1",
-          "ranking": 7,
-          "previousRanking": 7,
-          "points": 1233
-        },
-        "Notre Dame": {
-          "record": "7-1",
-          "ranking": 8,
-          "previousRanking": 11,
-          "points": 1067
-        },
-        "Michigan": {
-          "record": "7-1",
-          "ranking": 9,
-          "previousRanking": 6,
-          "points": 1048
-        },
-        "Wake Forest": {
-          "record": "8-0",
-          "ranking": 10,
-          "previousRanking": 13,
-          "points": 1025
-        },
-        "Oklahoma State": {
-          "record": "7-1",
-          "ranking": 11,
-          "previousRanking": 15,
-          "points": 915
-        },
-        "Auburn": {
-          "record": "6-2",
-          "ranking": 12,
-          "previousRanking": 18,
-          "points": 853
-        },
-        "Texas A&M": {
-          "record": "6-2",
-          "ranking": 13,
-          "previousRanking": 14,
-          "points": 847
-        },
-        "Baylor": {
-          "record": "7-1",
-          "ranking": 14,
-          "previousRanking": 16,
-          "points": 833
-        },
-        "Ole Miss": {
-          "record": "6-2",
-          "ranking": 15,
-          "previousRanking": 10,
-          "points": 678
-        },
-        "UTSA": {
-          "record": "8-0",
-          "ranking": 16,
-          "previousRanking": 23,
-          "points": 460
-        },
-        "BYU": {
-          "record": "7-2",
-          "ranking": 17,
-          "previousRanking": 25,
-          "points": 450
-        },
-        "Kentucky": {
-          "record": "6-2",
-          "ranking": 18,
-          "previousRanking": 12,
-          "points": 409
-        },
-        "Iowa": {
-          "record": "6-2",
-          "ranking": 19,
-          "previousRanking": 9,
-          "points": 342
-        },
-        "Houston": {
-          "record": "7-1",
-          "ranking": 20,
-          "previousRanking": "NR",
-          "points": 338
-        },
-        "Coastal Carolina": {
-          "record": "7-1",
-          "ranking": 21,
-          "previousRanking": 24,
-          "points": 237
-        },
-        "Penn State": {
-          "record": "5-3",
-          "ranking": 22,
-          "previousRanking": 20,
-          "points": 182
-        },
-        "Southern Methodist": {
-          "record": "7-1",
-          "ranking": 23,
-          "previousRanking": 19,
-          "points": 176
-        },
-        "Louisiana": {
-          "record": "7-1",
-          "ranking": 24,
-          "previousRanking": "NR",
-          "points": 161
-        },
-        "Fresno State": {
-          "record": "7-2",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 151
-        }
-      }
-    },
-    {
-      "date": "2021-11-07",
-      "teams": {
-        "Georgia": {
-          "record": "9-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1575
-        },
-        "Cincinnati": {
-          "record": "9-0",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1440
-        },
-        "Alabama": {
-          "record": "8-1",
-          "ranking": 3,
-          "previousRanking": 3,
-          "points": 1436
-        },
-        "Oklahoma": {
-          "record": "9-0",
-          "ranking": 4,
-          "previousRanking": 4,
-          "points": 1406
-        },
-        "Oregon": {
-          "record": "8-1",
-          "ranking": 5,
-          "previousRanking": 7,
-          "points": 1319
-        },
-        "Ohio State": {
-          "record": "8-1",
-          "ranking": 6,
-          "previousRanking": 6,
-          "points": 1293
-        },
-        "Notre Dame": {
-          "record": "8-1",
-          "ranking": 7,
-          "previousRanking": 8,
-          "points": 1139
-        },
-        "Michigan State": {
-          "record": "8-1",
-          "ranking": 8,
-          "previousRanking": 5,
-          "points": 1096
-        },
-        "Michigan": {
-          "record": "8-1",
-          "ranking": 9,
-          "previousRanking": 9,
-          "points": 1072
-        },
-        "Oklahoma State": {
-          "record": "8-1",
-          "ranking": 10,
-          "previousRanking": 11,
-          "points": 1038
-        },
-        "Texas A&M": {
-          "record": "7-2",
-          "ranking": 11,
-          "previousRanking": 13,
-          "points": 1006
-        },
-        "Ole Miss": {
-          "record": "7-2",
-          "ranking": 12,
-          "previousRanking": 15,
-          "points": 837
-        },
-        "Wake Forest": {
-          "record": "8-1",
-          "ranking": 13,
-          "previousRanking": 10,
-          "points": 763
-        },
-        "BYU": {
-          "record": "8-2",
-          "ranking": 14,
-          "previousRanking": 17,
-          "points": 636
-        },
-        "UTSA": {
-          "record": "9-0",
-          "ranking": 15,
-          "previousRanking": 16,
-          "points": 606
-        },
-        "Auburn": {
-          "record": "6-3",
-          "ranking": 16,
-          "previousRanking": 12,
-          "points": 478
-        },
-        "Houston": {
-          "record": "8-1",
-          "ranking": 17,
-          "previousRanking": 20,
-          "points": 467
-        },
-        "Baylor": {
-          "record": "7-2",
-          "ranking": 18,
-          "previousRanking": 14,
-          "points": 464
-        },
-        "Iowa": {
-          "record": "7-2",
-          "ranking": 19,
-          "previousRanking": 19,
-          "points": 437
-        },
-        "Wisconsin": {
-          "record": "6-3",
-          "ranking": 20,
-          "previousRanking": "NR",
-          "points": 286
-        },
-        "NC State": {
-          "record": "7-2",
-          "ranking": 21,
-          "previousRanking": "NR",
-          "points": 268
-        },
-        "Coastal Carolina": {
-          "record": "8-1",
-          "ranking": 22,
-          "previousRanking": 21,
-          "points": 264
-        },
-        "Penn State": {
-          "record": "6-3",
-          "ranking": 23,
-          "previousRanking": 22,
-          "points": 245
-        },
-        "Louisiana": {
-          "record": "8-1",
-          "ranking": 24,
-          "previousRanking": 24,
-          "points": 208
-        },
-        "Pittsburgh": {
-          "record": "7-2",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 194
-        }
-      }
-    },
-    {
-      "date": "2021-11-14",
-      "teams": {
-        "Georgia": {
           "record": "10-0",
           "ranking": 1,
           "previousRanking": 1,
@@ -3105,620 +2640,155 @@
     {
       "date": "2021-10-24",
       "teams": {
-        "North Central": {
-          "record": "8-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1158
-        },
-        "Mary Hardin-Baylor": {
-          "record": "8-0",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1125
-        },
-        "Wisconsin-Whitewater": {
-          "record": "8-0",
-          "ranking": 3,
-          "previousRanking": 3,
-          "points": 1076
-        },
-        "Mount Union": {
-          "record": "8-0",
-          "ranking": 4,
-          "previousRanking": 4,
-          "points": 1034
-        },
-        "St. John's (MN)": {
-          "record": "8-0",
-          "ranking": 5,
-          "previousRanking": 5,
-          "points": 984
-        },
-        "Linfield": {
-          "record": "7-0",
-          "ranking": 6,
-          "previousRanking": 6,
-          "points": 923
-        },
-        "Delaware Valley": {
-          "record": "8-0",
-          "ranking": 7,
-          "previousRanking": 7,
-          "points": 856
-        },
-        "Hardin-Simmons": {
-          "record": "7-1",
-          "ranking": 8,
-          "previousRanking": 8,
-          "points": 836
-        },
-        "Wheaton College Illinois": {
-          "record": "7-1",
-          "ranking": 9,
-          "previousRanking": 9,
-          "points": 799
-        },
-        "Central College": {
-          "record": "8-0",
-          "ranking": 10,
-          "previousRanking": 10,
-          "points": 786
-        },
-        "Union": {
-          "record": "8-0",
-          "ranking": 11,
-          "previousRanking": 11,
-          "points": 683
-        },
-        "Wisconsin-La Crosse": {
-          "record": "7-1",
-          "ranking": 12,
-          "previousRanking": 12,
-          "points": 635
-        },
-        "Salisbury University": {
-          "record": "6-1",
-          "ranking": 13,
-          "previousRanking": 14,
-          "points": 610
-        },
-        "Bethel (MN)": {
-          "record": "7-1",
-          "ranking": 14,
-          "previousRanking": 15,
-          "points": 568
-        },
-        "SUNY Cortland": {
-          "record": "8-0",
-          "ranking": 15,
-          "previousRanking": 16,
-          "points": 523
-        },
-        "Muhlenberg": {
-          "record": "7-1",
-          "ranking": 16,
-          "previousRanking": 17,
-          "points": 454
-        },
-        "Trinity University (TX)": {
-          "record": "7-0",
-          "ranking": 17,
-          "previousRanking": 19,
-          "points": 401
-        },
-        "Johns Hopkins": {
-          "record": "7-1",
-          "ranking": 18,
-          "previousRanking": 20,
-          "points": 369
-        },
-        "Birmingham-Southern": {
-          "record": "8-0",
-          "ranking": 19,
-          "previousRanking": 21,
-          "points": 323
-        },
-        "Randolph-Macon College": {
-          "record": "8-1",
-          "ranking": 20,
-          "previousRanking": 24,
-          "points": 164
-        },
-        "Wisconsin-Oshkosh": {
-          "record": "5-2",
-          "ranking": 21,
-          "previousRanking": 23,
-          "points": 151
-        },
-        "John Carroll": {
-          "record": "6-2",
-          "ranking": 21,
-          "previousRanking": 22,
-          "points": 151
-        },
-        "Ithaca": {
-          "record": "7-1",
-          "ranking": 23,
-          "previousRanking": 13,
-          "points": 121
-        },
-        "Washington & Jefferson": {
-          "record": "7-1",
-          "ranking": 24,
-          "previousRanking": 25,
-          "points": 109
-        },
-        "Baldwin Wallace": {
-          "record": "7-1",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 99
-        }
-      }
-    },
-    {
-      "date": "2021-10-31",
-      "teams": {
-        "North Central": {
-          "record": "9-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1157
-        },
-        "Mary Hardin-Baylor": {
-          "record": "9-0",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1122
-        },
-        "Wisconsin-Whitewater": {
-          "record": "9-0",
-          "ranking": 3,
-          "previousRanking": 3,
-          "points": 1076
-        },
-        "Mount Union": {
-          "record": "9-0",
-          "ranking": 4,
-          "previousRanking": 4,
-          "points": 1043
-        },
-        "St. John's (MN)": {
-          "record": "9-0",
-          "ranking": 5,
-          "previousRanking": 5,
-          "points": 981
-        },
-        "Linfield": {
-          "record": "8-0",
-          "ranking": 6,
-          "previousRanking": 6,
-          "points": 930
-        },
-        "Delaware Valley": {
-          "record": "9-0",
-          "ranking": 7,
-          "previousRanking": 7,
-          "points": 853
-        },
-        "Hardin-Simmons": {
-          "record": "8-1",
-          "ranking": 8,
-          "previousRanking": 8,
-          "points": 846
-        },
-        "Wheaton College Illinois": {
-          "record": "8-1",
-          "ranking": 9,
-          "previousRanking": 9,
-          "points": 796
-        },
-        "Central College": {
-          "record": "9-0",
-          "ranking": 10,
-          "previousRanking": 10,
-          "points": 790
-        },
-        "Salisbury University": {
-          "record": "7-1",
-          "ranking": 11,
-          "previousRanking": 13,
-          "points": 652
-        },
-        "Bethel (MN)": {
-          "record": "8-1",
-          "ranking": 12,
-          "previousRanking": 14,
-          "points": 623
-        },
-        "SUNY Cortland": {
-          "record": "9-0",
-          "ranking": 13,
-          "previousRanking": 15,
-          "points": 619
-        },
-        "Muhlenberg": {
-          "record": "8-1",
-          "ranking": 14,
-          "previousRanking": 16,
-          "points": 528
-        },
-        "Trinity University (TX)": {
-          "record": "8-0",
-          "ranking": 15,
-          "previousRanking": 17,
-          "points": 500
-        },
-        "Wisconsin-La Crosse": {
-          "record": "7-2",
-          "ranking": 16,
-          "previousRanking": 12,
-          "points": 454
-        },
-        "Johns Hopkins": {
-          "record": "8-1",
-          "ranking": 17,
-          "previousRanking": 18,
-          "points": 432
-        },
-        "Ithaca": {
-          "record": "8-1",
-          "ranking": 18,
-          "previousRanking": 23,
-          "points": 327
-        },
-        "Randolph-Macon College": {
-          "record": "8-1",
-          "ranking": 19,
-          "previousRanking": 20,
-          "points": 279
-        },
-        "Wisconsin-Oshkosh": {
-          "record": "6-2",
-          "ranking": 20,
-          "previousRanking": 21,
-          "points": 240
-        },
-        "Baldwin Wallace": {
-          "record": "8-1",
-          "ranking": 21,
-          "previousRanking": 25,
-          "points": 220
-        },
-        "Union": {
-          "record": "8-1",
-          "ranking": 22,
-          "previousRanking": 11,
-          "points": 208
-        },
-        "Birmingham-Southern": {
-          "record": "8-1",
-          "ranking": 23,
-          "previousRanking": 19,
-          "points": 135
-        },
-        "Rensselaer": {
-          "record": "8-1",
-          "ranking": 24,
-          "previousRanking": "NR",
-          "points": 123
-        },
-        "Redlands": {
-          "record": "7-1",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 77
-        }
-      }
-    },
-    {
-      "date": "2021-11-07",
-      "teams": {
         "Sam Houston": {
-          "record": "8-0",
+          "record": "9-0",
           "ranking": 1,
           "previousRanking": 1,
-          "points": 700
+          "points": 698
         },
         "James Madison": {
-          "record": "8-1",
+          "record": "9-1",
           "ranking": 2,
-          "previousRanking": 3,
-          "points": 668
+          "previousRanking": 2,
+          "points": 665
         },
         "Montana State": {
-          "record": "8-1",
-          "ranking": 3,
-          "previousRanking": 4,
-          "points": 631
-        },
-        "UC Davis": {
-          "record": "8-1",
-          "ranking": 4,
-          "previousRanking": 7,
-          "points": 561
-        },
-        "Kennesaw State": {
-          "record": "8-1",
-          "ranking": 5,
-          "previousRanking": 8,
-          "points": 539
-        },
-        "North Dakota State": {
-          "record": "8-1",
-          "ranking": 6,
-          "previousRanking": 2,
-          "points": 532
-        },
-        "South Dakota State": {
-          "record": "7-2",
-          "ranking": 7,
-          "previousRanking": 12,
-          "points": 525
-        },
-        "Eastern Washington": {
-          "record": "7-2",
-          "ranking": 8,
-          "previousRanking": 5,
-          "points": 498
-        },
-        "Montana": {
-          "record": "7-2",
-          "ranking": 9,
-          "previousRanking": 10,
-          "points": 489
-        },
-        "UT Martin": {
-          "record": "8-1",
-          "ranking": 10,
-          "previousRanking": 11,
-          "points": 464
-        },
-        "Villanova": {
-          "record": "7-2",
-          "ranking": 11,
-          "previousRanking": 13,
-          "points": 435
-        },
-        "East Tennessee State": {
-          "record": "8-1",
-          "ranking": 12,
-          "previousRanking": 14,
-          "points": 391
-        },
-        "SE Louisiana": {
-          "record": "7-2",
-          "ranking": 13,
-          "previousRanking": 6,
-          "points": 373
-        },
-        "Missouri State": {
-          "record": "6-3",
-          "ranking": 14,
-          "previousRanking": 20,
-          "points": 333
-        },
-        "Jackson State": {
-          "record": "8-1",
-          "ranking": 15,
-          "previousRanking": 17,
-          "points": 272
-        },
-        "Southern Illinois": {
-          "record": "6-3",
-          "ranking": 16,
-          "previousRanking": 9,
-          "points": 258
-        },
-        "South Dakota": {
-          "record": "6-3",
-          "ranking": 17,
-          "previousRanking": 21,
-          "points": 247
-        },
-        "Sacramento State": {
-          "record": "7-2",
-          "ranking": 18,
-          "previousRanking": 22,
-          "points": 217
-        },
-        "Chattanooga": {
-          "record": "6-3",
-          "ranking": 19,
-          "previousRanking": 25,
-          "points": 147
-        },
-        "VMI": {
-          "record": "6-3",
-          "ranking": 20,
-          "previousRanking": 18,
-          "points": 112
-        },
-        "Incarnate Word": {
-          "record": "7-2",
-          "ranking": 21,
-          "previousRanking": "NR",
-          "points": 105
-        },
-        "Princeton": {
-          "record": "7-1",
-          "ranking": 22,
-          "previousRanking": 16,
-          "points": 88
-        },
-        "Dartmouth": {
-          "record": "7-1",
-          "ranking": 23,
-          "previousRanking": "NR",
-          "points": 77
-        },
-        "Northern Iowa": {
-          "record": "5-4",
-          "ranking": 24,
-          "previousRanking": 15,
-          "points": 69
-        },
-        "Eastern Kentucky": {
-          "record": "6-3",
-          "ranking": 25,
-          "previousRanking": 19,
-          "points": 51
-        }
-      }
-    },
-    {
-      "date": "2021-11-14",
-      "teams": {
-        "Georgia": {
-          "record": "10-0",
-          "ranking": 1,
-          "previousRanking": 1,
-          "points": 1550
-        },
-        "Alabama": {
           "record": "9-1",
-          "ranking": 2,
-          "previousRanking": 2,
-          "points": 1464
-        },
-        "Cincinnati": {
-          "record": "10-0",
           "ranking": 3,
           "previousRanking": 3,
-          "points": 1401
+          "points": 644
         },
-        "Ohio State": {
+        "North Dakota State": {
           "record": "9-1",
           "ranking": 4,
-          "previousRanking": 5,
-          "points": 1363
+          "previousRanking": 6,
+          "points": 575
         },
-        "Oregon": {
+        "Kennesaw State": {
           "record": "9-1",
           "ranking": 5,
-          "previousRanking": 6,
-          "points": 1320
+          "previousRanking": 5,
+          "points": 563
         },
-        "Notre Dame": {
-          "record": "9-1",
+        "Eastern Washington": {
+          "record": "8-2",
           "ranking": 6,
-          "previousRanking": 7,
-          "points": 1181
-        },
-        "Michigan": {
-          "record": "9-1",
-          "ranking": 7,
           "previousRanking": 8,
-          "points": 1153
+          "points": 559
         },
-        "Michigan State": {
+        "Montana": {
+          "record": "8-2",
+          "ranking": 7,
+          "previousRanking": 9,
+          "points": 510
+        },
+        "UT Martin": {
           "record": "9-1",
           "ranking": 8,
-          "previousRanking": 9,
-          "points": 1139
-        },
-        "Oklahoma State": {
-          "record": "9-1",
-          "ranking": 9,
           "previousRanking": 10,
-          "points": 1102
+          "points": 486
         },
-        "Ole Miss": {
+        "Villanova": {
           "record": "8-2",
+          "ranking": 9,
+          "previousRanking": 11,
+          "points": 465
+        },
+        "East Tennessee State": {
+          "record": "9-1",
           "ranking": 10,
           "previousRanking": 12,
-          "points": 948
+          "points": 444
         },
-        "Oklahoma": {
-          "record": "9-1",
+        "UC Davis": {
+          "record": "8-2",
           "ranking": 11,
           "previousRanking": 4,
-          "points": 878
+          "points": 413
         },
-        "Wake Forest": {
-          "record": "9-1",
+        "SE Louisiana": {
+          "record": "8-2",
           "ranking": 12,
           "previousRanking": 13,
-          "points": 847
+          "points": 381
         },
-        "Baylor": {
-          "record": "8-2",
+        "South Dakota State": {
+          "record": "7-3",
           "ranking": 13,
-          "previousRanking": 18,
-          "points": 826
+          "previousRanking": 7,
+          "points": 352
         },
-        "Iowa": {
-          "record": "8-2",
+        "Missouri State": {
+          "record": "7-3",
           "ranking": 14,
           "previousRanking": 14,
-          "points": 637
+          "points": 326
         },
-        "BYU": {
-          "record": "8-2",
+        "Southern Illinois": {
+          "record": "7-3",
           "ranking": 15,
-          "previousRanking": 15,
-          "points": 605
+          "previousRanking": 16,
+          "points": 294
         },
-        "Texas A&M": {
+        "South Dakota": {
           "record": "7-3",
           "ranking": 16,
-          "previousRanking": 11,
-          "points": 560
+          "previousRanking": 17,
+          "points": 278
         },
-        "Houston": {
+        "Jackson State": {
           "record": "9-1",
           "ranking": 17,
-          "previousRanking": 17,
-          "points": 541
+          "previousRanking": 15,
+          "points": 277
         },
-        "UTSA": {
-          "record": "10-0",
+        "Sacramento State": {
+          "record": "8-2",
           "ranking": 18,
-          "previousRanking": 16,
-          "points": 528
+          "previousRanking": 18,
+          "points": 246
         },
-        "Pittsburgh": {
+        "Incarnate Word": {
           "record": "8-2",
           "ranking": 19,
-          "previousRanking": 22,
-          "points": 446
+          "previousRanking": 21,
+          "points": 187
         },
-        "Wisconsin": {
-          "record": "7-3",
+        "Princeton": {
+          "record": "8-1",
           "ranking": 20,
-          "previousRanking": 24,
-          "points": 407
+          "previousRanking": 22,
+          "points": 147
         },
-        "Louisiana": {
-          "record": "9-1",
+        "Dartmouth": {
+          "record": "8-1",
           "ranking": 21,
-          "previousRanking": 25,
-          "points": 239
+          "previousRanking": 23,
+          "points": 136
         },
-        "Arkansas": {
+        "Stephen F. Austin": {
           "record": "7-3",
           "ranking": 22,
           "previousRanking": "NR",
-          "points": 212
+          "points": 99
         },
-        "San Diego State": {
-          "record": "9-1",
+        "Mercer": {
+          "record": "7-2",
           "ranking": 23,
           "previousRanking": "NR",
-          "points": 210
+          "points": 88
         },
-        "NC State": {
+        "Monmouth": {
           "record": "7-3",
           "ranking": 24,
-          "previousRanking": 19,
-          "points": 138
+          "previousRanking": "NR",
+          "points": 86
         },
-        "Utah": {
-          "record": "7-3",
+        "Florida A&M": {
+          "record": "8-2",
           "ranking": 25,
           "previousRanking": "NR",
-          "points": 133
+          "points": 53
         }
       }
     }
@@ -3727,306 +2797,151 @@
     {
       "teams": {
         "Georgia": {
-          "record": "8-0",
-          "ranking": 1,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Alabama": {
-          "record": "7-1",
-          "ranking": 2,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Michigan State": {
-          "record": "8-0",
-          "ranking": 3,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Oregon": {
-          "record": "7-1",
-          "ranking": 4,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Ohio State": {
-          "record": "7-1",
-          "ranking": 5,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Cincinnati": {
-          "record": "8-0",
-          "ranking": 6,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Michigan": {
-          "record": "7-1",
-          "ranking": 7,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Oklahoma": {
-          "record": "9-0",
-          "ranking": 8,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Wake Forest": {
-          "record": "8-0",
-          "ranking": 9,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Notre Dame": {
-          "record": "7-1",
-          "ranking": 10,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Oklahoma State": {
-          "record": "7-1",
-          "ranking": 11,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Baylor": {
-          "record": "7-1",
-          "ranking": 12,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Auburn": {
-          "record": "6-2",
-          "ranking": 13,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Texas A&M": {
-          "record": "6-2",
-          "ranking": 14,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "BYU": {
-          "record": "7-2",
-          "ranking": 15,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Ole Miss": {
-          "record": "6-2",
-          "ranking": 16,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Mississippi State": {
-          "record": "5-3",
-          "ranking": 17,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Kentucky": {
-          "record": "6-2",
-          "ranking": 18,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "NC State": {
-          "record": "6-2",
-          "ranking": 19,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Minnesota": {
-          "record": "6-2",
-          "ranking": 20,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Wisconsin": {
-          "record": "5-3",
-          "ranking": 21,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Iowa": {
-          "record": "6-2",
-          "ranking": 22,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Fresno State": {
-          "record": "7-2",
-          "ranking": 23,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "San Diego State": {
-          "record": "7-1",
-          "ranking": 24,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Pittsburgh": {
-          "record": "6-2",
-          "ranking": 25,
-          "previousRanking": "NR",
-          "points": 0
-        }
-      }
-    },
-    {
-      "date": "2021-11-23",
-      "teams": {
-        "Georgia": {
-          "record": "9-0",
+          "record": "10-0",
           "ranking": 1,
           "previousRanking": 1,
           "points": 0
         },
         "Alabama": {
-          "record": "8-1",
+          "record": "9-1",
           "ranking": 2,
           "previousRanking": 2,
           "points": 0
         },
         "Oregon": {
-          "record": "8-1",
+          "record": "9-1",
           "ranking": 3,
-          "previousRanking": 4,
-          "points": 0
-        },
-        "Ohio State": {
-          "record": "8-1",
-          "ranking": 4,
-          "previousRanking": 5,
-          "points": 0
-        },
-        "Cincinnati": {
-          "record": "9-0",
-          "ranking": 5,
-          "previousRanking": 6,
-          "points": 0
-        },
-        "Michigan": {
-          "record": "8-1",
-          "ranking": 6,
-          "previousRanking": 7,
-          "points": 0
-        },
-        "Michigan State": {
-          "record": "8-1",
-          "ranking": 7,
           "previousRanking": 3,
           "points": 0
         },
-        "Oklahoma": {
-          "record": "9-0",
-          "ranking": 8,
-          "previousRanking": 8,
+        "Ohio State": {
+          "record": "9-1",
+          "ranking": 4,
+          "previousRanking": 4,
+          "points": 0
+        },
+        "Cincinnati": {
+          "record": "10-0",
+          "ranking": 5,
+          "previousRanking": 5,
+          "points": 0
+        },
+        "Michigan": {
+          "record": "9-1",
+          "ranking": 6,
+          "previousRanking": 6,
+          "points": 0
+        },
+        "Michigan State": {
+          "record": "9-1",
+          "ranking": 7,
+          "previousRanking": 7,
           "points": 0
         },
         "Notre Dame": {
-          "record": "8-1",
+          "record": "9-1",
+          "ranking": 8,
+          "previousRanking": 9,
+          "points": 0
+        },
+        "Oklahoma State": {
+          "record": "9-1",
           "ranking": 9,
           "previousRanking": 10,
           "points": 0
         },
-        "Oklahoma State": {
-          "record": "8-1",
-          "ranking": 10,
-          "previousRanking": 11,
-          "points": 0
-        },
-        "Texas A&M": {
-          "record": "7-2",
-          "ranking": 11,
-          "previousRanking": 14,
-          "points": 0
-        },
         "Wake Forest": {
-          "record": "8-1",
-          "ranking": 12,
-          "previousRanking": 9,
+          "record": "9-1",
+          "ranking": 10,
+          "previousRanking": 12,
           "points": 0
         },
         "Baylor": {
-          "record": "7-2",
+          "record": "8-2",
+          "ranking": 11,
+          "previousRanking": 13,
+          "points": 0
+        },
+        "Ole Miss": {
+          "record": "8-2",
+          "ranking": 12,
+          "previousRanking": 15,
+          "points": 0
+        },
+        "Oklahoma": {
+          "record": "9-1",
           "ranking": 13,
-          "previousRanking": 12,
+          "previousRanking": 8,
           "points": 0
         },
         "BYU": {
           "record": "8-2",
           "ranking": 14,
-          "previousRanking": 15,
-          "points": 0
-        },
-        "Ole Miss": {
-          "record": "7-2",
-          "ranking": 15,
-          "previousRanking": 16,
-          "points": 0
-        },
-        "NC State": {
-          "record": "7-2",
-          "ranking": 16,
-          "previousRanking": 19,
-          "points": 0
-        },
-        "Auburn": {
-          "record": "6-3",
-          "ranking": 17,
-          "previousRanking": 13,
+          "previousRanking": 14,
           "points": 0
         },
         "Wisconsin": {
-          "record": "6-3",
+          "record": "7-3",
+          "ranking": 15,
+          "previousRanking": 18,
+          "points": 0
+        },
+        "Texas A&M": {
+          "record": "7-3",
+          "ranking": 16,
+          "previousRanking": 11,
+          "points": 0
+        },
+        "Iowa": {
+          "record": "8-2",
+          "ranking": 17,
+          "previousRanking": 20,
+          "points": 0
+        },
+        "Pittsburgh": {
+          "record": "8-2",
           "ranking": 18,
           "previousRanking": 21,
           "points": 0
         },
-        "Purdue": {
-          "record": "6-3",
+        "San Diego State": {
+          "record": "9-1",
           "ranking": 19,
-          "previousRanking": "NR",
-          "points": 0
-        },
-        "Iowa": {
-          "record": "7-2",
-          "ranking": 20,
           "previousRanking": 22,
           "points": 0
         },
-        "Pittsburgh": {
-          "record": "7-2",
+        "NC State": {
+          "record": "7-3",
+          "ranking": 20,
+          "previousRanking": 16,
+          "points": 0
+        },
+        "Arkansas": {
+          "record": "7-3",
           "ranking": 21,
           "previousRanking": 25,
           "points": 0
         },
-        "San Diego State": {
-          "record": "8-1",
-          "ranking": 22,
-          "previousRanking": 24,
-          "points": 0
-        },
         "UTSA": {
-          "record": "9-0",
-          "ranking": 23,
-          "previousRanking": "NR",
+          "record": "10-0",
+          "ranking": 22,
+          "previousRanking": 23,
           "points": 0
         },
         "Utah": {
-          "record": "6-3",
+          "record": "7-3",
+          "ranking": 23,
+          "previousRanking": 24,
+          "points": 0
+        },
+        "Houston": {
+          "record": "9-1",
           "ranking": 24,
           "previousRanking": "NR",
           "points": 0
         },
-        "Arkansas": {
-          "record": "6-3",
+        "Mississippi State": {
+          "record": "6-4",
           "ranking": 25,
           "previousRanking": "NR",
           "points": 0

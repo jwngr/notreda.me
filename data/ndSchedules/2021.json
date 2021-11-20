@@ -780,7 +780,7 @@
     },
     "rankings": {
       "home": {
-        "ap": 11,
+        "ap": 6,
         "coaches": 11
       }
     },
@@ -885,7 +885,7 @@
     },
     "rankings": {
       "home": {
-        "ap": 8,
+        "ap": 6,
         "coaches": 11
       }
     },
@@ -990,7 +990,7 @@
     },
     "rankings": {
       "away": {
-        "ap": 7,
+        "ap": 6,
         "coaches": 11
       }
     },
@@ -1015,7 +1015,7 @@
         "rushYards": 249,
         "rushAttempts": 38,
         "yardsPerRush": 6.6,
-        "penalties": 5,
+        "penalties": 4,
         "penaltyYards": 32,
         "fumblesLost": 1,
         "possession": "29:41",
@@ -1080,14 +1080,14 @@
     "espnGameId": 401282697,
     "records": {
       "home": {
-        "overall": "9-1",
-        "home": "6-1",
+        "overall": "10-1",
+        "home": "7-1",
         "away": "3-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "5-5",
-        "home": "2-2",
+        "overall": "6-5",
+        "home": "3-2",
         "away": "3-3",
         "neutral": "0-0"
       }
@@ -1101,7 +1101,69 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 39
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 224,
+        "passYards": 96,
+        "passCompletions": 14,
+        "passAttempts": 28,
+        "yardsPerPass": 3.4,
+        "interceptionsThrown": 1,
+        "rushYards": 128,
+        "rushAttempts": 35,
+        "yardsPerRush": 3.7,
+        "penalties": 5,
+        "penaltyYards": 40,
+        "fumblesLost": 1,
+        "possession": "30:39"
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 514,
+        "passYards": 302,
+        "passCompletions": 18,
+        "passAttempts": 26,
+        "yardsPerPass": 11.6,
+        "interceptionsThrown": 0,
+        "rushYards": 212,
+        "rushAttempts": 33,
+        "yardsPerRush": 6.4,
+        "penalties": 3,
+        "penaltyYards": 32,
+        "fumblesLost": 0,
+        "possession": "29:21"
+      }
+    },
+    "score": {
+      "home": 55,
+      "away": 0
+    },
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        24,
+        21,
+        10,
+        0
+      ]
+    },
+    "result": "W"
   },
   {
     "isHomeGame": false,
@@ -1125,8 +1187,8 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "9-1",
-        "home": "6-1",
+        "overall": "10-1",
+        "home": "7-1",
         "away": "3-0",
         "neutral": "0-0"
       }
