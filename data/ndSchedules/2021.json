@@ -780,7 +780,7 @@
     },
     "rankings": {
       "home": {
-        "ap": 6,
+        "ap": 5,
         "coaches": 11
       }
     },
@@ -885,7 +885,7 @@
     },
     "rankings": {
       "home": {
-        "ap": 6,
+        "ap": 5,
         "coaches": 11
       }
     },
@@ -990,7 +990,7 @@
     },
     "rankings": {
       "away": {
-        "ap": 6,
+        "ap": 5,
         "coaches": 11
       }
     },
@@ -1067,6 +1067,7 @@
     "isHomeGame": true,
     "fullDate": "Sat Nov 20 2021 14:30:00 GMT-0500",
     "coverage": "NBC",
+    "highlightsYouTubeVideoId": "MNkFFAQrEhU",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -1086,15 +1087,15 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "6-5",
-        "home": "3-2",
+        "overall": "7-5",
+        "home": "4-2",
         "away": "3-3",
         "neutral": "0-0"
       }
     },
     "rankings": {
       "home": {
-        "ap": 6,
+        "ap": 5,
         "coaches": 6
       }
     },
@@ -1122,7 +1123,8 @@
         "penalties": 5,
         "penaltyYards": 40,
         "fumblesLost": 1,
-        "possession": "30:39"
+        "possession": "30:39",
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 23,
@@ -1142,7 +1144,8 @@
         "penalties": 3,
         "penaltyYards": 32,
         "fumblesLost": 0,
-        "possession": "29:21"
+        "possession": "29:21",
+        "fumbles": 2
       }
     },
     "score": {
@@ -1168,6 +1171,8 @@
   {
     "isHomeGame": false,
     "date": "11/27/2021",
+    "fullDate": "Sat Nov 27 2021 20:00:00 GMT-0500",
+    "highlightsYouTubeVideoId": "eD06GN0lYyc",
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -1181,24 +1186,88 @@
     "espnGameId": 401282711,
     "records": {
       "home": {
-        "overall": "3-7",
-        "home": "1-4",
+        "overall": "3-9",
+        "home": "1-6",
         "away": "2-3",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "10-1",
+        "overall": "11-1",
         "home": "7-1",
-        "away": "3-0",
+        "away": "4-0",
         "neutral": "0-0"
       }
     },
     "rankings": {
       "away": {
-        "ap": 6,
+        "ap": 5,
         "coaches": 6,
         "cfbPlayoff": 9
       }
-    }
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 2,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 510,
+        "passYards": 341,
+        "passCompletions": 27,
+        "passAttempts": 36,
+        "yardsPerPass": 9.5,
+        "interceptionsThrown": 1,
+        "rushYards": 169,
+        "rushAttempts": 35,
+        "yardsPerRush": 4.8,
+        "penalties": 4,
+        "penaltyYards": 35,
+        "fumblesLost": 0,
+        "possession": "34:10",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 227,
+        "passYards": 172,
+        "passCompletions": 20,
+        "passAttempts": 25,
+        "yardsPerPass": 6.9,
+        "interceptionsThrown": 0,
+        "rushYards": 55,
+        "rushAttempts": 22,
+        "yardsPerRush": 2.5,
+        "penalties": 9,
+        "penaltyYards": 64,
+        "fumblesLost": 2,
+        "possession": "25:50",
+        "fumbles": 3
+      }
+    },
+    "score": {
+      "home": 14,
+      "away": 45
+    },
+    "linescore": {
+      "away": [
+        7,
+        17,
+        7,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        7
+      ]
+    },
+    "result": "W"
   }
 ]
