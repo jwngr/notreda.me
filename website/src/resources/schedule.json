@@ -54436,8 +54436,8 @@
       },
       "rankings": {
         "home": {
-          "ap": 13,
-          "coaches": 13
+          "ap": 11,
+          "coaches": 11
         }
       },
       "weather": {
@@ -54541,8 +54541,9 @@
       },
       "rankings": {
         "home": {
-          "ap": 5,
-          "coaches": 11
+          "ap": 8,
+          "coaches": 8,
+          "cfbPlayoff": 10
         }
       },
       "weather": {
@@ -54646,8 +54647,9 @@
       },
       "rankings": {
         "home": {
-          "ap": 5,
-          "coaches": 11
+          "ap": 7,
+          "coaches": 7,
+          "cfbPlayoff": 9
         }
       },
       "weather": {
@@ -54751,8 +54753,9 @@
       },
       "rankings": {
         "away": {
-          "ap": 5,
-          "coaches": 11
+          "ap": 6,
+          "coaches": 6,
+          "cfbPlayoff": 8
         }
       },
       "weather": {
@@ -54857,7 +54860,8 @@
       "rankings": {
         "home": {
           "ap": 5,
-          "coaches": 6
+          "coaches": 5,
+          "cfbPlayoff": 6
         }
       },
       "weather": {
@@ -54961,9 +54965,9 @@
       },
       "rankings": {
         "away": {
-          "ap": 5,
+          "ap": 6,
           "coaches": 6,
-          "cfbPlayoff": 9
+          "cfbPlayoff": 6
         }
       },
       "headCoach": "Brian Kelly",
@@ -54974,15 +54978,15 @@
           "thirdDownConversions": 2,
           "fourthDownAttempts": 1,
           "fourthDownConversions": 1,
-          "totalYards": 510,
+          "totalYards": 509,
           "passYards": 341,
           "passCompletions": 27,
           "passAttempts": 36,
           "yardsPerPass": 9.5,
           "interceptionsThrown": 1,
-          "rushYards": 169,
-          "rushAttempts": 35,
-          "yardsPerRush": 4.8,
+          "rushYards": 168,
+          "rushAttempts": 34,
+          "yardsPerRush": 4.9,
           "penalties": 4,
           "penaltyYards": 35,
           "fumblesLost": 0,
@@ -55030,6 +55034,51 @@
         ]
       },
       "result": "W"
+    },
+    {
+      "isHomeGame": true,
+      "isBowlGame": true,
+      "fullDate": "Sat Jan 01 2022 13:00:00 GMT-0500",
+      "coverage": "ESPN",
+      "nickname": "Fiesta Bowl",
+      "location": {
+        "city": "Glendale",
+        "state": "AZ",
+        "stadium": "University of Phoenix Stadium",
+        "coordinates": [
+          33.528045,
+          -112.261014
+        ]
+      },
+      "opponentId": "OKST",
+      "espnGameId": 401331238,
+      "headCoach": "Marcus Freeman",
+      "rankings": {
+        "away": {
+          "ap": 9,
+          "coaches": 9,
+          "cfbPlayoff": 9
+        },
+        "home": {
+          "ap": 5,
+          "coaches": 5,
+          "cfbPlayoff": 5
+        }
+      },
+      "records": {
+        "home": {
+          "overall": "11-1",
+          "home": "7-1",
+          "away": "4-0",
+          "neutral": "0-0"
+        },
+        "away": {
+          "overall": "11-2",
+          "home": "7-1",
+          "away": "4-1",
+          "neutral": "0-0"
+        }
+      }
     }
   ],
   "2022": [

@@ -128,8 +128,9 @@ const updateNdSchedule = async () => {
   });
 
   logger.info(`Updating polls...`);
-  const currentSeasonPollsData = await espn.fetchPollsForSeason(SEASON);
-  polls.updateForSeason(SEASON, currentSeasonPollsData, currentSeasonSchedule);
+  // TODO: Fix this. It gets the wrong data once a bye week happens.
+  // const currentSeasonPollsData = await espn.fetchPollsForSeason(SEASON);
+  // polls.updateForSeason(SEASON, currentSeasonPollsData, currentSeasonSchedule);
 
   logger.info(`Updating weather for upcoming game...`);
   const nextUpcomingCurrentSeasonGame = _.find(
