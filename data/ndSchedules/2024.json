@@ -43,6 +43,20 @@
   },
   {
     "isHomeGame": true,
+    "date": "09/21/2024",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "M-OH"
+  },
+  {
+    "isHomeGame": true,
     "date": "10/12/2024",
     "location": {
       "city": "Notre Dame",
@@ -70,18 +84,18 @@
     "opponentId": "GT"
   },
   {
-    "isHomeGame": true,
-    "date": "11/16/2024",
+    "isHomeGame": false,
+    "date": "10/26/2024",
     "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "MetLife Stadium",
       "coordinates": [
-        41.698399,
-        -86.233917
+        40.813393,
+        -74.074607
       ]
     },
-    "opponentId": "UVA"
+    "opponentId": "NAVY"
   },
   {
     "isHomeGame": true,
@@ -99,7 +113,7 @@
   },
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "11/09/2024",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -112,10 +126,18 @@
     "opponentId": "FSU"
   },
   {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": "TBD",
-    "opponentId": "NAVY"
+    "isHomeGame": true,
+    "date": "11/16/2024",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "UVA"
   },
   {
     "isHomeGame": false,

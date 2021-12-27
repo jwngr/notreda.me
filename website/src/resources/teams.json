@@ -107,7 +107,7 @@
     "espnId": 2086
   },
   "BYU": {
-    "name": "Brigham Young",
+    "name": "BYU",
     "nickname": "Cougars",
     "color": "#0d3565",
     "espnId": 252
@@ -169,6 +169,12 @@
     "nickname": "Tigers",
     "color": "#ef6b2e",
     "espnId": 228
+  },
+  "CMU": {
+    "name": "Central Michigan",
+    "nickname": "Chippewas",
+    "color": "#922c46",
+    "espnId": 2117
   },
   "COE": {
     "name": "Coe",
@@ -376,7 +382,7 @@
     "espnId": 99
   },
   "M-OH": {
-    "name": "Miami (OH)",
+    "name": "Miami (Ohio)",
     "nickname": "RedHawks",
     "color": "#d3333e",
     "espnId": 193
@@ -521,7 +527,7 @@
     "name": "Oklahoma State",
     "shortName": "Oklahoma St",
     "nickname": "Cowboys",
-    "color": "#f05423", 
+    "color": "#f05423",
     "espnId": 197
   },
   "OLIV": {
@@ -754,6 +760,12 @@
     "nickname": "Tar Heels",
     "color": "#80acd2",
     "espnId": 153
+  },
+  "UNLV": {
+    "name": "UNLV",
+    "nickname": "Rebels",
+    "color": "#e51936",
+    "espnId": 2439
   },
   "UNM": {
     "name": "New Mexico",

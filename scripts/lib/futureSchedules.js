@@ -12,6 +12,7 @@ const OPPONENT_NAME_MAPPINGS = {
   'Bowling Green': 'Bowling Green State',
   Pitt: 'Pittsburgh',
   'Miami (FL)': 'Miami',
+  USF: 'South Florida',
 };
 
 const _getNormalizedOpponentName = (rawOpponentNameString) => {

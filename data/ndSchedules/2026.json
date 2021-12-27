@@ -1,6 +1,21 @@
 [
   {
     "isHomeGame": false,
+    "isShamrockSeries": true,
+    "date": "09/05/2026",
+    "location": {
+      "city": "Green Bay",
+      "state": "WI",
+      "stadium": "Lambeau Field",
+      "coordinates": [
+        44.501172,
+        -88.062262
+      ]
+    },
+    "opponentId": "WIS"
+  },
+  {
+    "isHomeGame": false,
     "date": "09/26/2026",
     "location": {
       "city": "West Lafayette",
@@ -12,6 +27,20 @@
       ]
     },
     "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/03/2026",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906851,
+        -79.048108
+      ]
+    },
+    "opponentId": "UNC"
   },
   {
     "isHomeGame": true,
@@ -88,20 +117,6 @@
     "date": "TBD",
     "location": "TBD",
     "opponentId": "NAVY"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Durham",
-      "state": "NC",
-      "stadium": "Kenan Memorial Stadium",
-      "coordinates": [
-        35.906851,
-        -79.048108
-      ]
-    },
-    "opponentId": "UNC"
   },
   {
     "isHomeGame": false,

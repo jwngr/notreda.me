@@ -1,5 +1,33 @@
 [
   {
+    "isHomeGame": true,
+    "date": "08/31/2030",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "IND"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/14/2030",
+    "location": {
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "stadium": "Bryant-Denny Stadium",
+      "coordinates": [
+        33.207674,
+        -87.550496
+      ]
+    },
+    "opponentId": "BAMA"
+  },
+  {
     "isHomeGame": false,
     "date": "11/02/2030",
     "location": {
@@ -68,5 +96,11 @@
       ]
     },
     "opponentId": "BC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
   }
 ]

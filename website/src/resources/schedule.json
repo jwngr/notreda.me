@@ -53201,14 +53201,16 @@
           6,
           10,
           10,
-          7
+          7,
+          0
         ],
         "home": [
           10,
           13,
           0,
           10,
-          14
+          7,
+          7
         ]
       },
       "result": "W"
@@ -53849,6 +53851,7 @@
         "home": 38,
         "away": 41
       },
+      "numOvertimes": 1,
       "linescore": {
         "away": [
           7,
@@ -54851,10 +54854,10 @@
           "neutral": "0-0"
         },
         "away": {
-          "overall": "7-5",
+          "overall": "8-5",
           "home": "4-2",
           "away": "3-3",
-          "neutral": "0-0"
+          "neutral": "1-0"
         }
       },
       "rankings": {
@@ -54938,6 +54941,7 @@
       "date": "11/27/2021",
       "fullDate": "Sat Nov 27 2021 20:00:00 GMT-0500",
       "highlightsYouTubeVideoId": "eD06GN0lYyc",
+      "coverage": "FOX",
       "location": {
         "city": "Stanford",
         "state": "CA",
@@ -55052,7 +55056,6 @@
       },
       "opponentId": "OKST",
       "espnGameId": 401331238,
-      "headCoach": "Marcus Freeman",
       "rankings": {
         "away": {
           "ap": 9,
@@ -55078,6 +55081,10 @@
           "away": "4-1",
           "neutral": "0-0"
         }
+      },
+      "weather": {
+        "icon": "clear-day",
+        "temperature": 51
       }
     }
   ],
@@ -55125,6 +55132,35 @@
       "opponentId": "CAL"
     },
     {
+      "isHomeGame": false,
+      "date": "09/24/2022",
+      "location": {
+        "city": "Chapel Hill",
+        "state": "NC",
+        "stadium": "Allegiant Stadium",
+        "coordinates": [
+          36.090329,
+          -115.183365
+        ]
+      },
+      "opponentId": "UNC"
+    },
+    {
+      "isHomeGame": false,
+      "isShamrockSeries": true,
+      "date": "10/08/2022",
+      "location": {
+        "city": "Las Vegas",
+        "state": "NV",
+        "stadium": "Kenan Memorial Stadium",
+        "coordinates": [
+          35.906944,
+          -79.047778
+        ]
+      },
+      "opponentId": "BYU"
+    },
+    {
       "isHomeGame": true,
       "date": "10/15/2022",
       "location": {
@@ -55139,28 +55175,22 @@
       "opponentId": "STAN"
     },
     {
-      "isHomeGame": false,
+      "isHomeGame": true,
       "date": "10/22/2022",
-      "location": "TBD",
-      "opponentId": "NAVY"
-    },
-    {
-      "isHomeGame": false,
-      "date": "TBD",
       "location": {
-        "city": "Chapel Hill",
-        "state": "NC",
-        "stadium": "Kenan Memorial Stadium",
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
         "coordinates": [
-          35.906944,
-          -79.047778
+          41.698399,
+          -86.233917
         ]
       },
-      "opponentId": "UNC"
+      "opponentId": "UNLV"
     },
     {
       "isHomeGame": false,
-      "date": "TBD",
+      "date": "10/29/2022",
       "location": {
         "city": "Syracuse",
         "state": "NY",
@@ -55171,20 +55201,6 @@
         ]
       },
       "opponentId": "SYR"
-    },
-    {
-      "isHomeGame": true,
-      "date": "TBD",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium",
-        "coordinates": [
-          41.698399,
-          -86.233917
-        ]
-      },
-      "opponentId": "BC"
     },
     {
       "isHomeGame": true,
@@ -55199,6 +55215,34 @@
         ]
       },
       "opponentId": "CLEM"
+    },
+    {
+      "isHomeGame": false,
+      "date": "11/12/2022",
+      "location": {
+        "city": "Baltimore",
+        "state": "MD",
+        "stadium": "M&T Bank Stadium",
+        "coordinates": [
+          39.277954,
+          -76.623112
+        ]
+      },
+      "opponentId": "NAVY"
+    },
+    {
+      "isHomeGame": true,
+      "date": "11/19/2022",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "BC"
     },
     {
       "isHomeGame": false,
@@ -55218,6 +55262,34 @@
   "2023": [
     {
       "isHomeGame": true,
+      "date": "08/26/2023",
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "stadium": "Aviva Stadium",
+        "coordinates": [
+          53.335065,
+          -6.228575
+        ]
+      },
+      "opponentId": "NAVY"
+    },
+    {
+      "isHomeGame": true,
+      "date": "09/16/2023",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "CMU"
+    },
+    {
+      "isHomeGame": true,
       "date": "09/23/2023",
       "location": {
         "city": "Notre Dame",
@@ -55229,6 +55301,48 @@
         ]
       },
       "opponentId": "OSU"
+    },
+    {
+      "isHomeGame": true,
+      "date": "10/14/2023",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "USC"
+    },
+    {
+      "isHomeGame": true,
+      "date": "10/28/2023",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "WAKE"
+    },
+    {
+      "isHomeGame": false,
+      "date": "11/04/2023",
+      "location": {
+        "city": "Clemson",
+        "state": "SC",
+        "stadium": "Clemson Memorial Stadium",
+        "coordinates": [
+          34.678643,
+          -82.84322
+        ]
+      },
+      "opponentId": "CLEM"
     },
     {
       "isHomeGame": false,
@@ -55274,34 +55388,6 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/14/2023",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium",
-        "coordinates": [
-          41.698399,
-          -86.233917
-        ]
-      },
-      "opponentId": "USC"
-    },
-    {
-      "isHomeGame": true,
-      "date": "10/28/2023",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium",
-        "coordinates": [
-          41.698399,
-          -86.233917
-        ]
-      },
-      "opponentId": "WAKE"
-    },
-    {
-      "isHomeGame": true,
       "date": "TBD",
       "location": {
         "city": "Notre Dame",
@@ -55313,34 +55399,6 @@
         ]
       },
       "opponentId": "PITT"
-    },
-    {
-      "isHomeGame": false,
-      "date": "11/04/2023",
-      "location": {
-        "city": "Clemson",
-        "state": "SC",
-        "stadium": "Clemson Memorial Stadium",
-        "coordinates": [
-          34.678643,
-          -82.84322
-        ]
-      },
-      "opponentId": "CLEM"
-    },
-    {
-      "isHomeGame": true,
-      "date": "11/11/2023",
-      "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium",
-        "coordinates": [
-          41.698399,
-          -86.233917
-        ]
-      },
-      "opponentId": "NAVY"
     },
     {
       "isHomeGame": false,
@@ -55402,6 +55460,20 @@
     },
     {
       "isHomeGame": true,
+      "date": "09/21/2024",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "M-OH"
+    },
+    {
+      "isHomeGame": true,
       "date": "10/12/2024",
       "location": {
         "city": "Notre Dame",
@@ -55429,18 +55501,18 @@
       "opponentId": "GT"
     },
     {
-      "isHomeGame": true,
-      "date": "11/16/2024",
+      "isHomeGame": false,
+      "date": "10/26/2024",
       "location": {
-        "city": "Notre Dame",
-        "state": "IN",
-        "stadium": "Notre Dame Stadium",
+        "city": "East Rutherford",
+        "state": "NJ",
+        "stadium": "MetLife Stadium",
         "coordinates": [
-          41.698399,
-          -86.233917
+          40.813393,
+          -74.074607
         ]
       },
-      "opponentId": "UVA"
+      "opponentId": "NAVY"
     },
     {
       "isHomeGame": true,
@@ -55458,7 +55530,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "TBD",
+      "date": "11/09/2024",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55471,10 +55543,18 @@
       "opponentId": "FSU"
     },
     {
-      "isHomeGame": false,
-      "date": "TBD",
-      "location": "TBD",
-      "opponentId": "NAVY"
+      "isHomeGame": true,
+      "date": "11/16/2024",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "UVA"
     },
     {
       "isHomeGame": false,
@@ -55522,7 +55602,7 @@
     },
     {
       "isHomeGame": false,
-      "date": "10/04/2025",
+      "date": "09/27/2025",
       "location": {
         "city": "Fayetteville",
         "state": "AR",
@@ -55636,6 +55716,21 @@
   "2026": [
     {
       "isHomeGame": false,
+      "isShamrockSeries": true,
+      "date": "09/05/2026",
+      "location": {
+        "city": "Green Bay",
+        "state": "WI",
+        "stadium": "Lambeau Field",
+        "coordinates": [
+          44.501172,
+          -88.062262
+        ]
+      },
+      "opponentId": "WIS"
+    },
+    {
+      "isHomeGame": false,
       "date": "09/26/2026",
       "location": {
         "city": "West Lafayette",
@@ -55647,6 +55742,20 @@
         ]
       },
       "opponentId": "PUR"
+    },
+    {
+      "isHomeGame": false,
+      "date": "10/03/2026",
+      "location": {
+        "city": "Durham",
+        "state": "NC",
+        "stadium": "Kenan Memorial Stadium",
+        "coordinates": [
+          35.906851,
+          -79.048108
+        ]
+      },
+      "opponentId": "UNC"
     },
     {
       "isHomeGame": true,
@@ -55723,20 +55832,6 @@
       "date": "TBD",
       "location": "TBD",
       "opponentId": "NAVY"
-    },
-    {
-      "isHomeGame": false,
-      "date": "TBD",
-      "location": {
-        "city": "Durham",
-        "state": "NC",
-        "stadium": "Kenan Memorial Stadium",
-        "coordinates": [
-          35.906851,
-          -79.048108
-        ]
-      },
-      "opponentId": "UNC"
     },
     {
       "isHomeGame": false,
@@ -55851,12 +55946,10 @@
         ]
       },
       "opponentId": "WAKE"
-    }
-  ],
-  "2028": [
+    },
     {
       "isHomeGame": true,
-      "date": "09/02/2028",
+      "date": "TBD",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55866,7 +55959,23 @@
           -86.233917
         ]
       },
-      "opponentId": "BAMA"
+      "opponentId": "NAVY"
+    }
+  ],
+  "2028": [
+    {
+      "isHomeGame": true,
+      "date": "09/16/2028",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "ARK"
     },
     {
       "isHomeGame": false,
@@ -55961,18 +56070,32 @@
   ],
   "2029": [
     {
-      "isHomeGame": false,
+      "isHomeGame": true,
       "date": "09/01/2029",
       "location": {
-        "city": "Tuscaloosa",
-        "state": "AL",
-        "stadium": "Bryant–Denny Stadium",
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
         "coordinates": [
-          33.207665,
-          -87.55048
+          41.698399,
+          -86.233917
         ]
       },
       "opponentId": "BAMA"
+    },
+    {
+      "isHomeGame": false,
+      "date": "09/15/2029",
+      "location": {
+        "city": "Tampa",
+        "state": "Florida",
+        "stadium": "Raymond James Stadium",
+        "coordinates": [
+          27.975969,
+          -82.503331
+        ]
+      },
+      "opponentId": "USF"
     },
     {
       "isHomeGame": false,
@@ -56043,9 +56166,51 @@
         ]
       },
       "opponentId": "SYR"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "NAVY"
     }
   ],
   "2030": [
+    {
+      "isHomeGame": true,
+      "date": "08/31/2030",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "IND"
+    },
+    {
+      "isHomeGame": false,
+      "date": "09/14/2030",
+      "location": {
+        "city": "Tuscaloosa",
+        "state": "AL",
+        "stadium": "Bryant-Denny Stadium",
+        "coordinates": [
+          33.207674,
+          -87.550496
+        ]
+      },
+      "opponentId": "BAMA"
+    },
     {
       "isHomeGame": false,
       "date": "11/02/2030",
@@ -56115,6 +56280,12 @@
         ]
       },
       "opponentId": "BC"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": "TBD",
+      "opponentId": "NAVY"
     }
   ],
   "2031": [
@@ -56133,6 +56304,34 @@
       "opponentId": "CLEM"
     },
     {
+      "isHomeGame": true,
+      "date": "09/13/2031",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "USF"
+    },
+    {
+      "isHomeGame": false,
+      "date": "09/27/2031",
+      "location": {
+        "city": "Bloomington",
+        "state": "IN",
+        "stadium": "Indiana University Memorial Stadium",
+        "coordinates": [
+          39.18084,
+          -86.5257
+        ]
+      },
+      "opponentId": "IND"
+    },
+    {
       "isHomeGame": false,
       "date": "10/11/2031",
       "location": {
@@ -56145,6 +56344,20 @@
         ]
       },
       "opponentId": "UVA"
+    },
+    {
+      "isHomeGame": true,
+      "date": "11/15/2031",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "FLA"
     },
     {
       "isHomeGame": true,
@@ -56187,9 +56400,37 @@
         ]
       },
       "opponentId": "PITT"
+    },
+    {
+      "isHomeGame": true,
+      "date": "TBD",
+      "location": {
+        "city": "Notre Dame",
+        "state": "IN",
+        "stadium": "Notre Dame Stadium",
+        "coordinates": [
+          41.698399,
+          -86.233917
+        ]
+      },
+      "opponentId": "NAVY"
     }
   ],
   "2032": [
+    {
+      "isHomeGame": false,
+      "date": "09/11/2032",
+      "location": {
+        "city": "Gainesville",
+        "state": "FL",
+        "stadium": "Ben Hill Griffin Stadium",
+        "coordinates": [
+          29.649797,
+          -82.348606
+        ]
+      },
+      "opponentId": "FLA"
+    },
     {
       "isHomeGame": false,
       "date": "10/30/2032",
@@ -56259,6 +56500,12 @@
         ]
       },
       "opponentId": "MIAMI"
+    },
+    {
+      "isHomeGame": false,
+      "date": "TBD",
+      "location": "TBD",
+      "opponentId": "NAVY"
     }
   ],
   "2033": [
@@ -56292,7 +56539,7 @@
     },
     {
       "isHomeGame": true,
-      "date": "TBD",
+      "date": "11/05/2033",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -56302,7 +56549,7 @@
           -86.233917
         ]
       },
-      "opponentId": "PITT"
+      "opponentId": "VT"
     },
     {
       "isHomeGame": true,
@@ -56316,7 +56563,7 @@
           -86.233917
         ]
       },
-      "opponentId": "VT"
+      "opponentId": "PITT"
     },
     {
       "isHomeGame": false,

@@ -1,6 +1,20 @@
 [
   {
     "isHomeGame": false,
+    "date": "09/11/2032",
+    "location": {
+      "city": "Gainesville",
+      "state": "FL",
+      "stadium": "Ben Hill Griffin Stadium",
+      "coordinates": [
+        29.649797,
+        -82.348606
+      ]
+    },
+    "opponentId": "FLA"
+  },
+  {
+    "isHomeGame": false,
     "date": "10/30/2032",
     "location": {
       "city": "Atlanta",
@@ -68,5 +82,11 @@
       ]
     },
     "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": "TBD",
+    "opponentId": "NAVY"
   }
 ]

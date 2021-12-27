@@ -1,17 +1,31 @@
 [
   {
-    "isHomeGame": false,
+    "isHomeGame": true,
     "date": "09/01/2029",
     "location": {
-      "city": "Tuscaloosa",
-      "state": "AL",
-      "stadium": "Bryant–Denny Stadium",
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
       "coordinates": [
-        33.207665,
-        -87.55048
+        41.698399,
+        -86.233917
       ]
     },
     "opponentId": "BAMA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/15/2029",
+    "location": {
+      "city": "Tampa",
+      "state": "Florida",
+      "stadium": "Raymond James Stadium",
+      "coordinates": [
+        27.975969,
+        -82.503331
+      ]
+    },
+    "opponentId": "USF"
   },
   {
     "isHomeGame": false,
@@ -82,5 +96,19 @@
       ]
     },
     "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "NAVY"
   }
 ]

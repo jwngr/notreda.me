@@ -42,6 +42,35 @@
     "opponentId": "CAL"
   },
   {
+    "isHomeGame": false,
+    "date": "09/24/2022",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "NC",
+      "stadium": "Allegiant Stadium",
+      "coordinates": [
+        36.090329,
+        -115.183365
+      ]
+    },
+    "opponentId": "UNC"
+  },
+  {
+    "isHomeGame": false,
+    "isShamrockSeries": true,
+    "date": "10/08/2022",
+    "location": {
+      "city": "Las Vegas",
+      "state": "NV",
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
+    },
+    "opponentId": "BYU"
+  },
+  {
     "isHomeGame": true,
     "date": "10/15/2022",
     "location": {
@@ -56,28 +85,22 @@
     "opponentId": "STAN"
   },
   {
-    "isHomeGame": false,
+    "isHomeGame": true,
     "date": "10/22/2022",
-    "location": "TBD",
-    "opponentId": "NAVY"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
     "location": {
-      "city": "Chapel Hill",
-      "state": "NC",
-      "stadium": "Kenan Memorial Stadium",
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
       "coordinates": [
-        35.906944,
-        -79.047778
+        41.698399,
+        -86.233917
       ]
     },
-    "opponentId": "UNC"
+    "opponentId": "UNLV"
   },
   {
     "isHomeGame": false,
-    "date": "TBD",
+    "date": "10/29/2022",
     "location": {
       "city": "Syracuse",
       "state": "NY",
@@ -88,20 +111,6 @@
       ]
     },
     "opponentId": "SYR"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
-    },
-    "opponentId": "BC"
   },
   {
     "isHomeGame": true,
@@ -116,6 +125,34 @@
       ]
     },
     "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/12/2022",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "stadium": "M&T Bank Stadium",
+      "coordinates": [
+        39.277954,
+        -76.623112
+      ]
+    },
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/19/2022",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [
+        41.698399,
+        -86.233917
+      ]
+    },
+    "opponentId": "BC"
   },
   {
     "isHomeGame": false,

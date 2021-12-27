@@ -165,6 +165,9 @@ const updateNdSchedule = async () => {
 
   logger.info(`Updating ND schedule data file for ${SEASON}...`);
   return ndSchedules.updateForSeason(SEASON, currentSeasonSchedule);
+
+  // Uncomment to regenerate schedule.json from all source data files.
+  // return ndSchedules.transformForAllSeasons(() => {});
 };
 
 return updateNdSchedule()

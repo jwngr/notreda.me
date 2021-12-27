@@ -88,6 +88,7 @@
       "home": 38,
       "away": 41
     },
+    "numOvertimes": 1,
     "linescore": {
       "away": [
         7,
@@ -1090,10 +1091,10 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "7-5",
+        "overall": "8-5",
         "home": "4-2",
         "away": "3-3",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "rankings": {
@@ -1177,6 +1178,7 @@
     "date": "11/27/2021",
     "fullDate": "Sat Nov 27 2021 20:00:00 GMT-0500",
     "highlightsYouTubeVideoId": "eD06GN0lYyc",
+    "coverage": "FOX",
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -1291,7 +1293,6 @@
     },
     "opponentId": "OKST",
     "espnGameId": 401331238,
-    "headCoach": "Marcus Freeman",
     "rankings": {
       "away": {
         "ap": 9,
@@ -1317,6 +1318,10 @@
         "away": "4-1",
         "neutral": "0-0"
       }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 51
     }
   }
 ]
