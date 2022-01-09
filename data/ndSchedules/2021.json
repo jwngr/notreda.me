@@ -1282,6 +1282,7 @@
     "fullDate": "Sat Jan 01 2022 13:00:00 GMT-0500",
     "coverage": "ESPN",
     "nickname": "Fiesta Bowl",
+    "highlightsYouTubeVideoId": "UvUU7iQIGEc",
     "location": {
       "city": "Glendale",
       "state": "AZ",
@@ -1307,21 +1308,85 @@
     },
     "records": {
       "home": {
-        "overall": "11-1",
-        "home": "7-1",
-        "away": "4-0",
-        "neutral": "0-0"
-      },
-      "away": {
         "overall": "11-2",
         "home": "7-1",
+        "away": "4-0",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "12-2",
+        "home": "7-1",
         "away": "4-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "weather": {
       "icon": "clear-day",
       "temperature": 51
-    }
+    },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 34,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 605,
+        "passYards": 371,
+        "passCompletions": 34,
+        "passAttempts": 51,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 0,
+        "rushYards": 234,
+        "rushAttempts": 44,
+        "yardsPerRush": 5.3,
+        "penalties": 4,
+        "penaltyYards": 45,
+        "fumblesLost": 2,
+        "possession": "29:06",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 20,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 551,
+        "passYards": 509,
+        "passCompletions": 38,
+        "passAttempts": 68,
+        "yardsPerPass": 7.5,
+        "interceptionsThrown": 1,
+        "rushYards": 42,
+        "rushAttempts": 21,
+        "yardsPerRush": 2,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 1,
+        "possession": "30:54",
+        "fumbles": 2
+      }
+    },
+    "score": {
+      "home": 35,
+      "away": 37
+    },
+    "linescore": {
+      "away": [
+        7,
+        7,
+        17,
+        6
+      ],
+      "home": [
+        14,
+        14,
+        0,
+        7
+      ]
+    },
+    "result": "L"
   }
 ]
