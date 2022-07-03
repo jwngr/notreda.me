@@ -55156,7 +55156,8 @@
   "2022": [
     {
       "isHomeGame": false,
-      "date": "09/03/2022",
+      "fullDate": "Sat Sep 03 2022 19:30:00 GMT-0400",
+      "coverage": "ABC",
       "location": {
         "city": "Columbus",
         "state": "OH",
@@ -55170,7 +55171,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "09/10/2022",
+      "fullDate": "Sat Sep 10 2022 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55184,7 +55186,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "09/17/2022",
+      "fullDate": "Sat Sep 17 2022 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55213,7 +55216,8 @@
     {
       "isHomeGame": false,
       "isShamrockSeries": true,
-      "date": "10/08/2022",
+      "fullDate": "Sat Oct 08 2022 19:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Las Vegas",
         "state": "NV",
@@ -55227,7 +55231,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/15/2022",
+      "fullDate": "Sat Oct 15 2022 19:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55241,7 +55246,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "10/22/2022",
+      "fullDate": "Sat Oct 22 2022 14:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55269,7 +55275,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "11/05/2022",
+      "fullDate": "Sat Nov 05 2022 19:30:00 GMT-0400",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
@@ -55284,6 +55291,7 @@
     {
       "isHomeGame": false,
       "date": "11/12/2022",
+      "fullDate": "Sat Nov 12 2022 12:00:00 GMT-0500",
       "location": {
         "city": "Baltimore",
         "state": "MD",
@@ -55297,7 +55305,8 @@
     },
     {
       "isHomeGame": true,
-      "date": "11/19/2022",
+      "fullDate": "Sat Nov 19 2022 14:30:00 GMT-0500",
+      "coverage": "NBC",
       "location": {
         "city": "Notre Dame",
         "state": "IN",
