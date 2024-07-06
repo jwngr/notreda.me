@@ -1,10 +1,8 @@
+import {createBrowserHistory} from 'history';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
 import {Route, Router, Switch} from 'react-router-dom';
 import {ThemeProvider} from 'styled-components';
 
-// @ts-expect-error TODO: Fix this.
-import {configureStore, history} from './configureStore';
 import theme from './resources/theme.json';
 
 import './index.css';
@@ -14,10 +12,12 @@ import 'typeface-bungee';
 
 import {lazy, Suspense} from 'react';
 
+const history = createBrowserHistory();
+
 export const AsyncFootballScheduleScreen = lazy(() =>
   // @ts-expect-error TODO: Fix this.
-  import('./screens/FootballScheduleScreen/container').then((module) => ({
-    default: module.FootballScheduleScreenContainer,
+  import('./screens/FootballScheduleScreen/index').then((module) => ({
+    default: module.FootballScheduleScreen,
   }))
 );
 
@@ -28,27 +28,22 @@ export const AsyncExplorablesScreen = lazy(() =>
   }))
 );
 
-// Create the Redux store.
-const store = configureStore();
-
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    <Provider store={store}>
-      <Router history={history}>
-        <Switch>
-          <Route path="/explorables">
-            <Suspense fallback={null}>
-              <AsyncExplorablesScreen />
-            </Suspense>
-          </Route>
-          <Route path="/">
-            <Suspense fallback={null}>
-              <AsyncFootballScheduleScreen />
-            </Suspense>
-          </Route>
-        </Switch>
-      </Router>
-    </Provider>
+    <Router history={history}>
+      <Switch>
+        <Route path="/explorables">
+          <Suspense fallback={null}>
+            <AsyncExplorablesScreen />
+          </Suspense>
+        </Route>
+        <Route path="/">
+          <Suspense fallback={null}>
+            <AsyncFootballScheduleScreen />
+          </Suspense>
+        </Route>
+      </Switch>
+    </Router>
   </ThemeProvider>,
   document.getElementById('root')
 );

@@ -1,11 +1,23 @@
+import clone from 'lodash/clone';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import schedule from '../../resources/schedule';
 import teams from '../../resources/teams';
 import {CompletedGameSummary} from './CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
 
-export const GameSummary = ({game}) => {
+export const GameSummary = ({selectedYear, selectedGameIndex}) => {
+  const games = schedule[selectedYear];
+  const game = clone(games[selectedGameIndex]);
+
+  game.season = Number(selectedYear);
+
+  game.weekIndex = Number(selectedGameIndex);
+
+  game.opponent = teams[game.opponentId];
+  game.opponent.abbreviation = game.opponentId;
+
   const notreDame = teams.ND;
   notreDame.abbreviation = 'ND';
 
@@ -18,5 +30,6 @@ export const GameSummary = ({game}) => {
 };
 
 GameSummary.propTypes = {
-  game: PropTypes.object.isRequired,
+  selectedYear: PropTypes.number.isRequired,
+  selectedGameIndex: PropTypes.number.isRequired,
 };

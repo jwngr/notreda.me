@@ -1,15 +1,15 @@
 import isAfter from 'date-fns/isAfter';
 import subDays from 'date-fns/subDays';
 import _ from 'lodash';
-import {combineReducers} from 'redux';
 
-import * as actions from '../actions';
 import {CURRENT_SEASON} from '../lib/constants';
 import schedule from '../resources/schedule';
 
+// TODO: Move to better file.
+
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
-const getYearFromUrl = (url = '') => {
+export const getYearFromUrl = (url = '') => {
   const tokens = url.split('/').filter((val) => val !== '');
 
   let year;
@@ -24,7 +24,7 @@ const getYearFromUrl = (url = '') => {
   return year;
 };
 
-const getSelectedGameIndexFromUrl = (url = '') => {
+export const getSelectedGameIndexFromUrl = (url = '') => {
   const year = getYearFromUrl(url);
 
   const tokens = url.split('/').filter((val) => val !== '');
@@ -77,27 +77,3 @@ const getSelectedGameIndexFromUrl = (url = '') => {
     }
   }
 };
-
-const rootReducer = {
-  selectedYear: (state = CURRENT_SEASON, action) => {
-    switch (action.type) {
-      case actions.ROUTER_LOCATION_CHANGED:
-        return getYearFromUrl(_.get(action.payload, 'location.pathname'));
-      default:
-        return state;
-    }
-  },
-  selectedGameIndex: (state = DEFAULT_SELECTED_GAME_INDEX, action) => {
-    switch (action.type) {
-      case actions.ROUTER_LOCATION_CHANGED:
-        return getSelectedGameIndexFromUrl(_.get(action.payload, 'location.pathname'));
-      default:
-        return state;
-    }
-  },
-};
-
-export const createRootReducer = () =>
-  combineReducers({
-    ...rootReducer,
-  });

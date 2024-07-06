@@ -1,13 +1,13 @@
 import _ from 'lodash';
-import PropTypes from 'prop-types';
-import React, {useState} from 'react';
+import React, {useMemo, useState} from 'react';
 import Media from 'react-media';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, useLocation} from 'react-router-dom';
 
-import {GameContainer} from '../../containers/GameContainer';
-import {GameSummaryContainer} from '../../containers/GameSummaryContainer';
-import {NavMenuContainer} from '../../containers/NavMenuContainer';
+import {Game} from '../../components/Game';
+import {GameSummary} from '../../components/gameSummary/GameSummary';
+import {NavMenu} from '../../components/NavMenu';
 import {LATEST_YEAR} from '../../lib/constants';
+import {getSelectedGameIndexFromUrl, getYearFromUrl} from '../../reducers';
 import schedule from '../../resources/schedule';
 import teams from '../../resources/teams';
 import {
@@ -21,8 +21,16 @@ import {
   ScheduleWrapper,
 } from './index.styles';
 
-export const FootballScheduleScreen = ({selectedYear}) => {
+export const FootballScheduleScreen = () => {
+  const location = useLocation();
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+
+  // Initialize the source and target page titles from the URL.
+  const selectedYear = useMemo(() => getYearFromUrl(location.pathname), [location]);
+  const selectedGameIndex = useMemo(
+    () => getSelectedGameIndexFromUrl(location.pathname),
+    [location]
+  );
 
   const gamesContent = _.map(schedule[selectedYear], (game, index) => {
     const gameClone = _.clone(game);
@@ -30,7 +38,15 @@ export const FootballScheduleScreen = ({selectedYear}) => {
     gameClone.opponent = teams[game.opponentId];
     gameClone.opponent.abbreviation = game.opponentId;
 
-    return <GameContainer key={index} index={index} game={gameClone} year={selectedYear} />;
+    return (
+      <Game
+        key={index}
+        index={index}
+        game={gameClone}
+        year={selectedYear}
+        isSelected={index === selectedGameIndex}
+      />
+    );
   });
 
   const closeNavMenuIfOpen = () => {
@@ -43,13 +59,13 @@ export const FootballScheduleScreen = ({selectedYear}) => {
   let previousYear = selectedYear === 1892 ? 1889 : selectedYear - 1;
 
   return (
-    <React.Fragment>
+    <>
       <ScheduleScreenWrapper onClick={closeNavMenuIfOpen}>
         <Header>
           <PreviousYearLink className={selectedYear === 1887 && 'hidden'} to={`/${previousYear}`}>
             <span>&#x2190;</span>
             <Media query="(min-width: 700px)">
-              <React.Fragment>{previousYear}</React.Fragment>
+              <>{previousYear}</>
             </Media>
           </PreviousYearLink>
 
@@ -57,7 +73,7 @@ export const FootballScheduleScreen = ({selectedYear}) => {
 
           <NextYearLink className={selectedYear === LATEST_YEAR && 'hidden'} to={`/${nextYear}`}>
             <Media query="(min-width: 700px)">
-              <React.Fragment>{nextYear}</React.Fragment>
+              <>{nextYear}</>
             </Media>
             <span>&#x2192;</span>
           </NextYearLink>
@@ -69,17 +85,20 @@ export const FootballScheduleScreen = ({selectedYear}) => {
               matches ? (
                 <Switch>
                   <Route path="/:year/:selectedGameIndex">
-                    <GameSummaryContainer />
+                    <GameSummary
+                      selectedYear={selectedYear}
+                      selectedGameIndex={selectedGameIndex}
+                    />
                   </Route>
                   <Route path="/">
                     <GamesWrapper>{gamesContent}</GamesWrapper>
                   </Route>
                 </Switch>
               ) : (
-                <React.Fragment>
+                <>
                   <GamesWrapper>{gamesContent}</GamesWrapper>
-                  <GameSummaryContainer />
-                </React.Fragment>
+                  <GameSummary selectedYear={selectedYear} selectedGameIndex={selectedGameIndex} />
+                </>
               )
             }
           </Media>
@@ -89,11 +108,13 @@ export const FootballScheduleScreen = ({selectedYear}) => {
       <NavMenuButton onClick={() => setIsNavMenuOpen(true)}>
         <span />
       </NavMenuButton>
-      <NavMenuContainer open={isNavMenuOpen} onClose={() => setIsNavMenuOpen(false)} />
-    </React.Fragment>
+      <NavMenu
+        selectedYear={selectedYear}
+        open={isNavMenuOpen}
+        onClose={() => setIsNavMenuOpen(false)}
+      />
+    </>
   );
 };
 
-FootballScheduleScreen.propTypes = {
-  selectedYear: PropTypes.number.isRequired,
-};
+FootballScheduleScreen.propTypes = {};

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import {Link} from 'react-router-dom';
 
-import {InternalLink} from '../../common/InternalLink2';
 import {NewsletterSignupForm} from '../../common/NewsletterSignupForm';
 import {
   BlogPostCardWrapper,
@@ -34,16 +34,16 @@ const posts = [
 
 const BlogPostCard = ({slug, date, title, subtitle, description}) => (
   <BlogPostCardWrapper>
-    <InternalLink to={`/explorables/${slug}`}>
+    <Link to={`/explorables/${slug}`}>
       {title}: {subtitle}
-    </InternalLink>
+    </Link>
     <BlogPostDate>{date}</BlogPostDate>
     <BlogPostDescription>{description}</BlogPostDescription>
   </BlogPostCardWrapper>
 );
 
 export const Explorables = () => (
-  <React.Fragment>
+  <>
     <Helmet>
       <title>Explorables | notreda.me</title>
     </Helmet>
@@ -62,5 +62,5 @@ export const Explorables = () => (
 
       <NewsletterSignupForm />
     </Wrapper>
-  </React.Fragment>
+  </>
 );

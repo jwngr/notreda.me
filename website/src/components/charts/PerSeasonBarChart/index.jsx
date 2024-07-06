@@ -177,12 +177,12 @@ export class PerSeasonBarChart extends Component {
     }
 
     return (
-      <React.Fragment>
+      <>
         {tooltipContent}
         <PerSeasonBarChartWrapper className="bar-chart-wrapper">
           <PerSeasonBarChartSvg ref={(r) => (this.perSeasonBarChartRef = r)} />
         </PerSeasonBarChartWrapper>
-      </React.Fragment>
+      </>
     );
   }
 }

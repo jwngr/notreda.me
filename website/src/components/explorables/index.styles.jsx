@@ -1,9 +1,9 @@
 import {darken} from 'polished';
 import React from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
-import {InternalLink} from '../common/InternalLink2';
 
 export const Wrapper = styled.div`
   max-width: 740px;
@@ -163,7 +163,7 @@ export const StyledExternalLink = styled.a`
   }
 `;
 
-export const StyledInternalLink = styled(InternalLink)`
+export const StyledInternalLink = styled(Link)`
   color: ${(props) => props.theme.colors.green};
 
   &:hover {
