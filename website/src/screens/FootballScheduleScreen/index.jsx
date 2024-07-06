@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, {useState} from 'react';
 import Media from 'react-media';
 import {Route, Switch} from 'react-router-dom';
 
@@ -21,7 +21,9 @@ import {
   ScheduleWrapper,
 } from './index.styles';
 
-export const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu}) => {
+export const FootballScheduleScreen = ({selectedYear}) => {
+  const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+
   const gamesContent = _.map(schedule[selectedYear], (game, index) => {
     const gameClone = _.clone(game);
 
@@ -32,8 +34,8 @@ export const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu
   });
 
   const closeNavMenuIfOpen = () => {
-    if (navMenuOpen) {
-      toggleNavMenu();
+    if (isNavMenuOpen) {
+      setIsNavMenuOpen(false);
     }
   };
 
@@ -84,16 +86,14 @@ export const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu
         </ScheduleWrapper>
       </ScheduleScreenWrapper>
 
-      <NavMenuButton onClick={toggleNavMenu}>
+      <NavMenuButton onClick={() => setIsNavMenuOpen(true)}>
         <span />
       </NavMenuButton>
-      <NavMenuContainer />
+      <NavMenuContainer open={isNavMenuOpen} onClose={() => setIsNavMenuOpen(false)} />
     </React.Fragment>
   );
 };
 
 FootballScheduleScreen.propTypes = {
-  navMenuOpen: PropTypes.bool.isRequired,
   selectedYear: PropTypes.number.isRequired,
-  toggleNavMenu: PropTypes.func.isRequired,
 };

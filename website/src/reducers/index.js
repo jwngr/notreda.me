@@ -1,4 +1,3 @@
-import {connectRouter} from 'connected-react-router';
 import isAfter from 'date-fns/isAfter';
 import subDays from 'date-fns/subDays';
 import _ from 'lodash';
@@ -7,7 +6,6 @@ import {combineReducers} from 'redux';
 import * as actions from '../actions';
 import {CURRENT_SEASON} from '../lib/constants';
 import schedule from '../resources/schedule';
-import {navMenu} from './navMenu';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
@@ -81,7 +79,6 @@ const getSelectedGameIndexFromUrl = (url = '') => {
 };
 
 const rootReducer = {
-  navMenu,
   selectedYear: (state = CURRENT_SEASON, action) => {
     switch (action.type) {
       case actions.ROUTER_LOCATION_CHANGED:
@@ -100,8 +97,7 @@ const rootReducer = {
   },
 };
 
-export const createRootReducer = (history) =>
+export const createRootReducer = () =>
   combineReducers({
-    router: connectRouter(history),
     ...rootReducer,
   });

@@ -1,7 +1,6 @@
-import {ConnectedRouter} from 'connected-react-router';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Router, Switch} from 'react-router-dom';
 import {ThemeProvider} from 'styled-components';
 
 // @ts-expect-error TODO: Fix this.
@@ -35,22 +34,20 @@ const store = configureStore();
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <Provider store={store}>
-      <ConnectedRouter history={history}>
-        <>
-          <Switch>
-            <Route path="/explorables">
-              <Suspense fallback={null}>
-                <AsyncExplorablesScreen />
-              </Suspense>
-            </Route>
-            <Route path="/">
-              <Suspense fallback={null}>
-                <AsyncFootballScheduleScreen />
-              </Suspense>
-            </Route>
-          </Switch>
-        </>
-      </ConnectedRouter>
+      <Router history={history}>
+        <Switch>
+          <Route path="/explorables">
+            <Suspense fallback={null}>
+              <AsyncExplorablesScreen />
+            </Suspense>
+          </Route>
+          <Route path="/">
+            <Suspense fallback={null}>
+              <AsyncFootballScheduleScreen />
+            </Suspense>
+          </Route>
+        </Switch>
+      </Router>
     </Provider>
   </ThemeProvider>,
   document.getElementById('root')
