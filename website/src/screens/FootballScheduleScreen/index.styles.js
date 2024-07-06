@@ -1,7 +1,6 @@
 import {darken, lighten} from 'polished';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
-
-import {InternalLink} from '../../components/common/InternalLink';
 
 export const ScheduleScreenWrapper = styled.div`
   transition: transform 0.5s;
@@ -157,7 +156,7 @@ export const HeaderTitle = styled.div`
   }
 `;
 
-const PreviousAndNextYearLink = styled(InternalLink)`
+const PreviousAndNextYearLink = styled(Link)`
   font-family: 'Bungee';
   font-size: 18px;
   text-decoration: none;

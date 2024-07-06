@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
-import {InternalLink} from '../../common/InternalLink';
+import {InternalLink} from '../../common/InternalLink2';
 import {NewsletterSignupForm} from '../../common/NewsletterSignupForm';
 import {
   BlogPostCardWrapper,
@@ -34,7 +34,7 @@ const posts = [
 
 const BlogPostCard = ({slug, date, title, subtitle, description}) => (
   <BlogPostCardWrapper>
-    <InternalLink href={`/explorables/${slug}`}>
+    <InternalLink to={`/explorables/${slug}`}>
       {title}: {subtitle}
     </InternalLink>
     <BlogPostDate>{date}</BlogPostDate>

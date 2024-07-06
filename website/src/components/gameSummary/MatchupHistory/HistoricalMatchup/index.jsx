@@ -1,13 +1,12 @@
-import {push} from 'connected-react-router';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import React from 'react';
-import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 
 import {FootballShape} from '../../../common/FootballShape';
 import {FootballScoreWrapper, HistoricalMatchupWrapper, Season} from './index.styles';
 
-const HistoricalMatchupInternal = ({
+export const HistoricalMatchup = ({
   gaps,
   score,
   season,
@@ -15,7 +14,6 @@ const HistoricalMatchupInternal = ({
   weekIndex,
   isHomeGame,
   isSelected,
-  navigateTo,
   isSeasonOnTop,
   specialPositions,
 }) => {
@@ -35,52 +33,43 @@ const HistoricalMatchupInternal = ({
   }
 
   const seasonContent = (
-    <Season
-      isSeasonOnTop={isSeasonOnTop}
-      isSelected={isSelected}
-      onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
-    >
-      {_.map(String(season), (digit, i) => (
-        <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
-      ))}
-    </Season>
+    <Link to={`/${season}/${weekIndex + 1}`}>
+      <Season isSeasonOnTop={isSeasonOnTop} isSelected={isSelected}>
+        {_.map(String(season), (digit, i) => (
+          <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
+        ))}
+      </Season>
+    </Link>
   );
 
   return (
     <HistoricalMatchupWrapper result={result} isSeasonOnTop={isSeasonOnTop}>
       {isSeasonOnTop && seasonContent}
       <FootballScoreWrapper>
-        <FootballShape
-          type={result ? 'past' : 'future'}
-          text={text}
-          title={title}
-          result={result}
-          uniqueFillPatternId={`${season}-${weekIndex}`}
-          isSelected={isSelected}
-          isHomeGame={isHomeGame}
-          onClick={() => navigateTo(`/${season}/${weekIndex + 1}`)}
-          legs={
-            isSeasonOnTop
-              ? {
-                  left: specialPositions.first ? false : gaps.left ? 'gap' : true,
-                  right: specialPositions.last ? false : gaps.right ? 'gap' : true,
-                }
-              : undefined
-          }
-        />
+        <Link to={`/${season}/${weekIndex + 1}`}>
+          <FootballShape
+            type={result ? 'past' : 'future'}
+            text={text}
+            title={title}
+            result={result}
+            uniqueFillPatternId={`${season}-${weekIndex}`}
+            isSelected={isSelected}
+            isHomeGame={isHomeGame}
+            legs={
+              isSeasonOnTop
+                ? {
+                    left: specialPositions.first ? false : gaps.left ? 'gap' : true,
+                    right: specialPositions.last ? false : gaps.right ? 'gap' : true,
+                  }
+                : undefined
+            }
+          />
+        </Link>
       </FootballScoreWrapper>
       {!isSeasonOnTop && seasonContent}
     </HistoricalMatchupWrapper>
   );
 };
-
-const mapDispatchToProps = (dispatch) => ({
-  $navigateTo: (path) => {
-    dispatch(push(path));
-  },
-});
-
-export const HistoricalMatchup = connect(null, mapDispatchToProps)(HistoricalMatchupInternal);
 
 HistoricalMatchup.propTypes = {
   gaps: PropTypes.shape({
@@ -95,7 +84,6 @@ HistoricalMatchup.propTypes = {
   season: PropTypes.number.isRequired,
   weekIndex: PropTypes.number.isRequired,
   isHomeGame: PropTypes.bool.isRequired,
-  navigateTo: PropTypes.func.isRequired,
   isSelected: PropTypes.bool.isRequired,
   isSeasonOnTop: PropTypes.bool.isRequired,
   specialPositions: PropTypes.shape({

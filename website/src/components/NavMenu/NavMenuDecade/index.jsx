@@ -36,7 +36,7 @@ export const NavMenuDecade = ({startingYear, selectedYear, onClick}) => {
     }
 
     return (
-      <NavMenuDecadeYear className={yearLinkClasses} href={`/${year}`} key={year} onClick={onClick}>
+      <NavMenuDecadeYear className={yearLinkClasses} to={`/${year}`} key={year} onClick={onClick}>
         {yearEnding}
       </NavMenuDecadeYear>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import {Link} from 'react-router-dom';
 
 import {PerSeasonBarChart} from '../../../charts/PerSeasonBarChart';
 import {Table} from '../../../charts/Table';
@@ -110,7 +111,7 @@ export class ExplorablesS1E2 extends React.Component {
         </Helmet>
 
         <Heading>
-          <a href="/explorables">Explorables</a>
+          <Link href="/explorables">Explorables</Link>
           <p>Season 1, Episode 2</p>
         </Heading>
 

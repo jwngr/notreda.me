@@ -19,6 +19,8 @@ import {Paragraph} from './Paragraph';
 
 import './WinPercentage.css';
 
+import {StyledExternalLink} from './index.styles';
+
 export class WinPercentage extends Component {
   constructor(props) {
     super(props);
@@ -251,9 +253,9 @@ export class WinPercentage extends Component {
         <Paragraph>
           Despite many mediocre &mdash; and some downright awful &mdash; seasons over the past three
           decades, Notre Dame remains a historically great program based on{' '}
-          <a href="https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win-loss_records">
+          <StyledExternalLink href="https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win-loss_records">
             overall win percentage
-          </a>{' '}
+          </StyledExternalLink>{' '}
           . Their 0.7290 historical win percentage is behind only one team, none other than their
           rival Michigan Wolverines, whose win percentage of 0.7291 is better only at the fourth
           decimal place. A win over the Wolverines in this weekend's season opener would allow the

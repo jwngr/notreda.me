@@ -1,11 +1,11 @@
 import _ from 'lodash';
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import {Link} from 'react-router-dom';
 
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
 import {BarChart} from '../../../charts/BarChart';
 import {Table} from '../../../charts/Table';
-import {InternalLink} from '../../../common/InternalLink';
 import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
 import {
   Byline,
@@ -36,7 +36,7 @@ export const ExplorablesS1E1 = () => {
       </Helmet>
 
       <Heading>
-        <a href="/explorables">Explorables</a>
+        <Link to="/explorables">Explorables</Link>
         <p>Season 1, Episode 1</p>
       </Heading>
 
@@ -70,13 +70,13 @@ export const ExplorablesS1E1 = () => {
         as those whose final score is within 8 points or fewer - is largely to blame.
       </Paragraph>
 
-      <InternalLink href="/2016">
+      <Link to="/2016">
         <Image
           src={schedule2016Image}
           alt="Notre Dame Football 2016 season results"
           title="Notre Dame Football 2016 season results"
         />
-      </InternalLink>
+      </Link>
 
       <Caption>
         Notre Dame's 4-8 record in 2016 was due in large part to a 1-7 record in one possession

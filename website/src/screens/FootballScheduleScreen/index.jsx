@@ -44,7 +44,7 @@ export const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu
     <React.Fragment>
       <ScheduleScreenWrapper onClick={closeNavMenuIfOpen}>
         <Header>
-          <PreviousYearLink className={selectedYear === 1887 && 'hidden'} href={`/${previousYear}`}>
+          <PreviousYearLink className={selectedYear === 1887 && 'hidden'} to={`/${previousYear}`}>
             <span>&#x2190;</span>
             <Media query="(min-width: 700px)">
               <React.Fragment>{previousYear}</React.Fragment>
@@ -53,7 +53,7 @@ export const FootballScheduleScreen = ({navMenuOpen, selectedYear, toggleNavMenu
 
           <HeaderTitle>{`Notre Dame Football ${selectedYear}`}</HeaderTitle>
 
-          <NextYearLink className={selectedYear === LATEST_YEAR && 'hidden'} href={`/${nextYear}`}>
+          <NextYearLink className={selectedYear === LATEST_YEAR && 'hidden'} to={`/${nextYear}`}>
             <Media query="(min-width: 700px)">
               <React.Fragment>{nextYear}</React.Fragment>
             </Media>

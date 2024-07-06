@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
-import {InternalLink} from '../common/InternalLink';
+import {InternalLink} from '../common/InternalLink2';
 
 export const Wrapper = styled.div`
   max-width: 740px;
