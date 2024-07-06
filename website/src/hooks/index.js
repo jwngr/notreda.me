@@ -1,3 +1,3 @@
-import useWindowSize from './useWindowSize';
+import {useWindowSize} from './useWindowSize';
 
 export {useWindowSize};

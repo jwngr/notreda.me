@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import {darken} from 'polished';
+import styled from 'styled-components';
 
 export const StatsSectionWrapper = styled.div`
   border: solid 3px ${(props) => props.theme.colors.black};

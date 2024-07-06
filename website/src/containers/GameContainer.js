@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 
-import Game from '../components/Game';
+import {Game} from '../components/Game';
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -8,6 +8,4 @@ const mapStateToProps = (state, ownProps) => {
   };
 };
 
-const GameContainer = connect(mapStateToProps)(Game);
-
-export default GameContainer;
+export const GameContainer = connect(mapStateToProps)(Game);

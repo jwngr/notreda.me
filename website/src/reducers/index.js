@@ -1,15 +1,13 @@
-import _ from 'lodash';
-import subDays from 'date-fns/subDays';
-import isAfter from 'date-fns/isAfter';
-import {combineReducers} from 'redux';
 import {connectRouter} from 'connected-react-router';
+import isAfter from 'date-fns/isAfter';
+import subDays from 'date-fns/subDays';
+import _ from 'lodash';
+import {combineReducers} from 'redux';
 
 import * as actions from '../actions';
-
-import navMenu from './navMenu';
-
+import {CURRENT_SEASON} from '../lib/constants';
 import schedule from '../resources/schedule';
-import {CURRENT_SEASON} from '../lib/constants.js';
+import {navMenu} from './navMenu';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
@@ -102,10 +100,8 @@ const rootReducer = {
   },
 };
 
-const createRootReducer = (history) =>
+export const createRootReducer = (history) =>
   combineReducers({
     router: connectRouter(history),
     ...rootReducer,
   });
-
-export default createRootReducer;

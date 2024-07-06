@@ -1,7 +1,7 @@
 import {darken} from 'polished';
 import styled from 'styled-components';
 
-import SliderRange from '../../../common/SliderRange';
+import {SliderRange} from '../../../common/SliderRange';
 
 export const Legend = styled.div`
   position: absolute;

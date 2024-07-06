@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import TeamLogo from '../../TeamLogo';
+import {TeamLogo} from '../../TeamLogo';
 
 export const FutureGameWrapper = styled.div`
   flex: 1;

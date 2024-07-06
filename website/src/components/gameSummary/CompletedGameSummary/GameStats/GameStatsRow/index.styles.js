@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 import {
-  STATS_SECTION_BREAKPOINTS,
   STATS_HEADER_COLUMN_STYLES,
   STATS_HEADER_SPACER_STYLES,
+  STATS_SECTION_BREAKPOINTS,
 } from '../index.styles';
 
 export const GameStatsRowWrapper = styled.div`

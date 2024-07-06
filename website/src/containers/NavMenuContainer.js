@@ -1,8 +1,7 @@
 import {connect} from 'react-redux';
 
 import {toggleNavMenu} from '../actions';
-
-import NavMenu from '../components/NavMenu';
+import {NavMenu} from '../components/NavMenu';
 
 const mapStateToProps = (state) => {
   return {
@@ -19,6 +18,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-const NavMenuContainer = connect(mapStateToProps, mapDispatchToProps)(NavMenu);
-
-export default NavMenuContainer;
+export const NavMenuContainer = connect(mapStateToProps, mapDispatchToProps)(NavMenu);

@@ -1,10 +1,9 @@
 import _ from 'lodash';
 import {connect} from 'react-redux';
 
-import GameSummary from '../components/gameSummary/GameSummary';
-
-import teams from '../resources/teams';
+import {GameSummary} from '../components/gameSummary/GameSummary';
 import schedule from '../resources/schedule';
+import teams from '../resources/teams';
 
 const mapStateToProps = ({selectedYear, selectedGameIndex}) => {
   const games = schedule[selectedYear];
@@ -22,6 +21,4 @@ const mapStateToProps = ({selectedYear, selectedGameIndex}) => {
   };
 };
 
-const GameSummaryContainer = connect(mapStateToProps)(GameSummary);
-
-export default GameSummaryContainer;
+export const GameSummaryContainer = connect(mapStateToProps)(GameSummary);

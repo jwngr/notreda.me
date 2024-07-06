@@ -1,7 +1,7 @@
 import {darken} from 'polished';
 import styled from 'styled-components';
 
-import InternalLink from '../../common/InternalLink';
+import {InternalLink} from '../../common/InternalLink';
 
 export const NavMenuDecadeWrapper = styled.div`
   flex: 1;

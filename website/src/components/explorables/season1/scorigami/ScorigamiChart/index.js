@@ -2,24 +2,13 @@ import _ from 'lodash';
 import React from 'react';
 
 import scorigamiData from '../data.json';
+import {ScorigamiCell, ScorigamiChartWrapper, ScorigamiRow} from './index.styles';
 
-import {ScorigamiRow, ScorigamiCell, ScorigamiChart} from './index.styles';
-
-const getBackgroundColor = (value) => {
-  switch (value) {
-    case 0:
-      return;
-  }
-  if (value === 0) {
-  } else {
-  }
-};
-
-export default () => {
+export const ScorigamiChart = () => {
   const longestRowLength = _.max(scorigamiData.map((row) => (row ? row.length : 0)));
 
   return (
-    <ScorigamiChart>
+    <ScorigamiChartWrapper>
       {longestRowLength}
       {scorigamiData.map((row) => {
         return (
@@ -35,6 +24,6 @@ export default () => {
           </ScorigamiRow>
         );
       })}
-    </ScorigamiChart>
+    </ScorigamiChartWrapper>
   );
 };

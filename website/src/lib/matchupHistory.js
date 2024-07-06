@@ -54,9 +54,8 @@ export const getFilteredMatchupsAgainstTeam = (
     );
   }
 
-  const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} = getMatchupsAgainstTeam(
-    opponentId
-  );
+  const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} =
+    getMatchupsAgainstTeam(opponentId);
   const allMatchupsAgainstTeam = [...pastMatchupsAgainstTeam, ...futureMatchupsAgainstTeam];
 
   const selectedMatchup = _.find(allMatchupsAgainstTeam, ({season}) => season === selectedSeason);

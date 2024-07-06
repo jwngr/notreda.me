@@ -1,20 +1,19 @@
-import _ from 'lodash';
 import * as d3 from 'd3';
+import _ from 'lodash';
 import React, {Component} from 'react';
 
-import Tooltip from '../charts/Tooltip';
-import LineChart from '../charts/LineChart';
-
 import schedule from '../../resources/schedule';
+import {LineChart} from '../charts/LineChart';
+// import {Tooltip} from '../charts/Tooltip';
 
 import './WinPercentage.css';
 
-class WinPercentage extends Component {
+export class WinPercentage extends Component {
   constructor(props) {
     super(props);
 
     let winCount = 0;
-    let tieCount = 0;
+    // let tieCount = 0;
     let lossCount = 0;
 
     let winPercentageData = [];
@@ -38,7 +37,7 @@ class WinPercentage extends Component {
             lossCount++;
             yearLossCount++;
           } else {
-            tieCount++;
+            // tieCount++;
             yearTieCount++;
           }
 
@@ -185,7 +184,7 @@ class WinPercentage extends Component {
         }
       })
       .on('mouseover', (d, i) => {
-        const tooltipHtml = `<p>${d.year} ${d.opponentId} <br /> ${d.scoreText} <br /> ${d.y}</p>`;
+        // const tooltipHtml = `<p>${d.year} ${d.opponentId} <br /> ${d.scoreText} <br /> ${d.y}</p>`;
 
         clearTimeout(this.unsetTooltipTimeout);
 
@@ -203,7 +202,7 @@ class WinPercentage extends Component {
         //   .style('left', (d3.event.pageX) + 'px')
         //   .style('top', (d3.event.pageY - 28) + 'px');
       })
-      .on('mouseout', (d) => {
+      .on('mouseout', () => {
         // tooltip
         //   .transition()
         //   .duration(500)
@@ -255,7 +254,7 @@ class WinPercentage extends Component {
       .append('circle')
       .attr('class', 'dot')
       .attr('r', 3)
-      .attr('cx', (d, i) => {
+      .attr('cx', (d) => {
         return yearChartX(d.year);
       })
       .attr('cy', (d) => {
@@ -279,7 +278,7 @@ class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .on('mouseover', (d, i) => {
+      .on('mouseover', (d) => {
         clearTimeout(this.unsetYearTooltipTimeout);
 
         d.realX = yearChartX(d.year) + margin.left;
@@ -296,7 +295,7 @@ class WinPercentage extends Component {
         //   .style('left', (d3.event.pageX) + 'px')
         //   .style('top', (d3.event.pageY - 28) + 'px');
       })
-      .on('mouseout', (d) => {
+      .on('mouseout', () => {
         // tooltip
         //   .transition()
         //   .duration(500)
@@ -318,21 +317,21 @@ class WinPercentage extends Component {
   }
 
   render() {
-    const {tooltip, yearTooltip} = this.state;
+    // const {tooltip, yearTooltip} = this.state;
 
-    let tooltipContent;
-    if (tooltip) {
-      const tooltipText = `${tooltip.year} ${tooltip.opponentId}, ${tooltip.scoreText}, ${tooltip.winPercentage}`;
-      tooltipContent = <Tooltip x={tooltip.realX} y={tooltip.realY} text={tooltipText} />;
-    }
+    // let tooltipContent;
+    // if (tooltip) {
+    //   const tooltipText = `${tooltip.year} ${tooltip.opponentId}, ${tooltip.scoreText}, ${tooltip.winPercentage}`;
+    //   // tooltipContent = <Tooltip x={tooltip.realX} y={tooltip.realY} text={tooltipText} />;
+    // }
 
-    let yearTooltipContent;
-    if (yearTooltip) {
-      const yearTooltipText = `${yearTooltip.year}, ${yearTooltip.record}, ${yearTooltip.winPercentage}`;
-      yearTooltipContent = (
-        <Tooltip x={yearTooltip.realX} y={yearTooltip.realY} text={yearTooltipText} />
-      );
-    }
+    // let yearTooltipContent;
+    // if (yearTooltip) {
+    //   const yearTooltipText = `${yearTooltip.year}, ${yearTooltip.record}, ${yearTooltip.winPercentage}`;
+    //   yearTooltipContent = (
+    //     <Tooltip x={yearTooltip.realX} y={yearTooltip.realY} text={yearTooltipText} />
+    //   );
+    // }
 
     return (
       <div>
@@ -354,5 +353,3 @@ class WinPercentage extends Component {
     );
   }
 }
-
-export default WinPercentage;

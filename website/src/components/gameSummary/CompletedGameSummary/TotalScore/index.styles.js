@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import TeamLogo from '../../../TeamLogo';
+import {TeamLogo} from '../../../TeamLogo';
 
 export const TotalScoreWrapper = styled.div`
   width: 100%;

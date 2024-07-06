@@ -1,7 +1,7 @@
-import styled from 'styled-components';
 import {darken, lighten} from 'polished';
+import styled from 'styled-components';
 
-import InternalLink from '../../components/common/InternalLink';
+import {InternalLink} from '../../components/common/InternalLink';
 
 export const ScheduleScreenWrapper = styled.div`
   transition: transform 0.5s;

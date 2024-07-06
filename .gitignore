@@ -5,7 +5,7 @@ node_modules/
 coverage/
 
 # Production
-build/
+dist/
 
 # Configuration files
 config/config.json

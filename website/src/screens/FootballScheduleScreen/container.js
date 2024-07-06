@@ -1,8 +1,7 @@
 import {connect} from 'react-redux';
 
 import {toggleNavMenu} from '../../actions';
-
-import FootballScheduleScreen from './index';
+import {FootballScheduleScreen} from './index';
 
 const mapStateToProps = (state) => {
   return {
@@ -19,4 +18,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(FootballScheduleScreen);
+export const FootballScheduleScreenContainer = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(FootballScheduleScreen);

@@ -2,23 +2,16 @@ import {routerMiddleware} from 'connected-react-router';
 import {createBrowserHistory} from 'history';
 import {applyMiddleware, compose, createStore} from 'redux';
 
-import createRootReducer from './reducers';
+import {createRootReducer} from './reducers';
 
 export const history = createBrowserHistory();
 
-// Middleware.
-const middleware = [];
-if (process.env.NODE_ENV !== 'production') {
-  const {logger} = require('redux-logger');
-  middleware.push(logger);
-}
-
 // Store.
-export default function configureStore(preloadedState) {
+export function configureStore() {
   const store = createStore(
     createRootReducer(history),
-    preloadedState,
-    compose(applyMiddleware(routerMiddleware(history), ...middleware))
+    undefined,
+    compose(applyMiddleware(routerMiddleware(history)))
   );
 
   return store;
