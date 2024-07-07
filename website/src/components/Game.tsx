@@ -1,4 +1,4 @@
-import format from 'date-fns/format';
+import {format} from 'date-fns/format';
 import _ from 'lodash';
 import React from 'react';
 import Media from 'react-media';
