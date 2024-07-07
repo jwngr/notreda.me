@@ -10,40 +10,26 @@ const schedule = scheduleJson as FullSchedule;
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
-export const getYearFromUrl = (url = ''): number => {
-  const tokens = url.split('/').filter((val) => val !== '');
-
-  let year: number | undefined;
-  if (tokens.length > 0 && tokens[0].length === 4) {
-    year = Number(tokens[0]);
-  }
-
-  if (!year || isNaN(year) || !_.has(schedule, year)) {
-    return CURRENT_SEASON;
-  }
-
-  return year;
+export const getSelectedSeasonFromUrlParam = (maybeYearString?: string): number => {
+  if (!maybeYearString || maybeYearString.length !== 4) return CURRENT_SEASON;
+  const year = Number(maybeYearString);
+  return isNaN(year) || !_.has(schedule, year) ? CURRENT_SEASON : year;
 };
 
-export const getSelectedGameIndexFromUrl = (url = ''): number => {
-  const year = getYearFromUrl(url);
-
-  const tokens = url.split('/').filter((val) => val !== '');
-
-  let selectedGameIndex: number | undefined;
-  if (tokens.length > 1) {
-    selectedGameIndex = Number(tokens[1]);
-  }
-
+export const getSelectedGameIndexFromUrlParam = (
+  year: number,
+  maybeWeekString?: string
+): number => {
+  const maybeValidWeek = Number(maybeWeekString);
   // Numeric selected game index is provided.
-  if (selectedGameIndex && !isNaN(selectedGameIndex)) {
-    if (selectedGameIndex <= 0 || selectedGameIndex > schedule[year].length) {
+  if (!isNaN(maybeValidWeek)) {
+    if (maybeValidWeek <= 0 || maybeValidWeek > schedule[year].length) {
       // If the selected game index is invalid for this year, use the default selected game index.
       return DEFAULT_SELECTED_GAME_INDEX;
     } else {
       // Otherwise, subtract one from the selected game index in the URL since they are 1-based, not
       // 0-based.
-      return selectedGameIndex - 1;
+      return maybeValidWeek - 1;
     }
   }
 

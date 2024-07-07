@@ -1,13 +1,13 @@
 import _ from 'lodash';
 import React, {useMemo, useState} from 'react';
 import Media from 'react-media';
-import {Route, Switch, useLocation} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 
 import {Game} from '../../components/Game';
 import {GameSummary} from '../../components/gameSummary/GameSummary';
 import {NavMenu} from '../../components/NavMenu';
 import {LATEST_YEAR} from '../../lib/constants';
-import {getSelectedGameIndexFromUrl, getYearFromUrl} from '../../lib/urls';
+import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../../lib/urls';
 import {FullSchedule} from '../../models';
 import scheduleJson from '../../resources/schedule.json';
 import {
@@ -24,15 +24,23 @@ import {
 const schedule = scheduleJson as FullSchedule;
 
 export const FootballScheduleScreen: React.FC = () => {
-  const location = useLocation();
+  const params = useParams<{
+    readonly selectedYear?: string;
+    readonly selectedGameIndex?: string;
+  }>();
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
 
-  // Initialize the source and target page titles from the URL.
-  const selectedSeason = useMemo(() => getYearFromUrl(location.pathname), [location]);
-  const selectedGameIndex = useMemo(
-    () => getSelectedGameIndexFromUrl(location.pathname),
-    [location]
-  );
+  // Get the selected season and game index from the URL.
+  const {selectedSeason, selectedGameIndex} = useMemo(() => {
+    const selectedSeasonInner = getSelectedSeasonFromUrlParam(params.selectedYear);
+    return {
+      selectedSeason: selectedSeasonInner,
+      selectedGameIndex: getSelectedGameIndexFromUrlParam(
+        selectedSeasonInner,
+        params.selectedGameIndex
+      ),
+    };
+  }, [params.selectedYear, params.selectedGameIndex]);
 
   const gamesContent = _.map(schedule[selectedSeason], (game, index) => {
     return (
@@ -84,19 +92,16 @@ export const FootballScheduleScreen: React.FC = () => {
 
         <ScheduleWrapper>
           <Media query="(max-width: 950px)">
-            {(matches) =>
-              matches ? (
-                <Switch>
-                  <Route path="/:year/:selectedGameIndex">
-                    <GameSummary
-                      selectedSeason={selectedSeason}
-                      selectedGameIndex={selectedGameIndex}
-                    />
-                  </Route>
-                  <Route path="/">
-                    <GamesWrapper>{gamesContent}</GamesWrapper>
-                  </Route>
-                </Switch>
+            {(isSmallerScreen) =>
+              isSmallerScreen ? (
+                params.selectedGameIndex ? (
+                  <GameSummary
+                    selectedSeason={selectedSeason}
+                    selectedGameIndex={selectedGameIndex}
+                  />
+                ) : (
+                  <GamesWrapper>{gamesContent}</GamesWrapper>
+                )
               ) : (
                 <>
                   <GamesWrapper>{gamesContent}</GamesWrapper>
