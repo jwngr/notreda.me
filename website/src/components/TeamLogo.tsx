@@ -1,17 +1,22 @@
 import React from 'react';
 
 import defaultLogo from '../images/defaultTeamLogo.png';
-import {Team} from '../models';
+import {Team, TeamId} from '../models';
+import teamsJson from '../resources/teams.json';
 
 const teamLogos = import.meta.glob('../images/teamLogos/*.png', {eager: true});
 
+const teams = teamsJson as Record<TeamId, Team>;
+
 export const TeamLogo: React.FC<{
-  readonly team: Team;
-  readonly className: string;
-}> = ({team, className}) => {
+  readonly teamId: TeamId;
+  readonly className?: string;
+}> = ({teamId, className}) => {
+  const team = teams[teamId];
+
   // TODO: Is there a less hacky way to do this? I don't want to have to import / load all images.
-  const logoModule = teamLogos[`../images/teamLogos/${team.abbreviation}.png`] as {default: string};
+  const logoModule = teamLogos[`../images/teamLogos/${teamId}.png`] as {default: string};
   const logo = logoModule ? logoModule.default : defaultLogo;
 
-  return <img className={className} src={logo} alt={`${team.name} logo`} />;
+  return <img key={teamId} className={className} src={logo} alt={`${team.name} logo`} />;
 };

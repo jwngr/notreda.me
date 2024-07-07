@@ -12,7 +12,7 @@ export const TooltipWrapper = styled.div`
   font-size: 16px;
   font-family: 'Inter UI';
   background-image: url(${backgroundImage});
-  background-color: ${(props) => props.theme.colors.lightGray}40;
-  border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
-  color: ${(props) => props.theme.colors.green};
+  background-color: ${({theme}) => theme.colors.lightGray}40;
+  border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
+  color: ${({theme}) => theme.colors.green};
 `;

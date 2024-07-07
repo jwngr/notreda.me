@@ -14,10 +14,11 @@ import peacockLogo from '../images/tvLogos/peacock.png';
 import tbsLogo from '../images/tvLogos/tbs.png';
 import unknownNetworkLogo from '../images/tvLogos/unknown.png';
 import usaLogo from '../images/tvLogos/usa.png';
+import {assertNever} from '../lib/utils';
 import {TVNetwork} from '../models';
 
 function getTvNetworkLogo(network: TVNetwork) {
-  switch (network.toUpperCase()) {
+  switch (network) {
     case TVNetwork.ABC:
       return abcLogo;
     case TVNetwork.ACCN:
@@ -44,11 +45,13 @@ function getTvNetworkLogo(network: TVNetwork) {
       return tbsLogo;
     case TVNetwork.USA:
       return usaLogo;
-    default:
+    case TVNetwork.Unknown:
       return unknownNetworkLogo;
+    default:
+      assertNever(network);
   }
 }
 
 export const TVNetworkLogo: React.FC<{readonly network: TVNetwork}> = ({network}) => {
-  return <img src={getTvNetworkLogo(network)} alt={`${network} logo`} />;
+  return <img key={network} src={getTvNetworkLogo(network)} alt={`${network} logo`} />;
 };

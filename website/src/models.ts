@@ -1,18 +1,88 @@
+export interface GameScore {
+  readonly home: number;
+  readonly away: number;
+}
+
+export interface GameLinescore {
+  readonly home: number[];
+  readonly away: number[];
+}
+
 export enum GameResult {
   Win = 'W',
   Loss = 'L',
   Tie = 'T',
 }
 
-interface GameStats {
-  // TODO: Improve this type.
-  readonly away: Record<string, number | string>;
-  readonly home: Record<string, number | string>;
+export interface FullSchedule {
+  [year: string]: GameInfo[];
+}
+
+interface TeamStats {
+  readonly firstDowns: number;
+  readonly thirdDownAttempts: number;
+  readonly thirdDownConversions: number;
+  readonly fourthDownAttempts: number;
+  readonly fourthDownConversions: number;
+  readonly totalYards: number;
+  readonly passYards: number;
+  readonly passCompletions: number;
+  readonly passAttempts: number;
+  readonly yardsPerPass: number;
+  readonly interceptionsThrown: number;
+  readonly rushYards: number;
+  readonly rushAttempts: number;
+  readonly yardsPerRush: number;
+  readonly penalties: number;
+  readonly penaltyYards: number;
+  readonly possession: string;
+  /** How many times the ball was fumbled, including lost and recovered fumbles. This is not available for some historical games. */
+  readonly fumbles?: number;
+  /** How many times the ball was fumbled and lost. */
+  readonly fumblesLost: number;
+}
+
+export interface GameStats {
+  readonly away: TeamStats;
+  readonly home: TeamStats;
 }
 
 interface GameWeather {
   readonly temperature: number;
   readonly icon: string;
+}
+
+interface TeamRecords {
+  readonly overall: string;
+  readonly home: string;
+  readonly away: string;
+  readonly neutral?: string;
+}
+
+interface GameRecords {
+  readonly home: TeamRecords;
+  readonly away: TeamRecords;
+}
+
+interface TeamRankings {
+  readonly ap?: number;
+  readonly coaches?: number;
+  readonly cfbPlayoff?: number;
+}
+
+interface GameRankings {
+  // Either team may be unranked.
+  readonly home?: TeamRankings;
+  readonly away?: TeamRankings;
+}
+
+// TODO: Introduce a `LocationId` enum.
+interface GameLocation {
+  readonly city: string;
+  readonly state?: string;
+  readonly country?: string;
+  readonly stadium?: string;
+  readonly coordinates: number[];
 }
 
 export interface GameInfo {
@@ -28,45 +98,41 @@ export interface GameInfo {
   readonly isHomeGame: boolean;
   /** True if the game was played on a neutral field rather than either team's home field. */
   readonly isNeutralSiteGame?: boolean;
+  /** True if the game is a playoff / bowl game. */
+  readonly isBowlGame?: boolean;
   /** True if this was a game in the Shamrock Series. */
-  readonly isShamrockSeries: boolean;
+  readonly isShamrockSeries?: boolean;
+  /** True if the game was canceled. */
+  readonly isCanceled?: boolean;
+  /** True if the game was postponed. */
+  readonly isPostponed?: boolean;
 
   // Handle dates which are in the past or future and which may not have a time nor date.
-  // TODO: Unify `date` and `fullDate` between past and future .
-  readonly date: string;
+  // TODO: Unify `date` and `fullDate` between past and future games.
+  // TODO: Find a better way to represent 'TBD' dates.
+  readonly date?: string | 'TBD';
   readonly fullDate?: string;
 
   /** Which network broadcasted the game. */
-  readonly coverage?: TVNetwork;
+  readonly coverage?: TVNetwork | 'TBD';
+
+  /** The YouTube video ID for the game highlights. */
+  readonly highlightsYouTubeVideoId?: string;
 
   /** Stadium location information. */
-  // TODO: Introduce a `Location` enum.
-  readonly location: {
-    readonly city: string;
-    readonly state: string;
-    readonly stadium: string;
-    readonly coordinates: [number, number];
-  };
-  readonly score: {
-    readonly away: number;
-    readonly home: number;
-  };
-  readonly linescore: {
-    readonly away: number[];
-    readonly home: number[];
-  };
+  readonly location: GameLocation | 'TBD';
+
+  readonly numOvertimes?: number;
+
+  readonly score?: GameScore;
+  readonly linescore?: GameLinescore;
   readonly stats?: GameStats;
   readonly weather?: GameWeather;
-  readonly rankings?: {
-    readonly home: Record<string, number>;
-    readonly away: Record<string, number>;
-  };
+  readonly records?: GameRecords;
+  readonly rankings?: GameRankings;
 
   // TODO: Introduce a `HeadCoach` enum.
-  readonly headCoach: string;
-
-  /** True if the game is a playoff / bowl game. */
-  readonly isBowlGame?: boolean;
+  readonly headCoach?: string;
 
   /** A nickname for the game, if one exists (e.g. "CFP Final"). */
   readonly nickname?: string;
@@ -86,15 +152,15 @@ export enum TVNetwork {
   Peacock = 'PEACOCK',
   TBS = 'TBS',
   USA = 'USA',
+  Unknown = 'UNKNOWN',
 }
 
 export interface Team {
-  readonly abbreviation: TeamId;
   readonly name: string;
   readonly shortName?: string;
-  readonly nickname: string;
+  readonly nickname?: string;
   readonly color?: string;
-  readonly espnId?: string;
+  readonly espnId?: number;
 }
 
 export enum TeamId {
@@ -150,12 +216,11 @@ export enum TeamId {
   KAL = 'KAL',
   KNOX = 'KNOX',
   KU = 'KU',
+  LAK = 'LAK',
   LIL = 'LIL',
   LLA = 'LLA',
-  LAK = 'LAK',
   LOU = 'LOU',
   LSU = 'LSU',
-  MOH = 'MOH',
   MARQ = 'MARQ',
   MD = 'MD',
   MIAMI = 'MIAMI',
@@ -163,6 +228,7 @@ export enum TeamId {
   MINN = 'MINN',
   MISS = 'MISS',
   MIZ = 'MIZ',
+  MOH = 'MOH',
   MORN = 'MORN',
   MORR = 'MORR',
   MRSH = 'MRSH',
@@ -174,8 +240,8 @@ export enum TeamId {
   NEB = 'NEB',
   NEV = 'NEV',
   NIU = 'NIU',
-  NWL = 'NW_L',
   NW = 'NW',
+  NWL = 'NWL',
   OKLA = 'OKLA',
   OKST = 'OKST',
   OLIV = 'OLIV',

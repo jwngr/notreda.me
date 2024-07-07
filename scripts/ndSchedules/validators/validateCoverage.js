@@ -16,7 +16,7 @@ const EXPECTED_TV_CHANNELS = [
   'KATZ',
   'NBC',
   'NBCSN',
-  'Peacock',
+  'PEACOCK',
   'RAYCOM / WGN',
   'SPORTSCHANNEL',
   'TBS',
