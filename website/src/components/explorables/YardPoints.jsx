@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import {findDOMNode} from 'react-dom';
 import TweetEmbed from 'react-tweet-embed';
 
-import schedule from '../../resources/schedule';
+import schedule from '../../resources/schedule.json';
 import {Tooltip} from '../charts/Tooltip';
 import {Note} from './Note';
 import {Paragraph} from './Paragraph';

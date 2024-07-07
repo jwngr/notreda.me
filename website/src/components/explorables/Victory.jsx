@@ -9,7 +9,7 @@ import {
   VictoryVoronoiContainer,
 } from 'victory';
 
-import schedule from '../../resources/schedule';
+import schedule from '../../resources/schedule.json';
 
 import './Victory.css';
 

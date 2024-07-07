@@ -1,4 +1,4 @@
-import theme from './resources/theme';
+import theme from './resources/theme.json';
 
 // TODO: Move this file into ./lib.
 

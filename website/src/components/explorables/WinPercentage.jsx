@@ -12,7 +12,7 @@ import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioSta
 // import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
 // import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
 // import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
-import schedule from '../../resources/schedule';
+import schedule from '../../resources/schedule.json';
 import {LineChart} from '../charts/LineChart';
 import {Note} from './Note';
 import {Paragraph} from './Paragraph';

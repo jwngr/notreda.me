@@ -2,8 +2,8 @@ import clone from 'lodash/clone';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import schedule from '../../resources/schedule';
-import teams from '../../resources/teams';
+import schedule from '../../resources/schedule.json';
+import teams from '../../resources/teams.json';
 import {CompletedGameSummary} from './CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
 

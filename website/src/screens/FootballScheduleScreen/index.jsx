@@ -8,8 +8,8 @@ import {GameSummary} from '../../components/gameSummary/GameSummary';
 import {NavMenu} from '../../components/NavMenu';
 import {LATEST_YEAR} from '../../lib/constants';
 import {getSelectedGameIndexFromUrl, getYearFromUrl} from '../../reducers';
-import schedule from '../../resources/schedule';
-import teams from '../../resources/teams';
+import schedule from '../../resources/schedule.json';
+import teams from '../../resources/teams.json';
 import {
   GamesWrapper,
   Header,

@@ -3,7 +3,7 @@ import subDays from 'date-fns/subDays';
 import _ from 'lodash';
 
 import {CURRENT_SEASON} from '../lib/constants';
-import schedule from '../resources/schedule';
+import schedule from '../resources/schedule.json';
 
 // TODO: Move to better file.
 

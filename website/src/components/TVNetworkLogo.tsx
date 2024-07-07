@@ -17,7 +17,7 @@ import usaLogo from '../images/tvLogos/usa.png';
 import {TVNetwork} from '../models';
 
 function getTvNetworkLogo(network: TVNetwork) {
-  switch (network.toLowerCase()) {
+  switch (network.toUpperCase()) {
     case TVNetwork.ABC:
       return abcLogo;
     case TVNetwork.ACCN:

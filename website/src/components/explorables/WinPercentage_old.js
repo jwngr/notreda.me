@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import _ from 'lodash';
 import React, {Component} from 'react';
 
-import schedule from '../../resources/schedule';
+import schedule from '../../resources/schedule.json';
 import {LineChart} from '../charts/LineChart';
 // import {Tooltip} from '../charts/Tooltip';
 

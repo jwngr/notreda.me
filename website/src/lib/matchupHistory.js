@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import schedule from '../resources/schedule';
+import schedule from '../resources/schedule.json';
 import {CURRENT_SEASON} from './constants';
 
 /**

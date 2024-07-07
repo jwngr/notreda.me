@@ -15,7 +15,7 @@ import {
   TotalScoreWrapper,
 } from './index.styles';
 
-const Team = ({team, ranking, record, homeOrAway}) => {
+const TeamInfo = ({team, ranking, record, homeOrAway}) => {
   return (
     <TeamWrapper className={homeOrAway}>
       <TeamImage team={team} className={homeOrAway} />
@@ -31,7 +31,7 @@ const Team = ({team, ranking, record, homeOrAway}) => {
   );
 };
 
-Team.propTypes = {
+TeamInfo.propTypes = {
   team: PropTypes.object.isRequired,
   ranking: PropTypes.number,
   homeOrAway: PropTypes.string.isRequired,
@@ -97,11 +97,21 @@ export const TotalScore = ({game, homeTeam, awayTeam}) => {
           </TotalScoreWrapper>
         ) : (
           <TotalScoreWrapper>
-            <Team team={awayTeam} ranking={awayApRanking} record={awayRecord} homeOrAway="away" />
+            <TeamInfo
+              team={awayTeam}
+              ranking={awayApRanking}
+              record={awayRecord}
+              homeOrAway="away"
+            />
             <Score>
               {game.score.away} - {game.score.home}
             </Score>
-            <Team team={homeTeam} ranking={homeApRanking} record={homeRecord} homeOrAway="home" />
+            <TeamInfo
+              team={homeTeam}
+              ranking={homeApRanking}
+              record={homeRecord}
+              homeOrAway="home"
+            />
           </TotalScoreWrapper>
         )
       }
