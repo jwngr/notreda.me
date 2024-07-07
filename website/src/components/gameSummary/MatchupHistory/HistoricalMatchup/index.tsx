@@ -61,7 +61,7 @@ export const HistoricalMatchup: React.FC<{
 
   return (
     <HistoricalMatchupWrapper isSeasonOnTop={isSeasonOnTop}>
-      {isSeasonOnTop && seasonContent}
+      {isSeasonOnTop ? seasonContent : null}
       <FootballScoreWrapper>
         <Link to={`/${season}/${weekIndex + 1}`}>
           <FootballShape
@@ -83,7 +83,7 @@ export const HistoricalMatchup: React.FC<{
           />
         </Link>
       </FootballScoreWrapper>
-      {!isSeasonOnTop && seasonContent}
+      {!isSeasonOnTop ? seasonContent : null}
     </HistoricalMatchupWrapper>
   );
 };

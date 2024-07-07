@@ -10,9 +10,9 @@ import {CanceledText, ChannelLogo, CoverageInnerWrapper, DateAndTimeWrapper} fro
 export const GameCoverage: React.FC<{
   readonly game: GameInfo;
 }> = ({game}) => {
-  const isGameOver = typeof game.result !== 'undefined';
+  const isGameOver = !!game.result;
 
-  let mainContent;
+  let mainContent: React.ReactNode;
   if (game.date === 'TBD') {
     mainContent = <p>Date and time to be determined</p>;
   } else if (game.isCanceled) {
@@ -20,8 +20,8 @@ export const GameCoverage: React.FC<{
   } else if (game.isPostponed) {
     mainContent = <p>Postponed</p>;
   } else {
-    let date;
-    let time;
+    let date: string;
+    let time: string | null;
     const dateFormatString = 'E, MMMM d, yyyy';
     if (game.fullDate) {
       const d = new Date(game.fullDate);
@@ -29,11 +29,9 @@ export const GameCoverage: React.FC<{
       time = `${format(d, 'h:mm a')} ${getTimeZoneString(d)}`;
     } else if (game.date) {
       // TODO(cleanup): Convert all dates to fullDate and be done with this nonesense.
-      // No year that is in this format has any time information, so we can ignore the time here.
       date = format(new Date(game.date), dateFormatString);
-      if (!game.result) {
-        time = 'Time to be determined';
-      }
+      // No year that is in this format has any time information, so we can ignore the time here.
+      time = game.result ? null : 'Time to be determined';
     } else {
       date = 'No date';
       time = 'No time';
@@ -73,16 +71,16 @@ export const GameCoverage: React.FC<{
     mainContent = (
       <>
         {tvCoverageContent}
-        <DateAndTimeWrapper center={typeof tvCoverageContent === 'undefined'}>
+        <DateAndTimeWrapper center={!!tvCoverageContent}>
           <p>{date}</p>
-          {time && <p>{time}</p>}
+          {time ? <p>{time}</p> : null}
         </DateAndTimeWrapper>
       </>
     );
   }
 
   return (
-    <StatsSection title={game.coverage || typeof game.result === 'undefined' ? 'Coverage' : 'Date'}>
+    <StatsSection title={game.coverage || !game.result ? 'Coverage' : 'Date'}>
       <CoverageInnerWrapper>{mainContent}</CoverageInnerWrapper>
     </StatsSection>
   );

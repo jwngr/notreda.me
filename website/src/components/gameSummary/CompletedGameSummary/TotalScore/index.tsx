@@ -29,11 +29,11 @@ const TeamInfo: React.FC<{
       <TeamImage teamId={teamId} className={homeOrAway} />
       <TeamDetailsWrapper className={homeOrAway}>
         <TeamName>
-          {ranking && <TeamRanking>#{ranking}</TeamRanking>}
+          {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
           {team.name}
         </TeamName>
         <TeamNickname>{team.nickname}</TeamNickname>
-        {record && <TeamRecord>{record}</TeamRecord>}
+        {record ? <TeamRecord>{record}</TeamRecord> : null}
       </TeamDetailsWrapper>
     </TeamWrapper>
   );
@@ -85,19 +85,19 @@ export const TotalScore: React.FC<{
           <TotalScoreWrapper>
             <TeamDetailsWrapper className="away">
               <TeamName>
-                {awayApRanking && <TeamRanking>#{awayApRanking}</TeamRanking>}
+                {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
                 {awayTeam.name}
               </TeamName>
               <TeamNickname>{awayTeam.nickname}</TeamNickname>
-              {awayRecord && <TeamRecord>{awayRecord}</TeamRecord>}
+              {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
             </TeamDetailsWrapper>
             <TeamDetailsWrapper className="home">
               <TeamName>
-                {homeApRanking && <TeamRanking>#{homeApRanking}</TeamRanking>}
+                {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
                 {homeTeam.name}
               </TeamName>
               <TeamNickname>{homeTeam.nickname}</TeamNickname>
-              {homeRecord && <TeamRecord>{homeRecord}</TeamRecord>}
+              {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
             </TeamDetailsWrapper>
             <TeamImage className="away" teamId={awayTeamId} />
             <TeamImage className="home" teamId={homeTeamId} />
