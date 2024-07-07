@@ -85,7 +85,7 @@ export const Game = ({game, year, index, isSelected}) => {
     lastColumnContent = (
       <TelevisionCoverage channel={game.coverage && game.coverage.toLowerCase()}>
         <p>{time}</p>
-        {game.coverage && game.coverage !== 'TBD' && <TVNetworkLogo coverage={game.coverage} />}
+        {game.coverage && game.coverage !== 'TBD' && <TVNetworkLogo network={game.coverage} />}
       </TelevisionCoverage>
     );
   } else {

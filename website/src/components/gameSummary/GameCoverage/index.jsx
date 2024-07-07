@@ -51,7 +51,7 @@ export const GameCoverage = ({game}) => {
         // games.
         const channelLogo = (
           <ChannelLogo>
-            <TVNetworkLogo coverage={game.coverage} />
+            <TVNetworkLogo network={game.coverage} />
           </ChannelLogo>
         );
         const channelUrl = getTvChannelUrl(game.coverage);

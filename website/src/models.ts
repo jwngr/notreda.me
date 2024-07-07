@@ -1,0 +1,15 @@
+export enum TVNetwork {
+  ABC = 'ABC',
+  ACCN = 'ACCN',
+  CBS = 'CBS',
+  CBSSN = 'CBSSN',
+  CSTV = 'CSTV',
+  ESPN = 'ESPN',
+  ESPN2 = 'ESPN2',
+  FOX = 'FOX',
+  NBC = 'NBC',
+  NBCSN = 'NBCSN',
+  Peacock = 'PEACOCK',
+  TBS = 'TBS',
+  USA = 'USA',
+}

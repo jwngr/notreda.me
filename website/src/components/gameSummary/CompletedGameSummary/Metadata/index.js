@@ -28,7 +28,7 @@ export const Metadata = ({game}) => {
   let tvCoverageContent;
   if (game.coverage && game.coverage !== 'TBD') {
     try {
-      tvCoverageContent = <TVNetworkLogo coverage={game.coverage} />;
+      tvCoverageContent = <TVNetworkLogo network={game.coverage} />;
     } catch (error) {
       tvCoverageContent = <p>{game.coverage}</p>;
     }
