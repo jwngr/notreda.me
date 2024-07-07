@@ -76,12 +76,12 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
       const {icon, text} = weatherInfo;
       weatherContent = (
         <WeatherWrapper>
-          {icon && (
+          {icon ? (
             <WeatherIcon
               className={`wi ${icon}`}
               title={`Weather forecast at kickoff: ${text}`}
             ></WeatherIcon>
-          )}
+          ) : null}
           <Temperature isWeatherIconPresent={!!icon}>{game.weather.temperature}&deg;F</Temperature>
         </WeatherWrapper>
       );

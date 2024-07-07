@@ -77,9 +77,9 @@ export const Linescore: React.FC<{
         <p style={awayTeamColorStyles}>{totalScores.away}</p>
         <p style={homeTeamColorStyles}>{totalScores.home}</p>
       </ScoreColumn>
-      {highlightsYouTubeVideoId && (
+      {highlightsYouTubeVideoId ? (
         <YouTubeIcon title="Video highlights" highlightsYouTubeVideoId={highlightsYouTubeVideoId} />
-      )}
+      ) : null}
     </LinescoreWrapper>
   );
 };

@@ -13,7 +13,7 @@ const DEFAULT_SELECTED_GAME_INDEX = 0;
 export const getYearFromUrl = (url = ''): number => {
   const tokens = url.split('/').filter((val) => val !== '');
 
-  let year;
+  let year: number | undefined;
   if (tokens.length > 0 && tokens[0].length === 4) {
     year = Number(tokens[0]);
   }
@@ -30,7 +30,7 @@ export const getSelectedGameIndexFromUrl = (url = ''): number => {
 
   const tokens = url.split('/').filter((val) => val !== '');
 
-  let selectedGameIndex;
+  let selectedGameIndex: number | undefined;
   if (tokens.length > 1) {
     selectedGameIndex = Number(tokens[1]);
   }
