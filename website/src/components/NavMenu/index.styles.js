@@ -11,7 +11,9 @@ export const NavMenuWrapper = styled.div`
   right: 0;
   visibility: hidden;
   transform: translateX(600px);
-  transition: transform 0.5s, visibility 0s 0.5s;
+  transition:
+    transform 0.5s,
+    visibility 0s 0.5s;
   overflow: scroll;
   z-index: 10;
   padding: 0 0 12px 12px;

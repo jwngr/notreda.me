@@ -1,11 +1,11 @@
-import {useState, useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 const _getWindowSize = () => ({
   width: window.innerWidth,
   height: window.innerHeight,
 });
 
-export default () => {
+export function useWindowSize() {
   const [windowSize, setWindowSize] = useState(_getWindowSize);
 
   useEffect(() => {
@@ -19,4 +19,4 @@ export default () => {
   }, []); // Empty array ensures that effect is only run on mount and unmount
 
   return windowSize;
-};
+}

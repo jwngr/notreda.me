@@ -26,31 +26,33 @@ export const DateAndTimeWrapper = styled.div`
   justify-content: center;
 `;
 
-export const ChannelLogo = styled.img`
-  width: ${({channel}) => {
-    switch (channel) {
-      case 'cbssn':
-      case 'cstv':
-      case 'espn2':
-      case 'peacock':
-        return '80px';
-      case 'accn':
-        return '72px';
-      case 'espn':
-        return '60px';
-      case 'nbcsn':
-      case 'usa':
-        return '44px';
-      case 'fox':
-      case 'unknown':
-        return '40px';
-      case 'tbs':
-        return '28px';
-      default:
-        return '32px';
-    }
-  }};
-  margin-right: 16px;
+export const ChannelLogo = styled.div`
+  img {
+    width: ${({channel}) => {
+      switch (channel) {
+        case 'cbssn':
+        case 'cstv':
+        case 'espn2':
+        case 'peacock':
+          return '80px';
+        case 'accn':
+          return '72px';
+        case 'espn':
+          return '60px';
+        case 'nbcsn':
+        case 'usa':
+          return '44px';
+        case 'fox':
+        case 'unknown':
+          return '40px';
+        case 'tbs':
+          return '28px';
+        default:
+          return '32px';
+      }
+    }};
+    margin-right: 16px;
+  }
 `;
 
 export const ChannelName = styled.p`

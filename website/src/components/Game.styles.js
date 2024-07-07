@@ -1,8 +1,8 @@
 import {darken} from 'polished';
-import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
-import TeamLogo from './TeamLogo';
+import {TeamLogo} from './TeamLogo';
 
 const GameWrapper = styled(Link)`
   height: 52px;

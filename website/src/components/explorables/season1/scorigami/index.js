@@ -1,31 +1,22 @@
-import _ from 'lodash';
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
-import ScorigamiChart from './ScorigamiChart';
-import NewsletterSignupForm from '../../../common/NewsletterSignupForm';
-
+import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
 import {
-  P,
-  Stat,
-  Image,
-  Title,
   Byline,
-  Caption,
-  Heading,
   Divider,
-  Wrapper,
-  Subtitle,
-  StatsWrapper,
-  SectionTitle,
+  Heading,
+  Paragraph,
   StyledExternalLink,
+  Subtitle,
+  Title,
+  Wrapper,
 } from '../../index.styles';
-
-import data from './data.json';
+import {ScorigamiChart} from './ScorigamiChart';
 
 const title = 'Scorigami';
 
-export default () => {
+export const Scorigami = () => {
   return (
     <Wrapper>
       <Helmet>
@@ -46,7 +37,7 @@ export default () => {
         <StyledExternalLink href="https://jwn.gr">Jacob Wenger</StyledExternalLink>
       </Byline>
 
-      <P>Scorigami chart:</P>
+      <Paragraph>Scorigami chart:</Paragraph>
 
       <ScorigamiChart />
 

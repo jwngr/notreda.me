@@ -1,7 +1,7 @@
 import {darken} from 'polished';
 import styled from 'styled-components';
 
-export const ScorigamiChart = styled.div`
+export const ScorigamiChartWrapper = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 740px;

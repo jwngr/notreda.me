@@ -1,17 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import format from 'date-fns/format';
+import PropTypes from 'prop-types';
+import React from 'react';
 
+import {TVNetworkLogo} from '../../../TVNetworkLogo';
 import {
-  MetadataDate,
-  MetadataWrapper,
   MetadataContent,
   MetadataCoverage,
-  MetadataLocation,
+  MetadataDate,
   MetadataDateContainer,
+  MetadataLocation,
+  MetadataWrapper,
 } from './index.styles';
 
-const Metadata = ({game}) => {
+export const Metadata = ({game}) => {
   let date;
   let time;
   if ('fullDate' in game) {
@@ -27,12 +28,7 @@ const Metadata = ({game}) => {
   let tvCoverageContent;
   if (game.coverage && game.coverage !== 'TBD') {
     try {
-      tvCoverageContent = (
-        <img
-          alt={`${game.coverage} logo`}
-          src={require(`../../../../images/tvLogos/${game.coverage.toLowerCase()}.png`)}
-        />
-      );
+      tvCoverageContent = <TVNetworkLogo network={game.coverage} />;
     } catch (error) {
       tvCoverageContent = <p>{game.coverage}</p>;
     }
@@ -85,5 +81,3 @@ const Metadata = ({game}) => {
 Metadata.propTypes = {
   game: PropTypes.object.isRequired,
 };
-
-export default Metadata;

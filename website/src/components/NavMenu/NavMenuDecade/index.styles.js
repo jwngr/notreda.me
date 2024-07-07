@@ -1,7 +1,6 @@
 import {darken} from 'polished';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
-
-import InternalLink from '../../common/InternalLink';
 
 export const NavMenuDecadeWrapper = styled.div`
   flex: 1;
@@ -63,7 +62,7 @@ export const NavMenuDecadeYearsWrapper = styled.div`
   margin-top: 4px;
 `;
 
-export const NavMenuDecadeYear = styled(InternalLink)`
+export const NavMenuDecadeYear = styled(Link)`
   width: 36px;
   height: 36px;
   display: flex;

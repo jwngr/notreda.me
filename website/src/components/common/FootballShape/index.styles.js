@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import styled from 'styled-components';
 import {darken} from 'polished';
+import styled from 'styled-components';
 
 import {getColorForResult} from '../../../utils';
 
@@ -41,7 +41,7 @@ export const FootballShapeSvg = styled.svg`
 
   .pattern {
     rect {
-      fill: ${({type, theme, result}) => {
+      fill: ${({type, result}) => {
         if (type === 'past') {
           return _isGameCompeleted(result) ? getColorForResult(result) : 'black';
         } else {
@@ -51,7 +51,7 @@ export const FootballShapeSvg = styled.svg`
     }
 
     line {
-      stroke: ${({type, theme, result, isHomeGame}) => {
+      stroke: ${({theme, result, isHomeGame}) => {
         if (isHomeGame) {
           return 'transparent';
         }
@@ -69,7 +69,7 @@ export const Text = styled.p`
   cursor: pointer;
   position: absolute;
   top: calc(50% - 10px);
-  color: ${({type, theme, result, isSelected}) => {
+  color: ${({theme, result, isSelected}) => {
     if (isSelected) {
       return result === 'T' ? darken(0.2, theme.colors.gold) : theme.colors.gold;
     } else {
