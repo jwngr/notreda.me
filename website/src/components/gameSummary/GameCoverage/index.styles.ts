@@ -59,6 +59,13 @@ export const ChannelLogo = styled.div<ChannelLogoProps>`
         case TVNetwork.USA:
           return '44px';
         case TVNetwork.FOX:
+        case TVNetwork.KATZ:
+        case TVNetwork.SPORTSCHANNEL:
+        case TVNetwork.WGN_TV:
+        case TVNetwork.ABC_ESPN:
+        case TVNetwork.ABC_ESPN2:
+        case TVNetwork.RAYCOM_WGN:
+        case TVNetwork.USA_WGN_TV:
         case TVNetwork.Unknown:
           return '40px';
         case TVNetwork.TBS:

@@ -147,12 +147,21 @@ export enum TVNetwork {
   ESPN = 'ESPN',
   ESPN2 = 'ESPN2',
   FOX = 'FOX',
+  KATZ = 'KATZ',
   NBC = 'NBC',
   NBCSN = 'NBCSN',
   Peacock = 'PEACOCK',
   TBS = 'TBS',
   USA = 'USA',
+  SPORTSCHANNEL = 'SPORTSCHANNEL',
+  WGN_TV = 'WGN-TV',
+  // TODO: Consider removing this type and using `null` instead.
   Unknown = 'UNKNOWN',
+  // TODO: Handle multi-network broadcasts explicitly in the data model as an array of networks.
+  ABC_ESPN = 'ABC / ESPN',
+  ABC_ESPN2 = 'ABC / ESPN2',
+  RAYCOM_WGN = 'RAYCOM / WGN-TV',
+  USA_WGN_TV = 'USA / WGN-TV',
 }
 
 export interface Team {

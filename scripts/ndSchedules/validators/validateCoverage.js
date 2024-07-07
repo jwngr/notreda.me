@@ -4,8 +4,6 @@ const {CURRENT_SEASON} = require('../../lib/constants');
 
 const EXPECTED_TV_CHANNELS = [
   'ABC',
-  'ABC / ESPN',
-  'ABC / ESPN2',
   'ACCN',
   'CBS',
   'CBSSN',
@@ -17,13 +15,16 @@ const EXPECTED_TV_CHANNELS = [
   'NBC',
   'NBCSN',
   'PEACOCK',
-  'RAYCOM / WGN',
   'SPORTSCHANNEL',
   'TBS',
   'USA',
-  'USA / WGN-TV',
   'WGN-TV',
-];
+  // TODO: Handle multi-network broadcasts explicitly in the data model as an array of networks.
+  'ABC / ESPN',
+  'ABC / ESPN2',
+  'RAYCOM / WGN-TV',
+  'USA / WGN-TV',
+]; 
 
 module.exports = ({season, coverage}, assert) => {
   const wrappedAssert = (statement, message) => {

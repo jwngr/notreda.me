@@ -263,9 +263,16 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
         case TVNetwork.Peacock:
           return '48px';
         case TVNetwork.ABC:
-        case TVNetwork.NBC:
         case TVNetwork.CBS:
+        case TVNetwork.KATZ:
+        case TVNetwork.NBC:
         case TVNetwork.NBCSN:
+        case TVNetwork.SPORTSCHANNEL:
+        case TVNetwork.WGN_TV:
+        case TVNetwork.ABC_ESPN:
+        case TVNetwork.ABC_ESPN2:
+        case TVNetwork.RAYCOM_WGN:
+        case TVNetwork.USA_WGN_TV:
         case TVNetwork.Unknown:
           return '32px';
         default:
@@ -298,9 +305,16 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
           case TVNetwork.TBS:
             return '18px';
           case TVNetwork.ABC:
-          case TVNetwork.NBC:
           case TVNetwork.CBS:
+          case TVNetwork.KATZ:
+          case TVNetwork.NBC:
           case TVNetwork.NBCSN:
+          case TVNetwork.SPORTSCHANNEL:
+          case TVNetwork.WGN_TV:
+          case TVNetwork.ABC_ESPN:
+          case TVNetwork.ABC_ESPN2:
+          case TVNetwork.RAYCOM_WGN:
+          case TVNetwork.USA_WGN_TV:
           case TVNetwork.Unknown:
             return '24px';
           default:

@@ -130,12 +130,13 @@ export const MatchupHistory: React.FC<{
 
             const specialPositions = {
               first: i === 0,
-              last: i === _.size(matchupsToShow) - 1,
+              last: i === matchupsToShow.length - 1,
             };
 
-            const selectedSeasonIndex = matchupsToShow.findIndex(
-              (game) => game?.season === selectedSeason
-            );
+            const isFirst = i === 0;
+            const isLast = i === matchupsToShow.length - 1;
+            const previousHistoricalGame = matchupsToShow[i - 1];
+            const nextHistoricalGame = matchupsToShow[i + 1];
 
             return (
               <HistoricalMatchup
@@ -152,9 +153,23 @@ export const MatchupHistory: React.FC<{
                   selectedGame.fullDate === historicalGame.fullDate
                 }
                 isSeasonOnTop={i % 2 === 0}
+                // Show gap indicators on either side if the previous / next displayed season is
+                // not actually the next / previous season due to list truncation.
+                // TODO: Properly handle seasons with multiple games against the same team (e.g.
+                // Clemson 2020).
                 gaps={{
-                  left: i > 0 && selectedSeasonIndex === i - 1,
-                  right: i < _.size(matchupsToShow) - 1 && selectedSeasonIndex === i + 1,
+                  left: Boolean(
+                    !isFirst &&
+                      previousHistoricalGame &&
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                        allSeasonsWithMatchupsAgainstTeam.indexOf(previousHistoricalGame.season) + 1
+                  ),
+                  right: Boolean(
+                    !isLast &&
+                      nextHistoricalGame &&
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                        allSeasonsWithMatchupsAgainstTeam.indexOf(nextHistoricalGame.season) - 1
+                  ),
                 }}
                 specialPositions={specialPositions}
               />
