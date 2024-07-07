@@ -42,7 +42,7 @@ export const ExplorablesS1E1 = () => {
 
       <Title>{title}</Title>
 
-      <Subtitle maxWidth="330px">{subtitle}</Subtitle>
+      <Subtitle>{subtitle}</Subtitle>
 
       <Byline>
         <p>September 27, 2018</p>

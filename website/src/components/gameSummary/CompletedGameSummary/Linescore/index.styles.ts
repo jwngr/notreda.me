@@ -1,5 +1,5 @@
 import {darken} from 'polished';
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const LinescoreWrapper = styled.div`
   width: 100%;
@@ -55,7 +55,12 @@ export const AbbreviationColumn = styled(LinescoreColumn)`
   }
 `;
 
-export const ScoreColumn = styled(LinescoreColumn)`
+interface ScoreColumnProps {
+  readonly $isOvertimePeriod: boolean;
+  readonly $isThirdOrLaterOvertimePeriod: boolean;
+}
+
+export const ScoreColumn = styled(LinescoreColumn)<ScoreColumnProps>`
   width: 40px;
 
   p:first-of-type {
@@ -70,18 +75,24 @@ export const ScoreColumn = styled(LinescoreColumn)`
     -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.green)};
     text-shadow: ${({theme}) => theme.colors.black} 1px 1px;
 
-    &.overtime-header {
-      font-size: 14px;
-      padding: 0 2px;
-    }
+    ${({$isOvertimePeriod}) =>
+      $isOvertimePeriod
+        ? css`
+            font-size: 14px;
+            padding: 0 2px;
+          `
+        : null}
   }
 
   @media (max-width: 600px) {
     p:first-of-type {
-      &.three-plus-overtime-header {
-        font-size: 12px;
-        padding: 0;
-      }
+      ${({$isThirdOrLaterOvertimePeriod}) =>
+        $isThirdOrLaterOvertimePeriod
+          ? css`
+              font-size: 12px;
+              padding: 0;
+            `
+          : null}
     }
   }
 `;

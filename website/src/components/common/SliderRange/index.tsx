@@ -37,7 +37,7 @@ export const SliderRange: React.FC<SliderRangeProps> = ({
   };
 
   return (
-    <SliderWrapper className={className} width={width} widthSm={widthSm}>
+    <SliderWrapper className={className} $width={width} $widthSm={widthSm}>
       <Range
         value={value}
         min={min}

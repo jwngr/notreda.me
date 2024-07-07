@@ -118,7 +118,7 @@ export const GameStatsRow: React.FC<{
         }}
       >
         {(matches) => (
-          <StatName isStatsGroupRow={isStatsGroupRow}>
+          <StatName $isStatsGroupRow={isStatsGroupRow}>
             {matches.middle1 || matches.middle2 ? shortenedStatName : statName}
           </StatName>
         )}

@@ -32,24 +32,24 @@ export const WeatherIcon = styled.i`
 `;
 
 interface TemperatureProps {
-  readonly isWeatherIconPresent: boolean;
+  readonly $isWeatherIconPresent: boolean;
 }
 
 export const Temperature = styled.p<TemperatureProps>`
-  /* margin-left: ${({isWeatherIconPresent}) => (isWeatherIconPresent ? '8px' : 0)}; */
+  /* margin-left: ${({$isWeatherIconPresent}) => ($isWeatherIconPresent ? '8px' : 0)}; */
   margin-top: 4px;
   font-size: 18px !important;
   font-family: 'Inter UI', serif;
 `;
 
 interface StadiumLocationWrapperProps {
-  readonly center: boolean;
+  readonly $center: boolean;
 }
 
 export const StadiumLocationWrapper = styled.div<StadiumLocationWrapperProps>`
   display: flex;
   flex-direction: column;
-  align-items: ${({center}) => (center ? 'center' : 'start')};
+  align-items: ${({$center}) => ($center ? 'center' : 'start')};
   justify-content: center;
   text-align: center;
 `;

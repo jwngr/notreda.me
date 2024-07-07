@@ -1,12 +1,17 @@
 import {darken} from 'polished';
 import {Link} from 'react-router-dom';
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
 import {TVNetwork} from '../models';
 import {TeamLogo} from './TeamLogo';
 
-const GameWrapper = styled(Link)`
+interface GameWrapperProps {
+  readonly $isSelected: boolean;
+  readonly $isHomeGame: boolean;
+}
+
+export const GameWrapper = styled(Link)<GameWrapperProps>`
   height: 52px;
   padding: 0 4px;
 
@@ -32,23 +37,20 @@ const GameWrapper = styled(Link)`
       transform: none;
     }
   }
+
+  ${({$isHomeGame}) => ($isHomeGame ? homeGameWrapperStyles : awayGameWrapperStyles)}
 `;
 
-export const HomeGameWrapper = styled(GameWrapper)`
-  &.selected {
-    background: ${({theme}) => theme.colors.gold}cc;
-  }
+const homeGameWrapperStyles = css<GameWrapperProps>`
+  ${({theme, $isSelected}) => ($isSelected ? `background: ${theme.colors.gold}cc;` : null)}
 
   &:hover {
-    background: ${({theme}) => theme.colors.black}20;
-
-    &.selected {
-      background: ${({theme}) => theme.colors.gold}cc;
-    }
+    background: ${({theme, $isSelected}) =>
+      $isSelected ? `${theme.colors.gold}cc` : `${theme.colors.black}20`};
   }
 `;
 
-export const AwayGameWrapper = styled(GameWrapper)`
+const awayGameWrapperStyles = css<GameWrapperProps>`
   background-size: 4px 4px;
 
   background-image: repeating-linear-gradient(
@@ -220,17 +222,24 @@ export const ScoreResult = styled.p`
   }
 `;
 
-export const ScoreTotals = styled.div`
+interface ScoreTotalsProps {
+  readonly $isOvertimeGame: boolean;
+}
+
+export const ScoreTotals = styled.div<ScoreTotalsProps>`
   flex: 1;
 
-  &.overtime-game {
+  ${({$isOvertimeGame}) =>
+    $isOvertimeGame
+      ? css`
     margin-top: 6px;
     line-height: 14px;
-  }
+  }`
+      : null}
 `;
 
 interface TelevisionCoverageProps {
-  readonly network: TVNetwork;
+  readonly $network: TVNetwork;
 }
 
 export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
@@ -246,8 +255,8 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
   }
 
   img {
-    height: ${({network}) => {
-      switch (network) {
+    height: ${({$network}) => {
+      switch ($network) {
         case TVNetwork.ESPN2:
           return '11px';
         case TVNetwork.ACCN:
@@ -276,7 +285,7 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
         case TVNetwork.Unknown:
           return '32px';
         default:
-          assertNever(network);
+          assertNever($network);
       }
     }};
     margin-left: 10px;
@@ -290,8 +299,8 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
     }
 
     img {
-      height: ${({network}) => {
-        switch (network) {
+      height: ${({$network}) => {
+        switch ($network) {
           case TVNetwork.ESPN:
           case TVNetwork.ESPN2:
           case TVNetwork.Peacock:
@@ -318,7 +327,7 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
           case TVNetwork.Unknown:
             return '24px';
           default:
-            assertNever(network);
+            assertNever($network);
         }
       }};
     }

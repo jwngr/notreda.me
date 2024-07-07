@@ -44,16 +44,12 @@ export const Title = styled.h1`
   text-shadow: ${({theme}) => theme.colors.black} 2px 2px;
 `;
 
-interface SubtitleProps {
-  readonly maxWidth?: string;
-}
-
-export const Subtitle = styled.p<SubtitleProps>`
+export const Subtitle = styled.p`
   text-align: center;
   margin: 8px auto;
   font-size: 24px;
   font-variant: small-caps;
-  max-width: ${({maxWidth}) => maxWidth || '440px'};
+  max-width: 440px;
   font-family: 'Bungee';
   color: ${({theme}) => theme.colors.black};
 `;

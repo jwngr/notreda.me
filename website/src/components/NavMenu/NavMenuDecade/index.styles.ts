@@ -1,6 +1,6 @@
 import {darken} from 'polished';
 import {Link} from 'react-router-dom';
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const NavMenuDecadeWrapper = styled.div`
   flex: 1;
@@ -62,7 +62,13 @@ export const NavMenuDecadeYearsWrapper = styled.div`
   margin-top: 4px;
 `;
 
-export const NavMenuDecadeYear = styled(Link)`
+interface NavMenuDecadeYearProps {
+  readonly $isCurrentYear: boolean;
+  readonly $isSelectedYear: boolean;
+  readonly $isChampionshipYear: boolean;
+}
+
+export const NavMenuDecadeYear = styled(Link)<NavMenuDecadeYearProps>`
   width: 36px;
   height: 36px;
   display: flex;
@@ -79,36 +85,45 @@ export const NavMenuDecadeYear = styled(Link)`
     background-color: ${({theme}) => theme.colors.black}20;
   }
 
-  &.national-championship-year {
-    background-image: repeating-linear-gradient(
-      135deg,
-      ${({theme}) => darken(0.2, theme.colors.green)}40,
-      ${({theme}) => darken(0.2, theme.colors.green)}40 1px,
-      transparent 2px,
-      transparent 2px,
-      ${({theme}) => darken(0.2, theme.colors.green)}40 3px
-    );
+  ${({$isChampionshipYear}) =>
+    $isChampionshipYear
+      ? css`
+          background-image: repeating-linear-gradient(
+            135deg,
+            ${({theme}) => darken(0.2, theme.colors.green)}40,
+            ${({theme}) => darken(0.2, theme.colors.green)}40 1px,
+            transparent 2px,
+            transparent 2px,
+            ${({theme}) => darken(0.2, theme.colors.green)}40 3px
+          );
 
-    &:hover {
-      color: ${({theme}) => theme.colors.white};
-    }
-  }
+          &:hover {
+            color: ${({theme}) => theme.colors.white};
+          }
+        `
+      : null}
 
-  &.current-year {
-    background-image: repeating-linear-gradient(
-      -135deg,
-      ${({theme}) => darken(0.2, theme.colors.blue)}40,
-      ${({theme}) => darken(0.2, theme.colors.blue)}40 1px,
-      transparent 2px,
-      transparent 2px,
-      ${({theme}) => darken(0.2, theme.colors.blue)}40 3px
-    );
-  }
+  ${({$isCurrentYear}) =>
+    $isCurrentYear
+      ? css`
+          background-image: repeating-linear-gradient(
+            -135deg,
+            ${({theme}) => darken(0.2, theme.colors.blue)}40,
+            ${({theme}) => darken(0.2, theme.colors.blue)}40 1px,
+            transparent 2px,
+            transparent 2px,
+            ${({theme}) => darken(0.2, theme.colors.blue)}40 3px
+          );
+        `
+      : null}
 
-  &.selected-year {
-    font-weight: bold;
-    background-color: ${({theme}) => theme.colors.gold};
-  }
+  ${({$isSelectedYear}) =>
+    $isSelectedYear
+      ? css`
+          font-weight: bold;
+          background-color: ${({theme}) => theme.colors.gold};
+        `
+      : null}
 
   @media (max-width: 480px) {
     width: 44px;

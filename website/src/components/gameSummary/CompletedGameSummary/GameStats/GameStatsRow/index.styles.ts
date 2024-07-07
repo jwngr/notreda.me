@@ -25,11 +25,15 @@ const StatCell = styled.p`
   white-space: nowrap;
 `;
 
+interface StatNameProps {
+  readonly $isStatsGroupRow: boolean;
+}
+
 const STAT_NAME_STYLES = {
-  left: ({isStatsGroupRow}: {isStatsGroupRow: boolean}) => `
+  left: ({$isStatsGroupRow}: StatNameProps) => `
     ${STATS_HEADER_SPACER_STYLES.left}; 
-    font-weight: ${isStatsGroupRow ? 'bold' : 'normal'};
-    padding-left: ${isStatsGroupRow ? '8px' : '20px'};
+    font-weight: ${$isStatsGroupRow ? 'bold' : 'normal'};
+    padding-left: ${$isStatsGroupRow ? '8px' : '20px'};
     text-align: left;
   `,
   middle: () => `
@@ -39,10 +43,6 @@ const STAT_NAME_STYLES = {
     text-align: center;
   `,
 };
-
-interface StatNameProps {
-  readonly isStatsGroupRow: boolean;
-}
 
 export const StatName = styled(StatCell)<StatNameProps>`
   ${(props) => STAT_NAME_STYLES.left(props)};

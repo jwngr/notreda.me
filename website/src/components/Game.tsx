@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import format from 'date-fns/format';
 import _ from 'lodash';
 import React from 'react';
@@ -9,10 +8,9 @@ import {GameInfo, Team, TeamId, TVNetwork} from '../models';
 import teamsJson from '../resources/teams.json';
 import {
   AwayGamePrefix,
-  AwayGameWrapper,
   DateOpponentDetailsWrapper,
   GameDate,
-  HomeGameWrapper,
+  GameWrapper,
   Location,
   OpponentDetailsWrapper,
   OpponentLogo,
@@ -39,13 +37,13 @@ export const Game: React.FC<{
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
     lastColumnContent = (
-      <TelevisionCoverage network={TVNetwork.Unknown}>
+      <TelevisionCoverage $network={TVNetwork.Unknown}>
         <p>Canceled</p>
       </TelevisionCoverage>
     );
   } else if (game.isPostponed) {
     lastColumnContent = (
-      <TelevisionCoverage network={TVNetwork.Unknown}>
+      <TelevisionCoverage $network={TVNetwork.Unknown}>
         <p>Posponed</p>
       </TelevisionCoverage>
     );
@@ -71,14 +69,10 @@ export const Game: React.FC<{
       );
     }
 
-    const scoreTotalClasses = classNames({
-      'overtime-game': game.numOvertimes,
-    });
-
     lastColumnContent = (
       <Score>
         {scoreResult}
-        <ScoreTotals className={scoreTotalClasses}>
+        <ScoreTotals $isOvertimeGame={(game.numOvertimes ?? 0) > 0}>
           <p>
             {notreDameScore} - {opponentScore}
           </p>
@@ -91,7 +85,7 @@ export const Game: React.FC<{
 
     lastColumnContent = (
       <TelevisionCoverage
-        network={game.coverage === 'TBD' ? TVNetwork.Unknown : game.coverage ?? TVNetwork.Unknown}
+        $network={game.coverage === 'TBD' ? TVNetwork.Unknown : game.coverage ?? TVNetwork.Unknown}
       >
         <p>{time}</p>
         {game.coverage && game.coverage !== 'TBD' ? (
@@ -101,17 +95,11 @@ export const Game: React.FC<{
     );
   } else {
     lastColumnContent = (
-      <TelevisionCoverage network={TVNetwork.Unknown}>
+      <TelevisionCoverage $network={TVNetwork.Unknown}>
         <p>TBD</p>
       </TelevisionCoverage>
     );
   }
-
-  const gameClassNames = classNames({
-    selected: isSelected,
-    homeGame: game.isHomeGame,
-    awayGame: !game.isHomeGame,
-  });
 
   let gameDate: Date | 'TBD' | undefined;
   if (game.fullDate) {
@@ -138,8 +126,6 @@ export const Game: React.FC<{
     : _.get(game, 'rankings.home.bcs') ||
       _.get(game, 'rankings.home.cfbPlayoff') ||
       _.get(game, 'rankings.home.ap');
-
-  const WrapperComponent = game.isHomeGame ? HomeGameWrapper : AwayGameWrapper;
 
   let shamrockSeriesLogoContent: React.ReactNode = null;
   if (game.isShamrockSeries) {
@@ -174,7 +160,11 @@ export const Game: React.FC<{
   }
 
   return (
-    <WrapperComponent className={gameClassNames} to={`/${season}/${index + 1}/`}>
+    <GameWrapper
+      to={`/${season}/${index + 1}/`}
+      $isSelected={isSelected}
+      $isHomeGame={game.isHomeGame}
+    >
       <OpponentWrapper>
         <OpponentLogo teamId={game.opponentId} />
         <DateOpponentDetailsWrapper>
@@ -191,6 +181,6 @@ export const Game: React.FC<{
         {shamrockSeriesLogoContent}
       </Location>
       {lastColumnContent}
-    </WrapperComponent>
+    </GameWrapper>
   );
 };

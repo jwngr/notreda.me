@@ -2,15 +2,15 @@ import {darken} from 'polished';
 import styled from 'styled-components';
 
 interface SliderWrapperProps {
-  readonly width: number;
-  readonly widthSm: number;
+  readonly $width: number;
+  readonly $widthSm: number;
 }
 
 export const SliderWrapper = styled.div<SliderWrapperProps>`
-  width: ${({width}) => `${width}px`};
+  width: ${({$width}) => `${$width}px`};
 
   @media (max-width: 600px) {
-    max-width: ${({widthSm}) => `${widthSm}px`};
+    max-width: ${({$widthSm}) => `${$widthSm}px`};
   }
 
   .slider {

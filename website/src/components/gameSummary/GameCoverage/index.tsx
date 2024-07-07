@@ -43,7 +43,7 @@ export const GameCoverage: React.FC<{
     const isFutureGameWithoutCoverage = !isGameOver && !game.coverage;
     if (game.coverage === 'TBD' || isFutureGameWithoutCoverage) {
       tvCoverageContent = (
-        <ChannelLogo network={TVNetwork.Unknown}>
+        <ChannelLogo $network={TVNetwork.Unknown}>
           <TVNetworkLogo network={TVNetwork.Unknown} />
         </ChannelLogo>
       );
@@ -51,7 +51,7 @@ export const GameCoverage: React.FC<{
       // Otherwise, display the TV channel icon, making it link to the streaming site for future
       // games.
       const channelLogo = (
-        <ChannelLogo network={game.coverage}>
+        <ChannelLogo $network={game.coverage}>
           <TVNetworkLogo network={game.coverage} />
         </ChannelLogo>
       );
@@ -71,7 +71,7 @@ export const GameCoverage: React.FC<{
     mainContent = (
       <>
         {tvCoverageContent}
-        <DateAndTimeWrapper center={!!tvCoverageContent}>
+        <DateAndTimeWrapper $align={tvCoverageContent ? 'center' : 'start'}>
           <p>{date}</p>
           {time ? <p>{time}</p> : null}
         </DateAndTimeWrapper>

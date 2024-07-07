@@ -70,7 +70,7 @@ export const STATS_HEADER_COLUMN_STYLES = {
 };
 
 interface GameStatsHeaderProps {
-  readonly longestHeaderTextLength: number;
+  readonly $longestHeaderTextLength: number;
 }
 
 export const GameStatsHeader = styled.div<GameStatsHeaderProps>`
@@ -91,7 +91,7 @@ export const GameStatsHeader = styled.div<GameStatsHeaderProps>`
     -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.green)};
     text-shadow: ${({theme}) => theme.colors.black} 1px 1px;
     font-family: 'Bungee';
-    font-size: ${({longestHeaderTextLength}) => (longestHeaderTextLength > 14 ? '12px' : '14px')};
+    font-size: ${({$longestHeaderTextLength}) => ($longestHeaderTextLength > 14 ? '12px' : '14px')};
     color: ${({theme}) => theme.colors.white};
     border: solid 3px ${({theme}) => theme.colors.black};
   }

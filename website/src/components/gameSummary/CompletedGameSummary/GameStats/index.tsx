@@ -63,10 +63,10 @@ export const CompletedGameStats: React.FC<{
     <GameStatsWrapper>
       <GameStatsHeaderRow>
         <GameStatsHeaderSpacer />
-        <GameStatsHeader longestHeaderTextLength={longestHeaderTextLength}>
+        <GameStatsHeader $longestHeaderTextLength={longestHeaderTextLength}>
           <p style={awayTeamColorStyles}>{awayTeamHeaderText}</p>
         </GameStatsHeader>
-        <GameStatsHeader longestHeaderTextLength={longestHeaderTextLength}>
+        <GameStatsHeader $longestHeaderTextLength={longestHeaderTextLength}>
           <p style={homeTeamColorStyles}>{homeTeamHeaderText}</p>
         </GameStatsHeader>
       </GameStatsHeaderRow>
