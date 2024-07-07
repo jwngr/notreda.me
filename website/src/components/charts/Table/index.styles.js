@@ -13,10 +13,10 @@ export const TableWrapper = styled.div`
     margin: auto;
     max-width: 100%;
     min-width: 400px;
-    color: ${(props) => darken(0.2, props.theme.colors.green)};
+    color: ${({theme}) => darken(0.2, theme.colors.green)};
     border-collapse: collapse;
     background-image: url(${backgroundImage});
-    border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
+    border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
 
     th,
     td {
@@ -33,25 +33,25 @@ export const TableWrapper = styled.div`
     th {
       font-weight: bold;
       font-variant: small-caps;
-      color: ${(props) => props.theme.colors.white};
-      background-color: ${(props) => props.theme.colors.green}cc;
+      color: ${({theme}) => theme.colors.white};
+      background-color: ${({theme}) => theme.colors.green}cc;
     }
 
     tr {
-      background-color: ${(props) => props.theme.colors.gray}40;
+      background-color: ${({theme}) => theme.colors.gray}40;
     }
 
     tr:nth-of-type(2n) {
-      background-color: ${(props) => props.theme.colors.lightGray}40;
+      background-color: ${({theme}) => theme.colors.lightGray}40;
     }
 
     tr.highlighted {
-      background-color: ${(props) => props.theme.colors.gold}b0;
+      background-color: ${({theme}) => theme.colors.gold}b0;
     }
 
     a {
       text-decoration: none;
-      color: ${(props) => props.theme.colors.green};
+      color: ${({theme}) => theme.colors.green};
     }
   }
 

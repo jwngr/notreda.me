@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import abcLogo from '../images/tvLogos/abc.png';
 import accnLogo from '../images/tvLogos/accn.png';
@@ -14,10 +15,17 @@ import peacockLogo from '../images/tvLogos/peacock.png';
 import tbsLogo from '../images/tvLogos/tbs.png';
 import unknownNetworkLogo from '../images/tvLogos/unknown.png';
 import usaLogo from '../images/tvLogos/usa.png';
+import {assertNever} from '../lib/utils';
 import {TVNetwork} from '../models';
 
-function getTvNetworkLogo(network: TVNetwork) {
-  switch (network.toUpperCase()) {
+export const ChannelName = styled.p`
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 16px;
+`;
+
+function getTvNetworkLogo(network: TVNetwork): string | null {
+  switch (network) {
     case TVNetwork.ABC:
       return abcLogo;
     case TVNetwork.ACCN:
@@ -44,11 +52,28 @@ function getTvNetworkLogo(network: TVNetwork) {
       return tbsLogo;
     case TVNetwork.USA:
       return usaLogo;
-    default:
+    case TVNetwork.Unknown:
       return unknownNetworkLogo;
+    case TVNetwork.KATZ:
+    case TVNetwork.SPORTSCHANNEL:
+    case TVNetwork.WGN_TV:
+    case TVNetwork.ABC_ESPN:
+    case TVNetwork.ABC_ESPN2:
+    case TVNetwork.RAYCOM_WGN:
+    case TVNetwork.USA_WGN_TV:
+      // TODO: Add logos for these networks.
+      return null;
+    default:
+      assertNever(network);
   }
 }
 
 export const TVNetworkLogo: React.FC<{readonly network: TVNetwork}> = ({network}) => {
-  return <img src={getTvNetworkLogo(network)} alt={`${network} logo`} />;
+  const logo = getTvNetworkLogo(network);
+
+  if (!logo) {
+    return <ChannelName>{network}</ChannelName>;
+  }
+
+  return <img key={network} src={logo} alt={`${network} logo`} />;
 };

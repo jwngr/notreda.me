@@ -6,8 +6,8 @@ export const ScorigamiChartWrapper = styled.div`
   flex-direction: column;
   max-width: 740px;
   justify-content: center;
-  border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
-  background-color: ${(props) => props.theme.colors.gold}66;
+  border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
+  background-color: ${({theme}) => theme.colors.gold}66;
 `;
 
 export const ScorigamiRow = styled.div`
@@ -18,7 +18,7 @@ export const ScorigamiRow = styled.div`
 
   &:last-of-type {
     div {
-      border-bottom: solid 1px ${(props) => darken(0.2, props.theme.colors.green)};
+      border-bottom: solid 1px ${({theme}) => darken(0.2, theme.colors.green)};
     }
   }
 `;
@@ -31,8 +31,8 @@ export const ScorigamiCell = styled.div`
   min-height: 20px;
   font-family: 'Inter UI';
   font-size: 12px;
-  color: ${(props) => props.theme.colors.white};
-  border: solid 1px ${(props) => darken(0.2, props.theme.colors.green)};
+  color: ${({theme}) => theme.colors.white};
+  border: solid 1px ${({theme}) => darken(0.2, theme.colors.green)};
   border-bottom-width: 0;
   border-right-width: 0;
 
@@ -40,12 +40,11 @@ export const ScorigamiCell = styled.div`
     border-right-width: 1px;
   }
 
-  background-color: ${(props) => {
-    let color = `${props.theme.colors.gray}40`;
-    if (props.numGamesWithScore > 0) {
-      color = darken(0.02 * props.numGamesWithScore, props.theme.colors.green);
+  background-color: ${({theme, numGamesWithScore}) => {
+    let color = `${theme.colors.gray}40`;
+    if (numGamesWithScore > 0) {
+      color = darken(0.02 * numGamesWithScore, theme.colors.green);
     }
-
     return color;
   }};
 `;

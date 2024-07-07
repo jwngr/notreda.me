@@ -9,19 +9,19 @@ export const PerSeasonBarChartWrapper = styled.div`
   overflow: hidden;
   font-family: 'Inter UI', serif;
   background-image: url(${backgroundImage});
-  background-color: ${(props) => props.theme.colors.lightGray}40;
-  border: solid 3px ${(props) => darken(0.2, props.theme.colors.green)};
+  background-color: ${({theme}) => theme.colors.lightGray}40;
+  border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
 `;
 
 export const PerSeasonBarChartSvg = styled.svg`
   text {
-    fill: ${(props) => darken(0.2, props.theme.colors.green)};
+    fill: ${({theme}) => darken(0.2, theme.colors.green)};
   }
 
   .per-season-bar-chart-bar {
     rect {
-      fill: ${(props) => props.theme.colors.green};
-      stroke: ${(props) => darken(0.2, props.theme.colors.green)};
+      fill: ${({theme}) => theme.colors.green};
+      stroke: ${({theme}) => darken(0.2, theme.colors.green)};
       stroke-width: 2px;
 
       @media (max-width: 800px) {
@@ -36,7 +36,7 @@ export const PerSeasonBarChartSvg = styled.svg`
     text {
       font-size: 14px;
       text-anchor: middle;
-      fill: ${(props) => darken(0.2, props.theme.colors.green)};
+      fill: ${({theme}) => darken(0.2, theme.colors.green)};
 
       @media (max-width: 600px) {
         font-size: 10px;
@@ -50,7 +50,7 @@ export const PerSeasonBarChartSvg = styled.svg`
 
     path,
     line {
-      stroke: ${(props) => darken(0.2, props.theme.colors.green)};
+      stroke: ${({theme}) => darken(0.2, theme.colors.green)};
     }
 
     @media (max-width: 600px) {

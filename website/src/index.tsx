@@ -15,14 +15,13 @@ import {lazy, Suspense} from 'react';
 const history = createBrowserHistory();
 
 export const AsyncFootballScheduleScreen = lazy(() =>
-  // @ts-expect-error TODO: Fix this.
   import('./screens/FootballScheduleScreen/index').then((module) => ({
     default: module.FootballScheduleScreen,
   }))
 );
 
 export const AsyncExplorablesScreen = lazy(() =>
-  // @ts-expect-error TODO: Fix this.
+  // @ts-expect-error TODO: Remove this after porting explorables to TypeScript.
   import('./screens/ExplorablesScreen/index').then((module) => ({
     default: module.ExplorablesScreen,
   }))

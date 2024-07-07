@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {getWindowDimensions} from '../../../utils';
+import {getWindowDimensions} from '../../../lib/utils';
 import {TooltipWrapper} from './index.styles';
 
 export const Tooltip = ({x, y, children}) => {
