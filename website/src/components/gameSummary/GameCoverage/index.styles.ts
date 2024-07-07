@@ -23,25 +23,25 @@ export const CoverageInnerWrapper = styled.div`
 `;
 
 interface DateAndTimeWrapperProps {
-  readonly center: boolean;
+  readonly $align: 'center' | 'start';
 }
 
 export const DateAndTimeWrapper = styled.div<DateAndTimeWrapperProps>`
   display: flex;
   flex-direction: column;
-  align-items: ${({center}) => (center ? 'center' : 'start')};
+  align-items: ${({$align}) => $align};
   justify-content: center;
 `;
 
 interface ChannelLogoProps {
-  readonly network: TVNetwork;
+  readonly $network: TVNetwork;
 }
 
 export const ChannelLogo = styled.div<ChannelLogoProps>`
   img {
     margin-right: 16px;
-    width: ${({network}) => {
-      switch (network) {
+    width: ${({$network}) => {
+      switch ($network) {
         case TVNetwork.ABC:
         case TVNetwork.CBS:
         case TVNetwork.NBC:
@@ -71,7 +71,7 @@ export const ChannelLogo = styled.div<ChannelLogoProps>`
         case TVNetwork.TBS:
           return '28px';
         default:
-          assertNever(network);
+          assertNever($network);
       }
     }};
   }

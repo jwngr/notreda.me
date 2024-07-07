@@ -82,7 +82,7 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
               title={`Weather forecast at kickoff: ${text}`}
             ></WeatherIcon>
           ) : null}
-          <Temperature isWeatherIconPresent={!!icon}>{game.weather.temperature}&deg;F</Temperature>
+          <Temperature $isWeatherIconPresent={!!icon}>{game.weather.temperature}&deg;F</Temperature>
         </WeatherWrapper>
       );
     }
@@ -92,7 +92,7 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
     <StatsSection title="Location">
       <LocationInnerWrapper>
         {weatherContent}
-        <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
+        <StadiumLocationWrapper $center={typeof weatherContent === 'undefined'}>
           {/* Nickname */}
           {game.nickname ? <p>{game.nickname}</p> : null}
 

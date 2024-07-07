@@ -35,11 +35,11 @@ export const NavMenu: React.FC<{
           <p>Links</p>
         </MavMenuDecadeHeader>
         <NavMenuLinksWrapper>
-          <NavMenuLink href="/explorables">Explorables</NavMenuLink>
+          <NavMenuLink to="/explorables">Explorables</NavMenuLink>
           <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
-          <NavMenuLink href="https://www.github.com/jwngr/notreda.me/">GitHub</NavMenuLink>
+          <NavMenuLink to="https://www.github.com/jwngr/notreda.me/">GitHub</NavMenuLink>
           <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
-          <NavMenuLink href="https://jwn.gr/">@jwngr</NavMenuLink>
+          <NavMenuLink to="https://jwn.gr/">@jwngr</NavMenuLink>
         </NavMenuLinksWrapper>
       </NavMenuLinksSectionWrapper>
 

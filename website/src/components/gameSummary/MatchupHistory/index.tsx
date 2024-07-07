@@ -124,7 +124,7 @@ export const MatchupHistory: React.FC<{
             </p>
           </div>
         </Records>
-        <RecentMatchups matchupsCount={matchupsToShow.length}>
+        <RecentMatchups $matchupsCount={matchupsToShow.length}>
           {matchupsToShow.map((historicalGame, i) => {
             if (!historicalGame) return null;
 

@@ -1,5 +1,5 @@
 import {darken} from 'polished';
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import backgroundImage from '../../../images/background.png';
 
@@ -37,18 +37,6 @@ export const TableWrapper = styled.div`
       background-color: ${({theme}) => theme.colors.green}cc;
     }
 
-    tr {
-      background-color: ${({theme}) => theme.colors.gray}40;
-    }
-
-    tr:nth-of-type(2n) {
-      background-color: ${({theme}) => theme.colors.lightGray}40;
-    }
-
-    tr.highlighted {
-      background-color: ${({theme}) => theme.colors.gold}b0;
-    }
-
     a {
       text-decoration: none;
       color: ${({theme}) => theme.colors.green};
@@ -60,4 +48,23 @@ export const TableWrapper = styled.div`
       min-width: 100%;
     }
   }
+`;
+
+interface TableRowProps {
+  readonly $isHighlighted: boolean;
+}
+
+export const TableRow = styled.tr<TableRowProps>`
+  background-color: ${({theme}) => theme.colors.gray}40;
+
+  tr:nth-of-type(2n) {
+    background-color: ${({theme}) => theme.colors.lightGray}40;
+  }
+
+  ${({$isHighlighted}) =>
+    $isHighlighted
+      ? css`
+          background-color: ${({theme}) => theme.colors.gold}b0;
+        `
+      : null}
 `;

@@ -111,7 +111,7 @@ export class ExplorablesS1E2 extends React.Component {
         </Helmet>
 
         <Heading>
-          <Link href="/explorables">Explorables</Link>
+          <Link to="/explorables">Explorables</Link>
           <p>Season 1, Episode 2</p>
         </Heading>
 
@@ -426,27 +426,27 @@ export class ExplorablesS1E2 extends React.Component {
         >
           <Legend>
             <div>
-              <Color hex="#2a8c5f" />
+              <Color $hex="#2a8c5f" />
               <span>ND [1887-2017]</span>
             </div>
             <div>
-              <Color hex="#377eb8" />
+              <Color $hex="#377eb8" />
               <span>ND [1990-2017]</span>
             </div>
             <div>
-              <Color hex="#984ea3" />
+              <Color $hex="#984ea3" />
               <span>ND [2010-17]</span>
             </div>
             <div>
-              <Color hex="#ff7f00" />
+              <Color $hex="#ff7f00" />
               <span>ND [1943-49]</span>
             </div>
             <div>
-              <Color hex="#b50321" />
+              <Color $hex="#b50321" />
               <span>Alabama [2007-17]</span>
             </div>
             <div>
-              <Color hex="#19dabf" />
+              <Color $hex="#19dabf" />
               <span>All [1917-2017]</span>
             </div>
           </Legend>

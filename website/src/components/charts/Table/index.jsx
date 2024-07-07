@@ -1,9 +1,8 @@
-import classNames from 'classnames';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {TableWrapper} from './index.styles';
+import {TableRow, TableWrapper} from './index.styles';
 
 export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
   const headerRow = (
@@ -23,15 +22,12 @@ export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
   );
 
   const dataRows = rows.map((row, i) => {
-    const classes = classNames({
-      highlighted: _.includes(highlightedRowIndexes, i),
-    });
     return (
-      <tr className={classes} key={`tr-${i}`}>
+      <TableRow key={`tr-${i}`} $isHighlighted={_.includes(highlightedRowIndexes, i)}>
         {row.map((item, j) => (
           <td key={`td-${i}-${j}`}>{item}</td>
         ))}
-      </tr>
+      </TableRow>
     );
   });
 

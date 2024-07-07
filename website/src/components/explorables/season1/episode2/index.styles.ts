@@ -21,13 +21,17 @@ export const Legend = styled.div`
   }
 `;
 
-export const Color = styled.div`
+interface ColorProps {
+  readonly $hex: string;
+}
+
+export const Color = styled.div<ColorProps>`
   width: 16px;
   height: 16px;
-  background: ${(props) => props.hex};
+  background: ${({$hex}) => $hex};
   display: inline-block;
   margin-right: 4px;
-  border: solid 2px ${(props) => darken(0.2, props.hex)};
+  border: solid 2px ${({$hex}) => darken(0.2, $hex)};
 
   @media (max-width: 600px) {
     width: 12px;

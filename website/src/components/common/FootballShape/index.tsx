@@ -18,12 +18,12 @@ export const FootballShape: React.FC<{
 }> = ({type, text, title, gameResult, legs = {}, isHomeGame, isSelected, uniqueFillPatternId}) => {
   let leftLeg;
   if (legs.left) {
-    leftLeg = <Leg type="left">{legs.left === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
+    leftLeg = <Leg $type="left">{legs.left === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
   }
 
   let rightLeg;
   if (legs.right) {
-    rightLeg = <Leg type="right">{legs.right === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
+    rightLeg = <Leg $type="right">{legs.right === 'gap' ? <div>&nbsp;</div> : <>&nbsp;</>}</Leg>;
   }
 
   return (
@@ -38,10 +38,10 @@ export const FootballShape: React.FC<{
         width="60"
         height="40"
         viewBox="-1 -1 55 32"
-        type={type}
-        gameResult={gameResult}
-        isHomeGame={isHomeGame}
-        isSelected={isSelected}
+        $type={type}
+        $gameResult={gameResult}
+        $isHomeGame={isHomeGame}
+        $isSelected={isSelected}
       >
         <title>{title}</title>
         <path
@@ -74,7 +74,7 @@ export const FootballShape: React.FC<{
         </defs>
       </FootballShapeSvg>
       {text ? (
-        <Text gameResult={gameResult} isSelected={isSelected}>
+        <Text $gameResult={gameResult} $isSelected={isSelected}>
           {text}
         </Text>
       ) : null}

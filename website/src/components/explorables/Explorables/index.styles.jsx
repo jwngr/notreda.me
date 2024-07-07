@@ -31,7 +31,7 @@ export const Subtitle = styled.p`
   text-align: center;
   margin: 8px auto;
   font-size: 24px;
-  max-width: ${(props) => props.maxWidth || '440px'};
+  max-width: 440px;
   font-family: 'Bungee';
   color: ${({theme}) => theme.colors.black};
 `;

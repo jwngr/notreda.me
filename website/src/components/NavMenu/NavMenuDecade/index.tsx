@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import _ from 'lodash';
 import React from 'react';
 
@@ -27,19 +26,20 @@ export const NavMenuDecade: React.FC<{
       yearEnding = '0' + yearEnding;
     }
 
-    const yearLinkClasses = classNames({
-      'current-year': year === CURRENT_SEASON,
-      'selected-year': year === selectedSeason,
-      'national-championship-year': _.includes(getNationalChampionshipYears(), year),
-    });
-
     // Notre Dame did not field a team in 1980 or 1981.
     if (year === 1890 || year === 1891 || year > LATEST_YEAR) {
       return <p key={year} />;
     }
 
     return (
-      <NavMenuDecadeYear className={yearLinkClasses} to={`/${year}`} key={year} onClick={onClick}>
+      <NavMenuDecadeYear
+        key={year}
+        to={`/${year}`}
+        $isCurrentYear={year === CURRENT_SEASON}
+        $isSelectedYear={year === selectedSeason}
+        $isChampionshipYear={_.includes(getNationalChampionshipYears(), year)}
+        onClick={onClick}
+      >
         {yearEnding}
       </NavMenuDecadeYear>
     );

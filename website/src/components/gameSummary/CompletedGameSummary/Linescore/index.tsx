@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import _ from 'lodash';
 import React from 'react';
 
@@ -50,14 +49,14 @@ export const Linescore: React.FC<{
         header = `OT ${i - 3}`;
       }
     }
-    const classes = classNames({
-      'overtime-header': i >= 4,
-      'three-plus-overtime-header': i >= 4 && numQuarters > 6,
-    });
 
     return (
-      <ScoreColumn key={header}>
-        <p className={classes}>{header}</p>
+      <ScoreColumn
+        key={header}
+        $isOvertimePeriod={i >= 4}
+        $isThirdOrLaterOvertimePeriod={i >= 4 && numQuarters > 6}
+      >
+        <p>{header}</p>
         <p>{linescore.away[i]}</p>
         <p>{linescore.home[i]}</p>
       </ScoreColumn>
@@ -72,7 +71,7 @@ export const Linescore: React.FC<{
         <p style={homeTeamColorStyles}>{homeTeamId}</p>
       </AbbreviationColumn>
       {quarterScoreColumns}
-      <ScoreColumn>
+      <ScoreColumn $isOvertimePeriod={false} $isThirdOrLaterOvertimePeriod={false}>
         <p>T</p>
         <p style={awayTeamColorStyles}>{totalScores.away}</p>
         <p style={homeTeamColorStyles}>{totalScores.home}</p>

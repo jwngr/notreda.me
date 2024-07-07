@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
@@ -57,7 +58,7 @@ export const NavMenuLinksSectionWrapper = styled.div`
   }
 `;
 
-export const NavMenuLink = styled.a`
+export const NavMenuLink = styled(Link)`
   flex: 1;
   color: ${({theme}) => theme.colors.black};
   font-size: 16px;

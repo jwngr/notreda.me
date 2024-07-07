@@ -51,7 +51,7 @@ export const HistoricalMatchup: React.FC<{
 
   const seasonContent = (
     <Link to={`/${season}/${weekIndex + 1}`}>
-      <Season isSeasonOnTop={isSeasonOnTop} isSelected={isSelected}>
+      <Season $isSeasonOnTop={isSeasonOnTop} $isSelected={isSelected}>
         {_.map(String(season), (digit, i) => (
           <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
         ))}
@@ -60,7 +60,7 @@ export const HistoricalMatchup: React.FC<{
   );
 
   return (
-    <HistoricalMatchupWrapper isSeasonOnTop={isSeasonOnTop}>
+    <HistoricalMatchupWrapper $isSeasonOnTop={isSeasonOnTop}>
       {isSeasonOnTop ? seasonContent : null}
       <FootballScoreWrapper>
         <Link to={`/${season}/${weekIndex + 1}`}>
