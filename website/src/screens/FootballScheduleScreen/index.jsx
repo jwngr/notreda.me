@@ -7,7 +7,7 @@ import {Game} from '../../components/Game';
 import {GameSummary} from '../../components/gameSummary/GameSummary';
 import {NavMenu} from '../../components/NavMenu';
 import {LATEST_YEAR} from '../../lib/constants';
-import {getSelectedGameIndexFromUrl, getYearFromUrl} from '../../reducers';
+import {getSelectedGameIndexFromUrl, getYearFromUrl} from '../../lib/url';
 import schedule from '../../resources/schedule.json';
 import teams from '../../resources/teams.json';
 import {

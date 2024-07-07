@@ -2,10 +2,8 @@ import isAfter from 'date-fns/isAfter';
 import subDays from 'date-fns/subDays';
 import _ from 'lodash';
 
-import {CURRENT_SEASON} from '../lib/constants';
 import schedule from '../resources/schedule.json';
-
-// TODO: Move to better file.
+import {CURRENT_SEASON} from './constants';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
