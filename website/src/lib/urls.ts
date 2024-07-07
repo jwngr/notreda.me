@@ -1,5 +1,5 @@
-import isAfter from 'date-fns/isAfter';
-import subDays from 'date-fns/subDays';
+import {isAfter} from 'date-fns/isAfter';
+import {subDays} from 'date-fns/subDays';
 import _ from 'lodash';
 
 import {FullSchedule} from '../models';

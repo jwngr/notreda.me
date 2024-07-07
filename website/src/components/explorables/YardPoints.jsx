@@ -235,11 +235,11 @@ export class YardPoints extends Component {
           yards).
         </Paragraph>
 
-        <TweetEmbed id="783943172057694208" options={{cards: 'hidden'}} />
-        <TweetEmbed id="771763270273294336" options={{theme: 'dark'}} />
-        <TweetEmbed id="974086889287364609" />
-        <TweetEmbed id="1016049395110825984" />
-        <TweetEmbed id="1016049395110825984" options={{cards: 'hidden'}} />
+        <TweetEmbed tweetId="783943172057694208" options={{cards: 'hidden'}} />
+        <TweetEmbed tweetId="771763270273294336" options={{theme: 'dark'}} />
+        <TweetEmbed tweetId="974086889287364609" />
+        <TweetEmbed tweetId="1016049395110825984" />
+        <TweetEmbed tweetId="1016049395110825984" options={{cards: 'hidden'}} />
 
         <div>
           <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />
