@@ -53,47 +53,50 @@ const homeGameWrapperStyles = css<GameWrapperProps>`
 const awayGameWrapperStyles = css<GameWrapperProps>`
   background-size: 4px 4px;
 
-  background-image: repeating-linear-gradient(
-    135deg,
-    ${({theme}) => darken(0.2, theme.colors.blue)}30,
-    ${({theme}) => darken(0.2, theme.colors.blue)}30 1px,
-    transparent 2px,
-    transparent 2px,
-    ${({theme}) => darken(0.2, theme.colors.blue)}30 3px
-  );
+  ${({theme, $isSelected}) =>
+    $isSelected
+      ? css`
+          background-image: repeating-linear-gradient(
+            135deg,
+            ${theme.colors.gold},
+            ${theme.colors.gold} 1px,
+            transparent 2px,
+            transparent 2px,
+            ${theme.colors.gold} 3px
+          );
 
-  &.selected {
-    background-image: repeating-linear-gradient(
-      135deg,
-      ${({theme}) => theme.colors.gold},
-      ${({theme}) => theme.colors.gold} 1px,
-      transparent 2px,
-      transparent 2px,
-      ${({theme}) => theme.colors.gold} 3px
-    );
-  }
+          &:hover {
+            background-image: repeating-linear-gradient(
+              135deg,
+              ${({theme}) => theme.colors.gold},
+              ${({theme}) => theme.colors.gold} 1px,
+              transparent 2px,
+              transparent 2px,
+              ${({theme}) => theme.colors.gold} 3px
+            );
+          }
+        `
+      : css`
+          background-image: repeating-linear-gradient(
+            135deg,
+            ${darken(0.2, theme.colors.blue)}30,
+            ${darken(0.2, theme.colors.blue)}30 1px,
+            transparent 2px,
+            transparent 2px,
+            ${darken(0.2, theme.colors.blue)}30 3px
+          );
 
-  &:hover {
-    background: repeating-linear-gradient(
-      135deg,
-      ${({theme}) => theme.colors.black}30,
-      ${({theme}) => theme.colors.black}30 1px,
-      transparent 2px,
-      transparent 2px,
-      ${({theme}) => theme.colors.black}30 3px
-    );
-
-    &.selected {
-      background-image: repeating-linear-gradient(
-        135deg,
-        ${({theme}) => theme.colors.gold},
-        ${({theme}) => theme.colors.gold} 1px,
-        transparent 2px,
-        transparent 2px,
-        ${({theme}) => theme.colors.gold} 3px
-      );
-    }
-  }
+          &:hover {
+            background-image: repeating-linear-gradient(
+              135deg,
+              ${({theme}) => theme.colors.black}30,
+              ${({theme}) => theme.colors.black}30 1px,
+              transparent 2px,
+              transparent 2px,
+              ${({theme}) => theme.colors.black}30 3px
+            );
+          }
+        `}
 `;
 
 export const OpponentWrapper = styled.div`
