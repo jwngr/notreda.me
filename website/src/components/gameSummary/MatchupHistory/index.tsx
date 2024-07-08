@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import capitalize from 'lodash/capitalize';
 import React from 'react';
 import Media from 'react-media';
 
@@ -111,9 +111,9 @@ export const MatchupHistory: React.FC<{
             <Media query="(max-width: 600px)">
               {(matches) =>
                 matches ? (
-                  <p>{_.capitalize(selectedGameHomeOrAway)}</p>
+                  <p>{capitalize(selectedGameHomeOrAway)}</p>
                 ) : (
-                  <p>{_.capitalize(selectedGameHomeOrAway)} Record</p>
+                  <p>{capitalize(selectedGameHomeOrAway)} Record</p>
                 )
               }
             </Media>

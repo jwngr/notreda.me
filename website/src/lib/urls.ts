@@ -1,6 +1,6 @@
 import {isAfter} from 'date-fns/isAfter';
 import {subDays} from 'date-fns/subDays';
-import _ from 'lodash';
+import has from 'lodash/has';
 
 import {FullSchedule} from '../models';
 import scheduleJson from '../resources/schedule.json';
@@ -13,7 +13,7 @@ const DEFAULT_SELECTED_GAME_INDEX = 0;
 export const getSelectedSeasonFromUrlParam = (maybeYearString?: string): number => {
   if (!maybeYearString || maybeYearString.length !== 4) return CURRENT_SEASON;
   const year = Number(maybeYearString);
-  return isNaN(year) || !_.has(schedule, year) ? CURRENT_SEASON : year;
+  return isNaN(year) || !has(schedule, year) ? CURRENT_SEASON : year;
 };
 
 export const getSelectedGameIndexFromUrlParam = (
@@ -39,7 +39,7 @@ export const getSelectedGameIndexFromUrlParam = (
     return DEFAULT_SELECTED_GAME_INDEX;
   } else {
     // Otherwise, show the latest completed or next upcoming game.
-    const gamesPlayedCount = _.filter(schedule[year], (game) => game.result).length;
+    const gamesPlayedCount = schedule[year].filter((game) => game.result).length;
     if (gamesPlayedCount === 0) {
       // If no games have been played yet, select the default game index.
       return DEFAULT_SELECTED_GAME_INDEX;

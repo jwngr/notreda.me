@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
@@ -52,9 +51,11 @@ export const HistoricalMatchup: React.FC<{
   const seasonContent = (
     <Link to={`/${season}/${weekIndex + 1}`}>
       <Season $isSeasonOnTop={isSeasonOnTop} $isSelected={isSelected}>
-        {_.map(String(season), (digit, i) => (
-          <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
-        ))}
+        {String(season)
+          .split('')
+          .map((digit, i) => (
+            <span key={`season-header-${season}-${weekIndex}-${i}`}>{digit}</span>
+          ))}
       </Season>
     </Link>
   );
