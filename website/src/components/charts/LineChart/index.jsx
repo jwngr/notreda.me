@@ -1,5 +1,6 @@
 import * as d3 from 'd3';
 import _ from 'lodash';
+import debounce from 'lodash/debounce';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
@@ -27,8 +28,8 @@ export class LineChart extends Component {
 
     this.lineChart = null;
 
-    this.debouncedRedrawChartData = _.debounce(this.redrawChartData.bind(this), 150);
-    this.debouncedResizeLineChart = _.debounce(this.resizeLineChart.bind(this), 350);
+    this.debouncedRedrawChartData = debounce(this.redrawChartData.bind(this), 150);
+    this.debouncedResizeLineChart = debounce(this.resizeLineChart.bind(this), 350);
   }
 
   setTooltip(tooltip) {
@@ -47,7 +48,7 @@ export class LineChart extends Component {
   getMargins = () => {
     let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (this.width < 600) {
-      margins = {...DEFAULT_MARGINS_SMALL, ..._.get(this.props.margins, 'sm')};
+      margins = {...DEFAULT_MARGINS_SMALL, ...this.props.margins.sm};
     }
 
     return margins;
