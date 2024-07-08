@@ -6,5 +6,8 @@ export default defineConfig({
     port: 3000,
     open: true, // Open browser when server starts.
   },
+  build: {
+    sourcemap: true,
+  },
   plugins: [react()],
 });
