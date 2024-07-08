@@ -1,5 +1,5 @@
 import {darken} from 'polished';
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
 import backgroundImage from '../../../images/background.png';
 
@@ -51,20 +51,15 @@ export const TableWrapper = styled.div`
 `;
 
 interface TableRowProps {
+  readonly $isOdd: boolean;
   readonly $isHighlighted: boolean;
 }
 
 export const TableRow = styled.tr<TableRowProps>`
-  background-color: ${({theme}) => theme.colors.gray}40;
-
-  tr:nth-of-type(2n) {
-    background-color: ${({theme}) => theme.colors.lightGray}40;
-  }
-
-  ${({$isHighlighted}) =>
+  background-color: ${({theme, $isOdd, $isHighlighted}) =>
     $isHighlighted
-      ? css`
-          background-color: ${({theme}) => theme.colors.gold}b0;
-        `
-      : null}
+      ? `${theme.colors.gold}b0`
+      : $isOdd
+        ? `${theme.colors.gray}40`
+        : `${theme.colors.lightGray}40`};
 `;

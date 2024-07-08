@@ -25,7 +25,11 @@ export const Table: React.FC<{
 
   const dataRows = rows.map((row, i) => {
     return (
-      <TableRow key={`tr-${i}`} $isHighlighted={highlightedRowIndexes.includes(i)}>
+      <TableRow
+        key={`tr-${i}`}
+        $isOdd={i % 2 !== 0}
+        $isHighlighted={highlightedRowIndexes.includes(i)}
+      >
         {row.map((item, j) => (
           <td key={`td-${i}-${j}`}>{item}</td>
         ))}
