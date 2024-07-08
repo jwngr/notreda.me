@@ -4,8 +4,6 @@ import {TeamLogo} from '../../TeamLogo';
 
 export const FutureGameWrapper = styled.div`
   flex: 1;
-  /* TODO(cleanup): For some reason, specifying a width is needed to force this div to flex. */
-  width: 0;
   display: flex;
   align-items: center;
   justify-content: center;

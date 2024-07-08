@@ -50,11 +50,11 @@ export const MatchupHistory: React.FC<{
   const {width} = useWindowSize();
   const maxMatchupsCount = _getMaxMatchupsCountFromWindowWidth(width);
 
-  const matchupsToShow = getFilteredMatchupsAgainstTeam(
-    selectedGame.opponentId,
+  const matchupsToShow = getFilteredMatchupsAgainstTeam({
+    opponentId: selectedGame.opponentId,
     selectedSeason,
-    maxMatchupsCount
-  );
+    maxMatchupsCount,
+  });
 
   const recordAgainstTeam = {
     overall: {

@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const CompletedGameWrapper = styled.div`
   flex: 1;
-  /* TODO(cleanup): For some reason, specifying a width is needed to force this div to flex. */
-  width: 0;
   display: flex;
   margin-top: 16px;
   align-items: center;

@@ -41,20 +41,16 @@ export const getMatchupsAgainstTeam = (opponentId: TeamId): PastAndFutureMatchup
 
 /**
  * Returns a subset of all matchups against the specified opponent, focused on the selected season.
- *
- * @param {string} opponentId The opponent ID whose matchups to fetch.
- * @param {number} selectedSeason The currently selected season (i.e., the season whose page is
- *     visible).
- * @param {number} [maxMatchupsCount] The maximum number of matchups to include.
- *
- * @return {Object} An object containing a subset of matchups against the specified opponent.
  */
-// TODO: Replace with proper types.
-export const getFilteredMatchupsAgainstTeam = (
-  opponentId: TeamId,
-  selectedSeason: number,
-  maxMatchupsCount = Infinity
-) => {
+export const getFilteredMatchupsAgainstTeam = ({
+  opponentId,
+  selectedSeason,
+  maxMatchupsCount = Infinity,
+}: {
+  readonly opponentId: TeamId;
+  readonly selectedSeason: number;
+  readonly maxMatchupsCount?: number;
+}): readonly ExpandedGameInfo[] => {
   const minMatchupsCount = 5;
   if (maxMatchupsCount < minMatchupsCount) {
     throw new Error(
@@ -74,7 +70,7 @@ export const getFilteredMatchupsAgainstTeam = (
     );
   }
 
-  let filteredMatchupsAgainstTeam;
+  let filteredMatchupsAgainstTeam: readonly (ExpandedGameInfo | undefined)[];
   if (allMatchupsAgainstTeam.length < maxMatchupsCount) {
     // If the actual number of matchups is less than the maximum number of matchups, include all of
     // them.
@@ -87,7 +83,8 @@ export const getFilteredMatchupsAgainstTeam = (
       selectedSeason
     );
 
-    // TODO: add comments explaining this.
+    // Dynamically display a subset of historical matchups, making sure to always include matchups
+    // just before and after the currently selected matchup.
     if (
       selectedMatchupIndexWithinPastMatchupsArray >=
       pastMatchupsAgainstTeam.length - maxMatchupsCount + 2
@@ -151,7 +148,7 @@ export const getFilteredMatchupsAgainstTeam = (
     const desiredFilteredPastMatchupsCount =
       maxMatchupsCount - filteredFutureMatchupsAgainstTeam.length;
 
-    let filteredPastMatchupsAgainstTeam;
+    let filteredPastMatchupsAgainstTeam: readonly (ExpandedGameInfo | undefined)[];
 
     if (pastMatchupsAgainstTeam.length <= desiredFilteredPastMatchupsCount) {
       filteredPastMatchupsAgainstTeam = [...pastMatchupsAgainstTeam];
@@ -162,7 +159,8 @@ export const getFilteredMatchupsAgainstTeam = (
         selectedSeason
       );
 
-      // TODO: add comments.
+      // Dynamically display a subset of historical matchups, making sure to always include matchups
+      // just before and after the currently selected matchup.
       if (
         selectedMatchupIndexWithinPastMatchupsArray === -1 ||
         selectedMatchupIndexWithinPastMatchupsArray >=
@@ -199,5 +197,7 @@ export const getFilteredMatchupsAgainstTeam = (
     ];
   }
 
-  return filteredMatchupsAgainstTeam;
+  return filteredMatchupsAgainstTeam.filter(
+    (matchup): matchup is ExpandedGameInfo => typeof matchup !== 'undefined'
+  );
 };

@@ -66,8 +66,8 @@ export const GameCoverage: React.FC<{
         );
     }
 
-    // TODO(feature): add tooltip which has shows game time info in the user's local timezone as
-    // well as the time zone the game is actually being played in.
+    // TODO(feature): Add tooltip with game time info in both the user's local timezone and the
+    // actual game time zone.
     mainContent = (
       <>
         {tvCoverageContent}

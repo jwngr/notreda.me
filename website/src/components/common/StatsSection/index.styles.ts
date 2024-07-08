@@ -4,14 +4,7 @@ import styled from 'styled-components';
 export const StatsSectionWrapper = styled.div`
   border: solid 3px ${({theme}) => theme.colors.black};
   width: 100%;
-  /* TODO(cleanup): do I need this max-width stuff */
-  /* max-width: 520px; */
   align-self: stretch;
-
-  @media (max-width: 950px) {
-    /* TODO(cleanup): do I need this max-width stuff */
-    /* max-width: 420px; */
-  }
 `;
 
 export const StatsSectionTitle = styled.div`
