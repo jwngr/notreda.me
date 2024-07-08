@@ -1,5 +1,4 @@
 import {format} from 'date-fns/format';
-import _ from 'lodash';
 import React, {Component} from 'react';
 
 import alabamaSchedule from '../../resources/explorables/winPercentage/alabama.json';
@@ -33,13 +32,13 @@ export class WinPercentage extends Component {
     let stanfordWinPercentageByGame = [];
     let ndWinPercentageByYear = [];
 
-    _.forEach(schedule, (yearData, year) => {
+    schedule.forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage;
 
-      _.forEach(schedule[year], ({result, opponentId, date}) => {
+      yearData.forEach(({result, opponentId, date}) => {
         // Exclude future games
         if (result) {
           let gameClassName;
@@ -148,7 +147,7 @@ export class WinPercentage extends Component {
       // OLD: oldDominionSchedule,
     };
 
-    const teamsData = _.map(teamSchedules, (schedule, teamName) => {
+    const teamsData = Object.entries(teamSchedules).map(([teamName, schedule]) => {
       // const results = {W: 0, L: 0, T: 0};
 
       // const gameData = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
@@ -173,9 +172,9 @@ export class WinPercentage extends Component {
 
       const yearData = [];
       const yearResults = {W: 0, L: 0, T: 0};
-      _.forEach(schedule, (season) => {
+      schedule.forEach((season) => {
         let currentYear;
-        _.forEach(season, ({date, result}) => {
+        season.forEach(({date, result}) => {
           currentYear = currentYear || date.split('/')[2];
 
           yearResults[result]++;
@@ -209,9 +208,9 @@ export class WinPercentage extends Component {
       };
     });
 
-    const ndVsMich = _.map([notreDameSchedule, michiganSchedule], (schedule) => {
+    const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
       const results = {W: 0, L: 0, T: 0};
-      const data = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
+      const data = schedule.flatMap(({date, result, oppponent}) => {
         results[result]++;
 
         const winPercentage = (results.W / (results.W + results.L)) * 100;

@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-import _ from 'lodash';
 import React, {Component} from 'react';
 
 import schedule from '../../resources/schedule.json';
@@ -19,7 +18,7 @@ export class WinPercentage extends Component {
     let winPercentageData = [];
     let yearWinPercentageData = [];
 
-    _.forEach(schedule, (yearData, year) => {
+    schedule.forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
@@ -62,7 +61,7 @@ export class WinPercentage extends Component {
       });
 
       // Remove undefined values from array
-      currentYearData = _.filter(currentYearData);
+      currentYearData = currentYearData.filter((d) => !!d);
 
       let yearClassName = '';
       if (yearWinCount > yearLossCount) {

@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import range from 'lodash/range';
 import React from 'react';
 
 import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
@@ -36,7 +36,7 @@ export const Linescore: React.FC<{
   };
 
   const numQuarters = linescore.home.length;
-  const quarterScoreColumns = _.map(_.range(0, numQuarters), (i) => {
+  const quarterScoreColumns = range(0, numQuarters).map((i) => {
     totalScores.home += linescore.home[i];
     totalScores.away += linescore.away[i];
 

@@ -1,6 +1,7 @@
 import * as d3 from 'd3';
-import _ from 'lodash';
 import debounce from 'lodash/debounce';
+import forEach from 'lodash/forEach';
+import isEqual from 'lodash/isEqual';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
@@ -144,8 +145,8 @@ export class LineChart extends Component {
 
     // Scales
     const dataPoints = [];
-    _.forEach(seriesData, (s, i) => {
-      _.forEach(s.values, (d) => {
+    seriesData.forEach((s, i) => {
+      forEach(s.values, (d) => {
         d.seriesIndex = i;
         d.seriesId = s.id;
         dataPoints.push(d);
@@ -177,7 +178,7 @@ export class LineChart extends Component {
       .y((d) => this.scaleY(d.y));
 
     if (showLine) {
-      const showLineIds = showLineLabels && _.size(seriesData) !== 1;
+      const showLineIds = showLineLabels && seriesData.length !== 1;
 
       const teams = gData
         .selectAll('.team')
@@ -272,8 +273,8 @@ export class LineChart extends Component {
 
     // Scales
     const dataPoints = [];
-    _.forEach(seriesData, (s, i) => {
-      _.forEach(s.values, (d) => {
+    seriesData.forEach((s, i) => {
+      forEach(s.values, (d) => {
         d.seriesIndex = i;
         d.seriesId = s.id;
         dataPoints.push(d);
@@ -312,7 +313,7 @@ export class LineChart extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (!_.isEqual(this.props.seriesData, prevProps.seriesData)) {
+    if (!isEqual(this.props.seriesData, prevProps.seriesData)) {
       this.debouncedRedrawChartData();
     }
   }
