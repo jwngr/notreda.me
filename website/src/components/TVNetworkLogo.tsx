@@ -61,7 +61,6 @@ function getTvNetworkLogo(network: TVNetwork): string | null {
     case TVNetwork.ABC_ESPN2:
     case TVNetwork.RAYCOM_WGN:
     case TVNetwork.USA_WGN_TV:
-      // TODO: Add logos for these networks.
       return null;
     default:
       assertNever(network);

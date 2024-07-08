@@ -330,7 +330,7 @@ export class LineChart extends Component {
   }
 
   resizeLineChart() {
-    // TODO: redraw chart when width changes.
+    // TODO: Redraw chart when width changes.
     this.width = this.getLineChartWidth();
     this.lineChart.attr('width', this.width);
   }
@@ -359,7 +359,6 @@ export class LineChart extends Component {
   }
 }
 
-// TODO: add prop types
 LineChart.propTypes = {
   showArea: PropTypes.bool,
   showLineLabels: PropTypes.bool,

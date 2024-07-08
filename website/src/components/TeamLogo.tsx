@@ -14,7 +14,6 @@ export const TeamLogo: React.FC<{
 }> = ({teamId, className}) => {
   const team = teams[teamId];
 
-  // TODO: Is there a less hacky way to do this? I don't want to have to import / load all images.
   const logoModule = teamLogos[`../images/teamLogos/${teamId}.png`] as {default: string};
   const logo = logoModule ? logoModule.default : defaultLogo;
 

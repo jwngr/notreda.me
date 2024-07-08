@@ -18,7 +18,6 @@ export const Linescore: React.FC<{
   const homeTeam = teams[homeTeamId];
   const awayTeam = teams[awayTeamId];
 
-  // TODO: remove once all games have a linescore
   if (!linescore || linescore.home.length === 0) {
     return null;
   }

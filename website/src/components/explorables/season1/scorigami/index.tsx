@@ -25,7 +25,7 @@ export const Scorigami: React.FC = () => {
 
       <Heading>
         <p>Explorables</p>
-        <p>Season 1, Episode TODO</p>
+        <p>Season 1, Episode ???</p>
       </Heading>
 
       <Title>{title}</Title>
@@ -33,7 +33,7 @@ export const Scorigami: React.FC = () => {
       <Subtitle>Game Scores Charted</Subtitle>
 
       <Byline>
-        <p>September TODO, 2018</p>
+        <p>September ???, 2018</p>
         <StyledExternalLink href="https://jwn.gr">Jacob Wenger</StyledExternalLink>
       </Byline>
 

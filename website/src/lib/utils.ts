@@ -55,16 +55,15 @@ export const getTimeZoneString = (date: Date): string | null => {
  * Returns the URL for the provided TV channel which can be used to stream the game.
  */
 export const getTvChannelUrl = (network: TVNetwork): string | null => {
-  // TODO: Audit these for freshness.
   switch (network) {
     case TVNetwork.ABC:
       return 'https://abc.com/watch-live/';
     case TVNetwork.ACCN:
       return 'http://theacc.com/watch/';
     case TVNetwork.CBS:
-      return 'https://www.cbs.com/all-access/';
+      return 'https://www.paramountplus.com/';
     case TVNetwork.CBSSN:
-      return 'https://www.cbssports.com/cbs-sports-network/';
+      return 'https://www.cbssports.com/watch/cbs-sports-network';
     case TVNetwork.ESPN:
       return 'https://www.espn.com/watch/';
     case TVNetwork.ESPN2:
@@ -72,16 +71,18 @@ export const getTvChannelUrl = (network: TVNetwork): string | null => {
     case TVNetwork.FOX:
       return 'https://www.fox.com/live/';
     case TVNetwork.NBC:
-      return 'https://www.nbc.com/apps/';
+      return 'https://www.nbc.com/live/';
     case TVNetwork.NBCSN:
-      return 'https://www.nbc.com/apps/';
+      return 'https://www.nbcsports.com/watch/';
+    case TVNetwork.Peacock:
+      return 'https://www.peacocktv.com/';
     case TVNetwork.TBS:
-      return 'https://www.tbs.com/watchtbs';
+      return 'https://www.tbs.com/watchtbs/';
+    case TVNetwork.USA:
+      return 'https://www.usanetwork.com/live/';
     case TVNetwork.CSTV:
     case TVNetwork.KATZ:
-    case TVNetwork.Peacock:
     case TVNetwork.SPORTSCHANNEL:
-    case TVNetwork.USA:
     case TVNetwork.WGN_TV:
     case TVNetwork.ABC_ESPN:
     case TVNetwork.ABC_ESPN2:
