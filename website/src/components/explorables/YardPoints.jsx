@@ -242,7 +242,7 @@ export class YardPoints extends Component {
         <TweetEmbed tweetId="1016049395110825984" options={{cards: 'hidden'}} />
 
         <div>
-          <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />
+          <svg ref={(r) => (this.scatterPlotRef = r)} />
           {tooltipContent}
         </div>
 
