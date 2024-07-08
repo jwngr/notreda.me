@@ -4,7 +4,7 @@ import React from 'react';
 import scorigamiData from '../data.json';
 import {ScorigamiCell, ScorigamiChartWrapper, ScorigamiRow} from './index.styles';
 
-export const ScorigamiChart = () => {
+export const ScorigamiChart: React.FC = () => {
   const longestRowLength = _.max(scorigamiData.map((row) => (row ? row.length : 0)));
 
   return (
@@ -14,9 +14,9 @@ export const ScorigamiChart = () => {
         return (
           <ScorigamiRow>
             {_.range(0, longestRowLength).map((i) => {
-              let numGamesWithScore = _.get(row, i, 0);
+              const numGamesWithScore = _.get(row, i, 0) ?? 0;
               return (
-                <ScorigamiCell numGamesWithScore={numGamesWithScore}>
+                <ScorigamiCell $numGamesWithScore={numGamesWithScore}>
                   {numGamesWithScore === 0 ? null : numGamesWithScore}
                 </ScorigamiCell>
               );

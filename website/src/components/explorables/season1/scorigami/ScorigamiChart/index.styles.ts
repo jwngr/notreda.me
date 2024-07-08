@@ -23,7 +23,11 @@ export const ScorigamiRow = styled.div`
   }
 `;
 
-export const ScorigamiCell = styled.div`
+interface ScorigamiCellProps {
+  readonly $numGamesWithScore: number;
+}
+
+export const ScorigamiCell = styled.div<ScorigamiCellProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,10 +44,10 @@ export const ScorigamiCell = styled.div`
     border-right-width: 1px;
   }
 
-  background-color: ${({theme, numGamesWithScore}) => {
+  background-color: ${({theme, $numGamesWithScore}) => {
     let color = `${theme.colors.gray}40`;
-    if (numGamesWithScore > 0) {
-      color = darken(0.02 * numGamesWithScore, theme.colors.green);
+    if ($numGamesWithScore > 0) {
+      color = darken(0.02 * $numGamesWithScore, theme.colors.green);
     }
     return color;
   }};
