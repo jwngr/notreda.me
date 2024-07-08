@@ -93,3 +93,7 @@ export const getTvChannelUrl = (network: TVNetwork): string | null => {
       assertNever(network);
   }
 };
+
+export const getNumberWithCommas = (val: number): string => {
+  return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+};

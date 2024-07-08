@@ -4,6 +4,7 @@ import Media from 'react-media';
 import {GameInfo, Team, TeamId} from '../../../../models';
 import teamsJson from '../../../../resources/teams.json';
 import {
+  FinalScore,
   Score,
   TeamDetailsWrapper,
   TeamImage,
@@ -24,10 +25,11 @@ const TeamInfo: React.FC<{
   readonly homeOrAway: 'home' | 'away';
 }> = ({teamId, ranking, record, homeOrAway}) => {
   const team = teams[teamId];
+  const isHomeGame = homeOrAway === 'home';
   return (
-    <TeamWrapper className={homeOrAway}>
-      <TeamImage teamId={teamId} className={homeOrAway} />
-      <TeamDetailsWrapper className={homeOrAway}>
+    <TeamWrapper $isHomeGame={isHomeGame}>
+      <TeamImage teamId={teamId} $isHomeGame={isHomeGame} />
+      <TeamDetailsWrapper $isHomeGame={isHomeGame}>
         <TeamName>
           {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
           {team.name}
@@ -83,7 +85,7 @@ export const TotalScore: React.FC<{
       {(matches) =>
         matches ? (
           <TotalScoreWrapper>
-            <TeamDetailsWrapper className="away">
+            <TeamDetailsWrapper $isHomeGame={false}>
               <TeamName>
                 {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
                 {awayTeam.name}
@@ -91,7 +93,7 @@ export const TotalScore: React.FC<{
               <TeamNickname>{awayTeam.nickname}</TeamNickname>
               {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
             </TeamDetailsWrapper>
-            <TeamDetailsWrapper className="home">
+            <TeamDetailsWrapper $isHomeGame>
               <TeamName>
                 {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
                 {homeTeam.name}
@@ -99,11 +101,11 @@ export const TotalScore: React.FC<{
               <TeamNickname>{homeTeam.nickname}</TeamNickname>
               {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
             </TeamDetailsWrapper>
-            <TeamImage className="away" teamId={awayTeamId} />
-            <TeamImage className="home" teamId={homeTeamId} />
+            <TeamImage $isHomeGame={false} teamId={awayTeamId} />
+            <TeamImage $isHomeGame teamId={homeTeamId} />
             {/* TODO: Introduce `CompletedGame` type so this `?` is not required. */}
-            <Score className="away">{game.score?.away}</Score>
-            <Score className="home">{game.score?.home}</Score>
+            <Score $isHomeGame={false}>{game.score?.away}</Score>
+            <Score $isHomeGame>{game.score?.home}</Score>
           </TotalScoreWrapper>
         ) : (
           <TotalScoreWrapper>
@@ -113,9 +115,9 @@ export const TotalScore: React.FC<{
               record={awayRecord}
               homeOrAway="away"
             />
-            <Score>
+            <FinalScore>
               {game.score?.away} - {game.score?.home}
-            </Score>
+            </FinalScore>
             <TeamInfo
               teamId={homeTeamId}
               ranking={homeApRanking}

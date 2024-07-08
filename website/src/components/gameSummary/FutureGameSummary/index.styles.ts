@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import {TeamLogo} from '../../TeamLogo';
 
@@ -61,32 +61,22 @@ export const TeamWrapper = styled.div`
   }
 `;
 
-export const TeamDetailsWrapper = styled.div`
+interface TeamDetailsWrapperProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
   display: flex;
-  text-align: left;
   flex-direction: column;
   font-family: 'Inter UI', serif;
 
-  &.away {
-    text-align: right;
-  }
+  text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
 
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    &.away,
-    &.home {
-      text-align: right;
-      align-self: center;
-      justify-self: right;
-    }
-
-    &.away {
-      grid-area: awayTeamDetails;
-    }
-
-    &.home {
-      text-align: right;
-      grid-area: homeTeamDetails;
-    }
+    text-align: right;
+    align-self: center;
+    justify-self: right;
+    grid-area: ${({$isHomeGame}) => ($isHomeGame ? 'homeTeamDetails' : 'awayTeamDetails')};
   }
 `;
 
@@ -107,40 +97,47 @@ export const TeamNickname = styled.p`
   }
 `;
 
-export const TeamImage = styled(TeamLogo)`
+interface TeamImageProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const TeamImage = styled(TeamLogo)<TeamImageProps>`
   width: 52px;
   height: 52px;
 
-  &.away {
-    order: 1;
-    margin-left: 8px;
-    margin-right: 8px;
-  }
+  ${({$isHomeGame}) =>
+    $isHomeGame
+      ? css`
+          margin-left: 8px;
+          margin-right: 8px;
 
-  &.home {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
+          @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
+            width: 72px;
+            height: 72px;
 
-  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    width: 72px;
-    height: 72px;
+            margin: 0 16px 0 0;
+            align-self: center;
+            justify-self: center;
 
-    &.away,
-    &.home {
-      margin: 0 16px 0 0;
-      align-self: center;
-      justify-self: center;
-    }
+            grid-area: homeTeamLogo;
+          }
+        `
+      : css`
+          order: 1;
+          margin-left: 8px;
+          margin-right: 8px;
 
-    &.away {
-      grid-area: awayTeamLogo;
-    }
+          @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
+            width: 72px;
+            height: 72px;
 
-    &.home {
-      grid-area: homeTeamLogo;
-    }
-  }
+            margin: 0 16px 0 0;
+            align-self: center;
+            justify-self: center;
+
+            grid-area: awayTeamLogo;
+          }
+        `}
 `;
 
 export const TeamRanking = styled.span`

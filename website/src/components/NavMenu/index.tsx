@@ -29,7 +29,7 @@ export const NavMenu: React.FC<{
   });
 
   return (
-    <NavMenuWrapper className={open ? 'open' : ''}>
+    <NavMenuWrapper $isOpen={open}>
       <NavMenuLinksSectionWrapper>
         <MavMenuDecadeHeader>
           <p>Links</p>

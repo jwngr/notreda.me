@@ -13,10 +13,6 @@ export const ScheduleScreenWrapper = styled.div`
     margin: 39px 6px 6px 6px;
     padding: 40px 0px 0px 0px;
   }
-
-  &.nav-menu-open {
-    transform: scale(0.8);
-  }
 `;
 
 export const ScheduleWrapper = styled.div`
@@ -156,7 +152,11 @@ export const HeaderTitle = styled.div`
   }
 `;
 
-const PreviousAndNextYearLink = styled(Link)`
+interface PreviousAndNextYearLinkProps {
+  readonly $isVisible: boolean;
+}
+
+const PreviousAndNextYearLink = styled(Link)<PreviousAndNextYearLinkProps>`
   font-family: 'Bungee';
   font-size: 18px;
   text-decoration: none;
@@ -172,9 +172,7 @@ const PreviousAndNextYearLink = styled(Link)`
     background-color: ${({theme}) => lighten(0.1, theme.colors.green)};
   }
 
-  &.hidden {
-    visibility: hidden;
-  }
+  ${({$isVisible}) => ($isVisible ? null : 'visibility: hidden;')}
 
   @media (max-width: 1200px) {
     font-size: 16px;

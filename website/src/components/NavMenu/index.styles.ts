@@ -1,9 +1,13 @@
 import {Link} from 'react-router-dom';
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
 
-export const NavMenuWrapper = styled.div`
+interface NavMenuWrapperProps {
+  readonly $isOpen: boolean;
+}
+
+export const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
   position: fixed;
   width: 720px;
   max-width: 100%;
@@ -26,11 +30,14 @@ export const NavMenuWrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  &.open {
-    visibility: visible;
-    transform: translateX(0px);
-    transition: transform 0.5s;
-  }
+  ${({$isOpen}) =>
+    $isOpen
+      ? css`
+          visibility: visible;
+          transform: translateX(0px);
+          transition: transform 0.5s;
+        `
+      : null}
 
   @media (max-width: 480px) {
     padding-bottom: 0;
