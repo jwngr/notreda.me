@@ -16,7 +16,7 @@ export class YardPoints extends Component {
 
     let yardsDifferentialData = [];
 
-    schedule.forEach((yearData, year) => {
+    Object.entries(schedule).forEach((yearData, year) => {
       let currentData = yearData.map(({stats, score, opponentId, result, isHomeGame}) => {
         if (typeof stats !== 'undefined') {
           let rushYardsDifferential;

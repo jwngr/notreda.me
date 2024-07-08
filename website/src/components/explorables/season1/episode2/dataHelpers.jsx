@@ -1,4 +1,5 @@
-import _ from 'lodash';
+import range from 'lodash/range';
+import update from 'lodash/update';
 import React from 'react';
 
 import undefeatedSeasons_all from './data/undefeatedSeasons_all.json';
@@ -11,23 +12,23 @@ const getFirstLossSeriesData = (weekOfFirstLossData, startSeason, endSeason) => 
   const firstLossOfSeasonIndexes = [];
   const numSeasonsWithAtLeastThisManyGames = [];
 
-  _.range(startSeason, endSeason + 1).forEach((season) => {
+  range(startSeason, endSeason + 1).forEach((season) => {
     // Exclude years ND did not play.
     if (season !== 1890 && season !== 1891) {
       const {numGamesInSeason, numGamesPlayedBeforeFirstLoss} = weekOfFirstLossData[season];
 
-      _.range(0, numGamesPlayedBeforeFirstLoss).forEach((i) => {
-        _.update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + 1);
+      range(0, numGamesPlayedBeforeFirstLoss).forEach((i) => {
+        update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + 1);
       });
 
-      _.range(0, numGamesInSeason).forEach((i) => {
-        _.update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + 1);
+      range(0, numGamesInSeason).forEach((i) => {
+        update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + 1);
       });
     }
   });
 
   const weeklyLossPercentages = [];
-  _.range(0, _.size(firstLossOfSeasonIndexes) + 1).forEach((weekIndex) => {
+  range(0, firstLossOfSeasonIndexes.length + 1).forEach((weekIndex) => {
     let percentageOfSeasonsWithFirstLossLaterThanThisWeek = 100;
     if (firstLossOfSeasonIndexes[weekIndex]) {
       percentageOfSeasonsWithFirstLossLaterThanThisWeek =
@@ -69,7 +70,7 @@ export const getAlabamaFirstLossSeriesData = (startSeason, endSeason) => {
 export const getNdFirstLossOverTimeBarChartData = (startSeason, endSeason) => {
   const gamesPlayedBeforeFirstLossPerSeason = [];
 
-  _.range(startSeason, endSeason + 1).forEach((season) => {
+  range(startSeason, endSeason + 1).forEach((season) => {
     // Exclude years ND did not play.
     if (season !== 1890 && season !== 1891) {
       const {numGamesInSeason, recordBeforeFirstLoss, numGamesPlayedBeforeFirstLoss} =
@@ -101,17 +102,17 @@ export const getAllTeamFirstLossSeriesData = (startSeason, endSeason) => {
   const firstLossOfSeasonIndexes = [];
   const numSeasonsWithAtLeastThisManyGames = [];
 
-  _.range(startSeason, endSeason + 1).forEach((season) => {
+  range(startSeason, endSeason + 1).forEach((season) => {
     const {losslessRecordsAttained, numTeams} = weekOfFirstLoss_all[season];
 
-    _.range(0, _.size(losslessRecordsAttained)).forEach((i) => {
-      _.update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + losslessRecordsAttained[i]);
-      _.update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + numTeams);
+    range(0, losslessRecordsAttained.length).forEach((i) => {
+      update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + losslessRecordsAttained[i]);
+      update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + numTeams);
     });
   });
 
   const weeklyLossPercentages = [];
-  _.range(0, 15).forEach((weekIndex) => {
+  range(0, 15).forEach((weekIndex) => {
     let percentageOfSeasonsWithFirstLossLaterThanThisWeek = 100;
     if (firstLossOfSeasonIndexes[weekIndex]) {
       percentageOfSeasonsWithFirstLossLaterThanThisWeek =
@@ -146,13 +147,13 @@ export const getUndefeatedTeamCountsPerSeasonTableData = (startSeason, endSeason
   const undefeatedTeamCounts = [];
   const latestYearWithUndefeatedTeamCounts = [];
 
-  _.range(startSeason, endSeason + 1).forEach((season) => {
-    const undefeatedTeamCountForSeason = _.size(undefeatedSeasons_all[season]);
+  range(startSeason, endSeason + 1).forEach((season) => {
+    const undefeatedTeamCountForSeason = (undefeatedSeasons_all[season] ?? []).length;
     latestYearWithUndefeatedTeamCounts[undefeatedTeamCountForSeason] = season;
-    _.update(undefeatedTeamCounts, [undefeatedTeamCountForSeason], (x) => (x || 0) + 1);
+    update(undefeatedTeamCounts, [undefeatedTeamCountForSeason], (x) => (x || 0) + 1);
   });
 
-  return _.range(0, _.size(undefeatedTeamCounts)).map((i) => [
+  return range(0, undefeatedTeamCounts.length).map((i) => [
     i,
     undefeatedTeamCounts[i],
     latestYearWithUndefeatedTeamCounts[i],
@@ -160,7 +161,7 @@ export const getUndefeatedTeamCountsPerSeasonTableData = (startSeason, endSeason
 };
 
 export const getUndefeatedTeamCountsPerSeasonBarChartData = (startSeason, endSeason) => {
-  const undefeatedTeamCountsPerSeason = _.range(startSeason, endSeason + 1).map((season) => {
+  const undefeatedTeamCountsPerSeason = range(startSeason, endSeason + 1).map((season) => {
     return {
       season,
       undefeatedTeams: undefeatedSeasons_all[season] || [],
@@ -168,7 +169,7 @@ export const getUndefeatedTeamCountsPerSeasonBarChartData = (startSeason, endSea
   });
 
   return undefeatedTeamCountsPerSeason.map(({season, undefeatedTeams}) => {
-    const undefeatedTeamsCount = _.size(undefeatedTeams);
+    const undefeatedTeamsCount = undefeatedTeams.length;
 
     const teamOrTeams = undefeatedTeamsCount === 1 ? 'team' : 'teams';
     const undefeatedTeamList =
@@ -192,7 +193,7 @@ export const getUndefeatedTeamCountsPerSeasonBarChartData = (startSeason, endSea
 export const getUndefeatedSeasonCountsPerTeamTableData = (startSeason, endSeason) => {
   const undefeatedSeasonCountsPerTeam = {};
 
-  _.range(startSeason, endSeason + 1).forEach((season) => {
+  range(startSeason, endSeason + 1).forEach((season) => {
     if (season !== 1871) {
       // No games were played in 1871.
       undefeatedSeasons_all[season].forEach((teamName) => {
@@ -207,13 +208,12 @@ export const getUndefeatedSeasonCountsPerTeamTableData = (startSeason, endSeason
     }
   });
 
-  return _.chain(undefeatedSeasonCountsPerTeam)
-    .sortBy(({count}) => -count)
+  return Object.values(undefeatedSeasonCountsPerTeam)
+    .sort(({count}) => -count)
     .map(({count, teamName, latestSeason}) => [teamName, count, latestSeason])
-    .take(10)
-    .value();
+    .slice(0, 10);
 };
 
 export const getNdUndefeatedSeasonTableData = () => {
-  return _.map(undefeatedSeasons_nd, ({season, numGames, record}) => [season, numGames, record]);
+  return undefeatedSeasons_nd.map(({season, numGames, record}) => [season, numGames, record]);
 };

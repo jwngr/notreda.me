@@ -32,7 +32,7 @@ export class WinPercentage extends Component {
     let stanfordWinPercentageByGame = [];
     let ndWinPercentageByYear = [];
 
-    schedule.forEach((yearData, year) => {
+    Object.entries(schedule).forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
@@ -172,7 +172,7 @@ export class WinPercentage extends Component {
 
       const yearData = [];
       const yearResults = {W: 0, L: 0, T: 0};
-      schedule.forEach((season) => {
+      Object.entries(schedule).forEach((season) => {
         let currentYear;
         season.forEach(({date, result}) => {
           currentYear = currentYear || date.split('/')[2];

@@ -18,7 +18,7 @@ export class WinPercentage extends Component {
     let winPercentageData = [];
     let yearWinPercentageData = [];
 
-    schedule.forEach((yearData, year) => {
+    Object.entries(schedule).forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
