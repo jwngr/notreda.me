@@ -2,10 +2,7 @@ import React, {useState} from 'react';
 
 import {Form, FormInput, HiddenBotInput, Intro, SubscribeButton, Wrapper} from './index.styles';
 
-export const NewsletterSignupForm: React.FC<{
-  readonly title: string;
-  readonly description: string;
-}> = () => {
+export const NewsletterSignupForm: React.FC = () => {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
 

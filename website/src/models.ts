@@ -311,3 +311,11 @@ export enum TeamId {
   WVU = 'WVU',
   YALE = 'YALE',
 }
+
+export interface BlogPostInfo {
+  readonly slug: string;
+  readonly title: string;
+  readonly subtitle: string;
+  readonly date: string;
+  readonly description: string;
+}

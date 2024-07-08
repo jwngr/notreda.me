@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
-import {TVNetwork} from '../models';
+import {GameResult, TVNetwork} from '../models';
 import {TeamLogo} from './TeamLogo';
 
 interface GameWrapperProps {
@@ -201,28 +201,39 @@ export const Score = styled.div`
   }
 `;
 
-export const ScoreResult = styled.p`
+interface ScoreResultProps {
+  readonly $result: GameResult;
+}
+
+export const ScoreResult = styled.p<ScoreResultProps>`
   width: 20px;
   margin-right: 4px;
 
-  &.win {
-    color: ${({theme}) => theme.colors.green};
-    margin-right: 5px;
-    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
-    -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.green)};
-  }
-
-  &.loss {
-    color: ${({theme}) => theme.colors.red};
-    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
-    -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.red)};
-  }
-
-  &.tie {
-    color: ${({theme}) => theme.colors.gold};
-    -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
-    -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.gold)};
-  }
+  ${({$result}) => {
+    switch ($result) {
+      case GameResult.Win:
+        return css`
+          color: ${({theme}) => theme.colors.green};
+          margin-right: 5px;
+          -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
+          -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.green)};
+        `;
+      case GameResult.Loss:
+        return css`
+          color: ${({theme}) => theme.colors.red};
+          -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
+          -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.red)};
+        `;
+      case GameResult.Tie:
+        return css`
+          color: ${({theme}) => theme.colors.gold};
+          -webkit-text-stroke: 2px; /* TODO: cross-browser solution */
+          -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.gold)};
+        `;
+      default:
+        assertNever($result);
+    }
+  }}
 `;
 
 interface ScoreTotalsProps {

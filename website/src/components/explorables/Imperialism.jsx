@@ -124,7 +124,7 @@ export class Imperialism extends Component {
         <Paragraph>Here is a map:</Paragraph>
 
         <div>
-          <svg className="imperialism-map" ref={(r) => (this.imperialismMapRef = r)} />
+          <svg ref={(r) => (this.imperialismMapRef = r)} />
         </div>
 
         <Note>

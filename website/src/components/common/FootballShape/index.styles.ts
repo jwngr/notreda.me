@@ -4,69 +4,76 @@ import styled from 'styled-components';
 import {getColorForResult} from '../../../lib/utils';
 import {GameResult} from '../../../models';
 
-interface FootballShapeSvgProps {
+interface FootballShapePathProps {
   readonly $type: string;
   readonly $gameResult: GameResult | null;
   readonly $isSelected: boolean;
+}
+
+export const FootballShapePath = styled.path<FootballShapePathProps>`
+  cursor: pointer;
+  stroke-width: 2px;
+  stroke: ${({theme, $type, $gameResult, $isSelected}) => {
+    let color;
+    if ($isSelected) {
+      color = theme.colors.gold;
+    } else if ($type === 'past') {
+      color = $gameResult ? getColorForResult($gameResult) : 'black';
+    } else {
+      color = theme.colors.black;
+    }
+
+    return darken(0.2, color);
+  }};
+  stroke-dasharray: ${({$type}) => ($type === 'future' ? '4px' : 0)};
+  stroke-dashoffset: 3px;
+`;
+
+interface FootballLacesPathProps {
+  readonly $isSelected: boolean;
+}
+
+export const FootballLacesPath = styled.g<FootballLacesPathProps>`
+  cursor: pointer;
+  stroke-width: 2px;
+  stroke-linecap: round;
+
+  line {
+    stroke: ${({theme, $isSelected}) => {
+      const color = $isSelected ? theme.colors.gold : theme.colors.black;
+      return darken(0.2, color);
+    }};
+  }
+`;
+
+interface FootballPatternProps {
+  readonly $type: string;
+  readonly $gameResult: GameResult | null;
   readonly $isHomeGame: boolean;
 }
 
-export const FootballShapeSvg = styled.svg<FootballShapeSvgProps>`
-  .football {
-    cursor: pointer;
-    stroke-width: 2px;
-    stroke: ${({theme, $type, $gameResult, $isSelected}) => {
-      let color;
-      if ($isSelected) {
-        color = theme.colors.gold;
-      } else if ($type === 'past') {
-        color = $gameResult ? getColorForResult($gameResult) : 'black';
+export const FootballPattern = styled.pattern<FootballPatternProps>`
+  rect {
+    fill: ${({$type, $gameResult}) => {
+      if ($type === 'past') {
+        return $gameResult ? getColorForResult($gameResult) : 'black';
       } else {
-        color = theme.colors.black;
+        return 'transparent';
+      }
+    }};
+  }
+
+  line {
+    stroke: ${({theme, $gameResult, $isHomeGame}) => {
+      if ($isHomeGame) {
+        return 'transparent';
       }
 
-      return darken(0.2, color);
+      return $gameResult
+        ? darken(0.2, getColorForResult($gameResult))
+        : darken(0.3, theme.colors.lightGray);
     }};
-    stroke-dasharray: ${({$type}) => ($type === 'future' ? '4px' : 0)};
-    stroke-dashoffset: 3px;
-  }
-
-  .laces {
-    cursor: pointer;
     stroke-width: 2px;
-    stroke-linecap: round;
-
-    line {
-      stroke: ${({theme, $isSelected}) => {
-        const color = $isSelected ? theme.colors.gold : theme.colors.black;
-        return darken(0.2, color);
-      }};
-    }
-  }
-
-  .pattern {
-    rect {
-      fill: ${({$type, $gameResult}) => {
-        if ($type === 'past') {
-          return $gameResult ? getColorForResult($gameResult) : 'black';
-        } else {
-          return 'transparent';
-        }
-      }};
-    }
-
-    line {
-      stroke: ${({theme, $gameResult, $isHomeGame}) => {
-        if ($isHomeGame) {
-          return 'transparent';
-        }
-
-        return $gameResult
-          ? darken(0.2, getColorForResult($gameResult))
-          : darken(0.3, theme.colors.lightGray);
-      }};
-      stroke-width: 2px;
-    }
   }
 `;
 

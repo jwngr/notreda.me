@@ -16,7 +16,7 @@ import {ScorigamiChart} from './ScorigamiChart';
 
 const title = 'Scorigami';
 
-export const Scorigami = () => {
+export const Scorigami: React.FC = () => {
   return (
     <Wrapper>
       <Helmet>

@@ -21,79 +21,51 @@ export const TotalScoreWrapper = styled.div`
   }
 `;
 
-export const TeamWrapper = styled.div`
+interface TeamWrapperProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const TeamWrapper = styled.div<TeamWrapperProps>`
   flex: 1;
   display: flex;
   align-items: center;
-
-  &.away {
-    justify-content: flex-end;
-  }
-
-  &.home {
-    justify-content: flex-start;
-  }
+  justify-content: ${({$isHomeGame}) => ($isHomeGame ? 'flex-start' : 'flex-end')};
 `;
 
-export const TeamImage = styled(TeamLogo)`
+interface TeamImageProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const TeamImage = styled(TeamLogo)<TeamImageProps>`
   width: 52px;
+  margin-left: 8px;
+  margin-right: 8px;
   height: 52px;
-
-  &.away {
-    order: 1;
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-
-  &.home {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
+  order: ${({$isHomeGame}) => ($isHomeGame ? 0 : 1)};
 
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    &.away,
-    &.home {
-      margin: 0 16px 0 0;
-      align-self: center;
-      justify-self: center;
-    }
-
-    &.away {
-      grid-area: awayTeamLogo;
-    }
-
-    &.home {
-      grid-area: homeTeamLogo;
-    }
+    margin: 0 16px 0 0;
+    align-self: center;
+    justify-self: center;
+    grid-area: ${({$isHomeGame}) => ($isHomeGame ? 'homeTeamLogo' : 'awayTeamLogo')};
   }
 `;
 
-export const TeamDetailsWrapper = styled.div`
+interface TeamDetailsWrapperProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
   display: flex;
-  text-align: left;
   flex-direction: column;
+  text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
   font-family: 'Inter UI', serif;
 
-  &.away {
-    text-align: right;
-  }
-
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    &.away,
-    &.home {
-      text-align: right;
-      align-self: center;
-      justify-self: right;
-    }
-
-    &.away {
-      grid-area: awayTeamDetails;
-    }
-
-    &.home {
-      text-align: right;
-      grid-area: homeTeamDetails;
-    }
+    text-align: right;
+    align-self: center;
+    justify-self: right;
+    grid-area: ${({$isHomeGame}) => ($isHomeGame ? 'homeTeamDetails' : 'awayTeamDetails')};
   }
 `;
 
@@ -117,24 +89,25 @@ export const TeamRecord = styled.p`
   color: ${({theme}) => theme.colors.gray};
 `;
 
-export const Score = styled.p`
+interface ScoreProps {
+  readonly $isHomeGame: boolean;
+}
+
+export const Score = styled.p<ScoreProps>`
   font-size: 36px;
-  text-align: center;
+  text-align: right;
   white-space: nowrap;
 
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    &.away,
-    &.home {
-      align-self: center;
-      justify-self: center;
-    }
-
-    &.away {
-      grid-area: awayTeamScore;
-    }
-
-    &.home {
-      grid-area: homeTeamScore;
-    }
+    align-self: center;
+    justify-self: center;
+    grid-area: ${({$isHomeGame}) => ($isHomeGame ? 'homeTeamScore' : 'awayTeamScore')};
   }
+`;
+
+export const FinalScore = styled.p`
+  margin: 0 8px;
+  font-size: 36px;
+  align-self: center;
+  justify-self: center;
 `;

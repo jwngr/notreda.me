@@ -4,7 +4,7 @@ import React from 'react';
 import Media from 'react-media';
 
 import shamrockImage from '../images/shamrock.png';
-import {GameInfo, Team, TeamId, TVNetwork} from '../models';
+import {GameInfo, GameResult, Team, TeamId, TVNetwork} from '../models';
 import teamsJson from '../resources/teams.json';
 import {
   AwayGamePrefix,
@@ -53,11 +53,11 @@ export const Game: React.FC<{
 
     let scoreResult;
     if (notreDameScore > opponentScore) {
-      scoreResult = <ScoreResult className="win">W</ScoreResult>;
+      scoreResult = <ScoreResult $result={GameResult.Win}>W</ScoreResult>;
     } else if (opponentScore > notreDameScore) {
-      scoreResult = <ScoreResult className="loss">L</ScoreResult>;
+      scoreResult = <ScoreResult $result={GameResult.Loss}>L</ScoreResult>;
     } else {
-      scoreResult = <ScoreResult className="tie">T</ScoreResult>;
+      scoreResult = <ScoreResult $result={GameResult.Tie}>T</ScoreResult>;
     }
 
     let overtimeContent;

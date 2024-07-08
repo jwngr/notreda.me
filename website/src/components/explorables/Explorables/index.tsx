@@ -2,6 +2,7 @@ import React from 'react';
 import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 
+import {BlogPostInfo} from '../../../models';
 import {NewsletterSignupForm} from '../../common/NewsletterSignupForm';
 import {
   BlogPostCardWrapper,
@@ -13,7 +14,7 @@ import {
   Wrapper,
 } from './index.styles';
 
-const posts = [
+const posts: readonly BlogPostInfo[] = [
   {
     slug: 's1e1-down-to-the-wire',
     title: 'Down To The Wire',
@@ -32,7 +33,7 @@ const posts = [
   },
 ];
 
-const BlogPostCard = ({slug, date, title, subtitle, description}) => (
+const BlogPostCard: React.FC<BlogPostInfo> = ({slug, date, title, subtitle, description}) => (
   <BlogPostCardWrapper>
     <Link to={`/explorables/${slug}`}>
       {title}: {subtitle}
@@ -42,7 +43,7 @@ const BlogPostCard = ({slug, date, title, subtitle, description}) => (
   </BlogPostCardWrapper>
 );
 
-export const Explorables = () => (
+export const Explorables: React.FC = () => (
   <>
     <Helmet>
       <title>Explorables | notreda.me</title>

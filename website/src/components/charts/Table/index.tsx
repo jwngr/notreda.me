@@ -1,10 +1,12 @@
-import _ from 'lodash';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import {TableRow, TableWrapper} from './index.styles';
 
-export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
+export const Table: React.FC<{
+  readonly headers: (string | {readonly text: string; readonly width: string})[];
+  readonly rows: string[][];
+  readonly highlightedRowIndexes?: number[];
+}> = ({headers, rows, highlightedRowIndexes = []}) => {
   const headerRow = (
     <tr key="header">
       {headers.map((header, i) => {
@@ -12,7 +14,7 @@ export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
           return <th key={`th-${i}`}>{header}</th>;
         } else {
           return (
-            <th width={header.width} key={`th-${i}`}>
+            <th key={`th-${i}`} style={{width: header.width}}>
               {header.text}
             </th>
           );
@@ -23,7 +25,11 @@ export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
 
   const dataRows = rows.map((row, i) => {
     return (
-      <TableRow key={`tr-${i}`} $isHighlighted={_.includes(highlightedRowIndexes, i)}>
+      <TableRow
+        key={`tr-${i}`}
+        $isOdd={i % 2 !== 0}
+        $isHighlighted={highlightedRowIndexes.includes(i)}
+      >
         {row.map((item, j) => (
           <td key={`td-${i}-${j}`}>{item}</td>
         ))}
@@ -41,10 +47,4 @@ export const Table = ({headers, rows, highlightedRowIndexes = []}) => {
       </table>
     </TableWrapper>
   );
-};
-
-Table.propTypes = {
-  rows: PropTypes.array.isRequired,
-  headers: PropTypes.array.isRequired,
-  highlightedRowIndexes: PropTypes.array,
 };

@@ -287,7 +287,7 @@ export class Explorables extends Component {
     return (
       <div>
         <svg className="line-chart--base" ref={(r) => (this.chartRef = r)} />
-        <svg className="quadrant-chart" ref={(r) => (this.scatterPlotRef = r)} />
+        <svg ref={(r) => (this.scatterPlotRef = r)} />
       </div>
     );
   }

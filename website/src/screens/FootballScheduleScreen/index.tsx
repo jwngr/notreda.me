@@ -67,10 +67,7 @@ export const FootballScheduleScreen: React.FC = () => {
     <>
       <ScheduleScreenWrapper onClick={closeNavMenuIfOpen}>
         <Header>
-          <PreviousYearLink
-            className={selectedSeason === 1887 ? 'hidden' : undefined}
-            to={`/${previousYear}`}
-          >
+          <PreviousYearLink to={`/${previousYear}`} $isVisible={selectedSeason !== 1887}>
             <span>&#x2190;</span>
             <Media query="(min-width: 700px)">
               <>{previousYear}</>
@@ -79,10 +76,7 @@ export const FootballScheduleScreen: React.FC = () => {
 
           <HeaderTitle>{`Notre Dame Football ${selectedSeason}`}</HeaderTitle>
 
-          <NextYearLink
-            className={selectedSeason === LATEST_YEAR ? 'hidden' : undefined}
-            to={`/${nextYear}`}
-          >
+          <NextYearLink to={`/${nextYear}`} $isVisible={selectedSeason !== LATEST_YEAR}>
             <Media query="(min-width: 700px)">
               <>{nextYear}</>
             </Media>

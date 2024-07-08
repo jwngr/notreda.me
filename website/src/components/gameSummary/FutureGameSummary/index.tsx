@@ -32,9 +32,9 @@ const TeamInfo: React.FC<{
 }> = ({teamId, ranking, record, homeOrAway}) => {
   const team = teams[teamId];
   return (
-    <TeamWrapper className={homeOrAway}>
-      <TeamImage teamId={teamId} className={homeOrAway} />
-      <TeamDetailsWrapper className={homeOrAway}>
+    <TeamWrapper>
+      <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} />
+      <TeamDetailsWrapper $isHomeGame={homeOrAway === 'home'}>
         <TeamName>
           {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
           {team.name}
@@ -91,7 +91,7 @@ export const FutureGameSummary: React.FC<{
         {(matches) =>
           matches ? (
             <TeamsWrapper>
-              <TeamDetailsWrapper className="away">
+              <TeamDetailsWrapper $isHomeGame={false}>
                 <TeamName>
                   {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
                   {awayTeam.name}
@@ -99,7 +99,7 @@ export const FutureGameSummary: React.FC<{
                 <TeamNickname>{awayTeam.nickname}</TeamNickname>
                 {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
               </TeamDetailsWrapper>
-              <TeamDetailsWrapper className="home">
+              <TeamDetailsWrapper $isHomeGame>
                 <TeamName>
                   {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
                   {homeTeam.name}
@@ -107,8 +107,8 @@ export const FutureGameSummary: React.FC<{
                 <TeamNickname>{homeTeam.nickname}</TeamNickname>
                 {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
               </TeamDetailsWrapper>
-              <TeamImage className="away" teamId={awayTeamId} />
-              <TeamImage className="home" teamId={homeTeamId} />
+              <TeamImage teamId={awayTeamId} $isHomeGame={false} />
+              <TeamImage teamId={homeTeamId} $isHomeGame />
               <AtOrVersus>{atOrVs}</AtOrVersus>
             </TeamsWrapper>
           ) : (

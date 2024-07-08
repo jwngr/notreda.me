@@ -340,12 +340,12 @@ export class WinPercentage extends Component {
 
         {/*
         <div>
-          <svg className='chart' ref={(r) => this.chartRef = r}></svg>
+          <svg ref={(r) => this.chartRef = r}></svg>
           {tooltipContent}
         </div>
 
         <div>
-          <svg className='year-chart' ref={(r) => this.yearChartRef = r}></svg>
+          <svg ref={(r) => this.yearChartRef = r}></svg>
           {yearTooltipContent}
         </div>
       */}
