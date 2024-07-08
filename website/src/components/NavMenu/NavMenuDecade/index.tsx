@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import rangeRight from 'lodash/rangeRight';
 import React from 'react';
 
 import {CURRENT_SEASON, LATEST_YEAR} from '../../../lib/constants';
@@ -15,12 +15,12 @@ export const NavMenuDecade: React.FC<{
   readonly selectedSeason: number;
   readonly onClick: () => void;
 }> = ({startingYear, selectedSeason, onClick}) => {
-  let yearsRange = _.rangeRight(startingYear, startingYear + 10);
+  let yearsRange = rangeRight(startingYear, startingYear + 10);
   if (startingYear === 1880) {
     yearsRange = [1889, 1888, 1887];
   }
 
-  const decadeContent = _.map(yearsRange, (year) => {
+  const decadeContent = yearsRange.map((year) => {
     let yearEnding = String(year % 100);
     if (yearEnding.length === 1) {
       yearEnding = '0' + yearEnding;
@@ -37,7 +37,7 @@ export const NavMenuDecade: React.FC<{
         to={`/${year}`}
         $isCurrentYear={year === CURRENT_SEASON}
         $isSelectedYear={year === selectedSeason}
-        $isChampionshipYear={_.includes(getNationalChampionshipYears(), year)}
+        $isChampionshipYear={getNationalChampionshipYears().includes(year)}
         onClick={onClick}
       >
         {yearEnding}

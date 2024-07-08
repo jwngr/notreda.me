@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import _ from 'lodash';
+import debounce from 'lodash/debounce';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
@@ -16,7 +16,7 @@ export class BarChart extends Component {
 
     this.barChart = null;
 
-    this.debouncedResizeBarChart = _.debounce(this.resizeBarChart.bind(this), 350);
+    this.debouncedResizeBarChart = debounce(this.resizeBarChart.bind(this), 350);
   }
 
   componentDidMount() {
@@ -34,7 +34,7 @@ export class BarChart extends Component {
     const width = this.getBarChartWidth();
     let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (width < 600) {
-      margins = {...DEFAULT_MARGINS_SMALL, ..._.get(this.props.margins, 'sm')};
+      margins = {...DEFAULT_MARGINS_SMALL, ...this.props.margins.sm};
     }
 
     this.barChart = d3
@@ -71,7 +71,7 @@ export class BarChart extends Component {
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d));
 
     // add the x-axis
-    let xAxis = d3.axisBottom(xScale).tickFormat((i) => _.get(xAxisTickLabels, i, i));
+    let xAxis = d3.axisBottom(xScale).tickFormat((i) => xAxisTickLabels[i] ?? i);
     this.barChart
       .append('g')
       .attr('class', 'bar-chart-x-axis')

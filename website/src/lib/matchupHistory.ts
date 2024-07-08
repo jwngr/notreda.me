@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 import {FullSchedule, GameInfo, TeamId} from '../models';
 import scheduleJson from '../resources/schedule.json';
 import {CURRENT_SEASON} from './constants';
@@ -23,8 +21,8 @@ export const getMatchupsAgainstTeam = (opponentId: TeamId): PastAndFutureMatchup
     future: [],
   };
 
-  _.forEach(schedule, (currentSeasonGames, currentSeason) => {
-    _.forEach(currentSeasonGames, (currentGame, weekIndex) => {
+  Object.entries(schedule).forEach(([currentSeason, currentSeasonGames]) => {
+    currentSeasonGames.forEach((currentGame, weekIndex) => {
       if (currentGame.opponentId === opponentId) {
         const pastOrFuture = currentGame.result ? 'past' : 'future';
         matchupsAgainstTeam[pastOrFuture].push({
@@ -62,7 +60,7 @@ export const getFilteredMatchupsAgainstTeam = ({
     getMatchupsAgainstTeam(opponentId);
   const allMatchupsAgainstTeam = [...pastMatchupsAgainstTeam, ...futureMatchupsAgainstTeam];
 
-  const selectedMatchup = _.find(allMatchupsAgainstTeam, ({season}) => season === selectedSeason);
+  const selectedMatchup = allMatchupsAgainstTeam.find(({season}) => season === selectedSeason);
 
   if (typeof selectedMatchup === 'undefined') {
     throw new Error(
@@ -78,10 +76,8 @@ export const getFilteredMatchupsAgainstTeam = ({
   } else if (futureMatchupsAgainstTeam.length === 0) {
     // If there are no future matchups against the opponent, include a subset of past matchups.
     const seasonsWithPastMatchups = pastMatchupsAgainstTeam.map(({season}) => season);
-    const selectedMatchupIndexWithinPastMatchupsArray = _.indexOf(
-      seasonsWithPastMatchups,
-      selectedSeason
-    );
+    const selectedMatchupIndexWithinPastMatchupsArray =
+      seasonsWithPastMatchups.indexOf(selectedSeason);
 
     // Dynamically display a subset of historical matchups, making sure to always include matchups
     // just before and after the currently selected matchup.
@@ -90,31 +86,30 @@ export const getFilteredMatchupsAgainstTeam = ({
       pastMatchupsAgainstTeam.length - maxMatchupsCount + 2
     ) {
       filteredMatchupsAgainstTeam = [
-        _.first(pastMatchupsAgainstTeam),
-        ..._.takeRight(pastMatchupsAgainstTeam, maxMatchupsCount - 1),
+        pastMatchupsAgainstTeam[0],
+        ...pastMatchupsAgainstTeam.slice(-maxMatchupsCount + 1),
       ];
     } else if (selectedMatchupIndexWithinPastMatchupsArray <= 2) {
       filteredMatchupsAgainstTeam = [
-        ..._.take(pastMatchupsAgainstTeam, maxMatchupsCount - 1),
-        _.last(pastMatchupsAgainstTeam),
+        ...pastMatchupsAgainstTeam.slice(0, maxMatchupsCount - 1),
+        pastMatchupsAgainstTeam[pastMatchupsAgainstTeam.length - 1],
       ];
     } else {
       filteredMatchupsAgainstTeam = [
-        _.first(pastMatchupsAgainstTeam),
-        ..._.slice(
-          pastMatchupsAgainstTeam,
+        pastMatchupsAgainstTeam[0],
+        ...pastMatchupsAgainstTeam.slice(
           // Start one matchup before the selected season.
           selectedMatchupIndexWithinPastMatchupsArray - 1,
           // End maxMatchupsCount minus 3 ((1) first matchup, (2) last matchcup, (3) matchup before
           // selected season) after the selected season.
           selectedMatchupIndexWithinPastMatchupsArray + maxMatchupsCount - 3
         ),
-        _.last(pastMatchupsAgainstTeam),
+        pastMatchupsAgainstTeam[pastMatchupsAgainstTeam.length - 1],
       ];
     }
   } else if (pastMatchupsAgainstTeam.length === 0) {
     // If there are no past matchups against the opponent, include the next N future matchups.
-    filteredMatchupsAgainstTeam = _.take(futureMatchupsAgainstTeam, maxMatchupsCount);
+    filteredMatchupsAgainstTeam = futureMatchupsAgainstTeam.slice(0, maxMatchupsCount);
   } else {
     // Otherwise, only include up to the maximum number of matchups, choosing a selection of them
     // from the past and future.
@@ -124,8 +119,7 @@ export const getFilteredMatchupsAgainstTeam = ({
 
     // Determine if the selected season is within the future matchups array. If so, optionally
     // include another future matchup in our filtered list.
-    const selectedMatchupIndexWithinFutureMatchupsArray = _.findIndex(
-      futureMatchupsAgainstTeam,
+    const selectedMatchupIndexWithinFutureMatchupsArray = futureMatchupsAgainstTeam.findIndex(
       ({season}) => season === selectedSeason
     );
 
@@ -154,10 +148,8 @@ export const getFilteredMatchupsAgainstTeam = ({
       filteredPastMatchupsAgainstTeam = [...pastMatchupsAgainstTeam];
     } else {
       const seasonsWithPastMatchups = pastMatchupsAgainstTeam.map(({season}) => season);
-      const selectedMatchupIndexWithinPastMatchupsArray = _.indexOf(
-        seasonsWithPastMatchups,
-        selectedSeason
-      );
+      const selectedMatchupIndexWithinPastMatchupsArray =
+        seasonsWithPastMatchups.indexOf(selectedSeason);
 
       // Dynamically display a subset of historical matchups, making sure to always include matchups
       // just before and after the currently selected matchup.
@@ -167,26 +159,25 @@ export const getFilteredMatchupsAgainstTeam = ({
           pastMatchupsAgainstTeam.length - desiredFilteredPastMatchupsCount + 2
       ) {
         filteredPastMatchupsAgainstTeam = [
-          _.first(pastMatchupsAgainstTeam),
-          ..._.takeRight(pastMatchupsAgainstTeam, desiredFilteredPastMatchupsCount - 1),
+          pastMatchupsAgainstTeam[0],
+          ...pastMatchupsAgainstTeam.slice(-desiredFilteredPastMatchupsCount + 1),
         ];
       } else if (selectedMatchupIndexWithinPastMatchupsArray <= 2) {
         filteredPastMatchupsAgainstTeam = [
-          ..._.take(pastMatchupsAgainstTeam, desiredFilteredPastMatchupsCount - 1),
-          _.last(pastMatchupsAgainstTeam),
+          ...pastMatchupsAgainstTeam.slice(0, desiredFilteredPastMatchupsCount - 1),
+          pastMatchupsAgainstTeam[pastMatchupsAgainstTeam.length - 1],
         ];
       } else {
         filteredPastMatchupsAgainstTeam = [
-          _.first(pastMatchupsAgainstTeam),
-          ..._.slice(
-            pastMatchupsAgainstTeam,
+          pastMatchupsAgainstTeam[0],
+          ...pastMatchupsAgainstTeam.slice(
             // Start one matchup before the selected season.
             selectedMatchupIndexWithinPastMatchupsArray - 1,
             // End desiredFilteredPastMatchupsCount minus 3 ((1) first past matchup, (2) last past
             // matchup, (3) past matchup before selected season) after the selected season.
             selectedMatchupIndexWithinPastMatchupsArray + desiredFilteredPastMatchupsCount - 3
           ),
-          _.last(pastMatchupsAgainstTeam),
+          pastMatchupsAgainstTeam[pastMatchupsAgainstTeam.length - 1],
         ];
       }
     }

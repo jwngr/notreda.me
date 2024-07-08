@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import Media from 'react-media';
 
 import {GameInfo, Team, TeamId} from '../../../../models';
@@ -50,13 +49,9 @@ export const TotalScore: React.FC<{
   const awayTeam = teams[awayTeamId];
 
   const homeApRanking =
-    _.get(game, 'rankings.home.bcs') ||
-    _.get(game, 'rankings.home.cfbPlayoff') ||
-    _.get(game, 'rankings.home.ap');
+    game.rankings?.home?.bcs || game.rankings?.home?.cfbPlayoff || game.rankings?.home?.ap;
   const awayApRanking =
-    _.get(game, 'rankings.away.bcs') ||
-    _.get(game, 'rankings.away.cfbPlayoff') ||
-    _.get(game, 'rankings.away.ap');
+    game.rankings?.away?.bcs || game.rankings?.away?.cfbPlayoff || game.rankings?.away?.ap;
 
   let awayRecord: string;
   if (game.records) {

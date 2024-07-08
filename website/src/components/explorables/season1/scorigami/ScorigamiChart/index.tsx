@@ -1,11 +1,12 @@
-import _ from 'lodash';
+import max from 'lodash/max';
+import range from 'lodash/range';
 import React from 'react';
 
 import scorigamiData from '../data.json';
 import {ScorigamiCell, ScorigamiChartWrapper, ScorigamiRow} from './index.styles';
 
 export const ScorigamiChart: React.FC = () => {
-  const longestRowLength = _.max(scorigamiData.map((row) => (row ? row.length : 0)));
+  const longestRowLength = max(scorigamiData.map((row) => (row ? row.length : 0)));
 
   return (
     <ScorigamiChartWrapper>
@@ -13,8 +14,8 @@ export const ScorigamiChart: React.FC = () => {
       {scorigamiData.map((row) => {
         return (
           <ScorigamiRow>
-            {_.range(0, longestRowLength).map((i) => {
-              const numGamesWithScore = _.get(row, i, 0) ?? 0;
+            {range(0, longestRowLength).map((i) => {
+              const numGamesWithScore = row ? row[i] ?? 0 : 0;
               return (
                 <ScorigamiCell $numGamesWithScore={numGamesWithScore}>
                   {numGamesWithScore === 0 ? null : numGamesWithScore}

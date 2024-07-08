@@ -1,5 +1,6 @@
 import * as d3 from 'd3';
-import _ from 'lodash';
+import debounce from 'lodash/debounce';
+import last from 'lodash/last';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
@@ -21,7 +22,7 @@ export class PerSeasonBarChart extends Component {
 
     this.barChart = null;
 
-    this.debouncedResizeBarChart = _.debounce(this.resizeBarChart.bind(this), 350);
+    this.debouncedResizeBarChart = debounce(this.resizeBarChart.bind(this), 350);
   }
 
   setTooltip = (tooltip) => {
@@ -52,7 +53,7 @@ export class PerSeasonBarChart extends Component {
     const width = this.getBarChartWidth();
     let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (width < 600) {
-      margins = {...DEFAULT_MARGINS_SMALL, ..._.get(this.props.margins, 'sm')};
+      margins = {...DEFAULT_MARGINS_SMALL, ...this.props.margins.sm};
     }
 
     this.barChart = d3
@@ -63,7 +64,7 @@ export class PerSeasonBarChart extends Component {
     // set the ranges
     const xScale = d3
       .scaleTime()
-      .domain([new Date(data[0].season, 0, 1), new Date(_.last(data).season, 0, 1)])
+      .domain([new Date(data[0].season, 0, 1), new Date(last(data).season, 0, 1)])
       .range([0, width - margins.left - margins.right]);
 
     const yScale = d3
@@ -83,7 +84,7 @@ export class PerSeasonBarChart extends Component {
     bars
       .append('rect')
       .attr('x', (d) => xScale(new Date(d.season, 0, 1)))
-      .attr('width', width / _.size(data))
+      .attr('width', width / data.length)
       .attr('y', (d) => yScale(d.value))
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d.value))
       .on('mouseover', (d) => {

@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import React, {useMemo, useState} from 'react';
 import Media from 'react-media';
 import {useParams} from 'react-router-dom';
@@ -42,7 +41,7 @@ export const FootballScheduleScreen: React.FC = () => {
     };
   }, [params.selectedYear, params.selectedGameIndex]);
 
-  const gamesContent = _.map(schedule[selectedSeason], (game, index) => {
+  const gamesContent = schedule[selectedSeason].map((game, index) => {
     return (
       <Game
         key={index}

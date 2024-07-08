@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
@@ -249,7 +248,7 @@ export const ExplorablesS1E1 = () => {
 
       <Table
         headers={['Team', 'Top 25 Finishes', 'National Titles', '% One Poss Games']}
-        rows={_.take(data.top25.rows, 15)}
+        rows={data.top25.rows.slice(0, 15)}
       />
 
       <Caption>

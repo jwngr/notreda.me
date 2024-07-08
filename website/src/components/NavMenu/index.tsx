@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import rangeRight from 'lodash/rangeRight';
 import React from 'react';
 
 import {
@@ -17,7 +17,7 @@ export const NavMenu: React.FC<{
   readonly selectedSeason: number;
   readonly onClose: () => void;
 }> = ({open, selectedSeason, onClose}) => {
-  const navMenuDecadesContent = _.map(_.rangeRight(1880, 2040, 10), (decade) => {
+  const navMenuDecadesContent = rangeRight(1880, 2040, 10).map((decade) => {
     return (
       <NavMenuDecade
         key={decade}

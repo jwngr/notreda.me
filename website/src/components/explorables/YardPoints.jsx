@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-import _ from 'lodash';
 import React, {Component} from 'react';
 import {findDOMNode} from 'react-dom';
 import TweetEmbed from 'react-tweet-embed';
@@ -17,8 +16,8 @@ export class YardPoints extends Component {
 
     let yardsDifferentialData = [];
 
-    _.forEach(schedule, (yearData, year) => {
-      let currentData = schedule[year].map(({stats, score, opponentId, result, isHomeGame}) => {
+    Object.entries(schedule).forEach((yearData, year) => {
+      let currentData = yearData.map(({stats, score, opponentId, result, isHomeGame}) => {
         if (typeof stats !== 'undefined') {
           let rushYardsDifferential;
           let passYardsDifferential;
@@ -54,9 +53,9 @@ export class YardPoints extends Component {
       });
 
       // Remove undefined values from array
-      currentData = _.filter(currentData);
+      currentData = currentData.filter((d) => !!d);
 
-      if (!_.isEmpty(currentData)) {
+      if (currentData.length > 0) {
         yardsDifferentialData = yardsDifferentialData.concat(currentData);
       }
     });

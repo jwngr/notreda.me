@@ -66,6 +66,7 @@ interface GameRecords {
 
 interface TeamRankings {
   readonly ap?: number;
+  readonly bcs?: number;
   readonly coaches?: number;
   readonly cfbPlayoff?: number;
 }
