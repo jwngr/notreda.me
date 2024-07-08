@@ -1,5 +1,4 @@
 import range from 'lodash/range';
-import update from 'lodash/update';
 import React from 'react';
 
 import undefeatedSeasons_all from './data/undefeatedSeasons_all.json';
@@ -18,11 +17,11 @@ const getFirstLossSeriesData = (weekOfFirstLossData, startSeason, endSeason) => 
       const {numGamesInSeason, numGamesPlayedBeforeFirstLoss} = weekOfFirstLossData[season];
 
       range(0, numGamesPlayedBeforeFirstLoss).forEach((i) => {
-        update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + 1);
+        firstLossOfSeasonIndexes[i] = (firstLossOfSeasonIndexes[i] || 0) + 1;
       });
 
       range(0, numGamesInSeason).forEach((i) => {
-        update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + 1);
+        numSeasonsWithAtLeastThisManyGames[i] = (numSeasonsWithAtLeastThisManyGames[i] || 0) + 1;
       });
     }
   });
