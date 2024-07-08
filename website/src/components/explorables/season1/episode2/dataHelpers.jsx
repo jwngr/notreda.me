@@ -105,8 +105,9 @@ export const getAllTeamFirstLossSeriesData = (startSeason, endSeason) => {
     const {losslessRecordsAttained, numTeams} = weekOfFirstLoss_all[season];
 
     range(0, losslessRecordsAttained.length).forEach((i) => {
-      update(firstLossOfSeasonIndexes, [i], (x) => (x || 0) + losslessRecordsAttained[i]);
-      update(numSeasonsWithAtLeastThisManyGames, [i], (x) => (x || 0) + numTeams);
+      firstLossOfSeasonIndexes[i] = (firstLossOfSeasonIndexes[i] || 0) + losslessRecordsAttained[i];
+      numSeasonsWithAtLeastThisManyGames[i] =
+        (numSeasonsWithAtLeastThisManyGames[i] || 0) + numTeams;
     });
   });
 
@@ -149,7 +150,8 @@ export const getUndefeatedTeamCountsPerSeasonTableData = (startSeason, endSeason
   range(startSeason, endSeason + 1).forEach((season) => {
     const undefeatedTeamCountForSeason = (undefeatedSeasons_all[season] ?? []).length;
     latestYearWithUndefeatedTeamCounts[undefeatedTeamCountForSeason] = season;
-    update(undefeatedTeamCounts, [undefeatedTeamCountForSeason], (x) => (x || 0) + 1);
+    undefeatedTeamCounts[undefeatedTeamCountForSeason] =
+      (undefeatedTeamCounts[undefeatedTeamCountForSeason] || 0) + 1;
   });
 
   return range(0, undefeatedTeamCounts.length).map((i) => [
