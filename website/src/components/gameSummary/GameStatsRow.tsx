@@ -2,8 +2,8 @@ import React from 'react';
 import Media from 'react-media';
 import styled from 'styled-components';
 
-import {DEFAULT_TEAM_COLOR} from '../../../lib/constants';
-import {Team} from '../../../models';
+import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
+import {Team} from '../../models';
 import {
   STATS_HEADER_COLUMN_STYLES,
   STATS_HEADER_SPACER_STYLES,
