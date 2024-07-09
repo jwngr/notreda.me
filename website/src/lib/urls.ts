@@ -1,19 +1,16 @@
 import {isAfter} from 'date-fns/isAfter';
 import {subDays} from 'date-fns/subDays';
-import has from 'lodash/has';
 
-import {FullSchedule} from '../models';
-import scheduleJson from '../resources/schedule.json';
 import {CURRENT_SEASON} from './constants';
-
-const schedule = scheduleJson as FullSchedule;
+import {Schedules} from './schedules';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
 
 export const getSelectedSeasonFromUrlParam = (maybeYearString?: string): number => {
   if (!maybeYearString || maybeYearString.length !== 4) return CURRENT_SEASON;
   const year = Number(maybeYearString);
-  return isNaN(year) || !has(schedule, year) ? CURRENT_SEASON : year;
+  const validSeasons = Schedules.getSeasons();
+  return isNaN(year) || !validSeasons.includes(year) ? CURRENT_SEASON : year;
 };
 
 export const getSelectedGameIndexFromUrlParam = (
@@ -21,9 +18,13 @@ export const getSelectedGameIndexFromUrlParam = (
   maybeWeekString?: string
 ): number => {
   const maybeValidWeek = Number(maybeWeekString);
+  const seasonSchedule = Schedules.getForSeason(year);
+
+  if (!seasonSchedule) return DEFAULT_SELECTED_GAME_INDEX;
+
   // Numeric selected game index is provided.
   if (!isNaN(maybeValidWeek)) {
-    if (maybeValidWeek <= 0 || maybeValidWeek > schedule[year].length) {
+    if (maybeValidWeek <= 0 || maybeValidWeek > seasonSchedule.length) {
       // If the selected game index is invalid for this year, use the default selected game index.
       return DEFAULT_SELECTED_GAME_INDEX;
     } else {
@@ -39,14 +40,14 @@ export const getSelectedGameIndexFromUrlParam = (
     return DEFAULT_SELECTED_GAME_INDEX;
   } else {
     // Otherwise, show the latest completed or next upcoming game.
-    const gamesPlayedCount = schedule[year].filter((game) => game.result).length;
+    const gamesPlayedCount = seasonSchedule.filter((game) => game.result).length;
     if (gamesPlayedCount === 0) {
       // If no games have been played yet, select the default game index.
       return DEFAULT_SELECTED_GAME_INDEX;
-    } else if (gamesPlayedCount === schedule[year].length) {
+    } else if (gamesPlayedCount === seasonSchedule.length) {
       // If all games have already played, select the last game.
-      return schedule[year].length - 1;
-    } else if (schedule[year][gamesPlayedCount].isBowlGame) {
+      return seasonSchedule.length - 1;
+    } else if (seasonSchedule[gamesPlayedCount].isBowlGame) {
       // If the next upcoming game is a bowl game, select it.
       return gamesPlayedCount;
     } else {
@@ -54,7 +55,7 @@ export const getSelectedGameIndexFromUrlParam = (
       // which point, select the next game.
       // TODO: remove date or fullDate once these are all standardized.
       const nextCompletedGameDate =
-        schedule[year][gamesPlayedCount].date || schedule[year][gamesPlayedCount].fullDate;
+        seasonSchedule[gamesPlayedCount].date || seasonSchedule[gamesPlayedCount].fullDate;
       if (!nextCompletedGameDate) {
         return gamesPlayedCount;
       }

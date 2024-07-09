@@ -6,9 +6,8 @@ import {Game} from '../../components/Game';
 import {GameSummary} from '../../components/gameSummary/GameSummary';
 import {NavMenu} from '../../components/NavMenu';
 import {LATEST_YEAR} from '../../lib/constants';
+import {Schedules} from '../../lib/schedules';
 import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../../lib/urls';
-import {FullSchedule} from '../../models';
-import scheduleJson from '../../resources/schedule.json';
 import {
   GamesWrapper,
   Header,
@@ -19,8 +18,6 @@ import {
   ScheduleScreenWrapper,
   ScheduleWrapper,
 } from './index.styles';
-
-const schedule = scheduleJson as FullSchedule;
 
 export const FootballScheduleScreen: React.FC = () => {
   const params = useParams<{
@@ -41,7 +38,7 @@ export const FootballScheduleScreen: React.FC = () => {
     };
   }, [params.selectedYear, params.selectedGameIndex]);
 
-  const gamesContent = schedule[selectedSeason].map((game, index) => {
+  const gamesContent = Schedules.getForSeason(selectedSeason).map((game, index) => {
     return (
       <Game
         key={index}

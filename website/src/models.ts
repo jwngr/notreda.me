@@ -15,7 +15,7 @@ export enum GameResult {
 }
 
 export interface FullSchedule {
-  [year: string]: GameInfo[];
+  readonly [year: string]: readonly GameInfo[];
 }
 
 interface TeamStats {
