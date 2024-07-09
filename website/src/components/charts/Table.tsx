@@ -1,9 +1,10 @@
 import {darken} from 'polished';
+import React from 'react';
 import styled from 'styled-components';
 
-import backgroundImage from '../../../images/background.png';
+import backgroundImage from '../../images/background.png';
 
-export const TableWrapper = styled.div`
+const TableWrapper = styled.div`
   margin: 20px auto;
   overflow: scroll;
   font-family: 'Inter UI', serif;
@@ -55,7 +56,7 @@ interface TableRowProps {
   readonly $isHighlighted: boolean;
 }
 
-export const TableRow = styled.tr<TableRowProps>`
+const TableRow = styled.tr<TableRowProps>`
   background-color: ${({theme, $isOdd, $isHighlighted}) =>
     $isHighlighted
       ? `${theme.colors.gold}b0`
@@ -63,3 +64,50 @@ export const TableRow = styled.tr<TableRowProps>`
         ? `${theme.colors.gray}40`
         : `${theme.colors.lightGray}40`};
 `;
+
+export const Table: React.FC<{
+  readonly headers: (string | {readonly text: string; readonly width: string})[];
+  readonly rows: string[][];
+  readonly highlightedRowIndexes?: number[];
+}> = ({headers, rows, highlightedRowIndexes = []}) => {
+  const headerRow = (
+    <tr key="header">
+      {headers.map((header, i) => {
+        if (typeof header === 'string') {
+          return <th key={`th-${i}`}>{header}</th>;
+        } else {
+          return (
+            <th key={`th-${i}`} style={{width: header.width}}>
+              {header.text}
+            </th>
+          );
+        }
+      })}
+    </tr>
+  );
+
+  const dataRows = rows.map((row, i) => {
+    return (
+      <TableRow
+        key={`tr-${i}`}
+        $isOdd={i % 2 !== 0}
+        $isHighlighted={highlightedRowIndexes.includes(i)}
+      >
+        {row.map((item, j) => (
+          <td key={`td-${i}-${j}`}>{item}</td>
+        ))}
+      </TableRow>
+    );
+  });
+
+  return (
+    <TableWrapper>
+      <table>
+        <tbody>
+          {headerRow}
+          {dataRows}
+        </tbody>
+      </table>
+    </TableWrapper>
+  );
+};

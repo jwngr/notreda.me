@@ -1,7 +1,23 @@
+import {darken} from 'polished';
 import React from 'react';
+import styled from 'styled-components';
 
-import {getWindowDimensions} from '../../../lib/utils';
-import {TooltipWrapper} from './index.styles';
+import backgroundImage from '../../images/background.png';
+import {getWindowDimensions} from '../../lib/utils';
+
+export const TooltipWrapper = styled.div`
+  position: absolute;
+  z-index: 100;
+  opacity: 1;
+  padding: 4px;
+  margin: 8px 8px 0 0;
+  font-size: 16px;
+  font-family: 'Inter UI';
+  background-image: url(${backgroundImage});
+  background-color: ${({theme}) => theme.colors.lightGray}40;
+  border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
+  color: ${({theme}) => theme.colors.green};
+`;
 
 export const Tooltip: React.FC<{
   readonly x: number;

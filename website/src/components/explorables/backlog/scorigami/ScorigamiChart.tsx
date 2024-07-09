@@ -1,7 +1,12 @@
+import max from 'lodash/max';
+import range from 'lodash/range';
 import {darken} from 'polished';
+import React from 'react';
 import styled from 'styled-components';
 
-export const ScorigamiChartWrapper = styled.div`
+import scorigamiData from './data.json';
+
+const ScorigamiChartWrapper = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 740px;
@@ -10,7 +15,7 @@ export const ScorigamiChartWrapper = styled.div`
   background-color: ${({theme}) => theme.colors.gold}66;
 `;
 
-export const ScorigamiRow = styled.div`
+const ScorigamiRow = styled.div`
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -27,7 +32,7 @@ interface ScorigamiCellProps {
   readonly $numGamesWithScore: number;
 }
 
-export const ScorigamiCell = styled.div<ScorigamiCellProps>`
+const ScorigamiCell = styled.div<ScorigamiCellProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,3 +57,27 @@ export const ScorigamiCell = styled.div<ScorigamiCellProps>`
     return color;
   }};
 `;
+
+export const ScorigamiChart: React.FC = () => {
+  const longestRowLength = max(scorigamiData.map((row) => (row ? row.length : 0)));
+
+  return (
+    <ScorigamiChartWrapper>
+      {longestRowLength}
+      {scorigamiData.map((row) => {
+        return (
+          <ScorigamiRow>
+            {range(0, longestRowLength).map((i) => {
+              const numGamesWithScore = row ? row[i] ?? 0 : 0;
+              return (
+                <ScorigamiCell $numGamesWithScore={numGamesWithScore}>
+                  {numGamesWithScore === 0 ? null : numGamesWithScore}
+                </ScorigamiCell>
+              );
+            })}
+          </ScorigamiRow>
+        );
+      })}
+    </ScorigamiChartWrapper>
+  );
+};
