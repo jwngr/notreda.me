@@ -1,8 +1,12 @@
 import capitalize from 'lodash/capitalize';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Media from 'react-media';
 
-import {getFilteredMatchupsAgainstTeam, getMatchupsAgainstTeam} from '../../../lib/matchupHistory';
+import {
+  ExpandedGameInfo,
+  getFilteredMatchupsAgainstTeam,
+  getMatchupsAgainstTeam,
+} from '../../../lib/matchupHistory';
 import {useWindowSize} from '../../../lib/useWindowSize';
 import {GameInfo} from '../../../models';
 import {StatsSection} from '../../common/StatsSection';
@@ -43,18 +47,35 @@ export const MatchupHistory: React.FC<{
   readonly selectedGame: GameInfo;
   readonly selectedSeason: number;
 }> = ({selectedGame, selectedSeason}) => {
-  const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} = getMatchupsAgainstTeam(
-    selectedGame.opponentId
-  );
-
   const {width} = useWindowSize();
   const maxMatchupsCount = _getMaxMatchupsCountFromWindowWidth(width);
 
-  const matchupsToShow = getFilteredMatchupsAgainstTeam({
-    opponentId: selectedGame.opponentId,
-    selectedSeason,
-    maxMatchupsCount,
-  });
+  const [matchupInfo, setMatchupInfo] = useState<{
+    readonly pastMatchupsAgainstTeam: readonly ExpandedGameInfo[] | null;
+    readonly futureMatchupsAgainstTeam: readonly ExpandedGameInfo[] | null;
+    readonly matchupsToShow: readonly ExpandedGameInfo[] | null;
+  }>({pastMatchupsAgainstTeam: null, futureMatchupsAgainstTeam: null, matchupsToShow: null});
+
+  useEffect(() => {
+    const fetchMatchupsToShow = async () => {
+      const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} =
+        await getMatchupsAgainstTeam(selectedGame.opponentId);
+
+      const matchupsToShow = await getFilteredMatchupsAgainstTeam({
+        opponentId: selectedGame.opponentId,
+        selectedSeason,
+        maxMatchupsCount,
+        pastMatchupsAgainstTeam,
+        futureMatchupsAgainstTeam,
+      });
+      setMatchupInfo({
+        pastMatchupsAgainstTeam,
+        futureMatchupsAgainstTeam,
+        matchupsToShow,
+      });
+    };
+    fetchMatchupsToShow();
+  }, [selectedGame.opponentId, selectedSeason, maxMatchupsCount]);
 
   const recordAgainstTeam = {
     overall: {
@@ -74,7 +95,15 @@ export const MatchupHistory: React.FC<{
     },
   };
 
-  pastMatchupsAgainstTeam.forEach(({result, isHomeGame}) => {
+  if (
+    !matchupInfo.pastMatchupsAgainstTeam ||
+    !matchupInfo.futureMatchupsAgainstTeam ||
+    !matchupInfo.matchupsToShow
+  ) {
+    return null;
+  }
+
+  matchupInfo.pastMatchupsAgainstTeam.forEach(({result, isHomeGame}) => {
     if (!result) return;
     recordAgainstTeam.overall[result] += 1;
     recordAgainstTeam[isHomeGame ? 'home' : 'away'][result] += 1;
@@ -82,9 +111,11 @@ export const MatchupHistory: React.FC<{
 
   const selectedGameHomeOrAway = selectedGame.isHomeGame ? 'home' : 'away';
   const allSeasonsWithMatchupsAgainstTeam = [
-    ...pastMatchupsAgainstTeam,
-    ...futureMatchupsAgainstTeam,
+    ...matchupInfo.pastMatchupsAgainstTeam,
+    ...matchupInfo.futureMatchupsAgainstTeam,
   ].map(({season}) => season);
+
+  const shownMatchupsCount = matchupInfo.matchupsToShow.length;
 
   return (
     <StatsSection title="Matchup History" style={{marginTop: '32px'}}>
@@ -124,19 +155,19 @@ export const MatchupHistory: React.FC<{
             </p>
           </div>
         </Records>
-        <RecentMatchups $matchupsCount={matchupsToShow.length}>
-          {matchupsToShow.map((historicalGame, i) => {
+        <RecentMatchups $matchupsCount={shownMatchupsCount}>
+          {matchupInfo.matchupsToShow.map((historicalGame, i) => {
             if (!historicalGame) return null;
 
             const specialPositions = {
               first: i === 0,
-              last: i === matchupsToShow.length - 1,
+              last: i === shownMatchupsCount - 1,
             };
 
             const isFirst = i === 0;
-            const isLast = i === matchupsToShow.length - 1;
-            const previousHistoricalGame = matchupsToShow[i - 1];
-            const nextHistoricalGame = matchupsToShow[i + 1];
+            const isLast = i === shownMatchupsCount - 1;
+            const previousHistoricalGame = matchupInfo?.matchupsToShow?.[i - 1];
+            const nextHistoricalGame = matchupInfo?.matchupsToShow?.[i + 1];
 
             return (
               <HistoricalMatchup

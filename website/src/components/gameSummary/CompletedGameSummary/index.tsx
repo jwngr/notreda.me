@@ -3,7 +3,7 @@ import React from 'react';
 import {GameInfo, TeamId} from '../../../models';
 import {GameCoverage} from '../GameCoverage';
 import {Location} from '../Location';
-import {MatchupHistory} from '../MatchupHistory';
+// import {MatchupHistory} from '../MatchupHistory';
 import {CompletedGameStats} from './GameStats';
 import {CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
 import {Linescore} from './Linescore';
@@ -14,7 +14,7 @@ export const CompletedGameSummary: React.FC<{
   readonly season: number;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
-}> = ({game, season, homeTeamId, awayTeamId}) => {
+}> = ({game, homeTeamId, awayTeamId}) => {
   return (
     <CompletedGameWrapper>
       <TotalScore game={game} homeTeamId={homeTeamId} awayTeamId={awayTeamId} />
@@ -31,7 +31,8 @@ export const CompletedGameSummary: React.FC<{
         highlightsYouTubeVideoId={game.highlightsYouTubeVideoId ?? null}
       />
 
-      <MatchupHistory selectedGame={game} selectedSeason={season} />
+      {/* TODO: Re-enable matchup history after improving data loading performance. */}
+      {/* <MatchupHistory selectedGame={game} selectedSeason={season} /> */}
 
       <CompletedGameStats
         stats={game.stats ?? null}

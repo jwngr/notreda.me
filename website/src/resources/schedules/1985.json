@@ -1,0 +1,328 @@
+[
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/14/1985",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium",
+      "coordinates": [42.265686, -83.74861]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 12,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 13
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 64
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/21/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 10,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 63
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/28/1985",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [40.434042, -86.918267]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 17,
+      "home": 35
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:00 PM",
+    "coverage": "TBS",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "temperature": 73,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/05/1985",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium",
+      "coordinates": [38.997, -104.843]
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 15,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/19/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "ARMY",
+    "score": {
+      "away": 10,
+      "home": 24
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:00 PM",
+    "coverage": "USA / WGN-TV",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 19
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 61
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/26/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 3,
+      "home": 37
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:00 PM",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 70
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/02/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 17,
+      "home": 41
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/09/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MISS",
+    "score": {
+      "away": 14,
+      "home": 37
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:00 PM",
+    "coverage": "USA / WGN-TV",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "rain",
+      "temperature": 47
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/16/1985",
+    "location": {
+      "city": "University Park",
+      "state": "PA",
+      "stadium": "Beaver Stadium",
+      "coordinates": [40.812033, -77.856156]
+    },
+    "opponentId": "PSU",
+    "score": {
+      "away": 6,
+      "home": 36
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 1
+      }
+    },
+    "weather": {
+      "temperature": 38,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/23/1985",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "LSU",
+    "score": {
+      "away": 10,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:00 PM",
+    "coverage": "USA / WGN-TV",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 34
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/30/1985",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Orange Bowl",
+      "coordinates": [25.777936, -80.220957]
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 7,
+      "home": 58
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 76
+    }
+  }
+]

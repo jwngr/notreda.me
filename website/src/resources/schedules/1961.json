@@ -1,0 +1,267 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/30/1961",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "OKLA",
+    "score": {
+      "away": 6,
+      "home": 19
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 61
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/07/1961",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [40.434042, -86.918267]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 22,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/14/1961",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 0,
+      "home": 30
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 44
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/21/1961",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium",
+      "coordinates": [42.727122, -84.486078]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 7,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "rankings": {
+      "away": {
+        "ap": 6
+      },
+      "home": {
+        "ap": 1
+      }
+    },
+    "weather": {
+      "icon": "fog",
+      "temperature": 45
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/28/1961",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 12,
+      "home": 10
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 49
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/04/1961",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 13,
+      "home": 10
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 27
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/11/1961",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium",
+      "coordinates": [40.444, -79.962]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 26,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 26
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/18/1961",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "SYR",
+    "score": {
+      "away": 15,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "rankings": {
+      "away": {
+        "ap": 10
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 33
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/25/1961",
+    "location": {
+      "city": "Iowa City",
+      "state": "IA",
+      "stadium": "Iowa Stadium",
+      "coordinates": [41.658611, -91.551111]
+    },
+    "opponentId": "IOWA",
+    "score": {
+      "away": 21,
+      "home": 42
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "12/02/1961",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Duke Stadium",
+      "coordinates": [35.995278, -78.941667]
+    },
+    "opponentId": "DUKE",
+    "score": {
+      "away": 13,
+      "home": 37
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Joe Kuharich",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 41
+    }
+  }
+]

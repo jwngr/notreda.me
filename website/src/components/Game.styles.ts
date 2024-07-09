@@ -105,9 +105,7 @@ export const OpponentWrapper = styled.div`
 `;
 
 export const OpponentLogo = styled(TeamLogo)`
-  height: 40px;
-  width: 40px;
-
+  // TODO: Handle this explicitly via the size prop.
   @media (max-width: 600px) {
     height: 28px;
     width: 28px;

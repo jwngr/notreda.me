@@ -14,10 +14,6 @@ export enum GameResult {
   Tie = 'T',
 }
 
-export interface FullSchedule {
-  readonly [year: string]: readonly GameInfo[];
-}
-
 interface TeamStats {
   readonly firstDowns: number;
   readonly thirdDownAttempts: number;

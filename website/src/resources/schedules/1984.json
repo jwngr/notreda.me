@@ -1,0 +1,366 @@
+[
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/08/1984",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "stadium": "Hoosier Dome",
+      "coordinates": [39.763611, -86.163333]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 23,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 81
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/15/1984",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium",
+      "coordinates": [42.727122, -84.486078]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 24,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:00 PM",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 61
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/22/1984",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "COL",
+    "score": {
+      "away": 14,
+      "home": 55
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 81
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/29/1984",
+    "location": {
+      "city": "Columbia",
+      "state": "MO",
+      "stadium": "Memorial Stadium",
+      "coordinates": [38.935833, -92.333056]
+    },
+    "opponentId": "MIZ",
+    "score": {
+      "away": 16,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 19
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 54
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/06/1984",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 31,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "7:45 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 16
+      },
+      "away": {
+        "ap": 14
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 61
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/13/1984",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 21,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "fog",
+      "temperature": 63
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/20/1984",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "SCAR",
+    "score": {
+      "away": 36,
+      "home": 32
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "away": {
+        "ap": 11
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 51
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/27/1984",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "LA",
+      "stadium": "Tiger Stadium",
+      "coordinates": [30.411887, -91.183795]
+    },
+    "opponentId": "LSU",
+    "score": {
+      "away": 30,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 7
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 83
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/03/1984",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "Giants Stadium",
+      "coordinates": [40.812222, -74.076944]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 18,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:10 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 50
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/17/1984",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PSU",
+    "score": {
+      "away": 7,
+      "home": 44
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:20 PM",
+    "coverage": "ESPN",
+    "headCoach": "Gerry Faust",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 42
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/24/1984",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [34.014167, -118.287778]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 19,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:40 PM",
+    "coverage": "CBS",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 55
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "12/29/1984",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI",
+      "stadium": "Aloha Stadium",
+      "coordinates": [21.373, -157.93]
+    },
+    "opponentId": "SMU",
+    "score": {
+      "away": 20,
+      "home": 27
+    },
+    "linescore": {
+      "away": [0, 10, 7, 3],
+      "home": [7, 10, 0, 10]
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "nickname": "Aloha Bowl",
+    "headCoach": "Gerry Faust",
+    "rankings": {
+      "home": {
+        "ap": 10
+      },
+      "away": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 73
+    }
+  }
+]

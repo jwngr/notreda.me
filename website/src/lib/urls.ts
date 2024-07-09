@@ -1,6 +1,7 @@
 import {isAfter} from 'date-fns/isAfter';
 import {subDays} from 'date-fns/subDays';
 
+import {GameInfo} from '../models';
 import {CURRENT_SEASON} from './constants';
 import {Schedules} from './schedules';
 
@@ -13,12 +14,16 @@ export const getSelectedSeasonFromUrlParam = (maybeYearString?: string): number 
   return isNaN(year) || !validSeasons.includes(year) ? CURRENT_SEASON : year;
 };
 
-export const getSelectedGameIndexFromUrlParam = (
-  year: number,
-  maybeWeekString?: string
-): number => {
+export const getSelectedGameIndexFromUrlParam = ({
+  year,
+  maybeWeekString,
+  seasonSchedule,
+}: {
+  readonly year: number;
+  readonly maybeWeekString?: string;
+  readonly seasonSchedule: readonly GameInfo[] | null;
+}): number => {
   const maybeValidWeek = Number(maybeWeekString);
-  const seasonSchedule = Schedules.getForSeason(year);
 
   if (!seasonSchedule) return DEFAULT_SELECTED_GAME_INDEX;
 

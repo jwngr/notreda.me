@@ -1,0 +1,288 @@
+[
+  {
+    "result": "T",
+    "isHomeGame": false,
+    "date": "09/26/1942",
+    "location": {
+      "city": "Madison",
+      "state": "WI",
+      "stadium": "Camp Randall Stadium",
+      "coordinates": [43.069885, -89.412619]
+    },
+    "opponentId": "WIS",
+    "score": {
+      "away": 7,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/03/1942",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "GT",
+    "score": {
+      "away": 13,
+      "home": 6
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/10/1942",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 0,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/17/1942",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "IO-PF",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/24/1942",
+    "location": {
+      "city": "Champaign",
+      "state": "IL",
+      "stadium": "Memorial Stadium",
+      "coordinates": [40.099167, -88.235833]
+    },
+    "opponentId": "ILL",
+    "score": {
+      "away": 21,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "away": {
+        "ap": 8
+      },
+      "home": {
+        "ap": 5
+      }
+    },
+    "weather": {
+      "temperature": 33,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/31/1942",
+    "location": {
+      "city": "Cleveland",
+      "state": "OH",
+      "stadium": "Cleveland Municipal Stadium",
+      "coordinates": [41.506005, -81.699666]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 0,
+      "home": 9
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "home": {
+        "ap": 4
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/07/1942",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium",
+      "coordinates": [40.829602, -73.926228]
+    },
+    "opponentId": "ARMY",
+    "score": {
+      "away": 0,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "home": {
+        "ap": 4
+      },
+      "away": {
+        "ap": 19
+      }
+    },
+    "weather": {
+      "temperature": 50,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/14/1942",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 32,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "home": {
+        "ap": 4
+      },
+      "away": {
+        "ap": 6
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/21/1942",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 20,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/28/1942",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [34.014167, -118.287778]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 13,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "away": {
+        "ap": 8
+      },
+      "home": {
+        "ap": 14
+      }
+    }
+  },
+  {
+    "result": "T",
+    "isHomeGame": false,
+    "date": "12/05/1942",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "stadium": "Soldier Field",
+      "coordinates": [41.862105, -87.616721]
+    },
+    "opponentId": "GRTLK",
+    "score": {
+      "away": 13,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Frank Leahy",
+    "rankings": {
+      "away": {
+        "ap": 8
+      }
+    }
+  }
+]

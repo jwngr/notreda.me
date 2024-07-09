@@ -1,0 +1,186 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/27/1902",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 0,
+      "home": 33
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/11/1902",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "LAK",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/18/1902",
+    "location": {
+      "city": "Toledo",
+      "state": "OH",
+      "coordinates": [-89.03361, -83.535721]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 23,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/25/1902",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN",
+      "coordinates": [39.166592, -86.534889]
+    },
+    "opponentId": "IND",
+    "score": {
+      "away": 11,
+      "home": 5
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/01/1902",
+    "location": {
+      "city": "Columbus",
+      "state": "OH",
+      "coordinates": [39.961178, -82.998795]
+    },
+    "opponentId": "OH-M",
+    "score": {
+      "away": 6,
+      "home": 5
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/08/1902",
+    "location": {
+      "city": "Galesburg",
+      "state": "IL",
+      "coordinates": [40.947498, -90.37249]
+    },
+    "opponentId": "KNOX",
+    "score": {
+      "away": 5,
+      "home": 12
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/15/1902",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "AM-M",
+    "score": {
+      "away": 0,
+      "home": 92
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/22/1902",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "DEP",
+    "score": {
+      "away": 0,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "T",
+    "isHomeGame": false,
+    "date": "11/27/1902",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "coordinates": [40.454769, -86.915703]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 6,
+      "home": 6
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  }
+]

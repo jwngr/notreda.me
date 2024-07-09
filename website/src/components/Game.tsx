@@ -159,7 +159,7 @@ export const Game: React.FC<{
       $isHomeGame={game.isHomeGame}
     >
       <OpponentWrapper>
-        <OpponentLogo teamId={game.opponentId} />
+        <OpponentLogo teamId={game.opponentId} size={40} />
         <DateOpponentDetailsWrapper>
           {dateString ? <GameDate>{dateString}</GameDate> : null}
           <OpponentDetailsWrapper>

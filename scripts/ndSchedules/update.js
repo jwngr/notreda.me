@@ -6,7 +6,7 @@ const utils = require('../lib/utils');
 const logger = require('../lib/logger');
 const sentry = require('../lib/sentry');
 const weather = require('../lib/weather');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
 const {CURRENT_SEASON, ND_HEAD_COACH} = require('../lib/constants');
 
 const SEASON = CURRENT_SEASON;
@@ -166,7 +166,8 @@ const updateNdSchedule = async () => {
   logger.info(`Updating ND schedule data file for ${SEASON}...`);
   return ndSchedules.updateForSeason(SEASON, currentSeasonSchedule);
 
-  // Uncomment to regenerate schedule.json from all source data files.
+  // Uncomment to run a data transformation on all seasons.
+  // logger.info(`Running data tranformation on all seasons...`);
   // return ndSchedules.transformForAllSeasons(() => {});
 };
 

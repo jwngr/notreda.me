@@ -1,0 +1,372 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "08/28/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "nickname": "Eddie Robinson Classic",
+    "opponentId": "KU",
+    "score": {
+      "away": 13,
+      "home": 48
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 18
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 86
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/04/1999",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium",
+      "coordinates": [42.265686, -83.74861]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 22,
+      "home": 26
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 16
+      },
+      "home": {
+        "ap": 7
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 85
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/11/1999",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [40.434042, -86.918267]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 23,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 20
+      },
+      "away": {
+        "ap": 16
+      }
+    },
+    "weather": {
+      "temperature": 88,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/18/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 23,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 24
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 77
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/02/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "OKLA",
+    "score": {
+      "away": 30,
+      "home": 34
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 23
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/09/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "AZST",
+    "score": {
+      "away": 17,
+      "home": 48
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 65
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/16/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 24,
+      "home": 25
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "rain",
+      "temperature": 65
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/30/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 24,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 74
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/06/1999",
+    "location": {
+      "city": "Knoxville",
+      "state": "TN",
+      "stadium": "Neyland Stadium",
+      "coordinates": [35.954888, -83.924955]
+    },
+    "opponentId": "TENN",
+    "score": {
+      "away": 14,
+      "home": 38
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 24
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 2
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 55
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/13/1999",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium",
+      "coordinates": [40.444, -79.962]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 27,
+      "home": 37
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 52
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/20/1999",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 31,
+      "home": 29
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 25
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 44
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/27/1999",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium",
+      "coordinates": [37.434444, -122.161111]
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 37,
+      "home": 40
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57
+    }
+  }
+]

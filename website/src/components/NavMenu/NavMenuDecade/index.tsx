@@ -1,7 +1,7 @@
 import rangeRight from 'lodash/rangeRight';
 import React from 'react';
 
-import {CURRENT_SEASON, LATEST_YEAR} from '../../../lib/constants';
+import {CURRENT_SEASON, LATEST_SEASON} from '../../../lib/constants';
 import {getNationalChampionshipYears} from '../../../lib/utils';
 import {
   MavMenuDecadeHeader,
@@ -27,7 +27,7 @@ export const NavMenuDecade: React.FC<{
     }
 
     // Notre Dame did not field a team in 1980 or 1981.
-    if (year === 1890 || year === 1891 || year > LATEST_YEAR) {
+    if (year === 1890 || year === 1891 || year > LATEST_SEASON) {
       return <p key={year} />;
     }
 

@@ -1,0 +1,188 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/03/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 0,
+      "home": 12
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/10/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "LAK",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/17/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "DEP",
+    "score": {
+      "away": 0,
+      "home": 56
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/24/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "AM-M",
+    "score": {
+      "away": 0,
+      "home": 52
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/29/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "CHI-P&S",
+    "score": {
+      "away": 0,
+      "home": 46
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/07/1903",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "MIZ-O",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "T",
+    "isHomeGame": false,
+    "date": "11/14/1903",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "coordinates": [41.878113, -87.629799]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 0,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/21/1903",
+    "location": {
+      "city": "Toledo",
+      "state": "OH",
+      "coordinates": [-89.03361, -83.535721]
+    },
+    "opponentId": "OH-M",
+    "score": {
+      "away": 35,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/26/1903",
+    "location": {
+      "city": "Crawfordsville",
+      "state": "IN",
+      "coordinates": [40.04286, -86.90334]
+    },
+    "opponentId": "WAB",
+    "score": {
+      "away": 34,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "James Farragher"
+  }
+]

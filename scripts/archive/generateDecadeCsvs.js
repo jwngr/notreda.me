@@ -4,7 +4,7 @@ const path = require('path');
 const format = require('date-fns/format');
 
 const logger = require('../lib/logger');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
 const {CURRENT_SEASON} = require('../lib/constants');
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');

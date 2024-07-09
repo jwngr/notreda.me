@@ -1,7 +1,8 @@
 const _ = require('lodash');
 
 const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../lib/ndSchedules');
+const ndSchedules = require('../../../../website/src/resources/schedules');
+const {ALL_SEASONS} = require('../../../lib/constants');
 
 let pollRankings = {
   ap: Array(25).fill(0),
@@ -10,7 +11,8 @@ let pollRankings = {
   cfbPlayoff: Array(25).fill(0),
 };
 
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData) => {
+ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   seasonScheduleData
     .filter(({result}) => typeof result !== 'undefined')
     .forEach((gameData) => {

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 
 import {Schedules} from '../../lib/schedules';
-import {TeamId} from '../../models';
+import {GameInfo, TeamId} from '../../models';
 import {CompletedGameSummary} from './CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
 
@@ -9,24 +9,37 @@ export const GameSummary: React.FC<{
   readonly selectedSeason: number;
   readonly selectedGameIndex: number;
 }> = ({selectedSeason, selectedGameIndex}) => {
-  const seasonSchedule = Schedules.getForSeason(selectedSeason);
-  const game = seasonSchedule[selectedGameIndex];
+  const [game, setGame] = useState<GameInfo | null>(null);
 
-  const homeTeamId = game.isHomeGame ? TeamId.ND : game.opponentId;
-  const awayTeamId = game.isHomeGame ? game.opponentId : TeamId.ND;
+  useEffect(() => {
+    const fetchGame = async () => {
+      const seasonSchedule = await Schedules.getForSeason(selectedSeason);
+      setGame(seasonSchedule[selectedGameIndex]);
+    };
+    fetchGame();
+  }, [selectedSeason, selectedGameIndex]);
+
+  const teamIds = useMemo(() => {
+    if (!game) return null;
+    return game.isHomeGame
+      ? {home: TeamId.ND, away: game.opponentId}
+      : {home: game.opponentId, away: TeamId.ND};
+  }, [game]);
+
+  if (!game || !teamIds) return null;
 
   return game.result ? (
     <CompletedGameSummary
       game={game}
-      homeTeamId={homeTeamId}
-      awayTeamId={awayTeamId}
+      homeTeamId={teamIds.home}
+      awayTeamId={teamIds.away}
       season={selectedSeason}
     />
   ) : (
     <FutureGameSummary
       game={game}
-      homeTeamId={homeTeamId}
-      awayTeamId={awayTeamId}
+      homeTeamId={teamIds.home}
+      awayTeamId={teamIds.away}
       selectedSeason={selectedSeason}
     />
   );

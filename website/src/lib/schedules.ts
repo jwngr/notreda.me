@@ -1,18 +1,20 @@
-import {FullSchedule, GameInfo} from '../models';
-import scheduleJson from '../resources/schedule.json';
+import {GameInfo} from '../models';
+import {ALL_SEASONS} from './constants';
 
-const FULL_SCHEDULE = scheduleJson as FullSchedule;
+const schedulesGlob = import.meta.glob('../resources/schedules/*.json');
 
 export class Schedules {
-  static getAll(): FullSchedule {
-    return FULL_SCHEDULE;
-  }
-
-  static getForSeason(season: number): readonly GameInfo[] {
-    return FULL_SCHEDULE[season];
-  }
-
   static getSeasons(): readonly number[] {
-    return Object.keys(FULL_SCHEDULE).map(Number);
+    return ALL_SEASONS;
+  }
+
+  static async getForSeason(season: number): Promise<readonly GameInfo[]> {
+    try {
+      const scheduleModule = await schedulesGlob[`../resources/schedules/${season}.json`]();
+      return (scheduleModule as {readonly default: readonly GameInfo[]}).default;
+    } catch (error) {
+      // TODO: Add error logging.
+      return [];
+    }
   }
 }

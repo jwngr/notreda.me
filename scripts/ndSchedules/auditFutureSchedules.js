@@ -3,7 +3,7 @@ const _ = require('lodash');
 const teams = require('../lib/teams');
 const logger = require('../lib/logger');
 const sentry = require('../lib/sentry');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
 const futureSchedules = require('../lib/futureSchedules');
 
 sentry.initialize();

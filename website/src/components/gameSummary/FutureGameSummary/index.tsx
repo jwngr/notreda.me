@@ -6,7 +6,7 @@ import {GameInfo, TeamId} from '../../../models';
 import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 import {GameCoverage} from '../GameCoverage';
 import {Location} from '../Location';
-import {MatchupHistory} from '../MatchupHistory';
+// import {MatchupHistory} from '../MatchupHistory';
 import {
   AtOrVersus,
   FutureGameWrapper,
@@ -30,7 +30,7 @@ const TeamInfo: React.FC<{
   const team = Teams.getTeam(teamId);
   return (
     <TeamWrapper>
-      <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} />
+      <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} size={52} />
       <TeamDetailsWrapper $isHomeGame={homeOrAway === 'home'}>
         <TeamName>
           {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
@@ -48,7 +48,7 @@ export const FutureGameSummary: React.FC<{
   readonly selectedSeason: number;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
-}> = ({game, selectedSeason, homeTeamId, awayTeamId}) => {
+}> = ({game, homeTeamId, awayTeamId}) => {
   const homeTeam = Teams.getTeam(homeTeamId);
   const awayTeam = Teams.getTeam(awayTeamId);
 
@@ -100,8 +100,8 @@ export const FutureGameSummary: React.FC<{
                 <TeamNickname>{homeTeam.nickname}</TeamNickname>
                 {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
               </TeamDetailsWrapper>
-              <TeamImage teamId={awayTeamId} $isHomeGame={false} />
-              <TeamImage teamId={homeTeamId} $isHomeGame />
+              <TeamImage teamId={awayTeamId} $isHomeGame={false} size={52} />
+              <TeamImage teamId={homeTeamId} $isHomeGame size={52} />
               <AtOrVersus>{atOrVs}</AtOrVersus>
             </TeamsWrapper>
           ) : (
@@ -129,7 +129,8 @@ export const FutureGameSummary: React.FC<{
           <GameCoverage game={game} />
           <Location game={game} />
         </CoverageLocationWrapper>
-        <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} />
+        {/* TODO: Re-enable matchup history after improving data loading performance. */}
+        {/* <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} /> */}
       </StatsWrapper>
     </FutureGameWrapper>
   );
