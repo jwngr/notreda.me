@@ -1,8 +1,6 @@
-import {FullSchedule, GameInfo, TeamId} from '../models';
-import scheduleJson from '../resources/schedule.json';
+import {GameInfo, TeamId} from '../models';
 import {CURRENT_SEASON} from './constants';
-
-const schedule = scheduleJson as FullSchedule;
+import {Schedules} from './schedules';
 
 interface ExpandedGameInfo extends GameInfo {
   readonly season: number;
@@ -21,7 +19,9 @@ export const getMatchupsAgainstTeam = (opponentId: TeamId): PastAndFutureMatchup
     future: [],
   };
 
-  Object.entries(schedule).forEach(([currentSeason, currentSeasonGames]) => {
+  const allSeasonSchedules = Schedules.getAll();
+
+  Object.entries(allSeasonSchedules).forEach(([currentSeason, currentSeasonGames]) => {
     currentSeasonGames.forEach((currentGame, weekIndex) => {
       if (currentGame.opponentId === opponentId) {
         const pastOrFuture = currentGame.result ? 'past' : 'future';

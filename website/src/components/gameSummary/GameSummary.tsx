@@ -1,17 +1,16 @@
 import React from 'react';
 
-import {FullSchedule, TeamId} from '../../models';
-import scheduleJson from '../../resources/schedule.json';
+import {Schedules} from '../../lib/schedules';
+import {TeamId} from '../../models';
 import {CompletedGameSummary} from './CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
-
-const schedule = scheduleJson as FullSchedule;
 
 export const GameSummary: React.FC<{
   readonly selectedSeason: number;
   readonly selectedGameIndex: number;
 }> = ({selectedSeason, selectedGameIndex}) => {
-  const game = schedule[selectedSeason][selectedGameIndex];
+  const seasonSchedule = Schedules.getForSeason(selectedSeason);
+  const game = seasonSchedule[selectedGameIndex];
 
   const homeTeamId = game.isHomeGame ? TeamId.ND : game.opponentId;
   const awayTeamId = game.isHomeGame ? game.opponentId : TeamId.ND;

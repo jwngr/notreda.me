@@ -11,13 +11,13 @@ import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioSta
 // import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
 // import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
 // import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
-import schedule from '../../resources/schedule.json';
 import {LineChart} from '../charts/LineChart';
 import {Note} from './Note';
 import {Paragraph} from './Paragraph';
 
 import './WinPercentage.css';
 
+import {Schedules} from '../../lib/schedules';
 import {StyledExternalLink} from './index.styles';
 
 export class WinPercentage extends Component {
@@ -32,7 +32,9 @@ export class WinPercentage extends Component {
     let stanfordWinPercentageByGame = [];
     let ndWinPercentageByYear = [];
 
-    Object.entries(schedule).forEach((yearData, year) => {
+    const allSeasonSchedules = Schedules.getAll();
+
+    Object.entries(allSeasonSchedules).forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;

@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {findDOMNode} from 'react-dom';
 import TweetEmbed from 'react-tweet-embed';
 
-import schedule from '../../resources/schedule.json';
+import {Schedules} from '../../lib/schedules';
 import {Tooltip} from '../charts/Tooltip';
 import {Note} from './Note';
 import {Paragraph} from './Paragraph';
@@ -16,7 +16,9 @@ export class YardPoints extends Component {
 
     let yardsDifferentialData = [];
 
-    Object.entries(schedule).forEach((yearData, year) => {
+    const allSeasonSchedules = Schedules.getAll();
+
+    Object.entries(allSeasonSchedules).forEach((yearData, year) => {
       let currentData = yearData.map(({stats, score, opponentId, result, isHomeGame}) => {
         if (typeof stats !== 'undefined') {
           let rushYardsDifferential;

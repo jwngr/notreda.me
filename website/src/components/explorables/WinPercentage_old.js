@@ -1,11 +1,12 @@
 import * as d3 from 'd3';
 import React, {Component} from 'react';
 
-import schedule from '../../resources/schedule.json';
 import {LineChart} from '../charts/LineChart';
 // import {Tooltip} from '../charts/Tooltip';
 
 import './WinPercentage.css';
+
+import {Schedules} from '../../lib/schedules';
 
 export class WinPercentage extends Component {
   constructor(props) {
@@ -18,13 +19,15 @@ export class WinPercentage extends Component {
     let winPercentageData = [];
     let yearWinPercentageData = [];
 
-    Object.entries(schedule).forEach((yearData, year) => {
+    const allSeasonSchedules = Schedules.getAll();
+
+    Object.entries(allSeasonSchedules).forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage;
 
-      let currentYearData = schedule[year].map(({score, opponentId, result, isHomeGame}) => {
+      let currentYearData = yearData.map(({score, opponentId, result, isHomeGame}) => {
         let scoreText;
 
         // Exclude future games
