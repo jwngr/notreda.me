@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom';
 
 import {Game} from '../../components/Game';
 import {GameSummary} from '../../components/gameSummary/GameSummary';
-import {NavMenu} from '../../components/NavMenu';
+import {NavMenu} from '../../components/navMenu/NavMenu';
 import {LATEST_SEASON} from '../../lib/constants';
 import {Schedules} from '../../lib/schedules';
 import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../../lib/urls';
