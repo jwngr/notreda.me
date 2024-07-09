@@ -1,18 +1,43 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
-import {BlogPostInfo} from '../../../models';
-import {NewsletterSignupForm} from '../../common/NewsletterSignupForm';
-import {
-  BlogPostCardWrapper,
-  BlogPostDate,
-  BlogPostDescription,
-  Divider,
-  Subtitle,
-  Title,
-  Wrapper,
-} from './index.styles';
+import {BlogPostInfo} from '../../models';
+import {NewsletterSignupForm} from '../common/NewsletterSignupForm';
+import {Divider, Subtitle, Title, Wrapper} from './index.styles';
+
+const BlogPostCardWrapper = styled.div`
+  a {
+    font-family: 'Inter UI';
+    font-size: 20px;
+    color: ${({theme}) => theme.colors.green};
+    text-decoration: none;
+    font-weight: bold;
+
+    @media (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+`;
+
+const BlogPostDate = styled.p`
+  font-size: 16px;
+  font-family: 'Inter UI';
+  margin: 12px 0;
+  color: ${({theme}) => theme.colors.gray};
+`;
+
+const BlogPostDescription = styled.p`
+  font-size: 16px;
+  font-family: 'Inter UI';
+  line-height: 1.5;
+  color: ${({theme}) => theme.colors.black};
+`;
 
 const posts: readonly BlogPostInfo[] = [
   {
