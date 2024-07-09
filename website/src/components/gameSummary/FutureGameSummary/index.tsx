@@ -129,7 +129,8 @@ export const FutureGameSummary: React.FC<{
           <GameCoverage game={game} />
           <Location game={game} />
         </CoverageLocationWrapper>
-        <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} />
+        {/* TODO: Re-enable matchup history after improving data loading performance. */}
+        {/* <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} /> */}
       </StatsWrapper>
     </FutureGameWrapper>
   );

@@ -31,7 +31,8 @@ export const CompletedGameSummary: React.FC<{
         highlightsYouTubeVideoId={game.highlightsYouTubeVideoId ?? null}
       />
 
-      <MatchupHistory selectedGame={game} selectedSeason={season} />
+      {/* TODO: Re-enable matchup history after improving data loading performance. */}
+      {/* <MatchupHistory selectedGame={game} selectedSeason={season} /> */}
 
       <CompletedGameStats
         stats={game.stats ?? null}

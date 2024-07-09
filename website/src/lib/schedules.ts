@@ -13,6 +13,7 @@ export class Schedules {
       const scheduleModule = await schedulesGlob[`../resources/schedules/${season}.json`]();
       return (scheduleModule as {readonly default: readonly GameInfo[]}).default;
     } catch (error) {
+      // TODO: Add error logging.
       return [];
     }
   }
