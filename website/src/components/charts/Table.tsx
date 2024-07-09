@@ -67,7 +67,7 @@ const TableRow = styled.tr<TableRowProps>`
 
 export const Table: React.FC<{
   readonly headers: (string | {readonly text: string; readonly width: string})[];
-  readonly rows: string[][];
+  readonly rows: (string | number)[][];
   readonly highlightedRowIndexes?: number[];
 }> = ({headers, rows, highlightedRowIndexes = []}) => {
   const headerRow = (

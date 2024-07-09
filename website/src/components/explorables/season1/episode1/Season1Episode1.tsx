@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
+// @ts-expect-error TODO: Remove this after porting `BarChart` to TypeScript.
 import {BarChart} from '../../../charts/BarChart';
 import {Table} from '../../../charts/Table';
 import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
@@ -22,12 +23,30 @@ import {
   Title,
   Wrapper,
 } from '../../index.styles';
-import data from './data.json';
+import dataJson from './data.json';
 
 const title = 'Down To The Wire';
 const subtitle = 'One Possession Games In The Brian Kelly Era';
 
-export const ExplorablesS1E1 = () => {
+interface Season1Episode1Data {
+  readonly nd: {
+    readonly brianKellyEra: {
+      readonly onePossessionGameCounts: number[];
+      readonly overallWinPercentages: number[];
+      readonly onePossesssionGameWinPercentages: number[];
+    };
+  };
+  readonly coaches: {
+    readonly rows: [string, string, string, number, string][];
+  };
+  readonly top25: {
+    readonly rows: [string, number, string, number, string][];
+  };
+}
+
+const data = dataJson as Season1Episode1Data;
+
+export const ExplorablesS1E1: React.FC = () => {
   return (
     <Wrapper>
       <Helmet>
@@ -173,7 +192,7 @@ export const ExplorablesS1E1 = () => {
         data={data.nd.brianKellyEra.onePossesssionGameWinPercentages}
         yMax={100}
         xAxisLabel="Season"
-        formatCount={(d) => `${d}%`}
+        formatCount={(d: number) => `${d}%`}
         yAxisLabel="Win % In One Possession Games"
         xAxisTickLabels={['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018']}
       />
