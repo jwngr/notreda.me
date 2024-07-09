@@ -1,17 +1,64 @@
 import capitalize from 'lodash/capitalize';
 import React, {useEffect, useState} from 'react';
 import Media from 'react-media';
+import styled from 'styled-components';
 
 import {
   ExpandedGameInfo,
   getFilteredMatchupsAgainstTeam,
   getMatchupsAgainstTeam,
-} from '../../../lib/matchupHistory';
-import {useWindowSize} from '../../../lib/useWindowSize';
-import {GameInfo} from '../../../models';
-import {StatsSection} from '../../common/StatsSection';
+} from '../../lib/matchupHistory';
+import {useWindowSize} from '../../lib/useWindowSize';
+import {GameInfo} from '../../models';
+import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
-import {MatchupHistoryWrapper, RecentMatchups, Records} from './index.styles';
+
+const MatchupHistoryWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+const Records = styled.div`
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > p:first-of-type {
+      font-size: 16px;
+      font-family: 'Inter UI', serif;
+    }
+
+    & > p:last-of-type {
+      font-size: 20px;
+      font-family: 'Bungee';
+    }
+  }
+`;
+
+interface RecentMatchupsProps {
+  readonly $matchupsCount: number;
+}
+
+const RecentMatchups = styled.div<RecentMatchupsProps>`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: ${({$matchupsCount}) => ($matchupsCount > 1 ? '-60px' : 0)};
+`;
 
 const _getMaxMatchupsCountFromWindowWidth = (width: number): number => {
   if (width > 1420) {

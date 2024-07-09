@@ -1,15 +1,93 @@
+import {darken} from 'polished';
 import React from 'react';
+import styled from 'styled-components';
 
-import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
-import {Teams} from '../../../../lib/teams';
-import {GameStats, TeamId} from '../../../../models';
+import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
+import {Teams} from '../../lib/teams';
+import {GameStats, TeamId} from '../../models';
 import {GameStatsRow} from './GameStatsRow';
 import {
-  GameStatsHeader,
-  GameStatsHeaderRow,
-  GameStatsHeaderSpacer,
-  GameStatsWrapper,
+  STATS_HEADER_COLUMN_STYLES,
+  STATS_HEADER_SPACER_STYLES,
+  STATS_SECTION_BREAKPOINTS,
 } from './index.styles';
+
+const GameStatsWrapper = styled.div`
+  width: 100%;
+  margin-top: 32px;
+  border: solid 3px ${({theme}) => theme.colors.black};
+`;
+
+const GameStatsHeaderRow = styled.div`
+  width: 100%;
+  padding: 0;
+  display: flex;
+  margin-top: -17px;
+`;
+
+interface GameStatsHeaderProps {
+  readonly $longestHeaderTextLength: number;
+}
+
+const GameStatsHeader = styled.div<GameStatsHeaderProps>`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    flex: 1;
+    min-width: 132px;
+    max-width: 200px;
+    display: flex;
+    padding: 4px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
+    -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.green)};
+    text-shadow: ${({theme}) => theme.colors.black} 1px 1px;
+    font-family: 'Bungee';
+    font-size: ${({$longestHeaderTextLength}) => ($longestHeaderTextLength > 14 ? '12px' : '14px')};
+    color: ${({theme}) => theme.colors.white};
+    border: solid 3px ${({theme}) => theme.colors.black};
+  }
+
+  @media (min-width: ${STATS_SECTION_BREAKPOINTS[0] + 1}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftLarge}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[0]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftSmall}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.middle}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[2]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.leftLarge}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[3]}px) {
+    ${STATS_HEADER_COLUMN_STYLES.middle}
+  }
+`;
+
+const GameStatsHeaderSpacer = styled.div`
+  ${STATS_HEADER_SPACER_STYLES.left}
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) {
+    ${STATS_HEADER_SPACER_STYLES.middle}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[2]}px) {
+    ${STATS_HEADER_SPACER_STYLES.left}
+  }
+
+  @media (max-width: ${STATS_SECTION_BREAKPOINTS[3]}px) {
+    ${STATS_HEADER_SPACER_STYLES.middle}
+  }
+`;
 
 export const CompletedGameStats: React.FC<{
   readonly stats: GameStats | null;
