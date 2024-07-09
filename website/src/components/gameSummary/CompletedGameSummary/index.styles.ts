@@ -1,65 +1,67 @@
-import styled from 'styled-components';
+export const STATS_SECTION_BREAKPOINTS = [1350, 1300, 950, 700];
 
-export const CompletedGameWrapper = styled.div`
-  flex: 1;
-  display: flex;
-  margin-top: 16px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+export const STATS_HEADER_SPACER_STYLES = {
+  left: `
+      flex: 1;
+      order: 0;
+      width: unset;
+    `,
+  middle: `
+      flex: unset;
+      order: 1;
+      width: 100px;
+    `,
+};
 
-  @media (max-width: 768px) {
-    padding: 8px;
-    padding-bottom: 20px;
-  }
-`;
+export const STATS_HEADER_COLUMN_STYLES = {
+  // Stat names are the left column (large version).
+  leftLarge: `
+    flex: unset;
+    width: 180px;
 
-const coverageLocationWrapperSmallerStyles = `
-  flex-direction: column;
-  align-items: initial;
-  justify-content: initial;
+    &:nth-of-type(2) {
+      order: 1;
+      margin-left: 0;
+      margin-right: 12px;
+    }
 
-  & > div {
+    &:last-of-type {
+      order: 2;
+      margin-right: 12px;
+    }
+  `,
+
+  // Stat names are the left column (small version).
+  leftSmall: `
+    flex: unset;
+    width: 160px;
+
+    &:nth-of-type(2) {
+      order: 1;
+      margin-left: 0;
+      margin-right: 8px;
+    }
+
+    &:last-of-type {
+      order: 2;
+      margin-right: 8px;
+    }
+  `,
+
+  // Stat names are the middle column.
+  middle: `
     flex: 1;
-    max-width: 100%;
-  }
+    width: unset;
 
-  & > div:first-of-type {
-    margin-right: 0;
-    margin-bottom: 32px;
-  }
+    &:nth-of-type(2) {
+      order: 0;
+      margin-left: 4px;
+      margin-right: 0;
+    }
 
-  & > div:last-of-type {
-    margin-left: 0;
-  }
-`;
-
-export const CoverageLocationWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  & > div {
-    flex: 1;
-    max-width: calc(50% - 6px);
-  }
-
-  & > div:first-of-type {
-    margin-right: 6px;
-    margin-bottom: 0;
-  }
-
-  & > div:last-of-type {
-    margin-left: 6px;
-  }
-
-  @media (max-width: 1200px) and (min-width: 950px) {
-    ${coverageLocationWrapperSmallerStyles}
-  }
-
-  @media (max-width: 600px) {
-    ${coverageLocationWrapperSmallerStyles}
-  }
-`;
+    &:last-of-type {
+      order: 2;
+      margin-right: 4px;
+    }
+  `,
+};

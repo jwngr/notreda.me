@@ -1,11 +1,63 @@
 import {format} from 'date-fns/format';
 import React from 'react';
+import styled from 'styled-components';
 
 import {getTimeZoneString, getTvChannelUrl} from '../../../lib/utils';
 import {GameInfo, TVNetwork} from '../../../models';
 import {StatsSection} from '../../common/StatsSection';
 import {TVNetworkLogo} from '../../TVNetworkLogo';
+import {Location} from '../Location';
 import {CanceledText, ChannelLogo, CoverageInnerWrapper, DateAndTimeWrapper} from './index.styles';
+
+const coverageLocationWrapperSmallerStyles = `
+  flex-direction: column;
+  align-items: initial;
+  justify-content: initial;
+
+  & > div {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  & > div:first-of-type {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  & > div:last-of-type {
+    margin-left: 0;
+  }
+`;
+
+const GameCoverageWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & > div {
+    flex: 1;
+    max-width: calc(50% - 6px);
+  }
+
+  & > div:first-of-type {
+    margin-right: 6px;
+    margin-bottom: 0;
+  }
+
+  & > div:last-of-type {
+    margin-left: 6px;
+  }
+
+  @media (max-width: 1200px) and (min-width: 950px) {
+    ${coverageLocationWrapperSmallerStyles}
+  }
+
+  @media (max-width: 600px) {
+    ${coverageLocationWrapperSmallerStyles}
+  }
+`;
 
 export const GameCoverage: React.FC<{
   readonly game: GameInfo;
@@ -80,8 +132,11 @@ export const GameCoverage: React.FC<{
   }
 
   return (
-    <StatsSection title={game.coverage || !game.result ? 'Coverage' : 'Date'}>
-      <CoverageInnerWrapper>{mainContent}</CoverageInnerWrapper>
-    </StatsSection>
+    <GameCoverageWrapper>
+      <StatsSection title={game.coverage || !game.result ? 'Coverage' : 'Date'}>
+        <CoverageInnerWrapper>{mainContent}</CoverageInnerWrapper>
+      </StatsSection>
+      <Location game={game} />
+    </GameCoverageWrapper>
   );
 };

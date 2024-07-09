@@ -3,9 +3,7 @@ import Media from 'react-media';
 
 import {Teams} from '../../../lib/teams';
 import {GameInfo, TeamId} from '../../../models';
-import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 import {GameCoverage} from '../GameCoverage';
-import {Location} from '../Location';
 // import {MatchupHistory} from '../MatchupHistory';
 import {
   AtOrVersus,
@@ -125,10 +123,7 @@ export const FutureGameSummary: React.FC<{
       </Media>
 
       <StatsWrapper>
-        <CoverageLocationWrapper>
-          <GameCoverage game={game} />
-          <Location game={game} />
-        </CoverageLocationWrapper>
+        <GameCoverage game={game} />
         {/* TODO: Re-enable matchup history after improving data loading performance. */}
         {/* <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} /> */}
       </StatsWrapper>

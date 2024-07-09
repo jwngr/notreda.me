@@ -2,7 +2,7 @@ import React, {useEffect, useMemo, useState} from 'react';
 
 import {Schedules} from '../../lib/schedules';
 import {GameInfo, TeamId} from '../../models';
-import {CompletedGameSummary} from './CompletedGameSummary';
+import {CompletedGameSummary} from './CompletedGameSummary/CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
 
 export const GameSummary: React.FC<{

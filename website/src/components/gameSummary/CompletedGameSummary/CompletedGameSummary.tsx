@@ -1,13 +1,26 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import {GameInfo, TeamId} from '../../../models';
 import {GameCoverage} from '../GameCoverage';
-import {Location} from '../Location';
 // import {MatchupHistory} from '../MatchupHistory';
 import {CompletedGameStats} from './GameStats';
-import {CompletedGameWrapper, CoverageLocationWrapper} from './index.styles';
 import {Linescore} from './Linescore';
 import {TotalScore} from './TotalScore';
+
+const CompletedGameWrapper = styled.div`
+  flex: 1;
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+    padding-bottom: 20px;
+  }
+`;
 
 export const CompletedGameSummary: React.FC<{
   readonly game: GameInfo;
@@ -19,10 +32,7 @@ export const CompletedGameSummary: React.FC<{
     <CompletedGameWrapper>
       <TotalScore game={game} homeTeamId={homeTeamId} awayTeamId={awayTeamId} />
 
-      <CoverageLocationWrapper>
-        <GameCoverage game={game} />
-        <Location game={game} />
-      </CoverageLocationWrapper>
+      <GameCoverage game={game} />
 
       <Linescore
         homeTeamId={homeTeamId}
