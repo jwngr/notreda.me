@@ -1,14 +1,55 @@
 import {darken, lighten} from 'polished';
 import Slider from 'rc-slider';
 import React, {useState} from 'react';
+import styled from 'styled-components';
 
-import theme from '../../../resources/theme.json';
-import {SliderWrapper} from './index.styles';
+import theme from '../../resources/theme.json';
 
 import 'rc-slider/assets/index.css';
 
+interface SliderWrapperProps {
+  readonly $width: number;
+  readonly $widthSm: number;
+}
+
+const SliderWrapper = styled.div<SliderWrapperProps>`
+  width: ${({$width}) => `${$width}px`};
+
+  @media (max-width: 600px) {
+    max-width: ${({$widthSm}) => `${$widthSm}px`};
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    height: 15px;
+    border-radius: 5px;
+    background: ${({theme}) => darken(0.2, theme.colors.lightGray)};
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: ${({theme}) => theme.colors.green};
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: ${({theme}) => theme.colors.green};
+    cursor: pointer;
+  }
+`;
+
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
-export const Range = createSliderWithTooltip(Slider.Range);
+const Range = createSliderWithTooltip(Slider.Range);
 
 interface SliderRangeProps {
   readonly min: number;

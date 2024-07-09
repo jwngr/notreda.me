@@ -1,13 +1,14 @@
 import {darken} from 'polished';
+import React from 'react';
 import styled from 'styled-components';
 
-export const StatsSectionWrapper = styled.div`
+const StatsSectionWrapper = styled.div`
   border: solid 3px ${({theme}) => theme.colors.black};
   width: 100%;
   align-self: stretch;
 `;
 
-export const StatsSectionTitle = styled.div`
+const StatsSectionTitle = styled.div`
   text-align: center;
   margin: -11px 8px 24px 8px;
 
@@ -25,9 +26,25 @@ export const StatsSectionTitle = styled.div`
   }
 `;
 
-export const StatsChildrenWrapper = styled.div`
+const StatsChildrenWrapper = styled.div`
   width: 100%;
   height: calc(100% - 12px);
   padding: 8px;
   margin-top: -20px;
 `;
+
+export const StatsSection: React.FC<{
+  readonly title: string;
+  // TODO: Replace with `Spacer` component.
+  readonly style?: React.CSSProperties;
+  readonly children: React.ReactNode;
+}> = ({title, style, children}) => {
+  return (
+    <StatsSectionWrapper style={style}>
+      <StatsSectionTitle>
+        <p>{title}</p>
+      </StatsSectionTitle>
+      <StatsChildrenWrapper>{children}</StatsChildrenWrapper>
+    </StatsSectionWrapper>
+  );
+};
