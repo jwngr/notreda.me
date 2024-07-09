@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 
-import {Explorables} from '../../components/explorables/Explorables';
-import {ExplorablesS1E1} from '../../components/explorables/season1/episode1';
-import {ExplorablesS1E2} from '../../components/explorables/season1/episode2';
+import {Explorables} from '../components/explorables/Explorables';
+import {ExplorablesS1E1} from '../components/explorables/season1/episode1/Season1Episode1';
+import {ExplorablesS1E2} from '../components/explorables/season1/episode2';
 
 export const ExplorablesScreen = () => {
   return (
