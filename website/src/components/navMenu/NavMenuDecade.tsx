@@ -1,8 +1,13 @@
+import rangeRight from 'lodash/rangeRight';
 import {darken} from 'polished';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
-export const NavMenuDecadeWrapper = styled.div`
+import {CURRENT_SEASON, LATEST_SEASON} from '../../lib/constants';
+import {getNationalChampionshipYears} from '../../lib/utils';
+
+const NavMenuDecadeWrapper = styled.div`
   flex: 1;
   padding: 8px;
   margin: 32px 12px 0 0;
@@ -55,7 +60,7 @@ export const MavMenuDecadeHeader = styled.div`
   }
 `;
 
-export const NavMenuDecadeYearsWrapper = styled.div`
+const NavMenuDecadeYearsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2px;
@@ -68,7 +73,7 @@ interface NavMenuDecadeYearProps {
   readonly $isChampionshipYear: boolean;
 }
 
-export const NavMenuDecadeYear = styled(Link)<NavMenuDecadeYearProps>`
+const NavMenuDecadeYear = styled(Link)<NavMenuDecadeYearProps>`
   width: 36px;
   height: 36px;
   display: flex;
@@ -130,3 +135,51 @@ export const NavMenuDecadeYear = styled(Link)<NavMenuDecadeYearProps>`
     height: 44px;
   }
 `;
+
+export const NavMenuDecade: React.FC<{
+  readonly startingYear: number;
+  readonly selectedSeason: number;
+  readonly onClick: () => void;
+}> = ({startingYear, selectedSeason, onClick}) => {
+  let yearsRange = rangeRight(startingYear, startingYear + 10);
+  if (startingYear === 1880) {
+    yearsRange = [1889, 1888, 1887];
+  }
+
+  const decadeContent = yearsRange.map((year) => {
+    let yearEnding = String(year % 100);
+    if (yearEnding.length === 1) {
+      yearEnding = '0' + yearEnding;
+    }
+
+    // Notre Dame did not field a team in 1980 or 1981.
+    if (year === 1890 || year === 1891 || year > LATEST_SEASON) {
+      return <p key={year} />;
+    }
+
+    return (
+      <NavMenuDecadeYear
+        key={year}
+        to={`/${year}`}
+        $isCurrentYear={year === CURRENT_SEASON}
+        $isSelectedYear={year === selectedSeason}
+        $isChampionshipYear={getNationalChampionshipYears().includes(year)}
+        onClick={onClick}
+      >
+        {yearEnding}
+      </NavMenuDecadeYear>
+    );
+  });
+
+  return (
+    <NavMenuDecadeWrapper>
+      <MavMenuDecadeHeader>
+        <p>
+          {startingYear}
+          <span>s</span>
+        </p>
+      </MavMenuDecadeHeader>
+      <NavMenuDecadeYearsWrapper>{decadeContent}</NavMenuDecadeYearsWrapper>
+    </NavMenuDecadeWrapper>
+  );
+};

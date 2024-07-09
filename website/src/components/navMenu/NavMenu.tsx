@@ -1,13 +1,16 @@
+import rangeRight from 'lodash/rangeRight';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
+import {MavMenuDecadeHeader, NavMenuDecade} from './NavMenuDecade';
 
 interface NavMenuWrapperProps {
   readonly $isOpen: boolean;
 }
 
-export const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
+const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
   position: fixed;
   width: 720px;
   max-width: 100%;
@@ -45,12 +48,12 @@ export const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
   }
 `;
 
-export const NavMenuDecadesWrapper = styled.div`
+const NavMenuDecadesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
 
-export const NavMenuLinksSectionWrapper = styled.div`
+const NavMenuLinksSectionWrapper = styled.div`
   margin: 32px auto 0 auto;
   position: relative;
   left: -12px;
@@ -65,7 +68,7 @@ export const NavMenuLinksSectionWrapper = styled.div`
   }
 `;
 
-export const NavMenuLink = styled(Link)`
+const NavMenuLink = styled(Link)`
   flex: 1;
   color: ${({theme}) => theme.colors.black};
   font-size: 16px;
@@ -78,7 +81,7 @@ export const NavMenuLink = styled(Link)`
   }
 `;
 
-export const NavMenuLinksDivider = styled.p`
+const NavMenuLinksDivider = styled.p`
   width: 24px;
   font-size: 4px;
   text-align: center;
@@ -89,7 +92,7 @@ export const NavMenuLinksDivider = styled.p`
   }
 `;
 
-export const NavMenuLinksWrapper = styled.div`
+const NavMenuLinksWrapper = styled.div`
   display: flex;
   padding: 8px 12px 0 12px;
   flex-direction: row;
@@ -104,3 +107,42 @@ export const NavMenuLinksWrapper = styled.div`
     flex-direction: column;
   }
 `;
+
+export const NavMenu: React.FC<{
+  readonly open: boolean;
+  readonly selectedSeason: number;
+  readonly onClose: () => void;
+}> = ({open, selectedSeason, onClose}) => {
+  const navMenuDecadesContent = rangeRight(1880, 2040, 10).map((decade) => {
+    return (
+      <NavMenuDecade
+        key={decade}
+        startingYear={decade}
+        selectedSeason={selectedSeason}
+        onClick={onClose}
+      />
+    );
+  });
+
+  return (
+    <NavMenuWrapper $isOpen={open}>
+      <NavMenuLinksSectionWrapper>
+        <MavMenuDecadeHeader>
+          <p>Links</p>
+        </MavMenuDecadeHeader>
+        <NavMenuLinksWrapper>
+          <NavMenuLink to="/explorables">Explorables</NavMenuLink>
+          <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
+          <NavMenuLink to="https://www.github.com/jwngr/notreda.me/">GitHub</NavMenuLink>
+          <NavMenuLinksDivider>&#9679;</NavMenuLinksDivider>
+          <NavMenuLink to="https://jwn.gr/">@jwngr</NavMenuLink>
+        </NavMenuLinksWrapper>
+      </NavMenuLinksSectionWrapper>
+
+      <NavMenuDecadesWrapper>
+        {navMenuDecadesContent}
+        <p>&nbsp;</p>
+      </NavMenuDecadesWrapper>
+    </NavMenuWrapper>
+  );
+};
