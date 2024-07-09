@@ -6,7 +6,7 @@ import {GameInfo, TeamId} from '../../../models';
 import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 import {GameCoverage} from '../GameCoverage';
 import {Location} from '../Location';
-import {MatchupHistory} from '../MatchupHistory';
+// import {MatchupHistory} from '../MatchupHistory';
 import {
   AtOrVersus,
   FutureGameWrapper,
@@ -48,7 +48,7 @@ export const FutureGameSummary: React.FC<{
   readonly selectedSeason: number;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
-}> = ({game, selectedSeason, homeTeamId, awayTeamId}) => {
+}> = ({game, homeTeamId, awayTeamId}) => {
   const homeTeam = Teams.getTeam(homeTeamId);
   const awayTeam = Teams.getTeam(awayTeamId);
 
