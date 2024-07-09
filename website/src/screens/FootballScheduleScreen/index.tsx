@@ -1,13 +1,14 @@
-import React, {useMemo, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import Media from 'react-media';
 import {useParams} from 'react-router-dom';
 
 import {Game} from '../../components/Game';
 import {GameSummary} from '../../components/gameSummary/GameSummary';
 import {NavMenu} from '../../components/NavMenu';
-import {LATEST_YEAR} from '../../lib/constants';
+import {LATEST_SEASON} from '../../lib/constants';
 import {Schedules} from '../../lib/schedules';
 import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../../lib/urls';
+import {GameInfo} from '../../models';
 import {
   GamesWrapper,
   Header,
@@ -25,20 +26,32 @@ export const FootballScheduleScreen: React.FC = () => {
     readonly selectedGameIndex?: string;
   }>();
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+  const [seasonSchedule, setSeasonSchedule] = useState<readonly GameInfo[] | null>(null);
 
   // Get the selected season and game index from the URL.
   const {selectedSeason, selectedGameIndex} = useMemo(() => {
     const selectedSeasonInner = getSelectedSeasonFromUrlParam(params.selectedYear);
     return {
       selectedSeason: selectedSeasonInner,
-      selectedGameIndex: getSelectedGameIndexFromUrlParam(
-        selectedSeasonInner,
-        params.selectedGameIndex
-      ),
+      selectedGameIndex: getSelectedGameIndexFromUrlParam({
+        year: selectedSeasonInner,
+        maybeWeekString: params.selectedGameIndex,
+        seasonSchedule,
+      }),
     };
-  }, [params.selectedYear, params.selectedGameIndex]);
+  }, [params.selectedYear, params.selectedGameIndex, seasonSchedule]);
 
-  const gamesContent = Schedules.getForSeason(selectedSeason).map((game, index) => {
+  useEffect(() => {
+    const fetchGames = async () => {
+      const games = await Schedules.getForSeason(selectedSeason);
+      setSeasonSchedule(games);
+    };
+    fetchGames();
+  }, [selectedSeason]);
+
+  if (!seasonSchedule) return null;
+
+  const gamesContent = seasonSchedule.map((game, index) => {
     return (
       <Game
         key={index}
@@ -72,7 +85,7 @@ export const FootballScheduleScreen: React.FC = () => {
 
           <HeaderTitle>{`Notre Dame Football ${selectedSeason}`}</HeaderTitle>
 
-          <NextYearLink to={`/${nextYear}`} $isVisible={selectedSeason !== LATEST_YEAR}>
+          <NextYearLink to={`/${nextYear}`} $isVisible={selectedSeason !== LATEST_SEASON}>
             <Media query="(min-width: 700px)">
               <>{nextYear}</>
             </Media>

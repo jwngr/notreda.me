@@ -1,6 +1,6 @@
 const logger = require('../lib/logger');
-const ndSchedules = require('../lib/ndSchedules');
-
+const ndSchedules = require('../../website/src/resources/schedules');
+ 
 logger.info('Fetching unique locations...');
 
 let gamesCount = 0;

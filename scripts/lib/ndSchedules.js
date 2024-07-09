@@ -4,11 +4,7 @@ const path = require('path');
 
 const {ALL_SEASONS, CURRENT_SEASON} = require('./constants');
 
-const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
-const COMBINED_SCHEDULE_FILENAME = path.resolve(
-  __dirname,
-  '../../website/src/resources/schedule.json'
-);
+const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 const getForSeason = (season) => {
   try {
@@ -25,32 +21,17 @@ module.exports.getForCurrentSeason = () => {
   return getForSeason(CURRENT_SEASON);
 };
 
-const getForAllSeasons = () => {
-  return require(COMBINED_SCHEDULE_FILENAME);
-};
-module.exports.getForAllSeasons = getForAllSeasons;
-
 const updateForSeason = (season, seasonScheduleData) => {
   fs.writeFileSync(
     `${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`,
     JSON.stringify(seasonScheduleData, null, 2)
   );
-
-  updateForAllSeasons({
-    ...getForAllSeasons(),
-    [season]: seasonScheduleData,
-  });
 };
 module.exports.updateForSeason = updateForSeason;
 
 module.exports.updateForCurrentSeason = (seasonScheduleData) => {
   return updateForSeason(CURRENT_SEASON, seasonScheduleData);
 };
-
-const updateForAllSeasons = (allSeasonsScheduleData) => {
-  fs.writeFileSync(COMBINED_SCHEDULE_FILENAME, JSON.stringify(allSeasonsScheduleData, null, 2));
-};
-module.exports.updateForAllSeasons = updateForAllSeasons;
 
 module.exports.transformForAllSeasons = async (transform) => {
   const allSeasonsScheduleData = {};
@@ -68,5 +49,5 @@ module.exports.transformForAllSeasons = async (transform) => {
     updateForSeasonPromises.push(updateForSeason(season, seasonScheduleData));
   });
 
-  await Promise.all([...updateForSeasonPromises, updateForAllSeasons(allSeasonsScheduleData)]);
+  await Promise.all(updateForSeasonPromises);
 };

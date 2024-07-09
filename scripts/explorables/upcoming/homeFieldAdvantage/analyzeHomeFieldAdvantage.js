@@ -1,7 +1,8 @@
 const _ = require('lodash');
 
 const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../lib/ndSchedules');
+const ndSchedules = require('../../../../website/src/resources/schedules');
+const {ALL_SEASONS} = require('../../../lib/constants');
 
 const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
@@ -53,9 +54,10 @@ const stats = {
   },
 };
 
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData) => {
+ALL_SEASONS.forEach((season) => {
   const currentYearStats = _getInitialStats();
-
+  
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
       const resultString = _getResultString(gameData.result);

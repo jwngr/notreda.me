@@ -19,9 +19,9 @@ export class WinPercentage extends Component {
     let winPercentageData = [];
     let yearWinPercentageData = [];
 
-    const allSeasonSchedules = Schedules.getAll();
+    Schedules.getSeasons().forEach(async (year) => {
+      const yearData = await Schedules.getForSeason(year);
 
-    Object.entries(allSeasonSchedules).forEach((yearData, year) => {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;

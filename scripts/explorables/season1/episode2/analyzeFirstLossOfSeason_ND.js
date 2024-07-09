@@ -2,7 +2,7 @@ const _ = require('lodash');
 
 const polls = require('../../../lib/polls');
 const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../lib/ndSchedules');
+const ndSchedules = require('../../../../website/src/resources/schedules');
 
 let numSeasonsPlayed = 0;
 let firstLossOfSeasonsIndexTotal = 0;
