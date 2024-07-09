@@ -8,10 +8,7 @@
       "city": "Dublin",
       "country": "Ireland",
       "stadium": "Aviva Stadium",
-      "coordinates": [
-        53.335065,
-        -6.228575
-      ]
+      "coordinates": [53.335065, -6.228575]
     },
     "nickname": "Emerald Isle Classic",
     "opponentId": "NAVY",
@@ -65,18 +62,8 @@
     },
     "espnGameId": 322452426,
     "linescore": {
-      "away": [
-        13,
-        14,
-        13,
-        10
-      ],
-      "home": [
-        0,
-        3,
-        7,
-        0
-      ]
+      "away": [13, 14, 13, 10],
+      "home": [0, 3, 7, 0]
     },
     "time": "9:00 AM",
     "coverage": "CBS",
@@ -95,10 +82,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "score": {
@@ -151,18 +135,8 @@
     },
     "espnGameId": 322520087,
     "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        10
-      ],
-      "home": [
-        0,
-        7,
-        10,
-        3
-      ]
+      "away": [0, 7, 0, 10],
+      "home": [0, 7, 10, 3]
     },
     "time": "3:30 PM",
     "coverage": "NBC",
@@ -186,10 +160,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -242,18 +213,8 @@
     },
     "espnGameId": 322590127,
     "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        6
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        0
-      ]
+      "away": [7, 7, 0, 6],
+      "home": [0, 3, 0, 0]
     },
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -280,10 +241,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MICH",
     "score": {
@@ -336,18 +294,8 @@
     },
     "espnGameId": 322660087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        6
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        3
-      ]
+      "away": [0, 0, 0, 6],
+      "home": [0, 10, 0, 3]
     },
     "time": "7:30 PM",
     "coverage": "NBC",
@@ -374,10 +322,7 @@
       "city": "Chicago",
       "state": "IL",
       "stadium": "Soldier Field",
-      "coordinates": [
-        41.862105,
-        -87.616721
-      ]
+      "coordinates": [41.862105, -87.616721]
     },
     "opponentId": "MIAMI",
     "isShamrockSeries": true,
@@ -431,18 +376,8 @@
     },
     "espnGameId": 322800087,
     "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        6,
-        21,
-        7
-      ]
+      "away": [3, 0, 0, 0],
+      "home": [7, 6, 21, 7]
     },
     "time": "7:30 PM",
     "coverage": "NBC",
@@ -466,10 +401,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "STAN",
     "score": {
@@ -522,20 +454,8 @@
     },
     "espnGameId": 322870087,
     "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        3,
-        0
-      ],
-      "home": [
-        3,
-        0,
-        0,
-        10,
-        7
-      ]
+      "away": [0, 10, 0, 3, 0],
+      "home": [3, 0, 0, 10, 7]
     },
     "time": "3:30 PM",
     "coverage": "NBC",
@@ -563,10 +483,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BYU",
     "score": {
@@ -619,18 +536,8 @@
     },
     "espnGameId": 322940087,
     "linescore": {
-      "away": [
-        0,
-        14,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        0,
-        3,
-        7
-      ]
+      "away": [0, 14, 0, 0],
+      "home": [7, 0, 3, 7]
     },
     "time": "3:30 PM",
     "coverage": "NBC",
@@ -655,10 +562,7 @@
       "city": "Norman",
       "state": "OK",
       "stadium": "Oklahoma Memorial Stadium",
-      "coordinates": [
-        35.205196,
-        -97.44276
-      ]
+      "coordinates": [35.205196, -97.44276]
     },
     "opponentId": "OKLA",
     "score": {
@@ -711,18 +615,8 @@
     },
     "espnGameId": 323010201,
     "linescore": {
-      "away": [
-        7,
-        3,
-        0,
-        20
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        7
-      ]
+      "away": [7, 3, 0, 20],
+      "home": [3, 3, 0, 7]
     },
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -751,10 +645,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
     "score": {
@@ -807,24 +698,8 @@
     },
     "espnGameId": 323080087,
     "linescore": {
-      "away": [
-        3,
-        7,
-        10,
-        0,
-        3,
-        0,
-        3
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        14,
-        3,
-        0,
-        6
-      ]
+      "away": [3, 7, 10, 0, 3, 0, 3],
+      "home": [3, 3, 0, 14, 3, 0, 6]
     },
     "time": "3:30 PM",
     "coverage": "NBC",
@@ -850,10 +725,7 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [
-        42.335,
-        -71.166389
-      ]
+      "coordinates": [42.335, -71.166389]
     },
     "opponentId": "BC",
     "score": {
@@ -906,18 +778,8 @@
     },
     "espnGameId": 323150103,
     "linescore": {
-      "away": [
-        7,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        3
-      ]
+      "away": [7, 7, 7, 0],
+      "home": [0, 3, 0, 3]
     },
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -942,10 +804,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "WAKE",
     "score": {
@@ -998,18 +857,8 @@
     },
     "espnGameId": 323220087,
     "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        21,
-        10,
-        7,
-        0
-      ]
+      "away": [0, 0, 0, 0],
+      "home": [21, 10, 7, 0]
     },
     "time": "3:30 PM",
     "coverage": "NBC",
@@ -1034,10 +883,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -1090,18 +936,8 @@
     },
     "espnGameId": 323290030,
     "linescore": {
-      "away": [
-        10,
-        6,
-        3,
-        3
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        3
-      ]
+      "away": [10, 6, 3, 3],
+      "home": [0, 10, 0, 3]
     },
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -1126,10 +962,7 @@
       "city": "Miami Gardens",
       "state": "FL",
       "stadium": "Sun Life Stadium",
-      "coordinates": [
-        25.957783,
-        -80.238978
-      ]
+      "coordinates": [25.957783, -80.238978]
     },
     "opponentId": "BAMA",
     "score": {
@@ -1182,18 +1015,8 @@
     },
     "espnGameId": 330070333,
     "linescore": {
-      "home": [
-        0,
-        0,
-        7,
-        7
-      ],
-      "away": [
-        14,
-        14,
-        7,
-        7
-      ]
+      "home": [0, 0, 7, 7],
+      "away": [14, 14, 7, 7]
     },
     "time": "8:30 PM",
     "coverage": "ESPN",

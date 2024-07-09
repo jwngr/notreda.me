@@ -7,10 +7,7 @@
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Grant Field",
-      "coordinates": [
-        33.772356,
-        -84.392881
-      ]
+      "coordinates": [33.772356, -84.392881]
     },
     "opponentId": "GT",
     "score": {
@@ -42,10 +39,7 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Dyche Stadium",
-      "coordinates": [
-        42.06606,
-        -87.693537
-      ]
+      "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
     "score": {
@@ -76,10 +70,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "score": {
@@ -110,10 +101,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -144,10 +132,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "RICE",
     "score": {
@@ -178,10 +163,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
     "score": {
@@ -212,10 +194,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -250,10 +229,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "stadium": "Veterans Stadium",
-      "coordinates": [
-        39.906523,
-        -75.171088
-      ]
+      "coordinates": [39.906523, -75.171088]
     },
     "opponentId": "NAVY",
     "score": {
@@ -284,10 +260,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
     "score": {
@@ -321,10 +294,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "AF",
     "score": {
@@ -355,10 +325,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -394,10 +361,7 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "BAMA",
     "score": {
@@ -405,18 +369,8 @@
       "home": 11
     },
     "linescore": {
-      "away": [
-        7,
-        6,
-        0,
-        0
-      ],
-      "home": [
-        0,
-        3,
-        0,
-        8
-      ]
+      "away": [7, 6, 0, 0],
+      "home": [0, 3, 0, 8]
     },
     "time": "8:00 PM",
     "coverage": "NBC",

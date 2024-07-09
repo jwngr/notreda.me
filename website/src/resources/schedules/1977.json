@@ -7,10 +7,7 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [
-        40.444,
-        -79.962
-      ]
+      "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
     "score": {
@@ -45,10 +42,7 @@
       "city": "Jackson",
       "state": "MS",
       "stadium": "Memorial Stadium",
-      "coordinates": [
-        32.329639,
-        -90.179778
-      ]
+      "coordinates": [32.329639, -90.179778]
     },
     "opponentId": "MISS",
     "score": {
@@ -79,10 +73,7 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
     "score": {
@@ -113,10 +104,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
     "score": {
@@ -147,10 +135,7 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [
-        40.812222,
-        -74.076944
-      ]
+      "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "ARMY",
     "score": {
@@ -181,10 +166,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
     "score": {
@@ -219,10 +201,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
     "score": {
@@ -253,10 +232,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
     "score": {
@@ -287,10 +263,7 @@
       "city": "Clemson",
       "state": "SC",
       "stadium": "Clemson Memorial Stadium",
-      "coordinates": [
-        34.678611,
-        -82.843056
-      ]
+      "coordinates": [34.678611, -82.843056]
     },
     "opponentId": "CLEM",
     "score": {
@@ -324,10 +297,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "AF",
     "score": {
@@ -358,10 +328,7 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -393,10 +360,7 @@
       "city": "Dallas",
       "state": "TX",
       "stadium": "Cotton Bowl",
-      "coordinates": [
-        32.779494,
-        -96.759724
-      ]
+      "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "TEX",
     "score": {
@@ -404,18 +368,8 @@
       "home": 10
     },
     "linescore": {
-      "away": [
-        3,
-        21,
-        7,
-        7
-      ],
-      "home": [
-        3,
-        7,
-        0,
-        0
-      ]
+      "away": [3, 21, 7, 7],
+      "home": [3, 7, 0, 0]
     },
     "time": "2:00 PM",
     "coverage": "CBS",

@@ -7,10 +7,7 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Dyche Stadium",
-      "coordinates": [
-        42.06606,
-        -87.693537
-      ]
+      "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
     "score": {
@@ -41,10 +38,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "score": {
@@ -75,10 +69,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -109,10 +100,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
     "score": {
@@ -143,10 +131,7 @@
       "city": "Columbia",
       "state": "MO",
       "stadium": "Memorial Stadium",
-      "coordinates": [
-        38.935833,
-        -92.333056
-      ]
+      "coordinates": [38.935833, -92.333056]
     },
     "opponentId": "MIZ",
     "score": {
@@ -177,10 +162,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "stadium": "John F. Kennedy Stadium",
-      "coordinates": [
-        39.9014,
-        -75.1719
-      ]
+      "coordinates": [39.9014, -75.1719]
     },
     "opponentId": "NAVY",
     "score": {
@@ -211,10 +193,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
     "score": {
@@ -245,10 +224,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
     "score": {
@@ -279,10 +255,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "LSU",
     "score": {
@@ -316,10 +289,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -352,10 +322,7 @@
       "city": "Dallas",
       "state": "TX",
       "stadium": "Cotton Bowl",
-      "coordinates": [
-        32.779494,
-        -96.759724
-      ]
+      "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "TEX",
     "score": {
@@ -363,18 +330,8 @@
       "home": 11
     },
     "linescore": {
-      "away": [
-        14,
-        10,
-        0,
-        0
-      ],
-      "home": [
-        3,
-        8,
-        0,
-        0
-      ]
+      "away": [14, 10, 0, 0],
+      "home": [3, 8, 0, 0]
     },
     "time": "2:00 PM",
     "coverage": "CBS",

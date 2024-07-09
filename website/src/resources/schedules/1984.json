@@ -7,10 +7,7 @@
       "city": "Indianapolis",
       "state": "IN",
       "stadium": "Hoosier Dome",
-      "coordinates": [
-        39.763611,
-        -86.163333
-      ]
+      "coordinates": [39.763611, -86.163333]
     },
     "opponentId": "PUR",
     "score": {
@@ -41,10 +38,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -70,10 +64,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "COL",
     "score": {
@@ -99,10 +90,7 @@
       "city": "Columbia",
       "state": "MO",
       "stadium": "Memorial Stadium",
-      "coordinates": [
-        38.935833,
-        -92.333056
-      ]
+      "coordinates": [38.935833, -92.333056]
     },
     "opponentId": "MIZ",
     "score": {
@@ -134,10 +122,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -172,10 +157,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "AF",
     "score": {
@@ -202,10 +184,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "SCAR",
     "score": {
@@ -237,10 +216,7 @@
       "city": "Baton Rouge",
       "state": "LA",
       "stadium": "Tiger Stadium",
-      "coordinates": [
-        30.411887,
-        -91.183795
-      ]
+      "coordinates": [30.411887, -91.183795]
     },
     "opponentId": "LSU",
     "score": {
@@ -272,10 +248,7 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [
-        40.812222,
-        -74.076944
-      ]
+      "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "NAVY",
     "score": {
@@ -302,10 +275,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PSU",
     "score": {
@@ -332,10 +302,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -368,10 +335,7 @@
       "city": "Honolulu",
       "state": "HI",
       "stadium": "Aloha Stadium",
-      "coordinates": [
-        21.373,
-        -157.93
-      ]
+      "coordinates": [21.373, -157.93]
     },
     "opponentId": "SMU",
     "score": {
@@ -379,18 +343,8 @@
       "home": 27
     },
     "linescore": {
-      "away": [
-        0,
-        10,
-        7,
-        3
-      ],
-      "home": [
-        7,
-        10,
-        0,
-        10
-      ]
+      "away": [0, 10, 7, 3],
+      "home": [7, 10, 0, 10]
     },
     "time": "8:00 PM",
     "coverage": "ESPN",

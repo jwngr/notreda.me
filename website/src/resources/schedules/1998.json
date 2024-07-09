@@ -7,10 +7,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MICH",
     "score": {
@@ -45,10 +42,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -80,10 +74,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "score": {
@@ -115,10 +106,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "STAN",
     "score": {
@@ -150,10 +138,7 @@
       "city": "Tempe",
       "state": "AZ",
       "stadium": "Sun Devil Stadium",
-      "coordinates": [
-        33.426389,
-        -111.9325
-      ]
+      "coordinates": [33.426389, -111.9325]
     },
     "opponentId": "AZST",
     "score": {
@@ -185,10 +170,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
     "score": {
@@ -221,10 +203,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BAY",
     "score": {
@@ -257,10 +236,7 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [
-        42.335,
-        -71.166389
-      ]
+      "coordinates": [42.335, -71.166389]
     },
     "opponentId": "BC",
     "score": {
@@ -293,10 +269,7 @@
       "city": "Landover",
       "state": "MD",
       "stadium": "Jack Kent Cooke Stadium",
-      "coordinates": [
-        38.907543,
-        -76.864631
-      ]
+      "coordinates": [38.907543, -76.864631]
     },
     "opponentId": "NAVY",
     "score": {
@@ -329,10 +302,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "LSU",
     "score": {
@@ -365,10 +335,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -402,10 +369,7 @@
       "city": "Jacksonville",
       "state": "FL",
       "stadium": "Alltel Stadium",
-      "coordinates": [
-        30.323861,
-        -81.637472
-      ]
+      "coordinates": [30.323861, -81.637472]
     },
     "opponentId": "GT",
     "score": {
@@ -413,18 +377,8 @@
       "home": 35
     },
     "linescore": {
-      "away": [
-        7,
-        0,
-        13,
-        8
-      ],
-      "home": [
-        7,
-        14,
-        7,
-        7
-      ]
+      "away": [7, 0, 13, 8],
+      "home": [7, 14, 7, 7]
     },
     "time": "12:00 PM",
     "coverage": "NBC",

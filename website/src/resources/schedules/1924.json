@@ -7,10 +7,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Cartier Field",
-      "coordinates": [
-        41.701239,
-        -86.234417
-      ]
+      "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "LOMB",
     "score": {
@@ -31,10 +28,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Cartier Field",
-      "coordinates": [
-        41.701239,
-        -86.234417
-      ]
+      "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "WAB",
     "score": {
@@ -55,10 +49,7 @@
       "city": "New York",
       "state": "NY",
       "stadium": "Polo Grounds",
-      "coordinates": [
-        40.8308,
-        -73.9379
-      ]
+      "coordinates": [40.8308, -73.9379]
     },
     "opponentId": "ARMY",
     "score": {
@@ -79,10 +70,7 @@
       "city": "Princeton",
       "state": "NJ",
       "stadium": "Palmer Stadium",
-      "coordinates": [
-        40.345637,
-        -74.64994
-      ]
+      "coordinates": [40.345637, -74.64994]
     },
     "opponentId": "PRIN",
     "score": {
@@ -103,10 +91,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Cartier Field",
-      "coordinates": [
-        41.701239,
-        -86.234417
-      ]
+      "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "GT",
     "score": {
@@ -127,10 +112,7 @@
       "city": "Madison",
       "state": "WI",
       "stadium": "Camp Randall Stadium",
-      "coordinates": [
-        43.069885,
-        -89.412619
-      ]
+      "coordinates": [43.069885, -89.412619]
     },
     "opponentId": "WIS",
     "score": {
@@ -151,10 +133,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Cartier Field",
-      "coordinates": [
-        41.701239,
-        -86.234417
-      ]
+      "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "NEB",
     "score": {
@@ -175,10 +154,7 @@
       "city": "Chicago",
       "state": "IL",
       "stadium": "Municipal Grant Park Stadium",
-      "coordinates": [
-        41.862105,
-        -87.616721
-      ]
+      "coordinates": [41.862105, -87.616721]
     },
     "opponentId": "NW",
     "score": {
@@ -199,10 +175,7 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Forbes Field",
-      "coordinates": [
-        40.44118,
-        -79.95255
-      ]
+      "coordinates": [40.44118, -79.95255]
     },
     "opponentId": "CAR",
     "score": {
@@ -224,10 +197,7 @@
       "city": "Pasadena",
       "state": "CA",
       "stadium": "Rose Bowl",
-      "coordinates": [
-        34.161186,
-        -118.1677
-      ]
+      "coordinates": [34.161186, -118.1677]
     },
     "opponentId": "STAN",
     "score": {
@@ -235,18 +205,8 @@
       "home": 10
     },
     "linescore": {
-      "away": [
-        0,
-        13,
-        7,
-        7
-      ],
-      "home": [
-        3,
-        0,
-        7,
-        0
-      ]
+      "away": [0, 13, 7, 7],
+      "home": [3, 0, 7, 0]
     },
     "nickname": "Rose Bowl",
     "headCoach": "Knute Rockne"

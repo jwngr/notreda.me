@@ -7,10 +7,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NW",
     "score": {
@@ -42,10 +39,7 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
     "score": {
@@ -77,10 +71,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "VANDY",
     "score": {
@@ -112,10 +103,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "TEX",
     "score": {
@@ -150,10 +138,7 @@
       "city": "Columbus",
       "state": "OH",
       "stadium": "Ohio Stadium",
-      "coordinates": [
-        40.001667,
-        -83.019722
-      ]
+      "coordinates": [40.001667, -83.019722]
     },
     "opponentId": "OSU",
     "score": {
@@ -188,10 +173,7 @@
       "city": "Seattle",
       "state": "WA",
       "stadium": "Husky Stadium",
-      "coordinates": [
-        47.650288,
-        -122.301573
-      ]
+      "coordinates": [47.650288, -122.301573]
     },
     "opponentId": "WASH",
     "score": {
@@ -226,10 +208,7 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [
-        40.812222,
-        -74.076944
-      ]
+      "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "ARMY",
     "score": {
@@ -261,10 +240,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
     "score": {
@@ -299,10 +275,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BC",
     "score": {
@@ -334,10 +307,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
     "score": {
@@ -369,10 +339,7 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [
-        38.997,
-        -104.843
-      ]
+      "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
     "score": {
@@ -405,10 +372,7 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "FSU",
     "score": {
@@ -416,18 +380,8 @@
       "home": 26
     },
     "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        17
-      ],
-      "home": [
-        10,
-        0,
-        7,
-        9
-      ]
+      "away": [7, 7, 0, 17],
+      "home": [10, 0, 7, 9]
     },
     "time": "8:00 PM",
     "coverage": "CBS",

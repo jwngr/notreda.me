@@ -7,10 +7,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
     "score": {
@@ -45,10 +42,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MICH",
     "score": {
@@ -82,10 +76,7 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
     "score": {
@@ -116,10 +107,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -153,10 +141,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
     "score": {
@@ -187,10 +172,7 @@
       "city": "Tucson",
       "state": "AZ",
       "stadium": "Arizona Stadium",
-      "coordinates": [
-        32.22873,
-        -110.948812
-      ]
+      "coordinates": [32.22873, -110.948812]
     },
     "opponentId": "ARIZ",
     "score": {
@@ -221,10 +203,7 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [
-        40.812222,
-        -74.076944
-      ]
+      "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "NAVY",
     "score": {
@@ -255,10 +234,7 @@
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Grant Field",
-      "coordinates": [
-        33.772356,
-        -84.392881
-      ]
+      "coordinates": [33.772356, -84.392881]
     },
     "opponentId": "GT",
     "score": {
@@ -289,10 +265,7 @@
       "city": "Birmingham",
       "state": "AL",
       "stadium": "Legion Field",
-      "coordinates": [
-        33.5114,
-        -86.842774
-      ]
+      "coordinates": [33.5114, -86.842774]
     },
     "opponentId": "BAMA",
     "score": {
@@ -327,10 +300,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "AF",
     "score": {
@@ -361,10 +331,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "score": {
@@ -400,10 +367,7 @@
       "city": "New Orleans",
       "state": "LA",
       "stadium": "Louisiana Superdome",
-      "coordinates": [
-        29.950833,
-        -90.081111
-      ]
+      "coordinates": [29.950833, -90.081111]
     },
     "opponentId": "UGA",
     "score": {
@@ -411,18 +375,8 @@
       "home": 10
     },
     "linescore": {
-      "away": [
-        10,
-        7,
-        0,
-        0
-      ],
-      "home": [
-        3,
-        0,
-        7,
-        0
-      ]
+      "away": [10, 7, 0, 0],
+      "home": [3, 0, 7, 0]
     },
     "time": "2:00 PM",
     "coverage": "ABC",

@@ -7,10 +7,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
     "score": {
@@ -42,10 +39,7 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
     "score": {
@@ -77,10 +71,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
     "score": {
@@ -112,10 +103,7 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [
-        42.265686,
-        -83.74861
-      ]
+      "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
     "score": {
@@ -147,10 +135,7 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [
-        37.434444,
-        -122.161111
-      ]
+      "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
     "score": {
@@ -182,10 +167,7 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [
-        40.444,
-        -79.962
-      ]
+      "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
     "score": {
@@ -212,10 +194,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
     "score": {
@@ -242,10 +221,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BC",
     "score": {
@@ -272,10 +248,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
     "score": {
@@ -302,10 +275,7 @@
       "city": "Baton Rouge",
       "state": "LA",
       "stadium": "Tiger Stadium",
-      "coordinates": [
-        30.411887,
-        -91.183795
-      ]
+      "coordinates": [30.411887, -91.183795]
     },
     "opponentId": "LSU",
     "score": {
@@ -337,10 +307,7 @@
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
-      "coordinates": [
-        41.698399,
-        -86.233917
-      ]
+      "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "WVU",
     "score": {
@@ -372,10 +339,7 @@
       "city": "Honolulu",
       "state": "HI",
       "stadium": "Aloha Stadium",
-      "coordinates": [
-        21.373,
-        -157.93
-      ]
+      "coordinates": [21.373, -157.93]
     },
     "opponentId": "HAW",
     "score": {
@@ -403,10 +367,7 @@
       "city": "Shreveport",
       "state": "LA",
       "stadium": "Independence Stadium",
-      "coordinates": [
-        32.475621,
-        -93.792
-      ]
+      "coordinates": [32.475621, -93.792]
     },
     "opponentId": "LSU",
     "score": {
@@ -414,18 +375,8 @@
       "home": 27
     },
     "linescore": {
-      "away": [
-        3,
-        3,
-        0,
-        3
-      ],
-      "home": [
-        0,
-        3,
-        10,
-        14
-      ]
+      "away": [3, 3, 0, 3],
+      "home": [0, 3, 10, 14]
     },
     "time": "8:00 PM",
     "coverage": "ESPN",
