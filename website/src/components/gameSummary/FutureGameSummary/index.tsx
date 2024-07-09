@@ -1,8 +1,8 @@
 import React from 'react';
 import Media from 'react-media';
 
-import {GameInfo, Team, TeamId} from '../../../models';
-import teamsJson from '../../../resources/teams.json';
+import {Teams} from '../../../lib/teams';
+import {GameInfo, TeamId} from '../../../models';
 import {CoverageLocationWrapper} from '../CompletedGameSummary/index.styles';
 import {GameCoverage} from '../GameCoverage';
 import {Location} from '../Location';
@@ -21,15 +21,13 @@ import {
   TeamWrapper,
 } from './index.styles';
 
-const teams = teamsJson as Record<TeamId, Team>;
-
 const TeamInfo: React.FC<{
   readonly teamId: TeamId;
   readonly record: string | null;
   readonly ranking: number | null;
   readonly homeOrAway: string;
 }> = ({teamId, ranking, record, homeOrAway}) => {
-  const team = teams[teamId];
+  const team = Teams.getTeam(teamId);
   return (
     <TeamWrapper>
       <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} />
@@ -51,8 +49,8 @@ export const FutureGameSummary: React.FC<{
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
 }> = ({game, selectedSeason, homeTeamId, awayTeamId}) => {
-  const homeTeam = teams[homeTeamId];
-  const awayTeam = teams[awayTeamId];
+  const homeTeam = Teams.getTeam(homeTeamId);
+  const awayTeam = Teams.getTeam(awayTeamId);
 
   let atOrVs = game.isHomeGame ? 'vs' : 'at';
   atOrVs = 'vs';

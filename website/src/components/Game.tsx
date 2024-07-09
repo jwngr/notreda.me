@@ -3,8 +3,8 @@ import React from 'react';
 import Media from 'react-media';
 
 import shamrockImage from '../images/shamrock.png';
-import {GameInfo, GameResult, Team, TeamId, TVNetwork} from '../models';
-import teamsJson from '../resources/teams.json';
+import {Teams} from '../lib/teams';
+import {GameInfo, GameResult, TVNetwork} from '../models';
 import {
   AwayGamePrefix,
   DateOpponentDetailsWrapper,
@@ -24,8 +24,6 @@ import {
   TelevisionCoverage,
 } from './Game.styles';
 import {TVNetworkLogo} from './TVNetworkLogo';
-
-const teams = teamsJson as Record<TeamId, Team>;
 
 export const Game: React.FC<{
   readonly game: GameInfo;
@@ -129,7 +127,7 @@ export const Game: React.FC<{
     );
   }
 
-  const opponent = teams[game.opponentId];
+  const opponent = Teams.getTeam(game.opponentId);
 
   const opponentNameContent = (
     <Media query="(max-width: 768px)">
