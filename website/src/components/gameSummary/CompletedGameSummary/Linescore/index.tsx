@@ -2,12 +2,10 @@ import range from 'lodash/range';
 import React from 'react';
 
 import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
-import {GameLinescore, Team, TeamId} from '../../../../models';
-import teamsJson from '../../../../resources/teams.json';
+import {Teams} from '../../../../lib/teams';
+import {GameLinescore, TeamId} from '../../../../models';
 import {YouTubeIcon} from '../../../common/YouTubeIcon';
 import {AbbreviationColumn, LinescoreWrapper, ScoreColumn} from './index.styles';
-
-const teams = teamsJson as Record<TeamId, Team>;
 
 export const Linescore: React.FC<{
   readonly homeTeamId: TeamId;
@@ -15,8 +13,8 @@ export const Linescore: React.FC<{
   readonly linescore: GameLinescore | null;
   readonly highlightsYouTubeVideoId: string | null;
 }> = ({homeTeamId, awayTeamId, linescore, highlightsYouTubeVideoId}) => {
-  const homeTeam = teams[homeTeamId];
-  const awayTeam = teams[awayTeamId];
+  const homeTeam = Teams.getTeam(homeTeamId);
+  const awayTeam = Teams.getTeam(awayTeamId);
 
   if (!linescore || linescore.home.length === 0) {
     return null;

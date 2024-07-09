@@ -1,8 +1,8 @@
 import React from 'react';
 
 import {DEFAULT_TEAM_COLOR} from '../../../../lib/constants';
-import {GameStats, Team, TeamId} from '../../../../models';
-import teamsJson from '../../../../resources/teams.json';
+import {Teams} from '../../../../lib/teams';
+import {GameStats, TeamId} from '../../../../models';
 import {GameStatsRow} from './GameStatsRow';
 import {
   GameStatsHeader,
@@ -11,15 +11,13 @@ import {
   GameStatsWrapper,
 } from './index.styles';
 
-const teams = teamsJson as Record<TeamId, Team>;
-
 export const CompletedGameStats: React.FC<{
   readonly stats: GameStats | null;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
 }> = ({stats, homeTeamId, awayTeamId}) => {
-  const homeTeam = teams[homeTeamId];
-  const awayTeam = teams[awayTeamId];
+  const homeTeam = Teams.getTeam(homeTeamId);
+  const awayTeam = Teams.getTeam(awayTeamId);
 
   // Return early for games which do not have any stats (such as older or future games).
   // TODO: Make this not required.
