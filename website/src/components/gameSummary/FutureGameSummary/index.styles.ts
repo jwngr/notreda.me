@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
 import {TeamLogo} from '../../TeamLogo';
 
@@ -100,42 +100,21 @@ interface TeamImageProps {
 }
 
 export const TeamImage = styled(TeamLogo)<TeamImageProps>`
-  width: 52px;
-  height: 52px;
+  margin-left: 8px;
+  margin-right: 8px;
 
-  ${({$isHomeGame}) =>
-    $isHomeGame
-      ? css`
-          margin-left: 8px;
-          margin-right: 8px;
+  ${({$isHomeGame}) => ($isHomeGame ? null : `order: 1;`)}
 
-          @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-            width: 72px;
-            height: 72px;
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
+    width: 72px;
+    height: 72px;
 
-            margin: 0 16px 0 0;
-            align-self: center;
-            justify-self: center;
+    margin: 0 16px 0 0;
+    align-self: center;
+    justify-self: center;
 
-            grid-area: homeTeamLogo;
-          }
-        `
-      : css`
-          order: 1;
-          margin-left: 8px;
-          margin-right: 8px;
-
-          @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-            width: 72px;
-            height: 72px;
-
-            margin: 0 16px 0 0;
-            align-self: center;
-            justify-self: center;
-
-            grid-area: awayTeamLogo;
-          }
-        `}
+    grid-area: ${({$isHomeGame}) => ($isHomeGame ? 'homeTeamLogo' : 'awayTeamLogo')};
+  }
 `;
 
 export const TeamRanking = styled.span`

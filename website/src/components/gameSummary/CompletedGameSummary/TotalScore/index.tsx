@@ -25,7 +25,7 @@ const TeamInfo: React.FC<{
   const isHomeGame = homeOrAway === 'home';
   return (
     <TeamWrapper $isHomeGame={isHomeGame}>
-      <TeamImage teamId={teamId} $isHomeGame={isHomeGame} />
+      <TeamImage teamId={teamId} $isHomeGame={isHomeGame} size={52} />
       <TeamDetailsWrapper $isHomeGame={isHomeGame}>
         <TeamName>
           {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
@@ -94,8 +94,8 @@ export const TotalScore: React.FC<{
               <TeamNickname>{homeTeam.nickname}</TeamNickname>
               {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
             </TeamDetailsWrapper>
-            <TeamImage $isHomeGame={false} teamId={awayTeamId} />
-            <TeamImage $isHomeGame teamId={homeTeamId} />
+            <TeamImage $isHomeGame={false} teamId={awayTeamId} size={52} />
+            <TeamImage $isHomeGame teamId={homeTeamId} size={52} />
             {/* TODO: Introduce `CompletedGame` type so this `?` is not required. */}
             <Score $isHomeGame={false}>{game.score?.away}</Score>
             <Score $isHomeGame>{game.score?.home}</Score>

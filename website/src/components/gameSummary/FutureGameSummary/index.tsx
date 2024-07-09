@@ -30,7 +30,7 @@ const TeamInfo: React.FC<{
   const team = Teams.getTeam(teamId);
   return (
     <TeamWrapper>
-      <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} />
+      <TeamImage teamId={teamId} $isHomeGame={homeOrAway === 'home'} size={52} />
       <TeamDetailsWrapper $isHomeGame={homeOrAway === 'home'}>
         <TeamName>
           {ranking ? <TeamRanking>#{ranking}</TeamRanking> : null}
@@ -100,8 +100,8 @@ export const FutureGameSummary: React.FC<{
                 <TeamNickname>{homeTeam.nickname}</TeamNickname>
                 {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
               </TeamDetailsWrapper>
-              <TeamImage teamId={awayTeamId} $isHomeGame={false} />
-              <TeamImage teamId={homeTeamId} $isHomeGame />
+              <TeamImage teamId={awayTeamId} $isHomeGame={false} size={52} />
+              <TeamImage teamId={homeTeamId} $isHomeGame size={52} />
               <AtOrVersus>{atOrVs}</AtOrVersus>
             </TeamsWrapper>
           ) : (

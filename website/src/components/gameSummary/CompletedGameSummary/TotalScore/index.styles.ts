@@ -37,10 +37,8 @@ interface TeamImageProps {
 }
 
 export const TeamImage = styled(TeamLogo)<TeamImageProps>`
-  width: 52px;
   margin-left: 8px;
   margin-right: 8px;
-  height: 52px;
   order: ${({$isHomeGame}) => ($isHomeGame ? 0 : 1)};
 
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
