@@ -1,6 +1,6 @@
 import React from 'react';
 import Media from 'react-media';
-// import {MatchupHistory} from '../MatchupHistory';
+// import {MatchupHistory} from './MatchupHistory';
 
 import styled from 'styled-components';
 

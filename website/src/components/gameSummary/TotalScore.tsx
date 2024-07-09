@@ -1,9 +1,9 @@
 import Media from 'react-media';
 import styled from 'styled-components';
 
-import {Teams} from '../../../lib/teams';
-import {GameInfo, TeamId} from '../../../models';
-import {TeamLogo} from '../../TeamLogo';
+import {Teams} from '../../lib/teams';
+import {GameInfo, TeamId} from '../../models';
+import {TeamLogo} from '../TeamLogo';
 
 const TotalScoreWrapper = styled.div`
   width: 100%;

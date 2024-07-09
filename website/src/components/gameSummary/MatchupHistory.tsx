@@ -7,10 +7,10 @@ import {
   ExpandedGameInfo,
   getFilteredMatchupsAgainstTeam,
   getMatchupsAgainstTeam,
-} from '../../../lib/matchupHistory';
-import {useWindowSize} from '../../../lib/useWindowSize';
-import {GameInfo} from '../../../models';
-import {StatsSection} from '../../common/StatsSection';
+} from '../../lib/matchupHistory';
+import {useWindowSize} from '../../lib/useWindowSize';
+import {GameInfo} from '../../models';
+import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
 
 const MatchupHistoryWrapper = styled.div`

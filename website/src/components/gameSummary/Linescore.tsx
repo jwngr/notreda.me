@@ -3,10 +3,10 @@ import {darken} from 'polished';
 import React from 'react';
 import styled, {css} from 'styled-components';
 
-import {DEFAULT_TEAM_COLOR} from '../../../lib/constants';
-import {Teams} from '../../../lib/teams';
-import {GameLinescore, TeamId} from '../../../models';
-import {YouTubeIcon} from '../../common/YouTubeIcon';
+import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
+import {Teams} from '../../lib/teams';
+import {GameLinescore, TeamId} from '../../models';
+import {YouTubeIcon} from '../common/YouTubeIcon';
 
 const LinescoreWrapper = styled.div`
   width: 100%;

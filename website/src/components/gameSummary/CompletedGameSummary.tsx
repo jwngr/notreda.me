@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {GameInfo, TeamId} from '../../../models';
-import {GameCoverage} from '../GameCoverage';
+import {GameInfo, TeamId} from '../../models';
+import {GameCoverage} from './GameCoverage';
 // import {MatchupHistory} from '../MatchupHistory';
 import {CompletedGameStats} from './GameStats';
 import {Linescore} from './Linescore';

@@ -2,9 +2,9 @@ import {darken} from 'polished';
 import React from 'react';
 import styled from 'styled-components';
 
-import {DEFAULT_TEAM_COLOR} from '../../../lib/constants';
-import {Teams} from '../../../lib/teams';
-import {GameStats, TeamId} from '../../../models';
+import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
+import {Teams} from '../../lib/teams';
+import {GameStats, TeamId} from '../../models';
 import {GameStatsRow} from './GameStatsRow';
 import {
   STATS_HEADER_COLUMN_STYLES,
