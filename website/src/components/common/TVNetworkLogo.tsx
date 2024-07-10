@@ -1,22 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import abcLogo from '../images/tvLogos/abc.png';
-import accnLogo from '../images/tvLogos/accn.png';
-import cbsLogo from '../images/tvLogos/cbs.png';
-import cbssnLogo from '../images/tvLogos/cbssn.png';
-import cstvLogo from '../images/tvLogos/cstv.png';
-import espnLogo from '../images/tvLogos/espn.png';
-import espn2Logo from '../images/tvLogos/espn2.png';
-import foxLogo from '../images/tvLogos/fox.png';
-import nbcLogo from '../images/tvLogos/nbc.png';
-import nbcsnLogo from '../images/tvLogos/nbcsn.png';
-import peacockLogo from '../images/tvLogos/peacock.png';
-import tbsLogo from '../images/tvLogos/tbs.png';
-import unknownNetworkLogo from '../images/tvLogos/unknown.png';
-import usaLogo from '../images/tvLogos/usa.png';
-import {assertNever} from '../lib/utils';
-import {TVNetwork} from '../models';
+import abcLogo from '../../images/tvLogos/abc.png';
+import accnLogo from '../../images/tvLogos/accn.png';
+import cbsLogo from '../../images/tvLogos/cbs.png';
+import cbssnLogo from '../../images/tvLogos/cbssn.png';
+import cstvLogo from '../../images/tvLogos/cstv.png';
+import espnLogo from '../../images/tvLogos/espn.png';
+import espn2Logo from '../../images/tvLogos/espn2.png';
+import foxLogo from '../../images/tvLogos/fox.png';
+import nbcLogo from '../../images/tvLogos/nbc.png';
+import nbcsnLogo from '../../images/tvLogos/nbcsn.png';
+import peacockLogo from '../../images/tvLogos/peacock.png';
+import tbsLogo from '../../images/tvLogos/tbs.png';
+import unknownNetworkLogo from '../../images/tvLogos/unknown.png';
+import usaLogo from '../../images/tvLogos/usa.png';
+import {assertNever} from '../../lib/utils';
+import {TVNetwork} from '../../models';
 
 export const ChannelName = styled.p`
   font-size: 24px;

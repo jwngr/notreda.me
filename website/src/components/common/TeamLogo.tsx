@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 
-import defaultLogo from '../images/defaultTeamLogo.png';
-import {Teams} from '../lib/teams';
-import {TeamId} from '../models';
+import defaultLogo from '../../images/defaultTeamLogo.png';
+import {Teams} from '../../lib/teams';
+import {TeamId} from '../../models';
 
-const teamLogos = import.meta.glob('../images/teamLogos/*.png');
+const teamLogos = import.meta.glob('../../images/teamLogos/*.png');
 
 export type LogoSize = 40 | 52;
 
@@ -29,7 +29,7 @@ export const TeamLogo: React.FC<{
   useEffect(() => {
     const loadLogo = async () => {
       try {
-        const logoModule = await teamLogos[`../images/teamLogos/${teamId}.png`]();
+        const logoModule = await teamLogos[`../../images/teamLogos/${teamId}.png`]();
         setLogo((logoModule as {default: string}).default);
       } catch (error) {
         // TODO: Add error logging.

@@ -14,7 +14,7 @@ const DEFAULT_MARGINS_SMALL = {top: 20, right: 10, bottom: 50, left: 60};
 const BarChartWrapper = styled.div`
   margin: 20px auto 8px auto;
   overflow: hidden;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   background-image: url(${backgroundImage});
   background-color: ${({theme}) => theme.colors.lightGray}40;
   border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};

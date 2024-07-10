@@ -4,7 +4,8 @@ import {App} from './components/App';
 
 import './weather-icons.min.css';
 import './index.css';
-import 'typeface-bungee';
+import '@fontsource/bungee';
+import '@fontsource/inter';
 
 const rootDiv = document.getElementById('root');
 if (!rootDiv) {

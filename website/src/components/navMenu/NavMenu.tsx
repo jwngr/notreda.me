@@ -72,7 +72,7 @@ const NavMenuLink = styled(Link)`
   flex: 1;
   color: ${({theme}) => theme.colors.black};
   font-size: 16px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   text-decoration: none;
   text-align: center;
 
@@ -85,7 +85,7 @@ const NavMenuLinksDivider = styled.p`
   width: 24px;
   font-size: 4px;
   text-align: center;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 
   @media (max-width: 350px) {
     display: none;

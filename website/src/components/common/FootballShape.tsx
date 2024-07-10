@@ -95,7 +95,7 @@ const Text = styled.p<TextProps>`
     }
   }};
   font-size: 14px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   width: 100%;
 `;
 

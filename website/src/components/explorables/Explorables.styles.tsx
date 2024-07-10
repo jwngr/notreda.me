@@ -58,7 +58,7 @@ export const Byline = styled.div`
   text-align: center;
   margin: 12px auto 20px auto;
   font-size: 16px;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   color: ${({theme}) => theme.colors.gray};
 
   p {
@@ -70,7 +70,7 @@ export const SectionTitle = styled.h2`
   margin: 20px auto;
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   color: ${({theme}) => theme.colors.green};
 `;
 
@@ -78,7 +78,7 @@ export const Paragraph = styled.p`
   margin: 20px auto;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   text-align: justify;
   word-break: break-word;
   color: ${({theme}) => theme.colors.black};
@@ -95,7 +95,7 @@ export const Caption = styled.p`
   font-size: 14px;
   text-align: justify;
   margin: 8px auto 20px auto;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   word-break: break-word;
   color: ${({theme}) => theme.colors.gray};
 `;
@@ -114,7 +114,7 @@ export const StatsWrapper = styled.div`
 
 export const Stat = styled.div`
   display: flex;
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   flex-direction: column;
   width: calc(50% - 12px);
   margin: 10px 0;

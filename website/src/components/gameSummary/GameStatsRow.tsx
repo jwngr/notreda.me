@@ -25,7 +25,7 @@ const StatCell = styled.p`
   padding: 6px 0;
   color: ${({theme}) => theme.colors.black};
   font-size: 14px;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   white-space: nowrap;
 `;
 

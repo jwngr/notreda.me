@@ -38,7 +38,7 @@ const ScorigamiCell = styled.div<ScorigamiCellProps>`
   justify-content: center;
   min-width: 20px;
   min-height: 20px;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   font-size: 12px;
   color: ${({theme}) => theme.colors.white};
   border: solid 1px ${({theme}) => darken(0.2, theme.colors.green)};

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import {Teams} from '../../lib/teams';
 import {GameInfo, TeamId} from '../../models';
-import {TeamLogo} from '../TeamLogo';
+import {TeamLogo} from '../common/TeamLogo';
 
 const TotalScoreWrapper = styled.div`
   width: 100%;
@@ -60,7 +60,7 @@ const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
   display: flex;
   flex-direction: column;
   text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 
   @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
     text-align: right;

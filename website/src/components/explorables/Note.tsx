@@ -7,7 +7,7 @@ const NoteWrapper = styled.div`
   border: solid 3px #302205;
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   text-align: justify;
 `;
 

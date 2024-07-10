@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import {assertNever, getTimeZoneString, getTvChannelUrl} from '../../lib/utils';
 import {GameInfo, TVNetwork} from '../../models';
 import {StatsSection} from '../common/StatsSection';
-import {TVNetworkLogo} from '../TVNetworkLogo';
+import {TVNetworkLogo} from '../common/TVNetworkLogo';
 import {Location} from './Location';
 
 const CoverageInnerWrapper = styled.div`
@@ -18,7 +18,7 @@ const CoverageInnerWrapper = styled.div`
 
   p {
     font-size: 16px;
-    font-family: 'Inter UI', serif;
+    font-family: 'Inter', serif;
     margin-bottom: 4px;
   }
 

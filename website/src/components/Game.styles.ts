@@ -4,7 +4,7 @@ import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
 import {GameResult, TVNetwork} from '../models';
-import {TeamLogo} from './TeamLogo';
+import {TeamLogo} from './common/TeamLogo';
 
 interface GameWrapperProps {
   readonly $isSelected: boolean;
@@ -118,7 +118,7 @@ export const DateOpponentDetailsWrapper = styled.div`
 
 export const GameDate = styled.p`
   font-size: 14px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 
   @media (max-width: 600px) {
     font-size: 12px;
@@ -166,7 +166,7 @@ export const OpponentName = styled.span`
 `;
 
 export const Location = styled.p`
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   font-size: 14px;
   width: 200px;
   text-align: center;
@@ -263,7 +263,7 @@ export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
   p {
     width: auto;
     font-size: 16px;
-    font-family: 'Inter UI', serif;
+    font-family: 'Inter', serif;
   }
 
   img {
