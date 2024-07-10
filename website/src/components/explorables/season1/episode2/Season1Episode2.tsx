@@ -4,7 +4,6 @@ import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-// @ts-expect-error TODO: Remove this after porting `PerSeasonBarChart` to TypeScript.
 import {PerSeasonBarChart} from '../../../charts/PerSeasonBarChart';
 import {Table} from '../../../charts/Table';
 import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
@@ -134,7 +133,7 @@ export const ExplorablesS1E2: React.FC = () => {
       ndFirstLossSeriesData_1887_2017: [getNdFirstLossSeriesData(1887, 2017)],
       alabamaFirstLossSeriesData_2007_2017: [getAlabamaFirstLossSeriesData(2007, 2017)],
       allFirstLossSeriesData_1917_2017: [getAllTeamFirstLossSeriesData(1917, 2017)],
-      ndFirstLossOverTimeBarChartData: [getNdFirstLossOverTimeBarChartData(1887, 2017)],
+      ndFirstLossOverTimeBarChartData: getNdFirstLossOverTimeBarChartData(1887, 2017),
       ndFirstLossSeriesData_1990_2017: [getNdFirstLossSeriesData(1990, 2017)],
       ndFirstLossSeriesData_2010_2017: [getNdFirstLossSeriesData(2010, 2017)],
       ndFirstLossSeriesData_1943_1949: [getNdFirstLossSeriesData(1943, 1949)],
