@@ -70,14 +70,14 @@ const BarChartSvg = styled.svg`
 `;
 
 export const BarChart: React.FC<{
-  readonly data: number[];
-  readonly yMax: number;
+  readonly data: readonly number[];
   readonly xAxisLabel: string;
   readonly yAxisLabel: string;
-  readonly yAxisTicksCount: number;
-  readonly showCounts: boolean;
-  readonly formatCount: (d: number) => string;
   readonly xAxisTickLabels: string[];
+  readonly yAxisTicksCount?: number;
+  readonly yMax?: number;
+  readonly showCounts?: boolean;
+  readonly formatCount?: (d: number) => string;
   // TODO: Simplify how margins are handled. Consider moving responsibility to the parent.
   readonly margins?: {
     readonly top?: number;
@@ -113,8 +113,8 @@ export const BarChart: React.FC<{
   }, []);
 
   const resizeBarChart = useCallback(() => {
-    const width = getBarChartWidth();
-    barChartSvgRef.current?.attr('width', width);
+    if (!barChartSvgRef.current) return;
+    barChartSvgRef.current.attr('width', getBarChartWidth());
   }, [getBarChartWidth]);
 
   useEffect(() => {
@@ -161,7 +161,7 @@ export const BarChart: React.FC<{
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d));
 
     // Add x-axis.
-    const xAxis = d3.axisBottom(xScale).tickFormat((i) => xAxisTickLabels[i] ?? i);
+    const xAxis = d3.axisBottom(xScale).tickFormat((_, i) => xAxisTickLabels[i] ?? i);
     barChartSvgRef.current
       .append('g')
       .attr('class', 'bar-chart-x-axis')
@@ -218,7 +218,19 @@ export const BarChart: React.FC<{
       barChartSvgRef.current?.selectAll('*').remove();
       window.removeEventListener('resize', handleResizeDebounced);
     };
-  });
+  }, [
+    data,
+    formatCount,
+    getBarChartWidth,
+    marginsProp,
+    resizeBarChart,
+    showCounts,
+    xAxisLabel,
+    xAxisTickLabels,
+    yAxisLabel,
+    yAxisTicksCount,
+    yMax,
+  ]);
 
   return (
     <BarChartWrapper ref={barChartWrapperRef}>

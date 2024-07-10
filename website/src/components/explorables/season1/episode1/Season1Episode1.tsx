@@ -3,7 +3,6 @@ import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
-// @ts-expect-error TODO: Remove this after porting `BarChart` to TypeScript.
 import {BarChart} from '../../../charts/BarChart';
 import {Table} from '../../../charts/Table';
 import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
