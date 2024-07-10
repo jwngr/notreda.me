@@ -316,3 +316,5 @@ export interface BlogPostInfo {
   readonly date: string;
   readonly description: string;
 }
+
+export type TableRowData = readonly string[][];

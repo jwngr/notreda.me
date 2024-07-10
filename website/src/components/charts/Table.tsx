@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
+import {TableRowData} from '../../models';
 
 const TableWrapper = styled.div`
   margin: 20px auto;
@@ -67,7 +68,7 @@ const TableRow = styled.tr<TableRowProps>`
 
 export const Table: React.FC<{
   readonly headers: (string | {readonly text: string; readonly width: string})[];
-  readonly rows: (string | number)[][];
+  readonly rows: TableRowData;
   readonly highlightedRowIndexes?: number[];
 }> = ({headers, rows, highlightedRowIndexes = []}) => {
   const headerRow = (

@@ -11,7 +11,6 @@ const AsyncFootballScheduleScreen = lazy(() =>
 );
 
 const AsyncExplorablesScreen = lazy(() =>
-  // @ts-expect-error TODO: Remove this after porting explorables to TypeScript.
   import('../screens/ExplorablesScreen').then((module) => ({
     default: module.ExplorablesScreen,
   }))
