@@ -1,0 +1,57 @@
+[
+  {
+    "isHomeGame": false,
+    "date": "11/10/2035",
+    "location": {
+      "city": "Raleigh",
+      "state": "NC",
+      "stadium": "Carter-Finley Stadium",
+      "coordinates": [35.800652, -78.719587]
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "DUKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Charlottesville",
+      "state": "VA",
+      "stadium": "Scott Stadium",
+      "coordinates": [38.031255, -78.513484]
+    },
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Louisville",
+      "state": "KY",
+      "stadium": "Cardinal Stadium",
+      "coordinates": [38.206123, -85.759065]
+    },
+    "opponentId": "LOU"
+  }
+]

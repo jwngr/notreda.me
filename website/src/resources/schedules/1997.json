@@ -1,0 +1,398 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/06/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "GT",
+    "score": {
+      "away": 13,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 11
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/13/1997",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [40.434042, -86.918267]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 17,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 12
+      }
+    },
+    "weather": {
+      "temperature": 78,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/20/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 23,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 64
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "09/27/1997",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium",
+      "coordinates": [42.265686, -83.74861]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 14,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 6
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/04/1997",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium",
+      "coordinates": [37.434444, -122.161111]
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 15,
+      "home": 33
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 19
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/11/1997",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium",
+      "coordinates": [40.444, -79.962]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 45,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 62
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/18/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 20,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 57
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/25/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 20,
+      "home": 52
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 47
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/01/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 17,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 51
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/15/1997",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "LA",
+      "stadium": "Tiger Stadium",
+      "coordinates": [30.411887, -91.183795]
+    },
+    "opponentId": "LSU",
+    "score": {
+      "away": 24,
+      "home": 6
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "home": {
+        "ap": 11
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 44
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/22/1997",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "WVU",
+    "score": {
+      "away": 14,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 22
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 44
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/29/1997",
+    "location": {
+      "city": "Honolulu",
+      "state": "HI",
+      "stadium": "Aloha Stadium",
+      "coordinates": [21.373, -157.93]
+    },
+    "opponentId": "HAW",
+    "score": {
+      "away": 23,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "7:30 PM",
+    "coverage": "ESPN",
+    "headCoach": "Bob Davie",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 75
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "12/28/1997",
+    "location": {
+      "city": "Shreveport",
+      "state": "LA",
+      "stadium": "Independence Stadium",
+      "coordinates": [32.475621, -93.792]
+    },
+    "opponentId": "LSU",
+    "score": {
+      "away": 9,
+      "home": 27
+    },
+    "linescore": {
+      "away": [3, 3, 0, 3],
+      "home": [0, 3, 10, 14]
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "nickname": "Independence Bowl",
+    "headCoach": "Bob Davie",
+    "rankings": {
+      "away": {
+        "ap": 15
+      },
+      "home": {
+        "ap": 15
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 41
+    }
+  }
+]

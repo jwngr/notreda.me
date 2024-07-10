@@ -1,0 +1,68 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "09/02/2034",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MICH"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/26/2034",
+    "location": {
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Hard Rock Stadium",
+      "coordinates": [25.957783, -80.238978]
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field",
+      "coordinates": [40.445773, -80.014982]
+    },
+    "opponentId": "PITT"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "result": "T",
+    "isHomeGame": true,
+    "date": "09/28/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "SB-AC",
+    "score": {
+      "away": 0,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/05/1901",
+    "location": {
+      "city": "Columbus",
+      "state": "OH",
+      "coordinates": [39.961178, -82.998795]
+    },
+    "opponentId": "OH-M",
+    "score": {
+      "away": 6,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/12/1901",
+    "location": {
+      "city": "Evanston",
+      "state": "IL",
+      "coordinates": [42.052158, -87.687866]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 0,
+      "home": 2
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/19/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "CHI-M",
+    "score": {
+      "away": 0,
+      "home": 32
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/26/1901",
+    "location": {
+      "city": "Beloit",
+      "state": "WI",
+      "coordinates": [42.49965, -89.03361]
+    },
+    "opponentId": "BEL",
+    "score": {
+      "away": 5,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/02/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "LAK",
+    "score": {
+      "away": 0,
+      "home": 16
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/09/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 6,
+      "home": 12
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/16/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "IND",
+    "score": {
+      "away": 5,
+      "home": 18
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/23/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "CHI-P&S",
+    "score": {
+      "away": 0,
+      "home": 34
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/28/1901",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "SB-AC",
+    "score": {
+      "away": 6,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Pat O'Dea"
+  }
+]

@@ -5,14 +5,13 @@ import {ThemeProvider} from 'styled-components';
 import theme from '../resources/theme.json';
 
 const AsyncFootballScheduleScreen = lazy(() =>
-  import('../screens/FootballScheduleScreen/index').then((module) => ({
+  import('../screens/FootballScheduleScreen').then((module) => ({
     default: module.FootballScheduleScreen,
   }))
 );
 
 const AsyncExplorablesScreen = lazy(() =>
-  // @ts-expect-error TODO: Remove this after porting explorables to TypeScript.
-  import('../screens/ExplorablesScreen/index').then((module) => ({
+  import('../screens/ExplorablesScreen').then((module) => ({
     default: module.ExplorablesScreen,
   }))
 );

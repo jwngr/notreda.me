@@ -1,0 +1,112 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "09/13/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "TA&M"
+  },
+  {
+    "isHomeGame": true,
+    "date": "09/20/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PUR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/27/2025",
+    "location": {
+      "city": "Fayetteville",
+      "state": "AR",
+      "stadium": "Donald W. Reynolds Razorback Stadium",
+      "coordinates": [36.068066, -94.179136]
+    },
+    "opponentId": "ARK"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/18/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/08/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium",
+      "coordinates": [42.335, -71.166389]
+    },
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Hard Rock Stadium",
+      "coordinates": [25.957783, -80.238978]
+    },
+    "opponentId": "MIAMI"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Heinz Field",
+      "coordinates": [40.445773, -80.014982]
+    },
+    "opponentId": "PITT"
+  }
+]

@@ -3,14 +3,16 @@ const fs = require('fs');
 const path = require('path');
 
 const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../lib/ndSchedules');
+const ndSchedules = require('../../../../website/src/resources/schedules');
+const {ALL_SEASONS} = require('../../../lib/constants');
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
 let gamesPlayedCount = 0;
 const scorigamiMatrix = [];
 
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData) => {
+ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
       gamesPlayedCount++;

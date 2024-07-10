@@ -1,0 +1,188 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/30/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "NDHS",
+    "score": {
+      "away": 0,
+      "home": 44
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/07/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 0,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/14/1905",
+    "location": {
+      "city": "Milwaukee",
+      "state": "WI",
+      "coordinates": [43.041069, -87.909416]
+    },
+    "opponentId": "WIS",
+    "score": {
+      "away": 21,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/21/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "WAB",
+    "score": {
+      "away": 5,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/28/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "AM-M",
+    "score": {
+      "away": 0,
+      "home": 142
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/04/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "DEP",
+    "score": {
+      "away": 0,
+      "home": 71
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/11/1905",
+    "location": {
+      "city": "Bloomington",
+      "state": "IN",
+      "coordinates": [39.166592, -86.534889]
+    },
+    "opponentId": "IND",
+    "score": {
+      "away": 5,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/18/1905",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Cartier Field",
+      "coordinates": [41.701239, -86.234417]
+    },
+    "opponentId": "BENN",
+    "score": {
+      "away": 0,
+      "home": 22
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/24/1905",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "coordinates": [40.454769, -86.915703]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 0,
+      "home": 32
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Henry J. McGlew"
+  }
+]

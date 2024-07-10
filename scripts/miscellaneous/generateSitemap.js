@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const logger = require('../lib/logger');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
+const {ALL_SEASONS} = require('../lib/constants');
 
 const SITEMAP_FILENAME = path.resolve(__dirname, '../../website/public/sitemap.xml');
 
@@ -14,7 +15,9 @@ const paths = [
   '/explorables/s1e2-chasing-perfection',
 ];
 
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
+
+ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   paths.push(`/${season}/`);
 
   seasonScheduleData.forEach((gameData, i) => {

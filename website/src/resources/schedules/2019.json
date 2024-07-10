@@ -1,0 +1,1225 @@
+[
+  {
+    "isHomeGame": false,
+    "fullDate": "Mon Sep 2 2019 20:00:00 GMT-0400",
+    "coverage": "ESPN",
+    "location": {
+      "city": "Louisville",
+      "state": "KY",
+      "stadium": "Cardinal Stadium",
+      "coordinates": [38.206123, -85.759065]
+    },
+    "opponentId": "LOU",
+    "espnGameId": 401112436,
+    "highlightsYouTubeVideoId": "6cPd0WiI6ws",
+    "linescore": {
+      "away": [14, 7, 7, 7],
+      "home": [14, 0, 0, 3]
+    },
+    "score": {
+      "home": 17,
+      "away": 35
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 423,
+        "passYards": 193,
+        "passCompletions": 14,
+        "passAttempts": 23,
+        "yardsPerPass": 8.4,
+        "interceptionsThrown": 0,
+        "rushYards": 230,
+        "rushAttempts": 42,
+        "yardsPerRush": 5.5,
+        "penalties": 4,
+        "penaltyYards": 20,
+        "fumblesLost": 1,
+        "possession": "28:00",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 6,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 383,
+        "passYards": 134,
+        "passCompletions": 12,
+        "passAttempts": 28,
+        "yardsPerPass": 4.8,
+        "interceptionsThrown": 0,
+        "rushYards": 249,
+        "rushAttempts": 47,
+        "yardsPerRush": 5.3,
+        "penalties": 8,
+        "penaltyYards": 50,
+        "fumblesLost": 3,
+        "possession": "32:00",
+        "fumbles": 5
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "coaches": 9
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "0-1",
+        "home": "0-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 82
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Sep 14 2019 14:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "UNM",
+    "highlightsYouTubeVideoId": "7xXMKdV2dJA",
+    "rankings": {
+      "home": {
+        "ap": 7,
+        "coaches": 7
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-1",
+        "home": "1-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401114336,
+    "linescore": {
+      "away": [0, 7, 0, 7],
+      "home": [7, 31, 14, 14]
+    },
+    "score": {
+      "home": 66,
+      "away": 14
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 22,
+        "thirdDownAttempts": 18,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 1,
+        "totalYards": 363,
+        "passYards": 151,
+        "passCompletions": 10,
+        "passAttempts": 29,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 3,
+        "rushYards": 212,
+        "rushAttempts": 46,
+        "yardsPerRush": 4.6,
+        "penalties": 5,
+        "penaltyYards": 39,
+        "fumblesLost": 1,
+        "possession": "35:06",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 1,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 5,
+        "totalYards": 591,
+        "passYards": 434,
+        "passCompletions": 17,
+        "passAttempts": 27,
+        "yardsPerPass": 16.1,
+        "interceptionsThrown": 0,
+        "rushYards": 157,
+        "rushAttempts": 38,
+        "yardsPerRush": 4.1,
+        "penalties": 7,
+        "penaltyYards": 53,
+        "fumblesLost": 0,
+        "possession": "24:54",
+        "fumbles": 0
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 75
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": false,
+    "fullDate": "Sat Sep 21 2019 20:00:00 GMT-0400",
+    "coverage": "CBS",
+    "location": {
+      "city": "Athens",
+      "state": "GA",
+      "stadium": "Sanford Stadium",
+      "coordinates": [33.94981, -83.374454]
+    },
+    "opponentId": "UGA",
+    "espnGameId": 401110800,
+    "highlightsYouTubeVideoId": "L43HVaImNPU",
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "away": {
+        "ap": 7,
+        "coaches": 7
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "4-0",
+        "home": "3-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "1-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
+    },
+    "linescore": {
+      "away": [0, 10, 0, 7],
+      "home": [0, 7, 6, 10]
+    },
+    "score": {
+      "home": 23,
+      "away": 17
+    },
+    "result": "L",
+    "stats": {
+      "away": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 1,
+        "totalYards": 321,
+        "passYards": 275,
+        "passCompletions": 29,
+        "passAttempts": 47,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 2,
+        "rushYards": 46,
+        "rushAttempts": 14,
+        "yardsPerRush": 3.3,
+        "penalties": 12,
+        "penaltyYards": 85,
+        "fumblesLost": 0,
+        "possession": "25:29",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 339,
+        "passYards": 187,
+        "passCompletions": 20,
+        "passAttempts": 26,
+        "yardsPerPass": 7.2,
+        "interceptionsThrown": 0,
+        "rushYards": 152,
+        "rushAttempts": 33,
+        "yardsPerRush": 4.6,
+        "penalties": 6,
+        "penaltyYards": 43,
+        "fumblesLost": 1,
+        "possession": "34:31",
+        "fumbles": 4
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 77
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Sep 28 2019 15:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "UVA",
+    "espnGameId": 401112472,
+    "highlightsYouTubeVideoId": "BhBSv3zBmis",
+    "rankings": {
+      "home": {
+        "ap": 10,
+        "coaches": 10
+      },
+      "away": {
+        "ap": 18,
+        "coaches": 18
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "3-1",
+        "home": "2-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-1",
+        "home": "3-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
+    },
+    "linescore": {
+      "away": [7, 10, 0, 3],
+      "home": [14, 0, 14, 7]
+    },
+    "score": {
+      "home": 35,
+      "away": 20
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 338,
+        "passYards": 334,
+        "passCompletions": 30,
+        "passAttempts": 43,
+        "yardsPerPass": 7.8,
+        "interceptionsThrown": 2,
+        "rushYards": 4,
+        "rushAttempts": 29,
+        "yardsPerRush": 0.1,
+        "penalties": 6,
+        "penaltyYards": 52,
+        "fumblesLost": 3,
+        "possession": "33:32",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 6,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 322,
+        "passYards": 165,
+        "passCompletions": 17,
+        "passAttempts": 25,
+        "yardsPerPass": 6.6,
+        "interceptionsThrown": 0,
+        "rushYards": 157,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.2,
+        "penalties": 9,
+        "penaltyYards": 50,
+        "fumblesLost": 1,
+        "possession": "26:28",
+        "fumbles": 1
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 68
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Oct 05 2019 15:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BGSU",
+    "highlightsYouTubeVideoId": "ALhXzLbvvag",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 10
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "4-1",
+        "home": "3-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-4",
+        "home": "1-1",
+        "away": "0-3",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401114337,
+    "linescore": {
+      "away": [0, 0, 0, 0],
+      "home": [21, 14, 10, 7]
+    },
+    "score": {
+      "home": 52,
+      "away": 0
+    },
+    "result": "W",
+    "stats": {
+      "away": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 19,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 0,
+        "totalYards": 228,
+        "passYards": 110,
+        "passCompletions": 15,
+        "passAttempts": 27,
+        "yardsPerPass": 4.1,
+        "interceptionsThrown": 1,
+        "rushYards": 118,
+        "rushAttempts": 42,
+        "yardsPerRush": 2.8,
+        "penalties": 6,
+        "penaltyYards": 39,
+        "fumblesLost": 0,
+        "possession": "33:20",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 573,
+        "passYards": 340,
+        "passCompletions": 21,
+        "passAttempts": 27,
+        "yardsPerPass": 12.6,
+        "interceptionsThrown": 0,
+        "rushYards": 233,
+        "rushAttempts": 34,
+        "yardsPerRush": 6.9,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 0,
+        "possession": "26:40",
+        "fumbles": 0
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/12/2019",
+    "fullDate": "Sat Oct 12 2019 19:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "highlightsYouTubeVideoId": "TjM7kDhpHw8",
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 10
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "5-1",
+        "home": "4-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-3",
+        "home": "3-0",
+        "away": "0-3",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401114222,
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 426,
+        "passYards": 255,
+        "passCompletions": 24,
+        "passAttempts": 35,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 0,
+        "rushYards": 171,
+        "rushAttempts": 35,
+        "yardsPerRush": 4.9,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 0,
+        "possession": "28:36",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 17,
+        "thirdDownConversions": 9,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 473,
+        "passYards": 165,
+        "passCompletions": 17,
+        "passAttempts": 32,
+        "yardsPerPass": 5.2,
+        "interceptionsThrown": 0,
+        "rushYards": 308,
+        "rushAttempts": 48,
+        "yardsPerRush": 6.4,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "fumblesLost": 0,
+        "possession": "31:24",
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 30,
+      "away": 27
+    },
+    "linescore": {
+      "away": [3, 0, 10, 14],
+      "home": [0, 17, 3, 10]
+    },
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 50
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": false,
+    "fullDate": "Sat Oct 26 2019 19:30:00 GMT-0400",
+    "coverage": "ABC",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stadium": "Michigan Stadium",
+      "coordinates": [42.265686, -83.74861]
+    },
+    "opponentId": "MICH",
+    "highlightsYouTubeVideoId": "etk4xjpxiL8",
+    "rankings": {
+      "home": {
+        "ap": 19,
+        "coaches": 20
+      },
+      "away": {
+        "ap": 8,
+        "coaches": 7
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "6-2",
+        "home": "5-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-2",
+        "home": "4-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401112227,
+    "stats": {
+      "away": {
+        "firstDowns": 12,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 180,
+        "passYards": 133,
+        "passCompletions": 11,
+        "passAttempts": 29,
+        "yardsPerPass": 4.6,
+        "interceptionsThrown": 0,
+        "rushYards": 47,
+        "rushAttempts": 31,
+        "yardsPerRush": 1.5,
+        "penalties": 7,
+        "penaltyYards": 62,
+        "fumblesLost": 2,
+        "possession": "25:23",
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 437,
+        "passYards": 134,
+        "passCompletions": 8,
+        "passAttempts": 14,
+        "yardsPerPass": 9.6,
+        "interceptionsThrown": 0,
+        "rushYards": 303,
+        "rushAttempts": 57,
+        "yardsPerRush": 5.3,
+        "penalties": 4,
+        "penaltyYards": 50,
+        "fumblesLost": 0,
+        "possession": "34:37",
+        "fumbles": 3
+      }
+    },
+    "score": {
+      "home": 45,
+      "away": 14
+    },
+    "linescore": {
+      "away": [0, 0, 7, 7],
+      "home": [3, 14, 7, 21]
+    },
+    "result": "L",
+    "weather": {
+      "icon": "rain",
+      "temperature": 51
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Nov 02 2019 14:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "VT",
+    "highlightsYouTubeVideoId": "K0ZDXoz5i-o",
+    "rankings": {
+      "home": {
+        "ap": 16,
+        "coaches": 16
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "6-2",
+        "home": "5-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-3",
+        "home": "4-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401112501,
+    "stats": {
+      "away": {
+        "firstDowns": 12,
+        "thirdDownAttempts": 16,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 235,
+        "passYards": 139,
+        "passCompletions": 9,
+        "passAttempts": 28,
+        "yardsPerPass": 5,
+        "interceptionsThrown": 1,
+        "rushYards": 96,
+        "rushAttempts": 36,
+        "yardsPerRush": 2.7,
+        "penalties": 6,
+        "penaltyYards": 53,
+        "fumblesLost": 1,
+        "possession": "28:48",
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 20,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 3,
+        "totalYards": 442,
+        "passYards": 336,
+        "passCompletions": 29,
+        "passAttempts": 53,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 2,
+        "rushYards": 106,
+        "rushAttempts": 38,
+        "yardsPerRush": 2.8,
+        "penalties": 7,
+        "penaltyYards": 75,
+        "fumblesLost": 1,
+        "possession": "31:12",
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 21,
+      "away": 20
+    },
+    "linescore": {
+      "away": [7, 7, 3, 3],
+      "home": [7, 7, 0, 7]
+    },
+    "result": "W",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 43
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": false,
+    "fullDate": "Sat Nov 09 2019 19:30:00 GMT-0500",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Wallace Wade Stadium",
+      "coordinates": [35.995208, -78.941782]
+    },
+    "opponentId": "DUKE",
+    "coverage": "ACCN",
+    "highlightsYouTubeVideoId": "zfVdhdCbU0Y",
+    "rankings": {
+      "away": {
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 15
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "4-5",
+        "home": "2-3",
+        "away": "2-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-2",
+        "home": "5-0",
+        "away": "2-2",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401111654,
+    "stats": {
+      "away": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 17,
+        "thirdDownConversions": 9,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 469,
+        "passYards": 181,
+        "passCompletions": 18,
+        "passAttempts": 32,
+        "yardsPerPass": 5.7,
+        "interceptionsThrown": 2,
+        "rushYards": 288,
+        "rushAttempts": 42,
+        "yardsPerRush": 6.9,
+        "penalties": 8,
+        "penaltyYards": 56,
+        "fumblesLost": 0,
+        "possession": "32:52",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 10,
+        "thirdDownAttempts": 16,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 1,
+        "totalYards": 197,
+        "passYards": 102,
+        "passCompletions": 16,
+        "passAttempts": 31,
+        "yardsPerPass": 3.3,
+        "interceptionsThrown": 1,
+        "rushYards": 95,
+        "rushAttempts": 30,
+        "yardsPerRush": 3.2,
+        "penalties": 8,
+        "penaltyYards": 63,
+        "fumblesLost": 1,
+        "possession": "27:08",
+        "fumbles": 2
+      }
+    },
+    "score": {
+      "home": 7,
+      "away": 38
+    },
+    "linescore": {
+      "away": [14, 7, 7, 10],
+      "home": [0, 7, 0, 0]
+    },
+    "result": "W",
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 37
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Nov 16 2019 14:30:00 GMT-0500",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "highlightsYouTubeVideoId": "hDUSuGfdImg",
+    "rankings": {
+      "home": {
+        "ap": 16,
+        "coaches": 16,
+        "cfbPlayoff": 16
+      },
+      "away": {
+        "ap": 21,
+        "coaches": 21,
+        "cfbPlayoff": 23
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "8-2",
+        "home": "6-0",
+        "away": "2-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-2",
+        "home": "5-0",
+        "away": "2-2",
+        "neutral": "0-0"
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 35
+    },
+    "espnGameId": 401114338,
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 16,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 4,
+        "totalYards": 360,
+        "passYards": 79,
+        "passCompletions": 4,
+        "passAttempts": 13,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 0,
+        "rushYards": 281,
+        "rushAttempts": 64,
+        "yardsPerRush": 4.4,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "fumblesLost": 4,
+        "possession": "36:00",
+        "fumbles": 4
+      },
+      "home": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 410,
+        "passYards": 305,
+        "passCompletions": 16,
+        "passAttempts": 22,
+        "yardsPerPass": 13.9,
+        "interceptionsThrown": 0,
+        "rushYards": 105,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.4,
+        "penalties": 2,
+        "penaltyYards": 15,
+        "fumblesLost": 0,
+        "possession": "24:00",
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 52,
+      "away": 20
+    },
+    "linescore": {
+      "away": [0, 3, 7, 10],
+      "home": [14, 24, 7, 7]
+    },
+    "result": "W",
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": true,
+    "coverage": "NBC",
+    "fullDate": "Sat Nov 23 2019 14:30:00 GMT-0500",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BC",
+    "highlightsYouTubeVideoId": "VvC68n_FRgY",
+    "rankings": {
+      "home": {
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 16
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "9-2",
+        "home": "7-0",
+        "away": "2-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-6",
+        "home": "3-3",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
+    },
+    "espnGameId": 401112514,
+    "stats": {
+      "away": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 18,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 191,
+        "passYards": 63,
+        "passCompletions": 9,
+        "passAttempts": 21,
+        "yardsPerPass": 3,
+        "interceptionsThrown": 1,
+        "rushYards": 128,
+        "rushAttempts": 43,
+        "yardsPerRush": 3,
+        "penalties": 2,
+        "penaltyYards": 25,
+        "fumblesLost": 1,
+        "possession": "25:04",
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 19,
+        "thirdDownConversions": 10,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 501,
+        "passYards": 249,
+        "passCompletions": 27,
+        "passAttempts": 41,
+        "yardsPerPass": 6.1,
+        "interceptionsThrown": 0,
+        "rushYards": 252,
+        "rushAttempts": 44,
+        "yardsPerRush": 5.7,
+        "penalties": 8,
+        "penaltyYards": 54,
+        "fumblesLost": 0,
+        "possession": "34:56",
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 40,
+      "away": 7
+    },
+    "linescore": {
+      "away": [0, 7, 0, 0],
+      "home": [3, 13, 17, 7]
+    },
+    "result": "W",
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 35
+    },
+    "headCoach": "Brian Kelly"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/30/2019",
+    "coverage": "FOX",
+    "fullDate": "Sat Nov 30 2019 13:00:00 GMT-0800",
+    "location": {
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium",
+      "coordinates": [37.434444, -122.161111]
+    },
+    "opponentId": "STAN",
+    "rankings": {
+      "away": {
+        "ap": 15,
+        "coaches": 15,
+        "cfbPlayoff": 16
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "4-8",
+        "home": "3-4",
+        "away": "1-4",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "10-2",
+        "home": "7-0",
+        "away": "3-2",
+        "neutral": "0-0"
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 48
+    },
+    "espnGameId": 401114212,
+    "highlightsYouTubeVideoId": "2yOwDudPxw8",
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 445,
+        "passYards": 255,
+        "passCompletions": 17,
+        "passAttempts": 30,
+        "yardsPerPass": 8.5,
+        "interceptionsThrown": 0,
+        "rushYards": 190,
+        "rushAttempts": 37,
+        "yardsPerRush": 5.1,
+        "penalties": 11,
+        "penaltyYards": 95,
+        "fumblesLost": 0,
+        "possession": "29:57",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 26,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 394,
+        "passYards": 276,
+        "passCompletions": 28,
+        "passAttempts": 47,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 0,
+        "rushYards": 118,
+        "rushAttempts": 28,
+        "yardsPerRush": 4.2,
+        "penalties": 6,
+        "penaltyYards": 56,
+        "fumblesLost": 2,
+        "possession": "30:03",
+        "fumbles": 2
+      }
+    },
+    "score": {
+      "home": 24,
+      "away": 45
+    },
+    "linescore": {
+      "away": [7, 14, 7, 17],
+      "home": [10, 7, 0, 7]
+    },
+    "result": "W"
+  },
+  {
+    "isBowlGame": true,
+    "isHomeGame": false,
+    "isNeutralSiteGame": true,
+    "coverage": "ABC",
+    "fullDate": "Sat Dec 28 2019 12:00:00 GMT-0500",
+    "nickname": "Camping World Bowl",
+    "location": {
+      "city": "Orlando",
+      "state": "FL",
+      "stadium": "Camping World Stadium",
+      "coordinates": [28.539074, -81.404028]
+    },
+    "opponentId": "ISU",
+    "highlightsYouTubeVideoId": "BrzEcImDAJM",
+    "rankings": {
+      "away": {
+        "ap": 12,
+        "coaches": 11,
+        "cfbPlayoff": 15
+      }
+    },
+    "records": {
+      "home": {
+        "overall": "7-6",
+        "home": "5-2",
+        "away": "2-3",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "11-2",
+        "home": "7-0",
+        "away": "3-2",
+        "neutral": "1-0"
+      }
+    },
+    "espnGameId": 401135276,
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 77
+    },
+    "headCoach": "Brian Kelly",
+    "stats": {
+      "away": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 455,
+        "passYards": 247,
+        "passCompletions": 20,
+        "passAttempts": 28,
+        "yardsPerPass": 8.8,
+        "interceptionsThrown": 0,
+        "rushYards": 208,
+        "rushAttempts": 37,
+        "yardsPerRush": 5.6,
+        "penalties": 3,
+        "penaltyYards": 30,
+        "fumblesLost": 0,
+        "possession": "32:48",
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 0,
+        "totalYards": 272,
+        "passYards": 227,
+        "passCompletions": 18,
+        "passAttempts": 32,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 0,
+        "rushYards": 45,
+        "rushAttempts": 27,
+        "yardsPerRush": 1.7,
+        "penalties": 1,
+        "penaltyYards": 5,
+        "fumblesLost": 2,
+        "possession": "27:12",
+        "fumbles": 2
+      }
+    },
+    "score": {
+      "home": 9,
+      "away": 33
+    },
+    "linescore": {
+      "away": [10, 10, 10, 3],
+      "home": [0, 6, 3, 0]
+    },
+    "result": "W"
+  }
+]

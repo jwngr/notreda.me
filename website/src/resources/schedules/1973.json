@@ -1,0 +1,361 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/22/1973",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 0,
+      "home": 44
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 76
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/29/1973",
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "stadium": "Ross-Ade Stadium",
+      "coordinates": [40.434042, -86.918267]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 20,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 7
+      }
+    },
+    "weather": {
+      "temperature": 77,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/06/1973",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 10,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 67
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/13/1973",
+    "location": {
+      "city": "Houston",
+      "state": "TX",
+      "stadium": "Rice Stadium",
+      "coordinates": [29.716227, -95.409267]
+    },
+    "opponentId": "RICE",
+    "score": {
+      "away": 28,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:05 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 9
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 72
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/20/1973",
+    "location": {
+      "city": "West Point",
+      "state": "NY",
+      "stadium": "Michie Stadium",
+      "coordinates": [41.387396, -73.964121]
+    },
+    "opponentId": "ARMY",
+    "score": {
+      "away": 62,
+      "home": 3
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:00 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "temperature": 62,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/27/1973",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 14,
+      "home": 23
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:50 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 8
+      },
+      "away": {
+        "ap": 6
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 56
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/03/1973",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 7,
+      "home": 44
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 47
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/10/1973",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium",
+      "coordinates": [40.444, -79.962]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 31,
+      "home": 10
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 20
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 32
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/22/1973",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 15,
+      "home": 48
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:20 PM",
+    "coverage": "ABC",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 5
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 62
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "12/01/1973",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Orange Bowl",
+      "coordinates": [25.777936, -80.220957]
+    },
+    "opponentId": "MIAMI",
+    "score": {
+      "away": 44,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:15 PM",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "away": {
+        "ap": 5
+      },
+      "home": {
+        "ap": 15
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 72
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "date": "12/31/1973",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA",
+      "stadium": "Tulane Stadium",
+      "coordinates": [29.942778, -90.1175]
+    },
+    "opponentId": "BAMA",
+    "score": {
+      "away": 24,
+      "home": 23
+    },
+    "linescore": {
+      "away": [6, 8, 7, 3],
+      "home": [0, 10, 7, 6]
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "nickname": "Sugar Bowl",
+    "headCoach": "Ara Parseghian",
+    "rankings": {
+      "home": {
+        "ap": 1
+      },
+      "away": {
+        "ap": 3
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 51
+    }
+  }
+]

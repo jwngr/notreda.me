@@ -3,7 +3,7 @@ const _ = require('lodash');
 const logger = require('../lib/logger');
 const sentry = require('../lib/sentry');
 const validators = require('./validators');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
 const {ALL_SEASONS, CURRENT_SEASON} = require('../lib/constants');
 
 sentry.initialize();

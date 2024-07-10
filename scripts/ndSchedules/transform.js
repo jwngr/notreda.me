@@ -1,5 +1,5 @@
 const logger = require('../lib/logger');
-const ndSchedules = require('../lib/ndSchedules');
+const ndSchedules = require('../../website/src/resources/schedules');
 
 logger.info('Transforming schedule data...');
 

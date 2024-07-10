@@ -1,7 +1,8 @@
 const _ = require('lodash');
 
 const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../lib/ndSchedules');
+const ndSchedules = require('../../../../website/src/resources/schedules');
+const {ALL_SEASONS} = require('../../../lib/constants');
 
 // TODO: Analyze record based on location of opponent's campus, not just where the game was played.
 
@@ -47,7 +48,8 @@ let stats = {
   country: {},
 };
 
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
+ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.location !== 'TBD') {
       const stateOrCountryKey =

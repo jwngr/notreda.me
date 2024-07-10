@@ -3,13 +3,14 @@ const _ = require('lodash');
 const utils = require('../lib/utils');
 const logger = require('../lib/logger');
 const weather = require('../lib/weather');
-const ndSchedules = require('../lib/ndSchedules');
-const {CURRENT_SEASON} = require('../lib/constants');
+const ndSchedules = require('../../website/src/resources/schedules');
+const {ALL_SEASONS, CURRENT_SEASON} = require('../lib/constants');
 
 logger.info('Updating weather for historical games...');
 
 const fetchWeatherPromises = [];
-_.forEach(ndSchedules.getForAllSeasons(), (seasonScheduleData, season) => {
+ALL_SEASONS.forEach((season) => {
+  const seasonScheduleData = ndSchedules.getForSeason(season);
   let currentSeasonFetchWeatherPromises = [];
 
   _.forEach(seasonScheduleData, (gameData) => {

@@ -2,7 +2,8 @@ import {GameInfo, TeamId} from '../models';
 import {CURRENT_SEASON} from './constants';
 import {Schedules} from './schedules';
 
-interface ExpandedGameInfo extends GameInfo {
+// TOOD: Unify this type with the normal `GameInfo` type.
+export interface ExpandedGameInfo extends GameInfo {
   readonly season: number;
   readonly weekIndex: number;
 }
@@ -13,15 +14,16 @@ interface PastAndFutureMatchups {
 }
 
 /** Returns an array of all historical and future matchups against the specified opponent. */
-export const getMatchupsAgainstTeam = (opponentId: TeamId): PastAndFutureMatchups => {
+export const getMatchupsAgainstTeam = async (
+  opponentId: TeamId
+): Promise<PastAndFutureMatchups> => {
   const matchupsAgainstTeam: PastAndFutureMatchups = {
     past: [],
     future: [],
   };
 
-  const allSeasonSchedules = Schedules.getAll();
-
-  Object.entries(allSeasonSchedules).forEach(([currentSeason, currentSeasonGames]) => {
+  const promises = Schedules.getSeasons().map(async (currentSeason) => {
+    const currentSeasonGames = await Schedules.getForSeason(currentSeason);
     currentSeasonGames.forEach((currentGame, weekIndex) => {
       if (currentGame.opponentId === opponentId) {
         const pastOrFuture = currentGame.result ? 'past' : 'future';
@@ -34,21 +36,27 @@ export const getMatchupsAgainstTeam = (opponentId: TeamId): PastAndFutureMatchup
     });
   });
 
+  await Promise.all(promises);
+
   return matchupsAgainstTeam;
 };
 
 /**
  * Returns a subset of all matchups against the specified opponent, focused on the selected season.
  */
-export const getFilteredMatchupsAgainstTeam = ({
+export const getFilteredMatchupsAgainstTeam = async ({
   opponentId,
   selectedSeason,
   maxMatchupsCount = Infinity,
+  pastMatchupsAgainstTeam,
+  futureMatchupsAgainstTeam,
 }: {
   readonly opponentId: TeamId;
   readonly selectedSeason: number;
   readonly maxMatchupsCount?: number;
-}): readonly ExpandedGameInfo[] => {
+  readonly pastMatchupsAgainstTeam: readonly ExpandedGameInfo[];
+  readonly futureMatchupsAgainstTeam: readonly ExpandedGameInfo[];
+}): Promise<readonly ExpandedGameInfo[]> => {
   const minMatchupsCount = 5;
   if (maxMatchupsCount < minMatchupsCount) {
     throw new Error(
@@ -56,11 +64,14 @@ export const getFilteredMatchupsAgainstTeam = ({
     );
   }
 
-  const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} =
-    getMatchupsAgainstTeam(opponentId);
-  const allMatchupsAgainstTeam = [...pastMatchupsAgainstTeam, ...futureMatchupsAgainstTeam];
+  const allMatchupsAgainstTeam: readonly ExpandedGameInfo[] = [
+    ...pastMatchupsAgainstTeam,
+    ...futureMatchupsAgainstTeam,
+  ];
 
-  const selectedMatchup = allMatchupsAgainstTeam.find(({season}) => season === selectedSeason);
+  const selectedMatchup: ExpandedGameInfo | undefined = allMatchupsAgainstTeam.find(
+    ({season}) => season === selectedSeason
+  );
 
   if (typeof selectedMatchup === 'undefined') {
     throw new Error(

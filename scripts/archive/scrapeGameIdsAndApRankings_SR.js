@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 
 const {CURRENT_SEASON, AP_POLL_SEASONS} = require('../lib/constants');
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 

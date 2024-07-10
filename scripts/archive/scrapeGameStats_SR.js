@@ -8,7 +8,7 @@ const {CURRENT_SEASON} = require('../lib/constants');
 const red = chalk.bold.red;
 const green = chalk.bold.green;
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/ndSchedules');
+const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 process.setMaxListeners(Infinity);
 

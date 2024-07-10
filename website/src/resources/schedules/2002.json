@@ -1,0 +1,457 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "08/31/2002",
+    "location": {
+      "city": "East Rutherford",
+      "state": "NJ",
+      "stadium": "Giants Stadium",
+      "coordinates": [40.812222, -74.076944]
+    },
+    "opponentId": "MD",
+    "score": {
+      "away": 22,
+      "home": 0
+    },
+    "espnGameId": 222430120,
+    "linescore": {
+      "away": [3, 6, 10, 3],
+      "home": [0, 0, 0, 0]
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 21
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 64
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/07/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 17,
+      "home": 24
+    },
+    "espnGameId": 222500087,
+    "linescore": {
+      "away": [0, 7, 7, 3],
+      "home": [0, 17, 0, 7]
+    },
+    "time": "12:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 23
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 90
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/14/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MICH",
+    "score": {
+      "away": 23,
+      "home": 25
+    },
+    "espnGameId": 222570087,
+    "linescore": {
+      "away": [7, 0, 10, 6],
+      "home": [7, 9, 0, 9]
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 20
+      },
+      "away": {
+        "ap": 7
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 88
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/21/2002",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium",
+      "coordinates": [42.727122, -84.486078]
+    },
+    "opponentId": "MSU",
+    "score": {
+      "away": 21,
+      "home": 17
+    },
+    "espnGameId": 222640127,
+    "linescore": {
+      "away": [7, 7, 0, 7],
+      "home": [3, 0, 0, 14]
+    },
+    "time": "3:30 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 12
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/05/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "STAN",
+    "score": {
+      "away": 7,
+      "home": 31
+    },
+    "espnGameId": 222780087,
+    "linescore": {
+      "away": [7, 0, 0, 0],
+      "home": [0, 3, 21, 7]
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 63
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/12/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 6,
+      "home": 14
+    },
+    "espnGameId": 222850087,
+    "linescore": {
+      "away": [3, 3, 0, 0],
+      "home": [0, 7, 0, 7]
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 66
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/19/2002",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "stadium": "Falcon Stadium",
+      "coordinates": [38.997, -104.843]
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 21,
+      "home": 14
+    },
+    "espnGameId": 222922005,
+    "linescore": {
+      "away": [7, 7, 7, 0],
+      "home": [7, 0, 7, 0]
+    },
+    "time": "10:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 7,
+        "bcs": 3
+      },
+      "home": {
+        "ap": 18
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 42
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "10/26/2002",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [30.438088, -84.304527]
+    },
+    "opponentId": "FSU",
+    "score": {
+      "away": 34,
+      "home": 24
+    },
+    "espnGameId": 222990052,
+    "linescore": {
+      "away": [10, 0, 17, 7],
+      "home": [3, 7, 0, 14]
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "bcs": 3
+      },
+      "home": {
+        "ap": 11,
+        "bcs": 12
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 75
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/02/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 14,
+      "home": 7
+    },
+    "espnGameId": 223060087,
+    "linescore": {
+      "away": [6, 8, 0, 0],
+      "home": [0, 0, 0, 7]
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 4,
+        "bcs": 7
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 40
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/09/2002",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "stadium": "Ravens Stadium",
+      "coordinates": [39.277954, -76.623112]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 30,
+      "home": 23
+    },
+    "espnGameId": 223132426,
+    "linescore": {
+      "away": [2, 7, 6, 15],
+      "home": [7, 0, 16, 0]
+    },
+    "time": "12:00 PM",
+    "coverage": "CBS",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "bcs": 7
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 62
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/23/2002",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "RUTG",
+    "score": {
+      "away": 0,
+      "home": 42
+    },
+    "espnGameId": 223270087,
+    "linescore": {
+      "away": [0, 0, 0, 0],
+      "home": [0, 14, 28, 0]
+    },
+    "time": "1:00 PM",
+    "coverage": "NBC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "bcs": 7
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 45
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/30/2002",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [34.014167, -118.287778]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 13,
+      "home": 44
+    },
+    "espnGameId": 223340030,
+    "linescore": {
+      "away": [6, 7, 0, 0],
+      "home": [0, 17, 13, 14]
+    },
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "away": {
+        "ap": 7,
+        "bcs": 10
+      },
+      "home": {
+        "ap": 6,
+        "bcs": 4
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 56
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "date": "01/01/2003",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL",
+      "stadium": "Alltel Stadium",
+      "coordinates": [30.323861, -81.637472]
+    },
+    "opponentId": "NCST",
+    "score": {
+      "away": 28,
+      "home": 6
+    },
+    "espnGameId": 230010087,
+    "linescore": {
+      "away": [0, 21, 0, 7],
+      "home": [3, 0, 3, 0]
+    },
+    "time": "12:30 PM",
+    "coverage": "NBC",
+    "nickname": "Gator Bowl",
+    "headCoach": "Tyrone Willingham",
+    "rankings": {
+      "home": {
+        "ap": 11,
+        "bcs": 10
+      },
+      "away": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "temperature": 69,
+      "icon": "unknown"
+    }
+  }
+]

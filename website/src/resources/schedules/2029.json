@@ -1,0 +1,90 @@
+[
+  {
+    "isHomeGame": true,
+    "date": "09/01/2029",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BAMA"
+  },
+  {
+    "isHomeGame": false,
+    "date": "09/15/2029",
+    "location": {
+      "city": "Tampa",
+      "state": "Florida",
+      "stadium": "Raymond James Stadium",
+      "coordinates": [27.975969, -82.503331]
+    },
+    "opponentId": "USF"
+  },
+  {
+    "isHomeGame": false,
+    "date": "10/06/2029",
+    "location": {
+      "city": "Raleigh",
+      "state": "NC",
+      "stadium": "Carter-Finley Stadium",
+      "coordinates": [35.800652, -78.719587]
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/10/2029",
+    "location": {
+      "city": "Tallahassee",
+      "state": "FL",
+      "stadium": "Doak Campbell Stadium",
+      "coordinates": [30.438088, -84.304527]
+    },
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "GT"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "WAKE"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "Carrier Dome",
+      "coordinates": [43.036062, -76.136434]
+    },
+    "opponentId": "SYR"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NAVY"
+  }
+]

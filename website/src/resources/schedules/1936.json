@@ -1,0 +1,221 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/03/1936",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "CAR",
+    "score": {
+      "away": 7,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/10/1936",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "WASHU",
+    "score": {
+      "away": 6,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/17/1936",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "WIS",
+    "score": {
+      "away": 0,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden"
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "10/24/1936",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Pitt Stadium",
+      "coordinates": [40.444, -79.962]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 0,
+      "home": 26
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden",
+    "rankings": {
+      "away": {
+        "ap": 7
+      },
+      "home": {
+        "ap": 9
+      }
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/31/1936",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "OSU",
+    "score": {
+      "away": 2,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden"
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "11/07/1936",
+    "location": {
+      "city": "Baltimore",
+      "state": "MD",
+      "stadium": "Municipal Stadium",
+      "coordinates": [39.329444, -76.601389]
+    },
+    "opponentId": "NAVY",
+    "score": {
+      "away": 3,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden",
+    "rankings": {
+      "home": {
+        "ap": 13
+      }
+    },
+    "weather": {
+      "temperature": 47,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/14/1936",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium",
+      "coordinates": [40.829602, -73.926228]
+    },
+    "opponentId": "ARMY",
+    "score": {
+      "away": 6,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden"
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/21/1936",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NW",
+    "score": {
+      "away": 6,
+      "home": 26
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 1
+      }
+    }
+  },
+  {
+    "result": "T",
+    "isHomeGame": false,
+    "date": "12/05/1936",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [34.014167, -118.287778]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 13,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "headCoach": "Elmer Layden",
+    "rankings": {
+      "away": {
+        "ap": 9
+      }
+    }
+  }
+]

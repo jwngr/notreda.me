@@ -1,0 +1,366 @@
+[
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/05/1996",
+    "location": {
+      "city": "Nashville",
+      "state": "TN",
+      "stadium": "Vanderbilt Stadium",
+      "coordinates": [36.144167, -86.808889]
+    },
+    "opponentId": "VANDY",
+    "score": {
+      "away": 14,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:00 PM",
+    "coverage": "ESPN",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 6
+      }
+    },
+    "weather": {
+      "temperature": 74,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "09/14/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PUR",
+    "score": {
+      "away": 0,
+      "home": 35
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 9
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "09/21/1996",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "stadium": "Darrell K Royal - Texas Memorial Stadium",
+      "coordinates": [30.282861, -97.733119]
+    },
+    "opponentId": "TEX",
+    "score": {
+      "away": 27,
+      "home": 24
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "12:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 9
+      },
+      "home": {
+        "ap": 6
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 82
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "09/28/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "OSU",
+    "score": {
+      "away": 29,
+      "home": 16
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 5
+      },
+      "away": {
+        "ap": 4
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 56
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "10/12/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "WASH",
+    "score": {
+      "away": 20,
+      "home": 54
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 11
+      },
+      "away": {
+        "ap": 16
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 68
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": true,
+    "date": "10/19/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "AF",
+    "score": {
+      "away": 20,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "numOvertimes": 1,
+    "time": "2:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 8
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 53
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/02/1996",
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "stadium": "Croke Park",
+      "coordinates": [53.360552, -6.251466]
+    },
+    "nickname": "Shamrock Classic",
+    "opponentId": "NAVY",
+    "score": {
+      "away": 54,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "8:00 AM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 19
+      }
+    },
+    "weather": {
+      "temperature": 59,
+      "icon": "unknown"
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": false,
+    "date": "11/09/1996",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium",
+      "coordinates": [42.335, -71.166389]
+    },
+    "opponentId": "BC",
+    "score": {
+      "away": 48,
+      "home": 21
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "3:30 PM",
+    "coverage": "CBS",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 51
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/16/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "PITT",
+    "score": {
+      "away": 6,
+      "home": 60
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49
+    }
+  },
+  {
+    "result": "W",
+    "isHomeGame": true,
+    "date": "11/23/1996",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "RUTG",
+    "score": {
+      "away": 0,
+      "home": 62
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "time": "1:30 PM",
+    "coverage": "NBC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "home": {
+        "ap": 10
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 38
+    }
+  },
+  {
+    "result": "L",
+    "isHomeGame": false,
+    "date": "11/30/1996",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "stadium": "LA Memorial Coliseum",
+      "coordinates": [34.014167, -118.287778]
+    },
+    "opponentId": "USC",
+    "score": {
+      "away": 20,
+      "home": 27
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
+    "numOvertimes": 1,
+    "time": "8:00 PM",
+    "coverage": "ABC",
+    "headCoach": "Lou Holtz",
+    "rankings": {
+      "away": {
+        "ap": 10
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54
+    }
+  }
+]
