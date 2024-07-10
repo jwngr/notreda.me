@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 import {Teams} from '../../lib/teams';
 import {GameInfo, TeamId} from '../../models';
-import {TeamLogo} from '../TeamLogo';
+import {TeamLogo} from '../common/TeamLogo';
 import {GameCoverage} from './GameCoverage';
 
 const FutureGameWrapper = styled.div`
@@ -73,7 +73,7 @@ interface TeamDetailsWrapperProps {
 const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
   display: flex;
   flex-direction: column;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 
   text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
 

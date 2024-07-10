@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 
   /* Fix weird input button styling on iOS */
   input {

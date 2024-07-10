@@ -8,7 +8,7 @@ import {TableRowData} from '../../models';
 const TableWrapper = styled.div`
   margin: 20px auto;
   overflow: scroll;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   display: inline;
 
   table {

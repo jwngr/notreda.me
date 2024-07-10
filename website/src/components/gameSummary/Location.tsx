@@ -14,7 +14,7 @@ const LocationInnerWrapper = styled.div`
 
   p {
     font-size: 16px;
-    font-family: 'Inter UI', serif;
+    font-family: 'Inter', serif;
     margin-bottom: 4px;
   }
 
@@ -43,7 +43,7 @@ const Temperature = styled.p<TemperatureProps>`
   /* margin-left: ${({$isWeatherIconPresent}) => ($isWeatherIconPresent ? '8px' : 0)}; */
   margin-top: 4px;
   font-size: 18px !important;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
 `;
 
 interface StadiumLocationWrapperProps {

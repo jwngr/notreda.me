@@ -37,7 +37,7 @@ const Records = styled.div`
 
     & > p:first-of-type {
       font-size: 16px;
-      font-family: 'Inter UI', serif;
+      font-family: 'Inter', serif;
     }
 
     & > p:last-of-type {

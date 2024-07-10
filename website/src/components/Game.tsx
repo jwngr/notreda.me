@@ -5,6 +5,7 @@ import Media from 'react-media';
 import shamrockImage from '../images/shamrock.png';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models';
+import {TVNetworkLogo} from './common/TVNetworkLogo';
 import {
   AwayGamePrefix,
   DateOpponentDetailsWrapper,
@@ -23,7 +24,6 @@ import {
   ShamrockSeriesLogo,
   TelevisionCoverage,
 } from './Game.styles';
-import {TVNetworkLogo} from './TVNetworkLogo';
 
 export const Game: React.FC<{
   readonly game: GameInfo;

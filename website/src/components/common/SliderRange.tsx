@@ -85,11 +85,11 @@ export const SliderRange: React.FC<SliderRangeProps> = ({
         max={max}
         marks={{
           [min]: {
-            style: {fontFamily: 'Inter UI', fontSize: '14px'},
+            style: {fontFamily: 'Inter', fontSize: '14px'},
             label: min.toString(),
           },
           [max]: {
-            style: {fontFamily: 'Inter UI', fontSize: '14px'},
+            style: {fontFamily: 'Inter', fontSize: '14px'},
             label: max.toString(),
           },
         }}

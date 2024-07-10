@@ -9,7 +9,7 @@ import {Divider, Subtitle, Title, Wrapper} from './Explorables.styles';
 
 const BlogPostCardWrapper = styled.div`
   a {
-    font-family: 'Inter UI';
+    font-family: 'Inter';
     font-size: 20px;
     color: ${({theme}) => theme.colors.green};
     text-decoration: none;
@@ -27,14 +27,14 @@ const BlogPostCardWrapper = styled.div`
 
 const BlogPostDate = styled.p`
   font-size: 16px;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   margin: 12px 0;
   color: ${({theme}) => theme.colors.gray};
 `;
 
 const BlogPostDescription = styled.p`
   font-size: 16px;
-  font-family: 'Inter UI';
+  font-family: 'Inter';
   line-height: 1.5;
   color: ${({theme}) => theme.colors.black};
 `;

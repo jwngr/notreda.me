@@ -82,7 +82,7 @@ const NavMenuDecadeYear = styled(Link)<NavMenuDecadeYearProps>`
   justify-content: center;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Inter UI', serif;
+  font-family: 'Inter', serif;
   color: ${({theme}) => theme.colors.black};
 
   &:hover {
