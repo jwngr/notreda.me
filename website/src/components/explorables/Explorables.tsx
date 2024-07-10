@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 import {BlogPostInfo} from '../../models';
 import {NewsletterSignupForm} from '../common/NewsletterSignupForm';
-import {Divider, Subtitle, Title, Wrapper} from './index.styles';
+import {Divider, Subtitle, Title, Wrapper} from './Explorables.styles';
 
 const BlogPostCardWrapper = styled.div`
   a {

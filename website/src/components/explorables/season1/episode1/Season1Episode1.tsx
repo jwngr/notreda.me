@@ -21,7 +21,7 @@ import {
   Subtitle,
   Title,
   Wrapper,
-} from '../../index.styles';
+} from '../../Explorables.styles';
 import {BRIAN_KELLY_DATA, NOTRE_DAME_COACH_DATA, TOP_25_DATA} from './data';
 
 const title = 'Down To The Wire';
