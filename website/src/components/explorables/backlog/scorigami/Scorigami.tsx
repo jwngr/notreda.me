@@ -11,7 +11,7 @@ import {
   Subtitle,
   Title,
   Wrapper,
-} from '../../index.styles';
+} from '../../Explorables.styles';
 import {ScorigamiChart} from './ScorigamiChart';
 
 const title = 'Scorigami';

@@ -21,7 +21,7 @@ import {
   Subtitle,
   Title,
   Wrapper,
-} from '../../index.styles';
+} from '../../Explorables.styles';
 import {ALABAMA_RECORDS_UNDER_SABAN} from './data/alabamaRecordsUnderSaban';
 import {
   getAlabamaFirstLossSeriesData,

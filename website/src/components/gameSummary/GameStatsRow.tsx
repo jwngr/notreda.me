@@ -8,7 +8,7 @@ import {
   STATS_HEADER_COLUMN_STYLES,
   STATS_HEADER_SPACER_STYLES,
   STATS_SECTION_BREAKPOINTS,
-} from './index.styles';
+} from './GameSummary.styles';
 
 const GameStatsRowWrapper = styled.div`
   width: 100%;
