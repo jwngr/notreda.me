@@ -23,28 +23,10 @@ import {
   Title,
   Wrapper,
 } from '../../index.styles';
-import dataJson from './data.json';
+import {BRIAN_KELLY_DATA, NOTRE_DAME_COACH_DATA, TOP_25_DATA} from './data';
 
 const title = 'Down To The Wire';
 const subtitle = 'One Possession Games In The Brian Kelly Era';
-
-interface Season1Episode1Data {
-  readonly nd: {
-    readonly brianKellyEra: {
-      readonly onePossessionGameCounts: number[];
-      readonly overallWinPercentages: number[];
-      readonly onePossesssionGameWinPercentages: number[];
-    };
-  };
-  readonly coaches: {
-    readonly rows: [string, string, string, number, string][];
-  };
-  readonly top25: {
-    readonly rows: [string, number, string, number, string][];
-  };
-}
-
-const data = dataJson as Season1Episode1Data;
 
 export const ExplorablesS1E1: React.FC = () => {
   return (
@@ -134,7 +116,7 @@ export const ExplorablesS1E1: React.FC = () => {
       </Paragraph>
 
       <BarChart
-        data={data.nd.brianKellyEra.onePossessionGameCounts}
+        data={BRIAN_KELLY_DATA.onePossessionGameCounts}
         xAxisLabel="Season"
         yAxisLabel="One Possession Games"
         xAxisTickLabels={['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018']}
@@ -189,7 +171,7 @@ export const ExplorablesS1E1: React.FC = () => {
       </Paragraph>
 
       <BarChart
-        data={data.nd.brianKellyEra.onePossesssionGameWinPercentages}
+        data={BRIAN_KELLY_DATA.onePossesssionGameWinPercentages}
         yMax={100}
         xAxisLabel="Season"
         formatCount={(d: number) => `${d}%`}
@@ -223,7 +205,7 @@ export const ExplorablesS1E1: React.FC = () => {
           'Games Coached',
           '% One Possession Games',
         ]}
-        rows={data.coaches.rows}
+        rows={NOTRE_DAME_COACH_DATA}
         highlightedRowIndexes={[18]}
       />
 
@@ -267,7 +249,7 @@ export const ExplorablesS1E1: React.FC = () => {
 
       <Table
         headers={['Team', 'Top 25 Finishes', 'National Titles', '% One Poss Games']}
-        rows={data.top25.rows.slice(0, 15)}
+        rows={TOP_25_DATA.slice(0, 15)}
       />
 
       <Caption>
@@ -297,7 +279,7 @@ export const ExplorablesS1E1: React.FC = () => {
 
       <Table
         headers={['Team', 'Top 25 Finishes', 'National Titles', '% One Poss Games']}
-        rows={data.top25.rows}
+        rows={TOP_25_DATA}
         highlightedRowIndexes={[70]}
       />
 
