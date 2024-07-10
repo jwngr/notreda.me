@@ -211,6 +211,7 @@ export const BarChart: React.FC<{
       .text(yAxisLabel);
 
     // Responsively resize chart when window resizes.
+    // TODO: Fix this - it is not actually resizing.
     const handleResizeDebounced = debounce(resizeBarChart, 350);
     window.addEventListener('resize', handleResizeDebounced);
 
