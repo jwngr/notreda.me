@@ -4,7 +4,7 @@ import {darken} from 'polished';
 import React, {useCallback, useEffect, useRef} from 'react';
 import styled from 'styled-components';
 
-import backgroundImage from '../../../images/background.png';
+import backgroundImage from '../../images/background.png';
 
 const DEFAULT_FORMATTER: (d: number) => string = d3.format(',.0f');
 const DEFAULT_CHART_HEIGHT = 300;
@@ -132,10 +132,10 @@ export const BarChart: React.FC<{
       .attr('width', width)
       .attr('height', DEFAULT_CHART_HEIGHT + margins.top + margins.bottom);
 
-    // set the ranges
+    // Set the ranges.
     const xScale = d3
       .scaleBand()
-      .domain(d3.range(0, data.length).map(String)) // Convert numbers to strings
+      .domain(d3.range(0, data.length).map(String))
       .range([0, width - margins.left - margins.right])
       .padding(0.1);
 
@@ -152,15 +152,15 @@ export const BarChart: React.FC<{
       .attr('class', 'bar-chart-bar')
       .attr('transform', () => `translate(${margins.left}, ${margins.top})`);
 
-    // append the rectangles for the bar chart
+    // Append rectangles for the bar chart.
     bars
       .append('rect')
-      .attr('x', (d, i) => xScale(i) ?? 0)
+      .attr('x', (_, i) => xScale(i.toString()) ?? 0)
       .attr('width', xScale.bandwidth())
       .attr('y', (d) => yScale(d) ?? 0)
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d));
 
-    // add the x-axis
+    // Add x-axis.
     const xAxis = d3.axisBottom(xScale).tickFormat((i) => xAxisTickLabels[i] ?? i);
     barChartSvgRef.current
       .append('g')
@@ -168,8 +168,8 @@ export const BarChart: React.FC<{
       .attr('transform', `translate(${margins.left}, ${DEFAULT_CHART_HEIGHT + margins.top})`)
       .call(xAxis);
 
-    // add the y-axis
-    let yAxis = d3.axisLeft(yScale).tickFormat((d) => formatCount(d));
+    // Add y-axis.
+    let yAxis = d3.axisLeft(yScale).tickFormat((d) => formatCount(d as number));
     if (typeof yAxisTicksCount !== 'undefined') {
       yAxis = yAxis.ticks(yAxisTicksCount);
     }
@@ -179,17 +179,17 @@ export const BarChart: React.FC<{
       .call(yAxis)
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
 
-    // Bar height counts
+    // Bar height counts.
     if (showCounts) {
       bars
         .append('text')
         .attr('class', 'bar-chart-height-counts')
-        .attr('x', (d, i) => xScale(i) + xScale.bandwidth() / 2)
+        .attr('x', (_, i) => (xScale(i.toString()) ?? 0) + xScale.bandwidth() / 2)
         .attr('y', (d) => yScale(d) - 4)
         .text((d) => formatCount(d));
     }
 
-    // X-axis label
+    // X-axis label.
     barChartSvgRef.current
       .append('text')
       .attr('class', 'bar-chart-x-axis-label')
@@ -201,7 +201,7 @@ export const BarChart: React.FC<{
       )
       .text(xAxisLabel);
 
-    // Y-axis label
+    // Y-axis label.
     barChartSvgRef.current
       .append('text')
       .attr('class', 'bar-chart-y-axis-label')
