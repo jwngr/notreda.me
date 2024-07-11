@@ -7,6 +7,10 @@ import './index.css';
 import '@fontsource/bungee';
 import '@fontsource/inter';
 
+import {initAnalytics} from './lib/posthog';
+
+initAnalytics();
+
 const rootDiv = document.getElementById('root');
 if (!rootDiv) {
   throw new Error('Root element not found');
