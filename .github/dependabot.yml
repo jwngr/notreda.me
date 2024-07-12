@@ -1,0 +1,11 @@
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/website"
+      # TODO: Uncomment this once once /scripts is updated.
+      #- "/scripts"
+    schedule:
+      interval: "weekly"
