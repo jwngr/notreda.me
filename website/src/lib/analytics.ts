@@ -1,18 +1,7 @@
 import {getAnalytics} from 'firebase/analytics';
 import {initializeApp} from 'firebase/app';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyDzpcxtZ_XEyo1jRKa5PYXIb5J7El9j940',
-  authDomain: 'notreda-me.firebaseapp.com',
-  databaseURL: 'https://notreda-me.firebaseio.com',
-  projectId: 'notreda-me',
-  storageBucket: 'notreda-me.appspot.com',
-  messagingSenderId: '144646691092',
-  appId: '1:144646691092:web:4044a2caa9f427a607ca01',
-};
+import firebaseConfig from '../resources/firebaseConfig.json';
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-// Initialize Analytics and get a reference to the service
 export const analytics = getAnalytics(app);
