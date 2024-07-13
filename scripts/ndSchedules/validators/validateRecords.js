@@ -1,7 +1,7 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber} = require('../../lib/utils');
-const {CURRENT_SEASON} = require('../../lib/constants');
+import {CURRENT_SEASON} from '../../lib/constants';
+import {isNumber} from '../../lib/utils';
 
 const RECORD_REGEX = /^\d{1,2}-\d{1,2}$/;
 const RECORD_REGEX_WITH_TIES = /^\d{1,2}-\d{1,2}-\d{1,2}$/;
@@ -16,11 +16,11 @@ const _parseRecord = (record) => {
   return [winCount, lossCount, tieCount];
 };
 
-module.exports = (
+export function validateRecords(
   {records, season, isHomeGame, weekIndex, completedGameCountForSeason},
   assert,
   ignoredAssert
-) => {
+) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {
       records,
@@ -169,4 +169,4 @@ module.exports = (
       'Future season game should not have records object.'
     );
   }
-};
+}

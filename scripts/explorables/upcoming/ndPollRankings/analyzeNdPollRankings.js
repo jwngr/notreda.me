@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../../website/src/resources/schedules');
-const {ALL_SEASONS} = require('../../../lib/constants');
+import {getForSeason} from '../../../../website/src/resources/schedules';
+import {ALL_SEASONS} from '../../../lib/constants';
+import {Logger} from '../../../lib/logger';
 
 let pollRankings = {
   ap: Array(25).fill(0),
@@ -12,7 +12,7 @@ let pollRankings = {
 };
 
 ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+  const seasonScheduleData = getForSeason(season);
   seasonScheduleData
     .filter(({result}) => typeof result !== 'undefined')
     .forEach((gameData) => {
@@ -26,14 +26,14 @@ ALL_SEASONS.forEach((season) => {
     });
 });
 
-logger.log('AP Rankings');
-logger.log(pollRankings.ap.join(' '));
+Logger.log('AP Rankings');
+Logger.log(pollRankings.ap.join(' '));
 
-logger.log('\nBCS Rankings');
-logger.log(pollRankings.bcs.join(' '));
+Logger.log('\nBCS Rankings');
+Logger.log(pollRankings.bcs.join(' '));
 
-logger.log('\nCoaches Rankings');
-logger.log(pollRankings.coaches.join(' '));
+Logger.log('\nCoaches Rankings');
+Logger.log(pollRankings.coaches.join(' '));
 
-logger.log('\nCFB Playoff Rankings');
-logger.log(pollRankings.cfbPlayoff.join(' '));
+Logger.log('\nCFB Playoff Rankings');
+Logger.log(pollRankings.cfbPlayoff.join(' '));

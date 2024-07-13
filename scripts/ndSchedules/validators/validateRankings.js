@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber} = require('../../lib/utils');
+import {isNumber} from '../../lib/utils';
 
 const EXPECTED_POLLS = {
   ap: 'AP',
@@ -9,7 +9,7 @@ const EXPECTED_POLLS = {
   cfbPlayoff: 'College Football Playoff',
 };
 
-module.exports = ({rankings}, assert) => {
+export function validateRankings({rankings}, assert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {rankings});
   };
@@ -39,4 +39,4 @@ module.exports = ({rankings}, assert) => {
       }
     });
   }
-};
+}

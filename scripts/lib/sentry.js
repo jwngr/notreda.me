@@ -1,8 +1,10 @@
-const _ = require('lodash');
-var sentry = require('@sentry/node');
+import sentry from '@sentry/node';
+import _ from 'lodash';
 
-const logger = require('./logger');
-const config = require('./loadConfig');
+import {getConfig} from './loadConfig';
+import {Logger} from './logger';
+
+const config = getConfig();
 
 const SENTRY_DSN = _.get(config, 'sentry.dsn');
 const IS_SENTRY_ENABLED = _.get(config, 'sentry.isEnabled');
@@ -25,12 +27,12 @@ module.exports.initialize = () => {
 
     _isSentryInitialized = true;
 
-    logger.info('Initialized Sentry error monitoring.');
+    Logger.info('Initialized Sentry error monitoring.');
   }
 };
 
 module.exports.captureMessage = (message, level) => {
-  logger[level](message);
+  Logger[level](message);
   if (_isSentryInitialized) {
     sentry.captureMessage(message, level);
   }

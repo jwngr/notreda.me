@@ -1,14 +1,15 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const RSVP = require('rsvp');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import fs from 'fs';
 
-const teamMappings = require('./teamMappings.json');
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
+import RSVP from 'rsvp';
+
+import {Logger} from '../../lib/logger';
+import teamMappings from './teamMappings.json';
 
 if (process.argv.length !== 3) {
-  console.log('USAGE: node scrapeSchedule.js <output_file>');
+  Logger.error('USAGE: node scrapeSchedule.js <output_file>');
   process.exit(1);
 }
 
@@ -35,12 +36,10 @@ const getHtmlScheduleDataForYear = (year) => {
  */
 const getGamesForYear = (year) => {
   return getHtmlScheduleDataForYear(year).then(($) => {
-    const games = [];
-
     const $scheduleTable = $('#schedtable');
 
     // Loop through each row in the schedule table
-    const $rows = [];
+    let $rows = [];
     $scheduleTable.find('tr').each((i, row) => {
       $rows.push($(row));
     });
@@ -59,7 +58,7 @@ const getGamesForYear = (year) => {
       const rowCells = $row.children('td');
 
       const result = $(rowCells[3]).text().trim();
-      const opponent = $(rowCells[1]).text().trim();
+      let opponent = $(rowCells[1]).text().trim();
 
       const isHomeGame = _.startsWith(opponent, 'vs.');
 
@@ -87,9 +86,7 @@ const getGamesForYear = (year) => {
           location: $(rowCells[2]).text().trim(),
         };
       }
-    });
-
-    games = games.filter((game) => !!game);
+    }).filter((game) => !!game);
 
     return games;
   });
@@ -124,6 +121,8 @@ _.forEach(years, (year) => {
           }
 
           // Get the home and away scores
+          let homeTeamScore;
+          let awayTeamScore;
           if (
             (game.result === 'W' && game.isHomeGame) ||
             (game.result === 'L' && !game.isHomeGame)
@@ -150,15 +149,15 @@ _.forEach(years, (year) => {
       });
     })
     .catch(function (error) {
-      console.log(`Error scraping ${year} schedule:`, error);
+      Logger.error(`Error scraping ${year} schedule:`, {error});
     });
 });
 
-return RSVP.hash(promises)
+RSVP.hash(promises)
   .then(function (result) {
     fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
-    console.log(`Schedule written to ${process.argv[2]}!`);
+    Logger.success(`Schedule written to ${process.argv[2]}!`);
   })
   .catch(function (error) {
-    console.log('Failed to scrape schedule for all years:', error);
+    Logger.fail('Failed to scrape schedule for all years:', {error});
   });

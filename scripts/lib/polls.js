@@ -1,9 +1,10 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const teams = require('./teams');
-const {CURRENT_SEASON} = require('./constants');
+import _ from 'lodash';
+
+import {CURRENT_SEASON} from './constants';
+import teams from './teams';
 
 const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 

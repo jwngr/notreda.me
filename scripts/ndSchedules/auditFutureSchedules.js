@@ -1,23 +1,23 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const teams = require('../lib/teams');
-const logger = require('../lib/logger');
-const sentry = require('../lib/sentry');
-const ndSchedules = require('../../website/src/resources/schedules');
-const futureSchedules = require('../lib/futureSchedules');
+import {getForSeason} from '../../website/src/resources/schedules';
+import futureSchedules from '../lib/futureSchedules';
+import {Logger} from '../lib/logger';
+import sentry from '../lib/sentry';
+import teams from '../lib/teams';
 
 sentry.initialize();
 
 const auditFutureNdSchedules = async () => {
-  logger.info(`Auditing future ND schedules...`);
-  logger.newline(1);
+  Logger.info(`Auditing future ND schedules...`);
+  Logger.newline(1);
 
   const futureNdSchedules = await futureSchedules.fetchFutureNdSchedules();
 
   let needsUpdating = false;
 
   _.forEach(futureNdSchedules, (newFutureSeasonNdSchedule, futureSeason) => {
-    const priorFutureSeasonNdSchedule = ndSchedules.getForSeason(futureSeason);
+    const priorFutureSeasonNdSchedule = getForSeason(futureSeason);
 
     const priorOpponentNames = priorFutureSeasonNdSchedule.map(({opponentId}) => {
       return teams.getById(opponentId).name;
@@ -83,11 +83,11 @@ const auditFutureNdSchedules = async () => {
 
     const gamesNeedingUpdating = _.union(diffGames, gamesWithWrongDate, gamesWithWrongHomeStatus);
     if (gamesNeedingUpdating.length === 0) {
-      logger.info(`${futureSeason}: CLEAR`);
+      Logger.info(`${futureSeason}: CLEAR`);
     } else {
       needsUpdating = true;
       const gameOrGames = gamesNeedingUpdating.length === 1 ? 'GAME' : 'GAMES';
-      logger.warning(
+      Logger.warning(
         `${futureSeason}: ${
           gamesNeedingUpdating.length
         } ${gameOrGames} (${gamesNeedingUpdating.join(', ')})`
@@ -96,22 +96,22 @@ const auditFutureNdSchedules = async () => {
   });
 
   if (needsUpdating) {
-    logger.newline(2);
+    Logger.newline(2);
 
-    logger.fail('MANUALLY UPDATE FUTURE ND SCHEDULES');
-    logger.fail('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
+    Logger.fail('MANUALLY UPDATE FUTURE ND SCHEDULES');
+    Logger.fail('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
 
     // Log a message to Sentry to manually update the future ND schedules.
     sentry.captureMessage('Manually update future ND schedules', 'warning');
   }
 
-  logger.newline();
+  Logger.newline();
 };
 
-return auditFutureNdSchedules()
+auditFutureNdSchedules()
   .then(() => {
-    logger.success(`Successfully audited future ND schedules!`);
+    Logger.success(`Successfully audited future ND schedules!`);
   })
   .catch((error) => {
-    logger.fail(`Failed to audit future ND schedules: ${error.message}.`, {error});
+    Logger.fail(`Failed to audit future ND schedules: ${error.message}.`, {error});
   });

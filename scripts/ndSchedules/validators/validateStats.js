@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber, isNonEmptyString, getPossessionInSeconds} = require('../../lib/utils');
+import {getPossessionInSeconds, isNonEmptyString, isNumber} from '../../lib/utils';
 
 const EXPECTED_STATS_KEYS = [
   'firstDowns',
@@ -26,7 +26,11 @@ const EXPECTED_STATS_KEYS = [
 
 const POSSESSION_REGEX = /^\d{1,2}:\d{1,2}$/;
 
-module.exports = ({stats, isGameOver, isLatestGameCompletedGame}, assert, ignoredAssert) => {
+export function validateStats(
+  {stats, isGameOver, isLatestGameCompletedGame},
+  assert,
+  ignoredAssert
+) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {stats, isGameOver, isLatestGameCompletedGame});
   };
@@ -292,4 +296,4 @@ module.exports = ({stats, isGameOver, isLatestGameCompletedGame}, assert, ignore
     // Future game.
     wrappedAssert(typeof stats === 'undefined', 'Future game unexpected has stats.');
   }
-};
+}

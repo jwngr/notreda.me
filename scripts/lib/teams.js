@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const teams = require('../../website/src/resources/teams.json');
+import teams from '../../website/src/resources/teams.json';
 
 const existsById = (teamId) => _.has(teams, teamId);
 

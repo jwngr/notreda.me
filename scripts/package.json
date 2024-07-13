@@ -12,22 +12,18 @@
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "{src,schedules}/**/*.js": [
-      "prettier --write"
-    ]
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@types/lodash": "^4.17.6",
+    "@types/node": "^20.14.10",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "eslint": "^8.57.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.5.3"
   },
   "scripts": {
-    "precommit": "lint-staged"
-  },
-  "devDependencies": {
-    "husky": "^4.2.3",
-    "lint-staged": "^10.1.1",
-    "prettier": "^2.0.2"
+    "lint": "prettier --check '**/*.{js,ts,json}' && echo 'Running ESLint...' && eslint . --ext js,ts --report-unused-disable-directives --max-warnings 0 && echo 'All files pass linting!'",
+    "format": "prettier --write '**/*.{js,ts,json}'"
   }
 }

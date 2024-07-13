@@ -1,3 +1,6 @@
-const config = require('../../config/config.json');
+// TODO: Add type information.
+import config from '../../config/config.json';
 
-module.exports = config;
+export function getConfig() {
+  return config;
+}

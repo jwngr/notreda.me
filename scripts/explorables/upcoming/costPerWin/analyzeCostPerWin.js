@@ -1,10 +1,10 @@
-const _ = require('lodash');
-const fs = require('fs');
+import fs from 'fs';
 
-const utils = require('../../../lib/utils');
-const logger = require('../../../lib/logger');
+import _ from 'lodash';
 
-const teamRecordsAndSalaryData = require('./data/teamRecordsAndSalaries.json');
+import {Logger} from '../../../lib/logger';
+import utils from '../../../lib/utils';
+import teamRecordsAndSalaryData from './data/teamRecordsAndSalaries.json';
 
 const teamCostPerWinData = _.map(
   teamRecordsAndSalaryData,
@@ -37,7 +37,7 @@ const sortedTeamCostPerWinData = teamCostPerWinData
   });
 
 sortedTeamCostPerWinData.forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-  logger.log(i + 1, teamName, headCoach, wins, utils.withCommas(costPerWin));
+  Logger.info(i + 1, teamName, headCoach, wins, utils.withCommas(costPerWin));
 });
 
 teamCostPerWinData
@@ -45,7 +45,7 @@ teamCostPerWinData
     return costPerWin === 'Unknown';
   })
   .forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-    logger.log(sortedTeamCostPerWinData.length + i + 1, teamName, headCoach, wins, costPerWin);
+    Logger.info(sortedTeamCostPerWinData.length + i + 1, teamName, headCoach, wins, costPerWin);
   });
 
 fs.writeFileSync('./data/costPerWin.json', JSON.stringify(sortedTeamCostPerWinData, null, 2));

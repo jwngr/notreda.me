@@ -1,6 +1,7 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+
+import _ from 'lodash';
 
 const TSV_INPUT_FILE = path.resolve(__dirname, './data/coachSalaries2018.tsv');
 const JSON_OUTPUT_FILE = path.resolve(__dirname, './data/coachSalaries2018.json');

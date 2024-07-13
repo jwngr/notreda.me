@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('./logger');
-const scraper = require('./scraper');
-const {CURRENT_SEASON} = require('./constants');
+import {CURRENT_SEASON} from './constants';
+import {Logger} from './logger';
+import scraper from './scraper';
 
 const AWAY_GAMES_WITHOUT_AT = {
   2020: ['Navy', 'Wake Forest', 'Wisconsin'],
@@ -80,7 +80,7 @@ const fetchFutureNdSchedules = () => {
       return schedules;
     })
     .catch((error) => {
-      logger.error(`Error fetching future ND schedules.`, {error});
+      Logger.error(`Error fetching future ND schedules.`, {error});
       throw error;
     });
 };

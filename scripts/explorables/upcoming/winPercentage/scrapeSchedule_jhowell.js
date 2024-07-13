@@ -1,6 +1,9 @@
-const fs = require('fs');
-const format = require('date-fns/format');
-const puppeteer = require('puppeteer');
+import fs from 'fs';
+
+import format from 'date-fns/format';
+import puppeteer from 'puppeteer';
+
+import {Logger} from '../../../lib/logger';
 
 const scrapeTeamSchedule = async (team, filename) => {
   const browser = await puppeteer.launch();
@@ -21,7 +24,7 @@ const scrapeTeamSchedule = async (team, filename) => {
   tables.reverse();
 
   // Loop through every season
-  for (table of tables) {
+  for (const table of tables) {
     const currentYearGames = [];
 
     const trs = await table.$$('tr');
@@ -57,7 +60,6 @@ const scrapeTeamSchedule = async (team, filename) => {
       let result = await tds[3].getProperty('innerHTML');
       result = await result.jsonValue();
 
-      // console.log(`${date} ${result} ${opponent}`);
       currentYearGames.push({
         date,
         result,
@@ -72,15 +74,13 @@ const scrapeTeamSchedule = async (team, filename) => {
   // const losses = games.filter((game) => game.result === 'L');
   // const ties = games.filter((game) => game.result === 'T');
 
-  // console.log(wins.length, losses.length, ties.length);
-
   fs.writeFileSync(filename, JSON.stringify(games, null, 2));
 
   await browser.close();
 };
 
 // List of top win percentages take from https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win-loss_records
-return Promise.all([
+Promise.all([
   scrapeTeamSchedule('Michigan', '../data/michigan.json'),
   scrapeTeamSchedule('NotreDame', '../data/notreDame.json'),
   scrapeTeamSchedule('OhioState', '../data/ohioState.json'),
@@ -92,5 +92,5 @@ return Promise.all([
   scrapeTeamSchedule('Nebraska', '../data/nebraska.json'),
   scrapeTeamSchedule('OldDominion', '../data/oldDominion.json'),
 ]).then(() => {
-  console.log('Success!');
+  Logger.success('Scraped schedule for all teams!');
 });

@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../../website/src/resources/schedules');
-const {ALL_SEASONS} = require('../../../lib/constants');
+import {getForSeason} from '../../../../website/src/resources/schedules';
+import {ALL_SEASONS} from '../../../lib/constants';
+import {Logger} from '../../../lib/logger';
 
 const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
@@ -56,8 +56,8 @@ const stats = {
 
 ALL_SEASONS.forEach((season) => {
   const currentYearStats = _getInitialStats();
-  
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+
+  const seasonScheduleData = getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
       const resultString = _getResultString(gameData.result);
@@ -102,7 +102,7 @@ ALL_SEASONS.forEach((season) => {
 });
 
 const headers = ['Stat', 'Games Played', 'Record', 'Win Percentage'];
-logger.log(headers.join('\t'));
+Logger.info(headers.join('\t'));
 
 const rows = [
   ['Overall', 'overall'],
@@ -116,7 +116,7 @@ const rows = [
 ];
 
 _.forEach(rows, ([statName, statsKey]) => {
-  logger.log(
+  Logger.info(
     [statName, _getGamesPlayed(statsKey), _getRecord(statsKey), _getWinPercentage(statsKey)].join(
       '\t'
     )

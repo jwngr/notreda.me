@@ -1,24 +1,25 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const espn = require('../lib/espn');
-const polls = require('../lib/polls');
-const utils = require('../lib/utils');
-const logger = require('../lib/logger');
-const sentry = require('../lib/sentry');
-const weather = require('../lib/weather');
-const ndSchedules = require('../../website/src/resources/schedules');
-const {CURRENT_SEASON, ND_HEAD_COACH} = require('../lib/constants');
+import {CURRENT_SEASON, ND_HEAD_COACH} from '../lib/constants';
+import espn from '../lib/espn';
+import {Logger} from '../lib/logger';
+import {getForCurrentSeason, updateForSeason} from '../lib/ndSchedules';
+// TODO: Re-enable polls.
+// import polls from '../lib/polls';
+import sentry from '../lib/sentry';
+import utils from '../lib/utils';
+import weather from '../lib/weather';
 
 const SEASON = CURRENT_SEASON;
 
 sentry.initialize();
 
 const updateNdSchedule = async () => {
-  const currentSeasonSchedule = ndSchedules.getForCurrentSeason();
+  const currentSeasonSchedule = getForCurrentSeason();
 
-  logger.info(`Updating data for ${SEASON} season...`);
+  Logger.info(`Updating data for ${SEASON} season...`);
 
-  logger.info(`Updating game stats...`);
+  Logger.info(`Updating game stats...`);
   const espnGameIds = await espn.fetchGameIdsForSeason(SEASON);
   espnGameIds.forEach((espnGameId, i) => {
     currentSeasonSchedule[i].espnGameId = Number(espnGameId);
@@ -71,7 +72,7 @@ const updateNdSchedule = async () => {
     }
   });
 
-  logger.info(`Auditing current season kickoff times...`);
+  Logger.info(`Auditing current season kickoff times...`);
 
   const currentSeasonUpcomingGames = currentSeasonSchedule.filter(
     ({result}) => typeof result === 'undefined'
@@ -110,7 +111,7 @@ const updateNdSchedule = async () => {
     }
   }
 
-  logger.info(`Updating team records...`);
+  Logger.info(`Updating team records...`);
   const [notreDameWeeklyRecords, opponentRecords] = await Promise.all([
     espn.fetchNotreDameWeeklyRecordsForSeason(SEASON),
     Promise.all(
@@ -127,12 +128,12 @@ const updateNdSchedule = async () => {
     };
   });
 
-  logger.info(`Updating polls...`);
+  // Logger.info(`Updating polls...`);
   // TODO: Fix this. It gets the wrong data once a bye week happens.
   // const currentSeasonPollsData = await espn.fetchPollsForSeason(SEASON);
   // polls.updateForSeason(SEASON, currentSeasonPollsData, currentSeasonSchedule);
 
-  logger.info(`Updating weather for upcoming game...`);
+  Logger.info(`Updating weather for upcoming game...`);
   const nextUpcomingCurrentSeasonGame = _.find(
     currentSeasonSchedule,
     ({result, isPostponed, isCanceled}) =>
@@ -140,9 +141,9 @@ const updateNdSchedule = async () => {
   );
 
   if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {
-    logger.info('Not fetching weather since current season is over.');
+    Logger.info('Not fetching weather since current season is over.');
   } else if (typeof nextUpcomingCurrentSeasonGame.fullDate === 'undefined') {
-    logger.info('Not fetching weather since next upcoming game has no kickoff time.');
+    Logger.info('Not fetching weather since next upcoming game has no kickoff time.');
   } else {
     const millisecondsUntilNextUpcomingGame =
       new Date(nextUpcomingCurrentSeasonGame.fullDate).getTime() - Date.now();
@@ -151,10 +152,10 @@ const updateNdSchedule = async () => {
     );
 
     if (daysUntilNextUpcomingGame >= 7) {
-      logger.info('Not fetching weather since next upcoming game is more than 7 days away.');
+      Logger.info('Not fetching weather since next upcoming game is more than 7 days away.');
     } else {
-      const gameInfoString = `${ndSchedules.CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
-      logger.info(`Fetching weather for ${gameInfoString}...`);
+      const gameInfoString = `${CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
+      Logger.info(`Fetching weather for ${gameInfoString}...`);
 
       nextUpcomingCurrentSeasonGame.weather = await weather.fetchForGame(
         nextUpcomingCurrentSeasonGame.location.coordinates,
@@ -163,18 +164,18 @@ const updateNdSchedule = async () => {
     }
   }
 
-  logger.info(`Updating ND schedule data file for ${SEASON}...`);
-  return ndSchedules.updateForSeason(SEASON, currentSeasonSchedule);
+  Logger.info(`Updating ND schedule data file for ${SEASON}...`);
+  return updateForSeason(SEASON, currentSeasonSchedule);
 
   // Uncomment to run a data transformation on all seasons.
-  // logger.info(`Running data tranformation on all seasons...`);
-  // return ndSchedules.transformForAllSeasons(() => {});
+  // Logger.info(`Running data tranformation on all seasons...`);
+  // return transformForAllSeasons(() => {});
 };
 
-return updateNdSchedule()
+updateNdSchedule()
   .then(() => {
-    logger.info(`Successfully updated ND schedule for ${SEASON}!`);
+    Logger.info(`Successfully updated ND schedule for ${SEASON}!`);
   })
   .catch((error) => {
-    logger.error(`Error updating ND schedule.`, {error, SEASON});
+    Logger.error(`Error updating ND schedule.`, {error, SEASON});
   });

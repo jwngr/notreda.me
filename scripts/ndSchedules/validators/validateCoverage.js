@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {CURRENT_SEASON} = require('../../lib/constants');
+import {CURRENT_SEASON} from '../../lib/constants';
 
 const EXPECTED_TV_CHANNELS = [
   'ABC',
@@ -24,9 +24,9 @@ const EXPECTED_TV_CHANNELS = [
   'ABC / ESPN2',
   'RAYCOM / WGN-TV',
   'USA / WGN-TV',
-]; 
+];
 
-module.exports = ({season, coverage}, assert) => {
+export function validateCoverage({season, coverage}, assert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {coverage});
   };
@@ -52,4 +52,4 @@ module.exports = ({season, coverage}, assert) => {
       'Future season game has unexpected coverage value.'
     );
   }
-};
+}

@@ -1,10 +1,9 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const logger = require('../lib/logger');
-const ndSchedules = require('../../website/src/resources/schedules');
-const {ALL_SEASONS} = require('../lib/constants');
+import {getForSeason} from '../../website/src/resources/schedules';
+import {ALL_SEASONS} from '../lib/constants';
+import {Logger} from '../lib/logger';
 
 const SITEMAP_FILENAME = path.resolve(__dirname, '../../website/public/sitemap.xml');
 
@@ -15,12 +14,11 @@ const paths = [
   '/explorables/s1e2-chasing-perfection',
 ];
 
-
 ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+  const seasonScheduleData = getForSeason(season);
   paths.push(`/${season}/`);
 
-  seasonScheduleData.forEach((gameData, i) => {
+  seasonScheduleData.forEach((_, i) => {
     paths.push(`/${season}/${i + 1}/`);
   });
 });
@@ -37,4 +35,4 @@ ${urls.join('\n')}
 
 fs.writeFileSync(SITEMAP_FILENAME, sitemap);
 
-logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);
+Logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);

@@ -1,10 +1,11 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../../website/src/resources/schedules');
-const {ALL_SEASONS} = require('../../../lib/constants');
+import _ from 'lodash';
+
+import {getForSeason} from '../../../../website/src/resources/schedules';
+import {ALL_SEASONS} from '../../../lib/constants';
+import {Logger} from '../../../lib/logger';
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
@@ -12,7 +13,7 @@ let gamesPlayedCount = 0;
 const scorigamiMatrix = [];
 
 ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+  const seasonScheduleData = getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.result) {
       gamesPlayedCount++;
@@ -25,10 +26,10 @@ ALL_SEASONS.forEach((season) => {
   });
 });
 
-logger.log('Games played count:', gamesPlayedCount);
+Logger.log('Games played count:', gamesPlayedCount);
 
-logger.log('\nScorigami matrix:');
-logger.log(JSON.stringify(scorigamiMatrix));
+Logger.log('\nScorigami matrix:');
+Logger.log(JSON.stringify(scorigamiMatrix));
 
 fs.writeFileSync(
   `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,

@@ -1,8 +1,7 @@
-const _ = require('lodash');
-const fs = require('fs');
+import _ from 'lodash';
 
-const logger = require('../../../lib/logger');
-const teamSchedules = require('../../../lib/teamSchedules');
+import {Logger} from '../../../lib/logger';
+import teamSchedules from '../../../lib/teamSchedules';
 
 const seasonCountsPerTeam = {};
 const teamCountsPerSeason = {};
@@ -11,7 +10,7 @@ const weekOfFirstLossPerSeason = {};
 const undefeatedTeamsPerSeason = {};
 const numTeamsWithLosslessRecordPerSeason = {};
 
-logger.info('Analyzing first loss of season for all teams...');
+Logger.info('Analyzing first loss of season for all teams...');
 
 teamSchedules.forEach((teamName, teamScheduleData) => {
   _.forEach(teamScheduleData, (games, season) => {
@@ -110,20 +109,20 @@ _.range(0, 15)
       ({lossCountPercentage}) => -lossCountPercentage
     );
 
-    console.log(
+    Logger.info(
       `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT:`,
       _.take(currentWeekTeamsSortedByLossCount, 5).map(
         ({teamName, lossCount}) => `${teamName}-${lossCount}`
       )
     );
 
-    // console.log(
-    //   `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
-    //   _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
-    // );
+    Logger.info(
+      `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
+      _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
+    );
   });
 
-logger.info(
+Logger.info(
   'NUM TEAMS PER SEASON W/ LOSSLESS RECORD:',
   _.mapValues(numTeamsWithLosslessRecordPerSeason, (numTeamswithLosslessRecordPerWeek, season) => {
     return {
@@ -133,4 +132,4 @@ logger.info(
   })
 );
 
-logger.success('Successfully analyzed first loss of season for all teams!');
+Logger.success('Successfully analyzed first loss of season for all teams!');
