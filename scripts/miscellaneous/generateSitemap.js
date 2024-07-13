@@ -5,6 +5,8 @@ import {getForSeason} from '../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const SITEMAP_FILENAME = path.resolve(__dirname, '../../website/public/sitemap.xml');
 
 const paths = [
@@ -35,4 +37,4 @@ ${urls.join('\n')}
 
 fs.writeFileSync(SITEMAP_FILENAME, sitemap);
 
-Logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);
+logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);

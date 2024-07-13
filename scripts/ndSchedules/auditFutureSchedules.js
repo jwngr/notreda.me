@@ -1,18 +1,18 @@
 import _ from 'lodash';
 
 import {getForSeason} from '../../website/src/resources/schedules';
-import futureSchedules from '../lib/futureSchedules';
+import {fetchFutureNdSchedules} from '../lib/futureSchedules';
 import {Logger} from '../lib/logger';
-import sentry from '../lib/sentry';
-import teams from '../lib/teams';
+import {Teams} from '../lib/teams';
 
-sentry.initialize();
+// Enable Sentry logging.
+const logger = new Logger({isSentryEnabled: true});
 
 const auditFutureNdSchedules = async () => {
-  Logger.info(`Auditing future ND schedules...`);
-  Logger.newline(1);
+  logger.info(`Auditing future ND schedules...`);
+  logger.newline(1);
 
-  const futureNdSchedules = await futureSchedules.fetchFutureNdSchedules();
+  const futureNdSchedules = await fetchFutureNdSchedules();
 
   let needsUpdating = false;
 
@@ -20,7 +20,7 @@ const auditFutureNdSchedules = async () => {
     const priorFutureSeasonNdSchedule = getForSeason(futureSeason);
 
     const priorOpponentNames = priorFutureSeasonNdSchedule.map(({opponentId}) => {
-      return teams.getById(opponentId).name;
+      return Teams.getById(opponentId).name;
     });
     const newOpponentNames = newFutureSeasonNdSchedule.map(({opponentName}) => opponentName);
 
@@ -37,7 +37,7 @@ const auditFutureNdSchedules = async () => {
     const gamesWithWrongDate = [];
     const gamesWithWrongHomeStatus = [];
     newFutureSeasonNdSchedule.forEach((newGameData) => {
-      const team = teams.getByName(newGameData.opponentName);
+      const team = Teams.getByName(newGameData.opponentName);
 
       // Only check for changes if the game is already in the prior games list.
       const priorGameData = _.find(
@@ -83,11 +83,11 @@ const auditFutureNdSchedules = async () => {
 
     const gamesNeedingUpdating = _.union(diffGames, gamesWithWrongDate, gamesWithWrongHomeStatus);
     if (gamesNeedingUpdating.length === 0) {
-      Logger.info(`${futureSeason}: CLEAR`);
+      logger.info(`${futureSeason}: CLEAR`);
     } else {
       needsUpdating = true;
       const gameOrGames = gamesNeedingUpdating.length === 1 ? 'GAME' : 'GAMES';
-      Logger.warning(
+      logger.warning(
         `${futureSeason}: ${
           gamesNeedingUpdating.length
         } ${gameOrGames} (${gamesNeedingUpdating.join(', ')})`
@@ -96,22 +96,20 @@ const auditFutureNdSchedules = async () => {
   });
 
   if (needsUpdating) {
-    Logger.newline(2);
-
-    Logger.fail('MANUALLY UPDATE FUTURE ND SCHEDULES');
-    Logger.fail('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
+    logger.newline(2);
 
     // Log a message to Sentry to manually update the future ND schedules.
-    sentry.captureMessage('Manually update future ND schedules', 'warning');
+    logger.fail('MANUALLY UPDATE FUTURE ND SCHEDULES');
+    logger.fail('See https://fbschedules.com/ncaa/notre-dame/ for game information to update.');
   }
 
-  Logger.newline();
+  logger.newline();
 };
 
 auditFutureNdSchedules()
   .then(() => {
-    Logger.success(`Successfully audited future ND schedules!`);
+    logger.success(`Successfully audited future ND schedules!`);
   })
   .catch((error) => {
-    Logger.fail(`Failed to audit future ND schedules: ${error.message}.`, {error});
+    logger.fail(`Failed to audit future ND schedules: ${error.message}.`, {error});
   });

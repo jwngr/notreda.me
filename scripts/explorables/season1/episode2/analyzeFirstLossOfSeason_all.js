@@ -3,6 +3,8 @@ import _ from 'lodash';
 import {Logger} from '../../../lib/logger';
 import teamSchedules from '../../../lib/teamSchedules';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const seasonCountsPerTeam = {};
 const teamCountsPerSeason = {};
 const weekOfFirstLossPerTeam = {};
@@ -10,7 +12,7 @@ const weekOfFirstLossPerSeason = {};
 const undefeatedTeamsPerSeason = {};
 const numTeamsWithLosslessRecordPerSeason = {};
 
-Logger.info('Analyzing first loss of season for all teams...');
+logger.info('Analyzing first loss of season for all teams...');
 
 teamSchedules.forEach((teamName, teamScheduleData) => {
   _.forEach(teamScheduleData, (games, season) => {
@@ -109,20 +111,20 @@ _.range(0, 15)
       ({lossCountPercentage}) => -lossCountPercentage
     );
 
-    Logger.info(
+    logger.info(
       `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT:`,
       _.take(currentWeekTeamsSortedByLossCount, 5).map(
         ({teamName, lossCount}) => `${teamName}-${lossCount}`
       )
     );
 
-    Logger.info(
+    logger.info(
       `WEEK ${weekIndex + 1} LEADERS BY LOSS COUNT PERCENTAGE:`,
       _.take(currentWeekTeamsSortedByLossCountPercentage, 5)
     );
   });
 
-Logger.info(
+logger.info(
   'NUM TEAMS PER SEASON W/ LOSSLESS RECORD:',
   _.mapValues(numTeamsWithLosslessRecordPerSeason, (numTeamswithLosslessRecordPerWeek, season) => {
     return {
@@ -132,4 +134,4 @@ Logger.info(
   })
 );
 
-Logger.success('Successfully analyzed first loss of season for all teams!');
+logger.success('Successfully analyzed first loss of season for all teams!');

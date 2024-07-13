@@ -3,10 +3,12 @@ import fs from 'fs';
 import _ from 'lodash';
 
 import {Logger} from '../../../lib/logger';
-import scraper from '../../../lib/scraper';
+import {Scraper} from '../../../lib/scraper';
 import coachSalaries from './data/coachSalaries2018.json';
 
-Logger.info('Scraping records for current season...');
+const logger = new Logger({isSentryEnabled: false});
+
+logger.info('Scraping records for current season...');
 
 const TEAM_NAMES_MAP = {
   'Miss State': 'Mississippi State',
@@ -36,7 +38,7 @@ const TEAM_NAMES_MAP = {
 };
 
 const scrapTeamRecords = async () => {
-  const $ = await scraper.get('http://www.espn.com/college-football/statistics/teamratings');
+  const $ = await Scraper.get('http://www.espn.com/college-football/statistics/teamratings');
 
   const $teamRows = $('.oddrow, .evenrow');
 
@@ -61,7 +63,7 @@ const scrapTeamRecords = async () => {
     const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]);
 
     if (_.size(teamCoachSalaryData) === 0) {
-      Logger.error('Team not found in coach salaries list.', {teamName});
+      logger.error('Team not found in coach salaries list.', {teamName});
     }
 
     teamRecords[teamName] = {
@@ -78,8 +80,8 @@ scrapTeamRecords()
   .then((teamRecords) => {
     fs.writeFileSync('./data/teamRecordsAndSalaries.json', JSON.stringify(teamRecords, null, 2));
 
-    Logger.success('Team records for current season fetched!');
+    logger.success('Team records for current season fetched!');
   })
   .catch((error) => {
-    Logger.success('Failed to fetch team records for current season!', {error});
+    logger.success('Failed to fetch team records for current season!', {error});
   });

@@ -5,6 +5,8 @@ import {Logger} from '../../../lib/logger';
 import {getForSeason} from '../../../lib/ndSchedules';
 import polls from '../../../lib/polls';
 
+const logger = new Logger({isSentryEnabled: false});
+
 let numSeasonsPlayed = 0;
 let firstLossOfSeasonsIndexTotal = 0;
 const undefeatedSeasons = [];
@@ -69,41 +71,41 @@ ALL_PLAYED_SEASONS.forEach((season) => {
       numGamesPlayedBeforeFirstLoss: seasonScheduleData.length,
       recordBeforeFirstLoss,
     };
-    Logger.info(season, recordBeforeFirstLoss);
+    logger.info(season, recordBeforeFirstLoss);
   }
 });
 
 const numSeasonsWithLoss = _.flatten(firstLossOfSeasonIndexes).length;
 
-Logger.info('NUM SEASONS:', numSeasonsPlayed);
+logger.info('NUM SEASONS:', numSeasonsPlayed);
 
-Logger.info('NUM UNDEFEATED SEASONS:', undefeatedSeasons.length);
-Logger.info('UNDEFEATED SEASONS:', undefeatedSeasons);
+logger.info('NUM UNDEFEATED SEASONS:', undefeatedSeasons.length);
+logger.info('UNDEFEATED SEASONS:', undefeatedSeasons);
 
-Logger.info('NUM SEASONS WITH LOSS:', numSeasonsWithLoss);
-Logger.info(
+logger.info('NUM SEASONS WITH LOSS:', numSeasonsWithLoss);
+logger.info(
   'FIRST LOSS OF SEASON INDEXES:',
   firstLossOfSeasonIndexes.map((years) => years.length)
 );
-Logger.info(
+logger.info(
   'FIRST LOSS OF SEASON INDEXES PERCENTAGES:',
   firstLossOfSeasonIndexes.map((years) =>
     Number(((years.length / (numSeasonsWithLoss + undefeatedSeasons.length)) * 100).toFixed(2))
   )
 );
-Logger.info('FIRST LOSS OF SEASON YEARS:', firstLossOfSeasonIndexes);
-Logger.info(
+logger.info('FIRST LOSS OF SEASON YEARS:', firstLossOfSeasonIndexes);
+logger.info(
   'AVERAGE WEEK OF FIRST LOSS:',
   (firstLossOfSeasonsIndexTotal / numSeasonsPlayed).toFixed(2)
 );
 
 // const result = [];
 // let lossCount = 0;
-// Logger.info('NUM SEASONS PLAYED:', numSeasonsPlayed);
+// logger.info('NUM SEASONS PLAYED:', numSeasonsPlayed);
 // _.forEach(firstLossOfSeasonIndexes, (years) => {
 //   lossCount += _.size(years);
 //   result.push(Number(((lossCount * 100) / numSeasonsPlayed).toFixed(2)));
 // });
-// Logger.info(result);
+// logger.info(result);
 
-Logger.info('WEEK OF FIRST LOSS:', weekOfFirstLossPerSeason);
+logger.info('WEEK OF FIRST LOSS:', weekOfFirstLossPerSeason);

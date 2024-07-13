@@ -6,6 +6,8 @@ import {Logger} from '../../../lib/logger';
 
 // TODO: Analyze record based on location of opponent's campus, not just where the game was played.
 
+const logger = new Logger({isSentryEnabled: false});
+
 const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
 const _getInitialStats = () =>
@@ -72,7 +74,7 @@ ALL_SEASONS.forEach((season) => {
   });
 });
 
-Logger.log(
+logger.log(
   [
     'State',
     'Games Played',
@@ -84,7 +86,7 @@ Logger.log(
 );
 
 _.forEach(stats.state, (stateStats, state) => {
-  Logger.log(
+  logger.log(
     [
       state,
       _getGamesPlayed(['state', state]),
@@ -96,9 +98,9 @@ _.forEach(stats.state, (stateStats, state) => {
   );
 });
 
-Logger.newline();
+logger.newline();
 
-Logger.log(
+logger.log(
   [
     'Country',
     'Games Played',
@@ -110,7 +112,7 @@ Logger.log(
 );
 
 _.forEach(stats.country, (countryStats, country) => {
-  Logger.log(
+  logger.log(
     [
       country,
       _getGamesPlayed(['country', country]),

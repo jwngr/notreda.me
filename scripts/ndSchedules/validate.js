@@ -3,12 +3,12 @@ import _ from 'lodash';
 import {getForSeason} from '../../website/src/resources/schedules';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
-import sentry from '../lib/sentry';
 import validators from './validators';
 
-sentry.initialize();
+// Enable Sentry logging.
+const logger = new Logger({isSentryEnabled: true});
 
-Logger.info('Validating schedule data...');
+logger.info('Validating schedule data...');
 
 let _numErrorsFound = 0;
 let _currentGameData = null;
@@ -17,7 +17,7 @@ let _numIgnoredErrorsFound = 0;
 const assert = (statement, message, extraContext) => {
   if (Boolean(statement) === false) {
     _numErrorsFound++;
-    Logger.error(message, {
+    logger.error(message, {
       ..._.pick(_currentGameData, ['season', 'opponentId']),
       ...extraContext,
     });
@@ -77,14 +77,13 @@ ALL_SEASONS.forEach((season) => {
 });
 
 if (_numIgnoredErrorsFound !== 0) {
-  Logger.warning(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
+  logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
 }
 
 if (_numErrorsFound === 0) {
-  Logger.info('Schedule data successfully validated with no errors!');
+  logger.info('Schedule data successfully validated with no errors!');
 } else {
-  Logger.error(`${_numErrorsFound} errors found in schedule data!`);
-  sentry.captureMessage(`${_numErrorsFound} errors found in schedule data`, 'warning');
+  logger.error(`${_numErrorsFound} errors found in schedule data!`);
 
   // Exit with a non-zero error code.
   process.exit(-1);

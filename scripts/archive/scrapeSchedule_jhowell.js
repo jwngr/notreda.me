@@ -6,6 +6,8 @@ import puppeteer from 'puppeteer';
 
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 process.setMaxListeners(Infinity);
 
 const ND_YEARS = _.range(1887, 2018).filter((year) => !_.includes([1890, 1891], year));
@@ -112,13 +114,13 @@ const scrapeNotreDameSchedule = async () => {
   });
 
   try {
-    Logger.info('Scraping Notre Dame schedule');
+    logger.info('Scraping Notre Dame schedule');
 
     const ndSchedule = await scrapeNotreDameSchedule();
 
     await browser.close();
 
-    Logger.success('Successfully scraped Notre Dame schedule');
+    logger.success('Successfully scraped Notre Dame schedule');
 
     ND_YEARS.forEach((year) => {
       if (year in ndSchedule) {
@@ -128,11 +130,11 @@ const scrapeNotreDameSchedule = async () => {
 
         games.forEach((game, i) => {
           if (game.isHomeGame !== ndSchedule[year][i].isHomeGame) {
-            Logger.error('HOME / AWAY MISMATCH', {year, opponentId: game.opponentId, index: i});
+            logger.error('HOME / AWAY MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
           if (game.result !== ndSchedule[year][i].result) {
-            Logger.error('RESULT MISMATCH', {year, opponentId: game.opponentId, index: i});
+            logger.error('RESULT MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
           if (
@@ -141,7 +143,7 @@ const scrapeNotreDameSchedule = async () => {
             (game.score.away !== ndSchedule[year][i].score.home &&
               game.score.away !== ndSchedule[year][i].score.away)
           ) {
-            Logger.error('SCORE MISMATCH', {
+            logger.error('SCORE MISMATCH', {
               year,
               opponentId: game.opponentId,
               index: i,
@@ -153,8 +155,8 @@ const scrapeNotreDameSchedule = async () => {
       }
     });
 
-    Logger.success('Scraped Notre Dame schedule!');
+    logger.success('Scraped Notre Dame schedule!');
   } catch (error) {
-    Logger.error('Failed to scraped Notre Dame schedule', {error});
+    logger.error('Failed to scraped Notre Dame schedule', {error});
   }
 })();

@@ -4,12 +4,14 @@ import {Logger} from '../../../lib/logger';
 import teamSchedules from '../../../lib/teamSchedules';
 import undefeatedTeamNamesMap from './undefeatedTeamNamesMap.json';
 
+const logger = new Logger({isSentryEnabled: false});
+
 let totalUndefeatedTeamsCount = 0;
 const undefeatedTeamsPerSeason = {};
 const undefeatedSeasonsPerTeam = {};
 const undefeatedTeamCountsPerSeason = {};
 
-Logger.info('Analyzing undefeated seasons...');
+logger.info('Analyzing undefeated seasons...');
 
 let earliestSeason = 2000;
 
@@ -34,24 +36,24 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
   });
 });
 
-Logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
-Logger.newline(2);
+logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
+logger.newline(2);
 
-Logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
-
-_.range(1869, 2018).forEach((season) => {
-  Logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
-});
-
-Logger.newline(2);
-Logger.info('UNDEFEATED TEAMS PER SEASON:');
+logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
 
 _.range(1869, 2018).forEach((season) => {
-  Logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
+  logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
 });
 
-Logger.newline(2);
-Logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
+logger.newline(2);
+logger.info('UNDEFEATED TEAMS PER SEASON:');
+
+_.range(1869, 2018).forEach((season) => {
+  logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
+});
+
+logger.newline(2);
+logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
 
 const sortedUndefeatedSeasonsPerTeam = _.chain(undefeatedSeasonsPerTeam)
   .mapValues((count, teamName) => ({
@@ -61,9 +63,9 @@ const sortedUndefeatedSeasonsPerTeam = _.chain(undefeatedSeasonsPerTeam)
   .sortBy(({count}) => -count)
   .value();
 _.forEach(sortedUndefeatedSeasonsPerTeam, ({count, teamName}) => {
-  Logger.info(teamName, count);
+  logger.info(teamName, count);
 });
 
-Logger.info(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
+logger.info(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
 
-Logger.success('Successfully analyzed undefeated seasons!');
+logger.success('Successfully analyzed undefeated seasons!');

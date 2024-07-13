@@ -9,6 +9,8 @@ import {Logger} from '../../../lib/logger';
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
+const logger = new Logger({isSentryEnabled: false});
+
 let gamesPlayedCount = 0;
 const scorigamiMatrix = [];
 
@@ -26,10 +28,10 @@ ALL_SEASONS.forEach((season) => {
   });
 });
 
-Logger.log('Games played count:', gamesPlayedCount);
+logger.log('Games played count:', gamesPlayedCount);
 
-Logger.log('\nScorigami matrix:');
-Logger.log(JSON.stringify(scorigamiMatrix));
+logger.log('\nScorigami matrix:');
+logger.log(JSON.stringify(scorigamiMatrix));
 
 fs.writeFileSync(
   `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,

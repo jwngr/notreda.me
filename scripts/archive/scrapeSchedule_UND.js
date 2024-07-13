@@ -8,8 +8,10 @@ import RSVP from 'rsvp';
 import {Logger} from '../../lib/logger';
 import teamMappings from './teamMappings.json';
 
+const logger = new Logger({isSentryEnabled: false});
+
 if (process.argv.length !== 3) {
-  Logger.error('USAGE: node scrapeSchedule.js <output_file>');
+  logger.error('USAGE: node scrapeSchedule.js <output_file>');
   process.exit(1);
 }
 
@@ -17,7 +19,7 @@ if (process.argv.length !== 3) {
  * Fetches the raw HTML schedule data for a given year.
  *
  * @param  {number} year The year whose schedule to fetch.
- * @return {Promise<Cheerio>} A Cheerio object containing the HTML schedule data.
+ * @return {Promise<cheerio.Root>} The HTML schedule data.
  */
 const getHtmlScheduleDataForYear = (year) => {
   return request({
@@ -149,15 +151,15 @@ _.forEach(years, (year) => {
       });
     })
     .catch(function (error) {
-      Logger.error(`Error scraping ${year} schedule:`, {error});
+      logger.error(`Error scraping ${year} schedule:`, {error});
     });
 });
 
 RSVP.hash(promises)
   .then(function (result) {
     fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
-    Logger.success(`Schedule written to ${process.argv[2]}!`);
+    logger.success(`Schedule written to ${process.argv[2]}!`);
   })
   .catch(function (error) {
-    Logger.fail('Failed to scrape schedule for all years:', {error});
+    logger.fail('Failed to scrape schedule for all years:', {error});
   });

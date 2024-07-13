@@ -4,6 +4,8 @@ import request from 'request-promise';
 
 import {Logger} from '../../../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const BK_ERA_YEARS = _.range(2010, 2019);
 
 const getHtmlForUrl = (url) => {
@@ -126,16 +128,16 @@ Promise.all(BK_ERA_YEARS.map((year) => fetchTop25TeamEspnIds(year)))
 
     const top25CloseGameData = {};
     for (const teamName of Object.keys(top25TeamIds)) {
-      Logger.info(`Fetching one possession game data for ${teamName}.`);
+      logger.info(`Fetching one possession game data for ${teamName}.`);
       top25CloseGameData[teamName] = await fetchOnePossessionGameDataDuringBrianKellyEra(
         top25TeamIds[teamName]
       );
     }
 
-    Logger.info('RESULTS:', {top25CloseGameData});
+    logger.info('RESULTS:', {top25CloseGameData});
 
-    Logger.success('Success!');
+    logger.success('Success!');
   })
   .catch((error) => {
-    Logger.error('Error fetching top 25 teams:', {error});
+    logger.error('Error fetching top 25 teams:', {error});
   });

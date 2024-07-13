@@ -7,6 +7,8 @@ import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 process.setMaxListeners(Infinity);
 
 let browser;
@@ -24,7 +26,7 @@ const scrapeTeamUrls = async () => {
 
   const url = `http://www.jhowell.net/cf/scores/byName.htm`;
 
-  Logger.info(`Scraping team URLs...`);
+  logger.info(`Scraping team URLs...`);
 
   await page.goto(url, {
     waitUntil: 'networkidle2',
@@ -47,7 +49,7 @@ const scrapeTeamUrls = async () => {
 const scrapeTeamScores = async (teamName, teamUrl) => {
   const page = await browser.newPage();
 
-  Logger.info(`Scraping historical scores for ${teamName}...`);
+  logger.info(`Scraping historical scores for ${teamName}...`);
 
   await page.goto(teamUrl, {
     waitUntil: 'networkidle2',
@@ -158,9 +160,9 @@ const fn = async () => {
       fs.writeFileSync(filename, JSON.stringify(games, null, 2));
     }
 
-    Logger.success('Successfully scraped team records!');
+    logger.success('Successfully scraped team records!');
   } catch (error) {
-    Logger.error('Failed to scrape team records.', {error});
+    logger.error('Failed to scrape team records.', {error});
   } finally {
     browser.close();
   }

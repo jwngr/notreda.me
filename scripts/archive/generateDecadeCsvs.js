@@ -8,6 +8,8 @@ import {getForSeason} from '../../website/src/resources/schedules';
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
 const DECADES = [
@@ -48,7 +50,7 @@ const stats = [
   {name: 'possession', text: 'Possession'},
 ];
 
-Logger.info('Generating CSVs...');
+logger.info('Generating CSVs...');
 
 DECADES.forEach((seasons) => {
   const firstYear = seasons[0];
@@ -90,4 +92,4 @@ DECADES.forEach((seasons) => {
   fs.writeFileSync(outputFilename, lines.join('\n'));
 });
 
-Logger.success('CSVs generated!');
+logger.success('CSVs generated!');
