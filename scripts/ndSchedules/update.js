@@ -56,25 +56,25 @@ const updateNdSchedule = async () => {
   );
 
   espnGameStats.forEach((gameStats, i) => {
-    if (typeof gameStats !== 'undefined') {
-      if (!('result' in currentSeasonSchedule[i])) {
-        // If this is the initial stats dump for a game which just ended, log a message to Sentry to
-        // manually add a highlights video for the game.
-        logger.warning(
-          `Add highlights video for ${SEASON} game versus ${currentSeasonSchedule[i].opponentId}`
-        );
+    if (!gameStats) return;
 
-        // Also add the ND head coach as a top-level key to the game data.
-        currentSeasonSchedule[i].headCoach = ND_HEAD_COACH;
-      }
+    if (!('result' in currentSeasonSchedule[i])) {
+      // If this is the initial stats dump for a game which just ended, log a message to Sentry to
+      // manually add a highlights video for the game.
+      logger.warning(
+        `Add highlights video for ${SEASON} game versus ${currentSeasonSchedule[i].opponentId}`
+      );
 
-      const homeTeamWon = gameStats.score.home > gameStats.score.away;
-      currentSeasonSchedule[i] = {
-        ...currentSeasonSchedule[i],
-        ...gameStats,
-        result: currentSeasonSchedule[i].isHomeGame === homeTeamWon ? 'W' : 'L',
-      };
+      // Also add the ND head coach as a top-level key to the game data.
+      currentSeasonSchedule[i].headCoach = ND_HEAD_COACH;
     }
+
+    const homeTeamWon = gameStats.score.home > gameStats.score.away;
+    currentSeasonSchedule[i] = {
+      ...currentSeasonSchedule[i],
+      ...gameStats,
+      result: currentSeasonSchedule[i].isHomeGame === homeTeamWon ? 'W' : 'L',
+    };
   });
 
   logger.info(`Auditing current season kickoff times...`);

@@ -8,7 +8,7 @@ interface LoggerConfig {
 export class Logger {
   constructor(private readonly isSentryEnabled: LoggerConfig) {}
 
-  private logInternal(message: string, data: object | undefined, color: Chalk): void {
+  private logInternal(message: string, data?: object | undefined, color: Chalk = bold.black): void {
     if (typeof data === 'undefined') {
       // eslint-disable-next-line no-console
       console.log(color(message));
@@ -31,25 +31,25 @@ export class Logger {
     console.log(...args);
   }
 
-  public info(message: string, data: object): void {
+  public info(message: string, data?: object): void {
     this.logInternal(`[INFO] ${message}`, data, bold.black);
   }
 
-  public warning(message: string, data: object): void {
+  public warning(message: string, data?: object): void {
     this.logInternal(`[WARNING] ${message}`, data, bold.yellow);
     this.logToSentry(message, Severity.Warning);
   }
 
-  public error(message: string, data: object): void {
+  public error(message: string, data?: object): void {
     this.logInternal(`[ERROR] ${message}`, data, bold.red);
     this.logToSentry(message, Severity.Error);
   }
 
-  public success(message: string, data: object): void {
+  public success(message: string, data?: object): void {
     this.logInternal(`[SUCCESS] ${message}`, data, bold.green);
   }
 
-  public fail(message: string, data: object): void {
+  public fail(message: string, data?: object): void {
     this.logInternal(`[FAIL] ${message}`, data, bold.red);
     this.logToSentry(message, Severity.Error);
   }

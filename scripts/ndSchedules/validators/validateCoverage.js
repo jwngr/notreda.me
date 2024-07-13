@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 import {CURRENT_SEASON} from '../../lib/constants';
 
 const EXPECTED_TV_CHANNELS = [
@@ -34,7 +32,7 @@ export function validateCoverage({season, coverage}, assert) {
   if (season === CURRENT_SEASON) {
     // Current season game.
     wrappedAssert(
-      coverage === 'TBD' || _.includes(EXPECTED_TV_CHANNELS, coverage),
+      coverage === 'TBD' || EXPECTED_TV_CHANNELS.includes(coverage),
       'Current season game has unexpected coverage value.'
     );
   } else if (season < CURRENT_SEASON) {
@@ -42,13 +40,13 @@ export function validateCoverage({season, coverage}, assert) {
     wrappedAssert(
       typeof coverage === 'undefined' ||
         coverage === 'TBD' ||
-        _.includes(EXPECTED_TV_CHANNELS, coverage),
+        EXPECTED_TV_CHANNELS.includes(coverage),
       'Previous season game has unexpected coverage value.'
     );
   } else {
     // Future season game.
     wrappedAssert(
-      typeof coverage === 'undefined' || _.includes(EXPECTED_TV_CHANNELS, coverage),
+      typeof coverage === 'undefined' || EXPECTED_TV_CHANNELS.includes(coverage),
       'Future season game has unexpected coverage value.'
     );
   }

@@ -1,7 +1,7 @@
 import path from 'path';
 
 import format from 'date-fns/format';
-import _ from 'lodash';
+import range from 'lodash/range';
 import puppeteer from 'puppeteer';
 
 import {Logger} from '../lib/logger';
@@ -10,7 +10,7 @@ const logger = new Logger({isSentryEnabled: false});
 
 process.setMaxListeners(Infinity);
 
-const ND_YEARS = _.range(1887, 2018).filter((year) => !_.includes([1890, 1891], year));
+const ND_YEARS = range(1887, 2018).filter((year) => ![1890, 1891].includes(year));
 const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
 
 let browser;

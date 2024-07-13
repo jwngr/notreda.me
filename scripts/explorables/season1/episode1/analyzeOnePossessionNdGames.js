@@ -1,8 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 
-import _ from 'lodash';
-
 import {Logger} from '../../../lib/logger';
 
 const logger = new Logger({isSentryEnabled: false});
@@ -45,7 +43,7 @@ dataFilenames.forEach((dataFilename) => {
     };
 
     yearData.forEach((gameData) => {
-      if (!_.includes(coachOrder, gameData.headCoach)) {
+      if (!coachOrder.includes(gameData.headCoach)) {
         coachOrder.push(gameData.headCoach);
       }
 
@@ -116,7 +114,7 @@ dataFilenames.forEach((dataFilename) => {
 logger.info(coaches);
 logger.info('\n\nCOACHES');
 
-_.forEach(coachOrder, (coach) => {
+coachOrder.forEach((coach) => {
   const coachData = coaches[coach];
 
   logger.info(

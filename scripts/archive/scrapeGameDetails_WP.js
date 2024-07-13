@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import cheerio from 'cheerio';
-import _ from 'lodash';
+import range from 'lodash/range';
 import request from 'request-promise';
 
 import {Logger} from '../lib/logger';
@@ -55,7 +55,7 @@ const fetchGameDetailsForYear = (year) => {
               let rowCellText = $(elem).text().trim();
 
               // Fix formatting issue in 1961 site data.
-              if (j === headerNames.indexOf('Site') && !_.includes(rowCellText, ' • ')) {
+              if (j === headerNames.indexOf('Site') && !rowCellText.includes(' • ')) {
                 let lastCharWasLowercase = false;
                 rowCellText.split('').forEach((char, k) => {
                   if (char >= 'A' && char <= 'Z' && lastCharWasLowercase) {
@@ -67,7 +67,7 @@ const fetchGameDetailsForYear = (year) => {
               }
 
               if (j === headerNames.indexOf('Site')) {
-                if (!_.includes(rowCellText, ' • ')) {
+                if (!rowCellText.includes(' • ')) {
                   rowCellText = ` • ${rowCellText}`;
                 }
               }
@@ -99,7 +99,7 @@ const fetchGameDetailsForYear = (year) => {
             }
             if (opponentIndex !== -1) {
               const opponent = rowCellValues[opponentIndex];
-              const isHomeGame = !_.startsWith(opponent, 'at');
+              const isHomeGame = !opponent.startsWith('at');
               if (gamesData[i - 1].isHomeGame !== isHomeGame) {
                 // logger.info('HOME / AWAY MISMATCH:', year, i - 1, opponent);
               }
@@ -121,7 +121,7 @@ const fetchGameDetailsForYear = (year) => {
               let city;
               let state;
               let stateAndParens;
-              if (_.includes(location, ',')) {
+              if (location.includes(',')) {
                 [city, stateAndParens] = location.split(', ');
                 state = stateAndParens.split(' (')[0];
               } else {
@@ -173,6 +173,6 @@ const fetchGameDetailsForYear = (year) => {
     });
 };
 
-_.range(1900, 2017).forEach((year) => {
+range(1900, 2017).forEach((year) => {
   fetchGameDetailsForYear(year);
 });

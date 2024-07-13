@@ -14,3 +14,7 @@ export interface FutureGameInfo {
   readonly opponentName: string;
   readonly location?: string;
 }
+
+export type Writable<T> = {
+  -readonly [P in keyof T]: T[P];
+};

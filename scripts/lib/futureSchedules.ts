@@ -33,7 +33,7 @@ export const fetchFutureNdSchedules = async (): Promise<
 
     const schedules: Record<string, FutureGameInfo[]> = {};
 
-    $('.col-sm-6.schedu-list').each((seasonIndex, futureSeasonScheduleCol) => {
+    $('.col-sm-6.schedu-list').each((_, futureSeasonScheduleCol) => {
       const season = $(futureSeasonScheduleCol).find('.team-hd').text().trim();
 
       // Ignore columns under the "FUTURE NOTRE DAME FOOTBALL SCHEDULES" section which do not

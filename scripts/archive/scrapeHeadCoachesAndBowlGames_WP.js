@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 
 import cheerio from 'cheerio';
-import _ from 'lodash';
 import request from 'request-promise';
 
 import {Logger} from '../lib/logger';
@@ -61,7 +60,7 @@ getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_f
           let bowlGame = rowCellValues[5];
           if (bowlGame) {
             bowlGame = bowlGame.slice(2).replace('†', '');
-            if (!_.includes(bowlGame, ' ') || bowlGame === 'Champs Sports') {
+            if (!bowlGame.includes(' ') || bowlGame === 'Champs Sports') {
               bowlGame += ' Bowl';
             }
             gamesData[gamesData.length - 1].isBowlGame = true;

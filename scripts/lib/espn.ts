@@ -1,7 +1,7 @@
-import cheerio from 'cheerio';
-import _ from 'lodash';
+import range from 'lodash/range';
 
-import {TeamId} from '../../website/src/models';
+import {GameLinescore, GameScore, TeamId} from '../../website/src/models';
+import {Writable} from '../models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
@@ -22,15 +22,59 @@ enum PollType {
 
 interface WeeklyPollRankings {
   readonly date: string;
-  readonly teams: Record<string, EspnTeamData>;
+  readonly teams: Record<string, TeamData>;
 }
 
-interface EspnTeamData {
+interface TeamData {
   readonly record: string;
   readonly ranking: number;
   readonly previousRanking: number | 'NR';
   readonly points?: number;
 }
+
+interface TeamStats {
+  readonly firstDowns: number;
+  readonly thirdDownAttempts: number;
+  readonly thirdDownConversions: number;
+  readonly fourthDownAttempts: number;
+  readonly fourthDownConversions: number;
+  readonly totalYards: number;
+  readonly passYards: number;
+  readonly passCompletions: number;
+  readonly passAttempts: number;
+  readonly yardsPerPass: number;
+  readonly interceptionsThrown: number;
+  readonly rushYards: number;
+  readonly rushAttempts: number;
+  readonly yardsPerRush: number;
+  readonly penalties: number;
+  readonly penaltyYards: number;
+  readonly fumbles: number;
+  readonly fumblesLost: number;
+  readonly possession: string;
+}
+
+const DEFAULT_TEAM_STATS: TeamStats = {
+  firstDowns: 0,
+  thirdDownAttempts: 0,
+  thirdDownConversions: 0,
+  fourthDownAttempts: 0,
+  fourthDownConversions: 0,
+  totalYards: 0,
+  passYards: 0,
+  passCompletions: 0,
+  passAttempts: 0,
+  yardsPerPass: 0,
+  interceptionsThrown: 0,
+  rushYards: 0,
+  rushAttempts: 0,
+  yardsPerRush: 0,
+  penalties: 0,
+  penaltyYards: 0,
+  fumbles: 0,
+  fumblesLost: 0,
+  possession: '',
+};
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -67,8 +111,8 @@ const _getEspnRankingsUrl = (season: number, weekIndex: number): string => {
   return `https://www.espn.com/college-football/rankings/_/week/${weekIndex}/year/${season}/seasontype/2`;
 };
 
-const _getEspnTeamScheduleUrl = (season: number, teamId: TeamId): string => {
-  return `http://www.espn.com/college-football/team/schedule/_/id/${teamId}/season/${season}`;
+const _getEspnTeamScheduleUrl = (season: number, espnTeamId: number): string => {
+  return `http://www.espn.com/college-football/team/schedule/_/id/${espnTeamId}/season/${season}`;
 };
 
 const _normalizeTeamName = (teamName: string): string => {
@@ -85,27 +129,27 @@ const _getPollRankingsForWeek = (
     [PollType.CFP]: null,
   };
 
-  $('.InnerLayout__child.mb2').each((i, poll) => {
+  $('.InnerLayout__child.mb2').each((_, poll) => {
     const pollTitle = $(poll).find('.Table__Title').text().trim();
 
     let pollType: PollType;
-    if (_.includes(pollTitle, 'AP')) {
+    if (pollTitle.includes('AP')) {
       pollType = PollType.AP;
-    } else if (_.includes(pollTitle, 'Coaches')) {
+    } else if (pollTitle.includes('Coaches')) {
       pollType = PollType.COACHES;
-    } else if (_.includes(pollTitle, 'College Football Playoff ')) {
+    } else if (pollTitle.includes('College Football Playoff ')) {
       pollType = PollType.CFP;
     } else {
       throw new Error(`Unexpected poll title: "${pollTitle}"`);
     }
 
-    const teamsData: Record<string, EspnTeamData> = {};
+    const teamsData: Record<string, TeamData> = {};
     const $pollRows = $(poll).find('tr');
     let previousTeamCurrentWeekRanking: number | null = null;
-    $pollRows.each((j, pollRow) => {
+    $pollRows.each((_, pollRow) => {
       const $rowCells = $(pollRow).find('td');
       if ($rowCells.length !== 0) {
-        const rowCellValues = _.map($rowCells, (rowCell) => $(rowCell).text().trim());
+        const rowCellValues = $rowCells.map((rowCell) => $(rowCell).text().trim());
 
         const currentWeekRanking = Number(rowCellValues[0]) || previousTeamCurrentWeekRanking;
 
@@ -115,23 +159,28 @@ const _getPollRankingsForWeek = (
 
         previousTeamCurrentWeekRanking = currentWeekRanking;
         const teamName = _normalizeTeamName($($rowCells[1]).find('.pl3').text().trim());
-        const record = rowCellValues[2];
-        const points = Number(rowCellValues[3]);
+        const record = rowCellValues[2].data;
+        const points = Number(rowCellValues[3].data);
 
         const trend = rowCellValues[4];
         let previousWeekRanking: number | 'NR';
-        if (trend === 'NR') {
+        if (trend.data === 'NR') {
           previousWeekRanking = 'NR';
-        } else if (trend === '-') {
+        } else if (trend.data === '-') {
           previousWeekRanking = currentWeekRanking;
         } else {
           const trendElementClasses = $($rowCells[4]).find('.trend').attr('class');
-          previousWeekRanking = trendElementClasses.includes('positive')
+          previousWeekRanking = trendElementClasses?.includes('positive')
             ? currentWeekRanking + Number(trend)
             : currentWeekRanking - Number(trend);
         }
 
-        const teamData: EspnTeamData = {
+        if (!record) {
+          logger.error('No record found', {rowCellValues});
+          return;
+        }
+
+        const teamData: TeamData = {
           record,
           ranking: currentWeekRanking,
           previousRanking: previousWeekRanking,
@@ -187,9 +236,14 @@ export const fetchGameIdsForSeason = async (season: number): Promise<number[]> =
 /**
  * Returns a list of game stats and line scores from ESPN for the provided game.
  */
+
 export const fetchStatsForGame = async (
   gameId: number
-): Promise<{readonly away: any; readonly home: any}> => {
+): Promise<{
+  readonly stats: {readonly away: TeamStats; readonly home: TeamStats};
+  readonly score: GameScore;
+  readonly linescore: GameLinescore;
+} | null> => {
   const [$matchup, $boxscore] = await Promise.all([
     Scraper.get(`http://www.espn.com/college-football/matchup?gameId=${gameId}`),
     Scraper.get(`http://www.espn.com/college-football/boxscore?gameId=${gameId}`),
@@ -198,18 +252,16 @@ export const fetchStatsForGame = async (
   // If the game is not over, return early with no data.
   const gameStatus = $matchup('.status-detail').text().trim();
   if (!gameStatus.startsWith('Final')) {
-    return;
+    return null;
   }
 
   const $statsTable = $matchup('.team-stats-list');
 
   // Loop through each row in the stats table
-  const stats = {
-    away: {},
-    home: {},
-  };
+  const awayStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
+  const homeStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
 
-  $statsTable.find('tr').each((i, row) => {
+  $statsTable.find('tr').each((_, row) => {
     const rowCells = $matchup(row).children('td');
     if (rowCells.length !== 0) {
       const statName = $matchup(rowCells[0]).text().trim();
@@ -218,77 +270,81 @@ export const fetchStatsForGame = async (
 
       switch (statName) {
         case '1st Downs':
-          stats.away['firstDowns'] = Number(awayValue);
-          stats.home['firstDowns'] = Number(homeValue);
+          awayStats.firstDowns = Number(awayValue);
+          homeStats.firstDowns = Number(homeValue);
           break;
         case '3rd down efficiency':
-          stats.away['thirdDownAttempts'] = Number(awayValue.split('-')[1]);
-          stats.home['thirdDownAttempts'] = Number(homeValue.split('-')[1]);
-          stats.away['thirdDownConversions'] = Number(awayValue.split('-')[0]);
-          stats.home['thirdDownConversions'] = Number(homeValue.split('-')[0]);
+          awayStats.thirdDownAttempts = Number(awayValue.split('-')[1]);
+          homeStats.thirdDownAttempts = Number(homeValue.split('-')[1]);
+          awayStats.thirdDownConversions = Number(awayValue.split('-')[0]);
+          homeStats.thirdDownConversions = Number(homeValue.split('-')[0]);
           break;
         case '4th down efficiency':
-          stats.away['fourthDownAttempts'] = Number(awayValue.split('-')[1]);
-          stats.home['fourthDownAttempts'] = Number(homeValue.split('-')[1]);
-          stats.away['fourthDownConversions'] = Number(awayValue.split('-')[0]);
-          stats.home['fourthDownConversions'] = Number(homeValue.split('-')[0]);
+          awayStats.fourthDownAttempts = Number(awayValue.split('-')[1]);
+          homeStats.fourthDownAttempts = Number(homeValue.split('-')[1]);
+          awayStats.fourthDownConversions = Number(awayValue.split('-')[0]);
+          homeStats.fourthDownConversions = Number(homeValue.split('-')[0]);
           break;
         case 'Total Yards':
-          stats.away['totalYards'] = Number(awayValue);
-          stats.home['totalYards'] = Number(homeValue);
+          awayStats.totalYards = Number(awayValue);
+          homeStats.totalYards = Number(homeValue);
           break;
         case 'Passing':
-          stats.away['passYards'] = Number(awayValue);
-          stats.home['passYards'] = Number(homeValue);
+          awayStats.passYards = Number(awayValue);
+          homeStats.passYards = Number(homeValue);
           break;
         case 'Comp-Att':
-          stats.away['passCompletions'] = Number(awayValue.split('-')[0]);
-          stats.home['passCompletions'] = Number(homeValue.split('-')[0]);
-          stats.away['passAttempts'] = Number(awayValue.split('-')[1]);
-          stats.home['passAttempts'] = Number(homeValue.split('-')[1]);
+          awayStats.passCompletions = Number(awayValue.split('-')[0]);
+          homeStats.passCompletions = Number(homeValue.split('-')[0]);
+          awayStats.passAttempts = Number(awayValue.split('-')[1]);
+          homeStats.passAttempts = Number(homeValue.split('-')[1]);
           break;
         case 'Yards per pass':
-          stats.away['yardsPerPass'] = Number(awayValue);
-          stats.home['yardsPerPass'] = Number(homeValue);
+          awayStats.yardsPerPass = Number(awayValue);
+          homeStats.yardsPerPass = Number(homeValue);
           break;
         case 'Interceptions thrown':
-          stats.away['interceptionsThrown'] = Number(awayValue);
-          stats.home['interceptionsThrown'] = Number(homeValue);
+          awayStats.interceptionsThrown = Number(awayValue);
+          homeStats.interceptionsThrown = Number(homeValue);
           break;
         case 'Rushing':
-          stats.away['rushYards'] = Number(awayValue);
-          stats.home['rushYards'] = Number(homeValue);
+          awayStats.rushYards = Number(awayValue);
+          homeStats.rushYards = Number(homeValue);
           break;
         case 'Rushing Attempts':
-          stats.away['rushAttempts'] = Number(awayValue);
-          stats.home['rushAttempts'] = Number(homeValue);
+          awayStats.rushAttempts = Number(awayValue);
+          homeStats.rushAttempts = Number(homeValue);
           break;
         case 'Yards per rush':
-          stats.away['yardsPerRush'] = Number(awayValue);
-          stats.home['yardsPerRush'] = Number(homeValue);
+          awayStats.yardsPerRush = Number(awayValue);
+          homeStats.yardsPerRush = Number(homeValue);
           break;
         case 'Penalties':
-          stats.away['penalties'] = Number(awayValue.split('-')[0]);
-          stats.home['penalties'] = Number(homeValue.split('-')[0]);
-          stats.away['penaltyYards'] = Number(awayValue.split('-')[1]);
-          stats.home['penaltyYards'] = Number(homeValue.split('-')[1]);
+          awayStats.penalties = Number(awayValue.split('-')[0]);
+          homeStats.penalties = Number(homeValue.split('-')[0]);
+          awayStats.penaltyYards = Number(awayValue.split('-')[1]);
+          homeStats.penaltyYards = Number(homeValue.split('-')[1]);
           break;
         case 'Fumbles lost':
-          stats.away['fumblesLost'] = Number(awayValue);
-          stats.home['fumblesLost'] = Number(homeValue);
+          awayStats.fumblesLost = Number(awayValue);
+          homeStats.fumblesLost = Number(homeValue);
           break;
         case 'Possession':
-          stats.away['possession'] = awayValue;
-          stats.home['possession'] = homeValue;
+          awayStats.possession = awayValue;
+          homeStats.possession = homeValue;
           break;
         case 'Turnovers':
-          // Ignore turnovers stat since it can be computed by adding interceptions and lost
-          // fumbles.
+          // Ignore turnovers stat since it can be computed (interceptions + lost fumbles).
           break;
         default:
           logger.error('Unexpected stat name.', {gameId, statName});
       }
     }
+
+    return {
+      away: awayStats,
+      home: homeStats,
+    };
   });
 
   // Fetch total fumbles (lost and recovered) from the boxscore page since the matchup page only
@@ -296,11 +352,11 @@ export const fetchStatsForGame = async (
   const $fumbleStatsContainer = $boxscore('#gamepackage-fumbles');
   $fumbleStatsContainer.find('.col').each((i, teamFumbleStatsContainer) => {
     const teamFumbleRows = $boxscore(teamFumbleStatsContainer).find('tr');
-    const teamFumbleTotalRow = _.last(teamFumbleRows);
+    const teamFumbleTotalRow = teamFumbleRows.last();
 
     const $teamFumbleTotalTd = $boxscore(teamFumbleTotalRow).find('.fum');
 
-    let teamFumblesCount;
+    let teamFumblesCount: number;
     if ($teamFumbleTotalTd.length === 0) {
       // There are no stats on fumbles for this team, meaning either (1) they did not have any
       // fumbles or fumble recoveries or (2) the fumble stats have not yet bet updated by ESPN
@@ -312,8 +368,11 @@ export const fetchStatsForGame = async (
       teamFumblesCount = Number($teamFumbleTotalTd.text().trim());
     }
 
-    const homeOrAway = i === 0 ? 'away' : 'home';
-    stats[homeOrAway].fumbles = teamFumblesCount;
+    if (i === 0) {
+      awayStats.fumbles = teamFumblesCount;
+    } else {
+      homeStats.fumbles = teamFumblesCount;
+    }
   });
 
   // It is difficult to completely differentiate the two cases above in which a team's fumble
@@ -323,40 +382,40 @@ export const fetchStatsForGame = async (
   // both zero, we know the data is just not available yet, so delete the fumble counts for now
   // which will hide it on the site itself.
   if (
-    stats.home.fumblesLost + stats.away.fumblesLost > 0 &&
-    stats.home.fumbles + stats.away.fumbles === 0
+    homeStats.fumblesLost + awayStats.fumblesLost > 0 &&
+    homeStats.fumbles + awayStats.fumbles === 0
   ) {
-    delete stats.home.fumbles;
-    delete stats.away.fumbles;
+    delete homeStats.fumbles;
+    delete awayStats.fumbles;
   }
 
   // Line score
-  const linescore = {
-    away: [],
-    home: [],
-  };
+  const linescore: GameLinescore = {away: [], home: []};
   $matchup('#linescore')
     .find('tbody')
     .find('tr')
-    .each((i, row) => {
-      const rowCells = $matchup(row).children('td');
+    .each((_, row) => {
+      const $rowCells = $matchup(row).children('td');
 
       const homeOrAway = linescore.away.length === 0 ? 'away' : 'home';
 
-      _.forEach(rowCells, (rowCell, index) => {
+      $rowCells.each((index, $rowCell) => {
         // Skip first (team abbreviation) and last (total score) cells
-        if (index > 0 && index !== rowCells.length - 1) {
-          const score = Number($matchup(rowCell).text().trim());
+        if (index > 0 && index !== $rowCells.length - 1) {
+          const score = Number($matchup($rowCell).text().trim());
           linescore[homeOrAway].push(score);
         }
       });
     });
 
   return {
-    stats,
+    stats: {
+      away: awayStats as TeamStats,
+      home: homeStats as TeamStats,
+    },
     score: {
-      home: _.reduce(linescore.home, (sum, n) => sum + n, 0),
-      away: _.reduce(linescore.away, (sum, n) => sum + n, 0),
+      home: linescore.home.reduce((sum, n) => sum + n, 0),
+      away: linescore.away.reduce((sum, n) => sum + n, 0),
     },
     linescore,
   };
@@ -371,6 +430,9 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
   teamId: TeamId
 ): Promise<Records> => {
   const {espnId} = Teams.getById(teamId);
+  if (!espnId) {
+    throw new Error('Team does not have an ESPN ID.');
+  }
   const $ = await Scraper.get(_getEspnTeamScheduleUrl(season, espnId));
 
   let wins = 0;
@@ -391,7 +453,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
 
     upcomingGameIsBowlGame =
       upcomingGameIsBowlGame ||
-      ($cols.length === 1 && _.includes($cols.eq(0).text().toLowerCase(), 'bowl'));
+      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
 
     if (!teamAlreadyFacedNotreDame && $cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
       const gameInfo = $cols.eq(1).text().trim();
@@ -402,7 +464,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
       if (upcomingGameIsBowlGame) {
         locationKey = 'neutral';
       } else {
-        locationKey = !_.includes(gameInfo, '@') ? 'home' : 'away';
+        locationKey = !gameInfo.includes('@') ? 'home' : 'away';
       }
 
       if (gameResult === 'W') {
@@ -425,7 +487,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
         }
       }
 
-      teamAlreadyFacedNotreDame = _.includes(gameInfo, 'Notre Dame');
+      teamAlreadyFacedNotreDame = gameInfo.includes('Notre Dame');
     }
   });
 
@@ -446,6 +508,9 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
   // TODO: Re-use fetchTeamRecordUpThroughNotreDameGameForSeason() instead of copying it.
 
   const {espnId} = Teams.getById(TeamId.ND);
+  if (!espnId) {
+    throw new Error('Notre Dame does not have an ESPN ID.');
+  }
   const $ = await Scraper.get(_getEspnTeamScheduleUrl(season, espnId));
 
   let wins = 0;
@@ -470,7 +535,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
       ($cols.length !== 5 && $cols.length !== 7);
     upcomingGameIsBowlGame =
       upcomingGameIsBowlGame ||
-      ($cols.length === 1 && _.includes($cols.eq(0).text().toLowerCase(), 'bowl'));
+      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
 
     if (!isIgnoredRow) {
       if ($cols.length === 7) {
@@ -482,7 +547,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
         if (upcomingGameIsBowlGame) {
           locationKey = 'neutral';
         } else {
-          locationKey = !_.includes(gameInfo, '@') ? 'home' : 'away';
+          locationKey = !gameInfo.includes('@') ? 'home' : 'away';
         }
 
         if (gameResult === 'W') {
@@ -529,9 +594,9 @@ export const fetchPollsForSeason = async (season: number): Promise<PollRankings>
 
   // Determine how many weeks of ranking have been released to date.
   let currentWeekIndex;
-  if (_.includes(headlineText, 'Preseason')) {
+  if (headlineText.includes('Preseason')) {
     currentWeekIndex = 0;
-  } else if (_.includes(headlineText, 'Week')) {
+  } else if (headlineText.includes('Week')) {
     currentWeekIndex = Number(headlineText.split('Week ')[1]) - 1;
   } else {
     currentWeekIndex = 15;
@@ -539,14 +604,14 @@ export const fetchPollsForSeason = async (season: number): Promise<PollRankings>
 
   // Fetch the HTML for all previous week rankings.
   const $priorWeeksRankings = await Promise.all(
-    _.range(1, currentWeekIndex + 1).map((i) => {
+    range(1, currentWeekIndex + 1).map((i) => {
       return Scraper.get(_getEspnRankingsUrl(season, i));
     })
   );
 
   // Scrape the actual rankings for each week using the HTML.
   const currentWeekRankings = _getPollRankingsForWeek($currentWeekRankings, currentWeekIndex);
-  const priorWeeksRankings = _.map($priorWeeksRankings, ($priorWeekRankings, i) =>
+  const priorWeeksRankings = $priorWeeksRankings.map(($priorWeekRankings, i) =>
     _getPollRankingsForWeek($priorWeekRankings, i)
   );
 
