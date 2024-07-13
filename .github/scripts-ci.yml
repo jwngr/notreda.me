@@ -1,7 +1,7 @@
 name: Run Scripts CI on PR
 on: [push]
 jobs:
-  frontend-ci:
+  scripts-ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
