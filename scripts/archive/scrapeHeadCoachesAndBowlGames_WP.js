@@ -49,6 +49,7 @@ getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_f
           const headCoach = rowCellValues[1];
 
           const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
           const gamesData = require(filename);
 
           gamesData.forEach((game) => {

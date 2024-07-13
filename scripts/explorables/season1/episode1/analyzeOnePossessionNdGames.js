@@ -27,6 +27,7 @@ dataFilenames.forEach((dataFilename) => {
   const year = dataFilename.split('.')[0];
 
   if (year <= 2018) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     const yearData = require(`${INPUT_DATA_DIRECTORY}/${dataFilename}`);
 
     games[year] = {

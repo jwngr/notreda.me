@@ -123,6 +123,7 @@ const scrapeNotreDameSchedule = async () => {
     ND_YEARS.forEach((year) => {
       if (year in ndSchedule) {
         const filename = `${SCHEDULE_DATA_DIRECTORY}/${year}.json`;
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
         const games = require(filename);
 
         games.forEach((game, i) => {

@@ -4,8 +4,7 @@ import _ from 'lodash';
 
 import {Logger} from '../../../lib/logger';
 import utils from '../../../lib/utils';
-
-const teamRecordsAndSalaryData = require('./data/teamRecordsAndSalaries.json');
+import teamRecordsAndSalaryData from './data/teamRecordsAndSalaries.json';
 
 const teamCostPerWinData = _.map(
   teamRecordsAndSalaryData,

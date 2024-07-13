@@ -66,6 +66,7 @@ Promise.all(promises)
   .then((results) => {
     _.forEach(results, (result, i) => {
       const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
       const yearData = require(filename);
       _.forEach(yearData, (gameData, j) => {
         if (result.gameIds) {

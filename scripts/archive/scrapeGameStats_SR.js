@@ -66,6 +66,7 @@ const scrapeGameStats = async (gameId) => {
 const fn = async () => {
   const year = CURRENT_SEASON;
   const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const yearData = require(filename);
 
   browser = await puppeteer.launch({

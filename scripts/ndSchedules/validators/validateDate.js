@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import pick from 'lodash/pick';
 
 export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
-    assert(statement, message, _.pick(currentGameData, ['date', 'time', 'fullDate']));
+    assert(statement, message, pick(currentGameData, ['date', 'time', 'fullDate']));
   };
 
   const currentGameDate =
