@@ -1,12 +1,12 @@
-const _ = require('lodash');
-const fs = require('fs');
+import fs from 'fs';
 
-const logger = require('../../../lib/logger');
-const scraper = require('../../../lib/scraper');
+import _ from 'lodash';
 
-const coachSalaries = require('./data/coachSalaries2018.json');
+import {Logger} from '../../../lib/logger';
+import scraper from '../../../lib/scraper';
+import coachSalaries from './data/coachSalaries2018.json';
 
-logger.info('Scraping records for current season...');
+Logger.info('Scraping records for current season...');
 
 const TEAM_NAMES_MAP = {
   'Miss State': 'Mississippi State',
@@ -61,7 +61,7 @@ const scrapTeamRecords = async () => {
     const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]);
 
     if (_.size(teamCoachSalaryData) === 0) {
-      logger.error('Team not found in coach salaries list.', {teamName});
+      Logger.error('Team not found in coach salaries list.', {teamName});
     }
 
     teamRecords[teamName] = {
@@ -74,12 +74,12 @@ const scrapTeamRecords = async () => {
   return teamRecords;
 };
 
-return scrapTeamRecords()
+scrapTeamRecords()
   .then((teamRecords) => {
     fs.writeFileSync('./data/teamRecordsAndSalaries.json', JSON.stringify(teamRecords, null, 2));
 
-    logger.success('Team records for current season fetched!');
+    Logger.success('Team records for current season fetched!');
   })
   .catch((error) => {
-    logger.success('Failed to fetch team records for current season!', {error});
+    Logger.success('Failed to fetch team records for current season!', {error});
   });

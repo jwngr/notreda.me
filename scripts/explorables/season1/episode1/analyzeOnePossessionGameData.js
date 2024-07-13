@@ -1,11 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const onePossessionGameData = require('./data/top25OnePossessionGames.json');
-const onePossessionNdCoachData = require('./data/ndCoachesOnePossessionGames.json');
-
-const padString = (str) => {
-  return str + Array(24 - str.length).join('-');
-};
+import {Logger} from '../../../lib/logger';
+import onePossessionNdCoachData from './data/ndCoachesOnePossessionGames.json';
+import onePossessionGameData from './data/top25OnePossessionGames.json';
 
 _.forEach(onePossessionGameData, (data, teamName) => {
   onePossessionGameData[teamName].teamName = teamName;
@@ -27,18 +24,17 @@ const teamsSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
   'percentageOfGamesWhichAreOnePossessionGames'
 );
 
-console.log('\n\n');
+Logger.newline(2);
 
 teamsSortedByPercentOfGamesWhichAreOnePossessionGames.forEach(
   ({teamName, top25Finishes, percentageOfGamesWhichAreOnePossessionGames}) => {
-    // console.log(padString(teamName), percentageOfGamesWhichAreOnePossessionGames);
-    console.log(
+    Logger.info(
       `["${teamName}", ${top25Finishes}, "", "${percentageOfGamesWhichAreOnePossessionGames}%"],`
     );
   }
 );
 
-console.log('\n\n');
+Logger.newline(2);
 
 const coachesSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
   onePossessionNdCoachData,
@@ -48,8 +44,7 @@ const coachesSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
 coachesSortedByPercentOfGamesWhichAreOnePossessionGames.forEach(
   ({name, totalGamesCount, percentageOfGamesWhichAreOnePossessionGames}) => {
     if (totalGamesCount > 10 && name !== 'No coach') {
-      // console.log(padString(name), percentageOfGamesWhichAreOnePossessionGames);
-      console.log(
+      Logger.info(
         `["${name}", ${totalGamesCount}, "${percentageOfGamesWhichAreOnePossessionGames}%"],`
       );
     }

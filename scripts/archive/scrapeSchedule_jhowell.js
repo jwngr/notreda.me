@@ -1,12 +1,10 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
-const format = require('date-fns/format');
-const puppeteer = require('puppeteer');
+import path from 'path';
 
-const red = chalk.bold.red;
-const green = chalk.bold.green;
+import format from 'date-fns/format';
+import _ from 'lodash';
+import puppeteer from 'puppeteer';
+
+import {Logger} from '../lib/logger';
 
 process.setMaxListeners(Infinity);
 
@@ -114,13 +112,13 @@ const scrapeNotreDameSchedule = async () => {
   });
 
   try {
-    console.log(`[INFO] Scraping Notre Dame schedule.`);
+    Logger.info('Scraping Notre Dame schedule');
 
     const ndSchedule = await scrapeNotreDameSchedule();
 
     await browser.close();
 
-    console.log(green(`[INFO] Successfully scraped Notre Dame schedule.`));
+    Logger.success('Successfully scraped Notre Dame schedule');
 
     ND_YEARS.forEach((year) => {
       if (year in ndSchedule) {
@@ -129,11 +127,11 @@ const scrapeNotreDameSchedule = async () => {
 
         games.forEach((game, i) => {
           if (game.isHomeGame !== ndSchedule[year][i].isHomeGame) {
-            console.log('HOME / AWAY MISMATCH:', year, game.opponentId, i);
+            Logger.error('HOME / AWAY MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
           if (game.result !== ndSchedule[year][i].result) {
-            console.log('RESULT MISMATCH:', year, game.opponentId, i);
+            Logger.error('RESULT MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
           if (
@@ -142,15 +140,20 @@ const scrapeNotreDameSchedule = async () => {
             (game.score.away !== ndSchedule[year][i].score.home &&
               game.score.away !== ndSchedule[year][i].score.away)
           ) {
-            console.log('SCORE MISMATCH:', year, game.opponentId, i);
-            console.log(game.score, ndSchedule[year][i].score);
+            Logger.error('SCORE MISMATCH', {
+              year,
+              opponentId: game.opponentId,
+              index: i,
+              gameScore: game.score,
+              ndScheduleScore: ndSchedule[year][i].score,
+            });
           }
         });
       }
     });
-  } catch (error) {
-    console.log(red(`[ERROR] Failed to scraped Notre Dame schedule:`, error));
-  }
 
-  console.log(green('[INFO] Success!'));
+    Logger.success('Scraped Notre Dame schedule!');
+  } catch (error) {
+    Logger.error('Failed to scraped Notre Dame schedule', {error});
+  }
 })();

@@ -132,9 +132,9 @@ export class WinPercentage extends Component {
     });
 
     //TODO figure out where the missing six wins are?
-    console.log('W:', winCount);
-    console.log('L:', lossCount);
-    console.log('T:', tieCount);
+    // console.log('W:', winCount);
+    // console.log('L:', lossCount);
+    // console.log('T:', tieCount);
 
     const teamSchedules = {
       MICH: michiganSchedule,

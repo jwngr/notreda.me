@@ -1,6 +1,9 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+
+import _ from 'lodash';
+
+import {Logger} from '../../../lib/logger';
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
@@ -18,7 +21,7 @@ const getPercentage = (top, bottom) => {
   return ((top * 100.0) / bottom).toFixed(1);
 };
 
-console.log('YEARS:');
+Logger.info('YEARS:');
 
 dataFilenames.forEach((dataFilename) => {
   const year = dataFilename.split('.')[0];
@@ -93,8 +96,9 @@ dataFilenames.forEach((dataFilename) => {
       }
     });
 
-    console.log('\n', year);
-    console.log({
+    Logger.newline();
+    Logger.info(year);
+    Logger.info({
       ...games[year],
       record: `${games[year].onePossesssionWinsCount}-${games[year].onePossesssionLossesCount}-${games[year].onePossesssionTiesCount}`,
       overallWinPercentage:
@@ -106,13 +110,13 @@ dataFilenames.forEach((dataFilename) => {
   }
 });
 
-console.log(coaches);
+Logger.info(coaches);
+Logger.info('\n\nCOACHES');
 
-console.log('\n\nCOACHES');
 _.forEach(coachOrder, (coach) => {
   const coachData = coaches[coach];
 
-  console.log(
+  Logger.info(
     coach,
     coachData.onePossesssionGamesCount,
     `${coachData.onePossesssionWinsCount}-${coachData.onePossesssionLossesCount}-${coachData.onePossesssionTiesCount}`,

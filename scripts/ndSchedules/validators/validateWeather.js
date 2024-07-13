@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber} = require('../../lib/utils');
+import {isNumber} from '../../lib/utils';
 
-EXPECTED_WEATHER_ICONS = [
+const EXPECTED_WEATHER_ICONS = [
   'clear-day',
   'clear-night',
   'cloudy',
@@ -14,7 +14,7 @@ EXPECTED_WEATHER_ICONS = [
   'unknown',
 ];
 
-module.exports = ({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAssert) => {
+export function validateWeather({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAssert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
   };
@@ -54,4 +54,4 @@ module.exports = ({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAsse
     // Future game (excluding the next unplayed game).
     wrappedAssert(typeof weather === 'undefined', 'Future game unexpectedly has weather object.');
   }
-};
+}

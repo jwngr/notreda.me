@@ -1,8 +1,11 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import fs from 'fs';
+import path from 'path';
+
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
+
+import {Logger} from '../lib/logger';
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
@@ -16,7 +19,7 @@ const getHtmlForUrl = (url) => {
 };
 
 const fetchGameDetailsForYear = (year) => {
-  console.log(`[INFO] Fetching year ${year}.`);
+  Logger.info(`Fetching year ${year}.`);
 
   return getHtmlForUrl(
     `https://en.wikipedia.org/wiki/${year}_Notre_Dame_Fighting_Irish_football_team`
@@ -95,7 +98,7 @@ const fetchGameDetailsForYear = (year) => {
               const opponent = rowCellValues[opponentIndex];
               const isHomeGame = !_.startsWith(opponent, 'at');
               if (gamesData[i - 1].isHomeGame !== isHomeGame) {
-                // console.log('HOME / AWAY MISMATCH:', year, i - 1, opponent);
+                // Logger.info('HOME / AWAY MISMATCH:', year, i - 1, opponent);
               }
             }
 
@@ -104,7 +107,7 @@ const fetchGameDetailsForYear = (year) => {
             if (resultIndex !== -1) {
               const result = rowCellValues[resultIndex][0];
               if (gamesData[i - 1].result !== result) {
-                // console.log('RESULT MISMATCH:', year, i - 1);
+                // Logger.info('RESULT MISMATCH:', year, i - 1);
               }
             }
 
@@ -148,8 +151,7 @@ const fetchGameDetailsForYear = (year) => {
               }
             }
           } catch (error) {
-            console.log(`[ERROR] Failed to parse schedule for ${year}:`, error);
-            console.log('CURRENT ROW CELL VALUES:', rowCellValues);
+            Logger.error(`Failed to parse schedule for ${year}:`, {error, rowCellValues});
             throw error;
           }
         }
@@ -157,14 +159,14 @@ const fetchGameDetailsForYear = (year) => {
 
       fs.writeFileSync(filename, JSON.stringify(gamesData, null, 2));
 
-      console.log(`Success ${year}!`);
+      Logger.info(`Success ${year}!`);
     })
     .catch((error) => {
       let errorMessage = error.message;
       if (error.statusCode === 404) {
         errorMessage = '404 page not found.';
       }
-      console.log(`[ERROR] Failed to fetch schedule for ${year}:`, errorMessage);
+      Logger.error(`Failed to fetch schedule for ${year}:`, {errorMessage});
     });
 };
 

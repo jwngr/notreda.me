@@ -1,11 +1,11 @@
-const logger = require('../lib/logger');
-const ndSchedules = require('../../website/src/resources/schedules');
- 
-logger.info('Fetching unique locations...');
+import {transformForAllSeasons} from '../../website/src/resources/schedules';
+import {Logger} from '../lib/logger';
+
+Logger.info('Fetching unique locations...');
 
 let gamesCount = 0;
 let locations = new Set();
-ndSchedules.transformForAllSeasons((gameData) => {
+transformForAllSeasons((gameData) => {
   gamesCount++;
 
   if (gameData.location === 'TBD') {
@@ -16,13 +16,12 @@ ndSchedules.transformForAllSeasons((gameData) => {
   locations.add(`${city}|||${state || country}|||${stadium || ''}`);
 });
 
-logger.info('GAMES COUNT:', gamesCount);
-logger.info('LOCATIONS COUNT:', locations.size);
+Logger.info('GAMES COUNT:', gamesCount);
+Logger.info('LOCATIONS COUNT:', locations.size);
 
 locations.forEach((location) => {
   const [city, stateOrCountry, stadium] = location.split('|||');
-  // eslint-disable-next-line no-console
-  console.log(`${city}\t${stateOrCountry}\t${stadium}`);
+  Logger.info(`${city}\t${stateOrCountry}\t${stadium}`);
 });
 
-logger.success('Unique locations fetched!');
+Logger.success('Unique locations fetched!');

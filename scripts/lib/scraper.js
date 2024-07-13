@@ -1,6 +1,6 @@
-const _ = require('lodash');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
 
 module.exports.get = async (url) => {
   return request({

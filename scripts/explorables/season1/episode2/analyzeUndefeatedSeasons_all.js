@@ -1,15 +1,15 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('../../../lib/logger');
-const teamSchedules = require('../../../lib/teamSchedules');
-const undefeatedTeamNamesMap = require('./undefeatedTeamNamesMap.json');
+import {Logger} from '../../../lib/logger';
+import teamSchedules from '../../../lib/teamSchedules';
+import undefeatedTeamNamesMap from './undefeatedTeamNamesMap.json';
 
 let totalUndefeatedTeamsCount = 0;
 const undefeatedTeamsPerSeason = {};
 const undefeatedSeasonsPerTeam = {};
 const undefeatedTeamCountsPerSeason = {};
 
-logger.info('Analyzing undefeated seasons...');
+Logger.info('Analyzing undefeated seasons...');
 
 let earliestSeason = 2000;
 
@@ -34,24 +34,24 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
   });
 });
 
-logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
-console.log('\n\n');
+Logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
+Logger.newline(2);
 
-logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
-
-_.range(1869, 2018).forEach((season) => {
-  logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
-});
-
-console.log('\n\n');
-logger.info('UNDEFEATED TEAMS PER SEASON:');
+Logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
 
 _.range(1869, 2018).forEach((season) => {
-  logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
+  Logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
 });
 
-console.log('\n\n');
-logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
+Logger.newline(2);
+Logger.info('UNDEFEATED TEAMS PER SEASON:');
+
+_.range(1869, 2018).forEach((season) => {
+  Logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
+});
+
+Logger.newline(2);
+Logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
 
 const sortedUndefeatedSeasonsPerTeam = _.chain(undefeatedSeasonsPerTeam)
   .mapValues((count, teamName) => ({
@@ -61,9 +61,9 @@ const sortedUndefeatedSeasonsPerTeam = _.chain(undefeatedSeasonsPerTeam)
   .sortBy(({count}) => -count)
   .value();
 _.forEach(sortedUndefeatedSeasonsPerTeam, ({count, teamName}) => {
-  logger.info(teamName, count);
+  Logger.info(teamName, count);
 });
 
-console.log(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
+Logger.info(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
 
-logger.success('Successfully analyzed undefeated seasons!');
+Logger.success('Successfully analyzed undefeated seasons!');

@@ -1,14 +1,16 @@
-const _ = require('lodash');
-const axios = require('axios');
+import axios from 'axios';
+import _ from 'lodash';
 
-const logger = require('./logger');
-const config = require('./loadConfig');
+import {getConfig} from './loadConfig';
+import {Logger} from './logger';
+
+const config = getConfig();
 
 const DARK_SKY_API_HOST = 'https://api.darksky.net';
 
 const DARK_SKY_API_KEY = _.get(config, 'darkSky.apiKey');
 if (typeof DARK_SKY_API_KEY === 'undefined') {
-  logger.error('Provided config file does not contain a Dark Sky API key.');
+  Logger.error('Provided config file does not contain a Dark Sky API key.');
   process.exit(-1);
 }
 
@@ -89,7 +91,7 @@ module.exports.fetchForGame = ([latitude, longitude], kickoffTimeInSeconds) => {
       }
 
       if (typeof warning !== 'undefined') {
-        logger.warning(warning, {latitude, longitude, kickoffTimeInSeconds});
+        Logger.warning(warning, {latitude, longitude, kickoffTimeInSeconds});
       }
 
       return weather;

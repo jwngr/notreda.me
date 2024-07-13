@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('../../../lib/logger');
-const ndSchedules = require('../../../../website/src/resources/schedules');
-const {ALL_SEASONS} = require('../../../lib/constants');
+import {getForSeason} from '../../../../website/src/resources/schedules';
+import {ALL_SEASONS} from '../../../lib/constants';
+import {Logger} from '../../../lib/logger';
 
 // TODO: Analyze record based on location of opponent's campus, not just where the game was played.
 
@@ -29,19 +29,19 @@ const _getRecord = (statsKey) => {
   return `${wins}-${losses}-${ties}`;
 };
 
-const _getWinPercentage = (statsKey) => {
-  const {wins, ties} = _.get(stats, statsKey);
+// const _getWinPercentage = (statsKey) => {
+//   const {wins, ties} = _.get(stats, statsKey);
 
-  const gamesPlayed = _getGamesPlayed(statsKey);
-  if (gamesPlayed === 0) {
-    return '0%';
-  }
+//   const gamesPlayed = _getGamesPlayed(statsKey);
+//   if (gamesPlayed === 0) {
+//     return '0%';
+//   }
 
-  // Ties count as half of a win.
-  const adjustedWins = wins + ties * 0.5;
+//   // Ties count as half of a win.
+//   const adjustedWins = wins + ties * 0.5;
 
-  return ((adjustedWins / gamesPlayed) * 100).toFixed(2) + '%';
-};
+//   return ((adjustedWins / gamesPlayed) * 100).toFixed(2) + '%';
+// };
 
 let stats = {
   state: {},
@@ -49,7 +49,7 @@ let stats = {
 };
 
 ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+  const seasonScheduleData = getForSeason(season);
   seasonScheduleData.forEach((gameData) => {
     if (gameData.location !== 'TBD') {
       const stateOrCountryKey =
@@ -72,7 +72,7 @@ ALL_SEASONS.forEach((season) => {
   });
 });
 
-logger.log(
+Logger.log(
   [
     'State',
     'Games Played',
@@ -84,7 +84,7 @@ logger.log(
 );
 
 _.forEach(stats.state, (stateStats, state) => {
-  logger.log(
+  Logger.log(
     [
       state,
       _getGamesPlayed(['state', state]),
@@ -96,9 +96,9 @@ _.forEach(stats.state, (stateStats, state) => {
   );
 });
 
-logger.newline();
+Logger.newline();
 
-logger.log(
+Logger.log(
   [
     'Country',
     'Games Played',
@@ -110,7 +110,7 @@ logger.log(
 );
 
 _.forEach(stats.country, (countryStats, country) => {
-  logger.log(
+  Logger.log(
     [
       country,
       _getGamesPlayed(['country', country]),

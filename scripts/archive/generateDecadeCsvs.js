@@ -1,11 +1,12 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const format = require('date-fns/format');
+import fs from 'fs';
+import path from 'path';
 
-const logger = require('../lib/logger');
-const ndSchedules = require('../../website/src/resources/schedules');
-const {CURRENT_SEASON} = require('../lib/constants');
+import format from 'date-fns/format';
+import _ from 'lodash';
+
+import {getForSeason} from '../../website/src/resources/schedules';
+import {CURRENT_SEASON} from '../lib/constants';
+import {Logger} from '../lib/logger';
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
@@ -47,7 +48,7 @@ const stats = [
   {name: 'possession', text: 'Possession'},
 ];
 
-logger.info('Generating CSVs...');
+Logger.info('Generating CSVs...');
 
 DECADES.forEach((seasons) => {
   const firstYear = seasons[0];
@@ -57,7 +58,7 @@ DECADES.forEach((seasons) => {
   const lines = [`Season,Date,Team,Linescore,${statNames},Stats Source URL`];
 
   seasons.forEach((season) => {
-    const seasonScheduleData = ndSchedules.getForSeason(season);
+    const seasonScheduleData = getForSeason(season);
 
     seasonScheduleData.forEach((game) => {
       let homeTeamAbbreviation = game.isHomeGame ? 'ND' : game.opponentId;
@@ -89,4 +90,4 @@ DECADES.forEach((seasons) => {
   fs.writeFileSync(outputFilename, lines.join('\n'));
 });
 
-logger.success('CSVs generated!');
+Logger.success('CSVs generated!');

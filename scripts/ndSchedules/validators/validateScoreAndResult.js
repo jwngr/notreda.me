@@ -1,8 +1,11 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber} = require('../../lib/utils');
+import {isNumber} from '../../lib/utils';
 
-module.exports = ({score, result, linescore, isHomeGame, isGameOver, numOvertimes}, assert) => {
+export function validateScoreAndResult(
+  {score, result, linescore, isHomeGame, isGameOver, numOvertimes},
+  assert
+) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {score, result, linescore, isHomeGame, isGameOver, numOvertimes});
   };
@@ -67,4 +70,4 @@ module.exports = ({score, result, linescore, isHomeGame, isGameOver, numOvertime
       'Future game unexpectedly has linescore object.'
     );
   }
-};
+}

@@ -1,8 +1,8 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const {isNumber} = require('../../lib/utils');
+import {isNumber} from '../../lib/utils';
 
-module.exports = ({location, isGameOver}, assert) => {
+export function validateLocation({location, isGameOver}, assert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, {location, isGameOver});
   };
@@ -36,4 +36,4 @@ module.exports = ({location, isGameOver}, assert) => {
       wrappedAssert(isNumber(lon) && lon >= -180 && lon <= 180, 'Location longitude is invalid.');
     }
   }
-};
+}

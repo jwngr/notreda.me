@@ -1,14 +1,14 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const logger = require('../lib/logger');
-const sentry = require('../lib/sentry');
-const validators = require('./validators');
-const ndSchedules = require('../../website/src/resources/schedules');
-const {ALL_SEASONS, CURRENT_SEASON} = require('../lib/constants');
+import {getForSeason} from '../../website/src/resources/schedules';
+import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
+import {Logger} from '../lib/logger';
+import sentry from '../lib/sentry';
+import validators from './validators';
 
 sentry.initialize();
 
-logger.info('Validating schedule data...');
+Logger.info('Validating schedule data...');
 
 let _numErrorsFound = 0;
 let _currentGameData = null;
@@ -17,7 +17,7 @@ let _numIgnoredErrorsFound = 0;
 const assert = (statement, message, extraContext) => {
   if (Boolean(statement) === false) {
     _numErrorsFound++;
-    logger.error(message, {
+    Logger.error(message, {
       ..._.pick(_currentGameData, ['season', 'opponentId']),
       ...extraContext,
     });
@@ -32,7 +32,7 @@ const ignoredAssert = (statement) => {
 };
 
 ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = ndSchedules.getForSeason(season);
+  const seasonScheduleData = getForSeason(season);
 
   let nextUnplayedGameWeekIndex;
   let latestCompletedGameWeekIndex;
@@ -77,13 +77,13 @@ ALL_SEASONS.forEach((season) => {
 });
 
 if (_numIgnoredErrorsFound !== 0) {
-  logger.warning(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
+  Logger.warning(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
 }
 
 if (_numErrorsFound === 0) {
-  logger.info('Schedule data successfully validated with no errors!');
+  Logger.info('Schedule data successfully validated with no errors!');
 } else {
-  logger.error(`${_numErrorsFound} errors found in schedule data!`);
+  Logger.error(`${_numErrorsFound} errors found in schedule data!`);
   sentry.captureMessage(`${_numErrorsFound} errors found in schedule data`, 'warning');
 
   // Exit with a non-zero error code.

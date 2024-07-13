@@ -1,9 +1,9 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const teams = require('./teams');
-const logger = require('./logger');
-const scraper = require('./scraper');
-const {isNumber} = require('./utils');
+import {Logger} from './logger';
+import scraper from './scraper';
+import teams from './teams';
+import {isNumber} from './utils';
 
 const NORMALIZED_TEAM_NAMES = {
   Pitt: 'Pittsburgh',
@@ -146,7 +146,7 @@ const fetchGameIdsForSeason = (season) => {
       return gameIds;
     })
     .catch((error) => {
-      logger.error(`Error fetching ESPN game IDs.`, {error, season});
+      Logger.error(`Error fetching ESPN game IDs.`, {error, season});
       throw error;
     });
 };
@@ -255,7 +255,7 @@ const fetchStatsForGame = (gameId) => {
               // fumbles.
               break;
             default:
-              logger.error('Unexpected stat name.', {gameId, statName});
+              Logger.error('Unexpected stat name.', {gameId, statName});
           }
         }
       });
@@ -331,7 +331,7 @@ const fetchStatsForGame = (gameId) => {
       };
     })
     .catch((error) => {
-      logger.error(`Error fetching ESPN game stats.`, {error, gameId});
+      Logger.error(`Error fetching ESPN game stats.`, {error, gameId});
       throw error;
     });
 };
@@ -567,7 +567,7 @@ const fetchKickoffTimeForGame = (espnGameId) => {
       return new Date(gameKickoffTime);
     })
     .catch((error) => {
-      logger.error(`Error fetching kickoff time for game.`, {error, espnGameId});
+      Logger.error(`Error fetching kickoff time for game.`, {error, espnGameId});
       throw error;
     });
 };

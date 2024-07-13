@@ -1,12 +1,11 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
-const puppeteer = require('puppeteer');
-const {CURRENT_SEASON} = require('../lib/constants');
- 
-const red = chalk.bold.red;
-const green = chalk.bold.green;
+import fs from 'fs';
+import path from 'path';
+
+import _ from 'lodash';
+import puppeteer from 'puppeteer';
+
+import {CURRENT_SEASON} from '../lib/constants';
+import {Logger} from '../lib/logger';
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
@@ -19,7 +18,7 @@ const scrapeGameStats = async (gameId) => {
 
   const url = `https://www.sports-reference.com/cfb/boxscores/${gameId}.html`;
 
-  console.log(`[INFO] Scraping ${url}`);
+  Logger.info(`Scraping ${url}`);
 
   await page.goto(url, {
     waitUntil: 'networkidle2',
@@ -77,9 +76,7 @@ const fn = async () => {
   const promises = _.map(yearData, (gameData) => {
     if ('sportsReferenceGameId' in gameData) {
       return scrapeGameStats(gameData.sportsReferenceGameId).catch((error) => {
-        console.log(
-          red(`[ERROR] Failed to scrape game stats for ${gameData.sportsReferenceGameId}:`, error)
-        );
+        Logger.error(`Failed to scrape game stats for ${gameData.sportsReferenceGameId}:`, {error});
         throw error;
       });
     } else {
@@ -98,9 +95,9 @@ const fn = async () => {
 
     fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
 
-    console.log(green('Success!'));
+    Logger.success('Scraped game stats');
   } catch (error) {
-    console.log(red(error));
+    Logger.error('Failed to scrape game stats', {error});
   } finally {
     browser.close();
   }

@@ -1,10 +1,8 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
 
-const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../../../schedules/data');
+import {Logger} from '../../../lib/logger';
 
 const BK_ERA_YEARS = _.range(2010, 2019);
 
@@ -114,7 +112,7 @@ const fetchOnePossessionGameDataDuringBrianKellyEra = async ({teamEspnId, top25F
   );
 };
 
-return Promise.all(BK_ERA_YEARS.map((year) => fetchTop25TeamEspnIds(year)))
+Promise.all(BK_ERA_YEARS.map((year) => fetchTop25TeamEspnIds(year)))
   .then(async (yearlyResults) => {
     const top25TeamIds = {};
     _.forEach(yearlyResults, (teamEspnIds) => {
@@ -128,17 +126,16 @@ return Promise.all(BK_ERA_YEARS.map((year) => fetchTop25TeamEspnIds(year)))
 
     const top25CloseGameData = {};
     for (const teamName of Object.keys(top25TeamIds)) {
-      console.log(`[INFO] Fetching one possession game data for ${teamName}.`);
+      Logger.info(`Fetching one possession game data for ${teamName}.`);
       top25CloseGameData[teamName] = await fetchOnePossessionGameDataDuringBrianKellyEra(
         top25TeamIds[teamName]
       );
     }
 
-    console.log('[INFO] RESULTS:');
-    console.log(top25CloseGameData);
+    Logger.info('RESULTS:', {top25CloseGameData});
 
-    console.log('[INFO] Success!');
+    Logger.success('Success!');
   })
   .catch((error) => {
-    console.log('Error fetching top 25 teams:', error);
+    Logger.error('Error fetching top 25 teams:', {error});
   });

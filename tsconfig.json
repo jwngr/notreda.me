@@ -20,5 +20,5 @@
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true
     },
-    "include": ["website/src"]
+    "include": ["scripts", "website/src"]
   }

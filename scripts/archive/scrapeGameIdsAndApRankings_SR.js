@@ -1,16 +1,18 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import fs from 'fs';
+import path from 'path';
 
-const {CURRENT_SEASON, AP_POLL_SEASONS} = require('../lib/constants');
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
+
+import {CURRENT_SEASON} from '../lib/constants';
+import {Logger} from '../lib/logger';
+
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 
 const years = [CURRENT_SEASON];
-// const years = _.range(AP_POLL_SEASONS[0], CURRENT_SEASON + 1);
 
 const getHtmlForUrl = (url) => {
   return request({
@@ -56,11 +58,11 @@ const promises = years.map((year) => {
       };
     })
     .catch((error) => {
-      console.log(`Error fetching game IDs and AP rankings for ${year}`, error);
+      Logger.error(`Error fetching game IDs and AP rankings for ${year}`, {error});
     });
 });
 
-return Promise.all(promises)
+Promise.all(promises)
   .then((results) => {
     _.forEach(results, (result, i) => {
       const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
@@ -102,8 +104,8 @@ return Promise.all(promises)
       fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
     });
 
-    console.log('Success!');
+    Logger.success('Success!');
   })
   .catch((error) => {
-    console.log(`Error fetching all game IDs`, error);
+    Logger.fail(`Error fetching all game IDs`, error);
   });

@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const TEAM_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/teamSchedules');
 

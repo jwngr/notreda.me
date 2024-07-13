@@ -1,8 +1,8 @@
-const logger = require('../lib/logger');
-const ndSchedules = require('../../website/src/resources/schedules');
+import {Logger} from '../lib/logger';
+import {transformForAllSeasons} from '../lib/ndSchedules';
 
-logger.info('Transforming schedule data...');
+Logger.info('Transforming schedule data...');
 
-ndSchedules.transformForAllSeasons((gameData, season, gameIndex) => {});
+transformForAllSeasons(() => {});
 
-logger.success('Schedule data transformed!');
+Logger.success('Schedule data transformed!');

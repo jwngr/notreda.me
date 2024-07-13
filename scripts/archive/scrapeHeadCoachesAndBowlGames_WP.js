@@ -1,8 +1,11 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-const request = require('request-promise');
+import fs from 'fs';
+import path from 'path';
+
+import cheerio from 'cheerio';
+import _ from 'lodash';
+import request from 'request-promise';
+
+import {Logger} from '../lib/logger';
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
@@ -15,11 +18,9 @@ const getHtmlForUrl = (url) => {
   });
 };
 
-console.log(`[INFO] Fetching head coaches and bowl games.`);
+Logger.info(`Fetching head coaches and bowl games.`);
 
-return getHtmlForUrl(
-  `https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`
-)
+getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`)
   .then(($) => {
     let $scheduleTable = $('#Seasons').parent().next();
 
@@ -69,8 +70,8 @@ return getHtmlForUrl(
       }
     });
 
-    console.log(`Success!`);
+    Logger.success('Fetched head coaches and bowl games');
   })
   .catch((error) => {
-    console.log(`[ERROR] Failed to fetch head coaches and bowl games:`, error.message);
+    Logger.error(`Failed to fetch head coaches and bowl games:`, error.message);
   });

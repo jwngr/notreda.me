@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-module.exports = ([currentGameData, previousGameData], assert) => {
+export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, _.pick(currentGameData, ['date', 'time', 'fullDate']));
   };
@@ -32,4 +32,4 @@ module.exports = ([currentGameData, previousGameData], assert) => {
       'Kickoff date is before previous game.'
     );
   }
-};
+}

@@ -1,10 +1,10 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const teams = require('../../lib/teams');
-const {CURRENT_SEASON} = require('../../lib/constants');
-const {isNumber, isNonEmptyString} = require('../../lib/utils');
+import {CURRENT_SEASON} from '../../lib/constants';
+import teams from '../../lib/teams';
+import {isNonEmptyString, isNumber} from '../../lib/utils';
 
-module.exports = (
+export function validateMiscellaneous(
   [
     {
       result,
@@ -26,7 +26,7 @@ module.exports = (
     seasonScheduleData,
   ],
   assert
-) => {
+) {
   assert(typeof isHomeGame === 'boolean', 'isHomeGame must be a boolean.', {isHomeGame});
 
   assert(teams.existsById(opponentId), 'Opponent ID must correspond to a valid team.', {
@@ -170,4 +170,4 @@ module.exports = (
       });
     }
   }
-};
+}

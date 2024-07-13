@@ -1,10 +1,11 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const format = require('date-fns/format');
-const puppeteer = require('puppeteer');
+import fs from 'fs';
+import path from 'path';
 
-const logger = require('../../../lib/logger');
+import format from 'date-fns/format';
+import _ from 'lodash';
+import puppeteer from 'puppeteer';
+
+import {Logger} from '../../../lib/logger';
 
 process.setMaxListeners(Infinity);
 
@@ -18,12 +19,12 @@ const getProperty = async (element, propertyName) => {
   return await (await element.getProperty(propertyName)).jsonValue();
 };
 
-const scrapeTeamUrls = async (gameId) => {
+const scrapeTeamUrls = async () => {
   const page = await browser.newPage();
 
   const url = `http://www.jhowell.net/cf/scores/byName.htm`;
 
-  logger.info(`Scraping team URLs...`);
+  Logger.info(`Scraping team URLs...`);
 
   await page.goto(url, {
     waitUntil: 'networkidle2',
@@ -46,7 +47,7 @@ const scrapeTeamUrls = async (gameId) => {
 const scrapeTeamScores = async (teamName, teamUrl) => {
   const page = await browser.newPage();
 
-  logger.info(`Scraping historical scores for ${teamName}...`);
+  Logger.info(`Scraping historical scores for ${teamName}...`);
 
   await page.goto(teamUrl, {
     waitUntil: 'networkidle2',
@@ -157,9 +158,9 @@ const fn = async () => {
       fs.writeFileSync(filename, JSON.stringify(games, null, 2));
     }
 
-    logger.success('Successfully scraped team records!');
+    Logger.success('Successfully scraped team records!');
   } catch (error) {
-    logger.error('Failed to scrape team records.', {error});
+    Logger.error('Failed to scrape team records.', {error});
   } finally {
     browser.close();
   }
