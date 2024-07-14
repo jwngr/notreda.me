@@ -14,7 +14,7 @@ export enum GameResult {
   Tie = 'T',
 }
 
-interface TeamStats {
+export interface TeamStats {
   readonly firstDowns: number;
   readonly thirdDownAttempts: number;
   readonly thirdDownConversions: number;
@@ -48,7 +48,7 @@ interface GameWeather {
   readonly icon: string;
 }
 
-interface TeamRecords {
+export interface TeamRecords {
   readonly overall: string;
   readonly home: string;
   readonly away: string;
@@ -133,6 +133,13 @@ export interface GameInfo {
 
   /** A nickname for the game, if one exists (e.g. "CFP Final"). */
   readonly nickname?: string;
+}
+
+export interface FutureGameInfo {
+  readonly date: Date | 'TBD';
+  readonly isHomeGame: boolean;
+  readonly opponentName: string;
+  readonly location?: string;
 }
 
 export enum TVNetwork {
@@ -309,6 +316,26 @@ export enum TeamId {
   YALE = 'YALE',
 }
 
+export enum PollType {
+  AP = 'ap',
+  COACHES = 'coaches',
+  CFP = 'cfbPlayoff',
+}
+
+export interface IndividualTeamPollData {
+  readonly record: string;
+  readonly ranking: number;
+  readonly previousRanking: number | 'NR';
+  readonly points?: number;
+}
+
+export interface WeeklyIndividualPollRanking {
+  readonly date: string;
+  readonly teams: Record<string, IndividualTeamPollData>;
+}
+
+export type SeasonAllPollRankings = Record<PollType, WeeklyIndividualPollRanking[]>;
+
 export interface BlogPostInfo {
   readonly slug: string;
   readonly title: string;
@@ -318,3 +345,11 @@ export interface BlogPostInfo {
 }
 
 export type TableRowData = readonly string[][];
+
+export type Writable<T> = {
+  -readonly [P in keyof T]: T[P];
+};
+
+export type Optional<T> = {
+  [P in keyof T]?: T[P];
+};

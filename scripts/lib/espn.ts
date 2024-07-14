@@ -1,58 +1,21 @@
 import range from 'lodash/range';
 
-import {GameLinescore, GameScore, TeamId} from '../../website/src/models';
-import {Writable} from '../models';
+import {
+  GameLinescore,
+  GameScore,
+  IndividualTeamPollData,
+  PollType,
+  SeasonAllPollRankings,
+  TeamId,
+  TeamRecords,
+  TeamStats,
+  WeeklyIndividualPollRanking,
+  Writable,
+} from '../../website/src/models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
 import {isNumber} from './utils';
-
-interface Records {
-  readonly overall: string;
-  readonly home: string;
-  readonly away: string;
-  readonly neutral: string;
-}
-
-enum PollType {
-  AP = 'ap',
-  COACHES = 'coaches',
-  CFP = 'cfbPlayoff',
-}
-
-interface WeeklyPollRankings {
-  readonly date: string;
-  readonly teams: Record<string, TeamData>;
-}
-
-interface TeamData {
-  readonly record: string;
-  readonly ranking: number;
-  readonly previousRanking: number | 'NR';
-  readonly points?: number;
-}
-
-interface TeamStats {
-  readonly firstDowns: number;
-  readonly thirdDownAttempts: number;
-  readonly thirdDownConversions: number;
-  readonly fourthDownAttempts: number;
-  readonly fourthDownConversions: number;
-  readonly totalYards: number;
-  readonly passYards: number;
-  readonly passCompletions: number;
-  readonly passAttempts: number;
-  readonly yardsPerPass: number;
-  readonly interceptionsThrown: number;
-  readonly rushYards: number;
-  readonly rushAttempts: number;
-  readonly yardsPerRush: number;
-  readonly penalties: number;
-  readonly penaltyYards: number;
-  readonly fumbles: number;
-  readonly fumblesLost: number;
-  readonly possession: string;
-}
 
 const DEFAULT_TEAM_STATS: TeamStats = {
   firstDowns: 0,
@@ -122,8 +85,8 @@ const _normalizeTeamName = (teamName: string): string => {
 const _getPollRankingsForWeek = (
   $: cheerio.Root,
   weekIndex: number
-): Record<PollType, WeeklyPollRankings | null> => {
-  const pollRankings: Record<PollType, WeeklyPollRankings | null> = {
+): Record<PollType, WeeklyIndividualPollRanking | null> => {
+  const pollRankings: Record<PollType, WeeklyIndividualPollRanking | null> = {
     [PollType.AP]: null,
     [PollType.COACHES]: null,
     [PollType.CFP]: null,
@@ -143,7 +106,7 @@ const _getPollRankingsForWeek = (
       throw new Error(`Unexpected poll title: "${pollTitle}"`);
     }
 
-    const teamsData: Record<string, TeamData> = {};
+    const teamsData: Record<string, IndividualTeamPollData> = {};
     const $pollRows = $(poll).find('tr');
     let previousTeamCurrentWeekRanking: number | null = null;
     $pollRows.each((_, pollRow) => {
@@ -180,7 +143,7 @@ const _getPollRankingsForWeek = (
           return;
         }
 
-        const teamData: TeamData = {
+        const teamData: IndividualTeamPollData = {
           record,
           ranking: currentWeekRanking,
           previousRanking: previousWeekRanking,
@@ -257,7 +220,7 @@ export const fetchStatsForGame = async (
 
   const $statsTable = $matchup('.team-stats-list');
 
-  // Loop through each row in the stats table
+  // Loop through each row in the stats table.
   const awayStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
   const homeStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
 
@@ -382,8 +345,8 @@ export const fetchStatsForGame = async (
   // both zero, we know the data is just not available yet, so delete the fumble counts for now
   // which will hide it on the site itself.
   if (
-    homeStats.fumblesLost + awayStats.fumblesLost > 0 &&
-    homeStats.fumbles + awayStats.fumbles === 0
+    (homeStats.fumblesLost ?? 0) + (awayStats.fumblesLost ?? 0) > 0 &&
+    (homeStats.fumbles ?? 0) + (awayStats.fumbles ?? 0) === 0
   ) {
     delete homeStats.fumbles;
     delete awayStats.fumbles;
@@ -428,7 +391,7 @@ export const fetchStatsForGame = async (
 export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
   season: number,
   teamId: TeamId
-): Promise<Records> => {
+): Promise<TeamRecords> => {
   const {espnId} = Teams.getById(teamId);
   if (!espnId) {
     throw new Error('Team does not have an ESPN ID.');
@@ -446,7 +409,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
 
   let upcomingGameIsBowlGame = false;
   let teamAlreadyFacedNotreDame = false;
-  $('tr.Table__TR').each((i, row) => {
+  $('tr.Table__TR').each((_, row) => {
     // Only fetch team records up through when they play Notre Dame for completed games (i.e., non-
     // header rows with 7 columns).
     const $cols = $(row).find('td');
@@ -504,7 +467,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
  */
 export const fetchNotreDameWeeklyRecordsForSeason = async (
   season: number
-): Promise<readonly Records[]> => {
+): Promise<readonly TeamRecords[]> => {
   // TODO: Re-use fetchTeamRecordUpThroughNotreDameGameForSeason() instead of copying it.
 
   const {espnId} = Teams.getById(TeamId.ND);
@@ -522,10 +485,10 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
   let neutralWins = 0;
   let neutralLosses = 0;
 
-  const weeklyRecords: readonly Records[] = [];
+  const weeklyRecords: TeamRecords[] = [];
 
   let upcomingGameIsBowlGame = false;
-  $('tr.Table__TR').each((i, row) => {
+  $('tr.Table__TR').each((_, row) => {
     const $cols = $(row).find('td');
 
     // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
@@ -586,7 +549,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
 /**
  * Returns the weekly poll rankings for the provided season.
  */
-export const fetchPollsForSeason = async (season: number): Promise<PollRankings> => {
+export const fetchPollsForSeason = async (season: number): Promise<SeasonAllPollRankings> => {
   const $currentWeekRankings = await Scraper.get(`https://www.espn.com/college-football/rankings`);
 
   const $headline = $currentWeekRankings('.page-container .headline');
@@ -616,11 +579,15 @@ export const fetchPollsForSeason = async (season: number): Promise<PollRankings>
   );
 
   // Loop through the weekly rankings and combine them into a standard format.
-  const pollRankings: PollRankings = {};
+  const pollRankings: SeasonAllPollRankings = {
+    ap: [],
+    coaches: [],
+    cfbPlayoff: [],
+  };
   [...priorWeeksRankings, currentWeekRankings].forEach((rankings) => {
-    Object.keys(rankings).forEach((pollType) => {
-      pollRankings[pollType] = pollRankings[pollType] || [];
-      pollRankings[pollType].push(rankings[pollType]);
+    Object.entries(rankings).forEach(([pollType, pollRanking]) => {
+      if (!pollRanking) return;
+      pollRankings[pollType as PollType].push(pollRanking);
     });
   });
 

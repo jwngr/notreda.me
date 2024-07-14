@@ -7,14 +7,3 @@ export interface ScriptsConfig {
     readonly isEnabled: boolean;
   };
 }
-
-export interface FutureGameInfo {
-  readonly date: Date | 'TBD';
-  readonly isHomeGame: boolean;
-  readonly opponentName: string;
-  readonly location?: string;
-}
-
-export type Writable<T> = {
-  -readonly [P in keyof T]: T[P];
-};

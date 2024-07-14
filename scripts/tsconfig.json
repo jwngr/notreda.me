@@ -19,7 +19,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "rootDir": "."
+    "rootDirs": [".", "../website/src"]
   },
   "include": ["."]
 }
