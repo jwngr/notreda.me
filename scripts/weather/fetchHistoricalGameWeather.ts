@@ -21,25 +21,30 @@ async function fetchHistoricalGameWeather(): Promise<void> {
   logger.info('Updating weather for historical games...');
 
   const fetchWeatherPromises: Promise<void>[] = [];
-  ALL_SEASONS.forEach((season) => {
-    const seasonScheduleData = getForSeason(season);
+  ALL_SEASONS.forEach(async (season) => {
+    const seasonScheduleData = await getForSeason(season);
     const currentSeasonFetchWeatherPromises: Promise<GameWeather | null>[] = [];
 
     seasonScheduleData.forEach((gameInfo) => {
       if (
         gameInfo.result &&
         gameInfo.location !== 'TBD' &&
-        !gameInfo.weather &&
+        // !gameInfo.weather &&
         season === CURRENT_SEASON
       ) {
+        logger.info(`Fetching weather for ${gameInfo.opponentId} ${season}...`);
         currentSeasonFetchWeatherPromises.push(fetchWeatherFromGameInfo(gameInfo));
       }
     });
 
+    if (currentSeasonFetchWeatherPromises.length === 0) return;
+
     fetchWeatherPromises.push(
-      Promise.all(currentSeasonFetchWeatherPromises).then(() =>
-        updateForSeason(season, seasonScheduleData)
-      )
+      Promise.all(currentSeasonFetchWeatherPromises).then(() => {
+        logger.info(`Weather fetched for ${season}.`);
+        logger.info(`Updating ${season} schedule...`);
+        updateForSeason(season, seasonScheduleData);
+      })
     );
   });
 

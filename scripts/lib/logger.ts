@@ -1,5 +1,5 @@
 import sentry, {Severity} from '@sentry/node';
-import {bold, Chalk} from 'chalk';
+import chalk, {ChalkInstance} from 'chalk';
 
 interface LoggerConfig {
   readonly isSentryEnabled: boolean;
@@ -8,7 +8,11 @@ interface LoggerConfig {
 export class Logger {
   constructor(private readonly isSentryEnabled: LoggerConfig) {}
 
-  private logInternal(message: string, data?: object | undefined, color: Chalk = bold.black): void {
+  private logInternal(
+    message: string,
+    data?: object | undefined,
+    color: ChalkInstance = chalk.bold.black
+  ): void {
     if (typeof data === 'undefined') {
       // eslint-disable-next-line no-console
       console.log(color(message));
@@ -32,25 +36,25 @@ export class Logger {
   }
 
   public info(message: string, data?: object): void {
-    this.logInternal(`[INFO] ${message}`, data, bold.black);
+    this.logInternal(`[INFO] ${message}`, data, chalk.bold.black);
   }
 
   public warning(message: string, data?: object): void {
-    this.logInternal(`[WARNING] ${message}`, data, bold.yellow);
+    this.logInternal(`[WARNING] ${message}`, data, chalk.bold.yellow);
     this.logToSentry(message, Severity.Warning);
   }
 
   public error(message: string, data?: object): void {
-    this.logInternal(`[ERROR] ${message}`, data, bold.red);
+    this.logInternal(`[ERROR] ${message}`, data, chalk.bold.red);
     this.logToSentry(message, Severity.Error);
   }
 
   public success(message: string, data?: object): void {
-    this.logInternal(`[SUCCESS] ${message}`, data, bold.green);
+    this.logInternal(`[SUCCESS] ${message}`, data, chalk.bold.green);
   }
 
   public fail(message: string, data?: object): void {
-    this.logInternal(`[FAIL] ${message}`, data, bold.red);
+    this.logInternal(`[FAIL] ${message}`, data, chalk.bold.red);
     this.logToSentry(message, Severity.Error);
   }
 

@@ -1,9 +1,26 @@
+import path from 'path';
+import {fileURLToPath} from 'url';
+
 import dotenv from 'dotenv';
 
 import {ScriptsConfig} from '../models';
+import {Logger} from './logger';
+
+const logger = new Logger({isSentryEnabled: false});
+
+// Get the directory name of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Construct the absolute path to the .env file
+const envPath = path.resolve(__dirname, '../../.env');
 
 // Load environment variables from .env file.
-dotenv.config();
+const result = dotenv.config({path: envPath});
+if (result.error) {
+  logger.error('Error loading .env file:', result.error);
+  process.exit(1);
+}
 
 function parseConfigFromEnv(): ScriptsConfig {
   if (!process.env.OPEN_WEATHER_API_KEY) {
