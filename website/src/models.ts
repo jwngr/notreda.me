@@ -43,10 +43,13 @@ export interface GameStats {
   readonly home: TeamStats;
 }
 
-interface GameWeather {
+export interface GameWeather {
+  readonly icon: WeatherIcon;
   readonly temperature: number;
-  readonly icon: string;
 }
+
+// TODO: Make this a proper enum based on https://openweathermap.org/weather-conditions.
+export type WeatherIcon = string;
 
 export interface TeamRecords {
   readonly overall: string;
@@ -74,7 +77,7 @@ interface GameRankings {
 }
 
 // TODO: Introduce a `LocationId` enum.
-interface GameLocation {
+export interface GameLocation {
   readonly city: string;
   readonly state?: string;
   readonly country?: string;
@@ -89,6 +92,9 @@ export interface GameInfo {
 
   /** The team Notre Dame played. */
   readonly opponentId: TeamId;
+
+  /** The ID used by ESPN for this game. */
+  readonly espnGameId?: number;
 
   // TODO: Combine `isHomeGame` and `isNeutralSiteGame` into a single `HomeAwayStatus` enum.
   /** True if this was a home game for Notre Dame. */
@@ -105,9 +111,10 @@ export interface GameInfo {
   readonly isPostponed?: boolean;
 
   // Handle dates which are in the past or future and which may not have a time nor date.
-  // TODO: Unify `date` and `fullDate` between past and future games.
+  // TODO: Unify `date`/`time` and `fullDate` between past and future games.
   // TODO: Find a better way to represent 'TBD' dates.
   readonly date?: string | 'TBD';
+  readonly time?: string;
   readonly fullDate?: string;
 
   /** Which network broadcasted the game. */

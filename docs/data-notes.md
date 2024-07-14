@@ -46,8 +46,8 @@ weather info.
 
 All games with a `weather` key have the following format:
 
-- `icon` - Weather conditions, as determined by Dark Sky. This is always present, but may have a
-  value of "unknown" if accurate data was not available.
+- `icon` - Weather conditions, as determined by [OpenWeather](https://openweathermap.org/). This is
+always present, but may have a value of "unknown" if accurate data was not available.
 - `temperature` - Temperature at kickoff, rounded to the nearest degree Fahrenheit.
 
 ### Nickname
