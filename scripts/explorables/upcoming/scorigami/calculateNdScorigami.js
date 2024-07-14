@@ -11,29 +11,33 @@ const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
 const logger = new Logger({isSentryEnabled: false});
 
-let gamesPlayedCount = 0;
-const scorigamiMatrix = [];
+async function main() {
+  let gamesPlayedCount = 0;
+  const scorigamiMatrix = [];
 
-ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = getForSeason(season);
-  seasonScheduleData.forEach((gameData) => {
-    if (gameData.result) {
-      gamesPlayedCount++;
+  for (const season of ALL_SEASONS) {
+    const seasonScheduleData = await getForSeason(season);
+    seasonScheduleData.forEach((gameData) => {
+      if (gameData.result) {
+        gamesPlayedCount++;
 
-      const highScore = Math.max(gameData.score.home, gameData.score.away);
-      const lowScore = Math.min(gameData.score.home, gameData.score.away);
+        const highScore = Math.max(gameData.score.home, gameData.score.away);
+        const lowScore = Math.min(gameData.score.home, gameData.score.away);
 
-      _.update(scorigamiMatrix, [highScore, lowScore], (val) => (val || 0) + 1);
-    }
-  });
-});
+        _.update(scorigamiMatrix, [highScore, lowScore], (val) => (val || 0) + 1);
+      }
+    });
+  }
 
-logger.log('Games played count:', gamesPlayedCount);
+  logger.log('Games played count:', gamesPlayedCount);
 
-logger.log('\nScorigami matrix:');
-logger.log(JSON.stringify(scorigamiMatrix));
+  logger.log('\nScorigami matrix:');
+  logger.log(JSON.stringify(scorigamiMatrix));
 
-fs.writeFileSync(
-  `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,
-  JSON.stringify(scorigamiMatrix, null, 2)
-);
+  fs.writeFileSync(
+    `${OUTPUT_DATA_DIRECTORY}/scorigami.json`,
+    JSON.stringify(scorigamiMatrix, null, 2)
+  );
+}
+
+main();

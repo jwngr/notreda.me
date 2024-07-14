@@ -8,83 +8,91 @@ import validators from './validators';
 // Enable Sentry logging.
 const logger = new Logger({isSentryEnabled: true});
 
-logger.info('Validating schedule data...');
+function main() {
+  logger.info('Validating schedule data...');
 
-let _numErrorsFound = 0;
-let _currentGameData = null;
-let _numIgnoredErrorsFound = 0;
+  let _numErrorsFound = 0;
+  let _currentGameData = null;
+  let _numIgnoredErrorsFound = 0;
 
-const assert = (statement, message, extraContext) => {
-  if (Boolean(statement) === false) {
-    _numErrorsFound++;
-    logger.error(message, {
-      ..._.pick(_currentGameData, ['season', 'opponentId']),
-      ...extraContext,
+  const assert = (statement, message, extraContext) => {
+    if (Boolean(statement) === false) {
+      _numErrorsFound++;
+      logger.error(message, {
+        ..._.pick(_currentGameData, ['season', 'opponentId']),
+        ...extraContext,
+      });
+    }
+  };
+
+  // TODO: Remove all usages of this once historical data is properly normalized.
+  const ignoredAssert = (statement) => {
+    if (Boolean(statement) === false) {
+      _numIgnoredErrorsFound++;
+    }
+  };
+
+  for (const season of ALL_SEASONS) {
+    const seasonScheduleData = getForSeason(season);
+
+    let nextUnplayedGameWeekIndex;
+    let latestCompletedGameWeekIndex;
+    if (season === CURRENT_SEASON) {
+      latestCompletedGameWeekIndex = _.findLastIndex(
+        seasonScheduleData,
+        ({result}) => typeof result !== 'undefined'
+      );
+      nextUnplayedGameWeekIndex = _.findIndex(
+        seasonScheduleData,
+        ({result}) => typeof result === 'undefined'
+      );
+    }
+
+    let previousGameData = null;
+    seasonScheduleData.forEach((gameData, weekIndex) => {
+      _currentGameData = {
+        ...gameData,
+        season,
+        weekIndex,
+        isGameOver: typeof gameData.result !== 'undefined',
+        isNextUnplayedGame: weekIndex === nextUnplayedGameWeekIndex,
+        isLatestGameCompletedGame: weekIndex === latestCompletedGameWeekIndex,
+        completedGameCountForSeason: _.filter(
+          seasonScheduleData,
+          ({result}) => typeof result === 'string'
+        ).length,
+      };
+
+      validators.validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
+      validators.validateStats(_currentGameData, assert, ignoredAssert);
+      validators.validateRecords(_currentGameData, assert, ignoredAssert);
+      validators.validateWeather(_currentGameData, assert, ignoredAssert);
+      validators.validateCoverage(_currentGameData, assert, ignoredAssert);
+      validators.validateLocation(_currentGameData, assert, ignoredAssert);
+      validators.validateRankings(_currentGameData, assert, ignoredAssert);
+      validators.validateMiscellaneous(
+        [_currentGameData, seasonScheduleData],
+        assert,
+        ignoredAssert
+      );
+      validators.validateScoreAndResult(_currentGameData, assert, ignoredAssert);
+
+      previousGameData = _currentGameData;
     });
   }
-};
 
-// TODO: Remove all usages of this once historical data is properly normalized.
-const ignoredAssert = (statement) => {
-  if (Boolean(statement) === false) {
-    _numIgnoredErrorsFound++;
-  }
-};
-
-ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = getForSeason(season);
-
-  let nextUnplayedGameWeekIndex;
-  let latestCompletedGameWeekIndex;
-  if (season === CURRENT_SEASON) {
-    latestCompletedGameWeekIndex = _.findLastIndex(
-      seasonScheduleData,
-      ({result}) => typeof result !== 'undefined'
-    );
-    nextUnplayedGameWeekIndex = _.findIndex(
-      seasonScheduleData,
-      ({result}) => typeof result === 'undefined'
-    );
+  if (_numIgnoredErrorsFound !== 0) {
+    logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
   }
 
-  let previousGameData = null;
-  seasonScheduleData.forEach((gameData, weekIndex) => {
-    _currentGameData = {
-      ...gameData,
-      season,
-      weekIndex,
-      isGameOver: typeof gameData.result !== 'undefined',
-      isNextUnplayedGame: weekIndex === nextUnplayedGameWeekIndex,
-      isLatestGameCompletedGame: weekIndex === latestCompletedGameWeekIndex,
-      completedGameCountForSeason: _.filter(
-        seasonScheduleData,
-        ({result}) => typeof result === 'string'
-      ).length,
-    };
+  if (_numErrorsFound === 0) {
+    logger.info('Schedule data successfully validated with no errors!');
+  } else {
+    logger.error(`${_numErrorsFound} errors found in schedule data!`);
 
-    validators.validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
-    validators.validateStats(_currentGameData, assert, ignoredAssert);
-    validators.validateRecords(_currentGameData, assert, ignoredAssert);
-    validators.validateWeather(_currentGameData, assert, ignoredAssert);
-    validators.validateCoverage(_currentGameData, assert, ignoredAssert);
-    validators.validateLocation(_currentGameData, assert, ignoredAssert);
-    validators.validateRankings(_currentGameData, assert, ignoredAssert);
-    validators.validateMiscellaneous([_currentGameData, seasonScheduleData], assert, ignoredAssert);
-    validators.validateScoreAndResult(_currentGameData, assert, ignoredAssert);
-
-    previousGameData = _currentGameData;
-  });
-});
-
-if (_numIgnoredErrorsFound !== 0) {
-  logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
+    // Exit with a non-zero error code.
+    process.exit(-1);
+  }
 }
 
-if (_numErrorsFound === 0) {
-  logger.info('Schedule data successfully validated with no errors!');
-} else {
-  logger.error(`${_numErrorsFound} errors found in schedule data!`);
-
-  // Exit with a non-zero error code.
-  process.exit(-1);
-}
+main();

@@ -22,7 +22,7 @@ const SEASON = CURRENT_SEASON;
 const logger = new Logger({isSentryEnabled: true});
 
 const updateNdSchedule = async () => {
-  const currentSeasonSchedule = getForCurrentSeason();
+  const currentSeasonSchedule = await getForCurrentSeason();
 
   logger.info(`Updating data for ${SEASON} season...`);
 
@@ -175,7 +175,7 @@ const updateNdSchedule = async () => {
       logger.info(`Fetching weather for ${gameInfoString}...`);
 
       (nextUpcomingCurrentSeasonGame as Writable<GameInfo>).weather =
-        await Weather.fetchForCoordinates({
+        await Weather.fetchForFutureGame({
           latitude: nextUpcomingCurrentSeasonGame.location.coordinates[0],
           longitude: nextUpcomingCurrentSeasonGame.location.coordinates[1],
           timestamp: getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame),

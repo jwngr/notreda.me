@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, {AxiosResponse} from 'axios';
 
 import {GameWeather} from '../../website/src/models';
 import {getConfig} from './loadConfig';
@@ -30,10 +30,10 @@ interface OpenWeatherForecastResponse {
   readonly lon: number;
   readonly timezone: string;
   readonly timezone_offset: number;
-  readonly current: OpenWeatherWeatherForecast;
-  readonly minutely: OpenWeatherWeatherForecast[];
-  readonly hourly: OpenWeatherWeatherForecast[];
-  readonly daily: OpenWeatherWeatherForecast[];
+  readonly data: readonly OpenWeatherWeatherForecast[];
+  readonly minutely: readonly OpenWeatherWeatherForecast[];
+  readonly hourly: readonly OpenWeatherWeatherForecast[];
+  readonly daily: readonly OpenWeatherWeatherForecast[];
 }
 
 export class Weather {
@@ -45,7 +45,7 @@ export class Weather {
     readonly latitude: number;
     readonly longitude: number;
     readonly timestamp: number;
-  }): Promise<GameWeather> {
+  }): Promise<GameWeather | null> {
     let errorMessage: string | undefined;
     if (latitude < -90 || latitude > 90) {
       errorMessage = 'Latitude must be a number between -90 and 90.';
@@ -86,7 +86,7 @@ export class Weather {
     if (isHistoricalForecastRequest) {
       // For historical games, get the current weather forecast as it will exactly match the
       // provided timestamp.
-      chosenForecast = forecast.current;
+      chosenForecast = forecast.data[0];
     } else {
       // For future games, find the hourly forecast closest to the provided timestamp.
       let closestHourlyForecast: OpenWeatherWeatherForecast | null = null;
@@ -106,12 +106,124 @@ export class Weather {
     }
 
     if (!chosenForecast) {
-      throw new Error('No forecast found.');
+      return null;
     }
 
     return {
       icon: chosenForecast.weather[0].icon,
       temperature: Math.round(chosenForecast.temp),
+    };
+  }
+
+  private static validateLatitude(latitude: number): void {
+    if (latitude < -90 || latitude > 90) {
+      throw new Error('Latitude must be a number between -90 and 90.');
+    }
+  }
+
+  private static validateLongitude(longitude: number): void {
+    if (longitude < -180 || longitude > 180) {
+      throw new Error('Longitude must be a number between -180 and 180.');
+    }
+  }
+
+  private static parseOpenWeatherResponse(
+    response: AxiosResponse<OpenWeatherForecastResponse>
+  ): OpenWeatherForecastResponse {
+    return response.data;
+  }
+
+  static async fetchForHistoricalGame({
+    latitude,
+    longitude,
+    timestamp,
+  }: {
+    readonly latitude: number;
+    readonly longitude: number;
+    readonly timestamp: number;
+  }): Promise<GameWeather> {
+    this.validateLatitude(latitude);
+    this.validateLongitude(longitude);
+
+    const params: OpenWeatherRequestParams = {
+      dt: timestamp.toString(),
+      lat: latitude.toString(),
+      lon: longitude.toString(),
+      units: 'imperial',
+      appid: config.openWeather.apiKey,
+      exclude: 'current,minutely,daily',
+    };
+
+    const response = await axios({
+      url: `${OPEN_WEATHER_API_HOST}/data/3.0/onecall/timemachine`,
+      params,
+      method: 'GET',
+      headers: {
+        'Accept-Encoding': 'gzip',
+      },
+    });
+
+    const responseData = this.parseOpenWeatherResponse(response);
+    const chosenForecast = responseData.data[0];
+
+    return {
+      icon: chosenForecast.weather[0].icon,
+      temperature: Math.round(chosenForecast.temp),
+    };
+  }
+
+  static async fetchForFutureGame({
+    latitude,
+    longitude,
+    timestamp,
+  }: {
+    readonly latitude: number;
+    readonly longitude: number;
+    readonly timestamp: number;
+  }): Promise<GameWeather> {
+    this.validateLatitude(latitude);
+    this.validateLongitude(longitude);
+
+    const params: OpenWeatherRequestParams = {
+      dt: timestamp.toString(),
+      lat: latitude.toString(),
+      lon: longitude.toString(),
+      units: 'imperial',
+      appid: config.openWeather.apiKey,
+      exclude: 'current,minutely,hourly,daily',
+    };
+
+    const response = await axios({
+      url: `${OPEN_WEATHER_API_HOST}/data/3.0/onecall/timemachine`,
+      params,
+      method: 'GET',
+      headers: {
+        'Accept-Encoding': 'gzip',
+      },
+    });
+
+    const responseData = this.parseOpenWeatherResponse(response);
+
+    // For future games, find the hourly forecast closest to the provided timestamp.
+    let closestHourlyForecast: OpenWeatherWeatherForecast | undefined;
+    responseData.hourly.forEach((currentHourlyForecast) => {
+      const currentTimeDistance = Math.abs(timestamp - currentHourlyForecast.dt);
+      const closestHourlyForecastTimeDistance = closestHourlyForecast
+        ? Math.abs(timestamp - closestHourlyForecast.dt)
+        : Infinity;
+
+      if (currentTimeDistance < closestHourlyForecastTimeDistance) {
+        closestHourlyForecast = currentHourlyForecast;
+      }
+    });
+
+    if (!closestHourlyForecast) {
+      throw new Error('No weather forecast found for future game.');
+    }
+
+    return {
+      icon: closestHourlyForecast.weather[0].icon,
+      temperature: Math.round(closestHourlyForecast.temp),
     };
   }
 }

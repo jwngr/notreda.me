@@ -21,12 +21,12 @@ const _getInitialStats = () =>
     teams: new Set(),
   });
 
-const _getGamesPlayed = (statsKey) => {
+const _getGamesPlayed = (stats, statsKey) => {
   const {wins, losses, ties} = _.get(stats, statsKey);
   return wins + losses + ties;
 };
 
-const _getRecord = (statsKey) => {
+const _getRecord = (stats, statsKey) => {
   const {wins, losses, ties} = _.get(stats, statsKey);
   return `${wins}-${losses}-${ties}`;
 };
@@ -34,7 +34,7 @@ const _getRecord = (statsKey) => {
 // const _getWinPercentage = (statsKey) => {
 //   const {wins, ties} = _.get(stats, statsKey);
 
-//   const gamesPlayed = _getGamesPlayed(statsKey);
+//   const gamesPlayed = _getGamesPlayed(stats, statsKey);
 //   if (gamesPlayed === 0) {
 //     return '0%';
 //   }
@@ -45,81 +45,85 @@ const _getRecord = (statsKey) => {
 //   return ((adjustedWins / gamesPlayed) * 100).toFixed(2) + '%';
 // };
 
-let stats = {
-  state: {},
-  country: {},
-};
+async function main() {
+  let stats = {
+    state: {},
+    country: {},
+  };
 
-ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = getForSeason(season);
-  seasonScheduleData.forEach((gameData) => {
-    if (gameData.location !== 'TBD') {
-      const stateOrCountryKey =
-        typeof gameData.location.state === 'undefined' ? 'country' : 'state';
-      const stateOrCountryValue = _.get(gameData, ['location', stateOrCountryKey]);
+  for (const season of ALL_SEASONS) {
+    const seasonScheduleData = await getForSeason(season);
+    seasonScheduleData.forEach((gameData) => {
+      if (gameData.location !== 'TBD') {
+        const stateOrCountryKey =
+          typeof gameData.location.state === 'undefined' ? 'country' : 'state';
+        const stateOrCountryValue = _.get(gameData, ['location', stateOrCountryKey]);
 
-      if (!_.has(stats[stateOrCountryKey], stateOrCountryValue)) {
-        stats[stateOrCountryKey][stateOrCountryValue] = _getInitialStats();
+        if (!_.has(stats[stateOrCountryKey], stateOrCountryValue)) {
+          stats[stateOrCountryKey][stateOrCountryValue] = _getInitialStats();
+        }
+
+        if (gameData.result) {
+          stats[stateOrCountryKey][stateOrCountryValue][_getResultString(gameData.result)] += 1;
+          stats[stateOrCountryKey][stateOrCountryValue].latestResult = gameData.result;
+          stats[stateOrCountryKey][stateOrCountryValue].teams.add(gameData.opponentId);
+        } else if (stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame === null) {
+          stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame =
+            gameData.date === 'TBD' ? `${season} TBD` : gameData.date;
+        }
       }
+    });
+  }
 
-      if (gameData.result) {
-        stats[stateOrCountryKey][stateOrCountryValue][_getResultString(gameData.result)] += 1;
-        stats[stateOrCountryKey][stateOrCountryValue].latestResult = gameData.result;
-        stats[stateOrCountryKey][stateOrCountryValue].teams.add(gameData.opponentId);
-      } else if (stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame === null) {
-        stats[stateOrCountryKey][stateOrCountryValue].nextScheduledGame =
-          gameData.date === 'TBD' ? `${season} TBD` : gameData.date;
-      }
-    }
+  logger.log(
+    [
+      'State',
+      'Games Played',
+      'Record',
+      'Win Percentage',
+      'Latest Result',
+      'Next Scheduled Game',
+    ].join('\t')
+  );
+
+  _.forEach(stats.state, (stateStats, state) => {
+    logger.log(
+      [
+        state,
+        _getGamesPlayed(stats, ['state', state]),
+        _getRecord(stats, ['state', state]),
+        _getGamesPlayed(stats, ['state', state]),
+        stateStats.latestResult,
+        stateStats.nextScheduledGame || 'None',
+      ].join('\t')
+    );
   });
-});
 
-logger.log(
-  [
-    'State',
-    'Games Played',
-    'Record',
-    'Win Percentage',
-    'Latest Result',
-    'Next Scheduled Game',
-  ].join('\t')
-);
+  logger.newline();
 
-_.forEach(stats.state, (stateStats, state) => {
   logger.log(
     [
-      state,
-      _getGamesPlayed(['state', state]),
-      _getRecord(['state', state]),
-      _getGamesPlayed(['state', state]),
-      stateStats.latestResult,
-      stateStats.nextScheduledGame || 'None',
+      'Country',
+      'Games Played',
+      'Record',
+      'Win Percentage',
+      'Latest Result',
+      'Next Scheduled Game',
     ].join('\t')
   );
-});
 
-logger.newline();
+  _.forEach(stats.country, (countryStats, country) => {
+    logger.log(
+      [
+        country,
+        _getGamesPlayed(stats, ['country', country]),
+        _getRecord(stats, ['country', country]),
+        _getGamesPlayed(stats, ['country', country]),
+        countryStats.latestResult,
+        countryStats.nextScheduledGame || 'None',
+      ].join('\t')
+    );
+  });
+}
 
-logger.log(
-  [
-    'Country',
-    'Games Played',
-    'Record',
-    'Win Percentage',
-    'Latest Result',
-    'Next Scheduled Game',
-  ].join('\t')
-);
-
-_.forEach(stats.country, (countryStats, country) => {
-  logger.log(
-    [
-      country,
-      _getGamesPlayed(['country', country]),
-      _getRecord(['country', country]),
-      _getGamesPlayed(['country', country]),
-      countryStats.latestResult,
-      countryStats.nextScheduledGame || 'None',
-    ].join('\t')
-  );
-});
+main();
