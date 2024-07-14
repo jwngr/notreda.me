@@ -58,14 +58,19 @@ server for Six Degrees of Wikipedia.
     $ git push  # Enter password for jwngr-ops
     ```
 
+1.  Add a `.env` file to the root of the repo to set environment variables:
+    
+    ```bash
+    $ cp .env.example .env
+    # Make sure to enable Sentry!
+    ```
+
 1.  Install the required npm dependencies:
 
     ```bash
     $ cd scripts/
     $ npm install
     ```
-
-1.  Copy the `config.json` into the repo's `config/` directory, making sure to enable Sentry.
 
 1.  Run `crontab -e` and add the following cron jobs to that file:
 
