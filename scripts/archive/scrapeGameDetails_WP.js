@@ -2,10 +2,12 @@ import fs from 'fs';
 import path from 'path';
 
 import cheerio from 'cheerio';
-import _ from 'lodash';
+import range from 'lodash/range';
 import request from 'request-promise';
 
 import {Logger} from '../lib/logger';
+
+const logger = new Logger({isSentryEnabled: false});
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
@@ -19,7 +21,7 @@ const getHtmlForUrl = (url) => {
 };
 
 const fetchGameDetailsForYear = (year) => {
-  Logger.info(`Fetching year ${year}.`);
+  logger.info(`Fetching year ${year}.`);
 
   return getHtmlForUrl(
     `https://en.wikipedia.org/wiki/${year}_Notre_Dame_Fighting_Irish_football_team`
@@ -53,7 +55,7 @@ const fetchGameDetailsForYear = (year) => {
               let rowCellText = $(elem).text().trim();
 
               // Fix formatting issue in 1961 site data.
-              if (j === headerNames.indexOf('Site') && !_.includes(rowCellText, ' • ')) {
+              if (j === headerNames.indexOf('Site') && !rowCellText.includes(' • ')) {
                 let lastCharWasLowercase = false;
                 rowCellText.split('').forEach((char, k) => {
                   if (char >= 'A' && char <= 'Z' && lastCharWasLowercase) {
@@ -65,7 +67,7 @@ const fetchGameDetailsForYear = (year) => {
               }
 
               if (j === headerNames.indexOf('Site')) {
-                if (!_.includes(rowCellText, ' • ')) {
+                if (!rowCellText.includes(' • ')) {
                   rowCellText = ` • ${rowCellText}`;
                 }
               }
@@ -97,9 +99,9 @@ const fetchGameDetailsForYear = (year) => {
             }
             if (opponentIndex !== -1) {
               const opponent = rowCellValues[opponentIndex];
-              const isHomeGame = !_.startsWith(opponent, 'at');
+              const isHomeGame = !opponent.startsWith('at');
               if (gamesData[i - 1].isHomeGame !== isHomeGame) {
-                // Logger.info('HOME / AWAY MISMATCH:', year, i - 1, opponent);
+                // logger.info('HOME / AWAY MISMATCH:', year, i - 1, opponent);
               }
             }
 
@@ -108,7 +110,7 @@ const fetchGameDetailsForYear = (year) => {
             if (resultIndex !== -1) {
               const result = rowCellValues[resultIndex][0];
               if (gamesData[i - 1].result !== result) {
-                // Logger.info('RESULT MISMATCH:', year, i - 1);
+                // logger.info('RESULT MISMATCH:', year, i - 1);
               }
             }
 
@@ -119,7 +121,7 @@ const fetchGameDetailsForYear = (year) => {
               let city;
               let state;
               let stateAndParens;
-              if (_.includes(location, ',')) {
+              if (location.includes(',')) {
                 [city, stateAndParens] = location.split(', ');
                 state = stateAndParens.split(' (')[0];
               } else {
@@ -152,7 +154,7 @@ const fetchGameDetailsForYear = (year) => {
               }
             }
           } catch (error) {
-            Logger.error(`Failed to parse schedule for ${year}:`, {error, rowCellValues});
+            logger.error(`Failed to parse schedule for ${year}:`, {error, rowCellValues});
             throw error;
           }
         }
@@ -160,17 +162,17 @@ const fetchGameDetailsForYear = (year) => {
 
       fs.writeFileSync(filename, JSON.stringify(gamesData, null, 2));
 
-      Logger.info(`Success ${year}!`);
+      logger.info(`Success ${year}!`);
     })
     .catch((error) => {
       let errorMessage = error.message;
       if (error.statusCode === 404) {
         errorMessage = '404 page not found.';
       }
-      Logger.error(`Failed to fetch schedule for ${year}:`, {errorMessage});
+      logger.error(`Failed to fetch schedule for ${year}:`, {errorMessage});
     });
 };
 
-_.range(1900, 2017).forEach((year) => {
+range(1900, 2017).forEach((year) => {
   fetchGameDetailsForYear(year);
 });

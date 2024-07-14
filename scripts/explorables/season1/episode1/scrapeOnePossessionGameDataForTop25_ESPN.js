@@ -1,10 +1,12 @@
 import cheerio from 'cheerio';
-import _ from 'lodash';
+import range from 'lodash/range';
 import request from 'request-promise';
 
 import {Logger} from '../../../lib/logger';
 
-const BK_ERA_YEARS = _.range(2010, 2019);
+const logger = new Logger({isSentryEnabled: false});
+
+const BK_ERA_YEARS = range(2010, 2019);
 
 const getHtmlForUrl = (url) => {
   return request({
@@ -84,8 +86,8 @@ const fetchOnePossessionGameDataDuringBrianKellyEra = async ({teamEspnId, top25F
         top25Finishes,
       };
 
-      _.forEach(allYearResults, (individualYearResults) => {
-        _.forEach(individualYearResults, ({result, pointDifferential}) => {
+      allYearResults.forEach((individualYearResults) => {
+        individualYearResults.forEach(({result, pointDifferential}) => {
           onePossesssionGameData.totalGamesCount += 1;
           onePossesssionGameData.totalDifferential += pointDifferential;
 
@@ -115,27 +117,27 @@ const fetchOnePossessionGameDataDuringBrianKellyEra = async ({teamEspnId, top25F
 Promise.all(BK_ERA_YEARS.map((year) => fetchTop25TeamEspnIds(year)))
   .then(async (yearlyResults) => {
     const top25TeamIds = {};
-    _.forEach(yearlyResults, (teamEspnIds) => {
-      _.forEach(teamEspnIds, (teamEspnId, teamName) => {
+    yearlyResults.forEach((teamEspnIds) => {
+      teamEspnIds.forEach((teamEspnId, teamName) => {
         top25TeamIds[teamName] = {
           teamEspnId,
-          top25Finishes: _.get(top25TeamIds, [teamName, 'top25Finishes'], 0) + 1,
+          top25Finishes: top25TeamIds[teamName]?.top25Finishes + 1 || 1,
         };
       });
     });
 
     const top25CloseGameData = {};
     for (const teamName of Object.keys(top25TeamIds)) {
-      Logger.info(`Fetching one possession game data for ${teamName}.`);
+      logger.info(`Fetching one possession game data for ${teamName}.`);
       top25CloseGameData[teamName] = await fetchOnePossessionGameDataDuringBrianKellyEra(
         top25TeamIds[teamName]
       );
     }
 
-    Logger.info('RESULTS:', {top25CloseGameData});
+    logger.info('RESULTS:', {top25CloseGameData});
 
-    Logger.success('Success!');
+    logger.success('Success!');
   })
   .catch((error) => {
-    Logger.error('Error fetching top 25 teams:', {error});
+    logger.error('Error fetching top 25 teams:', {error});
   });

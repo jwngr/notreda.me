@@ -3,29 +3,32 @@ import path from 'path';
 
 import format from 'date-fns/format';
 import _ from 'lodash';
+import range from 'lodash/range';
 
 import {getForSeason} from '../../website/src/resources/schedules';
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/decadeCsvs');
 
 const DECADES = [
-  _.range(1887, 1890),
-  _.range(1892, 1900),
-  _.range(1900, 1910),
-  _.range(1910, 1920),
-  _.range(1920, 1930),
-  _.range(1930, 1940),
-  _.range(1940, 1950),
-  _.range(1950, 1960),
-  _.range(1960, 1970),
-  _.range(1970, 1980),
-  _.range(1980, 1990),
-  _.range(1990, 2000),
-  _.range(2000, 2010),
-  _.range(2010, 2020),
-  _.range(2020, CURRENT_SEASON),
+  range(1887, 1890),
+  range(1892, 1900),
+  range(1900, 1910),
+  range(1910, 1920),
+  range(1920, 1930),
+  range(1930, 1940),
+  range(1940, 1950),
+  range(1950, 1960),
+  range(1960, 1970),
+  range(1970, 1980),
+  range(1980, 1990),
+  range(1990, 2000),
+  range(2000, 2010),
+  range(2010, 2020),
+  range(2020, CURRENT_SEASON),
 ];
 
 const stats = [
@@ -48,7 +51,7 @@ const stats = [
   {name: 'possession', text: 'Possession'},
 ];
 
-Logger.info('Generating CSVs...');
+logger.info('Generating CSVs...');
 
 DECADES.forEach((seasons) => {
   const firstYear = seasons[0];
@@ -90,4 +93,4 @@ DECADES.forEach((seasons) => {
   fs.writeFileSync(outputFilename, lines.join('\n'));
 });
 
-Logger.success('CSVs generated!');
+logger.success('CSVs generated!');

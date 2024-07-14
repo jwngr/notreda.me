@@ -1,15 +1,17 @@
 import fs from 'fs';
 
 import cheerio from 'cheerio';
-import _ from 'lodash';
+import range from 'lodash/range';
 import request from 'request-promise';
 import RSVP from 'rsvp';
 
 import {Logger} from '../../lib/logger';
 import teamMappings from './teamMappings.json';
 
+const logger = new Logger({isSentryEnabled: false});
+
 if (process.argv.length !== 3) {
-  Logger.error('USAGE: node scrapeSchedule.js <output_file>');
+  logger.error('USAGE: node scrapeSchedule.js <output_file>');
   process.exit(1);
 }
 
@@ -17,7 +19,7 @@ if (process.argv.length !== 3) {
  * Fetches the raw HTML schedule data for a given year.
  *
  * @param  {number} year The year whose schedule to fetch.
- * @return {Promise<Cheerio>} A Cheerio object containing the HTML schedule data.
+ * @return {Promise<cheerio.Root>} The HTML schedule data.
  */
 const getHtmlScheduleDataForYear = (year) => {
   return request({
@@ -54,47 +56,49 @@ const getGamesForYear = (year) => {
       return $row.children('td').length === 4;
     });
 
-    const games = _.map($rows, ($row) => {
-      const rowCells = $row.children('td');
+    const games = $rows
+      .map(($row) => {
+        const rowCells = $row.children('td');
 
-      const result = $(rowCells[3]).text().trim();
-      let opponent = $(rowCells[1]).text().trim();
+        const result = $(rowCells[3]).text().trim();
+        let opponent = $(rowCells[1]).text().trim();
 
-      const isHomeGame = _.startsWith(opponent, 'vs.');
+        const isHomeGame = opponent.startsWith('vs.');
 
-      // Strip off the 'vs.' or 'at' at the beginning of the opponent
-      opponent = opponent.slice(3).trim();
+        // Strip off the 'vs.' or 'at' at the beginning of the opponent
+        opponent = opponent.slice(3).trim();
 
-      // Remove '(**** Bowl)' from any bowl games
-      let isBowlGame = false;
-      if (opponent.indexOf('Bowl') !== -1) {
-        isBowlGame = true;
-        opponent = opponent.split('(')[0].trim();
-      }
+        // Remove '(**** Bowl)' from any bowl games
+        let isBowlGame = false;
+        if (opponent.indexOf('Bowl') !== -1) {
+          isBowlGame = true;
+          opponent = opponent.split('(')[0].trim();
+        }
 
-      // Clean up state abbreviations
-      // ???
+        // Clean up state abbreviations
+        // ???
 
-      // Ignore Blue-Gold spring games and cancelled games
-      if (!_.includes(opponent, 'Game') && result !== 'Cancelled') {
-        return {
-          result,
-          isHomeGame,
-          isBowlGame,
-          opponent: teamMappings[opponent],
-          date: $(rowCells[0]).text().trim(),
-          location: $(rowCells[2]).text().trim(),
-        };
-      }
-    }).filter((game) => !!game);
+        // Ignore Blue-Gold spring games and cancelled games
+        if (!opponent.includes('Game') && result !== 'Cancelled') {
+          return {
+            result,
+            isHomeGame,
+            isBowlGame,
+            opponent: teamMappings[opponent],
+            date: $(rowCells[0]).text().trim(),
+            location: $(rowCells[2]).text().trim(),
+          };
+        }
+      })
+      .filter((game) => !!game);
 
     return games;
   });
 };
 
-const years = _.range(1887, 2016);
+const years = range(1887, 2016);
 const promises = {};
-_.forEach(years, (year) => {
+years.forEach((year) => {
   // Skip 1890 and 1891 since und.com doesn't have data for those years
   if (year === 1890 || year === 1891) {
     return;
@@ -102,7 +106,7 @@ _.forEach(years, (year) => {
 
   promises[year] = getGamesForYear(year)
     .then((games) => {
-      return _.map(games, (game) => {
+      games.map((game) => {
         let numOvertimes = 0;
 
         // If the game has already been played, get the results and scores
@@ -149,15 +153,15 @@ _.forEach(years, (year) => {
       });
     })
     .catch(function (error) {
-      Logger.error(`Error scraping ${year} schedule:`, {error});
+      logger.error(`Error scraping ${year} schedule:`, {error});
     });
 });
 
 RSVP.hash(promises)
   .then(function (result) {
     fs.writeFileSync(process.argv[2], JSON.stringify(result, null, 2));
-    Logger.success(`Schedule written to ${process.argv[2]}!`);
+    logger.success(`Schedule written to ${process.argv[2]}!`);
   })
   .catch(function (error) {
-    Logger.fail('Failed to scrape schedule for all years:', {error});
+    logger.fail('Failed to scrape schedule for all years:', {error});
   });

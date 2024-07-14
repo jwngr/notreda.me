@@ -2,10 +2,11 @@ import fs from 'fs';
 import path from 'path';
 
 import cheerio from 'cheerio';
-import _ from 'lodash';
 import request from 'request-promise';
 
 import {Logger} from '../lib/logger';
+
+const logger = new Logger({isSentryEnabled: false});
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
@@ -18,7 +19,7 @@ const getHtmlForUrl = (url) => {
   });
 };
 
-Logger.info(`Fetching head coaches and bowl games.`);
+logger.info(`Fetching head coaches and bowl games.`);
 
 getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`)
   .then(($) => {
@@ -59,7 +60,7 @@ getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_f
           let bowlGame = rowCellValues[5];
           if (bowlGame) {
             bowlGame = bowlGame.slice(2).replace('†', '');
-            if (!_.includes(bowlGame, ' ') || bowlGame === 'Champs Sports') {
+            if (!bowlGame.includes(' ') || bowlGame === 'Champs Sports') {
               bowlGame += ' Bowl';
             }
             gamesData[gamesData.length - 1].isBowlGame = true;
@@ -71,8 +72,8 @@ getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_f
       }
     });
 
-    Logger.success('Fetched head coaches and bowl games');
+    logger.success('Fetched head coaches and bowl games');
   })
   .catch((error) => {
-    Logger.error(`Failed to fetch head coaches and bowl games:`, error.message);
+    logger.error(`Failed to fetch head coaches and bowl games:`, error.message);
   });

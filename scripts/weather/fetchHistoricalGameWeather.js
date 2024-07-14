@@ -6,7 +6,9 @@ import {Logger} from '../lib/logger';
 import utils from '../lib/utils';
 import weather from '../lib/weather';
 
-Logger.info('Updating weather for historical games...');
+const logger = new Logger({isSentryEnabled: false});
+
+logger.info('Updating weather for historical games...');
 
 const fetchWeatherPromises = [];
 ALL_SEASONS.forEach((season) => {
@@ -23,7 +25,7 @@ ALL_SEASONS.forEach((season) => {
           .fetchForGame([lat, lon], utils.getGameTimestampInSeconds(gameData))
           .then((weather) => {
             if (!weather.temperature) {
-              Logger.warning('NO FORECAST!', {
+              logger.warning('NO FORECAST!', {
                 season,
                 opponentId: gameData.opponentId,
                 location: gameData.location.city + ', ' + gameData.location.state,
@@ -47,8 +49,8 @@ ALL_SEASONS.forEach((season) => {
 
 Promise.all(fetchWeatherPromises)
   .then(() => {
-    Logger.success('Updated weather for historical games!');
+    logger.success('Updated weather for historical games!');
   })
   .catch((error) => {
-    Logger.error('Failed to update weather for historical games', {error});
+    logger.error('Failed to update weather for historical games', {error});
   });

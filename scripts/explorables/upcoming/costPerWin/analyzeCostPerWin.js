@@ -6,6 +6,8 @@ import {Logger} from '../../../lib/logger';
 import utils from '../../../lib/utils';
 import teamRecordsAndSalaryData from './data/teamRecordsAndSalaries.json';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const teamCostPerWinData = _.map(
   teamRecordsAndSalaryData,
   ({wins, salary, headCoach}, teamName) => {
@@ -37,7 +39,7 @@ const sortedTeamCostPerWinData = teamCostPerWinData
   });
 
 sortedTeamCostPerWinData.forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-  Logger.info(i + 1, teamName, headCoach, wins, utils.withCommas(costPerWin));
+  logger.info(i + 1, teamName, headCoach, wins, utils.withCommas(costPerWin));
 });
 
 teamCostPerWinData
@@ -45,7 +47,7 @@ teamCostPerWinData
     return costPerWin === 'Unknown';
   })
   .forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-    Logger.info(sortedTeamCostPerWinData.length + i + 1, teamName, headCoach, wins, costPerWin);
+    logger.info(sortedTeamCostPerWinData.length + i + 1, teamName, headCoach, wins, costPerWin);
   });
 
 fs.writeFileSync('./data/costPerWin.json', JSON.stringify(sortedTeamCostPerWinData, null, 2));

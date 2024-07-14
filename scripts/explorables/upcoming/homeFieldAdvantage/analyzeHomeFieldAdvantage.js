@@ -4,6 +4,8 @@ import {getForSeason} from '../../../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
 const _getInitialStats = () =>
@@ -102,7 +104,7 @@ ALL_SEASONS.forEach((season) => {
 });
 
 const headers = ['Stat', 'Games Played', 'Record', 'Win Percentage'];
-Logger.info(headers.join('\t'));
+logger.info(headers.join('\t'));
 
 const rows = [
   ['Overall', 'overall'],
@@ -116,7 +118,7 @@ const rows = [
 ];
 
 _.forEach(rows, ([statName, statsKey]) => {
-  Logger.info(
+  logger.info(
     [statName, _getGamesPlayed(statsKey), _getRecord(statsKey), _getWinPercentage(statsKey)].join(
       '\t'
     )

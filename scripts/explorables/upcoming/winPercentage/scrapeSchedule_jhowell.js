@@ -5,6 +5,8 @@ import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const scrapeTeamSchedule = async (team, filename) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -92,5 +94,5 @@ Promise.all([
   scrapeTeamSchedule('Nebraska', '../data/nebraska.json'),
   scrapeTeamSchedule('OldDominion', '../data/oldDominion.json'),
 ]).then(() => {
-  Logger.success('Scraped schedule for all teams!');
+  logger.success('Scraped schedule for all teams!');
 });

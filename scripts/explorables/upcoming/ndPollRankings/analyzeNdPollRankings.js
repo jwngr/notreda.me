@@ -4,6 +4,8 @@ import {getForSeason} from '../../../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 let pollRankings = {
   ap: Array(25).fill(0),
   bcs: Array(25).fill(0),
@@ -26,14 +28,14 @@ ALL_SEASONS.forEach((season) => {
     });
 });
 
-Logger.log('AP Rankings');
-Logger.log(pollRankings.ap.join(' '));
+logger.log('AP Rankings');
+logger.log(pollRankings.ap.join(' '));
 
-Logger.log('\nBCS Rankings');
-Logger.log(pollRankings.bcs.join(' '));
+logger.log('\nBCS Rankings');
+logger.log(pollRankings.bcs.join(' '));
 
-Logger.log('\nCoaches Rankings');
-Logger.log(pollRankings.coaches.join(' '));
+logger.log('\nCoaches Rankings');
+logger.log(pollRankings.coaches.join(' '));
 
-Logger.log('\nCFB Playoff Rankings');
-Logger.log(pollRankings.cfbPlayoff.join(' '));
+logger.log('\nCFB Playoff Rankings');
+logger.log(pollRankings.cfbPlayoff.join(' '));

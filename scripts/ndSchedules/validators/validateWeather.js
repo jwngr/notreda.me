@@ -41,7 +41,7 @@ export function validateWeather({weather, isGameOver, isNextUnplayedGame}, asser
       );
 
       wrappedAssert(
-        _.includes(EXPECTED_WEATHER_ICONS, weather.icon),
+        EXPECTED_WEATHER_ICONS.includes(weather.icon),
         'Weather icon has unexpected value.'
       );
 

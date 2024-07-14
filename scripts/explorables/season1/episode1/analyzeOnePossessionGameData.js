@@ -4,6 +4,8 @@ import {Logger} from '../../../lib/logger';
 import onePossessionNdCoachData from './data/ndCoachesOnePossessionGames.json';
 import onePossessionGameData from './data/top25OnePossessionGames.json';
 
+const logger = new Logger({isSentryEnabled: false});
+
 _.forEach(onePossessionGameData, (data, teamName) => {
   onePossessionGameData[teamName].teamName = teamName;
   onePossessionGameData[teamName].percentageOfGamesWhichAreOnePossessionGames = (
@@ -24,17 +26,17 @@ const teamsSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
   'percentageOfGamesWhichAreOnePossessionGames'
 );
 
-Logger.newline(2);
+logger.newline(2);
 
 teamsSortedByPercentOfGamesWhichAreOnePossessionGames.forEach(
   ({teamName, top25Finishes, percentageOfGamesWhichAreOnePossessionGames}) => {
-    Logger.info(
+    logger.info(
       `["${teamName}", ${top25Finishes}, "", "${percentageOfGamesWhichAreOnePossessionGames}%"],`
     );
   }
 );
 
-Logger.newline(2);
+logger.newline(2);
 
 const coachesSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
   onePossessionNdCoachData,
@@ -44,7 +46,7 @@ const coachesSortedByPercentOfGamesWhichAreOnePossessionGames = _.sortBy(
 coachesSortedByPercentOfGamesWhichAreOnePossessionGames.forEach(
   ({name, totalGamesCount, percentageOfGamesWhichAreOnePossessionGames}) => {
     if (totalGamesCount > 10 && name !== 'No coach') {
-      Logger.info(
+      logger.info(
         `["${name}", ${totalGamesCount}, "${percentageOfGamesWhichAreOnePossessionGames}%"],`
       );
     }

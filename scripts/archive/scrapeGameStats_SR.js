@@ -7,6 +7,8 @@ import puppeteer from 'puppeteer';
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 process.setMaxListeners(Infinity);
@@ -18,7 +20,7 @@ const scrapeGameStats = async (gameId) => {
 
   const url = `https://www.sports-reference.com/cfb/boxscores/${gameId}.html`;
 
-  Logger.info(`Scraping ${url}`);
+  logger.info(`Scraping ${url}`);
 
   await page.goto(url, {
     waitUntil: 'networkidle2',
@@ -77,7 +79,7 @@ const fn = async () => {
   const promises = _.map(yearData, (gameData) => {
     if ('sportsReferenceGameId' in gameData) {
       return scrapeGameStats(gameData.sportsReferenceGameId).catch((error) => {
-        Logger.error(`Failed to scrape game stats for ${gameData.sportsReferenceGameId}:`, {error});
+        logger.error(`Failed to scrape game stats for ${gameData.sportsReferenceGameId}:`, {error});
         throw error;
       });
     } else {
@@ -96,9 +98,9 @@ const fn = async () => {
 
     fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
 
-    Logger.success('Scraped game stats');
+    logger.success('Scraped game stats');
   } catch (error) {
-    Logger.error('Failed to scrape game stats', {error});
+    logger.error('Failed to scrape game stats', {error});
   } finally {
     browser.close();
   }

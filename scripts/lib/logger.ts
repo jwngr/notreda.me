@@ -1,44 +1,60 @@
+import sentry, {Severity} from '@sentry/node';
 import {bold, Chalk} from 'chalk';
 
-function _log(message: string, data: object, color: Chalk) {
-  if (typeof data === 'undefined') {
-    // eslint-disable-next-line no-console
-    console.log(color(message));
-  } else {
-    // eslint-disable-next-line no-console
-    console.log(color(message), data);
-  }
+interface LoggerConfig {
+  readonly isSentryEnabled: boolean;
 }
 
 export class Logger {
+  constructor(private readonly isSentryEnabled: LoggerConfig) {}
+
+  private logInternal(message: string, data?: object | undefined, color: Chalk = bold.black): void {
+    if (typeof data === 'undefined') {
+      // eslint-disable-next-line no-console
+      console.log(color(message));
+    } else {
+      // eslint-disable-next-line no-console
+      console.log(color(message), data);
+    }
+  }
+
+  private logToSentry(message: string, level: Severity.Warning | Severity.Error): void {
+    if (this.isSentryEnabled) {
+      sentry.captureMessage(message, level);
+    }
+  }
+
   /** Passthrough to `console.log`. */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  static log(...args: any[]) {
+  public log(...args: any[]): void {
     // eslint-disable-next-line no-console
     console.log(...args);
   }
 
-  static info(message: string, data: object) {
-    _log(`[INFO] ${message}`, data, bold.black);
+  public info(message: string, data?: object): void {
+    this.logInternal(`[INFO] ${message}`, data, bold.black);
   }
 
-  static warning(message: string, data: object) {
-    _log(`[WARNING] ${message}`, data, bold.yellow);
+  public warning(message: string, data?: object): void {
+    this.logInternal(`[WARNING] ${message}`, data, bold.yellow);
+    this.logToSentry(message, Severity.Warning);
   }
 
-  static error(message: string, data: object) {
-    _log(`[ERROR] ${message}`, data, bold.red);
+  public error(message: string, data?: object): void {
+    this.logInternal(`[ERROR] ${message}`, data, bold.red);
+    this.logToSentry(message, Severity.Error);
   }
 
-  static success(message: string, data: object) {
-    _log(`[SUCCESS] ${message}`, data, bold.green);
+  public success(message: string, data?: object): void {
+    this.logInternal(`[SUCCESS] ${message}`, data, bold.green);
   }
 
-  static fail(message: string, data: object) {
-    _log(`[FAIL] ${message}`, data, bold.red);
+  public fail(message: string, data?: object): void {
+    this.logInternal(`[FAIL] ${message}`, data, bold.red);
+    this.logToSentry(message, Severity.Error);
   }
 
-  static newline(numNewLines = 1) {
+  public newline(numNewLines = 1): void {
     for (let i = 0; i < numNewLines; i++) {
       // eslint-disable-next-line no-console
       console.log();

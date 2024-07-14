@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import {CURRENT_SEASON} from '../../lib/constants';
-import teams from '../../lib/teams';
+import {Teams} from '../../lib/teams';
 import {isNonEmptyString, isNumber} from '../../lib/utils';
 
 export function validateMiscellaneous(
@@ -29,7 +29,7 @@ export function validateMiscellaneous(
 ) {
   assert(typeof isHomeGame === 'boolean', 'isHomeGame must be a boolean.', {isHomeGame});
 
-  assert(teams.existsById(opponentId), 'Opponent ID must correspond to a valid team.', {
+  assert(Teams.existsById(opponentId), 'Opponent ID must correspond to a valid team.', {
     opponentId,
   });
 

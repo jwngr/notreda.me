@@ -6,16 +6,19 @@
     "@sentry/node": "^5.9.0",
     "axios": "^0.20.0",
     "chalk": "^4.0.0",
-    "cheerio": "^1.0.0-rc.2",
-    "lodash": "^4.17.4",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
     "puppeteer": "^1.8.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@types/cheerio": "^0.22.35",
     "@types/lodash": "^4.17.6",
     "@types/node": "^20.14.10",
+    "@types/request-promise": "^4.1.51",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
     "eslint": "^8.57.0",
@@ -23,7 +26,7 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "lint": "prettier --check '**/*.{js,ts,json}' && echo 'Running ESLint...' && eslint . --ext js,ts --report-unused-disable-directives --max-warnings 0 && echo 'All files pass linting!'",
+    "lint": "prettier --check '**/*.{js,ts,json}' && echo 'Running ESLint...' && eslint . --ext js,ts --report-unused-disable-directives --max-warnings 0 && echo 'All files pass linting!' && echo 'Running tsc...' && tsc --noEmit && echo 'All files pass type checking!'",
     "format": "prettier --write '**/*.{js,ts,json}'"
   }
 }

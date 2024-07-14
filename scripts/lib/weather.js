@@ -5,12 +5,13 @@ import {getConfig} from './loadConfig';
 import {Logger} from './logger';
 
 const config = getConfig();
+const logger = new Logger({isSentryEnabled: false});
 
 const DARK_SKY_API_HOST = 'https://api.darksky.net';
 
 const DARK_SKY_API_KEY = _.get(config, 'darkSky.apiKey');
 if (typeof DARK_SKY_API_KEY === 'undefined') {
-  Logger.error('Provided config file does not contain a Dark Sky API key.');
+  logger.error('Provided config file does not contain a Dark Sky API key.');
   process.exit(-1);
 }
 
@@ -91,7 +92,7 @@ module.exports.fetchForGame = ([latitude, longitude], kickoffTimeInSeconds) => {
       }
 
       if (typeof warning !== 'undefined') {
-        Logger.warning(warning, {latitude, longitude, kickoffTimeInSeconds});
+        logger.warning(warning, {latitude, longitude, kickoffTimeInSeconds});
       }
 
       return weather;

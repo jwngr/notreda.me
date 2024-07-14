@@ -1,27 +1,29 @@
-import _ from 'lodash';
+import range from 'lodash/range';
 
 import {Logger} from '../../../lib/logger';
 import teamSchedules from '../../../lib/teamSchedules';
 import undefeatedTeamNamesMap from './undefeatedTeamNamesMap.json';
+
+const logger = new Logger({isSentryEnabled: false});
 
 let totalUndefeatedTeamsCount = 0;
 const undefeatedTeamsPerSeason = {};
 const undefeatedSeasonsPerTeam = {};
 const undefeatedTeamCountsPerSeason = {};
 
-Logger.info('Analyzing undefeated seasons...');
+logger.info('Analyzing undefeated seasons...');
 
 let earliestSeason = 2000;
 
 teamSchedules.forEach((teamName, teamScheduleData) => {
-  _.forEach(teamScheduleData, (games, season) => {
+  teamScheduleData.forEach((games, season) => {
     // if (season >= 1887) {
     season = Number(season);
     earliestSeason = Math.min(season, earliestSeason);
 
     undefeatedTeamsPerSeason[season] = undefeatedTeamsPerSeason[season] || [];
 
-    const firstLossWeek = _.findIndex(games, ['result', 'L']);
+    const firstLossWeek = games.findIndex((game) => game.result === 'L');
 
     if (firstLossWeek === -1) {
       totalUndefeatedTeamsCount++;
@@ -34,36 +36,36 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
   });
 });
 
-Logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
-Logger.newline(2);
+logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', totalUndefeatedTeamsCount);
+logger.newline(2);
 
-Logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
+logger.info('NUMBER OF UNDEFEATED TEAMS PER SEASON:');
 
-_.range(1869, 2018).forEach((season) => {
-  Logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
+range(1869, 2018).forEach((season) => {
+  logger.info(`${season}:`, undefeatedTeamCountsPerSeason[season] || 0);
 });
 
-Logger.newline(2);
-Logger.info('UNDEFEATED TEAMS PER SEASON:');
+logger.newline(2);
+logger.info('UNDEFEATED TEAMS PER SEASON:');
 
-_.range(1869, 2018).forEach((season) => {
-  Logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
+range(1869, 2018).forEach((season) => {
+  logger.info(`${season}:`, undefeatedTeamsPerSeason[season] || []);
 });
 
-Logger.newline(2);
-Logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
+logger.newline(2);
+logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
 
-const sortedUndefeatedSeasonsPerTeam = _.chain(undefeatedSeasonsPerTeam)
-  .mapValues((count, teamName) => ({
+const sortedUndefeatedSeasonsPerTeam = Object.entries(undefeatedSeasonsPerTeam)
+  .map(([teamName, count]) => ({
     count,
     teamName,
   }))
-  .sortBy(({count}) => -count)
-  .value();
-_.forEach(sortedUndefeatedSeasonsPerTeam, ({count, teamName}) => {
-  Logger.info(teamName, count);
+  .sort((a, b) => b.count - a.count);
+
+sortedUndefeatedSeasonsPerTeam.forEach(({count, teamName}) => {
+  logger.info(teamName, count);
 });
 
-Logger.info(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
+logger.info(JSON.stringify(undefeatedTeamsPerSeason, null, 2));
 
-Logger.success('Successfully analyzed undefeated seasons!');
+logger.success('Successfully analyzed undefeated seasons!');

@@ -8,6 +8,8 @@ import request from 'request-promise';
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
+const logger = new Logger({isSentryEnabled: false});
+
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 
 const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
@@ -58,7 +60,7 @@ const promises = years.map((year) => {
       };
     })
     .catch((error) => {
-      Logger.error(`Error fetching game IDs and AP rankings for ${year}`, {error});
+      logger.error(`Error fetching game IDs and AP rankings for ${year}`, {error});
     });
 });
 
@@ -105,8 +107,8 @@ Promise.all(promises)
       fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
     });
 
-    Logger.success('Success!');
+    logger.success('Success!');
   })
   .catch((error) => {
-    Logger.fail(`Error fetching all game IDs`, error);
+    logger.fail(`Error fetching all game IDs`, error);
   });
