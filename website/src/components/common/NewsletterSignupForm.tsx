@@ -3,13 +3,10 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
+import {FlexColumn} from './Flex';
 
-const Wrapper = styled.div`
-  display: flex;
+const Wrapper = styled(FlexColumn).attrs({align: 'center'})`
   margin: 20px auto;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   font-family: 'Inter', serif;
 
   /* Fix weird input button styling on iOS */

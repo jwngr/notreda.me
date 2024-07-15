@@ -10,23 +10,15 @@ import {
 } from '../../lib/matchupHistory';
 import {useWindowSize} from '../../lib/useWindowSize';
 import {GameInfo} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
 
-const MatchupHistoryWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-`;
+const MatchupHistoryWrapper = styled(FlexColumn).attrs({justify: 'center'})``;
 
-const Records = styled.div`
+const Records = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
-  display: flex;
   margin-bottom: 20px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 
   & > div {
     flex: 1;
@@ -51,11 +43,9 @@ interface RecentMatchupsProps {
   readonly $matchupsCount: number;
 }
 
-const RecentMatchups = styled.div<RecentMatchupsProps>`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+const RecentMatchups = styled(FlexRow).attrs({
+  justify: 'center',
+})<RecentMatchupsProps>`
   width: 100%;
   margin-top: ${({$matchupsCount}) => ($matchupsCount > 1 ? '-60px' : 0)};
 `;

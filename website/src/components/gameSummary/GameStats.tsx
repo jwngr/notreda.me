@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Teams} from '../../lib/teams';
 import {GameStats, TeamId} from '../../models';
+import {FlexRow} from '../common/Flex';
 import {GameStatsRow} from './GameStatsRow';
 import {
   STATS_HEADER_COLUMN_STYLES,
@@ -18,10 +19,7 @@ const GameStatsWrapper = styled.div`
   border: solid 3px ${({theme}) => theme.colors.black};
 `;
 
-const GameStatsHeaderRow = styled.div`
-  width: 100%;
-  padding: 0;
-  display: flex;
+const GameStatsHeaderRow = styled(FlexRow)`
   margin-top: -17px;
 `;
 
@@ -29,11 +27,9 @@ interface GameStatsHeaderProps {
   readonly $longestHeaderTextLength: number;
 }
 
-const GameStatsHeader = styled.div<GameStatsHeaderProps>`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
+const GameStatsHeader = styled(FlexRow).attrs({
+  justify: 'center',
+})<GameStatsHeaderProps>`
   p {
     flex: 1;
     min-width: 132px;

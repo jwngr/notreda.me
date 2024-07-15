@@ -4,6 +4,7 @@ import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
 import {GameResult, TVNetwork} from '../models';
+import {FlexRow} from './common/Flex';
 import {TeamLogo} from './common/TeamLogo';
 
 interface GameWrapperProps {
@@ -99,11 +100,6 @@ const awayGameWrapperStyles = css<GameWrapperProps>`
         `}
 `;
 
-export const OpponentWrapper = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
 export const OpponentLogo = styled(TeamLogo)`
   // TODO: Handle this explicitly via the size prop.
   @media (max-width: 600px) {
@@ -125,10 +121,8 @@ export const GameDate = styled.p`
   }
 `;
 
-export const OpponentDetailsWrapper = styled.div`
+export const OpponentDetailsWrapper = styled(FlexRow)`
   width: 250px;
-  display: flex;
-  align-items: center;
 
   @media (max-width: 600px) {
     width: initial;
@@ -183,14 +177,13 @@ export const Location = styled.p`
   }
 `;
 
-export const Score = styled.div`
-  display: flex;
+export const Score = styled(FlexRow).attrs({
+  justify: 'space-between',
+})`
   min-width: 112px;
   font-size: 22px;
   font-family: 'Bungee';
   text-align: center;
-  align-items: center;
-  justify-content: space-between;
 
   @media (max-width: 600px) {
     font-size: 18px;
@@ -254,10 +247,9 @@ interface TelevisionCoverageProps {
   readonly $network: TVNetwork;
 }
 
-export const TelevisionCoverage = styled.div<TelevisionCoverageProps>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+export const TelevisionCoverage = styled(FlexRow).attrs({
+  justify: 'center',
+})<TelevisionCoverageProps>`
   min-width: 120px;
 
   p {

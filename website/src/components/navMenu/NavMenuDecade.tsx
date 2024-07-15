@@ -6,6 +6,7 @@ import styled, {css} from 'styled-components';
 
 import {CURRENT_SEASON, LATEST_SEASON} from '../../lib/constants';
 import {getNationalChampionshipYears} from '../../lib/utils';
+import {FlexRow} from '../common/Flex';
 
 const NavMenuDecadeWrapper = styled.div`
   flex: 1;
@@ -34,13 +35,8 @@ const NavMenuDecadeWrapper = styled.div`
   }
 `;
 
-export const MavMenuDecadeHeader = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+export const MavMenuDecadeHeader = styled(FlexRow).attrs({justify: 'center'})`
   margin-top: -28px;
-
   -webkit-text-stroke: 1px; /* TODO: cross-browser solution */
   -webkit-text-stroke-color: ${({theme}) => darken(0.2, theme.colors.black)};
   text-shadow: ${({theme}) => theme.colors.black} 2px 2px;

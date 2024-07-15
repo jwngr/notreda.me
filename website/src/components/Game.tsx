@@ -5,6 +5,7 @@ import Media from 'react-media';
 import shamrockImage from '../images/shamrock.png';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models';
+import {FlexRow} from './common/Flex';
 import {TVNetworkLogo} from './common/TVNetworkLogo';
 import {
   AwayGamePrefix,
@@ -16,7 +17,6 @@ import {
   OpponentLogo,
   OpponentName,
   OpponentRanking,
-  OpponentWrapper,
   OvertimeIndicator,
   Score,
   ScoreResult,
@@ -160,7 +160,7 @@ export const Game: React.FC<{
       $isSelected={isSelected}
       $isHomeGame={game.isHomeGame}
     >
-      <OpponentWrapper>
+      <FlexRow>
         <OpponentLogo teamId={game.opponentId} size={40} />
         <DateOpponentDetailsWrapper>
           {dateString ? <GameDate>{dateString}</GameDate> : null}
@@ -170,7 +170,7 @@ export const Game: React.FC<{
             {opponentNameContent}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
-      </OpponentWrapper>
+      </FlexRow>
       <Location>
         {location}
         {shamrockSeriesLogoContent}
