@@ -242,7 +242,7 @@ export const getUndefeatedSeasonCountsPerTeamTableData = (
   });
 
   return Object.values(undefeatedSeasonCountsPerTeam)
-    .sort(({count}) => -count)
+    .sort((a, b) => b.count - a.count)
     .map(({count, teamName, latestSeason}) => [teamName, count.toString(), latestSeason.toString()])
     .slice(0, 10);
 };
