@@ -1,10 +1,10 @@
 import {Logger} from '../lib/logger';
-import {transformForAllSeasons} from '../lib/ndSchedules';
+import {NDSchedules} from '../lib/ndSchedules';
 
 const logger = new Logger({isSentryEnabled: false});
 
 logger.info('Transforming schedule data...');
 
-transformForAllSeasons(() => {});
+NDSchedules.transformForAllSeasons(() => {});
 
 logger.success('Schedule data transformed!');

@@ -17,55 +17,55 @@ const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(
   '../../website/src/resources/schedules'
 );
 
-export async function getForSeason(season: number): Promise<readonly GameInfo[]> {
-  try {
-    const data = await fs.readFile(`${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`, 'utf-8');
-    return JSON.parse(data) as readonly GameInfo[];
-  } catch (error) {
-    // If no file exists for the provided season, either Notre Dame did not play any games that
-    // season or it is a future season with no games scheduled yet.
-    return [];
-  }
-}
-
-export async function getForCurrentSeason(): Promise<readonly GameInfo[]> {
-  return getForSeason(CURRENT_SEASON);
-}
-
-export async function updateForSeason(
-  season: number,
-  seasonScheduleData: readonly GameInfo[]
-): Promise<void> {
-  const filePath = `${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`;
-  const jsonData = JSON.stringify(seasonScheduleData, null, 2);
-  const formattedData = await prettier.format(jsonData, {parser: 'json'});
-
-  await fs.writeFile(filePath, formattedData);
-}
-
-export async function updateForCurrentSeason(
-  seasonScheduleData: readonly GameInfo[]
-): Promise<void> {
-  return updateForSeason(CURRENT_SEASON, seasonScheduleData);
-}
-
-export async function transformForAllSeasons(
-  transform: (gameData: GameInfo, season: number, i: number) => void
-): Promise<void> {
-  const allSeasonsScheduleData: Record<number, readonly GameInfo[]> = {};
-
-  const updateForSeasonPromises: Promise<void>[] = [];
-  for (const season of ALL_SEASONS) {
-    const seasonScheduleData = await getForSeason(season);
-
-    seasonScheduleData.forEach((gameData, i) => {
-      transform(gameData, season, i);
-    });
-
-    allSeasonsScheduleData[season] = seasonScheduleData;
-
-    updateForSeasonPromises.push(updateForSeason(season, seasonScheduleData));
+export class NDSchedules {
+  static async getForSeason(season: number): Promise<readonly GameInfo[]> {
+    try {
+      const data = await fs.readFile(`${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`, 'utf-8');
+      return JSON.parse(data) as readonly GameInfo[];
+    } catch (error) {
+      // If no file exists for the provided season, either Notre Dame did not play any games that
+      // season or it is a future season with no games scheduled yet.
+      return [];
+    }
   }
 
-  await Promise.all(updateForSeasonPromises);
+  static async getForCurrentSeason(): Promise<readonly GameInfo[]> {
+    return this.getForSeason(CURRENT_SEASON);
+  }
+
+  static async updateForSeason(
+    season: number,
+    seasonScheduleData: readonly GameInfo[]
+  ): Promise<void> {
+    const filePath = `${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`;
+    const jsonData = JSON.stringify(seasonScheduleData, null, 2);
+    const formattedData = await prettier.format(jsonData, {parser: 'json'});
+
+    await fs.writeFile(filePath, formattedData);
+  }
+
+  static async updateForCurrentSeason(seasonScheduleData: readonly GameInfo[]): Promise<void> {
+    return this.updateForSeason(CURRENT_SEASON, seasonScheduleData);
+  }
+
+  static async transformForAllSeasons(
+    transform: (gameData: GameInfo, season: number, i: number) => void
+  ): Promise<void> {
+    const allSeasonsScheduleData: Record<number, readonly GameInfo[]> = {};
+
+    const updateForSeasonPromises: Promise<void>[] = [];
+    for (const season of ALL_SEASONS) {
+      const seasonScheduleData = await this.getForSeason(season);
+
+      seasonScheduleData.forEach((gameData, i) => {
+        transform(gameData, season, i);
+      });
+
+      allSeasonsScheduleData[season] = seasonScheduleData;
+
+      updateForSeasonPromises.push(this.updateForSeason(season, seasonScheduleData));
+    }
+
+    await Promise.all(updateForSeasonPromises);
+  }
 }

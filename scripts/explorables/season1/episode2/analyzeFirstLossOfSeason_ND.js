@@ -2,8 +2,8 @@ import _ from 'lodash';
 
 import {ALL_PLAYED_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
-import {getForSeason} from '../../../lib/ndSchedules';
-import polls from '../../../lib/polls';
+import {NDSchedules} from '../../../lib/ndSchedules';
+import {Polls} from '../../../lib/polls';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -17,9 +17,9 @@ ALL_PLAYED_SEASONS.forEach((season) => {
   numSeasonsPlayed++;
 
   let finalNdRankingInApPoll;
-  const seasonScheduleData = getForSeason(season);
+  const seasonScheduleData = NDSchedules.getForSeason(season);
 
-  const seasonPolls = polls.getForSeason(season);
+  const seasonPolls = Polls.getForSeason(season);
   if (seasonPolls !== null) {
     const finalApPoll = _.find(seasonPolls.ap, ['date', 'Final']);
     finalNdRankingInApPoll = _.get(finalApPoll, ['teams', 'Notre Dame', 'ranking'], 'NR');
