@@ -4,6 +4,7 @@ import Media from 'react-media';
 import {Link, useParams} from 'react-router-dom';
 import styled from 'styled-components';
 
+import {FlexRow} from '../components/common/Flex';
 import {Game} from '../components/Game';
 import {GameSummary} from '../components/gameSummary/GameSummary';
 import {NavMenu} from '../components/navMenu/NavMenu';
@@ -25,8 +26,7 @@ const ScheduleScreenWrapper = styled.div`
   }
 `;
 
-const ScheduleWrapper = styled.div`
-  display: flex;
+const ScheduleWrapper = styled(FlexRow).attrs({align: 'flex-start'})`
   margin-top: 8px;
 
   & > div:first-of-type {
@@ -118,16 +118,13 @@ const NavMenuButton = styled.div`
   }
 `;
 
-const Header = styled.div`
+const Header = styled(FlexRow).attrs({justify: 'center'})`
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
   height: 56px;
-  display: flex;
   text-align: center;
-  align-items: center;
-  justify-content: center;
 
   @media (max-width: 768px) {
     height: 80px;

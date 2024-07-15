@@ -10,24 +10,15 @@ import {
 } from '../../lib/matchupHistory';
 import {useWindowSize} from '../../lib/useWindowSize';
 import {GameInfo} from '../../models';
-import {FlexRow} from '../common/Flex';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
 
-const MatchupHistoryWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-`;
+const MatchupHistoryWrapper = styled(FlexColumn).attrs({justify: 'center'})``;
 
-const Records = styled.div`
+const Records = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
-  display: flex;
   margin-bottom: 20px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 
   & > div {
     flex: 1;

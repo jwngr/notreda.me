@@ -6,26 +6,21 @@ import styled, {css} from 'styled-components';
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Teams} from '../../lib/teams';
 import {GameLinescore, TeamId} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {YouTubeIcon} from '../common/YouTubeIcon';
 
-const LinescoreWrapper = styled.div`
+const LinescoreWrapper = styled(FlexRow).attrs({
+  justify: 'space-around',
+})`
   width: 100%;
-  display: flex;
   padding-right: 8px;
   margin-top: 32px;
   text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
   font-family: 'Bungee';
   border: solid 3px ${({theme}) => theme.colors.black};
 `;
 
-const LinescoreColumn = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+const LinescoreColumn = styled(FlexColumn).attrs({justify: 'center'})`
   margin-top: -17px;
 
   p {
