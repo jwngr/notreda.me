@@ -1,5 +1,3 @@
-import React from 'react';
-
 export interface GameScore {
   readonly home: number;
   readonly away: number;
