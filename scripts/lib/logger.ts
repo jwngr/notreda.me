@@ -1,4 +1,4 @@
-import sentry, {Severity} from '@sentry/node';
+import {captureMessage, SeverityLevel} from '@sentry/node';
 import chalk, {ChalkInstance} from 'chalk';
 
 interface LoggerConfig {
@@ -22,9 +22,9 @@ export class Logger {
     }
   }
 
-  private logToSentry(message: string, level: Severity.Warning | Severity.Error): void {
+  private logToSentry(message: string, level: SeverityLevel): void {
     if (this.isSentryEnabled) {
-      sentry.captureMessage(message, level);
+      captureMessage(message, level);
     }
   }
 
@@ -41,12 +41,12 @@ export class Logger {
 
   public warning(message: string, data?: object): void {
     this.logInternal(`[WARNING] ${message}`, data, chalk.bold.yellow);
-    this.logToSentry(message, Severity.Warning);
+    this.logToSentry(message, 'warning');
   }
 
   public error(message: string, data?: object): void {
     this.logInternal(`[ERROR] ${message}`, data, chalk.bold.red);
-    this.logToSentry(message, Severity.Error);
+    this.logToSentry(message, 'error');
   }
 
   public success(message: string, data?: object): void {
@@ -55,7 +55,7 @@ export class Logger {
 
   public fail(message: string, data?: object): void {
     this.logInternal(`[FAIL] ${message}`, data, chalk.bold.red);
-    this.logToSentry(message, Severity.Error);
+    this.logToSentry(message, 'error');
   }
 
   public newline(numNewLines = 1): void {

@@ -1,4 +1,4 @@
-import {QueryParams} from '../models';
+import {QueryParams} from '../../website/src/models';
 
 export const withCommas = (value: number): string => {
   if (typeof value !== 'number') {

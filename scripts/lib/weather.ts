@@ -1,4 +1,4 @@
-import {GameWeather} from '../../website/src/models';
+import {GameWeather, QueryParams} from '../../website/src/models';
 import {getConfig} from './loadConfig';
 import {fetchUrl} from './utils';
 
@@ -6,14 +6,13 @@ const config = getConfig();
 
 const OPEN_WEATHER_API_HOST = 'https://api.openweathermap.org';
 
-interface OpenWeatherRequestParams {
+interface OpenWeatherRequestParams extends QueryParams {
   readonly lat: string;
   readonly lon: string;
   readonly appid: string;
-  readonly dt?: string;
-  readonly exclude?: string;
-  readonly units?: 'standard' | 'metric' | 'imperial';
-  readonly lang?: string;
+  readonly dt: string;
+  readonly exclude: string;
+  readonly units: string;
 }
 
 interface OpenWeatherWeatherForecast {
