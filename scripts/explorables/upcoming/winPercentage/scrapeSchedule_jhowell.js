@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import format from 'date-fns/format';
+import {format} from 'date-fns/format';
 import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';

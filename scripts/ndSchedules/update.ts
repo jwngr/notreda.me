@@ -202,6 +202,7 @@ async function runScript() {
     logger.info(`Successfully updated ND schedule for ${SEASON}!`);
   } catch (error) {
     logger.error(`Error updating ND schedule.`, {error, SEASON});
+    process.exit(1);
   }
 }
 

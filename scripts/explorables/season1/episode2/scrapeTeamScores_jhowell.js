@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import format from 'date-fns/format';
+import {format} from 'date-fns/format';
 import _ from 'lodash';
 import puppeteer from 'puppeteer';
 
@@ -165,10 +165,11 @@ const fn = async () => {
     }
 
     logger.success('Successfully scraped team records!');
+    browser.close();
   } catch (error) {
     logger.error('Failed to scrape team records.', {error});
-  } finally {
     browser.close();
+    process.exit(1);
   }
 };
 

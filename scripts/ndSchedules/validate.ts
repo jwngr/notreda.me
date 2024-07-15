@@ -94,7 +94,7 @@ async function main() {
 
   if (_numErrorsFound !== 0) {
     logger.error(`${_numErrorsFound} errors found in schedule data!`);
-    process.exit(-1);
+    process.exit(1);
   }
 
   logger.info('Schedule data successfully validated with no errors!');

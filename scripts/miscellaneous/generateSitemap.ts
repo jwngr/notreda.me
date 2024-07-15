@@ -2,9 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import {getForSeason} from '../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../lib/constants';
 import {Logger} from '../lib/logger';
+import {NDSchedules} from '../lib/ndSchedules';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,7 +13,7 @@ const logger = new Logger({isSentryEnabled: false});
 
 const SITEMAP_FILENAME = path.resolve(__dirname, '../../website/public/sitemap.xml');
 
-function main() {
+async function main() {
   const paths = [
     '/',
     '/explorables/',
@@ -22,7 +22,7 @@ function main() {
   ];
 
   for (const season of ALL_SEASONS) {
-    const seasonScheduleData = getForSeason(season);
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
     paths.push(`/${season}/`);
 
     seasonScheduleData.forEach((_, i) => {
@@ -42,7 +42,7 @@ function main() {
 
   fs.writeFileSync(SITEMAP_FILENAME, sitemap);
 
-  logger.info(`Sitemap successfully written to ${SITEMAP_FILENAME}!`);
+  logger.success(`Sitemap written to ${SITEMAP_FILENAME}!`);
 }
 
 main();

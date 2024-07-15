@@ -1,4 +1,4 @@
-import {Team, TeamId} from '../../website/src/models/teams.models';
+import {Team, TeamId, TeamWithId} from '../../website/src/models/teams.models';
 import teamsJson from '../../website/src/resources/teams.json';
 
 const ALL_TEAMS = teamsJson as Record<TeamId, Team>;
@@ -8,9 +8,9 @@ export class Teams {
     return ALL_TEAMS[teamId];
   }
 
-  static getByName(teamName: string): Team {
+  static getByName(teamName: string): TeamWithId {
     const team = Object.entries(ALL_TEAMS)
-      .map(([teamId, teamData]) => ({id: teamId, ...teamData}))
+      .map(([teamId, teamData]) => ({id: teamId, ...teamData}) as TeamWithId)
       .find(({name}) => name === teamName);
 
     if (!team) {
