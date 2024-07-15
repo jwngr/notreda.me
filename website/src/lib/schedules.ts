@@ -1,4 +1,4 @@
-import {GameInfo} from '../models';
+import {GameInfo} from '../models/games.models';
 import {ALL_SEASONS} from './constants';
 
 const schedulesGlob = import.meta.glob('../resources/schedules/*.json');

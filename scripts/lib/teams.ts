@@ -1,4 +1,4 @@
-import {Team, TeamId} from '../../website/src/models';
+import {Team, TeamId} from '../../website/src/models/teams.models';
 import teamsJson from '../../website/src/resources/teams.json';
 
 const ALL_TEAMS = teamsJson as Record<TeamId, Team>;

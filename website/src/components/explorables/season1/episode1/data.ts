@@ -1,4 +1,4 @@
-import {TableRowData} from '../../../../models';
+import {TableRowData} from '../../../../models/explorables.models';
 
 export const BRIAN_KELLY_DATA = {
   overallWinPercentages: [61.5, 61.5, 92.3, 69.2, 61.5, 76.9, 33.3, 76.9, 100.0],

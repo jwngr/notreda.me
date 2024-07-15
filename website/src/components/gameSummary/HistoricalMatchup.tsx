@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-import {GameResult, GameScore} from '../../models';
+import {GameResult, GameScore} from '../../models/games.models';
 import {FootballShape} from '../common/FootballShape';
 
 interface HistoricalMatchupWrapperProps {

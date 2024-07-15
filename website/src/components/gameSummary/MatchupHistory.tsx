@@ -9,7 +9,7 @@ import {
   getMatchupsAgainstTeam,
 } from '../../lib/matchupHistory';
 import {useWindowSize} from '../../lib/useWindowSize';
-import {GameInfo} from '../../models';
+import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';

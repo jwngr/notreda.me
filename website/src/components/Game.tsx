@@ -4,7 +4,7 @@ import Media from 'react-media';
 
 import shamrockImage from '../images/shamrock.png';
 import {Teams} from '../lib/teams';
-import {GameInfo, GameResult, TVNetwork} from '../models';
+import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
 import {TVNetworkLogo} from './common/TVNetworkLogo';
 import {

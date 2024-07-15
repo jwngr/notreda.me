@@ -1,4 +1,5 @@
-import {GameInfo, TeamId} from '../models';
+import {GameInfo} from '../models/games.models';
+import {TeamId} from '../models/teams.models';
 import {CURRENT_SEASON} from './constants';
 import {Schedules} from './schedules';
 

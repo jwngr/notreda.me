@@ -5,7 +5,8 @@ import Media from 'react-media';
 import styled from 'styled-components';
 
 import {Teams} from '../../lib/teams';
-import {GameInfo, TeamId} from '../../models';
+import {GameInfo} from '../../models/games.models';
+import {TeamId} from '../../models/teams.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {TeamLogo} from '../common/TeamLogo';
 import {GameCoverage} from './GameCoverage';

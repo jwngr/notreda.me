@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {getColorForResult} from '../../lib/utils';
-import {GameResult} from '../../models';
+import {GameResult} from '../../models/games.models';
 
 interface FootballShapePathProps {
   readonly $type: string;

@@ -1,4 +1,6 @@
-import {GameInfo, GameLocation, GameWeather, TeamId, Writable} from '../../website/src/models';
+import {GameInfo, GameLocation, GameWeather} from '../../website/src/models/games.models';
+import {TeamId} from '../../website/src/models/teams.models';
+import {Writable} from '../../website/src/models/utils.models';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';

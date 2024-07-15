@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
-import {GameResult, TVNetwork} from '../models';
+import {GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
 import {TeamLogo} from './common/TeamLogo';
 

@@ -1,6 +1,7 @@
 import _ from 'lodash';
 
-import {GameInfo, GameResult, Writable} from '../../website/src/models';
+import {GameInfo, GameResult} from '../../website/src/models/games.models';
+import {Writable} from '../../website/src/models/utils.models';
 import {CURRENT_SEASON, ND_HEAD_COACH} from '../lib/constants';
 import {
   fetchGameIdsForSeason,

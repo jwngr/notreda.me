@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {GameInfo} from '../../models';
+import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 

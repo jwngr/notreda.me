@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import defaultLogo from '../../images/defaultTeamLogo.png';
 import {Teams} from '../../lib/teams';
-import {TeamId} from '../../models';
+import {TeamId} from '../../models/teams.models';
 
 const teamLogos = import.meta.glob('../../images/teamLogos/*.png');
 

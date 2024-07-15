@@ -1,7 +1,7 @@
 import {isAfter} from 'date-fns/isAfter';
 import {subDays} from 'date-fns/subDays';
 
-import {GameInfo} from '../models';
+import {GameInfo} from '../models/games.models';
 import {CURRENT_SEASON} from './constants';
 import {Schedules} from './schedules';
 

@@ -1,4 +1,4 @@
-import {GameInfo} from '../website/src/models';
+import {GameInfo} from '../website/src/models/games.models';
 
 export interface ScriptsConfig {
   readonly sentry: {

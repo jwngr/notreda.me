@@ -1,7 +1,8 @@
 import React, {useEffect, useMemo, useState} from 'react';
 
 import {Schedules} from '../../lib/schedules';
-import {GameInfo, TeamId} from '../../models';
+import {GameInfo} from '../../models/games.models';
+import {TeamId} from '../../models/teams.models';
 import {CompletedGameSummary} from './CompletedGameSummary';
 import {FutureGameSummary} from './FutureGameSummary';
 
