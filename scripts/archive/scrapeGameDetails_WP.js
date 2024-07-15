@@ -2,11 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import cheerio from 'cheerio';
 import range from 'lodash/range';
-import request from 'request-promise';
 
 import {Logger} from '../lib/logger';
+import {Scraper} from '../lib/scraper';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -15,19 +14,10 @@ const __dirname = path.dirname(__filename);
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
-const getHtmlForUrl = (url) => {
-  return request({
-    uri: url,
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
-};
-
 const fetchGameDetailsForYear = (year) => {
   logger.info(`Fetching year ${year}.`);
 
-  return getHtmlForUrl(
+  return Scraper.get(
     `https://en.wikipedia.org/wiki/${year}_Notre_Dame_Fighting_Irish_football_team`
   )
     .then(($) => {

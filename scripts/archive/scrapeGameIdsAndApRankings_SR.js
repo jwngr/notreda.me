@@ -2,12 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import cheerio from 'cheerio';
 import _ from 'lodash';
-import request from 'request-promise';
 
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
+import {Scraper} from '../lib/scraper';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -20,17 +19,8 @@ const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 
 const years = [CURRENT_SEASON];
 
-const getHtmlForUrl = (url) => {
-  return request({
-    uri: url,
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
-};
-
 const promises = years.map((year) => {
-  return getHtmlForUrl(
+  return Scraper.get(
     `https://www.sports-reference.com/cfb/schools/notre-dame/${year}-schedule.html`
   )
     .then(($) => {

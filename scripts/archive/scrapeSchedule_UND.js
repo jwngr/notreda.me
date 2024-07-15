@@ -1,11 +1,10 @@
 import fs from 'fs';
 
-import cheerio from 'cheerio';
 import range from 'lodash/range';
-import request from 'request-promise';
 import RSVP from 'rsvp';
 
 import {Logger} from '../../lib/logger';
+import {Scraper} from '../../lib/scraper';
 import teamMappings from './teamMappings.json';
 
 const logger = new Logger({isSentryEnabled: false});
@@ -22,12 +21,9 @@ if (process.argv.length !== 3) {
  * @return {Promise<cheerio.Root>} The HTML schedule data.
  */
 const getHtmlScheduleDataForYear = (year) => {
-  return request({
-    uri: 'http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-' + year + '.html',
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
+  return Scraper.get(
+    'http://www.und.com/sports/m-footbl/sched/data/nd-m-footbl-sched-' + year + '.html'
+  );
 };
 
 /**

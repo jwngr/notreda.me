@@ -1,20 +1,18 @@
-import axios, {AxiosResponse} from 'axios';
-
-import {GameWeather} from '../../website/src/models';
+import {GameWeather, QueryParams} from '../../website/src/models';
 import {getConfig} from './loadConfig';
+import {fetchUrl} from './utils';
 
 const config = getConfig();
 
 const OPEN_WEATHER_API_HOST = 'https://api.openweathermap.org';
 
-interface OpenWeatherRequestParams {
+interface OpenWeatherRequestParams extends QueryParams {
   readonly lat: string;
   readonly lon: string;
   readonly appid: string;
-  readonly dt?: string;
-  readonly exclude?: string;
-  readonly units?: 'standard' | 'metric' | 'imperial';
-  readonly lang?: string;
+  readonly dt: string;
+  readonly exclude: string;
+  readonly units: string;
 }
 
 interface OpenWeatherWeatherForecast {
@@ -71,26 +69,21 @@ export class Weather {
         : 'current,minutely,hourly,daily',
     };
 
-    const response = await axios({
+    const forecastResponseData = await fetchUrl<OpenWeatherForecastResponse>({
       url: `${OPEN_WEATHER_API_HOST}/data/3.0/onecall/timemachine`,
       params,
       method: 'GET',
-      headers: {
-        'Accept-Encoding': 'gzip',
-      },
     });
-
-    const forecast: OpenWeatherForecastResponse = response.data;
 
     let chosenForecast: OpenWeatherWeatherForecast | null;
     if (isHistoricalForecastRequest) {
       // For historical games, get the current weather forecast as it will exactly match the
       // provided timestamp.
-      chosenForecast = forecast.data[0];
+      chosenForecast = forecastResponseData.data[0];
     } else {
       // For future games, find the hourly forecast closest to the provided timestamp.
       let closestHourlyForecast: OpenWeatherWeatherForecast | null = null;
-      forecast.hourly.forEach((currentHourlyForecast) => {
+      forecastResponseData.hourly.forEach((currentHourlyForecast) => {
         const currentTimeDistance = Math.abs(timestamp - currentHourlyForecast.dt);
         const closestHourlyForecastTimeDistance =
           closestHourlyForecast === null
@@ -127,12 +120,6 @@ export class Weather {
     }
   }
 
-  private static parseOpenWeatherResponse(
-    response: AxiosResponse<OpenWeatherForecastResponse>
-  ): OpenWeatherForecastResponse {
-    return response.data;
-  }
-
   static async fetchForHistoricalGame({
     latitude,
     longitude,
@@ -154,21 +141,17 @@ export class Weather {
       exclude: 'current,minutely,daily',
     };
 
-    const response = await axios({
+    const forecastResponseData = await fetchUrl<OpenWeatherForecastResponse>({
       url: `${OPEN_WEATHER_API_HOST}/data/3.0/onecall/timemachine`,
       params,
       method: 'GET',
-      headers: {
-        'Accept-Encoding': 'gzip',
-      },
     });
 
-    const responseData = this.parseOpenWeatherResponse(response);
-    const chosenForecast = responseData.data[0];
+    const forecast = forecastResponseData.data[0];
 
     return {
-      icon: chosenForecast.weather[0].icon,
-      temperature: Math.round(chosenForecast.temp),
+      icon: forecast.weather[0].icon,
+      temperature: Math.round(forecast.temp),
     };
   }
 
@@ -193,20 +176,15 @@ export class Weather {
       exclude: 'current,minutely,hourly,daily',
     };
 
-    const response = await axios({
+    const forecastResponseData = await fetchUrl<OpenWeatherForecastResponse>({
       url: `${OPEN_WEATHER_API_HOST}/data/3.0/onecall/timemachine`,
       params,
       method: 'GET',
-      headers: {
-        'Accept-Encoding': 'gzip',
-      },
     });
-
-    const responseData = this.parseOpenWeatherResponse(response);
 
     // For future games, find the hourly forecast closest to the provided timestamp.
     let closestHourlyForecast: OpenWeatherWeatherForecast | undefined;
-    responseData.hourly.forEach((currentHourlyForecast) => {
+    forecastResponseData.hourly.forEach((currentHourlyForecast) => {
       const currentTimeDistance = Math.abs(timestamp - currentHourlyForecast.dt);
       const closestHourlyForecastTimeDistance = closestHourlyForecast
         ? Math.abs(timestamp - closestHourlyForecast.dt)

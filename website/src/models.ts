@@ -361,3 +361,5 @@ export type Writable<T> = {
 export type Optional<T> = {
   [P in keyof T]?: T[P];
 };
+
+export type QueryParams = Record<string, string>;
