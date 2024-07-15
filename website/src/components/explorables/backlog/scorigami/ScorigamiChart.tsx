@@ -4,22 +4,17 @@ import {darken} from 'polished';
 import React from 'react';
 import styled from 'styled-components';
 
+import {FlexColumn, FlexRow} from '../../../common/Flex';
 import scorigamiData from './data.json';
 
-const ScorigamiChartWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
+const ScorigamiChartWrapper = styled(FlexColumn)`
   max-width: 740px;
-  justify-content: center;
   border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};
   background-color: ${({theme}) => theme.colors.gold}66;
 `;
 
-const ScorigamiRow = styled.div`
+const ScorigamiRow = styled(FlexRow).attrs({justify: 'center'})`
   flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 
   &:last-of-type {
     div {
@@ -32,10 +27,7 @@ interface ScorigamiCellProps {
   readonly $numGamesWithScore: number;
 }
 
-const ScorigamiCell = styled.div<ScorigamiCellProps>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+const ScorigamiCell = styled(FlexRow).attrs({justify: 'center'})<ScorigamiCellProps>`
   min-width: 20px;
   min-height: 20px;
   font-family: 'Inter';

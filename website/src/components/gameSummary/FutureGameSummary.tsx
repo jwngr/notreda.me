@@ -6,15 +6,12 @@ import styled from 'styled-components';
 
 import {Teams} from '../../lib/teams';
 import {GameInfo, TeamId} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {TeamLogo} from '../common/TeamLogo';
 import {GameCoverage} from './GameCoverage';
 
-const FutureGameWrapper = styled.div`
+const FutureGameWrapper = styled(FlexColumn).attrs({align: 'center'})`
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 
   @media (max-width: 768px) {
     padding: 8px;
@@ -25,12 +22,8 @@ const FutureGameWrapper = styled.div`
   }
 `;
 
-const TeamsWrapper = styled.div`
+const TeamsWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-family: 'Bungee';
   margin: 16px 0;
 
@@ -45,10 +38,7 @@ const TeamsWrapper = styled.div`
   }
 `;
 
-const TeamWrapper = styled.div`
-  display: flex;
-  align-items: center;
-
+const TeamWrapper = styled(FlexRow)`
   img {
     height: 80px;
     width: 80px;

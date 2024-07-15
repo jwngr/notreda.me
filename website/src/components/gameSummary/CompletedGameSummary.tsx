@@ -2,19 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {GameInfo, TeamId} from '../../models';
+import {FlexColumn} from '../common/Flex';
 import {GameCoverage} from './GameCoverage';
 // import {MatchupHistory} from '../MatchupHistory';
 import {CompletedGameStats} from './GameStats';
 import {Linescore} from './Linescore';
 import {TotalScore} from './TotalScore';
 
-const CompletedGameWrapper = styled.div`
+const CompletedGameWrapper = styled(FlexColumn).attrs({align: 'center'})`
   flex: 1;
-  display: flex;
   margin-top: 16px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 
   @media (max-width: 768px) {
     padding: 8px;

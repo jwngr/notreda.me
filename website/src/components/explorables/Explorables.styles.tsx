@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
+import {FlexColumn, FlexRow} from '../common/Flex';
 
 export const Wrapper = styled.div`
   max-width: 740px;
@@ -100,25 +101,23 @@ export const Caption = styled.p`
   color: ${({theme}) => theme.colors.gray};
 `;
 
-export const StatsWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+export const StatsWrapper = styled(FlexRow).attrs({
+  gap: 12,
+  wrap: 'wrap',
+  align: 'stretch',
+  justify: 'space-around',
+})`
   margin: -10px 0;
+  border: solid 1px red;
 
   @media (max-width: 600px) {
-    justify-content: center;
   }
 `;
 
-export const Stat = styled.div`
-  display: flex;
+export const Stat = styled(FlexColumn).attrs({align: 'center'})`
   font-family: 'Inter', sans-serif;
-  flex-direction: column;
   width: calc(50% - 12px);
   margin: 10px 0;
-  text-align: center;
   background-image: url(${backgroundImage});
   background-color: ${({theme}) => theme.colors.gray}40;
   border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};

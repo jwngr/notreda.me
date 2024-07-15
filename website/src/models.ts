@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface GameScore {
   readonly home: number;
   readonly away: number;
@@ -363,3 +365,8 @@ export type Optional<T> = {
 };
 
 export type QueryParams = Record<string, string>;
+
+export interface StyleAttributes {
+  readonly style?: React.CSSProperties;
+  readonly className?: string;
+}
