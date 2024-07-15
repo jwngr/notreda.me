@@ -2,13 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {GameInfo} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 
-const LocationInnerWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+const LocationInnerWrapper = styled(FlexRow).attrs({
+  justify: 'center',
+})`
   width: 100%;
   height: 100%;
 
@@ -23,11 +22,7 @@ const LocationInnerWrapper = styled.div`
   }
 `;
 
-const WeatherWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+const WeatherWrapper = styled(FlexColumn).attrs({align: 'center'})`
   margin-right: 16px;
 `;
 
@@ -47,14 +42,13 @@ const Temperature = styled.p<TemperatureProps>`
 `;
 
 interface StadiumLocationWrapperProps {
-  readonly $center: boolean;
+  readonly center: boolean;
 }
 
-const StadiumLocationWrapper = styled.div<StadiumLocationWrapperProps>`
-  display: flex;
-  flex-direction: column;
-  align-items: ${({$center}) => ($center ? 'center' : 'start')};
-  justify-content: center;
+const StadiumLocationWrapper = styled(FlexColumn).attrs({
+  justify: 'center',
+})<StadiumLocationWrapperProps>`
+  align-items: ${({center}) => (center ? 'center' : 'start')};
   text-align: center;
 `;
 
@@ -140,7 +134,7 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
     <StatsSection title="Location">
       <LocationInnerWrapper>
         {weatherContent}
-        <StadiumLocationWrapper $center={typeof weatherContent === 'undefined'}>
+        <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
           {/* Nickname */}
           {game.nickname ? <p>{game.nickname}</p> : null}
 

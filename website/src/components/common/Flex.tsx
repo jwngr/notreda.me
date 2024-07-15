@@ -59,6 +59,7 @@ export const FlexRow: React.FC<FlexRowProps> = ({
   align,
   justify,
   gap,
+  wrap,
   style,
   className,
 }) => {
@@ -67,6 +68,7 @@ export const FlexRow: React.FC<FlexRowProps> = ({
       $align={align}
       $justify={justify}
       $gap={gap}
+      $wrap={wrap}
       style={style}
       className={className}
     >
@@ -80,6 +82,7 @@ export const FlexColumn: React.FC<FlexColumnProps> = ({
   align,
   justify,
   gap,
+  wrap,
   style,
   className,
 }) => {
@@ -88,6 +91,7 @@ export const FlexColumn: React.FC<FlexColumnProps> = ({
       $align={align}
       $justify={justify}
       $gap={gap}
+      $wrap={wrap}
       style={style}
       className={className}
     >

@@ -4,18 +4,14 @@ import styled from 'styled-components';
 
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Team} from '../../models';
+import {FlexRow} from '../common/Flex';
 import {
   STATS_HEADER_COLUMN_STYLES,
   STATS_HEADER_SPACER_STYLES,
   STATS_SECTION_BREAKPOINTS,
 } from './GameSummary.styles';
 
-const GameStatsRowWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+const GameStatsRowWrapper = styled(FlexRow).attrs({justify: 'center'})`
   &:nth-of-type(2n + 1) {
     background-color: ${({theme}) => theme.colors.gray}2b;
   }

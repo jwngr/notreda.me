@@ -4,15 +4,12 @@ import styled from 'styled-components';
 
 import {assertNever, getTimeZoneString, getTvChannelUrl} from '../../lib/utils';
 import {GameInfo, TVNetwork} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {TVNetworkLogo} from '../common/TVNetworkLogo';
 import {Location} from './Location';
 
-const CoverageInnerWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+const CoverageInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
   height: 100%;
 
@@ -28,15 +25,10 @@ const CoverageInnerWrapper = styled.div`
 `;
 
 interface DateAndTimeWrapperProps {
-  readonly $align: 'center' | 'start';
+  readonly align: 'center' | 'start';
 }
 
-const DateAndTimeWrapper = styled.div<DateAndTimeWrapperProps>`
-  display: flex;
-  flex-direction: column;
-  align-items: ${({$align}) => $align};
-  justify-content: center;
-`;
+const DateAndTimeWrapper = styled(FlexColumn).attrs({justify: 'center'})<DateAndTimeWrapperProps>``;
 
 interface ChannelLogoProps {
   readonly $network: TVNetwork;
@@ -106,12 +98,8 @@ const coverageLocationWrapperSmallerStyles = `
   }
 `;
 
-const GameCoverageWrapper = styled.div`
+const GameCoverageWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 
   & > div {
     flex: 1;
@@ -200,7 +188,7 @@ export const GameCoverage: React.FC<{
     mainContent = (
       <>
         {tvCoverageContent}
-        <DateAndTimeWrapper $align={tvCoverageContent ? 'center' : 'start'}>
+        <DateAndTimeWrapper align={tvCoverageContent ? 'center' : 'start'}>
           <p>{date}</p>
           {time ? <p>{time}</p> : null}
         </DateAndTimeWrapper>

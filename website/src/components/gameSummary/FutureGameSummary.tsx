@@ -60,9 +60,7 @@ interface TeamDetailsWrapperProps {
   readonly $isHomeGame: boolean;
 }
 
-const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
-  display: flex;
-  flex-direction: column;
+const TeamDetailsWrapper = styled(FlexColumn)<TeamDetailsWrapperProps>`
   font-family: 'Inter', serif;
 
   text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
@@ -143,17 +141,9 @@ const AtOrVersus = styled.p`
   }
 `;
 
-const StatsWrapper = styled.div`
+const StatsWrapper = styled(FlexColumn).attrs({gap: 20, justify: 'center'})`
   width: 100%;
-  display: flex;
   margin-top: 20px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-  }
 `;
 
 const TeamInfo: React.FC<{

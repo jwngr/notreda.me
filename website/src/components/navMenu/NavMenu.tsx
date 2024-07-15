@@ -4,13 +4,15 @@ import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {MavMenuDecadeHeader, NavMenuDecade} from './NavMenuDecade';
 
 interface NavMenuWrapperProps {
   readonly $isOpen: boolean;
 }
 
-const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
+const NavMenuWrapper = styled(FlexColumn)<NavMenuWrapperProps>`
+  min-width: 0;
   position: fixed;
   width: 720px;
   max-width: 100%;
@@ -30,8 +32,6 @@ const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
   background-color: ${({theme}) => theme.colors.lightGray};
   background-image: url(${backgroundImage});
   overscroll-behavior: contain;
-  display: flex;
-  flex-direction: column;
 
   ${({$isOpen}) =>
     $isOpen
@@ -46,11 +46,6 @@ const NavMenuWrapper = styled.div<NavMenuWrapperProps>`
     padding-bottom: 0;
     border: none;
   }
-`;
-
-const NavMenuDecadesWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
 `;
 
 const NavMenuLinksSectionWrapper = styled.div`
@@ -92,12 +87,8 @@ const NavMenuLinksDivider = styled.p`
   }
 `;
 
-const NavMenuLinksWrapper = styled.div`
-  display: flex;
+const NavMenuLinksWrapper = styled(FlexRow).attrs({justify: 'center'})`
   padding: 8px 12px 0 12px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 
   @media (max-width: 480px) {
     padding: 8px 4px 0 4px;
@@ -139,10 +130,10 @@ export const NavMenu: React.FC<{
         </NavMenuLinksWrapper>
       </NavMenuLinksSectionWrapper>
 
-      <NavMenuDecadesWrapper>
+      <FlexRow wrap="wrap">
         {navMenuDecadesContent}
         <p>&nbsp;</p>
-      </NavMenuDecadesWrapper>
+      </FlexRow>
     </NavMenuWrapper>
   );
 };

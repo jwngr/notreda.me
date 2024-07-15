@@ -10,6 +10,7 @@ import {
 } from '../../lib/matchupHistory';
 import {useWindowSize} from '../../lib/useWindowSize';
 import {GameInfo} from '../../models';
+import {FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
 
@@ -51,11 +52,9 @@ interface RecentMatchupsProps {
   readonly $matchupsCount: number;
 }
 
-const RecentMatchups = styled.div<RecentMatchupsProps>`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+const RecentMatchups = styled(FlexRow).attrs({
+  justify: 'center',
+})<RecentMatchupsProps>`
   width: 100%;
   margin-top: ${({$matchupsCount}) => ($matchupsCount > 1 ? '-60px' : 0)};
 `;

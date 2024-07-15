@@ -3,14 +3,13 @@ import styled from 'styled-components';
 
 import {Teams} from '../../lib/teams';
 import {GameInfo, TeamId} from '../../models';
+import {FlexColumn, FlexRow} from '../common/Flex';
 import {TeamLogo} from '../common/TeamLogo';
 
-const TotalScoreWrapper = styled.div`
+const TotalScoreWrapper = styled(FlexRow).attrs({
+  justify: 'center',
+})`
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-family: 'Bungee';
   margin-bottom: 44px;
 
@@ -28,10 +27,8 @@ interface TeamWrapperProps {
   readonly $isHomeGame: boolean;
 }
 
-const TeamWrapper = styled.div<TeamWrapperProps>`
+const TeamWrapper = styled(FlexRow)<TeamWrapperProps>`
   flex: 1;
-  display: flex;
-  align-items: center;
   justify-content: ${({$isHomeGame}) => ($isHomeGame ? 'flex-start' : 'flex-end')};
 `;
 
@@ -56,9 +53,7 @@ interface TeamDetailsWrapperProps {
   readonly $isHomeGame: boolean;
 }
 
-const TeamDetailsWrapper = styled.div<TeamDetailsWrapperProps>`
-  display: flex;
-  flex-direction: column;
+const TeamDetailsWrapper = styled(FlexColumn)<TeamDetailsWrapperProps>`
   text-align: ${({$isHomeGame}) => ($isHomeGame ? 'left' : 'right')};
   font-family: 'Inter', serif;
 
