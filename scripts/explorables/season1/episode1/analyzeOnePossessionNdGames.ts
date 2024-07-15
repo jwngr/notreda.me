@@ -5,6 +5,7 @@ import {fileURLToPath} from 'url';
 import {Writable} from '../../../../website/src/models';
 import {Logger} from '../../../lib/logger';
 import {NDSchedules} from '../../../lib/ndSchedules';
+import {ExpS1E1CoachInfo, ExpS1E1TeamRecordsInfo} from './models';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -12,36 +13,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../../../website/src/resources/schedules');
 
-interface SeasonInfo {
-  readonly totalTiesCount: number;
-  readonly totalWinsCount: number;
-  readonly totalGamesCount: number;
-  readonly totalLossesCount: number;
-  readonly totalDifferential: number;
-  readonly onePossesssionGamesCount: number;
-  readonly onePossesssionTiesCount: number;
-  readonly onePossesssionWinsCount: number;
-  readonly onePossesssionLossesCount: number;
-}
-
-interface CoachInfo {
-  readonly name: string;
-  readonly totalTiesCount: number;
-  readonly totalWinsCount: number;
-  readonly totalGamesCount: number;
-  readonly totalLossesCount: number;
-  readonly totalDifferential: number;
-  readonly onePossesssionGamesCount: number;
-  readonly onePossesssionTiesCount: number;
-  readonly onePossesssionWinsCount: number;
-  readonly onePossesssionLossesCount: number;
-}
-
 async function main() {
   const dataFilenames = fs.readdirSync(INPUT_DATA_DIRECTORY);
 
-  const seasons: Record<number, SeasonInfo> = {};
-  const coaches: Record<string, CoachInfo> = {};
+  const seasons: Record<number, ExpS1E1TeamRecordsInfo> = {};
+  const coaches: Record<string, ExpS1E1CoachInfo> = {};
   const coachOrder: string[] = [];
 
   const getPercentage = (top: number, bottom: number): string => {
@@ -60,14 +36,12 @@ async function main() {
     if (season <= 2018) {
       const seasonSchedule = await NDSchedules.getForSeason(season);
 
-      const seasonInfo: Writable<SeasonInfo> = {
-        totalTiesCount: 0,
+      const teamRecordsInfo: Writable<ExpS1E1TeamRecordsInfo> = {
         totalWinsCount: 0,
         totalGamesCount: 0,
         totalLossesCount: 0,
         totalDifferential: 0,
         onePossesssionGamesCount: 0,
-        onePossesssionTiesCount: 0,
         onePossesssionWinsCount: 0,
         onePossesssionLossesCount: 0,
       };
@@ -79,7 +53,7 @@ async function main() {
           coachOrder.push(gameData.headCoach);
         }
 
-        const coachInfo: Writable<CoachInfo> = coaches[gameData.headCoach] || {
+        const coachInfo: Writable<ExpS1E1CoachInfo> = coaches[gameData.headCoach] || {
           name: gameData.headCoach,
           totalTiesCount: 0,
           totalWinsCount: 0,
@@ -93,36 +67,34 @@ async function main() {
         };
 
         if (gameData.result && gameData.score) {
-          seasonInfo.totalGamesCount += 1;
+          teamRecordsInfo.totalGamesCount += 1;
           coachInfo.totalGamesCount += 1;
 
           if (gameData.result === 'W') {
-            seasonInfo.totalWinsCount += 1;
+            teamRecordsInfo.totalWinsCount += 1;
             coachInfo.totalWinsCount += 1;
           } else if (gameData.result === 'L') {
-            seasonInfo.totalLossesCount += 1;
+            teamRecordsInfo.totalLossesCount += 1;
             coachInfo.totalLossesCount += 1;
           } else {
-            seasonInfo.totalTiesCount += 1;
             coachInfo.totalTiesCount += 1;
           }
 
           const differential = Math.abs(gameData.score.home - gameData.score.away);
-          seasonInfo.totalDifferential += differential;
+          teamRecordsInfo.totalDifferential += differential;
           coachInfo.totalDifferential += differential;
 
           if (differential <= 8) {
-            seasonInfo.onePossesssionGamesCount += 1;
+            teamRecordsInfo.onePossesssionGamesCount += 1;
             coachInfo.onePossesssionGamesCount += 1;
 
             if (gameData.result === 'W') {
-              seasonInfo.onePossesssionWinsCount += 1;
+              teamRecordsInfo.onePossesssionWinsCount += 1;
               coachInfo.onePossesssionWinsCount += 1;
             } else if (gameData.result === 'L') {
-              seasonInfo.onePossesssionLossesCount += 1;
+              teamRecordsInfo.onePossesssionLossesCount += 1;
               coachInfo.onePossesssionLossesCount += 1;
             } else {
-              seasonInfo.onePossesssionTiesCount += 1;
               coachInfo.onePossesssionTiesCount += 1;
             }
           }
@@ -131,7 +103,7 @@ async function main() {
         coaches[gameData.headCoach] = coachInfo;
       });
 
-      seasons[season] = seasonInfo;
+      seasons[season] = teamRecordsInfo;
 
       logger.newline();
       logger.info(`Processed ${season}`, {
