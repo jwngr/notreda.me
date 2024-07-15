@@ -338,6 +338,7 @@ export interface IndividualTeamPollData {
 
 export interface WeeklyIndividualPollRanking {
   readonly date: string;
+  // TODO: Key by `TeamId` to make this more typesafe.
   readonly teams: Record<string, IndividualTeamPollData>;
 }
 

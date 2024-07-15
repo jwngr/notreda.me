@@ -1,11 +1,15 @@
 import fs from 'fs';
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
 
 import {getForSeason} from '../../../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 

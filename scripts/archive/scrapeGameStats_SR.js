@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
 import puppeteer from 'puppeteer';
@@ -8,6 +9,9 @@ import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 
 const logger = new Logger({isSentryEnabled: false});
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resources/schedules');
 

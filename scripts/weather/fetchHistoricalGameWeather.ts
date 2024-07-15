@@ -1,7 +1,7 @@
 import {GameInfo, GameLocation, GameWeather, TeamId, Writable} from '../../website/src/models';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
-import {getForSeason, updateForSeason} from '../lib/ndSchedules';
+import {NDSchedules} from '../lib/ndSchedules';
 import {getGameTimestampInSeconds} from '../lib/utils';
 import {Weather} from '../lib/weather';
 
@@ -41,7 +41,7 @@ async function main(): Promise<void> {
     // the loop around so it's easy to re-run on older data if we need to.
     if (season !== CURRENT_SEASON) continue;
 
-    const seasonScheduleData = await getForSeason(season);
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
     const seasonFetchWeatherPromises: Promise<GameWeather | null>[] = seasonScheduleData.map(
       async (gameInfo) => {
         // Skip games that should not have weather or already have weather.
@@ -75,7 +75,7 @@ async function main(): Promise<void> {
           }
         });
 
-        await updateForSeason(season, seasonScheduleData);
+        await NDSchedules.updateForSeason(season, seasonScheduleData);
         logger.info(`Updated weather for season ${season}...`);
       })
     );

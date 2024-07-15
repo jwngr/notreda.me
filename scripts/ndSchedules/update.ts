@@ -10,9 +10,8 @@ import {
   fetchTeamRecordUpThroughNotreDameGameForSeason,
 } from '../lib/espn';
 import {Logger} from '../lib/logger';
-import {getForCurrentSeason, updateForSeason} from '../lib/ndSchedules';
-// TODO: Re-enable polls.
-// import polls from '../lib/polls';
+import {NDSchedules} from '../lib/ndSchedules';
+import {Polls} from '../lib/polls';
 import {getGameDate, getGameTimestampInSeconds} from '../lib/utils';
 import {Weather} from '../lib/weather';
 
@@ -22,7 +21,7 @@ const SEASON = CURRENT_SEASON;
 const logger = new Logger({isSentryEnabled: true});
 
 const updateNdSchedule = async () => {
-  const currentSeasonSchedule = await getForCurrentSeason();
+  const currentSeasonSchedule = await NDSchedules.getForCurrentSeason();
 
   logger.info(`Updating data for ${SEASON} season...`);
 
@@ -144,10 +143,15 @@ const updateNdSchedule = async () => {
     };
   });
 
-  // logger.info(`Updating polls...`);
-  // TODO: Fix this. It gets the wrong data once a bye week happens.
-  // const currentSeasonPollsData = await fetchPollsForSeason(SEASON);
-  // polls.updateForSeason(SEASON, currentSeasonPollsData, currentSeasonSchedule);
+  logger.info(`Updating polls...`);
+  const currentSeasonPollsData = await Polls.getForSeason(SEASON);
+  if (currentSeasonPollsData) {
+    Polls.updateForSeason({
+      season: SEASON,
+      seasonPollsData: currentSeasonPollsData,
+      seasonScheduleData: currentSeasonSchedule,
+    });
+  }
 
   logger.info(`Updating weather for upcoming game...`);
   const nextUpcomingCurrentSeasonGame = currentSeasonSchedule.find(
@@ -184,7 +188,7 @@ const updateNdSchedule = async () => {
   }
 
   logger.info(`Updating ND schedule data file for ${SEASON}...`);
-  return updateForSeason(SEASON, currentSeasonSchedule);
+  return NDSchedules.updateForSeason(SEASON, currentSeasonSchedule);
 
   // Uncomment to run a data transformation on all seasons.
   // logger.info(`Running data tranformation on all seasons...`);
