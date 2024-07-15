@@ -15,17 +15,17 @@ export const getGameDate = ({
   time,
   fullDate,
 }: {
-  readonly date: string;
-  readonly time: string;
-  readonly fullDate: string;
+  readonly date?: string;
+  readonly time?: string;
+  readonly fullDate?: string;
 }): Date => {
-  let d;
+  let d: Date | undefined;
   if (fullDate) {
     d = new Date(fullDate);
-  } else if (time) {
-    d = new Date(date + ' ' + time);
+  } else if (date && time) {
+    d = time ? new Date(date + ' ' + time) : new Date(date);
   } else {
-    d = new Date(date);
+    throw new Error('Invalid game date.');
   }
 
   return d;
@@ -36,9 +36,9 @@ export const getGameTimestampInSeconds = ({
   time,
   fullDate,
 }: {
-  readonly date: string;
-  readonly time: string;
-  readonly fullDate: string;
+  readonly date?: string;
+  readonly time?: string;
+  readonly fullDate?: string;
 }): number => {
   const d = getGameDate({date, time, fullDate});
   return d.getTime() / 1000;

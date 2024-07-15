@@ -1,5 +1,6 @@
 import _ from 'lodash';
 
+import {GameInfo, GameResult, Writable} from '../../website/src/models';
 import {CURRENT_SEASON, ND_HEAD_COACH} from '../lib/constants';
 import {
   fetchGameIdsForSeason,
@@ -12,8 +13,8 @@ import {Logger} from '../lib/logger';
 import {getForCurrentSeason, updateForSeason} from '../lib/ndSchedules';
 // TODO: Re-enable polls.
 // import polls from '../lib/polls';
-import utils from '../lib/utils';
-import weather from '../lib/weather';
+import {getGameDate, getGameTimestampInSeconds} from '../lib/utils';
+import {Weather} from '../lib/weather';
 
 const SEASON = CURRENT_SEASON;
 
@@ -21,14 +22,14 @@ const SEASON = CURRENT_SEASON;
 const logger = new Logger({isSentryEnabled: true});
 
 const updateNdSchedule = async () => {
-  const currentSeasonSchedule = getForCurrentSeason();
+  const currentSeasonSchedule = await getForCurrentSeason();
 
   logger.info(`Updating data for ${SEASON} season...`);
 
   logger.info(`Updating game stats...`);
   const espnGameIds = await fetchGameIdsForSeason(SEASON);
   espnGameIds.forEach((espnGameId, i) => {
-    currentSeasonSchedule[i].espnGameId = Number(espnGameId);
+    (currentSeasonSchedule[i] as Writable<GameInfo>).espnGameId = Number(espnGameId);
   });
 
   // Check for new games, such as bowl games, being added to the schedule. If there are new games
@@ -41,6 +42,16 @@ const updateNdSchedule = async () => {
 
   const espnGameStats = await Promise.all(
     _.map(currentSeasonSchedule, (gameData) => {
+      if (!gameData.fullDate) {
+        logger.error(`Full date missing for ${gameData.opponentId} game`);
+        return;
+      }
+
+      if (!gameData.espnGameId) {
+        logger.error(`ESPN game ID missing for ${gameData.opponentId} game`);
+        return;
+      }
+
       // Determine how many days it has been since the game kicked off.
       const millisecondsSinceGame = Date.now() - new Date(gameData.fullDate).getTime();
       const daysSinceGame = Math.floor(millisecondsSinceGame / (1000 * 60 * 60 * 24));
@@ -66,14 +77,15 @@ const updateNdSchedule = async () => {
       );
 
       // Also add the ND head coach as a top-level key to the game data.
-      currentSeasonSchedule[i].headCoach = ND_HEAD_COACH;
+      (currentSeasonSchedule[i] as Writable<GameInfo>).headCoach = ND_HEAD_COACH;
     }
 
     const homeTeamWon = gameStats.score.home > gameStats.score.away;
-    currentSeasonSchedule[i] = {
+    (currentSeasonSchedule[i] as Writable<GameInfo>) = {
       ...currentSeasonSchedule[i],
       ...gameStats,
-      result: currentSeasonSchedule[i].isHomeGame === homeTeamWon ? 'W' : 'L',
+      result:
+        currentSeasonSchedule[i].isHomeGame === homeTeamWon ? GameResult.Win : GameResult.Loss,
     };
   });
 
@@ -90,13 +102,19 @@ const updateNdSchedule = async () => {
       continue;
     }
 
-    const priorGameDate = utils.getGameDate(currentSeasonUpcomingGameData);
+    if (!currentSeasonUpcomingGameData.espnGameId) {
+      throw new Error(
+        `ESPN game ID missing for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`
+      );
+    }
+
+    const priorGameDate = getGameDate(currentSeasonUpcomingGameData);
     const newGameDate = await fetchKickoffTimeForGame(currentSeasonUpcomingGameData.espnGameId);
 
     const priorIsTimeTbd = typeof currentSeasonUpcomingGameData.fullDate === 'undefined';
     const newIsTimeTbd = newGameDate === 'TBD';
 
-    let warningMessage;
+    let warningMessage: string | undefined;
     if (priorIsTimeTbd && !newIsTimeTbd) {
       warningMessage = `Manually add newly announced kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`;
     } else if (newIsTimeTbd && !priorIsTimeTbd) {
@@ -104,7 +122,9 @@ const updateNdSchedule = async () => {
     } else if (!newIsTimeTbd && newGameDate.getTime() !== priorGameDate.getTime()) {
       warningMessage = `Manually update kickoff time for ${SEASON} ${currentSeasonUpcomingGameData.opponentId} game`;
     }
-    logger.warning(warningMessage);
+    if (warningMessage) {
+      logger.warning(warningMessage);
+    }
   }
 
   logger.info(`Updating team records...`);
@@ -118,7 +138,7 @@ const updateNdSchedule = async () => {
   ]);
 
   currentSeasonSchedule.forEach((gameData, i) => {
-    gameData.records = {
+    (gameData as Writable<GameInfo>).records = {
       home: gameData.isHomeGame ? notreDameWeeklyRecords[i] : opponentRecords[i],
       away: gameData.isHomeGame ? opponentRecords[i] : notreDameWeeklyRecords[i],
     };
@@ -130,16 +150,17 @@ const updateNdSchedule = async () => {
   // polls.updateForSeason(SEASON, currentSeasonPollsData, currentSeasonSchedule);
 
   logger.info(`Updating weather for upcoming game...`);
-  const nextUpcomingCurrentSeasonGame = _.find(
-    currentSeasonSchedule,
+  const nextUpcomingCurrentSeasonGame = currentSeasonSchedule.find(
     ({result, isPostponed, isCanceled}) =>
       !isPostponed && !isCanceled && typeof result === 'undefined'
   );
 
-  if (typeof nextUpcomingCurrentSeasonGame === 'undefined') {
+  if (!nextUpcomingCurrentSeasonGame) {
     logger.info('Not fetching weather since current season is over.');
-  } else if (typeof nextUpcomingCurrentSeasonGame.fullDate === 'undefined') {
+  } else if (!nextUpcomingCurrentSeasonGame.fullDate) {
     logger.info('Not fetching weather since next upcoming game has no kickoff time.');
+  } else if (nextUpcomingCurrentSeasonGame.location === 'TBD') {
+    logger.info('Not fetching weather since next upcoming game location is TBD.');
   } else {
     const millisecondsUntilNextUpcomingGame =
       new Date(nextUpcomingCurrentSeasonGame.fullDate).getTime() - Date.now();
@@ -153,10 +174,12 @@ const updateNdSchedule = async () => {
       const gameInfoString = `${CURRENT_SEASON} game against ${nextUpcomingCurrentSeasonGame.opponentId}`;
       logger.info(`Fetching weather for ${gameInfoString}...`);
 
-      nextUpcomingCurrentSeasonGame.weather = await weather.fetchForGame(
-        nextUpcomingCurrentSeasonGame.location.coordinates,
-        utils.getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame)
-      );
+      (nextUpcomingCurrentSeasonGame as Writable<GameInfo>).weather =
+        await Weather.fetchForFutureGame({
+          latitude: nextUpcomingCurrentSeasonGame.location.coordinates[0],
+          longitude: nextUpcomingCurrentSeasonGame.location.coordinates[1],
+          timestamp: getGameTimestampInSeconds(nextUpcomingCurrentSeasonGame),
+        });
     }
   }
 
@@ -168,10 +191,13 @@ const updateNdSchedule = async () => {
   // return transformForAllSeasons(() => {});
 };
 
-updateNdSchedule()
-  .then(() => {
+async function runScript() {
+  try {
+    await updateNdSchedule();
     logger.info(`Successfully updated ND schedule for ${SEASON}!`);
-  })
-  .catch((error) => {
+  } catch (error) {
     logger.error(`Error updating ND schedule.`, {error, SEASON});
-  });
+  }
+}
+
+runScript();

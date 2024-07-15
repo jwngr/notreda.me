@@ -9,14 +9,18 @@ const logger = new Logger({isSentryEnabled: false});
 
 const GAME_STATS_DATA_DIRECTORY = path.resolve(__dirname, '../../website/resources/gamesStats');
 
-ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = getForSeason(season);
-  seasonScheduleData.forEach((gameData) => {
-    fs.writeFileSync(
-      GAME_STATS_DATA_DIRECTORY + `/${season}.json`,
-      JSON.stringify(gameData, null, 2)
-    );
-  });
-});
+async function main() {
+  for (const season of ALL_SEASONS) {
+    const seasonScheduleData = await getForSeason(season);
+    seasonScheduleData.forEach((gameData) => {
+      fs.writeFileSync(
+        GAME_STATS_DATA_DIRECTORY + `/${season}.json`,
+        JSON.stringify(gameData, null, 2)
+      );
+    });
+  }
 
-logger.success('Stats copied');
+  logger.success('Stats copied');
+}
+
+main();

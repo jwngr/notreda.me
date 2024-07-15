@@ -26,7 +26,7 @@ const updateForSeason = (season, seasonPollsData, seasonScheduleData = []) => {
   seasonScheduleData.forEach((game) => {
     const gameDate = new Date(game.date || game.fullDate);
 
-    _.forEach(seasonPollsData, (pollData, pollId) => {
+    seasonPollsData.forEach((pollData, pollId) => {
       let currentWeekPollData;
       pollData.forEach((weekPollData) => {
         if (weekPollData.date === 'Preseason') {

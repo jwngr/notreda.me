@@ -13,29 +13,33 @@ let pollRankings = {
   cfbPlayoff: Array(25).fill(0),
 };
 
-ALL_SEASONS.forEach((season) => {
-  const seasonScheduleData = getForSeason(season);
-  seasonScheduleData
-    .filter(({result}) => typeof result !== 'undefined')
-    .forEach((gameData) => {
-      const ndPollRankings = gameData.isHomeGame
-        ? _.get(gameData, 'rankings.home')
-        : _.get(gameData, 'rankings.away');
+async function main() {
+  for (const season of ALL_SEASONS) {
+    const seasonScheduleData = await getForSeason(season);
+    seasonScheduleData
+      .filter(({result}) => typeof result !== 'undefined')
+      .forEach((gameData) => {
+        const ndPollRankings = gameData.isHomeGame
+          ? _.get(gameData, 'rankings.home')
+          : _.get(gameData, 'rankings.away');
 
-      _.forEach(ndPollRankings, (ranking, poll) => {
-        pollRankings[poll][ranking - 1]++;
+        _.forEach(ndPollRankings, (ranking, poll) => {
+          pollRankings[poll][ranking - 1]++;
+        });
       });
-    });
-});
+  }
 
-logger.log('AP Rankings');
-logger.log(pollRankings.ap.join(' '));
+  logger.log('AP Rankings');
+  logger.log(pollRankings.ap.join(' '));
 
-logger.log('\nBCS Rankings');
-logger.log(pollRankings.bcs.join(' '));
+  logger.log('\nBCS Rankings');
+  logger.log(pollRankings.bcs.join(' '));
 
-logger.log('\nCoaches Rankings');
-logger.log(pollRankings.coaches.join(' '));
+  logger.log('\nCoaches Rankings');
+  logger.log(pollRankings.coaches.join(' '));
 
-logger.log('\nCFB Playoff Rankings');
-logger.log(pollRankings.cfbPlayoff.join(' '));
+  logger.log('\nCFB Playoff Rankings');
+  logger.log(pollRankings.cfbPlayoff.join(' '));
+}
+
+main();

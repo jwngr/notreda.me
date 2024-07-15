@@ -17,6 +17,6 @@ jobs:
         run: npm run lint
         working-directory: scripts
         env:
-          DARK_SKY_API_KEY: ${{ secrets.DARK_SKY_API_KEY }}
+          OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           IS_SENTRY_ENABLED: ${{ secrets.IS_SENTRY_ENABLED }}
