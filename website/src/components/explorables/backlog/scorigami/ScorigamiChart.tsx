@@ -68,7 +68,7 @@ export const ScorigamiChart: React.FC = () => {
         return (
           <ScorigamiRow>
             {range(0, longestRowLength).map((i) => {
-              const numGamesWithScore = row ? row[i] ?? 0 : 0;
+              const numGamesWithScore = row ? (row[i] ?? 0) : 0;
               return (
                 <ScorigamiCell $numGamesWithScore={numGamesWithScore}>
                   {numGamesWithScore === 0 ? null : numGamesWithScore}
