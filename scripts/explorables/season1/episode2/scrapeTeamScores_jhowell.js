@@ -1,11 +1,15 @@
 import fs from 'fs';
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 import format from 'date-fns/format';
 import _ from 'lodash';
 import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const logger = new Logger({isSentryEnabled: false});
 

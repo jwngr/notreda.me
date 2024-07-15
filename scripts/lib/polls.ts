@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
 
@@ -10,6 +11,9 @@ import {
 } from '../../website/src/models';
 import {CURRENT_SEASON} from './constants';
 import {Teams} from './teams';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 

@@ -1,11 +1,15 @@
 import fs from 'fs';
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 import {Writable} from '../../../../website/src/models';
 import {Logger} from '../../../lib/logger';
 import {NDSchedules} from '../../../lib/ndSchedules';
 
 const logger = new Logger({isSentryEnabled: false});
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
 interface SeasonInfo {
