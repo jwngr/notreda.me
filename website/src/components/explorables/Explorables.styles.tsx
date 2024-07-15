@@ -108,7 +108,6 @@ export const StatsWrapper = styled(FlexRow).attrs({
   justify: 'space-around',
 })`
   margin: -10px 0;
-  border: solid 1px red;
 
   @media (max-width: 600px) {
   }
