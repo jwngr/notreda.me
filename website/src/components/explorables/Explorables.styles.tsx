@@ -102,21 +102,20 @@ export const Caption = styled.p`
 `;
 
 export const StatsWrapper = styled(FlexRow).attrs({
-  gap: 12,
+  gap: 20,
   wrap: 'wrap',
-  align: 'stretch',
   justify: 'space-around',
 })`
-  margin: -10px 0;
-
   @media (max-width: 600px) {
+    flex-direction: column;
+    justify: flex-start;
   }
 `;
 
-export const Stat = styled(FlexColumn).attrs({align: 'center'})`
+export const Stat = styled(FlexColumn)`
+  flex: 1;
+  text-align: center;
   font-family: 'Inter', sans-serif;
-  width: calc(50% - 12px);
-  margin: 10px 0;
   background-image: url(${backgroundImage});
   background-color: ${({theme}) => theme.colors.gray}40;
   border: solid 3px ${({theme}) => darken(0.2, theme.colors.green)};

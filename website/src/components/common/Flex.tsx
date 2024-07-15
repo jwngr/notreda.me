@@ -2,47 +2,74 @@ import styled from 'styled-components';
 
 import {StyleAttributes} from '../../models';
 
+type JustifyValue =
+  | 'flex-start'
+  | 'flex-end'
+  | 'center'
+  | 'space-between'
+  | 'space-around'
+  | 'space-evenly';
+type WrapValue = 'nowrap' | 'wrap' | 'wrap-reverse';
+type AlignValue = 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
+
 interface FlexWrapperProps {
+  readonly $gap?: number;
+  readonly $justify?: JustifyValue;
+  readonly $wrap?: WrapValue;
+  readonly $align?: AlignValue;
+  // TODO: Add `flex` / `grow` / `shrink` props.
+}
+
+interface FlexProps {
   readonly gap?: number;
-  readonly justify?:
-    | 'flex-start'
-    | 'flex-end'
-    | 'center'
-    | 'space-between'
-    | 'space-around'
-    | 'space-evenly';
-  readonly wrap?: 'nowrap' | 'wrap' | 'wrap-reverse';
-  readonly align?: 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
+  readonly justify?: JustifyValue;
+  readonly wrap?: WrapValue;
+  readonly align?: AlignValue;
   // TODO: Add `flex` / `grow` / `shrink` props.
 }
 
 const FlexRowWrapper = styled.div<FlexWrapperProps>`
   display: flex;
   flex-direction: row;
-  flex-wrap: ${({wrap = 'nowrap'}) => wrap};
-  align-items: ${({align = 'center'}) => align};
-  justify-content: ${({justify = 'flex-start'}) => justify};
+  gap: ${({$gap = 0}) => $gap}px;
+  flex-wrap: ${({$wrap = 'nowrap'}) => $wrap};
+  align-items: ${({$align = 'center'}) => $align};
+  justify-content: ${({$justify = 'flex-start'}) => $justify};
 `;
 
 const FlexColumnWrapper = styled.div<FlexWrapperProps>`
   display: flex;
   flex-direction: column;
-  flex-wrap: ${({wrap = 'nowrap'}) => wrap};
-  align-items: ${({align = 'stretch'}) => align};
-  justify-content: ${({justify = 'flex-start'}) => justify};
+  gap: ${({$gap = 0}) => $gap}px;
+  flex-wrap: ${({$wrap = 'nowrap'}) => $wrap};
+  align-items: ${({$align = 'stretch'}) => $align};
+  justify-content: ${({$justify = 'flex-start'}) => $justify};
 `;
 
-interface FlexRowProps extends FlexWrapperProps, StyleAttributes {
+interface FlexRowProps extends FlexProps, StyleAttributes {
   readonly children: React.ReactNode;
 }
 
-interface FlexColumnProps extends FlexWrapperProps, StyleAttributes {
+interface FlexColumnProps extends FlexProps, StyleAttributes {
   readonly children: React.ReactNode;
 }
 
-export const FlexRow: React.FC<FlexRowProps> = ({children, justify, align, style, className}) => {
+export const FlexRow: React.FC<FlexRowProps> = ({
+  children,
+  align,
+  justify,
+  gap,
+  style,
+  className,
+}) => {
   return (
-    <FlexRowWrapper justify={justify} align={align} style={style} className={className}>
+    <FlexRowWrapper
+      $align={align}
+      $justify={justify}
+      $gap={gap}
+      style={style}
+      className={className}
+    >
       {children}
     </FlexRowWrapper>
   );
@@ -50,13 +77,20 @@ export const FlexRow: React.FC<FlexRowProps> = ({children, justify, align, style
 
 export const FlexColumn: React.FC<FlexColumnProps> = ({
   children,
-  justify,
   align,
+  justify,
+  gap,
   style,
   className,
 }) => {
   return (
-    <FlexColumnWrapper justify={justify} align={align} style={style} className={className}>
+    <FlexColumnWrapper
+      $align={align}
+      $justify={justify}
+      $gap={gap}
+      style={style}
+      className={className}
+    >
       {children}
     </FlexColumnWrapper>
   );
