@@ -5,7 +5,6 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - "/website"
-      # TODO: Uncomment this once once /scripts is updated.
-      #- "/scripts"
+      - "/scripts"
     schedule:
       interval: "weekly"

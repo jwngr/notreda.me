@@ -1,3 +1,5 @@
+import {QueryParams} from '../models';
+
 export const withCommas = (value: number): string => {
   if (typeof value !== 'number') {
     throw new Error(`Expected a number, but got ${value} of type "${typeof value}".`);
@@ -44,19 +46,44 @@ export const getGameTimestampInSeconds = ({
   return d.getTime() / 1000;
 };
 
-export const isNumber = (val: unknown): val is number => {
+export function isNumber(val: unknown): val is number {
   return typeof val === 'number' && !isNaN(val);
-};
+}
 
-export const isString = (val: unknown): val is string => {
+export function isString(val: unknown): val is string {
   return typeof val === 'string';
-};
+}
 
-export const isNonEmptyString = (val: unknown): val is string => {
+export function isNonEmptyString(val: unknown): val is string {
   return typeof val === 'string' && val !== '';
-};
+}
 
-export const getPossessionInSeconds = (possession: string): number => {
+export function getPossessionInSeconds(possession: string): number {
   const [minutes, seconds] = possession.split(':');
   return Number(minutes) * 60 + Number(seconds);
-};
+}
+
+interface FetchUrlOptions {
+  readonly url: string;
+  readonly method: 'GET' | 'POST';
+  readonly params?: QueryParams;
+  readonly headers?: Record<string, string>;
+}
+
+export async function fetchUrl<T>({
+  url,
+  params = {},
+  method = 'GET',
+  headers = {},
+}: FetchUrlOptions): Promise<T> {
+  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {
+    method,
+    headers,
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch url: ${url}`);
+  }
+
+  return response.json() as Promise<T>;
+}

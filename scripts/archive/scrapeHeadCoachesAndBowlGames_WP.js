@@ -2,10 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import cheerio from 'cheerio';
-import request from 'request-promise';
-
 import {Logger} from '../lib/logger';
+import {Scraper} from '../lib/scraper';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -14,18 +12,9 @@ const __dirname = path.dirname(__filename);
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
-const getHtmlForUrl = (url) => {
-  return request({
-    uri: url,
-    transform: (body) => {
-      return cheerio.load(body);
-    },
-  });
-};
-
 logger.info(`Fetching head coaches and bowl games.`);
 
-getHtmlForUrl(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`)
+Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`)
   .then(($) => {
     let $scheduleTable = $('#Seasons').parent().next();
 
