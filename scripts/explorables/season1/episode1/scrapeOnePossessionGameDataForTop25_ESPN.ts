@@ -134,7 +134,7 @@ async function main() {
     > = {};
 
     for (const teamEspnIds of yearlyResults) {
-      for (const [teamName, teamEspnId] of teamEspnIds) {
+      for (const [teamName, teamEspnId] of Object.entries(teamEspnIds)) {
         top25TeamIds[teamName] = {
           teamEspnId,
           top25Finishes: top25TeamIds[teamName]?.top25Finishes + 1 || 1,

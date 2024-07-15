@@ -41,6 +41,7 @@ async function main() {
         totalGamesCount: 0,
         totalLossesCount: 0,
         totalDifferential: 0,
+        top25Finishes: 0,
         onePossesssionGamesCount: 0,
         onePossesssionWinsCount: 0,
         onePossesssionLossesCount: 0,
@@ -108,7 +109,7 @@ async function main() {
       logger.newline();
       logger.info(`Processed ${season}`, {
         ...seasons[season],
-        record: `${seasons[season].onePossesssionWinsCount}-${seasons[season].onePossesssionLossesCount}-${seasons[season].onePossesssionTiesCount}`,
+        record: `${seasons[season].onePossesssionWinsCount}-${seasons[season].onePossesssionLossesCount}}`,
         overallWinPercentage:
           getPercentage(seasons[season].totalWinsCount, seasons[season].totalGamesCount) + '%',
         onePossesssionGameWinPercentage:
