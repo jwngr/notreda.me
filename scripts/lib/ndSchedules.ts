@@ -17,6 +17,7 @@ const ND_SCHEDULES_DATA_DIRECTORY = path.resolve(
   '../../website/src/resources/schedules'
 );
 
+// TODO: De-dupe this with `Schedules` class in `website/src`.
 export class NDSchedules {
   static async getForSeason(season: number): Promise<readonly GameInfo[]> {
     try {
