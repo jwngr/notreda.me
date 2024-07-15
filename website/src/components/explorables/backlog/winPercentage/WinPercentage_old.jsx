@@ -185,7 +185,7 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .on('mouseover', (d, i) => {
+      .on('mouseover', (_, d, i) => {
         // const tooltipHtml = `<p>${d.year} ${d.opponentId} <br /> ${d.scoreText} <br /> ${d.y}</p>`;
 
         clearTimeout(this.unsetTooltipTimeout);
@@ -280,7 +280,7 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .on('mouseover', (d) => {
+      .on('mouseover', (_, d) => {
         clearTimeout(this.unsetYearTooltipTimeout);
 
         d.realX = yearChartX(d.year) + margin.left;

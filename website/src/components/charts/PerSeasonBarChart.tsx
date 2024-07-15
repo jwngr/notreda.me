@@ -173,7 +173,7 @@ export const PerSeasonBarChart: React.FC<{
       .attr('width', width / data.length)
       .attr('y', (d) => yScale(d.value))
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d.value))
-      .on('mouseover', (d) => {
+      .on('mouseover', (_, d) => {
         if (unsetTooltipTimeout.current) {
           clearTimeout(unsetTooltipTimeout.current);
         }

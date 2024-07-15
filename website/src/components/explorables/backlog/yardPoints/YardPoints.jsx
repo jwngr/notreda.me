@@ -171,7 +171,7 @@ export class YardPoints extends Component {
         //   return 'transparent';
         // }
       })
-      .on('mouseover', (d) => {
+      .on('mouseover', (_, d) => {
         // const tooltipHtml = `<p>${d.scoreText}, ${d.year} ${d.opponentId}</p>`;
 
         clearTimeout(this.unsetTooltipTimeout);

@@ -82,7 +82,9 @@ export const Game: React.FC<{
 
     lastColumnContent = (
       <TelevisionCoverage
-        $network={game.coverage === 'TBD' ? TVNetwork.Unknown : game.coverage ?? TVNetwork.Unknown}
+        $network={
+          game.coverage === 'TBD' ? TVNetwork.Unknown : (game.coverage ?? TVNetwork.Unknown)
+        }
       >
         <p>{time}</p>
         {game.coverage && game.coverage !== 'TBD' ? (

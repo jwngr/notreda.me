@@ -243,7 +243,7 @@ export class LineChart extends Component {
 
           return classNames.join(' ');
         })
-        .on('mouseover', (d) => {
+        .on('mouseover', (_, d) => {
           clearTimeout(this.unsetTooltipTimeout);
 
           if (this.mouse) {
