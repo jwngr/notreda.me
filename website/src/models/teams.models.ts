@@ -44,6 +44,10 @@ export interface Team {
   readonly espnId?: number;
 }
 
+export interface TeamWithId extends Team {
+  readonly id: TeamId;
+}
+
 export enum TeamId {
   ADRN = 'ADRN',
   AF = 'AF',

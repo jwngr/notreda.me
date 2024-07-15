@@ -103,10 +103,11 @@ const fn = async () => {
     fs.writeFileSync(filename, JSON.stringify(yearData, null, 2));
 
     logger.success('Scraped game stats');
+    browser.close();
   } catch (error) {
     logger.error('Failed to scrape game stats', {error});
-  } finally {
     browser.close();
+    process.exit(1);
   }
 
   // results.forEach((result, i) => {

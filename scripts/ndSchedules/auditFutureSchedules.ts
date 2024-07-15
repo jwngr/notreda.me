@@ -1,14 +1,14 @@
 import _ from 'lodash';
 
-import {getForSeason} from '../../website/src/resources/schedules';
 import {fetchFutureNdSchedules} from '../lib/futureSchedules';
 import {Logger} from '../lib/logger';
+import {NDSchedules} from '../lib/ndSchedules';
 import {Teams} from '../lib/teams';
 
 // Enable Sentry logging.
 const logger = new Logger({isSentryEnabled: true});
 
-const auditFutureNdSchedules = async () => {
+const auditFutureNdSchedules = async (): Promise<void> => {
   logger.info(`Auditing future ND schedules...`);
   logger.newline(1);
 
@@ -16,8 +16,8 @@ const auditFutureNdSchedules = async () => {
 
   let needsUpdating = false;
 
-  _.forEach(futureNdSchedules, (newFutureSeasonNdSchedule, futureSeason) => {
-    const priorFutureSeasonNdSchedule = getForSeason(futureSeason);
+  for (const [futureSeason, newFutureSeasonNdSchedule] of Object.entries(futureNdSchedules)) {
+    const priorFutureSeasonNdSchedule = await NDSchedules.getForSeason(Number(futureSeason));
 
     const priorOpponentNames = priorFutureSeasonNdSchedule.map(({opponentId}) => {
       return Teams.getById(opponentId).name;
@@ -34,30 +34,32 @@ const auditFutureNdSchedules = async () => {
       .value();
     const diffGames = _.union(priorFirstDiff, newFirstDiff);
 
-    const gamesWithWrongDate = [];
-    const gamesWithWrongHomeStatus = [];
+    const gamesWithWrongDate: string[] = [];
+    const gamesWithWrongHomeStatus: string[] = [];
     newFutureSeasonNdSchedule.forEach((newGameData) => {
       const team = Teams.getByName(newGameData.opponentName);
 
       // Only check for changes if the game is already in the prior games list.
-      const priorGameData = _.find(
-        priorFutureSeasonNdSchedule,
-        ({opponentId}) => team.id === opponentId
-      );
-
+      const priorGameData = priorFutureSeasonNdSchedule.find((a) => team.id === a.opponentId);
       if (typeof priorGameData !== 'undefined') {
         if (priorGameData.isHomeGame !== newGameData.isHomeGame) {
           gamesWithWrongHomeStatus.push('@' + newGameData.opponentName);
         }
 
-        const priorDate =
+        const priorDate: Date | 'TBD' | null =
           priorGameData.date === 'TBD'
             ? 'TBD'
-            : new Date(priorGameData.date || priorGameData.fullDate);
+            : priorGameData.date
+              ? new Date(priorGameData.date)
+              : priorGameData.fullDate
+                ? new Date(priorGameData.fullDate)
+                : null;
 
         // Ensure both dates are either "TBD" or within 1 day of each other.
         let hasWrongGameDate = false;
-        if (priorDate === 'TBD') {
+        if (!priorDate) {
+          hasWrongGameDate = true;
+        } else if (priorDate === 'TBD') {
           if (newGameData.date !== 'TBD') {
             hasWrongGameDate = true;
           }
@@ -67,8 +69,10 @@ const auditFutureNdSchedules = async () => {
           } else {
             // Calculate the difference between the dates in days, leaving 30 hours of potential
             // difference.
-            var timeDiffInMilliseconds = Math.abs(priorDate.getTime() - newGameData.date.getTime());
-            var timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 30);
+            const timeDiffInMilliseconds = Math.abs(
+              priorDate.getTime() - newGameData.date.getTime()
+            );
+            const timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 30);
             if (timeDiffInDays >= 1) {
               hasWrongGameDate = true;
             }
@@ -93,7 +97,7 @@ const auditFutureNdSchedules = async () => {
         } ${gameOrGames} (${gamesNeedingUpdating.join(', ')})`
       );
     }
-  });
+  }
 
   if (needsUpdating) {
     logger.newline(2);
@@ -106,10 +110,14 @@ const auditFutureNdSchedules = async () => {
   logger.newline();
 };
 
-auditFutureNdSchedules()
-  .then(() => {
+async function main() {
+  try {
+    await auditFutureNdSchedules();
     logger.success(`Successfully audited future ND schedules!`);
-  })
-  .catch((error) => {
-    logger.fail(`Failed to audit future ND schedules: ${error.message}.`, {error});
-  });
+  } catch (error) {
+    logger.fail(`Failed to audit future ND schedules.`, {error});
+    process.exit(1);
+  }
+}
+
+main();

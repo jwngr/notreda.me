@@ -168,6 +168,7 @@ async function main() {
     logger.success('Success!');
   } catch (error) {
     logger.error('Error fetching top 25 teams:', {error});
+    process.exit(1);
   }
 }
 

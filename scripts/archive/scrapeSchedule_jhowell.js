@@ -1,7 +1,7 @@
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import format from 'date-fns/format';
+import {format} from 'date-fns/format';
 import range from 'lodash/range';
 import puppeteer from 'puppeteer';
 
@@ -162,5 +162,6 @@ const scrapeNotreDameSchedule = async () => {
     logger.success('Scraped Notre Dame schedule!');
   } catch (error) {
     logger.error('Failed to scraped Notre Dame schedule', {error});
+    process.exit(1);
   }
 })();

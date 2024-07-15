@@ -88,6 +88,7 @@ async function main(): Promise<void> {
     logger.success('Updated weather for historical games!');
   } catch (error) {
     logger.error('Failed to update weather for historical games', {error});
+    process.exit(1);
   }
 }
 
