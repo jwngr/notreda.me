@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import {StyleAttributes} from '../../models';
+import {StyleAttributes} from '../../models/utils.models';
 
 type JustifyValue =
   | 'flex-start'

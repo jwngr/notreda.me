@@ -365,8 +365,3 @@ export type Optional<T> = {
 };
 
 export type QueryParams = Record<string, string>;
-
-export interface StyleAttributes {
-  readonly style?: React.CSSProperties;
-  readonly className?: string;
-}
