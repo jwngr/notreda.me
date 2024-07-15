@@ -1,21 +1,32 @@
 import _ from 'lodash';
 
-import {getForSeason} from '../../website/src/resources/schedules';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
-import validators from './validators';
+import {NDSchedules} from '../lib/ndSchedules';
+import {ExtendedGameInfo} from '../models';
+import {
+  validateCoverage,
+  validateDate,
+  validateLocation,
+  validateMiscellaneous,
+  validateRankings,
+  validateRecords,
+  validateScoreAndResult,
+  validateStats,
+  validateWeather,
+} from './validators';
 
 // Enable Sentry logging.
 const logger = new Logger({isSentryEnabled: true});
 
-function main() {
+async function main() {
   logger.info('Validating schedule data...');
 
   let _numErrorsFound = 0;
-  let _currentGameData = null;
+  let _currentGameData: ExtendedGameInfo | null = null;
   let _numIgnoredErrorsFound = 0;
 
-  const assert = (statement, message, extraContext) => {
+  const assert = (statement: boolean, message: string, extraContext?: Record<string, unknown>) => {
     if (Boolean(statement) === false) {
       _numErrorsFound++;
       logger.error(message, {
@@ -26,17 +37,17 @@ function main() {
   };
 
   // TODO: Remove all usages of this once historical data is properly normalized.
-  const ignoredAssert = (statement) => {
+  const ignoredAssert = (statement: boolean) => {
     if (Boolean(statement) === false) {
       _numIgnoredErrorsFound++;
     }
   };
 
   for (const season of ALL_SEASONS) {
-    const seasonScheduleData = getForSeason(season);
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
 
-    let nextUnplayedGameWeekIndex;
-    let latestCompletedGameWeekIndex;
+    let nextUnplayedGameWeekIndex: number | null = null;
+    let latestCompletedGameWeekIndex: number | null = null;
     if (season === CURRENT_SEASON) {
       latestCompletedGameWeekIndex = _.findLastIndex(
         seasonScheduleData,
@@ -48,7 +59,7 @@ function main() {
       );
     }
 
-    let previousGameData = null;
+    let previousGameData: ExtendedGameInfo | null = null;
     seasonScheduleData.forEach((gameData, weekIndex) => {
       _currentGameData = {
         ...gameData,
@@ -63,19 +74,15 @@ function main() {
         ).length,
       };
 
-      validators.validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
-      validators.validateStats(_currentGameData, assert, ignoredAssert);
-      validators.validateRecords(_currentGameData, assert, ignoredAssert);
-      validators.validateWeather(_currentGameData, assert, ignoredAssert);
-      validators.validateCoverage(_currentGameData, assert, ignoredAssert);
-      validators.validateLocation(_currentGameData, assert, ignoredAssert);
-      validators.validateRankings(_currentGameData, assert, ignoredAssert);
-      validators.validateMiscellaneous(
-        [_currentGameData, seasonScheduleData],
-        assert,
-        ignoredAssert
-      );
-      validators.validateScoreAndResult(_currentGameData, assert, ignoredAssert);
+      validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
+      validateStats(_currentGameData, assert, ignoredAssert);
+      validateRecords(_currentGameData, assert, ignoredAssert);
+      validateWeather(_currentGameData, assert, ignoredAssert);
+      validateCoverage(_currentGameData, assert, ignoredAssert);
+      validateLocation(_currentGameData, assert, ignoredAssert);
+      validateRankings(_currentGameData, assert, ignoredAssert);
+      validateMiscellaneous([_currentGameData, seasonScheduleData], assert, ignoredAssert);
+      validateScoreAndResult(_currentGameData, assert, ignoredAssert);
 
       previousGameData = _currentGameData;
     });
@@ -85,14 +92,12 @@ function main() {
     logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
   }
 
-  if (_numErrorsFound === 0) {
-    logger.info('Schedule data successfully validated with no errors!');
-  } else {
+  if (_numErrorsFound !== 0) {
     logger.error(`${_numErrorsFound} errors found in schedule data!`);
-
-    // Exit with a non-zero error code.
     process.exit(-1);
   }
+
+  logger.info('Schedule data successfully validated with no errors!');
 }
 
 main();
