@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 import {Logger} from '../../../lib/logger';
 import onePossessionNdCoachDataJson from './data/ndCoachesOnePossessionGames.json';
 import onePossessionGameDataJson from './data/top25OnePossessionGames.json';
