@@ -5,7 +5,8 @@ import styled, {css} from 'styled-components';
 
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Teams} from '../../lib/teams';
-import {GameLinescore, TeamId} from '../../models';
+import {GameLinescore} from '../../models/games.models';
+import {TeamId} from '../../models/teams.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {YouTubeIcon} from '../common/YouTubeIcon';
 

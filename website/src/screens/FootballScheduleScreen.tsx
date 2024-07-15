@@ -11,7 +11,7 @@ import {NavMenu} from '../components/navMenu/NavMenu';
 import {LATEST_SEASON} from '../lib/constants';
 import {Schedules} from '../lib/schedules';
 import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../lib/urls';
-import {GameInfo} from '../models';
+import {GameInfo} from '../models/games.models';
 
 const ScheduleScreenWrapper = styled.div`
   transition: transform 0.5s;

@@ -1,4 +1,5 @@
-import {GameWeather, QueryParams} from '../../website/src/models';
+import {GameWeather} from '../../website/src/models/games.models';
+import {QueryParams} from '../../website/src/models/utils.models';
 import {getConfig} from './loadConfig';
 import {fetchUrl} from './utils';
 

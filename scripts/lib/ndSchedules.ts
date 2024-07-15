@@ -4,7 +4,7 @@ import {fileURLToPath} from 'url';
 
 import prettier from 'prettier';
 
-import {GameInfo} from '../../website/src/models';
+import {GameInfo} from '../../website/src/models/games.models';
 import {ALL_SEASONS, CURRENT_SEASON} from './constants';
 
 // Get the current file's URL

@@ -3,7 +3,7 @@ import Media from 'react-media';
 import styled from 'styled-components';
 
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
-import {Team} from '../../models';
+import {Team} from '../../models/teams.models';
 import {FlexRow} from '../common/Flex';
 import {
   STATS_HEADER_COLUMN_STYLES,

@@ -1,17 +1,14 @@
 import range from 'lodash/range';
 
+import {GameLinescore, GameScore} from '../../website/src/models/games.models';
 import {
-  GameLinescore,
-  GameScore,
   IndividualTeamPollData,
   PollType,
   SeasonAllPollRankings,
-  TeamId,
-  TeamRecords,
-  TeamStats,
   WeeklyIndividualPollRanking,
-  Writable,
-} from '../../website/src/models';
+} from '../../website/src/models/polls.models';
+import {TeamId, TeamRecords, TeamStats} from '../../website/src/models/teams.models';
+import {Writable} from '../../website/src/models/utils.models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';

@@ -1,4 +1,4 @@
-import {FutureGameInfo} from '../../website/src/models';
+import {FutureGameInfo} from '../../website/src/models/games.models';
 import {CURRENT_SEASON} from './constants';
 import {Logger} from './logger';
 import {Scraper} from './scraper';

@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Teams} from '../../lib/teams';
-import {GameStats, TeamId} from '../../models';
+import {GameStats} from '../../models/games.models';
+import {TeamId} from '../../models/teams.models';
 import {FlexRow} from '../common/Flex';
 import {GameStatsRow} from './GameStatsRow';
 import {

@@ -4,11 +4,11 @@ import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
 
+import {GameInfo} from '../../website/src/models/games.models';
 import {
-  GameInfo,
   SeasonAllPollRankings,
   WeeklyIndividualPollRanking,
-} from '../../website/src/models';
+} from '../../website/src/models/polls.models';
 import {CURRENT_SEASON} from './constants';
 import {Teams} from './teams';
 

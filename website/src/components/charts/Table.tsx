@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import backgroundImage from '../../images/background.png';
-import {TableRowData} from '../../models';
+import {TableRowData} from '../../models/explorables.models';
 
 const TableWrapper = styled.div`
   margin: 20px auto;

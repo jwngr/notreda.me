@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {assertNever, getTimeZoneString, getTvChannelUrl} from '../../lib/utils';
-import {GameInfo, TVNetwork} from '../../models';
+import {GameInfo, TVNetwork} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {TVNetworkLogo} from '../common/TVNetworkLogo';

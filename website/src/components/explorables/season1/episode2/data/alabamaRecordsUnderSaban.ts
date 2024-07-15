@@ -1,4 +1,4 @@
-import {TableRowData} from '../../../../../models';
+import {TableRowData} from '../../../../../models/explorables.models';
 
 export const ALABAMA_RECORDS_UNDER_SABAN: TableRowData = [
   ['2007', '7-6', '-'],

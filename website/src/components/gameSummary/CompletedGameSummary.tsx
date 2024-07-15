@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {GameInfo, TeamId} from '../../models';
+import {GameInfo} from '../../models/games.models';
+import {TeamId} from '../../models/teams.models';
 import {FlexColumn} from '../common/Flex';
 import {GameCoverage} from './GameCoverage';
 // import {MatchupHistory} from '../MatchupHistory';

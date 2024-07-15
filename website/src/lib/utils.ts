@@ -1,4 +1,4 @@
-import {GameResult, TVNetwork} from '../models';
+import {GameResult, TVNetwork} from '../models/games.models';
 import theme from '../resources/theme.json';
 
 export function assertNever(x: never): never {

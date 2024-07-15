@@ -1,6 +1,6 @@
 import range from 'lodash/range';
 
-import {TableRowData} from '../../../../models';
+import {TableRowData} from '../../../../models/explorables.models';
 import {ALL_UNDEFEATED_SEASONS} from './data/undefeatedSeasons_all';
 import {ND_UNDEFEATED_SEASONS} from './data/undefeatedSeasons_nd';
 import {ALABAMA_WEEK_OF_FIRST_LOSS} from './data/weekOfFirstLoss_alabama';

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
-import {Writable} from '../../../../website/src/models';
+import {Writable} from '../../../../website/src/models/utils.models';
 import {Logger} from '../../../lib/logger';
 import {NDSchedules} from '../../../lib/ndSchedules';
 import {ExpS1E1CoachInfo, ExpS1E1TeamRecordsInfo} from './models';

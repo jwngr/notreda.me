@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-import {BlogPostInfo} from '../../models';
+import {BlogPostInfo} from '../../models/explorables.models';
 import {NewsletterSignupForm} from '../common/NewsletterSignupForm';
 import {Divider, Subtitle, Title, Wrapper} from './Explorables.styles';
 

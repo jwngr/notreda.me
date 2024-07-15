@@ -16,7 +16,7 @@ import tbsLogo from '../../images/tvLogos/tbs.png';
 import unknownNetworkLogo from '../../images/tvLogos/unknown.png';
 import usaLogo from '../../images/tvLogos/usa.png';
 import {assertNever} from '../../lib/utils';
-import {TVNetwork} from '../../models';
+import {TVNetwork} from '../../models/games.models';
 
 export const ChannelName = styled.p`
   font-size: 24px;
