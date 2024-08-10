@@ -1,5 +1,5 @@
 name: Deploy frontend preview on PR
-on: pull_request
+on: pull_request_target
 permissions:
   checks: write
   contents: read
