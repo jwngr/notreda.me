@@ -31,6 +31,7 @@ export const TeamLogo: React.FC<{
       try {
         const logoModule = await teamLogos[`../../images/teamLogos/${teamId}.png`]();
         setLogo((logoModule as {default: string}).default);
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (error) {
         // TODO: Add error logging.
         setLogo(defaultLogo);

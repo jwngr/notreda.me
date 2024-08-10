@@ -1,26 +1,29 @@
-export interface AllWeekOfFirstLossData {
-  readonly [season: string]: {
+export type AllWeekOfFirstLossData = Record<
+  string,
+  {
     readonly losslessRecordsAttained: readonly number[];
     readonly numTeams: number;
-  };
-}
+  }
+>;
 
-export interface AlabamaWeekOfFirstLossData {
-  readonly [season: string]: {
+export type AlabamaWeekOfFirstLossData = Record<
+  string,
+  {
     // `null` if season was undefeated.
     readonly numGamesPlayedBeforeFirstLoss: number | null;
     readonly numGamesInSeason: number;
-  };
-}
+  }
+>;
 
-export interface NDWeekOfFirstLossData {
-  readonly [season: string]: {
+export type NDWeekOfFirstLossData = Record<
+  string,
+  {
     readonly numGamesInSeason: number;
     // `null` if season was undefeated.
     readonly numGamesPlayedBeforeFirstLoss: number | null;
     readonly recordBeforeFirstLoss: string;
-  };
-}
+  }
+>;
 
 export interface FirstLossSeriesData {
   readonly id: string;
