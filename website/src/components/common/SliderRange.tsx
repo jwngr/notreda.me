@@ -73,7 +73,7 @@ export const SliderRange: React.FC<SliderRangeProps> = ({
   const [value, setValue] = useState<number[]>(initialValue);
 
   const handleChange = (value: number[]) => {
-    onChange && onChange(value);
+    onChange?.(value);
     setValue(value);
   };
 
