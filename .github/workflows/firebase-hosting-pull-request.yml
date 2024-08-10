@@ -1,5 +1,5 @@
 name: Deploy frontend preview on PR
-on: pull_request_target
+on: pull_request
 permissions:
   checks: write
   contents: read
@@ -14,6 +14,6 @@ jobs:
         working-directory: website
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_NOTREDA_ME }}
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_NOTREDA_ME }}"
           projectId: notreda-me
