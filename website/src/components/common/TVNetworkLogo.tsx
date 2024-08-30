@@ -11,6 +11,7 @@ import espn2Logo from '../../images/tvLogos/espn2.png';
 import foxLogo from '../../images/tvLogos/fox.png';
 import nbcLogo from '../../images/tvLogos/nbc.png';
 import nbcsnLogo from '../../images/tvLogos/nbcsn.png';
+import pac12NetworkLogo from '../../images/tvLogos/pacn.png';
 import peacockLogo from '../../images/tvLogos/peacock.png';
 import tbsLogo from '../../images/tvLogos/tbs.png';
 import unknownNetworkLogo from '../../images/tvLogos/unknown.png';
@@ -46,6 +47,8 @@ function getTvNetworkLogo(network: TVNetwork): string | null {
       return nbcLogo;
     case TVNetwork.NBCSN:
       return nbcsnLogo;
+    case TVNetwork.Pac12Network:
+      return pac12NetworkLogo;
     case TVNetwork.Peacock:
       return peacockLogo;
     case TVNetwork.TBS:
@@ -55,7 +58,7 @@ function getTvNetworkLogo(network: TVNetwork): string | null {
     case TVNetwork.Unknown:
       return unknownNetworkLogo;
     case TVNetwork.KATZ:
-    case TVNetwork.SPORTSCHANNEL:
+    case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
     case TVNetwork.ABC_ESPN:
     case TVNetwork.ABC_ESPN2:

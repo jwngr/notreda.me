@@ -125,10 +125,11 @@ export enum TVNetwork {
   KATZ = 'KATZ',
   NBC = 'NBC',
   NBCSN = 'NBCSN',
+  Pac12Network = 'PACN',
   Peacock = 'PEACOCK',
   TBS = 'TBS',
   USA = 'USA',
-  SPORTSCHANNEL = 'SPORTSCHANNEL',
+  SportsChannel = 'SPORTSCHANNEL',
   WGN_TV = 'WGN-TV',
   // TODO: Consider removing this type and using `null` instead.
   Unknown = 'UNKNOWN',

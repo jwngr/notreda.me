@@ -80,9 +80,10 @@ export const getTvChannelUrl = (network: TVNetwork): string | null => {
       return 'https://www.tbs.com/watchtbs/';
     case TVNetwork.USA:
       return 'https://www.usanetwork.com/live/';
+    case TVNetwork.Pac12Network:
     case TVNetwork.CSTV:
     case TVNetwork.KATZ:
-    case TVNetwork.SPORTSCHANNEL:
+    case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
     case TVNetwork.ABC_ESPN:
     case TVNetwork.ABC_ESPN2:

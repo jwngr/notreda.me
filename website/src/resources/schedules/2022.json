@@ -9,7 +9,9 @@
       "stadium": "Ohio Stadium",
       "coordinates": [40.001667, -83.019722]
     },
-    "opponentId": "OSU"
+    "opponentId": "OSU",
+    "espnGameId": 401404124,
+    "highlightsYouTubeVideoId": "MhB6Ot_LmaU"
   },
   {
     "isHomeGame": true,
@@ -21,7 +23,9 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "MRSH"
+    "opponentId": "MRSH",
+    "espnGameId": 401404125,
+    "highlightsYouTubeVideoId": "-lKT5W6Gna8"
   },
   {
     "isHomeGame": true,
@@ -33,18 +37,23 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "CAL"
+    "opponentId": "CAL",
+    "espnGameId": 401403987,
+    "highlightsYouTubeVideoId": "JqiAff12i14"
   },
   {
     "isHomeGame": false,
-    "date": "09/24/2022",
+    "fullDate": "Sat Sep 24 2022 15:30:00 GMT-0400",
+    "coverage": "ABC",
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Allegiant Stadium",
       "coordinates": [36.090329, -115.183365]
     },
-    "opponentId": "UNC"
+    "opponentId": "UNC",
+    "espnGameId": 401404126,
+    "highlightsYouTubeVideoId": "4lsV8AQuhHw"
   },
   {
     "isHomeGame": false,
@@ -57,7 +66,9 @@
       "stadium": "Kenan Memorial Stadium",
       "coordinates": [35.906944, -79.047778]
     },
-    "opponentId": "BYU"
+    "opponentId": "BYU",
+    "espnGameId": 401404127,
+    "highlightsYouTubeVideoId": "4zSw-LQ6Ge4"
   },
   {
     "isHomeGame": true,
@@ -69,7 +80,9 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "STAN"
+    "opponentId": "STAN",
+    "espnGameId": 401404016,
+    "highlightsYouTubeVideoId": "FL8neZUGl_k"
   },
   {
     "isHomeGame": true,
@@ -81,18 +94,23 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "UNLV"
+    "opponentId": "UNLV",
+    "espnGameId": 401404128,
+    "highlightsYouTubeVideoId": "cbaP_q4Mitc"
   },
   {
     "isHomeGame": false,
-    "date": "10/29/2022",
+    "fullDate": "Sat Oct 29 2022 12:00:00 GMT-0400",
+    "coverage": "ABC",
     "location": {
       "city": "Syracuse",
       "state": "NY",
       "stadium": "Carrier Dome",
       "coordinates": [43.036062, -76.136434]
     },
-    "opponentId": "SYR"
+    "opponentId": "SYR",
+    "espnGameId": 401404129,
+    "highlightsYouTubeVideoId": "vLurozYmDrU"
   },
   {
     "isHomeGame": true,
@@ -104,19 +122,23 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "CLEM"
+    "opponentId": "CLEM",
+    "espnGameId": 401404130,
+    "highlightsYouTubeVideoId": "rML8eHvbq9g"
   },
   {
     "isHomeGame": false,
-    "date": "11/12/2022",
     "fullDate": "Sat Nov 12 2022 12:00:00 GMT-0500",
+    "coverage": "ABC",
     "location": {
       "city": "Baltimore",
       "state": "MD",
       "stadium": "M&T Bank Stadium",
       "coordinates": [39.277954, -76.623112]
     },
-    "opponentId": "NAVY"
+    "opponentId": "NAVY",
+    "espnGameId": 401404131,
+    "highlightsYouTubeVideoId": "TdMXUKH08JY"
   },
   {
     "isHomeGame": true,
@@ -128,17 +150,38 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "BC"
+    "opponentId": "BC",
+    "espnGameId": 401404132,
+    "highlightsYouTubeVideoId": "ca862G0S9X8"
   },
   {
     "isHomeGame": false,
-    "date": "11/26/2022",
+    "fullDate": "Sat Nov 26 2022 19:30:00 GMT-0500",
+    "coverage": "ABC",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
       "coordinates": [34.014167, -118.287778]
     },
-    "opponentId": "USC"
+    "opponentId": "USC",
+    "espnGameId": 401404133,
+    "highlightsYouTubeVideoId": "QUk_YW2JX2o"
+  },
+  {
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "nickname": "TaxSlayer Gator Bowl",
+    "fullDate": "Fri Dec 30 2022 15:30:00 GMT-0500",
+    "coverage": "ESPN",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL",
+      "stadium": "EverBank Stadium",
+      "coordinates": [30.323889, -81.6375]
+    },
+    "opponentId": "SCAR",
+    "espnGameId": 401404133,
+    "highlightsYouTubeVideoId": "QUk_YW2JX2o"
   }
 ]

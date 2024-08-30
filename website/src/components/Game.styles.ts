@@ -273,6 +273,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
           return '20px';
         case TVNetwork.TBS:
           return '26px';
+        case TVNetwork.Pac12Network:
         case TVNetwork.Peacock:
           return '48px';
         case TVNetwork.ABC:
@@ -280,7 +281,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
         case TVNetwork.KATZ:
         case TVNetwork.NBC:
         case TVNetwork.NBCSN:
-        case TVNetwork.SPORTSCHANNEL:
+        case TVNetwork.SportsChannel:
         case TVNetwork.WGN_TV:
         case TVNetwork.ABC_ESPN:
         case TVNetwork.ABC_ESPN2:
@@ -307,6 +308,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
         switch ($network) {
           case TVNetwork.ESPN:
           case TVNetwork.ESPN2:
+          case TVNetwork.Pac12Network:
           case TVNetwork.Peacock:
             return '10px';
           case TVNetwork.FOX:
@@ -322,7 +324,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
           case TVNetwork.KATZ:
           case TVNetwork.NBC:
           case TVNetwork.NBCSN:
-          case TVNetwork.SPORTSCHANNEL:
+          case TVNetwork.SportsChannel:
           case TVNetwork.WGN_TV:
           case TVNetwork.ABC_ESPN:
           case TVNetwork.ABC_ESPN2:

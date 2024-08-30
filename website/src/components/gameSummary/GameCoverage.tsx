@@ -46,6 +46,7 @@ const ChannelLogo = styled.div<ChannelLogoProps>`
         case TVNetwork.CBSSN:
         case TVNetwork.CSTV:
         case TVNetwork.ESPN2:
+        case TVNetwork.Pac12Network:
         case TVNetwork.Peacock:
           return '80px';
         case TVNetwork.ACCN:
@@ -57,7 +58,7 @@ const ChannelLogo = styled.div<ChannelLogoProps>`
           return '44px';
         case TVNetwork.FOX:
         case TVNetwork.KATZ:
-        case TVNetwork.SPORTSCHANNEL:
+        case TVNetwork.SportsChannel:
         case TVNetwork.WGN_TV:
         case TVNetwork.ABC_ESPN:
         case TVNetwork.ABC_ESPN2:
