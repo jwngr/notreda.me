@@ -182,10 +182,17 @@ export const fetchGameIdsForSeason = async (season: number): Promise<number[]> =
       ($cols.length === 5 || $cols.length === 7) &&
       $cols.eq(0).text().trim().toLowerCase() !== 'date'
     ) {
-      const gameId = $cols.eq(2).find('a').attr('href')?.split('gameId/')[1].trim();
+      // Link has format https://www.espn.com/college-football/game/_/gameId/<GAME_ID>/<SLUG>
+      const href = $cols.eq(2).find('a').attr('href');
+      const hrefTokens = href?.split('/') ?? [];
+      const gameIdStringTokenIndex = hrefTokens.findIndex((token) => token === 'gameId');
+      if (gameIdStringTokenIndex === -1) {
+        // The actual game ID is the token right after the "gameId" string.
+        const gameId = hrefTokens[gameIdStringTokenIndex + 1];
 
-      if (gameId) {
-        gameIds.push(Number(gameId));
+        if (gameId) {
+          gameIds.push(Number(gameId));
+        }
       }
     }
   });

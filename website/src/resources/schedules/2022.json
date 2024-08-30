@@ -11,7 +11,25 @@
     },
     "opponentId": "OSU",
     "espnGameId": 401404124,
-    "highlightsYouTubeVideoId": "MhB6Ot_LmaU"
+    "highlightsYouTubeVideoId": "MhB6Ot_LmaU",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    },
+    "weather": {
+      "icon": "04d",
+      "temperature": 72
+    }
   },
   {
     "isHomeGame": true,
@@ -25,7 +43,21 @@
     },
     "opponentId": "MRSH",
     "espnGameId": 401404125,
-    "highlightsYouTubeVideoId": "-lKT5W6Gna8"
+    "highlightsYouTubeVideoId": "-lKT5W6Gna8",
+    "records": {
+      "home": {
+        "overall": "0-2",
+        "home": "0-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -39,7 +71,21 @@
     },
     "opponentId": "CAL",
     "espnGameId": 401403987,
-    "highlightsYouTubeVideoId": "JqiAff12i14"
+    "highlightsYouTubeVideoId": "JqiAff12i14",
+    "records": {
+      "home": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "2-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -53,7 +99,21 @@
     },
     "opponentId": "UNC",
     "espnGameId": 401404126,
-    "highlightsYouTubeVideoId": "4lsV8AQuhHw"
+    "highlightsYouTubeVideoId": "4lsV8AQuhHw",
+    "records": {
+      "home": {
+        "overall": "3-1",
+        "home": "1-1",
+        "away": "2-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "1-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -68,7 +128,21 @@
     },
     "opponentId": "BYU",
     "espnGameId": 401404127,
-    "highlightsYouTubeVideoId": "4zSw-LQ6Ge4"
+    "highlightsYouTubeVideoId": "4zSw-LQ6Ge4",
+    "records": {
+      "home": {
+        "overall": "4-2",
+        "home": "3-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -82,7 +156,21 @@
     },
     "opponentId": "STAN",
     "espnGameId": 401404016,
-    "highlightsYouTubeVideoId": "FL8neZUGl_k"
+    "highlightsYouTubeVideoId": "FL8neZUGl_k",
+    "records": {
+      "home": {
+        "overall": "3-3",
+        "home": "2-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-4",
+        "home": "1-2",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -96,7 +184,21 @@
     },
     "opponentId": "UNLV",
     "espnGameId": 401404128,
-    "highlightsYouTubeVideoId": "cbaP_q4Mitc"
+    "highlightsYouTubeVideoId": "cbaP_q4Mitc",
+    "records": {
+      "home": {
+        "overall": "4-3",
+        "home": "3-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-4",
+        "home": "3-1",
+        "away": "1-3",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -110,7 +212,21 @@
     },
     "opponentId": "SYR",
     "espnGameId": 401404129,
-    "highlightsYouTubeVideoId": "vLurozYmDrU"
+    "highlightsYouTubeVideoId": "vLurozYmDrU",
+    "records": {
+      "home": {
+        "overall": "6-2",
+        "home": "5-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-3",
+        "home": "3-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -124,7 +240,21 @@
     },
     "opponentId": "CLEM",
     "espnGameId": 401404130,
-    "highlightsYouTubeVideoId": "rML8eHvbq9g"
+    "highlightsYouTubeVideoId": "rML8eHvbq9g",
+    "records": {
+      "home": {
+        "overall": "6-3",
+        "home": "4-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-1",
+        "home": "4-0",
+        "away": "4-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -138,7 +268,21 @@
     },
     "opponentId": "NAVY",
     "espnGameId": 401404131,
-    "highlightsYouTubeVideoId": "TdMXUKH08JY"
+    "highlightsYouTubeVideoId": "TdMXUKH08JY",
+    "records": {
+      "home": {
+        "overall": "3-7",
+        "home": "2-4",
+        "away": "1-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-3",
+        "home": "5-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -152,7 +296,21 @@
     },
     "opponentId": "BC",
     "espnGameId": 401404132,
-    "highlightsYouTubeVideoId": "ca862G0S9X8"
+    "highlightsYouTubeVideoId": "ca862G0S9X8",
+    "records": {
+      "home": {
+        "overall": "8-3",
+        "home": "6-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-8",
+        "home": "2-3",
+        "away": "1-5",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -166,7 +324,21 @@
     },
     "opponentId": "USC",
     "espnGameId": 401404133,
-    "highlightsYouTubeVideoId": "QUk_YW2JX2o"
+    "highlightsYouTubeVideoId": "QUk_YW2JX2o",
+    "records": {
+      "home": {
+        "overall": "11-1",
+        "home": "7-0",
+        "away": "4-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-4",
+        "home": "6-2",
+        "away": "2-2",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -182,6 +354,20 @@
     },
     "opponentId": "SCAR",
     "espnGameId": 401404133,
-    "highlightsYouTubeVideoId": "QUk_YW2JX2o"
+    "highlightsYouTubeVideoId": "QUk_YW2JX2o",
+    "records": {
+      "home": {
+        "overall": "9-4",
+        "home": "6-2",
+        "away": "2-2",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "8-5",
+        "home": "5-2",
+        "away": "3-2",
+        "neutral": "0-1"
+      }
+    }
   }
 ]
