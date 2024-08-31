@@ -81,7 +81,7 @@ const _normalizeTeamName = (teamName: string): string => {
 };
 
 const _getPollRankingsForWeek = (
-  $: cheerio.Root,
+  $: cheerio.CheerioAPI,
   weekIndex: number
 ): Record<PollType, WeeklyIndividualPollRanking | null> => {
   const pollRankings: Record<PollType, WeeklyIndividualPollRanking | null> = {
