@@ -203,7 +203,6 @@ export const fetchGameIdsForSeason = async (season: number): Promise<number[]> =
 /**
  * Returns a list of game stats and line scores from ESPN for the provided game.
  */
-
 export const fetchStatsForGame = async (
   gameId: number
 ): Promise<{
@@ -217,16 +216,17 @@ export const fetchStatsForGame = async (
   ]);
 
   // If the game is not over, return early with no data.
-  const gameStatus = $matchup('.status-detail').text().trim();
-  if (!gameStatus.startsWith('Final')) {
+  const winnerIcon = $matchup('.Gamestrip__WinnerIcon');
+  if (!winnerIcon.length) {
+    logger.error('Skipped fetching stats for game since it is not over', {gameId});
     return null;
   }
 
-  const $statsTable = $matchup('.team-stats-list');
+  const $statsTable = $matchup('.TeamStatsTable');
 
   // Loop through each row in the stats table.
-  const awayStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
-  const homeStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
+  const awayStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
+  const homeStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
 
   $statsTable.find('tr').each((_, row) => {
     const rowCells = $matchup(row).children('td');
@@ -304,14 +304,9 @@ export const fetchStatsForGame = async (
           // Ignore turnovers stat since it can be computed (interceptions + lost fumbles).
           break;
         default:
-          logger.error('Unexpected stat name.', {gameId, statName});
+          logger.error('Fetched unexpected stat name', {gameId, statName});
       }
     }
-
-    return {
-      away: awayStats,
-      home: homeStats,
-    };
   });
 
   // Fetch total fumbles (lost and recovered) from the boxscore page since the matchup page only
@@ -358,7 +353,7 @@ export const fetchStatsForGame = async (
 
   // Line score
   const linescore: GameLinescore = {away: [], home: []};
-  $matchup('#linescore')
+  $matchup('.Gamestrip__Overview')
     .find('tbody')
     .find('tr')
     .each((_, row) => {
