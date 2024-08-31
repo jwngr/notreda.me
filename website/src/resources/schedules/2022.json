@@ -338,6 +338,7 @@
   {
     "isHomeGame": true,
     "isShamrockSeries": true,
+    "isNeutralSiteGame": true,
     "fullDate": "Sat Oct 08 2022 19:30:00 GMT-0400",
     "coverage": "NBC",
     "location": {
@@ -352,15 +353,15 @@
     "records": {
       "home": {
         "overall": "3-2",
-        "home": "2-1",
+        "home": "1-1",
         "away": "1-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-2",
         "home": "3-1",
-        "away": "1-1",
-        "neutral": "0-0"
+        "away": "1-0",
+        "neutral": "0-1"
       }
     },
     "headCoach": "Marcus Freeman",
@@ -434,9 +435,9 @@
     "records": {
       "home": {
         "overall": "3-3",
-        "home": "2-2",
+        "home": "1-2",
         "away": "1-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "2-4",
@@ -516,9 +517,9 @@
     "records": {
       "home": {
         "overall": "4-3",
-        "home": "3-2",
+        "home": "2-2",
         "away": "1-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-4",
@@ -604,9 +605,9 @@
       },
       "away": {
         "overall": "5-3",
-        "home": "3-2",
+        "home": "2-2",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "headCoach": "Marcus Freeman",
@@ -680,9 +681,9 @@
     "records": {
       "home": {
         "overall": "6-3",
-        "home": "4-2",
+        "home": "3-2",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "8-1",
@@ -748,6 +749,7 @@
   },
   {
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "fullDate": "Sat Nov 12 2022 12:00:00 GMT-0500",
     "coverage": "ABC",
     "location": {
@@ -768,9 +770,9 @@
       },
       "away": {
         "overall": "7-3",
-        "home": "5-2",
+        "home": "3-2",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "2-0"
       }
     },
     "headCoach": "Marcus Freeman",
@@ -844,9 +846,9 @@
     "records": {
       "home": {
         "overall": "8-3",
-        "home": "6-2",
+        "home": "4-2",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "2-0"
       },
       "away": {
         "overall": "3-8",
@@ -932,9 +934,9 @@
       },
       "away": {
         "overall": "8-4",
-        "home": "6-2",
+        "home": "4-2",
         "away": "2-2",
-        "neutral": "0-0"
+        "neutral": "2-0"
       }
     },
     "headCoach": "Marcus Freeman",
@@ -993,8 +995,9 @@
     "result": "L"
   },
   {
-    "isHomeGame": true,
+    "isHomeGame": false,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "nickname": "TaxSlayer Gator Bowl",
     "fullDate": "Fri Dec 30 2022 15:30:00 GMT-0500",
     "coverage": "ESPN",
@@ -1005,75 +1008,21 @@
       "coordinates": [30.323889, -81.6375]
     },
     "opponentId": "SCAR",
-    "espnGameId": 401404133,
+    "espnGameId": 401442036,
     "highlightsYouTubeVideoId": "QUk_YW2JX2o",
     "records": {
       "home": {
-        "overall": "9-4",
-        "home": "6-2",
-        "away": "2-2",
-        "neutral": "1-0"
-      },
-      "away": {
         "overall": "8-5",
         "home": "5-2",
         "away": "3-2",
         "neutral": "0-1"
-      }
-    },
-    "headCoach": "Marcus Freeman",
-    "stats": {
-      "away": {
-        "firstDowns": 22,
-        "thirdDownAttempts": 7,
-        "thirdDownConversions": 5,
-        "fourthDownAttempts": 1,
-        "fourthDownConversions": 0,
-        "totalYards": 408,
-        "passYards": 318,
-        "passCompletions": 23,
-        "passAttempts": 26,
-        "yardsPerPass": 12.2,
-        "interceptionsThrown": 1,
-        "rushYards": 90,
-        "rushAttempts": 26,
-        "yardsPerRush": 3.5,
-        "penalties": 4,
-        "penaltyYards": 39,
-        "possession": "24:37",
-        "fumblesLost": 1,
-        "fumbles": 2
       },
-      "home": {
-        "firstDowns": 23,
-        "thirdDownAttempts": 12,
-        "thirdDownConversions": 8,
-        "fourthDownAttempts": 1,
-        "fourthDownConversions": 1,
-        "totalYards": 436,
-        "passYards": 232,
-        "passCompletions": 18,
-        "passAttempts": 22,
-        "yardsPerPass": 10.5,
-        "interceptionsThrown": 0,
-        "rushYards": 204,
-        "rushAttempts": 39,
-        "yardsPerRush": 5.2,
-        "penalties": 6,
-        "penaltyYards": 55,
-        "possession": "35:23",
-        "fumblesLost": 0,
-        "fumbles": 1
+      "away": {
+        "overall": "9-4",
+        "home": "4-2",
+        "away": "2-2",
+        "neutral": "3-0"
       }
-    },
-    "score": {
-      "home": 38,
-      "away": 27
-    },
-    "linescore": {
-      "away": [0, 7, 7, 13],
-      "home": [10, 7, 7, 14]
-    },
-    "result": "W"
+    }
   }
 ]

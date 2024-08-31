@@ -284,6 +284,7 @@
     "fullDate": "Sat Sep 25 2021 12:00:00 GMT-0400",
     "coverage": "FOX",
     "isShamrockSeries": true,
+    "isNeutralSiteGame": true,
     "highlightsYouTubeVideoId": "daf6cH18ukQ",
     "location": {
       "city": "Chicago",
@@ -296,15 +297,15 @@
     "records": {
       "home": {
         "overall": "1-2",
-        "home": "1-2",
+        "home": "1-1",
         "away": "0-0",
-        "neutral": "0-0"
+        "neutral": "0-1"
       },
       "away": {
         "overall": "4-0",
-        "home": "3-0",
+        "home": "2-0",
         "away": "1-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "rankings": {
@@ -392,9 +393,9 @@
     "records": {
       "home": {
         "overall": "4-1",
-        "home": "3-1",
+        "home": "2-1",
         "away": "1-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-0",
@@ -494,9 +495,9 @@
       },
       "away": {
         "overall": "5-1",
-        "home": "3-1",
+        "home": "2-1",
         "away": "2-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "rankings": {
@@ -580,9 +581,9 @@
     "records": {
       "home": {
         "overall": "6-1",
-        "home": "4-1",
+        "home": "3-1",
         "away": "2-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "3-4",
@@ -672,9 +673,9 @@
     "records": {
       "home": {
         "overall": "7-1",
-        "home": "5-1",
+        "home": "4-1",
         "away": "2-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-4",
@@ -765,9 +766,9 @@
     "records": {
       "home": {
         "overall": "8-1",
-        "home": "6-1",
+        "home": "5-1",
         "away": "2-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "2-7",
@@ -864,9 +865,9 @@
       },
       "away": {
         "overall": "9-1",
-        "home": "6-1",
+        "home": "5-1",
         "away": "3-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "rankings": {
@@ -951,15 +952,15 @@
     "records": {
       "home": {
         "overall": "10-1",
-        "home": "7-1",
+        "home": "6-1",
         "away": "3-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
-        "overall": "8-5",
-        "home": "4-2",
-        "away": "3-3",
-        "neutral": "1-0"
+        "overall": "3-8",
+        "home": "2-4",
+        "away": "1-4",
+        "neutral": "0-0"
       }
     },
     "rankings": {
@@ -1045,15 +1046,15 @@
     "records": {
       "home": {
         "overall": "3-9",
-        "home": "1-6",
+        "home": "1-5",
         "away": "2-3",
-        "neutral": "0-0"
+        "neutral": "0-1"
       },
       "away": {
         "overall": "11-1",
-        "home": "7-1",
+        "home": "6-1",
         "away": "4-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     },
     "rankings": {
@@ -1121,6 +1122,7 @@
   {
     "isHomeGame": true,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "fullDate": "Sat Jan 01 2022 13:00:00 GMT-0500",
     "coverage": "ESPN",
     "nickname": "Fiesta Bowl",
@@ -1148,9 +1150,9 @@
     "records": {
       "home": {
         "overall": "11-2",
-        "home": "7-1",
+        "home": "6-1",
         "away": "4-0",
-        "neutral": "0-1"
+        "neutral": "1-1"
       },
       "away": {
         "overall": "12-2",

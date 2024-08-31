@@ -57,6 +57,7 @@
   },
   {
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "date": "10/19/2024",
     "location": {
       "city": "Atlanta",
@@ -68,6 +69,7 @@
   },
   {
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "date": "10/26/2024",
     "location": {
       "city": "East Rutherford",
@@ -109,6 +111,18 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": false,
+    "isNeutralSiteGame": true,
+    "date": "11/23/2024",
+    "location": {
+      "city": "Bronx",
+      "state": "NY",
+      "stadium": "Yankee Stadium",
+      "coordinates": [40.829602, -73.926228]
+    },
+    "opponentId": "ARMY"
   },
   {
     "isHomeGame": false,

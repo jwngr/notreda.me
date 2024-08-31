@@ -1,6 +1,7 @@
 [
   {
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
     "fullDate": "Sat Aug 26 2023 19:30:00 GMT+0100",
     "coverage": "NBC",
     "location": {
@@ -69,15 +70,15 @@
     "records": {
       "home": {
         "overall": "1-0",
-        "home": "1-0",
+        "home": "0-0",
         "away": "0-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "0-1",
-        "home": "0-1",
+        "home": "0-0",
         "away": "0-0",
-        "neutral": "0-0"
+        "neutral": "0-1"
       }
     }
   },
@@ -151,9 +152,9 @@
     "records": {
       "home": {
         "overall": "2-0",
-        "home": "2-0",
+        "home": "1-0",
         "away": "0-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "0-1",
@@ -239,9 +240,9 @@
       },
       "away": {
         "overall": "3-0",
-        "home": "2-0",
+        "home": "1-0",
         "away": "1-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     }
   },
@@ -315,9 +316,9 @@
     "records": {
       "home": {
         "overall": "4-0",
-        "home": "3-0",
+        "home": "2-0",
         "away": "1-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "1-2",
@@ -397,9 +398,9 @@
     "records": {
       "home": {
         "overall": "4-1",
-        "home": "3-1",
+        "home": "2-1",
         "away": "1-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-0",
@@ -485,9 +486,9 @@
       },
       "away": {
         "overall": "5-1",
-        "home": "3-1",
+        "home": "2-1",
         "away": "2-0",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     }
   },
@@ -567,9 +568,9 @@
       },
       "away": {
         "overall": "5-2",
-        "home": "3-1",
+        "home": "2-1",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     }
   },
@@ -643,9 +644,9 @@
     "records": {
       "home": {
         "overall": "6-2",
-        "home": "4-1",
+        "home": "3-1",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "6-1",
@@ -725,9 +726,9 @@
     "records": {
       "home": {
         "overall": "7-2",
-        "home": "5-1",
+        "home": "4-1",
         "away": "2-1",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "2-6",
@@ -813,9 +814,9 @@
       },
       "away": {
         "overall": "7-3",
-        "home": "5-1",
+        "home": "4-1",
         "away": "2-2",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     }
   },
@@ -889,9 +890,9 @@
     "records": {
       "home": {
         "overall": "8-3",
-        "home": "6-1",
+        "home": "5-1",
         "away": "2-2",
-        "neutral": "0-0"
+        "neutral": "1-0"
       },
       "away": {
         "overall": "4-7",
@@ -977,15 +978,16 @@
       },
       "away": {
         "overall": "9-3",
-        "home": "6-1",
+        "home": "5-1",
         "away": "3-2",
-        "neutral": "0-0"
+        "neutral": "1-0"
       }
     }
   },
   {
     "isHomeGame": true,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "nickname": "Tony the Tiger Sun Bowl",
     "fullDate": "Sat Dec 29 2023 12:00:00 GMT-0700",
     "coverage": "CBS",
@@ -1055,9 +1057,9 @@
     "records": {
       "home": {
         "overall": "10-3",
-        "home": "6-1",
+        "home": "5-1",
         "away": "3-2",
-        "neutral": "1-0"
+        "neutral": "2-0"
       },
       "away": {
         "overall": "8-5",
