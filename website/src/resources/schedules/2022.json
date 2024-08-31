@@ -1009,7 +1009,7 @@
     },
     "opponentId": "SCAR",
     "espnGameId": 401442036,
-    "highlightsYouTubeVideoId": "QUk_YW2JX2o",
+    "highlightsYouTubeVideoId": "7zF9AgP8_9E",
     "records": {
       "home": {
         "overall": "8-5",
@@ -1023,6 +1023,60 @@
         "away": "2-2",
         "neutral": "3-0"
       }
-    }
+    },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 27,
+        "thirdDownAttempts": 19,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 556,
+        "passYards": 293,
+        "passCompletions": 19,
+        "passAttempts": 34,
+        "yardsPerPass": 8.6,
+        "interceptionsThrown": 3,
+        "rushYards": 263,
+        "rushAttempts": 46,
+        "yardsPerRush": 5.7,
+        "penalties": 4,
+        "penaltyYards": 40,
+        "possession": "36:39",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 15,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 352,
+        "passYards": 287,
+        "passCompletions": 31,
+        "passAttempts": 49,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 1,
+        "rushYards": 65,
+        "rushAttempts": 22,
+        "yardsPerRush": 3,
+        "penalties": 8,
+        "penaltyYards": 73,
+        "possession": "23:21",
+        "fumblesLost": 1,
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 38,
+      "away": 45
+    },
+    "linescore": {
+      "away": [7, 10, 14, 14],
+      "home": [21, 3, 7, 7]
+    },
+    "result": "W"
   }
 ]
