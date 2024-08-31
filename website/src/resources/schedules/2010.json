@@ -69,6 +69,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 64
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -141,6 +155,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 62
+    },
+    "records": {
+      "home": {
+        "overall": "1-1",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -214,6 +242,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 59
+    },
+    "records": {
+      "home": {
+        "overall": "3-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -291,6 +333,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 55
+    },
+    "records": {
+      "home": {
+        "overall": "1-3",
+        "home": "1-2",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-0",
+        "home": "2-0",
+        "away": "2-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -363,6 +419,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 50
+    },
+    "records": {
+      "home": {
+        "overall": "2-2",
+        "home": "2-2",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-3",
+        "home": "1-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -435,6 +505,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 82
+    },
+    "records": {
+      "home": {
+        "overall": "3-3",
+        "home": "2-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-3",
+        "home": "2-1",
+        "away": "0-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -507,11 +591,26 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 66
+    },
+    "records": {
+      "home": {
+        "overall": "4-3",
+        "home": "3-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-4",
+        "home": "1-2",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
     "result": "L",
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "date": "10/23/2010",
     "location": {
       "city": "East Rutherford",
@@ -579,6 +678,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 64
+    },
+    "records": {
+      "home": {
+        "overall": "5-2",
+        "home": "2-0",
+        "away": "2-1",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "4-4",
+        "home": "3-2",
+        "away": "1-1",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -651,6 +764,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 60
+    },
+    "records": {
+      "home": {
+        "overall": "4-5",
+        "home": "3-3",
+        "away": "1-1",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "5-3",
+        "home": "3-0",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -729,11 +856,26 @@
     "weather": {
       "icon": "rain",
       "temperature": 54
+    },
+    "records": {
+      "home": {
+        "overall": "5-5",
+        "home": "4-3",
+        "away": "1-1",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "8-2",
+        "home": "4-1",
+        "away": "4-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
     "date": "11/20/2010",
     "location": {
       "city": "Bronx",
@@ -802,6 +944,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 47
+    },
+    "records": {
+      "home": {
+        "overall": "6-5",
+        "home": "4-3",
+        "away": "1-1",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "6-5",
+        "home": "2-3",
+        "away": "4-1",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -874,12 +1030,27 @@
     "weather": {
       "icon": "rain",
       "temperature": 53
+    },
+    "records": {
+      "home": {
+        "overall": "7-5",
+        "home": "3-3",
+        "away": "4-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-5",
+        "home": "4-3",
+        "away": "2-1",
+        "neutral": "1-1"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": false,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "date": "12/31/2010",
     "location": {
       "city": "El Paso",
@@ -948,6 +1119,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 34
+    },
+    "records": {
+      "home": {
+        "overall": "7-6",
+        "home": "3-3",
+        "away": "4-2",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "8-5",
+        "home": "4-3",
+        "away": "2-1",
+        "neutral": "2-1"
+      }
     }
   }
 ]

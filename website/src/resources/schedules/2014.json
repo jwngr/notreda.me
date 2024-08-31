@@ -74,6 +74,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 76
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -151,11 +165,26 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 57
+    },
+    "records": {
+      "home": {
+        "overall": "2-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-1",
+        "home": "1-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
     "date": "09/13/2014",
     "time": "7:30 PM",
     "coverage": "NBC",
@@ -229,11 +258,26 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 51
+    },
+    "records": {
+      "home": {
+        "overall": "3-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-1"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "date": "09/27/2014",
     "time": "8:00 PM",
     "coverage": "ABC",
@@ -306,6 +350,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 65
+    },
+    "records": {
+      "home": {
+        "overall": "2-2",
+        "home": "1-1",
+        "away": "1-0",
+        "neutral": "0-1"
+      },
+      "away": {
+        "overall": "4-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "2-0"
+      }
     }
   },
   {
@@ -386,6 +444,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 44
+    },
+    "records": {
+      "home": {
+        "overall": "5-0",
+        "home": "3-0",
+        "away": "0-0",
+        "neutral": "2-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -463,6 +535,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 57
+    },
+    "records": {
+      "home": {
+        "overall": "6-0",
+        "home": "4-0",
+        "away": "0-0",
+        "neutral": "2-0"
+      },
+      "away": {
+        "overall": "2-4",
+        "home": "2-1",
+        "away": "0-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -543,11 +629,26 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 67
+    },
+    "records": {
+      "home": {
+        "overall": "7-0",
+        "home": "4-0",
+        "away": "2-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "6-1",
+        "home": "4-0",
+        "away": "0-1",
+        "neutral": "2-0"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": false,
+    "isNeutralSiteGame": true,
     "date": "11/01/2014",
     "time": "8:00 PM",
     "coverage": "CBS",
@@ -621,6 +722,20 @@
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 46
+    },
+    "records": {
+      "home": {
+        "overall": "4-5",
+        "home": "2-2",
+        "away": "2-1",
+        "neutral": "0-2"
+      },
+      "away": {
+        "overall": "7-1",
+        "home": "4-0",
+        "away": "0-1",
+        "neutral": "3-0"
+      }
     }
   },
   {
@@ -635,7 +750,7 @@
       "stadium": "Sun Devil Stadium",
       "coordinates": [33.426389, -111.9325]
     },
-    "opponentId": "AZST",
+    "opponentId": "ASU",
     "score": {
       "away": 31,
       "home": 55
@@ -703,6 +818,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 88
+    },
+    "records": {
+      "home": {
+        "overall": "8-1",
+        "home": "4-1",
+        "away": "4-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-2",
+        "home": "4-0",
+        "away": "0-2",
+        "neutral": "3-0"
+      }
     }
   },
   {
@@ -782,6 +911,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 28
+    },
+    "records": {
+      "home": {
+        "overall": "7-3",
+        "home": "4-1",
+        "away": "0-2",
+        "neutral": "3-0"
+      },
+      "away": {
+        "overall": "4-6",
+        "home": "2-4",
+        "away": "2-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -859,6 +1002,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 47
+    },
+    "records": {
+      "home": {
+        "overall": "7-4",
+        "home": "4-2",
+        "away": "0-2",
+        "neutral": "3-0"
+      },
+      "away": {
+        "overall": "8-3",
+        "home": "4-1",
+        "away": "4-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -931,12 +1088,27 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 70
+    },
+    "records": {
+      "home": {
+        "overall": "8-4",
+        "home": "5-1",
+        "away": "3-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-5",
+        "home": "4-2",
+        "away": "0-3",
+        "neutral": "3-0"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": false,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "date": "12/30/2014",
     "time": "3:00 PM",
     "coverage": "ESPN",
@@ -1011,6 +1183,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 37
+    },
+    "records": {
+      "home": {
+        "overall": "8-5",
+        "home": "5-2",
+        "away": "2-2",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "8-5",
+        "home": "4-2",
+        "away": "0-3",
+        "neutral": "4-0"
+      }
     }
   }
 ]
