@@ -1,4 +1,3 @@
-import * as cheerio from 'cheerio';
 import range from 'lodash/range';
 
 import {GameLinescore, GameScore} from '../../website/src/models/games.models';
