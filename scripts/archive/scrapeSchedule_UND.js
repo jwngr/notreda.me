@@ -18,7 +18,7 @@ if (process.argv.length !== 3) {
  * Fetches the raw HTML schedule data for a given year.
  *
  * @param  {number} year The year whose schedule to fetch.
- * @return {Promise<cheerio.CheerioAPI>} The HTML schedule data.
+ * @return {Promise<cheerio.Root>} The HTML schedule data.
  */
 const getHtmlScheduleDataForYear = (year) => {
   return Scraper.get(

@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 
 export class Scraper {
-  static async get(url: string): Promise<cheerio.CheerioAPI> {
+  static async get(url: string): Promise<cheerio.Root> {
     try {
       const response = await fetch(url);
       const body = await response.text();
