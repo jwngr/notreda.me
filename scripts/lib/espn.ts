@@ -385,24 +385,20 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
   let neutralWins = 0;
   let neutralLosses = 0;
 
-  let upcomingGameIsBowlGame = false;
   let teamAlreadyFacedNotreDame = false;
   $('tr.Table__TR').each((_, row) => {
     // Only fetch team records up through when they play Notre Dame for completed games (i.e., non-
     // header rows with 7 columns).
     const $cols = $(row).find('td');
 
-    upcomingGameIsBowlGame =
-      upcomingGameIsBowlGame ||
-      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
-
     if (!teamAlreadyFacedNotreDame && $cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
       const gameInfo = $cols.eq(1).text().trim();
       const gameResult = $cols.eq(2).text().trim()[0];
 
       // Bowl games are played at neutral sites and do not indicate either side with an @.
-      let locationKey;
-      if (upcomingGameIsBowlGame) {
+      let locationKey: 'home' | 'away' | 'neutral';
+      if (gameInfo.endsWith('*')) {
+        // ESPN uses an asterisk to denote neutral site games.
         locationKey = 'neutral';
       } else {
         locationKey = !gameInfo.includes('@') ? 'home' : 'away';
@@ -465,7 +461,6 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
 
   const weeklyRecords: TeamRecords[] = [];
 
-  let upcomingGameIsBowlGame = false;
   $('tr.Table__TR').each((_, row) => {
     const $cols = $(row).find('td');
 
@@ -474,9 +469,6 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
     const isIgnoredRow =
       $cols.eq(0).text().trim().toLowerCase() === 'date' ||
       ($cols.length !== 5 && $cols.length !== 7);
-    upcomingGameIsBowlGame =
-      upcomingGameIsBowlGame ||
-      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
 
     if (!isIgnoredRow) {
       if ($cols.length === 7) {
@@ -484,8 +476,9 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
         const gameResult = $cols.eq(2).text().trim()[0];
 
         // Bowl games are played at neutral sites and do not indicate either side with an @.
-        let locationKey;
-        if (upcomingGameIsBowlGame) {
+        let locationKey: 'home' | 'away' | 'neutral';
+        if (gameInfo.endsWith('*')) {
+          // ESPN uses an asterisk to denote neutral site games.
           locationKey = 'neutral';
         } else {
           locationKey = !gameInfo.includes('@') ? 'home' : 'away';
