@@ -106,25 +106,26 @@ export const CompletedGameStats: React.FC<{
     backgroundColor: awayTeam.color || DEFAULT_TEAM_COLOR,
   };
 
-  const fumblesRow = stats.away.fumbles ? (
-    <GameStatsRow
-      statName="Fumbles - Lost"
-      reverseComparison={true}
-      awayTeam={awayTeam}
-      homeTeam={homeTeam}
-      awayValue={`${stats.away.fumbles} - ${stats.away.fumblesLost}`}
-      homeValue={`${stats.home.fumbles} - ${stats.home.fumblesLost}`}
-    />
-  ) : (
-    <GameStatsRow
-      statName="Fumbles Lost"
-      reverseComparison={true}
-      awayTeam={awayTeam}
-      homeTeam={homeTeam}
-      awayValue={`${stats.away.fumblesLost}`}
-      homeValue={`${stats.home.fumblesLost}`}
-    />
-  );
+  const fumblesRow =
+    'fumbles' in stats.away && 'fumbles' in stats.home ? (
+      <GameStatsRow
+        statName="Fumbles - Lost"
+        reverseComparison={true}
+        awayTeam={awayTeam}
+        homeTeam={homeTeam}
+        awayValue={`${stats.away.fumbles} - ${stats.away.fumblesLost}`}
+        homeValue={`${stats.home.fumbles} - ${stats.home.fumblesLost}`}
+      />
+    ) : (
+      <GameStatsRow
+        statName="Fumbles Lost"
+        reverseComparison={true}
+        awayTeam={awayTeam}
+        homeTeam={homeTeam}
+        awayValue={`${stats.away.fumblesLost}`}
+        homeValue={`${stats.home.fumblesLost}`}
+      />
+    );
 
   // Some historical teams do not have a nickname, so display their short name or full name instead.
   const awayTeamHeaderText = awayTeam.nickname || awayTeam.shortName || awayTeam.name;

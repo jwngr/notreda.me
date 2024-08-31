@@ -49,9 +49,9 @@
         "yardsPerRush": 2.5,
         "penalties": 5,
         "penaltyYards": 61,
-        "fumbles": 0,
+        "possession": "27:01",
         "fumblesLost": 0,
-        "possession": "27:01"
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 22,
@@ -70,9 +70,9 @@
         "yardsPerRush": 4.9,
         "penalties": 7,
         "penaltyYards": 75,
-        "fumbles": 0,
+        "possession": "32:59",
         "fumblesLost": 0,
-        "possession": "32:59"
+        "fumbles": 0
       }
     },
     "score": {
@@ -135,9 +135,9 @@
         "yardsPerRush": 4.4,
         "penalties": 6,
         "penaltyYards": 44,
-        "fumbles": 0,
+        "possession": "30:47",
         "fumblesLost": 0,
-        "possession": "30:47"
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 22,
@@ -156,9 +156,9 @@
         "yardsPerRush": 3.5,
         "penalties": 4,
         "penaltyYards": 30,
-        "fumbles": 0,
+        "possession": "29:13",
         "fumblesLost": 0,
-        "possession": "29:13"
+        "fumbles": 0
       }
     },
     "score": {
@@ -217,8 +217,9 @@
         "yardsPerRush": 3.6,
         "penalties": 6,
         "penaltyYards": 59,
+        "possession": "26:58",
         "fumblesLost": 0,
-        "possession": "26:58"
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 17,
@@ -237,8 +238,9 @@
         "yardsPerRush": 3.6,
         "penalties": 8,
         "penaltyYards": 66,
+        "possession": "33:02",
         "fumblesLost": 1,
-        "possession": "33:02"
+        "fumbles": 1
       }
     },
     "score": {
@@ -297,8 +299,9 @@
         "yardsPerRush": 5.6,
         "penalties": 5,
         "penaltyYards": 46,
+        "possession": "38:13",
         "fumblesLost": 1,
-        "possession": "38:13"
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 18,
@@ -317,8 +320,9 @@
         "yardsPerRush": 2.4,
         "penalties": 9,
         "penaltyYards": 64,
+        "possession": "21:47",
         "fumblesLost": 1,
-        "possession": "21:47"
+        "fumbles": 1
       }
     },
     "score": {
@@ -332,7 +336,7 @@
     "result": "W"
   },
   {
-    "isHomeGame": false,
+    "isHomeGame": true,
     "isShamrockSeries": true,
     "fullDate": "Sat Oct 08 2022 19:30:00 GMT-0400",
     "coverage": "NBC",
@@ -347,14 +351,14 @@
     "highlightsYouTubeVideoId": "4zSw-LQ6Ge4",
     "records": {
       "home": {
-        "overall": "4-2",
-        "home": "3-1",
+        "overall": "3-2",
+        "home": "2-1",
         "away": "1-1",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-2",
-        "home": "2-1",
+        "overall": "4-2",
+        "home": "3-1",
         "away": "1-1",
         "neutral": "0-0"
       }
@@ -378,9 +382,9 @@
         "yardsPerRush": 5.5,
         "penalties": 1,
         "penaltyYards": 5,
-        "fumbles": 0,
+        "possession": "19:05",
         "fumblesLost": 0,
-        "possession": "19:05"
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 24,
@@ -399,9 +403,9 @@
         "yardsPerRush": 5.2,
         "penalties": 1,
         "penaltyYards": 10,
-        "fumbles": 0,
+        "possession": "40:55",
         "fumblesLost": 0,
-        "possession": "40:55"
+        "fumbles": 0
       }
     },
     "score": {
@@ -412,7 +416,7 @@
       "away": [6, 0, 7, 7],
       "home": [3, 15, 7, 3]
     },
-    "result": "L"
+    "result": "W"
   },
   {
     "isHomeGame": true,
@@ -460,8 +464,9 @@
         "yardsPerRush": 2.3,
         "penalties": 2,
         "penaltyYards": 12,
+        "possession": "36:07",
         "fumblesLost": 0,
-        "possession": "36:07"
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 16,
@@ -480,8 +485,9 @@
         "yardsPerRush": 4.4,
         "penalties": 3,
         "penaltyYards": 20,
+        "possession": "23:53",
         "fumblesLost": 2,
-        "possession": "23:53"
+        "fumbles": 3
       }
     },
     "score": {
@@ -540,8 +546,9 @@
         "yardsPerRush": 5.2,
         "penalties": 5,
         "penaltyYards": 45,
+        "possession": "26:02",
         "fumblesLost": 1,
-        "possession": "26:02"
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 23,
@@ -560,8 +567,9 @@
         "yardsPerRush": 4.7,
         "penalties": 4,
         "penaltyYards": 34,
+        "possession": "33:58",
         "fumblesLost": 1,
-        "possession": "33:58"
+        "fumbles": 1
       }
     },
     "score": {
@@ -620,9 +628,9 @@
         "yardsPerRush": 4.4,
         "penalties": 7,
         "penaltyYards": 60,
-        "fumbles": 0,
+        "possession": "37:40",
         "fumblesLost": 0,
-        "possession": "37:40"
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 15,
@@ -641,9 +649,9 @@
         "yardsPerRush": 2.4,
         "penalties": 3,
         "penaltyYards": 30,
-        "fumbles": 0,
+        "possession": "22:20",
         "fumblesLost": 0,
-        "possession": "22:20"
+        "fumbles": 1
       }
     },
     "score": {
@@ -702,9 +710,9 @@
         "yardsPerRush": 3.6,
         "penalties": 7,
         "penaltyYards": 55,
-        "fumbles": 0,
+        "possession": "27:00",
         "fumblesLost": 0,
-        "possession": "27:00"
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 24,
@@ -723,9 +731,9 @@
         "yardsPerRush": 5.6,
         "penalties": 5,
         "penaltyYards": 67,
-        "fumbles": 0,
+        "possession": "33:00",
         "fumblesLost": 0,
-        "possession": "33:00"
+        "fumbles": 0
       }
     },
     "score": {
@@ -784,9 +792,9 @@
         "yardsPerRush": 1.9,
         "penalties": 8,
         "penaltyYards": 57,
-        "fumbles": 0,
+        "possession": "29:21",
         "fumblesLost": 0,
-        "possession": "29:21"
+        "fumbles": 0
       },
       "home": {
         "firstDowns": 19,
@@ -805,9 +813,9 @@
         "yardsPerRush": 5.5,
         "penalties": 4,
         "penaltyYards": 30,
-        "fumbles": 0,
+        "possession": "30:39",
         "fumblesLost": 0,
-        "possession": "30:39"
+        "fumbles": 0
       }
     },
     "score": {
@@ -866,8 +874,9 @@
         "yardsPerRush": 1.6,
         "penalties": 3,
         "penaltyYards": 20,
+        "possession": "29:00",
         "fumblesLost": 2,
-        "possession": "29:00"
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 22,
@@ -886,8 +895,9 @@
         "yardsPerRush": 7.4,
         "penalties": 2,
         "penaltyYards": 20,
+        "possession": "31:00",
         "fumblesLost": 1,
-        "possession": "31:00"
+        "fumbles": 1
       }
     },
     "score": {
@@ -946,8 +956,9 @@
         "yardsPerRush": 3.5,
         "penalties": 4,
         "penaltyYards": 39,
+        "possession": "24:37",
         "fumblesLost": 1,
-        "possession": "24:37"
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 23,
@@ -966,8 +977,9 @@
         "yardsPerRush": 5.2,
         "penalties": 6,
         "penaltyYards": 55,
+        "possession": "35:23",
         "fumblesLost": 0,
-        "possession": "35:23"
+        "fumbles": 1
       }
     },
     "score": {
@@ -1028,8 +1040,9 @@
         "yardsPerRush": 3.5,
         "penalties": 4,
         "penaltyYards": 39,
+        "possession": "24:37",
         "fumblesLost": 1,
-        "possession": "24:37"
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 23,
@@ -1048,8 +1061,9 @@
         "yardsPerRush": 5.2,
         "penalties": 6,
         "penaltyYards": 55,
+        "possession": "35:23",
         "fumblesLost": 0,
-        "possession": "35:23"
+        "fumbles": 1
       }
     },
     "score": {

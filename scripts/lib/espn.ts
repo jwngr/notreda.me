@@ -31,9 +31,10 @@ const DEFAULT_TEAM_STATS: TeamStats = {
   yardsPerRush: 0,
   penalties: 0,
   penaltyYards: 0,
-  fumbles: 0,
-  fumblesLost: 0,
   possession: '',
+  // No default value is set for "fumbles" since it is optional and sometimes not available
+  // immediately after the game ends.
+  fumblesLost: 0,
 };
 
 const logger = new Logger({isSentryEnabled: false});
@@ -309,49 +310,27 @@ export const fetchStatsForGame = async (
     }
   });
 
-  // Fetch total fumbles (lost and recovered) from the boxscore page since the matchup page only
-  // provides stats for lost fumbles.
-  const $fumbleStatsContainer = $boxscore('#gamepackage-fumbles');
-  $fumbleStatsContainer.find('.col').each((i, teamFumbleStatsContainer) => {
-    const teamFumbleRows = $boxscore(teamFumbleStatsContainer).find('tr');
-    const teamFumbleTotalRow = teamFumbleRows.last();
+  // Compute total fumbles (lost + recovered) from the boxscore page since the matchup page only
+  // provides stats for lost fumbles. ESPN usually updates this a few hours after the game ends.
+  const $boxScoreCategories = $boxscore('.Boxscore__Category');
+  $boxScoreCategories.each((_, boxScoreCategory) => {
+    const categoryName = $boxscore(boxScoreCategory).find('.TeamTitle').text().trim();
+    if (categoryName.toLowerCase().includes('fumbles')) {
+      const teamContainers = $boxscore(boxScoreCategory).find('.Boxscore__Team');
+      teamContainers.each((j, teamContainer) => {
+        const teamFumbleTotals = $boxscore(teamContainer).find('.Boxscore__Totals');
+        const teamFumblesCount = teamFumbleTotals.find('td').eq(1).text().trim() ?? 0;
 
-    const $teamFumbleTotalTd = $boxscore(teamFumbleTotalRow).find('.fum');
-
-    let teamFumblesCount: number;
-    if ($teamFumbleTotalTd.length === 0) {
-      // There are no stats on fumbles for this team, meaning either (1) they did not have any
-      // fumbles or fumble recoveries or (2) the fumble stats have not yet bet updated by ESPN
-      // (they usually happen a few hours after the game ends). Either way, set this value to 0
-      // and we will clean it up as much as we can below.
-      teamFumblesCount = 0;
-    } else {
-      // Otherwise, the team's fumble count is the text of the element we grabbed.
-      teamFumblesCount = Number($teamFumbleTotalTd.text().trim());
-    }
-
-    if (i === 0) {
-      awayStats.fumbles = teamFumblesCount;
-    } else {
-      homeStats.fumbles = teamFumblesCount;
+        if (j === 0) {
+          awayStats.fumbles = Number(teamFumblesCount);
+        } else {
+          homeStats.fumbles = Number(teamFumblesCount);
+        }
+      });
     }
   });
 
-  // It is difficult to completely differentiate the two cases above in which a team's fumble
-  // count is 0, but we can at the very least check to see if there were any fumbles lost in
-  // the game (which is available right at the conclusion of the game). If there are any lost
-  // fumbles at all, the fumbles count for at least one team should be non-zero. So if they are
-  // both zero, we know the data is just not available yet, so delete the fumble counts for now
-  // which will hide it on the site itself.
-  if (
-    (homeStats.fumblesLost ?? 0) + (awayStats.fumblesLost ?? 0) > 0 &&
-    (homeStats.fumbles ?? 0) + (awayStats.fumbles ?? 0) === 0
-  ) {
-    delete homeStats.fumbles;
-    delete awayStats.fumbles;
-  }
-
-  // Line score
+  // Compute line score.
   const linescore: GameLinescore = {away: [], home: []};
   $matchup('.Gamestrip__Overview')
     .find('tbody')
