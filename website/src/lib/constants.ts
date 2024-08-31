@@ -3,7 +3,7 @@ import range from 'lodash/range';
 import theme from '../resources/theme.json';
 
 export const LATEST_SEASON = 2037;
-export const CURRENT_SEASON = 2024;
+export const CURRENT_SEASON = 2023;
 export const DEFAULT_TEAM_COLOR = theme.colors.red;
 
 export const ALL_SEASONS = [1887, 1888, 1889, ...range(1892, LATEST_SEASON + 1)];
