@@ -19,6 +19,7 @@ const EXPECTED_TV_CHANNELS = [
   'USA',
   'WGN-TV',
   // TODO: Handle multi-network broadcasts explicitly in the data model as an array of networks.
+  'ABC / CBS',
   'ABC / ESPN',
   'ABC / ESPN2',
   'RAYCOM / WGN-TV',
