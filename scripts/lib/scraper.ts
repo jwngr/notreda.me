@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 export class Scraper {
   static async get(url: string): Promise<cheerio.Root> {

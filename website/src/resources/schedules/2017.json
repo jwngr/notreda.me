@@ -28,8 +28,8 @@
         "yardsPerRush": 2.3,
         "penalties": 6,
         "penaltyYards": 42,
-        "fumblesLost": 1,
         "possession": "33:49",
+        "fumblesLost": 1,
         "fumbles": 1
       },
       "home": {
@@ -49,15 +49,15 @@
         "yardsPerRush": 9.6,
         "penalties": 4,
         "penaltyYards": 20,
-        "fumblesLost": 0,
         "possession": "26:11",
-        "fumbles": 1
+        "fumblesLost": 0,
+        "fumbles": 0
       }
     },
     "opponentId": "TEM",
     "score": {
-      "away": 16,
-      "home": 49
+      "home": 49,
+      "away": 16
     },
     "espnGameId": 400934573,
     "highlightsYouTubeVideoId": "E0vAm2S7PnE",
@@ -70,6 +70,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 60
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -86,7 +100,7 @@
     "stats": {
       "away": {
         "firstDowns": 16,
-        "thirdDownAttempts": 18,
+        "thirdDownAttempts": 17,
         "thirdDownConversions": 4,
         "fourthDownAttempts": 0,
         "fourthDownConversions": 0,
@@ -100,9 +114,9 @@
         "rushAttempts": 43,
         "yardsPerRush": 4.3,
         "penalties": 12,
-        "penaltyYards": 126,
-        "fumblesLost": 1,
+        "penaltyYards": 127,
         "possession": "32:42",
+        "fumblesLost": 1,
         "fumbles": 1
       },
       "home": {
@@ -111,26 +125,26 @@
         "thirdDownConversions": 3,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 1,
-        "totalYards": 266,
-        "passYards": 211,
-        "passCompletions": 19,
-        "passAttempts": 39,
-        "yardsPerPass": 5.4,
+        "totalYards": 265,
+        "passYards": 210,
+        "passCompletions": 20,
+        "passAttempts": 40,
+        "yardsPerPass": 5.3,
         "interceptionsThrown": 0,
         "rushYards": 55,
         "rushAttempts": 37,
         "yardsPerRush": 1.5,
         "penalties": 8,
         "penaltyYards": 63,
-        "fumblesLost": 2,
         "possession": "27:18",
+        "fumblesLost": 2,
         "fumbles": 3
       }
     },
     "opponentId": "UGA",
     "score": {
-      "away": 20,
-      "home": 19
+      "home": 19,
+      "away": 20
     },
     "espnGameId": 400933845,
     "highlightsYouTubeVideoId": "9SjONTyIDlQ",
@@ -153,6 +167,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 65
+    },
+    "records": {
+      "home": {
+        "overall": "1-1",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -170,8 +198,8 @@
     "espnGameId": 400934574,
     "highlightsYouTubeVideoId": "akmoz07RZSo",
     "score": {
-      "away": 49,
-      "home": 20
+      "home": 20,
+      "away": 49
     },
     "stats": {
       "away": {
@@ -191,8 +219,8 @@
         "yardsPerRush": 10.1,
         "penalties": 5,
         "penaltyYards": 45,
-        "fumblesLost": 1,
         "possession": "29:35",
+        "fumblesLost": 1,
         "fumbles": 1
       },
       "home": {
@@ -212,8 +240,8 @@
         "yardsPerRush": 4.2,
         "penalties": 6,
         "penaltyYards": 35,
-        "fumblesLost": 1,
         "possession": "30:25",
+        "fumblesLost": 1,
         "fumbles": 2
       }
     },
@@ -226,6 +254,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 78
+    },
+    "records": {
+      "home": {
+        "overall": "1-2",
+        "home": "0-2",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "1-1",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -261,15 +303,15 @@
         "passYards": 173,
         "passCompletions": 14,
         "passAttempts": 20,
-        "yardsPerPass": 8.6,
+        "yardsPerPass": 8.7,
         "interceptionsThrown": 0,
         "rushYards": 182,
         "rushAttempts": 40,
         "yardsPerRush": 4.6,
         "penalties": 6,
         "penaltyYards": 65,
-        "fumblesLost": 0,
         "possession": "25:57",
+        "fumblesLost": 0,
         "fumbles": 0
       },
       "home": {
@@ -289,8 +331,8 @@
         "yardsPerRush": 4.7,
         "penalties": 9,
         "penaltyYards": 97,
-        "fumblesLost": 2,
         "possession": "34:03",
+        "fumblesLost": 2,
         "fumbles": 2
       }
     },
@@ -299,6 +341,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 80
+    },
+    "records": {
+      "home": {
+        "overall": "2-1",
+        "home": "2-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-1",
+        "home": "1-1",
+        "away": "2-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -341,8 +397,8 @@
         "yardsPerRush": 3.5,
         "penalties": 9,
         "penaltyYards": 90,
-        "fumblesLost": 1,
         "possession": "35:33",
+        "fumblesLost": 1,
         "fumbles": 1
       },
       "home": {
@@ -362,8 +418,8 @@
         "yardsPerRush": 8.5,
         "penalties": 5,
         "penaltyYards": 60,
-        "fumblesLost": 0,
         "possession": "24:27",
+        "fumblesLost": 0,
         "fumbles": 0
       }
     },
@@ -377,6 +433,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 66
+    },
+    "records": {
+      "home": {
+        "overall": "4-1",
+        "home": "2-1",
+        "away": "2-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-3",
+        "home": "1-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -419,8 +489,8 @@
         "yardsPerRush": 6,
         "penalties": 10,
         "penaltyYards": 80,
-        "fumblesLost": 0,
         "possession": "36:32",
+        "fumblesLost": 0,
         "fumbles": 2
       },
       "home": {
@@ -440,8 +510,8 @@
         "yardsPerRush": 3.1,
         "penalties": 10,
         "penaltyYards": 104,
-        "fumblesLost": 2,
         "possession": "23:28",
+        "fumblesLost": 2,
         "fumbles": 3
       }
     },
@@ -456,6 +526,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 83
+    },
+    "records": {
+      "home": {
+        "overall": "1-5",
+        "home": "0-4",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-1",
+        "home": "2-1",
+        "away": "3-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -498,8 +582,8 @@
         "yardsPerRush": 2.5,
         "penalties": 7,
         "penaltyYards": 40,
-        "fumblesLost": 2,
         "possession": "31:36",
+        "fumblesLost": 2,
         "fumbles": 2
       },
       "home": {
@@ -519,8 +603,8 @@
         "yardsPerRush": 8,
         "penalties": 7,
         "penaltyYards": 51,
-        "fumblesLost": 0,
         "possession": "28:24",
+        "fumblesLost": 0,
         "fumbles": 0
       }
     },
@@ -539,6 +623,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 69
+    },
+    "records": {
+      "home": {
+        "overall": "6-1",
+        "home": "3-1",
+        "away": "3-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-2",
+        "home": "5-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -581,8 +679,8 @@
         "yardsPerRush": 2.1,
         "penalties": 12,
         "penaltyYards": 89,
-        "fumblesLost": 0,
         "possession": "25:43",
+        "fumblesLost": 0,
         "fumbles": 1
       },
       "home": {
@@ -602,8 +700,8 @@
         "yardsPerRush": 5.9,
         "penalties": 4,
         "penaltyYards": 29,
-        "fumblesLost": 0,
         "possession": "34:17",
+        "fumblesLost": 0,
         "fumbles": 0
       }
     },
@@ -622,6 +720,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 40
+    },
+    "records": {
+      "home": {
+        "overall": "7-1",
+        "home": "4-1",
+        "away": "3-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-2",
+        "home": "4-0",
+        "away": "2-1",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -664,8 +776,8 @@
         "yardsPerRush": 6,
         "penalties": 3,
         "penaltyYards": 15,
-        "fumblesLost": 0,
         "possession": "28:07",
+        "fumblesLost": 0,
         "fumbles": 0
       },
       "home": {
@@ -685,8 +797,8 @@
         "yardsPerRush": 8.3,
         "penalties": 5,
         "penaltyYards": 40,
-        "fumblesLost": 0,
         "possession": "31:53",
+        "fumblesLost": 0,
         "fumbles": 2
       }
     },
@@ -702,6 +814,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 43
+    },
+    "records": {
+      "home": {
+        "overall": "8-1",
+        "home": "5-1",
+        "away": "3-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-4",
+        "home": "3-1",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -787,6 +913,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 77
+    },
+    "records": {
+      "home": {
+        "overall": "9-0",
+        "home": "6-0",
+        "away": "3-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-2",
+        "home": "5-1",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -829,8 +969,8 @@
         "yardsPerRush": 3.8,
         "penalties": 2,
         "penaltyYards": 16,
-        "fumblesLost": 0,
         "possession": "42:42",
+        "fumblesLost": 0,
         "fumbles": 0
       },
       "home": {
@@ -850,8 +990,8 @@
         "yardsPerRush": 5.3,
         "penalties": 3,
         "penaltyYards": 35,
-        "fumblesLost": 1,
         "possession": "17:18",
+        "fumblesLost": 1,
         "fumbles": 1
       }
     },
@@ -867,6 +1007,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 42
+    },
+    "records": {
+      "home": {
+        "overall": "9-2",
+        "home": "6-1",
+        "away": "3-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-4",
+        "home": "4-1",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -952,11 +1106,26 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 64
+    },
+    "records": {
+      "home": {
+        "overall": "9-3",
+        "home": "6-0",
+        "away": "2-3",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "9-3",
+        "home": "6-1",
+        "away": "3-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
     "isHomeGame": false,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "fullDate": "Mon Jan 01 2018 05:00:00 GMT-0800",
     "coverage": "ABC",
     "nickname": "Florida Citrus Bowl",
@@ -996,8 +1165,8 @@
         "yardsPerRush": 4.5,
         "penalties": 4,
         "penaltyYards": 15,
-        "fumblesLost": 1,
         "possession": "22:24",
+        "fumblesLost": 1,
         "fumbles": 1
       },
       "home": {
@@ -1017,8 +1186,8 @@
         "yardsPerRush": 4,
         "penalties": 5,
         "penaltyYards": 27,
-        "fumblesLost": 0,
         "possession": "37:36",
+        "fumblesLost": 0,
         "fumbles": 1
       }
     },
@@ -1038,6 +1207,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 57
+    },
+    "records": {
+      "home": {
+        "overall": "9-4",
+        "home": "5-1",
+        "away": "3-2",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "10-3",
+        "home": "6-1",
+        "away": "3-2",
+        "neutral": "1-0"
+      }
     }
   }
 ]

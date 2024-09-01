@@ -1,5 +1,6 @@
 import _ from 'lodash';
 
+import {CURRENT_SEASON} from '../../lib/constants';
 import {getPossessionInSeconds, isNonEmptyString, isNumber} from '../../lib/utils';
 
 const EXPECTED_STATS_KEYS = [
@@ -27,7 +28,7 @@ const EXPECTED_STATS_KEYS = [
 const POSSESSION_REGEX = /^\d{1,2}:\d{1,2}$/;
 
 export function validateStats(
-  {stats, isGameOver, isLatestGameCompletedGame},
+  {stats, isGameOver, isLatestGameCompletedGame, season},
   assert,
   ignoredAssert
 ) {
@@ -239,9 +240,10 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} interceptions thrown must be >= 0.`
         );
         if (isLatestGameCompletedGame) {
-          // The lastest completed game may not yet have a fumbles value.
+          // The latest completed game may not yet have a fumbles value.
           wrappedAssert(
-            typeof fumbles === 'undefined' || (isNumber(fumbles) && fumbles >= 0),
+            (typeof fumbles === 'undefined' && season >= 2004 && season !== CURRENT_SEASON) ||
+              (isNumber(fumbles) && fumbles >= 0),
             `${_.capitalize(homeOrAway)} fumbles must be >= 0 (or undefined).`
           );
 

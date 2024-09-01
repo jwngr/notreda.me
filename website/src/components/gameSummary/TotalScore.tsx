@@ -147,8 +147,10 @@ export const TotalScore: React.FC<{
 
   let awayRecord: string;
   if (game.records) {
-    if (game.isNeutralSiteGame && game.records.away.neutral) {
-      awayRecord = `${game.records.away.overall}, ${game.records.away.neutral} Neutral Site`;
+    if (game.isBowlGame || game.isShamrockSeries || game.isNeutralSiteGame) {
+      // Only show overall record for neutral site games. Assume bowl and Shamrock Series games are
+      // played on neutral sites.
+      awayRecord = game.records.away.overall;
     } else if (game.records.away.away) {
       awayRecord = `${game.records.away.overall}, ${game.records.away.away} Away`;
     } else {
@@ -158,8 +160,10 @@ export const TotalScore: React.FC<{
 
   let homeRecord: string;
   if (game.records) {
-    if (game.isNeutralSiteGame && game.records.home.neutral) {
-      homeRecord = `${game.records.home.overall}, ${game.records.home.neutral} Neutral Site`;
+    if (game.isBowlGame || game.isShamrockSeries || game.isNeutralSiteGame) {
+      // Only show overall record for neutral site games. Assume bowl and Shamrock Series games are
+      // played on neutral sites.
+      homeRecord = game.records.home.overall;
     } else if (game.records.home.home) {
       homeRecord = `${game.records.home.overall}, ${game.records.home.home} Home`;
     } else {

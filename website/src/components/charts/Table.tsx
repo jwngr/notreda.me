@@ -7,7 +7,7 @@ import {TableRowData} from '../../models/explorables.models';
 
 const TableWrapper = styled.div`
   margin: 20px auto;
-  overflow: scroll;
+  overflow: auto;
   font-family: 'Inter', serif;
   display: inline;
 

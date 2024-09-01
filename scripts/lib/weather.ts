@@ -30,9 +30,10 @@ interface OpenWeatherForecastResponse {
   readonly timezone: string;
   readonly timezone_offset: number;
   readonly data: readonly OpenWeatherWeatherForecast[];
-  readonly minutely: readonly OpenWeatherWeatherForecast[];
-  readonly hourly: readonly OpenWeatherWeatherForecast[];
-  readonly daily: readonly OpenWeatherWeatherForecast[];
+  // Query params can optionally exclude these properties.
+  readonly minutely?: readonly OpenWeatherWeatherForecast[];
+  readonly hourly?: readonly OpenWeatherWeatherForecast[];
+  readonly daily?: readonly OpenWeatherWeatherForecast[];
 }
 
 export class Weather {
@@ -84,7 +85,7 @@ export class Weather {
     } else {
       // For future games, find the hourly forecast closest to the provided timestamp.
       let closestHourlyForecast: OpenWeatherWeatherForecast | null = null;
-      forecastResponseData.hourly.forEach((currentHourlyForecast) => {
+      forecastResponseData.hourly?.forEach((currentHourlyForecast) => {
         const currentTimeDistance = Math.abs(timestamp - currentHourlyForecast.dt);
         const closestHourlyForecastTimeDistance =
           closestHourlyForecast === null
@@ -185,7 +186,7 @@ export class Weather {
 
     // For future games, find the hourly forecast closest to the provided timestamp.
     let closestHourlyForecast: OpenWeatherWeatherForecast | undefined;
-    forecastResponseData.hourly.forEach((currentHourlyForecast) => {
+    forecastResponseData.data.forEach((currentHourlyForecast) => {
       const currentTimeDistance = Math.abs(timestamp - currentHourlyForecast.dt);
       const closestHourlyForecastTimeDistance = closestHourlyForecast
         ? Math.abs(timestamp - closestHourlyForecast.dt)

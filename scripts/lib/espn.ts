@@ -31,9 +31,10 @@ const DEFAULT_TEAM_STATS: TeamStats = {
   yardsPerRush: 0,
   penalties: 0,
   penaltyYards: 0,
-  fumbles: 0,
-  fumblesLost: 0,
   possession: '',
+  // No default value is set for "fumbles" since it is optional and sometimes not available
+  // immediately after the game ends.
+  fumblesLost: 0,
 };
 
 const logger = new Logger({isSentryEnabled: false});
@@ -182,10 +183,17 @@ export const fetchGameIdsForSeason = async (season: number): Promise<number[]> =
       ($cols.length === 5 || $cols.length === 7) &&
       $cols.eq(0).text().trim().toLowerCase() !== 'date'
     ) {
-      const gameId = $cols.eq(2).find('a').attr('href')?.split('gameId/')[1].trim();
+      // Link has format https://www.espn.com/college-football/game/_/gameId/<GAME_ID>/<SLUG>
+      const href = $cols.eq(2).find('a').attr('href');
+      const hrefTokens = href?.split('/') ?? [];
+      const gameIdStringTokenIndex = hrefTokens.findIndex((token) => token === 'gameId');
+      if (gameIdStringTokenIndex === -1) {
+        // The actual game ID is the token right after the "gameId" string.
+        const gameId = hrefTokens[gameIdStringTokenIndex + 1];
 
-      if (gameId) {
-        gameIds.push(Number(gameId));
+        if (gameId) {
+          gameIds.push(Number(gameId));
+        }
       }
     }
   });
@@ -196,7 +204,6 @@ export const fetchGameIdsForSeason = async (season: number): Promise<number[]> =
 /**
  * Returns a list of game stats and line scores from ESPN for the provided game.
  */
-
 export const fetchStatsForGame = async (
   gameId: number
 ): Promise<{
@@ -210,16 +217,17 @@ export const fetchStatsForGame = async (
   ]);
 
   // If the game is not over, return early with no data.
-  const gameStatus = $matchup('.status-detail').text().trim();
-  if (!gameStatus.startsWith('Final')) {
+  const winnerIcon = $matchup('.Gamestrip__WinnerIcon');
+  if (!winnerIcon.length) {
+    logger.error('Skipped fetching stats for game since it is not over', {gameId});
     return null;
   }
 
-  const $statsTable = $matchup('.team-stats-list');
+  const $statsTable = $matchup('.TeamStatsTable');
 
   // Loop through each row in the stats table.
-  const awayStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
-  const homeStats: Writable<TeamStats> = DEFAULT_TEAM_STATS;
+  const awayStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
+  const homeStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
 
   $statsTable.find('tr').each((_, row) => {
     const rowCells = $matchup(row).children('td');
@@ -297,61 +305,34 @@ export const fetchStatsForGame = async (
           // Ignore turnovers stat since it can be computed (interceptions + lost fumbles).
           break;
         default:
-          logger.error('Unexpected stat name.', {gameId, statName});
+          logger.error('Fetched unexpected stat name', {gameId, statName});
       }
     }
-
-    return {
-      away: awayStats,
-      home: homeStats,
-    };
   });
 
-  // Fetch total fumbles (lost and recovered) from the boxscore page since the matchup page only
-  // provides stats for lost fumbles.
-  const $fumbleStatsContainer = $boxscore('#gamepackage-fumbles');
-  $fumbleStatsContainer.find('.col').each((i, teamFumbleStatsContainer) => {
-    const teamFumbleRows = $boxscore(teamFumbleStatsContainer).find('tr');
-    const teamFumbleTotalRow = teamFumbleRows.last();
+  // Compute total fumbles (lost + recovered) from the boxscore page since the matchup page only
+  // provides stats for lost fumbles. ESPN usually updates this a few hours after the game ends.
+  const $boxScoreCategories = $boxscore('.Boxscore__Category');
+  $boxScoreCategories.each((_, boxScoreCategory) => {
+    const categoryName = $boxscore(boxScoreCategory).find('.TeamTitle').text().trim();
+    if (categoryName.toLowerCase().includes('fumbles')) {
+      const teamContainers = $boxscore(boxScoreCategory).find('.Boxscore__Team');
+      teamContainers.each((j, teamContainer) => {
+        const teamFumbleTotals = $boxscore(teamContainer).find('.Boxscore__Totals');
+        const teamFumblesCount = teamFumbleTotals.find('td').eq(1).text().trim() ?? 0;
 
-    const $teamFumbleTotalTd = $boxscore(teamFumbleTotalRow).find('.fum');
-
-    let teamFumblesCount: number;
-    if ($teamFumbleTotalTd.length === 0) {
-      // There are no stats on fumbles for this team, meaning either (1) they did not have any
-      // fumbles or fumble recoveries or (2) the fumble stats have not yet bet updated by ESPN
-      // (they usually happen a few hours after the game ends). Either way, set this value to 0
-      // and we will clean it up as much as we can below.
-      teamFumblesCount = 0;
-    } else {
-      // Otherwise, the team's fumble count is the text of the element we grabbed.
-      teamFumblesCount = Number($teamFumbleTotalTd.text().trim());
-    }
-
-    if (i === 0) {
-      awayStats.fumbles = teamFumblesCount;
-    } else {
-      homeStats.fumbles = teamFumblesCount;
+        if (j === 0) {
+          awayStats.fumbles = Number(teamFumblesCount);
+        } else {
+          homeStats.fumbles = Number(teamFumblesCount);
+        }
+      });
     }
   });
 
-  // It is difficult to completely differentiate the two cases above in which a team's fumble
-  // count is 0, but we can at the very least check to see if there were any fumbles lost in
-  // the game (which is available right at the conclusion of the game). If there are any lost
-  // fumbles at all, the fumbles count for at least one team should be non-zero. So if they are
-  // both zero, we know the data is just not available yet, so delete the fumble counts for now
-  // which will hide it on the site itself.
-  if (
-    (homeStats.fumblesLost ?? 0) + (awayStats.fumblesLost ?? 0) > 0 &&
-    (homeStats.fumbles ?? 0) + (awayStats.fumbles ?? 0) === 0
-  ) {
-    delete homeStats.fumbles;
-    delete awayStats.fumbles;
-  }
-
-  // Line score
+  // Compute line score.
   const linescore: GameLinescore = {away: [], home: []};
-  $matchup('#linescore')
+  $matchup('.Gamestrip__Overview')
     .find('tbody')
     .find('tr')
     .each((_, row) => {
@@ -404,24 +385,20 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
   let neutralWins = 0;
   let neutralLosses = 0;
 
-  let upcomingGameIsBowlGame = false;
   let teamAlreadyFacedNotreDame = false;
   $('tr.Table__TR').each((_, row) => {
     // Only fetch team records up through when they play Notre Dame for completed games (i.e., non-
     // header rows with 7 columns).
     const $cols = $(row).find('td');
 
-    upcomingGameIsBowlGame =
-      upcomingGameIsBowlGame ||
-      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
-
     if (!teamAlreadyFacedNotreDame && $cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
       const gameInfo = $cols.eq(1).text().trim();
       const gameResult = $cols.eq(2).text().trim()[0];
 
       // Bowl games are played at neutral sites and do not indicate either side with an @.
-      let locationKey;
-      if (upcomingGameIsBowlGame) {
+      let locationKey: 'home' | 'away' | 'neutral';
+      if (gameInfo.endsWith('*')) {
+        // ESPN uses an asterisk to denote neutral site games.
         locationKey = 'neutral';
       } else {
         locationKey = !gameInfo.includes('@') ? 'home' : 'away';
@@ -484,7 +461,6 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
 
   const weeklyRecords: TeamRecords[] = [];
 
-  let upcomingGameIsBowlGame = false;
   $('tr.Table__TR').each((_, row) => {
     const $cols = $(row).find('td');
 
@@ -493,9 +469,6 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
     const isIgnoredRow =
       $cols.eq(0).text().trim().toLowerCase() === 'date' ||
       ($cols.length !== 5 && $cols.length !== 7);
-    upcomingGameIsBowlGame =
-      upcomingGameIsBowlGame ||
-      ($cols.length === 1 && $cols.eq(0).text().toLowerCase().includes('bowl'));
 
     if (!isIgnoredRow) {
       if ($cols.length === 7) {
@@ -503,8 +476,9 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
         const gameResult = $cols.eq(2).text().trim()[0];
 
         // Bowl games are played at neutral sites and do not indicate either side with an @.
-        let locationKey;
-        if (upcomingGameIsBowlGame) {
+        let locationKey: 'home' | 'away' | 'neutral';
+        if (gameInfo.endsWith('*')) {
+          // ESPN uses an asterisk to denote neutral site games.
           locationKey = 'neutral';
         } else {
           locationKey = !gameInfo.includes('@') ? 'home' : 'away';

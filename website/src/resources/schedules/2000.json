@@ -29,6 +29,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 90
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -66,6 +80,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 83
+    },
+    "records": {
+      "home": {
+        "overall": "1-1",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "0-0",
+        "away": "2-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -101,6 +129,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 63
+    },
+    "records": {
+      "home": {
+        "overall": "2-1",
+        "home": "2-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-1",
+        "home": "3-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -136,6 +178,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 63
+    },
+    "records": {
+      "home": {
+        "overall": "3-0",
+        "home": "2-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "2-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -168,6 +224,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 45
+    },
+    "records": {
+      "home": {
+        "overall": "3-2",
+        "home": "3-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-3",
+        "home": "1-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -200,6 +270,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 82
+    },
+    "records": {
+      "home": {
+        "overall": "4-2",
+        "home": "4-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-6",
+        "home": "0-2",
+        "away": "0-4",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -232,6 +316,20 @@
     "weather": {
       "temperature": 72,
       "icon": "unknown"
+    },
+    "records": {
+      "home": {
+        "overall": "5-3",
+        "home": "4-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-2",
+        "home": "4-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -266,6 +364,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 56
+    },
+    "records": {
+      "home": {
+        "overall": "6-2",
+        "home": "5-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-4",
+        "home": "2-3",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -299,6 +411,20 @@
     "weather": {
       "icon": "cloudy",
       "temperature": 45
+    },
+    "records": {
+      "home": {
+        "overall": "7-2",
+        "home": "6-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-4",
+        "home": "5-1",
+        "away": "1-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -332,6 +458,20 @@
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 39
+    },
+    "records": {
+      "home": {
+        "overall": "3-7",
+        "home": "2-4",
+        "away": "1-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-2",
+        "home": "6-1",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -365,6 +505,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 69
+    },
+    "records": {
+      "home": {
+        "overall": "5-7",
+        "home": "1-5",
+        "away": "4-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "9-2",
+        "home": "6-1",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -404,6 +558,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 55
+    },
+    "records": {
+      "home": {
+        "overall": "10-2",
+        "home": "6-1",
+        "away": "4-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "9-3",
+        "home": "5-1",
+        "away": "4-2",
+        "neutral": "0-0"
+      }
     }
   }
 ]

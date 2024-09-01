@@ -70,6 +70,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 71
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -149,6 +163,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 72
+    },
+    "records": {
+      "home": {
+        "overall": "0-2",
+        "home": "0-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -232,6 +260,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 65
+    },
+    "records": {
+      "home": {
+        "overall": "3-0",
+        "home": "2-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-7",
+        "home": "2-4",
+        "away": "4-2",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -311,6 +353,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 72
+    },
+    "records": {
+      "home": {
+        "overall": "4-0",
+        "home": "3-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-3",
+        "home": "0-1",
+        "away": "0-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -394,6 +450,20 @@
     "weather": {
       "icon": "rain",
       "temperature": 63
+    },
+    "records": {
+      "home": {
+        "overall": "4-0",
+        "home": "3-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-1",
+        "home": "3-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -473,6 +543,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 63
+    },
+    "records": {
+      "home": {
+        "overall": "5-1",
+        "home": "4-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-1",
+        "home": "3-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -552,6 +636,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 33
+    },
+    "records": {
+      "home": {
+        "overall": "6-1",
+        "home": "5-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-3",
+        "home": "2-2",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -635,6 +733,20 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 48
+    },
+    "records": {
+      "home": {
+        "overall": "7-1",
+        "home": "3-1",
+        "away": "4-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-1",
+        "home": "5-0",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -715,6 +827,20 @@
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 54
+    },
+    "records": {
+      "home": {
+        "overall": "6-3",
+        "home": "2-2",
+        "away": "4-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-1",
+        "home": "5-0",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -795,11 +921,26 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 49
+    },
+    "records": {
+      "home": {
+        "overall": "9-1",
+        "home": "6-0",
+        "away": "3-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-7",
+        "home": "1-4",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
     "result": "W",
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
     "date": "11/21/2015",
     "time": "7:30 PM",
     "location": {
@@ -876,6 +1017,20 @@
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 35
+    },
+    "records": {
+      "home": {
+        "overall": "10-1",
+        "home": "6-0",
+        "away": "3-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "3-8",
+        "home": "3-4",
+        "away": "0-3",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -961,12 +1116,27 @@
     "weather": {
       "icon": "clear-night",
       "temperature": 46
+    },
+    "records": {
+      "home": {
+        "overall": "10-2",
+        "home": "6-1",
+        "away": "4-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "10-2",
+        "home": "6-0",
+        "away": "3-2",
+        "neutral": "1-0"
+      }
     }
   },
   {
     "result": "L",
     "isHomeGame": false,
     "isBowlGame": true,
+    "isNeutralSiteGame": true,
     "date": "01/01/2016",
     "time": "1:00 PM",
     "coverage": "ESPN",
@@ -1048,6 +1218,20 @@
     "weather": {
       "icon": "clear-day",
       "temperature": 64
+    },
+    "records": {
+      "home": {
+        "overall": "12-1",
+        "home": "6-1",
+        "away": "5-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "10-3",
+        "home": "6-0",
+        "away": "3-2",
+        "neutral": "1-1"
+      }
     }
   }
 ]

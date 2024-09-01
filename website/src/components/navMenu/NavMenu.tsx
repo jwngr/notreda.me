@@ -24,7 +24,7 @@ const NavMenuWrapper = styled(FlexColumn)<NavMenuWrapperProps>`
   transition:
     transform 0.5s,
     visibility 0s 0.5s;
-  overflow: scroll;
+  overflow: auto;
   z-index: 10;
   padding: 0 0 12px 12px;
   overflow-y: scroll;
