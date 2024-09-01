@@ -41,9 +41,9 @@ export function validateMiscellaneous(
     /****************/
     assert(isNonEmptyString(headCoach), 'Completed game must have a head coach.', {headCoach});
 
-    /*********************************/
-    /*  HIGHLIGHTS YOUTUBE VIDEO ID  */
-    /*********************************/
+    /**********************/
+    /*  HIGHLIGHTS VIDEO  */
+    /**********************/
     // Ensure all completed games since 2015 have a YouTube highlights video, adding an exception
     // for the latest completed game since it needs to be manually added after the game is
     // completed.
