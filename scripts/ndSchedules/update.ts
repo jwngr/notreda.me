@@ -145,7 +145,7 @@ const updateNdSchedule = async () => {
   });
 
   logger.info(`Updating polls...`);
-  const currentSeasonPollsData = await Polls.getForSeason(SEASON);
+  const currentSeasonPollsData = await Polls.scrapeForSeason(SEASON);
   if (currentSeasonPollsData) {
     Polls.updateForSeason({
       season: SEASON,

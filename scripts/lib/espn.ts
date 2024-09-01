@@ -12,7 +12,7 @@ import {Writable} from '../../website/src/models/utils.models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
-import {isNumber} from './utils';
+import {assertNever, isNumber} from './utils';
 
 const DEFAULT_TEAM_STATS: TeamStats = {
   firstDowns: 0,
@@ -64,9 +64,19 @@ const AP_COACHES_POLL_DATES_2021 = [
   '2021-11-21',
   '2021-11-28',
   '2021-12-05',
+  '2021-12-12',
+  '2021-12-19',
+  '2021-12-26',
 ];
 
-const CFP_POLL_DATES_2021 = ['2021-11-23', '2021-11-30', '2021-12-07', '2021-12-14', '2021-12-21'];
+const CFP_POLL_DATES_2021 = [
+  '2021-11-23',
+  '2021-11-30',
+  '2021-12-07',
+  '2021-12-14',
+  '2021-12-21',
+  '2021-12-28',
+];
 
 const _getEspnRankingsUrl = (season: number, weekIndex: number): string => {
   return `https://www.espn.com/college-football/rankings/_/week/${weekIndex}/year/${season}/seasontype/2`;
@@ -83,23 +93,29 @@ const _normalizeTeamName = (teamName: string): string => {
 const _getPollRankingsForWeek = (
   $: cheerio.Root,
   weekIndex: number
-): Record<PollType, WeeklyIndividualPollRanking | null> => {
+): Record<PollType, WeeklyIndividualPollRanking | null> | null => {
   const pollRankings: Record<PollType, WeeklyIndividualPollRanking | null> = {
     [PollType.AP]: null,
-    [PollType.COACHES]: null,
-    [PollType.CFP]: null,
+    [PollType.Coaches]: null,
+    [PollType.CFBPlayoff]: null,
   };
 
-  $('.InnerLayout__child.mb2').each((_, poll) => {
+  const $pollSections = $('.InnerLayout__child.mb2');
+
+  if ($pollSections.length === 0) {
+    return null;
+  }
+
+  $pollSections.each((_, poll) => {
     const pollTitle = $(poll).find('.Table__Title').text().trim();
 
     let pollType: PollType;
     if (pollTitle.includes('AP')) {
       pollType = PollType.AP;
     } else if (pollTitle.includes('Coaches')) {
-      pollType = PollType.COACHES;
+      pollType = PollType.Coaches;
     } else if (pollTitle.includes('College Football Playoff ')) {
-      pollType = PollType.CFP;
+      pollType = PollType.CFBPlayoff;
     } else {
       throw new Error(`Unexpected poll title: "${pollTitle}"`);
     }
@@ -110,24 +126,36 @@ const _getPollRankingsForWeek = (
     $pollRows.each((_, pollRow) => {
       const $rowCells = $(pollRow).find('td');
       if ($rowCells.length !== 0) {
-        const rowCellValues = $rowCells.map((rowCell) => $(rowCell).text().trim());
+        const rowCellValues: string[] = $rowCells.map((_, cell) => $(cell).text().trim()).get();
 
         const currentWeekRanking = Number(rowCellValues[0]) || previousTeamCurrentWeekRanking;
-
         if (!currentWeekRanking) {
           throw new Error(`No current week ranking`);
         }
-
         previousTeamCurrentWeekRanking = currentWeekRanking;
         const teamName = _normalizeTeamName($($rowCells[1]).find('.pl3').text().trim());
-        const record = rowCellValues[2].data;
-        const points = Number(rowCellValues[3].data);
+        const record = rowCellValues[2];
 
-        const trend = rowCellValues[4];
+        let trend: string;
+        let points: number | null = null;
+        switch (pollType) {
+          case PollType.AP:
+          case PollType.Coaches:
+            points = Number(rowCellValues[3]);
+            trend = rowCellValues[4];
+            break;
+          case PollType.CFBPlayoff:
+            points = null;
+            trend = rowCellValues[3];
+            break;
+          default:
+            assertNever(pollType);
+        }
+
         let previousWeekRanking: number | 'NR';
-        if (trend.data === 'NR') {
+        if (trend === 'NR') {
           previousWeekRanking = 'NR';
-        } else if (trend.data === '-') {
+        } else if (trend === '-') {
           previousWeekRanking = currentWeekRanking;
         } else {
           const trendElementClasses = $($rowCells[4]).find('.trend').attr('class');
@@ -135,7 +163,6 @@ const _getPollRankingsForWeek = (
             ? currentWeekRanking + Number(trend)
             : currentWeekRanking - Number(trend);
         }
-
         if (!record) {
           logger.error('No record found', {rowCellValues});
           return;
@@ -154,7 +181,7 @@ const _getPollRankingsForWeek = (
 
     pollRankings[pollType] = {
       date:
-        pollType === PollType.CFP
+        pollType === PollType.CFBPlayoff
           ? CFP_POLL_DATES_2021[weekIndex - 10]
           : AP_COACHES_POLL_DATES_2021[weekIndex],
       teams: teamsData,
@@ -519,46 +546,43 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
 
 /**
  * Returns the weekly poll rankings for the provided season.
+ * TODO: This is currently unused.
  */
-export const fetchPollsForSeason = async (season: number): Promise<SeasonAllPollRankings> => {
-  const $currentWeekRankings = await Scraper.get(`https://www.espn.com/college-football/rankings`);
-
-  const $headline = $currentWeekRankings('.page-container .headline');
-  const headlineText = $headline.text().trim();
-
-  // Determine how many weeks of ranking have been released to date.
-  let currentWeekIndex;
-  if (headlineText.includes('Preseason')) {
-    currentWeekIndex = 0;
-  } else if (headlineText.includes('Week')) {
-    currentWeekIndex = Number(headlineText.split('Week ')[1]) - 1;
-  } else {
-    currentWeekIndex = 15;
-  }
-
-  // Fetch the HTML for all previous week rankings.
-  const $priorWeeksRankings = await Promise.all(
-    range(1, currentWeekIndex + 1).map((i) => {
+export const fetchPollsForSeason = async ({
+  season,
+  weeklyReleaseDates,
+}: {
+  readonly season: number;
+  readonly weeklyReleaseDates: readonly Date[];
+}): Promise<SeasonAllPollRankings> => {
+  // Fetch the HTML of the ESPN rankings page for each week of the season. Fetch up to a max number
+  // of weeks, which should be enough for any season. We cannot rely on using ND's game count
+  // because ND bye weeks would not be considered. Some of these fetches return an empty page and
+  // will be filtered out later.
+  const MAX_POLL_WEEKS_TO_FETCH = 18;
+  const $weeklyRankings = await Promise.all(
+    range(0, MAX_POLL_WEEKS_TO_FETCH).map((i) => {
       return Scraper.get(_getEspnRankingsUrl(season, i));
     })
   );
 
   // Scrape the actual rankings for each week using the HTML.
-  const currentWeekRankings = _getPollRankingsForWeek($currentWeekRankings, currentWeekIndex);
-  const priorWeeksRankings = $priorWeeksRankings.map(($priorWeekRankings, i) =>
-    _getPollRankingsForWeek($priorWeekRankings, i)
-  );
+  const weeklyRankings = $weeklyRankings
+    .map(($weeklyRanking, i) => _getPollRankingsForWeek($weeklyRanking, i))
+    // Filter out weeks with no rankings that we over-eagerly fetched.
+    .filter((weeklyRanking) => weeklyRanking !== null);
 
   // Loop through the weekly rankings and combine them into a standard format.
   const pollRankings: SeasonAllPollRankings = {
-    ap: [],
-    coaches: [],
-    cfbPlayoff: [],
+    [PollType.AP]: [],
+    [PollType.Coaches]: [],
+    [PollType.CFBPlayoff]: [],
   };
-  [...priorWeeksRankings, currentWeekRankings].forEach((rankings) => {
-    Object.entries(rankings).forEach(([pollType, pollRanking]) => {
-      if (!pollRanking) return;
-      pollRankings[pollType as PollType].push(pollRanking);
+  weeklyRankings.forEach((rankings) => {
+    [PollType.AP, PollType.Coaches, PollType.CFBPlayoff].forEach((pollType) => {
+      const ranking = rankings[pollType];
+      if (!ranking) return;
+      pollRankings[pollType].push(ranking);
     });
   });
 
