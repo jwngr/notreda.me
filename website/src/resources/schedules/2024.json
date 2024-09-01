@@ -2,57 +2,80 @@
   {
     "isHomeGame": false,
     "fullDate": "Sat Aug 31 2024 19:30:00 GMT-0400",
+    "coverage": "ABC",
     "location": {
       "city": "College Station",
       "state": "TX",
       "stadium": "Kyle Field",
       "coordinates": [30.609883, -96.340544]
     },
-    "opponentId": "TA&M"
+    "opponentId": "TA&M",
+    "espnGameId": 401628332
   },
   {
     "isHomeGame": true,
-    "date": "09/07/2024",
+    "fullDate": "Sat Sep 07 2024 15:30:00 GMT-0400",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "NIU"
+    "opponentId": "NIU",
+    "espnGameId": 401628977
   },
   {
     "isHomeGame": false,
-    "date": "09/14/2024",
+    "fullDate": "Sat Sep 14 2024 15:30:00 GMT-0400",
+    "coverage": "CBS",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
       "coordinates": [40.434042, -86.918267]
     },
-    "opponentId": "PUR"
+    "opponentId": "PUR",
+    "espnGameId": 401628978
   },
   {
     "isHomeGame": true,
-    "date": "09/21/2024",
+    "fullDate": "Sat Sep 21 2024 15:30:00 GMT-0400",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "MOH"
+    "opponentId": "MOH",
+    "espnGameId": 401628979
   },
   {
     "isHomeGame": true,
-    "date": "10/12/2024",
+    "fullDate": "Sat Sep 28 2024 15:30:00 GMT-0400",
+    "coverage": "PEACOCK",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "STAN"
+    "opponentId": "LOU",
+    "espnGameId": 401628980
+  },
+  {
+    "isHomeGame": true,
+    "fullDate": "Sat Oct 12 2024 15:30:00 GMT-0400",
+    "coverage": "NBC",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "STAN",
+    "espnGameId": 401628981
   },
   {
     "isHomeGame": false,
@@ -64,64 +87,62 @@
       "stadium": "Bobby Dodd Stadium",
       "coordinates": [33.772284, -84.392859]
     },
-    "opponentId": "GT"
+    "opponentId": "GT",
+    "espnGameId": 401628982
   },
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "date": "10/26/2024",
+    "fullDate": "Sat Oct 26 2024 12:00:00 GMT-0400",
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "MetLife Stadium",
       "coordinates": [40.813393, -74.074607]
     },
-    "opponentId": "NAVY"
+    "opponentId": "NAVY",
+    "espnGameId": 401628983
   },
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "fullDate": "Sat Nov 09 2024 19:30:00 GMT-0500",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "MIAMI"
+    "opponentId": "FSU",
+    "espnGameId": 401628984
   },
   {
     "isHomeGame": true,
-    "date": "11/09/2024",
+    "fullDate": "Sat Nov 16 2024 15:30:00 GMT-0500",
+    "coverage": "NBC",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "FSU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/16/2024",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "UVA"
+    "opponentId": "UVA",
+    "espnGameId": 401628985
   },
   {
     "isHomeGame": false,
+    "isShamrockSeries": true,
     "isNeutralSiteGame": true,
-    "date": "11/23/2024",
+    "coverage": "NBC",
+    "fullDate": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
       "coordinates": [40.829602, -73.926228]
     },
-    "opponentId": "ARMY"
+    "opponentId": "ARMY",
+    "espnGameId": 401640959
   },
   {
     "isHomeGame": false,
@@ -132,6 +153,7 @@
       "stadium": "LA Memorial Coliseum",
       "coordinates": [34.014167, -118.287778]
     },
-    "opponentId": "USC"
+    "opponentId": "USC",
+    "espnGameId": 401628571
   }
 ]
