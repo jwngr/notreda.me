@@ -10,7 +10,76 @@
       "coordinates": [30.609883, -96.340544]
     },
     "opponentId": "TA&M",
-    "espnGameId": 401628332
+    "espnGameId": 401628332,
+    "highlightsYouTubeVideoId": "doxg4ypROy0",
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 2,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 356,
+        "passYards": 158,
+        "passCompletions": 18,
+        "passAttempts": 30,
+        "yardsPerPass": 5.3,
+        "interceptionsThrown": 0,
+        "rushYards": 198,
+        "rushAttempts": 34,
+        "yardsPerRush": 5.8,
+        "penalties": 11,
+        "penaltyYards": 99,
+        "possession": "31:35",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 0,
+        "totalYards": 246,
+        "passYards": 100,
+        "passCompletions": 12,
+        "passAttempts": 30,
+        "yardsPerPass": 3.3,
+        "interceptionsThrown": 2,
+        "rushYards": 146,
+        "rushAttempts": 38,
+        "yardsPerRush": 3.8,
+        "penalties": 6,
+        "penaltyYards": 55,
+        "possession": "28:25",
+        "fumblesLost": 0,
+        "fumbles": 0
+      }
+    },
+    "score": {
+      "home": 13,
+      "away": 23
+    },
+    "linescore": {
+      "away": [3, 3, 7, 10],
+      "home": [3, 3, 0, 7]
+    },
+    "result": "W",
+    "records": {
+      "home": {
+        "overall": "0-1",
+        "home": "0-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -23,7 +92,21 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NIU",
-    "espnGameId": 401628977
+    "espnGameId": 401628977,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -36,7 +119,21 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "espnGameId": 401628978
+    "espnGameId": 401628978,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -49,7 +146,21 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MOH",
-    "espnGameId": 401628979
+    "espnGameId": 401628979,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -62,7 +173,21 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "LOU",
-    "espnGameId": 401628980
+    "espnGameId": 401628980,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -75,12 +200,27 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "STAN",
-    "espnGameId": 401628981
+    "espnGameId": 401628981,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "10/19/2024",
+    "coverage": "TBD",
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -88,12 +228,27 @@
       "coordinates": [33.772284, -84.392859]
     },
     "opponentId": "GT",
-    "espnGameId": 401628982
+    "espnGameId": 401628982,
+    "records": {
+      "home": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "fullDate": "Sat Oct 26 2024 12:00:00 GMT-0400",
+    "coverage": "TBD",
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -101,7 +256,21 @@
       "coordinates": [40.813393, -74.074607]
     },
     "opponentId": "NAVY",
-    "espnGameId": 401628983
+    "espnGameId": 401628983,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -114,7 +283,21 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "FSU",
-    "espnGameId": 401628984
+    "espnGameId": 401628984,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-1"
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -127,7 +310,21 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UVA",
-    "espnGameId": 401628985
+    "espnGameId": 401628985,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -142,11 +339,26 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "ARMY",
-    "espnGameId": 401640959
+    "espnGameId": 401640959,
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "11/30/2024",
+    "coverage": "TBD",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -154,6 +366,20 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "espnGameId": 401628571
+    "espnGameId": 401628571,
+    "records": {
+      "home": {
+        "overall": "0-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    }
   }
 ]
