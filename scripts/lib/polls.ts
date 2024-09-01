@@ -68,8 +68,15 @@ function parseWikipediaWeeklyPolls(
         const cellText = $(cell).text().trim();
         if (!cellText) return;
 
-        const teamName = cellText.split('(')[0].trim();
-        const record = weekIndex === 0 ? '0-0' : cellText.split('(')[1].split(')')[0].trim();
+        const teamName = cellText
+          .split('(')[0]
+          // TODO: Miami (FL) breaks this...
+          .replace(/\(\d+\)/, '')
+          .replace('*', '')
+          .trim();
+        // TODO: Miami (FL) breaks this...
+        const record =
+          weekIndex === 0 ? '0-0' : cellText.split('(')[1].split(')')[0].trim().replace('–', '-');
 
         weeklyRankings[weekIndex].teams[teamName] = {
           record,

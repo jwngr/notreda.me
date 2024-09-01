@@ -28,8 +28,9 @@
     },
     "rankings": {
       "away": {
-        "ap": 8,
-        "coaches": 7
+        "ap": 9,
+        "coaches": 7,
+        "cfbPlayoff": 10
       }
     },
     "weather": {
@@ -122,7 +123,8 @@
     "rankings": {
       "home": {
         "ap": 8,
-        "coaches": 7
+        "coaches": 7,
+        "cfbPlayoff": 5
       }
     },
     "weather": {
@@ -214,7 +216,8 @@
     "rankings": {
       "home": {
         "ap": 12,
-        "coaches": 10
+        "coaches": 10,
+        "cfbPlayoff": 5
       },
       "away": {
         "ap": 25
@@ -315,7 +318,8 @@
       },
       "away": {
         "ap": 12,
-        "coaches": 10
+        "coaches": 10,
+        "cfbPlayoff": 5
       }
     },
     "weather": {
@@ -407,11 +411,13 @@
     "rankings": {
       "home": {
         "ap": 9,
-        "coaches": 7
+        "coaches": 7,
+        "cfbPlayoff": 5
       },
       "away": {
         "ap": 7,
-        "coaches": 8
+        "coaches": 8,
+        "cfbPlayoff": 4
       }
     },
     "weather": {
@@ -503,7 +509,8 @@
     "rankings": {
       "away": {
         "ap": 14,
-        "coaches": 13
+        "coaches": 13,
+        "cfbPlayoff": 5
       }
     },
     "weather": {
@@ -594,8 +601,9 @@
     },
     "rankings": {
       "home": {
-        "ap": 11,
-        "coaches": 11
+        "ap": 13,
+        "coaches": 13,
+        "cfbPlayoff": 5
       }
     },
     "weather": {
@@ -686,8 +694,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 8,
-        "coaches": 8,
+        "ap": 11,
+        "coaches": 11,
         "cfbPlayoff": 10
       }
     },
@@ -779,9 +787,9 @@
     },
     "rankings": {
       "home": {
-        "ap": 7,
-        "coaches": 7,
-        "cfbPlayoff": 9
+        "ap": 8,
+        "coaches": 8,
+        "cfbPlayoff": 10
       }
     },
     "weather": {
@@ -874,7 +882,7 @@
       "away": {
         "ap": 6,
         "coaches": 6,
-        "cfbPlayoff": 8
+        "cfbPlayoff": 9
       }
     },
     "weather": {
@@ -957,17 +965,17 @@
         "neutral": "1-0"
       },
       "away": {
-        "overall": "3-8",
-        "home": "2-4",
-        "away": "1-4",
-        "neutral": "0-0"
+        "overall": "8-5",
+        "home": "4-2",
+        "away": "3-3",
+        "neutral": "1-0"
       }
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 5,
-        "cfbPlayoff": 6
+        "ap": 6,
+        "coaches": 6,
+        "cfbPlayoff": 8
       }
     },
     "weather": {
@@ -1059,8 +1067,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 6,
-        "coaches": 6,
+        "ap": 5,
+        "coaches": 5,
         "cfbPlayoff": 6
       }
     },
@@ -1137,13 +1145,13 @@
     "espnGameId": 401331238,
     "rankings": {
       "away": {
-        "ap": 9,
-        "coaches": 9,
+        "ap": 7,
+        "coaches": 7,
         "cfbPlayoff": 9
       },
       "home": {
-        "ap": 5,
-        "coaches": 5,
+        "ap": 8,
+        "coaches": 9,
         "cfbPlayoff": 5
       }
     },
