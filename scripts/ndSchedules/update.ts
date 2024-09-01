@@ -5,7 +5,6 @@ import {Writable} from '../../website/src/models/utils.models';
 import {CURRENT_SEASON, ND_HEAD_COACH} from '../lib/constants';
 import {
   fetchGameIdsForSeason,
-  fetchKickoffTimeForGame,
   fetchNotreDameWeeklyRecordsForSeason,
   fetchStatsForGame,
   fetchTeamRecordUpThroughNotreDameGameForSeason,
@@ -13,8 +12,6 @@ import {
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
 import {Polls} from '../lib/polls';
-import {getGameDate, getGameTimestampInSeconds} from '../lib/utils';
-import {Weather} from '../lib/weather';
 
 const SEASON = CURRENT_SEASON;
 
