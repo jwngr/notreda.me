@@ -538,7 +538,6 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
  */
 export const fetchPollsForSeason = async ({
   season,
-  weeklyReleaseDates,
 }: {
   readonly season: number;
   readonly weeklyReleaseDates: readonly Date[];

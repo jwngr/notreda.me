@@ -43,7 +43,7 @@ function parseWikipediaWeeklyPolls(
   $: cheerio.Root,
   table: cheerio.Cheerio,
   season: number
-): WeeklyIndividualPollRanking[] | null {
+): WeeklyIndividualPollRanking[] {
   const tableRows = table.find('tr');
   const weeklyRankings: WeeklyIndividualPollRanking[] = [];
 
@@ -111,11 +111,17 @@ function parseWikipediaWeeklyPolls(
 }
 
 export class Polls {
+  /**
+   * Returns the poll rankings for a season from the source of truth local file.
+   */
   static getForSeason(season: number): SeasonAllPollRankings | null {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     return require(`${POLLS_DATA_DIRECTORY}/${season}.json`);
   }
 
+  /**
+   * Returns the poll rankings for a season by scraping the web.
+   */
   static async scrapeForSeason(season: number): Promise<SeasonAllPollRankings> {
     // Fetch the HTML of the ESPN rankings page for each week of the season. Fetch up to a max number
     // of weeks, which should be enough for any season. We cannot rely on using ND's game count
