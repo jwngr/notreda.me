@@ -104,7 +104,7 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
       if (opponent === null) {
         opponent = tds[2];
       }
-      opponent = (await getText(opponent)).replace('*', '');
+      opponent = (await getText(opponent)).replace(/\*/g, '');
 
       // Result
       let result = await getText(tds[3]);
