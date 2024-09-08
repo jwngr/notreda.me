@@ -20,12 +20,8 @@ async function main() {
   let numSeasonsPlayed = 0;
   let firstLossOfSeasonsIndexTotal = 0;
   const undefeatedSeasons: number[] = [];
-  const firstLossOfSeasonIndexes: {
-    [key: number]: FirstLossOfSeasonData[];
-  } = {};
-  const weekOfFirstLossPerSeason: {
-    [key: number]: WeekOfFirstLossPerSeasonData;
-  } = {};
+  const firstLossOfSeasonIndexes: Record<number, FirstLossOfSeasonData[]> = {};
+  const weekOfFirstLossPerSeason: Record<number, WeekOfFirstLossPerSeasonData> = {};
 
   for (const season of ALL_PLAYED_SEASONS) {
     numSeasonsPlayed++;

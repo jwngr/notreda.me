@@ -43,7 +43,7 @@ Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_foo
           const headCoach = rowCellValues[1];
 
           const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          // eslint-disable-next-line @typescript-eslint/no-require-imports
           const gamesData = require(filename);
 
           gamesData.forEach((game) => {

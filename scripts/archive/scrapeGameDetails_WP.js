@@ -30,7 +30,7 @@ const fetchGameDetailsForYear = (year) => {
       const $scheduleTableRows = $scheduleTable.find('tr');
 
       const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
       const gamesData = require(filename);
 
       const headerNames = [];
