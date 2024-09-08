@@ -534,7 +534,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
 
 /**
  * Returns the weekly poll rankings for the provided season.
- * TODO: This is currently unused.
+ * @deprecated Use `Polls.getForSeason() instead. Remove this once that API supports votes info.
  */
 export const fetchPollsForSeason = async ({
   season,
