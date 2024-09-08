@@ -16,6 +16,7 @@ import {CURRENT_SEASON} from './constants';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
+import {assertNever} from './utils';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,11 +25,25 @@ const POLLS_DATA_DIRECTORY = path.resolve(__dirname, '../../data/polls');
 
 const logger = new Logger({isSentryEnabled: false});
 
+function extractTeamName(val: string): string {
+  const rawTeamName = val
+    .replace(/\s\(\d+.*$/, '')
+    .replace('*', '')
+    .trim();
+
+  return Teams.normalizeName(rawTeamName);
+}
+
+function extractRecord(input: string): string | null {
+  const match = input.match(/\(\d+–\d+\)/);
+  return match ? match[0].replace('–', '-').replace(/\(|\)/g, '') : null;
+}
+
 function parseWikipediaWeeklyPolls(
   $: cheerio.Root,
   table: cheerio.Cheerio,
   season: number
-): WeeklyIndividualPollRanking[] {
+): WeeklyIndividualPollRanking[] | null {
   const tableRows = table.find('tr');
   const weeklyRankings: WeeklyIndividualPollRanking[] = [];
 
@@ -51,6 +66,9 @@ function parseWikipediaWeeklyPolls(
       const date = new Date(`${dateText}, ${isInFollowingYear ? season + 1 : season}`);
       // Ignore cells which don't have dates, such as the first and last columns.
       if (isNaN(date.getTime())) return;
+      // Ignore future polls.
+      const isInFuture = date.getTime() > Date.now();
+      if (isInFuture) return;
       weeklyRankings.push({
         date: date.toISOString().split('T')[0],
         teams: {},
@@ -68,15 +86,8 @@ function parseWikipediaWeeklyPolls(
         const cellText = $(cell).text().trim();
         if (!cellText) return;
 
-        const teamName = cellText
-          .split('(')[0]
-          // TODO: Miami (FL) breaks this...
-          .replace(/\(\d+\)/, '')
-          .replace('*', '')
-          .trim();
-        // TODO: Miami (FL) breaks this...
-        const record =
-          weekIndex === 0 ? '0-0' : cellText.split('(')[1].split(')')[0].trim().replace('–', '-');
+        const teamName = extractTeamName(cellText);
+        const record = extractRecord(cellText) ?? '0-0';
 
         weeklyRankings[weekIndex].teams[teamName] = {
           record,
@@ -143,27 +154,32 @@ export class Polls {
 
       // Find the table following the heading.
       let maybeTableContainer = $scrapedResult(heading).next();
-      let maybeTable = maybeTableContainer.find('table');
-      while (maybeTableContainer && maybeTable.length === 0) {
+      let maybeTable = maybeTableContainer.find('table.wikitable');
+      let chances = 0;
+      while (chances < 2 && maybeTableContainer && maybeTable.length === 0) {
+        chances++;
         maybeTableContainer = maybeTableContainer.next();
         maybeTable = maybeTableContainer.find('table');
       }
 
       if (maybeTable.length === 0) {
-        logger.error('No table found for heading', {headingText});
+        switch (pollType) {
+          case PollType.AP:
+          case PollType.Coaches:
+            logger.error('No rankings table found', {pollType, headingText});
+            break;
+          case PollType.CFBPlayoff:
+            // This is expected for seasons before the CFP was created.
+            logger.info('No CFB Playoff rankings table found', {pollType, headingText});
+            break;
+          default:
+            assertNever(pollType);
+        }
         return;
       }
 
       pollRankings[pollType] = parseWikipediaWeeklyPolls($scrapedResult, maybeTable, season);
     });
-
-    // weeklyRankings.forEach((rankings) => {
-    //   [PollType.AP, PollType.Coaches, PollType.CFBPlayoff].forEach((pollType) => {
-    //     const ranking = rankings[pollType];
-    //     if (!ranking) return;
-    //     pollRankings[pollType].push(ranking);
-    //   });
-    // });
 
     return pollRankings;
   }
@@ -183,8 +199,7 @@ export class Polls {
     );
 
     // Copy the updated poll rankings into the ND season schedule data.
-
-    seasonScheduleData.forEach((game, currentNdGameIndex) => {
+    seasonScheduleData.forEach((game) => {
       let gameDate: Date;
       if (game.date) {
         gameDate = new Date(game.date);
@@ -194,33 +209,20 @@ export class Polls {
         throw new Error(`Game date is missing for ${season} ${game.opponentId}`);
       }
 
+      // Clear any existing rankings.
+      delete (game as Writable<GameInfo>).rankings;
+
       for (const [pollId, pollData] of Object.entries(seasonPollsData)) {
-        let rankingBeforeGame: WeeklyIndividualPollRanking | undefined;
-        if (currentNdGameIndex === 0) {
-          rankingBeforeGame = pollData[0];
-        } else if (currentNdGameIndex === seasonScheduleData.length - 1) {
-          // TODO: I'm not sure this is right...
-          rankingBeforeGame = pollData[pollData.length - 1];
-        } else {
-          // TODO: Can I simplify this?
-          rankingBeforeGame = pollData.find((_, i) => {
-            if (i === pollData.length - 1) return true;
+        // Loop through the weekly polls in reverse to find the ranking just before the game.
+        const rankingBeforeGame = [...pollData].reverse().find((poll) => {
+          // Every game is after the preseason rankings.
+          if (poll.date === 'Preseason') return true;
 
-            const nextPollDate = pollData[i + 1].date;
-            console.log('----------');
-            console.log('nextPollDate:', nextPollDate);
-            console.log('gameDate:', gameDate);
+          // Otherwise, keep going until we find a poll from before the game..
+          return gameDate.getTime() > new Date(poll.date).getTime();
+        });
 
-            const isGameBeforeNextPollDate = gameDate.getTime() < new Date(nextPollDate).getTime();
-            const isGameWithin12DaysOfPollDate =
-              Math.abs(gameDate.getTime() - new Date(nextPollDate).getTime()) <=
-              12 * 24 * 60 * 60 * 1000;
-            console.log('isGameBeforeNextPollDate:', isGameBeforeNextPollDate);
-            console.log('isGameWithin12DaysOfPollDate:', isGameWithin12DaysOfPollDate);
-            return isGameBeforeNextPollDate && isGameWithin12DaysOfPollDate;
-          });
-        }
-
+        // Not every poll has a ranking every week.
         if (!rankingBeforeGame) return;
 
         if ('Notre Dame' in rankingBeforeGame.teams) {

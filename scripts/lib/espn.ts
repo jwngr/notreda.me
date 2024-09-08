@@ -39,14 +39,6 @@ const DEFAULT_TEAM_STATS: TeamStats = {
 
 const logger = new Logger({isSentryEnabled: false});
 
-const NORMALIZED_TEAM_NAMES: Record<string, string> = {
-  Pitt: 'Pittsburgh',
-  'Miami (FL)': 'Maimi',
-  'Texas Christian': 'TCU',
-  SMU: 'Southern Methodist',
-  'North Carolina State': 'NC State',
-};
-
 // TODO: Pull these dynamically instead of hard-coding them.
 const AP_COACHES_POLL_DATES_2021 = [
   'Preseason',
@@ -84,10 +76,6 @@ const _getEspnRankingsUrl = (season: number, weekIndex: number): string => {
 
 const _getEspnTeamScheduleUrl = (season: number, espnTeamId: number): string => {
   return `http://www.espn.com/college-football/team/schedule/_/id/${espnTeamId}/season/${season}`;
-};
-
-const _normalizeTeamName = (teamName: string): string => {
-  return NORMALIZED_TEAM_NAMES[teamName] ?? teamName;
 };
 
 const _getPollRankingsForWeek = (
@@ -133,7 +121,7 @@ const _getPollRankingsForWeek = (
           throw new Error(`No current week ranking`);
         }
         previousTeamCurrentWeekRanking = currentWeekRanking;
-        const teamName = _normalizeTeamName($($rowCells[1]).find('.pl3').text().trim());
+        const teamName = Teams.normalizeName($($rowCells[1]).find('.pl3').text().trim());
         const record = rowCellValues[2];
 
         let trend: string;
