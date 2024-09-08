@@ -34,15 +34,18 @@ async function fetchTop25TeamEspnIds(year: number): Promise<Record<string, numbe
   return top25TeamUrls;
 }
 
-async function fetchYearlyResults(
-  teamEspnId: number,
-  year: number
-): Promise<Array<{result: string; score: string; pointDifferential: number}>> {
+interface YearlyResults {
+  readonly result: string;
+  readonly score: string;
+  readonly pointDifferential: number;
+}
+
+async function fetchYearlyResults(teamEspnId: number, year: number): Promise<YearlyResults[]> {
   const $ = await Scraper.get(
     `http://www.espn.com/college-football/team/schedule/_/id/${teamEspnId}/season/${year}`
   );
 
-  const results: Array<{result: string; score: string; pointDifferential: number}> = [];
+  const results: YearlyResults[] = [];
 
   const $rows = $('.Table2__tr');
 

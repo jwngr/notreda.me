@@ -592,6 +592,7 @@ export const fetchPollsForSeason = async ({
 /**
  * Returns the kickoff time for the provided game. If the game has not yet been assigned a kickoff
  * time, returns 'TBD'.
+ * TODO: This is currently broken and always returns 'TBD'.
  */
 export const fetchKickoffTimeForGame = async (espnGameId: number): Promise<Date | 'TBD'> => {
   const $ = await Scraper.get(`https://www.espn.com/college-football/game/_/gameId/${espnGameId}`);

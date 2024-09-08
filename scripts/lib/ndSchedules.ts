@@ -23,6 +23,7 @@ export class NDSchedules {
     try {
       const data = await fs.readFile(`${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`, 'utf-8');
       return JSON.parse(data) as readonly GameInfo[];
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       // If no file exists for the provided season, either Notre Dame did not play any games that
       // season or it is a future season with no games scheduled yet.

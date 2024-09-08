@@ -86,7 +86,7 @@ export async function fetchUrl<T>({
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch url: ${url}`);
+    throw new Error(`Failed to fetch url "${url}": ${JSON.stringify(response.statusText)}`);
   }
 
   return response.json() as Promise<T>;

@@ -101,11 +101,8 @@ function parseWikipediaWeeklyPolls(
 
 export class Polls {
   static getForSeason(season: number): SeasonAllPollRankings | null {
-    try {
-      return require(`${POLLS_DATA_DIRECTORY}/${season}.json`);
-    } catch (error) {
-      return null;
-    }
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    return require(`${POLLS_DATA_DIRECTORY}/${season}.json`);
   }
 
   static async scrapeForSeason(season: number): Promise<SeasonAllPollRankings> {
