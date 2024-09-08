@@ -28,7 +28,7 @@ const logger = new Logger({isSentryEnabled: false});
 function extractTeamName(val: string): string {
   const rawTeamName = val
     .replace(/\s\(\d+.*$/, '')
-    .replace('*', '')
+    .replace(/\*/g, '')
     .trim();
 
   return Teams.normalizeName(rawTeamName);
