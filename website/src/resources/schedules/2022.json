@@ -83,7 +83,17 @@
       "away": [3, 7, 0, 0],
       "home": [7, 0, 7, 7]
     },
-    "result": "L"
+    "result": "L",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "coaches": 5
+      },
+      "home": {
+        "ap": 2,
+        "coaches": 2
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -169,7 +179,13 @@
       "away": [0, 9, 3, 14],
       "home": [0, 7, 0, 14]
     },
-    "result": "L"
+    "result": "L",
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 9
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -417,7 +433,13 @@
       "away": [6, 0, 7, 7],
       "home": [3, 15, 7, 3]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "away": {
+        "ap": 16,
+        "coaches": 16
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -663,7 +685,13 @@
       "away": [7, 14, 3, 17],
       "home": [7, 0, 10, 7]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "home": {
+        "ap": 16,
+        "coaches": 16
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -745,7 +773,14 @@
       "away": [0, 0, 0, 14],
       "home": [7, 7, 0, 21]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "coaches": 5,
+        "cfbPlayoff": 4
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -828,7 +863,14 @@
       "away": [14, 21, 0, 0],
       "home": [6, 7, 3, 16]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "away": {
+        "ap": 20,
+        "coaches": 25,
+        "cfbPlayoff": 20
+      }
+    }
   },
   {
     "isHomeGame": true,
@@ -910,7 +952,14 @@
       "away": [0, 0, 0, 0],
       "home": [17, 20, 7, 0]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "home": {
+        "ap": 18,
+        "coaches": 19,
+        "cfbPlayoff": 18
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -992,7 +1041,19 @@
       "away": [0, 7, 7, 13],
       "home": [10, 7, 7, 14]
     },
-    "result": "L"
+    "result": "L",
+    "rankings": {
+      "away": {
+        "ap": 19,
+        "coaches": 19,
+        "cfbPlayoff": 15
+      },
+      "home": {
+        "ap": 4,
+        "coaches": 4,
+        "cfbPlayoff": 6
+      }
+    }
   },
   {
     "isHomeGame": false,
@@ -1077,6 +1138,18 @@
       "away": [7, 10, 14, 14],
       "home": [21, 3, 7, 7]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "away": {
+        "ap": 19,
+        "coaches": 20,
+        "cfbPlayoff": 21
+      },
+      "home": {
+        "ap": 20,
+        "coaches": 19,
+        "cfbPlayoff": 19
+      }
+    }
   }
 ]

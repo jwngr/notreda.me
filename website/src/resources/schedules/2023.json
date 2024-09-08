@@ -80,6 +80,12 @@
         "away": "0-0",
         "neutral": "0-1"
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 13,
+        "coaches": 13
+      }
     }
   },
   {
@@ -161,6 +167,12 @@
         "home": "0-0",
         "away": "0-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 13,
+        "coaches": 13
       }
     }
   },
@@ -244,6 +256,12 @@
         "away": "1-0",
         "neutral": "1-0"
       }
+    },
+    "rankings": {
+      "away": {
+        "ap": 10,
+        "coaches": 11
+      }
     }
   },
   {
@@ -325,6 +343,12 @@
         "home": "1-0",
         "away": "0-2",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 11
       }
     }
   },
@@ -408,6 +432,16 @@
         "away": "2-0",
         "neutral": "0-0"
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 9
+      },
+      "away": {
+        "ap": 6,
+        "coaches": 4
+      }
     }
   },
   {
@@ -489,6 +523,16 @@
         "home": "2-1",
         "away": "2-0",
         "neutral": "1-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 11,
+        "coaches": 13
+      },
+      "home": {
+        "ap": 17,
+        "coaches": 16
       }
     }
   },
@@ -572,6 +616,16 @@
         "away": "2-1",
         "neutral": "1-0"
       }
+    },
+    "rankings": {
+      "away": {
+        "ap": 10,
+        "coaches": 11
+      },
+      "home": {
+        "ap": 25,
+        "coaches": 25
+      }
     }
   },
   {
@@ -653,6 +707,16 @@
         "home": "4-0",
         "away": "2-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 21,
+        "coaches": 21
+      },
+      "away": {
+        "ap": 10,
+        "coaches": 9
       }
     }
   },
@@ -736,6 +800,12 @@
         "away": "0-4",
         "neutral": "0-0"
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 14,
+        "coaches": 14
+      }
     }
   },
   {
@@ -817,6 +887,13 @@
         "home": "4-1",
         "away": "2-2",
         "neutral": "1-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 12,
+        "coaches": 12,
+        "cfbPlayoff": 15
       }
     }
   },
@@ -900,6 +977,13 @@
         "away": "1-4",
         "neutral": "0-0"
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 20,
+        "coaches": 18,
+        "cfbPlayoff": 19
+      }
     }
   },
   {
@@ -981,6 +1065,13 @@
         "home": "5-1",
         "away": "3-2",
         "neutral": "1-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 17,
+        "coaches": 17,
+        "cfbPlayoff": 18
       }
     }
   },
@@ -1066,6 +1157,18 @@
         "home": "5-1",
         "away": "3-3",
         "neutral": "0-1"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 15,
+        "coaches": 16,
+        "cfbPlayoff": 16
+      },
+      "away": {
+        "ap": 21,
+        "coaches": 22,
+        "cfbPlayoff": 19
       }
     }
   }

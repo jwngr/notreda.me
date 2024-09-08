@@ -1,7 +1,7 @@
 export enum PollType {
   AP = 'ap',
-  COACHES = 'coaches',
-  CFP = 'cfbPlayoff',
+  Coaches = 'coaches',
+  CFBPlayoff = 'cfbPlayoff',
 }
 
 export interface IndividualTeamPollData {

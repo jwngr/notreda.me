@@ -1,5 +1,9 @@
 import {QueryParams} from '../../website/src/models/utils.models';
 
+export function assertNever(x: never): never {
+  throw new Error(`Unexpected object: ${x}`);
+}
+
 export const withCommas = (value: number): string => {
   if (typeof value !== 'number') {
     throw new Error(`Expected a number, but got ${value} of type "${typeof value}".`);
