@@ -207,8 +207,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -240,8 +240,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -273,12 +273,12 @@
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       },
       "away": {
-        "ap": 22,
-        "coaches": 24
+        "ap": 19,
+        "coaches": 21
       }
     }
   },
@@ -310,8 +310,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -344,11 +344,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 5,
-        "coaches": 7
-      },
-      "home": {
-        "ap": 23
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -381,8 +378,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -414,8 +411,8 @@
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -439,16 +436,16 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "1-0",
+        "overall": "2-0",
         "home": "1-0",
-        "away": "0-0",
+        "away": "1-0",
         "neutral": "0-0"
       }
     },
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -482,8 +479,8 @@
     },
     "rankings": {
       "away": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -501,8 +498,8 @@
     "espnGameId": 401628571,
     "records": {
       "home": {
-        "overall": "1-0",
-        "home": "0-0",
+        "overall": "2-0",
+        "home": "1-0",
         "away": "0-0",
         "neutral": "1-0"
       },
@@ -515,12 +512,12 @@
     },
     "rankings": {
       "away": {
-        "ap": 5,
-        "coaches": 7
+        "ap": 18,
+        "coaches": 19
       },
       "home": {
-        "ap": 13,
-        "coaches": 14
+        "ap": 11,
+        "coaches": 11
       }
     }
   }
