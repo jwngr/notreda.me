@@ -2,6 +2,7 @@ import {ALL_PLAYED_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
 import {NDSchedules} from '../../../lib/ndSchedules';
 import {Polls} from '../../../lib/polls';
+import {GameResult} from '../../../models/games.models';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -39,7 +40,7 @@ async function main() {
     let winsBeforeFirstLoss = 0;
     let tiesBeforeFirstLoss = 0;
     seasonScheduleData.forEach((gameData, i) => {
-      if (gameData.result === 'L') {
+      if (gameData.result === GameResult.Loss) {
         if (!firstLossOfSeasonEncountered) {
           if (typeof firstLossOfSeasonIndexes[i] === 'undefined') {
             firstLossOfSeasonIndexes[i] = [{season, ranking: finalNdRankingInApPoll}];
@@ -61,7 +62,7 @@ async function main() {
           firstLossOfSeasonEncountered = true;
           firstLossOfSeasonsIndexTotal += i + 1;
         }
-      } else if (gameData.result === 'W') {
+      } else if (gameData.result === GameResult.Win) {
         winsBeforeFirstLoss++;
       } else {
         tiesBeforeFirstLoss++;

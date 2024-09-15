@@ -135,6 +135,7 @@ export class Polls {
       [PollType.AP]: [],
       [PollType.Coaches]: [],
       [PollType.CFBPlayoff]: [],
+      [PollType.BCS]: [],
     };
 
     const $headings = $scrapedResult('.mw-heading');
@@ -173,6 +174,9 @@ export class Polls {
           case PollType.AP:
           case PollType.Coaches:
             logger.error('No rankings table found', {pollType, headingText});
+            break;
+          case PollType.BCS:
+            // TODO: Add support for this.
             break;
           case PollType.CFBPlayoff:
             // This is expected for seasons before the CFP was created.
@@ -262,5 +266,20 @@ export class Polls {
       seasonPollsData,
       seasonScheduleData,
     });
+  }
+
+  static getPollName(pollType: PollType): string {
+    switch (pollType) {
+      case PollType.AP:
+        return 'AP';
+      case PollType.Coaches:
+        return 'Coaches';
+      case PollType.CFBPlayoff:
+        return 'College Football Playoff';
+      case PollType.BCS:
+        return 'BCS';
+      default:
+        assertNever(pollType);
+    }
   }
 }

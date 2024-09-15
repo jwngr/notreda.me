@@ -5,6 +5,7 @@ import {fileURLToPath} from 'url';
 import {Writable} from '../../../../website/src/models/utils.models';
 import {Logger} from '../../../lib/logger';
 import {NDSchedules} from '../../../lib/ndSchedules';
+import {GameResult} from '../../../models/games.models';
 import {ExpS1E1CoachInfo, ExpS1E1TeamRecordsInfo} from './models';
 
 const logger = new Logger({isSentryEnabled: false});
@@ -71,10 +72,10 @@ async function main() {
           teamRecordsInfo.totalGamesCount += 1;
           coachInfo.totalGamesCount += 1;
 
-          if (gameData.result === 'W') {
+          if (gameData.result === GameResult.Win) {
             teamRecordsInfo.totalWinsCount += 1;
             coachInfo.totalWinsCount += 1;
-          } else if (gameData.result === 'L') {
+          } else if (gameData.result === GameResult.Loss) {
             teamRecordsInfo.totalLossesCount += 1;
             coachInfo.totalLossesCount += 1;
           } else {
@@ -89,10 +90,10 @@ async function main() {
             teamRecordsInfo.onePossesssionGamesCount += 1;
             coachInfo.onePossesssionGamesCount += 1;
 
-            if (gameData.result === 'W') {
+            if (gameData.result === GameResult.Win) {
               teamRecordsInfo.onePossesssionWinsCount += 1;
               coachInfo.onePossesssionWinsCount += 1;
-            } else if (gameData.result === 'L') {
+            } else if (gameData.result === GameResult.Loss) {
               teamRecordsInfo.onePossesssionLossesCount += 1;
               coachInfo.onePossesssionLossesCount += 1;
             } else {

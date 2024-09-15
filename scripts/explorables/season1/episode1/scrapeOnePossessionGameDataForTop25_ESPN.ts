@@ -2,6 +2,7 @@ import range from 'lodash/range';
 
 import {Logger} from '../../../lib/logger';
 import {Scraper} from '../../../lib/scraper';
+import {GameResult} from '../../../models/games.models';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -102,18 +103,18 @@ async function fetchOnePossessionGameDataDuringBrianKellyEra(
           onePossesssionGameData.totalGamesCount += 1;
           onePossesssionGameData.totalDifferential += pointDifferential;
 
-          if (result === 'W') {
+          if (result === GameResult.Win) {
             onePossesssionGameData.totalWinsCount += 1;
-          } else if (result === 'L') {
+          } else if (result === GameResult.Loss) {
             onePossesssionGameData.totalLossesCount += 1;
           }
 
           if (pointDifferential <= 8) {
             onePossesssionGameData.onePossesssionGamesCount += 1;
 
-            if (result === 'W') {
+            if (result === GameResult.Win) {
               onePossesssionGameData.onePossesssionWinsCount += 1;
-            } else if (result === 'L') {
+            } else if (result === GameResult.Loss) {
               onePossesssionGameData.onePossesssionLossesCount += 1;
             }
           }

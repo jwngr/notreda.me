@@ -1,4 +1,5 @@
 import {CURRENT_SEASON} from '../../lib/constants';
+import {ValidatorFunc} from '../../models';
 
 const EXPECTED_TV_CHANNELS = [
   'ABC',
@@ -26,30 +27,30 @@ const EXPECTED_TV_CHANNELS = [
   'USA / WGN-TV',
 ];
 
-export function validateCoverage({season, coverage}, assert) {
-  const wrappedAssert = (statement, message) => {
+export const validateCoverage: ValidatorFunc = ({currentGameInfo, assert}) => {
+  const {season, coverage} = currentGameInfo;
+
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {coverage});
   };
 
   if (season === CURRENT_SEASON) {
     // Current season game.
     wrappedAssert(
-      coverage === 'TBD' || EXPECTED_TV_CHANNELS.includes(coverage),
+      coverage ? coverage === 'TBD' || !EXPECTED_TV_CHANNELS.includes(coverage) : false,
       'Current season game has unexpected coverage value.'
     );
   } else if (season < CURRENT_SEASON) {
     // Previous season game.
     wrappedAssert(
-      typeof coverage === 'undefined' ||
-        coverage === 'TBD' ||
-        EXPECTED_TV_CHANNELS.includes(coverage),
+      !coverage || coverage === 'TBD' || !EXPECTED_TV_CHANNELS.includes(coverage),
       'Previous season game has unexpected coverage value.'
     );
   } else {
     // Future season game.
     wrappedAssert(
-      typeof coverage === 'undefined' || EXPECTED_TV_CHANNELS.includes(coverage),
+      !coverage || !EXPECTED_TV_CHANNELS.includes(coverage),
       'Future season game has unexpected coverage value.'
     );
   }
-}
+};

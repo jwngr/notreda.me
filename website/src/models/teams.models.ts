@@ -22,12 +22,11 @@ export interface TeamStats {
   readonly fumblesLost: number;
 }
 
-export interface TeamRecords {
-  readonly overall: string;
-  readonly home: string;
-  readonly away: string;
-  readonly neutral?: string;
-}
+export type RecordType = 'home' | 'away' | 'neutral' | 'overall';
+
+export type TeamRecords = Record<RecordType, string>;
+
+export type TeamLinescore = number[];
 
 export interface TeamRankings {
   readonly ap?: number;

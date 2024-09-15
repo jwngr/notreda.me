@@ -1,6 +1,6 @@
 import range from 'lodash/range';
 
-import {GameLinescore, GameScore} from '../../website/src/models/games.models';
+import {GameLinescore, GameResult, GameScore} from '../../website/src/models/games.models';
 import {
   IndividualTeamPollData,
   PollType,
@@ -12,7 +12,7 @@ import {Writable} from '../../website/src/models/utils.models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
-import {assertNever, isNumber} from './utils';
+import {assertNever} from './utils';
 
 const DEFAULT_TEAM_STATS: TeamStats = {
   firstDowns: 0,
@@ -86,6 +86,7 @@ const _getPollRankingsForWeek = (
     [PollType.AP]: null,
     [PollType.Coaches]: null,
     [PollType.CFBPlayoff]: null,
+    [PollType.BCS]: null,
   };
 
   const $pollSections = $('.InnerLayout__child.mb2');
@@ -160,7 +161,7 @@ const _getPollRankingsForWeek = (
           record,
           ranking: currentWeekRanking,
           previousRanking: previousWeekRanking,
-          ...(isNumber(points) ? {points} : {}),
+          ...(points ? {points} : {}),
         };
 
         teamsData[teamName] = teamData;
@@ -419,7 +420,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
         locationKey = !gameInfo.includes('@') ? 'home' : 'away';
       }
 
-      if (gameResult === 'W') {
+      if (gameResult === GameResult.Win) {
         wins += 1;
         if (locationKey === 'home') {
           homeWins += 1;
@@ -428,7 +429,7 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
         } else {
           neutralWins += 1;
         }
-      } else if (gameResult === 'L') {
+      } else if (gameResult === GameResult.Loss) {
         losses += 1;
         if (locationKey === 'home') {
           homeLosses += 1;
@@ -499,7 +500,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
           locationKey = !gameInfo.includes('@') ? 'home' : 'away';
         }
 
-        if (gameResult === 'W') {
+        if (gameResult === GameResult.Win) {
           wins += 1;
           if (locationKey === 'home') {
             homeWins += 1;
@@ -508,7 +509,7 @@ export const fetchNotreDameWeeklyRecordsForSeason = async (
           } else {
             neutralWins += 1;
           }
-        } else if (gameResult === 'L') {
+        } else if (gameResult === GameResult.Loss) {
           losses += 1;
           if (locationKey === 'home') {
             homeLosses += 1;
@@ -564,6 +565,7 @@ export const fetchPollsForSeason = async ({
     [PollType.AP]: [],
     [PollType.Coaches]: [],
     [PollType.CFBPlayoff]: [],
+    [PollType.BCS]: [], // Not used.
   };
   weeklyRankings.forEach((rankings) => {
     [PollType.AP, PollType.Coaches, PollType.CFBPlayoff].forEach((pollType) => {

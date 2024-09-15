@@ -50,14 +50,6 @@ export const getGameTimestampInSeconds = ({
   return d.getTime() / 1000;
 };
 
-export function isNumber(val: unknown): val is number {
-  return typeof val === 'number' && !isNaN(val);
-}
-
-export function isString(val: unknown): val is string {
-  return typeof val === 'string';
-}
-
 export function isNonEmptyString(val: unknown): val is string {
   return typeof val === 'string' && val !== '';
 }

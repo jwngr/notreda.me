@@ -1,4 +1,4 @@
-import {TeamId, TeamRankings, TeamRecords, TeamStats} from './teams.models';
+import {TeamId, TeamLinescore, TeamRankings, TeamRecords, TeamStats} from './teams.models';
 
 export interface GameScore {
   readonly home: number;
@@ -6,8 +6,8 @@ export interface GameScore {
 }
 
 export interface GameLinescore {
-  readonly home: number[];
-  readonly away: number[];
+  readonly home: TeamLinescore;
+  readonly away: TeamLinescore;
 }
 
 export enum GameResult {
@@ -61,18 +61,21 @@ export interface GameInfo {
   readonly espnGameId?: number;
 
   // TODO: Combine `isHomeGame` and `isNeutralSiteGame` into a single `HomeAwayStatus` enum.
-  /** True if this was a home game for Notre Dame. */
+  /** Whether or not this is a home game for Notre Dame. */
   readonly isHomeGame: boolean;
-  /** True if the game was played on a neutral field rather than either team's home field. */
-  readonly isNeutralSiteGame?: boolean;
-  /** True if the game is a playoff / bowl game. */
-  readonly isBowlGame?: boolean;
-  /** True if this was a game in the Shamrock Series. */
-  readonly isShamrockSeries?: boolean;
-  /** True if the game was canceled. */
-  readonly isCanceled?: boolean;
-  /** True if the game was postponed. */
-  readonly isPostponed?: boolean;
+  /** Present if the game was played on a neutral field rather than either team's home field. */
+  // TODO: Backfill this field.
+  readonly isNeutralSiteGame?: true;
+  /** Present if the game is a playoff / bowl game. */
+  readonly isBowlGame?: true;
+  /** Present if this was a game in the Shamrock Series. */
+  readonly isShamrockSeries?: true;
+  /** Present if the game was canceled. */
+  readonly isCanceled?: true;
+  /** Present if the game was postponed. */
+  readonly isPostponed?: true;
+  /** Present if the game's winning result was vacated. */
+  readonly isVacatedWin?: true;
 
   // Handle dates which are in the past or future and which may not have a time nor date.
   // TODO: Unify `date`/`time` and `fullDate` between past and future games.

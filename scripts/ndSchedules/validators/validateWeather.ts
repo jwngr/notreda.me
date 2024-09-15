@@ -1,6 +1,4 @@
-import _ from 'lodash';
-
-import {isNumber} from '../../lib/utils';
+import {ValidatorFuncWithIgnore} from '../../models';
 
 const EXPECTED_WEATHER_ICONS = [
   'clear-day',
@@ -14,12 +12,18 @@ const EXPECTED_WEATHER_ICONS = [
   'unknown',
 ];
 
-export function validateWeather({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAssert) {
-  const wrappedAssert = (statement, message) => {
+export const validateWeather: ValidatorFuncWithIgnore = ({
+  currentGameInfo,
+  assert,
+  ignoredAssert,
+}) => {
+  const {weather, isGameOver, isNextUnplayedGame} = currentGameInfo;
+
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
   };
 
-  const wrappedIgnoredAssert = (statement, message) => {
+  const wrappedIgnoredAssert = (statement: boolean, message: string) => {
     ignoredAssert(statement, message, {weather});
   };
 
@@ -34,19 +38,14 @@ export function validateWeather({weather, isGameOver, isNextUnplayedGame}, asser
       `${completedGameOrNextUnplayedGame} has no weather object.`
     );
 
-    if (typeof weather !== 'undefined') {
-      wrappedAssert(
-        _.isEqual(_.keys(weather).sort(), ['icon', 'temperature'].sort()),
-        'Weather object has unexpected keys.'
-      );
-
+    if (weather) {
       wrappedAssert(
         EXPECTED_WEATHER_ICONS.includes(weather.icon),
         'Weather icon has unexpected value.'
       );
 
       wrappedAssert(
-        isNumber(weather.temperature) && weather.temperature > -20 && weather.temperature < 110,
+        weather.temperature > -20 && weather.temperature < 110,
         'Weather temperature has unexpected value.'
       );
     }
@@ -54,4 +53,4 @@ export function validateWeather({weather, isGameOver, isNextUnplayedGame}, asser
     // Future game (excluding the next unplayed game).
     wrappedAssert(typeof weather === 'undefined', 'Future game unexpectedly has weather object.');
   }
-}
+};

@@ -3,18 +3,16 @@ import _ from 'lodash';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
-import {ExtendedGameInfo} from '../models';
-import {
-  validateCoverage,
-  validateDate,
-  validateLocation,
-  validateMiscellaneous,
-  validateRankings,
-  validateRecords,
-  validateScoreAndResult,
-  validateStats,
-  validateWeather,
-} from './validators';
+import {AssertFunc, ExtendedGameInfo} from '../models';
+import {validateCoverage} from './validators/validateCoverage';
+import {validateDate} from './validators/validateDate';
+import {validateLocation} from './validators/validateLocation';
+import {validateMiscellaneous} from './validators/validateMiscellaneous';
+import {validateRankings} from './validators/validateRankings';
+import {validateRecords} from './validators/validateRecords';
+import {validateScoreAndResult} from './validators/validateScoreAndResult';
+import {validateStats} from './validators/validateStats';
+import {validateWeather} from './validators/validateWeather';
 
 // Enable Sentry logging.
 const logger = new Logger({isSentryEnabled: true});
@@ -22,15 +20,15 @@ const logger = new Logger({isSentryEnabled: true});
 async function main() {
   logger.info('Validating schedule data...');
 
-  let _numErrorsFound = 0;
-  let _currentGameData: ExtendedGameInfo | null = null;
-  let _numIgnoredErrorsFound = 0;
+  let numErrorsFound = 0;
+  let currentGameInfo: ExtendedGameInfo | null = null;
+  let numIgnoredErrorsFound = 0;
 
-  const assert = (statement: boolean, message: string, extraContext?: Record<string, unknown>) => {
+  const assert: AssertFunc = (statement, message, extraContext) => {
     if (Boolean(statement) === false) {
-      _numErrorsFound++;
+      numErrorsFound++;
       logger.error(message, {
-        ..._.pick(_currentGameData, ['season', 'opponentId']),
+        ..._.pick(currentGameInfo, ['season', 'opponentId']),
         ...extraContext,
       });
     }
@@ -39,7 +37,7 @@ async function main() {
   // TODO: Remove all usages of this once historical data is properly normalized.
   const ignoredAssert = (statement: boolean) => {
     if (Boolean(statement) === false) {
-      _numIgnoredErrorsFound++;
+      numIgnoredErrorsFound++;
     }
   };
 
@@ -59,41 +57,41 @@ async function main() {
       );
     }
 
-    let previousGameData: ExtendedGameInfo | null = null;
+    let previousGameInfo: ExtendedGameInfo | null = null;
     seasonScheduleData.forEach((gameData, weekIndex) => {
-      _currentGameData = {
+      currentGameInfo = {
         ...gameData,
         season,
         weekIndex,
         isGameOver: typeof gameData.result !== 'undefined',
         isNextUnplayedGame: weekIndex === nextUnplayedGameWeekIndex,
-        isLatestGameCompletedGame: weekIndex === latestCompletedGameWeekIndex,
+        isLatestCompletedGame: weekIndex === latestCompletedGameWeekIndex,
         completedGameCountForSeason: _.filter(
           seasonScheduleData,
           ({result}) => typeof result === 'string'
         ).length,
       };
 
-      validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
-      validateStats(_currentGameData, assert, ignoredAssert);
-      validateRecords(_currentGameData, assert, ignoredAssert);
-      validateWeather(_currentGameData, assert, ignoredAssert);
-      validateCoverage(_currentGameData, assert, ignoredAssert);
-      validateLocation(_currentGameData, assert, ignoredAssert);
-      validateRankings(_currentGameData, assert, ignoredAssert);
-      validateMiscellaneous([_currentGameData, seasonScheduleData], assert, ignoredAssert);
-      validateScoreAndResult(_currentGameData, assert, ignoredAssert);
+      validateDate({currentGameInfo, previousGameInfo, assert});
+      validateStats({currentGameInfo, assert, ignoredAssert});
+      validateRecords({currentGameInfo, assert, ignoredAssert});
+      validateWeather({currentGameInfo, assert, ignoredAssert});
+      validateCoverage({currentGameInfo, assert});
+      validateLocation({currentGameInfo, assert});
+      validateRankings({currentGameInfo, assert});
+      validateMiscellaneous({currentGameInfo, seasonScheduleData, assert});
+      validateScoreAndResult({currentGameInfo, assert});
 
-      previousGameData = _currentGameData;
+      previousGameInfo = currentGameInfo;
     });
   }
 
-  if (_numIgnoredErrorsFound !== 0) {
-    logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
+  if (numIgnoredErrorsFound !== 0) {
+    logger.info(`${numIgnoredErrorsFound} errors ignored in schedule data!`);
   }
 
-  if (_numErrorsFound !== 0) {
-    logger.error(`${_numErrorsFound} errors found in schedule data!`);
+  if (numErrorsFound !== 0) {
+    logger.error(`${numErrorsFound} errors found in schedule data!`);
     process.exit(1);
   }
 

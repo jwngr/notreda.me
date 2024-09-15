@@ -15,6 +15,31 @@ export interface ExtendedGameInfo extends GameInfo {
   readonly weekIndex: number;
   readonly isGameOver: boolean;
   readonly isNextUnplayedGame: boolean;
-  readonly isLatestGameCompletedGame: boolean;
+  readonly isLatestCompletedGame: boolean;
   readonly completedGameCountForSeason: number;
 }
+
+export type AssertContext = Record<string, unknown>;
+
+export type AssertFunc = (statement: boolean, message: string, context?: AssertContext) => void;
+
+export type GenericValidatorFunc<T> = (
+  args: {
+    readonly currentGameInfo: ExtendedGameInfo;
+    readonly assert: AssertFunc;
+  } & T
+) => void;
+
+export type ValidatorFunc = GenericValidatorFunc<object>;
+
+export type ValidatorFuncWithIgnore = GenericValidatorFunc<{
+  readonly ignoredAssert: AssertFunc;
+}>;
+
+export type ValidatorFuncWithPreviousGameInfo = GenericValidatorFunc<{
+  readonly previousGameInfo: ExtendedGameInfo | null;
+}>;
+
+export type ValidatorFuncWithSchedule = GenericValidatorFunc<{
+  readonly seasonScheduleData: readonly GameInfo[];
+}>;
