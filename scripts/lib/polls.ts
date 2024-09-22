@@ -176,7 +176,6 @@ export class Polls {
             break;
           case PollType.CFBPlayoff:
             // This is expected for seasons before the CFP was created.
-            logger.info('No CFB Playoff rankings table found', {pollType, headingText});
             break;
           default:
             assertNever(pollType);

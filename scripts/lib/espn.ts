@@ -277,10 +277,17 @@ export const fetchStatsForGame = async (
           homeStats.passYards = Number(homeValue);
           break;
         case 'Comp-Att':
+          // Legacy format.
           awayStats.passCompletions = Number(awayValue.split('-')[0]);
           homeStats.passCompletions = Number(homeValue.split('-')[0]);
           awayStats.passAttempts = Number(awayValue.split('-')[1]);
           homeStats.passAttempts = Number(homeValue.split('-')[1]);
+          break;
+        case 'Comp/Att':
+          awayStats.passCompletions = Number(awayValue.split('/')[0]);
+          homeStats.passCompletions = Number(homeValue.split('/')[0]);
+          awayStats.passAttempts = Number(awayValue.split('/')[1]);
+          homeStats.passAttempts = Number(homeValue.split('/')[1]);
           break;
         case 'Yards per pass':
           awayStats.yardsPerPass = Number(awayValue);
