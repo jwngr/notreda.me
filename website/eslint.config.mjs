@@ -1,6 +1,5 @@
 import eslint from '@eslint/js';
-// TODO: Add back `eslint-plugin-react-hooks once it supports the ESLint flat file format.
-// import reactHooks from 'eslint-plugin-react-hooks';
+import reactHooks from 'eslint-plugin-react-hooks';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
@@ -21,8 +20,12 @@ export default tseslint.config(
       sourceType: 'module',
       globals: globals.browser,
     },
+    plugins: {
+      'react-hooks': reactHooks,
+    },
     rules: {
       'no-console': 'error',
+      ...reactHooks.configs.recommended.rules,
     },
   }
 );
