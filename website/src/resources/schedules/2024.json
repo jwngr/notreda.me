@@ -367,20 +367,75 @@
     },
     "opponentId": "LOU",
     "espnGameId": 401628980,
+    "highlightsYouTubeVideoId": "XIWmhDgtjQY",
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-0",
+        "overall": "3-1",
         "home": "3-0",
-        "away": "0-0",
+        "away": "0-1",
         "neutral": "0-0"
       }
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 17,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 1,
+        "totalYards": 395,
+        "passYards": 264,
+        "passCompletions": 24,
+        "passAttempts": 41,
+        "yardsPerPass": 6.4,
+        "interceptionsThrown": 1,
+        "rushYards": 131,
+        "rushAttempts": 35,
+        "yardsPerRush": 3.7,
+        "penalties": 6,
+        "penaltyYards": 50,
+        "possession": "32:04",
+        "fumblesLost": 2,
+        "fumbles": 3
+      },
+      "home": {
+        "firstDowns": 11,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 2,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 2,
+        "totalYards": 280,
+        "passYards": 163,
+        "passCompletions": 17,
+        "passAttempts": 23,
+        "yardsPerPass": 7.1,
+        "interceptionsThrown": 0,
+        "rushYards": 117,
+        "rushAttempts": 31,
+        "yardsPerRush": 3.8,
+        "penalties": 5,
+        "penaltyYards": 45,
+        "possession": "27:56",
+        "fumblesLost": 2,
+        "fumbles": 2
+      }
+    },
+    "score": {
+      "home": 31,
+      "away": 24
+    },
+    "linescore": {
+      "away": [7, 7, 0, 10],
+      "home": [21, 3, 0, 7]
+    },
+    "result": "W",
     "rankings": {
       "home": {
         "ap": 16,
@@ -406,8 +461,8 @@
     "espnGameId": 401628981,
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       },
@@ -440,14 +495,14 @@
     "espnGameId": 401628982,
     "records": {
       "home": {
-        "overall": "2-1",
-        "home": "2-0",
+        "overall": "2-2",
+        "home": "2-1",
         "away": "0-1",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       }
@@ -474,14 +529,14 @@
     "espnGameId": 401628983,
     "records": {
       "home": {
-        "overall": "3-0",
+        "overall": "4-0",
         "home": "3-0",
-        "away": "0-0",
+        "away": "1-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       }
@@ -507,8 +562,8 @@
     "espnGameId": 401628984,
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       },
@@ -540,8 +595,8 @@
     "espnGameId": 401628985,
     "records": {
       "home": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       },
@@ -575,14 +630,14 @@
     "espnGameId": 401640959,
     "records": {
       "home": {
-        "overall": "3-0",
+        "overall": "4-0",
         "home": "2-0",
-        "away": "1-0",
+        "away": "2-0",
         "neutral": "0-0"
       },
       "away": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       }
@@ -608,14 +663,14 @@
     "espnGameId": 401628571,
     "records": {
       "home": {
-        "overall": "2-1",
-        "home": "1-0",
+        "overall": "3-1",
+        "home": "2-0",
         "away": "0-1",
         "neutral": "1-0"
       },
       "away": {
-        "overall": "3-1",
-        "home": "1-1",
+        "overall": "4-1",
+        "home": "2-1",
         "away": "2-0",
         "neutral": "0-0"
       }
