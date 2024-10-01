@@ -1,23 +1,20 @@
 {
   "compilerOptions": {
+    // Target latest ECMAScript.
     "target": "ESNext",
     "lib": ["ESNext"],
     "module": "ESNext",
+
+    // Configuration required for Node.
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
+
+    // Miscellaneous configuration.
+    "strict": true, // Enable strict type checking.
+    "noEmit": true, // Don't emit JS files - build step only for type checking.
+    "resolveJsonModule": true, // Allow importing JSON files.
+
+    // TODO: Replace with yarn workspaces.
     "rootDirs": [".", "../website/src"]
   },
   "include": ["."]
