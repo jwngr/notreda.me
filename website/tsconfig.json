@@ -1,24 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "lib": ["es2020", "DOM", "DOM.Iterable"],
-    "module": "esnext",
-    "skipLibCheck": true,
-    "useDefineForClassFields": true,
+    // Target latest ECMAScript.
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
 
-    /* Bundler mode */
+    // Configuration required for Vite.
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
 
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    // Miscellaneous configuration.
+    "jsx": "react-jsx", // Use React JSX.
+    "strict": true, // Enable strict type checking.
+    "noEmit": true, // Don't emit JS files - let vite create dist/.
+    "resolveJsonModule": true // Allow importing JSON files.
   },
   "include": ["src"]
 }
