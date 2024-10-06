@@ -79,19 +79,47 @@ function parseWikipediaWeeklyPolls(
   // Ignore the first header row and the last two rows, which are a repeated header and the dropped
   // team info.
   const weeklyRankingsTableRows = tableRows.slice(1, -2);
-  weeklyRankingsTableRows.each((i, row) => {
+
+  const currentWeeklyRankings: number[] = [];
+  const weeklyTieCounters: number[] = [];
+  weeklyRankingsTableRows.each((_, row) => {
     $(row)
       .find('td')
       .each((weekIndex, cell) => {
         const cellText = $(cell).text().trim();
         if (!cellText) return;
 
+        weeklyTieCounters[weekIndex] = weeklyTieCounters[weekIndex] ?? 0;
+        currentWeeklyRankings[weekIndex] = currentWeeklyRankings[weekIndex] ?? 0;
+
+        if (cellText.endsWith('т')) {
+          // Only increment the ranking if this is the first team listed for the tie.
+          if (weeklyTieCounters[weekIndex] === 0) {
+            currentWeeklyRankings[weekIndex]++;
+          }
+
+          // Increment the tie counter.
+          weeklyTieCounters[weekIndex]++;
+        } else {
+          if (weeklyTieCounters[weekIndex] !== 0) {
+            // If ties preceded this team, increment the ranking by the number of teams in the tie.
+            // The increment for the current team is already included because the first tied team in
+            // the tie is double-counted.
+            currentWeeklyRankings[weekIndex] += weeklyTieCounters[weekIndex];
+            weeklyTieCounters[weekIndex] = 0;
+          } else {
+            // Increment the ranking.
+            currentWeeklyRankings[weekIndex]++;
+          }
+        }
+
         const teamName = extractTeamName(cellText);
         const record = extractRecord(cellText) ?? '0-0';
 
         weeklyRankings[weekIndex].teams[teamName] = {
           record,
-          ranking: i + 1,
+          // TODO: Properly handle ties
+          ranking: currentWeeklyRankings[weekIndex],
           // This gets set in a loop later since the previous week's rankings are incomplete.
           previousRanking: -1,
           // TODO: Add back support for points. It is not in the Wikipedia data.
