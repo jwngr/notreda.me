@@ -92,7 +92,7 @@ function parseWikipediaWeeklyPolls(
         weeklyTieCounters[weekIndex] = weeklyTieCounters[weekIndex] ?? 0;
         currentWeeklyRankings[weekIndex] = currentWeeklyRankings[weekIndex] ?? 0;
 
-        if (cellText.endsWith('т')) {
+        if (cellText.includes('т')) {
           // Only increment the ranking if this is the first team listed for the tie.
           if (weeklyTieCounters[weekIndex] === 0) {
             currentWeeklyRankings[weekIndex]++;
