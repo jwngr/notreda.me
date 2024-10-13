@@ -1,4 +1,4 @@
-name: Run Scripts CI on PR
+name: Run Scripts CI on push
 on: [push]
 jobs:
   scripts-ci:
