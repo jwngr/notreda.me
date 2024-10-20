@@ -628,7 +628,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "fullDate": "Sat Oct 26 2024 12:00:00 GMT-0400",
-    "coverage": "TBD",
+    "coverage": "ABC",
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -657,7 +657,8 @@
         "coaches": 11
       },
       "home": {
-        "ap": 25
+        "ap": 24,
+        "coaches": 24
       }
     }
   },
@@ -762,7 +763,7 @@
       },
       "home": {
         "ap": 23,
-        "coaches": 24
+        "coaches": 23
       }
     }
   },
@@ -780,9 +781,9 @@
     "espnGameId": 401628571,
     "records": {
       "home": {
-        "overall": "3-3",
+        "overall": "3-4",
         "home": "2-1",
-        "away": "0-2",
+        "away": "0-3",
         "neutral": "1-0"
       },
       "away": {
