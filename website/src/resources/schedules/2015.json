@@ -84,6 +84,12 @@
         "away": "0-1",
         "neutral": "0-0"
       }
+    },
+    "rankings": {
+      "home": {
+        "ap": 11,
+        "coaches": 11
+      }
     }
   },
   {
@@ -154,12 +160,6 @@
       "home": [0, 14, 0, 13]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 9,
-        "coaches": 11
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 72
@@ -176,6 +176,12 @@
         "home": "1-0",
         "away": "1-0",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "coaches": 11
       }
     }
   },
@@ -247,16 +253,6 @@
       "home": [7, 6, 3, 14]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 10
-      },
-      "away": {
-        "ap": 14,
-        "coaches": 16
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 65
@@ -269,10 +265,20 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "6-7",
-        "home": "2-4",
-        "away": "4-2",
-        "neutral": "0-1"
+        "overall": "2-1",
+        "home": "2-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 10
+      },
+      "away": {
+        "ap": 14,
+        "coaches": 16
       }
     }
   },
@@ -344,12 +350,6 @@
       "home": [14, 21, 20, 7]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 6,
-        "coaches": 8
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 72
@@ -366,6 +366,12 @@
         "home": "0-1",
         "away": "0-2",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 8
       }
     }
   },
@@ -437,16 +443,6 @@
       "home": [14, 0, 7, 3]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 6,
-        "coaches": 7
-      },
-      "home": {
-        "ap": 12,
-        "coaches": 11
-      }
-    },
     "weather": {
       "icon": "rain",
       "temperature": 63
@@ -463,6 +459,16 @@
         "home": "3-0",
         "away": "1-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "coaches": 7
+      },
+      "home": {
+        "ap": 12,
+        "coaches": 11
       }
     }
   },
@@ -534,12 +540,6 @@
       "home": [7, 17, 14, 3]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 15,
-        "coaches": 15
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 63
@@ -556,6 +556,12 @@
         "home": "3-0",
         "away": "1-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 15,
+        "coaches": 15
       }
     }
   },
@@ -627,12 +633,6 @@
       "home": [21, 3, 0, 17]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 14,
-        "coaches": 13
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 33
@@ -649,6 +649,12 @@
         "home": "2-2",
         "away": "1-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 14,
+        "coaches": 13
       }
     }
   },
@@ -720,16 +726,6 @@
       "home": [3, 7, 0, 10]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 9,
-        "coaches": 9
-      },
-      "home": {
-        "ap": 21,
-        "coaches": 22
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 48
@@ -746,6 +742,16 @@
         "home": "5-0",
         "away": "2-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "coaches": 9
+      },
+      "home": {
+        "ap": 21,
+        "coaches": 22
       }
     }
   },
@@ -817,13 +823,6 @@
       "home": [3, 0, 14, 13]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 8,
-        "coaches": 9,
-        "cfbPlayoff": 5
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 54
@@ -840,6 +839,13 @@
         "home": "5-0",
         "away": "3-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 8,
+        "coaches": 9,
+        "cfbPlayoff": 5
       }
     }
   },
@@ -911,13 +917,6 @@
       "home": [14, 7, 0, 7]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 6,
-        "coaches": 9,
-        "cfbPlayoff": 4
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 49
@@ -934,6 +933,13 @@
         "home": "1-4",
         "away": "2-3",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 6,
+        "coaches": 6,
+        "cfbPlayoff": 4
       }
     }
   },
@@ -1007,13 +1013,6 @@
     },
     "coverage": "NBCSN",
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 5,
-        "coaches": 5,
-        "cfbPlayoff": 4
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 35
@@ -1030,6 +1029,13 @@
         "home": "3-4",
         "away": "0-3",
         "neutral": "0-1"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "coaches": 5,
+        "cfbPlayoff": 4
       }
     }
   },
@@ -1101,18 +1107,6 @@
       "home": [14, 7, 7, 10]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 4,
-        "coaches": 4,
-        "cfbPlayoff": 6
-      },
-      "home": {
-        "ap": 13,
-        "coaches": 12,
-        "cfbPlayoff": 9
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 46
@@ -1129,6 +1123,18 @@
         "home": "6-0",
         "away": "3-2",
         "neutral": "1-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 4,
+        "coaches": 4,
+        "cfbPlayoff": 6
+      },
+      "home": {
+        "ap": 13,
+        "coaches": 12,
+        "cfbPlayoff": 9
       }
     }
   },
@@ -1203,18 +1209,6 @@
       "away": [0, 14, 7, 7]
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 8,
-        "coaches": 9,
-        "cfbPlayoff": 8
-      },
-      "home": {
-        "ap": 7,
-        "coaches": 5,
-        "cfbPlayoff": 7
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 64
@@ -1231,6 +1225,18 @@
         "home": "6-0",
         "away": "3-2",
         "neutral": "1-1"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 8,
+        "coaches": 9,
+        "cfbPlayoff": 8
+      },
+      "home": {
+        "ap": 7,
+        "coaches": 5,
+        "cfbPlayoff": 7
       }
     }
   }

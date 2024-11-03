@@ -66,19 +66,14 @@
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 74
     },
     "records": {
       "home": {
-        "overall": "0-0",
-        "home": "0-0",
+        "overall": "0-1",
+        "home": "0-1",
         "away": "0-0",
         "neutral": "0-0"
       },
@@ -157,14 +152,6 @@
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 4
-      },
-      "away": {
-        "ap": 19
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 71
@@ -251,14 +238,6 @@
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 11
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 75
@@ -345,11 +324,6 @@
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 12
-      }
-    },
     "weather": {
       "icon": "rain",
       "temperature": 64
@@ -436,11 +410,6 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
     "weather": {
       "icon": "rain",
       "temperature": 58
@@ -527,11 +496,6 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 68
@@ -618,12 +582,6 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 10,
-        "bcs": 9
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 61
@@ -710,12 +668,6 @@
     "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 11,
-        "bcs": 9
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 59
@@ -802,12 +754,6 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 11,
-        "bcs": 9
-      }
-    },
     "weather": {
       "icon": "cloudy",
       "temperature": 46
@@ -894,12 +840,6 @@
     "time": "4:00 PM",
     "coverage": "CSTV",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 9,
-        "bcs": 5
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 46
@@ -986,12 +926,6 @@
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 6,
-        "bcs": 5
-      }
-    },
     "weather": {
       "icon": "cloudy",
       "temperature": 41
@@ -1078,16 +1012,6 @@
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 6,
-        "bcs": 10
-      },
-      "home": {
-        "ap": 3,
-        "bcs": 2
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 56
@@ -1176,16 +1100,6 @@
     "coverage": "FOX",
     "nickname": "Sugar Bowl",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 11,
-        "bcs": 10
-      },
-      "home": {
-        "ap": 4,
-        "bcs": 5
-      }
-    },
     "weather": {
       "icon": "partly-cloudy-night",
       "temperature": 56

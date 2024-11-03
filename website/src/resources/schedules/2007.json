@@ -78,9 +78,9 @@
         "neutral": "0-0"
       },
       "away": {
-        "overall": "0-0",
+        "overall": "1-0",
         "home": "0-0",
-        "away": "0-0",
+        "away": "1-0",
         "neutral": "0-0"
       }
     }
@@ -152,11 +152,6 @@
     "time": "6:00 PM",
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 14
-      }
-    },
     "weather": {
       "icon": "clear-night",
       "temperature": 72
@@ -173,6 +168,12 @@
         "home": "0-1",
         "away": "0-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 14,
+        "coaches": 15
       }
     }
   },
@@ -518,6 +519,11 @@
         "away": "1-3",
         "neutral": "0-0"
       }
+    },
+    "rankings": {
+      "home": {
+        "coaches": 25
+      }
     }
   },
   {
@@ -587,11 +593,6 @@
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
     "weather": {
       "icon": "cloudy",
       "temperature": 57
@@ -608,6 +609,12 @@
         "home": "5-0",
         "away": "2-0",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 4,
+        "coaches": 4
       }
     }
   },
@@ -678,12 +685,6 @@
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 13,
-        "bcs": 14
-      }
-    },
     "weather": {
       "icon": "clear-day",
       "temperature": 69
@@ -700,6 +701,12 @@
         "home": "3-1",
         "away": "3-0",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 13,
+        "coaches": 9
       }
     }
   },
