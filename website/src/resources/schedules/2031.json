@@ -27,7 +27,7 @@
     "location": {
       "city": "Bloomington",
       "state": "IN",
-      "stadium": "Indiana University Memorial Stadium",
+      "stadium": "Memorial Stadium",
       "coordinates": [39.18084, -86.5257]
     },
     "opponentId": "IND"
@@ -82,7 +82,7 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field",
+      "stadium": "Acrisure Stadium",
       "coordinates": [40.445773, -80.014982]
     },
     "opponentId": "PITT"
@@ -97,5 +97,16 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Durham",
+      "state": "NC",
+      "stadium": "Kenan Memorial Stadium",
+      "coordinates": [35.906851, -79.048108]
+    },
+    "opponentId": "UNC"
   }
 ]

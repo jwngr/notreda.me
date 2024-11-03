@@ -11,6 +11,28 @@
     "opponentId": "PUR"
   },
   {
+    "isHomeGame": false,
+    "date": "09/18/2027",
+    "location": {
+      "city": "East Lansing",
+      "state": "MI",
+      "stadium": "Spartan Stadium",
+      "coordinates": [42.727122, -84.486078]
+    },
+    "opponentId": "MSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "10/02/2027",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "GT"
+  },
+  {
     "isHomeGame": true,
     "date": "11/06/2027",
     "location": {
@@ -22,19 +44,8 @@
     "opponentId": "VT"
   },
   {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "GT"
-  },
-  {
     "isHomeGame": false,
-    "date": "TBD",
+    "date": "11/13/2027",
     "location": {
       "city": "Clemson",
       "state": "SC",
@@ -44,41 +55,8 @@
     "opponentId": "CLEM"
   },
   {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Durham",
-      "state": "NC",
-      "stadium": "Wallace Wade Stadium",
-      "coordinates": [35.995208, -78.941782]
-    },
-    "opponentId": "DUKE"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "East Lansing",
-      "state": "MI",
-      "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
-    },
-    "opponentId": "MSU"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Winston-Salem",
-      "state": "NC",
-      "stadium": "BB&T Field",
-      "coordinates": [36.13015, -80.254258]
-    },
-    "opponentId": "WAKE"
-  },
-  {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "11/20/2027",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -86,5 +64,16 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": false,
+    "date": "TBD",
+    "location": {
+      "city": "Winston-Salem",
+      "state": "NC",
+      "stadium": "Allegacy Stadium",
+      "coordinates": [36.13015, -80.254258]
+    },
+    "opponentId": "WAKE"
   }
 ]

@@ -34,6 +34,17 @@
   },
   {
     "isHomeGame": true,
+    "date": "10/04/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "BOIS"
+  },
+  {
+    "isHomeGame": true,
     "date": "10/18/2025",
     "location": {
       "city": "Notre Dame",
@@ -104,7 +115,7 @@
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
-      "stadium": "Heinz Field",
+      "stadium": "Acrisure Stadium",
       "coordinates": [40.445773, -80.014982]
     },
     "opponentId": "PITT"

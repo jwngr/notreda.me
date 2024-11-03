@@ -33,6 +33,17 @@
     "opponentId": "NCST"
   },
   {
+    "isHomeGame": true,
+    "date": "11/03/2029",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "GT"
+  },
+  {
     "isHomeGame": false,
     "date": "11/10/2029",
     "location": {
@@ -52,17 +63,6 @@
       "stadium": "Notre Dame Stadium",
       "coordinates": [41.698399, -86.233917]
     },
-    "opponentId": "GT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WAKE"
   },
   {
@@ -71,7 +71,7 @@
     "location": {
       "city": "Syracuse",
       "state": "NY",
-      "stadium": "Carrier Dome",
+      "stadium": "JMA Wireless Dome",
       "coordinates": [43.036062, -76.136434]
     },
     "opponentId": "SYR"
