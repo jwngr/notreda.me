@@ -8,3 +8,7 @@ updates:
       - "/scripts"
     schedule:
       interval: "monthly"
+    ignore:
+      # Ignore packages which are very outdated and need to be updated manually.
+      - dependency-name: "puppeteer"
+      - dependency-name: "rc-slider"

@@ -1,7 +1,11 @@
-name: Run Frontend CI on push
-on: [push]
+name: Run website CI on push
+on:
+  push:
+    paths:
+      - 'website/**'
+      - '.prettierrc'
 jobs:
-  frontend-ci:
+  website-ci-push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
