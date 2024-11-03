@@ -1,4 +1,4 @@
-name: Deploy frontend preview on PR
+name: Preview staging website on PR
 on:
   pull_request:
     paths:
@@ -11,7 +11,7 @@ permissions:
   contents: read
   pull-requests: write
 jobs:
-  build_and_preview:
+  deploy_functions_stag:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
     steps:

@@ -1,11 +1,11 @@
-name: Run Scripts CI on push
+name: Run website CI on push
 on:
   push:
     paths:
-      - 'scripts/**'
+      - 'website/**'
       - '.prettierrc'
 jobs:
-  scripts-ci:
+  website-ci-push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -16,11 +16,10 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install
-        working-directory: scripts
+        working-directory: website
       - name: Lint
         run: npm run lint
-        working-directory: scripts
-        env:
-          OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
-          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
-          IS_SENTRY_ENABLED: ${{ secrets.IS_SENTRY_ENABLED }}
+        working-directory: website
+      - name: Build
+        run: npm run build
+        working-directory: website
