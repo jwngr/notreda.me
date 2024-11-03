@@ -1,5 +1,9 @@
 name: Run Scripts CI on push
-on: [push]
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.prettierrc'
 jobs:
   scripts-ci:
     runs-on: ubuntu-latest
