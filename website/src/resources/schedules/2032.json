@@ -68,7 +68,12 @@
   {
     "isHomeGame": false,
     "date": "TBD",
-    "location": "TBD",
+    "location": {
+      "city": "Annapolis",
+      "state": "MD",
+      "stadium": "Navy-Marine Corps Memorial Stadium",
+      "coordinates": [38.985, -76.507]
+    },
     "opponentId": "NAVY"
   }
 ]

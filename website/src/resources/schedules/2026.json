@@ -12,6 +12,17 @@
     "opponentId": "WIS"
   },
   {
+    "isHomeGame": true,
+    "date": "09/19/2026",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MSU"
+  },
+  {
     "isHomeGame": false,
     "date": "09/26/2026",
     "location": {
@@ -45,26 +56,15 @@
     "opponentId": "UVA"
   },
   {
-    "isHomeGame": true,
-    "date": "TBD",
+    "isHomeGame": false,
+    "date": "10/31/2026",
     "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
+      "city": "Annapolis",
+      "state": "MD",
+      "stadium": "Navy-Marine Corps Memorial Stadium",
+      "coordinates": [38.985, -76.507]
     },
-    "opponentId": "LOU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "MSU"
+    "opponentId": "NAVY"
   },
   {
     "isHomeGame": true,
@@ -89,10 +89,15 @@
     "opponentId": "FSU"
   },
   {
-    "isHomeGame": false,
+    "isHomeGame": true,
     "date": "TBD",
-    "location": "TBD",
-    "opponentId": "NAVY"
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "MIAMI"
   },
   {
     "isHomeGame": false,

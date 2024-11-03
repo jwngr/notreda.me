@@ -1,5 +1,16 @@
 [
   {
+    "isHomeGame": false,
+    "date": "09/26/2037",
+    "location": {
+      "city": "Clemson",
+      "state": "SC",
+      "stadium": "Clemson Memorial Stadium",
+      "coordinates": [34.678643, -82.84322]
+    },
+    "opponentId": "CLEM"
+  },
+  {
     "isHomeGame": true,
     "date": "10/03/2037",
     "location": {
@@ -25,20 +36,9 @@
     "isHomeGame": false,
     "date": "TBD",
     "location": {
-      "city": "Clemson",
-      "state": "SC",
-      "stadium": "Clemson Memorial Stadium",
-      "coordinates": [34.678643, -82.84322]
-    },
-    "opponentId": "CLEM"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
       "city": "Syracuse",
       "state": "NY",
-      "stadium": "Carrier Dome",
+      "stadium": "JMA Wireless Dome",
       "coordinates": [43.036062, -76.136434]
     },
     "opponentId": "SYR"
@@ -49,7 +49,7 @@
     "location": {
       "city": "Winston-Salem",
       "state": "NC",
-      "stadium": "BB&T Field",
+      "stadium": "Allegacy Stadium",
       "coordinates": [36.13015, -80.254258]
     },
     "opponentId": "WAKE"

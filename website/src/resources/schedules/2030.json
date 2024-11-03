@@ -27,7 +27,7 @@
     "location": {
       "city": "Louisville",
       "state": "KY",
-      "stadium": "Cardinal Stadium",
+      "stadium": "L&N Stadium",
       "coordinates": [38.206123, -85.759065]
     },
     "opponentId": "LOU"
@@ -79,7 +79,12 @@
   {
     "isHomeGame": false,
     "date": "TBD",
-    "location": "TBD",
+    "location": {
+      "city": "Annapolis",
+      "state": "MD",
+      "stadium": "Navy-Marine Corps Memorial Stadium",
+      "coordinates": [38.985, -76.507]
+    },
     "opponentId": "NAVY"
   }
 ]
