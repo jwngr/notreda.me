@@ -9,7 +9,7 @@ on:
       - '.prettierrc'
       - 'firebase.json'
 jobs:
-  deploy_functions_prod:
+  deploy_hosting_prod:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
