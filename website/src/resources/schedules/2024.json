@@ -909,16 +909,16 @@
     "highlightsYouTubeVideoId": "W8TAmjiZR-0",
     "records": {
       "home": {
-        "overall": "9-1",
-        "home": "5-0",
-        "away": "4-0",
-        "neutral": "0-1"
-      },
-      "away": {
         "overall": "10-1",
         "home": "5-1",
         "away": "2-0",
         "neutral": "3-0"
+      },
+      "away": {
+        "overall": "9-1",
+        "home": "5-0",
+        "away": "4-0",
+        "neutral": "0-1"
       }
     },
     "headCoach": "Marcus Freeman",
@@ -974,13 +974,13 @@
       "away": [0, 7, 0, 7],
       "home": [14, 14, 14, 7]
     },
-    "result": "L",
+    "result": "W",
     "rankings": {
-      "away": {
+      "home": {
         "ap": 6,
         "coaches": 6
       },
-      "home": {
+      "away": {
         "ap": 18,
         "coaches": 17
       }
