@@ -131,7 +131,7 @@
       }
     },
     {
-      "date": "2024-09-02",
+      "date": "2024-09-03",
       "teams": {
         "Georgia": {
           "record": "1-0",
@@ -261,7 +261,7 @@
       }
     },
     {
-      "date": "2024-09-07",
+      "date": "2024-09-08",
       "teams": {
         "Georgia": {
           "record": "2-0",
@@ -391,7 +391,7 @@
       }
     },
     {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "teams": {
         "Texas": {
           "record": "3-0",
@@ -521,7 +521,7 @@
       }
     },
     {
-      "date": "2024-09-21",
+      "date": "2024-09-22",
       "teams": {
         "Texas": {
           "record": "4-0",
@@ -651,7 +651,7 @@
       }
     },
     {
-      "date": "2024-09-28",
+      "date": "2024-09-29",
       "teams": {
         "Alabama": {
           "record": "4-0",
@@ -781,7 +781,7 @@
       }
     },
     {
-      "date": "2024-10-05",
+      "date": "2024-10-06",
       "teams": {
         "Texas": {
           "record": "5-0",
@@ -911,7 +911,7 @@
       }
     },
     {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "teams": {
         "Texas": {
           "record": "6-0",
@@ -1041,7 +1041,7 @@
       }
     },
     {
-      "date": "2024-10-19",
+      "date": "2024-10-20",
       "teams": {
         "Oregon": {
           "record": "7-0",
@@ -1171,7 +1171,7 @@
       }
     },
     {
-      "date": "2024-10-26",
+      "date": "2024-10-27",
       "teams": {
         "Oregon": {
           "record": "8-0",
@@ -1301,7 +1301,7 @@
       }
     },
     {
-      "date": "2024-11-02",
+      "date": "2024-11-03",
       "teams": {
         "Oregon": {
           "record": "9-0",
@@ -1431,7 +1431,7 @@
       }
     },
     {
-      "date": "2024-11-09",
+      "date": "2024-11-10",
       "teams": {
         "Oregon": {
           "record": "10-0",
@@ -1561,7 +1561,7 @@
       }
     },
     {
-      "date": "2024-11-16",
+      "date": "2024-11-17",
       "teams": {
         "Oregon": {
           "record": "11-0",
@@ -1691,7 +1691,7 @@
       }
     },
     {
-      "date": "2024-11-23",
+      "date": "2024-11-24",
       "teams": {
         "Oregon": {
           "record": "11-0",
@@ -1821,8 +1821,134 @@
       }
     },
     {
-      "date": "2024-11-30",
-      "teams": {}
+      "date": "2024-12-01",
+      "teams": {
+        "Oregon": {
+          "record": "12-0",
+          "ranking": 1,
+          "previousRanking": 1
+        },
+        "Texas": {
+          "record": "11-1",
+          "ranking": 2,
+          "previousRanking": 3
+        },
+        "Penn State": {
+          "record": "11-1",
+          "ranking": 3,
+          "previousRanking": 4
+        },
+        "Notre Dame": {
+          "record": "11-1",
+          "ranking": 4,
+          "previousRanking": 5
+        },
+        "Georgia": {
+          "record": "10-2",
+          "ranking": 5,
+          "previousRanking": 6
+        },
+        "Tennessee": {
+          "record": "10-2",
+          "ranking": 6,
+          "previousRanking": 7
+        },
+        "Ohio State": {
+          "record": "10-2",
+          "ranking": 7,
+          "previousRanking": 2
+        },
+        "Southern Methodist": {
+          "record": "11-1",
+          "ranking": 8,
+          "previousRanking": 9
+        },
+        "Indiana": {
+          "record": "11-1",
+          "ranking": 9,
+          "previousRanking": 10
+        },
+        "Boise State": {
+          "record": "11-1",
+          "ranking": 10,
+          "previousRanking": 11
+        },
+        "Alabama": {
+          "record": "9-3",
+          "ranking": 11,
+          "previousRanking": 13
+        },
+        "Arizona State": {
+          "record": "10-2",
+          "ranking": 12,
+          "previousRanking": 14
+        },
+        "South Carolina": {
+          "record": "9-3",
+          "ranking": 13,
+          "previousRanking": 16
+        },
+        "Miami": {
+          "record": "10-2",
+          "ranking": 14,
+          "previousRanking": 8
+        },
+        "Ole Miss": {
+          "record": "9-3",
+          "ranking": 15,
+          "previousRanking": 15
+        },
+        "Iowa State": {
+          "record": "10-2",
+          "ranking": 16,
+          "previousRanking": 17
+        },
+        "BYU": {
+          "record": "10-2",
+          "ranking": 17,
+          "previousRanking": 19
+        },
+        "Clemson": {
+          "record": "9-3",
+          "ranking": 18,
+          "previousRanking": 12
+        },
+        "UNLV": {
+          "record": "10-2",
+          "ranking": 19,
+          "previousRanking": 21
+        },
+        "Colorado": {
+          "record": "9-3",
+          "ranking": 20,
+          "previousRanking": 23
+        },
+        "Illinois": {
+          "record": "9-3",
+          "ranking": 21,
+          "previousRanking": 22
+        },
+        "Missouri": {
+          "record": "9-3",
+          "ranking": 22,
+          "previousRanking": 24
+        },
+        "Syracuse": {
+          "record": "9-3",
+          "ranking": 23,
+          "previousRanking": "NR"
+        },
+        "Army": {
+          "record": "10-1",
+          "ranking": 24,
+          "previousRanking": 25
+        },
+        "Memphis": {
+          "record": "10-2",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
     }
   ],
   "coaches": [
@@ -1957,7 +2083,7 @@
       }
     },
     {
-      "date": "2024-09-02",
+      "date": "2024-09-03",
       "teams": {
         "Georgia": {
           "record": "1-0",
@@ -2087,7 +2213,7 @@
       }
     },
     {
-      "date": "2024-09-07",
+      "date": "2024-09-08",
       "teams": {
         "Georgia": {
           "record": "2-0",
@@ -2217,7 +2343,7 @@
       }
     },
     {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "teams": {
         "Georgia": {
           "record": "3-0",
@@ -2347,7 +2473,7 @@
       }
     },
     {
-      "date": "2024-09-21",
+      "date": "2024-09-22",
       "teams": {
         "Georgia": {
           "record": "3-0",
@@ -2477,7 +2603,7 @@
       }
     },
     {
-      "date": "2024-09-28",
+      "date": "2024-09-29",
       "teams": {
         "Texas": {
           "record": "5-0",
@@ -2607,7 +2733,7 @@
       }
     },
     {
-      "date": "2024-10-05",
+      "date": "2024-10-06",
       "teams": {
         "Texas": {
           "record": "5-0",
@@ -2737,7 +2863,7 @@
       }
     },
     {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "teams": {
         "Texas": {
           "record": "6-0",
@@ -2867,7 +2993,7 @@
       }
     },
     {
-      "date": "2024-10-19",
+      "date": "2024-10-20",
       "teams": {
         "Oregon": {
           "record": "7-0",
@@ -2997,7 +3123,7 @@
       }
     },
     {
-      "date": "2024-10-26",
+      "date": "2024-10-27",
       "teams": {
         "Oregon": {
           "record": "8-0",
@@ -3127,7 +3253,7 @@
       }
     },
     {
-      "date": "2024-11-02",
+      "date": "2024-11-03",
       "teams": {
         "Oregon": {
           "record": "9-0",
@@ -3257,7 +3383,7 @@
       }
     },
     {
-      "date": "2024-11-09",
+      "date": "2024-11-10",
       "teams": {
         "Oregon": {
           "record": "10-0",
@@ -3387,7 +3513,7 @@
       }
     },
     {
-      "date": "2024-11-16",
+      "date": "2024-11-17",
       "teams": {
         "Oregon": {
           "record": "11-0",
@@ -3517,7 +3643,7 @@
       }
     },
     {
-      "date": "2024-11-23",
+      "date": "2024-11-24",
       "teams": {
         "Oregon": {
           "record": "11-0",
@@ -3647,8 +3773,134 @@
       }
     },
     {
-      "date": "2024-11-30",
-      "teams": {}
+      "date": "2024-12-01",
+      "teams": {
+        "Oregon": {
+          "record": "12-0",
+          "ranking": 1,
+          "previousRanking": 1
+        },
+        "Texas": {
+          "record": "11-1",
+          "ranking": 2,
+          "previousRanking": 3
+        },
+        "Penn State": {
+          "record": "11-1",
+          "ranking": 3,
+          "previousRanking": 4
+        },
+        "Notre Dame": {
+          "record": "11-1",
+          "ranking": 4,
+          "previousRanking": 5
+        },
+        "Georgia": {
+          "record": "10-2",
+          "ranking": 5,
+          "previousRanking": 6
+        },
+        "Tennessee": {
+          "record": "10-2",
+          "ranking": 6,
+          "previousRanking": 8
+        },
+        "Southern Methodist": {
+          "record": "11-1",
+          "ranking": 7,
+          "previousRanking": 9
+        },
+        "Ohio State": {
+          "record": "10-2",
+          "ranking": 8,
+          "previousRanking": 2
+        },
+        "Indiana": {
+          "record": "11-1",
+          "ranking": 9,
+          "previousRanking": 10
+        },
+        "Boise State": {
+          "record": "11-1",
+          "ranking": 10,
+          "previousRanking": 11
+        },
+        "Alabama": {
+          "record": "9-3",
+          "ranking": 11,
+          "previousRanking": 13
+        },
+        "South Carolina": {
+          "record": "9-3",
+          "ranking": 12,
+          "previousRanking": 14
+        },
+        "Arizona State": {
+          "record": "10-2",
+          "ranking": 13,
+          "previousRanking": 15
+        },
+        "Miami": {
+          "record": "10-2",
+          "ranking": 14,
+          "previousRanking": 7
+        },
+        "Ole Miss": {
+          "record": "9-3",
+          "ranking": 15,
+          "previousRanking": 16
+        },
+        "Iowa State": {
+          "record": "10-2",
+          "ranking": 16,
+          "previousRanking": 17
+        },
+        "Clemson": {
+          "record": "9-3",
+          "ranking": 17,
+          "previousRanking": 12
+        },
+        "BYU": {
+          "record": "10-2",
+          "ranking": 18,
+          "previousRanking": 20
+        },
+        "UNLV": {
+          "record": "10-2",
+          "ranking": 19,
+          "previousRanking": 21
+        },
+        "Missouri": {
+          "record": "9-3",
+          "ranking": 20,
+          "previousRanking": 24
+        },
+        "Illinois": {
+          "record": "9-3",
+          "ranking": 21,
+          "previousRanking": 25
+        },
+        "Colorado": {
+          "record": "9-3",
+          "ranking": 22,
+          "previousRanking": "NR"
+        },
+        "Army": {
+          "record": "10-1",
+          "ranking": 23,
+          "previousRanking": 22
+        },
+        "Memphis": {
+          "record": "10-2",
+          "ranking": 24,
+          "previousRanking": 23
+        },
+        "Syracuse": {
+          "record": "9-3",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
     }
   ],
   "cfbPlayoff": []

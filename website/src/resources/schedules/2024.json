@@ -174,11 +174,8 @@
     "result": "L",
     "rankings": {
       "home": {
-        "ap": 18,
-        "coaches": 19
-      },
-      "away": {
-        "ap": 25
+        "ap": 5,
+        "coaches": 7
       }
     }
   },
@@ -265,8 +262,8 @@
     "result": "W",
     "rankings": {
       "away": {
-        "ap": 17,
-        "coaches": 18
+        "ap": 18,
+        "coaches": 19
       }
     }
   },
@@ -353,8 +350,8 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 16,
-        "coaches": 14
+        "ap": 17,
+        "coaches": 18
       }
     }
   },
@@ -441,12 +438,12 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 14,
-        "coaches": 13
+        "ap": 16,
+        "coaches": 14
       },
       "away": {
-        "ap": 22,
-        "coaches": 22
+        "ap": 15,
+        "coaches": 17
       }
     }
   },
@@ -533,8 +530,8 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 12,
-        "coaches": 11
+        "ap": 11,
+        "coaches": 12
       }
     }
   },
@@ -711,8 +708,12 @@
     "result": "W",
     "rankings": {
       "away": {
-        "ap": 8,
-        "coaches": 9
+        "ap": 12,
+        "coaches": 11
+      },
+      "home": {
+        "ap": 24,
+        "coaches": 24
       }
     }
   },
@@ -887,8 +888,8 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 6,
-        "coaches": 6
+        "ap": 8,
+        "coaches": 7
       }
     }
   },
@@ -977,12 +978,12 @@
     "result": "W",
     "rankings": {
       "home": {
-        "ap": 5,
-        "coaches": 5
+        "ap": 6,
+        "coaches": 6
       },
       "away": {
-        "ap": 25,
-        "coaches": 22
+        "ap": 18,
+        "coaches": 17
       }
     }
   },
@@ -1021,15 +1022,15 @@
         "thirdDownConversions": 3,
         "fourthDownAttempts": 3,
         "fourthDownConversions": 3,
-        "totalYards": 436,
+        "totalYards": 438,
         "passYards": 178,
         "passCompletions": 18,
         "passAttempts": 23,
         "yardsPerPass": 7.7,
         "interceptionsThrown": 1,
-        "rushYards": 258,
-        "rushAttempts": 38,
-        "yardsPerRush": 6.8,
+        "rushYards": 260,
+        "rushAttempts": 37,
+        "yardsPerRush": 7,
         "penalties": 3,
         "penaltyYards": 44,
         "possession": "29:45",
@@ -1066,6 +1067,12 @@
       "away": [7, 7, 21, 14],
       "home": [0, 14, 7, 14]
     },
-    "result": "W"
+    "result": "W",
+    "rankings": {
+      "away": {
+        "ap": 5,
+        "coaches": 5
+      }
+    }
   }
 ]
