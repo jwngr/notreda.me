@@ -951,15 +951,15 @@
         "thirdDownConversions": 3,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 0,
-        "totalYards": 462,
+        "totalYards": 464,
         "passYards": 189,
         "passCompletions": 14,
         "passAttempts": 18,
         "yardsPerPass": 10.5,
         "interceptionsThrown": 0,
-        "rushYards": 273,
-        "rushAttempts": 29,
-        "yardsPerRush": 9.4,
+        "rushYards": 275,
+        "rushAttempts": 28,
+        "yardsPerRush": 9.8,
         "penalties": 5,
         "penaltyYards": 44,
         "possession": "20:11",
@@ -1022,15 +1022,15 @@
         "thirdDownConversions": 3,
         "fourthDownAttempts": 3,
         "fourthDownConversions": 3,
-        "totalYards": 438,
+        "totalYards": 436,
         "passYards": 178,
         "passCompletions": 18,
         "passAttempts": 23,
         "yardsPerPass": 7.7,
         "interceptionsThrown": 1,
-        "rushYards": 260,
-        "rushAttempts": 37,
-        "yardsPerRush": 7,
+        "rushYards": 258,
+        "rushAttempts": 38,
+        "yardsPerRush": 6.8,
         "penalties": 3,
         "penaltyYards": 44,
         "possession": "29:45",
@@ -1072,6 +1072,46 @@
       "away": {
         "ap": 5,
         "coaches": 5
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "isNeutralSiteGame": true,
+    "espnGameId": 401677179,
+    "nickname": "College Football Playoff First Round Game",
+    "fullDate": "Sat Dec 20 2024 18:00:00 GMT-0700",
+    "coverage": "ABC / ESPN",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "IND",
+    "records": {
+      "home": {
+        "overall": "11-1",
+        "home": "5-1",
+        "away": "3-0",
+        "neutral": "3-0"
+      },
+      "away": {
+        "overall": "11-1",
+        "home": "8-0",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "away": {
+        "ap": 9,
+        "coaches": 9
       }
     }
   }
