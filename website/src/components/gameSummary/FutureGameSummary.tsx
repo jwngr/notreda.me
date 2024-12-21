@@ -75,20 +75,12 @@ const TeamDetailsWrapper = styled(FlexColumn)<TeamDetailsWrapperProps>`
 `;
 
 const TeamName = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
-
-  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    font-size: 18px;
-  }
 `;
 
 const TeamNickname = styled.p`
-  font-size: 20px;
-
-  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    font-size: 24px;
-  }
+  font-size: 22px;
 `;
 
 interface TeamImageProps {
@@ -114,22 +106,14 @@ const TeamImage = styled(TeamLogo)<TeamImageProps>`
 `;
 
 const TeamRanking = styled.span`
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 4px;
   color: ${({theme}) => theme.colors.gray};
-
-  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    font-size: 16px;
-  }
 `;
 
 const TeamRecord = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: ${({theme}) => theme.colors.gray};
-
-  @media (max-width: 600px), (min-width: 950px) and (max-width: 1120px) {
-    font-size: 16px;
-  }
 `;
 
 const AtOrVersus = styled.p`
