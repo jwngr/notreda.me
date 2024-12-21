@@ -895,8 +895,8 @@
   },
   {
     "isHomeGame": true,
-    "isShamrockSeries": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "coverage": "NBC",
     "fullDate": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
@@ -1078,7 +1078,6 @@
   {
     "isHomeGame": true,
     "isBowlGame": true,
-    "isNeutralSiteGame": true,
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
     "fullDate": "Sat Dec 20 2024 18:00:00 GMT-0700",
@@ -1102,6 +1101,46 @@
         "home": "8-0",
         "away": "3-1",
         "neutral": "0-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "away": {
+        "ap": 9,
+        "coaches": 9
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "isNeutralSiteGame": true,
+    "espnGameId": 401677184,
+    "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
+    "fullDate": "Wed Jan 01 2025 18:45:00 GMT-0700",
+    "coverage": "ESPN",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA",
+      "stadium": "Louisiana Superdome",
+      "coordinates": [29.950833, -90.081111]
+    },
+    "opponentId": "UGA",
+    "records": {
+      "home": {
+        "overall": "11-2",
+        "home": "8-0",
+        "away": "2-2",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "11-1",
+        "home": "5-1",
+        "away": "3-0",
+        "neutral": "3-0"
       }
     },
     "rankings": {
