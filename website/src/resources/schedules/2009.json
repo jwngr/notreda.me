@@ -623,6 +623,8 @@
   {
     "result": "W",
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "10/31/2009",
     "location": {
       "city": "San Antonio",
@@ -631,7 +633,6 @@
       "coordinates": [29.416815, -98.478932]
     },
     "opponentId": "WSU",
-    "isShamrockSeries": true,
     "score": {
       "away": 14,
       "home": 40

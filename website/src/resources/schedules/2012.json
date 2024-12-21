@@ -374,6 +374,8 @@
     "result": "W",
     "isVacatedWin": true,
     "isHomeGame": true,
+    "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "10/06/2012",
     "location": {
       "city": "Chicago",
@@ -382,7 +384,6 @@
       "coordinates": [41.862105, -87.616721]
     },
     "opponentId": "MIAMI",
-    "isShamrockSeries": true,
     "score": {
       "away": 3,
       "home": 41

@@ -895,8 +895,8 @@
   },
   {
     "isHomeGame": true,
-    "isShamrockSeries": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "coverage": "NBC",
     "fullDate": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
@@ -1078,7 +1078,6 @@
   {
     "isHomeGame": true,
     "isBowlGame": true,
-    "isNeutralSiteGame": true,
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
     "fullDate": "Sat Dec 20 2024 18:00:00 GMT-0700",
@@ -1104,6 +1103,60 @@
         "neutral": "0-0"
       }
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 278,
+        "passYards": 215,
+        "passCompletions": 20,
+        "passAttempts": 34,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 1,
+        "rushYards": 63,
+        "rushAttempts": 27,
+        "yardsPerRush": 2.3,
+        "penalties": 5,
+        "penaltyYards": 46,
+        "possession": "24:19",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 394,
+        "passYards": 201,
+        "passCompletions": 23,
+        "passAttempts": 32,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 1,
+        "rushYards": 193,
+        "rushAttempts": 35,
+        "yardsPerRush": 5.5,
+        "penalties": 6,
+        "penaltyYards": 35,
+        "possession": "35:41",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 27,
+      "away": 17
+    },
+    "linescore": {
+      "away": [0, 3, 0, 14],
+      "home": [7, 10, 3, 7]
+    },
+    "result": "W",
     "rankings": {
       "home": {
         "ap": 3,
@@ -1112,6 +1165,46 @@
       "away": {
         "ap": 9,
         "coaches": 9
+      }
+    }
+  },
+  {
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "isNeutralSiteGame": true,
+    "espnGameId": 401677184,
+    "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
+    "fullDate": "Wed Jan 01 2025 18:45:00 GMT-0700",
+    "coverage": "ESPN",
+    "location": {
+      "city": "New Orleans",
+      "state": "LA",
+      "stadium": "Louisiana Superdome",
+      "coordinates": [29.950833, -90.081111]
+    },
+    "opponentId": "UGA",
+    "records": {
+      "home": {
+        "overall": "11-2",
+        "home": "6-0",
+        "away": "2-2",
+        "neutral": "3-0"
+      },
+      "away": {
+        "overall": "11-1",
+        "home": "5-1",
+        "away": "3-0",
+        "neutral": "3-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "home": {
+        "ap": 2,
+        "coaches": 2
       }
     }
   }
