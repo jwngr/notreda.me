@@ -1107,9 +1107,9 @@
     "headCoach": "Marcus Freeman",
     "stats": {
       "away": {
-        "firstDowns": 16,
-        "thirdDownAttempts": 13,
-        "thirdDownConversions": 5,
+        "firstDowns": 17,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 4,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 1,
         "totalYards": 278,
@@ -1123,9 +1123,9 @@
         "yardsPerRush": 2.3,
         "penalties": 5,
         "penaltyYards": 46,
-        "possession": "24:19",
+        "possession": "24:17",
         "fumblesLost": 0,
-        "fumbles": 0
+        "fumbles": 1
       },
       "home": {
         "firstDowns": 20,
@@ -1144,7 +1144,7 @@
         "yardsPerRush": 5.5,
         "penalties": 6,
         "penaltyYards": 35,
-        "possession": "35:41",
+        "possession": "35:43",
         "fumblesLost": 0,
         "fumbles": 1
       }
