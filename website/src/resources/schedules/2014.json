@@ -185,6 +185,7 @@
     "result": "W",
     "isHomeGame": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "09/13/2014",
     "time": "7:30 PM",
     "coverage": "NBC",
@@ -195,7 +196,6 @@
       "coordinates": [39.759515, -86.16259]
     },
     "opponentId": "PUR",
-    "isShamrockSeries": true,
     "score": {
       "away": 14,
       "home": 30

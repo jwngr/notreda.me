@@ -787,6 +787,7 @@
     "result": "W",
     "isHomeGame": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "11/12/2011",
     "location": {
       "city": "Landover",
@@ -795,7 +796,6 @@
       "coordinates": [38.907543, -76.864631]
     },
     "opponentId": "MD",
-    "isShamrockSeries": true,
     "score": {
       "away": 21,
       "home": 45

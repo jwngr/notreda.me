@@ -876,6 +876,7 @@
     "result": "W",
     "isHomeGame": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "11/20/2010",
     "location": {
       "city": "Bronx",
@@ -884,7 +885,6 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "ARMY",
-    "isShamrockSeries": true,
     "score": {
       "away": 3,
       "home": 27

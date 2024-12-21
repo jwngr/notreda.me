@@ -188,9 +188,8 @@ export const FutureGameSummary: React.FC<{
 
   let awayRecord: string | undefined;
   if (game.records) {
-    if (game.isBowlGame || game.isShamrockSeries || game.isNeutralSiteGame) {
-      // Only show overall record for neutral site games. Assume bowl and Shamrock Series games are
-      // played on neutral sites.
+    if (game.isNeutralSiteGame) {
+      // Only show overall record for neutral site games.
       awayRecord = game.records.away.overall;
     } else if (game.records.away.away) {
       awayRecord = `${game.records.away.overall}, ${game.records.away.away} Away`;
@@ -201,9 +200,8 @@ export const FutureGameSummary: React.FC<{
 
   let homeRecord: string | undefined;
   if (game.records) {
-    if (game.isBowlGame || game.isShamrockSeries || game.isNeutralSiteGame) {
-      // Only show overall record for neutral site games. Assume bowl and Shamrock Series games are
-      // played on neutral sites.
+    if (game.isNeutralSiteGame) {
+      // Only show overall record for neutral site games.
       homeRecord = game.records.home.overall;
     } else if (game.records.home.home) {
       homeRecord = `${game.records.home.overall}, ${game.records.home.home} Home`;

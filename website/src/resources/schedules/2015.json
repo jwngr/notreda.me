@@ -947,6 +947,7 @@
     "result": "W",
     "isHomeGame": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "11/21/2015",
     "time": "7:30 PM",
     "location": {
@@ -1001,7 +1002,6 @@
       }
     },
     "opponentId": "BC",
-    "isShamrockSeries": true,
     "score": {
       "away": 16,
       "home": 19

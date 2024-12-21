@@ -468,6 +468,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "isNeutralSiteGame": true,
+    "isShamrockSeries": true,
     "date": "10/05/2013",
     "time": "7:30 PM",
     "coverage": "NBC",
@@ -478,7 +479,6 @@
       "coordinates": [32.747176, -97.094719]
     },
     "opponentId": "ASU",
-    "isShamrockSeries": true,
     "score": {
       "away": 34,
       "home": 37
