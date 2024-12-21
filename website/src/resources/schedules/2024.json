@@ -1103,6 +1103,60 @@
         "neutral": "0-0"
       }
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 278,
+        "passYards": 215,
+        "passCompletions": 20,
+        "passAttempts": 34,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 1,
+        "rushYards": 63,
+        "rushAttempts": 27,
+        "yardsPerRush": 2.3,
+        "penalties": 5,
+        "penaltyYards": 46,
+        "possession": "24:19",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 394,
+        "passYards": 201,
+        "passCompletions": 23,
+        "passAttempts": 32,
+        "yardsPerPass": 6.3,
+        "interceptionsThrown": 1,
+        "rushYards": 193,
+        "rushAttempts": 35,
+        "yardsPerRush": 5.5,
+        "penalties": 6,
+        "penaltyYards": 35,
+        "possession": "35:41",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 27,
+      "away": 17
+    },
+    "linescore": {
+      "away": [0, 3, 0, 14],
+      "home": [7, 10, 3, 7]
+    },
+    "result": "W",
     "rankings": {
       "home": {
         "ap": 3,
@@ -1132,9 +1186,9 @@
     "records": {
       "home": {
         "overall": "11-2",
-        "home": "8-0",
+        "home": "6-0",
         "away": "2-2",
-        "neutral": "1-0"
+        "neutral": "3-0"
       },
       "away": {
         "overall": "11-1",
@@ -1144,13 +1198,13 @@
       }
     },
     "rankings": {
-      "home": {
-        "ap": 2,
-        "coaches": 2
-      },
       "away": {
         "ap": 3,
         "coaches": 3
+      },
+      "home": {
+        "ap": 2,
+        "coaches": 2
       }
     }
   }
