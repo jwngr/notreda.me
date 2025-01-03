@@ -1123,7 +1123,7 @@
         "yardsPerRush": 2.3,
         "penalties": 5,
         "penaltyYards": 46,
-        "possession": "24:17",
+        "possession": "24:20",
         "fumblesLost": 0,
         "fumbles": 1
       },
@@ -1144,7 +1144,7 @@
         "yardsPerRush": 5.5,
         "penalties": 6,
         "penaltyYards": 35,
-        "possession": "35:43",
+        "possession": "35:40",
         "fumblesLost": 0,
         "fumbles": 1
       }
@@ -1175,7 +1175,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677184,
     "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
-    "fullDate": "Wed Jan 02 2025 14:00:00 GMT-0700",
+    "fullDate": "Thu Jan 02 2025 14:00:00 GMT-0700",
     "coverage": "ESPN",
     "location": {
       "city": "New Orleans",
@@ -1184,20 +1184,75 @@
       "coordinates": [29.950833, -90.081111]
     },
     "opponentId": "UGA",
+    "highlightsYouTubeVideoId": "B78JMxYQoDM",
     "records": {
       "home": {
-        "overall": "11-2",
+        "overall": "11-3",
         "home": "6-0",
         "away": "2-2",
-        "neutral": "3-0"
+        "neutral": "3-1"
       },
       "away": {
-        "overall": "12-1",
+        "overall": "13-1",
         "home": "6-1",
         "away": "3-0",
-        "neutral": "3-0"
+        "neutral": "4-0"
       }
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 14,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 244,
+        "passYards": 90,
+        "passCompletions": 15,
+        "passAttempts": 24,
+        "yardsPerPass": 3.8,
+        "interceptionsThrown": 0,
+        "rushYards": 154,
+        "rushAttempts": 37,
+        "yardsPerRush": 4.2,
+        "penalties": 10,
+        "penaltyYards": 75,
+        "possession": "31:47",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 2,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 0,
+        "totalYards": 296,
+        "passYards": 234,
+        "passCompletions": 20,
+        "passAttempts": 32,
+        "yardsPerPass": 7.3,
+        "interceptionsThrown": 0,
+        "rushYards": 62,
+        "rushAttempts": 29,
+        "yardsPerRush": 2.1,
+        "penalties": 5,
+        "penaltyYards": 36,
+        "possession": "28:13",
+        "fumblesLost": 2,
+        "fumbles": 3
+      }
+    },
+    "score": {
+      "home": 10,
+      "away": 23
+    },
+    "linescore": {
+      "away": [0, 13, 7, 3],
+      "home": [0, 3, 7, 0]
+    },
+    "result": "W",
     "rankings": {
       "away": {
         "ap": 3,
@@ -1208,5 +1263,20 @@
         "coaches": 2
       }
     }
+  },
+  {
+    "isHomeGame": false,
+    "isBowlGame": true,
+    "isNeutralSiteGame": true,
+    "espnGameId": 401677189,
+    "nickname": "College Football Playoff Semifinal at the Orange Bowl",
+    "fullDate": "Thu Jan 09 2025 18:30:00 GMT-0700",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "stadium": "Orange Bowl",
+      "coordinates": [25.777936, -80.220957]
+    },
+    "opponentId": "PSU"
   }
 ]
