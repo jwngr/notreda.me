@@ -1278,6 +1278,30 @@
       "stadium": "Hard Rock Stadium",
       "coordinates": [25.777936, -80.220957]
     },
-    "opponentId": "PSU"
+    "opponentId": "PSU",
+    "records": {
+      "home": {
+        "overall": "13-2",
+        "home": "7-1",
+        "away": "5-0",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "13-1",
+        "home": "6-1",
+        "away": "3-0",
+        "neutral": "4-0"
+      }
+    },
+    "rankings": {
+      "away": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "home": {
+        "ap": 5,
+        "coaches": 5
+      }
+    }
   }
 ]
