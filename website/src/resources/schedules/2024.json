@@ -1272,6 +1272,7 @@
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
     "fullDate": "Thu Jan 09 2025 17:30:00 GMT-0700",
     "coverage": "ESPN",
+    "highlightsYouTubeVideoId": "uX_zcBD7DE0",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -1281,18 +1282,72 @@
     "opponentId": "PSU",
     "records": {
       "home": {
-        "overall": "13-2",
+        "overall": "13-3",
         "home": "7-1",
         "away": "5-0",
-        "neutral": "1-1"
+        "neutral": "1-2"
       },
       "away": {
-        "overall": "13-1",
+        "overall": "14-1",
         "home": "6-1",
         "away": "3-0",
-        "neutral": "4-0"
+        "neutral": "5-0"
       }
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 17,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 383,
+        "passYards": 267,
+        "passCompletions": 21,
+        "passAttempts": 31,
+        "yardsPerPass": 8.6,
+        "interceptionsThrown": 2,
+        "rushYards": 116,
+        "rushAttempts": 42,
+        "yardsPerRush": 2.8,
+        "penalties": 4,
+        "penaltyYards": 30,
+        "possession": "29:56",
+        "fumblesLost": 0,
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 339,
+        "passYards": 135,
+        "passCompletions": 12,
+        "passAttempts": 23,
+        "yardsPerPass": 5.9,
+        "interceptionsThrown": 1,
+        "rushYards": 204,
+        "rushAttempts": 42,
+        "yardsPerRush": 4.9,
+        "penalties": 5,
+        "penaltyYards": 44,
+        "possession": "30:04",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {
+      "home": 24,
+      "away": 27
+    },
+    "linescore": {
+      "away": [0, 3, 7, 17],
+      "home": [0, 10, 0, 14]
+    },
+    "result": "W",
     "rankings": {
       "away": {
         "ap": 3,
@@ -1301,6 +1356,47 @@
       "home": {
         "ap": 5,
         "coaches": 5
+      }
+    }
+  },
+  {
+    "isHomeGame": true,
+    "isBowlGame": true,
+    "isNeutralSiteGame": true,
+    "espnGameId": 401677192,
+    "nickname": "College Football Playoff Championship",
+    "fullDate": "Mon Jan 20 2025 17:30:00 GMT-0700",
+    "coverage": "ESPN",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stadium": "Mercedes-Benz Stadium",
+      "coordinates": [33.76, -84.4]
+    },
+    "opponentId": "OSU",
+    "headCoach": "Marcus Freeman",
+    "records": {
+      "home": {
+        "overall": "14-1",
+        "home": "6-1",
+        "away": "3-0",
+        "neutral": "5-0"
+      },
+      "away": {
+        "overall": "13-2",
+        "home": "8-1",
+        "away": "3-1",
+        "neutral": "2-0"
+      }
+    },
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "away": {
+        "ap": 6,
+        "coaches": 7
       }
     }
   }
