@@ -1302,13 +1302,13 @@
         "thirdDownConversions": 11,
         "fourthDownAttempts": 0,
         "fourthDownConversions": 0,
-        "totalYards": 383,
+        "totalYards": 384,
         "passYards": 267,
         "passCompletions": 21,
         "passAttempts": 31,
         "yardsPerPass": 8.6,
         "interceptionsThrown": 2,
-        "rushYards": 116,
+        "rushYards": 117,
         "rushAttempts": 42,
         "yardsPerRush": 2.8,
         "penalties": 4,
@@ -1366,6 +1366,7 @@
     "espnGameId": 401677192,
     "nickname": "College Football Playoff Championship",
     "fullDate": "Mon Jan 20 2025 17:30:00 GMT-0700",
+    "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
     "coverage": "ESPN",
     "location": {
       "city": "Atlanta",
@@ -1377,27 +1378,70 @@
     "headCoach": "Marcus Freeman",
     "records": {
       "home": {
-        "overall": "14-1",
+        "overall": "14-2",
         "home": "6-1",
         "away": "3-0",
-        "neutral": "5-0"
+        "neutral": "5-1"
       },
       "away": {
-        "overall": "13-2",
+        "overall": "14-2",
         "home": "8-1",
         "away": "3-1",
-        "neutral": "2-0"
+        "neutral": "3-0"
       }
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 3
-      },
+    "stats": {
       "away": {
-        "ap": 6,
-        "coaches": 7
+        "firstDowns": 22,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 9,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 445,
+        "passYards": 231,
+        "passCompletions": 17,
+        "passAttempts": 21,
+        "yardsPerPass": 11,
+        "interceptionsThrown": 0,
+        "rushYards": 214,
+        "rushAttempts": 41,
+        "yardsPerRush": 5.2,
+        "penalties": 6,
+        "penaltyYards": 58,
+        "possession": "32:25",
+        "fumblesLost": 1,
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 19,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 4,
+        "fourthDownConversions": 3,
+        "totalYards": 308,
+        "passYards": 255,
+        "passCompletions": 22,
+        "passAttempts": 32,
+        "yardsPerPass": 8,
+        "interceptionsThrown": 0,
+        "rushYards": 53,
+        "rushAttempts": 26,
+        "yardsPerRush": 2,
+        "penalties": 3,
+        "penaltyYards": 30,
+        "possession": "27:35",
+        "fumblesLost": 0,
+        "fumbles": 1
       }
-    }
+    },
+    "score": {
+      "home": 23,
+      "away": 34
+    },
+    "linescore": {
+      "away": [0, 21, 10, 3],
+      "home": [7, 0, 8, 8]
+    },
+    "result": "L"
   }
 ]
