@@ -1442,6 +1442,16 @@
       "away": [0, 21, 10, 3],
       "home": [7, 0, 8, 8]
     },
-    "result": "L"
+    "result": "L",
+    "rankings": {
+      "home": {
+        "ap": 3,
+        "coaches": 3
+      },
+      "away": {
+        "ap": 6,
+        "coaches": 7
+      }
+    }
   }
 ]
