@@ -1,11 +1,6 @@
 import {darken, lighten} from 'polished';
-import Slider from 'rc-slider';
-import React, {useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import styled from 'styled-components';
-
-import theme from '../../resources/theme.json';
-
-import 'rc-slider/assets/index.css';
 
 interface SliderWrapperProps {
   readonly $width: number;
@@ -14,42 +9,97 @@ interface SliderWrapperProps {
 
 const SliderWrapper = styled.div<SliderWrapperProps>`
   width: ${({$width}) => `${$width}px`};
+  position: relative;
+  height: 40px;
 
   @media (max-width: 600px) {
     max-width: ${({$widthSm}) => `${$widthSm}px`};
   }
+`;
 
-  .slider {
-    -webkit-appearance: none;
-    height: 15px;
-    border-radius: 5px;
-    background: ${({theme}) => darken(0.2, theme.colors.lightGray)};
-    outline: none;
-    -webkit-transition: 0.2s;
-    transition: opacity 0.2s;
-  }
+const Track = styled.div`
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: ${({theme}) => lighten(0.2, theme.colors.gray)};
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+`;
 
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: ${({theme}) => theme.colors.green};
-    cursor: pointer;
-  }
+const Range = styled.div`
+  position: absolute;
+  height: 4px;
+  background: ${({theme}) => theme.colors.green};
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+`;
 
-  .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: ${({theme}) => theme.colors.green};
-    cursor: pointer;
+interface TooltipProps {
+  readonly $visible: boolean;
+}
+
+const Tooltip = styled.div<TooltipProps>`
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: ${({theme}) => theme.colors.green};
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Inter';
+  opacity: ${({$visible}) => ($visible ? 1 : 0)};
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  white-space: nowrap;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid ${({theme}) => theme.colors.green};
   }
 `;
 
-const createSliderWithTooltip = Slider.createSliderWithTooltip;
-const Range = createSliderWithTooltip(Slider.Range);
+interface ThumbProps {
+  readonly $position: number;
+  readonly $isDragging: boolean;
+}
+
+const Thumb = styled.div<ThumbProps>`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: ${({theme}) => theme.colors.green};
+  border: 2px solid ${({theme}) => darken(0.2, theme.colors.green)};
+  position: absolute;
+  top: 50%;
+  left: ${({$position}) => `${$position}%`};
+  transform: translate(-50%, -50%) ${({$isDragging}) => ($isDragging ? 'scale(1.1)' : 'scale(1)')};
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  z-index: 1;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+`;
+
+const Mark = styled.div`
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  font-family: 'Inter';
+  font-size: 14px;
+  color: ${({theme}) => theme.colors.gray};
+`;
 
 interface SliderRangeProps {
   readonly min: number;
@@ -70,46 +120,94 @@ export const SliderRange: React.FC<SliderRangeProps> = ({
   className,
   initialValue = [min, max],
 }) => {
-  const [value, setValue] = useState<number[]>(initialValue);
+  const [values, setValues] = useState<number[]>(initialValue);
+  const [isDragging, setIsDragging] = useState<number | null>(null);
+  const [hoveredThumb, setHoveredThumb] = useState<number | null>(null);
+  const sliderRef = useRef<HTMLDivElement>(null);
 
-  const handleChange = (value: number[]) => {
-    onChange?.(value);
-    setValue(value);
-  };
+  const getPercentage = useCallback(
+    (value: number) => {
+      return ((value - min) / (max - min)) * 100;
+    },
+    [min, max]
+  );
+
+  const getValueFromPosition = useCallback(
+    (position: number) => {
+      const sliderRect = sliderRef.current?.getBoundingClientRect();
+      if (!sliderRect) return 0;
+
+      const percentage = (position - sliderRect.left) / sliderRect.width;
+      const value = Math.round(percentage * (max - min) + min);
+      return Math.max(min, Math.min(max, value));
+    },
+    [min, max]
+  );
+
+  const handleMouseDown = useCallback((index: number) => {
+    setIsDragging(index);
+  }, []);
+
+  const handleMouseMove = useCallback(
+    (event: MouseEvent) => {
+      if (isDragging === null) return;
+
+      const newValue = getValueFromPosition(event.clientX);
+      const newValues = [...values];
+      newValues[isDragging] = newValue;
+
+      if (isDragging === 0 && newValue < values[1]) {
+        setValues(newValues);
+      } else if (isDragging === 1 && newValue > values[0]) {
+        setValues(newValues);
+      }
+    },
+    [isDragging, values, getValueFromPosition]
+  );
+
+  const handleMouseUp = useCallback(() => {
+    if (isDragging !== null) {
+      onChange?.(values);
+      setIsDragging(null);
+    }
+  }, [isDragging, onChange, values]);
+
+  useEffect(() => {
+    if (isDragging !== null) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleMouseUp);
+      return () => {
+        window.removeEventListener('mousemove', handleMouseMove);
+        window.removeEventListener('mouseup', handleMouseUp);
+      };
+    }
+  }, [isDragging, handleMouseMove, handleMouseUp]);
 
   return (
-    <SliderWrapper className={className} $width={width} $widthSm={widthSm}>
+    <SliderWrapper ref={sliderRef} className={className} $width={width} $widthSm={widthSm}>
+      <Track />
       <Range
-        value={value}
-        min={min}
-        max={max}
-        marks={{
-          [min]: {
-            style: {fontFamily: 'Inter', fontSize: '14px'},
-            label: min.toString(),
-          },
-          [max]: {
-            style: {fontFamily: 'Inter', fontSize: '14px'},
-            label: max.toString(),
-          },
-        }}
-        onChange={handleChange}
-        defaultValue={[min, max]}
-        trackStyle={[{backgroundColor: theme.colors.green}]}
-        handleStyle={[
-          {backgroundColor: theme.colors.green, borderColor: darken(0.2, theme.colors.green)},
-        ]}
-        railStyle={{backgroundColor: lighten(0.2, theme.colors.gray)}}
-        dotStyle={{
-          backgroundColor: lighten(0.2, theme.colors.gray),
-          borderColor: theme.colors.gray,
-        }}
-        activeDotStyle={{
-          backgroundColor: 'red',
-          borderColor: 'red',
-          color: 'red',
+        style={{
+          left: `${getPercentage(values[0])}%`,
+          width: `${getPercentage(values[1]) - getPercentage(values[0])}%`,
         }}
       />
+      {[0, 1].map((index) => (
+        <Thumb
+          key={index}
+          $position={getPercentage(values[index])}
+          $isDragging={isDragging === index}
+          onMouseDown={() => handleMouseDown(index)}
+          onMouseEnter={() => setHoveredThumb(index)}
+          onMouseLeave={() => setHoveredThumb(null)}
+        >
+          <Tooltip $visible={isDragging === index || hoveredThumb === index}>
+            {values[index]}
+          </Tooltip>
+        </Thumb>
+      ))}
+      <Mark style={{left: '0%'}}>{min}</Mark>
+      <Mark style={{left: '100%'}}>{max}</Mark>
     </SliderWrapper>
   );
 };
