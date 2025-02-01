@@ -1,6 +1,5 @@
 import {darken, lighten} from 'polished';
 import React, {useEffect, useMemo, useState} from 'react';
-import Media from 'react-media';
 import {Link, useParams} from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -8,6 +7,7 @@ import {FlexRow} from '../components/common/Flex';
 import {Game} from '../components/Game';
 import {GameSummary} from '../components/gameSummary/GameSummary';
 import {NavMenu} from '../components/navMenu/NavMenu';
+import {useMediaQuery} from '../hooks/useMediaQuery';
 import {LATEST_SEASON} from '../lib/constants';
 import {Schedules} from '../lib/schedules';
 import {getSelectedGameIndexFromUrlParam, getSelectedSeasonFromUrlParam} from '../lib/urls';
@@ -270,6 +270,9 @@ export const FootballScheduleScreen: React.FC = () => {
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
   const [seasonSchedule, setSeasonSchedule] = useState<readonly GameInfo[] | null>(null);
 
+  const isMobile = useMediaQuery('(max-width: 700px)');
+  const isSmallScreen = useMediaQuery('(max-width: 950px)');
+
   // Get the selected season and game index from the URL.
   const {selectedSeason, selectedGameIndex} = useMemo(() => {
     const selectedSeasonInner = getSelectedSeasonFromUrlParam(params.selectedYear);
@@ -320,44 +323,30 @@ export const FootballScheduleScreen: React.FC = () => {
         <Header>
           <PreviousYearLink to={`/${previousYear}`} $isVisible={selectedSeason !== 1887}>
             <span>&#x2190;</span>
-            <Media query="(min-width: 700px)">
-              <>{previousYear}</>
-            </Media>
+            {isMobile ? null : previousYear}
           </PreviousYearLink>
 
           <HeaderTitle>{`Notre Dame Football ${selectedSeason}`}</HeaderTitle>
 
           <NextYearLink to={`/${nextYear}`} $isVisible={selectedSeason !== LATEST_SEASON}>
-            <Media query="(min-width: 700px)">
-              <>{nextYear}</>
-            </Media>
+            {isMobile ? null : nextYear}
             <span>&#x2192;</span>
           </NextYearLink>
         </Header>
 
         <ScheduleWrapper>
-          <Media query="(max-width: 950px)">
-            {(isSmallerScreen) =>
-              isSmallerScreen ? (
-                params.selectedGameIndex ? (
-                  <GameSummary
-                    selectedSeason={selectedSeason}
-                    selectedGameIndex={selectedGameIndex}
-                  />
-                ) : (
-                  <GamesWrapper>{gamesContent}</GamesWrapper>
-                )
-              ) : (
-                <>
-                  <GamesWrapper>{gamesContent}</GamesWrapper>
-                  <GameSummary
-                    selectedSeason={selectedSeason}
-                    selectedGameIndex={selectedGameIndex}
-                  />
-                </>
-              )
-            }
-          </Media>
+          {isSmallScreen ? (
+            params.selectedGameIndex ? (
+              <GameSummary selectedSeason={selectedSeason} selectedGameIndex={selectedGameIndex} />
+            ) : (
+              <GamesWrapper>{gamesContent}</GamesWrapper>
+            )
+          ) : (
+            <>
+              <GamesWrapper>{gamesContent}</GamesWrapper>
+              <GameSummary selectedSeason={selectedSeason} selectedGameIndex={selectedGameIndex} />
+            </>
+          )}
         </ScheduleWrapper>
       </ScheduleScreenWrapper>
 

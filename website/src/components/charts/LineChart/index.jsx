@@ -49,7 +49,7 @@ export class LineChart extends Component {
   getMargins = () => {
     let margins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (this.width < 600) {
-      margins = {...DEFAULT_MARGINS_SMALL, ...this.props.margins.sm};
+      margins = {...DEFAULT_MARGINS_SMALL, ...margins.sm};
     }
 
     return margins;

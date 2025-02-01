@@ -1,7 +1,7 @@
 import {format} from 'date-fns/format';
 import React from 'react';
-import Media from 'react-media';
 
+import {useMediaQuery} from '../hooks/useMediaQuery';
 import shamrockImage from '../images/shamrock.png';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
@@ -31,6 +31,8 @@ export const Game: React.FC<{
   readonly index: number;
   readonly isSelected: boolean;
 }> = ({game, season, index, isSelected}) => {
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
     lastColumnContent = (
@@ -132,17 +134,13 @@ export const Game: React.FC<{
   const opponent = Teams.getTeam(game.opponentId);
 
   const opponentNameContent = (
-    <Media query="(max-width: 768px)">
-      {(matches) =>
-        matches ? (
-          <OpponentName>{opponent.shortName || opponent.name}</OpponentName>
-        ) : (
-          <OpponentName>
-            {opponent.name.length > 20 ? opponent.shortName : opponent.name}
-          </OpponentName>
-        )
-      }
-    </Media>
+    <OpponentName>
+      {isMobile
+        ? opponent.shortName || opponent.name
+        : opponent.name.length > 20
+          ? opponent.shortName
+          : opponent.name}
+    </OpponentName>
   );
 
   let location: string;
