@@ -14,7 +14,6 @@
     "lodash": "^4.17.21",
     "polished": "^4.3.1",
     "prop-types": "^15.8.1",
-    "rc-slider": "^9.7.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
@@ -52,7 +51,7 @@
     "clean": "rm -rf dist/",
     "build": "npm run clean && tsc && vite build",
     "preview": "vite preview",
-    "update-deps": "npx npm-check-updates -u --reject rc-slider && npm install"
+    "update-deps": "npx npm-check-updates -u && npm install"
   },
   "browserslist": [
     ">0.2%",
