@@ -9,7 +9,7 @@
     "moduleResolution": "bundler",
     "isolatedModules": true,
 
-    // TODO: Remove this once I've migrated off rc-slider and styled-components.
+    // TODO: Remove this once I've migrated off styled-components.
     "skipLibCheck": true,
 
     // Miscellaneous configuration.
