@@ -1,9 +1,7 @@
 import React from 'react';
-import Media from 'react-media';
-// import {MatchupHistory} from './MatchupHistory';
-
 import styled from 'styled-components';
 
+import {useMediaQuery} from '../../hooks/useMediaQuery';
 import {Teams} from '../../lib/teams';
 import {GameInfo} from '../../models/games.models';
 import {TeamId} from '../../models/teams.models';
@@ -35,7 +33,6 @@ const TeamsWrapper = styled(FlexRow).attrs({justify: 'center'})`
       'awayTeamDetails awayTeamLogo'
       'atOrVersus atOrVersus'
       'homeTeamDetails homeTeamLogo';
-    }
   }
 `;
 
@@ -159,6 +156,10 @@ export const FutureGameSummary: React.FC<{
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
 }> = ({game, homeTeamId, awayTeamId}) => {
+  const isMobileOrTablet = useMediaQuery(
+    '(max-width: 600px), (min-width: 950px) and (max-width: 1120px)'
+  );
+
   const homeTeam = Teams.getTeam(homeTeamId);
   const awayTeam = Teams.getTeam(awayTeamId);
 
@@ -196,49 +197,47 @@ export const FutureGameSummary: React.FC<{
 
   return (
     <FutureGameWrapper>
-      <Media query="(max-width: 600px), (min-width: 950px) and (max-width: 1120px)">
-        {(matches) =>
-          matches ? (
-            <TeamsWrapper>
-              <TeamDetailsWrapper $isHomeGame={false}>
-                <TeamName>
-                  {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
-                  {awayTeam.name}
-                </TeamName>
-                <TeamNickname>{awayTeam.nickname}</TeamNickname>
-                {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
-              </TeamDetailsWrapper>
-              <TeamDetailsWrapper $isHomeGame>
-                <TeamName>
-                  {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
-                  {homeTeam.name}
-                </TeamName>
-                <TeamNickname>{homeTeam.nickname}</TeamNickname>
-                {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
-              </TeamDetailsWrapper>
-              <TeamImage teamId={awayTeamId} $isHomeGame={false} size={52} />
-              <TeamImage teamId={homeTeamId} $isHomeGame size={52} />
-              <AtOrVersus>{atOrVs}</AtOrVersus>
-            </TeamsWrapper>
-          ) : (
-            <TeamsWrapper>
-              <TeamInfo
-                teamId={awayTeamId}
-                ranking={awayApRanking ?? null}
-                record={awayRecord ?? null}
-                homeOrAway="away"
-              />
-              <AtOrVersus>{atOrVs}</AtOrVersus>
-              <TeamInfo
-                teamId={homeTeamId}
-                ranking={homeApRanking ?? null}
-                record={homeRecord ?? null}
-                homeOrAway="home"
-              />
-            </TeamsWrapper>
-          )
-        }
-      </Media>
+      <TeamsWrapper>
+        {isMobileOrTablet ? (
+          <>
+            <TeamDetailsWrapper $isHomeGame={false}>
+              <TeamName>
+                {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
+                {awayTeam.name}
+              </TeamName>
+              <TeamNickname>{awayTeam.nickname}</TeamNickname>
+              {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
+            </TeamDetailsWrapper>
+            <TeamDetailsWrapper $isHomeGame>
+              <TeamName>
+                {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
+                {homeTeam.name}
+              </TeamName>
+              <TeamNickname>{homeTeam.nickname}</TeamNickname>
+              {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
+            </TeamDetailsWrapper>
+            <TeamImage teamId={awayTeamId} $isHomeGame={false} size={52} />
+            <TeamImage teamId={homeTeamId} $isHomeGame size={52} />
+            <AtOrVersus>{atOrVs}</AtOrVersus>
+          </>
+        ) : (
+          <>
+            <TeamInfo
+              teamId={awayTeamId}
+              ranking={awayApRanking ?? null}
+              record={awayRecord ?? null}
+              homeOrAway="away"
+            />
+            <AtOrVersus>{atOrVs}</AtOrVersus>
+            <TeamInfo
+              teamId={homeTeamId}
+              ranking={homeApRanking ?? null}
+              record={homeRecord ?? null}
+              homeOrAway="home"
+            />
+          </>
+        )}
+      </TeamsWrapper>
 
       <StatsWrapper>
         <GameCoverage game={game} />

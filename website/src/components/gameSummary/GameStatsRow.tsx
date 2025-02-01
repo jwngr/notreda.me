@@ -1,7 +1,7 @@
 import React from 'react';
-import Media from 'react-media';
 import styled from 'styled-components';
 
+import {useMediaQuery} from '../../hooks/useMediaQuery';
 import {DEFAULT_TEAM_COLOR} from '../../lib/constants';
 import {Team} from '../../models/teams.models';
 import {FlexRow} from '../common/Flex';
@@ -184,23 +184,19 @@ export const GameStatsRow: React.FC<{
   // TODO: Make stat names more typesafe.
   const shortenedStatName = shortStatNames[statName] ?? statName;
 
+  // TODO: Replace this with a container query.
+  const isMiddle1 = useMediaQuery(
+    `(max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) and (min-width: ${
+      STATS_SECTION_BREAKPOINTS[2] + 1
+    }px)`
+  );
+  const isMiddle2 = useMediaQuery(`(max-width: ${STATS_SECTION_BREAKPOINTS[3]}px)`);
+
   return (
     <GameStatsRowWrapper>
-      {/* Show shortened stat names when the stat names column is in the middle. */}
-      <Media
-        queries={{
-          middle1: `(max-width: ${STATS_SECTION_BREAKPOINTS[1]}px) and (min-width: ${
-            STATS_SECTION_BREAKPOINTS[2] + 1
-          }px)`,
-          middle2: `(max-width: ${STATS_SECTION_BREAKPOINTS[3]}px)`,
-        }}
-      >
-        {(matches) => (
-          <StatName $isStatsGroupRow={isStatsGroupRow}>
-            {matches.middle1 || matches.middle2 ? shortenedStatName : statName}
-          </StatName>
-        )}
-      </Media>
+      <StatName $isStatsGroupRow={isStatsGroupRow}>
+        {isMiddle1 || isMiddle2 ? shortenedStatName : statName}
+      </StatName>
 
       <StatValue style={awayStyles}>{awayValue}</StatValue>
       <StatValue style={homeStyles}>{homeValue}</StatValue>

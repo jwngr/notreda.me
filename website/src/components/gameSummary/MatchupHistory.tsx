@@ -1,8 +1,8 @@
 import capitalize from 'lodash/capitalize';
 import React, {useEffect, useState} from 'react';
-import Media from 'react-media';
 import styled from 'styled-components';
 
+import {useMediaQuery} from '../../hooks/useMediaQuery';
 import {
   ExpandedGameInfo,
   getFilteredMatchupsAgainstTeam,
@@ -84,6 +84,7 @@ export const MatchupHistory: React.FC<{
   readonly selectedGame: GameInfo;
   readonly selectedSeason: number;
 }> = ({selectedGame, selectedSeason}) => {
+  const isMobile = useMediaQuery('(max-width: 600px)');
   const {width} = useWindowSize();
   const maxMatchupsCount = _getMaxMatchupsCountFromWindowWidth(width);
 
@@ -167,24 +168,18 @@ export const MatchupHistory: React.FC<{
             </p>
           </div>
           <div>
-            <Media query="(max-width: 600px)">
-              {(matches) => (matches ? <p>Overall</p> : <p>Overall Record</p>)}
-            </Media>
+            <p>{isMobile ? 'Overall' : 'Overall Record'}</p>
             <p>
               {recordAgainstTeam.overall.W}-{recordAgainstTeam.overall.L}-
               {recordAgainstTeam.overall.T}
             </p>
           </div>
           <div>
-            <Media query="(max-width: 600px)">
-              {(matches) =>
-                matches ? (
-                  <p>{capitalize(selectedGameHomeOrAway)}</p>
-                ) : (
-                  <p>{capitalize(selectedGameHomeOrAway)} Record</p>
-                )
-              }
-            </Media>
+            <p>
+              {isMobile
+                ? capitalize(selectedGameHomeOrAway)
+                : `${capitalize(selectedGameHomeOrAway)} Record`}
+            </p>
             <p>
               {recordAgainstTeam[selectedGameHomeOrAway].W}-
               {recordAgainstTeam[selectedGameHomeOrAway].L}-

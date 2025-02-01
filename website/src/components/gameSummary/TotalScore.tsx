@@ -1,6 +1,7 @@
-import Media from 'react-media';
+import React from 'react';
 import styled from 'styled-components';
 
+import {useMediaQuery} from '../../hooks/useMediaQuery';
 import {Teams} from '../../lib/teams';
 import {GameInfo} from '../../models/games.models';
 import {TeamId} from '../../models/teams.models';
@@ -20,7 +21,6 @@ const TotalScoreWrapper = styled(FlexRow).attrs({
     grid-template-areas:
       'awayTeamDetails awayTeamLogo awayTeamScore'
       'homeTeamDetails homeTeamLogo homeTeamScore';
-    }
   }
 `;
 
@@ -112,7 +112,7 @@ const FinalScore = styled.p`
 const TeamInfo: React.FC<{
   readonly teamId: TeamId;
   readonly ranking?: number;
-  readonly record?: string;
+  readonly record: string | null;
   readonly homeOrAway: 'home' | 'away';
 }> = ({teamId, ranking, record, homeOrAway}) => {
   const team = Teams.getTeam(teamId);
@@ -137,6 +137,9 @@ export const TotalScore: React.FC<{
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
 }> = ({game, homeTeamId, awayTeamId}) => {
+  const isMobileOrTablet = useMediaQuery(
+    '(max-width: 600px), (min-width: 950px) and (max-width: 1120px)'
+  );
   const homeTeam = Teams.getTeam(homeTeamId);
   const awayTeam = Teams.getTeam(awayTeamId);
 
@@ -145,7 +148,7 @@ export const TotalScore: React.FC<{
   const awayApRanking =
     game.rankings?.away?.bcs || game.rankings?.away?.cfbPlayoff || game.rankings?.away?.ap;
 
-  let awayRecord: string;
+  let awayRecord: string | null = null;
   if (game.records) {
     if (game.isNeutralSiteGame) {
       // Only show overall record for neutral site games.
@@ -157,7 +160,7 @@ export const TotalScore: React.FC<{
     }
   }
 
-  let homeRecord: string;
+  let homeRecord: string | null = null;
   if (game.records) {
     if (game.isNeutralSiteGame) {
       // Only show overall record for neutral site games.
@@ -170,52 +173,50 @@ export const TotalScore: React.FC<{
   }
 
   return (
-    <Media query="(max-width: 600px), (min-width: 950px) and (max-width: 1120px)">
-      {(matches) =>
-        matches ? (
-          <TotalScoreWrapper>
-            <TeamDetailsWrapper $isHomeGame={false}>
-              <TeamName>
-                {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
-                {awayTeam.name}
-              </TeamName>
-              <TeamNickname>{awayTeam.nickname}</TeamNickname>
-              {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
-            </TeamDetailsWrapper>
-            <TeamDetailsWrapper $isHomeGame>
-              <TeamName>
-                {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
-                {homeTeam.name}
-              </TeamName>
-              <TeamNickname>{homeTeam.nickname}</TeamNickname>
-              {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
-            </TeamDetailsWrapper>
-            <TeamImage $isHomeGame={false} teamId={awayTeamId} size={52} />
-            <TeamImage $isHomeGame teamId={homeTeamId} size={52} />
-            {/* TODO: Introduce `CompletedGame` type so this `?` is not required. */}
-            <Score $isHomeGame={false}>{game.score?.away}</Score>
-            <Score $isHomeGame>{game.score?.home}</Score>
-          </TotalScoreWrapper>
-        ) : (
-          <TotalScoreWrapper>
-            <TeamInfo
-              teamId={awayTeamId}
-              ranking={awayApRanking}
-              record={awayRecord}
-              homeOrAway="away"
-            />
-            <FinalScore>
-              {game.score?.away} - {game.score?.home}
-            </FinalScore>
-            <TeamInfo
-              teamId={homeTeamId}
-              ranking={homeApRanking}
-              record={homeRecord}
-              homeOrAway="home"
-            />
-          </TotalScoreWrapper>
-        )
-      }
-    </Media>
+    <TotalScoreWrapper>
+      {isMobileOrTablet ? (
+        <>
+          <TeamDetailsWrapper $isHomeGame={false}>
+            <TeamName>
+              {awayApRanking ? <TeamRanking>#{awayApRanking}</TeamRanking> : null}
+              {awayTeam.name}
+            </TeamName>
+            <TeamNickname>{awayTeam.nickname}</TeamNickname>
+            {awayRecord ? <TeamRecord>{awayRecord}</TeamRecord> : null}
+          </TeamDetailsWrapper>
+          <TeamDetailsWrapper $isHomeGame>
+            <TeamName>
+              {homeApRanking ? <TeamRanking>#{homeApRanking}</TeamRanking> : null}
+              {homeTeam.name}
+            </TeamName>
+            <TeamNickname>{homeTeam.nickname}</TeamNickname>
+            {homeRecord ? <TeamRecord>{homeRecord}</TeamRecord> : null}
+          </TeamDetailsWrapper>
+          <TeamImage $isHomeGame={false} teamId={awayTeamId} size={52} />
+          <TeamImage $isHomeGame teamId={homeTeamId} size={52} />
+          {/* TODO: Introduce `CompletedGame` type so this `?` is not required. */}
+          <Score $isHomeGame={false}>{game.score?.away}</Score>
+          <Score $isHomeGame>{game.score?.home}</Score>
+        </>
+      ) : (
+        <>
+          <TeamInfo
+            teamId={awayTeamId}
+            ranking={awayApRanking}
+            record={awayRecord}
+            homeOrAway="away"
+          />
+          <FinalScore>
+            {game.score?.away} - {game.score?.home}
+          </FinalScore>
+          <TeamInfo
+            teamId={homeTeamId}
+            ranking={homeApRanking}
+            record={homeRecord}
+            homeOrAway="home"
+          />
+        </>
+      )}
+    </TotalScoreWrapper>
   );
 };
