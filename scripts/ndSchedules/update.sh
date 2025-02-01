@@ -9,12 +9,12 @@ if [ "$(uname -s)" != "Linux" ]; then
   exit -1
 fi
 
-if [ "$(git symbolic-ref --short -q HEAD)" != "master" ]; then
-  echo "[ERROR] This script must be run on the master branch."
+if [ "$(git symbolic-ref --short -q HEAD)" != "main" ]; then
+  echo "[ERROR] This script must be run on the main branch."
   exit -1
 fi
 
-git pull origin master
+git pull origin main
 if [ $? -ne 0 ]; then
   echo "[ERROR] Failed to git pull latest source code."
   exit -1
@@ -49,7 +49,7 @@ else
     exit -1
   fi
 
-  git push origin master
+  git push origin main
   if [ $? -ne 0 ]; then
     echo "[ERROR] Failed to git push files."
     exit -1

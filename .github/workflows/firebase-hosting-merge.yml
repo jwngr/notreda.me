@@ -2,7 +2,7 @@ name: Deploy prod website on merge
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'website/**'
       - '.firebaserc'
