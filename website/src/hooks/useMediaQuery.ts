@@ -1,8 +1,8 @@
 import {useCallback, useEffect, useState} from 'react';
 
 /**
- * Returns whether the current window matches the given media query. Re-runs when the media query
- * changes.
+ * Returns whether the current window matches the given media query. Re-runs when the window is
+ * resized.
  */
 export function useMediaQuery(query: string): boolean {
   const getMatches = useCallback((query: string): boolean => {
