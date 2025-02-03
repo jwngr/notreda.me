@@ -1,6 +1,17 @@
 [
   {
     "isHomeGame": true,
+    "date": "09/09/2028",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "TEX"
+  },
+  {
+    "isHomeGame": true,
     "date": "09/16/2028",
     "location": {
       "city": "Notre Dame",

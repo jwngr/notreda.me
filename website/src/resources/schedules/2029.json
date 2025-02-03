@@ -23,6 +23,17 @@
   },
   {
     "isHomeGame": false,
+    "date": "09/22/2029",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "stadium": "Darrell K Royal - Texas Memorial Stadium",
+      "coordinates": [30.282861, -97.733119]
+    },
+    "opponentId": "TEX"
+  },
+  {
+    "isHomeGame": false,
     "date": "10/06/2029",
     "location": {
       "city": "Raleigh",

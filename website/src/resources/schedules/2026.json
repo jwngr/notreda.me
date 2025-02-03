@@ -45,24 +45,13 @@
     "opponentId": "UNC"
   },
   {
-    "isHomeGame": true,
-    "date": "10/17/2026",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "UVA"
-  },
-  {
     "isHomeGame": false,
     "date": "10/31/2026",
     "location": {
-      "city": "Annapolis",
-      "state": "MD",
-      "stadium": "Navy-Marine Corps Memorial Stadium",
-      "coordinates": [38.985, -76.507]
+      "city": "Foxborough",
+      "state": "MA",
+      "stadium": "Gillette Stadium",
+      "coordinates": [42.0909, -71.2643]
     },
     "opponentId": "NAVY"
   },
@@ -87,6 +76,17 @@
       "coordinates": [30.438088, -84.304527]
     },
     "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "SMU"
   },
   {
     "isHomeGame": true,

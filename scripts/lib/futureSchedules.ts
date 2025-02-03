@@ -32,11 +32,8 @@ export const fetchFutureNdSchedules = async (): Promise<
   $('.col-sm-6.schedu-list').each((_, futureSeasonScheduleCol) => {
     const season = Number($(futureSeasonScheduleCol).find('.team-hd').text().trim());
 
-    // Ignore columns under the "FUTURE NOTRE DAME FOOTBALL SCHEDULES" section which do not
-    // have a "team-hd" class.
-    if (isNaN(season) || season > CURRENT_SEASON) {
-      return;
-    }
+    // Ignore lists which are not for a single season.
+    if (!season || isNaN(season)) return;
 
     schedules[season] = [];
 
