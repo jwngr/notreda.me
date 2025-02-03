@@ -1,5 +1,4 @@
 import {FutureGameInfo} from '../../website/src/models/games.models';
-import {CURRENT_SEASON} from './constants';
 import {Scraper} from './scraper';
 
 const OPPONENT_NAME_MAPPINGS: Record<string, string> = {
