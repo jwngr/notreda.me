@@ -1,5 +1,16 @@
 [
   {
+    "isHomeGame": false,
+    "fullDate": "Sun Aug 31 2025 16:30:00 GMT-0700",
+    "location": {
+      "city": "Miami Gardens",
+      "state": "FL",
+      "stadium": "Hard Rock Stadium",
+      "coordinates": [25.957783, -80.238978]
+    },
+    "opponentId": "MIAMI"
+  },
+  {
     "isHomeGame": true,
     "date": "09/13/2025",
     "location": {
@@ -45,6 +56,17 @@
   },
   {
     "isHomeGame": true,
+    "date": "10/11/2025",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
     "date": "10/18/2025",
     "location": {
       "city": "Notre Dame",
@@ -53,6 +75,17 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC"
+  },
+  {
+    "isHomeGame": false,
+    "date": "11/01/2025",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stadium": "Alumni Stadium",
+      "coordinates": [42.335, -71.166389]
+    },
+    "opponentId": "BC"
   },
   {
     "isHomeGame": true,
@@ -66,19 +99,19 @@
     "opponentId": "NAVY"
   },
   {
-    "isHomeGame": true,
-    "date": "TBD",
+    "isHomeGame": false,
+    "date": "11/15/2025",
     "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stadium": "Acrisure Stadium",
+      "coordinates": [40.445773, -80.014982]
     },
-    "opponentId": "NCST"
+    "opponentId": "PITT"
   },
   {
     "isHomeGame": true,
-    "date": "TBD",
+    "date": "11/22/2025",
     "location": {
       "city": "Notre Dame",
       "state": "IN",
@@ -88,36 +121,14 @@
     "opponentId": "SYR"
   },
   {
-    "isHomeGame": false,
-    "date": "TBD",
+    "isHomeGame": true,
+    "date": "11/29/2025",
     "location": {
-      "city": "Chestnut Hill",
-      "state": "MA",
-      "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "city": "Stanford",
+      "state": "CA",
+      "stadium": "Stanford Stadium",
+      "coordinates": [37.434444, -122.161111]
     },
-    "opponentId": "BC"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Miami Gardens",
-      "state": "FL",
-      "stadium": "Hard Rock Stadium",
-      "coordinates": [25.957783, -80.238978]
-    },
-    "opponentId": "MIAMI"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Pittsburgh",
-      "state": "PA",
-      "stadium": "Acrisure Stadium",
-      "coordinates": [40.445773, -80.014982]
-    },
-    "opponentId": "PITT"
+    "opponentId": "STAN"
   }
 ]
