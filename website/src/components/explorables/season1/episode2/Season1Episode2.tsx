@@ -1,6 +1,5 @@
 import {darken} from 'polished';
 import React, {useMemo, useState} from 'react';
-import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -157,9 +156,7 @@ export const ExplorablesS1E2: React.FC = () => {
 
   return (
     <Wrapper>
-      <Helmet>
-        <title>{`${title} | notreda.me`}</title>
-      </Helmet>
+      <title>{`${title} | notreda.me`}</title>
 
       <Heading>
         <Link to="/explorables">Explorables</Link>
