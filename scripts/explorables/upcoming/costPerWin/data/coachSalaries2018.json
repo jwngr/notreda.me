@@ -1,652 +1,132 @@
 [
-  {
-    "teamName": "Alabama",
-    "headCoach": "Nick Saban",
-    "salary": 8307000
-  },
-  {
-    "teamName": "Ohio State",
-    "headCoach": "Urban Meyer",
-    "salary": 7600000
-  },
-  {
-    "teamName": "Michigan",
-    "headCoach": "Jim Harbaugh",
-    "salary": 7504000
-  },
-  {
-    "teamName": "Texas A&M",
-    "headCoach": "Jimbo Fisher",
-    "salary": 7500000
-  },
-  {
-    "teamName": "Auburn",
-    "headCoach": "Gus Malzahn",
-    "salary": 6705656
-  },
-  {
-    "teamName": "Georgia",
-    "headCoach": "Kirby Smart",
-    "salary": 6603600
-  },
-  {
-    "teamName": "Clemson",
-    "headCoach": "Dabo Swinney",
-    "salary": 6543350
-  },
-  {
-    "teamName": "Florida",
-    "headCoach": "Dan Mullen",
-    "salary": 6070000
-  },
-  {
-    "teamName": "Texas",
-    "headCoach": "Tom Herman",
-    "salary": 5500000
-  },
-  {
-    "teamName": "Florida State",
-    "headCoach": "Willie Taggart",
-    "salary": 5000000
-  },
-  {
-    "teamName": "Illinois",
-    "headCoach": "Lovie Smith",
-    "salary": 5000000
-  },
-  {
-    "teamName": "Nebraska",
-    "headCoach": "Scott Frost",
-    "salary": 5000000
-  },
-  {
-    "teamName": "Oklahoma State",
-    "headCoach": "Mike Gundy",
-    "salary": 5000000
-  },
-  {
-    "teamName": "TCU",
-    "headCoach": "Gary Patterson",
-    "salary": 4840717
-  },
-  {
-    "teamName": "Penn State",
-    "headCoach": "James Franklin",
-    "salary": 4800000
-  },
-  {
-    "teamName": "Oklahoma",
-    "headCoach": "Lincoln Riley",
-    "salary": 4800000
-  },
-  {
-    "teamName": "Iowa",
-    "headCoach": "Kirk Ferentz",
-    "salary": 4700000
-  },
-  {
-    "teamName": "Michigan State",
-    "headCoach": "Mark Dantonio",
-    "salary": 4390417
-  },
-  {
-    "teamName": "Washington",
-    "headCoach": "Chris Petersen",
-    "salary": 4377500
-  },
-  {
-    "teamName": "Stanford",
-    "headCoach": "David Shaw",
-    "salary": 4311543
-  },
-  {
-    "teamName": "South Carolina",
-    "headCoach": "Will Muschamp",
-    "salary": 4200000
-  },
-  {
-    "teamName": "Miami",
-    "headCoach": "Mark Richt",
-    "salary": 4058061
-  },
-  {
-    "teamName": "Kentucky",
-    "headCoach": "Mark Stoops",
-    "salary": 4013600
-  },
-  {
-    "teamName": "Virginia Tech",
-    "headCoach": "Justin Fuente",
-    "salary": 4000000
-  },
-  {
-    "teamName": "Louisville",
-    "headCoach": "Bobby Petrino",
-    "salary": 3980434
-  },
-  {
-    "teamName": "Tennessee",
-    "headCoach": "Jeremy Pruitt",
-    "salary": 3846000
-  },
-  {
-    "teamName": "Purdue",
-    "headCoach": "Jeff Brohm",
-    "salary": 3800000
-  },
-  {
-    "teamName": "Utah",
-    "headCoach": "Kyle Whittingham",
-    "salary": 3787917
-  },
-  {
-    "teamName": "Wisconsin",
-    "headCoach": "Paul Chryst",
-    "salary": 3750000
-  },
-  {
-    "teamName": "Texas Tech",
-    "headCoach": "Kliff Kingsbury",
-    "salary": 3703975
-  },
-  {
-    "teamName": "Northwestern",
-    "headCoach": "Pat Fitzgerald",
-    "salary": 3619775
-  },
-  {
-    "teamName": "West Virginia",
-    "headCoach": "Dana Holgorsen",
-    "salary": 3617500
-  },
-  {
-    "teamName": "Virginia",
-    "headCoach": "Bronco Mendenhall",
-    "salary": 3550000
-  },
-  {
-    "teamName": "Minnesota",
-    "headCoach": "P.J. Fleck",
-    "salary": 3550000
-  },
-  {
-    "teamName": "LSU",
-    "headCoach": "Ed Orgeron",
-    "salary": 3500000
-  },
-  {
-    "teamName": "Arkansas",
-    "headCoach": "Chad Morris",
-    "salary": 3500000
-  },
-  {
-    "teamName": "Iowa State",
-    "headCoach": "Matt Campbell",
-    "salary": 3500000
-  },
-  {
-    "teamName": "Washington State",
-    "headCoach": "Mike Leach",
-    "salary": 3500000
-  },
-  {
-    "teamName": "Kansas State",
-    "headCoach": "Bill Snyder",
-    "salary": 3500000
-  },
-  {
-    "teamName": "UCLA",
-    "headCoach": "Chip Kelly",
-    "salary": 3300000
-  },
-  {
-    "teamName": "Georgia Tech",
-    "headCoach": "Paul Johnson",
-    "salary": 3060018
-  },
-  {
-    "teamName": "Pittsburgh",
-    "headCoach": "Pat Narduzzi",
-    "salary": 3017718
-  },
-  {
-    "teamName": "Ole Miss",
-    "headCoach": "Matt Luke",
-    "salary": 3000000
-  },
-  {
-    "teamName": "NC State",
-    "headCoach": "Dave Doeren",
-    "salary": 3000000
-  },
-  {
-    "teamName": "Colorado",
-    "headCoach": "Mike MacIntyre",
-    "salary": 2878500
-  },
-  {
-    "teamName": "Vanderbilt",
-    "headCoach": "Derek Mason",
-    "salary": 2812523
-  },
-  {
-    "teamName": "USC",
-    "headCoach": "Clay Helton",
-    "salary": 2625965
-  },
-  {
-    "teamName": "Mississippi State",
-    "headCoach": "Joe Moorhead",
-    "salary": 2600000
-  },
-  {
-    "teamName": "Memphis",
-    "headCoach": "Mike Norvell",
-    "salary": 2600000
-  },
-  {
-    "teamName": "UNC",
-    "headCoach": "Larry Fedora",
-    "salary": 2575000
-  },
-  {
-    "teamName": "Duke",
-    "headCoach": "David Cutcliffe",
-    "salary": 2540928
-  },
-  {
-    "teamName": "Boston College",
-    "headCoach": "Steve Addazio",
-    "salary": 2514859
-  },
-  {
-    "teamName": "Maryland",
-    "headCoach": "DJ Durkin",
-    "salary": 2512000
-  },
-  {
-    "teamName": "Oregon",
-    "headCoach": "Mario Cristobal",
-    "salary": 2500000
-  },
-  {
-    "teamName": "Syracuse",
-    "headCoach": "Dino Babers",
-    "salary": 2401206
-  },
-  {
-    "teamName": "Missouri",
-    "headCoach": "Barry Odom",
-    "salary": 2350000
-  },
-  {
-    "teamName": "Rutgers",
-    "headCoach": "Chris Ash",
-    "salary": 2200000
-  },
-  {
-    "teamName": "Navy",
-    "headCoach": "Ken Niumatalolo",
-    "salary": 2163000
-  },
-  {
-    "teamName": "Notre Dame",
-    "headCoach": "Brian Kelly",
-    "salary": 2129638
-  },
-  {
-    "teamName": "Arizona State",
-    "headCoach": "Herm Edwards",
-    "salary": 2000000
-  },
-  {
-    "teamName": "Arizona",
-    "headCoach": "Kevin Sumlin",
-    "salary": 2000000
-  },
-  {
-    "teamName": "Cincinnati",
-    "headCoach": "Luke Fickell",
-    "salary": 2000000
-  },
-  {
-    "teamName": "Oregon State",
-    "headCoach": "Jonathan Smith",
-    "salary": 1900008
-  },
-  {
-    "teamName": "Wake Forest",
-    "headCoach": "Dave Clawson",
-    "salary": 1831580
-  },
-  {
-    "teamName": "Indiana",
-    "headCoach": "Tom Allen",
-    "salary": 1830000
-  },
-  {
-    "teamName": "Colorado State",
-    "headCoach": "Mike Bobo",
-    "salary": 1800000
-  },
-  {
-    "teamName": "Houston",
-    "headCoach": "Major Applewhite",
-    "salary": 1750000
-  },
-  {
-    "teamName": "Kansas",
-    "headCoach": "David Beaty",
-    "salary": 1701109
-  },
-  {
-    "teamName": "UCF",
-    "headCoach": "Josh Heupel",
-    "salary": 1700000
-  },
-  {
-    "teamName": "Boise State",
-    "headCoach": "Bryan Harsin",
-    "salary": 1650010
-  },
-  {
-    "teamName": "Tulane",
-    "headCoach": "Willie Fritz",
-    "salary": 1629000
-  },
-  {
-    "teamName": "Fresno State",
-    "headCoach": "Jeff Tedford",
-    "salary": 1550000
-  },
-  {
-    "teamName": "Tulsa",
-    "headCoach": "Philip Montgomery",
-    "salary": 1518177
-  },
-  {
-    "teamName": "Cal",
-    "headCoach": "Justin Wilcox",
-    "salary": 1500000
-  },
-  {
-    "teamName": "North Texas",
-    "headCoach": "Seth Littrell",
-    "salary": 1425000
-  },
-  {
-    "teamName": "Wyoming",
-    "headCoach": "Craig Bohl",
-    "salary": 1412000
-  },
-  {
-    "teamName": "Toledo",
-    "headCoach": "Jason Candle",
-    "salary": 1125000
-  },
-  {
-    "teamName": "East Carolina",
-    "headCoach": "Scottie Montgomery",
-    "salary": 1102500
-  },
-  {
-    "teamName": "Connecticut",
-    "headCoach": "Randy Edsall",
-    "salary": 1100000
-  },
-  {
-    "teamName": "UTSA",
-    "headCoach": "Frank Wilson",
-    "salary": 1100000
-  },
-  {
-    "teamName": "Florida Atlantic",
-    "headCoach": "Lane Kiffin",
-    "salary": 1000000
-  },
-  {
-    "teamName": "South Florida",
-    "headCoach": "Charlie Strong",
-    "salary": 1000000
-  },
-  {
-    "teamName": "Liberty",
-    "headCoach": "Turner Gill",
-    "salary": 947281
-  },
-  {
-    "teamName": "Florida International",
-    "headCoach": "Butch Davis",
-    "salary": 945000
-  },
-  {
-    "teamName": "UAB",
-    "headCoach": "Bill Clark",
-    "salary": 900000
-  },
-  {
-    "teamName": "Utah State",
-    "headCoach": "Matt Wells",
-    "salary": 900000
-  },
-  {
-    "teamName": "San Diego State",
-    "headCoach": "Rocky Long",
-    "salary": 873576
-  },
-  {
-    "teamName": "Louisiana",
-    "headCoach": "Billy Napier",
-    "salary": 850000
-  },
-  {
-    "teamName": "Arkansas State",
-    "headCoach": "Blake Anderson",
-    "salary": 825000
-  },
-  {
-    "teamName": "New Mexico",
-    "headCoach": "Bob Davie",
-    "salary": 823740
-  },
-  {
-    "teamName": "Troy",
-    "headCoach": "Neal Brown",
-    "salary": 810000
-  },
-  {
-    "teamName": "Western Kentucky",
-    "headCoach": "Mike Sanford Jr.",
-    "salary": 805850
-  },
-  {
-    "teamName": "Middle Tennessee",
-    "headCoach": "Rick Stockstill",
-    "salary": 803004
-  },
-  {
-    "teamName": "Western Michigan",
-    "headCoach": "Tim Lester",
-    "salary": 800000
-  },
-  {
-    "teamName": "Marshall",
-    "headCoach": "Doc Holliday",
-    "salary": 762570
-  },
-  {
-    "teamName": "Appalachian State",
-    "headCoach": "Scott Satterfield",
-    "salary": 712500
-  },
-  {
-    "teamName": "UTEP",
-    "headCoach": "Dana Dimel",
-    "salary": 700000
-  },
-  {
-    "teamName": "Louisiana Tech",
-    "headCoach": "Skip Holtz",
-    "salary": 700000
-  },
-  {
-    "teamName": "Texas State",
-    "headCoach": "Everett Withers",
-    "salary": 700000
-  },
-  {
-    "teamName": "Central Michigan",
-    "headCoach": "John Bonamego",
-    "salary": 655000
-  },
-  {
-    "teamName": "Old Dominion",
-    "headCoach": "Bobby Wilder",
-    "salary": 654667
-  },
-  {
-    "teamName": "Georgia Southern",
-    "headCoach": "Chad Lunsford",
-    "salary": 650000
-  },
-  {
-    "teamName": "Northern Illinois",
-    "headCoach": "Rod Carey",
-    "salary": 633460
-  },
-  {
-    "teamName": "Charlotte",
-    "headCoach": "Brad Lambert",
-    "salary": 625000
-  },
-  {
-    "teamName": "South Alabama",
-    "headCoach": "Steve Campbell",
-    "salary": 600000
-  },
-  {
-    "teamName": "UNLV",
-    "headCoach": "Tony Sanchez",
-    "salary": 600000
-  },
-  {
-    "teamName": "San Jose State",
-    "headCoach": "Brent Brennan",
-    "salary": 590424
-  },
-  {
-    "teamName": "Ohio",
-    "headCoach": "Frank Solich",
-    "salary": 580331
-  },
-  {
-    "teamName": "Georgia State",
-    "headCoach": "Shawn Elliott",
-    "salary": 569000
-  },
-  {
-    "teamName": "Miami (OH)",
-    "headCoach": "Chuck Martin",
-    "salary": 524826
-  },
-  {
-    "teamName": "Southern Mississippi",
-    "headCoach": "Jay Hopson",
-    "salary": 500000
-  },
-  {
-    "teamName": "Massachusetts",
-    "headCoach": "Mark Whipple",
-    "salary": 500000
-  },
-  {
-    "teamName": "Nevada",
-    "headCoach": "Jay Norvell",
-    "salary": 500000
-  },
-  {
-    "teamName": "Hawaii",
-    "headCoach": "Nick Rolovich",
-    "salary": 486504
-  },
-  {
-    "teamName": "Eastern Michigan",
-    "headCoach": "Chris Creighton",
-    "salary": 460000
-  },
-  {
-    "teamName": "Buffalo",
-    "headCoach": "Lance Leipold",
-    "salary": 455500
-  },
-  {
-    "teamName": "Kent State",
-    "headCoach": "Sean Lewis",
-    "salary": 440000
-  },
-  {
-    "teamName": "Bowling Green",
-    "headCoach": "Mike Jinks",
-    "salary": 437228
-  },
-  {
-    "teamName": "Ball State",
-    "headCoach": "Mike Neu",
-    "salary": 435689
-  },
-  {
-    "teamName": "New Mexico State",
-    "headCoach": "Doug Martin",
-    "salary": 419640
-  },
-  {
-    "teamName": "Akron",
-    "headCoach": "Terry Bowden",
-    "salary": 412500
-  },
-  {
-    "teamName": "Coastal Carolina",
-    "headCoach": "Joe Moglia",
-    "salary": 400000
-  },
-  {
-    "teamName": "UL Monroe",
-    "headCoach": "Matt Viator",
-    "salary": 390000
-  },
-  {
-    "teamName": "Baylor",
-    "headCoach": "Matt Rhule",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "Air Force",
-    "headCoach": "Troy Calhoun",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "BYU",
-    "headCoach": "Kalani Sitake",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "Army",
-    "headCoach": "Jeff Monken",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "Rice",
-    "headCoach": "Mike Bloomgren",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "Temple",
-    "headCoach": "Geoff Collins",
-    "salary": "Unknown"
-  },
-  {
-    "teamName": "SMU",
-    "headCoach": "Sonny Dykes",
-    "salary": "Unknown"
-  }
+  {"teamName": "Alabama", "headCoach": "Nick Saban", "salary": 8307000},
+  {"teamName": "Ohio State", "headCoach": "Urban Meyer", "salary": 7600000},
+  {"teamName": "Michigan", "headCoach": "Jim Harbaugh", "salary": 7504000},
+  {"teamName": "Texas A&M", "headCoach": "Jimbo Fisher", "salary": 7500000},
+  {"teamName": "Auburn", "headCoach": "Gus Malzahn", "salary": 6705656},
+  {"teamName": "Georgia", "headCoach": "Kirby Smart", "salary": 6603600},
+  {"teamName": "Clemson", "headCoach": "Dabo Swinney", "salary": 6543350},
+  {"teamName": "Florida", "headCoach": "Dan Mullen", "salary": 6070000},
+  {"teamName": "Texas", "headCoach": "Tom Herman", "salary": 5500000},
+  {"teamName": "Florida State", "headCoach": "Willie Taggart", "salary": 5000000},
+  {"teamName": "Illinois", "headCoach": "Lovie Smith", "salary": 5000000},
+  {"teamName": "Nebraska", "headCoach": "Scott Frost", "salary": 5000000},
+  {"teamName": "Oklahoma State", "headCoach": "Mike Gundy", "salary": 5000000},
+  {"teamName": "TCU", "headCoach": "Gary Patterson", "salary": 4840717},
+  {"teamName": "Penn State", "headCoach": "James Franklin", "salary": 4800000},
+  {"teamName": "Oklahoma", "headCoach": "Lincoln Riley", "salary": 4800000},
+  {"teamName": "Iowa", "headCoach": "Kirk Ferentz", "salary": 4700000},
+  {"teamName": "Michigan State", "headCoach": "Mark Dantonio", "salary": 4390417},
+  {"teamName": "Washington", "headCoach": "Chris Petersen", "salary": 4377500},
+  {"teamName": "Stanford", "headCoach": "David Shaw", "salary": 4311543},
+  {"teamName": "South Carolina", "headCoach": "Will Muschamp", "salary": 4200000},
+  {"teamName": "Miami", "headCoach": "Mark Richt", "salary": 4058061},
+  {"teamName": "Kentucky", "headCoach": "Mark Stoops", "salary": 4013600},
+  {"teamName": "Virginia Tech", "headCoach": "Justin Fuente", "salary": 4000000},
+  {"teamName": "Louisville", "headCoach": "Bobby Petrino", "salary": 3980434},
+  {"teamName": "Tennessee", "headCoach": "Jeremy Pruitt", "salary": 3846000},
+  {"teamName": "Purdue", "headCoach": "Jeff Brohm", "salary": 3800000},
+  {"teamName": "Utah", "headCoach": "Kyle Whittingham", "salary": 3787917},
+  {"teamName": "Wisconsin", "headCoach": "Paul Chryst", "salary": 3750000},
+  {"teamName": "Texas Tech", "headCoach": "Kliff Kingsbury", "salary": 3703975},
+  {"teamName": "Northwestern", "headCoach": "Pat Fitzgerald", "salary": 3619775},
+  {"teamName": "West Virginia", "headCoach": "Dana Holgorsen", "salary": 3617500},
+  {"teamName": "Virginia", "headCoach": "Bronco Mendenhall", "salary": 3550000},
+  {"teamName": "Minnesota", "headCoach": "P.J. Fleck", "salary": 3550000},
+  {"teamName": "LSU", "headCoach": "Ed Orgeron", "salary": 3500000},
+  {"teamName": "Arkansas", "headCoach": "Chad Morris", "salary": 3500000},
+  {"teamName": "Iowa State", "headCoach": "Matt Campbell", "salary": 3500000},
+  {"teamName": "Washington State", "headCoach": "Mike Leach", "salary": 3500000},
+  {"teamName": "Kansas State", "headCoach": "Bill Snyder", "salary": 3500000},
+  {"teamName": "UCLA", "headCoach": "Chip Kelly", "salary": 3300000},
+  {"teamName": "Georgia Tech", "headCoach": "Paul Johnson", "salary": 3060018},
+  {"teamName": "Pittsburgh", "headCoach": "Pat Narduzzi", "salary": 3017718},
+  {"teamName": "Ole Miss", "headCoach": "Matt Luke", "salary": 3000000},
+  {"teamName": "NC State", "headCoach": "Dave Doeren", "salary": 3000000},
+  {"teamName": "Colorado", "headCoach": "Mike MacIntyre", "salary": 2878500},
+  {"teamName": "Vanderbilt", "headCoach": "Derek Mason", "salary": 2812523},
+  {"teamName": "USC", "headCoach": "Clay Helton", "salary": 2625965},
+  {"teamName": "Mississippi State", "headCoach": "Joe Moorhead", "salary": 2600000},
+  {"teamName": "Memphis", "headCoach": "Mike Norvell", "salary": 2600000},
+  {"teamName": "UNC", "headCoach": "Larry Fedora", "salary": 2575000},
+  {"teamName": "Duke", "headCoach": "David Cutcliffe", "salary": 2540928},
+  {"teamName": "Boston College", "headCoach": "Steve Addazio", "salary": 2514859},
+  {"teamName": "Maryland", "headCoach": "DJ Durkin", "salary": 2512000},
+  {"teamName": "Oregon", "headCoach": "Mario Cristobal", "salary": 2500000},
+  {"teamName": "Syracuse", "headCoach": "Dino Babers", "salary": 2401206},
+  {"teamName": "Missouri", "headCoach": "Barry Odom", "salary": 2350000},
+  {"teamName": "Rutgers", "headCoach": "Chris Ash", "salary": 2200000},
+  {"teamName": "Navy", "headCoach": "Ken Niumatalolo", "salary": 2163000},
+  {"teamName": "Notre Dame", "headCoach": "Brian Kelly", "salary": 2129638},
+  {"teamName": "Arizona State", "headCoach": "Herm Edwards", "salary": 2000000},
+  {"teamName": "Arizona", "headCoach": "Kevin Sumlin", "salary": 2000000},
+  {"teamName": "Cincinnati", "headCoach": "Luke Fickell", "salary": 2000000},
+  {"teamName": "Oregon State", "headCoach": "Jonathan Smith", "salary": 1900008},
+  {"teamName": "Wake Forest", "headCoach": "Dave Clawson", "salary": 1831580},
+  {"teamName": "Indiana", "headCoach": "Tom Allen", "salary": 1830000},
+  {"teamName": "Colorado State", "headCoach": "Mike Bobo", "salary": 1800000},
+  {"teamName": "Houston", "headCoach": "Major Applewhite", "salary": 1750000},
+  {"teamName": "Kansas", "headCoach": "David Beaty", "salary": 1701109},
+  {"teamName": "UCF", "headCoach": "Josh Heupel", "salary": 1700000},
+  {"teamName": "Boise State", "headCoach": "Bryan Harsin", "salary": 1650010},
+  {"teamName": "Tulane", "headCoach": "Willie Fritz", "salary": 1629000},
+  {"teamName": "Fresno State", "headCoach": "Jeff Tedford", "salary": 1550000},
+  {"teamName": "Tulsa", "headCoach": "Philip Montgomery", "salary": 1518177},
+  {"teamName": "Cal", "headCoach": "Justin Wilcox", "salary": 1500000},
+  {"teamName": "North Texas", "headCoach": "Seth Littrell", "salary": 1425000},
+  {"teamName": "Wyoming", "headCoach": "Craig Bohl", "salary": 1412000},
+  {"teamName": "Toledo", "headCoach": "Jason Candle", "salary": 1125000},
+  {"teamName": "East Carolina", "headCoach": "Scottie Montgomery", "salary": 1102500},
+  {"teamName": "Connecticut", "headCoach": "Randy Edsall", "salary": 1100000},
+  {"teamName": "UTSA", "headCoach": "Frank Wilson", "salary": 1100000},
+  {"teamName": "Florida Atlantic", "headCoach": "Lane Kiffin", "salary": 1000000},
+  {"teamName": "South Florida", "headCoach": "Charlie Strong", "salary": 1000000},
+  {"teamName": "Liberty", "headCoach": "Turner Gill", "salary": 947281},
+  {"teamName": "Florida International", "headCoach": "Butch Davis", "salary": 945000},
+  {"teamName": "UAB", "headCoach": "Bill Clark", "salary": 900000},
+  {"teamName": "Utah State", "headCoach": "Matt Wells", "salary": 900000},
+  {"teamName": "San Diego State", "headCoach": "Rocky Long", "salary": 873576},
+  {"teamName": "Louisiana", "headCoach": "Billy Napier", "salary": 850000},
+  {"teamName": "Arkansas State", "headCoach": "Blake Anderson", "salary": 825000},
+  {"teamName": "New Mexico", "headCoach": "Bob Davie", "salary": 823740},
+  {"teamName": "Troy", "headCoach": "Neal Brown", "salary": 810000},
+  {"teamName": "Western Kentucky", "headCoach": "Mike Sanford Jr.", "salary": 805850},
+  {"teamName": "Middle Tennessee", "headCoach": "Rick Stockstill", "salary": 803004},
+  {"teamName": "Western Michigan", "headCoach": "Tim Lester", "salary": 800000},
+  {"teamName": "Marshall", "headCoach": "Doc Holliday", "salary": 762570},
+  {"teamName": "Appalachian State", "headCoach": "Scott Satterfield", "salary": 712500},
+  {"teamName": "UTEP", "headCoach": "Dana Dimel", "salary": 700000},
+  {"teamName": "Louisiana Tech", "headCoach": "Skip Holtz", "salary": 700000},
+  {"teamName": "Texas State", "headCoach": "Everett Withers", "salary": 700000},
+  {"teamName": "Central Michigan", "headCoach": "John Bonamego", "salary": 655000},
+  {"teamName": "Old Dominion", "headCoach": "Bobby Wilder", "salary": 654667},
+  {"teamName": "Georgia Southern", "headCoach": "Chad Lunsford", "salary": 650000},
+  {"teamName": "Northern Illinois", "headCoach": "Rod Carey", "salary": 633460},
+  {"teamName": "Charlotte", "headCoach": "Brad Lambert", "salary": 625000},
+  {"teamName": "South Alabama", "headCoach": "Steve Campbell", "salary": 600000},
+  {"teamName": "UNLV", "headCoach": "Tony Sanchez", "salary": 600000},
+  {"teamName": "San Jose State", "headCoach": "Brent Brennan", "salary": 590424},
+  {"teamName": "Ohio", "headCoach": "Frank Solich", "salary": 580331},
+  {"teamName": "Georgia State", "headCoach": "Shawn Elliott", "salary": 569000},
+  {"teamName": "Miami (OH)", "headCoach": "Chuck Martin", "salary": 524826},
+  {"teamName": "Southern Mississippi", "headCoach": "Jay Hopson", "salary": 500000},
+  {"teamName": "Massachusetts", "headCoach": "Mark Whipple", "salary": 500000},
+  {"teamName": "Nevada", "headCoach": "Jay Norvell", "salary": 500000},
+  {"teamName": "Hawaii", "headCoach": "Nick Rolovich", "salary": 486504},
+  {"teamName": "Eastern Michigan", "headCoach": "Chris Creighton", "salary": 460000},
+  {"teamName": "Buffalo", "headCoach": "Lance Leipold", "salary": 455500},
+  {"teamName": "Kent State", "headCoach": "Sean Lewis", "salary": 440000},
+  {"teamName": "Bowling Green", "headCoach": "Mike Jinks", "salary": 437228},
+  {"teamName": "Ball State", "headCoach": "Mike Neu", "salary": 435689},
+  {"teamName": "New Mexico State", "headCoach": "Doug Martin", "salary": 419640},
+  {"teamName": "Akron", "headCoach": "Terry Bowden", "salary": 412500},
+  {"teamName": "Coastal Carolina", "headCoach": "Joe Moglia", "salary": 400000},
+  {"teamName": "UL Monroe", "headCoach": "Matt Viator", "salary": 390000},
+  {"teamName": "Baylor", "headCoach": "Matt Rhule", "salary": "Unknown"},
+  {"teamName": "Air Force", "headCoach": "Troy Calhoun", "salary": "Unknown"},
+  {"teamName": "BYU", "headCoach": "Kalani Sitake", "salary": "Unknown"},
+  {"teamName": "Army", "headCoach": "Jeff Monken", "salary": "Unknown"},
+  {"teamName": "Rice", "headCoach": "Mike Bloomgren", "salary": "Unknown"},
+  {"teamName": "Temple", "headCoach": "Geoff Collins", "salary": "Unknown"},
+  {"teamName": "SMU", "headCoach": "Sonny Dykes", "salary": "Unknown"}
 ]

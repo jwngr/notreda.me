@@ -22,12 +22,7 @@ export function validateRecords(
   ignoredAssert
 ) {
   const wrappedAssert = (statement, message) => {
-    assert(statement, message, {
-      records,
-      isHomeGame,
-      weekIndex,
-      completedGameCountForSeason,
-    });
+    assert(statement, message, {records, isHomeGame, weekIndex, completedGameCountForSeason});
   };
 
   const wrappedIgnoredAssert = (statement, message) => {

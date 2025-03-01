@@ -56,10 +56,7 @@ logger.newline(2);
 logger.info('MOST UNDEFEATED SEASONS PER TEAM:');
 
 const sortedUndefeatedSeasonsPerTeam = Object.entries(undefeatedSeasonsPerTeam)
-  .map(([teamName, count]) => ({
-    count,
-    teamName,
-  }))
+  .map(([teamName, count]) => ({count, teamName}))
   .sort((a, b) => b.count - a.count);
 
 sortedUndefeatedSeasonsPerTeam.forEach(({count, teamName}) => {

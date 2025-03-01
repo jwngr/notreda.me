@@ -62,11 +62,7 @@ const scrapeTeamSchedule = async (team, filename) => {
       let result = await tds[3].getProperty('innerHTML');
       result = await result.jsonValue();
 
-      currentYearGames.push({
-        date,
-        result,
-        opponent,
-      });
+      currentYearGames.push({date, result, opponent});
     }
 
     games.push(currentYearGames);

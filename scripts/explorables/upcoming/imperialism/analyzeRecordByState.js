@@ -46,10 +46,7 @@ const _getRecord = (stats, statsKey) => {
 // };
 
 async function main() {
-  let stats = {
-    state: {},
-    country: {},
-  };
+  let stats = {state: {}, country: {}};
 
   for (const season of ALL_SEASONS) {
     const seasonScheduleData = await getForSeason(season);

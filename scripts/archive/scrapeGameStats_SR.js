@@ -26,9 +26,7 @@ const scrapeGameStats = async (gameId) => {
 
   logger.info(`Scraping ${url}`);
 
-  await page.goto(url, {
-    waitUntil: 'networkidle2',
-  });
+  await page.goto(url, {waitUntil: 'networkidle2'});
 
   const stats = {};
 
@@ -54,15 +52,9 @@ const scrapeGameStats = async (gameId) => {
 
       const [homeFumbles, homeFumblesLost] = homeTd.split('-');
 
-      _.set(stats, 'away', {
-        fumbles: +awayFumbles,
-        fumblesLost: +awayFumblesLost,
-      });
+      _.set(stats, 'away', {fumbles: +awayFumbles, fumblesLost: +awayFumblesLost});
 
-      _.set(stats, 'home', {
-        fumbles: +homeFumbles,
-        fumblesLost: +homeFumblesLost,
-      });
+      _.set(stats, 'home', {fumbles: +homeFumbles, fumblesLost: +homeFumblesLost});
     }
   }
 
@@ -75,10 +67,7 @@ const fn = async () => {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   const yearData = require(filename);
 
-  browser = await puppeteer.launch({
-    headless: true,
-    handleSIGINT: false,
-  });
+  browser = await puppeteer.launch({headless: true, handleSIGINT: false});
 
   const promises = _.map(yearData, (gameData) => {
     if ('sportsReferenceGameId' in gameData) {

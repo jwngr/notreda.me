@@ -26,9 +26,7 @@ const getText = async (element) => {
 const scrapeNotreDameSchedule = async () => {
   const page = await browser.newPage();
 
-  await page.goto('http://www.jhowell.net/cf/scores/notredame.htm', {
-    waitUntil: 'networkidle2',
-  });
+  await page.goto('http://www.jhowell.net/cf/scores/notredame.htm', {waitUntil: 'networkidle2'});
 
   const games = {};
 
@@ -96,10 +94,7 @@ const scrapeNotreDameSchedule = async () => {
         result,
         opponent,
         isHomeGame,
-        score: {
-          home: Number(homeScore),
-          away: Number(awayScore),
-        },
+        score: {home: Number(homeScore), away: Number(awayScore)},
       });
     }
 
@@ -112,10 +107,7 @@ const scrapeNotreDameSchedule = async () => {
 };
 
 (async () => {
-  browser = await puppeteer.launch({
-    headless: true,
-    handleSIGINT: false,
-  });
+  browser = await puppeteer.launch({headless: true, handleSIGINT: false});
 
   try {
     logger.info('Scraping Notre Dame schedule');

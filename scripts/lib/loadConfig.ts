@@ -36,13 +36,8 @@ function parseConfigFromEnv(): ScriptsConfig {
   }
 
   return {
-    sentry: {
-      dsn: process.env.SENTRY_DSN,
-      isEnabled: process.env.IS_SENTRY_ENABLED === 'true',
-    },
-    openWeather: {
-      apiKey: process.env.OPEN_WEATHER_API_KEY,
-    },
+    sentry: {dsn: process.env.SENTRY_DSN, isEnabled: process.env.IS_SENTRY_ENABLED === 'true'},
+    openWeather: {apiKey: process.env.OPEN_WEATHER_API_KEY},
   };
 }
 

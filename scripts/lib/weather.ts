@@ -19,9 +19,7 @@ interface OpenWeatherRequestParams extends QueryParams {
 interface OpenWeatherWeatherForecast {
   readonly dt: number;
   readonly temp: number;
-  readonly weather: {
-    readonly icon: string;
-  }[];
+  readonly weather: {readonly icon: string}[];
 }
 
 interface OpenWeatherForecastResponse {
@@ -104,10 +102,7 @@ export class Weather {
       return null;
     }
 
-    return {
-      icon: chosenForecast.weather[0].icon,
-      temperature: Math.round(chosenForecast.temp),
-    };
+    return {icon: chosenForecast.weather[0].icon, temperature: Math.round(chosenForecast.temp)};
   }
 
   private static validateLatitude(latitude: number): void {
@@ -151,10 +146,7 @@ export class Weather {
 
     const forecast = forecastResponseData.data[0];
 
-    return {
-      icon: forecast.weather[0].icon,
-      temperature: Math.round(forecast.temp),
-    };
+    return {icon: forecast.weather[0].icon, temperature: Math.round(forecast.temp)};
   }
 
   static async fetchForFutureGame({

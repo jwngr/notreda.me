@@ -8,12 +8,7 @@ const logger = new Logger({isSentryEnabled: false});
 
 const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
 
-const _getInitialStats = () =>
-  _.clone({
-    wins: 0,
-    losses: 0,
-    ties: 0,
-  });
+const _getInitialStats = () => _.clone({wins: 0, losses: 0, ties: 0});
 
 const _getGamesPlayed = (stats, statsKey) => {
   const {wins, losses, ties} = _.get(stats, statsKey);
@@ -43,11 +38,7 @@ async function main() {
   // Initialize stats.
   const stats = {
     overall: _getInitialStats(),
-    locations: {
-      home: _getInitialStats(),
-      away: _getInitialStats(),
-      neutral: _getInitialStats(),
-    },
+    locations: {home: _getInitialStats(), away: _getInitialStats(), neutral: _getInitialStats()},
     headCoaches: {},
     homeStadiums: {
       notreDameStadium: _getInitialStats(),

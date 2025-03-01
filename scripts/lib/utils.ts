@@ -80,10 +80,7 @@ export async function fetchUrl<T>({
   method = 'GET',
   headers = {},
 }: FetchUrlOptions): Promise<T> {
-  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {
-    method,
-    headers,
-  });
+  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {method, headers});
 
   if (!response.ok) {
     throw new Error(`Failed to fetch url "${url}": ${JSON.stringify(response.statusText)}`);
