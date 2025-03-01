@@ -1,5 +1,4 @@
 import React from 'react';
-import {Helmet} from 'react-helmet';
 
 import {NewsletterSignupForm} from '../../../common/NewsletterSignupForm';
 import {
@@ -19,9 +18,7 @@ const title = 'Scorigami';
 export const Scorigami: React.FC = () => {
   return (
     <Wrapper>
-      <Helmet>
-        <title>{`${title} | notreda.me`}</title>
-      </Helmet>
+      <title>{`${title} | notreda.me`}</title>
 
       <Heading>
         <p>Explorables</p>

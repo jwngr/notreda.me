@@ -1,5 +1,4 @@
 import React from 'react';
-import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
@@ -30,9 +29,7 @@ const subtitle = 'One Possession Games In The Brian Kelly Era';
 export const ExplorablesS1E1: React.FC = () => {
   return (
     <Wrapper>
-      <Helmet>
-        <title>{`${title} | notreda.me`}</title>
-      </Helmet>
+      <title>{`${title} | notreda.me`}</title>
 
       <Heading>
         <Link to="/explorables">Explorables</Link>
