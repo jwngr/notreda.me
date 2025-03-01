@@ -1,5 +1,4 @@
 import React from 'react';
-import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -70,9 +69,7 @@ const BlogPostCard: React.FC<BlogPostInfo> = ({slug, date, title, subtitle, desc
 
 export const Explorables: React.FC = () => (
   <>
-    <Helmet>
-      <title>Explorables | notreda.me</title>
-    </Helmet>
+    <title>Explorables | notreda.me</title>
 
     <Wrapper>
       <Title>Explorables</Title>
