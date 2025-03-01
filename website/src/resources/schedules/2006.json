@@ -10,10 +10,7 @@
       "coordinates": [33.772284, -84.392859]
     },
     "opponentId": "GT",
-    "score": {
-      "away": 14,
-      "home": 10
-    },
+    "score": {"away": 14, "home": 10},
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -59,30 +56,14 @@
       }
     },
     "espnGameId": 262450059,
-    "linescore": {
-      "away": [0, 7, 7, 0],
-      "home": [7, 3, 0, 0]
-    },
+    "linescore": {"away": [0, 7, 7, 0], "home": [7, 3, 0, 0]},
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 74
-    },
+    "weather": {"icon": "partly-cloudy-night", "temperature": 74},
     "records": {
-      "home": {
-        "overall": "0-1",
-        "home": "0-1",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "0-1", "home": "0-1", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "1-0", "neutral": "0-0"}
     }
   },
   {
@@ -96,10 +77,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PSU",
-    "score": {
-      "away": 17,
-      "home": 41
-    },
+    "score": {"away": 17, "home": 41},
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -145,30 +123,14 @@
       }
     },
     "espnGameId": 262520087,
-    "linescore": {
-      "away": [0, 0, 3, 14],
-      "home": [3, 17, 14, 7]
-    },
+    "linescore": {"away": [0, 0, 3, 14], "home": [3, 17, 14, 7]},
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 71
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 71},
     "records": {
-      "home": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -182,10 +144,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 47,
-      "home": 21
-    },
+    "score": {"away": 47, "home": 21},
     "stats": {
       "away": {
         "firstDowns": 17,
@@ -231,30 +190,14 @@
       }
     },
     "espnGameId": 262590087,
-    "linescore": {
-      "away": [20, 14, 6, 7],
-      "home": [7, 7, 0, 7]
-    },
+    "linescore": {"away": [20, 14, 6, 7], "home": [7, 7, 0, 7]},
     "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 75
-    },
+    "weather": {"icon": "clear-day", "temperature": 75},
     "records": {
-      "home": {
-        "overall": "2-1",
-        "home": "1-1",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-0",
-        "home": "2-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-1", "home": "1-1", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "3-0", "home": "2-0", "away": "1-0", "neutral": "0-0"}
     }
   },
   {
@@ -268,10 +211,7 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 40,
-      "home": 37
-    },
+    "score": {"away": 40, "home": 37},
     "stats": {
       "away": {
         "firstDowns": 13,
@@ -317,30 +257,14 @@
       }
     },
     "espnGameId": 262660127,
-    "linescore": {
-      "away": [0, 14, 7, 19],
-      "home": [17, 14, 6, 0]
-    },
+    "linescore": {"away": [0, 14, 7, 19], "home": [17, 14, 6, 0]},
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "rain",
-      "temperature": 64
-    },
+    "weather": {"icon": "rain", "temperature": 64},
     "records": {
-      "home": {
-        "overall": "3-1",
-        "home": "2-1",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-1",
-        "home": "1-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-1", "home": "2-1", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "3-1", "home": "1-1", "away": "2-0", "neutral": "0-0"}
     }
   },
   {
@@ -354,10 +278,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 21,
-      "home": 35
-    },
+    "score": {"away": 21, "home": 35},
     "stats": {
       "away": {
         "firstDowns": 24,
@@ -403,30 +324,14 @@
       }
     },
     "espnGameId": 262730087,
-    "linescore": {
-      "away": [7, 7, 0, 7],
-      "home": [14, 14, 7, 0]
-    },
+    "linescore": {"away": [7, 7, 0, 7], "home": [14, 14, 7, 0]},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "rain",
-      "temperature": 58
-    },
+    "weather": {"icon": "rain", "temperature": 58},
     "records": {
-      "home": {
-        "overall": "4-1",
-        "home": "2-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "4-1",
-        "home": "4-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-1", "home": "2-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "4-1", "home": "4-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -440,10 +345,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 10,
-      "home": 31
-    },
+    "score": {"away": 10, "home": 31},
     "stats": {
       "away": {
         "firstDowns": 14,
@@ -489,30 +391,14 @@
       }
     },
     "espnGameId": 262800087,
-    "linescore": {
-      "away": [3, 0, 0, 7],
-      "home": [7, 7, 10, 7]
-    },
+    "linescore": {"away": [3, 0, 0, 7], "home": [7, 7, 10, 7]},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 68
-    },
+    "weather": {"icon": "clear-day", "temperature": 68},
     "records": {
-      "home": {
-        "overall": "5-1",
-        "home": "3-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-6",
-        "home": "0-2",
-        "away": "0-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "5-1", "home": "3-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "0-6", "home": "0-2", "away": "0-4", "neutral": "0-0"}
     }
   },
   {
@@ -526,10 +412,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UCLA",
-    "score": {
-      "away": 17,
-      "home": 20
-    },
+    "score": {"away": 17, "home": 20},
     "stats": {
       "away": {
         "firstDowns": 12,
@@ -575,30 +458,14 @@
       }
     },
     "espnGameId": 262940087,
-    "linescore": {
-      "away": [0, 14, 0, 3],
-      "home": [7, 3, 3, 7]
-    },
+    "linescore": {"away": [0, 14, 0, 3], "home": [7, 3, 3, 7]},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 61
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 61},
     "records": {
-      "home": {
-        "overall": "6-1",
-        "home": "4-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "4-3",
-        "home": "4-0",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-1", "home": "4-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "4-3", "home": "4-0", "away": "0-3", "neutral": "0-0"}
     }
   },
   {
@@ -612,10 +479,7 @@
       "coordinates": [39.277954, -76.623112]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 38,
-      "home": 14
-    },
+    "score": {"away": 38, "home": 14},
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -661,30 +525,14 @@
       }
     },
     "espnGameId": 263012426,
-    "linescore": {
-      "away": [10, 14, 7, 7],
-      "home": [0, 14, 0, 0]
-    },
+    "linescore": {"away": [10, 14, 7, 7], "home": [0, 14, 0, 0]},
     "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 59
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 59},
     "records": {
-      "home": {
-        "overall": "5-3",
-        "home": "2-3",
-        "away": "3-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "7-1",
-        "home": "4-1",
-        "away": "3-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "5-3", "home": "2-3", "away": "3-0", "neutral": "0-0"},
+      "away": {"overall": "7-1", "home": "4-1", "away": "3-0", "neutral": "0-0"}
     }
   },
   {
@@ -698,10 +546,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 26,
-      "home": 45
-    },
+    "score": {"away": 26, "home": 45},
     "stats": {
       "away": {
         "firstDowns": 10,
@@ -747,30 +592,14 @@
       }
     },
     "espnGameId": 263080087,
-    "linescore": {
-      "away": [7, 6, 13, 0],
-      "home": [14, 17, 7, 7]
-    },
+    "linescore": {"away": [7, 6, 13, 0], "home": [14, 17, 7, 7]},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 46
-    },
+    "weather": {"icon": "cloudy", "temperature": 46},
     "records": {
-      "home": {
-        "overall": "8-1",
-        "home": "5-1",
-        "away": "3-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-8",
-        "home": "1-4",
-        "away": "0-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "8-1", "home": "5-1", "away": "3-0", "neutral": "0-0"},
+      "away": {"overall": "1-8", "home": "1-4", "away": "0-4", "neutral": "0-0"}
     }
   },
   {
@@ -784,10 +613,7 @@
       "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 39,
-      "home": 17
-    },
+    "score": {"away": 39, "home": 17},
     "stats": {
       "away": {
         "firstDowns": 19,
@@ -833,30 +659,14 @@
       }
     },
     "espnGameId": 263152005,
-    "linescore": {
-      "away": [20, 7, 6, 6],
-      "home": [3, 0, 7, 7]
-    },
+    "linescore": {"away": [20, 7, 6, 6], "home": [3, 0, 7, 7]},
     "time": "4:00 PM",
     "coverage": "CSTV",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 46
-    },
+    "weather": {"icon": "clear-night", "temperature": 46},
     "records": {
-      "home": {
-        "overall": "4-5",
-        "home": "2-3",
-        "away": "2-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "9-1",
-        "home": "5-1",
-        "away": "4-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-5", "home": "2-3", "away": "2-2", "neutral": "0-0"},
+      "away": {"overall": "9-1", "home": "5-1", "away": "4-0", "neutral": "0-0"}
     }
   },
   {
@@ -870,10 +680,7 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 9,
-      "home": 41
-    },
+    "score": {"away": 9, "home": 41},
     "stats": {
       "away": {
         "firstDowns": 12,
@@ -919,30 +726,14 @@
       }
     },
     "espnGameId": 263220087,
-    "linescore": {
-      "away": [3, 0, 0, 6],
-      "home": [0, 20, 14, 7]
-    },
+    "linescore": {"away": [3, 0, 0, 6], "home": [0, 20, 14, 7]},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 41
-    },
+    "weather": {"icon": "cloudy", "temperature": 41},
     "records": {
-      "home": {
-        "overall": "10-1",
-        "home": "6-1",
-        "away": "4-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-8",
-        "home": "2-3",
-        "away": "1-5",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "10-1", "home": "6-1", "away": "4-0", "neutral": "0-0"},
+      "away": {"overall": "3-8", "home": "2-3", "away": "1-5", "neutral": "0-0"}
     }
   },
   {
@@ -956,10 +747,7 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 24,
-      "home": 44
-    },
+    "score": {"away": 24, "home": 44},
     "stats": {
       "away": {
         "firstDowns": 18,
@@ -1005,30 +793,14 @@
       }
     },
     "espnGameId": 263290030,
-    "linescore": {
-      "away": [3, 7, 7, 7],
-      "home": [14, 7, 7, 16]
-    },
+    "linescore": {"away": [3, 7, 7, 7], "home": [14, 7, 7, 16]},
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 56
-    },
+    "weather": {"icon": "clear-night", "temperature": 56},
     "records": {
-      "home": {
-        "overall": "10-1",
-        "home": "6-0",
-        "away": "4-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "10-2",
-        "home": "6-1",
-        "away": "4-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "10-1", "home": "6-0", "away": "4-1", "neutral": "0-0"},
+      "away": {"overall": "10-2", "home": "6-1", "away": "4-1", "neutral": "0-0"}
     }
   },
   {
@@ -1044,10 +816,7 @@
       "coordinates": [29.950833, -90.081111]
     },
     "opponentId": "LSU",
-    "score": {
-      "away": 14,
-      "home": 41
-    },
+    "score": {"away": 14, "home": 41},
     "stats": {
       "away": {
         "firstDowns": 17,
@@ -1093,31 +862,15 @@
       }
     },
     "espnGameId": 270030099,
-    "linescore": {
-      "away": [7, 7, 0, 0],
-      "home": [14, 7, 13, 7]
-    },
+    "linescore": {"away": [7, 7, 0, 0], "home": [14, 7, 13, 7]},
     "time": "8:00 PM",
     "coverage": "FOX",
     "nickname": "Sugar Bowl",
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 56
-    },
+    "weather": {"icon": "partly-cloudy-night", "temperature": 56},
     "records": {
-      "home": {
-        "overall": "11-2",
-        "home": "9-0",
-        "away": "2-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "10-3",
-        "home": "6-1",
-        "away": "4-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "11-2", "home": "9-0", "away": "2-2", "neutral": "0-0"},
+      "away": {"overall": "10-3", "home": "6-1", "away": "4-2", "neutral": "0-0"}
     }
   }
 ]

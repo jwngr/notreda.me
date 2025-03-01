@@ -18,10 +18,7 @@ interface PastAndFutureMatchups {
 export const getMatchupsAgainstTeam = async (
   opponentId: TeamId
 ): Promise<PastAndFutureMatchups> => {
-  const matchupsAgainstTeam: PastAndFutureMatchups = {
-    past: [],
-    future: [],
-  };
+  const matchupsAgainstTeam: PastAndFutureMatchups = {past: [], future: []};
 
   const promises = Schedules.getSeasons().map(async (currentSeason) => {
     const currentSeasonGames = await Schedules.getForSeason(currentSeason);

@@ -21,12 +21,7 @@ const teamCostPerWinData = _.map(
       costPerWin = Number((salary / wins).toFixed(0));
     }
 
-    return {
-      wins,
-      teamName,
-      headCoach,
-      costPerWin,
-    };
+    return {wins, teamName, headCoach, costPerWin};
   }
 );
 

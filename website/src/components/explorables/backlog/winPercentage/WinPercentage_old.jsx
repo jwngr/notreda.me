@@ -52,14 +52,7 @@ export class WinPercentage extends Component {
           const winPercentage = (winCount / (winCount + lossCount)) * 100;
           lastGameOfYearWinPercentage = winPercentage;
 
-          return {
-            year: Number(year),
-            result,
-            scoreText,
-            opponentId,
-            isHomeGame,
-            y: winPercentage,
-          };
+          return {year: Number(year), result, scoreText, opponentId, isHomeGame, y: winPercentage};
         }
       });
 
@@ -103,22 +96,15 @@ export class WinPercentage extends Component {
       }
     });
 
-    this.state = {
-      data: winPercentageData,
-      yearData: yearWinPercentageData,
-    };
+    this.state = {data: winPercentageData, yearData: yearWinPercentageData};
   }
 
   setTooltip(tooltip) {
-    this.setState({
-      tooltip,
-    });
+    this.setState({tooltip});
   }
 
   setYearTooltip(yearTooltip) {
-    this.setState({
-      yearTooltip,
-    });
+    this.setState({yearTooltip});
   }
 
   getMinValueForKey(data, key) {
@@ -130,12 +116,7 @@ export class WinPercentage extends Component {
   }
 
   componentDidMount() {
-    var margin = {
-      top: 50,
-      right: 50,
-      bottom: 50,
-      left: 50,
-    };
+    var margin = {top: 50, right: 50, bottom: 50, left: 50};
 
     const chartWidth = 1000;
     const chartHeight = 400;

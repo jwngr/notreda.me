@@ -10,24 +10,11 @@
       "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "SMU",
-    "score": {
-      "away": 13,
-      "home": 19
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 19},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "away": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 82
-    }
+    "rankings": {"away": {"ap": 3}},
+    "weather": {"icon": "clear-night", "temperature": 82}
   },
   {
     "result": "W",
@@ -40,24 +27,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "IND",
-    "score": {
-      "away": 6,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "home": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 51
-    }
+    "rankings": {"home": {"ap": 17}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 51}
   },
   {
     "result": "L",
@@ -70,24 +44,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 28,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "home": {
-        "ap": 18
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 61
-    }
+    "rankings": {"home": {"ap": 18}},
+    "weather": {"icon": "clear-night", "temperature": 61}
   },
   {
     "result": "L",
@@ -100,24 +61,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 47,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 47, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 55
-    }
+    "rankings": {"away": {"ap": 2}},
+    "weather": {"icon": "cloudy", "temperature": 55}
   },
   {
     "result": "L",
@@ -130,24 +78,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "OKLA",
-    "score": {
-      "away": 40,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 40, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "fog",
-      "temperature": 35
-    }
+    "rankings": {"away": {"ap": 2}},
+    "weather": {"icon": "fog", "temperature": 35}
   },
   {
     "result": "L",
@@ -160,19 +95,10 @@
       "coordinates": [39.330024, -76.601532]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 7,
-      "home": 33
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 33},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 56
-    }
+    "weather": {"icon": "cloudy", "temperature": 56}
   },
   {
     "result": "L",
@@ -185,24 +111,11 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 13,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "home": {
-        "ap": 20
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 38
-    }
+    "rankings": {"home": {"ap": 20}},
+    "weather": {"icon": "cloudy", "temperature": 38}
   },
   {
     "result": "W",
@@ -215,19 +128,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 14,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 21
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 21}
   },
   {
     "result": "L",
@@ -240,20 +144,10 @@
       "coordinates": [41.658611, -91.551111]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 8,
-      "home": 48
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 8, "home": 48},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    }
+    "rankings": {"home": {"ap": 3}}
   },
   {
     "result": "L",
@@ -266,23 +160,10 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 20,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Terry Brennan",
-    "rankings": {
-      "home": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 53
-    }
+    "rankings": {"home": {"ap": 17}},
+    "weather": {"icon": "clear-night", "temperature": 53}
   }
 ]

@@ -1,782 +1,132 @@
 {
-  "Alabama": {
-    "wins": 7,
-    "losses": 0,
-    "headCoach": "Nick Saban",
-    "salary": 8307000
-  },
-  "Clemson": {
-    "wins": 6,
-    "losses": 0,
-    "headCoach": "Dabo Swinney",
-    "salary": 6543350
-  },
-  "Ohio State": {
-    "wins": 7,
-    "losses": 0,
-    "headCoach": "Urban Meyer",
-    "salary": 7600000
-  },
-  "Georgia": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Kirby Smart",
-    "salary": 6603600
-  },
-  "Penn State": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "James Franklin",
-    "salary": 4800000
-  },
-  "Michigan": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Jim Harbaugh",
-    "salary": 7504000
-  },
-  "Oklahoma": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Lincoln Riley",
-    "salary": 4800000
-  },
-  "Washington": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Chris Petersen",
-    "salary": 4377500
-  },
-  "Notre Dame": {
-    "wins": 7,
-    "losses": 0,
-    "headCoach": "Brian Kelly",
-    "salary": 2129638
-  },
-  "LSU": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Ed Orgeron",
-    "salary": 3500000
-  },
-  "Florida": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Dan Mullen",
-    "salary": 6070000
-  },
-  "Mississippi State": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Joe Moorhead",
-    "salary": 2600000
-  },
-  "Iowa": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Kirk Ferentz",
-    "salary": 4700000
-  },
-  "Texas A&M": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Jimbo Fisher",
-    "salary": 7500000
-  },
-  "Miami": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Mark Richt",
-    "salary": 4058061
-  },
-  "Wisconsin": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Paul Chryst",
-    "salary": 3750000
-  },
-  "Utah": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Kyle Whittingham",
-    "salary": 3787917
-  },
-  "Texas": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Tom Herman",
-    "salary": 5500000
-  },
-  "Michigan State": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Mark Dantonio",
-    "salary": 4390417
-  },
-  "West Virginia": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Dana Holgorsen",
-    "salary": 3617500
-  },
-  "Auburn": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Gus Malzahn",
-    "salary": 6705656
-  },
-  "Stanford": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "David Shaw",
-    "salary": 4311543
-  },
-  "Texas Tech": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Kliff Kingsbury",
-    "salary": 3703975
-  },
-  "Duke": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "David Cutcliffe",
-    "salary": 2540928
-  },
-  "NC State": {
-    "wins": 5,
-    "losses": 0,
-    "headCoach": "Dave Doeren",
-    "salary": 3000000
-  },
-  "Kentucky": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Mark Stoops",
-    "salary": 4013600
-  },
-  "Fresno State": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Jeff Tedford",
-    "salary": 1550000
-  },
-  "Oregon": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Mario Cristobal",
-    "salary": 2500000
-  },
-  "Washington State": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Mike Leach",
-    "salary": 3500000
-  },
-  "Missouri": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Barry Odom",
-    "salary": 2350000
-  },
-  "TCU": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Gary Patterson",
-    "salary": 4840717
-  },
-  "Oklahoma State": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Mike Gundy",
-    "salary": 5000000
-  },
-  "UCF": {
-    "wins": 6,
-    "losses": 0,
-    "headCoach": "Josh Heupel",
-    "salary": 1700000
-  },
-  "South Carolina": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Will Muschamp",
-    "salary": 4200000
-  },
-  "Virginia Tech": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Justin Fuente",
-    "salary": 4000000
-  },
-  "Boise State": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Bryan Harsin",
-    "salary": 1650010
-  },
-  "Appalachian State": {
-    "wins": 4,
-    "losses": 1,
-    "headCoach": "Scott Satterfield",
-    "salary": 712500
-  },
-  "Iowa State": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Matt Campbell",
-    "salary": 3500000
-  },
-  "Utah State": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Matt Wells",
-    "salary": 900000
-  },
-  "USC": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Clay Helton",
-    "salary": 2625965
-  },
-  "Purdue": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Jeff Brohm",
-    "salary": 3800000
-  },
-  "Boston College": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Steve Addazio",
-    "salary": 2514859
-  },
-  "Arizona State": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Herm Edwards",
-    "salary": 2000000
-  },
-  "Syracuse": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Dino Babers",
-    "salary": 2401206
-  },
-  "Northwestern": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Pat Fitzgerald",
-    "salary": 3619775
-  },
-  "Georgia Tech": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Paul Johnson",
-    "salary": 3060018
-  },
-  "Maryland": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "DJ Durkin",
-    "salary": 2512000
-  },
-  "Ole Miss": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Matt Luke",
-    "salary": 3000000
-  },
-  "Memphis": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Mike Norvell",
-    "salary": 2600000
-  },
-  "Colorado": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Mike MacIntyre",
-    "salary": 2878500
-  },
-  "Cincinnati": {
-    "wins": 6,
-    "losses": 0,
-    "headCoach": "Luke Fickell",
-    "salary": 2000000
-  },
-  "Florida State": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Willie Taggart",
-    "salary": 5000000
-  },
-  "Houston": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Major Applewhite",
-    "salary": 1750000
-  },
-  "Baylor": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Matt Rhule",
-    "salary": "Unknown"
-  },
-  "Minnesota": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "P.J. Fleck",
-    "salary": 3550000
-  },
-  "Army": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Jeff Monken",
-    "salary": "Unknown"
-  },
-  "Virginia": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Bronco Mendenhall",
-    "salary": 3550000
-  },
-  "Tennessee": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Jeremy Pruitt",
-    "salary": 3846000
-  },
-  "North Texas": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Seth Littrell",
-    "salary": 1425000
-  },
-  "UCLA": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Chip Kelly",
-    "salary": 3300000
-  },
-  "Kansas State": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Bill Snyder",
-    "salary": 3500000
-  },
-  "Indiana": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Tom Allen",
-    "salary": 1830000
-  },
-  "Arizona": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Kevin Sumlin",
-    "salary": 2000000
-  },
-  "South Florida": {
-    "wins": 6,
-    "losses": 0,
-    "headCoach": "Charlie Strong",
-    "salary": 1000000
-  },
-  "Vanderbilt": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Derek Mason",
-    "salary": 2812523
-  },
-  "San Diego State": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Rocky Long",
-    "salary": 873576
-  },
-  "Cal": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Justin Wilcox",
-    "salary": 1500000
-  },
-  "BYU": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Kalani Sitake",
-    "salary": "Unknown"
-  },
-  "Pittsburgh": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Pat Narduzzi",
-    "salary": 3017718
-  },
-  "Temple": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Geoff Collins",
-    "salary": "Unknown"
-  },
-  "Wake Forest": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Dave Clawson",
-    "salary": 1831580
-  },
-  "Nebraska": {
-    "wins": 0,
-    "losses": 6,
-    "headCoach": "Scott Frost",
-    "salary": 5000000
-  },
-  "Toledo": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Jason Candle",
-    "salary": 1125000
-  },
-  "Louisiana Tech": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Skip Holtz",
-    "salary": 700000
-  },
-  "UAB": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Bill Clark",
-    "salary": 900000
-  },
-  "Air Force": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Troy Calhoun",
-    "salary": "Unknown"
-  },
-  "Western Michigan": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Tim Lester",
-    "salary": 800000
-  },
-  "Kansas": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "David Beaty",
-    "salary": 1701109
-  },
-  "UNC": {
-    "wins": 1,
-    "losses": 4,
-    "headCoach": "Larry Fedora",
-    "salary": 2575000
-  },
-  "Marshall": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Doc Holliday",
-    "salary": 762570
-  },
-  "Northern Illinois": {
-    "wins": 4,
-    "losses": 3,
-    "headCoach": "Rod Carey",
-    "salary": 633460
-  },
-  "Arkansas": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Chad Morris",
-    "salary": 3500000
-  },
-  "Tulane": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Willie Fritz",
-    "salary": 1629000
-  },
-  "Buffalo": {
-    "wins": 6,
-    "losses": 1,
-    "headCoach": "Lance Leipold",
-    "salary": 455500
-  },
-  "Eastern Michigan": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Chris Creighton",
-    "salary": 460000
-  },
-  "Georgia Southern": {
-    "wins": 5,
-    "losses": 1,
-    "headCoach": "Chad Lunsford",
-    "salary": 650000
-  },
-  "Troy": {
-    "wins": 5,
-    "losses": 2,
-    "headCoach": "Neal Brown",
-    "salary": 810000
-  },
-  "Florida Atlantic": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Lane Kiffin",
-    "salary": 1000000
-  },
-  "Florida International": {
-    "wins": 4,
-    "losses": 2,
-    "headCoach": "Butch Davis",
-    "salary": 945000
-  },
-  "Louisville": {
-    "wins": 2,
-    "losses": 5,
-    "headCoach": "Bobby Petrino",
-    "salary": 3980434
-  },
-  "Miami (OH)": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Chuck Martin",
-    "salary": 524826
-  },
-  "Ohio": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Frank Solich",
-    "salary": 580331
-  },
-  "Middle Tennessee": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Rick Stockstill",
-    "salary": 803004
-  },
-  "Arkansas State": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Blake Anderson",
-    "salary": 825000
-  },
-  "Tulsa": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Philip Montgomery",
-    "salary": 1518177
-  },
-  "Nevada": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Jay Norvell",
-    "salary": 500000
-  },
-  "Illinois": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Lovie Smith",
-    "salary": 5000000
-  },
-  "New Mexico": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Bob Davie",
-    "salary": 823740
-  },
-  "Wyoming": {
-    "wins": 2,
-    "losses": 5,
-    "headCoach": "Craig Bohl",
-    "salary": 1412000
-  },
-  "SMU": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Sonny Dykes",
-    "salary": "Unknown"
-  },
-  "Southern Mississippi": {
-    "wins": 2,
-    "losses": 3,
-    "headCoach": "Jay Hopson",
-    "salary": 500000
-  },
-  "Oregon State": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Jonathan Smith",
-    "salary": 1900008
-  },
-  "Navy": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Ken Niumatalolo",
-    "salary": 2163000
-  },
-  "Ball State": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Mike Neu",
-    "salary": 435689
-  },
-  "Akron": {
-    "wins": 2,
-    "losses": 3,
-    "headCoach": "Terry Bowden",
-    "salary": 412500
-  },
-  "Central Michigan": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "John Bonamego",
-    "salary": 655000
-  },
-  "Massachusetts": {
-    "wins": 2,
-    "losses": 5,
-    "headCoach": "Mark Whipple",
-    "salary": 500000
-  },
-  "Hawaii": {
-    "wins": 6,
-    "losses": 2,
-    "headCoach": "Nick Rolovich",
-    "salary": 486504
-  },
-  "Liberty": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Turner Gill",
-    "salary": 947281
-  },
-  "UNLV": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Tony Sanchez",
-    "salary": 600000
-  },
-  "Colorado State": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Mike Bobo",
-    "salary": 1800000
-  },
-  "Louisiana": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Billy Napier",
-    "salary": 850000
-  },
-  "Coastal Carolina": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Joe Moglia",
-    "salary": 400000
-  },
-  "Rutgers": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Chris Ash",
-    "salary": 2200000
-  },
-  "UL Monroe": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Matt Viator",
-    "salary": 390000
-  },
-  "Georgia State": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Shawn Elliott",
-    "salary": 569000
-  },
-  "Western Kentucky": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Mike Sanford Jr.",
-    "salary": 805850
-  },
-  "East Carolina": {
-    "wins": 2,
-    "losses": 4,
-    "headCoach": "Scottie Montgomery",
-    "salary": 1102500
-  },
-  "Charlotte": {
-    "wins": 3,
-    "losses": 3,
-    "headCoach": "Brad Lambert",
-    "salary": 625000
-  },
-  "Old Dominion": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Bobby Wilder",
-    "salary": 654667
-  },
-  "UTSA": {
-    "wins": 3,
-    "losses": 4,
-    "headCoach": "Frank Wilson",
-    "salary": 1100000
-  },
-  "Bowling Green": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Mike Jinks",
-    "salary": 437228
-  },
-  "Kent State": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Sean Lewis",
-    "salary": 440000
-  },
-  "South Alabama": {
-    "wins": 2,
-    "losses": 5,
-    "headCoach": "Steve Campbell",
-    "salary": 600000
-  },
-  "San Jose State": {
-    "wins": 0,
-    "losses": 6,
-    "headCoach": "Brent Brennan",
-    "salary": 590424
-  },
-  "New Mexico State": {
-    "wins": 2,
-    "losses": 5,
-    "headCoach": "Doug Martin",
-    "salary": 419640
-  },
-  "Connecticut": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Randy Edsall",
-    "salary": 1100000
-  },
-  "Texas State": {
-    "wins": 1,
-    "losses": 5,
-    "headCoach": "Everett Withers",
-    "salary": 700000
-  },
-  "UTEP": {
-    "wins": 0,
-    "losses": 6,
-    "headCoach": "Dana Dimel",
-    "salary": 700000
-  },
-  "Rice": {
-    "wins": 1,
-    "losses": 6,
-    "headCoach": "Mike Bloomgren",
-    "salary": "Unknown"
-  }
+  "Alabama": {"wins": 7, "losses": 0, "headCoach": "Nick Saban", "salary": 8307000},
+  "Clemson": {"wins": 6, "losses": 0, "headCoach": "Dabo Swinney", "salary": 6543350},
+  "Ohio State": {"wins": 7, "losses": 0, "headCoach": "Urban Meyer", "salary": 7600000},
+  "Georgia": {"wins": 6, "losses": 1, "headCoach": "Kirby Smart", "salary": 6603600},
+  "Penn State": {"wins": 4, "losses": 2, "headCoach": "James Franklin", "salary": 4800000},
+  "Michigan": {"wins": 6, "losses": 1, "headCoach": "Jim Harbaugh", "salary": 7504000},
+  "Oklahoma": {"wins": 5, "losses": 1, "headCoach": "Lincoln Riley", "salary": 4800000},
+  "Washington": {"wins": 5, "losses": 2, "headCoach": "Chris Petersen", "salary": 4377500},
+  "Notre Dame": {"wins": 7, "losses": 0, "headCoach": "Brian Kelly", "salary": 2129638},
+  "LSU": {"wins": 6, "losses": 1, "headCoach": "Ed Orgeron", "salary": 3500000},
+  "Florida": {"wins": 6, "losses": 1, "headCoach": "Dan Mullen", "salary": 6070000},
+  "Mississippi State": {"wins": 4, "losses": 2, "headCoach": "Joe Moorhead", "salary": 2600000},
+  "Iowa": {"wins": 5, "losses": 1, "headCoach": "Kirk Ferentz", "salary": 4700000},
+  "Texas A&M": {"wins": 5, "losses": 2, "headCoach": "Jimbo Fisher", "salary": 7500000},
+  "Miami": {"wins": 5, "losses": 2, "headCoach": "Mark Richt", "salary": 4058061},
+  "Wisconsin": {"wins": 4, "losses": 2, "headCoach": "Paul Chryst", "salary": 3750000},
+  "Utah": {"wins": 4, "losses": 2, "headCoach": "Kyle Whittingham", "salary": 3787917},
+  "Texas": {"wins": 6, "losses": 1, "headCoach": "Tom Herman", "salary": 5500000},
+  "Michigan State": {"wins": 4, "losses": 2, "headCoach": "Mark Dantonio", "salary": 4390417},
+  "West Virginia": {"wins": 5, "losses": 1, "headCoach": "Dana Holgorsen", "salary": 3617500},
+  "Auburn": {"wins": 4, "losses": 3, "headCoach": "Gus Malzahn", "salary": 6705656},
+  "Stanford": {"wins": 4, "losses": 2, "headCoach": "David Shaw", "salary": 4311543},
+  "Texas Tech": {"wins": 4, "losses": 2, "headCoach": "Kliff Kingsbury", "salary": 3703975},
+  "Duke": {"wins": 5, "losses": 1, "headCoach": "David Cutcliffe", "salary": 2540928},
+  "NC State": {"wins": 5, "losses": 0, "headCoach": "Dave Doeren", "salary": 3000000},
+  "Kentucky": {"wins": 5, "losses": 1, "headCoach": "Mark Stoops", "salary": 4013600},
+  "Fresno State": {"wins": 5, "losses": 1, "headCoach": "Jeff Tedford", "salary": 1550000},
+  "Oregon": {"wins": 5, "losses": 1, "headCoach": "Mario Cristobal", "salary": 2500000},
+  "Washington State": {"wins": 5, "losses": 1, "headCoach": "Mike Leach", "salary": 3500000},
+  "Missouri": {"wins": 3, "losses": 3, "headCoach": "Barry Odom", "salary": 2350000},
+  "TCU": {"wins": 3, "losses": 3, "headCoach": "Gary Patterson", "salary": 4840717},
+  "Oklahoma State": {"wins": 4, "losses": 3, "headCoach": "Mike Gundy", "salary": 5000000},
+  "UCF": {"wins": 6, "losses": 0, "headCoach": "Josh Heupel", "salary": 1700000},
+  "South Carolina": {"wins": 3, "losses": 3, "headCoach": "Will Muschamp", "salary": 4200000},
+  "Virginia Tech": {"wins": 4, "losses": 2, "headCoach": "Justin Fuente", "salary": 4000000},
+  "Boise State": {"wins": 4, "losses": 2, "headCoach": "Bryan Harsin", "salary": 1650010},
+  "Appalachian State": {"wins": 4, "losses": 1, "headCoach": "Scott Satterfield", "salary": 712500},
+  "Iowa State": {"wins": 3, "losses": 3, "headCoach": "Matt Campbell", "salary": 3500000},
+  "Utah State": {"wins": 5, "losses": 1, "headCoach": "Matt Wells", "salary": 900000},
+  "USC": {"wins": 4, "losses": 2, "headCoach": "Clay Helton", "salary": 2625965},
+  "Purdue": {"wins": 3, "losses": 3, "headCoach": "Jeff Brohm", "salary": 3800000},
+  "Boston College": {"wins": 5, "losses": 2, "headCoach": "Steve Addazio", "salary": 2514859},
+  "Arizona State": {"wins": 3, "losses": 3, "headCoach": "Herm Edwards", "salary": 2000000},
+  "Syracuse": {"wins": 4, "losses": 2, "headCoach": "Dino Babers", "salary": 2401206},
+  "Northwestern": {"wins": 3, "losses": 3, "headCoach": "Pat Fitzgerald", "salary": 3619775},
+  "Georgia Tech": {"wins": 3, "losses": 4, "headCoach": "Paul Johnson", "salary": 3060018},
+  "Maryland": {"wins": 4, "losses": 2, "headCoach": "DJ Durkin", "salary": 2512000},
+  "Ole Miss": {"wins": 5, "losses": 2, "headCoach": "Matt Luke", "salary": 3000000},
+  "Memphis": {"wins": 4, "losses": 3, "headCoach": "Mike Norvell", "salary": 2600000},
+  "Colorado": {"wins": 5, "losses": 1, "headCoach": "Mike MacIntyre", "salary": 2878500},
+  "Cincinnati": {"wins": 6, "losses": 0, "headCoach": "Luke Fickell", "salary": 2000000},
+  "Florida State": {"wins": 3, "losses": 3, "headCoach": "Willie Taggart", "salary": 5000000},
+  "Houston": {"wins": 5, "losses": 1, "headCoach": "Major Applewhite", "salary": 1750000},
+  "Baylor": {"wins": 4, "losses": 3, "headCoach": "Matt Rhule", "salary": "Unknown"},
+  "Minnesota": {"wins": 3, "losses": 3, "headCoach": "P.J. Fleck", "salary": 3550000},
+  "Army": {"wins": 4, "losses": 2, "headCoach": "Jeff Monken", "salary": "Unknown"},
+  "Virginia": {"wins": 4, "losses": 2, "headCoach": "Bronco Mendenhall", "salary": 3550000},
+  "Tennessee": {"wins": 3, "losses": 3, "headCoach": "Jeremy Pruitt", "salary": 3846000},
+  "North Texas": {"wins": 6, "losses": 1, "headCoach": "Seth Littrell", "salary": 1425000},
+  "UCLA": {"wins": 1, "losses": 5, "headCoach": "Chip Kelly", "salary": 3300000},
+  "Kansas State": {"wins": 3, "losses": 4, "headCoach": "Bill Snyder", "salary": 3500000},
+  "Indiana": {"wins": 4, "losses": 3, "headCoach": "Tom Allen", "salary": 1830000},
+  "Arizona": {"wins": 3, "losses": 4, "headCoach": "Kevin Sumlin", "salary": 2000000},
+  "South Florida": {"wins": 6, "losses": 0, "headCoach": "Charlie Strong", "salary": 1000000},
+  "Vanderbilt": {"wins": 3, "losses": 4, "headCoach": "Derek Mason", "salary": 2812523},
+  "San Diego State": {"wins": 5, "losses": 1, "headCoach": "Rocky Long", "salary": 873576},
+  "Cal": {"wins": 3, "losses": 3, "headCoach": "Justin Wilcox", "salary": 1500000},
+  "BYU": {"wins": 4, "losses": 3, "headCoach": "Kalani Sitake", "salary": "Unknown"},
+  "Pittsburgh": {"wins": 3, "losses": 4, "headCoach": "Pat Narduzzi", "salary": 3017718},
+  "Temple": {"wins": 4, "losses": 3, "headCoach": "Geoff Collins", "salary": "Unknown"},
+  "Wake Forest": {"wins": 3, "losses": 3, "headCoach": "Dave Clawson", "salary": 1831580},
+  "Nebraska": {"wins": 0, "losses": 6, "headCoach": "Scott Frost", "salary": 5000000},
+  "Toledo": {"wins": 3, "losses": 3, "headCoach": "Jason Candle", "salary": 1125000},
+  "Louisiana Tech": {"wins": 4, "losses": 2, "headCoach": "Skip Holtz", "salary": 700000},
+  "UAB": {"wins": 5, "losses": 1, "headCoach": "Bill Clark", "salary": 900000},
+  "Air Force": {"wins": 2, "losses": 4, "headCoach": "Troy Calhoun", "salary": "Unknown"},
+  "Western Michigan": {"wins": 5, "losses": 2, "headCoach": "Tim Lester", "salary": 800000},
+  "Kansas": {"wins": 2, "losses": 4, "headCoach": "David Beaty", "salary": 1701109},
+  "UNC": {"wins": 1, "losses": 4, "headCoach": "Larry Fedora", "salary": 2575000},
+  "Marshall": {"wins": 4, "losses": 2, "headCoach": "Doc Holliday", "salary": 762570},
+  "Northern Illinois": {"wins": 4, "losses": 3, "headCoach": "Rod Carey", "salary": 633460},
+  "Arkansas": {"wins": 1, "losses": 6, "headCoach": "Chad Morris", "salary": 3500000},
+  "Tulane": {"wins": 2, "losses": 4, "headCoach": "Willie Fritz", "salary": 1629000},
+  "Buffalo": {"wins": 6, "losses": 1, "headCoach": "Lance Leipold", "salary": 455500},
+  "Eastern Michigan": {"wins": 3, "losses": 4, "headCoach": "Chris Creighton", "salary": 460000},
+  "Georgia Southern": {"wins": 5, "losses": 1, "headCoach": "Chad Lunsford", "salary": 650000},
+  "Troy": {"wins": 5, "losses": 2, "headCoach": "Neal Brown", "salary": 810000},
+  "Florida Atlantic": {"wins": 3, "losses": 3, "headCoach": "Lane Kiffin", "salary": 1000000},
+  "Florida International": {"wins": 4, "losses": 2, "headCoach": "Butch Davis", "salary": 945000},
+  "Louisville": {"wins": 2, "losses": 5, "headCoach": "Bobby Petrino", "salary": 3980434},
+  "Miami (OH)": {"wins": 3, "losses": 4, "headCoach": "Chuck Martin", "salary": 524826},
+  "Ohio": {"wins": 3, "losses": 3, "headCoach": "Frank Solich", "salary": 580331},
+  "Middle Tennessee": {"wins": 3, "losses": 3, "headCoach": "Rick Stockstill", "salary": 803004},
+  "Arkansas State": {"wins": 3, "losses": 3, "headCoach": "Blake Anderson", "salary": 825000},
+  "Tulsa": {"wins": 1, "losses": 5, "headCoach": "Philip Montgomery", "salary": 1518177},
+  "Nevada": {"wins": 3, "losses": 4, "headCoach": "Jay Norvell", "salary": 500000},
+  "Illinois": {"wins": 3, "losses": 3, "headCoach": "Lovie Smith", "salary": 5000000},
+  "New Mexico": {"wins": 3, "losses": 3, "headCoach": "Bob Davie", "salary": 823740},
+  "Wyoming": {"wins": 2, "losses": 5, "headCoach": "Craig Bohl", "salary": 1412000},
+  "SMU": {"wins": 2, "losses": 4, "headCoach": "Sonny Dykes", "salary": "Unknown"},
+  "Southern Mississippi": {"wins": 2, "losses": 3, "headCoach": "Jay Hopson", "salary": 500000},
+  "Oregon State": {"wins": 1, "losses": 5, "headCoach": "Jonathan Smith", "salary": 1900008},
+  "Navy": {"wins": 2, "losses": 4, "headCoach": "Ken Niumatalolo", "salary": 2163000},
+  "Ball State": {"wins": 3, "losses": 4, "headCoach": "Mike Neu", "salary": 435689},
+  "Akron": {"wins": 2, "losses": 3, "headCoach": "Terry Bowden", "salary": 412500},
+  "Central Michigan": {"wins": 1, "losses": 6, "headCoach": "John Bonamego", "salary": 655000},
+  "Massachusetts": {"wins": 2, "losses": 5, "headCoach": "Mark Whipple", "salary": 500000},
+  "Hawaii": {"wins": 6, "losses": 2, "headCoach": "Nick Rolovich", "salary": 486504},
+  "Liberty": {"wins": 3, "losses": 3, "headCoach": "Turner Gill", "salary": 947281},
+  "UNLV": {"wins": 2, "losses": 4, "headCoach": "Tony Sanchez", "salary": 600000},
+  "Colorado State": {"wins": 3, "losses": 4, "headCoach": "Mike Bobo", "salary": 1800000},
+  "Louisiana": {"wins": 3, "losses": 3, "headCoach": "Billy Napier", "salary": 850000},
+  "Coastal Carolina": {"wins": 3, "losses": 3, "headCoach": "Joe Moglia", "salary": 400000},
+  "Rutgers": {"wins": 1, "losses": 6, "headCoach": "Chris Ash", "salary": 2200000},
+  "UL Monroe": {"wins": 3, "losses": 4, "headCoach": "Matt Viator", "salary": 390000},
+  "Georgia State": {"wins": 2, "losses": 4, "headCoach": "Shawn Elliott", "salary": 569000},
+  "Western Kentucky": {"wins": 1, "losses": 5, "headCoach": "Mike Sanford Jr.", "salary": 805850},
+  "East Carolina": {"wins": 2, "losses": 4, "headCoach": "Scottie Montgomery", "salary": 1102500},
+  "Charlotte": {"wins": 3, "losses": 3, "headCoach": "Brad Lambert", "salary": 625000},
+  "Old Dominion": {"wins": 1, "losses": 6, "headCoach": "Bobby Wilder", "salary": 654667},
+  "UTSA": {"wins": 3, "losses": 4, "headCoach": "Frank Wilson", "salary": 1100000},
+  "Bowling Green": {"wins": 1, "losses": 6, "headCoach": "Mike Jinks", "salary": 437228},
+  "Kent State": {"wins": 1, "losses": 6, "headCoach": "Sean Lewis", "salary": 440000},
+  "South Alabama": {"wins": 2, "losses": 5, "headCoach": "Steve Campbell", "salary": 600000},
+  "San Jose State": {"wins": 0, "losses": 6, "headCoach": "Brent Brennan", "salary": 590424},
+  "New Mexico State": {"wins": 2, "losses": 5, "headCoach": "Doug Martin", "salary": 419640},
+  "Connecticut": {"wins": 1, "losses": 5, "headCoach": "Randy Edsall", "salary": 1100000},
+  "Texas State": {"wins": 1, "losses": 5, "headCoach": "Everett Withers", "salary": 700000},
+  "UTEP": {"wins": 0, "losses": 6, "headCoach": "Dana Dimel", "salary": 700000},
+  "Rice": {"wins": 1, "losses": 6, "headCoach": "Mike Bloomgren", "salary": "Unknown"}
 }

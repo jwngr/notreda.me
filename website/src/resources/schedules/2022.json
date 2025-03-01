@@ -13,23 +13,10 @@
     "espnGameId": 401404124,
     "highlightsYouTubeVideoId": "MhB6Ot_LmaU",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
     },
-    "weather": {
-      "icon": "04d",
-      "temperature": 72
-    },
+    "weather": {"icon": "04d", "temperature": 72},
     "headCoach": "Marcus Freeman",
     "stats": {
       "away": {
@@ -75,25 +62,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 21,
-      "away": 10
-    },
-    "linescore": {
-      "away": [3, 7, 0, 0],
-      "home": [7, 0, 7, 7]
-    },
+    "score": {"home": 21, "away": 10},
+    "linescore": {"away": [3, 7, 0, 0], "home": [7, 0, 7, 7]},
     "result": "L",
-    "rankings": {
-      "away": {
-        "ap": 5,
-        "coaches": 5
-      },
-      "home": {
-        "ap": 2,
-        "coaches": 2
-      }
-    }
+    "rankings": {"away": {"ap": 5, "coaches": 5}, "home": {"ap": 2, "coaches": 2}}
   },
   {
     "isHomeGame": true,
@@ -109,23 +81,10 @@
     "espnGameId": 401404125,
     "highlightsYouTubeVideoId": "-lKT5W6Gna8",
     "records": {
-      "home": {
-        "overall": "0-2",
-        "home": "0-1",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "0-2", "home": "0-1", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"}
     },
-    "weather": {
-      "icon": "02d",
-      "temperature": 85
-    },
+    "weather": {"icon": "02d", "temperature": 85},
     "headCoach": "Marcus Freeman",
     "stats": {
       "away": {
@@ -171,21 +130,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 21,
-      "away": 26
-    },
-    "linescore": {
-      "away": [0, 9, 3, 14],
-      "home": [0, 7, 0, 14]
-    },
+    "score": {"home": 21, "away": 26},
+    "linescore": {"away": [0, 9, 3, 14], "home": [0, 7, 0, 14]},
     "result": "L",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 9
-      }
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 9}}
   },
   {
     "isHomeGame": true,
@@ -201,18 +149,8 @@
     "espnGameId": 401403987,
     "highlightsYouTubeVideoId": "JqiAff12i14",
     "records": {
-      "home": {
-        "overall": "1-2",
-        "home": "1-1",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-1",
-        "home": "2-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-1", "home": "2-0", "away": "0-1", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -259,14 +197,8 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 24,
-      "away": 17
-    },
-    "linescore": {
-      "away": [0, 10, 7, 0],
-      "home": [0, 7, 7, 10]
-    },
+    "score": {"home": 24, "away": 17},
+    "linescore": {"away": [0, 10, 7, 0], "home": [0, 7, 7, 10]},
     "result": "W"
   },
   {
@@ -283,18 +215,8 @@
     "espnGameId": 401404126,
     "highlightsYouTubeVideoId": "4lsV8AQuhHw",
     "records": {
-      "home": {
-        "overall": "3-1",
-        "home": "1-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-2",
-        "home": "1-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-1", "home": "1-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "2-2", "home": "1-1", "away": "1-1", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -341,14 +263,8 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 32,
-      "away": 45
-    },
-    "linescore": {
-      "away": [0, 24, 14, 7],
-      "home": [7, 7, 6, 12]
-    },
+    "score": {"home": 32, "away": 45},
+    "linescore": {"away": [0, 24, 14, 7], "home": [7, 7, 6, 12]},
     "result": "W"
   },
   {
@@ -367,18 +283,8 @@
     "espnGameId": 401404127,
     "highlightsYouTubeVideoId": "4zSw-LQ6Ge4",
     "records": {
-      "home": {
-        "overall": "3-2",
-        "home": "1-1",
-        "away": "1-1",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "4-2",
-        "home": "3-0",
-        "away": "1-1",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "3-2", "home": "1-1", "away": "1-1", "neutral": "1-0"},
+      "away": {"overall": "4-2", "home": "3-0", "away": "1-1", "neutral": "0-1"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -425,21 +331,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 28,
-      "away": 20
-    },
-    "linescore": {
-      "away": [6, 0, 7, 7],
-      "home": [3, 15, 7, 3]
-    },
+    "score": {"home": 28, "away": 20},
+    "linescore": {"away": [6, 0, 7, 7], "home": [3, 15, 7, 3]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 16,
-        "coaches": 16
-      }
-    }
+    "rankings": {"away": {"ap": 16, "coaches": 16}}
   },
   {
     "isHomeGame": true,
@@ -455,18 +350,8 @@
     "espnGameId": 401404016,
     "highlightsYouTubeVideoId": "FL8neZUGl_k",
     "records": {
-      "home": {
-        "overall": "3-3",
-        "home": "1-2",
-        "away": "1-1",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "2-4",
-        "home": "1-2",
-        "away": "1-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-3", "home": "1-2", "away": "1-1", "neutral": "1-0"},
+      "away": {"overall": "2-4", "home": "1-2", "away": "1-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -513,14 +398,8 @@
         "fumbles": 3
       }
     },
-    "score": {
-      "home": 14,
-      "away": 16
-    },
-    "linescore": {
-      "away": [7, 3, 3, 3],
-      "home": [0, 0, 7, 7]
-    },
+    "score": {"home": 14, "away": 16},
+    "linescore": {"away": [7, 3, 3, 3], "home": [0, 0, 7, 7]},
     "result": "L"
   },
   {
@@ -537,18 +416,8 @@
     "espnGameId": 401404128,
     "highlightsYouTubeVideoId": "cbaP_q4Mitc",
     "records": {
-      "home": {
-        "overall": "4-3",
-        "home": "2-2",
-        "away": "1-1",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "4-4",
-        "home": "3-1",
-        "away": "1-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-3", "home": "2-2", "away": "1-1", "neutral": "1-0"},
+      "away": {"overall": "4-4", "home": "3-1", "away": "1-3", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -595,14 +464,8 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 44,
-      "away": 21
-    },
-    "linescore": {
-      "away": [7, 0, 7, 7],
-      "home": [23, 7, 0, 14]
-    },
+    "score": {"home": 44, "away": 21},
+    "linescore": {"away": [7, 0, 7, 7], "home": [23, 7, 0, 14]},
     "result": "W"
   },
   {
@@ -619,18 +482,8 @@
     "espnGameId": 401404129,
     "highlightsYouTubeVideoId": "vLurozYmDrU",
     "records": {
-      "home": {
-        "overall": "6-2",
-        "home": "5-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "5-3",
-        "home": "2-2",
-        "away": "2-1",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "6-2", "home": "5-1", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "5-3", "home": "2-2", "away": "2-1", "neutral": "1-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -677,21 +530,10 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 24,
-      "away": 41
-    },
-    "linescore": {
-      "away": [7, 14, 3, 17],
-      "home": [7, 0, 10, 7]
-    },
+    "score": {"home": 24, "away": 41},
+    "linescore": {"away": [7, 14, 3, 17], "home": [7, 0, 10, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 16,
-        "coaches": 16
-      }
-    }
+    "rankings": {"home": {"ap": 16, "coaches": 16}}
   },
   {
     "isHomeGame": true,
@@ -707,18 +549,8 @@
     "espnGameId": 401404130,
     "highlightsYouTubeVideoId": "rML8eHvbq9g",
     "records": {
-      "home": {
-        "overall": "6-3",
-        "home": "3-2",
-        "away": "2-1",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "8-1",
-        "home": "4-0",
-        "away": "4-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-3", "home": "3-2", "away": "2-1", "neutral": "1-0"},
+      "away": {"overall": "8-1", "home": "4-0", "away": "4-1", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -765,22 +597,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 35,
-      "away": 14
-    },
-    "linescore": {
-      "away": [0, 0, 0, 14],
-      "home": [7, 7, 0, 21]
-    },
+    "score": {"home": 35, "away": 14},
+    "linescore": {"away": [0, 0, 0, 14], "home": [7, 7, 0, 21]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 5,
-        "coaches": 5,
-        "cfbPlayoff": 4
-      }
-    }
+    "rankings": {"away": {"ap": 5, "coaches": 5, "cfbPlayoff": 4}}
   },
   {
     "isHomeGame": false,
@@ -797,18 +617,8 @@
     "espnGameId": 401404131,
     "highlightsYouTubeVideoId": "TdMXUKH08JY",
     "records": {
-      "home": {
-        "overall": "3-7",
-        "home": "2-3",
-        "away": "1-3",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "7-3",
-        "home": "3-2",
-        "away": "2-1",
-        "neutral": "2-0"
-      }
+      "home": {"overall": "3-7", "home": "2-3", "away": "1-3", "neutral": "0-1"},
+      "away": {"overall": "7-3", "home": "3-2", "away": "2-1", "neutral": "2-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -855,22 +665,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 32,
-      "away": 35
-    },
-    "linescore": {
-      "away": [14, 21, 0, 0],
-      "home": [6, 7, 3, 16]
-    },
+    "score": {"home": 32, "away": 35},
+    "linescore": {"away": [14, 21, 0, 0], "home": [6, 7, 3, 16]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 20,
-        "coaches": 25,
-        "cfbPlayoff": 20
-      }
-    }
+    "rankings": {"away": {"ap": 20, "coaches": 25, "cfbPlayoff": 20}}
   },
   {
     "isHomeGame": true,
@@ -886,18 +684,8 @@
     "espnGameId": 401404132,
     "highlightsYouTubeVideoId": "ca862G0S9X8",
     "records": {
-      "home": {
-        "overall": "8-3",
-        "home": "4-2",
-        "away": "2-1",
-        "neutral": "2-0"
-      },
-      "away": {
-        "overall": "3-8",
-        "home": "2-3",
-        "away": "1-5",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "8-3", "home": "4-2", "away": "2-1", "neutral": "2-0"},
+      "away": {"overall": "3-8", "home": "2-3", "away": "1-5", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -944,22 +732,10 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 44,
-      "away": 0
-    },
-    "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [17, 20, 7, 0]
-    },
+    "score": {"home": 44, "away": 0},
+    "linescore": {"away": [0, 0, 0, 0], "home": [17, 20, 7, 0]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 18,
-        "coaches": 19,
-        "cfbPlayoff": 18
-      }
-    }
+    "rankings": {"home": {"ap": 18, "coaches": 19, "cfbPlayoff": 18}}
   },
   {
     "isHomeGame": false,
@@ -975,18 +751,8 @@
     "espnGameId": 401404133,
     "highlightsYouTubeVideoId": "QUk_YW2JX2o",
     "records": {
-      "home": {
-        "overall": "11-1",
-        "home": "7-0",
-        "away": "4-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "8-4",
-        "home": "4-2",
-        "away": "2-2",
-        "neutral": "2-0"
-      }
+      "home": {"overall": "11-1", "home": "7-0", "away": "4-1", "neutral": "0-0"},
+      "away": {"overall": "8-4", "home": "4-2", "away": "2-2", "neutral": "2-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1033,26 +799,12 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 38,
-      "away": 27
-    },
-    "linescore": {
-      "away": [0, 7, 7, 13],
-      "home": [10, 7, 7, 14]
-    },
+    "score": {"home": 38, "away": 27},
+    "linescore": {"away": [0, 7, 7, 13], "home": [10, 7, 7, 14]},
     "result": "L",
     "rankings": {
-      "away": {
-        "ap": 19,
-        "coaches": 19,
-        "cfbPlayoff": 15
-      },
-      "home": {
-        "ap": 4,
-        "coaches": 4,
-        "cfbPlayoff": 6
-      }
+      "away": {"ap": 19, "coaches": 19, "cfbPlayoff": 15},
+      "home": {"ap": 4, "coaches": 4, "cfbPlayoff": 6}
     }
   },
   {
@@ -1072,18 +824,8 @@
     "espnGameId": 401442036,
     "highlightsYouTubeVideoId": "7zF9AgP8_9E",
     "records": {
-      "home": {
-        "overall": "8-5",
-        "home": "5-2",
-        "away": "3-2",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "9-4",
-        "home": "4-2",
-        "away": "2-2",
-        "neutral": "3-0"
-      }
+      "home": {"overall": "8-5", "home": "5-2", "away": "3-2", "neutral": "0-1"},
+      "away": {"overall": "9-4", "home": "4-2", "away": "2-2", "neutral": "3-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1130,26 +872,12 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 38,
-      "away": 45
-    },
-    "linescore": {
-      "away": [7, 10, 14, 14],
-      "home": [21, 3, 7, 7]
-    },
+    "score": {"home": 38, "away": 45},
+    "linescore": {"away": [7, 10, 14, 14], "home": [21, 3, 7, 7]},
     "result": "W",
     "rankings": {
-      "away": {
-        "ap": 19,
-        "coaches": 20,
-        "cfbPlayoff": 21
-      },
-      "home": {
-        "ap": 20,
-        "coaches": 19,
-        "cfbPlayoff": 19
-      }
+      "away": {"ap": 19, "coaches": 20, "cfbPlayoff": 21},
+      "home": {"ap": 20, "coaches": 19, "cfbPlayoff": 19}
     }
   }
 ]

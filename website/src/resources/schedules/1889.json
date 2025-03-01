@@ -3,20 +3,10 @@
     "result": "W",
     "isHomeGame": false,
     "date": "11/14/1889",
-    "location": {
-      "city": "Evanston",
-      "state": "IL",
-      "coordinates": [42.052158, -87.687866]
-    },
+    "location": {"city": "Evanston", "state": "IL", "coordinates": [42.052158, -87.687866]},
     "opponentId": "NW",
-    "score": {
-      "away": 9,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 9, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "No coach"
   }
 ]

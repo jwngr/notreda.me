@@ -372,10 +372,7 @@ export const fetchStatsForGame = async (
     });
 
   return {
-    stats: {
-      away: awayStats as TeamStats,
-      home: homeStats as TeamStats,
-    },
+    stats: {away: awayStats as TeamStats, home: homeStats as TeamStats},
     score: {
       home: linescore.home.reduce((sum, n) => sum + n, 0),
       away: linescore.away.reduce((sum, n) => sum + n, 0),

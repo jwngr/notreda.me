@@ -52,9 +52,7 @@ export function validateMiscellaneous(
       assert(
         isNonEmptyString(highlightsYouTubeVideoId) || isLatestGameCompletedGame,
         'Completed game must have a highlights video ID.',
-        {
-          highlightsYouTubeVideoId,
-        }
+        {highlightsYouTubeVideoId}
       );
     }
 
@@ -150,17 +148,13 @@ export function validateMiscellaneous(
     assert(
       typeof isVacatedWin === 'undefined',
       'Future games should not have a vacated win boolean.',
-      {
-        isVacatedWin,
-      }
+      {isVacatedWin}
     );
 
     assert(
       typeof highlightsYouTubeVideoId === 'undefined',
       'Future games should not have a highlights video ID.',
-      {
-        highlightsYouTubeVideoId,
-      }
+      {highlightsYouTubeVideoId}
     );
 
     if (season > CURRENT_SEASON) {

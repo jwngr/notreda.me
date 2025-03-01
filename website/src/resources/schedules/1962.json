@@ -10,19 +10,10 @@
       "coordinates": [35.205196, -97.44276]
     },
     "opponentId": "OKLA",
-    "score": {
-      "away": 13,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 61
-    }
+    "weather": {"icon": "clear-night", "temperature": 61}
   },
   {
     "result": "L",
@@ -35,19 +26,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 24,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "fog",
-      "temperature": 49
-    }
+    "weather": {"icon": "fog", "temperature": 49}
   },
   {
     "result": "L",
@@ -60,19 +42,10 @@
       "coordinates": [43.069885, -89.412619]
     },
     "opponentId": "WIS",
-    "score": {
-      "away": 8,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 8, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 41
-    }
+    "weather": {"icon": "clear-night", "temperature": 41}
   },
   {
     "result": "L",
@@ -85,19 +58,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 31,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 31, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 59
-    }
+    "weather": {"icon": "cloudy", "temperature": 59}
   },
   {
     "result": "L",
@@ -110,24 +74,11 @@
       "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 6,
-      "home": 35
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 35},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 36
-    }
+    "rankings": {"home": {"ap": 3}},
+    "weather": {"icon": "cloudy", "temperature": 36}
   },
   {
     "result": "W",
@@ -140,19 +91,10 @@
       "coordinates": [39.9014, -75.1719]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 12,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 12, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 46
-    }
+    "weather": {"icon": "cloudy", "temperature": 46}
   },
   {
     "result": "W",
@@ -165,19 +107,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 22,
-      "home": 43
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 22, "home": 43},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 41
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 41}
   },
   {
     "result": "W",
@@ -190,19 +123,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 7,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "rain",
-      "temperature": 37
-    }
+    "weather": {"icon": "rain", "temperature": 37}
   },
   {
     "result": "W",
@@ -215,19 +139,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 12,
-      "home": 35
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 12, "home": 35},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 38
-    }
+    "weather": {"icon": "cloudy", "temperature": 38}
   },
   {
     "result": "L",
@@ -240,23 +155,10 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 0,
-      "home": 25
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 25},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 52
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "clear-night", "temperature": 52}
   }
 ]

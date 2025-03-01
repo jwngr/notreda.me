@@ -20,9 +20,7 @@ const DEFAULT_MARGINS_SMALL = {top: 20, right: 10, bottom: 50, left: 60};
 const LINE_CHART_BORDER_WIDTH = 6;
 
 export class LineChart extends Component {
-  state = {
-    tooltip: null,
-  };
+  state = {tooltip: null};
 
   constructor(props) {
     super(props);
@@ -34,16 +32,11 @@ export class LineChart extends Component {
   }
 
   setTooltip(tooltip) {
-    this.setState({
-      tooltip,
-    });
+    this.setState({tooltip});
   }
 
   handleMouseMove = (event) => {
-    this.mouse = {
-      x: event.pageX,
-      y: event.pageY,
-    };
+    this.mouse = {x: event.pageX, y: event.pageY};
   };
 
   getMargins = () => {
@@ -249,11 +242,7 @@ export class LineChart extends Component {
           if (this.mouse) {
             // It is possible for the mouse to initially be on a spot which should show a tooltip,
             // so simply ignore that case.
-            this.setTooltip({
-              x: this.mouse.x,
-              y: this.mouse.y,
-              children: d.tooltipChildren,
-            });
+            this.setTooltip({x: this.mouse.x, y: this.mouse.y, children: d.tooltipChildren});
           }
         })
         .on('mouseout', () => {

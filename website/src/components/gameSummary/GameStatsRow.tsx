@@ -167,18 +167,12 @@ export const GameStatsRow: React.FC<{
 
   let awayStyles = {};
   if (isAwayHighlighted) {
-    awayStyles = {
-      color: awayTeam.color || DEFAULT_TEAM_COLOR,
-      fontWeight: 'bold',
-    };
+    awayStyles = {color: awayTeam.color || DEFAULT_TEAM_COLOR, fontWeight: 'bold'};
   }
 
   let homeStyles = {};
   if (isHomeHighlighted) {
-    homeStyles = {
-      color: homeTeam.color || DEFAULT_TEAM_COLOR,
-      fontWeight: 'bold',
-    };
+    homeStyles = {color: homeTeam.color || DEFAULT_TEAM_COLOR, fontWeight: 'bold'};
   }
 
   // TODO: Make stat names more typesafe.

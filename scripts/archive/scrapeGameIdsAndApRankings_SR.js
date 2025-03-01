@@ -47,11 +47,7 @@ const promises = years.map((year) => {
         }
       });
 
-      return {
-        gameIds,
-        opponentApRankings,
-        notreDameApRankings,
-      };
+      return {gameIds, opponentApRankings, notreDameApRankings};
     })
     .catch((error) => {
       logger.error(`Error fetching game IDs and AP rankings for ${year}`, {error});
@@ -72,21 +68,13 @@ Promise.all(promises)
         if (result.notreDameApRankings[j] || result.opponentApRankings[j]) {
           if (gameData.isHomeGame) {
             gameData.rankings = {
-              home: {
-                ap: result.notreDameApRankings[j],
-              },
-              away: {
-                ap: result.opponentApRankings[j],
-              },
+              home: {ap: result.notreDameApRankings[j]},
+              away: {ap: result.opponentApRankings[j]},
             };
           } else {
             gameData.rankings = {
-              home: {
-                ap: result.opponentApRankings[j],
-              },
-              away: {
-                ap: result.notreDameApRankings[j],
-              },
+              home: {ap: result.opponentApRankings[j]},
+              away: {ap: result.notreDameApRankings[j]},
             };
           }
 

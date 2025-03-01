@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ALMA",
-    "score": {
-      "away": 0,
-      "home": 56
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 56},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ROSE",
-    "score": {
-      "away": 0,
-      "home": 103
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 103},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -52,34 +40,18 @@
       "coordinates": [41.308951, -72.959073]
     },
     "opponentId": "YALE",
-    "score": {
-      "away": 0,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "10/24/1914",
-    "location": {
-      "city": "Sioux Falls",
-      "state": "SD",
-      "coordinates": [43.541686, -96.732403]
-    },
+    "location": {"city": "Sioux Falls", "state": "SD", "coordinates": [43.541686, -96.732403]},
     "opponentId": "SD",
-    "score": {
-      "away": 0,
-      "home": 33
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 33},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -93,14 +65,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "HASK",
-    "score": {
-      "away": 7,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -114,14 +80,8 @@
       "coordinates": [41.392624, -73.956769]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 7,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -135,14 +95,8 @@
       "coordinates": [41.832, -87.634]
     },
     "opponentId": "CARL",
-    "score": {
-      "away": 6,
-      "home": 48
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 48},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -156,14 +110,8 @@
       "coordinates": [43.036172, -76.136574]
     },
     "opponentId": "SYR",
-    "score": {
-      "away": 20,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   }
 ]

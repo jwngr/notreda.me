@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "GOSH",
-    "score": {
-      "away": 0,
-      "home": 55
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 55},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ENG",
-    "score": {
-      "away": 0,
-      "home": 68
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 68},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -52,14 +40,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "SB-HP",
-    "score": {
-      "away": 0,
-      "home": 64
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 64},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -73,34 +55,18 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "CINCY",
-    "score": {
-      "away": 0,
-      "home": 58
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 58},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "10/25/1900",
-    "location": {
-      "city": "Bloomington",
-      "state": "IN",
-      "coordinates": [39.166592, -86.534889]
-    },
+    "location": {"city": "Bloomington", "state": "IN", "coordinates": [39.166592, -86.534889]},
     "opponentId": "IND",
-    "score": {
-      "away": 0,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -114,54 +80,28 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "BEL",
-    "score": {
-      "away": 6,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/10/1900",
-    "location": {
-      "city": "Madison",
-      "state": "WI",
-      "coordinates": [43.073051, -89.40123]
-    },
+    "location": {"city": "Madison", "state": "WI", "coordinates": [43.073051, -89.40123]},
     "opponentId": "WIS",
-    "score": {
-      "away": 0,
-      "home": 54
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 54},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "11/17/1900",
-    "location": {
-      "city": "Ann Arbor",
-      "state": "MI",
-      "coordinates": [42.281422, -83.748482]
-    },
+    "location": {"city": "Ann Arbor", "state": "MI", "coordinates": [42.281422, -83.748482]},
     "opponentId": "MICH",
-    "score": {
-      "away": 0,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -175,14 +115,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "RUSH",
-    "score": {
-      "away": 0,
-      "home": 5
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 5},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   },
   {
@@ -196,14 +130,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "CHI-P&S",
-    "score": {
-      "away": 0,
-      "home": 5
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 5},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Pat O'Dea"
   }
 ]

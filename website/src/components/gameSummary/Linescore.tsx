@@ -10,9 +10,7 @@ import {TeamId} from '../../models/teams.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {YouTubeIcon} from '../common/YouTubeIcon';
 
-const LinescoreWrapper = styled(FlexRow).attrs({
-  justify: 'space-around',
-})`
+const LinescoreWrapper = styled(FlexRow).attrs({justify: 'space-around'})`
   width: 100%;
   padding-right: 8px;
   margin-top: 32px;
@@ -113,18 +111,11 @@ export const Linescore: React.FC<{
     return null;
   }
 
-  const homeTeamColorStyles = {
-    color: homeTeam.color || DEFAULT_TEAM_COLOR,
-  };
+  const homeTeamColorStyles = {color: homeTeam.color || DEFAULT_TEAM_COLOR};
 
-  const awayTeamColorStyles = {
-    color: awayTeam.color || DEFAULT_TEAM_COLOR,
-  };
+  const awayTeamColorStyles = {color: awayTeam.color || DEFAULT_TEAM_COLOR};
 
-  const totalScores = {
-    home: 0,
-    away: 0,
-  };
+  const totalScores = {home: 0, away: 0};
 
   const numQuarters = linescore.home.length;
   const quarterScoreColumns = range(0, numQuarters).map((i) => {

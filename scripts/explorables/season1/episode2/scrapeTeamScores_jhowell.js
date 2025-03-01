@@ -32,9 +32,7 @@ const scrapeTeamUrls = async () => {
 
   logger.info(`Scraping team URLs...`);
 
-  await page.goto(url, {
-    waitUntil: 'networkidle2',
-  });
+  await page.goto(url, {waitUntil: 'networkidle2'});
 
   const teamUrls = [];
 
@@ -55,9 +53,7 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
 
   logger.info(`Scraping historical scores for ${teamName}...`);
 
-  await page.goto(teamUrl, {
-    waitUntil: 'networkidle2',
-  });
+  await page.goto(teamUrl, {waitUntil: 'networkidle2'});
 
   const games = {};
 
@@ -125,10 +121,7 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
         result,
         opponent,
         isHomeGame,
-        score: {
-          home: Number(homeScore),
-          away: Number(awayScore),
-        },
+        score: {home: Number(homeScore), away: Number(awayScore)},
       });
     }
 
@@ -141,10 +134,7 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
 };
 
 const fn = async () => {
-  browser = await puppeteer.launch({
-    headless: true,
-    handleSIGINT: false,
-  });
+  browser = await puppeteer.launch({headless: true, handleSIGINT: false});
 
   try {
     const teamUrls = await scrapeTeamUrls();

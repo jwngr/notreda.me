@@ -125,9 +125,7 @@ const GameCoverageWrapper = styled(FlexRow).attrs({justify: 'center'})`
   }
 `;
 
-export const GameCoverage: React.FC<{
-  readonly game: GameInfo;
-}> = ({game}) => {
+export const GameCoverage: React.FC<{readonly game: GameInfo}> = ({game}) => {
   const isGameOver = !!game.result;
 
   let mainContent: React.ReactNode;

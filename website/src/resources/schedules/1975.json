@@ -10,26 +10,13 @@
       "coordinates": [42.090866, -71.264325]
     },
     "opponentId": "BC",
-    "score": {
-      "away": 3,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 17},
+    "linescore": {"away": [], "home": []},
     "time": "9:00 PM",
     "coverage": "ABC",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 49
-    }
+    "rankings": {"home": {"ap": 9}},
+    "weather": {"icon": "clear-night", "temperature": 49}
   },
   {
     "result": "W",
@@ -42,25 +29,12 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 17,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 0},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "away": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "temperature": 58,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 9}},
+    "weather": {"temperature": 58, "icon": "unknown"}
   },
   {
     "result": "W",
@@ -73,25 +47,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 7,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 31},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 66
-    }
+    "rankings": {"home": {"ap": 7}},
+    "weather": {"icon": "clear-day", "temperature": 66}
   },
   {
     "result": "L",
@@ -104,25 +65,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 10,
-      "home": 3
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 3},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 72
-    }
+    "rankings": {"home": {"ap": 8}},
+    "weather": {"icon": "clear-day", "temperature": 72}
   },
   {
     "result": "W",
@@ -135,25 +83,12 @@
       "coordinates": [35.906944, -79.047778]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 21,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 14},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "away": {
-        "ap": 15
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 80
-    }
+    "rankings": {"away": {"ap": 15}},
+    "weather": {"icon": "clear-day", "temperature": 80}
   },
   {
     "result": "W",
@@ -166,25 +101,12 @@
       "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 31,
-      "home": 30
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 31, "home": 30},
+    "linescore": {"away": [], "home": []},
     "time": "3:05 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "away": {
-        "ap": 15
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 72
-    }
+    "rankings": {"away": {"ap": 15}},
+    "weather": {"icon": "clear-day", "temperature": 72}
   },
   {
     "result": "L",
@@ -197,29 +119,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 24,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 17},
+    "linescore": {"away": [], "home": []},
     "time": "1:50 PM",
     "coverage": "ABC",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 14
-      },
-      "away": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 51
-    }
+    "rankings": {"home": {"ap": 14}, "away": {"ap": 3}},
+    "weather": {"icon": "cloudy", "temperature": 51}
   },
   {
     "result": "W",
@@ -232,25 +138,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 10,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 31},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 15
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 55
-    }
+    "rankings": {"home": {"ap": 15}},
+    "weather": {"icon": "rain", "temperature": 55}
   },
   {
     "result": "W",
@@ -263,25 +156,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
-    "score": {
-      "away": 3,
-      "home": 24
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 24},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 62
-    }
+    "rankings": {"home": {"ap": 12}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 62}
   },
   {
     "result": "L",
@@ -294,25 +174,12 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 20,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 34},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "away": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 43
-    }
+    "rankings": {"away": {"ap": 9}},
+    "weather": {"icon": "clear-day", "temperature": 43}
   },
   {
     "result": "W",
@@ -325,24 +192,11 @@
       "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "MIAMI",
-    "score": {
-      "away": 32,
-      "home": 9
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 32, "home": 9},
+    "linescore": {"away": [], "home": []},
     "time": "7:30 PM",
     "headCoach": "Dan Devine",
-    "rankings": {
-      "home": {
-        "ap": 16
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 68
-    }
+    "rankings": {"home": {"ap": 16}},
+    "weather": {"icon": "clear-night", "temperature": 68}
   }
 ]

@@ -43,9 +43,7 @@ interface RecentMatchupsProps {
   readonly $matchupsCount: number;
 }
 
-const RecentMatchups = styled(FlexRow).attrs({
-  justify: 'center',
-})<RecentMatchupsProps>`
+const RecentMatchups = styled(FlexRow).attrs({justify: 'center'})<RecentMatchupsProps>`
   width: 100%;
   margin-top: ${({$matchupsCount}) => ($matchupsCount > 1 ? '-60px' : 0)};
 `;
@@ -106,31 +104,15 @@ export const MatchupHistory: React.FC<{
         pastMatchupsAgainstTeam,
         futureMatchupsAgainstTeam,
       });
-      setMatchupInfo({
-        pastMatchupsAgainstTeam,
-        futureMatchupsAgainstTeam,
-        matchupsToShow,
-      });
+      setMatchupInfo({pastMatchupsAgainstTeam, futureMatchupsAgainstTeam, matchupsToShow});
     };
     fetchMatchupsToShow();
   }, [selectedGame.opponentId, selectedSeason, maxMatchupsCount]);
 
   const recordAgainstTeam = {
-    overall: {
-      W: 0,
-      L: 0,
-      T: 0,
-    },
-    home: {
-      W: 0,
-      L: 0,
-      T: 0,
-    },
-    away: {
-      W: 0,
-      L: 0,
-      T: 0,
-    },
+    overall: {W: 0, L: 0, T: 0},
+    home: {W: 0, L: 0, T: 0},
+    away: {W: 0, L: 0, T: 0},
   };
 
   if (
@@ -191,10 +173,7 @@ export const MatchupHistory: React.FC<{
           {matchupInfo.matchupsToShow.map((historicalGame, i) => {
             if (!historicalGame) return null;
 
-            const specialPositions = {
-              first: i === 0,
-              last: i === shownMatchupsCount - 1,
-            };
+            const specialPositions = {first: i === 0, last: i === shownMatchupsCount - 1};
 
             const isFirst = i === 0;
             const isLast = i === shownMatchupsCount - 1;

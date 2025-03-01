@@ -135,10 +135,7 @@ years.forEach((year) => {
           }
 
           // Add the score and number of overtimes to the game
-          game.scores = {
-            home: homeTeamScore,
-            away: awayTeamScore,
-          };
+          game.scores = {home: homeTeamScore, away: awayTeamScore};
           game.numOvertimes = numOvertimes;
         } else {
           // Add the time to the game

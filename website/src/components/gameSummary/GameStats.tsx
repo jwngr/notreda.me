@@ -28,9 +28,7 @@ interface GameStatsHeaderProps {
   readonly $longestHeaderTextLength: number;
 }
 
-const GameStatsHeader = styled(FlexRow).attrs({
-  justify: 'center',
-})<GameStatsHeaderProps>`
+const GameStatsHeader = styled(FlexRow).attrs({justify: 'center'})<GameStatsHeaderProps>`
   p {
     flex: 1;
     min-width: 132px;
@@ -98,13 +96,9 @@ export const CompletedGameStats: React.FC<{
   // TODO: Make this not required.
   if (!stats) return null;
 
-  const homeTeamColorStyles = {
-    backgroundColor: homeTeam.color || DEFAULT_TEAM_COLOR,
-  };
+  const homeTeamColorStyles = {backgroundColor: homeTeam.color || DEFAULT_TEAM_COLOR};
 
-  const awayTeamColorStyles = {
-    backgroundColor: awayTeam.color || DEFAULT_TEAM_COLOR,
-  };
+  const awayTeamColorStyles = {backgroundColor: awayTeam.color || DEFAULT_TEAM_COLOR};
 
   const fumblesRow =
     'fumbles' in stats.away && 'fumbles' in stats.home ? (

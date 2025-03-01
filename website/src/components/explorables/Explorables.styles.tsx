@@ -101,11 +101,7 @@ export const Caption = styled.p`
   color: ${({theme}) => theme.colors.gray};
 `;
 
-export const StatsWrapper = styled(FlexRow).attrs({
-  gap: 20,
-  wrap: 'wrap',
-  justify: 'space-around',
-})`
+export const StatsWrapper = styled(FlexRow).attrs({gap: 20, wrap: 'wrap', justify: 'space-around'})`
   @media (max-width: 600px) {
     flex-direction: column;
     justify: flex-start;
@@ -177,9 +173,7 @@ export const Divider = styled.div`
 `;
 
 // TODO: Move to a separate file and rename this file to `.ts`.
-export const Note: React.FC<{
-  readonly children: React.ReactNode;
-}> = ({children}) => {
+export const Note: React.FC<{readonly children: React.ReactNode}> = ({children}) => {
   return (
     <Paragraph>
       <i>

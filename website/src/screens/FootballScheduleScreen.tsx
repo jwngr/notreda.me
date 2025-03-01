@@ -263,10 +263,7 @@ const NextYearLink = styled(PreviousAndNextYearLink)`
 `;
 
 export const FootballScheduleScreen: React.FC = () => {
-  const params = useParams<{
-    readonly selectedYear?: string;
-    readonly selectedGameIndex?: string;
-  }>();
+  const params = useParams<{readonly selectedYear?: string; readonly selectedGameIndex?: string}>();
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
   const [seasonSchedule, setSeasonSchedule] = useState<readonly GameInfo[] | null>(null);
 

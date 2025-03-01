@@ -5,9 +5,7 @@ import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 
-const LocationInnerWrapper = styled(FlexRow).attrs({
-  justify: 'center',
-})`
+const LocationInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
   height: 100%;
 

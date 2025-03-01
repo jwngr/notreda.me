@@ -204,10 +204,7 @@ export class WinPercentage extends Component {
         });
       });
 
-      return {
-        id: teamName,
-        values: yearData,
-      };
+      return {id: teamName, values: yearData};
     });
 
     const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
@@ -233,9 +230,7 @@ export class WinPercentage extends Component {
         };
       });
 
-      return {
-        values: data,
-      };
+      return {values: data};
     });
 
     this.state = {

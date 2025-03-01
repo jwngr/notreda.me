@@ -52,10 +52,7 @@ function parseWikipediaWeeklyPolls(
   weeklyHeaderCells.each((_, cell) => {
     const cellText = $(cell).text().trim();
     if (cellText.startsWith('Preseason')) {
-      weeklyRankings.push({
-        date: 'Preseason',
-        teams: {},
-      });
+      weeklyRankings.push({date: 'Preseason', teams: {}});
     } else {
       const dateText = cellText
         .replace(/Week \d+/, '')
@@ -69,10 +66,7 @@ function parseWikipediaWeeklyPolls(
       // Ignore future polls.
       const isInFuture = date.getTime() > Date.now();
       if (isInFuture) return;
-      weeklyRankings.push({
-        date: date.toISOString().split('T')[0],
-        teams: {},
-      });
+      weeklyRankings.push({date: date.toISOString().split('T')[0], teams: {}});
     }
   });
 
@@ -284,10 +278,6 @@ export class Polls {
     seasonPollsData: SeasonAllPollRankings,
     seasonScheduleData: readonly GameInfo[]
   ): void {
-    return this.updateForSeason({
-      season: CURRENT_SEASON,
-      seasonPollsData,
-      seasonScheduleData,
-    });
+    return this.updateForSeason({season: CURRENT_SEASON, seasonPollsData, seasonScheduleData});
   }
 }
