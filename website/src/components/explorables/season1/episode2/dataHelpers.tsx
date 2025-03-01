@@ -187,10 +187,7 @@ export const getUndefeatedTeamCountsPerSeasonBarChartData = (
   endSeason: number
 ): PerSeasonChartData[] => {
   const undefeatedTeamCountsPerSeason = range(startSeason, endSeason + 1).map((season) => {
-    return {
-      season,
-      undefeatedTeams: ALL_UNDEFEATED_SEASONS[season] || [],
-    };
+    return {season, undefeatedTeams: ALL_UNDEFEATED_SEASONS[season] || []};
   });
 
   return undefeatedTeamCountsPerSeason.map(({season, undefeatedTeams}) => {

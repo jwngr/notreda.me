@@ -177,9 +177,7 @@ export const Location = styled.p`
   }
 `;
 
-export const Score = styled(FlexRow).attrs({
-  justify: 'space-between',
-})`
+export const Score = styled(FlexRow).attrs({justify: 'space-between'})`
   min-width: 112px;
   font-size: 22px;
   font-family: 'Bungee';

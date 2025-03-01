@@ -1,9 +1,6 @@
 export type AllWeekOfFirstLossData = Record<
   string,
-  {
-    readonly losslessRecordsAttained: readonly number[];
-    readonly numTeams: number;
-  }
+  {readonly losslessRecordsAttained: readonly number[]; readonly numTeams: number}
 >;
 
 export type AlabamaWeekOfFirstLossData = Record<

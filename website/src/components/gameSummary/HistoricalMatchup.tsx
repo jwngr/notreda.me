@@ -67,10 +67,7 @@ const Season = styled.p<SeasonProps>`
 `;
 
 export const HistoricalMatchup: React.FC<{
-  readonly gaps: {
-    readonly left: boolean;
-    readonly right: boolean;
-  };
+  readonly gaps: {readonly left: boolean; readonly right: boolean};
   readonly score: GameScore | null;
   readonly result: GameResult | null;
   readonly season: number;
@@ -78,10 +75,7 @@ export const HistoricalMatchup: React.FC<{
   readonly isHomeGame: boolean;
   readonly isSelected: boolean;
   readonly isSeasonOnTop: boolean;
-  readonly specialPositions: {
-    readonly first: boolean;
-    readonly last: boolean;
-  };
+  readonly specialPositions: {readonly first: boolean; readonly last: boolean};
 }> = ({
   gaps,
   score,

@@ -27,9 +27,7 @@ const NoteText = styled.p`
   padding: 8px 12px;
 `;
 
-export const Note: React.FC<{
-  readonly children: React.ReactNode;
-}> = ({children}) => {
+export const Note: React.FC<{readonly children: React.ReactNode}> = ({children}) => {
   return (
     <NoteWrapper>
       <NoteHeaderContainer>

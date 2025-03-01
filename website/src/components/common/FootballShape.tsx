@@ -128,10 +128,7 @@ export const FootballShape: React.FC<{
   readonly text?: string;
   readonly title: string;
   readonly gameResult: GameResult | null;
-  readonly legs?: {
-    readonly left?: string | boolean;
-    readonly right?: string | boolean;
-  };
+  readonly legs?: {readonly left?: string | boolean; readonly right?: string | boolean};
   readonly isHomeGame: boolean;
   readonly isSelected: boolean;
   readonly uniqueFillPatternId: string;

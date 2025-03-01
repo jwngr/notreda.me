@@ -8,9 +8,7 @@ import {TeamId} from '../../models/teams.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {TeamLogo} from '../common/TeamLogo';
 
-const TotalScoreWrapper = styled(FlexRow).attrs({
-  justify: 'center',
-})`
+const TotalScoreWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
   font-family: 'Bungee';
   margin-bottom: 44px;

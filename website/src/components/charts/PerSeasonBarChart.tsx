@@ -126,10 +126,7 @@ export const PerSeasonBarChart: React.FC<{
   }, [getBarChartWidth]);
 
   const handleMouseMove = useCallback((event: MouseEvent) => {
-    setMouseLocation({
-      x: event.pageX,
-      y: event.pageY,
-    });
+    setMouseLocation({x: event.pageX, y: event.pageY});
   }, []);
 
   useEffect(() => {
@@ -181,11 +178,7 @@ export const PerSeasonBarChart: React.FC<{
         if (mouseLocation) {
           // It is possible for the mouse to initially be on a spot which should show a tooltip,
           // so simply ignore that case.
-          setTooltip({
-            x: mouseLocation.x,
-            y: mouseLocation.y,
-            children: d.tooltipChildren,
-          });
+          setTooltip({x: mouseLocation.x, y: mouseLocation.y, children: d.tooltipChildren});
         }
       })
       .on('mouseout', () => {

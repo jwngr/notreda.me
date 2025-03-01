@@ -62,16 +62,11 @@ export class YardPoints extends Component {
       }
     });
 
-    this.state = {
-      tooltip: null,
-      data: yardsDifferentialData,
-    };
+    this.state = {tooltip: null, data: yardsDifferentialData};
   }
 
   setTooltip(tooltip) {
-    this.setState({
-      tooltip,
-    });
+    this.setState({tooltip});
   }
 
   getMinValueForKey(data, key) {
@@ -83,12 +78,7 @@ export class YardPoints extends Component {
   }
 
   componentDidMount() {
-    var margins = {
-      top: 50,
-      right: 50,
-      bottom: 50,
-      left: 50,
-    };
+    var margins = {top: 50, right: 50, bottom: 50, left: 50};
 
     const scatterPlotWidth = 500;
     const scatterPlotHeight = 500;

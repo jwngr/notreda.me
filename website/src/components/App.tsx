@@ -11,9 +11,7 @@ const AsyncFootballScheduleScreen = lazy(() =>
 );
 
 const AsyncExplorablesScreen = lazy(() =>
-  import('../screens/ExplorablesScreen').then((module) => ({
-    default: module.ExplorablesScreen,
-  }))
+  import('../screens/ExplorablesScreen').then((module) => ({default: module.ExplorablesScreen}))
 );
 
 export const App: React.FC = () => {
