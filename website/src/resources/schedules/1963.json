@@ -10,24 +10,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "WIS",
-    "score": {
-      "away": 14,
-      "home": 9
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 9},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "rankings": {
-      "away": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 56
-    }
+    "rankings": {"away": {"ap": 6}},
+    "weather": {"icon": "clear-night", "temperature": 56}
   },
   {
     "result": "L",
@@ -40,14 +27,8 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 6,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore"
   },
   {
@@ -61,24 +42,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 14,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "rankings": {
-      "away": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 53
-    }
+    "rankings": {"away": {"ap": 7}},
+    "weather": {"icon": "clear-night", "temperature": 53}
   },
   {
     "result": "W",
@@ -91,19 +59,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "UCLA",
-    "score": {
-      "away": 12,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 12, "home": 27},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "weather": {
-      "icon": "rain",
-      "temperature": 61
-    }
+    "weather": {"icon": "rain", "temperature": 61}
   },
   {
     "result": "L",
@@ -116,19 +75,10 @@
       "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 14,
-      "home": 24
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 24},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 57
-    }
+    "weather": {"icon": "clear-night", "temperature": 57}
   },
   {
     "result": "L",
@@ -141,24 +91,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 35,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 35, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 40
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 40}
   },
   {
     "result": "L",
@@ -171,24 +108,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 27,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "rankings": {
-      "away": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "fog",
-      "temperature": 37
-    }
+    "rankings": {"away": {"ap": 8}},
+    "weather": {"icon": "fog", "temperature": 37}
   },
   {
     "result": "L",
@@ -201,24 +125,11 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 7,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "rankings": {
-      "home": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 47
-    }
+    "rankings": {"home": {"ap": 4}},
+    "weather": {"icon": "cloudy", "temperature": 47}
   },
   {
     "result": "L",
@@ -231,18 +142,9 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "SYR",
-    "score": {
-      "away": 7,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Hugh Devore",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 46
-    }
+    "weather": {"icon": "clear-night", "temperature": 46}
   }
 ]

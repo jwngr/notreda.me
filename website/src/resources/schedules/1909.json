@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "OLIV",
-    "score": {
-      "away": 0,
-      "home": 58
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 58},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ROSE",
-    "score": {
-      "away": 11,
-      "home": 60
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 11, "home": 60},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -52,14 +40,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 0,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -73,14 +55,8 @@
       "coordinates": [40.44118, -79.95255]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 6,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -94,14 +70,8 @@
       "coordinates": [42.28426, -83.79831]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 11,
-      "home": 3
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 11, "home": 3},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -115,14 +85,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "MOH",
-    "score": {
-      "away": 0,
-      "home": 46
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 46},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -136,34 +100,18 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "WAB",
-    "score": {
-      "away": 0,
-      "home": 38
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 38},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
     "result": "T",
     "isHomeGame": false,
     "date": "11/25/1909",
-    "location": {
-      "city": "Milwaukee",
-      "state": "WI",
-      "coordinates": [43.041069, -87.909416]
-    },
+    "location": {"city": "Milwaukee", "state": "WI", "coordinates": [43.041069, -87.909416]},
     "opponentId": "MARQ",
-    "score": {
-      "away": 0,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   }
 ]

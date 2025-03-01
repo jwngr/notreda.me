@@ -10,25 +10,12 @@
       "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 35,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 35, "home": 14},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 80
-    }
+    "rankings": {"away": {"ap": 6}},
+    "weather": {"icon": "clear-day", "temperature": 80}
   },
   {
     "result": "W",
@@ -41,25 +28,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 0,
-      "home": 48
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 48},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 56
-    }
+    "rankings": {"home": {"ap": 6}},
+    "weather": {"icon": "cloudy", "temperature": 56}
   },
   {
     "result": "W",
@@ -72,25 +46,12 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 29,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 29, "home": 0},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 47
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "cloudy", "temperature": 47}
   },
   {
     "result": "W",
@@ -103,25 +64,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 10,
-      "home": 51
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 51},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 55
-    }
+    "rankings": {"home": {"ap": 3}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 55}
   },
   {
     "result": "W",
@@ -134,25 +82,12 @@
       "coordinates": [38.935833, -92.333056]
     },
     "opponentId": "MIZ",
-    "score": {
-      "away": 24,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 7},
+    "linescore": {"away": [], "home": []},
     "time": "3:50 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 3
-      },
-      "home": {
-        "ap": 18
-      }
-    }
+    "rankings": {"away": {"ap": 3}, "home": {"ap": 18}}
   },
   {
     "result": "W",
@@ -165,25 +100,12 @@
       "coordinates": [39.9014, -75.1719]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 7,
-      "home": 56
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 56},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 57
-    }
+    "rankings": {"home": {"ap": 3}},
+    "weather": {"icon": "cloudy", "temperature": 57}
   },
   {
     "result": "W",
@@ -196,25 +118,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 14,
-      "home": 46
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 46},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 51
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "clear-day", "temperature": 51}
   },
   {
     "result": "W",
@@ -227,25 +136,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
-    "score": {
-      "away": 7,
-      "home": 10
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 10},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 36
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "cloudy", "temperature": 36}
   },
   {
     "result": "W",
@@ -258,28 +154,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "LSU",
-    "score": {
-      "away": 0,
-      "home": 3
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 3},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 47
-    }
+    "rankings": {"home": {"ap": 2}, "away": {"ap": 7}},
+    "weather": {"icon": "cloudy", "temperature": 47}
   },
   {
     "result": "L",
@@ -292,26 +172,13 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 28,
-      "home": 38
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 38},
+    "linescore": {"away": [], "home": []},
     "time": "4:15 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 54
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "rain", "temperature": 54}
   },
   {
     "result": "W",
@@ -326,29 +193,13 @@
       "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "TEX",
-    "score": {
-      "away": 24,
-      "home": 11
-    },
-    "linescore": {
-      "away": [14, 10, 0, 0],
-      "home": [3, 8, 0, 0]
-    },
+    "score": {"away": 24, "home": 11},
+    "linescore": {"away": [14, 10, 0, 0], "home": [3, 8, 0, 0]},
     "time": "2:00 PM",
     "coverage": "CBS",
     "nickname": "Cotton Bowl",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "temperature": 62,
-      "icon": "unknown"
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 6}},
+    "weather": {"temperature": 62, "icon": "unknown"}
   }
 ]

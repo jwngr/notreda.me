@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "OLIV",
-    "score": {
-      "away": 0,
-      "home": 48
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 48},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "AKR",
-    "score": {
-      "away": 0,
-      "home": 51
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 51},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -52,34 +40,18 @@
       "coordinates": [42.74688, -84.4837]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 0,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/12/1910",
-    "location": {
-      "city": "Terre Haute",
-      "state": "IN",
-      "coordinates": [39.46648, -87.41258]
-    },
+    "location": {"city": "Terre Haute", "state": "IN", "coordinates": [39.46648, -87.41258]},
     "opponentId": "ROSE",
-    "score": {
-      "away": 41,
-      "home": 3
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 41, "home": 3},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
@@ -93,34 +65,18 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ONU",
-    "score": {
-      "away": 0,
-      "home": 47
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 47},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   },
   {
     "result": "T",
     "isHomeGame": false,
     "date": "11/24/1910",
-    "location": {
-      "city": "Milwaukee",
-      "state": "WI",
-      "coordinates": [43.041069, -87.909416]
-    },
+    "location": {"city": "Milwaukee", "state": "WI", "coordinates": [43.041069, -87.909416]},
     "opponentId": "MARQ",
-    "score": {
-      "away": 5,
-      "home": 5
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 5, "home": 5},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Longman"
   }
 ]

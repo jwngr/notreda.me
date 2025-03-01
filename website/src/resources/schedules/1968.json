@@ -10,24 +10,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "OKLA",
-    "score": {
-      "away": 21,
-      "home": 45
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 45},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 3
-      },
-      "away": {
-        "ap": 5
-      }
-    }
+    "rankings": {"home": {"ap": 3}, "away": {"ap": 5}}
   },
   {
     "result": "L",
@@ -40,25 +27,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 37,
-      "home": 22
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 37, "home": 22},
+    "linescore": {"away": [], "home": []},
     "time": "2:00 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 1
-      }
-    }
+    "rankings": {"home": {"ap": 2}, "away": {"ap": 1}}
   },
   {
     "result": "W",
@@ -71,21 +45,11 @@
       "coordinates": [41.658611, -91.551111]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 51,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 51, "home": 28},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 5
-      }
-    }
+    "rankings": {"away": {"ap": 5}}
   },
   {
     "result": "W",
@@ -98,21 +62,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 7,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 27},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 5
-      }
-    }
+    "rankings": {"home": {"ap": 5}}
   },
   {
     "result": "W",
@@ -125,21 +79,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ILL",
-    "score": {
-      "away": 8,
-      "home": 58
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 8, "home": 58},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 6
-      }
-    }
+    "rankings": {"home": {"ap": 6}}
   },
   {
     "result": "L",
@@ -152,26 +96,13 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 17,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 21},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 5
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 50
-    }
+    "rankings": {"away": {"ap": 5}},
+    "weather": {"icon": "cloudy", "temperature": 50}
   },
   {
     "result": "W",
@@ -184,25 +115,12 @@
       "coordinates": [39.9014, -75.1719]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 14,
-      "home": 45
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 45},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 69
-    }
+    "rankings": {"home": {"ap": 12}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 69}
   },
   {
     "result": "W",
@@ -215,21 +133,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 7,
-      "home": 56
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 56},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    }
+    "rankings": {"home": {"ap": 12}}
   },
   {
     "result": "W",
@@ -242,21 +150,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
-    "score": {
-      "away": 6,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 34},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    }
+    "rankings": {"home": {"ap": 9}}
   },
   {
     "result": "T",
@@ -269,28 +167,12 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 21,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 21},
+    "linescore": {"away": [], "home": []},
     "time": "4:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 9
-      },
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 59
-    }
+    "rankings": {"away": {"ap": 9}, "home": {"ap": 2}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 59}
   }
 ]

@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "KAL",
-    "score": {
-      "away": 0,
-      "home": 39
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 39},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "WMU",
-    "score": {
-      "away": 0,
-      "home": 42
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 42},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -52,14 +40,8 @@
       "coordinates": [40.820516, -96.705647]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 16,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 16, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -73,14 +55,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "VALPO",
-    "score": {
-      "away": 3,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -94,14 +70,8 @@
       "coordinates": [41.392624, -73.956769]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 27,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -115,34 +85,18 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 0,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1920",
-    "location": {
-      "city": "Indianapolis",
-      "state": "IN",
-      "coordinates": [39.768452, -86.156212]
-    },
+    "location": {"city": "Indianapolis", "state": "IN", "coordinates": [39.768452, -86.156212]},
     "opponentId": "IND",
-    "score": {
-      "away": 10,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -156,14 +110,8 @@
       "coordinates": [42.066395, -87.690927]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 33,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 33, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -177,14 +125,8 @@
       "coordinates": [42.74688, -84.4837]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 25,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 25, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   }
 ]

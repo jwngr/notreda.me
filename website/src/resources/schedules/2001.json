@@ -10,42 +10,16 @@
       "coordinates": [40.820516, -96.705647]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 10,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 27},
+    "linescore": {"away": [], "home": []},
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
-    "rankings": {
-      "away": {
-        "ap": 17
-      },
-      "home": {
-        "ap": 5
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 59
-    },
+    "rankings": {"away": {"ap": 17}, "home": {"ap": 5}},
+    "weather": {"icon": "rain", "temperature": 59},
     "records": {
-      "home": {
-        "overall": "2-0",
-        "home": "2-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -59,39 +33,16 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 17,
-      "home": 10
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 10},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "rankings": {
-      "home": {
-        "ap": 23
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 72
-    },
+    "rankings": {"home": {"ap": 23}},
+    "weather": {"icon": "clear-day", "temperature": 72},
     "records": {
-      "home": {
-        "overall": "0-2",
-        "home": "0-1",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "0-2", "home": "0-1", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"}
     }
   },
   {
@@ -105,34 +56,15 @@
       "coordinates": [30.609883, -96.340544]
     },
     "opponentId": "TA&M",
-    "score": {
-      "away": 3,
-      "home": 24
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 24},
+    "linescore": {"away": [], "home": []},
     "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 82
-    },
+    "weather": {"icon": "clear-day", "temperature": 82},
     "records": {
-      "home": {
-        "overall": "4-0",
-        "home": "3-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-3",
-        "home": "0-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-0", "home": "3-0", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "0-3", "home": "0-1", "away": "0-2", "neutral": "0-0"}
     }
   },
   {
@@ -146,34 +78,15 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 7,
-      "home": 24
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 24},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 48
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 48},
     "records": {
-      "home": {
-        "overall": "1-3",
-        "home": "1-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-3",
-        "home": "1-2",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-3", "home": "1-1", "away": "0-2", "neutral": "0-0"},
+      "away": {"overall": "1-3", "home": "1-2", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -187,34 +100,15 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "WVU",
-    "score": {
-      "away": 24,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 34},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "rain",
-      "temperature": 69
-    },
+    "weather": {"icon": "rain", "temperature": 69},
     "records": {
-      "home": {
-        "overall": "2-3",
-        "home": "2-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-4",
-        "home": "2-1",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-3", "home": "2-1", "away": "0-2", "neutral": "0-0"},
+      "away": {"overall": "2-4", "home": "2-1", "away": "0-3", "neutral": "0-0"}
     }
   },
   {
@@ -228,34 +122,15 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 16,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 16, "home": 27},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 67
-    },
+    "weather": {"icon": "clear-day", "temperature": 67},
     "records": {
-      "home": {
-        "overall": "3-3",
-        "home": "3-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-5",
-        "home": "2-2",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-3", "home": "3-1", "away": "0-2", "neutral": "0-0"},
+      "away": {"overall": "2-5", "home": "2-2", "away": "0-3", "neutral": "0-0"}
     }
   },
   {
@@ -269,34 +144,15 @@
       "coordinates": [42.335, -71.166389]
     },
     "opponentId": "BC",
-    "score": {
-      "away": 17,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 21},
+    "linescore": {"away": [], "home": []},
     "time": "7:30 PM",
     "coverage": "ESPN",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 46
-    },
+    "weather": {"icon": "cloudy", "temperature": 46},
     "records": {
-      "home": {
-        "overall": "6-2",
-        "home": "5-0",
-        "away": "1-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-4",
-        "home": "3-1",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-2", "home": "5-0", "away": "1-2", "neutral": "0-0"},
+      "away": {"overall": "3-4", "home": "3-1", "away": "0-3", "neutral": "0-0"}
     }
   },
   {
@@ -310,40 +166,16 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "TENN",
-    "score": {
-      "away": 28,
-      "home": 18
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 18},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "rankings": {
-      "away": {
-        "ap": 7,
-        "bcs": 4
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 60
-    },
+    "rankings": {"away": {"ap": 7, "bcs": 4}},
+    "weather": {"icon": "clear-day", "temperature": 60},
     "records": {
-      "home": {
-        "overall": "3-5",
-        "home": "3-2",
-        "away": "0-3",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "6-1",
-        "home": "3-1",
-        "away": "3-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-5", "home": "3-2", "away": "0-3", "neutral": "0-0"},
+      "away": {"overall": "6-1", "home": "3-1", "away": "3-0", "neutral": "0-0"}
     }
   },
   {
@@ -357,34 +189,15 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 16,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 16, "home": 34},
+    "linescore": {"away": [], "home": []},
     "time": "1:00 PM",
     "coverage": "NBC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 51
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 51},
     "records": {
-      "home": {
-        "overall": "4-5",
-        "home": "4-2",
-        "away": "0-3",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-9",
-        "home": "0-5",
-        "away": "0-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-5", "home": "4-2", "away": "0-3", "neutral": "0-0"},
+      "away": {"overall": "0-9", "home": "0-5", "away": "0-4", "neutral": "0-0"}
     }
   },
   {
@@ -398,40 +211,16 @@
       "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 13,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 17},
+    "linescore": {"away": [], "home": []},
     "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
-    "rankings": {
-      "home": {
-        "ap": 13,
-        "bcs": 10
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 48
-    },
+    "rankings": {"home": {"ap": 13, "bcs": 10}},
+    "weather": {"icon": "rain", "temperature": 48},
     "records": {
-      "home": {
-        "overall": "8-2",
-        "home": "5-1",
-        "away": "3-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "4-6",
-        "home": "4-2",
-        "away": "0-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"},
+      "away": {"overall": "4-6", "home": "4-2", "away": "0-4", "neutral": "0-0"}
     }
   },
   {
@@ -445,34 +234,15 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 24,
-      "home": 18
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 18},
+    "linescore": {"away": [], "home": []},
     "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Bob Davie",
-    "weather": {
-      "temperature": 41,
-      "icon": "unknown"
-    },
+    "weather": {"temperature": 41, "icon": "unknown"},
     "records": {
-      "home": {
-        "overall": "6-5",
-        "home": "4-2",
-        "away": "2-3",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "5-6",
-        "home": "4-2",
-        "away": "1-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-5", "home": "4-2", "away": "2-3", "neutral": "0-0"},
+      "away": {"overall": "5-6", "home": "4-2", "away": "1-4", "neutral": "0-0"}
     }
   }
 ]

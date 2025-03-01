@@ -10,27 +10,11 @@
       "coordinates": [35.205196, -97.44276]
     },
     "opponentId": "OKLA",
-    "score": {
-      "away": 28,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      },
-      "home": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 72
-    }
+    "rankings": {"away": {"ap": 1}, "home": {"ap": 6}},
+    "weather": {"icon": "clear-night", "temperature": 72}
   },
   {
     "result": "W",
@@ -43,20 +27,10 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 37,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 37, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    }
+    "rankings": {"away": {"ap": 1}}
   },
   {
     "result": "W",
@@ -69,27 +43,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 14,
-      "home": 23
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 23},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 15
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 43
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 15}},
+    "weather": {"icon": "clear-night", "temperature": 43}
   },
   {
     "result": "W",
@@ -102,27 +60,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "GT",
-    "score": {
-      "away": 14,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 27},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 49
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 4}},
+    "weather": {"icon": "rain", "temperature": 49}
   },
   {
     "result": "W",
@@ -135,27 +77,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 7,
-      "home": 38
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 38},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 20
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 44
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 20}},
+    "weather": {"icon": "clear-night", "temperature": 44}
   },
   {
     "result": "W",
@@ -168,24 +94,11 @@
       "coordinates": [39.950122, -75.190006]
     },
     "opponentId": "PENN",
-    "score": {
-      "away": 28,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "snow",
-      "temperature": 31
-    }
+    "rankings": {"away": {"ap": 1}},
+    "weather": {"icon": "snow", "temperature": 31}
   },
   {
     "result": "W",
@@ -198,24 +111,11 @@
       "coordinates": [35.906944, -79.047778]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 34,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 34, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 36
-    }
+    "rankings": {"away": {"ap": 1}},
+    "weather": {"icon": "clear-night", "temperature": 36}
   },
   {
     "result": "T",
@@ -228,27 +128,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 14,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 20
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 39
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 20}},
+    "weather": {"icon": "clear-night", "temperature": 39}
   },
   {
     "result": "W",
@@ -261,27 +145,11 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 48,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 48, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 2
-      },
-      "home": {
-        "ap": 20
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 55
-    }
+    "rankings": {"away": {"ap": 2}, "home": {"ap": 20}},
+    "weather": {"icon": "clear-night", "temperature": 55}
   },
   {
     "result": "W",
@@ -294,23 +162,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "SMU",
-    "score": {
-      "away": 14,
-      "home": 40
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 40},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 31
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "clear-night", "temperature": 31}
   }
 ]

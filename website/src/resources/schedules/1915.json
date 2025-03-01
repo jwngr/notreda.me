@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "ALMA",
-    "score": {
-      "away": 0,
-      "home": 32
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 32},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "HASK",
-    "score": {
-      "away": 0,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 34},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -52,14 +40,8 @@
       "coordinates": [40.820516, -96.705647]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 19,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 19, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -73,14 +55,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "SD",
-    "score": {
-      "away": 0,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -94,34 +70,18 @@
       "coordinates": [41.392624, -73.956769]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 7,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/13/1915",
-    "location": {
-      "city": "Omaha",
-      "state": "NE",
-      "coordinates": [41.250907, -95.938403]
-    },
+    "location": {"city": "Omaha", "state": "NE", "coordinates": [41.250907, -95.938403]},
     "opponentId": "CREI",
-    "score": {
-      "away": 41,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 41, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -135,14 +95,8 @@
       "coordinates": [30.28062, -97.735082]
     },
     "opponentId": "TEX",
-    "score": {
-      "away": 36,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 36, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   },
   {
@@ -156,14 +110,8 @@
       "coordinates": [29.716198, -95.409291]
     },
     "opponentId": "RICE",
-    "score": {
-      "away": 55,
-      "home": 2
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 55, "home": 2},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Jesse Harper"
   }
 ]

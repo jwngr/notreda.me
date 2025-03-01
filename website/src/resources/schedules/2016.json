@@ -57,40 +57,16 @@
       }
     },
     "opponentId": "TEX",
-    "score": {
-      "away": 47,
-      "home": 50
-    },
+    "score": {"away": 47, "home": 50},
     "espnGameId": 400868946,
-    "linescore": {
-      "away": [7, 7, 14, 9, 7, 3],
-      "home": [7, 14, 10, 6, 7, 6]
-    },
+    "linescore": {"away": [7, 7, 14, 9, 7, 3], "home": [7, 14, 10, 6, 7, 6]},
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 10,
-        "coaches": 9
-      }
-    },
+    "rankings": {"away": {"ap": 10, "coaches": 9}},
     "numOvertimes": 2,
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 79
-    },
+    "weather": {"icon": "partly-cloudy-night", "temperature": 79},
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -151,39 +127,15 @@
       }
     },
     "opponentId": "NEV",
-    "score": {
-      "away": 10,
-      "home": 39
-    },
+    "score": {"away": 10, "home": 39},
     "espnGameId": 400868947,
-    "linescore": {
-      "away": [0, 0, 3, 7],
-      "home": [0, 25, 14, 0]
-    },
+    "linescore": {"away": [0, 0, 3, 7], "home": [0, 25, 14, 0]},
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 18,
-        "coaches": 21
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 69
-    },
+    "rankings": {"home": {"ap": 18, "coaches": 21}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 69},
     "records": {
-      "home": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -244,43 +196,15 @@
       }
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 36,
-      "home": 28
-    },
+    "score": {"away": 36, "home": 28},
     "espnGameId": 400868948,
-    "linescore": {
-      "away": [0, 15, 21, 0],
-      "home": [7, 0, 7, 14]
-    },
+    "linescore": {"away": [0, 15, 21, 0], "home": [7, 0, 7, 14]},
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 18,
-        "coaches": 18
-      },
-      "away": {
-        "ap": 12,
-        "coaches": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 67
-    },
+    "rankings": {"home": {"ap": 18, "coaches": 18}, "away": {"ap": 12, "coaches": 8}},
+    "weather": {"icon": "clear-night", "temperature": 67},
     "records": {
-      "home": {
-        "overall": "1-2",
-        "home": "1-1",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"}
     }
   },
   {
@@ -341,33 +265,14 @@
       }
     },
     "opponentId": "DUKE",
-    "score": {
-      "away": 38,
-      "home": 35
-    },
+    "score": {"away": 38, "home": 35},
     "espnGameId": 400868949,
-    "linescore": {
-      "away": [14, 14, 0, 10],
-      "home": [14, 7, 7, 7]
-    },
+    "linescore": {"away": [14, 14, 0, 10], "home": [14, 7, 7, 7]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 74
-    },
+    "weather": {"icon": "clear-day", "temperature": 74},
     "records": {
-      "home": {
-        "overall": "1-3",
-        "home": "1-2",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-2",
-        "home": "1-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-3", "home": "1-2", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-2", "home": "1-1", "away": "1-1", "neutral": "0-0"}
     }
   },
   {
@@ -429,33 +334,14 @@
       }
     },
     "opponentId": "SYR",
-    "score": {
-      "home": 33,
-      "away": 50
-    },
+    "score": {"home": 33, "away": 50},
     "espnGameId": 400868950,
-    "linescore": {
-      "away": [23, 10, 14, 3],
-      "home": [13, 14, 0, 6]
-    },
+    "linescore": {"away": [23, 10, 14, 3], "home": [13, 14, 0, 6]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 62
-    },
+    "weather": {"icon": "cloudy", "temperature": 62},
     "records": {
-      "home": {
-        "overall": "2-3",
-        "home": "1-2",
-        "away": "1-0",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "2-3",
-        "home": "1-2",
-        "away": "0-1",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "2-3", "home": "1-2", "away": "1-0", "neutral": "0-1"},
+      "away": {"overall": "2-3", "home": "1-2", "away": "0-1", "neutral": "1-0"}
     }
   },
   {
@@ -516,33 +402,14 @@
       }
     },
     "opponentId": "NCST",
-    "score": {
-      "away": 3,
-      "home": 10
-    },
+    "score": {"away": 3, "home": 10},
     "espnGameId": 400868951,
-    "linescore": {
-      "away": [0, 0, 3, 0],
-      "home": [3, 0, 0, 7]
-    },
+    "linescore": {"away": [0, 0, 3, 0], "home": [3, 0, 0, 7]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "rain",
-      "temperature": 66
-    },
+    "weather": {"icon": "rain", "temperature": 66},
     "records": {
-      "home": {
-        "overall": "4-1",
-        "home": "4-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-4",
-        "home": "1-2",
-        "away": "0-2",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "4-1", "home": "4-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "2-4", "home": "1-2", "away": "0-2", "neutral": "1-0"}
     }
   },
   {
@@ -603,33 +470,14 @@
       }
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 17,
-      "home": 10
-    },
+    "score": {"away": 17, "home": 10},
     "espnGameId": 400868952,
-    "linescore": {
-      "away": [0, 0, 9, 8],
-      "home": [7, 3, 0, 0]
-    },
+    "linescore": {"away": [0, 0, 9, 8], "home": [7, 3, 0, 0]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 68
-    },
+    "weather": {"icon": "partly-cloudy-night", "temperature": 68},
     "records": {
-      "home": {
-        "overall": "2-5",
-        "home": "1-3",
-        "away": "0-2",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "4-2",
-        "home": "2-1",
-        "away": "2-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-5", "home": "1-3", "away": "0-2", "neutral": "1-0"},
+      "away": {"overall": "4-2", "home": "2-1", "away": "2-1", "neutral": "0-0"}
     }
   },
   {
@@ -690,33 +538,14 @@
       }
     },
     "opponentId": "MIAMI",
-    "score": {
-      "away": 27,
-      "home": 30
-    },
+    "score": {"away": 27, "home": 30},
     "espnGameId": 400868953,
-    "linescore": {
-      "away": [0, 7, 10, 10],
-      "home": [17, 3, 0, 10]
-    },
+    "linescore": {"away": [0, 7, 10, 10], "home": [17, 3, 0, 10]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 68
-    },
+    "weather": {"icon": "cloudy", "temperature": 68},
     "records": {
-      "home": {
-        "overall": "3-5",
-        "home": "2-3",
-        "away": "0-2",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "4-4",
-        "home": "2-2",
-        "away": "2-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-5", "home": "2-3", "away": "0-2", "neutral": "1-0"},
+      "away": {"overall": "4-4", "home": "2-2", "away": "2-2", "neutral": "0-0"}
     }
   },
   {
@@ -778,33 +607,14 @@
       }
     },
     "opponentId": "NAVY",
-    "score": {
-      "home": 28,
-      "away": 27
-    },
+    "score": {"home": 28, "away": 27},
     "espnGameId": 400868954,
-    "linescore": {
-      "away": [10, 7, 7, 3],
-      "home": [7, 7, 7, 7]
-    },
+    "linescore": {"away": [10, 7, 7, 3], "home": [7, 7, 7, 7]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 72
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 72},
     "records": {
-      "home": {
-        "overall": "6-2",
-        "home": "4-0",
-        "away": "1-2",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "3-6",
-        "home": "2-3",
-        "away": "0-2",
-        "neutral": "1-1"
-      }
+      "home": {"overall": "6-2", "home": "4-0", "away": "1-2", "neutral": "1-0"},
+      "away": {"overall": "3-6", "home": "2-3", "away": "0-2", "neutral": "1-1"}
     }
   },
   {
@@ -867,33 +677,14 @@
       }
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 6,
-      "home": 44
-    },
+    "score": {"away": 6, "home": 44},
     "espnGameId": 400868919,
-    "linescore": {
-      "away": [0, 6, 0, 0],
-      "home": [21, 17, 6, 0]
-    },
+    "linescore": {"away": [0, 6, 0, 0], "home": [21, 17, 6, 0]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 71
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 71},
     "records": {
-      "home": {
-        "overall": "4-6",
-        "home": "2-3",
-        "away": "0-2",
-        "neutral": "2-1"
-      },
-      "away": {
-        "overall": "5-5",
-        "home": "2-2",
-        "away": "3-2",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "4-6", "home": "2-3", "away": "0-2", "neutral": "2-1"},
+      "away": {"overall": "5-5", "home": "2-2", "away": "3-2", "neutral": "0-1"}
     }
   },
   {
@@ -954,33 +745,14 @@
       }
     },
     "opponentId": "VT",
-    "score": {
-      "away": 34,
-      "home": 31
-    },
+    "score": {"away": 34, "home": 31},
     "espnGameId": 400868955,
-    "linescore": {
-      "away": [0, 14, 7, 13],
-      "home": [10, 14, 7, 0]
-    },
+    "linescore": {"away": [0, 14, 7, 13], "home": [10, 14, 7, 0]},
     "headCoach": "Brian Kelly",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 36
-    },
+    "weather": {"icon": "cloudy", "temperature": 36},
     "records": {
-      "home": {
-        "overall": "4-7",
-        "home": "2-4",
-        "away": "0-2",
-        "neutral": "2-1"
-      },
-      "away": {
-        "overall": "8-3",
-        "home": "4-1",
-        "away": "4-1",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "4-7", "home": "2-4", "away": "0-2", "neutral": "2-1"},
+      "away": {"overall": "8-3", "home": "4-1", "away": "4-1", "neutral": "0-1"}
     }
   },
   {
@@ -1041,40 +813,15 @@
       }
     },
     "opponentId": "USC",
-    "score": {
-      "away": 27,
-      "home": 45
-    },
+    "score": {"away": 27, "home": 45},
     "espnGameId": 400868956,
-    "linescore": {
-      "away": [7, 0, 14, 6],
-      "home": [10, 14, 14, 7]
-    },
+    "linescore": {"away": [7, 0, 14, 6], "home": [10, 14, 14, 7]},
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 12,
-        "coaches": 12,
-        "cfbPlayoff": 12
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 54
-    },
+    "rankings": {"home": {"ap": 12, "coaches": 12, "cfbPlayoff": 12}},
+    "weather": {"icon": "rain", "temperature": 54},
     "records": {
-      "home": {
-        "overall": "9-3",
-        "home": "6-0",
-        "away": "3-2",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "4-8",
-        "home": "2-4",
-        "away": "0-3",
-        "neutral": "2-1"
-      }
+      "home": {"overall": "9-3", "home": "6-0", "away": "3-2", "neutral": "0-1"},
+      "away": {"overall": "4-8", "home": "2-4", "away": "0-3", "neutral": "2-1"}
     }
   }
 ]

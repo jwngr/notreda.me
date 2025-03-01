@@ -10,14 +10,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 8,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 8, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "No coach"
   },
   {
@@ -31,14 +25,8 @@
       "coordinates": [41.673784, -86.265854]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 26,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 26, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "No coach"
   },
   {
@@ -52,14 +40,8 @@
       "coordinates": [41.701239, -86.234417]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 10,
-      "home": 4
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 4},
+    "linescore": {"away": [], "home": []},
     "headCoach": "No coach"
   }
 ]

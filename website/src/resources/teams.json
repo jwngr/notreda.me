@@ -1,16 +1,6 @@
 {
-  "ADRN": {
-    "name": "Adrian",
-    "nickname": "Bulldogs",
-    "color": "#f4b82e",
-    "espnId": 2003
-  },
-  "AF": {
-    "name": "Air Force",
-    "nickname": "Falcons",
-    "color": "#174f94",
-    "espnId": 2005
-  },
+  "ADRN": {"name": "Adrian", "nickname": "Bulldogs", "color": "#f4b82e", "espnId": 2003},
+  "AF": {"name": "Air Force", "nickname": "Falcons", "color": "#174f94", "espnId": 2005},
   "AKR": {
     "name": "Buchtel (Akron)",
     "shortName": "Buchtel",
@@ -18,40 +8,12 @@
     "color": "#9c8d6d",
     "espnId": 2006
   },
-  "ALB": {
-    "name": "Albion",
-    "nickname": "Britons",
-    "color": "#471668",
-    "espnId": 2790
-  },
-  "ALMA": {
-    "name": "Alma",
-    "nickname": "Scots",
-    "color": "#a0174b",
-    "espnId": 2800
-  },
-  "AM-M": {
-    "name": "American Medical (Chicago)",
-    "shortName": "American Med"
-  },
-  "ARIZ": {
-    "name": "Arizona",
-    "nickname": "Wildcats",
-    "color": "#b73038",
-    "espnId": 12
-  },
-  "ARK": {
-    "name": "Arkansas",
-    "nickname": "Razorbacks",
-    "color": "#d31145",
-    "espnId": 8
-  },
-  "ARMY": {
-    "name": "Army",
-    "nickname": "Black Knights",
-    "color": "#812a34",
-    "espnId": 349
-  },
+  "ALB": {"name": "Albion", "nickname": "Britons", "color": "#471668", "espnId": 2790},
+  "ALMA": {"name": "Alma", "nickname": "Scots", "color": "#a0174b", "espnId": 2800},
+  "AM-M": {"name": "American Medical (Chicago)", "shortName": "American Med"},
+  "ARIZ": {"name": "Arizona", "nickname": "Wildcats", "color": "#b73038", "espnId": 12},
+  "ARK": {"name": "Arkansas", "nickname": "Razorbacks", "color": "#d31145", "espnId": 8},
+  "ARMY": {"name": "Army", "nickname": "Black Knights", "color": "#812a34", "espnId": 349},
   "ASU": {
     "name": "Arizona State",
     "shortName": "Arizona St",
@@ -59,40 +21,12 @@
     "color": "#831e3c",
     "espnId": 9
   },
-  "BALL": {
-    "name": "Ball State",
-    "nickname": "Cardinals",
-    "color": "#b53138",
-    "espnId": 2050
-  },
-  "BAMA": {
-    "name": "Alabama",
-    "nickname": "Crimson Tide",
-    "color": "#86172e",
-    "espnId": 333
-  },
-  "BAY": {
-    "name": "Baylor",
-    "nickname": "Bears",
-    "color": "#10311f",
-    "espnId": 239
-  },
-  "BC": {
-    "name": "Boston College",
-    "nickname": "Eagles",
-    "color": "#812A34",
-    "espnId": 103
-  },
-  "BEL": {
-    "name": "Beloit",
-    "nickname": "Buccaneers",
-    "color": "#002a52",
-    "espnId": 266
-  },
-  "BENN": {
-    "name": "Bennett Medical (Chicago)",
-    "shortName": "Bennett Med"
-  },
+  "BALL": {"name": "Ball State", "nickname": "Cardinals", "color": "#b53138", "espnId": 2050},
+  "BAMA": {"name": "Alabama", "nickname": "Crimson Tide", "color": "#86172e", "espnId": 333},
+  "BAY": {"name": "Baylor", "nickname": "Bears", "color": "#10311f", "espnId": 239},
+  "BC": {"name": "Boston College", "nickname": "Eagles", "color": "#812A34", "espnId": 103},
+  "BEL": {"name": "Beloit", "nickname": "Buccaneers", "color": "#002a52", "espnId": 266},
+  "BENN": {"name": "Bennett Medical (Chicago)", "shortName": "Bennett Med"},
   "BGSU": {
     "name": "Bowling Green State",
     "shortName": "Bowling Green",
@@ -107,149 +41,37 @@
     "color": "#0133a0",
     "espnId": 68
   },
-  "BUT": {
-    "name": "Butler",
-    "nickname": "Bulldogs",
-    "color": "#152848",
-    "espnId": 2086
-  },
-  "BYU": {
-    "name": "BYU",
-    "nickname": "Cougars",
-    "color": "#0d3565",
-    "espnId": 252
-  },
-  "CAL": {
-    "name": "California",
-    "nickname": "Golden Bears",
-    "color": "#00093c",
-    "espnId": 25
-  },
-  "CAR": {
-    "name": "Carnegie Tech",
-    "nickname": "Tartans",
-    "color": "#d40024",
-    "espnId": 2102
-  },
-  "CARL": {
-    "name": "Carlisle",
-    "nickname": "Indians",
-    "color": "#aa0000"
-  },
-  "CASE": {
-    "name": "Case Western",
-    "nickname": "Spartans",
-    "color": "#003756",
-    "espnId": 2963
-  },
+  "BUT": {"name": "Butler", "nickname": "Bulldogs", "color": "#152848", "espnId": 2086},
+  "BYU": {"name": "BYU", "nickname": "Cougars", "color": "#0d3565", "espnId": 252},
+  "CAL": {"name": "California", "nickname": "Golden Bears", "color": "#00093c", "espnId": 25},
+  "CAR": {"name": "Carnegie Tech", "nickname": "Tartans", "color": "#d40024", "espnId": 2102},
+  "CARL": {"name": "Carlisle", "nickname": "Indians", "color": "#aa0000"},
+  "CASE": {"name": "Case Western", "nickname": "Spartans", "color": "#003756", "espnId": 2963},
   "CB": {
     "name": "Christian Brothers",
     "shortName": "Christian Bros",
     "nickname": "Buccaneers",
     "color": "#d22b32"
   },
-  "CHI": {
-    "name": "Chicago",
-    "nickname": "Maroons",
-    "color": "#801525"
-  },
-  "CHI-D": {
-    "name": "Chicago Dental Surgeons",
-    "shortName": "Chicago Dental"
-  },
-  "CHI-M": {
-    "name": "Chicago Medical",
-    "shortName": "Chicago Med"
-  },
-  "CHI-P&S": {
-    "name": "Chicago Physicians & Surgeons",
-    "shortName": "Chi Phys & Surg"
-  },
-  "CINCY": {
-    "name": "Cincinnati",
-    "nickname": "Bearcats",
-    "color": "#b82332",
-    "espnId": 2132
-  },
-  "CLEM": {
-    "name": "Clemson",
-    "nickname": "Tigers",
-    "color": "#ef6b2e",
-    "espnId": 228
-  },
-  "CMU": {
-    "name": "Central Michigan",
-    "nickname": "Chippewas",
-    "color": "#922c46",
-    "espnId": 2117
-  },
-  "COE": {
-    "name": "Coe",
-    "nickname": "Kohawks",
-    "color": "#9d0818",
-    "espnId": 2141
-  },
-  "COL": {
-    "name": "Colorado",
-    "nickname": "Buffaloes",
-    "color": "#d6c688",
-    "espnId": 38
-  },
-  "CREI": {
-    "name": "Creighton",
-    "nickname": "Bluejays",
-    "color": "#1f5fa6",
-    "espnId": 156
-  },
-  "DART": {
-    "name": "Dartmouth",
-    "nickname": "Big Green",
-    "color": "#255b30",
-    "espnId": 159
-  },
-  "DEP": {
-    "name": "DePauw",
-    "nickname": "Tigers",
-    "color": "#fbdb4b",
-    "espnId": 83
-  },
-  "DET": {
-    "name": "Detroit Mercy",
-    "nickname": "Titans",
-    "color": "#992c34"
-  },
-  "DLS": {
-    "name": "De La Salle",
-    "nickname": "Green Archers",
-    "color": "#2e6630"
-  },
-  "DRKE": {
-    "name": "Drake",
-    "nickname": "Bulldogs",
-    "color": "#195399",
-    "espnId": 2181
-  },
-  "DUKE": {
-    "name": "Duke",
-    "nickname": "Blue Devils",
-    "color": "#1a5495",
-    "espnId": 150
-  },
-  "ENG": {
-    "name": "Englewood Tech",
-    "nickname": "Eagles"
-  },
-  "FLA": {
-    "name": "Florida",
-    "nickname": "Gators",
-    "color": "#e35537",
-    "espnId": 57
-  },
-  "FRA": {
-    "name": "Franklin",
-    "nickname": "Grizzlies",
-    "color": "#fbdc4b"
-  },
+  "CHI": {"name": "Chicago", "nickname": "Maroons", "color": "#801525"},
+  "CHI-D": {"name": "Chicago Dental Surgeons", "shortName": "Chicago Dental"},
+  "CHI-M": {"name": "Chicago Medical", "shortName": "Chicago Med"},
+  "CHI-P&S": {"name": "Chicago Physicians & Surgeons", "shortName": "Chi Phys & Surg"},
+  "CINCY": {"name": "Cincinnati", "nickname": "Bearcats", "color": "#b82332", "espnId": 2132},
+  "CLEM": {"name": "Clemson", "nickname": "Tigers", "color": "#ef6b2e", "espnId": 228},
+  "CMU": {"name": "Central Michigan", "nickname": "Chippewas", "color": "#922c46", "espnId": 2117},
+  "COE": {"name": "Coe", "nickname": "Kohawks", "color": "#9d0818", "espnId": 2141},
+  "COL": {"name": "Colorado", "nickname": "Buffaloes", "color": "#d6c688", "espnId": 38},
+  "CREI": {"name": "Creighton", "nickname": "Bluejays", "color": "#1f5fa6", "espnId": 156},
+  "DART": {"name": "Dartmouth", "nickname": "Big Green", "color": "#255b30", "espnId": 159},
+  "DEP": {"name": "DePauw", "nickname": "Tigers", "color": "#fbdb4b", "espnId": 83},
+  "DET": {"name": "Detroit Mercy", "nickname": "Titans", "color": "#992c34"},
+  "DLS": {"name": "De La Salle", "nickname": "Green Archers", "color": "#2e6630"},
+  "DRKE": {"name": "Drake", "nickname": "Bulldogs", "color": "#195399", "espnId": 2181},
+  "DUKE": {"name": "Duke", "nickname": "Blue Devils", "color": "#1a5495", "espnId": 150},
+  "ENG": {"name": "Englewood Tech", "nickname": "Eagles"},
+  "FLA": {"name": "Florida", "nickname": "Gators", "color": "#e35537", "espnId": 57},
+  "FRA": {"name": "Franklin", "nickname": "Grizzlies", "color": "#fbdc4b"},
   "FSU": {
     "name": "Florida State",
     "shortName": "Florida St",
@@ -257,104 +79,25 @@
     "color": "#743440",
     "espnId": 52
   },
-  "GOSH": {
-    "name": "Goshen",
-    "nickname": "Maple Leafs",
-    "color": "#561d87"
-  },
-  "GRTLK": {
-    "name": "Great Lakes Navy",
-    "shortName": "Great Lakes",
-    "nickname": "Bluejackets"
-  },
-  "GT": {
-    "name": "Georgia Tech",
-    "nickname": "Yellow Jackets",
-    "color": "#b79a71",
-    "espnId": 59
-  },
-  "HARP": {
-    "name": "Harvard Prep",
-    "nickname": "Hurricanes",
-    "color": "#d40028"
-  },
-  "HASK": {
-    "name": "Haskell",
-    "nickname": "Indians",
-    "color": "#48206d"
-  },
-  "HAW": {
-    "name": "Hawaii",
-    "nickname": "Rainbow Warriors",
-    "color": "#27583b",
-    "espnId": 62
-  },
-  "HIGH": {
-    "name": "Highland Views"
-  },
-  "HILLS": {
-    "name": "Hillsdale",
-    "nickname": "Chargers",
-    "color": "#004480"
-  },
-  "HOU": {
-    "name": "Houston",
-    "nickname": "Cougars",
-    "color": "#7f1b0f",
-    "espnId": 248
-  },
-  "ILL": {
-    "name": "Illinois",
-    "nickname": "Fighting Illini",
-    "color": "#d85442",
-    "espnId": 356
-  },
-  "ILL-C": {
-    "name": "Illinois Cycling Club",
-    "shortName": "Illinois Cycling"
-  },
-  "IND": {
-    "name": "Indiana",
-    "nickname": "Hoosiers",
-    "color": "#741e1c",
-    "espnId": 84
-  },
-  "INDAR": {
-    "name": "Indianapolis Artillery",
-    "shortName": "Indy Artillery"
-  },
-  "IO-PF": {
-    "name": "Iowa Pre-Flight",
-    "nickname": "Seahawks"
-  },
-  "IOWA": {
-    "name": "Iowa",
-    "nickname": "Hawkeyes",
-    "color": "#f9cb46",
-    "espnId": 2294
-  },
-  "ISU": {
-    "name": "Iowa State",
-    "nickname": "Cyclones",
-    "color": "#83152e",
-    "espnId": 66
-  },
-  "KAL": {
-    "name": "Kalamazoo",
-    "nickname": "Fighting Hornets",
-    "color": "#de6e37"
-  },
-  "KNOX": {
-    "name": "Knox",
-    "nickname": "Prairie Fire",
-    "color": "#eeab41"
-  },
-  "KU": {
-    "name": "Kansas",
-    "nickname": "Jayhawks",
-    "color": "#256aad",
-    "espnId": 2305
-  },
+  "GOSH": {"name": "Goshen", "nickname": "Maple Leafs", "color": "#561d87"},
+  "GRTLK": {"name": "Great Lakes Navy", "shortName": "Great Lakes", "nickname": "Bluejackets"},
+  "GT": {"name": "Georgia Tech", "nickname": "Yellow Jackets", "color": "#b79a71", "espnId": 59},
+  "HARP": {"name": "Harvard Prep", "nickname": "Hurricanes", "color": "#d40028"},
+  "HASK": {"name": "Haskell", "nickname": "Indians", "color": "#48206d"},
+  "HAW": {"name": "Hawaii", "nickname": "Rainbow Warriors", "color": "#27583b", "espnId": 62},
+  "HIGH": {"name": "Highland Views"},
+  "HILLS": {"name": "Hillsdale", "nickname": "Chargers", "color": "#004480"},
+  "HOU": {"name": "Houston", "nickname": "Cougars", "color": "#7f1b0f", "espnId": 248},
+  "ILL": {"name": "Illinois", "nickname": "Fighting Illini", "color": "#d85442", "espnId": 356},
+  "ILL-C": {"name": "Illinois Cycling Club", "shortName": "Illinois Cycling"},
+  "IND": {"name": "Indiana", "nickname": "Hoosiers", "color": "#741e1c", "espnId": 84},
+  "INDAR": {"name": "Indianapolis Artillery", "shortName": "Indy Artillery"},
+  "IO-PF": {"name": "Iowa Pre-Flight", "nickname": "Seahawks"},
+  "IOWA": {"name": "Iowa", "nickname": "Hawkeyes", "color": "#f9cb46", "espnId": 2294},
+  "ISU": {"name": "Iowa State", "nickname": "Cyclones", "color": "#83152e", "espnId": 66},
+  "KAL": {"name": "Kalamazoo", "nickname": "Fighting Hornets", "color": "#de6e37"},
+  "KNOX": {"name": "Knox", "nickname": "Prairie Fire", "color": "#eeab41"},
+  "KU": {"name": "Kansas", "nickname": "Jayhawks", "color": "#256aad", "espnId": 2305},
   "LIL": {
     "name": "Loyola (Chicago)",
     "shortName": "Loyola (Chi)",
@@ -367,94 +110,22 @@
     "nickname": "Wolf Pack",
     "color": "#8d1931"
   },
-  "LAK": {
-    "name": "Lake Forest",
-    "nickname": "Foresters",
-    "color": "#e5273b"
-  },
-  "LOMB": {
-    "name": "Lombard",
-    "nickname": "Golden Tornado"
-  },
-  "LOU": {
-    "name": "Louisville",
-    "nickname": "Cardinals",
-    "color": "#c42d49",
-    "espnId": 97
-  },
-  "LSU": {
-    "name": "LSU",
-    "nickname": "Tigers",
-    "color": "#4e2683",
-    "espnId": 99
-  },
-  "MOH": {
-    "name": "Miami (Ohio)",
-    "nickname": "RedHawks",
-    "color": "#d3333e",
-    "espnId": 193
-  },
-  "MARQ": {
-    "name": "Marquette",
-    "nickname": "Golden Eagles",
-    "color": "#0b3270"
-  },
-  "MD": {
-    "name": "Maryland",
-    "nickname": "Terrapins",
-    "color": "#d3333e",
-    "espnId": 120
-  },
-  "MIAMI": {
-    "name": "Miami",
-    "nickname": "Hurricanes",
-    "color": "#e5773a",
-    "espnId": 2390
-  },
-  "MICH": {
-    "name": "Michigan",
-    "nickname": "Wolverines",
-    "color": "#00245d",
-    "espnId": 130
-  },
-  "MINN": {
-    "name": "Minnesota",
-    "nickname": "Golden Gophers",
-    "color": "#813043",
-    "espnId": 135
-  },
-  "MISS": {
-    "name": "Ole Miss",
-    "nickname": "Rebels",
-    "color": "#bd241c",
-    "espnId": 145
-  },
-  "MIZ": {
-    "name": "Missouri",
-    "nickname": "Tigers",
-    "color": "#e4b040",
-    "espnId": 142
-  },
-  "MIZ-O": {
-    "name": "Missouri Osteopaths",
-    "shortName": "Missouri Osteo"
-  },
-  "MORN": {
-    "name": "Morningside",
-    "nickname": "Mustangs",
-    "color": "#701011"
-  },
-  "MORR": {
-    "name": "Morris Harvey",
-    "nickname": "Golden Eagles",
-    "color": "#962c4c"
-  },
-  "MRSH": {
-    "name": "Marshall",
-    "nickname": "Thundering Herd",
-    "color": "#01632f",
-    "espnId": 276
-  },
+  "LAK": {"name": "Lake Forest", "nickname": "Foresters", "color": "#e5273b"},
+  "LOMB": {"name": "Lombard", "nickname": "Golden Tornado"},
+  "LOU": {"name": "Louisville", "nickname": "Cardinals", "color": "#c42d49", "espnId": 97},
+  "LSU": {"name": "LSU", "nickname": "Tigers", "color": "#4e2683", "espnId": 99},
+  "MOH": {"name": "Miami (Ohio)", "nickname": "RedHawks", "color": "#d3333e", "espnId": 193},
+  "MARQ": {"name": "Marquette", "nickname": "Golden Eagles", "color": "#0b3270"},
+  "MD": {"name": "Maryland", "nickname": "Terrapins", "color": "#d3333e", "espnId": 120},
+  "MIAMI": {"name": "Miami", "nickname": "Hurricanes", "color": "#e5773a", "espnId": 2390},
+  "MICH": {"name": "Michigan", "nickname": "Wolverines", "color": "#00245d", "espnId": 130},
+  "MINN": {"name": "Minnesota", "nickname": "Golden Gophers", "color": "#813043", "espnId": 135},
+  "MISS": {"name": "Ole Miss", "nickname": "Rebels", "color": "#bd241c", "espnId": 145},
+  "MIZ": {"name": "Missouri", "nickname": "Tigers", "color": "#e4b040", "espnId": 142},
+  "MIZ-O": {"name": "Missouri Osteopaths", "shortName": "Missouri Osteo"},
+  "MORN": {"name": "Morningside", "nickname": "Mustangs", "color": "#701011"},
+  "MORR": {"name": "Morris Harvey", "nickname": "Golden Eagles", "color": "#962c4c"},
+  "MRSH": {"name": "Marshall", "nickname": "Thundering Herd", "color": "#01632f", "espnId": 276},
   "MSU": {
     "name": "Michigan State",
     "shortName": "Michigan St",
@@ -462,46 +133,17 @@
     "color": "#26443c",
     "espnId": 127
   },
-  "MTU": {
-    "name": "Mount Union",
-    "nickname": "Purple Raiders",
-    "color": "#652d8a"
-  },
-  "NAVY": {
-    "name": "Navy",
-    "nickname": "Midshipmen",
-    "color": "#b3a580",
-    "espnId": 2426
-  },
-  "NCST": {
-    "name": "NC State",
-    "nickname": "Wolfpack",
-    "color": "#d14746",
-    "espnId": 152
-  },
-  "ND": {
-    "name": "Notre Dame",
-    "nickname": "Fighting Irish",
-    "color": "#2a8c5f",
-    "espnId": 87
-  },
+  "MTU": {"name": "Mount Union", "nickname": "Purple Raiders", "color": "#652d8a"},
+  "NAVY": {"name": "Navy", "nickname": "Midshipmen", "color": "#b3a580", "espnId": 2426},
+  "NCST": {"name": "NC State", "nickname": "Wolfpack", "color": "#d14746", "espnId": 152},
+  "ND": {"name": "Notre Dame", "nickname": "Fighting Irish", "color": "#2a8c5f", "espnId": 87},
   "NDHS": {
     "name": "North Division High School",
     "shortName": "N Division HS",
     "nickname": "Blue Devils"
   },
-  "NEB": {
-    "name": "Nebraska",
-    "nickname": "Cornhuskers",
-    "color": "#d5323f",
-    "espnId": 158
-  },
-  "NEV": {
-    "name": "Nevada",
-    "nickname": "Wolf Pack",
-    "color": "#132549",
-    "espnId": 2440
-  },
+  "NEB": {"name": "Nebraska", "nickname": "Cornhuskers", "color": "#d5323f", "espnId": 158},
+  "NEV": {"name": "Nevada", "nickname": "Wolf Pack", "color": "#132549", "espnId": 2440},
   "NIU": {
     "name": "Northern Illinois",
     "shortName": "Northern Ill",
@@ -509,28 +151,10 @@
     "color": "#e0134c",
     "espnId": 2459
   },
-  "NW": {
-    "name": "Northwestern",
-    "nickname": "Wildcats",
-    "color": "#4a3485",
-    "espnId": 77
-  },
-  "NWL": {
-    "name": "Northwestern Law",
-    "nickname": "Wildcats",
-    "color": "#4a3485"
-  },
-  "OH-M": {
-    "name": "Ohio Medical",
-    "shortName": "Ohio Med",
-    "nickname": "Tigers"
-  },
-  "OKLA": {
-    "name": "Oklahoma",
-    "nickname": "Sooners",
-    "color": "#9b1f36",
-    "espnId": 201
-  },
+  "NW": {"name": "Northwestern", "nickname": "Wildcats", "color": "#4a3485", "espnId": 77},
+  "NWL": {"name": "Northwestern Law", "nickname": "Wildcats", "color": "#4a3485"},
+  "OH-M": {"name": "Ohio Medical", "shortName": "Ohio Med", "nickname": "Tigers"},
+  "OKLA": {"name": "Oklahoma", "nickname": "Sooners", "color": "#9b1f36", "espnId": 201},
   "OKST": {
     "name": "Oklahoma State",
     "shortName": "Oklahoma St",
@@ -538,22 +162,9 @@
     "color": "#f05423",
     "espnId": 197
   },
-  "OLIV": {
-    "name": "Olivet College",
-    "nickname": "Comets",
-    "color": "#e72623"
-  },
-  "ONU": {
-    "name": "Ohio Northern",
-    "nickname": "Polar Bears",
-    "color": "#f26f31"
-  },
-  "ORE": {
-    "name": "Oregon",
-    "nickname": "Ducks",
-    "color": "#2d6d54",
-    "espnId": 2483
-  },
+  "OLIV": {"name": "Olivet College", "nickname": "Comets", "color": "#e72623"},
+  "ONU": {"name": "Ohio Northern", "nickname": "Polar Bears", "color": "#f26f31"},
+  "ORE": {"name": "Oregon", "nickname": "Ducks", "color": "#2d6d54", "espnId": 2483},
   "ORST": {
     "name": "Oregon State",
     "shortName": "Oregon St",
@@ -561,87 +172,21 @@
     "color": "#e77a3a",
     "espnId": 204
   },
-  "OSU": {
-    "name": "Ohio State",
-    "nickname": "Buckeyes",
-    "color": "#bf2b45",
-    "espnId": 194
-  },
-  "PAC": {
-    "name": "Pacific",
-    "nickname": "Tigers",
-    "color": "#e87e3b"
-  },
-  "PENN": {
-    "name": "Pennsylvania",
-    "nickname": "Quakers",
-    "color": "#6b1928",
-    "espnId": 219
-  },
-  "PITT": {
-    "name": "Pittsburgh",
-    "nickname": "Panthers",
-    "color": "#10233d",
-    "espnId": 221
-  },
-  "PRIN": {
-    "name": "Princeton",
-    "nickname": "Tigers",
-    "color": "#ef5d2b",
-    "espnId": 163
-  },
-  "PSU": {
-    "name": "Penn State",
-    "nickname": "Nittany Lions",
-    "color": "#0a2f5f",
-    "espnId": 213
-  },
-  "PUR": {
-    "name": "Purdue",
-    "nickname": "Boilermakers",
-    "color": "#d2bf9a",
-    "espnId": 2509
-  },
-  "RICE": {
-    "name": "Rice",
-    "nickname": "Owls",
-    "color": "#0f3d73",
-    "espnId": 242
-  },
-  "ROSE": {
-    "name": "Rose Poly",
-    "nickname": "Fighting Engineers",
-    "color": "#7e0000"
-  },
-  "RUSH": {
-    "name": "Rush Medical",
-    "shortName": "Rush Med",
-    "color": "#006a38"
-  },
-  "RUTG": {
-    "name": "Rutgers",
-    "nickname": "Scarlet Knights",
-    "color": "#ec2f24",
-    "espnId": 164
-  },
-  "SB-AC": {
-    "name": "South Bend Athletic Club",
-    "shortName": "South Bend Athl"
-  },
-  "SB-HP": {
-    "name": "South Bend Howard Park",
-    "shortName": "South Bend HP"
-  },
-  "SB-HS": {
-    "name": "South Bend High School",
-    "shortName": "South Bend HS",
-    "nickname": "Indians"
-  },
-  "SBON": {
-    "name": "St. Bonaventure",
-    "nickname": "Bonnies",
-    "color": "#5e392b"
-  },
+  "OSU": {"name": "Ohio State", "nickname": "Buckeyes", "color": "#bf2b45", "espnId": 194},
+  "PAC": {"name": "Pacific", "nickname": "Tigers", "color": "#e87e3b"},
+  "PENN": {"name": "Pennsylvania", "nickname": "Quakers", "color": "#6b1928", "espnId": 219},
+  "PITT": {"name": "Pittsburgh", "nickname": "Panthers", "color": "#10233d", "espnId": 221},
+  "PRIN": {"name": "Princeton", "nickname": "Tigers", "color": "#ef5d2b", "espnId": 163},
+  "PSU": {"name": "Penn State", "nickname": "Nittany Lions", "color": "#0a2f5f", "espnId": 213},
+  "PUR": {"name": "Purdue", "nickname": "Boilermakers", "color": "#d2bf9a", "espnId": 2509},
+  "RICE": {"name": "Rice", "nickname": "Owls", "color": "#0f3d73", "espnId": 242},
+  "ROSE": {"name": "Rose Poly", "nickname": "Fighting Engineers", "color": "#7e0000"},
+  "RUSH": {"name": "Rush Medical", "shortName": "Rush Med", "color": "#006a38"},
+  "RUTG": {"name": "Rutgers", "nickname": "Scarlet Knights", "color": "#ec2f24", "espnId": 164},
+  "SB-AC": {"name": "South Bend Athletic Club", "shortName": "South Bend Athl"},
+  "SB-HP": {"name": "South Bend Howard Park", "shortName": "South Bend HP"},
+  "SB-HS": {"name": "South Bend High School", "shortName": "South Bend HS", "nickname": "Indians"},
+  "SBON": {"name": "St. Bonaventure", "nickname": "Bonnies", "color": "#5e392b"},
   "SCAR": {
     "name": "South Carolina",
     "shortName": "S Carolina",
@@ -649,12 +194,7 @@
     "color": "#8d1c2f",
     "espnId": 2579
   },
-  "SD": {
-    "name": "South Dakota",
-    "nickname": "Coyotes",
-    "color": "#a01d14",
-    "espnId": 233
-  },
+  "SD": {"name": "South Dakota", "nickname": "Coyotes", "color": "#a01d14", "espnId": 233},
   "SDSU": {
     "name": "San Diego State",
     "shortName": "San Diego St",
@@ -662,11 +202,7 @@
     "color": "#a03041",
     "espnId": 21
   },
-  "SLU": {
-    "name": "St. Louis",
-    "nickname": "Billikens",
-    "color": "#2c5182"
-  },
+  "SLU": {"name": "St. Louis", "nickname": "Billikens", "color": "#2c5182"},
   "SMU": {
     "name": "Southern Methodist",
     "shortName": "SMU",
@@ -674,42 +210,12 @@
     "color": "#d5333f",
     "espnId": 2567
   },
-  "STAN": {
-    "name": "Stanford",
-    "nickname": "Cardinal",
-    "color": "#82211d",
-    "espnId": 24
-  },
-  "SYR": {
-    "name": "Syracuse",
-    "nickname": "Orange",
-    "color": "#e78145",
-    "espnId": 183
-  },
-  "TA&M": {
-    "name": "Texas A&M",
-    "nickname": "Aggies",
-    "color": "#4a0704",
-    "espnId": 245
-  },
-  "TCU": {
-    "name": "TCU",
-    "nickname": "Horned Frogs",
-    "color": "#423d63",
-    "espnId": 2628
-  },
-  "TEM": {
-    "name": "Temple",
-    "nickname": "Owls",
-    "color": "#922836",
-    "espnId": 218
-  },
-  "TENN": {
-    "name": "Tennessee",
-    "nickname": "Volunteers",
-    "color": "#f08634",
-    "espnId": 2633
-  },
+  "STAN": {"name": "Stanford", "nickname": "Cardinal", "color": "#82211d", "espnId": 24},
+  "SYR": {"name": "Syracuse", "nickname": "Orange", "color": "#e78145", "espnId": 183},
+  "TA&M": {"name": "Texas A&M", "nickname": "Aggies", "color": "#4a0704", "espnId": 245},
+  "TCU": {"name": "TCU", "nickname": "Horned Frogs", "color": "#423d63", "espnId": 2628},
+  "TEM": {"name": "Temple", "nickname": "Owls", "color": "#922836", "espnId": 218},
+  "TENN": {"name": "Tennessee", "nickname": "Volunteers", "color": "#f08634", "espnId": 2633},
   "TNST": {
     "name": "Tennessee State",
     "shortName": "Tennessee St",
@@ -717,58 +223,15 @@
     "color": "#2c328c",
     "espnId": 2634
   },
-  "TEX": {
-    "name": "Texas",
-    "nickname": "Longhorns",
-    "color": "#d37335",
-    "espnId": 251
-  },
-  "TOL": {
-    "name": "Toledo",
-    "nickname": "Rockets",
-    "color": "#fad22a",
-    "espnId": 2649
-  },
-  "TOLAA": {
-    "name": "Toledo Athletic Association",
-    "shortName": "Toledo Athl"
-  },
-  "TULN": {
-    "name": "Tulane",
-    "nickname": "Green Wave",
-    "color": "#29644b",
-    "espnId": 2655
-  },
-  "TULSA": {
-    "name": "Tulsa",
-    "nickname": "Golden Hurricane",
-    "color": "#c2333f",
-    "espnId": 202
-  },
-  "UCLA": {
-    "name": "UCLA",
-    "nickname": "Bruins",
-    "color": "#3560a2",
-    "espnId": 26
-  },
-  "UCONN": {
-    "name": "Connecticut",
-    "nickname": "Huskies",
-    "color": "#10254b",
-    "espnId": 41
-  },
-  "UGA": {
-    "name": "Georgia",
-    "nickname": "Bulldogs",
-    "color": "#ee6764",
-    "espnId": 61
-  },
-  "UMASS": {
-    "name": "Massachusetts",
-    "nickname": "Minutemen",
-    "color": "#3e050a",
-    "espnId": 113
-  },
+  "TEX": {"name": "Texas", "nickname": "Longhorns", "color": "#d37335", "espnId": 251},
+  "TOL": {"name": "Toledo", "nickname": "Rockets", "color": "#fad22a", "espnId": 2649},
+  "TOLAA": {"name": "Toledo Athletic Association", "shortName": "Toledo Athl"},
+  "TULN": {"name": "Tulane", "nickname": "Green Wave", "color": "#29644b", "espnId": 2655},
+  "TULSA": {"name": "Tulsa", "nickname": "Golden Hurricane", "color": "#c2333f", "espnId": 202},
+  "UCLA": {"name": "UCLA", "nickname": "Bruins", "color": "#3560a2", "espnId": 26},
+  "UCONN": {"name": "Connecticut", "nickname": "Huskies", "color": "#10254b", "espnId": 41},
+  "UGA": {"name": "Georgia", "nickname": "Bulldogs", "color": "#ee6764", "espnId": 61},
+  "UMASS": {"name": "Massachusetts", "nickname": "Minutemen", "color": "#3e050a", "espnId": 113},
   "UNC": {
     "name": "North Carolina",
     "shortName": "N Carolina",
@@ -776,70 +239,22 @@
     "color": "#80acd2",
     "espnId": 153
   },
-  "UNLV": {
-    "name": "UNLV",
-    "nickname": "Rebels",
-    "color": "#e51936",
-    "espnId": 2439
-  },
-  "UNM": {
-    "name": "New Mexico",
-    "nickname": "Lobos",
-    "color": "#c52b45",
-    "espnId": 167
-  },
-  "USC": {
-    "name": "USC",
-    "nickname": "Trojans",
-    "color": "#8d2725",
-    "espnId": 30
-  },
-  "USF": {
-    "name": "South Florida",
-    "nickname": "Bulls",
-    "color": "#133831",
-    "espnId": 58
-  },
-  "UTAH": {
-    "name": "Utah",
-    "nickname": "Utes",
-    "color": "#a51f3a",
-    "espnId": 254
-  },
-  "UVA": {
-    "name": "Virginia",
-    "nickname": "Cavaliers",
-    "color": "#ef8344",
-    "espnId": 258
-  },
-  "VALPO": {
-    "name": "Valparaiso",
-    "nickname": "Crusaders",
-    "color": "#734306",
-    "espnId": 2674
-  },
-  "VANDY": {
-    "name": "Vanderbilt",
-    "nickname": "Commodores",
-    "color": "#6a511c",
-    "espnId": 238
-  },
-  "VIA": {
-    "name": "St. Viator",
-    "nickname": "Green Wave"
-  },
+  "UNLV": {"name": "UNLV", "nickname": "Rebels", "color": "#e51936", "espnId": 2439},
+  "UNM": {"name": "New Mexico", "nickname": "Lobos", "color": "#c52b45", "espnId": 167},
+  "USC": {"name": "USC", "nickname": "Trojans", "color": "#8d2725", "espnId": 30},
+  "USF": {"name": "South Florida", "nickname": "Bulls", "color": "#133831", "espnId": 58},
+  "UTAH": {"name": "Utah", "nickname": "Utes", "color": "#a51f3a", "espnId": 254},
+  "UVA": {"name": "Virginia", "nickname": "Cavaliers", "color": "#ef8344", "espnId": 258},
+  "VALPO": {"name": "Valparaiso", "nickname": "Crusaders", "color": "#734306", "espnId": 2674},
+  "VANDY": {"name": "Vanderbilt", "nickname": "Commodores", "color": "#6a511c", "espnId": 238},
+  "VIA": {"name": "St. Viator", "nickname": "Green Wave"},
   "VINC": {
     "name": "St. Vincent's (DePaul)",
     "shortName": "St. Vincent's",
     "nickname": "Blue Demons",
     "color": "#2974b5"
   },
-  "VT": {
-    "name": "Virginia Tech",
-    "nickname": "Hokies",
-    "color": "#8b2942",
-    "espnId": 259
-  },
+  "VT": {"name": "Virginia Tech", "nickname": "Hokies", "color": "#8b2942", "espnId": 259},
   "W&J": {
     "name": "Washington & Jefferson",
     "shortName": "Wash & Jeff",
@@ -847,36 +262,16 @@
     "color": "#a4343a",
     "espnId": 2686
   },
-  "WAB": {
-    "name": "Wabash",
-    "nickname": "Little Giants",
-    "color": "#ee1b2c",
-    "espnId": 89
-  },
-  "WAKE": {
-    "name": "Wake Forest",
-    "nickname": "Demon Deacons",
-    "color": "#A99E73",
-    "espnId": 154
-  },
-  "WASH": {
-    "name": "Washington",
-    "nickname": "Huskies",
-    "color": "#2a3261",
-    "espnId": 264
-  },
+  "WAB": {"name": "Wabash", "nickname": "Little Giants", "color": "#ee1b2c", "espnId": 89},
+  "WAKE": {"name": "Wake Forest", "nickname": "Demon Deacons", "color": "#A99E73", "espnId": 154},
+  "WASH": {"name": "Washington", "nickname": "Huskies", "color": "#2a3261", "espnId": 264},
   "WASHU": {
     "name": "Washington University",
     "shortName": "Washington Univ",
     "nickname": "Bears",
     "color": "#ad2443"
   },
-  "WIS": {
-    "name": "Wisconsin",
-    "nickname": "Badgers",
-    "color": "#9f0000",
-    "espnId": 275
-  },
+  "WIS": {"name": "Wisconsin", "nickname": "Badgers", "color": "#9f0000", "espnId": 275},
   "WMU": {
     "name": "Western Michigan",
     "shortName": "Western Mich",
@@ -898,10 +293,5 @@
     "color": "#08273f",
     "espnId": 277
   },
-  "YALE": {
-    "name": "Yale",
-    "nickname": "Elis",
-    "color": "#244b72",
-    "espnId": 43
-  }
+  "YALE": {"name": "Yale", "nickname": "Elis", "color": "#244b72", "espnId": 43}
 }

@@ -10,29 +10,13 @@
       "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 26,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 26, "home": 7},
+    "linescore": {"away": [], "home": []},
     "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 16
-      },
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 70
-    }
+    "rankings": {"away": {"ap": 16}, "home": {"ap": 9}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 70}
   },
   {
     "result": "W",
@@ -45,29 +29,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 8,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 8, "home": 31},
+    "linescore": {"away": [], "home": []},
     "time": "7:45 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 9
-      },
-      "away": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 63
-    }
+    "rankings": {"home": {"ap": 9}, "away": {"ap": 17}},
+    "weather": {"icon": "cloudy", "temperature": 63}
   },
   {
     "result": "W",
@@ -80,25 +48,12 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 44,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 44, "home": 20},
+    "linescore": {"away": [], "home": []},
     "time": "12:00 PM",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "temperature": 81,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 8}},
+    "weather": {"temperature": 81, "icon": "unknown"}
   },
   {
     "result": "L",
@@ -111,26 +66,13 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 22,
-      "home": 30
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 22, "home": 30},
+    "linescore": {"away": [], "home": []},
     "time": "7:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 49
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "rain", "temperature": 49}
   },
   {
     "result": "W",
@@ -143,25 +85,12 @@
       "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 35,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 35, "home": 14},
+    "linescore": {"away": [], "home": []},
     "time": "3:30 PM",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 11
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 69
-    }
+    "rankings": {"away": {"ap": 11}},
+    "weather": {"icon": "clear-day", "temperature": 69}
   },
   {
     "result": "W",
@@ -174,26 +103,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 15,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 15, "home": 26},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 44
-    }
+    "rankings": {"home": {"ap": 10}},
+    "weather": {"icon": "cloudy", "temperature": 44}
   },
   {
     "result": "W",
@@ -206,25 +122,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 13,
-      "home": 56
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 56},
+    "linescore": {"away": [], "home": []},
     "time": "12:00 PM",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 60
-    }
+    "rankings": {"home": {"ap": 9}},
+    "weather": {"icon": "cloudy", "temperature": 60}
   },
   {
     "result": "W",
@@ -237,25 +140,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BC",
-    "score": {
-      "away": 25,
-      "home": 32
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 25, "home": 32},
+    "linescore": {"away": [], "home": []},
     "time": "12:00 PM",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 53
-    }
+    "rankings": {"home": {"ap": 9}},
+    "weather": {"icon": "cloudy", "temperature": 53}
   },
   {
     "result": "W",
@@ -268,29 +158,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "BAMA",
-    "score": {
-      "away": 6,
-      "home": 37
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 37},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 7
-      },
-      "away": {
-        "ap": 11
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 55
-    }
+    "rankings": {"home": {"ap": 7}, "away": {"ap": 11}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 55}
   },
   {
     "result": "L",
@@ -303,26 +177,13 @@
       "coordinates": [40.812033, -77.856156]
     },
     "opponentId": "PSU",
-    "score": {
-      "away": 20,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 21},
+    "linescore": {"away": [], "home": []},
     "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "temperature": 21,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 7}},
+    "weather": {"temperature": 21, "icon": "unknown"}
   },
   {
     "result": "L",
@@ -335,29 +196,13 @@
       "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "MIAMI",
-    "score": {
-      "away": 0,
-      "home": 24
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 24},
+    "linescore": {"away": [], "home": []},
     "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 10
-      },
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 77
-    }
+    "rankings": {"away": {"ap": 10}, "home": {"ap": 2}},
+    "weather": {"icon": "clear-night", "temperature": 77}
   },
   {
     "result": "L",
@@ -372,29 +217,13 @@
       "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "TA&M",
-    "score": {
-      "away": 10,
-      "home": 35
-    },
-    "linescore": {
-      "away": [7, 3, 0, 0],
-      "home": [3, 15, 7, 10]
-    },
+    "score": {"away": 10, "home": 35},
+    "linescore": {"away": [7, 3, 0, 0], "home": [3, 15, 7, 10]},
     "time": "1:30 PM",
     "coverage": "CBS",
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 13
-      },
-      "away": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 43
-    }
+    "rankings": {"home": {"ap": 13}, "away": {"ap": 12}},
+    "weather": {"icon": "cloudy", "temperature": 43}
   }
 ]

@@ -10,29 +10,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 17,
-      "home": 23
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 23},
+    "linescore": {"away": [], "home": []},
     "time": "9:00 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 20
-      },
-      "away": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 49
-    }
+    "rankings": {"home": {"ap": 20}, "away": {"ap": 10}},
+    "weather": {"icon": "clear-night", "temperature": 49}
   },
   {
     "result": "W",
@@ -45,25 +29,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 14,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 28},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 61
-    }
+    "rankings": {"home": {"ap": 10}},
+    "weather": {"icon": "cloudy", "temperature": 61}
   },
   {
     "result": "W",
@@ -76,25 +47,12 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 11,
-      "home": 3
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 11, "home": 3},
+    "linescore": {"away": [], "home": []},
     "time": "1:00 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "away": {
-        "ap": 11
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 71
-    }
+    "rankings": {"away": {"ap": 11}},
+    "weather": {"icon": "cloudy", "temperature": 71}
   },
   {
     "result": "W",
@@ -107,28 +65,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "MIAMI",
-    "score": {
-      "away": 14,
-      "home": 16
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 16},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 10
-      },
-      "away": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 63
-    }
+    "rankings": {"home": {"ap": 10}, "away": {"ap": 17}},
+    "weather": {"icon": "cloudy", "temperature": 63}
   },
   {
     "result": "L",
@@ -141,25 +83,12 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "ARIZ",
-    "score": {
-      "away": 16,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 16, "home": 13},
+    "linescore": {"away": [], "home": []},
     "time": "2:30 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 46
-    }
+    "rankings": {"home": {"ap": 9}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 46}
   },
   {
     "result": "T",
@@ -172,25 +101,12 @@
       "coordinates": [44.058251, -123.068532]
     },
     "opponentId": "ORE",
-    "score": {
-      "away": 13,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 13},
+    "linescore": {"away": [], "home": []},
     "time": "4:00 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "away": {
-        "ap": 15
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 69
-    }
+    "rankings": {"away": {"ap": 15}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 69}
   },
   {
     "result": "W",
@@ -203,20 +119,11 @@
       "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 10,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 27},
+    "linescore": {"away": [], "home": []},
     "time": "1:00 PM",
     "headCoach": "Gerry Faust",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 69
-    }
+    "weather": {"icon": "clear-day", "temperature": 69}
   },
   {
     "result": "W",
@@ -229,25 +136,12 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 31,
-      "home": 16
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 31, "home": 16},
+    "linescore": {"away": [], "home": []},
     "time": "1:30 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 43
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "clear-day", "temperature": 43}
   },
   {
     "result": "L",
@@ -260,29 +154,13 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "PSU",
-    "score": {
-      "away": 24,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 24, "home": 14},
+    "linescore": {"away": [], "home": []},
     "time": "3:50 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 13
-      },
-      "away": {
-        "ap": 5
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 25
-    }
+    "rankings": {"home": {"ap": 13}, "away": {"ap": 5}},
+    "weather": {"icon": "cloudy", "temperature": 25}
   },
   {
     "result": "L",
@@ -295,25 +173,12 @@
       "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 17,
-      "home": 30
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 30},
+    "linescore": {"away": [], "home": []},
     "time": "3:00 PM",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "away": {
-        "ap": 18
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 39
-    }
+    "rankings": {"away": {"ap": 18}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 39}
   },
   {
     "result": "L",
@@ -326,25 +191,12 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 13,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 17},
+    "linescore": {"away": [], "home": []},
     "time": "3:50 PM",
     "coverage": "CBS",
     "headCoach": "Gerry Faust",
-    "rankings": {
-      "home": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 67
-    }
+    "rankings": {"home": {"ap": 17}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 67}
   }
 ]

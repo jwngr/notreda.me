@@ -31,10 +31,7 @@ export const getNationalChampionshipYears = (): readonly number[] => {
 /**
  * Returns the dimensions of the window.
  */
-export const getWindowDimensions = (): {
-  readonly width: number;
-  readonly height: number;
-} => {
+export const getWindowDimensions = (): {readonly width: number; readonly height: number} => {
   const e = document.documentElement;
   const g = document.getElementsByTagName('body')[0];
 

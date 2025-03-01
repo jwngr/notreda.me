@@ -10,19 +10,10 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "IND",
-    "score": {
-      "away": 6,
-      "home": 49
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 49},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 44
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 44}
   },
   {
     "result": "W",
@@ -35,19 +26,10 @@
       "coordinates": [47.650288, -122.301573]
     },
     "opponentId": "WASH",
-    "score": {
-      "away": 27,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 53
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 53}
   },
   {
     "result": "W",
@@ -60,20 +42,10 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 35,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 35, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    }
+    "rankings": {"away": {"ap": 2}}
   },
   {
     "result": "W",
@@ -86,27 +58,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "TULN",
-    "score": {
-      "away": 7,
-      "home": 46
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 46},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 47
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 4}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 47}
   },
   {
     "result": "W",
@@ -119,24 +75,11 @@
       "coordinates": [39.330024, -76.601532]
     },
     "opponentId": "NAVY",
-    "score": {
-      "away": 0,
-      "home": 40
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 40},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "temperature": 50,
-      "icon": "unknown"
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"temperature": 50, "icon": "unknown"}
   },
   {
     "result": "W",
@@ -149,27 +92,11 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 34,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 34, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      },
-      "home": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 26
-    }
+    "rankings": {"away": {"ap": 1}, "home": {"ap": 10}},
+    "weather": {"icon": "clear-night", "temperature": 26}
   },
   {
     "result": "W",
@@ -182,24 +109,11 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 6,
-      "home": 42
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 42},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 54
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "cloudy", "temperature": 54}
   },
   {
     "result": "W",
@@ -212,24 +126,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 7,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 33
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 33}
   },
   {
     "result": "W",
@@ -242,27 +143,11 @@
       "coordinates": [41.698399, -86.233917]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 0,
-      "home": 32
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 32},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 20
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 17}},
+    "weather": {"icon": "cloudy", "temperature": 20}
   },
   {
     "result": "W",
@@ -275,23 +160,10 @@
       "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "SMU",
-    "score": {
-      "away": 27,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 56
-    }
+    "rankings": {"away": {"ap": 1}},
+    "weather": {"icon": "cloudy", "temperature": 56}
   }
 ]
