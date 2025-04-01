@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@sentry/node": "^9.7.0",
+    "@sentry/node": "^9.10.1",
     "chalk": "^5.4.1",
     "cheerio": "^1.0.0",
     "date-fns": "^4.1.0",
