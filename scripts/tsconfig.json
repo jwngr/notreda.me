@@ -13,6 +13,7 @@
     "strict": true, // Enable strict type checking.
     "noEmit": true, // Don't emit JS files - build step only for type checking.
     "resolveJsonModule": true, // Allow importing JSON files.
+    "skipLibCheck": true, // Skip type checking for external libraries.
 
     // TODO: Replace with yarn workspaces.
     "rootDirs": [".", "../website/src"]
