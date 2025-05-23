@@ -1,3 +1,4 @@
+import type {CheerioAPI} from 'cheerio';
 import range from 'lodash/range';
 
 import {GameLinescore, GameScore} from '../../website/src/models/games.models';
@@ -79,7 +80,7 @@ const _getEspnTeamScheduleUrl = (season: number, espnTeamId: number): string => 
 };
 
 const _getPollRankingsForWeek = (
-  $: cheerio.Root,
+  $: CheerioAPI,
   weekIndex: number
 ): Record<PollType, WeeklyIndividualPollRanking | null> | null => {
   const pollRankings: Record<PollType, WeeklyIndividualPollRanking | null> = {
