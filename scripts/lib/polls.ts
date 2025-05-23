@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
+import type {Cheerio, CheerioAPI} from 'cheerio';
+import type {Element} from 'domhandler';
 import _ from 'lodash';
 
 import {GameInfo} from '../../website/src/models/games.models';
@@ -40,8 +42,8 @@ function extractRecord(input: string): string | null {
 }
 
 function parseWikipediaWeeklyPolls(
-  $: cheerio.Root,
-  table: cheerio.Cheerio,
+  $: CheerioAPI,
+  table: Cheerio<Element>,
   season: number
 ): WeeklyIndividualPollRanking[] {
   const tableRows = table.find('tr');
