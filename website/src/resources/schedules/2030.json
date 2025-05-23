@@ -86,5 +86,16 @@
       "coordinates": [38.985, -76.507]
     },
     "opponentId": "NAVY"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "location": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "stadium": "Notre Dame Stadium",
+      "coordinates": [41.698399, -86.233917]
+    },
+    "opponentId": "CLEM"
   }
 ]
