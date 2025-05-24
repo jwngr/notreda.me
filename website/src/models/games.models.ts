@@ -75,11 +75,7 @@ export interface GameInfo {
   readonly isPostponed?: boolean;
 
   // Handle dates which are in the past or future and which may not have a time nor date.
-  // TODO: Unify `date`/`time` and `fullDate` between past and future games.
-  // TODO: Find a better way to represent 'TBD' dates.
-  readonly date?: string | 'TBD';
-  readonly time?: string;
-  readonly fullDate?: string;
+  readonly date: string | 'TBD';
 
   /** Which network broadcasted the game. */
   readonly coverage?: TVNetwork | 'TBD';

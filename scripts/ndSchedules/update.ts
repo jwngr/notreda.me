@@ -40,9 +40,9 @@ const updateNdSchedule = async () => {
 
   const espnGameStats = await Promise.all(
     _.map(currentSeasonSchedule, (gameData) => {
-      const gameDate = getDateFromGame(gameData);
-      if (!gameDate || gameDate === 'TBD') {
-        logger.error(`Kickoff date missing for ${gameData.opponentId} game`);
+      const gameDate = getDateFromGame(gameData.date);
+      if (gameDate === 'TBD') {
+        logger.error(`Kickoff TBD for ${gameData.opponentId} game`);
         return;
       }
 

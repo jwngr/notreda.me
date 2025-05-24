@@ -2,11 +2,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/13/1986",
+    "date": "Sat Sep 13, 1986 18:30:00 GMT-0500",
     "opponentId": "MICH",
     "score": {"away": 24, "home": 23},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 3}},
@@ -15,7 +14,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/20/1986",
+    "date": "Sat Sep 20, 1986 17:30:00 GMT-0500",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -25,7 +24,6 @@
     "opponentId": "MSU",
     "score": {"away": 15, "home": 20},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 20}},
@@ -34,11 +32,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/27/1986",
+    "date": "Sat Sep 27, 1986 18:30:00 GMT-0500",
     "opponentId": "PUR",
     "score": {"away": 9, "home": 41},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "weather": {"icon": "clear-day", "temperature": 82}
@@ -46,7 +43,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "10/04/1986",
+    "date": "Sat Oct 04, 1986 18:30:00 GMT-0500",
     "location": {
       "city": "Birmingham",
       "state": "AL",
@@ -56,7 +53,6 @@
     "opponentId": "BAMA",
     "score": {"away": 10, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
@@ -65,11 +61,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/11/1986",
+    "date": "Sat Oct 11, 1986 15:30:00 GMT-0500",
     "opponentId": "PITT",
     "score": {"away": 10, "home": 9},
     "linescore": {"away": [], "home": []},
-    "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
     "headCoach": "Lou Holtz",
     "weather": {"icon": "partly-cloudy-day", "temperature": 67}
@@ -77,11 +72,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/18/1986",
+    "date": "Sat Oct 18, 1986 15:30:00 GMT-0500",
     "opponentId": "AF",
     "score": {"away": 3, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "12:30 PM",
     "coverage": "USA / WGN-TV",
     "headCoach": "Lou Holtz",
     "weather": {"icon": "clear-day", "temperature": 58}
@@ -89,7 +83,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/01/1986",
+    "date": "Sat Nov 01, 1986 22:00:00 GMT-0500",
     "location": {
       "city": "Baltimore",
       "state": "MD",
@@ -99,7 +93,6 @@
     "opponentId": "NAVY",
     "score": {"away": 33, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "7:00 PM",
     "coverage": "TBS",
     "headCoach": "Lou Holtz",
     "weather": {"icon": "cloudy", "temperature": 53}
@@ -107,22 +100,20 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/08/1986",
+    "date": "Sat Nov 08, 1986 16:00:00 GMT-0500",
     "opponentId": "SMU",
     "score": {"away": 29, "home": 61},
     "linescore": {"away": [], "home": []},
-    "time": "1:00 PM",
     "headCoach": "Lou Holtz",
     "weather": {"icon": "cloudy", "temperature": 58}
   },
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/15/1986",
+    "date": "Sat Nov 15, 1986 18:30:00 GMT-0500",
     "opponentId": "PSU",
     "score": {"away": 24, "home": 19},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 3}},
@@ -131,7 +122,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/22/1986",
+    "date": "Sat Nov 22, 1986 22:30:00 GMT-0500",
     "location": {
       "city": "Baton Rouge",
       "state": "LA",
@@ -141,7 +132,6 @@
     "opponentId": "LSU",
     "score": {"away": 19, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "7:30 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 8}},
@@ -150,7 +140,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/29/1986",
+    "date": "Sat Nov 29, 1986 18:30:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -160,7 +150,6 @@
     "opponentId": "USC",
     "score": {"away": 38, "home": 37},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 17}},

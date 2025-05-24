@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/03/2011",
+    "date": "Sat Sep 03, 2011 18:30:00 GMT-0500",
     "opponentId": "USF",
     "score": {"away": 23, "home": 20},
     "stats": {
@@ -51,7 +51,6 @@
     },
     "espnGameId": 312460087,
     "linescore": {"away": [13, 3, 0, 7], "home": [0, 0, 7, 13]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "rankings": {"home": {"ap": 16}},
@@ -64,7 +63,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/10/2011",
+    "date": "Sat Sep 10, 2011 23:00:00 GMT-0500",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -119,7 +118,6 @@
     },
     "espnGameId": 312530130,
     "linescore": {"away": [14, 3, 7, 7], "home": [0, 7, 0, 28]},
-    "time": "8:00 PM",
     "coverage": "ESPN",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "partly-cloudy-night", "temperature": 64},
@@ -131,7 +129,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/17/2011",
+    "date": "Sat Sep 17, 2011 18:30:00 GMT-0500",
     "opponentId": "MSU",
     "score": {"away": 13, "home": 31},
     "stats": {
@@ -180,7 +178,6 @@
     },
     "espnGameId": 312600087,
     "linescore": {"away": [3, 7, 0, 3], "home": [14, 7, 7, 3]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "rankings": {"away": {"ap": 15}},
@@ -193,7 +190,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/24/2011",
+    "date": "Sat Sep 24, 2011 15:00:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -248,7 +245,6 @@
     },
     "espnGameId": 312670221,
     "linescore": {"away": [0, 7, 0, 8], "home": [3, 3, 6, 0]},
-    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "partly-cloudy-day", "temperature": 70},
@@ -260,7 +256,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/01/2011",
+    "date": "Sat Oct 01, 2011 23:00:00 GMT-0500",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -315,7 +311,6 @@
     },
     "espnGameId": 312742509,
     "linescore": {"away": [14, 7, 14, 3], "home": [0, 3, 0, 7]},
-    "time": "8:00 PM",
     "coverage": "ESPN",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "clear-night", "temperature": 43},
@@ -327,7 +322,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/08/2011",
+    "date": "Sat Oct 08, 2011 18:30:00 GMT-0500",
     "opponentId": "AF",
     "score": {"away": 33, "home": 59},
     "stats": {
@@ -376,7 +371,6 @@
     },
     "espnGameId": 312810087,
     "linescore": {"away": [3, 13, 0, 17], "home": [21, 21, 7, 10]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "clear-day", "temperature": 79},
@@ -388,7 +382,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/22/2011",
+    "date": "Sat Oct 22, 2011 22:30:00 GMT-0500",
     "opponentId": "USC",
     "score": {"away": 31, "home": 17},
     "stats": {
@@ -437,7 +431,6 @@
     },
     "espnGameId": 312950087,
     "linescore": {"away": [14, 3, 7, 7], "home": [0, 10, 0, 7]},
-    "time": "7:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "clear-night", "temperature": 48},
@@ -449,7 +442,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/29/2011",
+    "date": "Sat Oct 29, 2011 18:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 14, "home": 56},
     "stats": {
@@ -498,7 +491,6 @@
     },
     "espnGameId": 313020087,
     "linescore": {"away": [0, 7, 0, 7], "home": [14, 21, 7, 14]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "clear-day", "temperature": 49},
@@ -510,7 +502,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/05/2011",
+    "date": "Sat Nov 05, 2011 23:00:00 GMT-0500",
     "location": {
       "city": "Winston-Salem",
       "state": "NC",
@@ -565,7 +557,6 @@
     },
     "espnGameId": 313090154,
     "linescore": {"away": [10, 0, 14, 0], "home": [10, 7, 0, 0]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "partly-cloudy-night", "temperature": 37},
@@ -579,7 +570,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "date": "11/12/2011",
+    "date": "Sat Nov 12, 2011 22:30:00 GMT-0500",
     "location": {
       "city": "Landover",
       "state": "MD",
@@ -634,7 +625,6 @@
     },
     "espnGameId": 313160087,
     "linescore": {"away": [0, 7, 0, 14], "home": [10, 14, 14, 7]},
-    "time": "7:30 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "weather": {"icon": "clear-night", "temperature": 52},
@@ -646,7 +636,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/19/2011",
+    "date": "Sat Nov 19, 2011 19:00:00 GMT-0500",
     "opponentId": "BC",
     "score": {"away": 14, "home": 16},
     "stats": {
@@ -695,7 +685,6 @@
     },
     "espnGameId": 313230087,
     "linescore": {"away": [0, 7, 0, 7], "home": [10, 3, 0, 3]},
-    "time": "4:00 PM",
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
     "rankings": {"home": {"ap": 24}},
@@ -708,7 +697,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/26/2011",
+    "date": "Sat Nov 26, 2011 23:00:00 GMT-0500",
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -763,7 +752,6 @@
     },
     "espnGameId": 313300024,
     "linescore": {"away": [0, 0, 7, 7], "home": [7, 14, 0, 7]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
     "rankings": {"away": {"ap": 22, "bcs": 22}, "home": {"ap": 4, "bcs": 6}},
@@ -778,7 +766,7 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "12/29/2011",
+    "date": "Thu Dec 29, 2011 20:30:00 GMT-0500",
     "location": {
       "city": "Orlando",
       "state": "FL",
@@ -833,7 +821,6 @@
     },
     "espnGameId": 313630087,
     "linescore": {"away": [0, 0, 3, 15], "home": [7, 0, 7, 0]},
-    "time": "5:30 PM",
     "coverage": "ESPN",
     "nickname": "Champs Sports Bowl",
     "headCoach": "Brian Kelly",

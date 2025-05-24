@@ -71,7 +71,7 @@ export const getGameLocation = (args: {
 
   // Notre Dame home games (non-neutral site) have no stored location, so compute it.
   if (game.isHomeGame && !game.isNeutralSiteGame) {
-    const gameDate = getDateFromGame(game);
+    const gameDate = getDateFromGame(game.date);
     return getHomeGameLocation({date: gameDate, season});
   }
 

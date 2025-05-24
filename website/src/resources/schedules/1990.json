@@ -2,11 +2,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/15/1990",
+    "date": "Sun Sep 16, 1990 00:00:00 GMT-0500",
     "opponentId": "MICH",
     "score": {"away": 24, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "9:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 4}},
@@ -15,7 +14,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/22/1990",
+    "date": "Sat Sep 22, 1990 18:30:00 GMT-0500",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -25,7 +24,6 @@
     "opponentId": "MSU",
     "score": {"away": 20, "home": 19},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 24}},
@@ -34,11 +32,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/29/1990",
+    "date": "Sat Sep 29, 1990 15:00:00 GMT-0500",
     "opponentId": "PUR",
     "score": {"away": 11, "home": 37},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 66}
@@ -46,11 +43,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/06/1990",
+    "date": "Sat Oct 06, 1990 15:00:00 GMT-0500",
     "opponentId": "STAN",
     "score": {"away": 36, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
     "weather": {"icon": "clear-day", "temperature": 84}
@@ -58,11 +54,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/13/1990",
+    "date": "Sat Oct 13, 1990 15:00:00 GMT-0500",
     "opponentId": "AF",
     "score": {"away": 27, "home": 57},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "clear-day", "temperature": 63}
@@ -70,11 +65,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/20/1990",
+    "date": "Sat Oct 20, 1990 18:30:00 GMT-0500",
     "opponentId": "MIAMI",
     "score": {"away": 20, "home": 29},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 6}, "away": {"ap": 2}},
@@ -83,7 +77,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/27/1990",
+    "date": "Sat Oct 27, 1990 22:45:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -93,7 +87,6 @@
     "opponentId": "PITT",
     "score": {"away": 31, "home": 22},
     "linescore": {"away": [], "home": []},
-    "time": "7:45 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 3}},
@@ -102,11 +95,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/03/1990",
+    "date": "Sat Nov 03, 1990 15:00:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 31, "home": 52},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 78}
@@ -114,7 +106,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/10/1990",
+    "date": "Sat Nov 10, 1990 17:30:00 GMT-0500",
     "location": {
       "city": "Knoxville",
       "state": "TN",
@@ -124,7 +116,6 @@
     "opponentId": "TENN",
     "score": {"away": 34, "home": 29},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 9}},
@@ -133,11 +124,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/17/1990",
+    "date": "Sat Nov 17, 1990 19:00:00 GMT-0500",
     "opponentId": "PSU",
     "score": {"away": 24, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "4:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 18}},
@@ -146,7 +136,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/24/1990",
+    "date": "Sat Nov 24, 1990 23:00:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -156,7 +146,6 @@
     "opponentId": "USC",
     "score": {"away": 10, "home": 6},
     "linescore": {"away": [], "home": []},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 7}, "home": {"ap": 18}},
@@ -167,7 +156,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "01/01/1991",
+    "date": "Tue Jan 01, 1991 23:00:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -177,7 +166,6 @@
     "opponentId": "COL",
     "score": {"away": 9, "home": 10},
     "linescore": {"away": [0, 6, 3, 0], "home": [0, 3, 7, 0]},
-    "time": "8:00 PM",
     "coverage": "NBC",
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",

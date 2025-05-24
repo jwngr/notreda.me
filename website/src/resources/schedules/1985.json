@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/14/1985",
+    "date": "Sat Sep 14, 1985 17:30:00 GMT-0500",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -12,7 +12,6 @@
     "opponentId": "MICH",
     "score": {"away": 12, "home": 20},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 13}},
@@ -21,11 +20,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/21/1985",
+    "date": "Sat Sep 21, 1985 22:30:00 GMT-0500",
     "opponentId": "MSU",
     "score": {"away": 10, "home": 27},
     "linescore": {"away": [], "home": []},
-    "time": "7:30 PM",
     "coverage": "ESPN",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 63}
@@ -33,7 +31,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/28/1985",
+    "date": "Sat Sep 28, 1985 15:00:00 GMT-0500",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -43,7 +41,6 @@
     "opponentId": "PUR",
     "score": {"away": 17, "home": 35},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "TBS",
     "headCoach": "Gerry Faust",
     "weather": {"temperature": 73, "icon": "unknown"}
@@ -51,7 +48,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "10/05/1985",
+    "date": "Sat Oct 05, 1985 18:30:00 GMT-0500",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -61,7 +58,6 @@
     "opponentId": "AF",
     "score": {"away": 15, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 17}},
@@ -70,11 +66,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/19/1985",
+    "date": "Sat Oct 19, 1985 15:00:00 GMT-0500",
     "opponentId": "ARMY",
     "score": {"away": 10, "home": 24},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "USA / WGN-TV",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 19}},
@@ -83,22 +78,20 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/26/1985",
+    "date": "Sat Oct 26, 1985 17:00:00 GMT-0500",
     "opponentId": "USC",
     "score": {"away": 3, "home": 37},
     "linescore": {"away": [], "home": []},
-    "time": "2:00 PM",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "clear-day", "temperature": 70}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/02/1985",
+    "date": "Sat Nov 02, 1985 18:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 17, "home": 41},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 46}
@@ -106,11 +99,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/09/1985",
+    "date": "Sat Nov 09, 1985 15:00:00 GMT-0500",
     "opponentId": "MISS",
     "score": {"away": 14, "home": 37},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "USA / WGN-TV",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "rain", "temperature": 47}
@@ -118,7 +110,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/16/1985",
+    "date": "Sat Nov 16, 1985 18:30:00 GMT-0500",
     "location": {
       "city": "University Park",
       "state": "PA",
@@ -128,7 +120,6 @@
     "opponentId": "PSU",
     "score": {"away": 6, "home": 36},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 1}},
@@ -137,11 +128,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/23/1985",
+    "date": "Sat Nov 23, 1985 15:00:00 GMT-0500",
     "opponentId": "LSU",
     "score": {"away": 10, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "USA / WGN-TV",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 17}},
@@ -150,7 +140,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/30/1985",
+    "date": "Sat Nov 30, 1985 18:30:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -160,7 +150,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 7, "home": 58},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 4}},

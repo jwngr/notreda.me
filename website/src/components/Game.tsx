@@ -81,8 +81,8 @@ export const Game: React.FC<{
         </ScoreTotals>
       </Score>
     );
-  } else if (game.fullDate) {
-    const time = format(new Date(game.fullDate), 'h:mm a');
+  } else if (game.date) {
+    const time = format(new Date(game.date), 'h:mm a');
 
     lastColumnContent = (
       <TelevisionCoverage
@@ -104,12 +104,12 @@ export const Game: React.FC<{
     );
   }
 
-  const gameDate = getDateFromGame(game);
+  const gameDate = getDateFromGame(game.date);
 
   // Format the date, making sure to add the year for games which happen in early January for
   // clarity.
   let dateString: string | null = null;
-  if (gameDate && gameDate !== 'TBD') {
+  if (gameDate !== 'TBD') {
     if (gameDate.getFullYear() === season) {
       dateString = format(gameDate, 'MMMM d');
     } else {

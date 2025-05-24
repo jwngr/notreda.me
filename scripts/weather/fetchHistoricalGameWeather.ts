@@ -2,7 +2,7 @@ import {GameInfo, GameLocation, GameWeather} from '../../website/src/models/game
 import {TeamId} from '../../website/src/models/teams.models';
 import {Writable} from '../../website/src/models/utils.models';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
-import {getGameTimestampInSeconds} from '../lib/datetime';
+import {getDateFromGame} from '../lib/datetime';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
 import {Weather} from '../lib/weather';
@@ -12,17 +12,17 @@ const logger = new Logger({isSentryEnabled: false});
 async function fetchWeatherForGame(args: {
   readonly opponentId: TeamId;
   readonly location: GameLocation;
-  readonly timestamp: number;
+  readonly timestampSec: number;
   readonly season: number;
 }): Promise<GameWeather | null> {
-  const {opponentId, location, timestamp, season} = args;
+  const {opponentId, location, timestampSec, season} = args;
 
   logger.info(`Fetching weather for ${opponentId} ${season}...`);
 
   const gameWeather = await Weather.fetchForHistoricalGame({
     latitude: location.coordinates[0],
     longitude: location.coordinates[1],
-    timestamp,
+    timestamp: timestampSec,
   });
 
   logger.info(`Weather fetched for ${opponentId} ${season}...`);
@@ -41,20 +41,16 @@ async function main(): Promise<void> {
     const seasonScheduleData = await NDSchedules.getForSeason(season);
     const seasonFetchWeatherPromises: Promise<GameWeather | null>[] = seasonScheduleData.map(
       async (gameInfo) => {
+        const date = getDateFromGame(gameInfo.date);
+
         // Skip games that should not have weather or already have weather.
         if (
           !gameInfo.result ||
           !gameInfo.location ||
           gameInfo.location === 'TBD' ||
+          date === 'TBD' ||
           gameInfo.weather
         ) {
-          logger.info(`Skipping game ${gameInfo.opponentId} ${season}...`);
-          return null;
-        }
-
-        const timestamp = getGameTimestampInSeconds(gameInfo);
-
-        if (!timestamp) {
           logger.info(`Skipping game ${gameInfo.opponentId} ${season}...`);
           return null;
         }
@@ -62,7 +58,7 @@ async function main(): Promise<void> {
         return fetchWeatherForGame({
           opponentId: gameInfo.opponentId,
           location: gameInfo.location,
-          timestamp,
+          timestampSec: date.getTime() / 1000,
           season,
         });
       }

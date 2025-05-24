@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/18/1965",
+    "date": "Sat Sep 18, 1965 19:30:00 GMT-0500",
     "location": {
       "city": "Berkeley",
       "state": "CA",
@@ -12,7 +12,6 @@
     "opponentId": "CAL",
     "score": {"away": 48, "home": 6},
     "linescore": {"away": [], "home": []},
-    "time": "4:30 PM",
     "coverage": "NBC",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 3}},
@@ -21,7 +20,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/25/1965",
+    "date": "Sat Sep 25, 1965 17:30:00 GMT-0500",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -31,29 +30,26 @@
     "opponentId": "PUR",
     "score": {"away": 21, "home": 25},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 6}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/02/1965",
+    "date": "Sat Oct 02, 1965 17:30:00 GMT-0500",
     "opponentId": "NW",
     "score": {"away": 7, "home": 38},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/09/1965",
+    "date": "Sat Oct 09, 1965 23:00:00 GMT-0500",
     "opponentId": "ARMY",
     "score": {"away": 0, "home": 17},
     "linescore": {"away": [], "home": []},
-    "time": "8:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 7}},
     "weather": {"icon": "partly-cloudy-night", "temperature": 58}
@@ -61,11 +57,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/23/1965",
+    "date": "Sat Oct 23, 1965 17:30:00 GMT-0500",
     "opponentId": "USC",
     "score": {"away": 7, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 4}}
@@ -73,18 +68,17 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/30/1965",
+    "date": "Sat Oct 30, 1965 17:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 3, "home": 29},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 4}}
   },
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/06/1965",
+    "date": "Sat Nov 06, 1965 16:30:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -94,7 +88,6 @@
     "opponentId": "PITT",
     "score": {"away": 69, "home": 13},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 4}},
     "weather": {"icon": "cloudy", "temperature": 64}
@@ -102,29 +95,27 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/13/1965",
+    "date": "Sat Nov 13, 1965 16:30:00 GMT-0500",
     "opponentId": "UNC",
     "score": {"away": 0, "home": 17},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 4}}
   },
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/20/1965",
+    "date": "Sat Nov 20, 1965 16:30:00 GMT-0500",
     "opponentId": "MSU",
     "score": {"away": 12, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 4}, "away": {"ap": 1}}
   },
   {
     "result": "T",
     "isHomeGame": false,
-    "date": "11/27/1965",
+    "date": "Sat Nov 27, 1965 23:00:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -134,7 +125,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 0, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "8:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 6}},
     "weather": {"temperature": 68, "icon": "unknown"}

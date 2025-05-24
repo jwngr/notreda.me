@@ -143,15 +143,10 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
     let date: string;
     let time: string | null;
     const dateFormatString = 'E, MMMM d, yyyy';
-    if (game.fullDate) {
-      const d = new Date(game.fullDate);
+    if (game.date) {
+      const d = new Date(game.date);
       date = format(d, dateFormatString);
       time = `${format(d, 'h:mm a')} ${getTimeZoneString(d)}`;
-    } else if (game.date) {
-      // TODO(cleanup): Convert all dates to fullDate and be done with this nonesense.
-      date = format(new Date(game.date), dateFormatString);
-      // No year that is in this format has any time information, so we can ignore the time here.
-      time = game.result ? null : 'Time to be determined';
     } else {
       date = 'No date';
       time = 'No time';

@@ -60,8 +60,8 @@ export const getSelectedGameIndexFromUrlParam = ({
       // Otherwise, select the latest completed game until the Wednesday before the next game, at
       // which point, select the next game.
       const game = seasonSchedule[gamesPlayedCount];
-      const nextCompletedGameDate = getDateFromGame(game);
-      if (!nextCompletedGameDate) {
+      const nextCompletedGameDate = getDateFromGame(game.date);
+      if (nextCompletedGameDate === 'TBD') {
         return gamesPlayedCount;
       }
       const wednesdayBeforeNextGameDate = subDays(new Date(nextCompletedGameDate), 4);

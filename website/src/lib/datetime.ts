@@ -1,32 +1,16 @@
-export function getDateFromGame(args: {
-  readonly date?: string;
-  readonly time?: string;
-  readonly fullDate?: string;
-}): Date | 'TBD' | undefined {
-  const {date, time, fullDate} = args;
+export const isValidDate = (date: string): boolean => {
+  const dateObj = new Date(date);
+  return !isNaN(dateObj.getTime());
+};
 
-  if (fullDate) {
-    return new Date(fullDate);
-  }
-
+export function getDateFromGame(date: string | 'TBD'): Date | 'TBD' {
   if (date === 'TBD') {
     return 'TBD';
   }
 
-  if (date) {
-    return new Date(time ? `${date} ${time}` : date);
+  if (!isValidDate(date)) {
+    throw new Error(`Game has invalid date: ${date}`);
   }
 
-  return undefined;
+  return new Date(date);
 }
-
-export const getGameTimestampInSeconds = (args: {
-  readonly date?: string;
-  readonly time?: string;
-  readonly fullDate?: string;
-}): number | undefined => {
-  const {date, time, fullDate} = args;
-  const d = getDateFromGame({date, time, fullDate});
-  if (!d || d === 'TBD') return undefined;
-  return d.getTime() / 1000;
-};

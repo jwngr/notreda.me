@@ -4,10 +4,10 @@ import {getDateFromGame} from '../../../website/src/lib/datetime';
 
 export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
-    assert(statement, message, pick(currentGameData, ['date', 'time', 'fullDate']));
+    assert(statement, message, pick(currentGameData, ['date', 'time']));
   };
 
-  const currentGameDate = getDateFromGame(currentGameData);
+  const currentGameDate = getDateFromGame({date: currentGameData.date});
   if (!currentGameDate) {
     wrappedAssert(false, 'Kickoff date is missing.');
     return;
@@ -15,7 +15,7 @@ export function validateDate([currentGameData, previousGameData], assert) {
 
   let previousGameDate = undefined;
   if (previousGameData !== null) {
-    previousGameDate = getDateFromGame(previousGameData);
+    previousGameDate = getDateFromGame({date: previousGameData.date});
   }
 
   if (currentGameDate === 'TBD' || !previousGameDate || previousGameDate === 'TBD') {

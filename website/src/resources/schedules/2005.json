@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/03/2005",
+    "date": "Sat Sep 03, 2005 23:00:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -57,7 +57,6 @@
     },
     "espnGameId": 252460221,
     "linescore": {"away": [7, 28, 7, 0], "home": [10, 3, 0, 8]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 23}},
@@ -70,7 +69,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/10/2005",
+    "date": "Sat Sep 10, 2005 15:00:00 GMT-0500",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -125,7 +124,6 @@
     },
     "espnGameId": 252530130,
     "linescore": {"away": [7, 7, 0, 3], "home": [0, 3, 0, 7]},
-    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {"away": {"ap": 20}, "home": {"ap": 3}},
@@ -138,7 +136,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/17/2005",
+    "date": "Sat Sep 17, 2005 18:30:00 GMT-0500",
     "opponentId": "MSU",
     "score": {"away": 44, "home": 41},
     "stats": {
@@ -187,7 +185,6 @@
     },
     "espnGameId": 252600087,
     "linescore": {"away": [14, 10, 14, 0, 6], "home": [7, 10, 7, 14, 3]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 10}},
@@ -201,7 +198,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/24/2005",
+    "date": "Sat Sep 24, 2005 18:30:00 GMT-0500",
     "location": {
       "city": "Seattle",
       "state": "WA",
@@ -256,7 +253,6 @@
     },
     "espnGameId": 252670264,
     "linescore": {"away": [3, 9, 7, 17], "home": [0, 3, 0, 14]},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {"away": {"ap": 16}},
@@ -269,7 +265,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/01/2005",
+    "date": "Sat Oct 01, 2005 22:45:00 GMT-0500",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -324,7 +320,6 @@
     },
     "espnGameId": 252742509,
     "linescore": {"away": [7, 21, 7, 14], "home": [0, 0, 14, 14]},
-    "time": "7:45 PM",
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
     "rankings": {"away": {"ap": 13}, "home": {"ap": 22}},
@@ -337,7 +332,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/15/2005",
+    "date": "Sat Oct 15, 2005 18:30:00 GMT-0500",
     "opponentId": "USC",
     "score": {"away": 34, "home": 31},
     "stats": {
@@ -386,7 +381,6 @@
     },
     "espnGameId": 252880087,
     "linescore": {"away": [14, 0, 7, 13], "home": [7, 14, 0, 10]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 1}},
@@ -399,7 +393,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/22/2005",
+    "date": "Sat Oct 22, 2005 17:30:00 GMT-0500",
     "opponentId": "BYU",
     "score": {"away": 23, "home": 49},
     "stats": {
@@ -448,7 +442,6 @@
     },
     "espnGameId": 252950087,
     "linescore": {"away": [10, 0, 13, 0], "home": [7, 14, 21, 7]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 9, "bcs": 16}},
@@ -461,7 +454,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/05/2005",
+    "date": "Sat Nov 05, 2005 17:30:00 GMT-0500",
     "opponentId": "TENN",
     "score": {"away": 21, "home": 41},
     "stats": {
@@ -510,7 +503,6 @@
     },
     "espnGameId": 253090087,
     "linescore": {"away": [3, 7, 11, 0], "home": [14, 7, 0, 20]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 8, "bcs": 14}},
@@ -523,7 +515,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/12/2005",
+    "date": "Sat Nov 12, 2005 16:00:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 21, "home": 42},
     "stats": {
@@ -572,7 +564,6 @@
     },
     "espnGameId": 253160087,
     "linescore": {"away": [7, 0, 7, 7], "home": [7, 21, 7, 7]},
-    "time": "1:00 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 7, "bcs": 11}},
@@ -585,7 +576,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/19/2005",
+    "date": "Sat Nov 19, 2005 17:30:00 GMT-0500",
     "opponentId": "SYR",
     "score": {"away": 10, "home": 34},
     "stats": {
@@ -634,7 +625,6 @@
     },
     "espnGameId": 253230087,
     "linescore": {"away": [3, 0, 0, 7], "home": [0, 14, 10, 10]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "rankings": {"home": {"ap": 6, "bcs": 9}},
@@ -647,7 +637,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/26/2005",
+    "date": "Sat Nov 26, 2005 23:00:00 GMT-0500",
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -702,7 +692,6 @@
     },
     "espnGameId": 253300024,
     "linescore": {"away": [14, 0, 6, 18], "home": [7, 7, 0, 17]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "rankings": {"away": {"ap": 6, "bcs": 8}},
@@ -717,7 +706,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "01/02/2006",
+    "date": "Mon Jan 02, 2006 19:30:00 GMT-0500",
     "location": {
       "city": "Tempe",
       "state": "AZ",
@@ -772,7 +761,6 @@
     },
     "espnGameId": 260020194,
     "linescore": {"away": [7, 0, 6, 7], "home": [7, 14, 3, 10]},
-    "time": "4:30 PM",
     "coverage": "ABC",
     "nickname": "Fiesta Bowl",
     "headCoach": "Charlie Weis",
