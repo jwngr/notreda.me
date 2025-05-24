@@ -1,25 +1,34 @@
 import {getDateFromGame} from '../../../website/src/lib/datetime';
+import {CURRENT_SEASON} from '../../lib/constants';
 
 export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
-    assert(statement, message, {date: currentGameData.date});
+    assert(statement, message, {currentGameData, previousGameData});
   };
 
-  const currentGameDate = getDateFromGame({date: currentGameData.date});
-  if (!currentGameDate) {
-    wrappedAssert(false, 'Kickoff date is missing.');
+  const currentDate = getDateFromGame(currentGameData.date);
+
+  // Current date is TBD.
+  if (currentDate === 'TBD') {
+    if (currentGameData.season < CURRENT_SEASON && currentDate === 'TBD') {
+      wrappedAssert(false, 'Kickoff date missing for game in past season.');
+    }
     return;
   }
 
-  let previousGameDate = undefined;
+  // Current date is a date (with or without time).
+  let previousDate = undefined;
   if (previousGameData !== null) {
-    previousGameDate = getDateFromGame({date: previousGameData.date});
+    previousDate = getDateFromGame(previousGameData.date);
   }
 
-  if (currentGameDate === 'TBD' || !previousGameDate || previousGameDate === 'TBD') {
+  if (!previousDate || previousDate === 'TBD') {
     // Nothing to validate.
     return;
   }
 
-  wrappedAssert(currentGameDate > previousGameDate, 'Kickoff date is before previous game.');
+  wrappedAssert(
+    currentDate.getTime() > previousDate.getTime(),
+    'Kickoff date is before previous game.'
+  );
 }
