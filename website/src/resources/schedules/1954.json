@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/1954",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "TEX",
     "score": {"away": 0, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -20,12 +14,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/02/1954",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 27, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -54,12 +42,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/1954",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 19, "home": 20},
     "linescore": {"away": [], "home": []},
@@ -71,12 +53,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1954",
-    "location": {
-      "city": "Baltimore",
-      "state": "MD",
-      "stadium": "Memorial Stadium",
-      "coordinates": [39.330024, -76.601532]
-    },
     "opponentId": "NAVY",
     "score": {"away": 0, "home": 6},
     "linescore": {"away": [], "home": []},
@@ -105,12 +81,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1954",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 13, "home": 42},
     "linescore": {"away": [], "home": []},
@@ -138,12 +108,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/27/1954",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 17, "home": 23},
     "linescore": {"away": [], "home": []},

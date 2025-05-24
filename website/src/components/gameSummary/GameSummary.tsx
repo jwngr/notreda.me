@@ -41,7 +41,7 @@ export const GameSummary: React.FC<{
       game={game}
       homeTeamId={teamIds.home}
       awayTeamId={teamIds.away}
-      selectedSeason={selectedSeason}
+      season={selectedSeason}
     />
   );
 };

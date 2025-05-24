@@ -87,8 +87,8 @@ export interface GameInfo {
   /** The YouTube video ID for the game highlights. */
   readonly highlightsYouTubeVideoId?: string;
 
-  /** Stadium location information. */
-  readonly location: GameLocation | 'TBD';
+  /** Stadium location information. Optional for Notre Dame home games (computed at runtime). */
+  readonly location?: GameLocation | 'TBD';
 
   readonly numOvertimes?: number;
 

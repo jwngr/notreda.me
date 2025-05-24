@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/04/1924",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "LOMB",
     "score": {"away": 0, "home": 40},
     "linescore": {"away": [], "home": []},
@@ -18,12 +12,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1924",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "WAB",
     "score": {"away": 0, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -63,12 +51,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1924",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "GT",
     "score": {"away": 3, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -93,12 +75,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/15/1924",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "NEB",
     "score": {"away": 6, "home": 34},
     "linescore": {"away": [], "home": []},

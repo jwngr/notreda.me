@@ -3,6 +3,8 @@ import React from 'react';
 
 import {useMediaQuery} from '../hooks/useMediaQuery';
 import shamrockImage from '../images/shamrock.png';
+import {getDateFromGame} from '../lib/datetime';
+import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
@@ -102,12 +104,7 @@ export const Game: React.FC<{
     );
   }
 
-  let gameDate: Date | 'TBD' | undefined;
-  if (game.fullDate) {
-    gameDate = new Date(game.fullDate);
-  } else if (game.date) {
-    gameDate = game.date === 'TBD' ? 'TBD' : new Date(game.date);
-  }
+  const gameDate = getDateFromGame(game);
 
   // Format the date, making sure to add the year for games which happen in early January for
   // clarity.
@@ -143,14 +140,8 @@ export const Game: React.FC<{
     </OpponentName>
   );
 
-  let location: string;
-  if (game.location === 'TBD') {
-    location = 'TBD';
-  } else if (game.location.state) {
-    location = `${game.location.city}, ${game.location.state}`;
-  } else {
-    location = `${game.location.city}, ${game.location.country}`;
-  }
+  const computedLocation = getGameLocation({game, season});
+  const locationString = formatGameLocationAsString({location: computedLocation, tbdText: 'TBD'});
 
   return (
     <GameWrapper
@@ -170,7 +161,7 @@ export const Game: React.FC<{
         </DateOpponentDetailsWrapper>
       </FlexRow>
       <Location>
-        {location}
+        {locationString}
         {shamrockSeriesLogoContent}
       </Location>
       {lastColumnContent}

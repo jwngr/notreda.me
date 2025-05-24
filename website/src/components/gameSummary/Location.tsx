@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import {formatGameLocationAsString, getGameLocation} from '../../lib/locations';
 import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
@@ -97,17 +98,14 @@ const _getWeatherInfo = (
   return {icon, text};
 };
 
-export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
-  let location;
-  if (game.location === 'TBD') {
-    // Some future games actually don't have a location yet!
-    location = 'Location to be determined';
-  } else {
-    // Otherwise, we are guaranteed to have the city and state / country combo for the game.
-    location = game.location.state
-      ? `${game.location.city}, ${game.location.state}`
-      : `${game.location.city}, ${game.location.country}`;
-  }
+export const Location: React.FC<{readonly game: GameInfo; readonly season: number}> = (props) => {
+  const {game, season} = props;
+
+  const computedLocation = getGameLocation({game, season});
+  const location = formatGameLocationAsString({
+    location: computedLocation,
+    tbdText: 'Location to be determined',
+  });
 
   let weatherContent;
   if (game.weather) {
@@ -137,7 +135,9 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
           {game.nickname ? <p>{game.nickname}</p> : null}
 
           {/* Stadium */}
-          {game.location !== 'TBD' && game.location.stadium ? <p>{game.location.stadium}</p> : null}
+          {computedLocation !== 'TBD' && computedLocation.stadium ? (
+            <p>{computedLocation.stadium}</p>
+          ) : null}
 
           {/* Location */}
           <p>{location}</p>

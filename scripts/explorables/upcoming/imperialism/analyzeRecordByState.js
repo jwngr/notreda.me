@@ -52,9 +52,17 @@ async function main() {
     const seasonScheduleData = await getForSeason(season);
     seasonScheduleData.forEach((gameData) => {
       if (gameData.location !== 'TBD') {
-        const stateOrCountryKey =
-          typeof gameData.location.state === 'undefined' ? 'country' : 'state';
-        const stateOrCountryValue = _.get(gameData, ['location', stateOrCountryKey]);
+        let stateOrCountryKey;
+        let stateOrCountryValue;
+        if (gameData.location) {
+          // Away games and neutral site games have a location.
+          stateOrCountryKey = typeof gameData.location.state === 'undefined' ? 'country' : 'state';
+          stateOrCountryValue = _.get(gameData, ['location', stateOrCountryKey]);
+        } else {
+          // Home games happen in Notre Dame, IN.
+          stateOrCountryKey = 'state';
+          stateOrCountryValue = 'IN';
+        }
 
         if (!_.has(stats[stateOrCountryKey], stateOrCountryValue)) {
           stats[stateOrCountryKey][stateOrCountryValue] = _getInitialStats();

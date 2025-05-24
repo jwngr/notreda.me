@@ -40,12 +40,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/29/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 3, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -58,12 +52,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "GT",
     "score": {"away": 13, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -94,12 +82,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 42, "home": 23},
     "linescore": {"away": [], "home": []},
@@ -113,12 +95,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/27/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "SCAR",
     "score": {"away": 17, "home": 18},
     "linescore": {"away": [], "home": []},
@@ -131,12 +107,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 0, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -167,12 +137,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/17/1979",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "CLEM",
     "score": {"away": 16, "home": 10},
     "linescore": {"away": [], "home": []},
@@ -185,12 +149,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1979",
-    "location": {
-      "city": "Tokyo",
-      "country": "Japan",
-      "stadium": "National Olympic Stadium",
-      "coordinates": [35.667634, 139.700108]
-    },
     "nickname": "Mirage Bowl",
     "opponentId": "MIAMI",
     "score": {"away": 15, "home": 40},

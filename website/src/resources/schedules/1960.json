@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1960",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "CAL",
     "score": {"away": 7, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -19,12 +13,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/01/1960",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 51, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -52,12 +40,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1960",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 21, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -86,12 +68,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/29/1960",
-    "location": {
-      "city": "Philadelphia",
-      "state": "PA",
-      "stadium": "Philadelphia Municipal Stadium",
-      "coordinates": [39.9014, -75.1719]
-    },
     "opponentId": "NAVY",
     "score": {"away": 14, "home": 7},
     "linescore": {"away": [], "home": []},
@@ -103,12 +79,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/05/1960",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 20, "home": 13},
     "linescore": {"away": [], "home": []},
@@ -136,12 +106,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/19/1960",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "IOWA",
     "score": {"away": 28, "home": 0},
     "linescore": {"away": [], "home": []},

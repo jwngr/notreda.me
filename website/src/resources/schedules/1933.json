@@ -3,12 +3,6 @@
     "result": "T",
     "isHomeGame": true,
     "date": "10/07/1933",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "KU",
     "score": {"away": 0, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -48,12 +42,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/28/1933",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 14, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -63,12 +51,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/04/1933",
-    "location": {
-      "city": "Baltimore",
-      "state": "MD",
-      "stadium": "Municipal Stadium",
-      "coordinates": [39.329444, -76.601389]
-    },
     "opponentId": "NAVY",
     "score": {"away": 7, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -78,12 +60,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/11/1933",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 19, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -108,12 +84,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/25/1933",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 19, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -123,12 +93,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "12/02/1933",
-    "location": {
-      "city": "Bronx",
-      "state": "NY",
-      "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
-    },
     "opponentId": "ARMY",
     "score": {"away": 12, "home": 13},
     "linescore": {"away": [], "home": []},

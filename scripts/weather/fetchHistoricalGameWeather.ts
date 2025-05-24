@@ -2,25 +2,20 @@ import {GameInfo, GameLocation, GameWeather} from '../../website/src/models/game
 import {TeamId} from '../../website/src/models/teams.models';
 import {Writable} from '../../website/src/models/utils.models';
 import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
+import {getGameTimestampInSeconds} from '../lib/datetime';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
-import {getGameTimestampInSeconds} from '../lib/utils';
 import {Weather} from '../lib/weather';
 
 const logger = new Logger({isSentryEnabled: false});
 
-async function fetchWeatherForGame({
-  opponentId,
-  location,
-  timestamp,
-  season,
-}: {
+async function fetchWeatherForGame(args: {
   readonly opponentId: TeamId;
-  readonly location: GameLocation | 'TBD';
+  readonly location: GameLocation;
   readonly timestamp: number;
   readonly season: number;
 }): Promise<GameWeather | null> {
-  if (location === 'TBD') return null;
+  const {opponentId, location, timestamp, season} = args;
 
   logger.info(`Fetching weather for ${opponentId} ${season}...`);
 
@@ -47,7 +42,19 @@ async function main(): Promise<void> {
     const seasonFetchWeatherPromises: Promise<GameWeather | null>[] = seasonScheduleData.map(
       async (gameInfo) => {
         // Skip games that should not have weather or already have weather.
-        if (!gameInfo.result || gameInfo.location === 'TBD' || gameInfo.weather) {
+        if (
+          !gameInfo.result ||
+          !gameInfo.location ||
+          gameInfo.location === 'TBD' ||
+          gameInfo.weather
+        ) {
+          logger.info(`Skipping game ${gameInfo.opponentId} ${season}...`);
+          return null;
+        }
+
+        const timestamp = getGameTimestampInSeconds(gameInfo);
+
+        if (!timestamp) {
           logger.info(`Skipping game ${gameInfo.opponentId} ${season}...`);
           return null;
         }
@@ -55,7 +62,7 @@ async function main(): Promise<void> {
         return fetchWeatherForGame({
           opponentId: gameInfo.opponentId,
           location: gameInfo.location,
-          timestamp: getGameTimestampInSeconds(gameInfo),
+          timestamp,
           season,
         });
       }

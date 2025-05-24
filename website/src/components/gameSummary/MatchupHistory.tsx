@@ -78,10 +78,11 @@ const _getMaxMatchupsCountFromWindowWidth = (width: number): number => {
   }
 };
 
-export const MatchupHistory: React.FC<{
-  readonly selectedGame: GameInfo;
-  readonly selectedSeason: number;
-}> = ({selectedGame, selectedSeason}) => {
+export const MatchupHistory: React.FC<{readonly game: GameInfo; readonly season: number}> = (
+  args
+) => {
+  const {game, season} = args;
+
   const isMobile = useMediaQuery('(max-width: 600px)');
   const {width} = useWindowSize();
   const maxMatchupsCount = _getMaxMatchupsCountFromWindowWidth(width);
@@ -95,11 +96,11 @@ export const MatchupHistory: React.FC<{
   useEffect(() => {
     const fetchMatchupsToShow = async () => {
       const {past: pastMatchupsAgainstTeam, future: futureMatchupsAgainstTeam} =
-        await getMatchupsAgainstTeam(selectedGame.opponentId);
+        await getMatchupsAgainstTeam(game.opponentId);
 
       const matchupsToShow = await getFilteredMatchupsAgainstTeam({
-        opponentId: selectedGame.opponentId,
-        selectedSeason,
+        opponentId: game.opponentId,
+        season,
         maxMatchupsCount,
         pastMatchupsAgainstTeam,
         futureMatchupsAgainstTeam,
@@ -107,7 +108,7 @@ export const MatchupHistory: React.FC<{
       setMatchupInfo({pastMatchupsAgainstTeam, futureMatchupsAgainstTeam, matchupsToShow});
     };
     fetchMatchupsToShow();
-  }, [selectedGame.opponentId, selectedSeason, maxMatchupsCount]);
+  }, [game.opponentId, season, maxMatchupsCount]);
 
   const recordAgainstTeam = {
     overall: {W: 0, L: 0, T: 0},
@@ -129,7 +130,7 @@ export const MatchupHistory: React.FC<{
     recordAgainstTeam[isHomeGame ? 'home' : 'away'][result] += 1;
   });
 
-  const selectedGameHomeOrAway = selectedGame.isHomeGame ? 'home' : 'away';
+  const selectedGameHomeOrAway = game.isHomeGame ? 'home' : 'away';
   const allSeasonsWithMatchupsAgainstTeam = [
     ...matchupInfo.pastMatchupsAgainstTeam,
     ...matchupInfo.futureMatchupsAgainstTeam,
@@ -190,9 +191,9 @@ export const MatchupHistory: React.FC<{
                 isHomeGame={historicalGame.isHomeGame}
                 isSelected={
                   // TODO: Introduce `Games.equals`
-                  selectedGame.opponentId === historicalGame.opponentId &&
-                  selectedGame.date === historicalGame.date &&
-                  selectedGame.fullDate === historicalGame.fullDate
+                  game.opponentId === historicalGame.opponentId &&
+                  game.date === historicalGame.date &&
+                  game.fullDate === historicalGame.fullDate
                 }
                 isSeasonOnTop={i % 2 === 0}
                 // Show gap indicators on either side if the previous / next displayed season is

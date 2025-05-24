@@ -3,6 +3,7 @@ import {subDays} from 'date-fns/subDays';
 
 import {GameInfo} from '../models/games.models';
 import {CURRENT_SEASON} from './constants';
+import {getDateFromGame} from './datetime';
 import {Schedules} from './schedules';
 
 const DEFAULT_SELECTED_GAME_INDEX = 0;
@@ -58,9 +59,8 @@ export const getSelectedGameIndexFromUrlParam = ({
     } else {
       // Otherwise, select the latest completed game until the Wednesday before the next game, at
       // which point, select the next game.
-      // TODO: remove date or fullDate once these are all standardized.
-      const nextCompletedGameDate =
-        seasonSchedule[gamesPlayedCount].date || seasonSchedule[gamesPlayedCount].fullDate;
+      const game = seasonSchedule[gamesPlayedCount];
+      const nextCompletedGameDate = getDateFromGame(game);
       if (!nextCompletedGameDate) {
         return gamesPlayedCount;
       }

@@ -1,5 +1,6 @@
 import _ from 'lodash';
 
+import {getGameLocation} from '../../../../website/src/lib/locations';
 import {getForSeason} from '../../../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
@@ -58,7 +59,8 @@ async function main() {
 
         let homeAwayOrNeutral;
         if (gameData.isHomeGame) {
-          homeAwayOrNeutral = gameData.location.city === 'Notre Dame' ? 'home' : 'neutral';
+          // Home games have no location.
+          homeAwayOrNeutral = gameData.location ? 'neutral' : 'home';
         } else {
           // TODO: Handle neutral site away games.
           homeAwayOrNeutral = 'away';
@@ -72,9 +74,11 @@ async function main() {
         currentYearStats[resultString]++;
         stats.headCoaches[gameData.headCoach][resultString]++;
 
-        if (gameData.location.city === 'Notre Dame') {
+        const location = getGameLocation({date: gameData, season});
+
+        if (gameData.isHomeGame && !gameData.isNeutralSiteGame) {
           let homeStadiumsKey;
-          switch (gameData.location.stadium) {
+          switch (location.stadium) {
             case 'Notre Dame Stadium':
               homeStadiumsKey = 'notreDameStadium';
               break;

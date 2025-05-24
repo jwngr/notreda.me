@@ -152,10 +152,10 @@ const TeamInfo: React.FC<{
 
 export const FutureGameSummary: React.FC<{
   readonly game: GameInfo;
-  readonly selectedSeason: number;
+  readonly season: number;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
-}> = ({game, homeTeamId, awayTeamId}) => {
+}> = ({game, season, homeTeamId, awayTeamId}) => {
   const isMobileOrTablet = useMediaQuery(
     '(max-width: 600px), (min-width: 950px) and (max-width: 1120px)'
   );
@@ -240,9 +240,9 @@ export const FutureGameSummary: React.FC<{
       </TeamsWrapper>
 
       <StatsWrapper>
-        <GameCoverage game={game} />
+        <GameCoverage game={game} season={season} />
         {/* TODO: Re-enable matchup history after improving data loading performance. */}
-        {/* <MatchupHistory selectedGame={game} selectedSeason={selectedSeason} /> */}
+        {/* <MatchupHistory game={game} season={season} /> */}
       </StatsWrapper>
     </FutureGameWrapper>
   );

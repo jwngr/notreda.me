@@ -10,7 +10,13 @@ let locations = new Set();
 transformForAllSeasons((gameData) => {
   gamesCount++;
 
+  if (!gameData.location) {
+    // Home games have no location.
+    return;
+  }
+
   if (gameData.location === 'TBD') {
+    // Some future games have a TBD location.
     return;
   }
 

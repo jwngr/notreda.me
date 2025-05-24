@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/06/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "GT",
     "score": {"away": 13, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -41,12 +35,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/20/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 23, "home": 7},
     "linescore": {"away": [], "home": []},
@@ -116,12 +104,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/18/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 20, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -134,12 +116,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "BC",
     "score": {"away": 20, "home": 52},
     "linescore": {"away": [], "home": []},
@@ -152,12 +128,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 17, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -189,12 +159,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1997",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WVU",
     "score": {"away": 14, "home": 21},
     "linescore": {"away": [], "home": []},

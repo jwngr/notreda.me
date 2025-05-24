@@ -18,12 +18,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1929",
-    "location": {
-      "city": "Baltimore",
-      "state": "MD",
-      "stadium": "Municipal Stadium",
-      "coordinates": [39.329444, -76.601389]
-    },
     "opponentId": "NAVY",
     "score": {"away": 7, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -33,12 +27,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1929",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "stadium": "Soldier Field",
-      "coordinates": [41.862105, -87.616721]
-    },
     "opponentId": "WIS",
     "score": {"away": 0, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -73,12 +61,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1929",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "stadium": "Soldier Field",
-      "coordinates": [41.862105, -87.616721]
-    },
     "opponentId": "DRKE",
     "score": {"away": 7, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -88,12 +70,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1929",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "stadium": "Soldier Field",
-      "coordinates": [41.862105, -87.616721]
-    },
     "opponentId": "USC",
     "score": {"away": 12, "home": 13},
     "linescore": {"away": [], "home": []},
@@ -118,12 +94,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/30/1929",
-    "location": {
-      "city": "Bronx",
-      "state": "NY",
-      "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
-    },
     "opponentId": "ARMY",
     "score": {"away": 0, "home": 7},
     "linescore": {"away": [], "home": []},

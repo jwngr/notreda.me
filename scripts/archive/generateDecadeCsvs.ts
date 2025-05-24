@@ -5,6 +5,7 @@ import {fileURLToPath} from 'url';
 import {format} from 'date-fns/format';
 import range from 'lodash/range';
 
+import {getDateFromGame} from '../../website/src/lib/datetime';
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
@@ -72,10 +73,10 @@ async function main() {
         const homeTeamAbbreviation = gameInfo.isHomeGame ? 'ND' : gameInfo.opponentId;
         const awayTeamAbbreviation = gameInfo.isHomeGame ? gameInfo.opponentId : 'ND';
 
-        const gameDate = gameInfo.date ?? gameInfo.fullDate;
-        if (!gameDate) return;
+        const gameDate = getDateFromGame(gameInfo);
+        if (!gameDate || gameDate === 'TBD') return;
 
-        const gameDateString = format(new Date(gameDate), 'MM/dd/yyyy');
+        const gameDateString = format(gameDate, 'MM/dd/yyyy');
 
         const homeLinescore = gameInfo.linescore?.home.join('|');
         const awayLinescore = gameInfo.linescore?.away.join('|');

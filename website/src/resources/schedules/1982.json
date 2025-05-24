@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/18/1982",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 17, "home": 23},
     "linescore": {"away": [], "home": []},
@@ -22,12 +16,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/1982",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 14, "home": 28},
     "linescore": {"away": [], "home": []},
@@ -58,12 +46,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1982",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MIAMI",
     "score": {"away": 14, "home": 16},
     "linescore": {"away": [], "home": []},
@@ -76,12 +58,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/16/1982",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "ARIZ",
     "score": {"away": 16, "home": 13},
     "linescore": {"away": [], "home": []},
@@ -112,12 +88,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1982",
-    "location": {
-      "city": "East Rutherford",
-      "state": "NJ",
-      "stadium": "Giants Stadium",
-      "coordinates": [40.812222, -74.076944]
-    },
     "opponentId": "NAVY",
     "score": {"away": 10, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -147,12 +117,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/13/1982",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PSU",
     "score": {"away": 24, "home": 14},
     "linescore": {"away": [], "home": []},

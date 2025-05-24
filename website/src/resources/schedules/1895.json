@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1895",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "NWL",
     "score": {"away": 0, "home": 20},
     "linescore": {"away": [], "home": []},
@@ -18,12 +12,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/07/1895",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "ILL-C",
     "score": {"away": 2, "home": 18},
     "linescore": {"away": [], "home": []},
@@ -33,12 +21,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/22/1895",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "INDAR",
     "score": {"away": 18, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -48,12 +30,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/28/1895",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "CHI-P&S",
     "score": {"away": 0, "home": 32},
     "linescore": {"away": [], "home": []},

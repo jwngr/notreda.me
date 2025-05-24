@@ -70,12 +70,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/11/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 20, "home": 28},
     "stats": {
@@ -205,12 +199,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/25/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WASH",
     "score": {"away": 3, "home": 38},
     "stats": {
@@ -272,12 +260,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/02/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 41, "home": 16},
     "stats": {
@@ -340,12 +322,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "STAN",
     "score": {"away": 15, "home": 23},
     "stats": {
@@ -475,12 +451,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/23/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "BC",
     "score": {"away": 24, "home": 23},
     "stats": {
@@ -611,12 +581,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/13/2004",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 41, "home": 38},
     "stats": {

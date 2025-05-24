@@ -15,6 +15,7 @@ import {
 } from '../../website/src/models/polls.models';
 import {Writable} from '../models/utils.models';
 import {CURRENT_SEASON} from './constants';
+import {getDateFromGame} from './datetime';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
@@ -229,12 +230,8 @@ export class Polls {
 
     // Copy the updated poll rankings into the ND season schedule data.
     seasonScheduleData.forEach((game) => {
-      let gameDate: Date;
-      if (game.date) {
-        gameDate = new Date(game.date);
-      } else if (game.fullDate) {
-        gameDate = new Date(game.fullDate);
-      } else {
+      const gameDate = getDateFromGame(game);
+      if (!gameDate || gameDate === 'TBD') {
         throw new Error(`Game date is missing for ${season} ${game.opponentId}`);
       }
 

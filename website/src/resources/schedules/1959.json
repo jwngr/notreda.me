@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/26/1959",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 8, "home": 28},
     "linescore": {"away": [], "home": []},
@@ -67,12 +61,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/24/1959",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NW",
     "score": {"away": 30, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -84,12 +72,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1959",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 22, "home": 25},
     "linescore": {"away": [], "home": []},
@@ -100,12 +82,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/07/1959",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "GT",
     "score": {"away": 14, "home": 10},
     "linescore": {"away": [], "home": []},
@@ -149,12 +125,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/28/1959",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 6, "home": 16},
     "linescore": {"away": [], "home": []},

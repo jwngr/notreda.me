@@ -22,12 +22,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 10, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -77,12 +71,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "ARMY",
     "score": {"away": 10, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -96,12 +84,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/26/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 3, "home": 37},
     "linescore": {"away": [], "home": []},
@@ -113,12 +95,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 17, "home": 41},
     "linescore": {"away": [], "home": []},
@@ -131,12 +107,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MISS",
     "score": {"away": 14, "home": 37},
     "linescore": {"away": [], "home": []},
@@ -168,12 +138,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/23/1985",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "LSU",
     "score": {"away": 10, "home": 7},
     "linescore": {"away": [], "home": []},

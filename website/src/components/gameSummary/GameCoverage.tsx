@@ -125,7 +125,11 @@ const GameCoverageWrapper = styled(FlexRow).attrs({justify: 'center'})`
   }
 `;
 
-export const GameCoverage: React.FC<{readonly game: GameInfo}> = ({game}) => {
+export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: number}> = (
+  args
+) => {
+  const {game, season} = args;
+
   const isGameOver = !!game.result;
 
   let mainContent: React.ReactNode;
@@ -200,7 +204,7 @@ export const GameCoverage: React.FC<{readonly game: GameInfo}> = ({game}) => {
       <StatsSection title={game.coverage || !game.result ? 'Coverage' : 'Date'}>
         <CoverageInnerWrapper>{mainContent}</CoverageInnerWrapper>
       </StatsSection>
-      <Location game={game} />
+      <Location game={game} season={season} />
     </GameCoverageWrapper>
   );
 };

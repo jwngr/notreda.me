@@ -3,12 +3,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/13/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 24, "home": 23},
     "linescore": {"away": [], "home": []},
@@ -41,12 +35,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/27/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 9, "home": 41},
     "linescore": {"away": [], "home": []},
@@ -78,12 +66,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/11/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 10, "home": 9},
     "linescore": {"away": [], "home": []},
@@ -96,12 +78,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "AF",
     "score": {"away": 3, "home": 31},
     "linescore": {"away": [], "home": []},
@@ -132,12 +108,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "SMU",
     "score": {"away": 29, "home": 61},
     "linescore": {"away": [], "home": []},
@@ -149,12 +119,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/15/1986",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PSU",
     "score": {"away": 24, "home": 19},
     "linescore": {"away": [], "home": []},

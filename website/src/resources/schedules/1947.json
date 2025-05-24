@@ -35,12 +35,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1947",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NEB",
     "score": {"away": 0, "home": 31},
     "linescore": {"away": [], "home": []},
@@ -51,12 +45,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1947",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "IOWA",
     "score": {"away": 0, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -67,12 +55,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1947",
-    "location": {
-      "city": "Cleveland",
-      "state": "OH",
-      "stadium": "Cleveland Stadium",
-      "coordinates": [41.506021, -81.699698]
-    },
     "opponentId": "NAVY",
     "score": {"away": 0, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -83,12 +65,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1947",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "ARMY",
     "score": {"away": 7, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -116,12 +92,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1947",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "TULN",
     "score": {"away": 6, "home": 59},
     "linescore": {"away": [], "home": []},
