@@ -19,21 +19,22 @@ track of. This page notes the most important ones for easy reference.
 
 ### Location
 
-The `location` object is present for all games and can have any of the following formats:
+The `location` object can have any of the following formats:
 
 1. `"TBD"` - Future games which do not yet have a game location.
 1. `{city, state, stadium}` - Completed and future domestic games.
 1. `{city, state}` - Completed domestic games without stadium information.
 1. `{city, country, stadium}` - Completed and future international games.
+1. **Not present** - Notre Dame home games (non-neutral site) where the location is computed
+   dynamically at runtime based on the season and date.
 
-### Date / Time
+### Kickoff date
 
-Game dates and times can have any of the following formats:
+The `date` must be one of the following formats:
 
-1. `{fullDate}` - Completed games with the latest date format.
-2. `{date, time}` - Completed games with an older date format that needs to be updated.
-3. `{date}` - Completed games with no kickoff time information yet or future games with no scheduled
-   kickoff time.
+1. Short `string` - Short date string for games with known dates but no time (e.g., "09/30/2014")
+1. Long `string` - Long date string for games with known dates and time (e.g., "Sat Aug 30, 2014 18:30:00 GMT-0500")
+1. `"TBD"` - Future games without a scheduled date
 
 ### Weather
 
