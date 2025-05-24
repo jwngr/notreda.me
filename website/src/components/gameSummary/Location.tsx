@@ -102,12 +102,14 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
   const {game, season} = props;
 
   const computedLocation = getGameLocation({game, season});
-  const location = formatGameLocationAsString({
+  const locationString = formatGameLocationAsString({
     location: computedLocation,
     tbdText: 'Location to be determined',
   });
 
-  let weatherContent;
+  const stadiumString = computedLocation === 'TBD' ? null : computedLocation?.stadium;
+
+  let weatherContent: React.ReactNode | null = null;
   if (game.weather) {
     const weatherInfo = _getWeatherInfo(game.weather.icon);
     if (weatherInfo) {
@@ -131,16 +133,9 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
       <LocationInnerWrapper>
         {weatherContent}
         <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
-          {/* Nickname */}
           {game.nickname ? <p>{game.nickname}</p> : null}
-
-          {/* Stadium */}
-          {computedLocation !== 'TBD' && computedLocation.stadium ? (
-            <p>{computedLocation.stadium}</p>
-          ) : null}
-
-          {/* Location */}
-          <p>{location}</p>
+          {stadiumString ? <p>{stadiumString}</p> : null}
+          <p>{locationString}</p>
         </StadiumLocationWrapper>
       </LocationInnerWrapper>
     </StatsSection>
