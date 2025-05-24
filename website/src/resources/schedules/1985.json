@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 14, 1985 17:30:00 GMT-0500",
+    "date": "Sat Sep 14, 1985 17:30:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -20,7 +20,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 21, 1985 22:30:00 GMT-0500",
+    "date": "Sat Sep 21, 1985 22:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 10, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -31,7 +31,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 28, 1985 15:00:00 GMT-0500",
+    "date": "Sat Sep 28, 1985 15:00:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -48,7 +48,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Oct 05, 1985 18:30:00 GMT-0500",
+    "date": "Sat Oct 05, 1985 18:30:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -66,7 +66,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 19, 1985 15:00:00 GMT-0500",
+    "date": "Sat Oct 19, 1985 15:00:00 GMT-0400",
     "opponentId": "ARMY",
     "score": {"away": 10, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -78,7 +78,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 26, 1985 17:00:00 GMT-0500",
+    "date": "Sat Oct 26, 1985 17:00:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 3, "home": 37},
     "linescore": {"away": [], "home": []},

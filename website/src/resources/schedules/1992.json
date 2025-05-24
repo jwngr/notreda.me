@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 05, 1992 18:30:00 GMT-0500",
+    "date": "Sat Sep 05, 1992 18:30:00 GMT-0400",
     "location": {
       "city": "Chicago",
       "state": "IL",
@@ -20,7 +20,7 @@
   {
     "result": "T",
     "isHomeGame": true,
-    "date": "Sat Sep 12, 1992 16:30:00 GMT-0500",
+    "date": "Sat Sep 12, 1992 16:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 17, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -32,7 +32,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 19, 1992 18:30:00 GMT-0500",
+    "date": "Sat Sep 19, 1992 18:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -50,7 +50,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 26, 1992 16:30:00 GMT-0500",
+    "date": "Sat Sep 26, 1992 16:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 0, "home": 48},
     "linescore": {"away": [], "home": []},
@@ -62,7 +62,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 03, 1992 16:30:00 GMT-0500",
+    "date": "Sat Oct 03, 1992 16:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 33, "home": 16},
     "linescore": {"away": [], "home": []},
@@ -74,7 +74,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 10, 1992 22:45:00 GMT-0500",
+    "date": "Sat Oct 10, 1992 22:45:00 GMT-0400",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -92,7 +92,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 24, 1992 16:30:00 GMT-0500",
+    "date": "Sat Oct 24, 1992 16:30:00 GMT-0400",
     "opponentId": "BYU",
     "score": {"away": 16, "home": 42},
     "linescore": {"away": [], "home": []},

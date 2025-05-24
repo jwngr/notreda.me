@@ -111,7 +111,7 @@ const updateNdSchedule = async () => {
     // const priorGameDate = getDateFromGame(currentSeasonUpcomingGameData);
     // const newGameDate = await fetchKickoffTimeForGame(currentSeasonUpcomingGameData.espnGameId);
 
-    // const priorIsTimeTbd = typeof currentSeasonUpcomingGameData.fullDate === 'undefined';
+    // const priorIsTimeTbd = typeof currentSeasonUpcomingGameData.date === 'undefined';
     // const newIsTimeTbd = newGameDate === 'TBD';
 
     // let warningMessage: string | undefined;
@@ -163,13 +163,13 @@ const updateNdSchedule = async () => {
 
   // if (!nextUpcomingCurrentSeasonGame) {
   //   logger.info('Not fetching weather since current season is over.');
-  // } else if (!nextUpcomingCurrentSeasonGame.fullDate) {
+  // } else if (!nextUpcomingCurrentSeasonGame.date) {
   //   logger.info('Not fetching weather since next upcoming game has no kickoff time.');
   // } else if (nextUpcomingCurrentSeasonGame.location === 'TBD') {
   //   logger.info('Not fetching weather since next upcoming game location is TBD.');
   // } else {
   //   const millisecondsUntilNextUpcomingGame =
-  //     new Date(nextUpcomingCurrentSeasonGame.fullDate).getTime() - Date.now();
+  //     new Date(nextUpcomingCurrentSeasonGame.date).getTime() - Date.now();
   //   const daysUntilNextUpcomingGame = Math.floor(
   //     millisecondsUntilNextUpcomingGame / (1000 * 60 * 60 * 24)
   //   );

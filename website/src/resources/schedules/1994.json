@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 03, 1994 23:00:00 GMT-0500",
+    "date": "Sat Sep 03, 1994 23:00:00 GMT-0400",
     "location": {
       "city": "Chicago",
       "state": "IL",
@@ -20,7 +20,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 10, 1994 17:30:00 GMT-0500",
+    "date": "Sat Sep 10, 1994 17:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 26, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -32,7 +32,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 17, 1994 18:30:00 GMT-0500",
+    "date": "Sat Sep 17, 1994 18:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -50,7 +50,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 24, 1994 17:30:00 GMT-0500",
+    "date": "Sat Sep 24, 1994 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 21, "home": 39},
     "linescore": {"away": [], "home": []},
@@ -62,7 +62,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 01, 1994 17:30:00 GMT-0500",
+    "date": "Sat Oct 01, 1994 17:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 15, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -74,7 +74,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Oct 08, 1994 15:00:00 GMT-0500",
+    "date": "Sat Oct 08, 1994 15:00:00 GMT-0400",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -92,7 +92,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 15, 1994 17:30:00 GMT-0500",
+    "date": "Sat Oct 15, 1994 17:30:00 GMT-0400",
     "opponentId": "BYU",
     "score": {"away": 21, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -104,7 +104,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 29, 1994 17:30:00 GMT-0500",
+    "date": "Sat Oct 29, 1994 17:30:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 21, "home": 58},
     "linescore": {"away": [], "home": []},

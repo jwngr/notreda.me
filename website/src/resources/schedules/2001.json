@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 08, 2001 23:00:00 GMT-0500",
+    "date": "Sat Sep 08, 2001 23:00:00 GMT-0400",
     "location": {
       "city": "Lincoln",
       "state": "NE",
@@ -24,7 +24,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 22, 2001 17:30:00 GMT-0500",
+    "date": "Sat Sep 22, 2001 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 17, "home": 10},
     "linescore": {"away": [], "home": []},
@@ -40,7 +40,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 29, 2001 18:30:00 GMT-0500",
+    "date": "Sat Sep 29, 2001 18:30:00 GMT-0400",
     "location": {
       "city": "College Station",
       "state": "TX",
@@ -61,7 +61,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 06, 2001 17:30:00 GMT-0500",
+    "date": "Sat Oct 06, 2001 17:30:00 GMT-0400",
     "opponentId": "PITT",
     "score": {"away": 7, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -76,7 +76,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 13, 2001 17:30:00 GMT-0500",
+    "date": "Sat Oct 13, 2001 17:30:00 GMT-0400",
     "opponentId": "WVU",
     "score": {"away": 24, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -91,7 +91,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 20, 2001 17:30:00 GMT-0500",
+    "date": "Sat Oct 20, 2001 17:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 16, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -106,7 +106,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Oct 27, 2001 22:30:00 GMT-0500",
+    "date": "Sat Oct 27, 2001 22:30:00 GMT-0400",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",

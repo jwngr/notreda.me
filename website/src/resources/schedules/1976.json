@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 11, 1976 19:20:00 GMT-0500",
+    "date": "Sat Sep 11, 1976 19:20:00 GMT-0400",
     "opponentId": "PITT",
     "score": {"away": 31, "home": 10},
     "linescore": {"away": [], "home": []},
@@ -14,7 +14,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 18, 1976 17:30:00 GMT-0500",
+    "date": "Sat Sep 18, 1976 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 0, "home": 23},
     "linescore": {"away": [], "home": []},
@@ -24,7 +24,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 25, 1976 17:30:00 GMT-0500",
+    "date": "Sat Sep 25, 1976 17:30:00 GMT-0400",
     "location": {
       "city": "Evanston",
       "state": "IL",
@@ -40,7 +40,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 02, 1976 16:30:00 GMT-0500",
+    "date": "Sat Oct 02, 1976 16:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -57,7 +57,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 16, 1976 17:30:00 GMT-0500",
+    "date": "Sat Oct 16, 1976 17:30:00 GMT-0400",
     "opponentId": "ORE",
     "score": {"away": 0, "home": 41},
     "linescore": {"away": [], "home": []},
@@ -68,7 +68,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 23, 1976 16:10:00 GMT-0500",
+    "date": "Sat Oct 23, 1976 16:10:00 GMT-0400",
     "location": {
       "city": "Columbia",
       "state": "SC",
@@ -85,7 +85,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 30, 1976 16:00:00 GMT-0500",
+    "date": "Sat Oct 30, 1976 16:00:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 21, "home": 27},
     "linescore": {"away": [], "home": []},

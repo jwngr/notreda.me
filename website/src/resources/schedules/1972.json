@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 23, 1972 17:30:00 GMT-0500",
+    "date": "Sat Sep 23, 1972 17:30:00 GMT-0400",
     "location": {
       "city": "Evanston",
       "state": "IL",
@@ -19,7 +19,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 30, 1972 17:30:00 GMT-0500",
+    "date": "Sat Sep 30, 1972 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 14, "home": 35},
     "linescore": {"away": [], "home": []},
@@ -30,7 +30,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 07, 1972 16:50:00 GMT-0500",
+    "date": "Sat Oct 07, 1972 16:50:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -48,7 +48,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 14, 1972 17:30:00 GMT-0500",
+    "date": "Sat Oct 14, 1972 17:30:00 GMT-0400",
     "opponentId": "PITT",
     "score": {"away": 16, "home": 42},
     "linescore": {"away": [], "home": []},
@@ -59,7 +59,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 21, 1972 17:30:00 GMT-0500",
+    "date": "Sat Oct 21, 1972 17:30:00 GMT-0400",
     "opponentId": "MIZ",
     "score": {"away": 30, "home": 26},
     "linescore": {"away": [], "home": []},
@@ -70,7 +70,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 28, 1972 17:30:00 GMT-0500",
+    "date": "Sat Oct 28, 1972 17:30:00 GMT-0400",
     "opponentId": "TCU",
     "score": {"away": 0, "home": 21},
     "linescore": {"away": [], "home": []},

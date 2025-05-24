@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sun Sep 05, 2004 00:15:00 GMT-0500",
+    "date": "Sun Sep 05, 2004 00:15:00 GMT-0400",
     "location": {
       "city": "Provo",
       "state": "UT",
@@ -68,7 +68,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 11, 2004 18:30:00 GMT-0500",
+    "date": "Sat Sep 11, 2004 18:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 20, "home": 28},
     "stats": {
@@ -129,7 +129,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 18, 2004 22:00:00 GMT-0500",
+    "date": "Sat Sep 18, 2004 22:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -195,7 +195,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 25, 2004 17:30:00 GMT-0500",
+    "date": "Sat Sep 25, 2004 17:30:00 GMT-0400",
     "opponentId": "WASH",
     "score": {"away": 3, "home": 38},
     "stats": {
@@ -255,7 +255,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 02, 2004 17:30:00 GMT-0500",
+    "date": "Sat Oct 02, 2004 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 41, "home": 16},
     "stats": {
@@ -316,7 +316,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 09, 2004 17:30:00 GMT-0500",
+    "date": "Sat Oct 09, 2004 17:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 15, "home": 23},
     "stats": {
@@ -376,7 +376,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 16, 2004 15:00:00 GMT-0500",
+    "date": "Sat Oct 16, 2004 15:00:00 GMT-0400",
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -443,7 +443,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 23, 2004 16:30:00 GMT-0500",
+    "date": "Sat Oct 23, 2004 16:30:00 GMT-0400",
     "opponentId": "BC",
     "score": {"away": 24, "home": 23},
     "stats": {

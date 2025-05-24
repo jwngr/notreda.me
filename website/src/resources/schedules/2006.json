@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 02, 2006 23:00:00 GMT-0500",
+    "date": "Sat Sep 02, 2006 23:00:00 GMT-0400",
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -68,7 +68,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 09, 2006 18:30:00 GMT-0500",
+    "date": "Sat Sep 09, 2006 18:30:00 GMT-0400",
     "opponentId": "PSU",
     "score": {"away": 17, "home": 41},
     "stats": {
@@ -128,7 +128,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 16, 2006 18:30:00 GMT-0500",
+    "date": "Sat Sep 16, 2006 18:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 47, "home": 21},
     "stats": {
@@ -188,7 +188,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 23, 2006 23:00:00 GMT-0500",
+    "date": "Sat Sep 23, 2006 23:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -254,7 +254,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 30, 2006 17:30:00 GMT-0500",
+    "date": "Sat Sep 30, 2006 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 21, "home": 35},
     "stats": {
@@ -314,7 +314,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 07, 2006 17:30:00 GMT-0500",
+    "date": "Sat Oct 07, 2006 17:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 10, "home": 31},
     "stats": {
@@ -374,7 +374,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 21, 2006 17:30:00 GMT-0500",
+    "date": "Sat Oct 21, 2006 17:30:00 GMT-0400",
     "opponentId": "UCLA",
     "score": {"away": 17, "home": 20},
     "stats": {
@@ -434,7 +434,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 28, 2006 15:00:00 GMT-0500",
+    "date": "Sat Oct 28, 2006 15:00:00 GMT-0400",
     "location": {
       "city": "Baltimore",
       "state": "MD",

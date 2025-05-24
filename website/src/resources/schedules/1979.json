@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 15, 1979 18:20:00 GMT-0500",
+    "date": "Sat Sep 15, 1979 18:20:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -20,7 +20,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 22, 1979 17:30:00 GMT-0500",
+    "date": "Sat Sep 22, 1979 17:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -37,7 +37,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 29, 1979 17:30:00 GMT-0500",
+    "date": "Sat Sep 29, 1979 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 3, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -48,7 +48,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 06, 1979 17:30:00 GMT-0500",
+    "date": "Sat Oct 06, 1979 17:30:00 GMT-0400",
     "opponentId": "GT",
     "score": {"away": 13, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -59,7 +59,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 13, 1979 18:30:00 GMT-0500",
+    "date": "Sat Oct 13, 1979 18:30:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -76,7 +76,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 20, 1979 15:50:00 GMT-0500",
+    "date": "Sat Oct 20, 1979 15:50:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 42, "home": 23},
     "linescore": {"away": [], "home": []},
@@ -88,7 +88,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 27, 1979 17:30:00 GMT-0500",
+    "date": "Sat Oct 27, 1979 17:30:00 GMT-0400",
     "opponentId": "SCAR",
     "score": {"away": 17, "home": 18},
     "linescore": {"away": [], "home": []},

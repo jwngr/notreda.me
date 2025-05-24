@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 05, 2009 18:30:00 GMT-0500",
+    "date": "Sat Sep 05, 2009 18:30:00 GMT-0400",
     "opponentId": "NEV",
     "score": {"away": 0, "home": 35},
     "stats": {
@@ -63,7 +63,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 12, 2009 18:30:00 GMT-0500",
+    "date": "Sat Sep 12, 2009 18:30:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -130,7 +130,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 19, 2009 18:30:00 GMT-0500",
+    "date": "Sat Sep 19, 2009 18:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 30, "home": 33},
     "stats": {
@@ -190,7 +190,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 26, 2009 23:00:00 GMT-0500",
+    "date": "Sat Sep 26, 2009 23:00:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -256,7 +256,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 03, 2009 18:30:00 GMT-0500",
+    "date": "Sat Oct 03, 2009 18:30:00 GMT-0400",
     "opponentId": "WASH",
     "score": {"away": 30, "home": 37},
     "stats": {
@@ -317,7 +317,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 17, 2009 18:30:00 GMT-0500",
+    "date": "Sat Oct 17, 2009 18:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 34, "home": 27},
     "stats": {
@@ -378,7 +378,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 24, 2009 18:30:00 GMT-0500",
+    "date": "Sat Oct 24, 2009 18:30:00 GMT-0400",
     "opponentId": "BC",
     "score": {"away": 16, "home": 20},
     "stats": {
@@ -440,7 +440,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "date": "Sat Oct 31, 2009 22:30:00 GMT-0500",
+    "date": "Sat Oct 31, 2009 22:30:00 GMT-0400",
     "location": {
       "city": "San Antonio",
       "state": "TX",

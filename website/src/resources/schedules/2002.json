@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Aug 31, 2002 23:00:00 GMT-0500",
+    "date": "Sat Aug 31, 2002 23:00:00 GMT-0400",
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -25,7 +25,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 07, 2002 15:00:00 GMT-0500",
+    "date": "Sat Sep 07, 2002 15:00:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 17, "home": 24},
     "espnGameId": 222500087,
@@ -42,7 +42,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 14, 2002 16:30:00 GMT-0500",
+    "date": "Sat Sep 14, 2002 16:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 23, "home": 25},
     "espnGameId": 222570087,
@@ -59,7 +59,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 21, 2002 18:30:00 GMT-0500",
+    "date": "Sat Sep 21, 2002 18:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -82,7 +82,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 05, 2002 16:30:00 GMT-0500",
+    "date": "Sat Oct 05, 2002 16:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 7, "home": 31},
     "espnGameId": 222780087,
@@ -99,7 +99,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 12, 2002 16:30:00 GMT-0500",
+    "date": "Sat Oct 12, 2002 16:30:00 GMT-0400",
     "opponentId": "PITT",
     "score": {"away": 6, "home": 14},
     "espnGameId": 222850087,
@@ -116,7 +116,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sun Oct 20, 2002 01:00:00 GMT-0500",
+    "date": "Sun Oct 20, 2002 01:00:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -139,7 +139,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 26, 2002 15:00:00 GMT-0500",
+    "date": "Sat Oct 26, 2002 15:00:00 GMT-0400",
     "location": {
       "city": "Tallahassee",
       "state": "FL",

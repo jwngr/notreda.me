@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 06, 2008 18:30:00 GMT-0500",
+    "date": "Sat Sep 06, 2008 18:30:00 GMT-0400",
     "opponentId": "SDSU",
     "score": {"away": 13, "home": 21},
     "stats": {
@@ -62,7 +62,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 13, 2008 18:30:00 GMT-0500",
+    "date": "Sat Sep 13, 2008 18:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 17, "home": 35},
     "stats": {
@@ -122,7 +122,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 20, 2008 18:30:00 GMT-0500",
+    "date": "Sat Sep 20, 2008 18:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -188,7 +188,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 27, 2008 18:30:00 GMT-0500",
+    "date": "Sat Sep 27, 2008 18:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 21, "home": 38},
     "stats": {
@@ -248,7 +248,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 04, 2008 17:30:00 GMT-0500",
+    "date": "Sat Oct 04, 2008 17:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 21, "home": 28},
     "stats": {
@@ -308,7 +308,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Oct 11, 2008 18:30:00 GMT-0500",
+    "date": "Sat Oct 11, 2008 18:30:00 GMT-0400",
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -375,7 +375,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 25, 2008 23:00:00 GMT-0500",
+    "date": "Sat Oct 25, 2008 23:00:00 GMT-0400",
     "location": {
       "city": "Seattle",
       "state": "WA",
@@ -441,7 +441,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Nov 01, 2008 17:30:00 GMT-0500",
+    "date": "Sat Nov 01, 2008 17:30:00 GMT-0400",
     "opponentId": "PITT",
     "score": {"away": 36, "home": 33},
     "stats": {

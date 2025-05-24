@@ -2,7 +2,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 08, 1984 16:30:00 GMT-0500",
+    "date": "Sat Sep 08, 1984 16:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 23, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -13,7 +13,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 15, 1984 16:00:00 GMT-0500",
+    "date": "Sat Sep 15, 1984 16:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -29,7 +29,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 22, 1984 17:30:00 GMT-0500",
+    "date": "Sat Sep 22, 1984 17:30:00 GMT-0400",
     "opponentId": "COL",
     "score": {"away": 14, "home": 55},
     "linescore": {"away": [], "home": []},
@@ -39,7 +39,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 29, 1984 18:50:00 GMT-0500",
+    "date": "Sat Sep 29, 1984 18:50:00 GMT-0400",
     "location": {
       "city": "Columbia",
       "state": "MO",
@@ -57,7 +57,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 06, 1984 22:45:00 GMT-0500",
+    "date": "Sat Oct 06, 1984 22:45:00 GMT-0400",
     "opponentId": "MIAMI",
     "score": {"away": 31, "home": 13},
     "linescore": {"away": [], "home": []},
@@ -69,7 +69,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 13, 1984 15:20:00 GMT-0500",
+    "date": "Sat Oct 13, 1984 15:20:00 GMT-0400",
     "opponentId": "AF",
     "score": {"away": 21, "home": 7},
     "linescore": {"away": [], "home": []},
@@ -80,7 +80,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 20, 1984 15:20:00 GMT-0500",
+    "date": "Sat Oct 20, 1984 15:20:00 GMT-0400",
     "opponentId": "SCAR",
     "score": {"away": 36, "home": 32},
     "linescore": {"away": [], "home": []},
@@ -92,7 +92,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 27, 1984 18:50:00 GMT-0500",
+    "date": "Sat Oct 27, 1984 18:50:00 GMT-0400",
     "location": {
       "city": "Baton Rouge",
       "state": "LA",

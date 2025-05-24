@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Tue Sep 16, 1975 00:00:00 GMT-0500",
+    "date": "Tue Sep 16, 1975 00:00:00 GMT-0400",
     "opponentId": "BC",
     "score": {"away": 3, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -14,7 +14,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 20, 1975 17:30:00 GMT-0500",
+    "date": "Sat Sep 20, 1975 17:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -31,7 +31,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 27, 1975 17:30:00 GMT-0500",
+    "date": "Sat Sep 27, 1975 17:30:00 GMT-0400",
     "opponentId": "NW",
     "score": {"away": 7, "home": 31},
     "linescore": {"away": [], "home": []},
@@ -42,7 +42,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 04, 1975 17:30:00 GMT-0500",
+    "date": "Sat Oct 04, 1975 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 10, "home": 3},
     "linescore": {"away": [], "home": []},
@@ -53,7 +53,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 11, 1975 16:30:00 GMT-0500",
+    "date": "Sat Oct 11, 1975 16:30:00 GMT-0400",
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -70,7 +70,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Oct 18, 1975 18:05:00 GMT-0500",
+    "date": "Sat Oct 18, 1975 18:05:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -87,7 +87,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 25, 1975 16:50:00 GMT-0500",
+    "date": "Sat Oct 25, 1975 16:50:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 24, "home": 17},
     "linescore": {"away": [], "home": []},

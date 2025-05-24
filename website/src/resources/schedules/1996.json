@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Thu Sep 05, 1996 23:00:00 GMT-0500",
+    "date": "Thu Sep 05, 1996 23:00:00 GMT-0400",
     "location": {
       "city": "Nashville",
       "state": "TN",
@@ -20,7 +20,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Sep 14, 1996 17:30:00 GMT-0500",
+    "date": "Sat Sep 14, 1996 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 0, "home": 35},
     "linescore": {"away": [], "home": []},
@@ -32,7 +32,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "Sat Sep 21, 1996 15:00:00 GMT-0500",
+    "date": "Sat Sep 21, 1996 15:00:00 GMT-0400",
     "location": {
       "city": "Austin",
       "state": "TX",
@@ -50,7 +50,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 28, 1996 17:30:00 GMT-0500",
+    "date": "Sat Sep 28, 1996 17:30:00 GMT-0400",
     "opponentId": "OSU",
     "score": {"away": 29, "home": 16},
     "linescore": {"away": [], "home": []},
@@ -62,7 +62,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 12, 1996 17:30:00 GMT-0500",
+    "date": "Sat Oct 12, 1996 17:30:00 GMT-0400",
     "opponentId": "WASH",
     "score": {"away": 20, "home": 54},
     "linescore": {"away": [], "home": []},
@@ -74,7 +74,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Oct 19, 1996 17:30:00 GMT-0500",
+    "date": "Sat Oct 19, 1996 17:30:00 GMT-0400",
     "opponentId": "AF",
     "score": {"away": 20, "home": 17},
     "linescore": {"away": [], "home": []},

@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Aug 28, 1999 18:30:00 GMT-0500",
+    "date": "Sat Aug 28, 1999 18:30:00 GMT-0400",
     "nickname": "Eddie Robinson Classic",
     "opponentId": "KU",
     "score": {"away": 13, "home": 48},
@@ -19,7 +19,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 04, 1999 18:30:00 GMT-0500",
+    "date": "Sat Sep 04, 1999 18:30:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -41,7 +41,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "Sat Sep 11, 1999 18:30:00 GMT-0500",
+    "date": "Sat Sep 11, 1999 18:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -63,7 +63,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "Sat Sep 18, 1999 17:30:00 GMT-0500",
+    "date": "Sat Sep 18, 1999 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 23, "home": 13},
     "linescore": {"away": [], "home": []},
@@ -79,7 +79,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 02, 1999 17:30:00 GMT-0500",
+    "date": "Sat Oct 02, 1999 17:30:00 GMT-0400",
     "opponentId": "OKLA",
     "score": {"away": 30, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -95,7 +95,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 09, 1999 17:30:00 GMT-0500",
+    "date": "Sat Oct 09, 1999 17:30:00 GMT-0400",
     "opponentId": "ASU",
     "score": {"away": 17, "home": 48},
     "linescore": {"away": [], "home": []},
@@ -110,7 +110,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 16, 1999 17:30:00 GMT-0500",
+    "date": "Sat Oct 16, 1999 17:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 24, "home": 25},
     "linescore": {"away": [], "home": []},
@@ -125,7 +125,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "Sat Oct 30, 1999 17:30:00 GMT-0500",
+    "date": "Sat Oct 30, 1999 17:30:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 24, "home": 28},
     "linescore": {"away": [], "home": []},
