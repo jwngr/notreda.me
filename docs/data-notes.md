@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
 - [Location](#location)
-- [Date / Time](#date-time)
+- [Kickoff date](#kickoff-date)
 - [Weather](#weather)
 - [Nickname](#nickname)
 - [Edge Cases](#edge-cases)
@@ -32,8 +32,9 @@ The `location` object can have any of the following formats:
 
 The `date` must be one of the following formats:
 
-1. Short `string` - Short date string for games with known dates but no time (e.g., "09/30/2014")
-1. Long `string` - Long date string for games with known dates and time (e.g., "Sat Aug 30, 2014 18:30:00 GMT-0500")
+1. Long `string` (1965 - present) - ISO 8601 date string (e.g., "2014-08-30T18:30:00-05:00") with
+   date and time
+1. Short `string` (1887 - 1964) - Short date string for games with known dates but no time (e.g., "04/20/1888")
 1. `"TBD"` - Future games without a scheduled date
 
 ### Weather
