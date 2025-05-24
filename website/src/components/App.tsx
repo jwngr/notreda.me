@@ -3,6 +3,8 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import {ThemeProvider} from 'styled-components';
 
 import theme from '../resources/theme.json';
+import {ErrorScreen} from '../screens/ErrorScreen';
+import {ErrorBoundary} from './ErrorBoundary';
 
 const AsyncFootballScheduleScreen = lazy(() =>
   import('../screens/FootballScheduleScreen').then((module) => ({
@@ -17,26 +19,28 @@ const AsyncExplorablesScreen = lazy(() =>
 export const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/explorables/*"
-            element={
-              <Suspense fallback={null}>
-                <AsyncExplorablesScreen />
-              </Suspense>
-            }
-          />
-          <Route
-            path="/:selectedYear?/:selectedGameIndex?/"
-            element={
-              <Suspense fallback={null}>
-                <AsyncFootballScheduleScreen />
-              </Suspense>
-            }
-          />
-        </Routes>
-      </BrowserRouter>
+      <ErrorBoundary fallback={(error) => <ErrorScreen error={error} />}>
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/explorables/*"
+              element={
+                <Suspense fallback={null}>
+                  <AsyncExplorablesScreen />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/:selectedYear?/:selectedGameIndex?/"
+              element={
+                <Suspense fallback={null}>
+                  <AsyncFootballScheduleScreen />
+                </Suspense>
+              }
+            />
+          </Routes>
+        </BrowserRouter>
+      </ErrorBoundary>
     </ThemeProvider>
   );
 };
