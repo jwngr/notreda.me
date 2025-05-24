@@ -132,7 +132,7 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
     <StatsSection title="Location">
       <LocationInnerWrapper>
         {weatherContent}
-        <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
+        <StadiumLocationWrapper center={!weatherContent}>
           {game.nickname ? <p>{game.nickname}</p> : null}
           {stadiumString ? <p>{stadiumString}</p> : null}
           <p>{locationString}</p>
