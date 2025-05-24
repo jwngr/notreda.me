@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1927",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "COE",
     "score": {"away": 7, "home": 28},
     "linescore": {"away": [], "home": []},
@@ -33,12 +27,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/15/1927",
-    "location": {
-      "city": "Baltimore",
-      "state": "MD",
-      "stadium": "Municipal Stadium",
-      "coordinates": [39.329444, -76.601389]
-    },
     "opponentId": "NAVY",
     "score": {"away": 6, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -63,12 +51,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1927",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "GT",
     "score": {"away": 7, "home": 26},
     "linescore": {"away": [], "home": []},
@@ -78,12 +60,6 @@
     "result": "T",
     "isHomeGame": true,
     "date": "11/05/1927",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Cartier Field",
-      "coordinates": [41.701239, -86.234417]
-    },
     "opponentId": "MINN",
     "score": {"away": 7, "home": 7},
     "linescore": {"away": [], "home": []},
@@ -93,12 +69,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/12/1927",
-    "location": {
-      "city": "Bronx",
-      "state": "NY",
-      "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
-    },
     "opponentId": "ARMY",
     "score": {"away": 18, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -123,12 +93,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/26/1927",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "stadium": "Soldier Field",
-      "coordinates": [41.862105, -87.616721]
-    },
     "opponentId": "USC",
     "score": {"away": 6, "home": 7},
     "linescore": {"away": [], "home": []},

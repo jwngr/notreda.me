@@ -44,13 +44,13 @@ export const getMatchupsAgainstTeam = async (
  */
 export const getFilteredMatchupsAgainstTeam = async ({
   opponentId,
-  selectedSeason,
+  season,
   maxMatchupsCount = Infinity,
   pastMatchupsAgainstTeam,
   futureMatchupsAgainstTeam,
 }: {
   readonly opponentId: TeamId;
-  readonly selectedSeason: number;
+  readonly season: number;
   readonly maxMatchupsCount?: number;
   readonly pastMatchupsAgainstTeam: readonly ExpandedGameInfo[];
   readonly futureMatchupsAgainstTeam: readonly ExpandedGameInfo[];
@@ -68,12 +68,12 @@ export const getFilteredMatchupsAgainstTeam = async ({
   ];
 
   const selectedMatchup: ExpandedGameInfo | undefined = allMatchupsAgainstTeam.find(
-    ({season}) => season === selectedSeason
+    (game) => game.season === season
   );
 
   if (typeof selectedMatchup === 'undefined') {
     throw new Error(
-      `Cannot get filtered matchups: No matchup exists against ${opponentId} for the provided ${selectedSeason} season.`
+      `Cannot get filtered matchups: No matchup exists against ${opponentId} for the ${season} season.`
     );
   }
 
@@ -85,8 +85,7 @@ export const getFilteredMatchupsAgainstTeam = async ({
   } else if (futureMatchupsAgainstTeam.length === 0) {
     // If there are no future matchups against the opponent, include a subset of past matchups.
     const seasonsWithPastMatchups = pastMatchupsAgainstTeam.map(({season}) => season);
-    const selectedMatchupIndexWithinPastMatchupsArray =
-      seasonsWithPastMatchups.indexOf(selectedSeason);
+    const selectedMatchupIndexWithinPastMatchupsArray = seasonsWithPastMatchups.indexOf(season);
 
     // Dynamically display a subset of historical matchups, making sure to always include matchups
     // just before and after the currently selected matchup.
@@ -129,7 +128,7 @@ export const getFilteredMatchupsAgainstTeam = async ({
     // Determine if the selected season is within the future matchups array. If so, optionally
     // include another future matchup in our filtered list.
     const selectedMatchupIndexWithinFutureMatchupsArray = futureMatchupsAgainstTeam.findIndex(
-      ({season}) => season === selectedSeason
+      (game) => game.season === season
     );
 
     if (selectedMatchupIndexWithinFutureMatchupsArray > 0) {
@@ -138,7 +137,7 @@ export const getFilteredMatchupsAgainstTeam = async ({
         futureMatchupsAgainstTeam[selectedMatchupIndexWithinFutureMatchupsArray]
       );
     } else if (
-      selectedSeason === CURRENT_SEASON &&
+      season === CURRENT_SEASON &&
       selectedMatchupIndexWithinFutureMatchupsArray === 0 &&
       futureMatchupsAgainstTeam.length > 1
     ) {
@@ -157,8 +156,7 @@ export const getFilteredMatchupsAgainstTeam = async ({
       filteredPastMatchupsAgainstTeam = [...pastMatchupsAgainstTeam];
     } else {
       const seasonsWithPastMatchups = pastMatchupsAgainstTeam.map(({season}) => season);
-      const selectedMatchupIndexWithinPastMatchupsArray =
-        seasonsWithPastMatchups.indexOf(selectedSeason);
+      const selectedMatchupIndexWithinPastMatchupsArray = seasonsWithPastMatchups.indexOf(season);
 
       // Dynamically display a subset of historical matchups, making sure to always include matchups
       // just before and after the currently selected matchup.

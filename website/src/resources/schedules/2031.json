@@ -10,17 +10,7 @@
     },
     "opponentId": "CLEM"
   },
-  {
-    "isHomeGame": true,
-    "date": "09/13/2031",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "USF"
-  },
+  {"isHomeGame": true, "date": "09/13/2031", "opponentId": "USF"},
   {
     "isHomeGame": false,
     "date": "09/27/2031",
@@ -43,39 +33,9 @@
     },
     "opponentId": "UVA"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/15/2031",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "FLA"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/22/2031",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "NCST"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "MIAMI"
-  },
+  {"isHomeGame": true, "date": "11/15/2031", "opponentId": "FLA"},
+  {"isHomeGame": true, "date": "11/22/2031", "opponentId": "NCST"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
   {
     "isHomeGame": false,
     "date": "TBD",
@@ -87,17 +47,7 @@
     },
     "opponentId": "PITT"
   },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "NAVY"
-  },
+  {"isHomeGame": true, "date": "TBD", "opponentId": "NAVY"},
   {
     "isHomeGame": false,
     "date": "TBD",

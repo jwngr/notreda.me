@@ -37,12 +37,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/11/1952",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 22, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -71,12 +65,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/25/1952",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 14, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -88,12 +76,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1952",
-    "location": {
-      "city": "Cleveland",
-      "state": "OH",
-      "stadium": "Cleveland Municipal Stadium",
-      "coordinates": [41.506005, -81.699666]
-    },
     "opponentId": "NAVY",
     "score": {"away": 6, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -105,12 +87,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/08/1952",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "OKLA",
     "score": {"away": 21, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -156,12 +132,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/29/1952",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 0, "home": 9},
     "linescore": {"away": [], "home": []},

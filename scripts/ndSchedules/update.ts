@@ -3,6 +3,7 @@ import _ from 'lodash';
 import {GameInfo, GameResult} from '../../website/src/models/games.models';
 import {Writable} from '../../website/src/models/utils.models';
 import {CURRENT_SEASON, ND_HEAD_COACH} from '../lib/constants';
+import {getDateFromGame} from '../lib/datetime';
 import {
   fetchGameIdsForSeason,
   fetchNotreDameWeeklyRecordsForSeason,
@@ -39,8 +40,9 @@ const updateNdSchedule = async () => {
 
   const espnGameStats = await Promise.all(
     _.map(currentSeasonSchedule, (gameData) => {
-      if (!gameData.fullDate) {
-        logger.error(`Full date missing for ${gameData.opponentId} game`);
+      const gameDate = getDateFromGame(gameData);
+      if (!gameDate || gameDate === 'TBD') {
+        logger.error(`Kickoff date missing for ${gameData.opponentId} game`);
         return;
       }
 
@@ -50,7 +52,7 @@ const updateNdSchedule = async () => {
       }
 
       // Determine how many days it has been since the game kicked off.
-      const millisecondsSinceGame = Date.now() - new Date(gameData.fullDate).getTime();
+      const millisecondsSinceGame = Date.now() - gameDate.getTime();
       const daysSinceGame = Math.floor(millisecondsSinceGame / (1000 * 60 * 60 * 24));
 
       // If the game was completed within the last month and is no more than one day out, attempt to
@@ -106,7 +108,7 @@ const updateNdSchedule = async () => {
     }
 
     // TODO: This is currently broken.
-    // const priorGameDate = getGameDate(currentSeasonUpcomingGameData);
+    // const priorGameDate = getDateFromGame(currentSeasonUpcomingGameData);
     // const newGameDate = await fetchKickoffTimeForGame(currentSeasonUpcomingGameData.espnGameId);
 
     // const priorIsTimeTbd = typeof currentSeasonUpcomingGameData.fullDate === 'undefined';

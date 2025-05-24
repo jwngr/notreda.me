@@ -22,12 +22,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/14/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 0, "home": 35},
     "linescore": {"away": [], "home": []},
@@ -60,12 +54,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "OSU",
     "score": {"away": 29, "home": 16},
     "linescore": {"away": [], "home": []},
@@ -79,12 +67,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WASH",
     "score": {"away": 20, "home": 54},
     "linescore": {"away": [], "home": []},
@@ -98,12 +80,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/19/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "AF",
     "score": {"away": 20, "home": 17},
     "linescore": {"away": [], "home": []},
@@ -157,12 +133,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 6, "home": 60},
     "linescore": {"away": [], "home": []},
@@ -176,12 +146,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/23/1996",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "RUTG",
     "score": {"away": 0, "home": 62},
     "linescore": {"away": [], "home": []},

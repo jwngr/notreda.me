@@ -22,12 +22,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/10/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 26, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -60,12 +54,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/24/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 21, "home": 39},
     "linescore": {"away": [], "home": []},
@@ -79,12 +67,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/01/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "STAN",
     "score": {"away": 15, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -117,12 +99,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "BYU",
     "score": {"away": 21, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -136,12 +112,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/29/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 21, "home": 58},
     "linescore": {"away": [], "home": []},
@@ -154,12 +124,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/12/1994",
-    "location": {
-      "city": "Orlando",
-      "state": "FL",
-      "stadium": "Florida Citrus Bowl",
-      "coordinates": [28.539074, -81.404028]
-    },
     "opponentId": "FSU",
     "score": {"away": 23, "home": 16},
     "linescore": {"away": [], "home": []},
@@ -173,12 +137,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/19/1994",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "AF",
     "score": {"away": 30, "home": 42},
     "linescore": {"away": [], "home": []},

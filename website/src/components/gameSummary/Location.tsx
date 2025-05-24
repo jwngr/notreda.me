@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import {formatGameLocationAsString, getGameLocation} from '../../lib/locations';
 import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
@@ -97,19 +98,18 @@ const _getWeatherInfo = (
   return {icon, text};
 };
 
-export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
-  let location;
-  if (game.location === 'TBD') {
-    // Some future games actually don't have a location yet!
-    location = 'Location to be determined';
-  } else {
-    // Otherwise, we are guaranteed to have the city and state / country combo for the game.
-    location = game.location.state
-      ? `${game.location.city}, ${game.location.state}`
-      : `${game.location.city}, ${game.location.country}`;
-  }
+export const Location: React.FC<{readonly game: GameInfo; readonly season: number}> = (props) => {
+  const {game, season} = props;
 
-  let weatherContent;
+  const computedLocation = getGameLocation({game, season});
+  const locationString = formatGameLocationAsString({
+    location: computedLocation,
+    tbdText: 'Location to be determined',
+  });
+
+  const stadiumString = computedLocation === 'TBD' ? null : computedLocation?.stadium;
+
+  let weatherContent: React.ReactNode | null = null;
   if (game.weather) {
     const weatherInfo = _getWeatherInfo(game.weather.icon);
     if (weatherInfo) {
@@ -132,15 +132,10 @@ export const Location: React.FC<{readonly game: GameInfo}> = ({game}) => {
     <StatsSection title="Location">
       <LocationInnerWrapper>
         {weatherContent}
-        <StadiumLocationWrapper center={typeof weatherContent === 'undefined'}>
-          {/* Nickname */}
+        <StadiumLocationWrapper center={!weatherContent}>
           {game.nickname ? <p>{game.nickname}</p> : null}
-
-          {/* Stadium */}
-          {game.location !== 'TBD' && game.location.stadium ? <p>{game.location.stadium}</p> : null}
-
-          {/* Location */}
-          <p>{location}</p>
+          {stadiumString ? <p>{stadiumString}</p> : null}
+          <p>{locationString}</p>
         </StadiumLocationWrapper>
       </LocationInnerWrapper>
     </StatsSection>

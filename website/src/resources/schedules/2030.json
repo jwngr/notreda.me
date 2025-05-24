@@ -1,15 +1,5 @@
 [
-  {
-    "isHomeGame": true,
-    "date": "08/31/2030",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "IND"
-  },
+  {"isHomeGame": true, "date": "08/31/2030", "opponentId": "IND"},
   {
     "isHomeGame": false,
     "date": "09/14/2030",
@@ -32,39 +22,9 @@
     },
     "opponentId": "LOU"
   },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "DUKE"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "FSU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "UNC"
-  },
+  {"isHomeGame": true, "date": "TBD", "opponentId": "DUKE"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "FSU"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "UNC"},
   {
     "isHomeGame": false,
     "date": "TBD",
@@ -87,15 +47,5 @@
     },
     "opponentId": "NAVY"
   },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "CLEM"
-  }
+  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
 ]

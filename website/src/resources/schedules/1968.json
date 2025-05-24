@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/21/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "OKLA",
     "score": {"away": 21, "home": 45},
     "linescore": {"away": [], "home": []},
@@ -20,12 +14,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/28/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 37, "home": 22},
     "linescore": {"away": [], "home": []},
@@ -55,12 +43,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/12/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NW",
     "score": {"away": 7, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -72,12 +54,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/19/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "ILL",
     "score": {"away": 8, "home": 58},
     "linescore": {"away": [], "home": []},
@@ -108,12 +84,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/02/1968",
-    "location": {
-      "city": "Philadelphia",
-      "state": "PA",
-      "stadium": "John F. Kennedy Stadium",
-      "coordinates": [39.9014, -75.1719]
-    },
     "opponentId": "NAVY",
     "score": {"away": 14, "home": 45},
     "linescore": {"away": [], "home": []},
@@ -126,12 +96,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/09/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 7, "home": 56},
     "linescore": {"away": [], "home": []},
@@ -143,12 +107,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/16/1968",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "GT",
     "score": {"away": 6, "home": 34},
     "linescore": {"away": [], "home": []},

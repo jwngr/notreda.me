@@ -1,26 +1,6 @@
 [
-  {
-    "isHomeGame": true,
-    "date": "09/09/2028",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "TEX"
-  },
-  {
-    "isHomeGame": true,
-    "date": "09/16/2028",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "ARK"
-  },
+  {"isHomeGame": true, "date": "09/09/2028", "opponentId": "TEX"},
+  {"isHomeGame": true, "date": "09/16/2028", "opponentId": "ARK"},
   {
     "isHomeGame": false,
     "date": "09/23/2028",
@@ -43,39 +23,9 @@
     },
     "opponentId": "VT"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/11/2028",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "CLEM"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "BC"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "MIAMI"
-  },
+  {"isHomeGame": true, "date": "11/11/2028", "opponentId": "CLEM"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "BC"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
   {
     "isHomeGame": false,
     "date": "TBD",

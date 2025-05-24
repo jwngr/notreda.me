@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/06/1980",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 10, "home": 31},
     "linescore": {"away": [], "home": []},
@@ -22,12 +16,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/20/1980",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 27, "home": 29},
     "linescore": {"away": [], "home": []},
@@ -58,12 +46,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/11/1980",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MIAMI",
     "score": {"away": 14, "home": 32},
     "linescore": {"away": [], "home": []},
@@ -76,12 +58,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/18/1980",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "ARMY",
     "score": {"away": 3, "home": 30},
     "linescore": {"away": [], "home": []},
@@ -112,12 +88,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/01/1980",
-    "location": {
-      "city": "East Rutherford",
-      "state": "NJ",
-      "stadium": "Giants Stadium",
-      "coordinates": [40.812222, -74.076944]
-    },
     "opponentId": "NAVY",
     "score": {"away": 0, "home": 33},
     "linescore": {"away": [], "home": []},
@@ -167,12 +137,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/22/1980",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "AF",
     "score": {"away": 10, "home": 24},
     "linescore": {"away": [], "home": []},

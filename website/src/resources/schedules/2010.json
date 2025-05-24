@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/04/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 12, "home": 23},
     "stats": {
@@ -70,12 +64,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/11/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MICH",
     "score": {"away": 28, "home": 24},
     "stats": {
@@ -205,12 +193,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/25/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "STAN",
     "score": {"away": 37, "home": 14},
     "stats": {
@@ -340,12 +322,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 17, "home": 23},
     "stats": {
@@ -407,12 +383,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/16/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WMU",
     "score": {"away": 20, "home": 44},
     "stats": {
@@ -542,12 +512,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/30/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "TULSA",
     "score": {"away": 28, "home": 27},
     "stats": {
@@ -609,12 +573,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/2010",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UTAH",
     "score": {"away": 3, "home": 28},
     "stats": {

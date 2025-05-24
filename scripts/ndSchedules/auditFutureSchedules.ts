@@ -1,5 +1,6 @@
 import _ from 'lodash';
 
+import {getDateFromGame} from '../lib/datetime';
 import {fetchFutureNdSchedules} from '../lib/futureSchedules';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
@@ -46,14 +47,7 @@ const auditFutureNdSchedules = async (): Promise<void> => {
           gamesWithWrongHomeStatus.push('@' + newGameData.opponentName);
         }
 
-        const priorDate: Date | 'TBD' | null =
-          priorGameData.date === 'TBD'
-            ? 'TBD'
-            : priorGameData.date
-              ? new Date(priorGameData.date)
-              : priorGameData.fullDate
-                ? new Date(priorGameData.fullDate)
-                : null;
+        const priorDate = getDateFromGame(priorGameData);
 
         // Ensure both dates are either "TBD" or within 1 day of each other.
         let hasWrongGameDate = false;

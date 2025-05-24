@@ -70,12 +70,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Sep 07 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NIU",
     "espnGameId": 401628977,
     "highlightsYouTubeVideoId": "-66oTCXvx68",
@@ -204,12 +198,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Sep 21 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MOH",
     "espnGameId": 401628979,
     "highlightsYouTubeVideoId": "Lz7WRBHJV9M",
@@ -271,12 +259,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Sep 28 2024 15:30:00 GMT-0400",
     "coverage": "PEACOCK",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "LOU",
     "espnGameId": 401628980,
     "highlightsYouTubeVideoId": "sdv44b0jkbg",
@@ -338,12 +320,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Oct 12 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "STAN",
     "espnGameId": 401628981,
     "highlightsYouTubeVideoId": "1qNSEJcKXvo",
@@ -541,12 +517,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Nov 09 2024 19:30:00 GMT-0500",
     "coverage": "NBC",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "FSU",
     "espnGameId": 401628984,
     "highlightsYouTubeVideoId": "R7D-atkqzBM",
@@ -608,12 +578,6 @@
     "isHomeGame": true,
     "fullDate": "Sat Nov 16 2024 15:30:00 GMT-0500",
     "coverage": "NBC",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UVA",
     "espnGameId": 401628985,
     "highlightsYouTubeVideoId": "ES0YubyOTsk",
@@ -814,12 +778,6 @@
     "nickname": "College Football Playoff First Round Game",
     "fullDate": "Sat Dec 20 2024 18:00:00 GMT-0700",
     "coverage": "ABC / ESPN",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "IND",
     "highlightsYouTubeVideoId": "09BXg7fhijA",
     "records": {
@@ -1084,6 +1042,6 @@
     "score": {"home": 23, "away": 34},
     "linescore": {"away": [0, 21, 10, 3], "home": [7, 0, 8, 8]},
     "result": "L",
-    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 6, "coaches": 7}}
+    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 1, "coaches": 1}}
   }
 ]

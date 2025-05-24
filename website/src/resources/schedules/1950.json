@@ -3,12 +3,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "09/30/1950",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 7, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -20,12 +14,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/07/1950",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 28, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -70,12 +58,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/28/1950",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 36, "home": 33},
     "linescore": {"away": [], "home": []},
@@ -87,12 +69,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/04/1950",
-    "location": {
-      "city": "Cleveland",
-      "state": "OH",
-      "stadium": "Cleveland Municipal Stadium",
-      "coordinates": [41.506005, -81.699666]
-    },
     "opponentId": "NAVY",
     "score": {"away": 10, "home": 19},
     "linescore": {"away": [], "home": []},
@@ -103,12 +79,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/11/1950",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 7, "home": 18},
     "linescore": {"away": [], "home": []},

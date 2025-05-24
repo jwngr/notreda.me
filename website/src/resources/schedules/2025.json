@@ -10,28 +10,8 @@
     },
     "opponentId": "MIAMI"
   },
-  {
-    "isHomeGame": true,
-    "date": "09/13/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "TA&M"
-  },
-  {
-    "isHomeGame": true,
-    "date": "09/20/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "PUR"
-  },
+  {"isHomeGame": true, "date": "09/13/2025", "opponentId": "TA&M"},
+  {"isHomeGame": true, "date": "09/20/2025", "opponentId": "PUR"},
   {
     "isHomeGame": false,
     "date": "09/27/2025",
@@ -43,39 +23,9 @@
     },
     "opponentId": "ARK"
   },
-  {
-    "isHomeGame": true,
-    "date": "10/04/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "BOIS"
-  },
-  {
-    "isHomeGame": true,
-    "date": "10/11/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "NCST"
-  },
-  {
-    "isHomeGame": true,
-    "date": "10/18/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "USC"
-  },
+  {"isHomeGame": true, "date": "10/04/2025", "opponentId": "BOIS"},
+  {"isHomeGame": true, "date": "10/11/2025", "opponentId": "NCST"},
+  {"isHomeGame": true, "date": "10/18/2025", "opponentId": "USC"},
   {
     "isHomeGame": false,
     "date": "11/01/2025",
@@ -87,17 +37,7 @@
     },
     "opponentId": "BC"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/08/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "NAVY"
-  },
+  {"isHomeGame": true, "date": "11/08/2025", "opponentId": "NAVY"},
   {
     "isHomeGame": false,
     "date": "11/15/2025",
@@ -109,17 +49,7 @@
     },
     "opponentId": "PITT"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/22/2025",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "SYR"
-  },
+  {"isHomeGame": true, "date": "11/22/2025", "opponentId": "SYR"},
   {
     "isHomeGame": false,
     "date": "11/29/2025",

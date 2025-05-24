@@ -21,28 +21,8 @@
     },
     "opponentId": "DUKE"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/05/2033",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "VT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "PITT"
-  },
+  {"isHomeGame": true, "date": "11/05/2033", "opponentId": "VT"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "PITT"},
   {
     "isHomeGame": false,
     "date": "TBD",

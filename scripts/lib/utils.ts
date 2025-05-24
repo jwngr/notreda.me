@@ -16,40 +16,6 @@ export const makeId = (): string => {
   return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
 };
 
-export const getGameDate = ({
-  date,
-  time,
-  fullDate,
-}: {
-  readonly date?: string;
-  readonly time?: string;
-  readonly fullDate?: string;
-}): Date => {
-  let d: Date | undefined;
-  if (fullDate) {
-    d = new Date(fullDate);
-  } else if (date && time) {
-    d = time ? new Date(date + ' ' + time) : new Date(date);
-  } else {
-    throw new Error('Invalid game date.');
-  }
-
-  return d;
-};
-
-export const getGameTimestampInSeconds = ({
-  date,
-  time,
-  fullDate,
-}: {
-  readonly date?: string;
-  readonly time?: string;
-  readonly fullDate?: string;
-}): number => {
-  const d = getGameDate({date, time, fullDate});
-  return d.getTime() / 1000;
-};
-
 export function isNumber(val: unknown): val is number {
   return typeof val === 'number' && !isNaN(val);
 }

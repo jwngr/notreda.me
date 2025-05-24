@@ -19,12 +19,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/06/1962",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 24, "home": 6},
     "linescore": {"away": [], "home": []},
@@ -51,12 +45,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1962",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 31, "home": 7},
     "linescore": {"away": [], "home": []},
@@ -84,12 +72,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/03/1962",
-    "location": {
-      "city": "Philadelphia",
-      "state": "PA",
-      "stadium": "Philadelphia Municipal Stadium",
-      "coordinates": [39.9014, -75.1719]
-    },
     "opponentId": "NAVY",
     "score": {"away": 12, "home": 20},
     "linescore": {"away": [], "home": []},
@@ -100,12 +82,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/10/1962",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 22, "home": 43},
     "linescore": {"away": [], "home": []},
@@ -116,12 +92,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1962",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 7, "home": 21},
     "linescore": {"away": [], "home": []},
@@ -132,12 +102,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/24/1962",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "IOWA",
     "score": {"away": 12, "home": 35},
     "linescore": {"away": [], "home": []},

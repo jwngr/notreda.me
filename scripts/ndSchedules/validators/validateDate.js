@@ -1,35 +1,27 @@
 import pick from 'lodash/pick';
 
+import {getDateFromGame} from '../../../website/src/lib/datetime';
+
 export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
     assert(statement, message, pick(currentGameData, ['date', 'time', 'fullDate']));
   };
 
-  const currentGameDate =
-    currentGameData.date === 'TBD'
-      ? 'TBD'
-      : new Date(currentGameData.date || currentGameData.fullDate);
+  const currentGameDate = getDateFromGame(currentGameData);
+  if (!currentGameDate) {
+    wrappedAssert(false, 'Kickoff date is missing.');
+    return;
+  }
 
-  let previousGameDate = null;
+  let previousGameDate = undefined;
   if (previousGameData !== null) {
-    previousGameDate =
-      previousGameData.date === 'TBD'
-        ? 'TBD'
-        : new Date(previousGameData.date || previousGameData.fullDate);
+    previousGameDate = getDateFromGame(previousGameData);
   }
 
-  if (currentGameData.isGameOver) {
-    wrappedAssert(
-      previousGameDate === null || currentGameDate > previousGameDate,
-      'Kickoff date is before previous game.'
-    );
-  } else {
-    wrappedAssert(
-      currentGameData.date === 'TBD' ||
-        previousGameDate === 'TBD' ||
-        previousGameDate === null ||
-        currentGameDate > previousGameDate,
-      'Kickoff date is before previous game.'
-    );
+  if (currentGameDate === 'TBD' || !previousGameDate || previousGameDate === 'TBD') {
+    // Nothing to validate.
+    return;
   }
+
+  wrappedAssert(currentGameDate > previousGameDate, 'Kickoff date is before previous game.');
 }

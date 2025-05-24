@@ -21,48 +21,8 @@
     },
     "opponentId": "GT"
   },
-  {
-    "isHomeGame": true,
-    "date": "10/04/2036",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "FSU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/01/2036",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "PITT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/08/2036",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "UNC"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "CLEM"
-  }
+  {"isHomeGame": true, "date": "10/04/2036", "opponentId": "FSU"},
+  {"isHomeGame": true, "date": "11/01/2036", "opponentId": "PITT"},
+  {"isHomeGame": true, "date": "11/08/2036", "opponentId": "UNC"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
 ]

@@ -1,15 +1,5 @@
 [
-  {
-    "isHomeGame": true,
-    "date": "09/04/2027",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "PUR"
-  },
+  {"isHomeGame": true, "date": "09/04/2027", "opponentId": "PUR"},
   {
     "isHomeGame": false,
     "date": "09/18/2027",
@@ -21,28 +11,8 @@
     },
     "opponentId": "MSU"
   },
-  {
-    "isHomeGame": true,
-    "date": "10/02/2027",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "GT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/06/2027",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "VT"
-  },
+  {"isHomeGame": true, "date": "10/02/2027", "opponentId": "GT"},
+  {"isHomeGame": true, "date": "11/06/2027", "opponentId": "VT"},
   {
     "isHomeGame": false,
     "date": "11/13/2027",
@@ -54,17 +24,7 @@
     },
     "opponentId": "CLEM"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/20/2027",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
-    "opponentId": "NAVY"
-  },
+  {"isHomeGame": true, "date": "11/20/2027", "opponentId": "NAVY"},
   {
     "isHomeGame": false,
     "date": "TBD",

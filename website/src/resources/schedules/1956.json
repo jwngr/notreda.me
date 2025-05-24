@@ -20,12 +20,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/1956",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "IND",
     "score": {"away": 6, "home": 20},
     "linescore": {"away": [], "home": []},
@@ -37,12 +31,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/13/1956",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PUR",
     "score": {"away": 28, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -54,12 +42,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/20/1956",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 47, "home": 14},
     "linescore": {"away": [], "home": []},
@@ -71,12 +53,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "10/27/1956",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "OKLA",
     "score": {"away": 40, "home": 0},
     "linescore": {"away": [], "home": []},
@@ -121,12 +97,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/1956",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "UNC",
     "score": {"away": 14, "home": 21},
     "linescore": {"away": [], "home": []},

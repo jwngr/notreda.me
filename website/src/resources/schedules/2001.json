@@ -26,12 +26,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "09/22/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "MSU",
     "score": {"away": 17, "home": 10},
     "linescore": {"away": [], "home": []},
@@ -71,12 +65,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/06/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "PITT",
     "score": {"away": 7, "home": 24},
     "linescore": {"away": [], "home": []},
@@ -93,12 +81,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/13/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "WVU",
     "score": {"away": 24, "home": 34},
     "linescore": {"away": [], "home": []},
@@ -115,12 +97,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "10/20/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "USC",
     "score": {"away": 16, "home": 27},
     "linescore": {"away": [], "home": []},
@@ -159,12 +135,6 @@
     "result": "L",
     "isHomeGame": true,
     "date": "11/03/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "TENN",
     "score": {"away": 28, "home": 18},
     "linescore": {"away": [], "home": []},
@@ -182,12 +152,6 @@
     "result": "W",
     "isHomeGame": true,
     "date": "11/17/2001",
-    "location": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "stadium": "Notre Dame Stadium",
-      "coordinates": [41.698399, -86.233917]
-    },
     "opponentId": "NAVY",
     "score": {"away": 16, "home": 34},
     "linescore": {"away": [], "home": []},

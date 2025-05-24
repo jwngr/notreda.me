@@ -25,12 +25,12 @@ export const CompletedGameSummary: React.FC<{
   readonly season: number;
   readonly homeTeamId: TeamId;
   readonly awayTeamId: TeamId;
-}> = ({game, homeTeamId, awayTeamId}) => {
+}> = ({game, season, homeTeamId, awayTeamId}) => {
   return (
     <CompletedGameWrapper>
       <TotalScore game={game} homeTeamId={homeTeamId} awayTeamId={awayTeamId} />
 
-      <GameCoverage game={game} />
+      <GameCoverage game={game} season={season} />
 
       <Linescore
         homeTeamId={homeTeamId}
@@ -40,7 +40,7 @@ export const CompletedGameSummary: React.FC<{
       />
 
       {/* TODO: Re-enable matchup history after improving data loading performance. */}
-      {/* <MatchupHistory selectedGame={game} selectedSeason={season} /> */}
+      {/* <MatchupHistory game={game} season={season} /> */}
 
       <CompletedGameStats
         stats={game.stats ?? null}
