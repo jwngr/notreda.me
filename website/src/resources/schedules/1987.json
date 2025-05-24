@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/12/1987",
+    "date": "Sat Sep 12, 1987 18:30:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -12,7 +12,6 @@
     "opponentId": "MICH",
     "score": {"away": 26, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 16}, "home": {"ap": 9}},
@@ -21,11 +20,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/19/1987",
+    "date": "Sat Sep 19, 1987 22:45:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 8, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "7:45 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 17}},
@@ -34,7 +32,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/26/1987",
+    "date": "Sat Sep 26, 1987 15:00:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -44,7 +42,6 @@
     "opponentId": "PUR",
     "score": {"away": 44, "home": 20},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 8}},
     "weather": {"temperature": 81, "icon": "unknown"}
@@ -52,7 +49,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "10/10/1987",
+    "date": "Sat Oct 10, 1987 22:00:00 GMT-0400",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -62,7 +59,6 @@
     "opponentId": "PITT",
     "score": {"away": 22, "home": 30},
     "linescore": {"away": [], "home": []},
-    "time": "7:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 4}},
@@ -71,7 +67,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/17/1987",
+    "date": "Sat Oct 17, 1987 18:30:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -81,7 +77,6 @@
     "opponentId": "AF",
     "score": {"away": 35, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 11}},
     "weather": {"icon": "clear-day", "temperature": 69}
@@ -89,11 +84,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/24/1987",
+    "date": "Sat Oct 24, 1987 17:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 15, "home": 26},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 10}},
@@ -102,11 +96,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/31/1987",
+    "date": "Sat Oct 31, 1987 15:00:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 13, "home": 56},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 9}},
     "weather": {"icon": "cloudy", "temperature": 60}
@@ -114,11 +107,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/07/1987",
+    "date": "Sat Nov 07, 1987 15:00:00 GMT-0500",
     "opponentId": "BC",
     "score": {"away": 25, "home": 32},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 9}},
     "weather": {"icon": "cloudy", "temperature": 53}
@@ -126,11 +118,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/14/1987",
+    "date": "Sat Nov 14, 1987 17:30:00 GMT-0500",
     "opponentId": "BAMA",
     "score": {"away": 6, "home": 37},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 11}},
@@ -139,7 +130,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/21/1987",
+    "date": "Sat Nov 21, 1987 15:00:00 GMT-0500",
     "location": {
       "city": "University Park",
       "state": "PA",
@@ -149,7 +140,6 @@
     "opponentId": "PSU",
     "score": {"away": 20, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 7}},
@@ -158,7 +148,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/28/1987",
+    "date": "Sat Nov 28, 1987 18:30:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -168,7 +158,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 0, "home": 24},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 10}, "home": {"ap": 2}},
@@ -179,7 +168,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "01/01/1988",
+    "date": "Fri Jan 01, 1988 16:30:00 GMT-0500",
     "location": {
       "city": "Dallas",
       "state": "TX",
@@ -189,7 +178,6 @@
     "opponentId": "TA&M",
     "score": {"away": 10, "home": 35},
     "linescore": {"away": [7, 3, 0, 0], "home": [3, 15, 7, 10]},
-    "time": "1:30 PM",
     "coverage": "CBS",
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",

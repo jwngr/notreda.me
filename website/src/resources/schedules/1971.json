@@ -2,11 +2,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/18/1971",
+    "date": "Sat Sep 18, 1971 16:30:00 GMT-0400",
     "opponentId": "NW",
     "score": {"away": 7, "home": 50},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "cloudy", "temperature": 66}
@@ -14,7 +13,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/25/1971",
+    "date": "Sat Sep 25, 1971 16:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -24,18 +23,16 @@
     "opponentId": "PUR",
     "score": {"away": 8, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 2}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/02/1971",
+    "date": "Sat Oct 02, 1971 15:50:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 2, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "12:50 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 4}}
@@ -43,7 +40,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/09/1971",
+    "date": "Sat Oct 09, 1971 23:15:00 GMT-0400",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -53,7 +50,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 17, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "8:15 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}},
     "weather": {"icon": "partly-cloudy-night", "temperature": 83}
@@ -61,11 +57,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/16/1971",
+    "date": "Sat Oct 16, 1971 16:30:00 GMT-0400",
     "opponentId": "UNC",
     "score": {"away": 0, "home": 16},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 7}},
     "weather": {"icon": "clear-day", "temperature": 76}
@@ -73,11 +68,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/23/1971",
+    "date": "Sat Oct 23, 1971 16:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 28, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 6}},
@@ -86,11 +80,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/30/1971",
+    "date": "Sat Oct 30, 1971 16:30:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 0, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 12}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 74}
@@ -98,7 +91,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/06/1971",
+    "date": "Sat Nov 06, 1971 16:00:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -108,7 +101,6 @@
     "opponentId": "PITT",
     "score": {"away": 56, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "1:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 8}},
     "weather": {"icon": "cloudy", "temperature": 58}
@@ -116,11 +108,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/13/1971",
+    "date": "Sat Nov 13, 1971 16:30:00 GMT-0500",
     "opponentId": "TULN",
     "score": {"away": 7, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "cloudy", "temperature": 48}
@@ -128,7 +119,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/20/1971",
+    "date": "Sat Nov 20, 1971 23:05:00 GMT-0500",
     "location": {
       "city": "Baton Rouge",
       "state": "LA",
@@ -138,7 +129,6 @@
     "opponentId": "LSU",
     "score": {"away": 8, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "8:05 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}, "home": {"ap": 14}}

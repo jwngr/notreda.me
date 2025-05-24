@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/10/1983",
+    "date": "Sat Sep 10, 1983 17:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -12,7 +12,6 @@
     "opponentId": "PUR",
     "score": {"away": 52, "home": 6},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 5}},
     "weather": {"temperature": 97, "icon": "unknown"}
@@ -20,11 +19,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/17/1983",
+    "date": "Sat Sep 17, 1983 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 28, "home": 23},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 4}},
     "weather": {"icon": "cloudy", "temperature": 72}
@@ -32,7 +30,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/24/1983",
+    "date": "Sun Sep 25, 1983 00:00:00 GMT-0400",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -42,7 +40,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 0, "home": 20},
     "linescore": {"away": [], "home": []},
-    "time": "9:00 PM",
     "coverage": "CBS",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 13}},
@@ -51,7 +48,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/01/1983",
+    "date": "Sat Oct 01, 1983 18:30:00 GMT-0400",
     "location": {
       "city": "Boulder",
       "state": "CO",
@@ -61,14 +58,13 @@
     "opponentId": "COL",
     "score": {"away": 27, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 65}
   },
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/08/1983",
+    "date": "Sat Oct 08, 1983 22:00:00 GMT-0400",
     "location": {
       "city": "Columbia",
       "state": "SC",
@@ -78,40 +74,36 @@
     "opponentId": "SCAR",
     "score": {"away": 30, "home": 6},
     "linescore": {"away": [], "home": []},
-    "time": "7:00 PM",
     "headCoach": "Gerry Faust",
     "weather": {"temperature": 64, "icon": "unknown"}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/15/1983",
+    "date": "Sat Oct 15, 1983 16:00:00 GMT-0400",
     "opponentId": "ARMY",
     "score": {"away": 0, "home": 42},
     "linescore": {"away": [], "home": []},
-    "time": "1:00 PM",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "clear-day", "temperature": 65}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/22/1983",
+    "date": "Sat Oct 22, 1983 17:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 6, "home": 27},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "rain", "temperature": 61}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/29/1983",
+    "date": "Sat Oct 29, 1983 15:00:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 12, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 19}},
     "weather": {"icon": "clear-day", "temperature": 53}
@@ -119,11 +111,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/05/1983",
+    "date": "Sat Nov 05, 1983 18:45:00 GMT-0500",
     "opponentId": "PITT",
     "score": {"away": 21, "home": 16},
     "linescore": {"away": [], "home": []},
-    "time": "3:45 PM",
     "coverage": "CBS",
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 18}},
@@ -132,7 +123,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/12/1983",
+    "date": "Sat Nov 12, 1983 16:00:00 GMT-0500",
     "location": {
       "city": "University Park",
       "state": "PA",
@@ -142,18 +133,16 @@
     "opponentId": "PSU",
     "score": {"away": 30, "home": 34},
     "linescore": {"away": [], "home": []},
-    "time": "1:00 PM",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 31}
   },
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "11/19/1983",
+    "date": "Sat Nov 19, 1983 15:35:00 GMT-0500",
     "opponentId": "AF",
     "score": {"away": 23, "home": 22},
     "linescore": {"away": [], "home": []},
-    "time": "12:35 PM",
     "coverage": "ABC",
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 64}
@@ -163,7 +152,7 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "12/29/1983",
+    "date": "Thu Dec 29, 1983 23:00:00 GMT-0500",
     "location": {
       "city": "Memphis",
       "state": "TN",
@@ -173,7 +162,6 @@
     "opponentId": "BC",
     "score": {"away": 18, "home": 19},
     "linescore": {"away": [6, 6, 6, 0], "home": [7, 12, 0, 0]},
-    "time": "8:00 PM",
     "coverage": "KATZ",
     "nickname": "Liberty Bowl",
     "headCoach": "Gerry Faust",

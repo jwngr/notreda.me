@@ -2,11 +2,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/10/1988",
+    "date": "Sun Sep 11, 1988 00:00:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 17, "home": 19},
     "linescore": {"away": [], "home": []},
-    "time": "9:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 13}, "away": {"ap": 9}},
@@ -15,7 +14,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/17/1988",
+    "date": "Sat Sep 17, 1988 15:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -25,7 +24,6 @@
     "opponentId": "MSU",
     "score": {"away": 20, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 8}},
@@ -34,11 +32,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/24/1988",
+    "date": "Sat Sep 24, 1988 15:00:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 7, "home": 52},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 69}
@@ -46,11 +43,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/01/1988",
+    "date": "Sat Oct 01, 1988 22:00:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 14, "home": 42},
     "linescore": {"away": [], "home": []},
-    "time": "7:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 5}},
@@ -59,7 +55,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/08/1988",
+    "date": "Sat Oct 08, 1988 19:00:00 GMT-0400",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -69,7 +65,6 @@
     "opponentId": "PITT",
     "score": {"away": 30, "home": 20},
     "linescore": {"away": [], "home": []},
-    "time": "4:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 5}},
@@ -78,11 +73,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/15/1988",
+    "date": "Sat Oct 15, 1988 17:30:00 GMT-0400",
     "opponentId": "MIAMI",
     "score": {"away": 30, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 4}, "away": {"ap": 1}},
@@ -91,11 +85,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/22/1988",
+    "date": "Sat Oct 22, 1988 15:00:00 GMT-0400",
     "opponentId": "AF",
     "score": {"away": 13, "home": 41},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "cloudy", "temperature": 47}
@@ -103,11 +96,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/29/1988",
+    "date": "Sat Oct 29, 1988 15:00:00 GMT-0400",
     "opponentId": "NAVY",
     "score": {"away": 7, "home": 22},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 54}
@@ -115,11 +107,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/05/1988",
+    "date": "Sat Nov 05, 1988 15:00:00 GMT-0500",
     "opponentId": "RICE",
     "score": {"away": 11, "home": 54},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "WGN-TV",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
@@ -128,11 +119,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/19/1988",
+    "date": "Sat Nov 19, 1988 15:00:00 GMT-0500",
     "opponentId": "PSU",
     "score": {"away": 3, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
@@ -141,7 +131,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/26/1988",
+    "date": "Sat Nov 26, 1988 18:30:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -151,7 +141,6 @@
     "opponentId": "USC",
     "score": {"away": 27, "home": 10},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 2}},
@@ -162,7 +151,7 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "01/02/1989",
+    "date": "Mon Jan 02, 1989 19:30:00 GMT-0500",
     "location": {
       "city": "Tempe",
       "state": "AZ",
@@ -172,7 +161,6 @@
     "opponentId": "WVU",
     "score": {"away": 21, "home": 34},
     "linescore": {"away": [0, 6, 7, 8], "home": [9, 14, 3, 8]},
-    "time": "4:30 PM",
     "coverage": "NBC",
     "nickname": "Fiesta Bowl",
     "headCoach": "Lou Holtz",

@@ -2,22 +2,20 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/21/1968",
+    "date": "Sat Sep 21, 1968 17:30:00 GMT-0400",
     "opponentId": "OKLA",
     "score": {"away": 21, "home": 45},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 3}, "away": {"ap": 5}}
   },
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/28/1968",
+    "date": "Sat Sep 28, 1968 17:00:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 37, "home": 22},
     "linescore": {"away": [], "home": []},
-    "time": "2:00 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 2}, "away": {"ap": 1}}
@@ -25,7 +23,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/05/1968",
+    "date": "Sat Oct 05, 1968 17:30:00 GMT-0400",
     "location": {
       "city": "Iowa City",
       "state": "IA",
@@ -35,36 +33,33 @@
     "opponentId": "IOWA",
     "score": {"away": 51, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/12/1968",
+    "date": "Sat Oct 12, 1968 17:30:00 GMT-0400",
     "opponentId": "NW",
     "score": {"away": 7, "home": 27},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 5}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/19/1968",
+    "date": "Sat Oct 19, 1968 17:30:00 GMT-0400",
     "opponentId": "ILL",
     "score": {"away": 8, "home": 58},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 6}}
   },
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "10/26/1968",
+    "date": "Sat Oct 26, 1968 16:30:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -74,7 +69,6 @@
     "opponentId": "MSU",
     "score": {"away": 17, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}},
@@ -83,11 +77,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/02/1968",
+    "date": "Sat Nov 02, 1968 16:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 14, "home": 45},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 12}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 69}
@@ -95,29 +88,27 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/09/1968",
+    "date": "Sat Nov 09, 1968 16:30:00 GMT-0500",
     "opponentId": "PITT",
     "score": {"away": 7, "home": 56},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 12}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/16/1968",
+    "date": "Sat Nov 16, 1968 16:30:00 GMT-0500",
     "opponentId": "GT",
     "score": {"away": 6, "home": 34},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 9}}
   },
   {
     "result": "T",
     "isHomeGame": false,
-    "date": "11/30/1968",
+    "date": "Sat Nov 30, 1968 19:30:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -127,7 +118,6 @@
     "opponentId": "USC",
     "score": {"away": 21, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "4:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}, "home": {"ap": 2}},

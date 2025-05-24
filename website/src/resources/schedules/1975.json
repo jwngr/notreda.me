@@ -2,11 +2,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/15/1975",
+    "date": "Tue Sep 16, 1975 00:00:00 GMT-0400",
     "opponentId": "BC",
     "score": {"away": 3, "home": 17},
     "linescore": {"away": [], "home": []},
-    "time": "9:00 PM",
     "coverage": "ABC",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 9}},
@@ -15,7 +14,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/20/1975",
+    "date": "Sat Sep 20, 1975 17:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -25,7 +24,6 @@
     "opponentId": "PUR",
     "score": {"away": 17, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 9}},
     "weather": {"temperature": 58, "icon": "unknown"}
@@ -33,11 +31,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/27/1975",
+    "date": "Sat Sep 27, 1975 17:30:00 GMT-0400",
     "opponentId": "NW",
     "score": {"away": 7, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 7}},
     "weather": {"icon": "clear-day", "temperature": 66}
@@ -45,11 +42,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/04/1975",
+    "date": "Sat Oct 04, 1975 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 10, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "clear-day", "temperature": 72}
@@ -57,7 +53,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/11/1975",
+    "date": "Sat Oct 11, 1975 16:30:00 GMT-0400",
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -67,7 +63,6 @@
     "opponentId": "UNC",
     "score": {"away": 21, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 15}},
     "weather": {"icon": "clear-day", "temperature": 80}
@@ -75,7 +70,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/18/1975",
+    "date": "Sat Oct 18, 1975 18:05:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -85,7 +80,6 @@
     "opponentId": "AF",
     "score": {"away": 31, "home": 30},
     "linescore": {"away": [], "home": []},
-    "time": "3:05 PM",
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 15}},
     "weather": {"icon": "clear-day", "temperature": 72}
@@ -93,11 +87,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/25/1975",
+    "date": "Sat Oct 25, 1975 16:50:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 24, "home": 17},
     "linescore": {"away": [], "home": []},
-    "time": "1:50 PM",
     "coverage": "ABC",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 14}, "away": {"ap": 3}},
@@ -106,11 +99,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/01/1975",
+    "date": "Sat Nov 01, 1975 16:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 10, "home": 31},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 15}},
     "weather": {"icon": "rain", "temperature": 55}
@@ -118,11 +110,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/08/1975",
+    "date": "Sat Nov 08, 1975 16:30:00 GMT-0500",
     "opponentId": "GT",
     "score": {"away": 3, "home": 24},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 12}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 62}
@@ -130,7 +121,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/15/1975",
+    "date": "Sat Nov 15, 1975 16:30:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -140,7 +131,6 @@
     "opponentId": "PITT",
     "score": {"away": 20, "home": 34},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 9}},
     "weather": {"icon": "clear-day", "temperature": 43}
@@ -148,7 +138,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/22/1975",
+    "date": "Sat Nov 22, 1975 22:30:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -158,7 +148,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 32, "home": 9},
     "linescore": {"away": [], "home": []},
-    "time": "7:30 PM",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 16}},
     "weather": {"icon": "clear-night", "temperature": 68}

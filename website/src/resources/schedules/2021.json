@@ -1,7 +1,7 @@
 [
   {
     "isHomeGame": false,
-    "fullDate": "Sun Sep 05 2021 19:30:00 GMT-0400",
+    "date": "Sun Sep 05 2021 19:30:00 GMT-0400",
     "coverage": "ABC",
     "highlightsYouTubeVideoId": "RxN33FlwOYE",
     "location": {
@@ -70,7 +70,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 11 2021 14:30:00 GMT-0400",
+    "date": "Sat Sep 11 2021 14:30:00 GMT-0400",
     "coverage": "PEACOCK",
     "highlightsYouTubeVideoId": "f1XKAkKAYe4",
     "opponentId": "TOL",
@@ -132,7 +132,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 18 2021 14:30:00 GMT-0400",
+    "date": "Sat Sep 18 2021 14:30:00 GMT-0400",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "V82RCmMYa4o",
     "opponentId": "PUR",
@@ -193,7 +193,7 @@
     "rankings": {"home": {"ap": 12, "coaches": 10}}
   },
   {
-    "fullDate": "Sat Sep 25 2021 12:00:00 GMT-0400",
+    "date": "Sat Sep 25 2021 12:00:00 GMT-0400",
     "coverage": "FOX",
     "isHomeGame": false,
     "isNeutralSiteGame": true,
@@ -264,7 +264,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 02 2021 14:30:00 GMT-0400",
+    "date": "Sat Oct 02 2021 14:30:00 GMT-0400",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "BRBEeZm3dbY",
     "opponentId": "CINCY",
@@ -326,7 +326,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 09 2021 19:30:00 GMT-0400",
+    "date": "Sat Oct 09 2021 19:30:00 GMT-0400",
     "coverage": "ACCN",
     "location": {
       "city": "Blacksburg",
@@ -394,7 +394,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 23 2021 19:30:00 GMT-0400",
+    "date": "Sat Oct 23 2021 19:30:00 GMT-0400",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "tUEZ9piolh0",
     "opponentId": "USC",
@@ -456,7 +456,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 30 2021 19:30:00 GMT-0400",
+    "date": "Sat Oct 30 2021 19:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "UNC",
     "highlightsYouTubeVideoId": "vqubK7ZsLnw",
@@ -518,7 +518,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 06 2021 14:30:00 GMT-0500",
+    "date": "Sat Nov 06 2021 14:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "NAVY",
     "espnGameId": 401282710,
@@ -580,7 +580,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 13 2021 19:30:00 GMT-0500",
+    "date": "Sat Nov 13 2021 19:30:00 GMT-0500",
     "location": {
       "city": "Charlottesville",
       "state": "VA",
@@ -648,7 +648,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 20 2021 14:30:00 GMT-0500",
+    "date": "Sat Nov 20 2021 14:30:00 GMT-0500",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "MNkFFAQrEhU",
     "opponentId": "GT",
@@ -710,8 +710,7 @@
   },
   {
     "isHomeGame": false,
-    "date": "11/27/2021",
-    "fullDate": "Sat Nov 27 2021 20:00:00 GMT-0500",
+    "date": "Sat Nov 27 2021 20:00:00 GMT-0500",
     "highlightsYouTubeVideoId": "eD06GN0lYyc",
     "coverage": "FOX",
     "location": {
@@ -780,7 +779,7 @@
     "isHomeGame": true,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Jan 01 2022 13:00:00 GMT-0500",
+    "date": "Sat Jan 01 2022 13:00:00 GMT-0500",
     "coverage": "ESPN",
     "nickname": "Fiesta Bowl",
     "highlightsYouTubeVideoId": "UvUU7iQIGEc",

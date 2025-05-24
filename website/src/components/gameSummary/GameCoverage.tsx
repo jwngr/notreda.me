@@ -2,6 +2,7 @@ import {format} from 'date-fns/format';
 import React from 'react';
 import styled from 'styled-components';
 
+import {getDateFromGame, isMidnight} from '../../lib/datetime';
 import {assertNever, getTimeZoneString, getTvChannelUrl} from '../../lib/utils';
 import {GameInfo, TVNetwork} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
@@ -132,30 +133,20 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
 
   const isGameOver = !!game.result;
 
+  const gameDate = getDateFromGame(game.date);
+
   let mainContent: React.ReactNode;
-  if (game.date === 'TBD') {
+  if (gameDate === 'TBD') {
     mainContent = <p>Date and time to be determined</p>;
   } else if (game.isCanceled) {
     mainContent = <CanceledText>Canceled</CanceledText>;
   } else if (game.isPostponed) {
     mainContent = <p>Postponed</p>;
   } else {
-    let date: string;
-    let time: string | null;
-    const dateFormatString = 'E, MMMM d, yyyy';
-    if (game.fullDate) {
-      const d = new Date(game.fullDate);
-      date = format(d, dateFormatString);
-      time = `${format(d, 'h:mm a')} ${getTimeZoneString(d)}`;
-    } else if (game.date) {
-      // TODO(cleanup): Convert all dates to fullDate and be done with this nonesense.
-      date = format(new Date(game.date), dateFormatString);
-      // No year that is in this format has any time information, so we can ignore the time here.
-      time = game.result ? null : 'Time to be determined';
-    } else {
-      date = 'No date';
-      time = 'No time';
-    }
+    const dateString = format(gameDate, 'E, MMMM d, yyyy');
+    const timeString = isMidnight(gameDate)
+      ? 'Time TBD'
+      : `${format(gameDate, 'h:mm a')} ${getTimeZoneString(gameDate)}`;
 
     // Display the TV channel information for games which have it as well as all future games (if no
     // channel is set yet, a default icon will be used).
@@ -192,8 +183,8 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
       <>
         {tvCoverageContent}
         <DateAndTimeWrapper align={tvCoverageContent ? 'center' : 'start'}>
-          <p>{date}</p>
-          {time ? <p>{time}</p> : null}
+          <p>{dateString}</p>
+          {timeString ? <p>{timeString}</p> : null}
         </DateAndTimeWrapper>
       </>
     );

@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/05/1996",
+    "date": "Thu Sep 05, 1996 23:00:00 GMT-0400",
     "location": {
       "city": "Nashville",
       "state": "TN",
@@ -12,7 +12,6 @@
     "opponentId": "VANDY",
     "score": {"away": 14, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "8:00 PM",
     "coverage": "ESPN",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 6}},
@@ -21,11 +20,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/14/1996",
+    "date": "Sat Sep 14, 1996 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 0, "home": 35},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 9}},
@@ -34,7 +32,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/21/1996",
+    "date": "Sat Sep 21, 1996 15:00:00 GMT-0400",
     "location": {
       "city": "Austin",
       "state": "TX",
@@ -44,7 +42,6 @@
     "opponentId": "TEX",
     "score": {"away": 27, "home": 24},
     "linescore": {"away": [], "home": []},
-    "time": "12:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 9}, "home": {"ap": 6}},
@@ -53,11 +50,10 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/28/1996",
+    "date": "Sat Sep 28, 1996 17:30:00 GMT-0400",
     "opponentId": "OSU",
     "score": {"away": 29, "home": 16},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 5}, "away": {"ap": 4}},
@@ -66,11 +62,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/12/1996",
+    "date": "Sat Oct 12, 1996 17:30:00 GMT-0400",
     "opponentId": "WASH",
     "score": {"away": 20, "home": 54},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 11}, "away": {"ap": 16}},
@@ -79,12 +74,11 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/19/1996",
+    "date": "Sat Oct 19, 1996 17:30:00 GMT-0400",
     "opponentId": "AF",
     "score": {"away": 20, "home": 17},
     "linescore": {"away": [], "home": []},
     "numOvertimes": 1,
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 8}},
@@ -93,7 +87,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/02/1996",
+    "date": "Sat Nov 02, 1996 11:00:00 GMT-0500",
     "location": {
       "city": "Dublin",
       "country": "Ireland",
@@ -104,7 +98,6 @@
     "opponentId": "NAVY",
     "score": {"away": 54, "home": 27},
     "linescore": {"away": [], "home": []},
-    "time": "8:00 AM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 19}},
@@ -113,7 +106,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/09/1996",
+    "date": "Sat Nov 09, 1996 18:30:00 GMT-0500",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -123,7 +116,6 @@
     "opponentId": "BC",
     "score": {"away": 48, "home": 21},
     "linescore": {"away": [], "home": []},
-    "time": "3:30 PM",
     "coverage": "CBS",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 17}},
@@ -132,11 +124,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/16/1996",
+    "date": "Sat Nov 16, 1996 16:30:00 GMT-0500",
     "opponentId": "PITT",
     "score": {"away": 6, "home": 60},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 14}},
@@ -145,11 +136,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/23/1996",
+    "date": "Sat Nov 23, 1996 16:30:00 GMT-0500",
     "opponentId": "RUTG",
     "score": {"away": 0, "home": 62},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "coverage": "NBC",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 10}},
@@ -158,7 +148,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/30/1996",
+    "date": "Sat Nov 30, 1996 23:00:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -169,7 +159,6 @@
     "score": {"away": 20, "home": 27},
     "linescore": {"away": [], "home": []},
     "numOvertimes": 1,
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 10}},

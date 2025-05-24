@@ -1,7 +1,7 @@
 [
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 12 2020 14:30:00 GMT-0400",
+    "date": "Sat Sep 12 2020 14:30:00 GMT-0400",
     "highlightsYouTubeVideoId": "ZnAea5t2Jpo",
     "coverage": "NBC",
     "weather": {"icon": "partly-cloudy-day", "temperature": 71},
@@ -62,7 +62,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 19 2020 14:30:00 GMT-0400",
+    "date": "Sat Sep 19 2020 14:30:00 GMT-0400",
     "coverage": "USA",
     "opponentId": "USF",
     "highlightsYouTubeVideoId": "DFt9HRKEMjQ",
@@ -124,7 +124,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 10 2020 19:00:00 GMT-0400",
+    "date": "Sat Oct 10 2020 19:00:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "FSU",
     "highlightsYouTubeVideoId": "oRyBvzmObzo",
@@ -186,7 +186,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 17 2020 14:30:00 GMT-0400",
+    "date": "Sat Oct 17 2020 14:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "LOU",
     "highlightsYouTubeVideoId": "Yij5uVib0mg",
@@ -248,7 +248,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 24 2020 15:30:00 GMT-0400",
+    "date": "Sat Oct 24 2020 15:30:00 GMT-0400",
     "coverage": "TBD",
     "location": {
       "city": "Pittsburgh",
@@ -316,7 +316,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 31 2020 15:30:00 GMT-0400",
+    "date": "Sat Oct 31 2020 15:30:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "Atlanta",
@@ -384,7 +384,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 07 2020 19:30:00 GMT-0500",
+    "date": "Sat Nov 07 2020 19:30:00 GMT-0500",
     "coverage": "NBC",
     "opponentId": "CLEM",
     "highlightsYouTubeVideoId": "Y8JSVeVUlis",
@@ -447,7 +447,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 14 2020 15:30:00 GMT-0500",
+    "date": "Sat Nov 14 2020 15:30:00 GMT-0500",
     "coverage": "ABC",
     "highlightsYouTubeVideoId": "qnx-plDC-CM",
     "location": {
@@ -515,7 +515,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 27 2020 15:30:00 GMT-0500",
+    "date": "Sat Nov 27 2020 15:30:00 GMT-0500",
     "coverage": "ABC",
     "highlightsYouTubeVideoId": "TMNfTtoqpkE",
     "location": {
@@ -586,7 +586,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Dec 05 2020 14:30:00 GMT-0500",
+    "date": "Sat Dec 05 2020 14:30:00 GMT-0500",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "ZrGSAxrX9xE",
     "opponentId": "SYR",
@@ -649,7 +649,7 @@
   {
     "isNeutralSiteGame": true,
     "isHomeGame": true,
-    "fullDate": "Sat Dec 19 2020 16:00:00 GMT-0500",
+    "date": "Sat Dec 19 2020 16:00:00 GMT-0500",
     "nickname": "ACC Championship Game",
     "coverage": "ABC",
     "highlightsYouTubeVideoId": "bsIXUEOXiDA",
@@ -723,7 +723,7 @@
     "isBowlGame": true,
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Fri Jan 01 2021 16:00:00 GMT-0500",
+    "date": "Fri Jan 01 2021 16:00:00 GMT-0500",
     "nickname": "Capital One Rose Bowl - College Football Playoff Semifinal",
     "highlightsYouTubeVideoId": "k8PuihJAUGc",
     "location": {

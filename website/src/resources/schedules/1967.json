@@ -2,18 +2,17 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/23/1967",
+    "date": "Sat Sep 23, 1967 17:30:00 GMT-0400",
     "opponentId": "CAL",
     "score": {"away": 8, "home": 41},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 1}}
   },
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "09/30/1967",
+    "date": "Sat Sep 30, 1967 17:30:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -23,36 +22,33 @@
     "opponentId": "PUR",
     "score": {"away": 21, "home": 28},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 10}}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/07/1967",
+    "date": "Sat Oct 07, 1967 17:30:00 GMT-0400",
     "opponentId": "IOWA",
     "score": {"away": 6, "home": 56},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 6}}
   },
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "10/14/1967",
+    "date": "Sat Oct 14, 1967 17:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 24, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 5}, "away": {"ap": 1}}
   },
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/21/1967",
+    "date": "Sat Oct 21, 1967 17:30:00 GMT-0400",
     "location": {
       "city": "Champaign",
       "state": "IL",
@@ -62,29 +58,26 @@
     "opponentId": "ILL",
     "score": {"away": 47, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "weather": {"icon": "clear-day", "temperature": 60}
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/28/1967",
+    "date": "Sat Oct 28, 1967 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 12, "home": 24},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian"
   },
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/04/1967",
+    "date": "Sat Nov 04, 1967 17:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 14, "home": 43},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 10}},
     "weather": {"icon": "snow", "temperature": 30}
@@ -92,7 +85,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/11/1967",
+    "date": "Sat Nov 11, 1967 16:30:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -102,7 +95,6 @@
     "opponentId": "PITT",
     "score": {"away": 38, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}},
     "weather": {"icon": "cloudy", "temperature": 65}
@@ -110,7 +102,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/18/1967",
+    "date": "Sat Nov 18, 1967 17:00:00 GMT-0500",
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -120,7 +112,6 @@
     "opponentId": "GT",
     "score": {"away": 36, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "2:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}},
     "weather": {"icon": "cloudy", "temperature": 59}
@@ -128,7 +119,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/24/1967",
+    "date": "Fri Nov 24, 1967 23:15:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -138,7 +129,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 24, "home": 22},
     "linescore": {"away": [], "home": []},
-    "time": "8:15 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 6}},
     "weather": {"temperature": 69, "icon": "unknown"}

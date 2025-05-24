@@ -47,29 +47,23 @@ const auditFutureNdSchedules = async (): Promise<void> => {
           gamesWithWrongHomeStatus.push('@' + newGameData.opponentName);
         }
 
-        const priorDate = getDateFromGame(priorGameData);
+        const priorDate = getDateFromGame(priorGameData.date);
 
         // Ensure both dates are either "TBD" or within 1 day of each other.
         let hasWrongGameDate = false;
-        if (!priorDate) {
-          hasWrongGameDate = true;
-        } else if (priorDate === 'TBD') {
+        if (priorDate === 'TBD') {
           if (newGameData.date !== 'TBD') {
             hasWrongGameDate = true;
           }
+        } else if (newGameData.date === 'TBD') {
+          hasWrongGameDate = true;
         } else {
-          if (newGameData.date === 'TBD') {
+          // Calculate the difference between the dates in days, leaving 30 hours of potential
+          // difference.
+          const timeDiffInMilliseconds = Math.abs(priorDate.getTime() - newGameData.date.getTime());
+          const timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 30);
+          if (timeDiffInDays >= 1) {
             hasWrongGameDate = true;
-          } else {
-            // Calculate the difference between the dates in days, leaving 30 hours of potential
-            // difference.
-            const timeDiffInMilliseconds = Math.abs(
-              priorDate.getTime() - newGameData.date.getTime()
-            );
-            const timeDiffInDays = timeDiffInMilliseconds / (1000 * 60 * 60 * 30);
-            if (timeDiffInDays >= 1) {
-              hasWrongGameDate = true;
-            }
           }
         }
 

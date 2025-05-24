@@ -230,8 +230,8 @@ export class Polls {
 
     // Copy the updated poll rankings into the ND season schedule data.
     seasonScheduleData.forEach((game) => {
-      const gameDate = getDateFromGame(game);
-      if (!gameDate || gameDate === 'TBD') {
+      const gameDate = getDateFromGame(game.date);
+      if (gameDate === 'TBD') {
         throw new Error(`Game date is missing for ${season} ${game.opponentId}`);
       }
 

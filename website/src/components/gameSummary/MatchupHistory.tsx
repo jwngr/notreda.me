@@ -191,9 +191,7 @@ export const MatchupHistory: React.FC<{readonly game: GameInfo; readonly season:
                 isHomeGame={historicalGame.isHomeGame}
                 isSelected={
                   // TODO: Introduce `Games.equals`
-                  game.opponentId === historicalGame.opponentId &&
-                  game.date === historicalGame.date &&
-                  game.fullDate === historicalGame.fullDate
+                  game.opponentId === historicalGame.opponentId && game.date === historicalGame.date
                 }
                 isSeasonOnTop={i % 2 === 0}
                 // Show gap indicators on either side if the previous / next displayed season is

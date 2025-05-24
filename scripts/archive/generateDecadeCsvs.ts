@@ -73,8 +73,8 @@ async function main() {
         const homeTeamAbbreviation = gameInfo.isHomeGame ? 'ND' : gameInfo.opponentId;
         const awayTeamAbbreviation = gameInfo.isHomeGame ? gameInfo.opponentId : 'ND';
 
-        const gameDate = getDateFromGame(gameInfo);
-        if (!gameDate || gameDate === 'TBD') return;
+        const gameDate = getDateFromGame(gameInfo.date);
+        if (gameDate === 'TBD') return;
 
         const gameDateString = format(gameDate, 'MM/dd/yyyy');
 

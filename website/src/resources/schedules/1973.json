@@ -2,11 +2,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/22/1973",
+    "date": "Sat Sep 22, 1973 17:30:00 GMT-0400",
     "opponentId": "NW",
     "score": {"away": 0, "home": 44},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 76}
@@ -14,7 +13,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/29/1973",
+    "date": "Sat Sep 29, 1973 16:50:00 GMT-0400",
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -24,7 +23,6 @@
     "opponentId": "PUR",
     "score": {"away": 20, "home": 7},
     "linescore": {"away": [], "home": []},
-    "time": "1:50 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}},
@@ -33,11 +31,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/06/1973",
+    "date": "Sat Oct 06, 1973 17:30:00 GMT-0400",
     "opponentId": "MSU",
     "score": {"away": 10, "home": 14},
     "linescore": {"away": [], "home": []},
-    "time": "2:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}},
     "weather": {"icon": "cloudy", "temperature": 67}
@@ -45,7 +42,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/13/1973",
+    "date": "Sat Oct 13, 1973 23:05:00 GMT-0400",
     "location": {
       "city": "Houston",
       "state": "TX",
@@ -55,7 +52,6 @@
     "opponentId": "RICE",
     "score": {"away": 28, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "8:05 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}},
     "weather": {"icon": "cloudy", "temperature": 72}
@@ -63,7 +59,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/20/1973",
+    "date": "Sat Oct 20, 1973 17:00:00 GMT-0400",
     "location": {
       "city": "West Point",
       "state": "NY",
@@ -73,7 +69,6 @@
     "opponentId": "ARMY",
     "score": {"away": 62, "home": 3},
     "linescore": {"away": [], "home": []},
-    "time": "2:00 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 8}},
     "weather": {"temperature": 62, "icon": "unknown"}
@@ -81,11 +76,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/27/1973",
+    "date": "Sat Oct 27, 1973 16:50:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 14, "home": 23},
     "linescore": {"away": [], "home": []},
-    "time": "1:50 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}, "away": {"ap": 6}},
@@ -94,11 +88,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/03/1973",
+    "date": "Sat Nov 03, 1973 16:30:00 GMT-0500",
     "opponentId": "NAVY",
     "score": {"away": 7, "home": 44},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 5}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 47}
@@ -106,7 +99,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/10/1973",
+    "date": "Sat Nov 10, 1973 16:30:00 GMT-0500",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -116,7 +109,6 @@
     "opponentId": "PITT",
     "score": {"away": 31, "home": 10},
     "linescore": {"away": [], "home": []},
-    "time": "1:30 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}, "home": {"ap": 20}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 32}
@@ -124,11 +116,10 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/22/1973",
+    "date": "Thu Nov 22, 1973 16:20:00 GMT-0500",
     "opponentId": "AF",
     "score": {"away": 15, "home": 48},
     "linescore": {"away": [], "home": []},
-    "time": "1:20 PM",
     "coverage": "ABC",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 5}},
@@ -137,7 +128,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "12/01/1973",
+    "date": "Sat Dec 01, 1973 23:15:00 GMT-0500",
     "location": {
       "city": "Miami",
       "state": "FL",
@@ -147,7 +138,6 @@
     "opponentId": "MIAMI",
     "score": {"away": 44, "home": 0},
     "linescore": {"away": [], "home": []},
-    "time": "8:15 PM",
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}, "home": {"ap": 15}},
     "weather": {"icon": "partly-cloudy-night", "temperature": 72}
@@ -157,7 +147,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "12/31/1973",
+    "date": "Mon Dec 31, 1973 23:00:00 GMT-0500",
     "location": {
       "city": "New Orleans",
       "state": "LA",
@@ -167,7 +157,6 @@
     "opponentId": "BAMA",
     "score": {"away": 24, "home": 23},
     "linescore": {"away": [6, 8, 7, 3], "home": [0, 10, 7, 6]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "nickname": "Sugar Bowl",
     "headCoach": "Ara Parseghian",

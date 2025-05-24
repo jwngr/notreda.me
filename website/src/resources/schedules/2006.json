@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/02/2006",
+    "date": "Sat Sep 02, 2006 23:00:00 GMT-0400",
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -57,7 +57,6 @@
     },
     "espnGameId": 262450059,
     "linescore": {"away": [0, 7, 7, 0], "home": [7, 3, 0, 0]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "partly-cloudy-night", "temperature": 74},
@@ -69,7 +68,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/09/2006",
+    "date": "Sat Sep 09, 2006 18:30:00 GMT-0400",
     "opponentId": "PSU",
     "score": {"away": 17, "home": 41},
     "stats": {
@@ -118,7 +117,6 @@
     },
     "espnGameId": 262520087,
     "linescore": {"away": [0, 0, 3, 14], "home": [3, 17, 14, 7]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "partly-cloudy-day", "temperature": 71},
@@ -130,7 +128,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "date": "09/16/2006",
+    "date": "Sat Sep 16, 2006 18:30:00 GMT-0400",
     "opponentId": "MICH",
     "score": {"away": 47, "home": 21},
     "stats": {
@@ -179,7 +177,6 @@
     },
     "espnGameId": 262590087,
     "linescore": {"away": [20, 14, 6, 7], "home": [7, 7, 0, 7]},
-    "time": "3:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 75},
@@ -191,7 +188,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "09/23/2006",
+    "date": "Sat Sep 23, 2006 23:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
       "state": "MI",
@@ -246,7 +243,6 @@
     },
     "espnGameId": 262660127,
     "linescore": {"away": [0, 14, 7, 19], "home": [17, 14, 6, 0]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "rain", "temperature": 64},
@@ -258,7 +254,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "09/30/2006",
+    "date": "Sat Sep 30, 2006 17:30:00 GMT-0400",
     "opponentId": "PUR",
     "score": {"away": 21, "home": 35},
     "stats": {
@@ -307,7 +303,6 @@
     },
     "espnGameId": 262730087,
     "linescore": {"away": [7, 7, 0, 7], "home": [14, 14, 7, 0]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "rain", "temperature": 58},
@@ -319,7 +314,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/07/2006",
+    "date": "Sat Oct 07, 2006 17:30:00 GMT-0400",
     "opponentId": "STAN",
     "score": {"away": 10, "home": 31},
     "stats": {
@@ -368,7 +363,6 @@
     },
     "espnGameId": 262800087,
     "linescore": {"away": [3, 0, 0, 7], "home": [7, 7, 10, 7]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 68},
@@ -380,7 +374,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "10/21/2006",
+    "date": "Sat Oct 21, 2006 17:30:00 GMT-0400",
     "opponentId": "UCLA",
     "score": {"away": 17, "home": 20},
     "stats": {
@@ -429,7 +423,6 @@
     },
     "espnGameId": 262940087,
     "linescore": {"away": [0, 14, 0, 3], "home": [7, 3, 3, 7]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "partly-cloudy-day", "temperature": 61},
@@ -441,7 +434,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "10/28/2006",
+    "date": "Sat Oct 28, 2006 15:00:00 GMT-0400",
     "location": {
       "city": "Baltimore",
       "state": "MD",
@@ -496,7 +489,6 @@
     },
     "espnGameId": 263012426,
     "linescore": {"away": [10, 14, 7, 7], "home": [0, 14, 0, 0]},
-    "time": "12:00 PM",
     "coverage": "CBS",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "partly-cloudy-day", "temperature": 59},
@@ -508,7 +500,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/04/2006",
+    "date": "Sat Nov 04, 2006 17:30:00 GMT-0500",
     "opponentId": "UNC",
     "score": {"away": 26, "home": 45},
     "stats": {
@@ -557,7 +549,6 @@
     },
     "espnGameId": 263080087,
     "linescore": {"away": [7, 6, 13, 0], "home": [14, 17, 7, 7]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "cloudy", "temperature": 46},
@@ -569,7 +560,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "date": "11/11/2006",
+    "date": "Sat Nov 11, 2006 19:00:00 GMT-0500",
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -624,7 +615,6 @@
     },
     "espnGameId": 263152005,
     "linescore": {"away": [20, 7, 6, 6], "home": [3, 0, 7, 7]},
-    "time": "4:00 PM",
     "coverage": "CSTV",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-night", "temperature": 46},
@@ -636,7 +626,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "date": "11/18/2006",
+    "date": "Sat Nov 18, 2006 17:30:00 GMT-0500",
     "opponentId": "ARMY",
     "score": {"away": 9, "home": 41},
     "stats": {
@@ -685,7 +675,6 @@
     },
     "espnGameId": 263220087,
     "linescore": {"away": [3, 0, 0, 6], "home": [0, 20, 14, 7]},
-    "time": "2:30 PM",
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "cloudy", "temperature": 41},
@@ -697,7 +686,7 @@
   {
     "result": "L",
     "isHomeGame": false,
-    "date": "11/25/2006",
+    "date": "Sat Nov 25, 2006 23:00:00 GMT-0500",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -752,7 +741,6 @@
     },
     "espnGameId": 263290030,
     "linescore": {"away": [3, 7, 7, 7], "home": [14, 7, 7, 16]},
-    "time": "8:00 PM",
     "coverage": "ABC",
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-night", "temperature": 56},
@@ -766,7 +754,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "date": "01/03/2007",
+    "date": "Wed Jan 03, 2007 23:00:00 GMT-0500",
     "location": {
       "city": "New Orleans",
       "state": "LA",
@@ -821,7 +809,6 @@
     },
     "espnGameId": 270030099,
     "linescore": {"away": [7, 7, 0, 0], "home": [14, 7, 13, 7]},
-    "time": "8:00 PM",
     "coverage": "FOX",
     "nickname": "Sugar Bowl",
     "headCoach": "Charlie Weis",

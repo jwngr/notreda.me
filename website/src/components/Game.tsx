@@ -3,7 +3,7 @@ import React from 'react';
 
 import {useMediaQuery} from '../hooks/useMediaQuery';
 import shamrockImage from '../images/shamrock.png';
-import {getDateFromGame} from '../lib/datetime';
+import {getDateFromGame, isMidnight} from '../lib/datetime';
 import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
@@ -34,6 +34,7 @@ export const Game: React.FC<{
   readonly isSelected: boolean;
 }> = ({game, season, index, isSelected}) => {
   const isMobile = useMediaQuery('(max-width: 768px)');
+  const gameDate = getDateFromGame(game.date);
 
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
@@ -81,8 +82,14 @@ export const Game: React.FC<{
         </ScoreTotals>
       </Score>
     );
-  } else if (game.fullDate) {
-    const time = format(new Date(game.fullDate), 'h:mm a');
+  } else if (gameDate === 'TBD' || isMidnight(gameDate)) {
+    lastColumnContent = (
+      <TelevisionCoverage $network={TVNetwork.Unknown}>
+        <p>TBD</p>
+      </TelevisionCoverage>
+    );
+  } else {
+    const time = format(gameDate, 'h:mm a');
 
     lastColumnContent = (
       <TelevisionCoverage
@@ -96,20 +103,12 @@ export const Game: React.FC<{
         ) : null}
       </TelevisionCoverage>
     );
-  } else {
-    lastColumnContent = (
-      <TelevisionCoverage $network={TVNetwork.Unknown}>
-        <p>TBD</p>
-      </TelevisionCoverage>
-    );
   }
-
-  const gameDate = getDateFromGame(game);
 
   // Format the date, making sure to add the year for games which happen in early January for
   // clarity.
   let dateString: string | null = null;
-  if (gameDate && gameDate !== 'TBD') {
+  if (gameDate !== 'TBD') {
     if (gameDate.getFullYear() === season) {
       dateString = format(gameDate, 'MMMM d');
     } else {

@@ -1,7 +1,7 @@
 [
   {
     "isHomeGame": false,
-    "fullDate": "Sat Aug 31 2024 19:30:00 GMT-0400",
+    "date": "Sat Aug 31 2024 19:30:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "College Station",
@@ -68,7 +68,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 07 2024 15:30:00 GMT-0400",
+    "date": "Sat Sep 07 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "NIU",
     "espnGameId": 401628977,
@@ -129,7 +129,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Sep 14 2024 15:30:00 GMT-0400",
+    "date": "Sat Sep 14 2024 15:30:00 GMT-0400",
     "coverage": "CBS",
     "location": {
       "city": "West Lafayette",
@@ -196,7 +196,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 21 2024 15:30:00 GMT-0400",
+    "date": "Sat Sep 21 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "MOH",
     "espnGameId": 401628979,
@@ -257,7 +257,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 28 2024 15:30:00 GMT-0400",
+    "date": "Sat Sep 28 2024 15:30:00 GMT-0400",
     "coverage": "PEACOCK",
     "opponentId": "LOU",
     "espnGameId": 401628980,
@@ -318,7 +318,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 12 2024 15:30:00 GMT-0400",
+    "date": "Sat Oct 12 2024 15:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "STAN",
     "espnGameId": 401628981,
@@ -380,7 +380,7 @@
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Oct 19 2024 15:30:00 GMT-0400",
+    "date": "Sat Oct 19 2024 15:30:00 GMT-0400",
     "coverage": "ESPN",
     "location": {
       "city": "Atlanta",
@@ -448,7 +448,7 @@
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Oct 26 2024 12:00:00 GMT-0400",
+    "date": "Sat Oct 26 2024 12:00:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "East Rutherford",
@@ -515,7 +515,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 09 2024 19:30:00 GMT-0500",
+    "date": "Sat Nov 09 2024 19:30:00 GMT-0500",
     "coverage": "NBC",
     "opponentId": "FSU",
     "espnGameId": 401628984,
@@ -576,7 +576,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 16 2024 15:30:00 GMT-0500",
+    "date": "Sat Nov 16 2024 15:30:00 GMT-0500",
     "coverage": "NBC",
     "opponentId": "UVA",
     "espnGameId": 401628985,
@@ -640,7 +640,7 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "coverage": "NBC",
-    "fullDate": "Sat Nov 23 2024 19:00:00 GMT-0500",
+    "date": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
       "city": "Bronx",
       "state": "NY",
@@ -706,7 +706,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 30 2024 15:30:00 GMT-0500",
+    "date": "Sat Nov 30 2024 15:30:00 GMT-0500",
     "coverage": "CBS",
     "location": {
       "city": "Los Angeles",
@@ -776,7 +776,7 @@
     "isBowlGame": true,
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
-    "fullDate": "Sat Dec 20 2024 18:00:00 GMT-0700",
+    "date": "Sat Dec 20 2024 18:00:00 GMT-0700",
     "coverage": "ABC / ESPN",
     "opponentId": "IND",
     "highlightsYouTubeVideoId": "09BXg7fhijA",
@@ -840,7 +840,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677184,
     "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
-    "fullDate": "Thu Jan 02 2025 14:00:00 GMT-0700",
+    "date": "Thu Jan 02 2025 14:00:00 GMT-0700",
     "coverage": "ESPN",
     "location": {
       "city": "New Orleans",
@@ -910,7 +910,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677189,
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
-    "fullDate": "Thu Jan 09 2025 17:30:00 GMT-0700",
+    "date": "Thu Jan 09 2025 17:30:00 GMT-0700",
     "coverage": "ESPN",
     "highlightsYouTubeVideoId": "uX_zcBD7DE0",
     "location": {
@@ -980,7 +980,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677192,
     "nickname": "College Football Playoff Championship",
-    "fullDate": "Mon Jan 20 2025 17:30:00 GMT-0700",
+    "date": "Mon Jan 20 2025 17:30:00 GMT-0700",
     "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
     "coverage": "ESPN",
     "location": {
