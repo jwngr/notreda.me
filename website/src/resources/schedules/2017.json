@@ -2,7 +2,7 @@
   {
     "result": "W",
     "isHomeGame": true,
-    "fullDate": "Sat Sep 02 2017 19:30:00 GMT-0700",
+    "date": "Sat Sep 02 2017 19:30:00 GMT-0700",
     "coverage": "NBC",
     "stats": {
       "away": {
@@ -64,7 +64,7 @@
   {
     "result": "L",
     "isHomeGame": true,
-    "fullDate": "Sat Sep 09 2017 16:30:00 GMT-0700",
+    "date": "Sat Sep 09 2017 16:30:00 GMT-0700",
     "coverage": "NBC",
     "stats": {
       "away": {
@@ -127,7 +127,7 @@
   {
     "result": "W",
     "isHomeGame": false,
-    "fullDate": "Sat Sep 16 2017 12:30:00 GMT-0700",
+    "date": "Sat Sep 16 2017 12:30:00 GMT-0700",
     "coverage": "ESPN",
     "location": {
       "city": "Chestnut Hill",
@@ -194,7 +194,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Sep 23 2017 17:00:00 GMT-0700",
+    "date": "Sat Sep 23 2017 17:00:00 GMT-0700",
     "coverage": "FOX",
     "location": {
       "city": "East Lansing",
@@ -262,7 +262,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 30 2017 14:00:00 GMT-0700",
+    "date": "Sat Sep 30 2017 14:00:00 GMT-0700",
     "coverage": "NBCSN",
     "opponentId": "MOH",
     "espnGameId": 400934576,
@@ -325,7 +325,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 07 2017 12:30:00 GMT-0700",
+    "date": "Sat Oct 07 2017 12:30:00 GMT-0700",
     "coverage": "ABC",
     "location": {
       "city": "Chapel Hill",
@@ -394,7 +394,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 21 2017 16:30:00 GMT-0700",
+    "date": "Sat Oct 21 2017 16:30:00 GMT-0700",
     "coverage": "NBC",
     "opponentId": "USC",
     "espnGameId": 400934578,
@@ -457,7 +457,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 28 2017 12:30:00 GMT-0700",
+    "date": "Sat Oct 28 2017 12:30:00 GMT-0700",
     "coverage": "NBC",
     "opponentId": "NCST",
     "highlightsYouTubeVideoId": "xx79NoMz540",
@@ -520,7 +520,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 04 2017 12:30:00 GMT-0700",
+    "date": "Sat Nov 04 2017 12:30:00 GMT-0700",
     "coverage": "NBC",
     "opponentId": "WAKE",
     "espnGameId": 400934580,
@@ -654,7 +654,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 18 2017 11:30:00 GMT-0800",
+    "date": "Sat Nov 18 2017 11:30:00 GMT-0800",
     "coverage": "NBC",
     "opponentId": "NAVY",
     "espnGameId": 400934582,
@@ -790,7 +790,7 @@
     "isHomeGame": false,
     "isBowlGame": true,
     "isNeutralSiteGame": true,
-    "fullDate": "Mon Jan 01 2018 05:00:00 GMT-0800",
+    "date": "Mon Jan 01 2018 05:00:00 GMT-0800",
     "coverage": "ABC",
     "nickname": "Florida Citrus Bowl",
     "location": {

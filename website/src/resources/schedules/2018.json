@@ -1,7 +1,7 @@
 [
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 01 2018 19:30:00 GMT-0400",
+    "date": "Sat Sep 01 2018 19:30:00 GMT-0400",
     "opponentId": "MICH",
     "coverage": "NBC",
     "espnGameId": 401012888,
@@ -63,7 +63,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 08 2018 15:30:00 GMT-0400",
+    "date": "Sat Sep 08 2018 15:30:00 GMT-0400",
     "opponentId": "BALL",
     "coverage": "NBC",
     "espnGameId": 401013377,
@@ -125,7 +125,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 15 2018 14:30:00 GMT-0400",
+    "date": "Sat Sep 15 2018 14:30:00 GMT-0400",
     "opponentId": "VANDY",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "m07W96ROU9Y",
@@ -187,7 +187,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Sep 22 2018 12:00:00 GMT-0400",
+    "date": "Sat Sep 22 2018 12:00:00 GMT-0400",
     "time": "12:00 PM",
     "location": {
       "city": "Winston-Salem",
@@ -256,7 +256,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 29 2018 19:30:00 GMT-0400",
+    "date": "Sat Sep 29 2018 19:30:00 GMT-0400",
     "opponentId": "STAN",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "hi3f-rYUmXA",
@@ -318,7 +318,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 06 2018 20:00:00 GMT-0400",
+    "date": "Sat Oct 06 2018 20:00:00 GMT-0400",
     "location": {
       "city": "Blacksburg",
       "state": "VA",
@@ -386,7 +386,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 13 2018 14:30:00 GMT-0400",
+    "date": "Sat Oct 13 2018 14:30:00 GMT-0400",
     "opponentId": "PITT",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "KNxKwNoul-I",
@@ -449,7 +449,7 @@
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Oct 27 2018 20:00:00 GMT-0400",
+    "date": "Sat Oct 27 2018 20:00:00 GMT-0400",
     "location": {
       "city": "San Diego",
       "state": "CA",
@@ -518,7 +518,7 @@
   {
     "isHomeGame": false,
     "date": "11/03/2018",
-    "fullDate": "Sat Nov 03 2018 19:15:00 GMT-0400",
+    "date": "Sat Nov 03 2018 19:15:00 GMT-0400",
     "location": {
       "city": "Evanston",
       "state": "IL",
@@ -586,7 +586,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 10 2018 19:30:00 GMT-0500",
+    "date": "Sat Nov 10 2018 19:30:00 GMT-0500",
     "opponentId": "FSU",
     "coverage": "NBC",
     "highlightsYouTubeVideoId": "euIlgxCHBYY",
@@ -650,7 +650,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "fullDate": "Sat Nov 17 2018 14:30:00 GMT-0500",
+    "date": "Sat Nov 17 2018 14:30:00 GMT-0500",
     "time": "2:30 PM",
     "location": {
       "city": "Bronx",
@@ -722,7 +722,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 24 2018 5:00:00 GMT-0800",
+    "date": "Sat Nov 24 2018 5:00:00 GMT-0800",
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -792,7 +792,7 @@
     "isBowlGame": true,
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Dec 29 2018 16:00:00 GMT-0500",
+    "date": "Sat Dec 29 2018 16:00:00 GMT-0500",
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
     "coverage": "ESPN",
     "location": {

@@ -1,7 +1,7 @@
 [
   {
     "isHomeGame": false,
-    "fullDate": "Sat Sep 03 2022 19:30:00 GMT-0400",
+    "date": "Sat Sep 03 2022 19:30:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "Columbus",
@@ -69,7 +69,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 10 2022 14:30:00 GMT-0400",
+    "date": "Sat Sep 10 2022 14:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "MRSH",
     "espnGameId": 401404125,
@@ -131,7 +131,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Sep 17 2022 14:30:00 GMT-0400",
+    "date": "Sat Sep 17 2022 14:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "CAL",
     "espnGameId": 401403987,
@@ -191,7 +191,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Sep 24 2022 15:30:00 GMT-0400",
+    "date": "Sat Sep 24 2022 15:30:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "Chapel Hill",
@@ -259,7 +259,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "fullDate": "Sat Oct 08 2022 19:30:00 GMT-0400",
+    "date": "Sat Oct 08 2022 19:30:00 GMT-0400",
     "coverage": "NBC",
     "location": {
       "city": "Las Vegas",
@@ -326,7 +326,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 15 2022 19:30:00 GMT-0400",
+    "date": "Sat Oct 15 2022 19:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "STAN",
     "espnGameId": 401404016,
@@ -386,7 +386,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Oct 22 2022 14:30:00 GMT-0400",
+    "date": "Sat Oct 22 2022 14:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "UNLV",
     "espnGameId": 401404128,
@@ -446,7 +446,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Oct 29 2022 12:00:00 GMT-0400",
+    "date": "Sat Oct 29 2022 12:00:00 GMT-0400",
     "coverage": "ABC",
     "location": {
       "city": "Syracuse",
@@ -513,7 +513,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 05 2022 19:30:00 GMT-0400",
+    "date": "Sat Nov 05 2022 19:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "CLEM",
     "espnGameId": 401404130,
@@ -575,7 +575,7 @@
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "fullDate": "Sat Nov 12 2022 12:00:00 GMT-0500",
+    "date": "Sat Nov 12 2022 12:00:00 GMT-0500",
     "coverage": "ABC",
     "location": {
       "city": "Baltimore",
@@ -642,7 +642,7 @@
   },
   {
     "isHomeGame": true,
-    "fullDate": "Sat Nov 19 2022 14:30:00 GMT-0500",
+    "date": "Sat Nov 19 2022 14:30:00 GMT-0500",
     "coverage": "NBC",
     "opponentId": "BC",
     "espnGameId": 401404132,
@@ -703,7 +703,7 @@
   },
   {
     "isHomeGame": false,
-    "fullDate": "Sat Nov 26 2022 19:30:00 GMT-0500",
+    "date": "Sat Nov 26 2022 19:30:00 GMT-0500",
     "coverage": "ABC",
     "location": {
       "city": "Los Angeles",
@@ -776,7 +776,7 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "nickname": "TaxSlayer Gator Bowl",
-    "fullDate": "Fri Dec 30 2022 15:30:00 GMT-0500",
+    "date": "Fri Dec 30 2022 15:30:00 GMT-0500",
     "coverage": "ESPN",
     "location": {
       "city": "Jacksonville",

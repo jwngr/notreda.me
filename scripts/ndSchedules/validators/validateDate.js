@@ -1,10 +1,8 @@
-import pick from 'lodash/pick';
-
 import {getDateFromGame} from '../../../website/src/lib/datetime';
 
 export function validateDate([currentGameData, previousGameData], assert) {
   const wrappedAssert = (statement, message) => {
-    assert(statement, message, pick(currentGameData, ['date', 'time']));
+    assert(statement, message, {date: currentGameData.date});
   };
 
   const currentGameDate = getDateFromGame({date: currentGameData.date});
