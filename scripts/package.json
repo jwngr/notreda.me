@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@sentry/node": "^9.22.0",
+    "@sentry/node": "^9.24.0",
     "chalk": "^5.4.1",
     "cheerio": "^1.0.0",
     "date-fns": "^4.1.0",
@@ -13,14 +13,14 @@
     "puppeteer": "^1.20.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.27.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@eslint/js": "^9.28.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.2",
     "@types/lodash": "^4.17.17",
-    "@types/node": "^22.15.21",
-    "eslint": "^9.27.0",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.32.1"
+    "typescript-eslint": "^8.33.0"
   },
   "scripts": {
     "lint": "prettier --check '**/*.{js,ts,json}' && echo 'Running ESLint...' && eslint . --report-unused-disable-directives --max-warnings 0 && echo 'All files pass linting!' && echo 'Running tsc...' && tsc --noEmit && echo 'All files pass type checking!'",
