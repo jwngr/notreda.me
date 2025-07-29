@@ -60,10 +60,6 @@ function getTvNetworkLogo(network: TVNetwork): string | null {
     case TVNetwork.KATZ:
     case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
-    case TVNetwork.ABC_ESPN:
-    case TVNetwork.ABC_ESPN2:
-    case TVNetwork.RAYCOM_WGN:
-    case TVNetwork.USA_WGN_TV:
       return null;
     default:
       assertNever(network);
@@ -78,4 +74,15 @@ export const TVNetworkLogo: React.FC<{readonly network: TVNetwork}> = ({network}
   }
 
   return <img key={network} src={logo} alt={`${network} logo`} />;
+};
+
+// Add a new component for multiple networks
+export const TVNetworkLogos: React.FC<{readonly networks: TVNetwork[]}> = ({networks}) => {
+  return (
+    <>
+      {networks.map((network, index) => (
+        <TVNetworkLogo key={index} network={network} />
+      ))}
+    </>
+  );
 };

@@ -1,5 +1,9 @@
 [
-  {"isHomeGame": true, "date": "08/31/2030", "opponentId": "IND"},
+  {
+    "isHomeGame": true,
+    "date": "08/31/2030",
+    "opponentId": "IND"
+  },
   {
     "isHomeGame": false,
     "date": "09/14/2030",
@@ -22,9 +26,21 @@
     },
     "opponentId": "LOU"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "DUKE"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "FSU"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "UNC"},
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "DUKE"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "UNC"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",
@@ -47,5 +63,9 @@
     },
     "opponentId": "NAVY"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "CLEM"
+  }
 ]

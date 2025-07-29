@@ -21,8 +21,16 @@
     },
     "opponentId": "NCST"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "BC"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "DUKE"},
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "BC"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "DUKE"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",

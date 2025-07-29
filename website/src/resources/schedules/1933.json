@@ -4,8 +4,14 @@
     "isHomeGame": true,
     "date": "10/07/1933",
     "opponentId": "KU",
-    "score": {"away": 0, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -19,8 +25,14 @@
       "coordinates": [39.180835, -86.525633]
     },
     "opponentId": "IND",
-    "score": {"away": 12, "home": 2},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 12,
+      "home": 2
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -34,8 +46,14 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "CAR",
-    "score": {"away": 0, "home": 7},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -43,8 +61,14 @@
     "isHomeGame": true,
     "date": "10/28/1933",
     "opponentId": "PITT",
-    "score": {"away": 14, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 14,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -52,8 +76,14 @@
     "isHomeGame": true,
     "date": "11/04/1933",
     "opponentId": "NAVY",
-    "score": {"away": 7, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 7,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -61,8 +91,14 @@
     "isHomeGame": true,
     "date": "11/11/1933",
     "opponentId": "PUR",
-    "score": {"away": 19, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 19,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -76,8 +112,14 @@
       "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {"away": 7, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 7,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -85,8 +127,14 @@
     "isHomeGame": true,
     "date": "11/25/1933",
     "opponentId": "USC",
-    "score": {"away": 19, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 19,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -94,8 +142,14 @@
     "isHomeGame": true,
     "date": "12/02/1933",
     "opponentId": "ARMY",
-    "score": {"away": 12, "home": 13},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 12,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   }
 ]

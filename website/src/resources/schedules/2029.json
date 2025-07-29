@@ -1,5 +1,9 @@
 [
-  {"isHomeGame": true, "date": "09/01/2029", "opponentId": "BAMA"},
+  {
+    "isHomeGame": true,
+    "date": "09/01/2029",
+    "opponentId": "BAMA"
+  },
   {
     "isHomeGame": false,
     "date": "09/15/2029",
@@ -33,7 +37,11 @@
     },
     "opponentId": "NCST"
   },
-  {"isHomeGame": true, "date": "11/03/2029", "opponentId": "GT"},
+  {
+    "isHomeGame": true,
+    "date": "11/03/2029",
+    "opponentId": "GT"
+  },
   {
     "isHomeGame": false,
     "date": "11/10/2029",
@@ -45,7 +53,11 @@
     },
     "opponentId": "FSU"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "WAKE"},
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "WAKE"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",
@@ -57,7 +69,11 @@
     },
     "opponentId": "SYR"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "NAVY"},
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "NAVY"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",

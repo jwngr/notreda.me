@@ -10,8 +10,16 @@
     },
     "opponentId": "CLEM"
   },
-  {"isHomeGame": true, "date": "10/03/2037", "opponentId": "NCST"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
+  {
+    "isHomeGame": true,
+    "date": "10/03/2037",
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "MIAMI"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",

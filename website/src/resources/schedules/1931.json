@@ -10,8 +10,14 @@
       "coordinates": [39.180835, -86.525633]
     },
     "opponentId": "IND",
-    "score": {"away": 25, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 25,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -19,8 +25,14 @@
     "isHomeGame": true,
     "date": "10/10/1931",
     "opponentId": "NW",
-    "score": {"away": 0, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -28,8 +40,14 @@
     "isHomeGame": true,
     "date": "10/17/1931",
     "opponentId": "DRKE",
-    "score": {"away": 0, "home": 63},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 63
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -37,8 +55,14 @@
     "isHomeGame": true,
     "date": "10/24/1931",
     "opponentId": "PITT",
-    "score": {"away": 12, "home": 25},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 12,
+      "home": 25
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -52,8 +76,14 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "CAR",
-    "score": {"away": 19, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 19,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -61,8 +91,14 @@
     "isHomeGame": true,
     "date": "11/07/1931",
     "opponentId": "PENN",
-    "score": {"away": 0, "home": 49},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 49
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -70,8 +106,14 @@
     "isHomeGame": true,
     "date": "11/14/1931",
     "opponentId": "NAVY",
-    "score": {"away": 0, "home": 20},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -79,8 +121,14 @@
     "isHomeGame": true,
     "date": "11/21/1931",
     "opponentId": "USC",
-    "score": {"away": 16, "home": 14},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 16,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   },
   {
@@ -88,8 +136,14 @@
     "isHomeGame": true,
     "date": "11/28/1931",
     "opponentId": "ARMY",
-    "score": {"away": 12, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 12,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Heartley Anderson"
   }
 ]

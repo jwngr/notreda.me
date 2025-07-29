@@ -82,10 +82,6 @@ export const getTvChannelUrl = (network: TVNetwork): string | null => {
     case TVNetwork.KATZ:
     case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
-    case TVNetwork.ABC_ESPN:
-    case TVNetwork.ABC_ESPN2:
-    case TVNetwork.RAYCOM_WGN:
-    case TVNetwork.USA_WGN_TV:
     case TVNetwork.Unknown:
       return null;
     default:

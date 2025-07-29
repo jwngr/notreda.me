@@ -4,8 +4,14 @@
     "isHomeGame": true,
     "date": "09/27/1899",
     "opponentId": "ENG",
-    "score": {"away": 5, "home": 29},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 5,
+      "home": 29
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -13,18 +19,34 @@
     "isHomeGame": true,
     "date": "09/29/1899",
     "opponentId": "MSU",
-    "score": {"away": 0, "home": 40},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 40
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "10/04/1899",
-    "location": {"city": "Chicago", "state": "IL", "coordinates": [41.878113, -87.629799]},
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "coordinates": [41.878113, -87.629799]
+    },
     "opponentId": "CHI",
-    "score": {"away": 6, "home": 23},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 6,
+      "home": 23
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -32,18 +54,34 @@
     "isHomeGame": true,
     "date": "10/14/1899",
     "opponentId": "LAK",
-    "score": {"away": 0, "home": 38},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 38
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
     "result": "L",
     "isHomeGame": false,
     "date": "10/18/1899",
-    "location": {"city": "Ann Arbor", "state": "MI", "coordinates": [42.281422, -83.748482]},
+    "location": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "coordinates": [42.281422, -83.748482]
+    },
     "opponentId": "MICH",
-    "score": {"away": 0, "home": 12},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 12
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -51,8 +89,14 @@
     "isHomeGame": true,
     "date": "10/23/1899",
     "opponentId": "IND",
-    "score": {"away": 0, "home": 17},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -60,8 +104,14 @@
     "isHomeGame": true,
     "date": "10/27/1899",
     "opponentId": "NW",
-    "score": {"away": 0, "home": 12},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 12
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -69,18 +119,34 @@
     "isHomeGame": true,
     "date": "11/04/1899",
     "opponentId": "RUSH",
-    "score": {"away": 0, "home": 17},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 17
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
     "result": "T",
     "isHomeGame": false,
     "date": "11/18/1899",
-    "location": {"city": "West Lafayette", "state": "IN", "coordinates": [40.454769, -86.915703]},
+    "location": {
+      "city": "West Lafayette",
+      "state": "IN",
+      "coordinates": [40.454769, -86.915703]
+    },
     "opponentId": "PUR",
-    "score": {"away": 10, "home": 10},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 10,
+      "home": 10
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   },
   {
@@ -88,8 +154,14 @@
     "isHomeGame": true,
     "date": "11/30/1899",
     "opponentId": "CHI-P&S",
-    "score": {"away": 5, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 5,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "James McWeeney"
   }
 ]

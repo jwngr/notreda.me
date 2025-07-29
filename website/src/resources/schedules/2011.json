@@ -4,7 +4,10 @@
     "isHomeGame": true,
     "date": "Sat Sep 03, 2011 18:30:00 GMT-0400",
     "opponentId": "USF",
-    "score": {"away": 23, "home": 20},
+    "score": {
+      "away": 23,
+      "home": 20
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -50,14 +53,34 @@
       }
     },
     "espnGameId": 312460087,
-    "linescore": {"away": [13, 3, 0, 7], "home": [0, 0, 7, 13]},
+    "linescore": {
+      "away": [13, 3, 0, 7],
+      "home": [0, 0, 7, 13]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 16}},
-    "weather": {"icon": "rain", "temperature": 77},
+    "rankings": {
+      "home": {
+        "ap": 16
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 77
+    },
     "records": {
-      "home": {"overall": "0-1", "home": "0-1", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "1-0", "home": "0-0", "away": "1-0", "neutral": "0-0"}
+      "home": {
+        "overall": "0-1",
+        "home": "0-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -71,7 +94,10 @@
       "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
-    "score": {"away": 31, "home": 35},
+    "score": {
+      "away": 31,
+      "home": 35
+    },
     "stats": {
       "away": {
         "firstDowns": 28,
@@ -117,13 +143,29 @@
       }
     },
     "espnGameId": 312530130,
-    "linescore": {"away": [14, 3, 7, 7], "home": [0, 7, 0, 28]},
+    "linescore": {
+      "away": [14, 3, 7, 7],
+      "home": [0, 7, 0, 28]
+    },
     "coverage": "ESPN",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "partly-cloudy-night", "temperature": 64},
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 64
+    },
     "records": {
-      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "0-2", "home": "0-1", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-2",
+        "home": "0-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -131,7 +173,10 @@
     "isHomeGame": true,
     "date": "Sat Sep 17, 2011 18:30:00 GMT-0400",
     "opponentId": "MSU",
-    "score": {"away": 13, "home": 31},
+    "score": {
+      "away": 13,
+      "home": 31
+    },
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -177,14 +222,34 @@
       }
     },
     "espnGameId": 312600087,
-    "linescore": {"away": [3, 7, 0, 3], "home": [14, 7, 7, 3]},
+    "linescore": {
+      "away": [3, 7, 0, 3],
+      "home": [14, 7, 7, 3]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 15}},
-    "weather": {"icon": "clear-day", "temperature": 68},
+    "rankings": {
+      "away": {
+        "ap": 15
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 68
+    },
     "records": {
-      "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-1", "home": "2-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "2-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -198,7 +263,10 @@
       "coordinates": [40.445773, -80.014982]
     },
     "opponentId": "PITT",
-    "score": {"away": 15, "home": 12},
+    "score": {
+      "away": 15,
+      "home": 12
+    },
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -244,13 +312,29 @@
       }
     },
     "espnGameId": 312670221,
-    "linescore": {"away": [0, 7, 0, 8], "home": [3, 3, 6, 0]},
+    "linescore": {
+      "away": [0, 7, 0, 8],
+      "home": [3, 3, 6, 0]
+    },
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "partly-cloudy-day", "temperature": 70},
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 70
+    },
     "records": {
-      "home": {"overall": "2-2", "home": "2-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-2", "home": "1-1", "away": "1-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-2",
+        "home": "2-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "1-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -264,7 +348,10 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {"away": 38, "home": 10},
+    "score": {
+      "away": 38,
+      "home": 10
+    },
     "stats": {
       "away": {
         "firstDowns": 35,
@@ -310,13 +397,29 @@
       }
     },
     "espnGameId": 312742509,
-    "linescore": {"away": [14, 7, 14, 3], "home": [0, 3, 0, 7]},
+    "linescore": {
+      "away": [14, 7, 14, 3],
+      "home": [0, 3, 0, 7]
+    },
     "coverage": "ESPN",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-night", "temperature": 43},
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 43
+    },
     "records": {
-      "home": {"overall": "2-2", "home": "2-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "3-2", "home": "1-1", "away": "2-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-2",
+        "home": "2-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "1-1",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -324,7 +427,10 @@
     "isHomeGame": true,
     "date": "Sat Oct 08, 2011 18:30:00 GMT-0400",
     "opponentId": "AF",
-    "score": {"away": 33, "home": 59},
+    "score": {
+      "away": 33,
+      "home": 59
+    },
     "stats": {
       "away": {
         "firstDowns": 32,
@@ -370,13 +476,29 @@
       }
     },
     "espnGameId": 312810087,
-    "linescore": {"away": [3, 13, 0, 17], "home": [21, 21, 7, 10]},
+    "linescore": {
+      "away": [3, 13, 0, 17],
+      "home": [21, 21, 7, 10]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-day", "temperature": 79},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79
+    },
     "records": {
-      "home": {"overall": "4-2", "home": "2-1", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "3-2", "home": "2-1", "away": "1-1", "neutral": "0-0"}
+      "home": {
+        "overall": "4-2",
+        "home": "2-1",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -384,7 +506,10 @@
     "isHomeGame": true,
     "date": "Sat Oct 22, 2011 22:30:00 GMT-0400",
     "opponentId": "USC",
-    "score": {"away": 31, "home": 17},
+    "score": {
+      "away": 31,
+      "home": 17
+    },
     "stats": {
       "away": {
         "firstDowns": 29,
@@ -430,13 +555,29 @@
       }
     },
     "espnGameId": 312950087,
-    "linescore": {"away": [14, 3, 7, 7], "home": [0, 10, 0, 7]},
+    "linescore": {
+      "away": [14, 3, 7, 7],
+      "home": [0, 10, 0, 7]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-night", "temperature": 48},
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48
+    },
     "records": {
-      "home": {"overall": "4-3", "home": "2-2", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "6-1", "home": "4-0", "away": "2-1", "neutral": "0-0"}
+      "home": {
+        "overall": "4-3",
+        "home": "2-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-1",
+        "home": "4-0",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -444,7 +585,10 @@
     "isHomeGame": true,
     "date": "Sat Oct 29, 2011 18:30:00 GMT-0400",
     "opponentId": "NAVY",
-    "score": {"away": 14, "home": 56},
+    "score": {
+      "away": 14,
+      "home": 56
+    },
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -490,13 +634,29 @@
       }
     },
     "espnGameId": 313020087,
-    "linescore": {"away": [0, 7, 0, 7], "home": [14, 21, 7, 14]},
+    "linescore": {
+      "away": [0, 7, 0, 7],
+      "home": [14, 21, 7, 14]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-day", "temperature": 49},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 49
+    },
     "records": {
-      "home": {"overall": "5-3", "home": "3-2", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "2-6", "home": "1-3", "away": "1-3", "neutral": "0-0"}
+      "home": {
+        "overall": "5-3",
+        "home": "3-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-6",
+        "home": "1-3",
+        "away": "1-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -510,7 +670,10 @@
       "coordinates": [36.13015, -80.254258]
     },
     "opponentId": "WAKE",
-    "score": {"away": 24, "home": 17},
+    "score": {
+      "away": 24,
+      "home": 17
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -556,13 +719,29 @@
       }
     },
     "espnGameId": 313090154,
-    "linescore": {"away": [10, 0, 14, 0], "home": [10, 7, 0, 0]},
+    "linescore": {
+      "away": [10, 0, 14, 0],
+      "home": [10, 7, 0, 0]
+    },
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "partly-cloudy-night", "temperature": 37},
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 37
+    },
     "records": {
-      "home": {"overall": "5-4", "home": "3-2", "away": "2-2", "neutral": "0-0"},
-      "away": {"overall": "6-3", "home": "3-2", "away": "3-1", "neutral": "0-0"}
+      "home": {
+        "overall": "5-4",
+        "home": "3-2",
+        "away": "2-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-3",
+        "home": "3-2",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -578,7 +757,10 @@
       "coordinates": [38.907543, -76.864631]
     },
     "opponentId": "MD",
-    "score": {"away": 21, "home": 45},
+    "score": {
+      "away": 21,
+      "home": 45
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -624,13 +806,29 @@
       }
     },
     "espnGameId": 313160087,
-    "linescore": {"away": [0, 7, 0, 14], "home": [10, 14, 14, 7]},
+    "linescore": {
+      "away": [0, 7, 0, 14],
+      "home": [10, 14, 14, 7]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-night", "temperature": 52},
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52
+    },
     "records": {
-      "home": {"overall": "7-3", "home": "3-2", "away": "3-1", "neutral": "1-0"},
-      "away": {"overall": "2-8", "home": "2-5", "away": "0-2", "neutral": "0-1"}
+      "home": {
+        "overall": "7-3",
+        "home": "3-2",
+        "away": "3-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "2-8",
+        "home": "2-5",
+        "away": "0-2",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -638,7 +836,10 @@
     "isHomeGame": true,
     "date": "Sat Nov 19, 2011 19:00:00 GMT-0500",
     "opponentId": "BC",
-    "score": {"away": 14, "home": 16},
+    "score": {
+      "away": 14,
+      "home": 16
+    },
     "stats": {
       "away": {
         "firstDowns": 14,
@@ -684,14 +885,34 @@
       }
     },
     "espnGameId": 313230087,
-    "linescore": {"away": [0, 7, 0, 7], "home": [10, 3, 0, 3]},
+    "linescore": {
+      "away": [0, 7, 0, 7],
+      "home": [10, 3, 0, 3]
+    },
     "coverage": "NBC",
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 24}},
-    "weather": {"icon": "cloudy", "temperature": 52},
+    "rankings": {
+      "home": {
+        "ap": 24
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 52
+    },
     "records": {
-      "home": {"overall": "8-3", "home": "4-2", "away": "3-1", "neutral": "1-0"},
-      "away": {"overall": "3-8", "home": "2-4", "away": "1-4", "neutral": "0-0"}
+      "home": {
+        "overall": "8-3",
+        "home": "4-2",
+        "away": "3-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "3-8",
+        "home": "2-4",
+        "away": "1-4",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -705,7 +926,10 @@
       "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {"away": 14, "home": 28},
+    "score": {
+      "away": 14,
+      "home": 28
+    },
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -751,14 +975,39 @@
       }
     },
     "espnGameId": 313300024,
-    "linescore": {"away": [0, 0, 7, 7], "home": [7, 14, 0, 7]},
+    "linescore": {
+      "away": [0, 0, 7, 7],
+      "home": [7, 14, 0, 7]
+    },
     "coverage": "ABC",
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 22, "bcs": 22}, "home": {"ap": 4, "bcs": 6}},
-    "weather": {"icon": "clear-night", "temperature": 52},
+    "rankings": {
+      "away": {
+        "ap": 22,
+        "bcs": 22
+      },
+      "home": {
+        "ap": 4,
+        "bcs": 6
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 52
+    },
     "records": {
-      "home": {"overall": "11-1", "home": "6-1", "away": "5-0", "neutral": "0-0"},
-      "away": {"overall": "8-4", "home": "4-2", "away": "3-2", "neutral": "1-0"}
+      "home": {
+        "overall": "11-1",
+        "home": "6-1",
+        "away": "5-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-4",
+        "home": "4-2",
+        "away": "3-2",
+        "neutral": "1-0"
+      }
     }
   },
   {
@@ -774,7 +1023,10 @@
       "coordinates": [28.539074, -81.404028]
     },
     "opponentId": "FSU",
-    "score": {"away": 18, "home": 14},
+    "score": {
+      "away": 18,
+      "home": 14
+    },
     "stats": {
       "away": {
         "firstDowns": 13,
@@ -820,15 +1072,35 @@
       }
     },
     "espnGameId": 313630087,
-    "linescore": {"away": [0, 0, 3, 15], "home": [7, 0, 7, 0]},
+    "linescore": {
+      "away": [0, 0, 3, 15],
+      "home": [7, 0, 7, 0]
+    },
     "coverage": "ESPN",
     "nickname": "Champs Sports Bowl",
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 25}},
-    "weather": {"icon": "clear-night", "temperature": 53},
+    "rankings": {
+      "away": {
+        "ap": 25
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 53
+    },
     "records": {
-      "home": {"overall": "8-5", "home": "4-2", "away": "3-2", "neutral": "1-1"},
-      "away": {"overall": "9-4", "home": "5-2", "away": "3-2", "neutral": "1-0"}
+      "home": {
+        "overall": "8-5",
+        "home": "4-2",
+        "away": "3-2",
+        "neutral": "1-1"
+      },
+      "away": {
+        "overall": "9-4",
+        "home": "5-2",
+        "away": "3-2",
+        "neutral": "1-0"
+      }
     }
   }
 ]

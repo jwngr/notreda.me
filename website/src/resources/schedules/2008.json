@@ -4,7 +4,10 @@
     "isHomeGame": true,
     "date": "Sat Sep 06, 2008 18:30:00 GMT-0400",
     "opponentId": "SDSU",
-    "score": {"away": 13, "home": 21},
+    "score": {
+      "away": 13,
+      "home": 21
+    },
     "stats": {
       "away": {
         "firstDowns": 19,
@@ -50,13 +53,29 @@
       }
     },
     "espnGameId": 282500087,
-    "linescore": {"away": [0, 7, 6, 0], "home": [0, 7, 0, 14]},
+    "linescore": {
+      "away": [0, 7, 6, 0],
+      "home": [0, 7, 0, 14]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "partly-cloudy-day", "temperature": 72},
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 72
+    },
     "records": {
-      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "0-2", "home": "0-1", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-2",
+        "home": "0-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -64,7 +83,10 @@
     "isHomeGame": true,
     "date": "Sat Sep 13, 2008 18:30:00 GMT-0400",
     "opponentId": "MICH",
-    "score": {"away": 17, "home": 35},
+    "score": {
+      "away": 17,
+      "home": 35
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -110,13 +132,29 @@
       }
     },
     "espnGameId": 282570087,
-    "linescore": {"away": [7, 10, 0, 0], "home": [21, 7, 0, 7]},
+    "linescore": {
+      "away": [7, 10, 0, 0],
+      "home": [21, 7, 0, 7]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "rain", "temperature": 75},
+    "weather": {
+      "icon": "rain",
+      "temperature": 75
+    },
     "records": {
-      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -130,7 +168,10 @@
       "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {"away": 7, "home": 23},
+    "score": {
+      "away": 7,
+      "home": 23
+    },
     "stats": {
       "away": {
         "firstDowns": 18,
@@ -176,13 +217,29 @@
       }
     },
     "espnGameId": 282640127,
-    "linescore": {"away": [0, 0, 0, 7], "home": [3, 7, 3, 10]},
+    "linescore": {
+      "away": [0, 0, 0, 7],
+      "home": [3, 7, 3, 10]
+    },
     "coverage": "ABC / ESPN",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "clear-day", "temperature": 78},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78
+    },
     "records": {
-      "home": {"overall": "3-1", "home": "3-0", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-1", "home": "2-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "3-1",
+        "home": "3-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "2-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -190,7 +247,10 @@
     "isHomeGame": true,
     "date": "Sat Sep 27, 2008 18:30:00 GMT-0400",
     "opponentId": "PUR",
-    "score": {"away": 21, "home": 38},
+    "score": {
+      "away": 21,
+      "home": 38
+    },
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -236,13 +296,29 @@
       }
     },
     "espnGameId": 282710087,
-    "linescore": {"away": [7, 7, 7, 0], "home": [0, 14, 21, 3]},
+    "linescore": {
+      "away": [7, 7, 7, 0],
+      "home": [0, 14, 21, 3]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "clear-day", "temperature": 73},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 73
+    },
     "records": {
-      "home": {"overall": "3-1", "home": "3-0", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-2", "home": "2-1", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "3-1",
+        "home": "3-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "2-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -250,7 +326,10 @@
     "isHomeGame": true,
     "date": "Sat Oct 04, 2008 17:30:00 GMT-0400",
     "opponentId": "STAN",
-    "score": {"away": 21, "home": 28},
+    "score": {
+      "away": 21,
+      "home": 28
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -296,13 +375,29 @@
       }
     },
     "espnGameId": 282780087,
-    "linescore": {"away": [0, 7, 0, 14], "home": [7, 14, 7, 0]},
+    "linescore": {
+      "away": [0, 7, 0, 14],
+      "home": [7, 14, 7, 0]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "clear-day", "temperature": 59},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 59
+    },
     "records": {
-      "home": {"overall": "4-1", "home": "4-0", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "3-3", "home": "2-0", "away": "1-3", "neutral": "0-0"}
+      "home": {
+        "overall": "4-1",
+        "home": "4-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-3",
+        "home": "2-0",
+        "away": "1-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -316,7 +411,10 @@
       "coordinates": [35.906944, -79.047778]
     },
     "opponentId": "UNC",
-    "score": {"away": 24, "home": 29},
+    "score": {
+      "away": 24,
+      "home": 29
+    },
     "stats": {
       "away": {
         "firstDowns": 27,
@@ -362,14 +460,34 @@
       }
     },
     "espnGameId": 282850153,
-    "linescore": {"away": [7, 10, 7, 0], "home": [3, 6, 13, 7]},
+    "linescore": {
+      "away": [7, 10, 7, 0],
+      "home": [3, 6, 13, 7]
+    },
     "coverage": "ABC / ESPN2",
     "headCoach": "Charlie Weis",
-    "rankings": {"home": {"ap": 22}},
-    "weather": {"icon": "partly-cloudy-day", "temperature": 67},
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    },
+    "weather": {
+      "icon": "partly-cloudy-day",
+      "temperature": 67
+    },
     "records": {
-      "home": {"overall": "5-1", "home": "3-1", "away": "2-0", "neutral": "0-0"},
-      "away": {"overall": "4-2", "home": "4-0", "away": "0-2", "neutral": "0-0"}
+      "home": {
+        "overall": "5-1",
+        "home": "3-1",
+        "away": "2-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-2",
+        "home": "4-0",
+        "away": "0-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -383,7 +501,10 @@
       "coordinates": [47.650288, -122.301573]
     },
     "opponentId": "WASH",
-    "score": {"away": 33, "home": 7},
+    "score": {
+      "away": 33,
+      "home": 7
+    },
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -429,13 +550,29 @@
       }
     },
     "espnGameId": 282990264,
-    "linescore": {"away": [14, 3, 10, 6], "home": [0, 0, 0, 7]},
+    "linescore": {
+      "away": [14, 3, 10, 6],
+      "home": [0, 0, 0, 7]
+    },
     "coverage": "ESPN2",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "clear-night", "temperature": 48},
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 48
+    },
     "records": {
-      "home": {"overall": "0-7", "home": "0-5", "away": "0-2", "neutral": "0-0"},
-      "away": {"overall": "5-2", "home": "4-0", "away": "1-2", "neutral": "0-0"}
+      "home": {
+        "overall": "0-7",
+        "home": "0-5",
+        "away": "0-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-2",
+        "home": "4-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -443,7 +580,10 @@
     "isHomeGame": true,
     "date": "Sat Nov 01, 2008 17:30:00 GMT-0400",
     "opponentId": "PITT",
-    "score": {"away": 36, "home": 33},
+    "score": {
+      "away": 36,
+      "home": 33
+    },
     "stats": {
       "away": {
         "firstDowns": 17,
@@ -489,14 +629,30 @@
       }
     },
     "espnGameId": 283060087,
-    "linescore": {"away": [3, 0, 7, 14, 3, 3, 3, 3], "home": [3, 14, 0, 7, 3, 3, 3, 0]},
+    "linescore": {
+      "away": [3, 0, 7, 14, 3, 3, 3, 3],
+      "home": [3, 14, 0, 7, 3, 3, 3, 0]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
     "numOvertimes": 4,
-    "weather": {"icon": "cloudy", "temperature": 57},
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 57
+    },
     "records": {
-      "home": {"overall": "5-3", "home": "4-1", "away": "1-2", "neutral": "0-0"},
-      "away": {"overall": "6-2", "home": "2-2", "away": "4-0", "neutral": "0-0"}
+      "home": {
+        "overall": "5-3",
+        "home": "4-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-2",
+        "home": "2-2",
+        "away": "4-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -510,7 +666,10 @@
       "coordinates": [42.335, -71.166389]
     },
     "opponentId": "BC",
-    "score": {"away": 0, "home": 17},
+    "score": {
+      "away": 0,
+      "home": 17
+    },
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -556,13 +715,29 @@
       }
     },
     "espnGameId": 283130103,
-    "linescore": {"away": [0, 0, 0, 0], "home": [3, 7, 7, 0]},
+    "linescore": {
+      "away": [0, 0, 0, 0],
+      "home": [3, 7, 7, 0]
+    },
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "rain", "temperature": 58},
+    "weather": {
+      "icon": "rain",
+      "temperature": 58
+    },
     "records": {
-      "home": {"overall": "6-3", "home": "4-2", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "5-4", "home": "4-1", "away": "1-3", "neutral": "0-0"}
+      "home": {
+        "overall": "6-3",
+        "home": "4-2",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-4",
+        "home": "4-1",
+        "away": "1-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -576,7 +751,10 @@
       "coordinates": [39.277954, -76.623112]
     },
     "opponentId": "NAVY",
-    "score": {"away": 27, "home": 21},
+    "score": {
+      "away": 27,
+      "home": 21
+    },
     "stats": {
       "away": {
         "firstDowns": 24,
@@ -622,13 +800,29 @@
       }
     },
     "espnGameId": 283202426,
-    "linescore": {"away": [7, 3, 14, 3], "home": [0, 7, 0, 14]},
+    "linescore": {
+      "away": [7, 3, 14, 3],
+      "home": [0, 7, 0, 14]
+    },
     "coverage": "CBS",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "rain", "temperature": 66},
+    "weather": {
+      "icon": "rain",
+      "temperature": 66
+    },
     "records": {
-      "home": {"overall": "6-4", "home": "4-2", "away": "2-2", "neutral": "0-0"},
-      "away": {"overall": "6-4", "home": "4-1", "away": "2-3", "neutral": "0-0"}
+      "home": {
+        "overall": "6-4",
+        "home": "4-2",
+        "away": "2-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-4",
+        "home": "4-1",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -636,7 +830,10 @@
     "isHomeGame": true,
     "date": "Sat Nov 22, 2008 17:30:00 GMT-0500",
     "opponentId": "SYR",
-    "score": {"away": 24, "home": 23},
+    "score": {
+      "away": 24,
+      "home": 23
+    },
     "stats": {
       "away": {
         "firstDowns": 18,
@@ -682,13 +879,29 @@
       }
     },
     "espnGameId": 283270087,
-    "linescore": {"away": [3, 7, 0, 14], "home": [3, 10, 10, 0]},
+    "linescore": {
+      "away": [3, 7, 0, 14],
+      "home": [3, 10, 10, 0]
+    },
     "coverage": "NBC",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "clear-night", "temperature": 25},
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 25
+    },
     "records": {
-      "home": {"overall": "6-5", "home": "4-2", "away": "2-3", "neutral": "0-0"},
-      "away": {"overall": "3-8", "home": "2-4", "away": "1-4", "neutral": "0-0"}
+      "home": {
+        "overall": "6-5",
+        "home": "4-2",
+        "away": "2-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-8",
+        "home": "2-4",
+        "away": "1-4",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -702,7 +915,10 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {"away": 3, "home": 38},
+    "score": {
+      "away": 3,
+      "home": 38
+    },
     "stats": {
       "away": {
         "firstDowns": 4,
@@ -748,14 +964,35 @@
       }
     },
     "espnGameId": 283340030,
-    "linescore": {"away": [0, 0, 0, 3], "home": [7, 17, 7, 7]},
+    "linescore": {
+      "away": [0, 0, 0, 3],
+      "home": [7, 17, 7, 7]
+    },
     "coverage": "ESPN",
     "headCoach": "Charlie Weis",
-    "rankings": {"home": {"ap": 5, "bcs": 5}},
-    "weather": {"icon": "clear-night", "temperature": 59},
+    "rankings": {
+      "home": {
+        "ap": 5,
+        "bcs": 5
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 59
+    },
     "records": {
-      "home": {"overall": "10-1", "home": "6-0", "away": "4-1", "neutral": "0-0"},
-      "away": {"overall": "6-6", "home": "4-2", "away": "2-4", "neutral": "0-0"}
+      "home": {
+        "overall": "10-1",
+        "home": "6-0",
+        "away": "4-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-6",
+        "home": "4-2",
+        "away": "2-4",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -771,7 +1008,10 @@
       "coordinates": [21.373, -157.93]
     },
     "opponentId": "HAW",
-    "score": {"away": 21, "home": 49},
+    "score": {
+      "away": 21,
+      "home": 49
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -817,14 +1057,30 @@
       }
     },
     "espnGameId": 283590087,
-    "linescore": {"away": [0, 7, 7, 7], "home": [7, 21, 21, 0]},
+    "linescore": {
+      "away": [0, 7, 7, 7],
+      "home": [7, 21, 21, 0]
+    },
     "coverage": "ESPN",
     "nickname": "Hawaii Bowl",
     "headCoach": "Charlie Weis",
-    "weather": {"icon": "partly-cloudy-night", "temperature": 75},
+    "weather": {
+      "icon": "partly-cloudy-night",
+      "temperature": 75
+    },
     "records": {
-      "home": {"overall": "7-6", "home": "4-2", "away": "2-4", "neutral": "1-0"},
-      "away": {"overall": "8-7", "home": "5-2", "away": "3-4", "neutral": "0-1"}
+      "home": {
+        "overall": "7-6",
+        "home": "4-2",
+        "away": "2-4",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "8-7",
+        "home": "5-2",
+        "away": "3-4",
+        "neutral": "0-1"
+      }
     }
   }
 ]

@@ -1,5 +1,9 @@
 [
-  {"isHomeGame": true, "date": "09/02/2034", "opponentId": "MICH"},
+  {
+    "isHomeGame": true,
+    "date": "09/02/2034",
+    "opponentId": "MICH"
+  },
   {
     "isHomeGame": false,
     "date": "10/26/2034",
@@ -11,9 +15,21 @@
     },
     "opponentId": "MIAMI"
   },
-  {"isHomeGame": true, "date": "11/11/2034", "opponentId": "CLEM"},
-  {"isHomeGame": true, "date": "11/18/2034", "opponentId": "UVA"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "SYR"},
+  {
+    "isHomeGame": true,
+    "date": "11/11/2034",
+    "opponentId": "CLEM"
+  },
+  {
+    "isHomeGame": true,
+    "date": "11/18/2034",
+    "opponentId": "UVA"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "SYR"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",

@@ -61,10 +61,6 @@ const ChannelLogo = styled.div<ChannelLogoProps>`
         case TVNetwork.KATZ:
         case TVNetwork.SportsChannel:
         case TVNetwork.WGN_TV:
-        case TVNetwork.ABC_ESPN:
-        case TVNetwork.ABC_ESPN2:
-        case TVNetwork.RAYCOM_WGN:
-        case TVNetwork.USA_WGN_TV:
         case TVNetwork.Unknown:
           return '40px';
         case TVNetwork.TBS:
@@ -158,15 +154,21 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
           <TVNetworkLogo network={TVNetwork.Unknown} />
         </ChannelLogo>
       );
-    } else if (game.coverage) {
-      // Otherwise, display the TV channel icon, making it link to the streaming site for future
-      // games.
+    } else if (game.coverage && Array.isArray(game.coverage)) {
+      // Handle array of networks
+      const networks = game.coverage;
+      const primaryNetwork = networks[0]; // Use first network as primary for styling
+
       const channelLogo = (
-        <ChannelLogo $network={game.coverage}>
-          <TVNetworkLogo network={game.coverage} />
+        <ChannelLogo $network={primaryNetwork}>
+          {networks.map((network, index) => (
+            <TVNetworkLogo key={index} network={network} />
+          ))}
         </ChannelLogo>
       );
-      const channelUrl = getTvChannelUrl(game.coverage);
+
+      // For future games, link to the primary network's streaming site
+      const channelUrl = getTvChannelUrl(primaryNetwork);
       tvCoverageContent =
         isGameOver || !channelUrl ? (
           channelLogo

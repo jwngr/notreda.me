@@ -4,18 +4,34 @@
     "isHomeGame": true,
     "date": "09/28/1935",
     "opponentId": "KU",
-    "score": {"away": 7, "home": 28},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 7,
+      "home": 28
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "10/05/1935",
-    "location": {"city": "Pittsburgh", "state": "PA", "coordinates": [40.438739, -80.00268]},
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "coordinates": [40.438739, -80.00268]
+    },
     "opponentId": "CAR",
-    "score": {"away": 14, "home": 3},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 14,
+      "home": 3
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -29,8 +45,14 @@
       "coordinates": [43.069885, -89.412619]
     },
     "opponentId": "WIS",
-    "score": {"away": 27, "home": 0},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 27,
+      "home": 0
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -38,8 +60,14 @@
     "isHomeGame": true,
     "date": "10/19/1935",
     "opponentId": "PITT",
-    "score": {"away": 6, "home": 9},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 6,
+      "home": 9
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -47,8 +75,14 @@
     "isHomeGame": true,
     "date": "10/26/1935",
     "opponentId": "NAVY",
-    "score": {"away": 0, "home": 14},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 0,
+      "home": 14
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -62,8 +96,14 @@
       "coordinates": [40.001667, -83.019722]
     },
     "opponentId": "OSU",
-    "score": {"away": 18, "home": 13},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 18,
+      "home": 13
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -71,8 +111,14 @@
     "isHomeGame": true,
     "date": "11/09/1935",
     "opponentId": "NW",
-    "score": {"away": 14, "home": 7},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 14,
+      "home": 7
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -80,8 +126,14 @@
     "isHomeGame": true,
     "date": "11/16/1935",
     "opponentId": "ARMY",
-    "score": {"away": 6, "home": 6},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 6,
+      "home": 6
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   },
   {
@@ -89,8 +141,14 @@
     "isHomeGame": true,
     "date": "11/23/1935",
     "opponentId": "USC",
-    "score": {"away": 13, "home": 20},
-    "linescore": {"away": [], "home": []},
+    "score": {
+      "away": 13,
+      "home": 20
+    },
+    "linescore": {
+      "away": [],
+      "home": []
+    },
     "headCoach": "Elmer Layden"
   }
 ]

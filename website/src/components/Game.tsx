@@ -8,7 +8,7 @@ import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
-import {TVNetworkLogo} from './common/TVNetworkLogo';
+import {TVNetworkLogos} from './common/TVNetworkLogo';
 import {
   AwayGamePrefix,
   DateOpponentDetailsWrapper,
@@ -94,12 +94,16 @@ export const Game: React.FC<{
     lastColumnContent = (
       <TelevisionCoverage
         $network={
-          game.coverage === 'TBD' ? TVNetwork.Unknown : (game.coverage ?? TVNetwork.Unknown)
+          game.coverage === 'TBD'
+            ? TVNetwork.Unknown
+            : Array.isArray(game.coverage) && game.coverage.length > 0
+              ? game.coverage[0]
+              : TVNetwork.Unknown
         }
       >
         <p>{time}</p>
-        {game.coverage && game.coverage !== 'TBD' ? (
-          <TVNetworkLogo network={game.coverage} />
+        {game.coverage && game.coverage !== 'TBD' && Array.isArray(game.coverage) ? (
+          <TVNetworkLogos networks={game.coverage} />
         ) : null}
       </TelevisionCoverage>
     );

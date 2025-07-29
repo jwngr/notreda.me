@@ -6,7 +6,10 @@
     "date": "Sat Aug 31, 2013 18:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "TEM",
-    "score": {"away": 6, "home": 28},
+    "score": {
+      "away": 6,
+      "home": 28
+    },
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -52,13 +55,33 @@
       }
     },
     "espnGameId": 332430087,
-    "linescore": {"away": [0, 6, 0, 0], "home": [14, 7, 7, 0]},
+    "linescore": {
+      "away": [0, 6, 0, 0],
+      "home": [14, 7, 7, 0]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 14}},
-    "weather": {"icon": "clear-day", "temperature": 78},
+    "rankings": {
+      "home": {
+        "ap": 14
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 78
+    },
     "records": {
-      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -73,7 +96,10 @@
       "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
-    "score": {"away": 30, "home": 41},
+    "score": {
+      "away": 30,
+      "home": 41
+    },
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -119,13 +145,36 @@
       }
     },
     "espnGameId": 332500130,
-    "linescore": {"away": [7, 6, 7, 10], "home": [10, 17, 7, 7]},
+    "linescore": {
+      "away": [7, 6, 7, 10],
+      "home": [10, 17, 7, 7]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 14}, "home": {"ap": 17}},
-    "weather": {"icon": "cloudy", "temperature": 69},
+    "rankings": {
+      "away": {
+        "ap": 14
+      },
+      "home": {
+        "ap": 17
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 69
+    },
     "records": {
-      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-0",
+        "home": "2-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-1",
+        "home": "1-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -141,7 +190,10 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {"away": 31, "home": 24},
+    "score": {
+      "away": 31,
+      "home": 24
+    },
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -187,13 +239,33 @@
       }
     },
     "espnGameId": 332572509,
-    "linescore": {"away": [0, 3, 7, 21], "home": [7, 3, 7, 7]},
+    "linescore": {
+      "away": [0, 3, 7, 21],
+      "home": [7, 3, 7, 7]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 21}},
-    "weather": {"icon": "clear-night", "temperature": 54},
+    "rankings": {
+      "away": {
+        "ap": 21
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54
+    },
     "records": {
-      "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-1", "home": "1-0", "away": "1-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-1",
+        "home": "1-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -203,7 +275,10 @@
     "date": "Sat Sep 21, 2013 18:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "MSU",
-    "score": {"away": 13, "home": 17},
+    "score": {
+      "away": 13,
+      "home": 17
+    },
     "stats": {
       "away": {
         "firstDowns": 19,
@@ -249,13 +324,33 @@
       }
     },
     "espnGameId": 332640087,
-    "linescore": {"away": [0, 7, 3, 3], "home": [3, 7, 0, 7]},
+    "linescore": {
+      "away": [0, 7, 3, 3],
+      "home": [3, 7, 0, 7]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 22}},
-    "weather": {"icon": "cloudy", "temperature": 60},
+    "rankings": {
+      "home": {
+        "ap": 22
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 60
+    },
     "records": {
-      "home": {"overall": "3-1", "home": "2-0", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "3-1", "home": "3-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "3-1",
+        "home": "2-0",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-1",
+        "home": "3-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -264,7 +359,10 @@
     "date": "Sat Sep 28, 2013 18:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "OKLA",
-    "score": {"away": 35, "home": 21},
+    "score": {
+      "away": 35,
+      "home": 21
+    },
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -310,13 +408,36 @@
       }
     },
     "espnGameId": 332710087,
-    "linescore": {"away": [14, 7, 6, 8], "home": [7, 0, 7, 7]},
+    "linescore": {
+      "away": [14, 7, 6, 8],
+      "home": [7, 0, 7, 7]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 22}, "away": {"ap": 14}},
-    "weather": {"icon": "clear-day", "temperature": 79},
+    "rankings": {
+      "home": {
+        "ap": 22
+      },
+      "away": {
+        "ap": 14
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 79
+    },
     "records": {
-      "home": {"overall": "3-2", "home": "2-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "4-0", "home": "3-0", "away": "1-0", "neutral": "0-0"}
+      "home": {
+        "overall": "3-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-0",
+        "home": "3-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -334,7 +455,10 @@
       "coordinates": [32.747176, -97.094719]
     },
     "opponentId": "ASU",
-    "score": {"away": 34, "home": 37},
+    "score": {
+      "away": 34,
+      "home": 37
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -380,13 +504,33 @@
       }
     },
     "espnGameId": 332780087,
-    "linescore": {"away": [0, 13, 0, 21], "home": [0, 14, 10, 13]},
+    "linescore": {
+      "away": [0, 13, 0, 21],
+      "home": [0, 14, 10, 13]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 22}},
-    "weather": {"icon": "rain", "temperature": 53},
+    "rankings": {
+      "away": {
+        "ap": 22
+      }
+    },
+    "weather": {
+      "icon": "rain",
+      "temperature": 53
+    },
     "records": {
-      "home": {"overall": "4-2", "home": "2-1", "away": "1-1", "neutral": "1-0"},
-      "away": {"overall": "3-2", "home": "3-0", "away": "0-1", "neutral": "0-1"}
+      "home": {
+        "overall": "4-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "3-0",
+        "away": "0-1",
+        "neutral": "0-1"
+      }
     }
   },
   {
@@ -396,7 +540,10 @@
     "date": "Sat Oct 19, 2013 22:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "USC",
-    "score": {"away": 10, "home": 14},
+    "score": {
+      "away": 10,
+      "home": 14
+    },
     "stats": {
       "away": {
         "firstDowns": 18,
@@ -442,12 +589,28 @@
       }
     },
     "espnGameId": 332920087,
-    "linescore": {"away": [7, 3, 0, 0], "home": [7, 7, 0, 0]},
+    "linescore": {
+      "away": [7, 3, 0, 0],
+      "home": [7, 7, 0, 0]
+    },
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "cloudy", "temperature": 46},
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 46
+    },
     "records": {
-      "home": {"overall": "5-2", "home": "3-1", "away": "1-1", "neutral": "1-0"},
-      "away": {"overall": "4-3", "home": "3-1", "away": "1-2", "neutral": "0-0"}
+      "home": {
+        "overall": "5-2",
+        "home": "3-1",
+        "away": "1-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "4-3",
+        "home": "3-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -463,7 +626,10 @@
       "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {"away": 45, "home": 10},
+    "score": {
+      "away": 45,
+      "home": 10
+    },
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -509,12 +675,28 @@
       }
     },
     "espnGameId": 332992005,
-    "linescore": {"away": [7, 17, 14, 7], "home": [7, 3, 0, 0]},
+    "linescore": {
+      "away": [7, 17, 14, 7],
+      "home": [7, 3, 0, 0]
+    },
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "clear-day", "temperature": 53},
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 53
+    },
     "records": {
-      "home": {"overall": "1-7", "home": "1-4", "away": "0-3", "neutral": "0-0"},
-      "away": {"overall": "6-2", "home": "3-1", "away": "2-1", "neutral": "1-0"}
+      "home": {
+        "overall": "1-7",
+        "home": "1-4",
+        "away": "0-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-2",
+        "home": "3-1",
+        "away": "2-1",
+        "neutral": "1-0"
+      }
     }
   },
   {
@@ -524,7 +706,10 @@
     "date": "Sat Nov 02, 2013 18:30:00 GMT-0400",
     "coverage": "NBC",
     "opponentId": "NAVY",
-    "score": {"away": 34, "home": 38},
+    "score": {
+      "away": 34,
+      "home": 38
+    },
     "stats": {
       "away": {
         "firstDowns": 28,
@@ -570,13 +755,33 @@
       }
     },
     "espnGameId": 333060087,
-    "linescore": {"away": [7, 13, 0, 14], "home": [10, 7, 7, 14]},
+    "linescore": {
+      "away": [7, 13, 0, 14],
+      "home": [10, 7, 7, 14]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"bcs": 25}},
-    "weather": {"icon": "cloudy", "temperature": 45},
+    "rankings": {
+      "home": {
+        "bcs": 25
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 45
+    },
     "records": {
-      "home": {"overall": "7-2", "home": "4-1", "away": "2-1", "neutral": "1-0"},
-      "away": {"overall": "4-4", "home": "3-0", "away": "1-4", "neutral": "0-0"}
+      "home": {
+        "overall": "7-2",
+        "home": "4-1",
+        "away": "2-1",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "4-4",
+        "home": "3-0",
+        "away": "1-4",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -591,7 +796,10 @@
       "coordinates": [40.445773, -80.014982]
     },
     "opponentId": "PITT",
-    "score": {"away": 21, "home": 28},
+    "score": {
+      "away": 21,
+      "home": 28
+    },
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -637,13 +845,34 @@
       }
     },
     "espnGameId": 333130221,
-    "linescore": {"away": [7, 7, 7, 0], "home": [0, 7, 14, 7]},
+    "linescore": {
+      "away": [7, 7, 7, 0],
+      "home": [0, 7, 14, 7]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 24, "bcs": 23}},
-    "weather": {"icon": "cloudy", "temperature": 54},
+    "rankings": {
+      "away": {
+        "ap": 24,
+        "bcs": 23
+      }
+    },
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 54
+    },
     "records": {
-      "home": {"overall": "5-4", "home": "4-1", "away": "1-3", "neutral": "0-0"},
-      "away": {"overall": "7-3", "home": "4-1", "away": "2-2", "neutral": "1-0"}
+      "home": {
+        "overall": "5-4",
+        "home": "4-1",
+        "away": "1-3",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-3",
+        "home": "4-1",
+        "away": "2-2",
+        "neutral": "1-0"
+      }
     }
   },
   {
@@ -653,7 +882,10 @@
     "date": "Sat Nov 23, 2013 18:30:00 GMT-0500",
     "coverage": "NBC",
     "opponentId": "BYU",
-    "score": {"away": 13, "home": 23},
+    "score": {
+      "away": 13,
+      "home": 23
+    },
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -699,12 +931,28 @@
       }
     },
     "espnGameId": 333270087,
-    "linescore": {"away": [7, 0, 6, 0], "home": [14, 3, 3, 3]},
+    "linescore": {
+      "away": [7, 0, 6, 0],
+      "home": [14, 3, 3, 3]
+    },
     "headCoach": "Brian Kelly",
-    "weather": {"icon": "cloudy", "temperature": 22},
+    "weather": {
+      "icon": "cloudy",
+      "temperature": 22
+    },
     "records": {
-      "home": {"overall": "8-3", "home": "5-1", "away": "2-2", "neutral": "1-0"},
-      "away": {"overall": "7-4", "home": "5-1", "away": "2-3", "neutral": "0-0"}
+      "home": {
+        "overall": "8-3",
+        "home": "5-1",
+        "away": "2-2",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "7-4",
+        "home": "5-1",
+        "away": "2-3",
+        "neutral": "0-0"
+      }
     }
   },
   {
@@ -719,7 +967,10 @@
       "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {"away": 20, "home": 27},
+    "score": {
+      "away": 20,
+      "home": 27
+    },
     "stats": {
       "away": {
         "firstDowns": 19,
@@ -765,13 +1016,38 @@
       }
     },
     "espnGameId": 333340024,
-    "linescore": {"away": [3, 3, 14, 0], "home": [7, 7, 10, 3]},
+    "linescore": {
+      "away": [3, 3, 14, 0],
+      "home": [7, 7, 10, 3]
+    },
     "headCoach": "Brian Kelly",
-    "rankings": {"away": {"ap": 25, "bcs": 25}, "home": {"ap": 8, "bcs": 8}},
-    "weather": {"icon": "clear-night", "temperature": 54},
+    "rankings": {
+      "away": {
+        "ap": 25,
+        "bcs": 25
+      },
+      "home": {
+        "ap": 8,
+        "bcs": 8
+      }
+    },
+    "weather": {
+      "icon": "clear-night",
+      "temperature": 54
+    },
     "records": {
-      "home": {"overall": "10-2", "home": "7-0", "away": "3-2", "neutral": "0-0"},
-      "away": {"overall": "8-4", "home": "5-1", "away": "2-3", "neutral": "1-0"}
+      "home": {
+        "overall": "10-2",
+        "home": "7-0",
+        "away": "3-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-4",
+        "home": "5-1",
+        "away": "2-3",
+        "neutral": "1-0"
+      }
     }
   },
   {
@@ -789,7 +1065,10 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "RUTG",
-    "score": {"away": 16, "home": 29},
+    "score": {
+      "away": 16,
+      "home": 29
+    },
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -835,14 +1114,34 @@
       }
     },
     "espnGameId": 333620087,
-    "linescore": {"away": [10, 3, 0, 3], "home": [10, 3, 3, 13]},
+    "linescore": {
+      "away": [10, 3, 0, 3],
+      "home": [10, 3, 3, 13]
+    },
     "nickname": "Pinstripe Bowl",
     "headCoach": "Brian Kelly",
-    "rankings": {"home": {"ap": 25}},
-    "weather": {"icon": "clear-day", "temperature": 54},
+    "rankings": {
+      "home": {
+        "ap": 25
+      }
+    },
+    "weather": {
+      "icon": "clear-day",
+      "temperature": 54
+    },
     "records": {
-      "home": {"overall": "9-4", "home": "5-1", "away": "2-3", "neutral": "2-0"},
-      "away": {"overall": "6-7", "home": "5-2", "away": "1-4", "neutral": "0-1"}
+      "home": {
+        "overall": "9-4",
+        "home": "5-1",
+        "away": "2-3",
+        "neutral": "2-0"
+      },
+      "away": {
+        "overall": "6-7",
+        "home": "5-2",
+        "away": "1-4",
+        "neutral": "0-1"
+      }
     }
   }
 ]

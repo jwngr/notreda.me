@@ -21,9 +21,21 @@
     },
     "opponentId": "GT"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "FSU"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "LOU"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "WAKE"},
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "FSU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "LOU"
+  },
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "WAKE"
+  },
   {
     "isHomeGame": false,
     "date": "TBD",
@@ -46,5 +58,9 @@
     },
     "opponentId": "NAVY"
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
+  {
+    "isHomeGame": true,
+    "date": "TBD",
+    "opponentId": "CLEM"
+  }
 ]
