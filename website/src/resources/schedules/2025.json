@@ -1,7 +1,8 @@
 [
   {
     "isHomeGame": false,
-    "date": "Sun Aug 31 2025 16:30:00 GMT-0700",
+    "date": "Sun Aug 31 2025 19:30:00 GMT-0400",
+    "coverage": "ABC",
     "location": {
       "city": "Miami Gardens",
       "state": "FL",
@@ -10,11 +11,22 @@
     },
     "opponentId": "MIAMI"
   },
-  {"isHomeGame": true, "date": "09/13/2025", "opponentId": "TA&M"},
-  {"isHomeGame": true, "date": "09/20/2025", "opponentId": "PUR"},
+  {
+    "isHomeGame": true,
+    "date": "Sat Sep 13 2025 19:30:00 GMT-0400",
+    "coverage": "NBC",
+    "opponentId": "TA&M"
+  },
+  {
+    "isHomeGame": true,
+    "date": "Sat Sep 20 2025 15:30:00 GMT-0400",
+    "coverage": "NBC",
+    "opponentId": "PUR"
+  },
   {
     "isHomeGame": false,
-    "date": "09/27/2025",
+    "date": "Sat Sep 27 2025 12:00:00 GMT-0400",
+    "coverage": "ABC",
     "location": {
       "city": "Fayetteville",
       "state": "AR",
@@ -23,12 +35,28 @@
     },
     "opponentId": "ARK"
   },
-  {"isHomeGame": true, "date": "10/04/2025", "opponentId": "BOIS"},
-  {"isHomeGame": true, "date": "10/11/2025", "opponentId": "NCST"},
-  {"isHomeGame": true, "date": "10/18/2025", "opponentId": "USC"},
+  {
+    "isHomeGame": true,
+    "date": "Sat Oct 04 2025 15:30:00 GMT-0400",
+    "coverage": "NBC",
+    "opponentId": "BOIS"
+  },
+  {
+    "isHomeGame": true,
+    "date": "Sat Oct 11 2025 15:30:00 GMT-0400",
+    "coverage": "PEACOCK",
+    "opponentId": "NCST"
+  },
+  {
+    "isHomeGame": true,
+    "date": "Sat Oct 18 2025 19:30:00 GMT-0400",
+    "coverage": "NBC",
+    "opponentId": "USC"
+  },
   {
     "isHomeGame": false,
     "date": "11/01/2025",
+    "coverage": "TBD",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -37,10 +65,16 @@
     },
     "opponentId": "BC"
   },
-  {"isHomeGame": true, "date": "11/08/2025", "opponentId": "NAVY"},
+  {
+    "isHomeGame": true,
+    "date": "Sat Nov 08 2025 19:30:00 GMT-0500",
+    "coverage": "NBC",
+    "opponentId": "NAVY"
+  },
   {
     "isHomeGame": false,
     "date": "11/15/2025",
+    "coverage": "TBD",
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -49,10 +83,16 @@
     },
     "opponentId": "PITT"
   },
-  {"isHomeGame": true, "date": "11/22/2025", "opponentId": "SYR"},
+  {
+    "isHomeGame": true,
+    "date": "Sat Nov 22 2025 15:30:00 GMT-0500",
+    "coverage": "NBC",
+    "opponentId": "SYR"
+  },
   {
     "isHomeGame": false,
     "date": "11/29/2025",
+    "coverage": "TBD",
     "location": {
       "city": "Stanford",
       "state": "CA",
