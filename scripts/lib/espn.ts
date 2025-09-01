@@ -233,7 +233,7 @@ export const fetchStatsForGame = async (
   ]);
 
   // If the game is not over, return early with no data.
-  const winnerIcon = $matchup('.Gamestrip__WinnerIcon');
+  const winnerIcon = $matchup('.mLASH.VZTD.rEPuv.jIRH.xWwgP.YphCQ ');
   if (!winnerIcon.length) {
     logger.error('Skipped fetching stats for game since it is not over', {gameId});
     return null;

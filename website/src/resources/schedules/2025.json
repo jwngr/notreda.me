@@ -3,25 +3,92 @@
     "isHomeGame": false,
     "date": "Sun Aug 31 2025 19:30:00 GMT-0400",
     "coverage": "ABC",
+    "espnGameId": 401754522,
     "location": {
       "city": "Miami Gardens",
       "state": "FL",
       "stadium": "Hard Rock Stadium",
       "coordinates": [25.957783, -80.238978]
     },
-    "opponentId": "MIAMI"
+    "opponentId": "MIAMI",
+    "records": {
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "highlightsYouTubeVideoId": "dQq7I5f1ML0",
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 0,
+        "fourthDownConversions": 0,
+        "totalYards": 315,
+        "passYards": 221,
+        "passCompletions": 19,
+        "passAttempts": 30,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 1,
+        "rushYards": 94,
+        "rushAttempts": 27,
+        "yardsPerRush": 3.5,
+        "penalties": 5,
+        "penaltyYards": 30,
+        "possession": "26:03",
+        "fumblesLost": 1,
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 14,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 1,
+        "totalYards": 332,
+        "passYards": 205,
+        "passCompletions": 20,
+        "passAttempts": 31,
+        "yardsPerPass": 6.6,
+        "interceptionsThrown": 0,
+        "rushYards": 127,
+        "rushAttempts": 37,
+        "yardsPerRush": 3.4,
+        "penalties": 6,
+        "penaltyYards": 51,
+        "possession": "33:57",
+        "fumblesLost": 0,
+        "fumbles": 0
+      }
+    },
+    "score": {"home": 27, "away": 24},
+    "linescore": {"away": [0, 7, 0, 17], "home": [0, 14, 7, 6]},
+    "result": "L",
+    "rankings": {"away": {"ap": 6, "coaches": 5}, "home": {"ap": 10, "coaches": 10}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 13 2025 19:30:00 GMT-0400",
     "coverage": "NBC",
-    "opponentId": "TA&M"
+    "opponentId": "TA&M",
+    "espnGameId": 401752707,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}, "away": {"ap": 19}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 20 2025 15:30:00 GMT-0400",
     "coverage": "NBC",
-    "opponentId": "PUR"
+    "opponentId": "PUR",
+    "espnGameId": 401752848,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": false,
@@ -33,25 +100,49 @@
       "stadium": "Donald W. Reynolds Razorback Stadium",
       "coordinates": [36.068066, -94.179136]
     },
-    "opponentId": "ARK"
+    "opponentId": "ARK",
+    "espnGameId": 401752717,
+    "records": {
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "rankings": {"away": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 04 2025 15:30:00 GMT-0400",
     "coverage": "NBC",
-    "opponentId": "BOIS"
+    "opponentId": "BOIS",
+    "espnGameId": 401757165,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}, "away": {"ap": 25, "coaches": 25}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 11 2025 15:30:00 GMT-0400",
     "coverage": "PEACOCK",
-    "opponentId": "NCST"
+    "opponentId": "NCST",
+    "espnGameId": 401754562,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 18 2025 19:30:00 GMT-0400",
     "coverage": "NBC",
-    "opponentId": "USC"
+    "opponentId": "USC",
+    "espnGameId": 401752871,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": false,
@@ -63,13 +154,25 @@
       "stadium": "Alumni Stadium",
       "coordinates": [42.335, -71.166389]
     },
-    "opponentId": "BC"
+    "opponentId": "BC",
+    "espnGameId": 401754583,
+    "records": {
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "rankings": {"away": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 08 2025 19:30:00 GMT-0500",
     "coverage": "NBC",
-    "opponentId": "NAVY"
+    "opponentId": "NAVY",
+    "espnGameId": 401757166,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": false,
@@ -81,13 +184,25 @@
       "stadium": "Acrisure Stadium",
       "coordinates": [40.445773, -80.014982]
     },
-    "opponentId": "PITT"
+    "opponentId": "PITT",
+    "espnGameId": 401754597,
+    "records": {
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "rankings": {"away": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 22 2025 15:30:00 GMT-0500",
     "coverage": "NBC",
-    "opponentId": "SYR"
+    "opponentId": "SYR",
+    "espnGameId": 401754604,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-0", "neutral": "0-1"}
+    },
+    "rankings": {"home": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": false,
@@ -99,6 +214,12 @@
       "stadium": "Stanford Stadium",
       "coordinates": [37.434444, -122.161111]
     },
-    "opponentId": "STAN"
+    "opponentId": "STAN",
+    "espnGameId": 401754614,
+    "records": {
+      "home": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+    },
+    "rankings": {"away": {"ap": 6, "coaches": 5}}
   }
 ]
