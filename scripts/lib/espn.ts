@@ -79,6 +79,79 @@ const _getEspnTeamScheduleUrl = (season: number, espnTeamId: number): string => 
   return `http://www.espn.com/college-football/team/schedule/_/id/${espnTeamId}/season/${season}`;
 };
 
+/**
+ * Attempts to extract a game's linescore table from the provided ESPN page by
+ * locating a table whose header looks like: Team | 1 | 2 | 3 | 4 | [OT*] | T.
+ * This avoids relying on brittle, minified CSS class names.
+ */
+const _tryExtractLinescoreFrom = ($: CheerioAPI): GameLinescore | null => {
+  const normalize = (text: string) => text.replace(/\s+/g, ' ').trim();
+  const isTotalHeader = (text: string) => /^(T|TOT|TOTAL)$/i.test(text);
+  const isPeriodHeader = (text: string) => {
+    const t = text.toUpperCase();
+    return /^\d+$/.test(t) || t === 'OT' || /^\d+OT$/.test(t) || /^OT\d+$/.test(t);
+  };
+
+  const $tables = $('table');
+
+  for (let i = 0; i < $tables.length; i += 1) {
+    const $table = $tables.eq(i);
+
+    // Determine header cells for this table.
+    let $headerCells = $table.find('thead tr').first().children('th,td');
+    if ($headerCells.length === 0) {
+      $headerCells = $table.find('tr').first().children('th,td');
+    }
+
+    const headerTexts = $headerCells
+      .map((_, cell) => normalize($(cell).text()))
+      .get()
+      .filter((t) => t.length > 0);
+
+    if (headerTexts.length < 4) continue;
+
+    const lastHeader = headerTexts[headerTexts.length - 1];
+    const middleHeaders = headerTexts.slice(1, -1);
+    const looksLikeLinescoreHeader =
+      isTotalHeader(lastHeader) && middleHeaders.filter(isPeriodHeader).length >= 2;
+    if (!looksLikeLinescoreHeader) continue;
+
+    // Extract two team rows from the body (away first, then home) and capture the
+    // period scores, skipping first (team) and last (total) cells.
+    let $rows = $table.find('tbody tr');
+    if ($rows.length === 0) {
+      // Some ESPN tables omit <tbody>. In that case, skip the header row.
+      $rows = $table.find('tr').slice(1);
+    }
+    console.log('LINESCORE ROWS LENGTH:', $rows.length);
+
+    const parsed: number[][] = [];
+    $rows.each((_, row) => {
+      const $cells = $(row).children('td,th');
+      if ($cells.length < 4) return; // Not enough columns to be a linescore row
+
+      const values: number[] = [];
+      for (let j = 1; j < $cells.length - 1; j += 1) {
+        const cellText = normalize($($cells[j]).text());
+        const n = Number(cellText);
+        if (!Number.isNaN(n)) values.push(n);
+      }
+
+      console.log('LINESCORE CELL VALUES:', values);
+
+      if (values.length >= 2) parsed.push(values);
+    });
+
+    console.log('LINESCORE PARSED:', parsed);
+
+    if (parsed.length >= 2) {
+      return {away: parsed[0], home: parsed[1]};
+    }
+  }
+
+  return null;
+};
+
 const _getPollRankingsForWeek = (
   $: CheerioAPI,
   weekIndex: number
@@ -232,10 +305,22 @@ export const fetchStatsForGame = async (
     Scraper.get(`http://www.espn.com/college-football/boxscore?gameId=${gameId}`),
   ]);
 
-  // If the game is not over, return early with no data.
-  const winnerIcon = $matchup('.mLASH.VZTD.rEPuv.jIRH.xWwgP.YphCQ ');
-  if (!winnerIcon.length) {
-    logger.error('Skipped fetching stats for game since it is not over', {gameId});
+  // Determine if we can extract a reliable linescore. If this fails, the game is
+  // likely not final yet or ESPN markup has changed significantly.
+  const extractedFromMatchup = _tryExtractLinescoreFrom($matchup);
+  const extractedFromBoxscore = extractedFromMatchup ?? _tryExtractLinescoreFrom($boxscore);
+  const extractedLinescore = extractedFromMatchup ?? extractedFromBoxscore;
+
+  console.log('EXTRACTED LINESCORE:', extractedLinescore);
+  if (
+    !extractedLinescore ||
+    extractedLinescore.home.length === 0 ||
+    extractedLinescore.away.length === 0
+  ) {
+    logger.error(
+      'Skipped fetching stats for game: no linescore found (not final or ESPN markup changed)',
+      {gameId}
+    );
     return null;
   }
 
@@ -353,24 +438,8 @@ export const fetchStatsForGame = async (
     }
   });
 
-  // Compute line score.
-  const linescore: GameLinescore = {away: [], home: []};
-  $matchup('.Gamestrip__Overview')
-    .find('tbody')
-    .find('tr')
-    .each((_, row) => {
-      const $rowCells = $matchup(row).children('td');
-
-      const homeOrAway = linescore.away.length === 0 ? 'away' : 'home';
-
-      $rowCells.each((index, $rowCell) => {
-        // Skip first (team abbreviation) and last (total score) cells
-        if (index > 0 && index !== $rowCells.length - 1) {
-          const score = Number($matchup($rowCell).text().trim());
-          linescore[homeOrAway].push(score);
-        }
-      });
-    });
+  // Use the resiliently extracted linescore from above.
+  const linescore: GameLinescore = extractedLinescore;
 
   return {
     stats: {away: awayStats as TeamStats, home: homeStats as TeamStats},
