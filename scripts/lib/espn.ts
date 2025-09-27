@@ -123,7 +123,6 @@ const _tryExtractLinescoreFrom = ($: CheerioAPI): GameLinescore | null => {
       // Some ESPN tables omit <tbody>. In that case, skip the header row.
       $rows = $table.find('tr').slice(1);
     }
-    console.log('LINESCORE ROWS LENGTH:', $rows.length);
 
     const parsed: number[][] = [];
     $rows.each((_, row) => {
@@ -137,12 +136,8 @@ const _tryExtractLinescoreFrom = ($: CheerioAPI): GameLinescore | null => {
         if (!Number.isNaN(n)) values.push(n);
       }
 
-      console.log('LINESCORE CELL VALUES:', values);
-
       if (values.length >= 2) parsed.push(values);
     });
-
-    console.log('LINESCORE PARSED:', parsed);
 
     if (parsed.length >= 2) {
       return {away: parsed[0], home: parsed[1]};
@@ -311,7 +306,6 @@ export const fetchStatsForGame = async (
   const extractedFromBoxscore = extractedFromMatchup ?? _tryExtractLinescoreFrom($boxscore);
   const extractedLinescore = extractedFromMatchup ?? extractedFromBoxscore;
 
-  console.log('EXTRACTED LINESCORE:', extractedLinescore);
   if (
     !extractedLinescore ||
     extractedLinescore.home.length === 0 ||
