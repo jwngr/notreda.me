@@ -254,6 +254,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
     width: auto;
     font-size: 16px;
     font-family: 'Inter', serif;
+    white-space: nowrap;
   }
 
   img {
