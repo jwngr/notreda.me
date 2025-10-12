@@ -355,15 +355,15 @@
         "thirdDownConversions": 6,
         "fourthDownAttempts": 3,
         "fourthDownConversions": 1,
-        "totalYards": 485,
+        "totalYards": 487,
         "passYards": 342,
         "passCompletions": 19,
-        "passAttempts": 32,
-        "yardsPerPass": 10.7,
+        "passAttempts": 31,
+        "yardsPerPass": 11,
         "interceptionsThrown": 1,
-        "rushYards": 143,
-        "rushAttempts": 39,
-        "yardsPerRush": 3.7,
+        "rushYards": 145,
+        "rushAttempts": 37,
+        "yardsPerRush": 3.9,
         "penalties": 6,
         "penaltyYards": 55,
         "possession": "31:13",
@@ -384,9 +384,9 @@
     "espnGameId": 401752871,
     "records": {
       "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "4-1", "home": "3-0", "away": "1-1", "neutral": "0-0"}
+      "away": {"overall": "5-1", "home": "4-0", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 16, "coaches": 16}}
+    "rankings": {"home": {"ap": 13, "coaches": 15}, "away": {"ap": 20, "coaches": 21}}
   },
   {
     "isHomeGame": false,
@@ -401,10 +401,10 @@
     "opponentId": "BC",
     "espnGameId": 401754583,
     "records": {
-      "home": {"overall": "1-4", "home": "1-1", "away": "0-3", "neutral": "0-0"},
+      "home": {"overall": "1-5", "home": "1-2", "away": "0-3", "neutral": "0-0"},
       "away": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 16, "coaches": 16}}
+    "rankings": {"away": {"ap": 13, "coaches": 15}}
   },
   {
     "isHomeGame": true,
@@ -414,9 +414,9 @@
     "espnGameId": 401757166,
     "records": {
       "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "5-0", "home": "4-0", "away": "1-0", "neutral": "0-0"}
+      "away": {"overall": "6-0", "home": "4-0", "away": "2-0", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 16, "coaches": 16}}
+    "rankings": {"home": {"ap": 13, "coaches": 15}}
   },
   {
     "isHomeGame": false,
@@ -434,7 +434,7 @@
       "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
       "away": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 16, "coaches": 16}}
+    "rankings": {"away": {"ap": 13, "coaches": 15}}
   },
   {
     "isHomeGame": true,
@@ -446,7 +446,7 @@
       "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
       "away": {"overall": "3-3", "home": "2-1", "away": "1-1", "neutral": "0-1"}
     },
-    "rankings": {"home": {"ap": 16, "coaches": 16}}
+    "rankings": {"home": {"ap": 13, "coaches": 15}}
   },
   {
     "isHomeGame": false,
@@ -464,6 +464,6 @@
       "home": {"overall": "2-4", "home": "2-0", "away": "0-4", "neutral": "0-0"},
       "away": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 16, "coaches": 16}}
+    "rankings": {"away": {"ap": 13, "coaches": 15}}
   }
 ]
