@@ -5,6 +5,7 @@ on:
     paths:
       - 'website/**'
       - '.prettierrc'
+      - '.github/workflows/website-ci-push.yml'
 
 permissions:
   contents: read

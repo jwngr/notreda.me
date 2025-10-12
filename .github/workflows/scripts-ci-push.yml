@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/**'
       - '.prettierrc'
+      - '.github/workflows/scripts-ci-push.yml'
 
 permissions:
   contents: read

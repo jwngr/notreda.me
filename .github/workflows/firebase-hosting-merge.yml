@@ -9,6 +9,7 @@ on:
       - '.firebaserc'
       - '.prettierrc'
       - 'firebase.json'
+      - '.github/workflows/firebase-hosting-merge.yml'
 
 permissions:
   contents: read
