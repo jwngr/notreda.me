@@ -1,9 +1,14 @@
 name: Run website CI on push
+
 on:
   push:
     paths:
       - 'website/**'
       - '.prettierrc'
+
+permissions:
+  contents: read
+
 jobs:
   website-ci-push:
     runs-on: ubuntu-latest

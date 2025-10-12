@@ -1,4 +1,5 @@
 name: Preview staging website on PR
+
 on:
   pull_request:
     paths:
@@ -6,10 +7,12 @@ on:
       - '.firebaserc'
       - '.prettierrc'
       - 'firebase.json'
+
 permissions:
   checks: write
   contents: read
   pull-requests: write
+
 jobs:
   deploy_hosting_stag:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
