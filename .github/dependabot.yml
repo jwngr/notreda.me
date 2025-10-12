@@ -1,13 +1,26 @@
-# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# Docs: https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference
 
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directories:
-      - "/website"
-      - "/scripts"
+    directories: "/website"
+    schedule:
+      interval: "monthly"
+    groups:
+      major:
+        update-types: ['major']
+      minor-and-patch:
+        update-types: ['minor', 'patch']
+
+  - package-ecosystem: "npm"
+    directories: "/scripts"
     schedule:
       interval: "monthly"
     ignore:
       # Ignore packages which are very outdated and need to be updated manually.
       - dependency-name: "puppeteer"
+    groups:
+      major:
+        update-types: ['major']
+      minor-and-patch:
+        update-types: ['minor', 'patch']
