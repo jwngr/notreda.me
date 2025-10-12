@@ -1,9 +1,15 @@
 name: Run scripts CI on push
+
 on:
   push:
     paths:
       - 'scripts/**'
       - '.prettierrc'
+      - '.github/workflows/scripts-ci-push.yml'
+
+permissions:
+  contents: read
+
 jobs:
   scripts-ci-push:
     runs-on: ubuntu-latest

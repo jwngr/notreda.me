@@ -1,9 +1,15 @@
 name: Run website CI on push
+
 on:
   push:
     paths:
       - 'website/**'
       - '.prettierrc'
+      - '.github/workflows/website-ci-push.yml'
+
+permissions:
+  contents: read
+
 jobs:
   website-ci-push:
     runs-on: ubuntu-latest
