@@ -439,8 +439,8 @@
   },
   {
     "isHomeGame": false,
-    "date": "11/01/2025",
-    "coverage": "TBD",
+    "date": "Sat Nov 01 2025 15:30:00 GMT-0400",
+    "coverage": "ESPN",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -450,10 +450,10 @@
     "opponentId": "BC",
     "espnGameId": 401754583,
     "records": {
-      "home": {"overall": "1-6", "home": "1-3", "away": "0-3", "neutral": "0-0"},
+      "home": {"overall": "1-7", "home": "1-3", "away": "0-4", "neutral": "0-0"},
       "away": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 12, "coaches": 13}}
+    "rankings": {"away": {"ap": 12, "coaches": 12}}
   },
   {
     "isHomeGame": true,
@@ -463,9 +463,9 @@
     "espnGameId": 401757166,
     "records": {
       "home": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "6-0", "home": "4-0", "away": "2-0", "neutral": "0-0"}
+      "away": {"overall": "7-0", "home": "5-0", "away": "2-0", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 12, "coaches": 13}}
+    "rankings": {"home": {"ap": 12, "coaches": 12}, "away": {"coaches": 23}}
   },
   {
     "isHomeGame": false,
@@ -480,10 +480,10 @@
     "opponentId": "PITT",
     "espnGameId": 401754597,
     "records": {
-      "home": {"overall": "5-2", "home": "3-1", "away": "2-1", "neutral": "0-0"},
+      "home": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"},
       "away": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 12, "coaches": 13}}
+    "rankings": {"away": {"ap": 12, "coaches": 12}}
   },
   {
     "isHomeGame": true,
@@ -493,9 +493,9 @@
     "espnGameId": 401754604,
     "records": {
       "home": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "3-4", "home": "2-2", "away": "1-1", "neutral": "0-1"}
+      "away": {"overall": "3-5", "home": "2-2", "away": "1-2", "neutral": "0-1"}
     },
-    "rankings": {"home": {"ap": 12, "coaches": 13}}
+    "rankings": {"home": {"ap": 12, "coaches": 12}}
   },
   {
     "isHomeGame": false,
@@ -510,9 +510,9 @@
     "opponentId": "STAN",
     "espnGameId": 401754614,
     "records": {
-      "home": {"overall": "3-4", "home": "3-0", "away": "0-4", "neutral": "0-0"},
+      "home": {"overall": "3-5", "home": "3-0", "away": "0-5", "neutral": "0-0"},
       "away": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 12, "coaches": 13}}
+    "rankings": {"away": {"ap": 12, "coaches": 12}}
   }
 ]
