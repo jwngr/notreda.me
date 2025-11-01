@@ -20,7 +20,7 @@
     "eslint": "^9.37.0",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.0"
+    "typescript-eslint": "^8.46.2"
   },
   "scripts": {
     "lint": "prettier --check '**/*.{js,ts,json}' && echo 'Running ESLint...' && eslint . --report-unused-disable-directives --max-warnings 0 && echo 'All files pass linting!' && echo 'Running tsc...' && tsc --noEmit && echo 'All files pass type checking!'",
