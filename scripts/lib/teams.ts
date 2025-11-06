@@ -19,10 +19,16 @@ export class Teams {
   static getByName(teamName: string): TeamWithId {
     const team = Object.entries(ALL_TEAMS)
       .map(([teamId, teamData]) => ({id: teamId, ...teamData}) as TeamWithId)
-      .find(({name}) => name === teamName || name === this.normalizeName(teamName));
+      .find(
+        ({name, shortName}) =>
+          name === teamName ||
+          shortName === teamName ||
+          name === this.normalizeName(teamName) ||
+          shortName === this.normalizeName(teamName)
+      );
 
     if (!team) {
-      throw new Error(`No team exists with the name "${teamName}"`);
+      throw new Error(`No team exists with the name "${teamName}" `);
     }
 
     return team;
