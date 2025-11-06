@@ -28,7 +28,7 @@ export class Teams {
       );
 
     if (!team) {
-      throw new Error(`No team exists with the name "${teamName}" `);
+      throw new Error(`No team exists with the name "${teamName}"`);
     }
 
     return team;

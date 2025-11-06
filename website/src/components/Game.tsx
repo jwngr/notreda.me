@@ -128,7 +128,7 @@ export const Game: React.FC<{
   }
 
   const opponent = Teams.getTeam(game.opponentId);
-  console.log('game:', game);
+
   const opponentNameContent = (
     <OpponentName>
       {isMobile
