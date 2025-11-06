@@ -14,6 +14,17 @@
   },
   {
     "isHomeGame": false,
+    "date": "10/28/2028",
+    "location": {
+      "city": "Auburn",
+      "state": "AL",
+      "stadium": "Jordan-Hare Stadium",
+      "coordinates": [32.602125, -85.489222]
+    },
+    "opponentId": "AUB"
+  },
+  {
+    "isHomeGame": false,
     "date": "11/04/2028",
     "location": {
       "city": "Blacksburg",
@@ -24,11 +35,9 @@
     "opponentId": "VT"
   },
   {"isHomeGame": true, "date": "11/11/2028", "opponentId": "CLEM"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "BC"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
   {
     "isHomeGame": false,
-    "date": "TBD",
+    "date": "11/18/2028",
     "location": {
       "city": "Annapolis",
       "state": "MD",
@@ -37,6 +46,8 @@
     },
     "opponentId": "NAVY"
   },
+  {"isHomeGame": true, "date": "TBD", "opponentId": "BC"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
   {
     "isHomeGame": false,
     "date": "TBD",

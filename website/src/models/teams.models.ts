@@ -58,6 +58,7 @@ export enum TeamId {
   ARK = 'ARK',
   ARMY = 'ARMY',
   ASU = 'ASU',
+  AUB = 'AUB',
   BALL = 'BALL',
   BAMA = 'BAMA',
   BAY = 'BAY',

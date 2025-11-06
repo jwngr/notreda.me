@@ -12,6 +12,7 @@
     },
     "opponentId": "WIS"
   },
+  {"isHomeGame": true, "date": "09/18/2026", "opponentId": "RICE"},
   {"isHomeGame": true, "date": "09/19/2026", "opponentId": "MSU"},
   {
     "isHomeGame": false,
@@ -59,16 +60,5 @@
     "opponentId": "FSU"
   },
   {"isHomeGame": true, "date": "TBD", "opponentId": "SMU"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
-  {
-    "isHomeGame": false,
-    "date": "11/28/2026",
-    "location": {
-      "city": "Los Angeles",
-      "state": "CA",
-      "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
-    },
-    "opponentId": "USC"
-  }
+  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"}
 ]
