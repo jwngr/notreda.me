@@ -3,7 +3,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directories: "/website"
+    directories: ["/website"]
     schedule:
       interval: "monthly"
     groups:
@@ -13,7 +13,7 @@ updates:
         update-types: ['minor', 'patch']
 
   - package-ecosystem: "npm"
-    directories: "/scripts"
+    directories: ["/scripts"]
     schedule:
       interval: "monthly"
     ignore:
