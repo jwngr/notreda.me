@@ -24,7 +24,7 @@ npm run format         # Auto-format code with Prettier
 npm run analyze        # Analyze bundle size with source-map-explorer
 
 # Dependencies
-npm run update-deps    # Update dependencies (excluding react-router-dom)
+npm run update-deps    # Update dependencies
 ```
 
 ### Scripts (Data Processing)
