@@ -511,10 +511,58 @@
     "opponentId": "NAVY",
     "espnGameId": 401757166,
     "records": {
-      "home": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"},
+      "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
       "away": {"overall": "7-1", "home": "5-0", "away": "2-1", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 10, "coaches": 10}}
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 13,
+        "thirdDownAttempts": 11,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 0,
+        "totalYards": 228,
+        "passYards": 22,
+        "passCompletions": 3,
+        "passAttempts": 10,
+        "yardsPerPass": 2.2,
+        "interceptionsThrown": 0,
+        "rushYards": 206,
+        "rushAttempts": 45,
+        "yardsPerRush": 4.6,
+        "penalties": 6,
+        "penaltyYards": 57,
+        "possession": "29:23",
+        "fumblesLost": 0,
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 23,
+        "thirdDownAttempts": 10,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 2,
+        "fourthDownConversions": 2,
+        "totalYards": 502,
+        "passYards": 253,
+        "passCompletions": 16,
+        "passAttempts": 19,
+        "yardsPerPass": 13.3,
+        "interceptionsThrown": 0,
+        "rushYards": 249,
+        "rushAttempts": 38,
+        "yardsPerRush": 6.6,
+        "penalties": 0,
+        "penaltyYards": 0,
+        "possession": "30:37",
+        "fumblesLost": 0,
+        "fumbles": 0
+      }
+    },
+    "score": {"home": 49, "away": 10},
+    "linescore": {"away": [0, 10, 0, 0], "home": [7, 14, 21, 7]},
+    "result": "W",
+    "rankings": {"home": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
   },
   {
     "isHomeGame": false,
@@ -530,9 +578,9 @@
     "espnGameId": 401754597,
     "records": {
       "home": {"overall": "7-2", "home": "4-1", "away": "3-1", "neutral": "0-0"},
-      "away": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"}
+      "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 10, "coaches": 10}}
+    "rankings": {"away": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}, "home": {"cfbPlayoff": 24}}
   },
   {
     "isHomeGame": true,
@@ -541,10 +589,10 @@
     "opponentId": "SYR",
     "espnGameId": 401754604,
     "records": {
-      "home": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "3-6", "home": "2-3", "away": "1-2", "neutral": "0-1"}
+      "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
+      "away": {"overall": "3-7", "home": "2-3", "away": "1-3", "neutral": "0-1"}
     },
-    "rankings": {"home": {"ap": 10, "coaches": 10}}
+    "rankings": {"home": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
   },
   {
     "isHomeGame": false,
@@ -559,9 +607,9 @@
     "opponentId": "STAN",
     "espnGameId": 401754614,
     "records": {
-      "home": {"overall": "3-6", "home": "3-1", "away": "0-5", "neutral": "0-0"},
-      "away": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"}
+      "home": {"overall": "3-7", "home": "3-1", "away": "0-6", "neutral": "0-0"},
+      "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 10, "coaches": 10}}
+    "rankings": {"away": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
   }
 ]
