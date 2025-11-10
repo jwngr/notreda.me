@@ -510,9 +510,10 @@
     "coverage": "NBC",
     "opponentId": "NAVY",
     "espnGameId": 401757166,
+    "highlightsYouTubeVideoId": "De8Dxq1QY5U",
     "records": {
       "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "7-1", "home": "5-0", "away": "2-1", "neutral": "0-0"}
+      "away": {"overall": "7-2", "home": "5-0", "away": "2-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -562,7 +563,7 @@
     "score": {"home": 49, "away": 10},
     "linescore": {"away": [0, 10, 0, 0], "home": [7, 14, 21, 7]},
     "result": "W",
-    "rankings": {"home": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
+    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
   },
   {
     "isHomeGame": false,
@@ -580,7 +581,10 @@
       "home": {"overall": "7-2", "home": "4-1", "away": "3-1", "neutral": "0-0"},
       "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}, "home": {"cfbPlayoff": 24}}
+    "rankings": {
+      "away": {"ap": 9, "coaches": 9, "cfbPlayoff": 10},
+      "home": {"ap": 23, "coaches": 23, "cfbPlayoff": 24}
+    }
   },
   {
     "isHomeGame": true,
@@ -592,7 +596,7 @@
       "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
       "away": {"overall": "3-7", "home": "2-3", "away": "1-3", "neutral": "0-1"}
     },
-    "rankings": {"home": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
+    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
   },
   {
     "isHomeGame": false,
@@ -610,6 +614,6 @@
       "home": {"overall": "3-7", "home": "3-1", "away": "0-6", "neutral": "0-0"},
       "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 10, "coaches": 10, "cfbPlayoff": 10}}
+    "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
   }
 ]
