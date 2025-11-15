@@ -567,7 +567,7 @@
   },
   {
     "isHomeGame": false,
-    "date": "Sat Nov 15 2025 15:00:00 GMT-0500",
+    "date": "Sat Nov 15 2025 12:00:00 GMT-0500",
     "coverage": "ABC / ESPN",
     "location": {
       "city": "Pittsburgh",
@@ -578,12 +578,60 @@
     "opponentId": "PITT",
     "espnGameId": 401754597,
     "records": {
-      "home": {"overall": "7-2", "home": "4-1", "away": "3-1", "neutral": "0-0"},
-      "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
+      "home": {"overall": "7-3", "home": "4-2", "away": "3-1", "neutral": "0-0"},
+      "away": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"}
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 3,
+        "totalYards": 387,
+        "passYards": 212,
+        "passCompletions": 21,
+        "passAttempts": 32,
+        "yardsPerPass": 6.6,
+        "interceptionsThrown": 2,
+        "rushYards": 175,
+        "rushAttempts": 36,
+        "yardsPerRush": 4.9,
+        "penalties": 8,
+        "penaltyYards": 84,
+        "possession": "35:17",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 0,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 2,
+        "totalYards": 219,
+        "passYards": 149,
+        "passCompletions": 19,
+        "passAttempts": 39,
+        "yardsPerPass": 3.8,
+        "interceptionsThrown": 1,
+        "rushYards": 70,
+        "rushAttempts": 25,
+        "yardsPerRush": 2.8,
+        "penalties": 5,
+        "penaltyYards": 41,
+        "possession": "24:43",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {"home": 15, "away": 37},
+    "linescore": {"away": [14, 7, 9, 7], "home": [0, 3, 6, 6]},
+    "result": "W",
     "rankings": {
-      "away": {"ap": 9, "coaches": 9, "cfbPlayoff": 10},
-      "home": {"ap": 23, "coaches": 23, "cfbPlayoff": 24}
+      "away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9},
+      "home": {"ap": 23, "coaches": 23, "cfbPlayoff": 22}
     }
   },
   {
@@ -593,10 +641,10 @@
     "opponentId": "SYR",
     "espnGameId": 401754604,
     "records": {
-      "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
+      "home": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"},
       "away": {"overall": "3-7", "home": "2-3", "away": "1-3", "neutral": "0-1"}
     },
-    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
+    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
   },
   {
     "isHomeGame": false,
@@ -612,8 +660,8 @@
     "espnGameId": 401754614,
     "records": {
       "home": {"overall": "3-7", "home": "3-1", "away": "0-6", "neutral": "0-0"},
-      "away": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"}
+      "away": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"}
     },
-    "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
+    "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
   }
 ]
