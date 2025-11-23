@@ -642,9 +642,58 @@
     "opponentId": "SYR",
     "espnGameId": 401754604,
     "records": {
-      "home": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"},
-      "away": {"overall": "3-7", "home": "2-3", "away": "1-3", "neutral": "0-1"}
+      "home": {"overall": "9-2", "home": "6-1", "away": "3-1", "neutral": "0-0"},
+      "away": {"overall": "3-8", "home": "2-3", "away": "1-4", "neutral": "0-1"}
     },
+    "headCoach": "Marcus Freeman",
+    "highlightsYouTubeVideoId": "XypqB2uVxNE",
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 18,
+        "thirdDownConversions": 7,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 1,
+        "totalYards": 207,
+        "passYards": 95,
+        "passCompletions": 17,
+        "passAttempts": 30,
+        "yardsPerPass": 3.2,
+        "interceptionsThrown": 3,
+        "rushYards": 112,
+        "rushAttempts": 50,
+        "yardsPerRush": 2.2,
+        "penalties": 5,
+        "penaltyYards": 39,
+        "possession": "41:50",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 17,
+        "thirdDownAttempts": 7,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 396,
+        "passYards": 67,
+        "passCompletions": 9,
+        "passAttempts": 15,
+        "yardsPerPass": 4.5,
+        "interceptionsThrown": 0,
+        "rushYards": 329,
+        "rushAttempts": 24,
+        "yardsPerRush": 13.7,
+        "penalties": 5,
+        "penaltyYards": 55,
+        "possession": "18:10",
+        "fumblesLost": 0,
+        "fumbles": 0
+      }
+    },
+    "score": {"home": 70, "away": 7},
+    "linescore": {"away": [0, 0, 0, 7], "home": [35, 14, 7, 14]},
+    "result": "W",
     "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
   },
   {
@@ -660,8 +709,8 @@
     "opponentId": "STAN",
     "espnGameId": 401754614,
     "records": {
-      "home": {"overall": "3-7", "home": "3-1", "away": "0-6", "neutral": "0-0"},
-      "away": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"}
+      "home": {"overall": "4-7", "home": "4-1", "away": "0-6", "neutral": "0-0"},
+      "away": {"overall": "9-2", "home": "6-1", "away": "3-1", "neutral": "0-0"}
     },
     "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
   }
