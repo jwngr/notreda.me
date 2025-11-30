@@ -708,10 +708,59 @@
     },
     "opponentId": "STAN",
     "espnGameId": 401754614,
+    "highlightsYouTubeVideoId": "1D7FJOJY71w",
     "records": {
-      "home": {"overall": "4-7", "home": "4-1", "away": "0-6", "neutral": "0-0"},
-      "away": {"overall": "9-2", "home": "6-1", "away": "3-1", "neutral": "0-0"}
+      "home": {"overall": "4-8", "home": "4-2", "away": "0-6", "neutral": "0-0"},
+      "away": {"overall": "10-2", "home": "6-1", "away": "4-1", "neutral": "0-0"}
     },
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 24,
+        "thirdDownAttempts": 18,
+        "thirdDownConversions": 11,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 3,
+        "totalYards": 524,
+        "passYards": 337,
+        "passCompletions": 23,
+        "passAttempts": 36,
+        "yardsPerPass": 9.4,
+        "interceptionsThrown": 0,
+        "rushYards": 187,
+        "rushAttempts": 38,
+        "yardsPerRush": 4.9,
+        "penalties": 3,
+        "penaltyYards": 35,
+        "possession": "30:35",
+        "fumblesLost": 0,
+        "fumbles": 2
+      },
+      "home": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 19,
+        "thirdDownConversions": 8,
+        "fourthDownAttempts": 4,
+        "fourthDownConversions": 3,
+        "totalYards": 312,
+        "passYards": 226,
+        "passCompletions": 20,
+        "passAttempts": 40,
+        "yardsPerPass": 5.7,
+        "interceptionsThrown": 1,
+        "rushYards": 86,
+        "rushAttempts": 30,
+        "yardsPerRush": 2.9,
+        "penalties": 3,
+        "penaltyYards": 23,
+        "possession": "29:25",
+        "fumblesLost": 0,
+        "fumbles": 0
+      }
+    },
+    "score": {"home": 20, "away": 49},
+    "linescore": {"away": [14, 21, 7, 7], "home": [0, 3, 3, 14]},
+    "result": "W",
     "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
   }
 ]
