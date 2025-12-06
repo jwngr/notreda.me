@@ -201,15 +201,15 @@ export const MatchupHistory: React.FC<{readonly game: GameInfo; readonly season:
                 gaps={{
                   left: Boolean(
                     !isFirst &&
-                      previousHistoricalGame &&
-                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
-                        allSeasonsWithMatchupsAgainstTeam.indexOf(previousHistoricalGame.season) + 1
+                    previousHistoricalGame &&
+                    allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(previousHistoricalGame.season) + 1
                   ),
                   right: Boolean(
                     !isLast &&
-                      nextHistoricalGame &&
-                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
-                        allSeasonsWithMatchupsAgainstTeam.indexOf(nextHistoricalGame.season) - 1
+                    nextHistoricalGame &&
+                    allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(nextHistoricalGame.season) - 1
                   ),
                 }}
                 specialPositions={specialPositions}
