@@ -144,7 +144,8 @@ export const Game: React.FC<{
 
   return (
     <GameWrapper
-      to={`/${season}/${index + 1}/`}
+      to="/$selectedYear/$selectedGameIndex"
+      params={{selectedYear: String(season), selectedGameIndex: String(index + 1)}}
       $isSelected={isSelected}
       $isHomeGame={game.isHomeGame}
     >

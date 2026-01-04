@@ -1,5 +1,5 @@
+import {Link, LinkProps} from '@tanstack/react-router';
 import {darken} from 'polished';
-import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import {assertNever} from '../lib/utils';
@@ -7,7 +7,7 @@ import {GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
 import {TeamLogo} from './common/TeamLogo';
 
-interface GameWrapperProps {
+interface GameWrapperProps extends LinkProps {
   readonly $isSelected: boolean;
   readonly $isHomeGame: boolean;
 }

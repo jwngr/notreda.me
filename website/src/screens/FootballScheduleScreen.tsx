@@ -1,6 +1,6 @@
+import {Link, LinkProps, useParams} from '@tanstack/react-router';
 import {darken, lighten} from 'polished';
 import React, {useEffect, useMemo, useState} from 'react';
-import {Link, useParams} from 'react-router-dom';
 import styled from 'styled-components';
 
 import {FlexRow} from '../components/common/Flex';
@@ -159,7 +159,7 @@ const HeaderTitle = styled.div`
   }
 `;
 
-interface PreviousAndNextYearLinkProps {
+interface PreviousAndNextYearLinkProps extends LinkProps {
   readonly $isVisible: boolean;
 }
 
@@ -263,7 +263,7 @@ const NextYearLink = styled(PreviousAndNextYearLink)`
 `;
 
 export const FootballScheduleScreen: React.FC = () => {
-  const params = useParams<{readonly selectedYear?: string; readonly selectedGameIndex?: string}>();
+  const params = useParams({strict: false});
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
   const [seasonSchedule, setSeasonSchedule] = useState<readonly GameInfo[] | null>(null);
 
@@ -318,14 +318,22 @@ export const FootballScheduleScreen: React.FC = () => {
     <>
       <ScheduleScreenWrapper onClick={closeNavMenuIfOpen}>
         <Header>
-          <PreviousYearLink to={`/${previousYear}`} $isVisible={selectedSeason !== 1887}>
+          <PreviousYearLink
+            to="/$selectedYear"
+            params={{selectedYear: String(previousYear)}}
+            $isVisible={selectedSeason !== 1887}
+          >
             <span>&#x2190;</span>
             {isMobile ? null : previousYear}
           </PreviousYearLink>
 
           <HeaderTitle>{`Notre Dame Football ${selectedSeason}`}</HeaderTitle>
 
-          <NextYearLink to={`/${nextYear}`} $isVisible={selectedSeason !== LATEST_SEASON}>
+          <NextYearLink
+            to="/$selectedYear"
+            params={{selectedYear: String(nextYear)}}
+            $isVisible={selectedSeason !== LATEST_SEASON}
+          >
             {isMobile ? null : nextYear}
             <span>&#x2192;</span>
           </NextYearLink>

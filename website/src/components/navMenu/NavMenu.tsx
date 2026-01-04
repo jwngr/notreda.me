@@ -1,6 +1,6 @@
+import {Link} from '@tanstack/react-router';
 import rangeRight from 'lodash/rangeRight';
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import backgroundImage from '../../images/background.png';

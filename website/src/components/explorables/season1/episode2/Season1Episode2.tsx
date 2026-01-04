@@ -1,6 +1,6 @@
+import {Link} from '@tanstack/react-router';
 import {darken} from 'polished';
 import React, {useMemo, useState} from 'react';
-import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import {PerSeasonBarChart} from '../../../charts/PerSeasonBarChart';

@@ -1,7 +1,7 @@
+import {Link, LinkProps} from '@tanstack/react-router';
 import rangeRight from 'lodash/rangeRight';
 import {darken} from 'polished';
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 
 import {CURRENT_SEASON, LATEST_SEASON} from '../../lib/constants';
@@ -63,7 +63,7 @@ const NavMenuDecadeYearsWrapper = styled.div`
   margin-top: 4px;
 `;
 
-interface NavMenuDecadeYearProps {
+interface NavMenuDecadeYearProps extends LinkProps {
   readonly $isCurrentYear: boolean;
   readonly $isSelectedYear: boolean;
   readonly $isChampionshipYear: boolean;
@@ -156,7 +156,8 @@ export const NavMenuDecade: React.FC<{
     return (
       <NavMenuDecadeYear
         key={year}
-        to={`/${year}`}
+        to="/$selectedYear"
+        params={{selectedYear: String(year)}}
         $isCurrentYear={year === CURRENT_SEASON}
         $isSelectedYear={year === selectedSeason}
         $isChampionshipYear={getNationalChampionshipYears().includes(year)}
