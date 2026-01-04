@@ -1,5 +1,5 @@
+import {Link} from '@tanstack/react-router';
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import {BlogPostInfo} from '../../models/explorables.models';
@@ -59,7 +59,7 @@ const posts: readonly BlogPostInfo[] = [
 
 const BlogPostCard: React.FC<BlogPostInfo> = ({slug, date, title, subtitle, description}) => (
   <BlogPostCardWrapper>
-    <Link to={`/explorables/${slug}`}>
+    <Link to="/explorables/$slug" params={{slug}}>
       {title}: {subtitle}
     </Link>
     <BlogPostDate>{date}</BlogPostDate>

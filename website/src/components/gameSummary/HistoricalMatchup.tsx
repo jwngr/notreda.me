@@ -1,6 +1,6 @@
+import {Link} from '@tanstack/react-router';
 import {darken} from 'polished';
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import {GameResult, GameScore} from '../../models/games.models';
@@ -104,7 +104,10 @@ export const HistoricalMatchup: React.FC<{
   }
 
   const seasonContent = (
-    <Link to={`/${season}/${weekIndex + 1}`}>
+    <Link
+      to="/$selectedYear/$selectedGameIndex"
+      params={{selectedYear: String(season), selectedGameIndex: String(weekIndex + 1)}}
+    >
       <Season $isSeasonOnTop={isSeasonOnTop} $isSelected={isSelected}>
         {String(season)
           .split('')
@@ -119,7 +122,10 @@ export const HistoricalMatchup: React.FC<{
     <HistoricalMatchupWrapper $isSeasonOnTop={isSeasonOnTop}>
       {isSeasonOnTop ? seasonContent : null}
       <FootballScoreWrapper>
-        <Link to={`/${season}/${weekIndex + 1}`}>
+        <Link
+          to="/$selectedYear/$selectedGameIndex"
+          params={{selectedYear: String(season), selectedGameIndex: String(weekIndex + 1)}}
+        >
           <FootballShape
             type={result ? 'past' : 'future'}
             text={text}

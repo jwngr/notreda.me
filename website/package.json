@@ -6,6 +6,7 @@
   "dependencies": {
     "@fontsource/bungee": "^5.2.7",
     "@fontsource/inter": "^5.2.8",
+    "@tanstack/react-router": "^1.144.0",
     "d3": "^7.9.0",
     "d3-geo": "^3.1.1",
     "d3-scale-chromatic": "^3.1.0",
@@ -16,7 +17,6 @@
     "prop-types": "^15.8.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router-dom": "^6.30.0",
     "react-tweet-embed": "^2.0.0",
     "styled-components": "^6.1.19",
     "topojson-client": "^3.1.0",

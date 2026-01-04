@@ -1,5 +1,5 @@
+import {Link} from '@tanstack/react-router';
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import schedule2016Image from '../../../../images/explorables/season1/episode1/schedule2016.png';
 import {BarChart} from '../../../charts/BarChart';
@@ -66,7 +66,7 @@ export const ExplorablesS1E1: React.FC = () => {
         as those whose final score is within 8 points or fewer - is largely to blame.
       </Paragraph>
 
-      <Link to="/2016">
+      <Link to="/$selectedYear" params={{selectedYear: '2016'}}>
         <Image
           src={schedule2016Image}
           alt="Notre Dame Football 2016 season results"
