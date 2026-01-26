@@ -12,7 +12,7 @@
     },
     "opponentId": "WIS"
   },
-  {"isHomeGame": true, "date": "09/18/2026", "opponentId": "RICE"},
+  {"isHomeGame": true, "date": "09/12/2026", "opponentId": "RICE"},
   {"isHomeGame": true, "date": "09/19/2026", "opponentId": "MSU"},
   {
     "isHomeGame": false,
@@ -36,29 +36,41 @@
     },
     "opponentId": "UNC"
   },
+  {"isHomeGame": true, "date": "10/10/2026", "opponentId": "STAN"},
+  {
+    "isHomeGame": true,
+    "date": "10/17/2026",
+    "opponentId": "BYU",
+    "location": {
+      "city": "Provo",
+      "state": "UT",
+      "stadium": "LaVell Edwards Stadium",
+      "coordinates": [40.257211, -111.654612]
+    }
+  },
   {
     "isHomeGame": false,
     "date": "10/31/2026",
+    "opponentId": "NAVY",
     "location": {
       "city": "Foxborough",
       "state": "MA",
       "stadium": "Gillette Stadium",
       "coordinates": [42.0909, -71.2643]
-    },
-    "opponentId": "NAVY"
+    }
   },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "SYR"},
+  {"isHomeGame": true, "date": "11/07/2026", "opponentId": "MIAMI"},
+  {"isHomeGame": true, "date": "11/14/2026", "opponentId": "BC"},
+  {"isHomeGame": true, "date": "11/21/2026", "opponentId": "SMU"},
   {
     "isHomeGame": false,
-    "date": "TBD",
+    "date": "11/28/2026",
+    "opponentId": "SYR",
     "location": {
-      "city": "Tallahassee",
-      "state": "FL",
-      "stadium": "Doak Campbell Stadium",
-      "coordinates": [30.438088, -84.304527]
-    },
-    "opponentId": "FSU"
-  },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "SMU"},
-  {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"}
+      "city": "Syracuse",
+      "state": "NY",
+      "stadium": "JMA Wireless Dome",
+      "coordinates": [43.036062, -76.136434]
+    }
+  }
 ]
