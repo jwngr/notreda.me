@@ -249,7 +249,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 24 2020 15:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
