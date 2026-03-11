@@ -4,43 +4,21 @@
     "isHomeGame": true,
     "date": "09/24/1960",
     "opponentId": "CAL",
-    "score": {
-      "away": 7,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 65
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 65}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "10/01/1960",
     "opponentId": "PUR",
-    "score": {
-      "away": 51,
-      "home": 19
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 51, "home": 19},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 39
-    }
+    "rankings": {"home": {"ap": 12}},
+    "weather": {"icon": "clear-night", "temperature": 39}
   },
   {
     "result": "L",
@@ -50,49 +28,24 @@
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [
-        35.906944,
-        -79.047778
-      ]
+      "coordinates": [35.906944, -79.047778]
     },
     "opponentId": "UNC",
-    "score": {
-      "away": 7,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 62
-    }
+    "weather": {"icon": "cloudy", "temperature": 62}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "10/15/1960",
     "opponentId": "MSU",
-    "score": {
-      "away": 21,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "away": {
-        "ap": 14
-      }
-    },
-    "weather": {
-      "icon": "fog",
-      "temperature": 61
-    }
+    "rankings": {"away": {"ap": 14}},
+    "weather": {"icon": "fog", "temperature": 61}
   },
   {
     "result": "L",
@@ -102,76 +55,36 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Dyche Stadium",
-      "coordinates": [
-        42.06606,
-        -87.693537
-      ]
+      "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 6,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 6, "home": 7},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 40
-    }
+    "weather": {"icon": "clear-night", "temperature": 40}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "10/29/1960",
     "opponentId": "NAVY",
-    "score": {
-      "away": 14,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 46
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "rain", "temperature": 46}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "11/05/1960",
     "opponentId": "PITT",
-    "score": {
-      "away": 20,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "away": {
-        "ap": 14
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 41
-    }
+    "rankings": {"away": {"ap": 14}},
+    "weather": {"icon": "rain", "temperature": 41}
   },
   {
     "result": "L",
@@ -181,49 +94,24 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "MIAMI",
-    "score": {
-      "away": 21,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 72
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 72}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "11/19/1960",
     "opponentId": "IOWA",
-    "score": {
-      "away": 28,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 28, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 40
-    }
+    "rankings": {"away": {"ap": 2}},
+    "weather": {"icon": "cloudy", "temperature": 40}
   },
   {
     "result": "W",
@@ -233,24 +121,12 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 17,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Joe Kuharich",
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 55
-    }
+    "weather": {"icon": "cloudy", "temperature": 55}
   }
 ]

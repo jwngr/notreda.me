@@ -4,27 +4,12 @@
     "isHomeGame": true,
     "date": "Sat Sep 04, 1993 17:30:00 GMT-0400",
     "opponentId": "NW",
-    "score": {
-      "away": 12,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 12, "home": 27},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 74
-    }
+    "rankings": {"home": {"ap": 7}},
+    "weather": {"icon": "clear-day", "temperature": 74}
   },
   {
     "result": "W",
@@ -34,63 +19,27 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [
-        42.265686,
-        -83.74861
-      ]
+      "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 27,
-      "home": 23
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 27, "home": 23},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 11
-      },
-      "home": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 64
-    }
+    "rankings": {"away": {"ap": 11}, "home": {"ap": 3}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 64}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 18, 1993 17:30:00 GMT-0400",
     "opponentId": "MSU",
-    "score": {
-      "away": 14,
-      "home": 36
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 14, "home": 36},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 64
-    }
+    "rankings": {"home": {"ap": 4}},
+    "weather": {"icon": "cloudy", "temperature": 64}
   },
   {
     "result": "W",
@@ -100,33 +49,15 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 17,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 17, "home": 0},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "temperature": 63,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"temperature": 63, "icon": "unknown"}
   },
   {
     "result": "W",
@@ -136,60 +67,27 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [
-        37.434444,
-        -122.161111
-      ]
+      "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 48,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 48, "home": 20},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 65
-    }
+    "rankings": {"away": {"ap": 4}},
+    "weather": {"icon": "clear-day", "temperature": 65}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 09, 1993 17:30:00 GMT-0400",
     "opponentId": "PITT",
-    "score": {
-      "away": 0,
-      "home": 44
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 0, "home": 44},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 41
-    }
+    "rankings": {"home": {"ap": 4}},
+    "weather": {"icon": "cloudy", "temperature": 41}
   },
   {
     "result": "W",
@@ -199,147 +97,63 @@
       "city": "Provo",
       "state": "UT",
       "stadium": "Cougar Stadium",
-      "coordinates": [
-        40.258,
-        -111.655
-      ]
+      "coordinates": [40.258, -111.655]
     },
     "opponentId": "BYU",
-    "score": {
-      "away": 45,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ESPN"
-    ],
+    "score": {"away": 45, "home": 20},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "temperature": 49,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 3}},
+    "weather": {"temperature": 49, "icon": "unknown"}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 23, 1993 17:30:00 GMT-0400",
     "opponentId": "USC",
-    "score": {
-      "away": 13,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 13, "home": 31},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 65
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "clear-day", "temperature": 65}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 30, 1993 15:00:00 GMT-0400",
     "opponentId": "NAVY",
-    "score": {
-      "away": 27,
-      "home": 58
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 27, "home": 58},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 49
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "rain", "temperature": 49}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 13, 1993 17:30:00 GMT-0500",
     "opponentId": "FSU",
-    "score": {
-      "away": 24,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 24, "home": 31},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 64
-    }
+    "rankings": {"home": {"ap": 2}, "away": {"ap": 1}},
+    "weather": {"icon": "cloudy", "temperature": 64}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 20, 1993 16:30:00 GMT-0500",
     "opponentId": "BC",
-    "score": {
-      "away": 41,
-      "home": 39
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 41, "home": 39},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 38
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 17}},
+    "weather": {"icon": "clear-day", "temperature": 38}
   },
   {
     "result": "W",
@@ -351,46 +165,15 @@
       "city": "Dallas",
       "state": "TX",
       "stadium": "Cotton Bowl",
-      "coordinates": [
-        32.779494,
-        -96.759724
-      ]
+      "coordinates": [32.779494, -96.759724]
     },
     "opponentId": "TA&M",
-    "score": {
-      "away": 24,
-      "home": 21
-    },
-    "linescore": {
-      "away": [
-        7,
-        0,
-        14,
-        3
-      ],
-      "home": [
-        7,
-        7,
-        7,
-        0
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 24, "home": 21},
+    "linescore": {"away": [7, 0, 14, 3], "home": [7, 7, 7, 0]},
+    "coverage": ["NBC"],
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 7
-      },
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 54
-    }
+    "rankings": {"home": {"ap": 7}, "away": {"ap": 4}},
+    "weather": {"icon": "clear-night", "temperature": 54}
   }
 ]

@@ -4,14 +4,8 @@
     "isHomeGame": true,
     "date": "10/06/1906",
     "opponentId": "FRA",
-    "score": {
-      "away": 0,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -19,14 +13,8 @@
     "isHomeGame": true,
     "date": "10/13/1906",
     "opponentId": "HILLS",
-    "score": {
-      "away": 0,
-      "home": 17
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 17},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -34,14 +22,8 @@
     "isHomeGame": true,
     "date": "10/20/1906",
     "opponentId": "CHI-P&S",
-    "score": {
-      "away": 0,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -49,14 +31,8 @@
     "isHomeGame": true,
     "date": "10/27/1906",
     "opponentId": "MSU",
-    "score": {
-      "away": 0,
-      "home": 5
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 5},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -70,14 +46,8 @@
       "coordinates": [28.01244, -82.42516]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 2,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 2, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -85,14 +55,8 @@
     "isHomeGame": true,
     "date": "11/10/1906",
     "opponentId": "IND",
-    "score": {
-      "away": 12,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 12, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   },
   {
@@ -100,14 +64,8 @@
     "isHomeGame": true,
     "date": "11/24/1906",
     "opponentId": "BEL",
-    "score": {
-      "away": 0,
-      "home": 29
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 29},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Thomas Barry"
   }
 ]

@@ -7,54 +7,25 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Dyche Stadium",
-      "coordinates": [
-        42.06606,
-        -87.693537
-      ]
+      "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 37,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 37, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 13
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 59
-    }
+    "rankings": {"away": {"ap": 13}},
+    "weather": {"icon": "cloudy", "temperature": 59}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 30, 1972 17:30:00 GMT-0400",
     "opponentId": "PUR",
-    "score": {
-      "away": 14,
-      "home": 35
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 35},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 51
-    }
+    "rankings": {"home": {"ap": 10}},
+    "weather": {"icon": "cloudy", "temperature": 51}
   },
   {
     "result": "W",
@@ -64,129 +35,59 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 16,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 16, "home": 0},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 55
-    }
+    "rankings": {"away": {"ap": 7}},
+    "weather": {"icon": "clear-day", "temperature": 55}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 14, 1972 17:30:00 GMT-0400",
     "opponentId": "PITT",
-    "score": {
-      "away": 16,
-      "home": 42
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 16, "home": 42},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 56
-    }
+    "rankings": {"home": {"ap": 7}},
+    "weather": {"icon": "clear-day", "temperature": 56}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Oct 21, 1972 17:30:00 GMT-0400",
     "opponentId": "MIZ",
-    "score": {
-      "away": 30,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 30, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 48
-    }
+    "rankings": {"home": {"ap": 8}},
+    "weather": {"icon": "rain", "temperature": 48}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 28, 1972 17:30:00 GMT-0400",
     "opponentId": "TCU",
-    "score": {
-      "away": 0,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 13
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 54
-    }
+    "rankings": {"home": {"ap": 13}},
+    "weather": {"icon": "cloudy", "temperature": 54}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 04, 1972 16:30:00 GMT-0500",
     "opponentId": "NAVY",
-    "score": {
-      "away": 23,
-      "home": 42
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 23, "home": 42},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 57
-    }
+    "rankings": {"home": {"ap": 12}},
+    "weather": {"icon": "cloudy", "temperature": 57}
   },
   {
     "result": "W",
@@ -196,50 +97,24 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [
-        38.997,
-        -104.843
-      ]
+      "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 21,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 21, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 12
-      }
-    }
+    "rankings": {"away": {"ap": 12}}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 18, 1972 16:30:00 GMT-0500",
     "opponentId": "MIAMI",
-    "score": {
-      "away": 17,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 17, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 10
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 35
-    }
+    "rankings": {"home": {"ap": 10}},
+    "weather": {"icon": "cloudy", "temperature": 35}
   },
   {
     "result": "L",
@@ -249,36 +124,15 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 23,
-      "home": 45
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 23, "home": 45},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "away": {
-        "ap": 10
-      },
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 62
-    }
+    "rankings": {"away": {"ap": 10}, "home": {"ap": 1}},
+    "weather": {"icon": "clear-day", "temperature": 62}
   },
   {
     "result": "L",
@@ -290,46 +144,15 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 6,
-      "home": 40
-    },
-    "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        6
-      ],
-      "home": [
-        7,
-        13,
-        20,
-        0
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 6, "home": 40},
+    "linescore": {"away": [0, 0, 0, 6], "home": [7, 13, 20, 0]},
+    "coverage": ["NBC"],
     "nickname": "Orange Bowl",
     "headCoach": "Ara Parseghian",
-    "rankings": {
-      "home": {
-        "ap": 9
-      },
-      "away": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 73
-    }
+    "rankings": {"home": {"ap": 9}, "away": {"ap": 12}},
+    "weather": {"icon": "clear-night", "temperature": 73}
   }
 ]

@@ -4,19 +4,10 @@
     "isHomeGame": true,
     "date": "09/25/1948",
     "opponentId": "PUR",
-    "score": {
-      "away": 27,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 28},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 46
-    }
+    "weather": {"icon": "clear-night", "temperature": 46}
   },
   {
     "result": "W",
@@ -29,43 +20,21 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 40,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 40, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 59
-    }
+    "weather": {"icon": "clear-night", "temperature": 59}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "10/09/1948",
     "opponentId": "MSU",
-    "score": {
-      "away": 7,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 46
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "cloudy", "temperature": 46}
   },
   {
     "result": "W",
@@ -78,24 +47,11 @@
       "coordinates": [40.820516, -96.705647]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 44,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 44, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "temperature": 47,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 2}},
+    "weather": {"temperature": 47, "icon": "unknown"}
   },
   {
     "result": "W",
@@ -108,44 +64,21 @@
       "coordinates": [41.658611, -91.551111]
     },
     "opponentId": "IOWA",
-    "score": {
-      "away": 27,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    }
+    "rankings": {"away": {"ap": 2}}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "10/30/1948",
     "opponentId": "NAVY",
-    "score": {
-      "away": 7,
-      "home": 41
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 41},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 51
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "clear-night", "temperature": 51}
   },
   {
     "result": "W",
@@ -158,71 +91,32 @@
       "coordinates": [39.180835, -86.525633]
     },
     "opponentId": "IND",
-    "score": {
-      "away": 42,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 42, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 1
-      }
-    }
+    "rankings": {"away": {"ap": 1}}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "11/13/1948",
     "opponentId": "NW",
-    "score": {
-      "away": 7,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 2
-      },
-      "away": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 41
-    }
+    "rankings": {"home": {"ap": 2}, "away": {"ap": 8}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 41}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "11/27/1948",
     "opponentId": "WASH",
-    "score": {
-      "away": 0,
-      "home": 46
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 46},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "fog",
-      "temperature": 30
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "fog", "temperature": 30}
   },
   {
     "result": "T",
@@ -235,23 +129,10 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 14,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Frank Leahy",
-    "rankings": {
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 44
-    }
+    "rankings": {"away": {"ap": 2}},
+    "weather": {"icon": "clear-night", "temperature": 44}
   }
 ]

@@ -4,14 +4,8 @@
     "isHomeGame": true,
     "date": "10/06/1934",
     "opponentId": "TEX",
-    "score": {
-      "away": 7,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -19,14 +13,8 @@
     "isHomeGame": true,
     "date": "10/13/1934",
     "opponentId": "PUR",
-    "score": {
-      "away": 7,
-      "home": 18
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 18},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -34,14 +22,8 @@
     "isHomeGame": true,
     "date": "10/20/1934",
     "opponentId": "CAR",
-    "score": {
-      "away": 0,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -49,14 +31,8 @@
     "isHomeGame": true,
     "date": "10/27/1934",
     "opponentId": "WIS",
-    "score": {
-      "away": 0,
-      "home": 19
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 19},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -70,14 +46,8 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 0,
-      "home": 19
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 19},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -85,14 +55,8 @@
     "isHomeGame": true,
     "date": "11/10/1934",
     "opponentId": "NAVY",
-    "score": {
-      "away": 10,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 10, "home": 6},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -106,14 +70,8 @@
       "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "score": {
-      "away": 20,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 20, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -121,14 +79,8 @@
     "isHomeGame": true,
     "date": "11/24/1934",
     "opponentId": "ARMY",
-    "score": {
-      "away": 6,
-      "home": 12
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 12},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -142,14 +94,8 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 14,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 14, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   }
 ]

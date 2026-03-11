@@ -4,14 +4,8 @@
     "isHomeGame": true,
     "date": "09/29/1923",
     "opponentId": "KAL",
-    "score": {
-      "away": 0,
-      "home": 74
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 74},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -19,14 +13,8 @@
     "isHomeGame": true,
     "date": "10/06/1923",
     "opponentId": "LOMB",
-    "score": {
-      "away": 0,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -34,14 +22,8 @@
     "isHomeGame": true,
     "date": "10/13/1923",
     "opponentId": "ARMY",
-    "score": {
-      "away": 0,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -55,14 +37,8 @@
       "coordinates": [40.345637, -74.64994]
     },
     "opponentId": "PRIN",
-    "score": {
-      "away": 25,
-      "home": 2
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 25, "home": 2},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -70,14 +46,8 @@
     "isHomeGame": true,
     "date": "10/27/1923",
     "opponentId": "GT",
-    "score": {
-      "away": 7,
-      "home": 35
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 35},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -85,14 +55,8 @@
     "isHomeGame": true,
     "date": "11/03/1923",
     "opponentId": "PUR",
-    "score": {
-      "away": 7,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 34},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -106,14 +70,8 @@
       "coordinates": [40.820516, -96.705647]
     },
     "opponentId": "NEB",
-    "score": {
-      "away": 7,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
@@ -121,54 +79,28 @@
     "isHomeGame": true,
     "date": "11/17/1923",
     "opponentId": "BUT",
-    "score": {
-      "away": 7,
-      "home": 34
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 34},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/24/1923",
-    "location": {
-      "city": "Pittsburgh",
-      "state": "PA",
-      "coordinates": [40.438739, -80.00268]
-    },
+    "location": {"city": "Pittsburgh", "state": "PA", "coordinates": [40.438739, -80.00268]},
     "opponentId": "CAR",
-    "score": {
-      "away": 26,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 26, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/29/1923",
-    "location": {
-      "city": "St. Louis",
-      "state": "MO",
-      "coordinates": [38.63028, -90.20031]
-    },
+    "location": {"city": "St. Louis", "state": "MO", "coordinates": [38.63028, -90.20031]},
     "opponentId": "SLU",
-    "score": {
-      "away": 13,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Knute Rockne"
   }
 ]

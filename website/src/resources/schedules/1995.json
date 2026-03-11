@@ -4,27 +4,12 @@
     "isHomeGame": true,
     "date": "Sat Sep 02, 1995 17:30:00 GMT-0400",
     "opponentId": "NW",
-    "score": {
-      "away": 17,
-      "home": 15
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 17, "home": 15},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 79
-    }
+    "rankings": {"home": {"ap": 9}},
+    "weather": {"icon": "clear-day", "temperature": 79}
   },
   {
     "result": "W",
@@ -34,90 +19,39 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 35,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 35, "home": 28},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 25
-      }
-    },
-    "weather": {
-      "temperature": 73,
-      "icon": "unknown"
-    }
+    "rankings": {"away": {"ap": 25}},
+    "weather": {"temperature": 73, "icon": "unknown"}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 16, 1995 17:30:00 GMT-0400",
     "opponentId": "VANDY",
-    "score": {
-      "away": 0,
-      "home": 41
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 0, "home": 41},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 24
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 83
-    }
+    "rankings": {"home": {"ap": 24}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 83}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 23, 1995 15:30:00 GMT-0400",
     "opponentId": "TEX",
-    "score": {
-      "away": 27,
-      "home": 55
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 27, "home": 55},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 13
-      },
-      "home": {
-        "ap": 21
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 57
-    }
+    "rankings": {"away": {"ap": 13}, "home": {"ap": 21}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 57}
   },
   {
     "result": "L",
@@ -127,36 +61,15 @@
       "city": "Columbus",
       "state": "OH",
       "stadium": "Ohio Stadium",
-      "coordinates": [
-        40.001667,
-        -83.019722
-      ]
+      "coordinates": [40.001667, -83.019722]
     },
     "opponentId": "OSU",
-    "score": {
-      "away": 26,
-      "home": 45
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 26, "home": 45},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 15
-      },
-      "home": {
-        "ap": 7
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 77
-    }
+    "rankings": {"away": {"ap": 15}, "home": {"ap": 7}},
+    "weather": {"icon": "clear-day", "temperature": 77}
   },
   {
     "result": "W",
@@ -166,36 +79,15 @@
       "city": "Seattle",
       "state": "WA",
       "stadium": "Husky Stadium",
-      "coordinates": [
-        47.650288,
-        -122.301573
-      ]
+      "coordinates": [47.650288, -122.301573]
     },
     "opponentId": "WASH",
-    "score": {
-      "away": 29,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 29, "home": 21},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 15
-      },
-      "away": {
-        "ap": 23
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 64
-    }
+    "rankings": {"home": {"ap": 15}, "away": {"ap": 23}},
+    "weather": {"icon": "cloudy", "temperature": 64}
   },
   {
     "result": "W",
@@ -205,117 +97,51 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [
-        40.812222,
-        -74.076944
-      ]
+      "coordinates": [40.812222, -74.076944]
     },
     "opponentId": "ARMY",
-    "score": {
-      "away": 28,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 28, "home": 27},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 17
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 73
-    }
+    "rankings": {"away": {"ap": 17}},
+    "weather": {"icon": "cloudy", "temperature": 73}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 21, 1995 17:30:00 GMT-0400",
     "opponentId": "USC",
-    "score": {
-      "away": 10,
-      "home": 38
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 10, "home": 38},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 17
-      },
-      "away": {
-        "ap": 5
-      }
-    },
-    "weather": {
-      "icon": "rain",
-      "temperature": 39
-    }
+    "rankings": {"home": {"ap": 17}, "away": {"ap": 5}},
+    "weather": {"icon": "rain", "temperature": 39}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 28, 1995 17:30:00 GMT-0400",
     "opponentId": "BC",
-    "score": {
-      "away": 10,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 10, "home": 20},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 12
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 47
-    }
+    "rankings": {"home": {"ap": 12}},
+    "weather": {"icon": "cloudy", "temperature": 47}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 04, 1995 16:30:00 GMT-0500",
     "opponentId": "NAVY",
-    "score": {
-      "away": 17,
-      "home": 35
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 17, "home": 35},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 29
-    }
+    "rankings": {"home": {"ap": 8}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 29}
   },
   {
     "result": "W",
@@ -325,33 +151,15 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [
-        38.997,
-        -104.843
-      ]
+      "coordinates": [38.997, -104.843]
     },
     "opponentId": "AF",
-    "score": {
-      "away": 44,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ESPN"
-    ],
+    "score": {"away": 44, "home": 14},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 45
-    }
+    "rankings": {"away": {"ap": 8}},
+    "weather": {"icon": "clear-night", "temperature": 45}
   },
   {
     "result": "L",
@@ -363,46 +171,15 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "FSU",
-    "score": {
-      "away": 31,
-      "home": 26
-    },
-    "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        17
-      ],
-      "home": [
-        10,
-        0,
-        7,
-        9
-      ]
-    },
-    "coverage": [
-      "CBS"
-    ],
+    "score": {"away": 31, "home": 26},
+    "linescore": {"away": [7, 7, 0, 17], "home": [10, 0, 7, 9]},
+    "coverage": ["CBS"],
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 6
-      },
-      "away": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 52
-    }
+    "rankings": {"home": {"ap": 6}, "away": {"ap": 8}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 52}
   }
 ]

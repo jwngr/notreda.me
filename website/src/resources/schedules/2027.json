@@ -1,9 +1,5 @@
 [
-  {
-    "isHomeGame": true,
-    "date": "09/04/2027",
-    "opponentId": "PUR"
-  },
+  {"isHomeGame": true, "date": "09/04/2027", "opponentId": "PUR"},
   {
     "isHomeGame": false,
     "date": "09/18/2027",
@@ -40,11 +36,7 @@
     },
     "opponentId": "CLEM"
   },
-  {
-    "isHomeGame": true,
-    "date": "11/20/2027",
-    "opponentId": "NAVY"
-  },
+  {"isHomeGame": true, "date": "11/20/2027", "opponentId": "NAVY"},
   {
     "isHomeGame": false,
     "date": "TBD",

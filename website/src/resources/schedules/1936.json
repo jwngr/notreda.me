@@ -4,14 +4,8 @@
     "isHomeGame": true,
     "date": "10/03/1936",
     "opponentId": "CAR",
-    "score": {
-      "away": 7,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 21},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -19,14 +13,8 @@
     "isHomeGame": true,
     "date": "10/10/1936",
     "opponentId": "WASHU",
-    "score": {
-      "away": 6,
-      "home": 14
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 14},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -34,14 +22,8 @@
     "isHomeGame": true,
     "date": "10/17/1936",
     "opponentId": "WIS",
-    "score": {
-      "away": 0,
-      "home": 27
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 27},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -55,37 +37,18 @@
       "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 0,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden",
-    "rankings": {
-      "away": {
-        "ap": 7
-      },
-      "home": {
-        "ap": 9
-      }
-    }
+    "rankings": {"away": {"ap": 7}, "home": {"ap": 9}}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "10/31/1936",
     "opponentId": "OSU",
-    "score": {
-      "away": 2,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 2, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -93,38 +56,19 @@
     "isHomeGame": true,
     "date": "11/07/1936",
     "opponentId": "NAVY",
-    "score": {
-      "away": 3,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden",
-    "rankings": {
-      "home": {
-        "ap": 13
-      }
-    },
-    "weather": {
-      "temperature": 47,
-      "icon": "unknown"
-    }
+    "rankings": {"home": {"ap": 13}},
+    "weather": {"temperature": 47, "icon": "unknown"}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "11/14/1936",
     "opponentId": "ARMY",
-    "score": {
-      "away": 6,
-      "home": 20
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 20},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden"
   },
   {
@@ -132,23 +76,10 @@
     "isHomeGame": true,
     "date": "11/21/1936",
     "opponentId": "NW",
-    "score": {
-      "away": 6,
-      "home": 26
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 26},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden",
-    "rankings": {
-      "home": {
-        "ap": 11
-      },
-      "away": {
-        "ap": 1
-      }
-    }
+    "rankings": {"home": {"ap": 11}, "away": {"ap": 1}}
   },
   {
     "result": "T",
@@ -161,19 +92,9 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 13,
-      "home": 13
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 13, "home": 13},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Elmer Layden",
-    "rankings": {
-      "away": {
-        "ap": 9
-      }
-    }
+    "rankings": {"away": {"ap": 9}}
   }
 ]

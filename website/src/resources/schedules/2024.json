@@ -2,17 +2,12 @@
   {
     "isHomeGame": false,
     "date": "Sat Aug 31 2024 19:30:00 GMT-0400",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "location": {
       "city": "College Station",
       "state": "TX",
       "stadium": "Kyle Field",
-      "coordinates": [
-        30.609883,
-        -96.340544
-      ]
+      "coordinates": [30.609883, -96.340544]
     },
     "opponentId": "TA&M",
     "espnGameId": 401628332,
@@ -62,72 +57,25 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 13,
-      "away": 23
-    },
-    "linescore": {
-      "away": [
-        3,
-        3,
-        7,
-        10
-      ],
-      "home": [
-        3,
-        3,
-        0,
-        7
-      ]
-    },
+    "score": {"home": 13, "away": 23},
+    "linescore": {"away": [3, 3, 7, 10], "home": [3, 3, 0, 7]},
     "result": "W",
     "records": {
-      "home": {
-        "overall": "0-1",
-        "home": "0-1",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "0-1", "home": "0-1", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "1-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 7,
-        "coaches": 7
-      },
-      "home": {
-        "ap": 20,
-        "coaches": 20
-      }
-    }
+    "rankings": {"away": {"ap": 7, "coaches": 7}, "home": {"ap": 20, "coaches": 20}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 07 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "opponentId": "NIU",
     "espnGameId": 401628977,
     "highlightsYouTubeVideoId": "-66oTCXvx68",
     "records": {
-      "home": {
-        "overall": "1-1",
-        "home": "0-1",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-1", "home": "0-1", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -174,63 +122,27 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 14,
-      "away": 16
-    },
-    "linescore": {
-      "away": [
-        10,
-        3,
-        0,
-        3
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        0
-      ]
-    },
+    "score": {"home": 14, "away": 16},
+    "linescore": {"away": [10, 3, 0, 3], "home": [7, 0, 7, 0]},
     "result": "L",
-    "rankings": {
-      "home": {
-        "ap": 5,
-        "coaches": 7
-      }
-    }
+    "rankings": {"home": {"ap": 5, "coaches": 7}}
   },
   {
     "isHomeGame": false,
     "date": "Sat Sep 14 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "CBS"
-    ],
+    "coverage": ["CBS"],
     "location": {
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
     "espnGameId": 401628978,
     "highlightsYouTubeVideoId": "QPh66Tff4Gg",
     "records": {
-      "home": {
-        "overall": "1-1",
-        "home": "1-1",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-1",
-        "home": "0-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-1", "home": "1-1", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "2-1", "home": "0-1", "away": "2-0", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -277,54 +189,21 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 7,
-      "away": 66
-    },
-    "linescore": {
-      "away": [
-        14,
-        28,
-        10,
-        14
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        0
-      ]
-    },
+    "score": {"home": 7, "away": 66},
+    "linescore": {"away": [14, 28, 10, 14], "home": [0, 0, 7, 0]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 18,
-        "coaches": 19
-      }
-    }
+    "rankings": {"away": {"ap": 18, "coaches": 19}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 21 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "opponentId": "MOH",
     "espnGameId": 401628979,
     "highlightsYouTubeVideoId": "Lz7WRBHJV9M",
     "records": {
-      "home": {
-        "overall": "3-1",
-        "home": "1-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-3",
-        "home": "0-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-1", "home": "1-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "0-3", "home": "0-1", "away": "0-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -371,54 +250,21 @@
         "fumbles": 2
       }
     },
-    "score": {
-      "home": 28,
-      "away": 3
-    },
-    "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        0
-      ],
-      "home": [
-        0,
-        14,
-        7,
-        7
-      ]
-    },
+    "score": {"home": 28, "away": 3},
+    "linescore": {"away": [0, 3, 0, 0], "home": [0, 14, 7, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 17,
-        "coaches": 18
-      }
-    }
+    "rankings": {"home": {"ap": 17, "coaches": 18}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 28 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "PEACOCK"
-    ],
+    "coverage": ["PEACOCK"],
     "opponentId": "LOU",
     "espnGameId": 401628980,
     "highlightsYouTubeVideoId": "sdv44b0jkbg",
     "records": {
-      "home": {
-        "overall": "4-1",
-        "home": "2-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-1",
-        "home": "3-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-1", "home": "2-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "3-1", "home": "3-0", "away": "0-1", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -465,58 +311,21 @@
         "fumbles": 2
       }
     },
-    "score": {
-      "home": 31,
-      "away": 24
-    },
-    "linescore": {
-      "away": [
-        7,
-        7,
-        0,
-        10
-      ],
-      "home": [
-        21,
-        3,
-        0,
-        7
-      ]
-    },
+    "score": {"home": 31, "away": 24},
+    "linescore": {"away": [7, 7, 0, 10], "home": [21, 3, 0, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 16,
-        "coaches": 14
-      },
-      "away": {
-        "ap": 15,
-        "coaches": 17
-      }
-    }
+    "rankings": {"home": {"ap": 16, "coaches": 14}, "away": {"ap": 15, "coaches": 17}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 12 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "opponentId": "STAN",
     "espnGameId": 401628981,
     "highlightsYouTubeVideoId": "1qNSEJcKXvo",
     "records": {
-      "home": {
-        "overall": "5-1",
-        "home": "3-1",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-4",
-        "home": "1-2",
-        "away": "1-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "5-1", "home": "3-1", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "2-4", "home": "1-2", "away": "1-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -563,64 +372,28 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 49,
-      "away": 7
-    },
-    "linescore": {
-      "away": [
-        7,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        14,
-        21,
-        7
-      ]
-    },
+    "score": {"home": 49, "away": 7},
+    "linescore": {"away": [7, 0, 0, 0], "home": [7, 14, 21, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 11,
-        "coaches": 12
-      }
-    }
+    "rankings": {"home": {"ap": 11, "coaches": 12}}
   },
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 19 2024 15:30:00 GMT-0400",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "location": {
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Bobby Dodd Stadium",
-      "coordinates": [
-        33.772284,
-        -84.392859
-      ]
+      "coordinates": [33.772284, -84.392859]
     },
     "opponentId": "GT",
     "espnGameId": 401628982,
     "highlightsYouTubeVideoId": "BkD7P9XLBMA",
     "records": {
-      "home": {
-        "overall": "5-3",
-        "home": "3-0",
-        "away": "1-2",
-        "neutral": "1-1"
-      },
-      "away": {
-        "overall": "6-1",
-        "home": "3-1",
-        "away": "2-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "5-3", "home": "3-0", "away": "1-2", "neutral": "1-1"},
+      "away": {"overall": "6-1", "home": "3-1", "away": "2-0", "neutral": "1-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -667,64 +440,28 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 13,
-      "away": 31
-    },
-    "linescore": {
-      "away": [
-        0,
-        14,
-        7,
-        10
-      ],
-      "home": [
-        7,
-        0,
-        0,
-        6
-      ]
-    },
+    "score": {"home": 13, "away": 31},
+    "linescore": {"away": [0, 14, 7, 10], "home": [7, 0, 0, 6]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 12,
-        "coaches": 11
-      }
-    }
+    "rankings": {"away": {"ap": 12, "coaches": 11}}
   },
   {
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 26 2024 12:00:00 GMT-0400",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "MetLife Stadium",
-      "coordinates": [
-        40.813393,
-        -74.074607
-      ]
+      "coordinates": [40.813393, -74.074607]
     },
     "opponentId": "NAVY",
     "espnGameId": 401628983,
     "highlightsYouTubeVideoId": "F_O6FdBzH90",
     "records": {
-      "home": {
-        "overall": "6-1",
-        "home": "4-0",
-        "away": "2-0",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "7-1",
-        "home": "3-1",
-        "away": "2-0",
-        "neutral": "2-0"
-      }
+      "home": {"overall": "6-1", "home": "4-0", "away": "2-0", "neutral": "0-1"},
+      "away": {"overall": "7-1", "home": "3-1", "away": "2-0", "neutral": "2-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -771,58 +508,21 @@
         "fumbles": 7
       }
     },
-    "score": {
-      "home": 14,
-      "away": 51
-    },
-    "linescore": {
-      "away": [
-        14,
-        17,
-        13,
-        7
-      ],
-      "home": [
-        0,
-        7,
-        7,
-        0
-      ]
-    },
+    "score": {"home": 14, "away": 51},
+    "linescore": {"away": [14, 17, 13, 7], "home": [0, 7, 7, 0]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 12,
-        "coaches": 11
-      },
-      "home": {
-        "ap": 24,
-        "coaches": 24
-      }
-    }
+    "rankings": {"away": {"ap": 12, "coaches": 11}, "home": {"ap": 24, "coaches": 24}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 09 2024 19:30:00 GMT-0500",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "opponentId": "FSU",
     "espnGameId": 401628984,
     "highlightsYouTubeVideoId": "R7D-atkqzBM",
     "records": {
-      "home": {
-        "overall": "8-1",
-        "home": "4-1",
-        "away": "2-0",
-        "neutral": "2-0"
-      },
-      "away": {
-        "overall": "1-9",
-        "home": "1-4",
-        "away": "0-4",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "8-1", "home": "4-1", "away": "2-0", "neutral": "2-0"},
+      "away": {"overall": "1-9", "home": "1-4", "away": "0-4", "neutral": "0-1"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -869,54 +569,21 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 52,
-      "away": 3
-    },
-    "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        14,
-        10,
-        21
-      ]
-    },
+    "score": {"home": 52, "away": 3},
+    "linescore": {"away": [3, 0, 0, 0], "home": [7, 14, 10, 21]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 7
-      }
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 7}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 16 2024 15:30:00 GMT-0500",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "opponentId": "UVA",
     "espnGameId": 401628985,
     "highlightsYouTubeVideoId": "ES0YubyOTsk",
     "records": {
-      "home": {
-        "overall": "9-1",
-        "home": "5-1",
-        "away": "2-0",
-        "neutral": "2-0"
-      },
-      "away": {
-        "overall": "5-5",
-        "home": "2-3",
-        "away": "3-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "9-1", "home": "5-1", "away": "2-0", "neutral": "2-0"},
+      "away": {"overall": "5-5", "home": "2-3", "away": "3-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -963,65 +630,29 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 35,
-      "away": 14
-    },
-    "linescore": {
-      "away": [
-        0,
-        0,
-        7,
-        7
-      ],
-      "home": [
-        7,
-        21,
-        7,
-        0
-      ]
-    },
+    "score": {"home": 35, "away": 14},
+    "linescore": {"away": [0, 0, 7, 7], "home": [7, 21, 7, 0]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 7
-      }
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 7}}
   },
   {
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "date": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [
-        40.829602,
-        -73.926228
-      ]
+      "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "ARMY",
     "espnGameId": 401640959,
     "highlightsYouTubeVideoId": "_Govxxe5oRU",
     "records": {
-      "home": {
-        "overall": "10-1",
-        "home": "5-1",
-        "away": "2-0",
-        "neutral": "3-0"
-      },
-      "away": {
-        "overall": "9-1",
-        "home": "5-0",
-        "away": "4-0",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "10-1", "home": "5-1", "away": "2-0", "neutral": "3-0"},
+      "away": {"overall": "9-1", "home": "5-0", "away": "4-0", "neutral": "0-1"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1068,67 +699,27 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 49,
-      "away": 14
-    },
-    "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        14,
-        14,
-        7
-      ]
-    },
+    "score": {"home": 49, "away": 14},
+    "linescore": {"away": [0, 7, 0, 7], "home": [14, 14, 14, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 6,
-        "coaches": 6
-      },
-      "away": {
-        "ap": 18,
-        "coaches": 17
-      }
-    }
+    "rankings": {"home": {"ap": 6, "coaches": 6}, "away": {"ap": 18, "coaches": 17}}
   },
   {
     "isHomeGame": false,
     "date": "Sat Nov 30 2024 15:30:00 GMT-0500",
-    "coverage": [
-      "CBS"
-    ],
+    "coverage": ["CBS"],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
     "espnGameId": 401628571,
     "highlightsYouTubeVideoId": "eAKYP9gHJtY",
     "records": {
-      "home": {
-        "overall": "6-6",
-        "home": "4-2",
-        "away": "1-4",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "11-1",
-        "home": "5-1",
-        "away": "3-0",
-        "neutral": "3-0"
-      }
+      "home": {"overall": "6-6", "home": "4-2", "away": "1-4", "neutral": "1-0"},
+      "away": {"overall": "11-1", "home": "5-1", "away": "3-0", "neutral": "3-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1175,31 +766,10 @@
         "fumbles": 0
       }
     },
-    "score": {
-      "home": 35,
-      "away": 49
-    },
-    "linescore": {
-      "away": [
-        7,
-        7,
-        21,
-        14
-      ],
-      "home": [
-        0,
-        14,
-        7,
-        14
-      ]
-    },
+    "score": {"home": 35, "away": 49},
+    "linescore": {"away": [7, 7, 21, 14], "home": [0, 14, 7, 14]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 5,
-        "coaches": 5
-      }
-    }
+    "rankings": {"away": {"ap": 5, "coaches": 5}}
   },
   {
     "isHomeGame": true,
@@ -1207,24 +777,12 @@
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
     "date": "Sat Dec 20 2024 18:00:00 GMT-0700",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "opponentId": "IND",
     "highlightsYouTubeVideoId": "09BXg7fhijA",
     "records": {
-      "home": {
-        "overall": "12-1",
-        "home": "6-1",
-        "away": "3-0",
-        "neutral": "3-0"
-      },
-      "away": {
-        "overall": "11-2",
-        "home": "8-0",
-        "away": "3-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "12-1", "home": "6-1", "away": "3-0", "neutral": "3-0"},
+      "away": {"overall": "11-2", "home": "8-0", "away": "3-2", "neutral": "0-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1271,35 +829,10 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 27,
-      "away": 17
-    },
-    "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        14
-      ],
-      "home": [
-        7,
-        10,
-        3,
-        7
-      ]
-    },
+    "score": {"home": 27, "away": 17},
+    "linescore": {"away": [0, 3, 0, 14], "home": [7, 10, 3, 7]},
     "result": "W",
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 3
-      },
-      "away": {
-        "ap": 9,
-        "coaches": 9
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 9, "coaches": 9}}
   },
   {
     "isHomeGame": false,
@@ -1308,33 +841,18 @@
     "espnGameId": 401677184,
     "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
     "date": "Thu Jan 02 2025 14:00:00 GMT-0700",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "location": {
       "city": "New Orleans",
       "state": "LA",
       "stadium": "Louisiana Superdome",
-      "coordinates": [
-        29.950833,
-        -90.081111
-      ]
+      "coordinates": [29.950833, -90.081111]
     },
     "opponentId": "UGA",
     "highlightsYouTubeVideoId": "B78JMxYQoDM",
     "records": {
-      "home": {
-        "overall": "11-3",
-        "home": "6-0",
-        "away": "2-2",
-        "neutral": "3-1"
-      },
-      "away": {
-        "overall": "13-1",
-        "home": "6-1",
-        "away": "3-0",
-        "neutral": "4-0"
-      }
+      "home": {"overall": "11-3", "home": "6-0", "away": "2-2", "neutral": "3-1"},
+      "away": {"overall": "13-1", "home": "6-1", "away": "3-0", "neutral": "4-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1381,35 +899,10 @@
         "fumbles": 3
       }
     },
-    "score": {
-      "home": 10,
-      "away": 23
-    },
-    "linescore": {
-      "away": [
-        0,
-        13,
-        7,
-        3
-      ],
-      "home": [
-        0,
-        3,
-        7,
-        0
-      ]
-    },
+    "score": {"home": 10, "away": 23},
+    "linescore": {"away": [0, 13, 7, 3], "home": [0, 3, 7, 0]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 3
-      },
-      "home": {
-        "ap": 2,
-        "coaches": 2
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 3}, "home": {"ap": 2, "coaches": 2}}
   },
   {
     "isHomeGame": false,
@@ -1418,33 +911,18 @@
     "espnGameId": 401677189,
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
     "date": "Thu Jan 09 2025 17:30:00 GMT-0700",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "highlightsYouTubeVideoId": "uX_zcBD7DE0",
     "location": {
       "city": "Miami",
       "state": "FL",
       "stadium": "Hard Rock Stadium",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "PSU",
     "records": {
-      "home": {
-        "overall": "13-3",
-        "home": "7-1",
-        "away": "5-0",
-        "neutral": "1-2"
-      },
-      "away": {
-        "overall": "14-1",
-        "home": "6-1",
-        "away": "3-0",
-        "neutral": "5-0"
-      }
+      "home": {"overall": "13-3", "home": "7-1", "away": "5-0", "neutral": "1-2"},
+      "away": {"overall": "14-1", "home": "6-1", "away": "3-0", "neutral": "5-0"}
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -1491,35 +969,10 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 24,
-      "away": 27
-    },
-    "linescore": {
-      "away": [
-        0,
-        3,
-        7,
-        17
-      ],
-      "home": [
-        0,
-        10,
-        0,
-        14
-      ]
-    },
+    "score": {"home": 24, "away": 27},
+    "linescore": {"away": [0, 3, 7, 17], "home": [0, 10, 0, 14]},
     "result": "W",
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 3
-      },
-      "home": {
-        "ap": 5,
-        "coaches": 5
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 3}, "home": {"ap": 5, "coaches": 5}}
   },
   {
     "isHomeGame": true,
@@ -1529,33 +982,18 @@
     "nickname": "College Football Playoff Championship",
     "date": "Mon Jan 20 2025 17:30:00 GMT-0700",
     "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "location": {
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Mercedes-Benz Stadium",
-      "coordinates": [
-        33.76,
-        -84.4
-      ]
+      "coordinates": [33.76, -84.4]
     },
     "opponentId": "OSU",
     "headCoach": "Marcus Freeman",
     "records": {
-      "home": {
-        "overall": "14-2",
-        "home": "6-1",
-        "away": "3-0",
-        "neutral": "5-1"
-      },
-      "away": {
-        "overall": "14-2",
-        "home": "8-1",
-        "away": "3-1",
-        "neutral": "3-0"
-      }
+      "home": {"overall": "14-2", "home": "6-1", "away": "3-0", "neutral": "5-1"},
+      "away": {"overall": "14-2", "home": "8-1", "away": "3-1", "neutral": "3-0"}
     },
     "stats": {
       "away": {
@@ -1601,34 +1039,9 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 23,
-      "away": 34
-    },
-    "linescore": {
-      "away": [
-        0,
-        21,
-        10,
-        3
-      ],
-      "home": [
-        7,
-        0,
-        8,
-        8
-      ]
-    },
+    "score": {"home": 23, "away": 34},
+    "linescore": {"away": [0, 21, 10, 3], "home": [7, 0, 8, 8]},
     "result": "L",
-    "rankings": {
-      "home": {
-        "ap": 2,
-        "coaches": 2
-      },
-      "away": {
-        "ap": 1,
-        "coaches": 1
-      }
-    }
+    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 1, "coaches": 1}}
   }
 ]

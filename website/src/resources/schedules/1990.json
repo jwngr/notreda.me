@@ -4,30 +4,12 @@
     "isHomeGame": true,
     "date": "Sun Sep 16, 1990 00:00:00 GMT-0400",
     "opponentId": "MICH",
-    "score": {
-      "away": 24,
-      "home": 28
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "CBS"
-    ],
+    "score": {"away": 24, "home": 28},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 4
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 60
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 4}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 60}
   },
   {
     "result": "W",
@@ -37,138 +19,60 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [
-        42.727122,
-        -84.486078
-      ]
+      "coordinates": [42.727122, -84.486078]
     },
     "opponentId": "MSU",
-    "score": {
-      "away": 20,
-      "home": 19
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 20, "home": 19},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 1
-      },
-      "home": {
-        "ap": 24
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 52
-    }
+    "rankings": {"away": {"ap": 1}, "home": {"ap": 24}},
+    "weather": {"icon": "cloudy", "temperature": 52}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 29, 1990 15:00:00 GMT-0400",
     "opponentId": "PUR",
-    "score": {
-      "away": 11,
-      "home": 37
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 11, "home": 37},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 66
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 66}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Oct 06, 1990 15:00:00 GMT-0400",
     "opponentId": "STAN",
-    "score": {
-      "away": 36,
-      "home": 31
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 36, "home": 31},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 84
-    }
+    "rankings": {"home": {"ap": 1}},
+    "weather": {"icon": "clear-day", "temperature": 84}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 13, 1990 15:00:00 GMT-0400",
     "opponentId": "AF",
-    "score": {
-      "away": 27,
-      "home": 57
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 27, "home": 57},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 63
-    }
+    "rankings": {"home": {"ap": 8}},
+    "weather": {"icon": "clear-day", "temperature": 63}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 20, 1990 18:30:00 GMT-0400",
     "opponentId": "MIAMI",
-    "score": {
-      "away": 20,
-      "home": 29
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "CBS"
-    ],
+    "score": {"away": 20, "home": 29},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 6
-      },
-      "away": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 62
-    }
+    "rankings": {"home": {"ap": 6}, "away": {"ap": 2}},
+    "weather": {"icon": "clear-day", "temperature": 62}
   },
   {
     "result": "W",
@@ -178,57 +82,26 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [
-        40.444,
-        -79.962
-      ]
+      "coordinates": [40.444, -79.962]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 31,
-      "home": 22
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ESPN"
-    ],
+    "score": {"away": 31, "home": 22},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 3
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 52
-    }
+    "rankings": {"away": {"ap": 3}},
+    "weather": {"icon": "cloudy", "temperature": 52}
   },
   {
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 03, 1990 15:00:00 GMT-0500",
     "opponentId": "NAVY",
-    "score": {
-      "away": 31,
-      "home": 52
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 31, "home": 52},
+    "linescore": {"away": [], "home": []},
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 2
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 78
-    }
+    "rankings": {"home": {"ap": 2}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 78}
   },
   {
     "result": "W",
@@ -238,66 +111,27 @@
       "city": "Knoxville",
       "state": "TN",
       "stadium": "Neyland Stadium",
-      "coordinates": [
-        35.954888,
-        -83.924955
-      ]
+      "coordinates": [35.954888, -83.924955]
     },
     "opponentId": "TENN",
-    "score": {
-      "away": 34,
-      "home": 29
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "CBS"
-    ],
+    "score": {"away": 34, "home": 29},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 1
-      },
-      "home": {
-        "ap": 9
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 44
-    }
+    "rankings": {"away": {"ap": 1}, "home": {"ap": 9}},
+    "weather": {"icon": "partly-cloudy-night", "temperature": 44}
   },
   {
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 17, 1990 19:00:00 GMT-0500",
     "opponentId": "PSU",
-    "score": {
-      "away": 24,
-      "home": 21
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ESPN"
-    ],
+    "score": {"away": 24, "home": 21},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 18
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 40
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 18}},
+    "weather": {"icon": "clear-night", "temperature": 40}
   },
   {
     "result": "W",
@@ -307,36 +141,15 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "score": {
-      "away": 10,
-      "home": 6
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "score": {"away": 10, "home": 6},
+    "linescore": {"away": [], "home": []},
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "away": {
-        "ap": 7
-      },
-      "home": {
-        "ap": 18
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 60
-    }
+    "rankings": {"away": {"ap": 7}, "home": {"ap": 18}},
+    "weather": {"icon": "clear-night", "temperature": 60}
   },
   {
     "result": "L",
@@ -348,46 +161,15 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [
-        25.777936,
-        -80.220957
-      ]
+      "coordinates": [25.777936, -80.220957]
     },
     "opponentId": "COL",
-    "score": {
-      "away": 9,
-      "home": 10
-    },
-    "linescore": {
-      "away": [
-        0,
-        6,
-        3,
-        0
-      ],
-      "home": [
-        0,
-        3,
-        7,
-        0
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "score": {"away": 9, "home": 10},
+    "linescore": {"away": [0, 6, 3, 0], "home": [0, 3, 7, 0]},
+    "coverage": ["NBC"],
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",
-    "rankings": {
-      "home": {
-        "ap": 1
-      },
-      "away": {
-        "ap": 5
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 74
-    }
+    "rankings": {"home": {"ap": 1}, "away": {"ap": 5}},
+    "weather": {"icon": "clear-night", "temperature": 74}
   }
 ]

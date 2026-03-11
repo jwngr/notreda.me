@@ -3,29 +3,11 @@
     "isHomeGame": true,
     "date": "Sat Sep 01 2018 19:30:00 GMT-0400",
     "opponentId": "MICH",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "espnGameId": 401012888,
     "highlightsYouTubeVideoId": "UUiRmqztkmo",
-    "linescore": {
-      "away": [
-        0,
-        10,
-        0,
-        7
-      ],
-      "home": [
-        14,
-        7,
-        3,
-        0
-      ]
-    },
-    "score": {
-      "home": 24,
-      "away": 17
-    },
+    "linescore": {"away": [0, 10, 0, 7], "home": [14, 7, 3, 0]},
+    "score": {"home": 24, "away": 17},
     "result": "W",
     "stats": {
       "away": {
@@ -72,62 +54,22 @@
       }
     },
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 12,
-        "coaches": 11
-      },
-      "away": {
-        "ap": 14,
-        "coaches": 14
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 81
-    }
+    "rankings": {"home": {"ap": 12, "coaches": 11}, "away": {"ap": 14, "coaches": 14}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 81}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 08 2018 15:30:00 GMT-0400",
     "opponentId": "BALL",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "espnGameId": 401013377,
     "highlightsYouTubeVideoId": "BS7PECgj-7E",
-    "linescore": {
-      "away": [
-        3,
-        3,
-        0,
-        10
-      ],
-      "home": [
-        7,
-        7,
-        10,
-        0
-      ]
-    },
-    "score": {
-      "home": 24,
-      "away": 16
-    },
+    "linescore": {"away": [3, 3, 0, 10], "home": [7, 7, 10, 0]},
+    "score": {"home": 24, "away": 16},
     "result": "W",
     "stats": {
       "away": {
@@ -174,72 +116,26 @@
       }
     },
     "records": {
-      "home": {
-        "overall": "2-0",
-        "home": "2-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 8
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 66
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 8}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 66}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 15 2018 14:30:00 GMT-0400",
     "opponentId": "VANDY",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "m07W96ROU9Y",
     "records": {
-      "home": {
-        "overall": "3-0",
-        "home": "3-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-1",
-        "home": "2-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-0", "home": "3-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "2-1", "home": "2-0", "away": "0-1", "neutral": "0-0"}
     },
     "espnGameId": 401012283,
-    "linescore": {
-      "away": [
-        0,
-        3,
-        7,
-        7
-      ],
-      "home": [
-        10,
-        6,
-        0,
-        6
-      ]
-    },
-    "score": {
-      "home": 22,
-      "away": 17
-    },
+    "linescore": {"away": [0, 3, 7, 7], "home": [10, 6, 0, 6]},
+    "score": {"home": 22, "away": 17},
     "result": "W",
     "stats": {
       "away": {
@@ -286,16 +182,8 @@
       }
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 81
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 8}},
+    "weather": {"icon": "clear-day", "temperature": 81}
   },
   {
     "isHomeGame": false,
@@ -305,49 +193,18 @@
       "city": "Winston-Salem",
       "state": "NC",
       "stadium": "BB&T Field",
-      "coordinates": [
-        36.13015,
-        -80.254258
-      ]
+      "coordinates": [36.13015, -80.254258]
     },
     "opponentId": "WAKE",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "GR5k0Ev9R3s",
     "records": {
-      "home": {
-        "overall": "2-2",
-        "home": "1-2",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "4-0",
-        "home": "3-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-2", "home": "1-2", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "4-0", "home": "3-0", "away": "1-0", "neutral": "0-0"}
     },
     "espnGameId": 401013129,
-    "linescore": {
-      "away": [
-        7,
-        21,
-        21,
-        7
-      ],
-      "home": [
-        3,
-        10,
-        7,
-        7
-      ]
-    },
-    "score": {
-      "home": 27,
-      "away": 56
-    },
+    "linescore": {"away": [7, 21, 21, 7], "home": [3, 10, 7, 7]},
+    "score": {"home": 27, "away": 56},
     "result": "W",
     "stats": {
       "away": {
@@ -394,59 +251,23 @@
       }
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 8,
-        "coaches": 8
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 84
-    }
+    "rankings": {"away": {"ap": 8, "coaches": 8}},
+    "weather": {"icon": "clear-day", "temperature": 84}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 29 2018 19:30:00 GMT-0400",
     "opponentId": "STAN",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "hi3f-rYUmXA",
     "records": {
-      "home": {
-        "overall": "5-0",
-        "home": "4-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "4-1",
-        "home": "3-0",
-        "away": "1-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "5-0", "home": "4-0", "away": "1-0", "neutral": "0-0"},
+      "away": {"overall": "4-1", "home": "3-0", "away": "1-1", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
     "espnGameId": 401012758,
-    "linescore": {
-      "away": [
-        7,
-        7,
-        3,
-        0
-      ],
-      "home": [
-        14,
-        7,
-        3,
-        14
-      ]
-    },
-    "score": {
-      "home": 38,
-      "away": 17
-    },
+    "linescore": {"away": [7, 7, 3, 0], "home": [14, 7, 3, 14]},
+    "score": {"home": 38, "away": 17},
     "result": "W",
     "stats": {
       "away": {
@@ -492,20 +313,8 @@
         "fumbles": 2
       }
     },
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "coaches": 8
-      },
-      "away": {
-        "ap": 7,
-        "coaches": 7
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 54
-    }
+    "rankings": {"home": {"ap": 8, "coaches": 8}, "away": {"ap": 7, "coaches": 7}},
+    "weather": {"icon": "cloudy", "temperature": 54}
   },
   {
     "isHomeGame": false,
@@ -514,60 +323,20 @@
       "city": "Blacksburg",
       "state": "VA",
       "stadium": "Lane Stadium",
-      "coordinates": [
-        37.219885,
-        -80.418311
-      ]
+      "coordinates": [37.219885, -80.418311]
     },
     "opponentId": "VT",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "XGm1RyGcN1g",
     "records": {
-      "home": {
-        "overall": "3-2",
-        "home": "1-1",
-        "away": "2-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "6-0",
-        "home": "4-0",
-        "away": "2-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "3-2", "home": "1-1", "away": "2-1", "neutral": "0-0"},
+      "away": {"overall": "6-0", "home": "4-0", "away": "2-0", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 6,
-        "coaches": 7
-      },
-      "home": {
-        "ap": 24,
-        "coaches": 23
-      }
-    },
+    "rankings": {"away": {"ap": 6, "coaches": 7}, "home": {"ap": 24, "coaches": 23}},
     "espnGameId": 401013143,
-    "linescore": {
-      "away": [
-        10,
-        7,
-        14,
-        14
-      ],
-      "home": [
-        3,
-        13,
-        0,
-        7
-      ]
-    },
-    "score": {
-      "home": 23,
-      "away": 45
-    },
+    "linescore": {"away": [10, 7, 14, 14], "home": [3, 13, 0, 7]},
+    "score": {"home": 23, "away": 45},
     "result": "W",
     "stats": {
       "away": {
@@ -613,59 +382,23 @@
         "fumbles": 2
       }
     },
-    "weather": {
-      "icon": "partly-cloudy-night",
-      "temperature": 71
-    }
+    "weather": {"icon": "partly-cloudy-night", "temperature": 71}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 13 2018 14:30:00 GMT-0400",
     "opponentId": "PITT",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "KNxKwNoul-I",
     "records": {
-      "home": {
-        "overall": "7-0",
-        "home": "5-0",
-        "away": "2-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-4",
-        "home": "3-1",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "7-0", "home": "5-0", "away": "2-0", "neutral": "0-0"},
+      "away": {"overall": "3-4", "home": "3-1", "away": "0-3", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 5,
-        "coaches": 5
-      }
-    },
+    "rankings": {"home": {"ap": 5, "coaches": 5}},
     "espnGameId": 401013148,
-    "linescore": {
-      "away": [
-        7,
-        0,
-        7,
-        0
-      ],
-      "home": [
-        0,
-        6,
-        6,
-        7
-      ]
-    },
-    "score": {
-      "home": 19,
-      "away": 14
-    },
+    "linescore": {"away": [7, 0, 7, 0], "home": [0, 6, 6, 7]},
+    "score": {"home": 19, "away": 14},
     "result": "W",
     "stats": {
       "away": {
@@ -711,10 +444,7 @@
         "fumbles": 1
       }
     },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 50
-    }
+    "weather": {"icon": "clear-day", "temperature": 50}
   },
   {
     "isHomeGame": false,
@@ -724,56 +454,20 @@
       "city": "San Diego",
       "state": "CA",
       "stadium": "Qualcomm Stadium",
-      "coordinates": [
-        32.783058,
-        -117.119851
-      ]
+      "coordinates": [32.783058, -117.119851]
     },
     "opponentId": "NAVY",
-    "coverage": [
-      "CBS"
-    ],
+    "coverage": ["CBS"],
     "espnGameId": 401013189,
     "highlightsYouTubeVideoId": "H-WuNqpj0mU",
     "records": {
-      "home": {
-        "overall": "2-6",
-        "home": "2-2",
-        "away": "0-3",
-        "neutral": "0-1"
-      },
-      "away": {
-        "overall": "8-0",
-        "home": "5-0",
-        "away": "2-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "2-6", "home": "2-2", "away": "0-3", "neutral": "0-1"},
+      "away": {"overall": "8-0", "home": "5-0", "away": "2-0", "neutral": "1-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 3
-      }
-    },
-    "linescore": {
-      "away": [
-        13,
-        14,
-        10,
-        7
-      ],
-      "home": [
-        0,
-        0,
-        14,
-        8
-      ]
-    },
-    "score": {
-      "home": 22,
-      "away": 44
-    },
+    "rankings": {"away": {"ap": 3, "coaches": 3}},
+    "linescore": {"away": [13, 14, 10, 7], "home": [0, 0, 14, 8]},
+    "score": {"home": 22, "away": 44},
     "result": "W",
     "stats": {
       "away": {
@@ -819,10 +513,7 @@
         "fumbles": 2
       }
     },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 76
-    }
+    "weather": {"icon": "clear-day", "temperature": 76}
   },
   {
     "isHomeGame": false,
@@ -831,57 +522,20 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Ryan Field",
-      "coordinates": [
-        42.06606,
-        -87.693537
-      ]
+      "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "highlightsYouTubeVideoId": "7LKS8RIGi5Y",
     "records": {
-      "home": {
-        "overall": "5-4",
-        "home": "2-4",
-        "away": "3-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "9-0",
-        "home": "5-0",
-        "away": "3-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "5-4", "home": "2-4", "away": "3-0", "neutral": "0-0"},
+      "away": {"overall": "9-0", "home": "5-0", "away": "3-0", "neutral": "1-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 3,
-        "cfbPlayoff": 4
-      }
-    },
+    "rankings": {"away": {"ap": 3, "coaches": 3, "cfbPlayoff": 4}},
     "espnGameId": 401013345,
-    "linescore": {
-      "away": [
-        7,
-        0,
-        14,
-        10
-      ],
-      "home": [
-        0,
-        7,
-        0,
-        14
-      ]
-    },
-    "score": {
-      "home": 21,
-      "away": 31
-    },
+    "linescore": {"away": [7, 0, 14, 10], "home": [0, 7, 0, 14]},
+    "score": {"home": 21, "away": 31},
     "result": "W",
     "stats": {
       "away": {
@@ -927,60 +581,23 @@
         "fumbles": 1
       }
     },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 45
-    }
+    "weather": {"icon": "cloudy", "temperature": 45}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 10 2018 19:30:00 GMT-0500",
     "opponentId": "FSU",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "euIlgxCHBYY",
     "records": {
-      "home": {
-        "overall": "10-0",
-        "home": "6-0",
-        "away": "3-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "4-6",
-        "home": "3-2",
-        "away": "1-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "10-0", "home": "6-0", "away": "3-0", "neutral": "1-0"},
+      "away": {"overall": "4-6", "home": "3-2", "away": "1-4", "neutral": "0-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 3,
-        "cfbPlayoff": 3
-      }
-    },
+    "rankings": {"home": {"ap": 3, "coaches": 3, "cfbPlayoff": 3}},
     "espnGameId": 401013171,
-    "linescore": {
-      "away": [
-        0,
-        6,
-        7,
-        0
-      ],
-      "home": [
-        17,
-        15,
-        3,
-        7
-      ]
-    },
-    "score": {
-      "home": 42,
-      "away": 13
-    },
+    "linescore": {"away": [0, 6, 7, 0], "home": [17, 15, 3, 7]},
+    "score": {"home": 42, "away": 13},
     "result": "W",
     "stats": {
       "away": {
@@ -1026,10 +643,7 @@
         "fumbles": 0
       }
     },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 27
-    }
+    "weather": {"icon": "clear-night", "temperature": 27}
   },
   {
     "isHomeGame": true,
@@ -1041,62 +655,23 @@
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [
-        40.829602,
-        -73.926228
-      ]
+      "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "SYR",
-    "coverage": [
-      "NBC"
-    ],
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "bWblA0GDXlA",
     "records": {
-      "home": {
-        "overall": "11-0",
-        "home": "6-0",
-        "away": "3-0",
-        "neutral": "2-0"
-      },
-      "away": {
-        "overall": "8-3",
-        "home": "6-0",
-        "away": "2-2",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "11-0", "home": "6-0", "away": "3-0", "neutral": "2-0"},
+      "away": {"overall": "8-3", "home": "6-0", "away": "2-2", "neutral": "0-1"}
     },
     "headCoach": "Brian Kelly",
     "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 3,
-        "cfbPlayoff": 3
-      },
-      "away": {
-        "ap": 12,
-        "coaches": 12,
-        "cfbPlayoff": 12
-      }
+      "home": {"ap": 3, "coaches": 3, "cfbPlayoff": 3},
+      "away": {"ap": 12, "coaches": 12, "cfbPlayoff": 12}
     },
     "espnGameId": 401013182,
-    "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        3
-      ],
-      "home": [
-        13,
-        7,
-        9,
-        7
-      ]
-    },
-    "score": {
-      "home": 36,
-      "away": 3
-    },
+    "linescore": {"away": [0, 0, 0, 3], "home": [13, 7, 9, 7]},
+    "score": {"home": 36, "away": 3},
     "result": "W",
     "stats": {
       "away": {
@@ -1142,10 +717,7 @@
         "fumbles": 0
       }
     },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 47
-    }
+    "weather": {"icon": "cloudy", "temperature": 47}
   },
   {
     "isHomeGame": false,
@@ -1154,57 +726,20 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [
-        34.014167,
-        -118.287778
-      ]
+      "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "coverage": [
-      "ABC"
-    ],
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "Lb8oyowI5E0",
     "records": {
-      "home": {
-        "overall": "5-7",
-        "home": "3-3",
-        "away": "2-4",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "12-0",
-        "home": "6-0",
-        "away": "4-0",
-        "neutral": "2-0"
-      }
+      "home": {"overall": "5-7", "home": "3-3", "away": "2-4", "neutral": "0-0"},
+      "away": {"overall": "12-0", "home": "6-0", "away": "4-0", "neutral": "2-0"}
     },
     "headCoach": "Brian Kelly",
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 3,
-        "cfbPlayoff": 3
-      }
-    },
+    "rankings": {"away": {"ap": 3, "coaches": 3, "cfbPlayoff": 3}},
     "espnGameId": 401012800,
-    "linescore": {
-      "away": [
-        0,
-        7,
-        10,
-        7
-      ],
-      "home": [
-        7,
-        3,
-        0,
-        7
-      ]
-    },
-    "score": {
-      "home": 17,
-      "away": 24
-    },
+    "linescore": {"away": [0, 7, 10, 7], "home": [7, 3, 0, 7]},
+    "score": {"home": 17, "away": 24},
     "result": "W",
     "stats": {
       "away": {
@@ -1250,10 +785,7 @@
         "fumbles": 2
       }
     },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 55
-    }
+    "weather": {"icon": "clear-night", "temperature": 55}
   },
   {
     "isBowlGame": true,
@@ -1261,66 +793,27 @@
     "isNeutralSiteGame": true,
     "date": "Sat Dec 29 2018 16:00:00 GMT-0500",
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
-    "coverage": [
-      "ESPN"
-    ],
+    "coverage": ["ESPN"],
     "location": {
       "city": "Arlington",
       "state": "TX",
       "stadium": "AT&T Stadium",
-      "coordinates": [
-        32.747176,
-        -97.094719
-      ]
+      "coordinates": [32.747176, -97.094719]
     },
     "opponentId": "CLEM",
     "rankings": {
-      "home": {
-        "ap": 2,
-        "coaches": 2,
-        "cfbPlayoff": 2
-      },
-      "away": {
-        "ap": 3,
-        "coaches": 3,
-        "cfbPlayoff": 3
-      }
+      "home": {"ap": 2, "coaches": 2, "cfbPlayoff": 2},
+      "away": {"ap": 3, "coaches": 3, "cfbPlayoff": 3}
     },
     "records": {
-      "home": {
-        "overall": "14-0",
-        "home": "7-0",
-        "away": "5-0",
-        "neutral": "2-0"
-      },
-      "away": {
-        "overall": "12-1",
-        "home": "6-0",
-        "away": "4-0",
-        "neutral": "2-1"
-      }
+      "home": {"overall": "14-0", "home": "7-0", "away": "5-0", "neutral": "2-0"},
+      "away": {"overall": "12-1", "home": "6-0", "away": "4-0", "neutral": "2-1"}
     },
     "headCoach": "Brian Kelly",
     "espnGameId": 401032079,
     "highlightsYouTubeVideoId": "8gDbOj7Xt5w",
-    "linescore": {
-      "away": [
-        3,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        3,
-        20,
-        7,
-        0
-      ]
-    },
-    "score": {
-      "home": 30,
-      "away": 3
-    },
+    "linescore": {"away": [3, 0, 0, 0], "home": [3, 20, 7, 0]},
+    "score": {"home": 30, "away": 3},
     "result": "L",
     "stats": {
       "away": {
@@ -1366,9 +859,6 @@
         "fumbles": 2
       }
     },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 39
-    }
+    "weather": {"icon": "cloudy", "temperature": 39}
   }
 ]

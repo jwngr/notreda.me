@@ -4,10 +4,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 05, 2009 18:30:00 GMT-0400",
     "opponentId": "NEV",
-    "score": {
-      "away": 0,
-      "home": 35
-    },
+    "score": {"away": 0, "home": 35},
     "stats": {
       "away": {
         "firstDowns": 15,
@@ -53,46 +50,14 @@
       }
     },
     "espnGameId": 292480087,
-    "linescore": {
-      "away": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "home": [
-        7,
-        21,
-        7,
-        0
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [0, 0, 0, 0], "home": [7, 21, 7, 0]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 23
-      }
-    },
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 75
-    },
+    "rankings": {"home": {"ap": 23}},
+    "weather": {"icon": "partly-cloudy-day", "temperature": 75},
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -103,16 +68,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [
-        42.265686,
-        -83.74861
-      ]
+      "coordinates": [42.265686, -83.74861]
     },
     "opponentId": "MICH",
-    "score": {
-      "away": 34,
-      "home": 38
-    },
+    "score": {"away": 34, "home": 38},
     "stats": {
       "away": {
         "firstDowns": 27,
@@ -158,46 +117,14 @@
       }
     },
     "espnGameId": 292550130,
-    "linescore": {
-      "away": [
-        3,
-        17,
-        0,
-        14
-      ],
-      "home": [
-        14,
-        3,
-        7,
-        14
-      ]
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "linescore": {"away": [3, 17, 0, 14], "home": [14, 3, 7, 14]},
+    "coverage": ["ABC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "away": {
-        "ap": 18
-      }
-    },
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 73
-    },
+    "rankings": {"away": {"ap": 18}},
+    "weather": {"icon": "clear-day", "temperature": 73},
     "records": {
-      "home": {
-        "overall": "2-0",
-        "home": "2-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-0", "home": "2-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -205,10 +132,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 19, 2009 18:30:00 GMT-0400",
     "opponentId": "MSU",
-    "score": {
-      "away": 30,
-      "home": 33
-    },
+    "score": {"away": 30, "home": 33},
     "stats": {
       "away": {
         "firstDowns": 27,
@@ -254,41 +178,13 @@
       }
     },
     "espnGameId": 292620087,
-    "linescore": {
-      "away": [
-        3,
-        14,
-        6,
-        7
-      ],
-      "home": [
-        13,
-        3,
-        10,
-        7
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [3, 14, 6, 7], "home": [13, 3, 10, 7]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-day",
-      "temperature": 71
-    },
+    "weather": {"icon": "clear-day", "temperature": 71},
     "records": {
-      "home": {
-        "overall": "2-1",
-        "home": "2-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-2",
-        "home": "1-1",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "2-1", "home": "2-0", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"}
     }
   },
   {
@@ -299,16 +195,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [
-        40.434042,
-        -86.918267
-      ]
+      "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
-    "score": {
-      "away": 24,
-      "home": 21
-    },
+    "score": {"away": 24, "home": 21},
     "stats": {
       "away": {
         "firstDowns": 23,
@@ -354,41 +244,13 @@
       }
     },
     "espnGameId": 292692509,
-    "linescore": {
-      "away": [
-        3,
-        14,
-        0,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        0,
-        14
-      ]
-    },
-    "coverage": [
-      "ESPN"
-    ],
+    "linescore": {"away": [3, 14, 0, 7], "home": [7, 0, 0, 14]},
+    "coverage": ["ESPN"],
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 61
-    },
+    "weather": {"icon": "clear-night", "temperature": 61},
     "records": {
-      "home": {
-        "overall": "1-3",
-        "home": "1-2",
-        "away": "0-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "3-1",
-        "home": "2-0",
-        "away": "1-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-3", "home": "1-2", "away": "0-1", "neutral": "0-0"},
+      "away": {"overall": "3-1", "home": "2-0", "away": "1-1", "neutral": "0-0"}
     }
   },
   {
@@ -396,10 +258,7 @@
     "isHomeGame": true,
     "date": "Sat Oct 03, 2009 18:30:00 GMT-0400",
     "opponentId": "WASH",
-    "score": {
-      "away": 30,
-      "home": 37
-    },
+    "score": {"away": 30, "home": 37},
     "stats": {
       "away": {
         "firstDowns": 25,
@@ -445,44 +304,14 @@
       }
     },
     "espnGameId": 292760087,
-    "linescore": {
-      "away": [
-        7,
-        10,
-        7,
-        6,
-        0
-      ],
-      "home": [
-        3,
-        13,
-        3,
-        11,
-        7
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [7, 10, 7, 6, 0], "home": [3, 13, 3, 11, 7]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "numOvertimes": 1,
-    "weather": {
-      "icon": "rain",
-      "temperature": 53
-    },
+    "weather": {"icon": "rain", "temperature": 53},
     "records": {
-      "home": {
-        "overall": "4-1",
-        "home": "3-0",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "2-3",
-        "home": "2-1",
-        "away": "0-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-1", "home": "3-0", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "2-3", "home": "2-1", "away": "0-2", "neutral": "0-0"}
     }
   },
   {
@@ -490,10 +319,7 @@
     "isHomeGame": true,
     "date": "Sat Oct 17, 2009 18:30:00 GMT-0400",
     "opponentId": "USC",
-    "score": {
-      "away": 34,
-      "home": 27
-    },
+    "score": {"away": 34, "home": 27},
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -539,49 +365,14 @@
       }
     },
     "espnGameId": 292900087,
-    "linescore": {
-      "away": [
-        7,
-        6,
-        14,
-        7
-      ],
-      "home": [
-        7,
-        0,
-        7,
-        13
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [7, 6, 14, 7], "home": [7, 0, 7, 13]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 25
-      },
-      "away": {
-        "ap": 6
-      }
-    },
-    "weather": {
-      "icon": "cloudy",
-      "temperature": 46
-    },
+    "rankings": {"home": {"ap": 25}, "away": {"ap": 6}},
+    "weather": {"icon": "cloudy", "temperature": 46},
     "records": {
-      "home": {
-        "overall": "4-2",
-        "home": "3-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "5-1",
-        "home": "2-0",
-        "away": "3-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "5-1", "home": "2-0", "away": "3-1", "neutral": "0-0"}
     }
   },
   {
@@ -589,10 +380,7 @@
     "isHomeGame": true,
     "date": "Sat Oct 24, 2009 18:30:00 GMT-0400",
     "opponentId": "BC",
-    "score": {
-      "away": 16,
-      "home": 20
-    },
+    "score": {"away": 16, "home": 20},
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -638,41 +426,13 @@
       }
     },
     "espnGameId": 292970087,
-    "linescore": {
-      "away": [
-        2,
-        7,
-        7,
-        0
-      ],
-      "home": [
-        3,
-        10,
-        0,
-        7
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [2, 7, 7, 0], "home": [3, 10, 0, 7]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "partly-cloudy-day",
-      "temperature": 45
-    },
+    "weather": {"icon": "partly-cloudy-day", "temperature": 45},
     "records": {
-      "home": {
-        "overall": "5-2",
-        "home": "4-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "5-3",
-        "home": "5-0",
-        "away": "0-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "5-3", "home": "5-0", "away": "0-3", "neutral": "0-0"}
     }
   },
   {
@@ -685,16 +445,10 @@
       "city": "San Antonio",
       "state": "TX",
       "stadium": "Alamodome",
-      "coordinates": [
-        29.416815,
-        -98.478932
-      ]
+      "coordinates": [29.416815, -98.478932]
     },
     "opponentId": "WSU",
-    "score": {
-      "away": 14,
-      "home": 40
-    },
+    "score": {"away": 14, "home": 40},
     "stats": {
       "away": {
         "firstDowns": 12,
@@ -740,47 +494,14 @@
       }
     },
     "espnGameId": 293040087,
-    "linescore": {
-      "away": [
-        0,
-        7,
-        0,
-        7
-      ],
-      "home": [
-        9,
-        21,
-        3,
-        7
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [0, 7, 0, 7], "home": [9, 21, 3, 7]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 25,
-        "bcs": 23
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 57
-    },
+    "rankings": {"home": {"ap": 25, "bcs": 23}},
+    "weather": {"icon": "clear-night", "temperature": 57},
     "records": {
-      "home": {
-        "overall": "6-2",
-        "home": "5-1",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-7",
-        "home": "1-3",
-        "away": "0-4",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-2", "home": "5-1", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "1-7", "home": "1-3", "away": "0-4", "neutral": "0-0"}
     }
   },
   {
@@ -788,10 +509,7 @@
     "isHomeGame": true,
     "date": "Sat Nov 07, 2009 17:30:00 GMT-0500",
     "opponentId": "NAVY",
-    "score": {
-      "away": 23,
-      "home": 21
-    },
+    "score": {"away": 23, "home": 21},
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -837,47 +555,14 @@
       }
     },
     "espnGameId": 293110087,
-    "linescore": {
-      "away": [
-        7,
-        7,
-        7,
-        2
-      ],
-      "home": [
-        0,
-        0,
-        7,
-        14
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [7, 7, 7, 2], "home": [0, 0, 7, 14]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 19,
-        "bcs": 22
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 66
-    },
+    "rankings": {"home": {"ap": 19, "bcs": 22}},
+    "weather": {"icon": "clear-night", "temperature": 66},
     "records": {
-      "home": {
-        "overall": "6-3",
-        "home": "5-2",
-        "away": "1-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "7-3",
-        "home": "4-1",
-        "away": "3-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-3", "home": "5-2", "away": "1-1", "neutral": "0-0"},
+      "away": {"overall": "7-3", "home": "4-1", "away": "3-2", "neutral": "0-0"}
     }
   },
   {
@@ -888,16 +573,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [
-        40.445773,
-        -80.014982
-      ]
+      "coordinates": [40.445773, -80.014982]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 22,
-      "home": 27
-    },
+    "score": {"away": 22, "home": 27},
     "stats": {
       "away": {
         "firstDowns": 20,
@@ -943,47 +622,14 @@
       }
     },
     "espnGameId": 293180221,
-    "linescore": {
-      "away": [
-        0,
-        3,
-        0,
-        19
-      ],
-      "home": [
-        3,
-        7,
-        10,
-        7
-      ]
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "linescore": {"away": [0, 3, 0, 19], "home": [3, 7, 10, 7]},
+    "coverage": ["ABC"],
     "headCoach": "Charlie Weis",
-    "rankings": {
-      "home": {
-        "ap": 8,
-        "bcs": 12
-      }
-    },
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 49
-    },
+    "rankings": {"home": {"ap": 8, "bcs": 12}},
+    "weather": {"icon": "clear-night", "temperature": 49},
     "records": {
-      "home": {
-        "overall": "9-1",
-        "home": "6-0",
-        "away": "3-1",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "6-4",
-        "home": "5-2",
-        "away": "1-2",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "9-1", "home": "6-0", "away": "3-1", "neutral": "0-0"},
+      "away": {"overall": "6-4", "home": "5-2", "away": "1-2", "neutral": "0-0"}
     }
   },
   {
@@ -991,10 +637,7 @@
     "isHomeGame": true,
     "date": "Sat Nov 21, 2009 17:30:00 GMT-0500",
     "opponentId": "UCONN",
-    "score": {
-      "away": 33,
-      "home": 30
-    },
+    "score": {"away": 33, "home": 30},
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -1040,46 +683,14 @@
       }
     },
     "espnGameId": 293250087,
-    "linescore": {
-      "away": [
-        0,
-        10,
-        7,
-        3,
-        7,
-        6
-      ],
-      "home": [
-        7,
-        7,
-        3,
-        3,
-        7,
-        3
-      ]
-    },
-    "coverage": [
-      "NBC"
-    ],
+    "linescore": {"away": [0, 10, 7, 3, 7, 6], "home": [7, 7, 3, 3, 7, 3]},
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "numOvertimes": 2,
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 49
-    },
+    "weather": {"icon": "clear-night", "temperature": 49},
     "records": {
-      "home": {
-        "overall": "6-5",
-        "home": "5-3",
-        "away": "1-2",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "5-5",
-        "home": "2-2",
-        "away": "3-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "6-5", "home": "5-3", "away": "1-2", "neutral": "0-0"},
+      "away": {"overall": "5-5", "home": "2-2", "away": "3-3", "neutral": "0-0"}
     }
   },
   {
@@ -1090,16 +701,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [
-        37.434444,
-        -122.161111
-      ]
+      "coordinates": [37.434444, -122.161111]
     },
     "opponentId": "STAN",
-    "score": {
-      "away": 38,
-      "home": 45
-    },
+    "score": {"away": 38, "home": 45},
     "stats": {
       "away": {
         "firstDowns": 21,
@@ -1145,41 +750,13 @@
       }
     },
     "espnGameId": 293320024,
-    "linescore": {
-      "away": [
-        14,
-        10,
-        7,
-        7
-      ],
-      "home": [
-        10,
-        10,
-        7,
-        18
-      ]
-    },
-    "coverage": [
-      "ABC"
-    ],
+    "linescore": {"away": [14, 10, 7, 7], "home": [10, 10, 7, 18]},
+    "coverage": ["ABC"],
     "headCoach": "Charlie Weis",
-    "weather": {
-      "icon": "clear-night",
-      "temperature": 60
-    },
+    "weather": {"icon": "clear-night", "temperature": 60},
     "records": {
-      "home": {
-        "overall": "8-4",
-        "home": "6-1",
-        "away": "2-3",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "6-6",
-        "home": "5-3",
-        "away": "1-3",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "8-4", "home": "6-1", "away": "2-3", "neutral": "0-0"},
+      "away": {"overall": "6-6", "home": "5-3", "away": "1-3", "neutral": "0-0"}
     }
   }
 ]

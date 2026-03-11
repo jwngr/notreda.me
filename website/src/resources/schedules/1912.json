@@ -4,14 +4,8 @@
     "isHomeGame": true,
     "date": "10/05/1912",
     "opponentId": "VIA",
-    "score": {
-      "away": 7,
-      "home": 116
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 116},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
@@ -19,14 +13,8 @@
     "isHomeGame": true,
     "date": "10/12/1912",
     "opponentId": "ADRN",
-    "score": {
-      "away": 7,
-      "home": 74
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 7, "home": 74},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
@@ -34,14 +22,8 @@
     "isHomeGame": true,
     "date": "10/19/1912",
     "opponentId": "MORR",
-    "score": {
-      "away": 0,
-      "home": 39
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 39},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
@@ -49,14 +31,8 @@
     "isHomeGame": true,
     "date": "10/26/1912",
     "opponentId": "WAB",
-    "score": {
-      "away": 6,
-      "home": 41
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 6, "home": 41},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
@@ -70,34 +46,18 @@
       "coordinates": [40.44118, -79.95255]
     },
     "opponentId": "PITT",
-    "score": {
-      "away": 3,
-      "home": 0
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 3, "home": 0},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
     "result": "W",
     "isHomeGame": false,
     "date": "11/09/1912",
-    "location": {
-      "city": "St. Louis",
-      "state": "MO",
-      "coordinates": [38.63028, -90.20031]
-    },
+    "location": {"city": "St. Louis", "state": "MO", "coordinates": [38.63028, -90.20031]},
     "opponentId": "SLU",
-    "score": {
-      "away": 47,
-      "home": 7
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 47, "home": 7},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   },
   {
@@ -105,14 +65,8 @@
     "isHomeGame": true,
     "date": "11/28/1912",
     "opponentId": "MARQ",
-    "score": {
-      "away": 0,
-      "home": 69
-    },
-    "linescore": {
-      "away": [],
-      "home": []
-    },
+    "score": {"away": 0, "home": 69},
+    "linescore": {"away": [], "home": []},
     "headCoach": "John L. Marks"
   }
 ]

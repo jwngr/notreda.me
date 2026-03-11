@@ -21,24 +21,8 @@
     },
     "opponentId": "GT"
   },
-  {
-    "isHomeGame": true,
-    "date": "10/04/2036",
-    "opponentId": "FSU"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/01/2036",
-    "opponentId": "PITT"
-  },
-  {
-    "isHomeGame": true,
-    "date": "11/08/2036",
-    "opponentId": "UNC"
-  },
-  {
-    "isHomeGame": true,
-    "date": "TBD",
-    "opponentId": "CLEM"
-  }
+  {"isHomeGame": true, "date": "10/04/2036", "opponentId": "FSU"},
+  {"isHomeGame": true, "date": "11/01/2036", "opponentId": "PITT"},
+  {"isHomeGame": true, "date": "11/08/2036", "opponentId": "UNC"},
+  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
 ]
