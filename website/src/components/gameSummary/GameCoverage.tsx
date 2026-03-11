@@ -156,7 +156,8 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
           <TVNetworkLogo network={TVNetwork.Unknown} />
         </ChannelLogo>
       );
-    } else if (game.coverage) {
+    } else if (game.coverage && game.coverage.length > 0) {
+      // Otherwise, display the TV channel icons.
       const networks = game.coverage;
       const primaryNetwork = networks[0]; // Use first network as primary for styling
 

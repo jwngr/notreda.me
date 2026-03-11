@@ -77,7 +77,6 @@ export const TVNetworkLogo: React.FC<{readonly network: TVNetwork}> = ({network}
   return <img key={network} src={logo} alt={`${network} logo`} />;
 };
 
-// Add a new component for multiple networks
 export const TVNetworkLogos: React.FC<{readonly networks: TVNetwork[]}> = ({networks}) => {
   return (
     <>
