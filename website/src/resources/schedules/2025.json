@@ -2,18 +2,33 @@
   {
     "isHomeGame": false,
     "date": "Sun Aug 31 2025 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "espnGameId": 401754522,
     "location": {
       "city": "Miami Gardens",
       "state": "FL",
       "stadium": "Hard Rock Stadium",
-      "coordinates": [25.957783, -80.238978]
+      "coordinates": [
+        25.957783,
+        -80.238978
+      ]
     },
     "opponentId": "MIAMI",
     "records": {
-      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
-      "away": {"overall": "0-1", "home": "0-0", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     },
     "highlightsYouTubeVideoId": "dQq7I5f1ML0",
     "headCoach": "Marcus Freeman",
@@ -61,21 +76,58 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 27, "away": 24},
-    "linescore": {"away": [0, 7, 0, 17], "home": [0, 14, 7, 6]},
+    "score": {
+      "home": 27,
+      "away": 24
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        17
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        6
+      ]
+    },
     "result": "L",
-    "rankings": {"away": {"ap": 6, "coaches": 5}, "home": {"ap": 10, "coaches": 10}}
+    "rankings": {
+      "away": {
+        "ap": 6,
+        "coaches": 5
+      },
+      "home": {
+        "ap": 10,
+        "coaches": 10
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 13 2025 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "TA&M",
     "espnGameId": 401752707,
     "highlightsYouTubeVideoId": "w4o3VblAf8A",
     "records": {
-      "home": {"overall": "0-2", "home": "0-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "3-0", "home": "2-0", "away": "1-0", "neutral": "0-0"}
+      "home": {
+        "overall": "0-2",
+        "home": "0-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-0",
+        "home": "2-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -122,21 +174,58 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 40, "away": 41},
-    "linescore": {"away": [7, 21, 3, 10], "home": [14, 10, 7, 9]},
+    "score": {
+      "home": 40,
+      "away": 41
+    },
+    "linescore": {
+      "away": [
+        7,
+        21,
+        3,
+        10
+      ],
+      "home": [
+        14,
+        10,
+        7,
+        9
+      ]
+    },
     "result": "L",
-    "rankings": {"home": {"ap": 8, "coaches": 8}, "away": {"ap": 16, "coaches": 17}}
+    "rankings": {
+      "home": {
+        "ap": 8,
+        "coaches": 8
+      },
+      "away": {
+        "ap": 16,
+        "coaches": 17
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 20 2025 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "PUR",
     "espnGameId": 401752848,
     "highlightsYouTubeVideoId": "8hhD53qO1Ss",
     "records": {
-      "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
-      "away": {"overall": "2-2", "home": "2-1", "away": "0-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-2",
+        "home": "1-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "2-1",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -183,26 +272,62 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 56, "away": 30},
-    "linescore": {"away": [7, 16, 0, 7], "home": [14, 21, 21, 0]},
+    "score": {
+      "home": 56,
+      "away": 30
+    },
+    "linescore": {
+      "away": [
+        7,
+        16,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        21,
+        21,
+        0
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 24, "coaches": 21}}
+    "rankings": {
+      "home": {
+        "ap": 24,
+        "coaches": 21
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "Sat Sep 27 2025 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Fayetteville",
       "state": "AR",
       "stadium": "Donald W. Reynolds Razorback Stadium",
-      "coordinates": [36.068066, -94.179136]
+      "coordinates": [
+        36.068066,
+        -94.179136
+      ]
     },
     "opponentId": "ARK",
     "espnGameId": 401752717,
     "records": {
-      "home": {"overall": "2-3", "home": "2-1", "away": "0-2", "neutral": "0-0"},
-      "away": {"overall": "2-2", "home": "1-1", "away": "1-1", "neutral": "0-0"}
+      "home": {
+        "overall": "2-3",
+        "home": "2-1",
+        "away": "0-2",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "2-2",
+        "home": "1-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -249,21 +374,54 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 13, "away": 56},
-    "linescore": {"away": [14, 28, 7, 7], "home": [3, 10, 0, 0]},
+    "score": {
+      "home": 13,
+      "away": 56
+    },
+    "linescore": {
+      "away": [
+        14,
+        28,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        10,
+        0,
+        0
+      ]
+    },
     "result": "W",
-    "rankings": {"away": {"ap": 22, "coaches": 21}}
+    "rankings": {
+      "away": {
+        "ap": 22,
+        "coaches": 21
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 04 2025 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "BOIS",
     "highlightsYouTubeVideoId": "LQWVI4toCUs",
     "espnGameId": 401757165,
     "records": {
-      "home": {"overall": "3-2", "home": "2-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "3-2", "home": "2-0", "away": "1-2", "neutral": "0-0"}
+      "home": {
+        "overall": "3-2",
+        "home": "2-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-2",
+        "home": "2-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -310,21 +468,54 @@
         "fumbles": 3
       }
     },
-    "score": {"home": 28, "away": 7},
-    "linescore": {"away": [0, 7, 0, 0], "home": [6, 8, 7, 7]},
+    "score": {
+      "home": 28,
+      "away": 7
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        6,
+        8,
+        7,
+        7
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 21, "coaches": 21}}
+    "rankings": {
+      "home": {
+        "ap": 21,
+        "coaches": 21
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 11 2025 15:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": [
+      "PEACOCK"
+    ],
     "opponentId": "NCST",
     "espnGameId": 401754562,
     "highlightsYouTubeVideoId": "AX50V_e4jGs",
     "records": {
-      "home": {"overall": "4-2", "home": "3-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "4-3", "home": "3-1", "away": "1-2", "neutral": "0-0"}
+      "home": {
+        "overall": "4-2",
+        "home": "3-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "4-3",
+        "home": "3-1",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -371,21 +562,54 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 36, "away": 7},
-    "linescore": {"away": [0, 7, 0, 0], "home": [7, 3, 14, 12]},
+    "score": {
+      "home": 36,
+      "away": 7
+    },
+    "linescore": {
+      "away": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        3,
+        14,
+        12
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 16, "coaches": 16}}
+    "rankings": {
+      "home": {
+        "ap": 16,
+        "coaches": 16
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 18 2025 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "USC",
     "espnGameId": 401752871,
     "highlightsYouTubeVideoId": "722hAK2h7C8",
     "records": {
-      "home": {"overall": "5-2", "home": "4-1", "away": "1-1", "neutral": "0-0"},
-      "away": {"overall": "5-2", "home": "4-0", "away": "1-2", "neutral": "0-0"}
+      "home": {
+        "overall": "5-2",
+        "home": "4-1",
+        "away": "1-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "5-2",
+        "home": "4-0",
+        "away": "1-2",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -432,27 +656,67 @@
         "fumbles": 0
       }
     },
-    "score": {"home": 34, "away": 24},
-    "linescore": {"away": [10, 3, 11, 0], "home": [7, 7, 13, 7]},
+    "score": {
+      "home": 34,
+      "away": 24
+    },
+    "linescore": {
+      "away": [
+        10,
+        3,
+        11,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        13,
+        7
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 13, "coaches": 15}, "away": {"ap": 20, "coaches": 21}}
+    "rankings": {
+      "home": {
+        "ap": 13,
+        "coaches": 15
+      },
+      "away": {
+        "ap": 20,
+        "coaches": 21
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "Sat Nov 01 2025 15:30:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "espnGameId": 401754583,
     "highlightsYouTubeVideoId": "ZTi-YB11fSo",
     "records": {
-      "home": {"overall": "1-8", "home": "1-4", "away": "0-4", "neutral": "0-0"},
-      "away": {"overall": "6-2", "home": "4-1", "away": "2-1", "neutral": "0-0"}
+      "home": {
+        "overall": "1-8",
+        "home": "1-4",
+        "away": "0-4",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "6-2",
+        "home": "4-1",
+        "away": "2-1",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -499,21 +763,54 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 10, "away": 25},
-    "linescore": {"away": [0, 12, 6, 7], "home": [0, 7, 3, 0]},
+    "score": {
+      "home": 10,
+      "away": 25
+    },
+    "linescore": {
+      "away": [
+        0,
+        12,
+        6,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        3,
+        0
+      ]
+    },
     "result": "W",
-    "rankings": {"away": {"ap": 12, "coaches": 12}}
+    "rankings": {
+      "away": {
+        "ap": 12,
+        "coaches": 12
+      }
+    }
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 08 2025 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NAVY",
     "espnGameId": 401757166,
     "highlightsYouTubeVideoId": "De8Dxq1QY5U",
     "records": {
-      "home": {"overall": "7-2", "home": "5-1", "away": "2-1", "neutral": "0-0"},
-      "away": {"overall": "7-2", "home": "5-0", "away": "2-2", "neutral": "0-0"}
+      "home": {
+        "overall": "7-2",
+        "home": "5-1",
+        "away": "2-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "7-2",
+        "home": "5-0",
+        "away": "2-2",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -560,27 +857,65 @@
         "fumbles": 0
       }
     },
-    "score": {"home": 49, "away": 10},
-    "linescore": {"away": [0, 10, 0, 0], "home": [7, 14, 21, 7]},
+    "score": {
+      "home": 49,
+      "away": 10
+    },
+    "linescore": {
+      "away": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        21,
+        7
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 10}}
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 10
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "Sat Nov 15 2025 12:00:00 GMT-0500",
-    "coverage": "ABC / ESPN",
+    "coverage": [
+      "ABC",
+      "ESPN"
+    ],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Acrisure Stadium",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "espnGameId": 401754597,
     "highlightsYouTubeVideoId": "Ppx1jCLinfk",
     "records": {
-      "home": {"overall": "7-3", "home": "4-2", "away": "3-1", "neutral": "0-0"},
-      "away": {"overall": "8-2", "home": "5-1", "away": "3-1", "neutral": "0-0"}
+      "home": {
+        "overall": "7-3",
+        "home": "4-2",
+        "away": "3-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "8-2",
+        "home": "5-1",
+        "away": "3-1",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -627,23 +962,59 @@
         "fumbles": 1
       }
     },
-    "score": {"home": 15, "away": 37},
-    "linescore": {"away": [14, 7, 9, 7], "home": [0, 3, 6, 6]},
+    "score": {
+      "home": 15,
+      "away": 37
+    },
+    "linescore": {
+      "away": [
+        14,
+        7,
+        9,
+        7
+      ],
+      "home": [
+        0,
+        3,
+        6,
+        6
+      ]
+    },
     "result": "W",
     "rankings": {
-      "away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9},
-      "home": {"ap": 23, "coaches": 23, "cfbPlayoff": 22}
+      "away": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 9
+      },
+      "home": {
+        "ap": 23,
+        "coaches": 23,
+        "cfbPlayoff": 22
+      }
     }
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 22 2025 15:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "SYR",
     "espnGameId": 401754604,
     "records": {
-      "home": {"overall": "9-2", "home": "6-1", "away": "3-1", "neutral": "0-0"},
-      "away": {"overall": "3-8", "home": "2-3", "away": "1-4", "neutral": "0-1"}
+      "home": {
+        "overall": "9-2",
+        "home": "6-1",
+        "away": "3-1",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "3-8",
+        "home": "2-3",
+        "away": "1-4",
+        "neutral": "0-1"
+      }
     },
     "headCoach": "Marcus Freeman",
     "highlightsYouTubeVideoId": "XypqB2uVxNE",
@@ -691,27 +1062,64 @@
         "fumbles": 0
       }
     },
-    "score": {"home": 70, "away": 7},
-    "linescore": {"away": [0, 0, 0, 7], "home": [35, 14, 7, 14]},
+    "score": {
+      "home": 70,
+      "away": 7
+    },
+    "linescore": {
+      "away": [
+        0,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        35,
+        14,
+        7,
+        14
+      ]
+    },
     "result": "W",
-    "rankings": {"home": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
+    "rankings": {
+      "home": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 9
+      }
+    }
   },
   {
     "isHomeGame": false,
     "date": "Sat Nov 29 2025 22:30:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "espnGameId": 401754614,
     "highlightsYouTubeVideoId": "1D7FJOJY71w",
     "records": {
-      "home": {"overall": "4-8", "home": "4-2", "away": "0-6", "neutral": "0-0"},
-      "away": {"overall": "10-2", "home": "6-1", "away": "4-1", "neutral": "0-0"}
+      "home": {
+        "overall": "4-8",
+        "home": "4-2",
+        "away": "0-6",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "10-2",
+        "home": "6-1",
+        "away": "4-1",
+        "neutral": "0-0"
+      }
     },
     "headCoach": "Marcus Freeman",
     "stats": {
@@ -758,9 +1166,31 @@
         "fumbles": 0
       }
     },
-    "score": {"home": 20, "away": 49},
-    "linescore": {"away": [14, 21, 7, 7], "home": [0, 3, 3, 14]},
+    "score": {
+      "home": 20,
+      "away": 49
+    },
+    "linescore": {
+      "away": [
+        14,
+        21,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        3,
+        3,
+        14
+      ]
+    },
     "result": "W",
-    "rankings": {"away": {"ap": 9, "coaches": 9, "cfbPlayoff": 9}}
+    "rankings": {
+      "away": {
+        "ap": 9,
+        "coaches": 9,
+        "cfbPlayoff": 9
+      }
+    }
   }
 ]

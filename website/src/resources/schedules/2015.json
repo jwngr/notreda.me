@@ -3,7 +3,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 05, 2015 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "G7DrFK-CNvA",
     "stats": {
       "away": {
@@ -56,8 +58,18 @@
     },
     "espnGameId": 400763403,
     "linescore": {
-      "away": [0, 0, 3, 0],
-      "home": [14, 3, 14, 7]
+      "away": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        14,
+        3,
+        14,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -89,12 +101,17 @@
     "result": "W",
     "isHomeGame": false,
     "date": "Sat Sep 12, 2015 18:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Charlottesville",
       "state": "VA",
       "stadium": "Scott Stadium",
-      "coordinates": [38.031255, -78.513484]
+      "coordinates": [
+        38.031255,
+        -78.513484
+      ]
     },
     "highlightsYouTubeVideoId": "gzVWbJSdDdc",
     "stats": {
@@ -148,8 +165,18 @@
     },
     "espnGameId": 400756917,
     "linescore": {
-      "away": [12, 0, 14, 8],
-      "home": [0, 14, 0, 13]
+      "away": [
+        12,
+        0,
+        14,
+        8
+      ],
+      "home": [
+        0,
+        14,
+        0,
+        13
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -181,7 +208,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 19, 2015 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "I7SEv78_6sw",
     "stats": {
       "away": {
@@ -234,8 +263,18 @@
     },
     "espnGameId": 400756922,
     "linescore": {
-      "away": [0, 7, 0, 15],
-      "home": [7, 6, 3, 14]
+      "away": [
+        0,
+        7,
+        0,
+        15
+      ],
+      "home": [
+        7,
+        6,
+        3,
+        14
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -271,7 +310,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 26, 2015 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "T3afbWJ5ufQ",
     "stats": {
       "away": {
@@ -324,8 +365,18 @@
     },
     "espnGameId": 400763583,
     "linescore": {
-      "away": [6, 14, 0, 7],
-      "home": [14, 21, 20, 7]
+      "away": [
+        6,
+        14,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        21,
+        20,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -357,12 +408,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Oct 03, 2015 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Clemson",
       "state": "SC",
       "stadium": "Clemson Memorial Stadium",
-      "coordinates": [34.678611, -82.843056]
+      "coordinates": [
+        34.678611,
+        -82.843056
+      ]
     },
     "highlightsYouTubeVideoId": "QcsF2Q6Rgdk",
     "stats": {
@@ -416,8 +472,18 @@
     },
     "espnGameId": 400756940,
     "linescore": {
-      "away": [3, 0, 0, 19],
-      "home": [14, 0, 7, 3]
+      "away": [
+        3,
+        0,
+        0,
+        19
+      ],
+      "home": [
+        14,
+        0,
+        7,
+        3
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -453,7 +519,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 10, 2015 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "y8Rw-kOCWoU",
     "stats": {
       "away": {
@@ -506,8 +574,18 @@
     },
     "espnGameId": 400763584,
     "linescore": {
-      "away": [7, 14, 3, 0],
-      "home": [7, 17, 14, 3]
+      "away": [
+        7,
+        14,
+        3,
+        0
+      ],
+      "home": [
+        7,
+        17,
+        14,
+        3
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -539,7 +617,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 17, 2015 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "7EhVWTXeaNs",
     "stats": {
       "away": {
@@ -592,8 +672,18 @@
     },
     "espnGameId": 400757053,
     "linescore": {
-      "away": [10, 14, 7, 0],
-      "home": [21, 3, 0, 17]
+      "away": [
+        10,
+        14,
+        7,
+        0
+      ],
+      "home": [
+        21,
+        3,
+        0,
+        17
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -625,12 +715,17 @@
     "result": "W",
     "isHomeGame": false,
     "date": "Sat Oct 31, 2015 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Philadelphia",
       "state": "PA",
       "stadium": "Lincoln Financial Field",
-      "coordinates": [39.900599, -75.167657]
+      "coordinates": [
+        39.900599,
+        -75.167657
+      ]
     },
     "highlightsYouTubeVideoId": "7-a2z1qfiVk",
     "stats": {
@@ -684,8 +779,18 @@
     },
     "espnGameId": 400763585,
     "linescore": {
-      "away": [7, 7, 3, 7],
-      "home": [3, 7, 0, 10]
+      "away": [
+        7,
+        7,
+        3,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        10
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -721,12 +826,17 @@
     "result": "W",
     "isHomeGame": false,
     "date": "Sat Nov 07, 2015 15:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "highlightsYouTubeVideoId": "crK15bFeQfM",
     "stats": {
@@ -780,8 +890,18 @@
     },
     "espnGameId": 400756978,
     "linescore": {
-      "away": [7, 14, 7, 14],
-      "home": [3, 0, 14, 13]
+      "away": [
+        7,
+        14,
+        7,
+        14
+      ],
+      "home": [
+        3,
+        0,
+        14,
+        13
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -814,7 +934,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Nov 14, 2015 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "lOJbXVTFYBo",
     "stats": {
       "away": {
@@ -867,8 +989,18 @@
     },
     "espnGameId": 400756985,
     "linescore": {
-      "away": [0, 0, 7, 0],
-      "home": [14, 7, 0, 7]
+      "away": [
+        0,
+        0,
+        7,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        0,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -907,7 +1039,10 @@
       "city": "Boston",
       "state": "MA",
       "stadium": "Fenway Park",
-      "coordinates": [42.346407, -71.097239]
+      "coordinates": [
+        42.346407,
+        -71.097239
+      ]
     },
     "highlightsYouTubeVideoId": "hBDY8PoeEF0",
     "stats": {
@@ -961,10 +1096,22 @@
     },
     "espnGameId": 400756986,
     "linescore": {
-      "away": [0, 0, 3, 13],
-      "home": [10, 0, 6, 3]
+      "away": [
+        0,
+        0,
+        3,
+        13
+      ],
+      "home": [
+        10,
+        0,
+        6,
+        3
+      ]
     },
-    "coverage": "NBCSN",
+    "coverage": [
+      "NBCSN"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-night",
@@ -996,12 +1143,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 28, 2015 22:30:00 GMT-0500",
-    "coverage": "FOX",
+    "coverage": [
+      "FOX"
+    ],
     "location": {
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "highlightsYouTubeVideoId": "3GavD98eKy4",
     "stats": {
@@ -1055,8 +1207,18 @@
     },
     "espnGameId": 400757090,
     "linescore": {
-      "away": [7, 13, 9, 7],
-      "home": [14, 7, 7, 10]
+      "away": [
+        7,
+        13,
+        9,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        10
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -1096,13 +1258,18 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Fri Jan 01, 2016 16:00:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "nickname": "Fiesta Bowl",
     "location": {
       "city": "Glendale",
       "state": "AZ",
       "stadium": "University of Phoenix Stadium",
-      "coordinates": [33.528045, -112.261014]
+      "coordinates": [
+        33.528045,
+        -112.261014
+      ]
     },
     "highlightsYouTubeVideoId": "DW_8rCjBGfQ",
     "stats": {
@@ -1156,8 +1323,18 @@
     },
     "espnGameId": 400852736,
     "linescore": {
-      "home": [14, 14, 7, 9],
-      "away": [0, 14, 7, 7]
+      "home": [
+        14,
+        14,
+        7,
+        9
+      ],
+      "away": [
+        0,
+        14,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {

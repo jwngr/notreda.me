@@ -7,10 +7,15 @@
       "city": "Austin",
       "state": "TX",
       "stadium": "Darrell K Royal - Texas Memorial Stadium",
-      "coordinates": [30.282861, -97.733119]
+      "coordinates": [
+        30.282861,
+        -97.733119
+      ]
     },
     "highlightsYouTubeVideoId": "dI7kwB9nkA8",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -62,8 +67,22 @@
     },
     "espnGameId": 400868946,
     "linescore": {
-      "away": [7, 7, 14, 9, 7, 3],
-      "home": [7, 14, 10, 6, 7, 6]
+      "away": [
+        7,
+        7,
+        14,
+        9,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        14,
+        10,
+        6,
+        7,
+        6
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -96,7 +115,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 10, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "sIiAHnJLA64",
     "stats": {
       "away": {
@@ -149,8 +170,18 @@
     },
     "espnGameId": 400868947,
     "linescore": {
-      "away": [0, 0, 3, 7],
-      "home": [0, 25, 14, 0]
+      "away": [
+        0,
+        0,
+        3,
+        7
+      ],
+      "home": [
+        0,
+        25,
+        14,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -182,7 +213,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 17, 2016 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "fBzyUGBtd2g",
     "stats": {
       "away": {
@@ -235,8 +268,18 @@
     },
     "espnGameId": 400868948,
     "linescore": {
-      "away": [0, 15, 21, 0],
-      "home": [7, 0, 7, 14]
+      "away": [
+        0,
+        15,
+        21,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        14
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -272,7 +315,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 24, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "L9wdmpy96ow",
     "stats": {
       "away": {
@@ -325,8 +370,18 @@
     },
     "espnGameId": 400868949,
     "linescore": {
-      "away": [14, 14, 0, 10],
-      "home": [14, 7, 7, 7]
+      "away": [
+        14,
+        14,
+        0,
+        10
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -353,12 +408,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 01, 2016 15:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "MetLife Stadium",
-      "coordinates": [40.813393, -74.074607]
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "highlightsYouTubeVideoId": "xXv8G3util0",
     "stats": {
@@ -412,8 +472,18 @@
     },
     "espnGameId": 400868950,
     "linescore": {
-      "away": [23, 10, 14, 3],
-      "home": [13, 14, 0, 6]
+      "away": [
+        23,
+        10,
+        14,
+        3
+      ],
+      "home": [
+        13,
+        14,
+        0,
+        6
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -439,12 +509,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Oct 08, 2016 15:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Raleigh",
       "state": "NC",
       "stadium": "Carter-Finley Stadium",
-      "coordinates": [35.800652, -78.719587]
+      "coordinates": [
+        35.800652,
+        -78.719587
+      ]
     },
     "highlightsYouTubeVideoId": "9JOynLpcfmk",
     "stats": {
@@ -498,8 +573,18 @@
     },
     "espnGameId": 400868951,
     "linescore": {
-      "away": [0, 0, 3, 0],
-      "home": [3, 0, 0, 7]
+      "away": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -525,7 +610,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Oct 15, 2016 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "hFQSF6C73ag",
     "stats": {
       "away": {
@@ -578,8 +665,18 @@
     },
     "espnGameId": 400868952,
     "linescore": {
-      "away": [0, 0, 9, 8],
-      "home": [7, 3, 0, 0]
+      "away": [
+        0,
+        0,
+        9,
+        8
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -605,7 +702,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 29, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "rzBDqtam9-M",
     "stats": {
       "away": {
@@ -658,8 +757,18 @@
     },
     "espnGameId": 400868953,
     "linescore": {
-      "away": [0, 7, 10, 10],
-      "home": [17, 3, 0, 10]
+      "away": [
+        0,
+        7,
+        10,
+        10
+      ],
+      "home": [
+        17,
+        3,
+        0,
+        10
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -686,12 +795,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Nov 05, 2016 14:30:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "location": {
       "city": "Jacksonville",
       "state": "FL",
       "stadium": "EverBank Field",
-      "coordinates": [30.323972, -81.637665]
+      "coordinates": [
+        30.323972,
+        -81.637665
+      ]
     },
     "highlightsYouTubeVideoId": "2oadiICk5_g",
     "stats": {
@@ -745,8 +859,18 @@
     },
     "espnGameId": 400868954,
     "linescore": {
-      "away": [10, 7, 7, 3],
-      "home": [7, 7, 7, 7]
+      "away": [
+        10,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -774,12 +898,17 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Nov 12, 2016 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "location": {
       "city": "San Antonio",
       "state": "TX",
       "stadium": "Alamodome",
-      "coordinates": [29.416815, -98.478932]
+      "coordinates": [
+        29.416815,
+        -98.478932
+      ]
     },
     "highlightsYouTubeVideoId": "C-0obKBeMOI",
     "stats": {
@@ -833,8 +962,18 @@
     },
     "espnGameId": 400868919,
     "linescore": {
-      "away": [0, 6, 0, 0],
-      "home": [21, 17, 6, 0]
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        17,
+        6,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -860,7 +999,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 19, 2016 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "C49gMiZ4IHM",
     "stats": {
       "away": {
@@ -913,8 +1054,18 @@
     },
     "espnGameId": 400868955,
     "linescore": {
-      "away": [0, 14, 7, 13],
-      "home": [10, 14, 7, 0]
+      "away": [
+        0,
+        14,
+        7,
+        13
+      ],
+      "home": [
+        10,
+        14,
+        7,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -940,12 +1091,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 26, 2016 18:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "highlightsYouTubeVideoId": "DkYS8FYjJ2s",
     "stats": {
@@ -999,8 +1155,18 @@
     },
     "espnGameId": 400868956,
     "linescore": {
-      "away": [7, 0, 14, 6],
-      "home": [10, 14, 14, 7]
+      "away": [
+        7,
+        0,
+        14,
+        6
+      ],
+      "home": [
+        10,
+        14,
+        14,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {

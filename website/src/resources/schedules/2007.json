@@ -54,10 +54,22 @@
     },
     "espnGameId": 272440087,
     "linescore": {
-      "away": [6, 10, 3, 14],
-      "home": [0, 0, 3, 0]
+      "away": [
+        6,
+        10,
+        3,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        3,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-day",
@@ -86,7 +98,10 @@
       "city": "State College",
       "state": "PA",
       "stadium": "Beaver Stadium",
-      "coordinates": [40.812033, -77.856156]
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -139,10 +154,22 @@
     },
     "espnGameId": 272510213,
     "linescore": {
-      "away": [7, 0, 3, 0],
-      "home": [7, 7, 10, 7]
+      "away": [
+        7,
+        0,
+        3,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        7
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-night",
@@ -177,7 +204,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -230,10 +260,22 @@
     },
     "espnGameId": 272580130,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [10, 21, 7, 0]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        10,
+        21,
+        7,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "cloudy",
@@ -309,10 +351,22 @@
     },
     "espnGameId": 272650087,
     "linescore": {
-      "away": [14, 3, 14, 0],
-      "home": [7, 7, 0, 0]
+      "away": [
+        14,
+        3,
+        14,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-day",
@@ -341,7 +395,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -394,10 +451,22 @@
     },
     "espnGameId": 272722509,
     "linescore": {
-      "away": [0, 0, 6, 13],
-      "home": [10, 13, 3, 7]
+      "away": [
+        0,
+        0,
+        6,
+        13
+      ],
+      "home": [
+        10,
+        13,
+        3,
+        7
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-day",
@@ -426,7 +495,10 @@
       "city": "Pasadena",
       "state": "CA",
       "stadium": "Rose Bowl",
-      "coordinates": [34.161186, -118.1677]
+      "coordinates": [
+        34.161186,
+        -118.1677
+      ]
     },
     "opponentId": "UCLA",
     "score": {
@@ -479,10 +551,22 @@
     },
     "espnGameId": 272790026,
     "linescore": {
-      "away": [3, 0, 17, 0],
-      "home": [3, 3, 0, 0]
+      "away": [
+        3,
+        0,
+        17,
+        0
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-night",
@@ -563,10 +647,22 @@
     },
     "espnGameId": 272860087,
     "linescore": {
-      "away": [6, 7, 14, 0],
-      "home": [0, 0, 14, 0]
+      "away": [
+        6,
+        7,
+        14,
+        0
+      ],
+      "home": [
+        0,
+        0,
+        14,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "cloudy",
@@ -648,10 +744,22 @@
     },
     "espnGameId": 272930087,
     "linescore": {
-      "away": [7, 10, 14, 7],
-      "home": [0, 0, 0, 0]
+      "away": [
+        7,
+        10,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-day",
@@ -733,10 +841,28 @@
     },
     "espnGameId": 273070087,
     "linescore": {
-      "away": [0, 14, 6, 8, 7, 3, 8],
-      "home": [7, 14, 0, 7, 7, 3, 6]
+      "away": [
+        0,
+        14,
+        6,
+        8,
+        7,
+        3,
+        8
+      ],
+      "home": [
+        7,
+        14,
+        0,
+        7,
+        7,
+        3,
+        6
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "numOvertimes": 3,
     "weather": {
@@ -813,10 +939,22 @@
     },
     "espnGameId": 273140087,
     "linescore": {
-      "away": [10, 7, 14, 10],
-      "home": [0, 10, 0, 14]
+      "away": [
+        10,
+        7,
+        14,
+        10
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        14
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "clear-night",
@@ -892,10 +1030,22 @@
     },
     "espnGameId": 273210087,
     "linescore": {
-      "away": [0, 0, 0, 7],
-      "home": [0, 14, 7, 7]
+      "away": [
+        0,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "rain",
@@ -924,7 +1074,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -977,10 +1130,22 @@
     },
     "espnGameId": 273280024,
     "linescore": {
-      "away": [7, 7, 0, 7],
-      "home": [7, 7, 0, 0]
+      "away": [
+        7,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Charlie Weis",
     "weather": {
       "icon": "partly-cloudy-day",

@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -53,7 +55,9 @@
       "home": []
     },
     "numOvertimes": 1,
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -95,7 +99,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -132,7 +138,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -143,7 +152,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -185,7 +196,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -224,7 +237,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -258,7 +273,10 @@
       "city": "Morgantown",
       "state": "WV",
       "stadium": "Mountaineer Field",
-      "coordinates": [39.650048, -79.954944]
+      "coordinates": [
+        39.650048,
+        -79.954944
+      ]
     },
     "opponentId": "WVU",
     "score": {
@@ -269,7 +287,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -309,7 +329,9 @@
       "home": []
     },
     "numOvertimes": 1,
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -349,7 +371,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -384,7 +408,10 @@
       "city": "Piscataway",
       "state": "NJ",
       "stadium": "Rutgers Stadium",
-      "coordinates": [40.513593, -74.465556]
+      "coordinates": [
+        40.513593,
+        -74.465556
+      ]
     },
     "opponentId": "RUTG",
     "score": {
@@ -395,7 +422,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -430,7 +459,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -441,7 +473,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -478,7 +512,10 @@
       "city": "Tempe",
       "state": "AZ",
       "stadium": "Sun Devil Stadium",
-      "coordinates": [33.426389, -111.9325]
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "nickname": "Fiesta Bowl",
     "opponentId": "ORST",
@@ -487,10 +524,22 @@
       "home": 9
     },
     "linescore": {
-      "away": [3, 9, 29, 0],
-      "home": [0, 3, 0, 6]
+      "away": [
+        3,
+        9,
+        29,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        6
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {

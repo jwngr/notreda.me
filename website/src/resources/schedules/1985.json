@@ -7,7 +7,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -18,7 +21,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
@@ -43,7 +48,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Gerry Faust",
     "weather": {
       "icon": "cloudy",
@@ -58,7 +65,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -69,7 +79,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "TBS",
+    "coverage": [
+      "TBS"
+    ],
     "headCoach": "Gerry Faust",
     "weather": {
       "temperature": 73,
@@ -84,7 +96,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -95,7 +110,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
@@ -120,7 +137,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "USA / WGN-TV",
+    "coverage": [
+      "USA",
+      "WGN-TV"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
@@ -164,7 +184,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "weather": {
       "icon": "cloudy",
@@ -184,7 +206,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "USA / WGN-TV",
+    "coverage": [
+      "USA",
+      "WGN-TV"
+    ],
     "headCoach": "Gerry Faust",
     "weather": {
       "icon": "rain",
@@ -199,7 +224,10 @@
       "city": "University Park",
       "state": "PA",
       "stadium": "Beaver Stadium",
-      "coordinates": [40.812033, -77.856156]
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -210,7 +238,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
@@ -235,7 +265,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "USA / WGN-TV",
+    "coverage": [
+      "USA",
+      "WGN-TV"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
@@ -255,7 +288,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -266,7 +302,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {

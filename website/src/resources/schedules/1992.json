@@ -7,7 +7,10 @@
       "city": "Chicago",
       "state": "IL",
       "stadium": "Soldier Field",
-      "coordinates": [41.862105, -87.616721]
+      "coordinates": [
+        41.862105,
+        -87.616721
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -18,7 +21,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -43,7 +48,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -66,7 +73,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -77,7 +87,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -102,7 +114,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -127,7 +141,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -150,7 +166,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -161,7 +180,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -186,7 +207,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -235,7 +258,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -263,7 +288,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -286,7 +313,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -297,7 +327,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -322,7 +354,10 @@
       "city": "Dallas",
       "state": "TX",
       "stadium": "Cotton Bowl",
-      "coordinates": [32.779494, -96.759724]
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TA&M",
     "score": {
@@ -330,10 +365,22 @@
       "home": 3
     },
     "linescore": {
-      "away": [0, 7, 14, 7],
-      "home": [0, 0, 0, 3]
+      "away": [
+        0,
+        7,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {

@@ -7,7 +7,10 @@
       "city": "Lincoln",
       "state": "NE",
       "stadium": "Memorial Stadium",
-      "coordinates": [40.820516, -96.705647]
+      "coordinates": [
+        40.820516,
+        -96.705647
+      ]
     },
     "opponentId": "NEB",
     "score": {
@@ -18,7 +21,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -60,7 +65,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -94,7 +101,10 @@
       "city": "College Station",
       "state": "TX",
       "stadium": "Kyle Field",
-      "coordinates": [30.609883, -96.340544]
+      "coordinates": [
+        30.609883,
+        -96.340544
+      ]
     },
     "opponentId": "TA&M",
     "score": {
@@ -105,7 +115,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "clear-day",
@@ -139,7 +151,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -173,7 +187,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "rain",
@@ -207,7 +223,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "clear-day",
@@ -236,7 +254,10 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -247,7 +268,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "cloudy",
@@ -281,7 +304,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -321,7 +346,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -350,7 +377,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -361,7 +391,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -396,7 +428,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -407,7 +442,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "weather": {
       "temperature": 41,

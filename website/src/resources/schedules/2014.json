@@ -3,7 +3,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Aug 30, 2014 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "RICE",
     "score": {
       "away": 17,
@@ -55,8 +57,18 @@
     },
     "espnGameId": 400548008,
     "linescore": {
-      "away": [7, 3, 0, 7],
-      "home": [14, 14, 10, 10]
+      "away": [
+        7,
+        3,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        10,
+        10
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -87,7 +99,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 06, 2014 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "MICH",
     "score": {
       "away": 0,
@@ -139,8 +153,18 @@
     },
     "espnGameId": 400547944,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [7, 14, 7, 3]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        3
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -173,12 +197,17 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Sep 13, 2014 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "location": {
       "city": "Indianapolis",
       "state": "IN",
       "stadium": "Lucas Oil Stadium",
-      "coordinates": [39.759515, -86.16259]
+      "coordinates": [
+        39.759515,
+        -86.16259
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -231,8 +260,18 @@
     },
     "espnGameId": 400547990,
     "linescore": {
-      "away": [7, 7, 0, 0],
-      "home": [7, 10, 7, 6]
+      "away": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        10,
+        7,
+        6
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -264,12 +303,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Sep 27, 2014 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "MetLife Stadium",
-      "coordinates": [40.813393, -74.074607]
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -322,8 +366,18 @@
     },
     "espnGameId": 400547818,
     "linescore": {
-      "away": [0, 14, 7, 10],
-      "home": [0, 3, 0, 12]
+      "away": [
+        0,
+        14,
+        7,
+        10
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        12
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -354,7 +408,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 04, 2014 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "STAN",
     "score": {
       "away": 14,
@@ -406,8 +462,18 @@
     },
     "espnGameId": 400548279,
     "linescore": {
-      "away": [7, 0, 0, 7],
-      "home": [0, 7, 0, 10]
+      "away": [
+        7,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        10
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -441,7 +507,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 11, 2014 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "UNC",
     "score": {
       "away": 43,
@@ -493,8 +561,18 @@
     },
     "espnGameId": 400547798,
     "linescore": {
-      "away": [14, 12, 10, 7],
-      "home": [7, 21, 7, 15]
+      "away": [
+        14,
+        12,
+        10,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        15
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -525,12 +603,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Oct 18, 2014 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Tallahassee",
       "state": "FL",
       "stadium": "Doak Campbell Stadium",
-      "coordinates": [30.438088, -84.304527]
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -583,8 +666,18 @@
     },
     "espnGameId": 400547767,
     "linescore": {
-      "away": [7, 10, 7, 3],
-      "home": [7, 3, 14, 7]
+      "away": [
+        7,
+        10,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        3,
+        14,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -619,12 +712,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Nov 01, 2014 23:00:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "location": {
       "city": "Landover",
       "state": "MD",
       "stadium": "FedEx Field",
-      "coordinates": [38.907543, -76.864631]
+      "coordinates": [
+        38.907543,
+        -76.864631
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -677,8 +775,18 @@
     },
     "espnGameId": 400548465,
     "linescore": {
-      "away": [14, 14, 0, 21],
-      "home": [7, 10, 14, 8]
+      "away": [
+        14,
+        14,
+        0,
+        21
+      ],
+      "home": [
+        7,
+        10,
+        14,
+        8
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -710,12 +818,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 08, 2014 18:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Tempe",
       "state": "AZ",
       "stadium": "Sun Devil Stadium",
-      "coordinates": [33.426389, -111.9325]
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "opponentId": "ASU",
     "score": {
@@ -768,8 +881,18 @@
     },
     "espnGameId": 400548302,
     "linescore": {
-      "away": [3, 7, 7, 14],
-      "home": [17, 17, 0, 21]
+      "away": [
+        3,
+        7,
+        7,
+        14
+      ],
+      "home": [
+        17,
+        17,
+        0,
+        21
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -805,7 +928,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 15, 2014 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NW",
     "score": {
       "away": 43,
@@ -857,8 +982,20 @@
     },
     "espnGameId": 400547980,
     "linescore": {
-      "away": [9, 14, 3, 14, 3],
-      "home": [20, 7, 7, 6, 0]
+      "away": [
+        9,
+        14,
+        3,
+        14,
+        3
+      ],
+      "home": [
+        20,
+        7,
+        7,
+        6,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -891,7 +1028,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 22, 2014 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "LOU",
     "score": {
       "away": 31,
@@ -943,8 +1082,18 @@
     },
     "espnGameId": 400547784,
     "linescore": {
-      "away": [14, 3, 7, 7],
-      "home": [3, 3, 14, 8]
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        3,
+        14,
+        8
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -975,12 +1124,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 29, 2014 18:30:00 GMT-0500",
-    "coverage": "FOX",
+    "coverage": [
+      "FOX"
+    ],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -1033,8 +1187,18 @@
     },
     "espnGameId": 400548318,
     "linescore": {
-      "away": [0, 7, 7, 0],
-      "home": [21, 14, 14, 0]
+      "away": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        21,
+        14,
+        14,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -1062,12 +1226,17 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Tue Dec 30, 2014 18:00:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Nashville",
       "state": "TN",
       "stadium": "LP Field",
-      "coordinates": [36.166349, -86.771429]
+      "coordinates": [
+        36.166349,
+        -86.771429
+      ]
     },
     "nickname": "Music City Bowl",
     "opponentId": "LSU",
@@ -1121,8 +1290,18 @@
     },
     "espnGameId": 400610214,
     "linescore": {
-      "away": [7, 14, 7, 3],
-      "home": [7, 7, 14, 0]
+      "away": [
+        7,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        14,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {

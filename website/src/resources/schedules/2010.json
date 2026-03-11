@@ -54,10 +54,22 @@
     },
     "espnGameId": 302470087,
     "linescore": {
-      "away": [0, 3, 0, 9],
-      "home": [7, 6, 7, 3]
+      "away": [
+        0,
+        3,
+        0,
+        9
+      ],
+      "home": [
+        7,
+        6,
+        7,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -133,10 +145,22 @@
     },
     "espnGameId": 302540087,
     "linescore": {
-      "away": [14, 7, 0, 7],
-      "home": [7, 0, 10, 7]
+      "away": [
+        14,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        0,
+        10,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "cloudy",
@@ -165,7 +189,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -218,10 +245,24 @@
     },
     "espnGameId": 302610127,
     "linescore": {
-      "away": [7, 0, 14, 7, 3],
-      "home": [0, 7, 14, 7, 6]
+      "away": [
+        7,
+        0,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7,
+        6
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "numOvertimes": 1,
     "weather": {
@@ -298,10 +339,22 @@
     },
     "espnGameId": 302680087,
     "linescore": {
-      "away": [10, 6, 3, 18],
-      "home": [3, 3, 0, 8]
+      "away": [
+        10,
+        6,
+        3,
+        18
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        8
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
@@ -335,7 +388,10 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -388,10 +444,22 @@
     },
     "espnGameId": 302750103,
     "linescore": {
-      "away": [21, 3, 7, 0],
-      "home": [7, 6, 0, 0]
+      "away": [
+        21,
+        3,
+        7,
+        0
+      ],
+      "home": [
+        7,
+        6,
+        0,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-night",
@@ -467,10 +535,22 @@
     },
     "espnGameId": 302820087,
     "linescore": {
-      "away": [3, 0, 7, 7],
-      "home": [7, 10, 3, 3]
+      "away": [
+        3,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        10,
+        3,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-day",
@@ -546,10 +626,22 @@
     },
     "espnGameId": 302890087,
     "linescore": {
-      "away": [7, 10, 0, 3],
-      "home": [7, 20, 14, 3]
+      "away": [
+        7,
+        10,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        20,
+        14,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-day",
@@ -579,7 +671,10 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "New Meadowlands Stadium",
-      "coordinates": [40.813393, -74.074607]
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -632,10 +727,22 @@
     },
     "espnGameId": 302962426,
     "linescore": {
-      "away": [3, 7, 0, 7],
-      "home": [7, 14, 14, 0]
+      "away": [
+        3,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        14,
+        0
+      ]
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -711,10 +818,22 @@
     },
     "espnGameId": 303030087,
     "linescore": {
-      "away": [12, 6, 7, 3],
-      "home": [13, 7, 7, 0]
+      "away": [
+        12,
+        6,
+        7,
+        3
+      ],
+      "home": [
+        13,
+        7,
+        7,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-day",
@@ -790,10 +909,22 @@
     },
     "espnGameId": 303170087,
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [7, 7, 14, 0]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        14,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
@@ -830,7 +961,10 @@
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "score": {
@@ -883,10 +1017,22 @@
     },
     "espnGameId": 303240087,
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [0, 17, 10, 0]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        17,
+        10,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-night",
@@ -915,7 +1061,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -968,10 +1117,22 @@
     },
     "espnGameId": 303310030,
     "linescore": {
-      "away": [0, 13, 0, 7],
-      "home": [3, 0, 10, 3]
+      "away": [
+        0,
+        13,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        10,
+        3
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "rain",
@@ -1002,7 +1163,10 @@
       "city": "El Paso",
       "state": "TX",
       "stadium": "Sun Bowl Stadium",
-      "coordinates": [31.773168, -106.507983]
+      "coordinates": [
+        31.773168,
+        -106.507983
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -1055,10 +1219,22 @@
     },
     "espnGameId": 303652390,
     "linescore": {
-      "home": [0, 3, 0, 14],
-      "away": [14, 13, 3, 3]
+      "home": [
+        0,
+        3,
+        0,
+        14
+      ],
+      "away": [
+        14,
+        13,
+        3,
+        3
+      ]
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "nickname": "Sun Bowl",
     "headCoach": "Brian Kelly",
     "weather": {

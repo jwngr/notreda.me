@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
@@ -59,7 +61,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -140,7 +145,10 @@
       "city": "Eugene",
       "state": "OR",
       "stadium": "Autzen Stadium",
-      "coordinates": [44.058251, -123.068532]
+      "coordinates": [
+        44.058251,
+        -123.068532
+      ]
     },
     "opponentId": "ORE",
     "score": {
@@ -189,7 +197,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -224,7 +235,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
@@ -247,7 +260,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -277,7 +293,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -288,7 +307,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {

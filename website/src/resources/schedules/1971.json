@@ -31,7 +31,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -62,7 +65,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
@@ -78,7 +83,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -137,7 +145,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
@@ -181,7 +191,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -235,7 +248,10 @@
       "city": "Baton Rouge",
       "state": "LA",
       "stadium": "Tiger Stadium",
-      "coordinates": [30.411887, -91.183795]
+      "coordinates": [
+        30.411887,
+        -91.183795
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -246,7 +262,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {

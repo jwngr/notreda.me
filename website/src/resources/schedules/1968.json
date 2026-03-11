@@ -35,7 +35,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
@@ -54,7 +56,10 @@
       "city": "Iowa City",
       "state": "IA",
       "stadium": "Iowa Stadium",
-      "coordinates": [41.658611, -91.551111]
+      "coordinates": [
+        41.658611,
+        -91.551111
+      ]
     },
     "opponentId": "IOWA",
     "score": {
@@ -120,7 +125,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -131,7 +139,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
@@ -215,7 +225,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -226,7 +239,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {

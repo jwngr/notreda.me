@@ -3,7 +3,9 @@
     "isHomeGame": true,
     "date": "Sat Sep 12 2020 14:30:00 GMT-0400",
     "highlightsYouTubeVideoId": "ZnAea5t2Jpo",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "weather": {
       "icon": "partly-cloudy-day",
       "temperature": 71
@@ -74,15 +76,27 @@
       "away": 13
     },
     "linescore": {
-      "away": [3, 3, 7, 0],
-      "home": [0, 10, 7, 10]
+      "away": [
+        3,
+        3,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        10,
+        7,
+        10
+      ]
     },
     "result": "W"
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 19 2020 14:30:00 GMT-0400",
-    "coverage": "USA",
+    "coverage": [
+      "USA"
+    ],
     "opponentId": "USF",
     "highlightsYouTubeVideoId": "DFt9HRKEMjQ",
     "records": {
@@ -154,8 +168,18 @@
       "away": 0
     },
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [14, 21, 10, 7]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        14,
+        21,
+        10,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -168,7 +192,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 10 2020 19:00:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "FSU",
     "highlightsYouTubeVideoId": "oRyBvzmObzo",
     "records": {
@@ -240,8 +266,18 @@
       "away": 26
     },
     "linescore": {
-      "away": [17, 3, 6, 0],
-      "home": [14, 21, 7, 0]
+      "away": [
+        17,
+        3,
+        6,
+        0
+      ],
+      "home": [
+        14,
+        21,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -254,7 +290,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 17 2020 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "LOU",
     "highlightsYouTubeVideoId": "Yij5uVib0mg",
     "records": {
@@ -326,8 +364,18 @@
       "away": 7
     },
     "linescore": {
-      "away": [0, 0, 7, 0],
-      "home": [6, 0, 6, 0]
+      "away": [
+        0,
+        0,
+        7,
+        0
+      ],
+      "home": [
+        6,
+        0,
+        6,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -345,7 +393,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "highlightsYouTubeVideoId": "QBVnYfP3Ino",
@@ -418,8 +469,18 @@
       "away": 45
     },
     "linescore": {
-      "away": [7, 21, 17, 0],
-      "home": [3, 0, 0, 0]
+      "away": [
+        7,
+        21,
+        17,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -432,12 +493,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 31 2020 15:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Bobby Dodd Stadium",
-      "coordinates": [33.772284, -84.392859]
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
     },
     "opponentId": "GT",
     "highlightsYouTubeVideoId": "EdamPX97mrw",
@@ -510,8 +576,18 @@
       "away": 31
     },
     "linescore": {
-      "away": [7, 10, 7, 7],
-      "home": [0, 7, 0, 6]
+      "away": [
+        7,
+        10,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        6
+      ]
     },
     "result": "W",
     "rankings": {
@@ -524,7 +600,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 07 2020 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "CLEM",
     "highlightsYouTubeVideoId": "Y8JSVeVUlis",
     "records": {
@@ -597,8 +675,22 @@
     },
     "numOvertimes": 2,
     "linescore": {
-      "away": [7, 6, 10, 10, 7, 0],
-      "home": [10, 13, 0, 10, 7, 7]
+      "away": [
+        7,
+        6,
+        10,
+        10,
+        7,
+        0
+      ],
+      "home": [
+        10,
+        13,
+        0,
+        10,
+        7,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -615,13 +707,18 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 14 2020 15:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "qnx-plDC-CM",
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "records": {
@@ -689,8 +786,18 @@
       "away": 45
     },
     "linescore": {
-      "away": [10, 21, 7, 7],
-      "home": [10, 6, 7, 8]
+      "away": [
+        10,
+        21,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        6,
+        7,
+        8
+      ]
     },
     "result": "W",
     "weather": {
@@ -707,13 +814,18 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 27 2020 15:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "TMNfTtoqpkE",
     "location": {
       "city": "Durham",
       "state": "NC",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [35.906851, -79.048108]
+      "coordinates": [
+        35.906851,
+        -79.048108
+      ]
     },
     "opponentId": "UNC",
     "records": {
@@ -781,8 +893,18 @@
       "away": 31
     },
     "linescore": {
-      "away": [14, 3, 7, 7],
-      "home": [14, 3, 0, 0]
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        3,
+        0,
+        0
+      ]
     },
     "result": "W",
     "weather": {
@@ -805,7 +927,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Dec 05 2020 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "ZrGSAxrX9xE",
     "opponentId": "SYR",
     "records": {
@@ -873,8 +997,18 @@
       "away": 21
     },
     "linescore": {
-      "away": [0, 7, 7, 7],
-      "home": [3, 21, 14, 7]
+      "away": [
+        0,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        21,
+        14,
+        7
+      ]
     },
     "result": "W",
     "weather": {
@@ -894,13 +1028,18 @@
     "isHomeGame": true,
     "date": "Sat Dec 19 2020 16:00:00 GMT-0500",
     "nickname": "ACC Championship Game",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "bsIXUEOXiDA",
     "location": {
       "city": "Charlotte",
       "state": "NC",
       "stadium": "Bank of America Stadium",
-      "coordinates": [35.225688, -80.852879]
+      "coordinates": [
+        35.225688,
+        -80.852879
+      ]
     },
     "opponentId": "CLEM",
     "records": {
@@ -968,8 +1107,18 @@
       "away": 34
     },
     "linescore": {
-      "away": [7, 17, 7, 3],
-      "home": [3, 0, 0, 7]
+      "away": [
+        7,
+        17,
+        7,
+        3
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        7
+      ]
     },
     "result": "L",
     "weather": {
@@ -1000,7 +1149,10 @@
       "city": "Arlington",
       "state": "TX",
       "stadium": "AT&T Stadium",
-      "coordinates": [32.747176, -97.094719]
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "BAMA",
     "records": {
@@ -1068,8 +1220,18 @@
       "away": 14
     },
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [14, 7, 7, 3]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        3
+      ]
     },
     "result": "L",
     "weather": {

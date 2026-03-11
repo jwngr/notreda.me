@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -35,7 +37,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -46,7 +51,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -146,7 +153,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -169,7 +178,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -180,7 +192,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -224,7 +238,10 @@
       "city": "Knoxville",
       "state": "TN",
       "stadium": "Neyland Stadium",
-      "coordinates": [35.954888, -83.924955]
+      "coordinates": [
+        35.954888,
+        -83.924955
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -235,7 +252,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -263,7 +282,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -286,7 +307,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -297,7 +321,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -322,7 +348,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -330,10 +359,22 @@
       "home": 10
     },
     "linescore": {
-      "away": [0, 6, 3, 0],
-      "home": [0, 3, 7, 0]
+      "away": [
+        0,
+        6,
+        3,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        7,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {

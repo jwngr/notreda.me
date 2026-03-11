@@ -54,10 +54,22 @@
     },
     "espnGameId": 312460087,
     "linescore": {
-      "away": [13, 3, 0, 7],
-      "home": [0, 0, 7, 13]
+      "away": [
+        13,
+        3,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        13
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
@@ -91,7 +103,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -144,10 +159,22 @@
     },
     "espnGameId": 312530130,
     "linescore": {
-      "away": [14, 3, 7, 7],
-      "home": [0, 7, 0, 28]
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        28
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-night",
@@ -223,10 +250,22 @@
     },
     "espnGameId": 312600087,
     "linescore": {
-      "away": [3, 7, 0, 3],
-      "home": [14, 7, 7, 3]
+      "away": [
+        3,
+        7,
+        0,
+        3
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
@@ -260,7 +299,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -313,10 +355,22 @@
     },
     "espnGameId": 312670221,
     "linescore": {
-      "away": [0, 7, 0, 8],
-      "home": [3, 3, 6, 0]
+      "away": [
+        0,
+        7,
+        0,
+        8
+      ],
+      "home": [
+        3,
+        3,
+        6,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -345,7 +399,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -398,10 +455,22 @@
     },
     "espnGameId": 312742509,
     "linescore": {
-      "away": [14, 7, 14, 3],
-      "home": [0, 3, 0, 7]
+      "away": [
+        14,
+        7,
+        14,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        0,
+        7
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-night",
@@ -477,10 +546,22 @@
     },
     "espnGameId": 312810087,
     "linescore": {
-      "away": [3, 13, 0, 17],
-      "home": [21, 21, 7, 10]
+      "away": [
+        3,
+        13,
+        0,
+        17
+      ],
+      "home": [
+        21,
+        21,
+        7,
+        10
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-day",
@@ -556,10 +637,22 @@
     },
     "espnGameId": 312950087,
     "linescore": {
-      "away": [14, 3, 7, 7],
-      "home": [0, 10, 0, 7]
+      "away": [
+        14,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-night",
@@ -635,10 +728,22 @@
     },
     "espnGameId": 313020087,
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [14, 21, 7, 14]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        21,
+        7,
+        14
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-day",
@@ -667,7 +772,10 @@
       "city": "Winston-Salem",
       "state": "NC",
       "stadium": "BB&T Field",
-      "coordinates": [36.13015, -80.254258]
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
     },
     "opponentId": "WAKE",
     "score": {
@@ -720,10 +828,22 @@
     },
     "espnGameId": 313090154,
     "linescore": {
-      "away": [10, 0, 14, 0],
-      "home": [10, 7, 0, 0]
+      "away": [
+        10,
+        0,
+        14,
+        0
+      ],
+      "home": [
+        10,
+        7,
+        0,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "partly-cloudy-night",
@@ -754,7 +874,10 @@
       "city": "Landover",
       "state": "MD",
       "stadium": "FedEx Field",
-      "coordinates": [38.907543, -76.864631]
+      "coordinates": [
+        38.907543,
+        -76.864631
+      ]
     },
     "opponentId": "MD",
     "score": {
@@ -807,10 +930,22 @@
     },
     "espnGameId": 313160087,
     "linescore": {
-      "away": [0, 7, 0, 14],
-      "home": [10, 14, 14, 7]
+      "away": [
+        0,
+        7,
+        0,
+        14
+      ],
+      "home": [
+        10,
+        14,
+        14,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "weather": {
       "icon": "clear-night",
@@ -886,10 +1021,22 @@
     },
     "espnGameId": 313230087,
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [10, 3, 0, 3]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        10,
+        3,
+        0,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "home": {
@@ -923,7 +1070,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -976,10 +1126,22 @@
     },
     "espnGameId": 313300024,
     "linescore": {
-      "away": [0, 0, 7, 7],
-      "home": [7, 14, 0, 7]
+      "away": [
+        0,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        14,
+        0,
+        7
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Brian Kelly",
     "rankings": {
       "away": {
@@ -1020,7 +1182,10 @@
       "city": "Orlando",
       "state": "FL",
       "stadium": "Florida Citrus Bowl",
-      "coordinates": [28.539074, -81.404028]
+      "coordinates": [
+        28.539074,
+        -81.404028
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -1073,10 +1238,22 @@
     },
     "espnGameId": 313630087,
     "linescore": {
-      "away": [0, 0, 3, 15],
-      "home": [7, 0, 7, 0]
+      "away": [
+        0,
+        0,
+        3,
+        15
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        0
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "nickname": "Champs Sports Bowl",
     "headCoach": "Brian Kelly",
     "rankings": {

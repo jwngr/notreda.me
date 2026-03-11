@@ -7,7 +7,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -61,7 +64,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -72,7 +78,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "away": {
@@ -92,7 +100,10 @@
       "city": "Boulder",
       "state": "CO",
       "stadium": "Folsom Field",
-      "coordinates": [40.009466, -105.266658]
+      "coordinates": [
+        40.009466,
+        -105.266658
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -117,7 +128,10 @@
       "city": "Columbia",
       "state": "SC",
       "stadium": "Williams-Brice Stadium",
-      "coordinates": [33.973017, -81.019132]
+      "coordinates": [
+        33.973017,
+        -81.019132
+      ]
     },
     "opponentId": "SCAR",
     "score": {
@@ -209,7 +223,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Gerry Faust",
     "rankings": {
       "home": {
@@ -229,7 +245,10 @@
       "city": "University Park",
       "state": "PA",
       "stadium": "Beaver Stadium",
-      "coordinates": [40.812033, -77.856156]
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -259,7 +278,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Gerry Faust",
     "weather": {
       "icon": "cloudy",
@@ -276,7 +297,10 @@
       "city": "Memphis",
       "state": "TN",
       "stadium": "Liberty Bowl Memorial Stadium",
-      "coordinates": [35.121026, -89.977395]
+      "coordinates": [
+        35.121026,
+        -89.977395
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -284,10 +308,22 @@
       "home": 19
     },
     "linescore": {
-      "away": [6, 6, 6, 0],
-      "home": [7, 12, 0, 0]
+      "away": [
+        6,
+        6,
+        6,
+        0
+      ],
+      "home": [
+        7,
+        12,
+        0,
+        0
+      ]
     },
-    "coverage": "KATZ",
+    "coverage": [
+      "KATZ"
+    ],
     "nickname": "Liberty Bowl",
     "headCoach": "Gerry Faust",
     "rankings": {

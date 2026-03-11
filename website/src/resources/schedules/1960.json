@@ -50,7 +50,10 @@
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [35.906944, -79.047778]
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -99,7 +102,10 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Dyche Stadium",
-      "coordinates": [42.06606, -87.693537]
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
     "score": {
@@ -110,7 +116,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Joe Kuharich",
     "weather": {
       "icon": "clear-night",
@@ -173,7 +181,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -222,7 +233,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {

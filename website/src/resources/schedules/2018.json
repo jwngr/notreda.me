@@ -3,12 +3,24 @@
     "isHomeGame": true,
     "date": "Sat Sep 01 2018 19:30:00 GMT-0400",
     "opponentId": "MICH",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "espnGameId": 401012888,
     "highlightsYouTubeVideoId": "UUiRmqztkmo",
     "linescore": {
-      "away": [0, 10, 0, 7],
-      "home": [14, 7, 3, 0]
+      "away": [
+        0,
+        10,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        3,
+        0
+      ]
     },
     "score": {
       "home": 24,
@@ -93,12 +105,24 @@
     "isHomeGame": true,
     "date": "Sat Sep 08 2018 15:30:00 GMT-0400",
     "opponentId": "BALL",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "espnGameId": 401013377,
     "highlightsYouTubeVideoId": "BS7PECgj-7E",
     "linescore": {
-      "away": [3, 3, 0, 10],
-      "home": [7, 7, 10, 0]
+      "away": [
+        3,
+        3,
+        0,
+        10
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        0
+      ]
     },
     "score": {
       "home": 24,
@@ -179,7 +203,9 @@
     "isHomeGame": true,
     "date": "Sat Sep 15 2018 14:30:00 GMT-0400",
     "opponentId": "VANDY",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "m07W96ROU9Y",
     "records": {
       "home": {
@@ -197,8 +223,18 @@
     },
     "espnGameId": 401012283,
     "linescore": {
-      "away": [0, 3, 7, 7],
-      "home": [10, 6, 0, 6]
+      "away": [
+        0,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        6,
+        0,
+        6
+      ]
     },
     "score": {
       "home": 22,
@@ -269,10 +305,15 @@
       "city": "Winston-Salem",
       "state": "NC",
       "stadium": "BB&T Field",
-      "coordinates": [36.13015, -80.254258]
+      "coordinates": [
+        36.13015,
+        -80.254258
+      ]
     },
     "opponentId": "WAKE",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "GR5k0Ev9R3s",
     "records": {
       "home": {
@@ -290,8 +331,18 @@
     },
     "espnGameId": 401013129,
     "linescore": {
-      "away": [7, 21, 21, 7],
-      "home": [3, 10, 7, 7]
+      "away": [
+        7,
+        21,
+        21,
+        7
+      ],
+      "home": [
+        3,
+        10,
+        7,
+        7
+      ]
     },
     "score": {
       "home": 27,
@@ -358,7 +409,9 @@
     "isHomeGame": true,
     "date": "Sat Sep 29 2018 19:30:00 GMT-0400",
     "opponentId": "STAN",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "hi3f-rYUmXA",
     "records": {
       "home": {
@@ -377,8 +430,18 @@
     "headCoach": "Brian Kelly",
     "espnGameId": 401012758,
     "linescore": {
-      "away": [7, 7, 3, 0],
-      "home": [14, 7, 3, 14]
+      "away": [
+        7,
+        7,
+        3,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        3,
+        14
+      ]
     },
     "score": {
       "home": 38,
@@ -451,10 +514,15 @@
       "city": "Blacksburg",
       "state": "VA",
       "stadium": "Lane Stadium",
-      "coordinates": [37.219885, -80.418311]
+      "coordinates": [
+        37.219885,
+        -80.418311
+      ]
     },
     "opponentId": "VT",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "XGm1RyGcN1g",
     "records": {
       "home": {
@@ -483,8 +551,18 @@
     },
     "espnGameId": 401013143,
     "linescore": {
-      "away": [10, 7, 14, 14],
-      "home": [3, 13, 0, 7]
+      "away": [
+        10,
+        7,
+        14,
+        14
+      ],
+      "home": [
+        3,
+        13,
+        0,
+        7
+      ]
     },
     "score": {
       "home": 23,
@@ -544,7 +622,9 @@
     "isHomeGame": true,
     "date": "Sat Oct 13 2018 14:30:00 GMT-0400",
     "opponentId": "PITT",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "KNxKwNoul-I",
     "records": {
       "home": {
@@ -569,8 +649,18 @@
     },
     "espnGameId": 401013148,
     "linescore": {
-      "away": [7, 0, 7, 0],
-      "home": [0, 6, 6, 7]
+      "away": [
+        7,
+        0,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        6,
+        6,
+        7
+      ]
     },
     "score": {
       "home": 19,
@@ -634,10 +724,15 @@
       "city": "San Diego",
       "state": "CA",
       "stadium": "Qualcomm Stadium",
-      "coordinates": [32.783058, -117.119851]
+      "coordinates": [
+        32.783058,
+        -117.119851
+      ]
     },
     "opponentId": "NAVY",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "espnGameId": 401013189,
     "highlightsYouTubeVideoId": "H-WuNqpj0mU",
     "records": {
@@ -662,8 +757,18 @@
       }
     },
     "linescore": {
-      "away": [13, 14, 10, 7],
-      "home": [0, 0, 14, 8]
+      "away": [
+        13,
+        14,
+        10,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        14,
+        8
+      ]
     },
     "score": {
       "home": 22,
@@ -726,10 +831,15 @@
       "city": "Evanston",
       "state": "IL",
       "stadium": "Ryan Field",
-      "coordinates": [42.06606, -87.693537]
+      "coordinates": [
+        42.06606,
+        -87.693537
+      ]
     },
     "opponentId": "NW",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "highlightsYouTubeVideoId": "7LKS8RIGi5Y",
     "records": {
       "home": {
@@ -755,8 +865,18 @@
     },
     "espnGameId": 401013345,
     "linescore": {
-      "away": [7, 0, 14, 10],
-      "home": [0, 7, 0, 14]
+      "away": [
+        7,
+        0,
+        14,
+        10
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        14
+      ]
     },
     "score": {
       "home": 21,
@@ -816,7 +936,9 @@
     "isHomeGame": true,
     "date": "Sat Nov 10 2018 19:30:00 GMT-0500",
     "opponentId": "FSU",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "euIlgxCHBYY",
     "records": {
       "home": {
@@ -842,8 +964,18 @@
     },
     "espnGameId": 401013171,
     "linescore": {
-      "away": [0, 6, 7, 0],
-      "home": [17, 15, 3, 7]
+      "away": [
+        0,
+        6,
+        7,
+        0
+      ],
+      "home": [
+        17,
+        15,
+        3,
+        7
+      ]
     },
     "score": {
       "home": 42,
@@ -909,10 +1041,15 @@
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "SYR",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "highlightsYouTubeVideoId": "bWblA0GDXlA",
     "records": {
       "home": {
@@ -943,8 +1080,18 @@
     },
     "espnGameId": 401013182,
     "linescore": {
-      "away": [0, 0, 0, 3],
-      "home": [13, 7, 9, 7]
+      "away": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "home": [
+        13,
+        7,
+        9,
+        7
+      ]
     },
     "score": {
       "home": 36,
@@ -1007,10 +1154,15 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "highlightsYouTubeVideoId": "Lb8oyowI5E0",
     "records": {
       "home": {
@@ -1036,8 +1188,18 @@
     },
     "espnGameId": 401012800,
     "linescore": {
-      "away": [0, 7, 10, 7],
-      "home": [7, 3, 0, 7]
+      "away": [
+        0,
+        7,
+        10,
+        7
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        7
+      ]
     },
     "score": {
       "home": 17,
@@ -1099,12 +1261,17 @@
     "isNeutralSiteGame": true,
     "date": "Sat Dec 29 2018 16:00:00 GMT-0500",
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Arlington",
       "state": "TX",
       "stadium": "AT&T Stadium",
-      "coordinates": [32.747176, -97.094719]
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "CLEM",
     "rankings": {
@@ -1137,8 +1304,18 @@
     "espnGameId": 401032079,
     "highlightsYouTubeVideoId": "8gDbOj7Xt5w",
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [3, 20, 7, 0]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        20,
+        7,
+        0
+      ]
     },
     "score": {
       "home": 30,

@@ -7,7 +7,10 @@
       "city": "Berkeley",
       "state": "CA",
       "stadium": "California Memorial Stadium",
-      "coordinates": [37.871111, -122.250833]
+      "coordinates": [
+        37.871111,
+        -122.250833
+      ]
     },
     "opponentId": "CAL",
     "score": {
@@ -18,7 +21,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "away": {
@@ -38,7 +43,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -116,7 +124,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Ara Parseghian",
     "rankings": {
       "home": {
@@ -155,7 +165,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -228,7 +241,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {

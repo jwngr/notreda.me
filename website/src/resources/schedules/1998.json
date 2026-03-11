@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -35,7 +37,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -46,7 +51,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -71,7 +78,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -96,7 +105,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -116,7 +127,10 @@
       "city": "Tempe",
       "state": "AZ",
       "stadium": "Sun Devil Stadium",
-      "coordinates": [33.426389, -111.9325]
+      "coordinates": [
+        33.426389,
+        -111.9325
+      ]
     },
     "opponentId": "ASU",
     "score": {
@@ -127,7 +141,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -152,7 +168,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -178,7 +196,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -199,7 +219,10 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -210,7 +233,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -231,7 +256,10 @@
       "city": "Landover",
       "state": "MD",
       "stadium": "Jack Kent Cooke Stadium",
-      "coordinates": [38.907543, -76.864631]
+      "coordinates": [
+        38.907543,
+        -76.864631
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -242,7 +270,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -268,7 +298,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "home": {
@@ -289,7 +321,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -300,7 +335,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Bob Davie",
     "rankings": {
       "away": {
@@ -323,7 +360,10 @@
       "city": "Jacksonville",
       "state": "FL",
       "stadium": "Alltel Stadium",
-      "coordinates": [30.323861, -81.637472]
+      "coordinates": [
+        30.323861,
+        -81.637472
+      ]
     },
     "opponentId": "GT",
     "score": {
@@ -331,10 +371,22 @@
       "home": 35
     },
     "linescore": {
-      "away": [7, 0, 13, 8],
-      "home": [7, 14, 7, 7]
+      "away": [
+        7,
+        0,
+        13,
+        8
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Gator Bowl",
     "headCoach": "Bob Davie",
     "rankings": {

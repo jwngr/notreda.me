@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Dan Devine",
     "rankings": {
       "home": {
@@ -32,7 +34,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -110,7 +115,10 @@
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [35.906944, -79.047778]
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "score": {
@@ -140,7 +148,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -175,7 +186,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Dan Devine",
     "rankings": {
       "home": {
@@ -246,7 +259,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Pitt Stadium",
-      "coordinates": [40.444, -79.962]
+      "coordinates": [
+        40.444,
+        -79.962
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -276,7 +292,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {

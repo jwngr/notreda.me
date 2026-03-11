@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -32,7 +34,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -43,7 +48,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -68,7 +75,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "weather": {
       "icon": "clear-day",
@@ -83,7 +92,10 @@
       "city": "Birmingham",
       "state": "AL",
       "stadium": "Legion Field",
-      "coordinates": [33.5114, -86.842774]
+      "coordinates": [
+        33.5114,
+        -86.842774
+      ]
     },
     "opponentId": "BAMA",
     "score": {
@@ -94,7 +106,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -119,7 +133,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "USA / WGN-TV",
+    "coverage": [
+      "USA",
+      "WGN-TV"
+    ],
     "headCoach": "Lou Holtz",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -139,7 +156,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "USA / WGN-TV",
+    "coverage": [
+      "USA",
+      "WGN-TV"
+    ],
     "headCoach": "Lou Holtz",
     "weather": {
       "icon": "clear-day",
@@ -154,7 +174,10 @@
       "city": "Baltimore",
       "state": "MD",
       "stadium": "Memorial Stadium",
-      "coordinates": [39.330024, -76.601532]
+      "coordinates": [
+        39.330024,
+        -76.601532
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -165,7 +188,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "TBS",
+    "coverage": [
+      "TBS"
+    ],
     "headCoach": "Lou Holtz",
     "weather": {
       "icon": "cloudy",
@@ -204,7 +229,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -224,7 +251,10 @@
       "city": "Baton Rouge",
       "state": "LA",
       "stadium": "Tiger Stadium",
-      "coordinates": [30.411887, -91.183795]
+      "coordinates": [
+        30.411887,
+        -91.183795
+      ]
     },
     "opponentId": "LSU",
     "score": {
@@ -235,7 +265,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -255,7 +287,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -266,7 +301,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {

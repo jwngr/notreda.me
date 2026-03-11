@@ -7,7 +7,10 @@
       "city": "Provo",
       "state": "UT",
       "stadium": "LaVell Edwards Stadium",
-      "coordinates": [40.257211, -111.654612]
+      "coordinates": [
+        40.257211,
+        -111.654612
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -60,10 +63,22 @@
     },
     "espnGameId": 242480252,
     "linescore": {
-      "away": [0, 3, 7, 7],
-      "home": [10, 3, 7, 0]
+      "away": [
+        0,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        10,
+        3,
+        7,
+        0
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-night",
@@ -139,10 +154,22 @@
     },
     "espnGameId": 242550087,
     "linescore": {
-      "away": [6, 3, 3, 8],
-      "home": [0, 0, 7, 21]
+      "away": [
+        6,
+        3,
+        3,
+        8
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        21
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -176,7 +203,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -229,10 +259,22 @@
     },
     "espnGameId": 242620127,
     "linescore": {
-      "away": [14, 7, 7, 3],
-      "home": [7, 0, 7, 10]
+      "away": [
+        14,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        10
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-night",
@@ -308,10 +350,22 @@
     },
     "espnGameId": 242690087,
     "linescore": {
-      "away": [0, 3, 0, 0],
-      "home": [21, 10, 0, 7]
+      "away": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        10,
+        0,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "partly-cloudy-day",
@@ -387,10 +441,22 @@
     },
     "espnGameId": 242760087,
     "linescore": {
-      "away": [10, 10, 21, 0],
-      "home": [3, 0, 13, 0]
+      "away": [
+        10,
+        10,
+        21,
+        0
+      ],
+      "home": [
+        3,
+        0,
+        13,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -471,10 +537,22 @@
     },
     "espnGameId": 242830087,
     "linescore": {
-      "away": [6, 0, 9, 0],
-      "home": [0, 3, 7, 13]
+      "away": [
+        6,
+        0,
+        9,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        7,
+        13
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-day",
@@ -503,7 +581,10 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [40.812222, -74.076944]
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -556,10 +637,22 @@
     },
     "espnGameId": 242902426,
     "linescore": {
-      "away": [14, 3, 7, 3],
-      "home": [0, 0, 3, 6]
+      "away": [
+        14,
+        3,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        0,
+        3,
+        6
+      ]
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -640,10 +733,22 @@
     },
     "espnGameId": 242970087,
     "linescore": {
-      "away": [7, 0, 7, 10],
-      "home": [7, 13, 0, 3]
+      "away": [
+        7,
+        0,
+        7,
+        10
+      ],
+      "home": [
+        7,
+        13,
+        0,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -678,7 +783,10 @@
       "city": "Knoxville",
       "state": "TN",
       "stadium": "Neyland Stadium",
-      "coordinates": [35.954888, -83.924955]
+      "coordinates": [
+        35.954888,
+        -83.924955
+      ]
     },
     "opponentId": "TENN",
     "score": {
@@ -731,10 +839,22 @@
     },
     "espnGameId": 243112633,
     "linescore": {
-      "away": [7, 0, 7, 3],
-      "home": [3, 7, 3, 0]
+      "away": [
+        7,
+        0,
+        7,
+        3
+      ],
+      "home": [
+        3,
+        7,
+        3,
+        0
+      ]
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -819,10 +939,22 @@
     },
     "espnGameId": 243180087,
     "linescore": {
-      "away": [7, 21, 0, 13],
-      "home": [7, 14, 7, 10]
+      "away": [
+        7,
+        21,
+        0,
+        13
+      ],
+      "home": [
+        7,
+        14,
+        7,
+        10
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -857,7 +989,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -910,10 +1045,22 @@
     },
     "espnGameId": 243320030,
     "linescore": {
-      "away": [7, 3, 0, 0],
-      "home": [3, 14, 10, 14]
+      "away": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        14,
+        10,
+        14
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -950,7 +1097,10 @@
       "city": "Phoenix",
       "state": "AZ",
       "stadium": "Bank One Ballpark",
-      "coordinates": [33.445268, -112.066143]
+      "coordinates": [
+        33.445268,
+        -112.066143
+      ]
     },
     "opponentId": "ORST",
     "score": {
@@ -1003,10 +1153,22 @@
     },
     "espnGameId": 243630087,
     "linescore": {
-      "away": [0, 7, 7, 7],
-      "home": [14, 7, 3, 14]
+      "away": [
+        0,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        7,
+        3,
+        14
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "nickname": "Insight Bowl",
     "headCoach": "Kent Baer",
     "weather": {

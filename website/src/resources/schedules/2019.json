@@ -2,19 +2,34 @@
   {
     "isHomeGame": false,
     "date": "Mon Sep 2 2019 20:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Louisville",
       "state": "KY",
       "stadium": "Cardinal Stadium",
-      "coordinates": [38.206123, -85.759065]
+      "coordinates": [
+        38.206123,
+        -85.759065
+      ]
     },
     "opponentId": "LOU",
     "espnGameId": 401112436,
     "highlightsYouTubeVideoId": "6cPd0WiI6ws",
     "linescore": {
-      "away": [14, 7, 7, 7],
-      "home": [14, 0, 0, 3]
+      "away": [
+        14,
+        7,
+        7,
+        7
+      ],
+      "home": [
+        14,
+        0,
+        0,
+        3
+      ]
     },
     "score": {
       "home": 17,
@@ -94,7 +109,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 14 2019 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "UNM",
     "highlightsYouTubeVideoId": "7xXMKdV2dJA",
     "rankings": {
@@ -119,8 +136,18 @@
     },
     "espnGameId": 401114336,
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [7, 31, 14, 14]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        7,
+        31,
+        14,
+        14
+      ]
     },
     "score": {
       "home": 66,
@@ -180,12 +207,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 21 2019 20:00:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "location": {
       "city": "Athens",
       "state": "GA",
       "stadium": "Sanford Stadium",
-      "coordinates": [33.94981, -83.374454]
+      "coordinates": [
+        33.94981,
+        -83.374454
+      ]
     },
     "opponentId": "UGA",
     "espnGameId": 401110800,
@@ -215,8 +247,18 @@
       }
     },
     "linescore": {
-      "away": [0, 10, 0, 7],
-      "home": [0, 7, 6, 10]
+      "away": [
+        0,
+        10,
+        0,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        6,
+        10
+      ]
     },
     "score": {
       "home": 23,
@@ -276,7 +318,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 28 2019 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "UVA",
     "espnGameId": 401112472,
     "highlightsYouTubeVideoId": "BhBSv3zBmis",
@@ -305,8 +349,18 @@
       }
     },
     "linescore": {
-      "away": [7, 10, 0, 3],
-      "home": [14, 0, 14, 7]
+      "away": [
+        7,
+        10,
+        0,
+        3
+      ],
+      "home": [
+        14,
+        0,
+        14,
+        7
+      ]
     },
     "score": {
       "home": 35,
@@ -366,7 +420,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 05 2019 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "BGSU",
     "highlightsYouTubeVideoId": "ALhXzLbvvag",
     "rankings": {
@@ -391,8 +447,18 @@
     },
     "espnGameId": 401114337,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [21, 14, 10, 7]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        21,
+        14,
+        10,
+        7
+      ]
     },
     "score": {
       "home": 52,
@@ -452,7 +518,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 12 2019 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "USC",
     "highlightsYouTubeVideoId": "TjM7kDhpHw8",
     "rankings": {
@@ -525,8 +593,18 @@
       "away": 27
     },
     "linescore": {
-      "away": [3, 0, 10, 14],
-      "home": [0, 17, 3, 10]
+      "away": [
+        3,
+        0,
+        10,
+        14
+      ],
+      "home": [
+        0,
+        17,
+        3,
+        10
+      ]
     },
     "result": "W",
     "weather": {
@@ -538,12 +616,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 26 2019 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "highlightsYouTubeVideoId": "etk4xjpxiL8",
@@ -621,8 +704,18 @@
       "away": 14
     },
     "linescore": {
-      "away": [0, 0, 7, 7],
-      "home": [3, 14, 7, 21]
+      "away": [
+        0,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        14,
+        7,
+        21
+      ]
     },
     "result": "L",
     "weather": {
@@ -634,7 +727,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 02 2019 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "VT",
     "highlightsYouTubeVideoId": "K0ZDXoz5i-o",
     "rankings": {
@@ -707,8 +802,18 @@
       "away": 20
     },
     "linescore": {
-      "away": [7, 7, 3, 3],
-      "home": [7, 7, 0, 7]
+      "away": [
+        7,
+        7,
+        3,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        7
+      ]
     },
     "result": "W",
     "weather": {
@@ -724,10 +829,15 @@
       "city": "Durham",
       "state": "NC",
       "stadium": "Wallace Wade Stadium",
-      "coordinates": [35.995208, -78.941782]
+      "coordinates": [
+        35.995208,
+        -78.941782
+      ]
     },
     "opponentId": "DUKE",
-    "coverage": "ACCN",
+    "coverage": [
+      "ACCN"
+    ],
     "highlightsYouTubeVideoId": "zfVdhdCbU0Y",
     "rankings": {
       "away": {
@@ -800,8 +910,18 @@
       "away": 38
     },
     "linescore": {
-      "away": [14, 7, 7, 10],
-      "home": [0, 7, 0, 0]
+      "away": [
+        14,
+        7,
+        7,
+        10
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        0
+      ]
     },
     "result": "W",
     "weather": {
@@ -813,7 +933,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 16 2019 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NAVY",
     "highlightsYouTubeVideoId": "hDUSuGfdImg",
     "rankings": {
@@ -896,15 +1018,27 @@
       "away": 20
     },
     "linescore": {
-      "away": [0, 3, 7, 10],
-      "home": [14, 24, 7, 7]
+      "away": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "home": [
+        14,
+        24,
+        7,
+        7
+      ]
     },
     "result": "W",
     "headCoach": "Brian Kelly"
   },
   {
     "isHomeGame": true,
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "date": "Sat Nov 23 2019 14:30:00 GMT-0500",
     "opponentId": "BC",
     "highlightsYouTubeVideoId": "VvC68n_FRgY",
@@ -979,8 +1113,18 @@
       "away": 7
     },
     "linescore": {
-      "away": [0, 7, 0, 0],
-      "home": [3, 13, 17, 7]
+      "away": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        3,
+        13,
+        17,
+        7
+      ]
     },
     "result": "W",
     "weather": {
@@ -992,12 +1136,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 30 2019 13:00:00 GMT-0800",
-    "coverage": "FOX",
+    "coverage": [
+      "FOX"
+    ],
     "location": {
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "rankings": {
@@ -1077,8 +1226,18 @@
       "away": 45
     },
     "linescore": {
-      "away": [7, 14, 7, 17],
-      "home": [10, 7, 0, 7]
+      "away": [
+        7,
+        14,
+        7,
+        17
+      ],
+      "home": [
+        10,
+        7,
+        0,
+        7
+      ]
     },
     "result": "W"
   },
@@ -1086,14 +1245,19 @@
     "isBowlGame": true,
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "date": "Sat Dec 28 2019 12:00:00 GMT-0500",
     "nickname": "Camping World Bowl",
     "location": {
       "city": "Orlando",
       "state": "FL",
       "stadium": "Camping World Stadium",
-      "coordinates": [28.539074, -81.404028]
+      "coordinates": [
+        28.539074,
+        -81.404028
+      ]
     },
     "opponentId": "ISU",
     "highlightsYouTubeVideoId": "BrzEcImDAJM",
@@ -1173,8 +1337,18 @@
       "away": 33
     },
     "linescore": {
-      "away": [10, 10, 10, 3],
-      "home": [0, 6, 3, 0]
+      "away": [
+        10,
+        10,
+        10,
+        3
+      ],
+      "home": [
+        0,
+        6,
+        3,
+        0
+      ]
     },
     "result": "W"
   }

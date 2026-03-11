@@ -12,7 +12,10 @@
       "away": [],
       "home": []
     },
-    "coverage": "RAYCOM / WGN-TV",
+    "coverage": [
+      "RAYCOM",
+      "WGN-TV"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -32,7 +35,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -43,7 +49,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -71,7 +79,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -91,7 +101,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -102,7 +115,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -118,7 +133,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -148,7 +166,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -159,7 +180,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -187,7 +210,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -215,7 +240,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -243,7 +270,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "SPORTSCHANNEL",
+    "coverage": [
+      "SPORTSCHANNEL"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -268,7 +297,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "SPORTSCHANNEL",
+    "coverage": [
+      "SPORTSCHANNEL"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -288,7 +319,10 @@
       "city": "University Park",
       "state": "PA",
       "stadium": "Beaver Stadium",
-      "coordinates": [40.812033, -77.856156]
+      "coordinates": [
+        40.812033,
+        -77.856156
+      ]
     },
     "opponentId": "PSU",
     "score": {
@@ -299,7 +333,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -318,7 +354,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "MIAMI",
     "score": {
@@ -329,7 +368,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -354,7 +395,10 @@
       "city": "Miami",
       "state": "FL",
       "stadium": "Miami Orange Bowl",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "COL",
     "score": {
@@ -362,10 +406,22 @@
       "home": 6
     },
     "linescore": {
-      "away": [0, 0, 14, 7],
-      "home": [0, 0, 6, 0]
+      "away": [
+        0,
+        0,
+        14,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        6,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {

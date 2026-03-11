@@ -2,12 +2,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 03 2022 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Columbus",
       "state": "OH",
       "stadium": "Ohio Stadium",
-      "coordinates": [40.001667, -83.019722]
+      "coordinates": [
+        40.001667,
+        -83.019722
+      ]
     },
     "opponentId": "OSU",
     "espnGameId": 401404124,
@@ -80,8 +85,18 @@
       "away": 10
     },
     "linescore": {
-      "away": [3, 7, 0, 0],
-      "home": [7, 0, 7, 7]
+      "away": [
+        3,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        7
+      ]
     },
     "result": "L",
     "rankings": {
@@ -98,7 +113,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 10 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "MRSH",
     "espnGameId": 401404125,
     "highlightsYouTubeVideoId": "-lKT5W6Gna8",
@@ -170,8 +187,18 @@
       "away": 26
     },
     "linescore": {
-      "away": [0, 9, 3, 14],
-      "home": [0, 7, 0, 14]
+      "away": [
+        0,
+        9,
+        3,
+        14
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        14
+      ]
     },
     "result": "L",
     "rankings": {
@@ -184,7 +211,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 17 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "CAL",
     "espnGameId": 401403987,
     "highlightsYouTubeVideoId": "JqiAff12i14",
@@ -252,20 +281,35 @@
       "away": 17
     },
     "linescore": {
-      "away": [0, 10, 7, 0],
-      "home": [0, 7, 7, 10]
+      "away": [
+        0,
+        10,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        7,
+        10
+      ]
     },
     "result": "W"
   },
   {
     "isHomeGame": false,
     "date": "Sat Sep 24 2022 15:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Allegiant Stadium",
-      "coordinates": [36.090329, -115.183365]
+      "coordinates": [
+        36.090329,
+        -115.183365
+      ]
     },
     "opponentId": "UNC",
     "espnGameId": 401404126,
@@ -334,8 +378,18 @@
       "away": 45
     },
     "linescore": {
-      "away": [0, 24, 14, 7],
-      "home": [7, 7, 6, 12]
+      "away": [
+        0,
+        24,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        6,
+        12
+      ]
     },
     "result": "W"
   },
@@ -344,12 +398,17 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Oct 08 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "location": {
       "city": "Las Vegas",
       "state": "NV",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [35.906944, -79.047778]
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "BYU",
     "espnGameId": 401404127,
@@ -418,8 +477,18 @@
       "away": 20
     },
     "linescore": {
-      "away": [6, 0, 7, 7],
-      "home": [3, 15, 7, 3]
+      "away": [
+        6,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        3,
+        15,
+        7,
+        3
+      ]
     },
     "result": "W",
     "rankings": {
@@ -432,7 +501,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 15 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "STAN",
     "espnGameId": 401404016,
     "highlightsYouTubeVideoId": "FL8neZUGl_k",
@@ -500,15 +571,27 @@
       "away": 16
     },
     "linescore": {
-      "away": [7, 3, 3, 3],
-      "home": [0, 0, 7, 7]
+      "away": [
+        7,
+        3,
+        3,
+        3
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        7
+      ]
     },
     "result": "L"
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 22 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "UNLV",
     "espnGameId": 401404128,
     "highlightsYouTubeVideoId": "cbaP_q4Mitc",
@@ -576,20 +659,35 @@
       "away": 21
     },
     "linescore": {
-      "away": [7, 0, 7, 7],
-      "home": [23, 7, 0, 14]
+      "away": [
+        7,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        23,
+        7,
+        0,
+        14
+      ]
     },
     "result": "W"
   },
   {
     "isHomeGame": false,
     "date": "Sat Oct 29 2022 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Syracuse",
       "state": "NY",
       "stadium": "Carrier Dome",
-      "coordinates": [43.036062, -76.136434]
+      "coordinates": [
+        43.036062,
+        -76.136434
+      ]
     },
     "opponentId": "SYR",
     "espnGameId": 401404129,
@@ -658,8 +756,18 @@
       "away": 41
     },
     "linescore": {
-      "away": [7, 14, 3, 17],
-      "home": [7, 0, 10, 7]
+      "away": [
+        7,
+        14,
+        3,
+        17
+      ],
+      "home": [
+        7,
+        0,
+        10,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -672,7 +780,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 05 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "CLEM",
     "espnGameId": 401404130,
     "highlightsYouTubeVideoId": "rML8eHvbq9g",
@@ -740,8 +850,18 @@
       "away": 14
     },
     "linescore": {
-      "away": [0, 0, 0, 14],
-      "home": [7, 7, 0, 21]
+      "away": [
+        0,
+        0,
+        0,
+        14
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        21
+      ]
     },
     "result": "W",
     "rankings": {
@@ -756,12 +876,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Nov 12 2022 12:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Baltimore",
       "state": "MD",
       "stadium": "M&T Bank Stadium",
-      "coordinates": [39.277954, -76.623112]
+      "coordinates": [
+        39.277954,
+        -76.623112
+      ]
     },
     "opponentId": "NAVY",
     "espnGameId": 401404131,
@@ -830,8 +955,18 @@
       "away": 35
     },
     "linescore": {
-      "away": [14, 21, 0, 0],
-      "home": [6, 7, 3, 16]
+      "away": [
+        14,
+        21,
+        0,
+        0
+      ],
+      "home": [
+        6,
+        7,
+        3,
+        16
+      ]
     },
     "result": "W",
     "rankings": {
@@ -845,7 +980,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 19 2022 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "BC",
     "espnGameId": 401404132,
     "highlightsYouTubeVideoId": "ca862G0S9X8",
@@ -913,8 +1050,18 @@
       "away": 0
     },
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [17, 20, 7, 0]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        17,
+        20,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -928,12 +1075,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 26 2022 19:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "espnGameId": 401404133,
@@ -1002,8 +1154,18 @@
       "away": 27
     },
     "linescore": {
-      "away": [0, 7, 7, 13],
-      "home": [10, 7, 7, 14]
+      "away": [
+        0,
+        7,
+        7,
+        13
+      ],
+      "home": [
+        10,
+        7,
+        7,
+        14
+      ]
     },
     "result": "L",
     "rankings": {
@@ -1025,12 +1187,17 @@
     "isNeutralSiteGame": true,
     "nickname": "TaxSlayer Gator Bowl",
     "date": "Fri Dec 30 2022 15:30:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Jacksonville",
       "state": "FL",
       "stadium": "EverBank Stadium",
-      "coordinates": [30.323889, -81.6375]
+      "coordinates": [
+        30.323889,
+        -81.6375
+      ]
     },
     "opponentId": "SCAR",
     "espnGameId": 401442036,
@@ -1099,8 +1266,18 @@
       "away": 45
     },
     "linescore": {
-      "away": [7, 10, 14, 14],
-      "home": [21, 3, 7, 7]
+      "away": [
+        7,
+        10,
+        14,
+        14
+      ],
+      "home": [
+        21,
+        3,
+        7,
+        7
+      ]
     },
     "result": "W",
     "rankings": {

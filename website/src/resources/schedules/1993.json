@@ -12,7 +12,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -32,7 +34,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -43,7 +48,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -71,7 +78,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -91,7 +100,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -102,7 +114,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -122,7 +136,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -133,7 +150,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -158,7 +177,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -178,7 +199,10 @@
       "city": "Provo",
       "state": "UT",
       "stadium": "Cougar Stadium",
-      "coordinates": [40.258, -111.655]
+      "coordinates": [
+        40.258,
+        -111.655
+      ]
     },
     "opponentId": "BYU",
     "score": {
@@ -189,7 +213,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -214,7 +240,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -239,7 +267,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -264,7 +294,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -292,7 +324,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -317,7 +351,10 @@
       "city": "Dallas",
       "state": "TX",
       "stadium": "Cotton Bowl",
-      "coordinates": [32.779494, -96.759724]
+      "coordinates": [
+        32.779494,
+        -96.759724
+      ]
     },
     "opponentId": "TA&M",
     "score": {
@@ -325,10 +362,22 @@
       "home": 21
     },
     "linescore": {
-      "away": [7, 0, 14, 3],
-      "home": [7, 7, 7, 0]
+      "away": [
+        7,
+        0,
+        14,
+        3
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {

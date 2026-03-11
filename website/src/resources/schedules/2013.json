@@ -4,7 +4,9 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Aug 31, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "TEM",
     "score": {
       "away": 6,
@@ -56,8 +58,18 @@
     },
     "espnGameId": 332430087,
     "linescore": {
-      "away": [0, 6, 0, 0],
-      "home": [14, 7, 7, 0]
+      "away": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "home": [
+        14,
+        7,
+        7,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -88,12 +100,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Sep 07, 2013 23:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -146,8 +163,18 @@
     },
     "espnGameId": 332500130,
     "linescore": {
-      "away": [7, 6, 7, 10],
-      "home": [10, 17, 7, 7]
+      "away": [
+        7,
+        6,
+        7,
+        10
+      ],
+      "home": [
+        10,
+        17,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -182,12 +209,17 @@
     "isVacatedWin": true,
     "isHomeGame": false,
     "date": "Sat Sep 14, 2013 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -240,8 +272,18 @@
     },
     "espnGameId": 332572509,
     "linescore": {
-      "away": [0, 3, 7, 21],
-      "home": [7, 3, 7, 7]
+      "away": [
+        0,
+        3,
+        7,
+        21
+      ],
+      "home": [
+        7,
+        3,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -273,7 +315,9 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Sep 21, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "MSU",
     "score": {
       "away": 13,
@@ -325,8 +369,18 @@
     },
     "espnGameId": 332640087,
     "linescore": {
-      "away": [0, 7, 3, 3],
-      "home": [3, 7, 0, 7]
+      "away": [
+        0,
+        7,
+        3,
+        3
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -357,7 +411,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 28, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "OKLA",
     "score": {
       "away": 35,
@@ -409,8 +465,18 @@
     },
     "espnGameId": 332710087,
     "linescore": {
-      "away": [14, 7, 6, 8],
-      "home": [7, 0, 7, 7]
+      "away": [
+        14,
+        7,
+        6,
+        8
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -447,12 +513,17 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Oct 05, 2013 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "location": {
       "city": "Arlington",
       "state": "TX",
       "stadium": "AT&T Stadium",
-      "coordinates": [32.747176, -97.094719]
+      "coordinates": [
+        32.747176,
+        -97.094719
+      ]
     },
     "opponentId": "ASU",
     "score": {
@@ -505,8 +576,18 @@
     },
     "espnGameId": 332780087,
     "linescore": {
-      "away": [0, 13, 0, 21],
-      "home": [0, 14, 10, 13]
+      "away": [
+        0,
+        13,
+        0,
+        21
+      ],
+      "home": [
+        0,
+        14,
+        10,
+        13
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -538,7 +619,9 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Oct 19, 2013 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "USC",
     "score": {
       "away": 10,
@@ -590,8 +673,18 @@
     },
     "espnGameId": 332920087,
     "linescore": {
-      "away": [7, 3, 0, 0],
-      "home": [7, 7, 0, 0]
+      "away": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -618,12 +711,17 @@
     "isVacatedWin": true,
     "isHomeGame": false,
     "date": "Sat Oct 26, 2013 20:00:00 GMT-0400",
-    "coverage": "CBSSN",
+    "coverage": [
+      "CBSSN"
+    ],
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -676,8 +774,18 @@
     },
     "espnGameId": 332992005,
     "linescore": {
-      "away": [7, 17, 14, 7],
-      "home": [7, 3, 0, 0]
+      "away": [
+        7,
+        17,
+        14,
+        7
+      ],
+      "home": [
+        7,
+        3,
+        0,
+        0
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -704,7 +812,9 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Nov 02, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NAVY",
     "score": {
       "away": 34,
@@ -756,8 +866,18 @@
     },
     "espnGameId": 333060087,
     "linescore": {
-      "away": [7, 13, 0, 14],
-      "home": [10, 7, 7, 14]
+      "away": [
+        7,
+        13,
+        0,
+        14
+      ],
+      "home": [
+        10,
+        7,
+        7,
+        14
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -788,12 +908,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 09, 2013 23:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -846,8 +971,18 @@
     },
     "espnGameId": 333130221,
     "linescore": {
-      "away": [7, 7, 7, 0],
-      "home": [0, 7, 14, 7]
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        14,
+        7
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -880,7 +1015,9 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Nov 23, 2013 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "BYU",
     "score": {
       "away": 13,
@@ -932,8 +1069,18 @@
     },
     "espnGameId": 333270087,
     "linescore": {
-      "away": [7, 0, 6, 0],
-      "home": [14, 3, 3, 3]
+      "away": [
+        7,
+        0,
+        6,
+        0
+      ],
+      "home": [
+        14,
+        3,
+        3,
+        3
+      ]
     },
     "headCoach": "Brian Kelly",
     "weather": {
@@ -959,12 +1106,17 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 30, 2013 22:00:00 GMT-0500",
-    "coverage": "FOX",
+    "coverage": [
+      "FOX"
+    ],
     "location": {
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -1017,8 +1169,18 @@
     },
     "espnGameId": 333340024,
     "linescore": {
-      "away": [3, 3, 14, 0],
-      "home": [7, 7, 10, 3]
+      "away": [
+        3,
+        3,
+        14,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        3
+      ]
     },
     "headCoach": "Brian Kelly",
     "rankings": {
@@ -1057,12 +1219,17 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Sat Dec 28, 2013 15:15:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "RUTG",
     "score": {
@@ -1115,8 +1282,18 @@
     },
     "espnGameId": 333620087,
     "linescore": {
-      "away": [10, 3, 0, 3],
-      "home": [10, 3, 3, 13]
+      "away": [
+        10,
+        3,
+        0,
+        3
+      ],
+      "home": [
+        10,
+        3,
+        3,
+        13
+      ]
     },
     "nickname": "Pinstripe Bowl",
     "headCoach": "Brian Kelly",

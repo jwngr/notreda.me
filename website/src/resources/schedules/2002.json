@@ -7,7 +7,10 @@
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "Giants Stadium",
-      "coordinates": [40.812222, -74.076944]
+      "coordinates": [
+        40.812222,
+        -74.076944
+      ]
     },
     "opponentId": "MD",
     "score": {
@@ -16,10 +19,22 @@
     },
     "espnGameId": 222430120,
     "linescore": {
-      "away": [3, 6, 10, 3],
-      "home": [0, 0, 0, 0]
+      "away": [
+        3,
+        6,
+        10,
+        3
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -56,10 +71,22 @@
     },
     "espnGameId": 222500087,
     "linescore": {
-      "away": [0, 7, 7, 3],
-      "home": [0, 17, 0, 7]
+      "away": [
+        0,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        17,
+        0,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -96,10 +123,22 @@
     },
     "espnGameId": 222570087,
     "linescore": {
-      "away": [7, 0, 10, 6],
-      "home": [7, 9, 0, 9]
+      "away": [
+        7,
+        0,
+        10,
+        6
+      ],
+      "home": [
+        7,
+        9,
+        0,
+        9
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -136,7 +175,10 @@
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "score": {
@@ -145,10 +187,22 @@
     },
     "espnGameId": 222640127,
     "linescore": {
-      "away": [7, 7, 0, 7],
-      "home": [3, 0, 0, 14]
+      "away": [
+        7,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        0,
+        14
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -185,10 +239,22 @@
     },
     "espnGameId": 222780087,
     "linescore": {
-      "away": [7, 0, 0, 0],
-      "home": [0, 3, 21, 7]
+      "away": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        21,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -225,10 +291,22 @@
     },
     "espnGameId": 222850087,
     "linescore": {
-      "away": [3, 3, 0, 0],
-      "home": [0, 7, 0, 7]
+      "away": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -262,7 +340,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "stadium": "Falcon Stadium",
-      "coordinates": [38.997, -104.843]
+      "coordinates": [
+        38.997,
+        -104.843
+      ]
     },
     "opponentId": "AF",
     "score": {
@@ -271,10 +352,22 @@
     },
     "espnGameId": 222922005,
     "linescore": {
-      "away": [7, 7, 7, 0],
-      "home": [7, 0, 7, 0]
+      "away": [
+        7,
+        7,
+        7,
+        0
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        0
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -312,7 +405,10 @@
       "city": "Tallahassee",
       "state": "FL",
       "stadium": "Doak Campbell Stadium",
-      "coordinates": [30.438088, -84.304527]
+      "coordinates": [
+        30.438088,
+        -84.304527
+      ]
     },
     "opponentId": "FSU",
     "score": {
@@ -321,10 +417,22 @@
     },
     "espnGameId": 222990052,
     "linescore": {
-      "away": [10, 0, 17, 7],
-      "home": [3, 7, 0, 14]
+      "away": [
+        10,
+        0,
+        17,
+        7
+      ],
+      "home": [
+        3,
+        7,
+        0,
+        14
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -366,10 +474,22 @@
     },
     "espnGameId": 223060087,
     "linescore": {
-      "away": [6, 8, 0, 0],
-      "home": [0, 0, 0, 7]
+      "away": [
+        6,
+        8,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -404,7 +524,10 @@
       "city": "Baltimore",
       "state": "MD",
       "stadium": "Ravens Stadium",
-      "coordinates": [39.277954, -76.623112]
+      "coordinates": [
+        39.277954,
+        -76.623112
+      ]
     },
     "opponentId": "NAVY",
     "score": {
@@ -413,10 +536,22 @@
     },
     "espnGameId": 223132426,
     "linescore": {
-      "away": [2, 7, 6, 15],
-      "home": [7, 0, 16, 0]
+      "away": [
+        2,
+        7,
+        6,
+        15
+      ],
+      "home": [
+        7,
+        0,
+        16,
+        0
+      ]
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -454,10 +589,22 @@
     },
     "espnGameId": 223270087,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [0, 14, 28, 0]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        14,
+        28,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -492,7 +639,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -501,10 +651,22 @@
     },
     "espnGameId": 223340030,
     "linescore": {
-      "away": [6, 7, 0, 0],
-      "home": [0, 17, 13, 14]
+      "away": [
+        6,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        17,
+        13,
+        14
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -545,7 +707,10 @@
       "city": "Jacksonville",
       "state": "FL",
       "stadium": "Alltel Stadium",
-      "coordinates": [30.323861, -81.637472]
+      "coordinates": [
+        30.323861,
+        -81.637472
+      ]
     },
     "opponentId": "NCST",
     "score": {
@@ -554,10 +719,22 @@
     },
     "espnGameId": 230010087,
     "linescore": {
-      "away": [0, 21, 0, 7],
-      "home": [3, 0, 3, 0]
+      "away": [
+        0,
+        21,
+        0,
+        7
+      ],
+      "home": [
+        3,
+        0,
+        3,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "nickname": "Gator Bowl",
     "headCoach": "Tyrone Willingham",
     "rankings": {

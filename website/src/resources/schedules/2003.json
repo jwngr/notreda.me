@@ -10,10 +10,24 @@
     },
     "espnGameId": 232490087,
     "linescore": {
-      "away": [12, 7, 0, 7, 0],
-      "home": [0, 3, 3, 20, 3]
+      "away": [
+        12,
+        7,
+        0,
+        7,
+        0
+      ],
+      "home": [
+        0,
+        3,
+        3,
+        20,
+        3
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -48,7 +62,10 @@
       "city": "Ann Arbor",
       "state": "MI",
       "stadium": "Michigan Stadium",
-      "coordinates": [42.265686, -83.74861]
+      "coordinates": [
+        42.265686,
+        -83.74861
+      ]
     },
     "opponentId": "MICH",
     "score": {
@@ -57,10 +74,22 @@
     },
     "espnGameId": 232560130,
     "linescore": {
-      "away": [0, 0, 0, 0],
-      "home": [7, 10, 7, 14]
+      "away": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        10,
+        7,
+        14
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -100,10 +129,22 @@
     },
     "espnGameId": 232630087,
     "linescore": {
-      "away": [3, 3, 7, 9],
-      "home": [3, 3, 3, 7]
+      "away": [
+        3,
+        3,
+        7,
+        9
+      ],
+      "home": [
+        3,
+        3,
+        3,
+        7
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-day",
@@ -132,7 +173,10 @@
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "score": {
@@ -141,10 +185,22 @@
     },
     "espnGameId": 232702509,
     "linescore": {
-      "away": [0, 10, 0, 0],
-      "home": [10, 3, 3, 7]
+      "away": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "home": [
+        10,
+        3,
+        3,
+        7
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -178,7 +234,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "stadium": "Heinz Field",
-      "coordinates": [40.445773, -80.014982]
+      "coordinates": [
+        40.445773,
+        -80.014982
+      ]
     },
     "opponentId": "PITT",
     "score": {
@@ -187,10 +246,22 @@
     },
     "espnGameId": 232840221,
     "linescore": {
-      "away": [7, 10, 3, 0],
-      "home": [7, 7, 0, 0]
+      "away": [
+        7,
+        10,
+        3,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        0,
+        0
+      ]
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "home": {
@@ -227,10 +298,22 @@
     },
     "espnGameId": 232910087,
     "linescore": {
-      "away": [21, 7, 10, 7],
-      "home": [14, 0, 0, 0]
+      "away": [
+        21,
+        7,
+        10,
+        7
+      ],
+      "home": [
+        14,
+        0,
+        0,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -265,7 +348,10 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -274,10 +360,22 @@
     },
     "espnGameId": 232980103,
     "linescore": {
-      "away": [3, 3, 6, 13],
-      "home": [7, 7, 10, 3]
+      "away": [
+        3,
+        3,
+        6,
+        13
+      ],
+      "home": [
+        7,
+        7,
+        10,
+        3
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-day",
@@ -309,10 +407,22 @@
     },
     "espnGameId": 233050087,
     "linescore": {
-      "away": [17, 6, 7, 7],
-      "home": [0, 0, 0, 0]
+      "away": [
+        17,
+        6,
+        7,
+        7
+      ],
+      "home": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "rankings": {
       "away": {
@@ -350,10 +460,22 @@
     },
     "espnGameId": 233120087,
     "linescore": {
-      "away": [7, 3, 7, 7],
-      "home": [7, 7, 7, 6]
+      "away": [
+        7,
+        3,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        7,
+        7,
+        6
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "clear-night",
@@ -385,10 +507,22 @@
     },
     "espnGameId": 233190087,
     "linescore": {
-      "away": [7, 0, 0, 7],
-      "home": [6, 10, 7, 10]
+      "away": [
+        7,
+        0,
+        0,
+        7
+      ],
+      "home": [
+        6,
+        10,
+        7,
+        10
+      ]
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "cloudy",
@@ -417,7 +551,10 @@
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "score": {
@@ -426,10 +563,22 @@
     },
     "espnGameId": 233330024,
     "linescore": {
-      "away": [21, 13, 23, 0],
-      "home": [0, 0, 7, 0]
+      "away": [
+        21,
+        13,
+        23,
+        0
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        0
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "partly-cloudy-night",
@@ -458,7 +607,10 @@
       "city": "Syracuse",
       "state": "NY",
       "stadium": "Carrier Dome",
-      "coordinates": [43.036062, -76.136434]
+      "coordinates": [
+        43.036062,
+        -76.136434
+      ]
     },
     "opponentId": "SYR",
     "score": {
@@ -467,10 +619,22 @@
     },
     "espnGameId": 233400183,
     "linescore": {
-      "away": [3, 0, 9, 0],
-      "home": [10, 0, 21, 7]
+      "away": [
+        3,
+        0,
+        9,
+        0
+      ],
+      "home": [
+        10,
+        0,
+        21,
+        7
+      ]
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Tyrone Willingham",
     "weather": {
       "icon": "fog",

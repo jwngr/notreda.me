@@ -3,7 +3,9 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 02 2017 19:30:00 GMT-0700",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "stats": {
       "away": {
         "firstDowns": 18,
@@ -56,8 +58,18 @@
     "espnGameId": 400934573,
     "highlightsYouTubeVideoId": "E0vAm2S7PnE",
     "linescore": {
-      "away": [3, 7, 0, 6],
-      "home": [21, 7, 7, 14]
+      "away": [
+        3,
+        7,
+        0,
+        6
+      ],
+      "home": [
+        21,
+        7,
+        7,
+        14
+      ]
     },
     "time": "3:30 PM",
     "headCoach": "Brian Kelly",
@@ -84,7 +96,9 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 09 2017 16:30:00 GMT-0700",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "stats": {
       "away": {
         "firstDowns": 16,
@@ -137,8 +151,18 @@
     "espnGameId": 400933845,
     "highlightsYouTubeVideoId": "9SjONTyIDlQ",
     "linescore": {
-      "away": [3, 7, 7, 3],
-      "home": [3, 10, 3, 3]
+      "away": [
+        3,
+        7,
+        7,
+        3
+      ],
+      "home": [
+        3,
+        10,
+        3,
+        3
+      ]
     },
     "time": "7:30 PM",
     "headCoach": "Brian Kelly",
@@ -175,12 +199,17 @@
     "result": "W",
     "isHomeGame": false,
     "date": "Sat Sep 16 2017 12:30:00 GMT-0700",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "espnGameId": 400934574,
@@ -234,8 +263,18 @@
       }
     },
     "linescore": {
-      "away": [7, 7, 14, 21],
-      "home": [3, 7, 3, 7]
+      "away": [
+        7,
+        7,
+        14,
+        21
+      ],
+      "home": [
+        3,
+        7,
+        3,
+        7
+      ]
     },
     "time": "3:30 PM",
     "headCoach": "Brian Kelly",
@@ -261,19 +300,34 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 23 2017 17:00:00 GMT-0700",
-    "coverage": "FOX",
+    "coverage": [
+      "FOX"
+    ],
     "location": {
       "city": "East Lansing",
       "state": "MI",
       "stadium": "Spartan Stadium",
-      "coordinates": [42.727122, -84.486078]
+      "coordinates": [
+        42.727122,
+        -84.486078
+      ]
     },
     "opponentId": "MSU",
     "espnGameId": 400934575,
     "highlightsYouTubeVideoId": "nuyldAJMNZE",
     "linescore": {
-      "away": [14, 14, 7, 3],
-      "home": [7, 0, 3, 8]
+      "away": [
+        14,
+        14,
+        7,
+        3
+      ],
+      "home": [
+        7,
+        0,
+        3,
+        8
+      ]
     },
     "score": {
       "home": 18,
@@ -348,13 +402,25 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 30 2017 14:00:00 GMT-0700",
-    "coverage": "NBCSN",
+    "coverage": [
+      "NBCSN"
+    ],
     "opponentId": "MOH",
     "espnGameId": 400934576,
     "highlightsYouTubeVideoId": "mlJdQmFVOIc",
     "linescore": {
-      "away": [7, 7, 3, 0],
-      "home": [28, 17, 0, 7]
+      "away": [
+        7,
+        7,
+        3,
+        0
+      ],
+      "home": [
+        28,
+        17,
+        0,
+        7
+      ]
     },
     "score": {
       "home": 52,
@@ -434,19 +500,34 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 07 2017 12:30:00 GMT-0700",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
       "stadium": "Kenan Memorial Stadium",
-      "coordinates": [35.906944, -79.047778]
+      "coordinates": [
+        35.906944,
+        -79.047778
+      ]
     },
     "opponentId": "UNC",
     "espnGameId": 400934577,
     "highlightsYouTubeVideoId": "xEOKaz__4bc",
     "linescore": {
-      "away": [0, 16, 10, 7],
-      "home": [0, 7, 0, 3]
+      "away": [
+        0,
+        16,
+        10,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        0,
+        3
+      ]
     },
     "score": {
       "home": 10,
@@ -527,13 +608,25 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 21 2017 16:30:00 GMT-0700",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "USC",
     "espnGameId": 400934578,
     "highlightsYouTubeVideoId": "-X-CJC48S2M",
     "linescore": {
-      "away": [0, 0, 14, 0],
-      "home": [14, 14, 14, 7]
+      "away": [
+        0,
+        0,
+        14,
+        0
+      ],
+      "home": [
+        14,
+        14,
+        14,
+        7
+      ]
     },
     "score": {
       "home": 49,
@@ -618,13 +711,25 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 28 2017 12:30:00 GMT-0700",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NCST",
     "highlightsYouTubeVideoId": "xx79NoMz540",
     "espnGameId": 400934579,
     "linescore": {
-      "away": [7, 7, 0, 0],
-      "home": [7, 14, 14, 0]
+      "away": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        14,
+        0
+      ]
     },
     "score": {
       "home": 35,
@@ -709,13 +814,25 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 04 2017 12:30:00 GMT-0700",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "WAKE",
     "espnGameId": 400934580,
     "highlightsYouTubeVideoId": "hmgBjMQBXAE",
     "linescore": {
-      "away": [3, 7, 13, 14],
-      "home": [7, 24, 10, 7]
+      "away": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "home": [
+        7,
+        24,
+        10,
+        7
+      ]
     },
     "score": {
       "home": 48,
@@ -797,19 +914,34 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 11, 2017 23:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Miami Gardens",
       "state": "FL",
       "stadium": "Hard Rock Stadium",
-      "coordinates": [25.957783, -80.238978]
+      "coordinates": [
+        25.957783,
+        -80.238978
+      ]
     },
     "opponentId": "MIAMI",
     "highlightsYouTubeVideoId": "tYcKXU61Q_w",
     "espnGameId": 400934581,
     "linescore": {
-      "away": [0, 0, 8, 0],
-      "home": [14, 13, 7, 7]
+      "away": [
+        0,
+        0,
+        8,
+        0
+      ],
+      "home": [
+        14,
+        13,
+        7,
+        7
+      ]
     },
     "score": {
       "home": 41,
@@ -895,13 +1027,25 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 18 2017 11:30:00 GMT-0800",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NAVY",
     "espnGameId": 400934582,
     "highlightsYouTubeVideoId": "VM96DewuXXg",
     "linescore": {
-      "away": [0, 10, 7, 0],
-      "home": [3, 7, 7, 7]
+      "away": [
+        0,
+        10,
+        7,
+        0
+      ],
+      "home": [
+        3,
+        7,
+        7,
+        7
+      ]
     },
     "score": {
       "home": 24,
@@ -983,19 +1127,34 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 25, 2017 23:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "Stanford",
       "state": "CA",
       "stadium": "Stanford Stadium",
-      "coordinates": [37.434444, -122.161111]
+      "coordinates": [
+        37.434444,
+        -122.161111
+      ]
     },
     "opponentId": "STAN",
     "highlightsYouTubeVideoId": "AJPtDoPN1q4",
     "espnGameId": 400934583,
     "linescore": {
-      "away": [7, 3, 10, 0],
-      "home": [7, 7, 3, 21]
+      "away": [
+        7,
+        3,
+        10,
+        0
+      ],
+      "home": [
+        7,
+        7,
+        3,
+        21
+      ]
     },
     "score": {
       "home": 38,
@@ -1083,20 +1242,35 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Mon Jan 01 2018 05:00:00 GMT-0800",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "nickname": "Florida Citrus Bowl",
     "location": {
       "city": "Orlando",
       "state": "FL",
       "stadium": "Camping World Stadium",
-      "coordinates": [28.539074, -81.404028]
+      "coordinates": [
+        28.539074,
+        -81.404028
+      ]
     },
     "opponentId": "LSU",
     "espnGameId": 400953414,
     "highlightsYouTubeVideoId": "J1xdNu3KlS0",
     "linescore": {
-      "away": [0, 3, 3, 15],
-      "home": [0, 0, 7, 10]
+      "away": [
+        0,
+        3,
+        3,
+        15
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        10
+      ]
     },
     "score": {
       "home": 17,

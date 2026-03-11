@@ -7,7 +7,10 @@
       "city": "Nashville",
       "state": "TN",
       "stadium": "Vanderbilt Stadium",
-      "coordinates": [36.144167, -86.808889]
+      "coordinates": [
+        36.144167,
+        -86.808889
+      ]
     },
     "opponentId": "VANDY",
     "score": {
@@ -18,7 +21,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -43,7 +48,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -63,7 +70,10 @@
       "city": "Austin",
       "state": "TX",
       "stadium": "Darrell K Royal - Texas Memorial Stadium",
-      "coordinates": [30.282861, -97.733119]
+      "coordinates": [
+        30.282861,
+        -97.733119
+      ]
     },
     "opponentId": "TEX",
     "score": {
@@ -74,7 +84,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -102,7 +114,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -130,7 +144,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -159,7 +175,9 @@
       "home": []
     },
     "numOvertimes": 1,
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -179,7 +197,10 @@
       "city": "Dublin",
       "country": "Ireland",
       "stadium": "Croke Park",
-      "coordinates": [53.360552, -6.251466]
+      "coordinates": [
+        53.360552,
+        -6.251466
+      ]
     },
     "nickname": "Shamrock Classic",
     "opponentId": "NAVY",
@@ -191,7 +212,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -211,7 +234,10 @@
       "city": "Chestnut Hill",
       "state": "MA",
       "stadium": "Alumni Stadium",
-      "coordinates": [42.335, -71.166389]
+      "coordinates": [
+        42.335,
+        -71.166389
+      ]
     },
     "opponentId": "BC",
     "score": {
@@ -222,7 +248,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {
@@ -247,7 +275,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -272,7 +302,9 @@
       "away": [],
       "home": []
     },
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "home": {
@@ -292,7 +324,10 @@
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "score": {
@@ -304,7 +339,9 @@
       "home": []
     },
     "numOvertimes": 1,
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "headCoach": "Lou Holtz",
     "rankings": {
       "away": {

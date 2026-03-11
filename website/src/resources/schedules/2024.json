@@ -2,12 +2,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Aug 31 2024 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "College Station",
       "state": "TX",
       "stadium": "Kyle Field",
-      "coordinates": [30.609883, -96.340544]
+      "coordinates": [
+        30.609883,
+        -96.340544
+      ]
     },
     "opponentId": "TA&M",
     "espnGameId": 401628332,
@@ -62,8 +67,18 @@
       "away": 23
     },
     "linescore": {
-      "away": [3, 3, 7, 10],
-      "home": [3, 3, 0, 7]
+      "away": [
+        3,
+        3,
+        7,
+        10
+      ],
+      "home": [
+        3,
+        3,
+        0,
+        7
+      ]
     },
     "result": "W",
     "records": {
@@ -94,7 +109,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 07 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "NIU",
     "espnGameId": 401628977,
     "highlightsYouTubeVideoId": "-66oTCXvx68",
@@ -162,8 +179,18 @@
       "away": 16
     },
     "linescore": {
-      "away": [10, 3, 0, 3],
-      "home": [7, 0, 7, 0]
+      "away": [
+        10,
+        3,
+        0,
+        3
+      ],
+      "home": [
+        7,
+        0,
+        7,
+        0
+      ]
     },
     "result": "L",
     "rankings": {
@@ -176,12 +203,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 14 2024 15:30:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "location": {
       "city": "West Lafayette",
       "state": "IN",
       "stadium": "Ross-Ade Stadium",
-      "coordinates": [40.434042, -86.918267]
+      "coordinates": [
+        40.434042,
+        -86.918267
+      ]
     },
     "opponentId": "PUR",
     "espnGameId": 401628978,
@@ -250,8 +282,18 @@
       "away": 66
     },
     "linescore": {
-      "away": [14, 28, 10, 14],
-      "home": [0, 0, 7, 0]
+      "away": [
+        14,
+        28,
+        10,
+        14
+      ],
+      "home": [
+        0,
+        0,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -264,7 +306,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 21 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "MOH",
     "espnGameId": 401628979,
     "highlightsYouTubeVideoId": "Lz7WRBHJV9M",
@@ -332,8 +376,18 @@
       "away": 3
     },
     "linescore": {
-      "away": [0, 3, 0, 0],
-      "home": [0, 14, 7, 7]
+      "away": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -346,7 +400,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 28 2024 15:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": [
+      "PEACOCK"
+    ],
     "opponentId": "LOU",
     "espnGameId": 401628980,
     "highlightsYouTubeVideoId": "sdv44b0jkbg",
@@ -414,8 +470,18 @@
       "away": 24
     },
     "linescore": {
-      "away": [7, 7, 0, 10],
-      "home": [21, 3, 0, 7]
+      "away": [
+        7,
+        7,
+        0,
+        10
+      ],
+      "home": [
+        21,
+        3,
+        0,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -432,7 +498,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 12 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "STAN",
     "espnGameId": 401628981,
     "highlightsYouTubeVideoId": "1qNSEJcKXvo",
@@ -500,8 +568,18 @@
       "away": 7
     },
     "linescore": {
-      "away": [7, 0, 0, 0],
-      "home": [7, 14, 21, 7]
+      "away": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        21,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -515,12 +593,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 19 2024 15:30:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Bobby Dodd Stadium",
-      "coordinates": [33.772284, -84.392859]
+      "coordinates": [
+        33.772284,
+        -84.392859
+      ]
     },
     "opponentId": "GT",
     "espnGameId": 401628982,
@@ -589,8 +672,18 @@
       "away": 31
     },
     "linescore": {
-      "away": [0, 14, 7, 10],
-      "home": [7, 0, 0, 6]
+      "away": [
+        0,
+        14,
+        7,
+        10
+      ],
+      "home": [
+        7,
+        0,
+        0,
+        6
+      ]
     },
     "result": "W",
     "rankings": {
@@ -604,12 +697,17 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 26 2024 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
       "stadium": "MetLife Stadium",
-      "coordinates": [40.813393, -74.074607]
+      "coordinates": [
+        40.813393,
+        -74.074607
+      ]
     },
     "opponentId": "NAVY",
     "espnGameId": 401628983,
@@ -678,8 +776,18 @@
       "away": 51
     },
     "linescore": {
-      "away": [14, 17, 13, 7],
-      "home": [0, 7, 7, 0]
+      "away": [
+        14,
+        17,
+        13,
+        7
+      ],
+      "home": [
+        0,
+        7,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -696,7 +804,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 09 2024 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "FSU",
     "espnGameId": 401628984,
     "highlightsYouTubeVideoId": "R7D-atkqzBM",
@@ -764,8 +874,18 @@
       "away": 3
     },
     "linescore": {
-      "away": [3, 0, 0, 0],
-      "home": [7, 14, 10, 21]
+      "away": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "home": [
+        7,
+        14,
+        10,
+        21
+      ]
     },
     "result": "W",
     "rankings": {
@@ -778,7 +898,9 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 16 2024 15:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "opponentId": "UVA",
     "espnGameId": 401628985,
     "highlightsYouTubeVideoId": "ES0YubyOTsk",
@@ -846,8 +968,18 @@
       "away": 14
     },
     "linescore": {
-      "away": [0, 0, 7, 7],
-      "home": [7, 21, 7, 0]
+      "away": [
+        0,
+        0,
+        7,
+        7
+      ],
+      "home": [
+        7,
+        21,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -861,13 +993,18 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "coverage": "NBC",
+    "coverage": [
+      "NBC"
+    ],
     "date": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
       "city": "Bronx",
       "state": "NY",
       "stadium": "Yankee Stadium",
-      "coordinates": [40.829602, -73.926228]
+      "coordinates": [
+        40.829602,
+        -73.926228
+      ]
     },
     "opponentId": "ARMY",
     "espnGameId": 401640959,
@@ -936,8 +1073,18 @@
       "away": 14
     },
     "linescore": {
-      "away": [0, 7, 0, 7],
-      "home": [14, 14, 14, 7]
+      "away": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "home": [
+        14,
+        14,
+        14,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -954,12 +1101,17 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 30 2024 15:30:00 GMT-0500",
-    "coverage": "CBS",
+    "coverage": [
+      "CBS"
+    ],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
       "stadium": "LA Memorial Coliseum",
-      "coordinates": [34.014167, -118.287778]
+      "coordinates": [
+        34.014167,
+        -118.287778
+      ]
     },
     "opponentId": "USC",
     "espnGameId": 401628571,
@@ -1028,8 +1180,18 @@
       "away": 49
     },
     "linescore": {
-      "away": [7, 7, 21, 14],
-      "home": [0, 14, 7, 14]
+      "away": [
+        7,
+        7,
+        21,
+        14
+      ],
+      "home": [
+        0,
+        14,
+        7,
+        14
+      ]
     },
     "result": "W",
     "rankings": {
@@ -1045,7 +1207,9 @@
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
     "date": "Sat Dec 20 2024 18:00:00 GMT-0700",
-    "coverage": "ABC",
+    "coverage": [
+      "ABC"
+    ],
     "opponentId": "IND",
     "highlightsYouTubeVideoId": "09BXg7fhijA",
     "records": {
@@ -1112,8 +1276,18 @@
       "away": 17
     },
     "linescore": {
-      "away": [0, 3, 0, 14],
-      "home": [7, 10, 3, 7]
+      "away": [
+        0,
+        3,
+        0,
+        14
+      ],
+      "home": [
+        7,
+        10,
+        3,
+        7
+      ]
     },
     "result": "W",
     "rankings": {
@@ -1134,12 +1308,17 @@
     "espnGameId": 401677184,
     "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
     "date": "Thu Jan 02 2025 14:00:00 GMT-0700",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "New Orleans",
       "state": "LA",
       "stadium": "Louisiana Superdome",
-      "coordinates": [29.950833, -90.081111]
+      "coordinates": [
+        29.950833,
+        -90.081111
+      ]
     },
     "opponentId": "UGA",
     "highlightsYouTubeVideoId": "B78JMxYQoDM",
@@ -1207,8 +1386,18 @@
       "away": 23
     },
     "linescore": {
-      "away": [0, 13, 7, 3],
-      "home": [0, 3, 7, 0]
+      "away": [
+        0,
+        13,
+        7,
+        3
+      ],
+      "home": [
+        0,
+        3,
+        7,
+        0
+      ]
     },
     "result": "W",
     "rankings": {
@@ -1229,13 +1418,18 @@
     "espnGameId": 401677189,
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
     "date": "Thu Jan 09 2025 17:30:00 GMT-0700",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "highlightsYouTubeVideoId": "uX_zcBD7DE0",
     "location": {
       "city": "Miami",
       "state": "FL",
       "stadium": "Hard Rock Stadium",
-      "coordinates": [25.777936, -80.220957]
+      "coordinates": [
+        25.777936,
+        -80.220957
+      ]
     },
     "opponentId": "PSU",
     "records": {
@@ -1302,8 +1496,18 @@
       "away": 27
     },
     "linescore": {
-      "away": [0, 3, 7, 17],
-      "home": [0, 10, 0, 14]
+      "away": [
+        0,
+        3,
+        7,
+        17
+      ],
+      "home": [
+        0,
+        10,
+        0,
+        14
+      ]
     },
     "result": "W",
     "rankings": {
@@ -1325,12 +1529,17 @@
     "nickname": "College Football Playoff Championship",
     "date": "Mon Jan 20 2025 17:30:00 GMT-0700",
     "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
-    "coverage": "ESPN",
+    "coverage": [
+      "ESPN"
+    ],
     "location": {
       "city": "Atlanta",
       "state": "GA",
       "stadium": "Mercedes-Benz Stadium",
-      "coordinates": [33.76, -84.4]
+      "coordinates": [
+        33.76,
+        -84.4
+      ]
     },
     "opponentId": "OSU",
     "headCoach": "Marcus Freeman",
@@ -1397,8 +1606,18 @@
       "away": 34
     },
     "linescore": {
-      "away": [0, 21, 10, 3],
-      "home": [7, 0, 8, 8]
+      "away": [
+        0,
+        21,
+        10,
+        3
+      ],
+      "home": [
+        7,
+        0,
+        8,
+        8
+      ]
     },
     "result": "L",
     "rankings": {
