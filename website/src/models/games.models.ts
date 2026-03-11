@@ -78,7 +78,7 @@ export interface GameInfo {
   readonly date: string | 'TBD';
 
   /** Which networks broadcasted the game. */
-  readonly coverage?: TVNetwork[] | 'TBD';
+  readonly coverage?: TVNetwork[];
 
   /** The YouTube video ID for the game highlights. */
   readonly highlightsYouTubeVideoId?: string;
@@ -123,6 +123,7 @@ export enum TVNetwork {
   NBCSN = 'NBCSN',
   Pac12Network = 'PACN',
   Peacock = 'PEACOCK',
+  RAYCOM = 'RAYCOM',
   TBS = 'TBS',
   USA = 'USA',
   SportsChannel = 'SPORTSCHANNEL',

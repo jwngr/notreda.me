@@ -58,6 +58,7 @@ function getTvNetworkLogo(network: TVNetwork): string | null {
     case TVNetwork.Unknown:
       return unknownNetworkLogo;
     case TVNetwork.KATZ:
+    case TVNetwork.RAYCOM:
     case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
       return null;

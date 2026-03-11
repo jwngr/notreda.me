@@ -148,13 +148,13 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
     // channel is set yet, a default icon will be used).
     let tvCoverageContent: React.ReactNode = null;
     const isFutureGameWithoutCoverage = !isGameOver && !game.coverage;
-    if (game.coverage === 'TBD' || isFutureGameWithoutCoverage) {
+    if (isFutureGameWithoutCoverage) {
       tvCoverageContent = (
         <ChannelLogo $network={TVNetwork.Unknown}>
           <TVNetworkLogo network={TVNetwork.Unknown} />
         </ChannelLogo>
       );
-    } else if (game.coverage && game.coverage !== 'TBD') {
+    } else if (game.coverage) {
       const networks = game.coverage;
       const primaryNetwork = networks[0]; // Use first network as primary for styling
 

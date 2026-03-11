@@ -80,6 +80,7 @@ export const getTvChannelUrl = (network: TVNetwork): string | null => {
     case TVNetwork.Pac12Network:
     case TVNetwork.CSTV:
     case TVNetwork.KATZ:
+    case TVNetwork.RAYCOM:
     case TVNetwork.SportsChannel:
     case TVNetwork.WGN_TV:
     case TVNetwork.Unknown:

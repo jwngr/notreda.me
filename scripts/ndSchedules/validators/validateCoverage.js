@@ -14,6 +14,7 @@ const EXPECTED_TV_CHANNELS = [
   'NBCSN',
   'PACN',
   'PEACOCK',
+  'RAYCOM',
   'SPORTSCHANNEL',
   'TBS',
   'USA',
@@ -28,14 +29,14 @@ export function validateCoverage({season, coverage}, assert) {
   if (season === CURRENT_SEASON) {
     // Current season game.
     wrappedAssert(
-      coverage === 'TBD' || coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
+      typeof coverage === 'undefined' ||
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Current season game has unexpected coverage value.'
     );
   } else if (season < CURRENT_SEASON) {
     // Previous season game.
     wrappedAssert(
       typeof coverage === 'undefined' ||
-        coverage === 'TBD' ||
         coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Previous season game has unexpected coverage value.'
     );

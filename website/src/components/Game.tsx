@@ -35,7 +35,6 @@ export const Game: React.FC<{
 }> = ({game, season, index, isSelected}) => {
   const isMobile = useMediaQuery('(max-width: 768px)');
   const gameDate = getDateFromGame(game.date);
-
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
     lastColumnContent = (
@@ -92,19 +91,11 @@ export const Game: React.FC<{
     const time = format(gameDate, 'h:mm a');
 
     lastColumnContent = (
-        <TelevisionCoverage
-          $network={
-            game.coverage === 'TBD'
-              ? TVNetwork.Unknown
-              : game.coverage && game.coverage.length > 0
-                ? game.coverage[0]
-                : TVNetwork.Unknown
-          }
-        >
-          <p>{time}</p>
-        {game.coverage && game.coverage !== 'TBD' ? (
-          <TVNetworkLogos networks={game.coverage} />
-        ) : null}
+      <TelevisionCoverage
+        $network={game.coverage && game.coverage.length > 0 ? game.coverage[0] : TVNetwork.Unknown}
+      >
+        <p>{time}</p>
+        {game.coverage ? <TVNetworkLogos networks={game.coverage} /> : null}
       </TelevisionCoverage>
     );
   }
