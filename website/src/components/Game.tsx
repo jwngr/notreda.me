@@ -92,17 +92,17 @@ export const Game: React.FC<{
     const time = format(gameDate, 'h:mm a');
 
     lastColumnContent = (
-      <TelevisionCoverage
-        $network={
-          game.coverage === 'TBD'
-            ? TVNetwork.Unknown
-            : Array.isArray(game.coverage) && game.coverage.length > 0
-              ? game.coverage[0]
-              : TVNetwork.Unknown
-        }
-      >
-        <p>{time}</p>
-        {game.coverage && game.coverage !== 'TBD' && Array.isArray(game.coverage) ? (
+        <TelevisionCoverage
+          $network={
+            game.coverage === 'TBD'
+              ? TVNetwork.Unknown
+              : game.coverage && game.coverage.length > 0
+                ? game.coverage[0]
+                : TVNetwork.Unknown
+          }
+        >
+          <p>{time}</p>
+        {game.coverage && game.coverage !== 'TBD' ? (
           <TVNetworkLogos networks={game.coverage} />
         ) : null}
       </TelevisionCoverage>

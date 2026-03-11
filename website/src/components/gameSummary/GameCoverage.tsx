@@ -154,8 +154,7 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
           <TVNetworkLogo network={TVNetwork.Unknown} />
         </ChannelLogo>
       );
-    } else if (game.coverage && Array.isArray(game.coverage)) {
-      // Handle array of networks
+    } else if (game.coverage && game.coverage !== 'TBD') {
       const networks = game.coverage;
       const primaryNetwork = networks[0]; // Use first network as primary for styling
 

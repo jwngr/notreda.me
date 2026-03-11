@@ -28,9 +28,7 @@ export function validateCoverage({season, coverage}, assert) {
   if (season === CURRENT_SEASON) {
     // Current season game.
     wrappedAssert(
-      coverage === 'TBD' ||
-        (Array.isArray(coverage) &&
-          coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network))),
+      coverage === 'TBD' || coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Current season game has unexpected coverage value.'
     );
   } else if (season < CURRENT_SEASON) {
@@ -38,16 +36,14 @@ export function validateCoverage({season, coverage}, assert) {
     wrappedAssert(
       typeof coverage === 'undefined' ||
         coverage === 'TBD' ||
-        (Array.isArray(coverage) &&
-          coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network))),
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Previous season game has unexpected coverage value.'
     );
   } else {
     // Future season game.
     wrappedAssert(
       typeof coverage === 'undefined' ||
-        (Array.isArray(coverage) &&
-          coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network))),
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Future season game has unexpected coverage value.'
     );
   }
