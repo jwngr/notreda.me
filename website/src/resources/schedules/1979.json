@@ -12,7 +12,7 @@
     "opponentId": "MICH",
     "score": {"away": 12, "home": 10},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 9}, "home": {"ap": 6}},
     "weather": {"icon": "clear-day", "temperature": 67}
@@ -80,7 +80,7 @@
     "opponentId": "USC",
     "score": {"away": 42, "home": 23},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 4}},
     "weather": {"icon": "cloudy", "temperature": 76}

@@ -6,7 +6,7 @@
     "opponentId": "MICH",
     "score": {"away": 17, "home": 23},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 20}, "away": {"ap": 10}},
     "weather": {"icon": "clear-night", "temperature": 49}
@@ -112,7 +112,7 @@
     "opponentId": "PSU",
     "score": {"away": 24, "home": 14},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 13}, "away": {"ap": 5}},
     "weather": {"icon": "cloudy", "temperature": 25}
@@ -147,7 +147,7 @@
     "opponentId": "USC",
     "score": {"away": 13, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 17}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 67}

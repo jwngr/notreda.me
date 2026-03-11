@@ -3,7 +3,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 12 2020 14:30:00 GMT-0400",
     "highlightsYouTubeVideoId": "ZnAea5t2Jpo",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "weather": {"icon": "partly-cloudy-day", "temperature": 71},
     "opponentId": "DUKE",
     "records": {
@@ -63,7 +63,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 19 2020 14:30:00 GMT-0400",
-    "coverage": "USA",
+    "coverage": ["USA"],
     "opponentId": "USF",
     "highlightsYouTubeVideoId": "DFt9HRKEMjQ",
     "records": {
@@ -125,7 +125,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 10 2020 19:00:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "FSU",
     "highlightsYouTubeVideoId": "oRyBvzmObzo",
     "records": {
@@ -187,7 +187,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 17 2020 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "LOU",
     "highlightsYouTubeVideoId": "Yij5uVib0mg",
     "records": {
@@ -249,7 +249,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 24 2020 15:30:00 GMT-0400",
-    "coverage": "TBD",
+    "coverage": ["ABC"],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -317,7 +317,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 31 2020 15:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -385,7 +385,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 07 2020 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "CLEM",
     "highlightsYouTubeVideoId": "Y8JSVeVUlis",
     "records": {
@@ -448,7 +448,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 14 2020 15:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "qnx-plDC-CM",
     "location": {
       "city": "Chestnut Hill",
@@ -516,7 +516,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 27 2020 15:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "TMNfTtoqpkE",
     "location": {
       "city": "Durham",
@@ -587,7 +587,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Dec 05 2020 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "ZrGSAxrX9xE",
     "opponentId": "SYR",
     "records": {
@@ -651,7 +651,7 @@
     "isHomeGame": true,
     "date": "Sat Dec 19 2020 16:00:00 GMT-0500",
     "nickname": "ACC Championship Game",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "bsIXUEOXiDA",
     "location": {
       "city": "Charlotte",

@@ -77,8 +77,8 @@ export interface GameInfo {
   // Handle dates which are in the past or future and which may not have a time nor date.
   readonly date: string | 'TBD';
 
-  /** Which network broadcasted the game. */
-  readonly coverage?: TVNetwork | 'TBD';
+  /** Which networks broadcasted the game. */
+  readonly coverage?: TVNetwork[];
 
   /** The YouTube video ID for the game highlights. */
   readonly highlightsYouTubeVideoId?: string;
@@ -123,15 +123,11 @@ export enum TVNetwork {
   NBCSN = 'NBCSN',
   Pac12Network = 'PACN',
   Peacock = 'PEACOCK',
+  RAYCOM = 'RAYCOM',
   TBS = 'TBS',
   USA = 'USA',
   SportsChannel = 'SPORTSCHANNEL',
   WGN_TV = 'WGN-TV',
   // TODO: Consider removing this type and using `null` instead.
   Unknown = 'UNKNOWN',
-  // TODO: Handle multi-network broadcasts explicitly in the data model as an array of networks.
-  ABC_ESPN = 'ABC / ESPN',
-  ABC_ESPN2 = 'ABC / ESPN2',
-  RAYCOM_WGN = 'RAYCOM / WGN-TV',
-  USA_WGN_TV = 'USA / WGN-TV',
 }

@@ -12,7 +12,7 @@
     "opponentId": "PITT",
     "score": {"away": 19, "home": 9},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 3}, "home": {"ap": 7}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 69}
@@ -80,7 +80,7 @@
     "opponentId": "USC",
     "score": {"away": 19, "home": 49},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 11}, "away": {"ap": 5}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 62}
@@ -167,7 +167,7 @@
     "opponentId": "TEX",
     "score": {"away": 38, "home": 10},
     "linescore": {"away": [3, 21, 7, 7], "home": [3, 7, 0, 0]},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "nickname": "Cotton Bowl",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 5}},

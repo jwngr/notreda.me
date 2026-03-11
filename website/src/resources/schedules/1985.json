@@ -12,7 +12,7 @@
     "opponentId": "MICH",
     "score": {"away": 12, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 13}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 64}
@@ -24,7 +24,7 @@
     "opponentId": "MSU",
     "score": {"away": 10, "home": 27},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 63}
   },
@@ -41,7 +41,7 @@
     "opponentId": "PUR",
     "score": {"away": 17, "home": 35},
     "linescore": {"away": [], "home": []},
-    "coverage": "TBS",
+    "coverage": ["TBS"],
     "headCoach": "Gerry Faust",
     "weather": {"temperature": 73, "icon": "unknown"}
   },
@@ -58,7 +58,7 @@
     "opponentId": "AF",
     "score": {"away": 15, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 17}},
     "weather": {"icon": "clear-day", "temperature": 62}
@@ -70,7 +70,7 @@
     "opponentId": "ARMY",
     "score": {"away": 10, "home": 24},
     "linescore": {"away": [], "home": []},
-    "coverage": "USA / WGN-TV",
+    "coverage": ["USA", "WGN-TV"],
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 19}},
     "weather": {"icon": "cloudy", "temperature": 61}
@@ -92,7 +92,7 @@
     "opponentId": "NAVY",
     "score": {"away": 17, "home": 41},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 46}
   },
@@ -103,7 +103,7 @@
     "opponentId": "MISS",
     "score": {"away": 14, "home": 37},
     "linescore": {"away": [], "home": []},
-    "coverage": "USA / WGN-TV",
+    "coverage": ["USA", "WGN-TV"],
     "headCoach": "Gerry Faust",
     "weather": {"icon": "rain", "temperature": 47}
   },
@@ -120,7 +120,7 @@
     "opponentId": "PSU",
     "score": {"away": 6, "home": 36},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 1}},
     "weather": {"temperature": 38, "icon": "unknown"}
@@ -132,7 +132,7 @@
     "opponentId": "LSU",
     "score": {"away": 10, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "USA / WGN-TV",
+    "coverage": ["USA", "WGN-TV"],
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 17}},
     "weather": {"icon": "cloudy", "temperature": 34}
@@ -150,7 +150,7 @@
     "opponentId": "MIAMI",
     "score": {"away": 7, "home": 58},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 4}},
     "weather": {"icon": "clear-night", "temperature": 76}

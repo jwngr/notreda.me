@@ -40,7 +40,7 @@
     "opponentId": "MIAMI",
     "score": {"away": 0, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 13}},
     "weather": {"icon": "cloudy", "temperature": 79}
@@ -115,7 +115,7 @@
     "opponentId": "PITT",
     "score": {"away": 21, "home": 16},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Gerry Faust",
     "rankings": {"home": {"ap": 18}},
     "weather": {"icon": "clear-night", "temperature": 44}
@@ -143,7 +143,7 @@
     "opponentId": "AF",
     "score": {"away": 23, "home": 22},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Gerry Faust",
     "weather": {"icon": "cloudy", "temperature": 64}
   },
@@ -162,7 +162,7 @@
     "opponentId": "BC",
     "score": {"away": 18, "home": 19},
     "linescore": {"away": [6, 6, 6, 0], "home": [7, 12, 0, 0]},
-    "coverage": "KATZ",
+    "coverage": ["KATZ"],
     "nickname": "Liberty Bowl",
     "headCoach": "Gerry Faust",
     "rankings": {"away": {"ap": 13}},

@@ -40,7 +40,7 @@
     "opponentId": "MSU",
     "score": {"away": 16, "home": 0},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}},
     "weather": {"icon": "clear-day", "temperature": 55}
@@ -129,7 +129,7 @@
     "opponentId": "USC",
     "score": {"away": 23, "home": 45},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 10}, "home": {"ap": 1}},
     "weather": {"icon": "clear-day", "temperature": 62}
@@ -149,7 +149,7 @@
     "opponentId": "NEB",
     "score": {"away": 6, "home": 40},
     "linescore": {"away": [0, 0, 0, 6], "home": [7, 13, 20, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "nickname": "Orange Bowl",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 12}},

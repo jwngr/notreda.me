@@ -2,7 +2,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Aug 31 2024 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "College Station",
       "state": "TX",
@@ -69,7 +69,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 07 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "NIU",
     "espnGameId": 401628977,
     "highlightsYouTubeVideoId": "-66oTCXvx68",
@@ -130,7 +130,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 14 2024 15:30:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -197,7 +197,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 21 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "MOH",
     "espnGameId": 401628979,
     "highlightsYouTubeVideoId": "Lz7WRBHJV9M",
@@ -258,7 +258,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 28 2024 15:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": ["PEACOCK"],
     "opponentId": "LOU",
     "espnGameId": 401628980,
     "highlightsYouTubeVideoId": "sdv44b0jkbg",
@@ -319,7 +319,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 12 2024 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "STAN",
     "espnGameId": 401628981,
     "highlightsYouTubeVideoId": "1qNSEJcKXvo",
@@ -381,7 +381,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 19 2024 15:30:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Atlanta",
       "state": "GA",
@@ -449,7 +449,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 26 2024 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -516,7 +516,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 09 2024 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "FSU",
     "espnGameId": 401628984,
     "highlightsYouTubeVideoId": "R7D-atkqzBM",
@@ -577,7 +577,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 16 2024 15:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "UVA",
     "espnGameId": 401628985,
     "highlightsYouTubeVideoId": "ES0YubyOTsk",
@@ -639,7 +639,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "date": "Sat Nov 23 2024 19:00:00 GMT-0500",
     "location": {
       "city": "Bronx",
@@ -707,7 +707,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 30 2024 15:30:00 GMT-0500",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -777,7 +777,7 @@
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
     "date": "Sat Dec 20 2024 18:00:00 GMT-0700",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "opponentId": "IND",
     "highlightsYouTubeVideoId": "09BXg7fhijA",
     "records": {
@@ -841,7 +841,7 @@
     "espnGameId": 401677184,
     "nickname": "College Football Playoff Quarterfinal at the Allstate Sugar Bowl",
     "date": "Thu Jan 02 2025 14:00:00 GMT-0700",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "New Orleans",
       "state": "LA",
@@ -911,7 +911,7 @@
     "espnGameId": 401677189,
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
     "date": "Thu Jan 09 2025 17:30:00 GMT-0700",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "highlightsYouTubeVideoId": "uX_zcBD7DE0",
     "location": {
       "city": "Miami",
@@ -982,7 +982,7 @@
     "nickname": "College Football Playoff Championship",
     "date": "Mon Jan 20 2025 17:30:00 GMT-0700",
     "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Atlanta",
       "state": "GA",

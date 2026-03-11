@@ -2,7 +2,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 03 2022 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Columbus",
       "state": "OH",
@@ -70,7 +70,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 10 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "MRSH",
     "espnGameId": 401404125,
     "highlightsYouTubeVideoId": "-lKT5W6Gna8",
@@ -132,7 +132,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 17 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "CAL",
     "espnGameId": 401403987,
     "highlightsYouTubeVideoId": "JqiAff12i14",
@@ -192,7 +192,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 24 2022 15:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -260,7 +260,7 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Oct 08 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "location": {
       "city": "Las Vegas",
       "state": "NV",
@@ -327,7 +327,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 15 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "STAN",
     "espnGameId": 401404016,
     "highlightsYouTubeVideoId": "FL8neZUGl_k",
@@ -387,7 +387,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 22 2022 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "UNLV",
     "espnGameId": 401404128,
     "highlightsYouTubeVideoId": "cbaP_q4Mitc",
@@ -447,7 +447,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 29 2022 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Syracuse",
       "state": "NY",
@@ -514,7 +514,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 05 2022 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "CLEM",
     "espnGameId": 401404130,
     "highlightsYouTubeVideoId": "rML8eHvbq9g",
@@ -576,7 +576,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Nov 12 2022 12:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Baltimore",
       "state": "MD",
@@ -643,7 +643,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 19 2022 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "BC",
     "espnGameId": 401404132,
     "highlightsYouTubeVideoId": "ca862G0S9X8",
@@ -704,7 +704,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 26 2022 19:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Los Angeles",
       "state": "CA",
@@ -777,7 +777,7 @@
     "isNeutralSiteGame": true,
     "nickname": "TaxSlayer Gator Bowl",
     "date": "Fri Dec 30 2022 15:30:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Jacksonville",
       "state": "FL",

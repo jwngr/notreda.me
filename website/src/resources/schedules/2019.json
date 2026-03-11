@@ -2,7 +2,7 @@
   {
     "isHomeGame": false,
     "date": "Mon Sep 2 2019 20:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Louisville",
       "state": "KY",
@@ -70,7 +70,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 14 2019 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "UNM",
     "highlightsYouTubeVideoId": "7xXMKdV2dJA",
     "rankings": {"home": {"ap": 7, "coaches": 7}},
@@ -132,7 +132,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 21 2019 20:00:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "location": {
       "city": "Athens",
       "state": "GA",
@@ -200,7 +200,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 28 2019 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "UVA",
     "espnGameId": 401112472,
     "highlightsYouTubeVideoId": "BhBSv3zBmis",
@@ -262,7 +262,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 05 2019 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "BGSU",
     "highlightsYouTubeVideoId": "ALhXzLbvvag",
     "rankings": {"home": {"ap": 9, "coaches": 10}},
@@ -323,9 +323,8 @@
   },
   {
     "isHomeGame": true,
-    "date": "10/12/2019",
     "date": "Sat Oct 12 2019 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "USC",
     "highlightsYouTubeVideoId": "TjM7kDhpHw8",
     "rankings": {"home": {"ap": 9, "coaches": 10}},
@@ -387,7 +386,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 26 2019 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -455,7 +454,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 02 2019 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "VT",
     "highlightsYouTubeVideoId": "K0ZDXoz5i-o",
     "rankings": {"home": {"ap": 16, "coaches": 16}},
@@ -524,7 +523,7 @@
       "coordinates": [35.995208, -78.941782]
     },
     "opponentId": "DUKE",
-    "coverage": "ACCN",
+    "coverage": ["ACCN"],
     "highlightsYouTubeVideoId": "zfVdhdCbU0Y",
     "rankings": {"away": {"ap": 15, "coaches": 15, "cfbPlayoff": 15}},
     "records": {
@@ -585,7 +584,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 16 2019 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "NAVY",
     "highlightsYouTubeVideoId": "hDUSuGfdImg",
     "rankings": {
@@ -649,7 +648,7 @@
   },
   {
     "isHomeGame": true,
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "date": "Sat Nov 23 2019 14:30:00 GMT-0500",
     "opponentId": "BC",
     "highlightsYouTubeVideoId": "VvC68n_FRgY",
@@ -711,9 +710,8 @@
   },
   {
     "isHomeGame": false,
-    "date": "11/30/2019",
-    "coverage": "FOX",
     "date": "Sat Nov 30 2019 13:00:00 GMT-0800",
+    "coverage": ["FOX"],
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -782,7 +780,7 @@
     "isBowlGame": true,
     "isHomeGame": false,
     "isNeutralSiteGame": true,
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "date": "Sat Dec 28 2019 12:00:00 GMT-0500",
     "nickname": "Camping World Bowl",
     "location": {

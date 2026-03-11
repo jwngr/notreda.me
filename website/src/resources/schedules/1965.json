@@ -12,7 +12,7 @@
     "opponentId": "CAL",
     "score": {"away": 48, "home": 6},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 3}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 70}
@@ -61,7 +61,7 @@
     "opponentId": "USC",
     "score": {"away": 7, "home": 28},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 4}}
   },

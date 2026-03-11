@@ -6,7 +6,7 @@
     "opponentId": "PITT",
     "score": {"away": 31, "home": 10},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 11}, "away": {"ap": 9}},
     "weather": {"icon": "clear-day", "temperature": 77}
@@ -117,7 +117,7 @@
     "opponentId": "BAMA",
     "score": {"away": 18, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 18}, "away": {"ap": 10}},
     "weather": {"icon": "clear-day", "temperature": 37}
@@ -146,7 +146,7 @@
     "opponentId": "USC",
     "score": {"away": 13, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 13}, "home": {"ap": 3}},
     "weather": {"icon": "clear-day", "temperature": 61}
@@ -166,7 +166,7 @@
     "opponentId": "PSU",
     "score": {"away": 9, "home": 20},
     "linescore": {"away": [3, 0, 0, 6], "home": [7, 13, 0, 0]},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "nickname": "Gator Bowl",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 15}, "away": {"ap": 20}},

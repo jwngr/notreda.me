@@ -6,7 +6,7 @@
     "opponentId": "PUR",
     "score": {"away": 10, "home": 31},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 11}, "away": {"ap": 9}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 78}
@@ -119,7 +119,7 @@
     "opponentId": "BAMA",
     "score": {"away": 7, "home": 0},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 6}, "home": {"ap": 5}},
     "weather": {"temperature": 62, "icon": "unknown"}
@@ -148,7 +148,7 @@
     "opponentId": "USC",
     "score": {"away": 3, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 2}, "home": {"ap": 17}},
     "weather": {"icon": "clear-day", "temperature": 60}
@@ -168,7 +168,7 @@
     "opponentId": "UGA",
     "score": {"away": 17, "home": 10},
     "linescore": {"away": [10, 7, 0, 0], "home": [3, 0, 7, 0]},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "nickname": "Sugar Bowl",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 1}},

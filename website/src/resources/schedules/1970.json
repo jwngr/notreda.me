@@ -68,7 +68,7 @@
     "opponentId": "MIZ",
     "score": {"away": 24, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 3}, "home": {"ap": 18}}
   },
@@ -129,7 +129,7 @@
     "opponentId": "USC",
     "score": {"away": 28, "home": 38},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 4}},
     "weather": {"icon": "rain", "temperature": 54}
@@ -149,7 +149,7 @@
     "opponentId": "TEX",
     "score": {"away": 24, "home": 11},
     "linescore": {"away": [14, 10, 0, 0], "home": [3, 8, 0, 0]},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "nickname": "Cotton Bowl",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 6}},

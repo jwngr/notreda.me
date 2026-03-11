@@ -6,7 +6,7 @@
     "opponentId": "BC",
     "score": {"away": 3, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 9}},
     "weather": {"icon": "clear-night", "temperature": 49}
@@ -91,7 +91,7 @@
     "opponentId": "USC",
     "score": {"away": 24, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 14}, "away": {"ap": 3}},
     "weather": {"icon": "cloudy", "temperature": 51}

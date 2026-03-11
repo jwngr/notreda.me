@@ -117,7 +117,7 @@
     "opponentId": "GT",
     "score": {"away": 38, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}},
     "weather": {"icon": "clear-night", "temperature": 29}
@@ -148,7 +148,7 @@
     "opponentId": "TEX",
     "score": {"away": 21, "home": 17},
     "linescore": {"away": [0, 7, 0, 14], "home": [3, 7, 0, 7]},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "nickname": "Cotton Bowl",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 1}},

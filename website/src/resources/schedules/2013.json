@@ -4,7 +4,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Aug 31, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "TEM",
     "score": {"away": 6, "home": 28},
     "stats": {
@@ -65,7 +65,7 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Sep 07, 2013 23:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Ann Arbor",
       "state": "MI",
@@ -133,7 +133,7 @@
     "isVacatedWin": true,
     "isHomeGame": false,
     "date": "Sat Sep 14, 2013 23:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -201,7 +201,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Sep 21, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "MSU",
     "score": {"away": 13, "home": 17},
     "stats": {
@@ -262,7 +262,7 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 28, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "OKLA",
     "score": {"away": 35, "home": 21},
     "stats": {
@@ -326,7 +326,7 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Oct 05, 2013 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "location": {
       "city": "Arlington",
       "state": "TX",
@@ -394,7 +394,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Oct 19, 2013 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "USC",
     "score": {"away": 10, "home": 14},
     "stats": {
@@ -455,7 +455,7 @@
     "isVacatedWin": true,
     "isHomeGame": false,
     "date": "Sat Oct 26, 2013 20:00:00 GMT-0400",
-    "coverage": "CBSSN",
+    "coverage": ["CBSSN"],
     "location": {
       "city": "Colorado Springs",
       "state": "CO",
@@ -522,7 +522,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Nov 02, 2013 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "NAVY",
     "score": {"away": 34, "home": 38},
     "stats": {
@@ -583,7 +583,7 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 09, 2013 23:00:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -651,7 +651,7 @@
     "isVacatedWin": true,
     "isHomeGame": true,
     "date": "Sat Nov 23, 2013 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "BYU",
     "score": {"away": 13, "home": 23},
     "stats": {
@@ -711,7 +711,7 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 30, 2013 22:00:00 GMT-0500",
-    "coverage": "FOX",
+    "coverage": ["FOX"],
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -781,7 +781,7 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Sat Dec 28, 2013 15:15:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Bronx",
       "state": "NY",

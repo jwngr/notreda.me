@@ -2,7 +2,7 @@
   {
     "isHomeGame": false,
     "date": "Sun Aug 31 2025 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "espnGameId": 401754522,
     "location": {
       "city": "Miami Gardens",
@@ -69,7 +69,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 13 2025 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "TA&M",
     "espnGameId": 401752707,
     "highlightsYouTubeVideoId": "w4o3VblAf8A",
@@ -130,7 +130,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 20 2025 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "PUR",
     "espnGameId": 401752848,
     "highlightsYouTubeVideoId": "8hhD53qO1Ss",
@@ -191,7 +191,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 27 2025 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Fayetteville",
       "state": "AR",
@@ -257,7 +257,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 04 2025 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "BOIS",
     "highlightsYouTubeVideoId": "LQWVI4toCUs",
     "espnGameId": 401757165,
@@ -318,7 +318,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 11 2025 15:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": ["PEACOCK"],
     "opponentId": "NCST",
     "espnGameId": 401754562,
     "highlightsYouTubeVideoId": "AX50V_e4jGs",
@@ -379,7 +379,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 18 2025 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "USC",
     "espnGameId": 401752871,
     "highlightsYouTubeVideoId": "722hAK2h7C8",
@@ -440,7 +440,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 01 2025 15:30:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Chestnut Hill",
       "state": "MA",
@@ -507,7 +507,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 08 2025 19:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "NAVY",
     "espnGameId": 401757166,
     "highlightsYouTubeVideoId": "De8Dxq1QY5U",
@@ -568,7 +568,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 15 2025 12:00:00 GMT-0500",
-    "coverage": "ABC / ESPN",
+    "coverage": ["ABC", "ESPN"],
     "location": {
       "city": "Pittsburgh",
       "state": "PA",
@@ -638,7 +638,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 22 2025 15:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "SYR",
     "espnGameId": 401754604,
     "records": {
@@ -699,7 +699,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 29 2025 22:30:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Stanford",
       "state": "CA",

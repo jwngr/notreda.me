@@ -12,7 +12,7 @@
     "opponentId": "GT",
     "score": {"away": 31, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 2}},
     "weather": {"icon": "clear-night", "temperature": 69}
@@ -91,7 +91,7 @@
     "opponentId": "MIAMI",
     "score": {"away": 7, "home": 38},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 19}},
     "weather": {"icon": "clear-day", "temperature": 64}
@@ -142,7 +142,7 @@
     "opponentId": "USC",
     "score": {"away": 24, "home": 55},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}, "home": {"ap": 6}},
     "weather": {"icon": "cloudy", "temperature": 64}
@@ -162,7 +162,7 @@
     "opponentId": "BAMA",
     "score": {"away": 13, "home": 11},
     "linescore": {"away": [7, 6, 0, 0], "home": [0, 3, 0, 8]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "nickname": "Orange Bowl",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 2}, "away": {"ap": 9}},

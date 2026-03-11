@@ -6,7 +6,7 @@
     "opponentId": "MICH",
     "score": {"away": 17, "home": 19},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 13}, "away": {"ap": 9}},
     "weather": {"icon": "clear-night", "temperature": 59}
@@ -24,7 +24,7 @@
     "opponentId": "MSU",
     "score": {"away": 20, "home": 3},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 8}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 78}
@@ -47,7 +47,7 @@
     "opponentId": "STAN",
     "score": {"away": 14, "home": 42},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 5}},
     "weather": {"icon": "cloudy", "temperature": 65}
@@ -65,7 +65,7 @@
     "opponentId": "PITT",
     "score": {"away": 30, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 5}},
     "weather": {"icon": "cloudy", "temperature": 45}
@@ -77,7 +77,7 @@
     "opponentId": "MIAMI",
     "score": {"away": 30, "home": 31},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 4}, "away": {"ap": 1}},
     "weather": {"icon": "clear-day", "temperature": 74}
@@ -111,7 +111,7 @@
     "opponentId": "RICE",
     "score": {"away": 11, "home": 54},
     "linescore": {"away": [], "home": []},
-    "coverage": "WGN-TV",
+    "coverage": ["WGN-TV"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
     "weather": {"icon": "rain", "temperature": 44}
@@ -123,7 +123,7 @@
     "opponentId": "PSU",
     "score": {"away": 3, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}},
     "weather": {"icon": "cloudy", "temperature": 44}
@@ -141,7 +141,7 @@
     "opponentId": "USC",
     "score": {"away": 27, "home": 10},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 2}},
     "weather": {"icon": "clear-day", "temperature": 63}
@@ -161,7 +161,7 @@
     "opponentId": "WVU",
     "score": {"away": 21, "home": 34},
     "linescore": {"away": [0, 6, 7, 8], "home": [9, 14, 3, 8]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "nickname": "Fiesta Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 3}},

@@ -3,7 +3,7 @@
     "isHomeGame": true,
     "isNeutralSiteGame": true,
     "date": "Sat Aug 26 2023 19:30:00 GMT+0100",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "location": {
       "city": "Dublin",
       "country": "Ireland",
@@ -70,7 +70,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 02 2023 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "TNST",
     "espnGameId": 401525435,
     "highlightsYouTubeVideoId": "udqCGHI_3jo",
@@ -131,7 +131,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 09 2023 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Raleigh",
       "state": "NC",
@@ -198,7 +198,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 16 2023 14:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": ["PEACOCK"],
     "opponentId": "CMU",
     "espnGameId": 401525437,
     "highlightsYouTubeVideoId": "SKgXjGmWI7o",
@@ -259,7 +259,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 23 2023 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "OSU",
     "espnGameId": 401521330,
     "highlightsYouTubeVideoId": "dMj_r1Q6IPA",
@@ -320,7 +320,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Sep 30 2023 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Durham",
       "state": "NC",
@@ -387,7 +387,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 07 2023 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Louisville",
       "state": "KY",
@@ -454,7 +454,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 14 2023 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "USC",
     "espnGameId": 401524031,
     "highlightsYouTubeVideoId": "ceHYSOoDl0A",
@@ -515,7 +515,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 28 2023 15:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "PITT",
     "espnGameId": 401525440,
     "highlightsYouTubeVideoId": "W2UjXm6ZEGU",
@@ -576,7 +576,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 04 2023 12:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Clemson",
       "state": "SC",
@@ -643,7 +643,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 18 2023 15:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "WAKE",
     "espnGameId": 401525442,
     "highlightsYouTubeVideoId": "S4D1N7WKhIA",
@@ -704,7 +704,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Nov 25 2023 16:00:00 GMT-0800",
-    "coverage": "PACN",
+    "coverage": ["PACN"],
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -774,7 +774,7 @@
     "isNeutralSiteGame": true,
     "nickname": "Tony the Tiger Sun Bowl",
     "date": "Sat Dec 29 2023 12:00:00 GMT-0700",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "location": {
       "city": "El Paso",
       "state": "TX",

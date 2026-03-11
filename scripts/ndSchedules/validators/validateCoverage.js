@@ -14,16 +14,11 @@ const EXPECTED_TV_CHANNELS = [
   'NBCSN',
   'PACN',
   'PEACOCK',
+  'RAYCOM',
   'SPORTSCHANNEL',
   'TBS',
   'USA',
   'WGN-TV',
-  // TODO: Handle multi-network broadcasts explicitly in the data model as an array of networks.
-  'ABC / CBS',
-  'ABC / ESPN',
-  'ABC / ESPN2',
-  'RAYCOM / WGN-TV',
-  'USA / WGN-TV',
 ];
 
 export function validateCoverage({season, coverage}, assert) {
@@ -34,21 +29,22 @@ export function validateCoverage({season, coverage}, assert) {
   if (season === CURRENT_SEASON) {
     // Current season game.
     wrappedAssert(
-      coverage === 'TBD' || EXPECTED_TV_CHANNELS.includes(coverage),
+      typeof coverage === 'undefined' ||
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Current season game has unexpected coverage value.'
     );
   } else if (season < CURRENT_SEASON) {
     // Previous season game.
     wrappedAssert(
       typeof coverage === 'undefined' ||
-        coverage === 'TBD' ||
-        EXPECTED_TV_CHANNELS.includes(coverage),
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Previous season game has unexpected coverage value.'
     );
   } else {
     // Future season game.
     wrappedAssert(
-      typeof coverage === 'undefined' || EXPECTED_TV_CHANNELS.includes(coverage),
+      typeof coverage === 'undefined' ||
+        coverage.every((network) => EXPECTED_TV_CHANNELS.includes(network)),
       'Future season game has unexpected coverage value.'
     );
   }

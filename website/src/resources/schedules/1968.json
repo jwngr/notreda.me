@@ -16,7 +16,7 @@
     "opponentId": "PUR",
     "score": {"away": 37, "home": 22},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 2}, "away": {"ap": 1}}
   },
@@ -69,7 +69,7 @@
     "opponentId": "MSU",
     "score": {"away": 17, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 5}},
     "weather": {"icon": "cloudy", "temperature": 50}
@@ -118,7 +118,7 @@
     "opponentId": "USC",
     "score": {"away": 21, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 9}, "home": {"ap": 2}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 59}

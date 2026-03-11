@@ -60,7 +60,7 @@
     "opponentId": "NW",
     "score": {"away": 6, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Joe Kuharich",
     "weather": {"icon": "clear-night", "temperature": 40}
   },

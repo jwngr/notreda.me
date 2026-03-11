@@ -10,7 +10,7 @@
       "coordinates": [30.282861, -97.733119]
     },
     "highlightsYouTubeVideoId": "dI7kwB9nkA8",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "stats": {
       "away": {
         "firstDowns": 22,
@@ -72,7 +72,7 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Sep 10, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "sIiAHnJLA64",
     "stats": {
       "away": {
@@ -134,7 +134,7 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 17, 2016 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "fBzyUGBtd2g",
     "stats": {
       "away": {
@@ -196,7 +196,7 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Sep 24, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "L9wdmpy96ow",
     "stats": {
       "away": {
@@ -258,7 +258,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Oct 01, 2016 15:00:00 GMT-0400",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "East Rutherford",
       "state": "NJ",
@@ -325,7 +325,7 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Oct 08, 2016 15:00:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Raleigh",
       "state": "NC",
@@ -392,7 +392,7 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Oct 15, 2016 22:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "hFQSF6C73ag",
     "stats": {
       "away": {
@@ -453,7 +453,7 @@
     "result": "W",
     "isHomeGame": true,
     "date": "Sat Oct 29, 2016 18:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "rzBDqtam9-M",
     "stats": {
       "away": {
@@ -515,7 +515,7 @@
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "date": "Sat Nov 05, 2016 14:30:00 GMT-0400",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "location": {
       "city": "Jacksonville",
       "state": "FL",
@@ -584,7 +584,7 @@
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
     "date": "Sat Nov 12, 2016 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "location": {
       "city": "San Antonio",
       "state": "TX",
@@ -651,7 +651,7 @@
     "result": "L",
     "isHomeGame": true,
     "date": "Sat Nov 19, 2016 18:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "C49gMiZ4IHM",
     "stats": {
       "away": {
@@ -712,7 +712,7 @@
     "result": "L",
     "isHomeGame": false,
     "date": "Sat Nov 26, 2016 18:30:00 GMT-0500",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "location": {
       "city": "Los Angeles",
       "state": "CA",

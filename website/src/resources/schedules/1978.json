@@ -17,7 +17,7 @@
     "opponentId": "MICH",
     "score": {"away": 28, "home": 14},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 14}, "away": {"ap": 5}},
     "weather": {"icon": "clear-day", "temperature": 69}
@@ -55,7 +55,7 @@
     "opponentId": "PITT",
     "score": {"away": 17, "home": 26},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 9}}
   },
@@ -139,7 +139,7 @@
     "opponentId": "USC",
     "score": {"away": 25, "home": 27},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Dan Devine",
     "rankings": {"away": {"ap": 8}, "home": {"ap": 3}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 61}
@@ -159,7 +159,7 @@
     "opponentId": "HOU",
     "score": {"away": 35, "home": 34},
     "linescore": {"away": [12, 0, 0, 23], "home": [7, 13, 14, 0]},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "nickname": "Cotton Bowl",
     "headCoach": "Dan Devine",
     "rankings": {"home": {"ap": 9}, "away": {"ap": 10}},

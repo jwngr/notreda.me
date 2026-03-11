@@ -6,7 +6,7 @@
     "opponentId": "GT",
     "score": {"away": 13, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "rankings": {"home": {"ap": 11}},
     "weather": {"icon": "clear-day", "temperature": 82}
@@ -24,7 +24,7 @@
     "opponentId": "PUR",
     "score": {"away": 17, "home": 28},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Bob Davie",
     "rankings": {"away": {"ap": 12}},
     "weather": {"temperature": 78, "icon": "unknown"}
@@ -36,7 +36,7 @@
     "opponentId": "MSU",
     "score": {"away": 23, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "rankings": {"away": {"ap": 17}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 64}
@@ -54,7 +54,7 @@
     "opponentId": "MICH",
     "score": {"away": 14, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Bob Davie",
     "rankings": {"home": {"ap": 6}},
     "weather": {"icon": "clear-day", "temperature": 62}
@@ -72,7 +72,7 @@
     "opponentId": "STAN",
     "score": {"away": 15, "home": 33},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Bob Davie",
     "rankings": {"home": {"ap": 19}},
     "weather": {"icon": "clear-day", "temperature": 75}
@@ -90,7 +90,7 @@
     "opponentId": "PITT",
     "score": {"away": 45, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Bob Davie",
     "weather": {"icon": "partly-cloudy-day", "temperature": 62}
   },
@@ -101,7 +101,7 @@
     "opponentId": "USC",
     "score": {"away": 20, "home": 17},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "weather": {"icon": "clear-day", "temperature": 57}
   },
@@ -112,7 +112,7 @@
     "opponentId": "BC",
     "score": {"away": 20, "home": 52},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "weather": {"icon": "cloudy", "temperature": 47}
   },
@@ -123,7 +123,7 @@
     "opponentId": "NAVY",
     "score": {"away": 17, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "weather": {"icon": "cloudy", "temperature": 51}
   },
@@ -140,7 +140,7 @@
     "opponentId": "LSU",
     "score": {"away": 24, "home": 6},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Bob Davie",
     "rankings": {"home": {"ap": 11}},
     "weather": {"icon": "rain", "temperature": 44}
@@ -152,7 +152,7 @@
     "opponentId": "WVU",
     "score": {"away": 14, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Bob Davie",
     "rankings": {"away": {"ap": 22}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 44}
@@ -170,7 +170,7 @@
     "opponentId": "HAW",
     "score": {"away": 23, "home": 22},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Bob Davie",
     "weather": {"icon": "partly-cloudy-day", "temperature": 75}
   },
@@ -189,7 +189,7 @@
     "opponentId": "LSU",
     "score": {"away": 9, "home": 27},
     "linescore": {"away": [3, 3, 0, 3], "home": [0, 3, 10, 14]},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "nickname": "Independence Bowl",
     "headCoach": "Bob Davie",
     "rankings": {"away": {"ap": 15}, "home": {"ap": 15}},

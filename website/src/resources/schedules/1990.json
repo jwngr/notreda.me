@@ -6,7 +6,7 @@
     "opponentId": "MICH",
     "score": {"away": 24, "home": 28},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 4}},
     "weather": {"icon": "partly-cloudy-night", "temperature": 60}
@@ -24,7 +24,7 @@
     "opponentId": "MSU",
     "score": {"away": 20, "home": 19},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 24}},
     "weather": {"icon": "cloudy", "temperature": 52}
@@ -69,7 +69,7 @@
     "opponentId": "MIAMI",
     "score": {"away": 20, "home": 29},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 6}, "away": {"ap": 2}},
     "weather": {"icon": "clear-day", "temperature": 62}
@@ -87,7 +87,7 @@
     "opponentId": "PITT",
     "score": {"away": 31, "home": 22},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 3}},
     "weather": {"icon": "cloudy", "temperature": 52}
@@ -116,7 +116,7 @@
     "opponentId": "TENN",
     "score": {"away": 34, "home": 29},
     "linescore": {"away": [], "home": []},
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 1}, "home": {"ap": 9}},
     "weather": {"icon": "partly-cloudy-night", "temperature": 44}
@@ -128,7 +128,7 @@
     "opponentId": "PSU",
     "score": {"away": 24, "home": 21},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 18}},
     "weather": {"icon": "clear-night", "temperature": 40}
@@ -146,7 +146,7 @@
     "opponentId": "USC",
     "score": {"away": 10, "home": 6},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 7}, "home": {"ap": 18}},
     "weather": {"icon": "clear-night", "temperature": 60}
@@ -166,7 +166,7 @@
     "opponentId": "COL",
     "score": {"away": 9, "home": 10},
     "linescore": {"away": [0, 6, 3, 0], "home": [0, 3, 7, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "nickname": "Orange Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 5}},

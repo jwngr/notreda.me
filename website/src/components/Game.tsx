@@ -8,7 +8,7 @@ import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
 import {FlexRow} from './common/Flex';
-import {TVNetworkLogo} from './common/TVNetworkLogo';
+import {TVNetworkLogos} from './common/TVNetworkLogo';
 import {
   AwayGamePrefix,
   DateOpponentDetailsWrapper,
@@ -35,7 +35,6 @@ export const Game: React.FC<{
 }> = ({game, season, index, isSelected}) => {
   const isMobile = useMediaQuery('(max-width: 768px)');
   const gameDate = getDateFromGame(game.date);
-
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
     lastColumnContent = (
@@ -93,14 +92,10 @@ export const Game: React.FC<{
 
     lastColumnContent = (
       <TelevisionCoverage
-        $network={
-          game.coverage === 'TBD' ? TVNetwork.Unknown : (game.coverage ?? TVNetwork.Unknown)
-        }
+        $network={game.coverage && game.coverage.length > 0 ? game.coverage[0] : TVNetwork.Unknown}
       >
         <p>{time}</p>
-        {game.coverage && game.coverage !== 'TBD' ? (
-          <TVNetworkLogo network={game.coverage} />
-        ) : null}
+        {game.coverage ? <TVNetworkLogos networks={game.coverage} /> : null}
       </TelevisionCoverage>
     );
   }

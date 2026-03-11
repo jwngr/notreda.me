@@ -51,7 +51,7 @@
     },
     "espnGameId": 272440087,
     "linescore": {"away": [6, 10, 3, 14], "home": [0, 0, 3, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 79},
     "records": {
@@ -117,7 +117,7 @@
     },
     "espnGameId": 272510213,
     "linescore": {"away": [7, 0, 3, 0], "home": [7, 7, 10, 7]},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-night", "temperature": 72},
     "records": {
@@ -184,7 +184,7 @@
     },
     "espnGameId": 272580130,
     "linescore": {"away": [0, 0, 0, 0], "home": [10, 21, 7, 0]},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "cloudy", "temperature": 56},
     "records": {
@@ -244,7 +244,7 @@
     },
     "espnGameId": 272650087,
     "linescore": {"away": [14, 3, 14, 0], "home": [7, 7, 0, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 72},
     "records": {
@@ -310,7 +310,7 @@
     },
     "espnGameId": 272722509,
     "linescore": {"away": [0, 0, 6, 13], "home": [10, 13, 3, 7]},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 81},
     "records": {
@@ -376,7 +376,7 @@
     },
     "espnGameId": 272790026,
     "linescore": {"away": [3, 0, 17, 0], "home": [3, 3, 0, 0]},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-night", "temperature": 63},
     "records": {
@@ -437,7 +437,7 @@
     },
     "espnGameId": 272860087,
     "linescore": {"away": [6, 7, 14, 0], "home": [0, 0, 14, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "cloudy", "temperature": 57},
     "records": {
@@ -498,7 +498,7 @@
     },
     "espnGameId": 272930087,
     "linescore": {"away": [7, 10, 14, 7], "home": [0, 0, 0, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-day", "temperature": 69},
     "records": {
@@ -559,7 +559,7 @@
     },
     "espnGameId": 273070087,
     "linescore": {"away": [0, 14, 6, 8, 7, 3, 8], "home": [7, 14, 0, 7, 7, 3, 6]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "numOvertimes": 3,
     "weather": {"icon": "clear-day", "temperature": 51},
@@ -620,7 +620,7 @@
     },
     "espnGameId": 273140087,
     "linescore": {"away": [10, 7, 14, 10], "home": [0, 10, 0, 14]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "clear-night", "temperature": 44},
     "records": {
@@ -680,7 +680,7 @@
     },
     "espnGameId": 273210087,
     "linescore": {"away": [0, 0, 0, 7], "home": [0, 14, 7, 7]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "rain", "temperature": 39},
     "records": {
@@ -746,7 +746,7 @@
     },
     "espnGameId": 273280024,
     "linescore": {"away": [7, 7, 0, 7], "home": [7, 7, 0, 0]},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Charlie Weis",
     "weather": {"icon": "partly-cloudy-day", "temperature": 61},
     "records": {

@@ -6,7 +6,7 @@
     "opponentId": "NW",
     "score": {"away": 12, "home": 27},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 7}},
     "weather": {"icon": "clear-day", "temperature": 74}
@@ -24,7 +24,7 @@
     "opponentId": "MICH",
     "score": {"away": 27, "home": 23},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 11}, "home": {"ap": 3}},
     "weather": {"icon": "partly-cloudy-day", "temperature": 64}
@@ -36,7 +36,7 @@
     "opponentId": "MSU",
     "score": {"away": 14, "home": 36},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 4}},
     "weather": {"icon": "cloudy", "temperature": 64}
@@ -54,7 +54,7 @@
     "opponentId": "PUR",
     "score": {"away": 17, "home": 0},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 4}},
     "weather": {"temperature": 63, "icon": "unknown"}
@@ -72,7 +72,7 @@
     "opponentId": "STAN",
     "score": {"away": 48, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 4}},
     "weather": {"icon": "clear-day", "temperature": 65}
@@ -84,7 +84,7 @@
     "opponentId": "PITT",
     "score": {"away": 0, "home": 44},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 4}},
     "weather": {"icon": "cloudy", "temperature": 41}
@@ -102,7 +102,7 @@
     "opponentId": "BYU",
     "score": {"away": 45, "home": 20},
     "linescore": {"away": [], "home": []},
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "headCoach": "Lou Holtz",
     "rankings": {"away": {"ap": 3}},
     "weather": {"temperature": 49, "icon": "unknown"}
@@ -114,7 +114,7 @@
     "opponentId": "USC",
     "score": {"away": 13, "home": 31},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "clear-day", "temperature": 65}
@@ -126,7 +126,7 @@
     "opponentId": "NAVY",
     "score": {"away": 27, "home": 58},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}},
     "weather": {"icon": "rain", "temperature": 49}
@@ -138,7 +138,7 @@
     "opponentId": "FSU",
     "score": {"away": 24, "home": 31},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 2}, "away": {"ap": 1}},
     "weather": {"icon": "cloudy", "temperature": 64}
@@ -150,7 +150,7 @@
     "opponentId": "BC",
     "score": {"away": 41, "home": 39},
     "linescore": {"away": [], "home": []},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 17}},
     "weather": {"icon": "clear-day", "temperature": 38}
@@ -170,7 +170,7 @@
     "opponentId": "TA&M",
     "score": {"away": 24, "home": 21},
     "linescore": {"away": [7, 0, 14, 3], "home": [7, 7, 7, 0]},
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "nickname": "Cotton Bowl",
     "headCoach": "Lou Holtz",
     "rankings": {"home": {"ap": 7}, "away": {"ap": 4}},

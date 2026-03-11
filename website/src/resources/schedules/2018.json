@@ -3,7 +3,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 01 2018 19:30:00 GMT-0400",
     "opponentId": "MICH",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "espnGameId": 401012888,
     "highlightsYouTubeVideoId": "UUiRmqztkmo",
     "linescore": {"away": [0, 10, 0, 7], "home": [14, 7, 3, 0]},
@@ -65,7 +65,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 08 2018 15:30:00 GMT-0400",
     "opponentId": "BALL",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "espnGameId": 401013377,
     "highlightsYouTubeVideoId": "BS7PECgj-7E",
     "linescore": {"away": [3, 3, 0, 10], "home": [7, 7, 10, 0]},
@@ -127,7 +127,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 15 2018 14:30:00 GMT-0400",
     "opponentId": "VANDY",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "m07W96ROU9Y",
     "records": {
       "home": {"overall": "3-0", "home": "3-0", "away": "0-0", "neutral": "0-0"},
@@ -196,7 +196,7 @@
       "coordinates": [36.13015, -80.254258]
     },
     "opponentId": "WAKE",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "GR5k0Ev9R3s",
     "records": {
       "home": {"overall": "2-2", "home": "1-2", "away": "1-0", "neutral": "0-0"},
@@ -258,7 +258,7 @@
     "isHomeGame": true,
     "date": "Sat Sep 29 2018 19:30:00 GMT-0400",
     "opponentId": "STAN",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "hi3f-rYUmXA",
     "records": {
       "home": {"overall": "5-0", "home": "4-0", "away": "1-0", "neutral": "0-0"},
@@ -326,7 +326,7 @@
       "coordinates": [37.219885, -80.418311]
     },
     "opponentId": "VT",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "XGm1RyGcN1g",
     "records": {
       "home": {"overall": "3-2", "home": "1-1", "away": "2-1", "neutral": "0-0"},
@@ -388,7 +388,7 @@
     "isHomeGame": true,
     "date": "Sat Oct 13 2018 14:30:00 GMT-0400",
     "opponentId": "PITT",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "KNxKwNoul-I",
     "records": {
       "home": {"overall": "7-0", "home": "5-0", "away": "2-0", "neutral": "0-0"},
@@ -457,7 +457,7 @@
       "coordinates": [32.783058, -117.119851]
     },
     "opponentId": "NAVY",
-    "coverage": "CBS",
+    "coverage": ["CBS"],
     "espnGameId": 401013189,
     "highlightsYouTubeVideoId": "H-WuNqpj0mU",
     "records": {
@@ -517,7 +517,6 @@
   },
   {
     "isHomeGame": false,
-    "date": "11/03/2018",
     "date": "Sat Nov 03 2018 19:15:00 GMT-0400",
     "location": {
       "city": "Evanston",
@@ -526,7 +525,7 @@
       "coordinates": [42.06606, -87.693537]
     },
     "opponentId": "NW",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "highlightsYouTubeVideoId": "7LKS8RIGi5Y",
     "records": {
       "home": {"overall": "5-4", "home": "2-4", "away": "3-0", "neutral": "0-0"},
@@ -588,7 +587,7 @@
     "isHomeGame": true,
     "date": "Sat Nov 10 2018 19:30:00 GMT-0500",
     "opponentId": "FSU",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "euIlgxCHBYY",
     "records": {
       "home": {"overall": "10-0", "home": "6-0", "away": "3-0", "neutral": "1-0"},
@@ -659,7 +658,7 @@
       "coordinates": [40.829602, -73.926228]
     },
     "opponentId": "SYR",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "bWblA0GDXlA",
     "records": {
       "home": {"overall": "11-0", "home": "6-0", "away": "3-0", "neutral": "2-0"},
@@ -730,7 +729,7 @@
       "coordinates": [34.014167, -118.287778]
     },
     "opponentId": "USC",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "Lb8oyowI5E0",
     "records": {
       "home": {"overall": "5-7", "home": "3-3", "away": "2-4", "neutral": "0-0"},
@@ -794,7 +793,7 @@
     "isNeutralSiteGame": true,
     "date": "Sat Dec 29 2018 16:00:00 GMT-0500",
     "nickname": "Goodyear Cotton Bowl Classic - College Football Playoff Semifinal",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "location": {
       "city": "Arlington",
       "state": "TX",

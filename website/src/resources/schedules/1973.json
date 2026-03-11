@@ -23,7 +23,7 @@
     "opponentId": "PUR",
     "score": {"away": 20, "home": 7},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}},
     "weather": {"temperature": 77, "icon": "unknown"}
@@ -80,7 +80,7 @@
     "opponentId": "USC",
     "score": {"away": 14, "home": 23},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 8}, "away": {"ap": 6}},
     "weather": {"icon": "rain", "temperature": 56}
@@ -120,7 +120,7 @@
     "opponentId": "AF",
     "score": {"away": 15, "home": 48},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 5}},
     "weather": {"icon": "clear-day", "temperature": 62}
@@ -157,7 +157,7 @@
     "opponentId": "BAMA",
     "score": {"away": 24, "home": 23},
     "linescore": {"away": [6, 8, 7, 3], "home": [0, 10, 7, 6]},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "nickname": "Sugar Bowl",
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 1}, "away": {"ap": 3}},

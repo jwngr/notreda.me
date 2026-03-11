@@ -33,7 +33,7 @@
     "opponentId": "MSU",
     "score": {"away": 2, "home": 14},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 4}}
   },
@@ -72,7 +72,7 @@
     "opponentId": "USC",
     "score": {"away": 28, "home": 14},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"home": {"ap": 6}},
     "weather": {"icon": "cloudy", "temperature": 62}
@@ -129,7 +129,7 @@
     "opponentId": "LSU",
     "score": {"away": 8, "home": 28},
     "linescore": {"away": [], "home": []},
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "headCoach": "Ara Parseghian",
     "rankings": {"away": {"ap": 7}, "home": {"ap": 14}}
   }

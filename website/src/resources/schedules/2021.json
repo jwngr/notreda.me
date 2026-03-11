@@ -2,7 +2,7 @@
   {
     "isHomeGame": false,
     "date": "Sun Sep 05 2021 19:30:00 GMT-0400",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "highlightsYouTubeVideoId": "RxN33FlwOYE",
     "location": {
       "city": "Tallahassee",
@@ -71,7 +71,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 11 2021 14:30:00 GMT-0400",
-    "coverage": "PEACOCK",
+    "coverage": ["PEACOCK"],
     "highlightsYouTubeVideoId": "f1XKAkKAYe4",
     "opponentId": "TOL",
     "espnGameId": 401282705,
@@ -133,7 +133,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 18 2021 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "V82RCmMYa4o",
     "opponentId": "PUR",
     "espnGameId": 401282706,
@@ -194,7 +194,7 @@
   },
   {
     "date": "Sat Sep 25 2021 12:00:00 GMT-0400",
-    "coverage": "FOX",
+    "coverage": ["FOX"],
     "isHomeGame": false,
     "isNeutralSiteGame": true,
     "isShamrockSeries": true,
@@ -265,7 +265,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 02 2021 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "BRBEeZm3dbY",
     "opponentId": "CINCY",
     "espnGameId": 401282708,
@@ -327,7 +327,7 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 09 2021 19:30:00 GMT-0400",
-    "coverage": "ACCN",
+    "coverage": ["ACCN"],
     "location": {
       "city": "Blacksburg",
       "state": "VA",
@@ -395,7 +395,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 23 2021 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "tUEZ9piolh0",
     "opponentId": "USC",
     "espnGameId": 401282709,
@@ -457,7 +457,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 30 2021 19:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "UNC",
     "highlightsYouTubeVideoId": "vqubK7ZsLnw",
     "espnGameId": 401282673,
@@ -519,7 +519,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 06 2021 14:30:00 GMT-0400",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "opponentId": "NAVY",
     "espnGameId": 401282710,
     "highlightsYouTubeVideoId": "0ROUtQQ5tFM",
@@ -588,7 +588,7 @@
       "coordinates": [38.031255, -78.513484]
     },
     "opponentId": "UVA",
-    "coverage": "ABC",
+    "coverage": ["ABC"],
     "espnGameId": 401282688,
     "highlightsYouTubeVideoId": "11c2-fHAza4",
     "records": {
@@ -649,7 +649,7 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 20 2021 14:30:00 GMT-0500",
-    "coverage": "NBC",
+    "coverage": ["NBC"],
     "highlightsYouTubeVideoId": "MNkFFAQrEhU",
     "opponentId": "GT",
     "espnGameId": 401282697,
@@ -712,7 +712,7 @@
     "isHomeGame": false,
     "date": "Sat Nov 27 2021 20:00:00 GMT-0500",
     "highlightsYouTubeVideoId": "eD06GN0lYyc",
-    "coverage": "FOX",
+    "coverage": ["FOX"],
     "location": {
       "city": "Stanford",
       "state": "CA",
@@ -780,7 +780,7 @@
     "isBowlGame": true,
     "isNeutralSiteGame": true,
     "date": "Sat Jan 01 2022 13:00:00 GMT-0500",
-    "coverage": "ESPN",
+    "coverage": ["ESPN"],
     "nickname": "Fiesta Bowl",
     "highlightsYouTubeVideoId": "UvUU7iQIGEc",
     "location": {
