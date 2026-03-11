@@ -281,6 +281,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
         case TVNetwork.KATZ:
         case TVNetwork.NBC:
         case TVNetwork.NBCSN:
+        case TVNetwork.RAYCOM:
         case TVNetwork.SportsChannel:
         case TVNetwork.WGN_TV:
         case TVNetwork.Unknown:
@@ -319,6 +320,7 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
           case TVNetwork.KATZ:
           case TVNetwork.NBC:
           case TVNetwork.NBCSN:
+          case TVNetwork.RAYCOM:
           case TVNetwork.SportsChannel:
           case TVNetwork.WGN_TV:
           case TVNetwork.Pac12Network:

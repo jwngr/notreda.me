@@ -57,6 +57,8 @@ const ChannelLogo = styled.div<ChannelLogoProps>`
         case TVNetwork.NBCSN:
         case TVNetwork.USA:
           return '44px';
+        case TVNetwork.RAYCOM:
+          return '40px';
         case TVNetwork.FOX:
         case TVNetwork.KATZ:
         case TVNetwork.SportsChannel:
