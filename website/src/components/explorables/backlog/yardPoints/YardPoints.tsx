@@ -1,18 +1,18 @@
 import * as d3 from 'd3';
 import React, {Component} from 'react';
-import {findDOMNode} from 'react-dom';
 import TweetEmbed from 'react-tweet-embed';
 
-import {Schedules} from '../../lib/schedules';
-import {Tooltip} from '../charts/Tooltip';
-import {Note} from './Note';
-import {Paragraph} from './Paragraph';
+import {Schedules} from '../../../../lib/schedules';
+import {GameInfo, GameResult} from '../../../../models/games.models';
+import {Tooltip} from '../../../charts/Tooltip';
+import {Note} from '../../Note';
+import {Paragraph} from '../../Paragraph';
 
 import './YardPoints.css';
 
 interface YardPointsDatum {
   readonly year: number;
-  readonly result: string;
+  readonly result: GameResult;
   readonly scoreText: string;
   readonly opponentId: string;
   readonly turnoverDifferential: number;
@@ -39,51 +39,53 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
 
     let yardsDifferentialData: YardPointsDatum[] = [];
 
-    Schedules.getSeasons().forEach(async (year) => {
+    Schedules.getSeasons().forEach(async (year: number) => {
       const yearData = await Schedules.getForSeason(year);
 
-      let currentData = yearData.map(({stats, score, opponentId, result, isHomeGame}) => {
-        if (typeof stats !== 'undefined') {
-          let rushYardsDifferential;
-          let passYardsDifferential;
+      let currentData: Array<YardPointsDatum | undefined> = yearData.map(
+        ({stats, score, opponentId, result, isHomeGame}: GameInfo) => {
+          if (typeof stats !== 'undefined' && result && score) {
+            let rushYardsDifferential;
+            let passYardsDifferential;
 
-          let scoreText;
-          let turnoverDifferential;
-          const awayTurnoverCount = stats.away.interceptionsThrown + stats.away.fumblesLost;
-          const homeTurnoverCount = stats.home.interceptionsThrown + stats.home.fumblesLost;
+            let scoreText;
+            let turnoverDifferential;
+            const awayTurnoverCount = stats.away.interceptionsThrown + stats.away.fumblesLost;
+            const homeTurnoverCount = stats.home.interceptionsThrown + stats.home.fumblesLost;
 
-          if (isHomeGame) {
-            rushYardsDifferential = stats.home.rushYards - stats.away.rushYards;
-            passYardsDifferential = stats.home.passYards - stats.away.passYards;
-            scoreText = `${result} ${score.home}-${score.away}`;
-            turnoverDifferential = awayTurnoverCount - homeTurnoverCount;
-          } else {
-            rushYardsDifferential = stats.away.rushYards - stats.home.rushYards;
-            passYardsDifferential = stats.away.passYards - stats.home.passYards;
-            scoreText = `${result} ${score.away}-${score.home}`;
-            turnoverDifferential = homeTurnoverCount - awayTurnoverCount;
+            if (isHomeGame) {
+              rushYardsDifferential = stats.home.rushYards - stats.away.rushYards;
+              passYardsDifferential = stats.home.passYards - stats.away.passYards;
+              scoreText = `${result} ${score.home}-${score.away}`;
+              turnoverDifferential = awayTurnoverCount - homeTurnoverCount;
+            } else {
+              rushYardsDifferential = stats.away.rushYards - stats.home.rushYards;
+              passYardsDifferential = stats.away.passYards - stats.home.passYards;
+              scoreText = `${result} ${score.away}-${score.home}`;
+              turnoverDifferential = homeTurnoverCount - awayTurnoverCount;
+            }
+
+            return {
+              year,
+              result,
+              scoreText,
+              opponentId,
+              turnoverDifferential,
+              x: rushYardsDifferential,
+              y: passYardsDifferential,
+              tooltipChildren: `${scoreText}, ${year} ${opponentId}`,
+            };
           }
 
-          return {
-            year,
-            result,
-            scoreText,
-            opponentId,
-            turnoverDifferential,
-            x: rushYardsDifferential,
-            y: passYardsDifferential,
-            tooltipChildren: `${scoreText}, ${year} ${opponentId}`,
-          };
+          return undefined;
         }
-
-        return undefined;
-      });
+      );
 
       // Remove undefined values from array
-      currentData = currentData.filter((d): d is YardPointsDatum => Boolean(d));
+      const filteredData = currentData.filter((d): d is YardPointsDatum => Boolean(d));
 
-      if (currentData.length > 0) {
-        yardsDifferentialData = yardsDifferentialData.concat(currentData);
+      if (filteredData.length > 0) {
+        yardsDifferentialData = yardsDifferentialData.concat(filteredData);
       }
     });
 
@@ -176,6 +178,7 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
         } else if (d.result === 'T') {
           return 'yellow';
         }
+        return 'gray';
       })
       .style('fill', (d: YardPointsDatum) => {
         // if (d.turnoverDifferential >= 0) {
@@ -186,6 +189,7 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
         } else if (d.result === 'T') {
           return 'yellow';
         }
+        return 'gray';
         // } else {
         //   return 'transparent';
         // }
@@ -193,10 +197,12 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
       .on('mouseover', (_event, d: YardPointsDatum) => {
         // const tooltipHtml = `<p>${d.scoreText}, ${d.year} ${d.opponentId}</p>`;
 
-        clearTimeout(this.unsetTooltipTimeout);
+        if (this.unsetTooltipTimeout !== null) {
+          window.clearTimeout(this.unsetTooltipTimeout);
+        }
 
-        const domNode = findDOMNode(this.scatterPlotRef);
-        if (!(domNode instanceof Element)) {
+        const domNode = this.scatterPlotRef;
+        if (!domNode) {
           return;
         }
         const boundingRect = domNode.getBoundingClientRect();
@@ -265,7 +271,11 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
         <TweetEmbed tweetId="1016049395110825984" options={{cards: 'hidden'}} />
 
         <div>
-          <svg ref={(r) => (this.scatterPlotRef = r)} />
+          <svg
+            ref={(r) => {
+              this.scatterPlotRef = r;
+            }}
+          />
           {tooltipContent}
         </div>
 

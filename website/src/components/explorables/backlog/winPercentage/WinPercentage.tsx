@@ -1,25 +1,25 @@
 import {format} from 'date-fns/format';
 import React, {Component} from 'react';
 
-import alabamaSchedule from '../../resources/explorables/winPercentage/alabama.json';
-import boiseStateSchedule from '../../resources/explorables/winPercentage/boiseState.json';
-import michiganSchedule from '../../resources/explorables/winPercentage/michigan.json';
+import alabamaSchedule from '../../../../resources/explorables/winPercentage/alabama.json';
+import boiseStateSchedule from '../../../../resources/explorables/winPercentage/boiseState.json';
+import michiganSchedule from '../../../../resources/explorables/winPercentage/michigan.json';
 // import nebraskaSchedule from '../../resources/explorables/winPercentage/nebraska.json';
-import notreDameSchedule from '../../resources/explorables/winPercentage/notreDame.json';
-import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioState.json';
+import notreDameSchedule from '../../../../resources/explorables/winPercentage/notreDame.json';
+import ohioStateSchedule from '../../../../resources/explorables/winPercentage/ohioState.json';
 // import oklahomaSchedule from '../../resources/explorables/winPercentage/oklahoma.json';
 // import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
 // import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
 // import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
-import {LineChart, LineChartSeries} from '../charts/LineChart';
-import {Note} from './Note';
-import {Paragraph} from './Paragraph';
+import {LineChart, LineChartDatum, LineChartSeries} from '../../../charts/LineChart';
+import {Note} from '../../Note';
+import {Paragraph} from '../../Paragraph';
 
 import './WinPercentage.css';
 
-import {Schedules} from '../../lib/schedules';
-import {GameResult} from '../../models/games.models';
-import {StyledExternalLink} from './index.styles';
+import {Schedules} from '../../../../lib/schedules';
+import {GameInfo, GameResult} from '../../../../models/games.models';
+import {StyledExternalLink} from '../../Explorables.styles';
 
 interface WinPercentageState {
   readonly ndWinPercentageByGame: readonly LineChartSeries[];
@@ -30,7 +30,7 @@ interface WinPercentageState {
 
 interface WinPercentageScheduleEntry {
   readonly date: string;
-  readonly result: GameResult;
+  readonly result: string;
   readonly opponent?: string;
   readonly oppponent?: string;
 }
@@ -45,11 +45,11 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     let lossCount = 0;
     let tieCount = 0;
 
-    const ndWinPercentageByGame: LineChartSeries['values'] = [];
-    const stanfordWinPercentageByGame: LineChartSeries['values'] = [];
-    const ndWinPercentageByYear: LineChartSeries['values'] = [];
+    const ndWinPercentageByGame: LineChartDatum[] = [];
+    const stanfordWinPercentageByGame: LineChartDatum[] = [];
+    const ndWinPercentageByYear: LineChartDatum[] = [];
 
-    Schedules.getSeasons().forEach(async (year) => {
+    Schedules.getSeasons().forEach(async (year: number) => {
       const yearData = await Schedules.getForSeason(year);
 
       let yearWinCount = 0;
@@ -57,7 +57,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage = 0;
 
-      yearData.forEach(({result, opponentId, date}) => {
+      yearData.forEach(({result, opponentId, date}: GameInfo) => {
         // Exclude future games
         if (result) {
           let gameClassName;
@@ -189,18 +189,18 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       //   };
       // });
 
-      const yearData: LineChartSeries['values'] = [];
-      const yearResults: Record<GameResult, number> = {
+      const yearData: LineChartDatum[] = [];
+      const yearResults: Record<string, number> = {
         [GameResult.Win]: 0,
         [GameResult.Loss]: 0,
         [GameResult.Tie]: 0,
       };
-      schedule.forEach((season) => {
+      schedule.forEach((season: readonly WinPercentageScheduleEntry[]) => {
         let currentYear: string | undefined;
         season.forEach(({date, result}) => {
           currentYear = currentYear || date.split('/')[2];
 
-          yearResults[result]++;
+          yearResults[result] = (yearResults[result] ?? 0) + 1;
         });
 
         const seasonEndWinPercentage = (yearResults.W / (yearResults.W + yearResults.L)) * 100;
@@ -229,14 +229,14 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     });
 
     const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
-      const results: Record<GameResult, number> = {
+      const results: Record<string, number> = {
         [GameResult.Win]: 0,
         [GameResult.Loss]: 0,
         [GameResult.Tie]: 0,
       };
-      const data = schedule.flatMap((season) =>
+      const data = schedule.flatMap((season: readonly WinPercentageScheduleEntry[]) =>
         season.map(({date, result, oppponent, opponent}) => {
-          results[result]++;
+          results[result] = (results[result] ?? 0) + 1;
 
           const winPercentage = (results.W / (results.W + results.L)) * 100;
 

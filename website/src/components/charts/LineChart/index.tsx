@@ -77,13 +77,14 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
 
   private lineChart: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
   private lineChartRef: SVGSVGElement | null = null;
-  private scaleX: d3.ScaleLinear<number | Date, number> | null = null;
+  private scaleX: d3.ScaleLinear<number, number> | null = null;
   private scaleY: d3.ScaleLinear<number, number> | null = null;
   private width = 0;
   private mouse: {readonly x: number; readonly y: number} | null = null;
   private unsetTooltipTimeout: number | null = null;
   private readonly debouncedRedrawChartData: () => void;
   private readonly debouncedResizeLineChart: () => void;
+  private isXAxisDate = false;
 
   constructor(props: LineChartProps) {
     super(props);
@@ -98,6 +99,10 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
 
   handleMouseMove = (event: MouseEvent) => {
     this.mouse = {x: event.pageX, y: event.pageY};
+  };
+
+  getXValue = (value: number | Date) => {
+    return value instanceof Date ? value.getTime() : value;
   };
 
   getMargins = () => {
@@ -148,7 +153,9 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
         d3
           .axisBottom(this.scaleX)
           .ticks(xAxisTicksCount)
-          .tickFormat((i) => formatXAxisTickLabels(i))
+          .tickFormat((i) =>
+            String(formatXAxisTickLabels(this.isXAxisDate ? new Date(Number(i)) : Number(i)))
+          )
       );
 
     // Y-axis
@@ -159,7 +166,7 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
         d3
           .axisLeft(this.scaleY)
           .ticks(yAxisTicksCount)
-          .tickFormat((i) => formatYAxisTickLabels(i))
+          .tickFormat((i) => String(formatYAxisTickLabels(Number(i))))
       )
       .attr('transform', `translate(${margins.left}, ${margins.top})`);
 
@@ -229,7 +236,7 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
       const area = d3
         .area<LineChartDatum>()
         .curve(d3.curveMonotoneX)
-        .x((d) => this.scaleX?.(d.x) ?? 0)
+        .x((d) => this.scaleX?.(this.getXValue(d.x)) ?? 0)
         .y0(this.scaleY(0))
         .y1((d) => this.scaleY?.(d.y) ?? 0);
 
@@ -240,7 +247,7 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
     const line = d3
       .line<LineChartDatum>()
       .curve(d3.curveMonotoneX)
-      .x((d) => this.scaleX?.(d.x) ?? 0)
+      .x((d) => this.scaleX?.(this.getXValue(d.x)) ?? 0)
       .y((d) => this.scaleY?.(d.y) ?? 0);
 
     if (showLine) {
@@ -277,7 +284,9 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
           return {id: d.id || i, value: d.values[d.values.length - 1]};
         })
         .attr('transform', (d) => {
-          return `translate(${this.scaleX?.(d.value.x) ?? 0}, ${this.scaleY?.(d.value.y) ?? 0})`;
+          return `translate(${this.scaleX?.(this.getXValue(d.value.x)) ?? 0}, ${
+            this.scaleY?.(d.value.y) ?? 0
+          })`;
         })
         .attr('x', 3)
         .attr('dy', '0.35em')
@@ -293,7 +302,7 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
         .enter()
         .append('circle')
         .attr('r', (d) => d.radius || DEFAULT_DATUM_CIRCLE_SIZE)
-        .attr('cx', (d, i) => this.scaleX?.(d.x || i) ?? 0)
+        .attr('cx', (d, i) => this.scaleX?.(this.getXValue(d.x || i)) ?? 0)
         .attr('cy', (d) => this.scaleY?.(d.y) ?? 0)
         .attr('class', (d) => {
           const classNames = ['dot'];
@@ -310,7 +319,9 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
           return classNames.join(' ');
         })
         .on('mouseover', (_event, d) => {
-          clearTimeout(this.unsetTooltipTimeout);
+          if (this.unsetTooltipTimeout !== null) {
+            window.clearTimeout(this.unsetTooltipTimeout);
+          }
 
           if (this.mouse) {
             // It is possible for the mouse to initially be on a spot which should show a tooltip,
@@ -348,9 +359,11 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
       });
     });
 
+    this.isXAxisDate = dataPoints.some((point) => point.x instanceof Date);
+
     if (!domainX) {
-      const extentX = d3.extent(dataPoints, (d) => d.x);
-      domainX = extentX[0] != null && extentX[1] != null ? extentX : [0, 0];
+      const extentX = d3.extent(dataPoints, (d) => this.getXValue(d.x));
+      domainX = extentX[0] != null && extentX[1] != null ? [extentX[0], extentX[1]] : [0, 0];
     }
 
     if (!domainY) {
@@ -358,9 +371,14 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
       domainY = extentY[0] != null && extentY[1] != null ? extentY : [0, 0];
     }
 
+    const numericDomainX: [number, number] = [
+      this.getXValue(domainX[0]),
+      this.getXValue(domainX[1]),
+    ];
+
     this.scaleX = d3
       .scaleLinear()
-      .domain(domainX)
+      .domain(numericDomainX)
       .range(rangeX || [0, this.width - margins.left - margins.right]);
 
     this.scaleY = d3
@@ -390,7 +408,7 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
   componentWillUnmount() {
     window.removeEventListener('resize', this.debouncedResizeLineChart);
     document.removeEventListener('mousemove', this.handleMouseMove);
-    if (this.unsetTooltipTimeout) {
+    if (this.unsetTooltipTimeout !== null) {
       window.clearTimeout(this.unsetTooltipTimeout);
     }
   }
@@ -427,7 +445,11 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
       <>
         {tooltipContent}
         <LineChartWrapper className="line-chart-wrapper">
-          <LineChartSvg ref={(r) => (this.lineChartRef = r)} />
+          <LineChartSvg
+            ref={(r) => {
+              this.lineChartRef = r;
+            }}
+          />
           {this.props.children}
         </LineChartWrapper>
       </>

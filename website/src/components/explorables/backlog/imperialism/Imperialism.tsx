@@ -5,15 +5,13 @@ import type {FeatureCollection, Geometry, MultiLineString} from 'geojson';
 import React, {Component} from 'react';
 import {feature, mesh} from 'topojson-client';
 
-import {Note} from './Note';
-import {Paragraph} from './Paragraph';
+import {Note} from '../../Note';
+import {Paragraph} from '../../Paragraph';
 import unemploymentData from './unemployment.json';
 
 import './Imperialism.css';
 
-interface ImperialismState {
-  readonly _?: never;
-}
+interface ImperialismState {}
 
 export class Imperialism extends Component<Record<string, never>, ImperialismState> {
   private imperialismMapRef: SVGSVGElement | null = null;
@@ -49,7 +47,10 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
 
     const scaleX = d3.scaleLinear().domain([1, 10]).rangeRound([600, 860]);
 
-    const color = d3.scaleThreshold().domain(d3.range(2, 10)).range(schemeBlues[9]);
+    const color = d3
+      .scaleThreshold<number, string>()
+      .domain(d3.range(2, 10))
+      .range([...schemeBlues[9]]);
 
     const g = map.append('g').attr('class', 'key').attr('transform', 'translate(0,40)');
 
@@ -92,7 +93,7 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
         .axisBottom(scaleX)
         .tickSize(13)
         .tickFormat((x, i) => {
-          return i ? x : `${x}%`;
+          return i ? String(x) : `${x}%`;
         })
         .tickValues(color.domain())
     )
@@ -107,7 +108,7 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
     const topoJson = us as {readonly objects: {readonly counties: object; readonly states: object}};
     const counties = feature(topoJson, topoJson.objects.counties) as FeatureCollection<
       Geometry,
-      {id: string}
+      {id: string; rate?: number}
     >;
 
     map
@@ -129,7 +130,13 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
 
     map
       .append('path')
-      .datum(mesh(topoJson, topoJson.objects.states, (a, b) => a !== b) as MultiLineString)
+      .datum(
+        mesh(
+          topoJson,
+          topoJson.objects.states,
+          (a: unknown, b: unknown) => a !== b
+        ) as MultiLineString
+      )
       .attr('class', 'states')
       .attr('d', path);
   }
@@ -141,7 +148,11 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
         <Paragraph>Here is a map:</Paragraph>
 
         <div>
-          <svg ref={(r) => (this.imperialismMapRef = r)} />
+          <svg
+            ref={(r) => {
+              this.imperialismMapRef = r;
+            }}
+          />
         </div>
 
         <Note>

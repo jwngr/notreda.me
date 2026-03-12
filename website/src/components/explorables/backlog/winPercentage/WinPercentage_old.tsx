@@ -1,12 +1,13 @@
 import * as d3 from 'd3';
 import React, {Component} from 'react';
 
-import {LineChart, LineChartSeries} from '../charts/LineChart';
+import {LineChart, LineChartSeries} from '../../../charts/LineChart';
 // import {Tooltip} from '../charts/Tooltip';
 
 import './WinPercentage.css';
 
-import {Schedules} from '../../lib/schedules';
+import {Schedules} from '../../../../lib/schedules';
+import {GameInfo} from '../../../../models/games.models';
 
 interface WinPercentageOldDatum {
   year: number;
@@ -49,10 +50,10 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     // let tieCount = 0;
     let lossCount = 0;
 
-    const winPercentageData: WinPercentageOldDatum[] = [];
+    let winPercentageData: WinPercentageOldDatum[] = [];
     const yearWinPercentageData: WinPercentageOldYearDatum[] = [];
 
-    Schedules.getSeasons().forEach(async (year) => {
+    Schedules.getSeasons().forEach(async (year: number) => {
       const yearData = await Schedules.getForSeason(year);
 
       let yearWinCount = 0;
@@ -60,37 +61,49 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage = 0;
 
-      let currentYearData = yearData.map(({score, opponentId, result, isHomeGame}) => {
-        let scoreText;
+      let currentYearData: Array<WinPercentageOldDatum | undefined> = yearData.map(
+        ({score, opponentId, result, isHomeGame}: GameInfo) => {
+          let scoreText;
 
-        // Exclude future games
-        if (result) {
-          if (result === 'W') {
-            winCount++;
-            yearWinCount++;
-          } else if (result === 'L') {
-            lossCount++;
-            yearLossCount++;
-          } else {
-            // tieCount++;
-            yearTieCount++;
+          // Exclude future games
+          if (result && score) {
+            if (result === 'W') {
+              winCount++;
+              yearWinCount++;
+            } else if (result === 'L') {
+              lossCount++;
+              yearLossCount++;
+            } else {
+              // tieCount++;
+              yearTieCount++;
+            }
+
+            if (isHomeGame) {
+              scoreText = `${result} ${score.home}-${score.away}`;
+            } else {
+              scoreText = `${result} ${score.away}-${score.home}`;
+            }
+
+            const winPercentage = (winCount / (winCount + lossCount)) * 100;
+            lastGameOfYearWinPercentage = winPercentage;
+
+            return {
+              year: Number(year),
+              result,
+              scoreText,
+              opponentId,
+              isHomeGame,
+              y: winPercentage,
+            };
           }
-
-          if (isHomeGame) {
-            scoreText = `${result} ${score.home}-${score.away}`;
-          } else {
-            scoreText = `${result} ${score.away}-${score.home}`;
-          }
-
-          const winPercentage = (winCount / (winCount + lossCount)) * 100;
-          lastGameOfYearWinPercentage = winPercentage;
-
-          return {year: Number(year), result, scoreText, opponentId, isHomeGame, y: winPercentage};
+          return undefined;
         }
-      });
+      );
 
       // Remove undefined values from array
-      currentYearData = currentYearData.filter((d): d is WinPercentageOldDatum => Boolean(d));
+      const filteredYearData = currentYearData.filter((d): d is WinPercentageOldDatum =>
+        Boolean(d)
+      );
 
       let yearClassName = '';
       if (yearWinCount > yearLossCount) {
@@ -101,8 +114,8 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
         yearClassName += 'even-record';
       }
 
-      if (currentYearData.length !== 0) {
-        winPercentageData = winPercentageData.concat(currentYearData);
+      if (filteredYearData.length !== 0) {
+        winPercentageData = winPercentageData.concat(filteredYearData);
 
         let record = `${yearWinCount}-${yearLossCount}`;
         if (yearTieCount !== 0) {
@@ -195,6 +208,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
         } else if (d.result === 'T') {
           return 'yellow';
         }
+        return 'gray';
       })
       .style('fill', (d: WinPercentageOldDatum) => {
         if (d.result === 'W') {
@@ -204,14 +218,18 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
         } else if (d.result === 'T') {
           return 'yellow';
         }
+        return 'gray';
       })
-      .on('mouseover', (_event, d: WinPercentageOldDatum, i: number) => {
+      .on('mouseover', (_event, d: WinPercentageOldDatum) => {
         // const tooltipHtml = `<p>${d.year} ${d.opponentId} <br /> ${d.scoreText} <br /> ${d.y}</p>`;
 
-        clearTimeout(this.unsetTooltipTimeout);
+        if (this.unsetTooltipTimeout !== null) {
+          window.clearTimeout(this.unsetTooltipTimeout);
+        }
 
+        const index = this.state.data.indexOf(d);
         (d as WinPercentageOldDatum & {realX: number; realY: number}).realX =
-          chartX(i) + margin.left;
+          chartX(index) + margin.left;
         (d as WinPercentageOldDatum & {realX: number; realY: number}).realY =
           chartY(d.y) + margin.top;
 
@@ -303,7 +321,9 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
         }
       })
       .on('mouseover', (_event, d: WinPercentageOldYearDatum) => {
-        clearTimeout(this.unsetYearTooltipTimeout);
+        if (this.unsetYearTooltipTimeout !== null) {
+          window.clearTimeout(this.unsetYearTooltipTimeout);
+        }
 
         (d as WinPercentageOldYearDatum & {realX: number; realY: number}).realX =
           yearChartX(d.year) + margin.left;
