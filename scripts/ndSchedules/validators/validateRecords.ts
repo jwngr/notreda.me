@@ -30,6 +30,7 @@ export function validateRecords(
 
   if (season <= CURRENT_SEASON) {
     if (season < 2018) {
+      // TODO: Fully enable this assert when all completed games have records.
       ignoredAssert(
         typeof records !== 'undefined',
         `Current or former season game should have records object.`,
