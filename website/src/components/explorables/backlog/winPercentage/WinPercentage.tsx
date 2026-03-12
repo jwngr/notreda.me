@@ -1,54 +1,189 @@
 import {format} from 'date-fns/format';
 import React, {Component} from 'react';
 
-import alabamaSchedule from '../../resources/explorables/winPercentage/alabama.json';
-import boiseStateSchedule from '../../resources/explorables/winPercentage/boiseState.json';
-import michiganSchedule from '../../resources/explorables/winPercentage/michigan.json';
+import alabamaSchedule from '../../../../resources/explorables/winPercentage/alabama.json';
+import boiseStateSchedule from '../../../../resources/explorables/winPercentage/boiseState.json';
+import michiganSchedule from '../../../../resources/explorables/winPercentage/michigan.json';
 // import nebraskaSchedule from '../../resources/explorables/winPercentage/nebraska.json';
-import notreDameSchedule from '../../resources/explorables/winPercentage/notreDame.json';
-import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioState.json';
+import notreDameSchedule from '../../../../resources/explorables/winPercentage/notreDame.json';
+import ohioStateSchedule from '../../../../resources/explorables/winPercentage/ohioState.json';
 // import oklahomaSchedule from '../../resources/explorables/winPercentage/oklahoma.json';
 // import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
 // import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
 // import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
-import {LineChart} from '../charts/LineChart';
-import {Note} from './Note';
-import {Paragraph} from './Paragraph';
+import {LineChart, LineChartDatum, LineChartSeries} from '../../../charts/LineChart';
+import {Note} from '../../Note';
+import {Paragraph} from '../../Paragraph';
 
 import './WinPercentage.css';
 
-import {Schedules} from '../../lib/schedules';
-import {StyledExternalLink} from './index.styles';
+import {Schedules} from '../../../../lib/schedules';
+import {GameInfo, GameResult} from '../../../../models/games.models';
+import {StyledExternalLink} from '../../Explorables.styles';
 
-export class WinPercentage extends Component {
-  constructor(props) {
+interface WinPercentageState {
+  readonly ndWinPercentageByGame: readonly LineChartSeries[];
+  readonly ndWinPercentageByYear: readonly LineChartSeries[];
+  readonly teams: readonly LineChartSeries[];
+  readonly ndVsMich: readonly LineChartSeries[];
+}
+
+interface WinPercentageScheduleEntry {
+  readonly date: string;
+  readonly result: string;
+  readonly opponent?: string;
+  readonly oppponent?: string;
+}
+
+type WinPercentageSchedule = readonly (readonly WinPercentageScheduleEntry[])[];
+
+export class WinPercentage extends Component<Record<string, never>, WinPercentageState> {
+  constructor(props: Record<string, never>) {
     super(props);
 
+    const teamSchedules: Record<string, WinPercentageSchedule> = {
+      MICH: michiganSchedule,
+      ND: notreDameSchedule,
+      OSU: ohioStateSchedule,
+      BSU: boiseStateSchedule,
+      ALA: alabamaSchedule,
+      // OK: oklahomaSchedule,
+      // TEXT: texasSchedule,
+      // USC: uscSchedule,
+      // NEB: nebraskaSchedule,
+      // OLD: oldDominionSchedule,
+    };
+
+    const teamsData = Object.entries(teamSchedules).map(([teamName, schedule]) => {
+      // const results = {W: 0, L: 0, T: 0};
+
+      // const gameData = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
+      //   results[result]++;
+
+      //   const winPercentage = (results.W / (results.W + results.L)) * 100;
+
+      //   return {
+      //     x: new Date(date),
+      //     y: winPercentage,
+      //     tooltipChildren: (
+      //       <div>
+      //         <p>
+      //           {result} {oppponent}
+      //         </p>
+      //         <p>Date: {format(date, 'MM/dd/yyyy')}</p>
+      //         <p>Win %: {winPercentage.toFixed(2)}</p>
+      //       </div>
+      //     ),
+      //   };
+      // });
+
+      const yearData: LineChartDatum[] = [];
+      const yearResults: Record<string, number> = {
+        [GameResult.Win]: 0,
+        [GameResult.Loss]: 0,
+        [GameResult.Tie]: 0,
+      };
+      schedule.forEach((season: readonly WinPercentageScheduleEntry[]) => {
+        let currentYear: string | undefined;
+        season.forEach(({date, result}) => {
+          currentYear = currentYear || date.split('/')[2];
+
+          yearResults[result] = (yearResults[result] ?? 0) + 1;
+        });
+
+        const seasonEndWinPercentage = (yearResults.W / (yearResults.W + yearResults.L)) * 100;
+
+        let record = `${yearResults.W}-${yearResults.L}`;
+        if (yearResults.T !== 0) {
+          record += `-${yearResults.T}`;
+        }
+
+        yearData.push({
+          x: new Date(currentYear ?? ''),
+          y: seasonEndWinPercentage,
+          tooltipChildren: (
+            <div>
+              <p>
+                {teamName} {currentYear}
+              </p>
+              <p>Record: {record}</p>
+              <p>Win %: {seasonEndWinPercentage.toFixed(2)}</p>
+            </div>
+          ),
+        });
+      });
+
+      return {id: teamName, values: yearData};
+    });
+
+    const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
+      const results: Record<string, number> = {
+        [GameResult.Win]: 0,
+        [GameResult.Loss]: 0,
+        [GameResult.Tie]: 0,
+      };
+      const data = schedule.flatMap((season: readonly WinPercentageScheduleEntry[]) =>
+        season.map(({date, result, oppponent, opponent}) => {
+          results[result] = (results[result] ?? 0) + 1;
+
+          const winPercentage = (results.W / (results.W + results.L)) * 100;
+
+          return {
+            x: new Date(date),
+            y: winPercentage,
+            radius: 2,
+            tooltipChildren: (
+              <div>
+                <p>
+                  {result} {oppponent ?? opponent ?? ''}
+                </p>
+                <p>Date: {format(new Date(date), 'MM/dd/yyyy')}</p>
+                <p>Win %: {winPercentage.toFixed(2)}</p>
+              </div>
+            ),
+          };
+        })
+      );
+
+      return {values: data};
+    });
+
+    this.state = {
+      ndWinPercentageByGame: [],
+      ndWinPercentageByYear: [],
+      teams: teamsData,
+      ndVsMich: ndVsMich,
+    };
+  }
+
+  async componentDidMount() {
     let winCount = 0;
     let lossCount = 0;
     let tieCount = 0;
 
-    let ndWinPercentageByGame = [];
-    let stanfordWinPercentageByGame = [];
-    let ndWinPercentageByYear = [];
+    const ndWinPercentageByGame: LineChartDatum[] = [];
+    const ndWinPercentageByYear: LineChartDatum[] = [];
 
-    Schedules.getSeasons().forEach(async (year) => {
-      const yearData = await Schedules.getForSeason(year);
+    const seasons = Schedules.getSeasons();
+    const allYearData = await Promise.all(seasons.map((year) => Schedules.getForSeason(year)));
+
+    allYearData.forEach((yearData, idx) => {
+      const year = seasons[idx];
 
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
-      let lastGameOfYearWinPercentage;
+      let lastGameOfYearWinPercentage = 0;
 
-      yearData.forEach(({result, opponentId, date}) => {
+      yearData.forEach(({result, opponentId, date}: GameInfo) => {
         // Exclude future games
         if (result) {
           let gameClassName;
-          if (result === 'W') {
+          if (result === GameResult.Win) {
             winCount++;
             yearWinCount++;
             gameClassName = 'win';
-          } else if (result === 'L') {
+          } else if (result === GameResult.Loss) {
             lossCount++;
             yearLossCount++;
             gameClassName = 'loss';
@@ -76,24 +211,6 @@ export class WinPercentage extends Component {
                 </p>
                 <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
                 <p>Win %: {winPercentage.toFixed(2)}</p>
-              </div>
-            ),
-          });
-
-          const stanfordWinPercentage = Math.random() * 50;
-
-          stanfordWinPercentageByGame.push({
-            x: dateObj,
-            y: stanfordWinPercentage,
-            radius: 2,
-            className: gameClassName,
-            tooltipChildren: (
-              <div>
-                <p>
-                  {result} {opponentId}
-                </p>
-                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
-                <p>Win %: {stanfordWinPercentage.toFixed(2)}</p>
               </div>
             ),
           });
@@ -131,114 +248,10 @@ export class WinPercentage extends Component {
       }
     });
 
-    //TODO figure out where the missing six wins are?
-    // console.log('W:', winCount);
-    // console.log('L:', lossCount);
-    // console.log('T:', tieCount);
-
-    const teamSchedules = {
-      MICH: michiganSchedule,
-      ND: notreDameSchedule,
-      OSU: ohioStateSchedule,
-      BSU: boiseStateSchedule,
-      ALA: alabamaSchedule,
-      // OK: oklahomaSchedule,
-      // TEXT: texasSchedule,
-      // USC: uscSchedule,
-      // NEB: nebraskaSchedule,
-      // OLD: oldDominionSchedule,
-    };
-
-    const teamsData = Object.entries(teamSchedules).map(([teamName, schedule]) => {
-      // const results = {W: 0, L: 0, T: 0};
-
-      // const gameData = _.map(_.flatten(schedule), ({date, result, oppponent}) => {
-      //   results[result]++;
-
-      //   const winPercentage = (results.W / (results.W + results.L)) * 100;
-
-      //   return {
-      //     x: new Date(date),
-      //     y: winPercentage,
-      //     tooltipChildren: (
-      //       <div>
-      //         <p>
-      //           {result} {oppponent}
-      //         </p>
-      //         <p>Date: {format(date, 'MM/dd/yyyy')}</p>
-      //         <p>Win %: {winPercentage.toFixed(2)}</p>
-      //       </div>
-      //     ),
-      //   };
-      // });
-
-      const yearData = [];
-      const yearResults = {W: 0, L: 0, T: 0};
-      Object.entries(schedule).forEach((season) => {
-        let currentYear;
-        season.forEach(({date, result}) => {
-          currentYear = currentYear || date.split('/')[2];
-
-          yearResults[result]++;
-        });
-
-        const seasonEndWinPercentage = (yearResults.W / (yearResults.W + yearResults.L)) * 100;
-
-        let record = `${yearResults.W}-${yearResults.L}`;
-        if (yearResults.T !== 0) {
-          record += `-${yearResults.T}`;
-        }
-
-        yearData.push({
-          x: new Date(currentYear),
-          y: seasonEndWinPercentage,
-          tooltipChildren: (
-            <div>
-              <p>
-                {teamName} {currentYear}
-              </p>
-              <p>Record: {record}</p>
-              <p>Win %: {seasonEndWinPercentage.toFixed(2)}</p>
-            </div>
-          ),
-        });
-      });
-
-      return {id: teamName, values: yearData};
-    });
-
-    const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
-      const results = {W: 0, L: 0, T: 0};
-      const data = schedule.flatMap(({date, result, oppponent}) => {
-        results[result]++;
-
-        const winPercentage = (results.W / (results.W + results.L)) * 100;
-
-        return {
-          x: new Date(date),
-          y: winPercentage,
-          radius: 2,
-          tooltipChildren: (
-            <div>
-              <p>
-                {result} {oppponent}
-              </p>
-              <p>Date: {format(date, 'MM/dd/yyyy')}</p>
-              <p>Win %: {winPercentage.toFixed(2)}</p>
-            </div>
-          ),
-        };
-      });
-
-      return {values: data};
-    });
-
-    this.state = {
+    this.setState({
       ndWinPercentageByGame: [{id: 'ND', values: ndWinPercentageByGame}],
       ndWinPercentageByYear: [{id: 'ND', values: ndWinPercentageByYear}],
-      teams: teamsData,
-      ndVsMich: ndVsMich,
-    };
+    });
   }
 
   render() {
