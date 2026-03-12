@@ -41,118 +41,6 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
   constructor(props: Record<string, never>) {
     super(props);
 
-    let winCount = 0;
-    let lossCount = 0;
-    let tieCount = 0;
-
-    const ndWinPercentageByGame: LineChartDatum[] = [];
-    const stanfordWinPercentageByGame: LineChartDatum[] = [];
-    const ndWinPercentageByYear: LineChartDatum[] = [];
-
-    Schedules.getSeasons().forEach(async (year: number) => {
-      const yearData = await Schedules.getForSeason(year);
-
-      let yearWinCount = 0;
-      let yearLossCount = 0;
-      let yearTieCount = 0;
-      let lastGameOfYearWinPercentage = 0;
-
-      yearData.forEach(({result, opponentId, date}: GameInfo) => {
-        // Exclude future games
-        if (result) {
-          let gameClassName;
-          if (result === GameResult.Win) {
-            winCount++;
-            yearWinCount++;
-            gameClassName = 'win';
-          } else if (result === GameResult.Loss) {
-            lossCount++;
-            yearLossCount++;
-            gameClassName = 'loss';
-          } else {
-            tieCount++;
-            yearTieCount++;
-            gameClassName = 'tie';
-          }
-
-          const winPercentage =
-            ((winCount + tieCount / 2) / (winCount + lossCount + tieCount)) * 100;
-          lastGameOfYearWinPercentage = winPercentage;
-
-          const dateObj = new Date(date);
-
-          ndWinPercentageByGame.push({
-            x: dateObj,
-            y: winPercentage,
-            radius: 2,
-            className: gameClassName,
-            tooltipChildren: (
-              <div>
-                <p>
-                  {result} {opponentId}
-                </p>
-                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
-                <p>Win %: {winPercentage.toFixed(2)}</p>
-              </div>
-            ),
-          });
-
-          const stanfordWinPercentage = Math.random() * 50;
-
-          stanfordWinPercentageByGame.push({
-            x: dateObj,
-            y: stanfordWinPercentage,
-            radius: 2,
-            className: gameClassName,
-            tooltipChildren: (
-              <div>
-                <p>
-                  {result} {opponentId}
-                </p>
-                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
-                <p>Win %: {stanfordWinPercentage.toFixed(2)}</p>
-              </div>
-            ),
-          });
-        }
-      });
-
-      if (yearWinCount + yearLossCount + yearTieCount !== 0) {
-        let yearClassName = '';
-        if (yearWinCount > yearLossCount) {
-          yearClassName += 'winning-record';
-        } else if (yearWinCount < yearLossCount) {
-          yearClassName += 'losing-record';
-        } else {
-          yearClassName += 'even-record';
-        }
-
-        let record = `${yearWinCount}-${yearLossCount}`;
-        if (yearTieCount !== 0) {
-          record += `-${yearTieCount}`;
-        }
-
-        ndWinPercentageByYear.push({
-          x: new Date(String(year)),
-          y: lastGameOfYearWinPercentage,
-          radius: 3,
-          className: yearClassName,
-          tooltipChildren: (
-            <div>
-              <p>{year}</p>
-              <p>Record: {record}</p>
-              <p>Win %: {lastGameOfYearWinPercentage.toFixed(2)}</p>
-            </div>
-          ),
-        });
-      }
-    });
-
-    //TODO figure out where the missing six wins are?
-    // console.log('W:', winCount);
-    // console.log('L:', lossCount);
-    // console.log('T:', tieCount);
-
     const teamSchedules: Record<string, WinPercentageSchedule> = {
       MICH: michiganSchedule,
       ND: notreDameSchedule,
@@ -261,11 +149,109 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     });
 
     this.state = {
-      ndWinPercentageByGame: [{id: 'ND', values: ndWinPercentageByGame}],
-      ndWinPercentageByYear: [{id: 'ND', values: ndWinPercentageByYear}],
+      ndWinPercentageByGame: [],
+      ndWinPercentageByYear: [],
       teams: teamsData,
       ndVsMich: ndVsMich,
     };
+  }
+
+  async componentDidMount() {
+    let winCount = 0;
+    let lossCount = 0;
+    let tieCount = 0;
+
+    const ndWinPercentageByGame: LineChartDatum[] = [];
+    const ndWinPercentageByYear: LineChartDatum[] = [];
+
+    const seasons = Schedules.getSeasons();
+    const allYearData = await Promise.all(seasons.map((year) => Schedules.getForSeason(year)));
+
+    allYearData.forEach((yearData, idx) => {
+      const year = seasons[idx];
+
+      let yearWinCount = 0;
+      let yearLossCount = 0;
+      let yearTieCount = 0;
+      let lastGameOfYearWinPercentage = 0;
+
+      yearData.forEach(({result, opponentId, date}: GameInfo) => {
+        // Exclude future games
+        if (result) {
+          let gameClassName;
+          if (result === GameResult.Win) {
+            winCount++;
+            yearWinCount++;
+            gameClassName = 'win';
+          } else if (result === GameResult.Loss) {
+            lossCount++;
+            yearLossCount++;
+            gameClassName = 'loss';
+          } else {
+            tieCount++;
+            yearTieCount++;
+            gameClassName = 'tie';
+          }
+
+          const winPercentage =
+            ((winCount + tieCount / 2) / (winCount + lossCount + tieCount)) * 100;
+          lastGameOfYearWinPercentage = winPercentage;
+
+          const dateObj = new Date(date);
+
+          ndWinPercentageByGame.push({
+            x: dateObj,
+            y: winPercentage,
+            radius: 2,
+            className: gameClassName,
+            tooltipChildren: (
+              <div>
+                <p>
+                  {result} {opponentId}
+                </p>
+                <p>Date: {format(dateObj, 'MM/dd/yyyy')}</p>
+                <p>Win %: {winPercentage.toFixed(2)}</p>
+              </div>
+            ),
+          });
+        }
+      });
+
+      if (yearWinCount + yearLossCount + yearTieCount !== 0) {
+        let yearClassName = '';
+        if (yearWinCount > yearLossCount) {
+          yearClassName += 'winning-record';
+        } else if (yearWinCount < yearLossCount) {
+          yearClassName += 'losing-record';
+        } else {
+          yearClassName += 'even-record';
+        }
+
+        let record = `${yearWinCount}-${yearLossCount}`;
+        if (yearTieCount !== 0) {
+          record += `-${yearTieCount}`;
+        }
+
+        ndWinPercentageByYear.push({
+          x: new Date(String(year)),
+          y: lastGameOfYearWinPercentage,
+          radius: 3,
+          className: yearClassName,
+          tooltipChildren: (
+            <div>
+              <p>{year}</p>
+              <p>Record: {record}</p>
+              <p>Win %: {lastGameOfYearWinPercentage.toFixed(2)}</p>
+            </div>
+          ),
+        });
+      }
+    });
+
+    this.setState({
+      ndWinPercentageByGame: [{id: 'ND', values: ndWinPercentageByGame}],
+      ndWinPercentageByYear: [{id: 'ND', values: ndWinPercentageByYear}],
+    });
   }
 
   render() {

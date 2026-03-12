@@ -46,22 +46,44 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
   constructor(props: Record<string, never>) {
     super(props);
 
+    this.state = {data: [], yearData: []};
+  }
+
+  setTooltip(tooltip: WinPercentageOldDatum | null) {
+    this.setState({tooltip});
+  }
+
+  setYearTooltip(yearTooltip: WinPercentageOldYearDatum | null) {
+    this.setState({yearTooltip});
+  }
+
+  getMinValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
+    return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
+  }
+
+  getMaxValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
+    return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
+  }
+
+  async componentDidMount() {
     let winCount = 0;
-    // let tieCount = 0;
     let lossCount = 0;
 
-    let winPercentageData: WinPercentageOldDatum[] = [];
-    const yearWinPercentageData: WinPercentageOldYearDatum[] = [];
+    let data: WinPercentageOldDatum[] = [];
+    const yearData: WinPercentageOldYearDatum[] = [];
 
-    Schedules.getSeasons().forEach(async (year: number) => {
-      const yearData = await Schedules.getForSeason(year);
+    const seasons = Schedules.getSeasons();
+    const allYearData = await Promise.all(seasons.map((year) => Schedules.getForSeason(year)));
+
+    allYearData.forEach((yearGames, idx) => {
+      const year = seasons[idx];
 
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage = 0;
 
-      const currentYearData: (WinPercentageOldDatum | undefined)[] = yearData.map(
+      const currentYearData: (WinPercentageOldDatum | undefined)[] = yearGames.map(
         ({score, opponentId, result, isHomeGame}: GameInfo) => {
           let scoreText;
 
@@ -100,7 +122,6 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
         }
       );
 
-      // Remove undefined values from array
       const filteredYearData = currentYearData.filter((d): d is WinPercentageOldDatum =>
         Boolean(d)
       );
@@ -115,14 +136,14 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       }
 
       if (filteredYearData.length !== 0) {
-        winPercentageData = winPercentageData.concat(filteredYearData);
+        data = data.concat(filteredYearData);
 
         let record = `${yearWinCount}-${yearLossCount}`;
         if (yearTieCount !== 0) {
           record += `-${yearTieCount}`;
         }
 
-        yearWinPercentageData.push({
+        yearData.push({
           year: Number(year),
           yearWinCount,
           yearTieCount,
@@ -142,26 +163,8 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       }
     });
 
-    this.state = {data: winPercentageData, yearData: yearWinPercentageData};
-  }
+    this.setState({data, yearData});
 
-  setTooltip(tooltip: WinPercentageOldDatum | null) {
-    this.setState({tooltip});
-  }
-
-  setYearTooltip(yearTooltip: WinPercentageOldYearDatum | null) {
-    this.setState({yearTooltip});
-  }
-
-  getMinValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
-    return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
-  }
-
-  getMaxValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
-    return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
-  }
-
-  componentDidMount() {
     const margin = {top: 50, right: 50, bottom: 50, left: 50};
 
     const chartWidth = 1000;
@@ -175,7 +178,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
 
     const chart = d3.select(this.chartRef).attr('width', chartWidth).attr('height', chartHeight);
 
-    const chartX = d3.scaleLinear().domain([0, this.state.data.length]).range([0, domainWidth]);
+    const chartX = d3.scaleLinear().domain([0, data.length]).range([0, domainWidth]);
 
     const chartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
 
@@ -189,7 +192,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       .attr('fill', '#F6F6F6');
 
     g.selectAll('circle')
-      .data(this.state.data)
+      .data(data)
       .enter()
       .append('circle')
       .attr('class', 'dot')
@@ -227,7 +230,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
           window.clearTimeout(this.unsetTooltipTimeout);
         }
 
-        const index = this.state.data.indexOf(d);
+        const index = data.indexOf(d);
         (d as WinPercentageOldDatum & {realX: number; realY: number}).realX =
           chartX(index) + margin.left;
         (d as WinPercentageOldDatum & {realX: number; realY: number}).realY =
@@ -265,7 +268,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     /**************/
     /* YEAR CHART */
     /**************/
-    if (this.state.yearData.length === 0) {
+    if (yearData.length === 0) {
       return;
     }
 
@@ -274,11 +277,11 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       .attr('width', chartWidth)
       .attr('height', chartHeight);
 
-    const startingYear = this.state.yearData[0].year;
+    const startingYear = yearData[0].year;
 
     const yearChartX = d3
       .scaleLinear()
-      .domain([startingYear, startingYear + this.state.yearData.length])
+      .domain([startingYear, startingYear + yearData.length])
       .range([0, domainWidth]);
 
     const yearChartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
@@ -295,7 +298,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
 
     yearG
       .selectAll('circle')
-      .data(this.state.yearData)
+      .data(yearData)
       .enter()
       .append('circle')
       .attr('class', 'dot')
@@ -357,7 +360,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       .append('g')
       .attr('class', 'x axis')
       .attr('transform', 'translate(0,' + yearChartY.range()[0] + ')')
-      .call(d3.axisBottom(yearChartX).ticks(this.state.yearData.length / 10));
+      .call(d3.axisBottom(yearChartX).ticks(yearData.length / 10));
 
     yearG
       .append('g')

@@ -37,10 +37,28 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
   constructor(props: Record<string, never>) {
     super(props);
 
-    let yardsDifferentialData: YardPointsDatum[] = [];
+    this.state = {tooltip: null, data: []};
+  }
 
-    Schedules.getSeasons().forEach(async (year: number) => {
-      const yearData = await Schedules.getForSeason(year);
+  setTooltip(tooltip: YardPointsState['tooltip']) {
+    this.setState({tooltip});
+  }
+
+  getMinValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
+    return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
+  }
+
+  getMaxValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
+    return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
+  }
+
+  async componentDidMount() {
+    const seasons = Schedules.getSeasons();
+    const allYearData = await Promise.all(seasons.map((year) => Schedules.getForSeason(year)));
+
+    let data: YardPointsDatum[] = [];
+    allYearData.forEach((yearData, idx) => {
+      const year = seasons[idx];
 
       const currentData: (YardPointsDatum | undefined)[] = yearData.map(
         ({stats, score, opponentId, result, isHomeGame}: GameInfo) => {
@@ -81,30 +99,18 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
         }
       );
 
-      // Remove undefined values from array
       const filteredData = currentData.filter((d): d is YardPointsDatum => Boolean(d));
-
       if (filteredData.length > 0) {
-        yardsDifferentialData = yardsDifferentialData.concat(filteredData);
+        data = data.concat(filteredData);
       }
     });
 
-    this.state = {tooltip: null, data: yardsDifferentialData};
-  }
+    this.setState({data});
 
-  setTooltip(tooltip: YardPointsState['tooltip']) {
-    this.setState({tooltip});
-  }
+    if (data.length === 0) {
+      return;
+    }
 
-  getMinValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
-    return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
-  }
-
-  getMaxValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
-    return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
-  }
-
-  componentDidMount() {
     const margins = {top: 50, right: 50, bottom: 50, left: 50};
 
     const scatterPlotWidth = 500;
@@ -121,11 +127,11 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
       .attr('width', scatterPlotWidth)
       .attr('height', scatterPlotHeight);
 
-    const minX = this.getMinValueForKey(this.state.data, 'x');
-    const maxX = this.getMaxValueForKey(this.state.data, 'x');
+    const minX = this.getMinValueForKey(data, 'x');
+    const maxX = this.getMaxValueForKey(data, 'x');
 
-    const minY = this.getMinValueForKey(this.state.data, 'y');
-    const maxY = this.getMaxValueForKey(this.state.data, 'y');
+    const minY = this.getMinValueForKey(data, 'y');
+    const maxY = this.getMaxValueForKey(data, 'y');
 
     const min = Math.min(minX, minY);
     const max = Math.max(maxX, maxY);
@@ -156,7 +162,7 @@ export class YardPoints extends Component<Record<string, never>, YardPointsState
       .attr('fill', '#F6F6F6');
 
     g.selectAll('circle')
-      .data(this.state.data)
+      .data(data)
       .enter()
       .append('circle')
       .attr('class', 'dot')
