@@ -95,7 +95,10 @@ const weekOfFirstLossSeasonAveragesAverages: number[] = [];
 weeks.forEach((week) => {
   weekOfFirstLossSeasonAveragesAverages.push(Number((_.sum(week) / _.size(week)).toFixed(2)));
 });
-void weekOfFirstLossSeasonAveragesAverages;
+
+logger.info('WEEK OF FIRST LOSS SEASON AVERAGES:', {
+  averages: weekOfFirstLossSeasonAveragesAverages,
+});
 
 /************************************/
 /* WEEK OF FIRST LOSS TEAM LEADERS  */

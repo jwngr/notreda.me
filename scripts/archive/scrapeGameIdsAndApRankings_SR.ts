@@ -81,9 +81,7 @@ Promise.all(promises)
       const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
       const yearData = JSON.parse(fs.readFileSync(filename, 'utf-8')) as YearGameData[];
       _.forEach(yearData, (gameData, j) => {
-        if (result.gameIds) {
-          gameData.sportsReferenceGameId = result.gameIds[j];
-        }
+        gameData.sportsReferenceGameId = result.gameIds[j];
 
         if (result.notreDameApRankings[j] || result.opponentApRankings[j]) {
           if (gameData.isHomeGame) {

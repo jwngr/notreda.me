@@ -11,7 +11,7 @@ import {Teams} from '../lib/teams';
 const logger = new Logger({isSentryEnabled: false});
 
 if (process.argv.length !== 3) {
-  logger.error('USAGE: node scrapeSchedule.js <output_file>');
+  logger.error('USAGE: npx tsx scrapeSchedule_UND.ts <output_file>');
   process.exit(1);
 }
 

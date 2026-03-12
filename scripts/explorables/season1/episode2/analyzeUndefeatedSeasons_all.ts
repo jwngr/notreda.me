@@ -18,7 +18,7 @@ let earliestSeason = 2000;
 const undefeatedNameMap = undefeatedTeamNamesMap as Record<string, string>;
 
 teamSchedules.forEach((teamName, teamScheduleData) => {
-  Object.entries(teamScheduleData as TeamScheduleData).forEach(([season, games]) => {
+  Object.entries(teamScheduleData).forEach(([season, games]) => {
     // if (season >= 1887) {
     const seasonNumber = Number(season);
     earliestSeason = Math.min(seasonNumber, earliestSeason);
