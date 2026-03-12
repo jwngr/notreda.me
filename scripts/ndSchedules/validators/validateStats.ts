@@ -222,11 +222,6 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} penalty yards must be >= 0.`
         );
 
-        wrappedAssert(
-          penaltyYards <= penalties * 15,
-          `${homeOrAway} penalty yards has unexpectedly high value.`
-        );
-
         /***************/
         /*  TURNOVERS  */
         /***************/

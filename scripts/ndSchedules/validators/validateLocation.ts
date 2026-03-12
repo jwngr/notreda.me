@@ -14,7 +14,7 @@ export function validateLocation(
 
   if (!location) {
     // Home games have no location.
-    wrappedAssert(isHomeGame, 'Home games should not have a location.');
+    wrappedAssert(isHomeGame, 'Away games should have a location.');
   } else if (location === 'TBD') {
     wrappedAssert(!isGameOver, 'Completed games should not have a TBD location.');
   } else {

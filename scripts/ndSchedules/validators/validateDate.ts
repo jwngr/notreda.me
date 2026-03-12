@@ -15,9 +15,10 @@ export function validateDate(
 
   // Current date is TBD.
   if (currentDate === 'TBD') {
-    if (currentGameData.season < CURRENT_SEASON && currentDate === 'TBD') {
-      wrappedAssert(false, 'Kickoff date missing for game in past season.');
-    }
+    wrappedAssert(
+      currentGameData.season > CURRENT_SEASON,
+      'Kickoff date missing for game in past season.'
+    );
     return;
   }
 

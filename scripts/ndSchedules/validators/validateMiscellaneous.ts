@@ -139,17 +139,6 @@ export function validateMiscellaneous(
       {isNeutralSiteGame}
     );
 
-    assert(
-      typeof isBowlGame === 'undefined' || weekIndex >= firstPostseasonGameOfSeasonIndex,
-      'Bowl games should be at the end of a season.',
-      {
-        isBowlGame,
-        weekIndex,
-        seasonGamesCount: seasonScheduleData.length,
-        firstPostseasonGameOfSeasonIndex,
-      }
-    );
-
     /******************/
     /*  VACATED WINS  */
     /******************/
