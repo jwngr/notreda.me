@@ -4,17 +4,15 @@ import {ALL_SEASONS, CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
 import {NDSchedules} from '../lib/ndSchedules';
 import {ExtendedGameInfo} from '../models';
-import {
-  validateCoverage,
-  validateDate,
-  validateLocation,
-  validateMiscellaneous,
-  validateRankings,
-  validateRecords,
-  validateScoreAndResult,
-  validateStats,
-  validateWeather,
-} from './validators';
+import {validateCoverage} from './validators/validateCoverage';
+import {validateDate} from './validators/validateDate';
+import {validateLocation} from './validators/validateLocation';
+import {validateMiscellaneous} from './validators/validateMiscellaneous';
+import {validateRankings} from './validators/validateRankings';
+import {validateRecords} from './validators/validateRecords';
+import {validateScoreAndResult} from './validators/validateScoreAndResult';
+import {validateStats} from './validators/validateStats';
+import {validateWeather} from './validators/validateWeather';
 
 // Enable Sentry logging.
 const logger = new Logger({isSentryEnabled: true});
