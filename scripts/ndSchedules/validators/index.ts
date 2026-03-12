@@ -10,8 +10,7 @@ export {validateWeather} from './validateWeather.js';
 export {validateCoverage} from './validateCoverage.js';
 // @ts-expect-error TODO: Remove this once this file is migrated to TypeScript.
 export {validateLocation} from './validateLocation.js';
-// @ts-expect-error TODO: Remove this once this file is migrated to TypeScript.
-export {validateRankings} from './validateRankings.js';
+export {validateRankings} from './validateRankings';
 // @ts-expect-error TODO: Remove this once this file is migrated to TypeScript.
 export {validateMiscellaneous} from './validateMiscellaneous.js';
 // @ts-expect-error TODO: Remove this once this file is migrated to TypeScript.

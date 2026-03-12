@@ -1,12 +1,11 @@
-import _ from 'lodash';
-
-import {getForSeason} from '../../../../website/src/resources/schedules';
+import {TeamRankings} from '../../../../website/src/models/teams.models';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
+import {NDSchedules} from '../../../lib/ndSchedules';
 
 const logger = new Logger({isSentryEnabled: false});
 
-let pollRankings = {
+const pollRankings: Record<keyof TeamRankings, number[]> = {
   ap: Array(25).fill(0),
   bcs: Array(25).fill(0),
   coaches: Array(25).fill(0),
@@ -15,17 +14,25 @@ let pollRankings = {
 
 async function main() {
   for (const season of ALL_SEASONS) {
-    const seasonScheduleData = await getForSeason(season);
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
     seasonScheduleData
       .filter(({result}) => typeof result !== 'undefined')
       .forEach((gameData) => {
         const ndPollRankings = gameData.isHomeGame
-          ? _.get(gameData, 'rankings.home')
-          : _.get(gameData, 'rankings.away');
+          ? gameData.rankings?.home
+          : gameData.rankings?.away;
 
-        _.forEach(ndPollRankings, (ranking, poll) => {
-          pollRankings[poll][ranking - 1]++;
-        });
+        if (!ndPollRankings) {
+          return;
+        }
+
+        for (const [poll, ranking] of Object.entries(ndPollRankings)) {
+          if (typeof ranking !== 'number') {
+            continue;
+          }
+
+          pollRankings[poll as keyof TeamRankings][ranking - 1]++;
+        }
       });
   }
 
