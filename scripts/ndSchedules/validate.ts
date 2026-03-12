@@ -74,15 +74,15 @@ async function main() {
         ).length,
       };
 
-      validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
+      validateDate([_currentGameData, previousGameData], assert);
       validateStats(_currentGameData, assert, ignoredAssert);
       validateRecords(_currentGameData, assert, ignoredAssert);
       validateWeather(_currentGameData, assert, ignoredAssert);
-      validateCoverage(_currentGameData, assert, ignoredAssert);
-      validateLocation(_currentGameData, assert, ignoredAssert);
-      validateRankings(_currentGameData, assert, ignoredAssert);
-      validateMiscellaneous([_currentGameData, seasonScheduleData], assert, ignoredAssert);
-      validateScoreAndResult(_currentGameData, assert, ignoredAssert);
+      validateCoverage(_currentGameData, assert);
+      validateLocation(_currentGameData, assert);
+      validateRankings(_currentGameData, assert);
+      validateMiscellaneous([_currentGameData, seasonScheduleData], assert);
+      validateScoreAndResult(_currentGameData, assert);
 
       previousGameData = _currentGameData;
     });

@@ -106,10 +106,22 @@ export function validateMiscellaneous(
       {isBowlGame}
     );
 
+    const doesSeasonHavePostseasonGame = seasonScheduleData.some(
+      (game) => game.isBowlGame === true
+    );
+    const firstPostseasonGameOfSeasonIndex = doesSeasonHavePostseasonGame
+      ? seasonScheduleData.findIndex((game) => game.isBowlGame === true)
+      : -1;
+
     assert(
-      typeof isBowlGame === 'undefined' || weekIndex === seasonScheduleData.length - 1,
+      typeof isBowlGame === 'undefined' || weekIndex >= firstPostseasonGameOfSeasonIndex,
       'Bowl games should be at the end of a season.',
-      {isBowlGame, weekIndex, seasonGamesCount: seasonScheduleData.lengt}
+      {
+        isBowlGame,
+        weekIndex,
+        seasonGamesCount: seasonScheduleData.length,
+        firstPostseasonGameOfSeasonIndex,
+      }
     );
 
     /************************/
@@ -123,9 +135,14 @@ export function validateMiscellaneous(
     );
 
     assert(
-      typeof isBowlGame === 'undefined' || weekIndex === seasonScheduleData.length - 1,
+      typeof isBowlGame === 'undefined' || weekIndex >= firstPostseasonGameOfSeasonIndex,
       'Bowl games should be at the end of a season.',
-      {isBowlGame, weekIndex, seasonGamesCount: seasonScheduleData.lengt}
+      {
+        isBowlGame,
+        weekIndex,
+        seasonGamesCount: seasonScheduleData.length,
+        firstPostseasonGameOfSeasonIndex,
+      }
     );
 
     /******************/

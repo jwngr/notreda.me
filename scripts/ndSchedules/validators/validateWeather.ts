@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 import {isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
+import type {AssertFn, IgnoredAssertFn} from './types';
 
 const EXPECTED_WEATHER_ICONS = [
   'clear-day',
@@ -14,13 +16,20 @@ const EXPECTED_WEATHER_ICONS = [
   'unknown',
 ];
 
-export function validateWeather({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAssert) {
-  const wrappedAssert = (statement, message) => {
-    assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
-  };
+const OPENWEATHER_ICON_MAP: Record<string, string> = {
+  '02d': 'partly-cloudy-day',
+  '02n': 'partly-cloudy-night',
+  '04d': 'cloudy',
+  '04n': 'cloudy',
+};
 
-  const wrappedIgnoredAssert = (statement, message) => {
-    ignoredAssert(statement, message, {weather});
+export function validateWeather(
+  {weather, isGameOver, isNextUnplayedGame}: ExtendedGameInfo,
+  assert: AssertFn,
+  ignoredAssert: IgnoredAssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
+    assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
   };
 
   if (isGameOver || isNextUnplayedGame) {
@@ -29,19 +38,20 @@ export function validateWeather({weather, isGameOver, isNextUnplayedGame}, asser
     const completedGameOrNextUnplayedGame = isGameOver ? 'Completed game' : 'Next unplayed game';
 
     // TODO: Fully enable this assert when all completed games have weather.
-    wrappedIgnoredAssert(
+    ignoredAssert(
       typeof weather !== 'undefined',
-      `${completedGameOrNextUnplayedGame} has no weather object.`
+      `${completedGameOrNextUnplayedGame} has no weather object.`,
+      {weather}
     );
 
     if (typeof weather !== 'undefined') {
       wrappedAssert(
-        _.isEqual(_.keys(weather).sort(), ['icon', 'temperature'].sort()),
+        _.isEqual(Object.keys(weather).sort(), ['icon', 'temperature'].sort()),
         'Weather object has unexpected keys.'
       );
 
       wrappedAssert(
-        EXPECTED_WEATHER_ICONS.includes(weather.icon),
+        EXPECTED_WEATHER_ICONS.includes(OPENWEATHER_ICON_MAP[weather.icon] ?? weather.icon),
         'Weather icon has unexpected value.'
       );
 
