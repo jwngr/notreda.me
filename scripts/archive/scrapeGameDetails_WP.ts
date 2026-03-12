@@ -14,7 +14,22 @@ const __dirname = path.dirname(__filename);
 
 const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
-const fetchGameDetailsForYear = (year) => {
+interface ScheduleGameLocation {
+  city?: string;
+  state?: string;
+  country?: string;
+  stadium?: string;
+}
+
+interface ScheduleGame {
+  time?: string;
+  coverage?: string;
+  result?: string;
+  isHomeGame?: boolean;
+  location: ScheduleGameLocation;
+}
+
+const fetchGameDetailsForYear = (year: number) => {
   logger.info(`Fetching year ${year}.`);
 
   return Scraper.get(
@@ -30,10 +45,9 @@ const fetchGameDetailsForYear = (year) => {
       const $scheduleTableRows = $scheduleTable.find('tr');
 
       const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
-      const gamesData = require(filename);
+      const gamesData = JSON.parse(fs.readFileSync(filename, 'utf-8')) as ScheduleGame[];
 
-      const headerNames = [];
+      const headerNames: string[] = [];
       $scheduleTableRows.each((i, row) => {
         if (i === 0) {
           $(row)
@@ -42,7 +56,7 @@ const fetchGameDetailsForYear = (year) => {
               headerNames.push($(elem).text().trim());
             });
         } else if (i <= gamesData.length) {
-          const rowCellValues = [];
+          const rowCellValues: string[] = [];
           $(row)
             .children('td')
             .each((j, elem) => {
@@ -100,7 +114,7 @@ const fetchGameDetailsForYear = (year) => {
             }
 
             // RESULT
-            let resultIndex = headerNames.indexOf('Result');
+            const resultIndex = headerNames.indexOf('Result');
             if (resultIndex !== -1) {
               const result = rowCellValues[resultIndex][0];
               if (gamesData[i - 1].result !== result) {
@@ -112,9 +126,9 @@ const fetchGameDetailsForYear = (year) => {
             if (siteIndex !== -1) {
               // STADIUM
               const [stadium, location] = rowCellValues[siteIndex].split(' • ');
-              let city;
-              let state;
-              let stateAndParens;
+              let city = '';
+              let state: string | undefined;
+              let stateAndParens: string | undefined;
               if (location.includes(',')) {
                 [city, stateAndParens] = location.split(', ');
                 state = stateAndParens.split(' (')[0];
@@ -159,8 +173,9 @@ const fetchGameDetailsForYear = (year) => {
       logger.info(`Success ${year}!`);
     })
     .catch((error) => {
-      let errorMessage = error.message;
-      if (error.statusCode === 404) {
+      const typedError = error as {message?: string; statusCode?: number};
+      let errorMessage = typedError.message ?? String(error);
+      if (typedError.statusCode === 404) {
         errorMessage = '404 page not found.';
       }
       logger.error(`Failed to fetch schedule for ${year}:`, {errorMessage});

@@ -7,39 +7,53 @@ import teamSchedules from '../../../lib/teamSchedules';
 
 const logger = new Logger({isSentryEnabled: false});
 
-const seasonCountsPerTeam = {};
-const teamCountsPerSeason = {};
-const weekOfFirstLossPerTeam = {};
-const weekOfFirstLossPerSeason = {};
-const undefeatedTeamsPerSeason = {};
-const numTeamsWithLosslessRecordPerSeason = {};
+type Season = number;
+
+type WeekLossCounts = number[];
+
+type SeasonLossCounts = Record<Season, WeekLossCounts>;
+type TeamLossCounts = Record<string, WeekLossCounts>;
+type WeekLosslessCounts = Record<Season, number[]>;
+
+const seasonCountsPerTeam: Record<string, number> = {};
+const teamCountsPerSeason: Record<Season, number> = {};
+const weekOfFirstLossPerTeam: TeamLossCounts = {};
+const weekOfFirstLossPerSeason: SeasonLossCounts = {};
+const undefeatedTeamsPerSeason: Record<Season, number> = {};
+const numTeamsWithLosslessRecordPerSeason: WeekLosslessCounts = {};
 
 logger.info('Analyzing first loss of season for all teams...');
 
-teamSchedules.forEach((teamName, teamScheduleData) => {
-  teamScheduleData.forEach((games, season) => {
-    season = Number(season);
+interface TeamScheduleGame {
+  result?: string;
+}
 
-    if (season < 2018) {
+teamSchedules.forEach((teamName, teamScheduleData) => {
+  _.forEach(teamScheduleData as Record<string, TeamScheduleGame[]>, (games, season) => {
+    const seasonNumber = Number(season);
+
+    if (seasonNumber < 2018) {
       range(0, games.length).forEach((i) => {
-        update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => x || 0);
+        update(numTeamsWithLosslessRecordPerSeason, [seasonNumber, i], (x) => x || 0);
       });
 
-      teamCountsPerSeason[season] = (teamCountsPerSeason[season] || 0) + 1;
+      teamCountsPerSeason[seasonNumber] = (teamCountsPerSeason[seasonNumber] || 0) + 1;
       seasonCountsPerTeam[teamName] = (seasonCountsPerTeam[teamName] || 0) + 1;
 
-      const firstLossWeekIndex = games.findIndex((game) => game.result === 'L');
+      const firstLossWeekIndex = (games as TeamScheduleGame[]).findIndex(
+        (game) => game.result === 'L'
+      );
 
       if (firstLossWeekIndex === -1) {
-        undefeatedTeamsPerSeason[season] = (undefeatedTeamsPerSeason[season] || 0) + 1;
+        undefeatedTeamsPerSeason[seasonNumber] = (undefeatedTeamsPerSeason[seasonNumber] || 0) + 1;
         range(0, games.length).forEach((i) => {
-          update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => (x || 0) + 1);
+          update(numTeamsWithLosslessRecordPerSeason, [seasonNumber, i], (x) => (x || 0) + 1);
         });
       } else {
         update(weekOfFirstLossPerTeam, [teamName, firstLossWeekIndex], (x) => (x || 0) + 1);
-        update(weekOfFirstLossPerSeason, [season, firstLossWeekIndex], (x) => (x || 0) + 1);
+        update(weekOfFirstLossPerSeason, [seasonNumber, firstLossWeekIndex], (x) => (x || 0) + 1);
         range(0, firstLossWeekIndex).forEach((i) => {
-          update(numTeamsWithLosslessRecordPerSeason, [season, i], (x) => (x || 0) + 1);
+          update(numTeamsWithLosslessRecordPerSeason, [seasonNumber, i], (x) => (x || 0) + 1);
         });
       }
     }
@@ -49,19 +63,23 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
 /***************************************/
 /* WEEK OF FIRST LOSS SEASON AVERAGES  */
 /***************************************/
-const weekOfFirstLossSeasonAverages = {};
+const weekOfFirstLossSeasonAverages: Record<
+  string,
+  {teamCount: number; undefeatedTeamCount: number; firstWeekLossPercentages: number[]}
+> = {};
 Object.entries(weekOfFirstLossPerSeason).forEach(([season, weekLossCounts]) => {
-  const teamCount = teamCountsPerSeason[season];
+  const seasonNumber = Number(season);
+  const teamCount = teamCountsPerSeason[seasonNumber] || 0;
 
   let lossCount = 0;
 
   weekOfFirstLossSeasonAverages[season] = {
     teamCount,
-    undefeatedTeamCount: undefeatedTeamsPerSeason[season] || 0,
+    undefeatedTeamCount: undefeatedTeamsPerSeason[seasonNumber] || 0,
     firstWeekLossPercentages: [],
   };
 
-  weekLossCounts.forEach((currentWeekLossCount) => {
+  weekLossCounts.forEach((currentWeekLossCount = 0) => {
     lossCount += currentWeekLossCount || 0;
     weekOfFirstLossSeasonAverages[season].firstWeekLossPercentages.push(
       Number(((lossCount * 100) / teamCount).toFixed(2))
@@ -69,9 +87,9 @@ Object.entries(weekOfFirstLossPerSeason).forEach(([season, weekLossCounts]) => {
   });
 });
 
-const weeks = [];
+const weeks: number[][] = [];
 Object.entries(weekOfFirstLossSeasonAverages).forEach(([season, seasonData]) => {
-  if (season >= 1990) {
+  if (Number(season) >= 1990) {
     seasonData.firstWeekLossPercentages.forEach((val, i) => {
       weeks[i] = weeks[i] || [];
       weeks[i].push(val);
@@ -79,22 +97,24 @@ Object.entries(weekOfFirstLossSeasonAverages).forEach(([season, seasonData]) => 
   }
 });
 
-weekOfFirstLossSeasonAverages.averages = [];
+const weekOfFirstLossSeasonAveragesAverages: number[] = [];
 weeks.forEach((week) => {
-  weekOfFirstLossSeasonAverages.averages.push(Number((_.sum(week) / _.size(week)).toFixed(2)));
+  weekOfFirstLossSeasonAveragesAverages.push(Number((_.sum(week) / _.size(week)).toFixed(2)));
 });
+void weekOfFirstLossSeasonAveragesAverages;
 
 /************************************/
 /* WEEK OF FIRST LOSS TEAM LEADERS  */
 /************************************/
-const runningTeamCounts = {};
+const runningTeamCounts: Record<string, number> = {};
 range(0, 15)
   .reverse()
   .forEach((weekIndex) => {
-    const currentWeekTeams = [];
+    const currentWeekTeams: {teamName: string; lossCount: number; lossCountPercentage: number}[] =
+      [];
     Object.entries(weekOfFirstLossPerTeam).forEach(([teamName, weekLossCounts]) => {
       runningTeamCounts[teamName] = runningTeamCounts[teamName] || 0;
-      runningTeamCounts[teamName] += weekLossCounts[weekIndex];
+      runningTeamCounts[teamName] += weekLossCounts?.[weekIndex] || 0;
       currentWeekTeams.push({
         teamName,
         lossCount: runningTeamCounts[teamName],
@@ -132,7 +152,7 @@ logger.info(
     ([season, numTeamswithLosslessRecordPerWeek]) => {
       return {
         losslessRecordsAttained: numTeamswithLosslessRecordPerWeek,
-        numTeams: teamCountsPerSeason[season],
+        numTeams: teamCountsPerSeason[Number(season)],
       };
     }
   )
