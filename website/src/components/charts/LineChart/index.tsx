@@ -2,7 +2,6 @@ import * as d3 from 'd3';
 import debounce from 'lodash/debounce';
 import forEach from 'lodash/forEach';
 import isEqual from 'lodash/isEqual';
-import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
 import {Tooltip} from '../Tooltip';
@@ -19,28 +18,90 @@ const DEFAULT_MARGINS = {top: 40, right: 20, bottom: 60, left: 80};
 const DEFAULT_MARGINS_SMALL = {top: 20, right: 10, bottom: 50, left: 60};
 const LINE_CHART_BORDER_WIDTH = 6;
 
-export class LineChart extends Component {
-  state = {tooltip: null};
+interface LineChartMargins {
+  readonly top: number;
+  readonly right: number;
+  readonly bottom: number;
+  readonly left: number;
+  readonly sm?: Partial<LineChartMargins>;
+}
 
-  constructor(props) {
+export interface LineChartDatum {
+  x: number | Date;
+  y: number;
+  radius?: number;
+  className?: string;
+  tooltipChildren?: React.ReactNode;
+  seriesIndex?: number;
+  seriesId?: string | number;
+}
+
+export interface LineChartSeries {
+  readonly id?: string | number;
+  readonly className?: string;
+  readonly values: readonly LineChartDatum[];
+}
+
+interface LineChartTooltip {
+  readonly x: number;
+  readonly y: number;
+  readonly children?: React.ReactNode;
+}
+
+interface LineChartProps {
+  readonly children?: React.ReactNode;
+  readonly seriesData: readonly LineChartSeries[];
+  readonly xAxisLabel?: string;
+  readonly yAxisLabel?: string;
+  readonly xAxisTicksCount?: number;
+  readonly yAxisTicksCount?: number;
+  readonly formatXAxisTickLabels?: (value: number | Date) => string | number;
+  readonly formatYAxisTickLabels?: (value: number) => string | number;
+  readonly showArea?: boolean;
+  readonly showLine?: boolean;
+  readonly showLineLabels?: boolean;
+  readonly showDataPoints?: boolean;
+  readonly margins?: Partial<LineChartMargins>;
+  readonly domainX?: [number | Date, number | Date];
+  readonly domainY?: [number, number];
+  readonly rangeX?: [number, number];
+  readonly rangeY?: [number, number];
+}
+
+interface LineChartState {
+  readonly tooltip: LineChartTooltip | null;
+}
+
+export class LineChart extends Component<LineChartProps, LineChartState> {
+  state: LineChartState = {tooltip: null};
+
+  private lineChart: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
+  private lineChartRef: SVGSVGElement | null = null;
+  private scaleX: d3.ScaleLinear<number | Date, number> | null = null;
+  private scaleY: d3.ScaleLinear<number, number> | null = null;
+  private width = 0;
+  private mouse: {readonly x: number; readonly y: number} | null = null;
+  private unsetTooltipTimeout: number | null = null;
+  private readonly debouncedRedrawChartData: () => void;
+  private readonly debouncedResizeLineChart: () => void;
+
+  constructor(props: LineChartProps) {
     super(props);
-
-    this.lineChart = null;
 
     this.debouncedRedrawChartData = debounce(this.redrawChartData.bind(this), 150);
     this.debouncedResizeLineChart = debounce(this.resizeLineChart.bind(this), 350);
   }
 
-  setTooltip(tooltip) {
+  setTooltip(tooltip: LineChartTooltip | null) {
     this.setState({tooltip});
   }
 
-  handleMouseMove = (event) => {
+  handleMouseMove = (event: MouseEvent) => {
     this.mouse = {x: event.pageX, y: event.pageY};
   };
 
   getMargins = () => {
-    let margins = {...DEFAULT_MARGINS, ...this.props.margins};
+    let margins: LineChartMargins = {...DEFAULT_MARGINS, ...this.props.margins};
     if (this.width < 600) {
       margins = {...DEFAULT_MARGINS_SMALL, ...margins.sm};
     }
@@ -49,16 +110,20 @@ export class LineChart extends Component {
   };
 
   drawChartAxes = () => {
-    let {
-      xAxisLabel,
-      yAxisLabel,
+    const {
+      xAxisLabel = '',
+      yAxisLabel = '',
       formatXAxisTickLabels = (x) => x,
       formatYAxisTickLabels = (x) => x,
       xAxisTicksCount = DEFAULT_TICKS_COUNT_X,
       yAxisTicksCount = DEFAULT_TICKS_COUNT_Y,
     } = this.props;
 
-    let margins = this.getMargins();
+    const margins = this.getMargins();
+
+    if (!this.lineChart || !this.scaleX || !this.scaleY) {
+      return;
+    }
 
     // // X-axis
     // this.lineChart
@@ -121,12 +186,16 @@ export class LineChart extends Component {
   };
 
   redrawChartData = () => {
+    if (!this.lineChart) {
+      return;
+    }
+
     this.lineChart.selectAll('.line-chart-data').remove();
     this.drawChartData();
   };
 
   drawChartData = () => {
-    let {
+    const {
       seriesData,
       showLine = true,
       showArea = true,
@@ -136,8 +205,12 @@ export class LineChart extends Component {
 
     const margins = this.getMargins();
 
+    if (!this.lineChart || !this.scaleX || !this.scaleY) {
+      return;
+    }
+
     // Scales
-    const dataPoints = [];
+    const dataPoints: LineChartDatum[] = [];
     seriesData.forEach((s, i) => {
       forEach(s.values, (d) => {
         d.seriesIndex = i;
@@ -153,22 +226,22 @@ export class LineChart extends Component {
 
     // Add the area under the line.
     if (showArea) {
-      var area = d3
-        .area()
+      const area = d3
+        .area<LineChartDatum>()
         .curve(d3.curveMonotoneX)
-        .x((d) => this.scaleX(d.x))
+        .x((d) => this.scaleX?.(d.x) ?? 0)
         .y0(this.scaleY(0))
-        .y1((d) => this.scaleY(d.y));
+        .y1((d) => this.scaleY?.(d.y) ?? 0);
 
       gData.append('path').data([dataPoints]).attr('class', 'line-area').attr('d', area);
     }
 
     // Chart lines
-    var line = d3
-      .line()
+    const line = d3
+      .line<LineChartDatum>()
       .curve(d3.curveMonotoneX)
-      .x((d) => this.scaleX(d.x))
-      .y((d) => this.scaleY(d.y));
+      .x((d) => this.scaleX?.(d.x) ?? 0)
+      .y((d) => this.scaleY?.(d.y) ?? 0);
 
     if (showLine) {
       const showLineIds = showLineLabels && seriesData.length !== 1;
@@ -204,7 +277,7 @@ export class LineChart extends Component {
           return {id: d.id || i, value: d.values[d.values.length - 1]};
         })
         .attr('transform', (d) => {
-          return 'translate(' + this.scaleX(d.value.x) + ',' + this.scaleY(d.value.y) + ')';
+          return `translate(${this.scaleX?.(d.value.x) ?? 0}, ${this.scaleY?.(d.value.y) ?? 0})`;
         })
         .attr('x', 3)
         .attr('dy', '0.35em')
@@ -220,8 +293,8 @@ export class LineChart extends Component {
         .enter()
         .append('circle')
         .attr('r', (d) => d.radius || DEFAULT_DATUM_CIRCLE_SIZE)
-        .attr('cx', (d, i) => this.scaleX(d.x || i))
-        .attr('cy', (d) => this.scaleY(d.y))
+        .attr('cx', (d, i) => this.scaleX?.(d.x || i) ?? 0)
+        .attr('cy', (d) => this.scaleY?.(d.y) ?? 0)
         .attr('class', (d) => {
           const classNames = ['dot'];
           if (typeof d.className === 'string') {
@@ -236,7 +309,7 @@ export class LineChart extends Component {
 
           return classNames.join(' ');
         })
-        .on('mouseover', (_, d) => {
+        .on('mouseover', (_event, d) => {
           clearTimeout(this.unsetTooltipTimeout);
 
           if (this.mouse) {
@@ -246,22 +319,27 @@ export class LineChart extends Component {
           }
         })
         .on('mouseout', () => {
-          this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
+          this.unsetTooltipTimeout = window.setTimeout(() => this.setTooltip(null), 200);
         });
     }
   };
 
   componentDidMount() {
-    let {seriesData, domainX, rangeX, domainY, rangeY} = this.props;
+    const {seriesData, rangeX, rangeY} = this.props;
+    let {domainX, domainY} = this.props;
 
     document.addEventListener('mousemove', this.handleMouseMove);
 
     this.width = this.getLineChartWidth();
 
-    let margins = this.getMargins();
+    const margins = this.getMargins();
+
+    if (!this.lineChartRef) {
+      return;
+    }
 
     // Scales
-    const dataPoints = [];
+    const dataPoints: LineChartDatum[] = [];
     seriesData.forEach((s, i) => {
       forEach(s.values, (d) => {
         d.seriesIndex = i;
@@ -271,11 +349,13 @@ export class LineChart extends Component {
     });
 
     if (!domainX) {
-      domainX = d3.extent(dataPoints, (d) => d.x);
+      const extentX = d3.extent(dataPoints, (d) => d.x);
+      domainX = extentX[0] != null && extentX[1] != null ? extentX : [0, 0];
     }
 
     if (!domainY) {
-      domainY = d3.extent(dataPoints, (d) => d.y);
+      const extentY = d3.extent(dataPoints, (d) => d.y);
+      domainY = extentY[0] != null && extentY[1] != null ? extentY : [0, 0];
     }
 
     this.scaleX = d3
@@ -301,7 +381,7 @@ export class LineChart extends Component {
     window.addEventListener('resize', this.debouncedResizeLineChart);
   }
 
-  componentDidUpdate(prevProps) {
+  componentDidUpdate(prevProps: LineChartProps) {
     if (!isEqual(this.props.seriesData, prevProps.seriesData)) {
       this.debouncedRedrawChartData();
     }
@@ -310,20 +390,25 @@ export class LineChart extends Component {
   componentWillUnmount() {
     window.removeEventListener('resize', this.debouncedResizeLineChart);
     document.removeEventListener('mousemove', this.handleMouseMove);
+    if (this.unsetTooltipTimeout) {
+      window.clearTimeout(this.unsetTooltipTimeout);
+    }
   }
 
   getLineChartWidth() {
     // Return width of wrapper element, minus border.
-    return (
-      document.querySelector('.line-chart-wrapper').getBoundingClientRect().width -
-      LINE_CHART_BORDER_WIDTH
-    );
+    const wrapper = document.querySelector('.line-chart-wrapper');
+    if (!wrapper) {
+      return 0;
+    }
+
+    return wrapper.getBoundingClientRect().width - LINE_CHART_BORDER_WIDTH;
   }
 
   resizeLineChart() {
     // TODO: Redraw chart when width changes.
     this.width = this.getLineChartWidth();
-    this.lineChart.attr('width', this.width);
+    this.lineChart?.attr('width', this.width);
   }
 
   render() {
@@ -349,15 +434,3 @@ export class LineChart extends Component {
     );
   }
 }
-
-LineChart.propTypes = {
-  showArea: PropTypes.bool,
-  showLineLabels: PropTypes.bool,
-  seriesData: PropTypes.array.isRequired,
-  xAxisLabel: PropTypes.string.isRequired,
-  yAxisLabel: PropTypes.string.isRequired,
-  xAxisTicksCount: PropTypes.number,
-  yAxisTicksCount: PropTypes.number,
-  formatXAxisTickLabels: PropTypes.func,
-  formatYAxisTickLabels: PropTypes.func,
-};

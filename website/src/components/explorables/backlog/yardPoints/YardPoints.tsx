@@ -10,11 +10,34 @@ import {Paragraph} from './Paragraph';
 
 import './YardPoints.css';
 
-export class YardPoints extends Component {
-  constructor(props) {
+interface YardPointsDatum {
+  readonly year: number;
+  readonly result: string;
+  readonly scoreText: string;
+  readonly opponentId: string;
+  readonly turnoverDifferential: number;
+  readonly x: number;
+  readonly y: number;
+  readonly tooltipChildren: string;
+}
+
+interface YardPointsState {
+  readonly tooltip: {
+    readonly x: number;
+    readonly y: number;
+    readonly children: React.ReactNode;
+  } | null;
+  readonly data: YardPointsDatum[];
+}
+
+export class YardPoints extends Component<Record<string, never>, YardPointsState> {
+  private scatterPlotRef: SVGSVGElement | null = null;
+  private unsetTooltipTimeout: number | null = null;
+
+  constructor(props: Record<string, never>) {
     super(props);
 
-    let yardsDifferentialData = [];
+    let yardsDifferentialData: YardPointsDatum[] = [];
 
     Schedules.getSeasons().forEach(async (year) => {
       const yearData = await Schedules.getForSeason(year);
@@ -52,10 +75,12 @@ export class YardPoints extends Component {
             tooltipChildren: `${scoreText}, ${year} ${opponentId}`,
           };
         }
+
+        return undefined;
       });
 
       // Remove undefined values from array
-      currentData = currentData.filter((d) => !!d);
+      currentData = currentData.filter((d): d is YardPointsDatum => Boolean(d));
 
       if (currentData.length > 0) {
         yardsDifferentialData = yardsDifferentialData.concat(currentData);
@@ -65,25 +90,29 @@ export class YardPoints extends Component {
     this.state = {tooltip: null, data: yardsDifferentialData};
   }
 
-  setTooltip(tooltip) {
+  setTooltip(tooltip: YardPointsState['tooltip']) {
     this.setState({tooltip});
   }
 
-  getMinValueForKey(data, key) {
+  getMinValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
     return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
   }
 
-  getMaxValueForKey(data, key) {
+  getMaxValueForKey(data: readonly YardPointsDatum[], key: 'x' | 'y') {
     return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
   }
 
   componentDidMount() {
-    var margins = {top: 50, right: 50, bottom: 50, left: 50};
+    const margins = {top: 50, right: 50, bottom: 50, left: 50};
 
     const scatterPlotWidth = 500;
     const scatterPlotHeight = 500;
-    var domainWidth = scatterPlotWidth - margins.left - margins.right;
-    var domainHeight = scatterPlotHeight - margins.top - margins.bottom;
+    const domainWidth = scatterPlotWidth - margins.left - margins.right;
+    const domainHeight = scatterPlotHeight - margins.top - margins.bottom;
+
+    if (!this.scatterPlotRef) {
+      return;
+    }
 
     const scatterPlot = d3
       .select(this.scatterPlotRef)
@@ -101,17 +130,17 @@ export class YardPoints extends Component {
 
     const range = Math.max(-min, max);
 
-    var scaleX = d3
+    const scaleX = d3
       .scaleLinear()
       .domain([-range - 50, range + 50])
       .range([0, domainWidth]);
 
-    var scaleY = d3
+    const scaleY = d3
       .scaleLinear()
       .domain([-range - 50, range + 50])
       .range([domainHeight, 0]);
 
-    var g = scatterPlot
+    const g = scatterPlot
       .append('g')
       .attr('transform', 'translate(' + margins.top + ',' + margins.top + ')');
 
@@ -133,13 +162,13 @@ export class YardPoints extends Component {
         // return Math.abs(d.turnoverDifferential) + 1;
         return 3;
       })
-      .attr('cx', (d) => {
+      .attr('cx', (d: YardPointsDatum) => {
         return scaleX(d.x);
       })
-      .attr('cy', (d) => {
+      .attr('cy', (d: YardPointsDatum) => {
         return scaleY(d.y);
       })
-      .style('stroke', (d) => {
+      .style('stroke', (d: YardPointsDatum) => {
         if (d.result === 'W') {
           return 'green';
         } else if (d.result === 'L') {
@@ -148,7 +177,7 @@ export class YardPoints extends Component {
           return 'yellow';
         }
       })
-      .style('fill', (d) => {
+      .style('fill', (d: YardPointsDatum) => {
         // if (d.turnoverDifferential >= 0) {
         if (d.result === 'W') {
           return 'green';
@@ -161,12 +190,15 @@ export class YardPoints extends Component {
         //   return 'transparent';
         // }
       })
-      .on('mouseover', (_, d) => {
+      .on('mouseover', (_event, d: YardPointsDatum) => {
         // const tooltipHtml = `<p>${d.scoreText}, ${d.year} ${d.opponentId}</p>`;
 
         clearTimeout(this.unsetTooltipTimeout);
 
         const domNode = findDOMNode(this.scatterPlotRef);
+        if (!(domNode instanceof Element)) {
+          return;
+        }
         const boundingRect = domNode.getBoundingClientRect();
 
         this.setTooltip({
@@ -189,7 +221,7 @@ export class YardPoints extends Component {
         //   .transition()
         //   .duration(500)
         //   .style('opacity', 0);
-        this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
+        this.unsetTooltipTimeout = window.setTimeout(() => this.setTooltip(null), 200);
       });
 
     g.append('g')

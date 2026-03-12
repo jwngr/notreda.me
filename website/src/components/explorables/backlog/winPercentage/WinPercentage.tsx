@@ -11,26 +11,43 @@ import ohioStateSchedule from '../../resources/explorables/winPercentage/ohioSta
 // import oldDominionSchedule from '../../resources/explorables/winPercentage/oldDominion.json';
 // import texasSchedule from '../../resources/explorables/winPercentage/texas.json';
 // import uscSchedule from '../../resources/explorables/winPercentage/usc.json';
-import {LineChart} from '../charts/LineChart';
+import {LineChart, LineChartSeries} from '../charts/LineChart';
 import {Note} from './Note';
 import {Paragraph} from './Paragraph';
 
 import './WinPercentage.css';
 
 import {Schedules} from '../../lib/schedules';
+import {GameResult} from '../../models/games.models';
 import {StyledExternalLink} from './index.styles';
 
-export class WinPercentage extends Component {
-  constructor(props) {
+interface WinPercentageState {
+  readonly ndWinPercentageByGame: readonly LineChartSeries[];
+  readonly ndWinPercentageByYear: readonly LineChartSeries[];
+  readonly teams: readonly LineChartSeries[];
+  readonly ndVsMich: readonly LineChartSeries[];
+}
+
+interface WinPercentageScheduleEntry {
+  readonly date: string;
+  readonly result: GameResult;
+  readonly opponent?: string;
+  readonly oppponent?: string;
+}
+
+type WinPercentageSchedule = readonly (readonly WinPercentageScheduleEntry[])[];
+
+export class WinPercentage extends Component<Record<string, never>, WinPercentageState> {
+  constructor(props: Record<string, never>) {
     super(props);
 
     let winCount = 0;
     let lossCount = 0;
     let tieCount = 0;
 
-    let ndWinPercentageByGame = [];
-    let stanfordWinPercentageByGame = [];
-    let ndWinPercentageByYear = [];
+    const ndWinPercentageByGame: LineChartSeries['values'] = [];
+    const stanfordWinPercentageByGame: LineChartSeries['values'] = [];
+    const ndWinPercentageByYear: LineChartSeries['values'] = [];
 
     Schedules.getSeasons().forEach(async (year) => {
       const yearData = await Schedules.getForSeason(year);
@@ -38,17 +55,17 @@ export class WinPercentage extends Component {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
-      let lastGameOfYearWinPercentage;
+      let lastGameOfYearWinPercentage = 0;
 
       yearData.forEach(({result, opponentId, date}) => {
         // Exclude future games
         if (result) {
           let gameClassName;
-          if (result === 'W') {
+          if (result === GameResult.Win) {
             winCount++;
             yearWinCount++;
             gameClassName = 'win';
-          } else if (result === 'L') {
+          } else if (result === GameResult.Loss) {
             lossCount++;
             yearLossCount++;
             gameClassName = 'loss';
@@ -136,7 +153,7 @@ export class WinPercentage extends Component {
     // console.log('L:', lossCount);
     // console.log('T:', tieCount);
 
-    const teamSchedules = {
+    const teamSchedules: Record<string, WinPercentageSchedule> = {
       MICH: michiganSchedule,
       ND: notreDameSchedule,
       OSU: ohioStateSchedule,
@@ -172,10 +189,14 @@ export class WinPercentage extends Component {
       //   };
       // });
 
-      const yearData = [];
-      const yearResults = {W: 0, L: 0, T: 0};
-      Object.entries(schedule).forEach((season) => {
-        let currentYear;
+      const yearData: LineChartSeries['values'] = [];
+      const yearResults: Record<GameResult, number> = {
+        [GameResult.Win]: 0,
+        [GameResult.Loss]: 0,
+        [GameResult.Tie]: 0,
+      };
+      schedule.forEach((season) => {
+        let currentYear: string | undefined;
         season.forEach(({date, result}) => {
           currentYear = currentYear || date.split('/')[2];
 
@@ -190,7 +211,7 @@ export class WinPercentage extends Component {
         }
 
         yearData.push({
-          x: new Date(currentYear),
+          x: new Date(currentYear ?? ''),
           y: seasonEndWinPercentage,
           tooltipChildren: (
             <div>
@@ -208,27 +229,33 @@ export class WinPercentage extends Component {
     });
 
     const ndVsMich = [notreDameSchedule, michiganSchedule].map((schedule) => {
-      const results = {W: 0, L: 0, T: 0};
-      const data = schedule.flatMap(({date, result, oppponent}) => {
-        results[result]++;
+      const results: Record<GameResult, number> = {
+        [GameResult.Win]: 0,
+        [GameResult.Loss]: 0,
+        [GameResult.Tie]: 0,
+      };
+      const data = schedule.flatMap((season) =>
+        season.map(({date, result, oppponent, opponent}) => {
+          results[result]++;
 
-        const winPercentage = (results.W / (results.W + results.L)) * 100;
+          const winPercentage = (results.W / (results.W + results.L)) * 100;
 
-        return {
-          x: new Date(date),
-          y: winPercentage,
-          radius: 2,
-          tooltipChildren: (
-            <div>
-              <p>
-                {result} {oppponent}
-              </p>
-              <p>Date: {format(date, 'MM/dd/yyyy')}</p>
-              <p>Win %: {winPercentage.toFixed(2)}</p>
-            </div>
-          ),
-        };
-      });
+          return {
+            x: new Date(date),
+            y: winPercentage,
+            radius: 2,
+            tooltipChildren: (
+              <div>
+                <p>
+                  {result} {oppponent ?? opponent ?? ''}
+                </p>
+                <p>Date: {format(new Date(date), 'MM/dd/yyyy')}</p>
+                <p>Win %: {winPercentage.toFixed(2)}</p>
+              </div>
+            ),
+          };
+        })
+      );
 
       return {values: data};
     });

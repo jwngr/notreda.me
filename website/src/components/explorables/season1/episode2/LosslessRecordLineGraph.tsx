@@ -1,6 +1,5 @@
 import React from 'react';
 
-// @ts-expect-error TODO: Remove this after porting `LineChart` to TypeScript.
 import {LineChart} from '../../../charts/LineChart';
 import {FirstLossSeriesData} from './models';
 

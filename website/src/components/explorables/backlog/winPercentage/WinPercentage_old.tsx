@@ -1,23 +1,56 @@
 import * as d3 from 'd3';
 import React, {Component} from 'react';
 
-import {LineChart} from '../charts/LineChart';
+import {LineChart, LineChartSeries} from '../charts/LineChart';
 // import {Tooltip} from '../charts/Tooltip';
 
 import './WinPercentage.css';
 
 import {Schedules} from '../../lib/schedules';
 
-export class WinPercentage extends Component {
-  constructor(props) {
+interface WinPercentageOldDatum {
+  year: number;
+  result: string;
+  scoreText: string;
+  opponentId: string;
+  isHomeGame: boolean;
+  y: number;
+}
+
+interface WinPercentageOldYearDatum {
+  year: number;
+  yearWinCount: number;
+  yearTieCount: number;
+  yearLossCount: number;
+  record: string;
+  className: string;
+  radius: number;
+  y: number;
+  tooltipChildren: React.ReactNode;
+}
+
+interface WinPercentageOldState {
+  readonly data: WinPercentageOldDatum[];
+  readonly yearData: WinPercentageOldYearDatum[];
+  readonly tooltip?: WinPercentageOldDatum | null;
+  readonly yearTooltip?: WinPercentageOldYearDatum | null;
+}
+
+export class WinPercentage extends Component<Record<string, never>, WinPercentageOldState> {
+  private chartRef: SVGSVGElement | null = null;
+  private yearChartRef: SVGSVGElement | null = null;
+  private unsetTooltipTimeout: number | null = null;
+  private unsetYearTooltipTimeout: number | null = null;
+
+  constructor(props: Record<string, never>) {
     super(props);
 
     let winCount = 0;
     // let tieCount = 0;
     let lossCount = 0;
 
-    let winPercentageData = [];
-    let yearWinPercentageData = [];
+    const winPercentageData: WinPercentageOldDatum[] = [];
+    const yearWinPercentageData: WinPercentageOldYearDatum[] = [];
 
     Schedules.getSeasons().forEach(async (year) => {
       const yearData = await Schedules.getForSeason(year);
@@ -25,7 +58,7 @@ export class WinPercentage extends Component {
       let yearWinCount = 0;
       let yearLossCount = 0;
       let yearTieCount = 0;
-      let lastGameOfYearWinPercentage;
+      let lastGameOfYearWinPercentage = 0;
 
       let currentYearData = yearData.map(({score, opponentId, result, isHomeGame}) => {
         let scoreText;
@@ -57,7 +90,7 @@ export class WinPercentage extends Component {
       });
 
       // Remove undefined values from array
-      currentYearData = currentYearData.filter((d) => !!d);
+      currentYearData = currentYearData.filter((d): d is WinPercentageOldDatum => Boolean(d));
 
       let yearClassName = '';
       if (yearWinCount > yearLossCount) {
@@ -99,37 +132,43 @@ export class WinPercentage extends Component {
     this.state = {data: winPercentageData, yearData: yearWinPercentageData};
   }
 
-  setTooltip(tooltip) {
+  setTooltip(tooltip: WinPercentageOldDatum | null) {
     this.setState({tooltip});
   }
 
-  setYearTooltip(yearTooltip) {
+  setYearTooltip(yearTooltip: WinPercentageOldYearDatum | null) {
     this.setState({yearTooltip});
   }
 
-  getMinValueForKey(data, key) {
+  getMinValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
     return data.reduce((min, p) => (p[key] < min ? p[key] : min), data[0][key]);
   }
 
-  getMaxValueForKey(data, key) {
+  getMaxValueForKey(data: readonly WinPercentageOldDatum[], key: 'y') {
     return data.reduce((max, p) => (p[key] > max ? p[key] : max), data[0][key]);
   }
 
   componentDidMount() {
-    var margin = {top: 50, right: 50, bottom: 50, left: 50};
+    const margin = {top: 50, right: 50, bottom: 50, left: 50};
 
     const chartWidth = 1000;
     const chartHeight = 400;
-    var domainWidth = chartWidth - margin.left - margin.right;
-    var domainHeight = chartHeight - margin.top - margin.bottom;
+    const domainWidth = chartWidth - margin.left - margin.right;
+    const domainHeight = chartHeight - margin.top - margin.bottom;
+
+    if (!this.chartRef || !this.yearChartRef) {
+      return;
+    }
 
     const chart = d3.select(this.chartRef).attr('width', chartWidth).attr('height', chartHeight);
 
-    var chartX = d3.scaleLinear().domain([0, this.state.data.length]).range([0, domainWidth]);
+    const chartX = d3.scaleLinear().domain([0, this.state.data.length]).range([0, domainWidth]);
 
-    var chartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
+    const chartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
 
-    var g = chart.append('g').attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
+    const g = chart
+      .append('g')
+      .attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
 
     g.append('rect')
       .attr('width', chartWidth - margin.left - margin.right)
@@ -142,13 +181,13 @@ export class WinPercentage extends Component {
       .append('circle')
       .attr('class', 'dot')
       .attr('r', 2)
-      .attr('cx', (d, i) => {
+      .attr('cx', (_d, i) => {
         return chartX(i);
       })
-      .attr('cy', (d) => {
+      .attr('cy', (d: WinPercentageOldDatum) => {
         return chartY(d.y);
       })
-      .style('stroke', (d) => {
+      .style('stroke', (d: WinPercentageOldDatum) => {
         if (d.result === 'W') {
           return 'green';
         } else if (d.result === 'L') {
@@ -157,7 +196,7 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .style('fill', (d) => {
+      .style('fill', (d: WinPercentageOldDatum) => {
         if (d.result === 'W') {
           return 'green';
         } else if (d.result === 'L') {
@@ -166,13 +205,15 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .on('mouseover', (_, d, i) => {
+      .on('mouseover', (_event, d: WinPercentageOldDatum, i: number) => {
         // const tooltipHtml = `<p>${d.year} ${d.opponentId} <br /> ${d.scoreText} <br /> ${d.y}</p>`;
 
         clearTimeout(this.unsetTooltipTimeout);
 
-        d.realX = chartX(i) + margin.left;
-        d.realY = chartY(d.y) + margin.top;
+        (d as WinPercentageOldDatum & {realX: number; realY: number}).realX =
+          chartX(i) + margin.left;
+        (d as WinPercentageOldDatum & {realX: number; realY: number}).realY =
+          chartY(d.y) + margin.top;
 
         this.setTooltip(d);
 
@@ -190,7 +231,7 @@ export class WinPercentage extends Component {
         //   .transition()
         //   .duration(500)
         //   .style('opacity', 0);
-        this.unsetTooltipTimeout = setTimeout(() => this.setTooltip(null), 200);
+        this.unsetTooltipTimeout = window.setTimeout(() => this.setTooltip(null), 200);
       });
 
     g.append('g')
@@ -213,14 +254,14 @@ export class WinPercentage extends Component {
 
     const startingYear = this.state.yearData[0].year;
 
-    var yearChartX = d3
+    const yearChartX = d3
       .scaleLinear()
       .domain([startingYear, startingYear + this.state.yearData.length])
       .range([0, domainWidth]);
 
-    var yearChartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
+    const yearChartY = d3.scaleLinear().domain([0, 100]).range([domainHeight, 0]);
 
-    var yearG = yearChart
+    const yearG = yearChart
       .append('g')
       .attr('transform', 'translate(' + margin.top + ',' + margin.top + ')');
 
@@ -237,13 +278,13 @@ export class WinPercentage extends Component {
       .append('circle')
       .attr('class', 'dot')
       .attr('r', 3)
-      .attr('cx', (d) => {
+      .attr('cx', (d: WinPercentageOldYearDatum) => {
         return yearChartX(d.year);
       })
-      .attr('cy', (d) => {
+      .attr('cy', (d: WinPercentageOldYearDatum) => {
         return yearChartY(d.y);
       })
-      .style('stroke', (d) => {
+      .style('stroke', (d: WinPercentageOldYearDatum) => {
         if (d.yearWinCount > d.yearLossCount) {
           return 'green';
         } else if (d.yearWinCount < d.yearLossCount) {
@@ -252,7 +293,7 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .style('fill', (d) => {
+      .style('fill', (d: WinPercentageOldYearDatum) => {
         if (d.yearWinCount > d.yearLossCount) {
           return 'green';
         } else if (d.yearWinCount < d.yearLossCount) {
@@ -261,11 +302,13 @@ export class WinPercentage extends Component {
           return 'yellow';
         }
       })
-      .on('mouseover', (_, d) => {
+      .on('mouseover', (_event, d: WinPercentageOldYearDatum) => {
         clearTimeout(this.unsetYearTooltipTimeout);
 
-        d.realX = yearChartX(d.year) + margin.left;
-        d.realY = yearChartY(d.y) + margin.top;
+        (d as WinPercentageOldYearDatum & {realX: number; realY: number}).realX =
+          yearChartX(d.year) + margin.left;
+        (d as WinPercentageOldYearDatum & {realX: number; realY: number}).realY =
+          yearChartY(d.y) + margin.top;
 
         this.setYearTooltip(d);
 
@@ -283,7 +326,7 @@ export class WinPercentage extends Component {
         //   .transition()
         //   .duration(500)
         //   .style('opacity', 0);
-        this.unsetYearTooltipTimeout = setTimeout(() => this.setYearTooltip(null), 200);
+        this.unsetYearTooltipTimeout = window.setTimeout(() => this.setYearTooltip(null), 200);
       });
 
     yearG
@@ -300,6 +343,19 @@ export class WinPercentage extends Component {
   }
 
   render() {
+    const yearSeries: LineChartSeries[] = [
+      {
+        id: 'ND',
+        values: this.state.yearData.map((datum) => ({
+          x: datum.year,
+          y: datum.y,
+          radius: datum.radius,
+          className: datum.className,
+          tooltipChildren: datum.tooltipChildren,
+        })),
+      },
+    ];
+
     // const {tooltip, yearTooltip} = this.state;
 
     // let tooltipContent;
@@ -318,8 +374,20 @@ export class WinPercentage extends Component {
 
     return (
       <div>
-        <LineChart data={this.state.yearData} />
-        <LineChart data={this.state.yearData} domainY={[60, 90]} />
+        <LineChart
+          seriesData={yearSeries}
+          xAxisLabel="Year"
+          yAxisLabel="Win Percentage"
+          domainY={[0, 100]}
+          showLine={false}
+        />
+        <LineChart
+          seriesData={yearSeries}
+          xAxisLabel="Year"
+          yAxisLabel="Win Percentage"
+          domainY={[60, 90]}
+          showLine={false}
+        />
 
         {/*
         <div>
