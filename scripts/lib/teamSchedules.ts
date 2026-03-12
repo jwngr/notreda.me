@@ -9,7 +9,15 @@ const TEAM_SCHEDULES_DATA_DIRECTORY = path.resolve(__dirname, '../../data/teamSc
 
 const teamFilenames = fs.readdirSync(TEAM_SCHEDULES_DATA_DIRECTORY);
 
-type TeamScheduleData = Record<string, unknown>;
+export interface TeamScheduleGame {
+  readonly date?: string;
+  readonly result?: string;
+  readonly opponent?: string;
+  readonly isHomeGame?: boolean;
+  readonly score?: {home: number; away: number};
+}
+
+export type TeamScheduleData = Record<string, TeamScheduleGame[]>;
 type TeamScheduleCallback = (teamName: string, teamScheduleData: TeamScheduleData) => void;
 
 const loadTeamScheduleData = (teamFilename: string): TeamScheduleData => {
@@ -17,12 +25,12 @@ const loadTeamScheduleData = (teamFilename: string): TeamScheduleData => {
   return JSON.parse(rawData) as TeamScheduleData;
 };
 
-const getForSeason = (teamName: string, season: number | string): unknown => {
+const getForSeason = (teamName: string, season: number | string): TeamScheduleGame[] => {
   const teamScheduleData = loadTeamScheduleData(`${teamName}.json`);
   return teamScheduleData[String(season)];
 };
 
-const get = (teamName: string, season?: number | string): unknown => {
+const get = (teamName: string, season?: number | string): TeamScheduleData | TeamScheduleGame[] => {
   const teamScheduleData = loadTeamScheduleData(`${teamName}.json`);
   return season ? teamScheduleData[String(season)] : teamScheduleData;
 };

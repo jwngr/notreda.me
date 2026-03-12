@@ -1,7 +1,7 @@
 import range from 'lodash/range';
 
 import {Logger} from '../../../lib/logger';
-import teamSchedules from '../../../lib/teamSchedules';
+import teamSchedules, {TeamScheduleData} from '../../../lib/teamSchedules';
 import undefeatedTeamNamesMap from './undefeatedTeamNamesMap.json';
 
 const logger = new Logger({isSentryEnabled: false});
@@ -18,27 +18,25 @@ let earliestSeason = 2000;
 const undefeatedNameMap = undefeatedTeamNamesMap as Record<string, string>;
 
 teamSchedules.forEach((teamName, teamScheduleData) => {
-  Object.entries(teamScheduleData as Record<string, {result?: string}[]>).forEach(
-    ([season, games]) => {
-      // if (season >= 1887) {
-      const seasonNumber = Number(season);
-      earliestSeason = Math.min(seasonNumber, earliestSeason);
+  Object.entries(teamScheduleData as TeamScheduleData).forEach(([season, games]) => {
+    // if (season >= 1887) {
+    const seasonNumber = Number(season);
+    earliestSeason = Math.min(seasonNumber, earliestSeason);
 
-      undefeatedTeamsPerSeason[seasonNumber] = undefeatedTeamsPerSeason[seasonNumber] || [];
+    undefeatedTeamsPerSeason[seasonNumber] = undefeatedTeamsPerSeason[seasonNumber] || [];
 
-      const firstLossWeek = games.findIndex((game) => game.result === 'L');
+    const firstLossWeek = games.findIndex((game) => game.result === 'L');
 
-      if (firstLossWeek === -1) {
-        totalUndefeatedTeamsCount++;
-        const displayName = undefeatedNameMap[teamName] ?? teamName;
-        undefeatedTeamsPerSeason[seasonNumber].push(displayName);
-        undefeatedTeamCountsPerSeason[seasonNumber] =
-          (undefeatedTeamCountsPerSeason[seasonNumber] || 0) + 1;
-        undefeatedSeasonsPerTeam[displayName] = (undefeatedSeasonsPerTeam[displayName] || 0) + 1;
-      }
-      // }
+    if (firstLossWeek === -1) {
+      totalUndefeatedTeamsCount++;
+      const displayName = undefeatedNameMap[teamName] ?? teamName;
+      undefeatedTeamsPerSeason[seasonNumber].push(displayName);
+      undefeatedTeamCountsPerSeason[seasonNumber] =
+        (undefeatedTeamCountsPerSeason[seasonNumber] || 0) + 1;
+      undefeatedSeasonsPerTeam[displayName] = (undefeatedSeasonsPerTeam[displayName] || 0) + 1;
     }
-  );
+    // }
+  });
 });
 
 logger.info('TOTAL NUMBER OF UNDEFEATED TEAMS:', {totalUndefeatedTeamsCount});

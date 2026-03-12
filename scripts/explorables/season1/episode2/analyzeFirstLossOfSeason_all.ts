@@ -24,12 +24,8 @@ const numTeamsWithLosslessRecordPerSeason: WeekLosslessCounts = {};
 
 logger.info('Analyzing first loss of season for all teams...');
 
-interface TeamScheduleGame {
-  result?: string;
-}
-
 teamSchedules.forEach((teamName, teamScheduleData) => {
-  _.forEach(teamScheduleData as Record<string, TeamScheduleGame[]>, (games, season) => {
+  _.forEach(teamScheduleData, (games, season) => {
     const seasonNumber = Number(season);
 
     if (seasonNumber < 2018) {
@@ -40,9 +36,7 @@ teamSchedules.forEach((teamName, teamScheduleData) => {
       teamCountsPerSeason[seasonNumber] = (teamCountsPerSeason[seasonNumber] || 0) + 1;
       seasonCountsPerTeam[teamName] = (seasonCountsPerTeam[teamName] || 0) + 1;
 
-      const firstLossWeekIndex = (games as TeamScheduleGame[]).findIndex(
-        (game) => game.result === 'L'
-      );
+      const firstLossWeekIndex = games.findIndex((game) => game.result === 'L');
 
       if (firstLossWeekIndex === -1) {
         undefeatedTeamsPerSeason[seasonNumber] = (undefeatedTeamsPerSeason[seasonNumber] || 0) + 1;
