@@ -17,7 +17,7 @@ export interface TeamScheduleGame {
   readonly score?: {home: number; away: number};
 }
 
-export type TeamScheduleData = Record<string, TeamScheduleGame[]>;
+type TeamScheduleData = Record<string, TeamScheduleGame[]>;
 type TeamScheduleCallback = (teamName: string, teamScheduleData: TeamScheduleData) => void;
 
 const loadTeamScheduleData = (teamFilename: string): TeamScheduleData => {

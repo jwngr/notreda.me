@@ -1,7 +1,7 @@
 import range from 'lodash/range';
 
 import {Logger} from '../../../lib/logger';
-import teamSchedules, {TeamScheduleData} from '../../../lib/teamSchedules';
+import teamSchedules from '../../../lib/teamSchedules';
 import undefeatedTeamNamesMap from './undefeatedTeamNamesMap.json';
 
 const logger = new Logger({isSentryEnabled: false});
