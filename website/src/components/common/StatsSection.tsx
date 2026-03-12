@@ -35,12 +35,10 @@ const StatsChildrenWrapper = styled.div`
 
 export const StatsSection: React.FC<{
   readonly title: string;
-  // TODO: Replace with `Spacer` component.
-  readonly style?: React.CSSProperties;
   readonly children: React.ReactNode;
-}> = ({title, style, children}) => {
+}> = ({title, children}) => {
   return (
-    <StatsSectionWrapper style={style}>
+    <StatsSectionWrapper>
       <StatsSectionTitle>
         <p>{title}</p>
       </StatsSectionTitle>

@@ -11,6 +11,7 @@ import {
 import {useWindowSize} from '../../lib/useWindowSize';
 import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
+import {Spacer} from '../common/Spacer';
 import {StatsSection} from '../common/StatsSection';
 import {HistoricalMatchup} from './HistoricalMatchup';
 
@@ -139,85 +140,89 @@ export const MatchupHistory: React.FC<{readonly game: GameInfo; readonly season:
   const shownMatchupsCount = matchupInfo.matchupsToShow.length;
 
   return (
-    <StatsSection title="Matchup History" style={{marginTop: '32px'}}>
-      <MatchupHistoryWrapper>
-        <Records>
-          <div>
-            <p>Meetings</p>
-            <p>
-              {recordAgainstTeam.overall.W +
-                recordAgainstTeam.overall.L +
-                recordAgainstTeam.overall.T}
-            </p>
-          </div>
-          <div>
-            <p>{isMobile ? 'Overall' : 'Overall Record'}</p>
-            <p>
-              {recordAgainstTeam.overall.W}-{recordAgainstTeam.overall.L}-
-              {recordAgainstTeam.overall.T}
-            </p>
-          </div>
-          <div>
-            <p>
-              {isMobile
-                ? capitalize(selectedGameHomeOrAway)
-                : `${capitalize(selectedGameHomeOrAway)} Record`}
-            </p>
-            <p>
-              {recordAgainstTeam[selectedGameHomeOrAway].W}-
-              {recordAgainstTeam[selectedGameHomeOrAway].L}-
-              {recordAgainstTeam[selectedGameHomeOrAway].T}
-            </p>
-          </div>
-        </Records>
-        <RecentMatchups $matchupsCount={shownMatchupsCount}>
-          {matchupInfo.matchupsToShow.map((historicalGame, i) => {
-            if (!historicalGame) return null;
+    <>
+      <Spacer size={32} axis="vertical" />
+      <StatsSection title="Matchup History">
+        <MatchupHistoryWrapper>
+          <Records>
+            <div>
+              <p>Meetings</p>
+              <p>
+                {recordAgainstTeam.overall.W +
+                  recordAgainstTeam.overall.L +
+                  recordAgainstTeam.overall.T}
+              </p>
+            </div>
+            <div>
+              <p>{isMobile ? 'Overall' : 'Overall Record'}</p>
+              <p>
+                {recordAgainstTeam.overall.W}-{recordAgainstTeam.overall.L}-
+                {recordAgainstTeam.overall.T}
+              </p>
+            </div>
+            <div>
+              <p>
+                {isMobile
+                  ? capitalize(selectedGameHomeOrAway)
+                  : `${capitalize(selectedGameHomeOrAway)} Record`}
+              </p>
+              <p>
+                {recordAgainstTeam[selectedGameHomeOrAway].W}-
+                {recordAgainstTeam[selectedGameHomeOrAway].L}-
+                {recordAgainstTeam[selectedGameHomeOrAway].T}
+              </p>
+            </div>
+          </Records>
+          <RecentMatchups $matchupsCount={shownMatchupsCount}>
+            {matchupInfo.matchupsToShow.map((historicalGame, i) => {
+              if (!historicalGame) return null;
 
-            const specialPositions = {first: i === 0, last: i === shownMatchupsCount - 1};
+              const specialPositions = {first: i === 0, last: i === shownMatchupsCount - 1};
 
-            const isFirst = i === 0;
-            const isLast = i === shownMatchupsCount - 1;
-            const previousHistoricalGame = matchupInfo?.matchupsToShow?.[i - 1];
-            const nextHistoricalGame = matchupInfo?.matchupsToShow?.[i + 1];
+              const isFirst = i === 0;
+              const isLast = i === shownMatchupsCount - 1;
+              const previousHistoricalGame = matchupInfo?.matchupsToShow?.[i - 1];
+              const nextHistoricalGame = matchupInfo?.matchupsToShow?.[i + 1];
 
-            return (
-              <HistoricalMatchup
-                key={`historical-matchup-${historicalGame.season}-${historicalGame.weekIndex}`}
-                score={historicalGame.score ?? null}
-                result={historicalGame.result ?? null}
-                season={historicalGame.season}
-                weekIndex={historicalGame.weekIndex}
-                isHomeGame={historicalGame.isHomeGame}
-                isSelected={
-                  // TODO: Introduce `Games.equals`
-                  game.opponentId === historicalGame.opponentId && game.date === historicalGame.date
-                }
-                isSeasonOnTop={i % 2 === 0}
-                // Show gap indicators on either side if the previous / next displayed season is
-                // not actually the next / previous season due to list truncation.
-                // TODO: Properly handle seasons with multiple games against the same team (e.g.
-                // Clemson 2020).
-                gaps={{
-                  left: Boolean(
-                    !isFirst &&
-                    previousHistoricalGame &&
-                    allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
-                      allSeasonsWithMatchupsAgainstTeam.indexOf(previousHistoricalGame.season) + 1
-                  ),
-                  right: Boolean(
-                    !isLast &&
-                    nextHistoricalGame &&
-                    allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
-                      allSeasonsWithMatchupsAgainstTeam.indexOf(nextHistoricalGame.season) - 1
-                  ),
-                }}
-                specialPositions={specialPositions}
-              />
-            );
-          })}
-        </RecentMatchups>
-      </MatchupHistoryWrapper>
-    </StatsSection>
+              return (
+                <HistoricalMatchup
+                  key={`historical-matchup-${historicalGame.season}-${historicalGame.weekIndex}`}
+                  score={historicalGame.score ?? null}
+                  result={historicalGame.result ?? null}
+                  season={historicalGame.season}
+                  weekIndex={historicalGame.weekIndex}
+                  isHomeGame={historicalGame.isHomeGame}
+                  isSelected={
+                    // TODO: Introduce `Games.equals`
+                    game.opponentId === historicalGame.opponentId &&
+                    game.date === historicalGame.date
+                  }
+                  isSeasonOnTop={i % 2 === 0}
+                  // Show gap indicators on either side if the previous / next displayed season is
+                  // not actually the next / previous season due to list truncation.
+                  // TODO: Properly handle seasons with multiple games against the same team (e.g.
+                  // Clemson 2020).
+                  gaps={{
+                    left: Boolean(
+                      !isFirst &&
+                      previousHistoricalGame &&
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                        allSeasonsWithMatchupsAgainstTeam.indexOf(previousHistoricalGame.season) + 1
+                    ),
+                    right: Boolean(
+                      !isLast &&
+                      nextHistoricalGame &&
+                      allSeasonsWithMatchupsAgainstTeam.indexOf(historicalGame.season) !==
+                        allSeasonsWithMatchupsAgainstTeam.indexOf(nextHistoricalGame.season) - 1
+                    ),
+                  }}
+                  specialPositions={specialPositions}
+                />
+              );
+            })}
+          </RecentMatchups>
+        </MatchupHistoryWrapper>
+      </StatsSection>
+    </>
   );
 };
