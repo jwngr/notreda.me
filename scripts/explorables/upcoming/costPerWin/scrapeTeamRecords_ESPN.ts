@@ -98,5 +98,5 @@ scrapTeamRecords()
     logger.success('Team records for current season fetched!');
   })
   .catch((error) => {
-    logger.success('Failed to fetch team records for current season!', {error});
+    logger.error('Failed to fetch team records for current season!', {error});
   });
