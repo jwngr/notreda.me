@@ -16,6 +16,13 @@ const EXPECTED_WEATHER_ICONS = [
   'unknown',
 ];
 
+const OPENWEATHER_ICON_MAP: Record<string, string> = {
+  '02d': 'partly-cloudy-day',
+  '02n': 'partly-cloudy-night',
+  '04d': 'cloudy',
+  '04n': 'cloudy',
+};
+
 export function validateWeather(
   {weather, isGameOver, isNextUnplayedGame}: ExtendedGameInfo,
   assert: AssertFn,
@@ -44,7 +51,7 @@ export function validateWeather(
       );
 
       wrappedAssert(
-        EXPECTED_WEATHER_ICONS.includes(weather.icon),
+        EXPECTED_WEATHER_ICONS.includes(OPENWEATHER_ICON_MAP[weather.icon] ?? weather.icon),
         'Weather icon has unexpected value.'
       );
 
