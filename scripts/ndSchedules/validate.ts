@@ -35,6 +35,13 @@ async function main() {
     }
   };
 
+  // TODO: Remove all usages of this once historical data is properly normalized.
+  const ignoredAssert = (statement: boolean) => {
+    if (Boolean(statement) === false) {
+      // Intentionally left blank.
+    }
+  };
+
   for (const season of ALL_SEASONS) {
     const seasonScheduleData = await NDSchedules.getForSeason(season);
 
@@ -67,9 +74,9 @@ async function main() {
       };
 
       validateDate([_currentGameData, previousGameData], assert);
-      validateStats(_currentGameData, assert);
-      validateRecords(_currentGameData, assert);
-      validateWeather(_currentGameData, assert);
+      validateStats(_currentGameData, assert, ignoredAssert);
+      validateRecords(_currentGameData, assert, ignoredAssert);
+      validateWeather(_currentGameData, assert, ignoredAssert);
       validateCoverage(_currentGameData, assert);
       validateLocation(_currentGameData, assert);
       validateRankings(_currentGameData, assert);

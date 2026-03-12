@@ -3,3 +3,9 @@ export type AssertFn = (
   message: string,
   extraContext?: Record<string, unknown>
 ) => void;
+
+export type IgnoredAssertFn = (
+  statement: boolean,
+  message: string,
+  extraContext?: Record<string, unknown>
+) => void;

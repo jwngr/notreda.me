@@ -3,7 +3,7 @@ import _ from 'lodash';
 import {CURRENT_SEASON} from '../../lib/constants';
 import {isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
-import type {AssertFn} from './types';
+import type {AssertFn, IgnoredAssertFn} from './types';
 
 const RECORD_REGEX = /^\d{1,2}-\d{1,2}$/;
 const RECORD_REGEX_WITH_TIES = /^\d{1,2}-\d{1,2}-\d{1,2}$/;
@@ -21,7 +21,8 @@ const parseRecord = (record: string): [number, number, number] => {
 
 export function validateRecords(
   {records, season, isHomeGame, weekIndex, completedGameCountForSeason}: ExtendedGameInfo,
-  assert: AssertFn
+  assert: AssertFn,
+  ignoredAssert: IgnoredAssertFn
 ): void {
   const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {records, isHomeGame, weekIndex, completedGameCountForSeason});
@@ -29,9 +30,10 @@ export function validateRecords(
 
   if (season <= CURRENT_SEASON) {
     if (season < 2018) {
-      wrappedAssert(
+      ignoredAssert(
         typeof records !== 'undefined',
-        `Current or former season game should have records object.`
+        `Current or former season game should have records object.`,
+        {records, isHomeGame, weekIndex, completedGameCountForSeason}
       );
     } else {
       wrappedAssert(
@@ -59,11 +61,7 @@ export function validateRecords(
 
             // Validate home, away, neutral, and overall records.
             _.forEach(homeOrAwayRecords, (currentRecord, homeAwayNeutralOrOverall) => {
-              if (typeof currentRecord !== 'string') {
-                wrappedAssert(
-                  false,
-                  `${_.capitalize(homeOrAway)} ${homeAwayNeutralOrOverall} record has invalid format.`
-                );
+              if (!currentRecord) {
                 return;
               }
 

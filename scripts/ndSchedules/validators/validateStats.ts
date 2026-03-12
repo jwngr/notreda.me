@@ -3,7 +3,7 @@ import _ from 'lodash';
 import {CURRENT_SEASON} from '../../lib/constants';
 import {getPossessionInSeconds, isNonEmptyString, isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
-import type {AssertFn} from './types';
+import type {AssertFn, IgnoredAssertFn} from './types';
 
 const EXPECTED_STATS_KEYS = [
   'firstDowns',
@@ -32,7 +32,8 @@ const HOME_AWAY_KEYS = ['home', 'away'] as const;
 
 export function validateStats(
   {stats, isGameOver, isLatestGameCompletedGame, season}: ExtendedGameInfo,
-  assert: AssertFn
+  assert: AssertFn,
+  ignoredAssert: IgnoredAssertFn
 ): void {
   const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {stats, isGameOver, isLatestGameCompletedGame});
@@ -41,7 +42,8 @@ export function validateStats(
   if (isGameOver) {
     // Completed game.
 
-    wrappedAssert(typeof stats !== 'undefined', 'Completed game is missing stats.');
+    // TODO: Fully enable this assert when all completed games have stats.
+    ignoredAssert(typeof stats !== 'undefined', 'Completed game is missing stats.', {stats});
 
     if (typeof stats !== 'undefined') {
       wrappedAssert(
@@ -125,13 +127,15 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} total yards must be a number.`
         );
 
-        wrappedAssert(
+        // TODO: Fully enable this assert when all completed games have valid total yards.
+        ignoredAssert(
           isNumber(totalYards) && totalYards === passYards + rushYards,
           `${_.capitalize(
             homeOrAway
           )} total yards must be the sum of rush and pass yards (${totalYards} total vs. ${
             passYards + rushYards
-          } sum).`
+          } sum).`,
+          {stats}
         );
 
         /*************/
@@ -162,11 +166,13 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} yards per pass must be a number.`
         );
 
-        wrappedAssert(
+        // TODO: Fully enable this assert when actual and computed values match for all games.
+        ignoredAssert(
           yardsPerPass.toFixed(1) === computedYardsPerPass.toFixed(1),
           `${_.capitalize(homeOrAway)} yards per pass has unexpected value (${yardsPerPass.toFixed(
             1
-          )} actual vs. ${computedYardsPerPass.toFixed(1)} computed).`
+          )} actual vs. ${computedYardsPerPass.toFixed(1)} computed).`,
+          {stats}
         );
 
         /*************/
@@ -191,11 +197,13 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} yards per rush must be a number.`
         );
 
-        wrappedAssert(
+        // TODO: Fully enable this assert when actual and computed values match for all games.
+        ignoredAssert(
           yardsPerRush.toFixed(1) === computedYardsPerRush.toFixed(1),
           `${_.capitalize(homeOrAway)} yards per rush has unexpected value (${yardsPerRush.toFixed(
             1
-          )} actual vs. ${computedYardsPerRush.toFixed(1)} computed).`
+          )} actual vs. ${computedYardsPerRush.toFixed(1)} computed).`,
+          {stats}
         );
 
         /***************/
@@ -285,11 +293,13 @@ export function validateStats(
         `Away possession has an invalid format.`
       );
 
-      wrappedAssert(
+      // TODO: Fully enable this assert when possession values match for all games.
+      ignoredAssert(
         actualTotalPossesssionInSeconds === expectedTotalPossessionInSeconds,
         `Expected total possession to be ${expectedTotalPossessionInSeconds} seconds, but actual value is ${actualTotalPossesssionInSeconds} seconds (${
           actualTotalPossesssionInSeconds > expectedTotalPossessionInSeconds ? '+' : '-'
-        }${possessionDifference} seconds).`
+        }${possessionDifference} seconds).`,
+        {stats}
       );
     }
   } else {

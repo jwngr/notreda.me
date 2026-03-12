@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 import {isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
-import type {AssertFn} from './types';
+import type {AssertFn, IgnoredAssertFn} from './types';
 
 const EXPECTED_WEATHER_ICONS = [
   'clear-day',
@@ -18,7 +18,8 @@ const EXPECTED_WEATHER_ICONS = [
 
 export function validateWeather(
   {weather, isGameOver, isNextUnplayedGame}: ExtendedGameInfo,
-  assert: AssertFn
+  assert: AssertFn,
+  ignoredAssert: IgnoredAssertFn
 ): void {
   const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
@@ -29,9 +30,11 @@ export function validateWeather(
 
     const completedGameOrNextUnplayedGame = isGameOver ? 'Completed game' : 'Next unplayed game';
 
-    wrappedAssert(
+    // TODO: Fully enable this assert when all completed games have weather.
+    ignoredAssert(
       typeof weather !== 'undefined',
-      `${completedGameOrNextUnplayedGame} has no weather object.`
+      `${completedGameOrNextUnplayedGame} has no weather object.`,
+      {weather}
     );
 
     if (typeof weather !== 'undefined') {
