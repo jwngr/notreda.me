@@ -36,10 +36,15 @@ export function validateRecords(
         {records, isHomeGame, weekIndex, completedGameCountForSeason}
       );
     } else {
-      wrappedAssert(
-        typeof records !== 'undefined',
-        `Current or former season game should have records object.`
-      );
+      const shouldRequireRecords =
+        season < CURRENT_SEASON || weekIndex < completedGameCountForSeason;
+
+      if (shouldRequireRecords) {
+        wrappedAssert(
+          typeof records !== 'undefined',
+          `Current or former season game should have records object.`
+        );
+      }
 
       if (typeof records !== 'undefined') {
         wrappedAssert(
