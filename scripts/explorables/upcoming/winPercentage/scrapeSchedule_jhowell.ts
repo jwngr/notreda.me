@@ -4,18 +4,22 @@ import {format} from 'date-fns/format';
 import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
+import {sleep} from '../../../lib/utils';
 
 const logger = new Logger({isSentryEnabled: false});
 
-const scrapeTeamSchedule = async (team, filename) => {
+const scrapeTeamSchedule = async (team: string, filename: string): Promise<void> => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(`http://www.jhowell.net/cf/scores/${team}.htm`);
-  await page.waitFor(1000);
+  await sleep(1000);
 
-  const games = [];
+  const games: {date: string; result: string; opponent: string}[][] = [];
 
   const bodyHandle = await page.$('body');
+  if (!bodyHandle) {
+    throw new Error('Unable to find body element.');
+  }
 
   const tables = await bodyHandle.$$('table');
 
@@ -35,34 +39,43 @@ const scrapeTeamSchedule = async (team, filename) => {
     const header = trs.shift();
     trs.pop();
 
-    let year = await header.$('a');
-    year = await year.getProperty('name');
-    year = await year.jsonValue();
+    if (!header) {
+      continue;
+    }
+
+    const yearLink = await header.$('a');
+    if (!yearLink) {
+      continue;
+    }
+    const yearProperty = await yearLink.getProperty('name');
+    const year = (await yearProperty.jsonValue()) as string;
 
     // Loop through every game
-    for (let tr of trs) {
+    for (const tr of trs) {
       const tds = await tr.$$('td');
+      if (!tds[0] || !tds[2] || !tds[3]) {
+        continue;
+      }
 
       // Date
-      let date = await tds[0].getProperty('innerHTML');
-      date = await date.jsonValue();
+      const dateProperty = await tds[0].getProperty('innerHTML');
+      let date = (await dateProperty.jsonValue()) as string;
       date += `/${year}`;
-      date = new Date(date);
-      date = format(date, 'MM/dd/yyyy');
+      date = format(new Date(date), 'MM/dd/yyyy');
 
       // Opponent
       let opponent = await tds[2].$('a');
       if (opponent === null) {
         opponent = tds[2];
       }
-      opponent = await opponent.getProperty('innerHTML');
-      opponent = await opponent.jsonValue();
+      const opponentProperty = await opponent.getProperty('innerHTML');
+      const opponentName = (await opponentProperty.jsonValue()) as string;
 
       // Result
-      let result = await tds[3].getProperty('innerHTML');
-      result = await result.jsonValue();
+      const resultProperty = await tds[3].getProperty('innerHTML');
+      const result = (await resultProperty.jsonValue()) as string;
 
-      currentYearGames.push({date, result, opponent});
+      currentYearGames.push({date, result, opponent: opponentName});
     }
 
     games.push(currentYearGames);

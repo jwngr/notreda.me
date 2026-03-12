@@ -33,6 +33,10 @@ export function getPossessionInSeconds(possession: string): number {
   return Number(minutes) * 60 + Number(seconds);
 }
 
+export const sleep = (durationMs: number): Promise<void> => {
+  return new Promise((resolve) => setTimeout(resolve, durationMs));
+};
+
 interface FetchUrlOptions {
   readonly url: string;
   readonly method: 'GET' | 'POST';

@@ -3,7 +3,7 @@ import path from 'path';
 import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
-import puppeteer from 'puppeteer';
+import puppeteer, {Browser} from 'puppeteer';
 
 import {CURRENT_SEASON} from '../lib/constants';
 import {Logger} from '../lib/logger';
@@ -17,9 +17,9 @@ const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../website/src/resource
 
 process.setMaxListeners(Infinity);
 
-let browser;
+let browser: Browser;
 
-const scrapeGameStats = async (gameId) => {
+const scrapeGameStats = async (gameId: string) => {
   const page = await browser.newPage();
 
   const url = `https://www.sports-reference.com/cfb/boxscores/${gameId}.html`;
@@ -28,13 +28,19 @@ const scrapeGameStats = async (gameId) => {
 
   await page.goto(url, {waitUntil: 'networkidle2'});
 
-  const stats = {};
+  const stats: Record<string, unknown> = {};
 
   const statsTable = await page.$('#team_stats');
+  if (!statsTable) {
+    throw new Error('Unable to find team stats table.');
+  }
   const statTrs = await statsTable.$$('tbody tr');
 
-  for (let statTr of statTrs) {
+  for (const statTr of statTrs) {
     const th = await statTr.$('th');
+    if (!th) {
+      continue;
+    }
 
     let statName = await th.getProperty('innerHTML');
     statName = await statName.jsonValue();
@@ -64,15 +70,15 @@ const scrapeGameStats = async (gameId) => {
 const fn = async () => {
   const year = CURRENT_SEASON;
   const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const yearData = require(filename);
+  const yearData = JSON.parse(fs.readFileSync(filename, 'utf-8')) as Record<string, unknown>[];
 
   browser = await puppeteer.launch({headless: true, handleSIGINT: false});
 
   const promises = _.map(yearData, (gameData) => {
-    if ('sportsReferenceGameId' in gameData) {
-      return scrapeGameStats(gameData.sportsReferenceGameId).catch((error) => {
-        logger.error(`Failed to scrape game stats for ${gameData.sportsReferenceGameId}:`, {error});
+    const sportsReferenceGameId = gameData.sportsReferenceGameId as string | undefined;
+    if (typeof sportsReferenceGameId === 'string') {
+      return scrapeGameStats(sportsReferenceGameId).catch((error) => {
+        logger.error(`Failed to scrape game stats for ${sportsReferenceGameId}:`, {error});
         throw error;
       });
     } else {

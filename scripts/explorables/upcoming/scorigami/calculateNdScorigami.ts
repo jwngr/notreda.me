@@ -4,9 +4,9 @@ import {fileURLToPath} from 'url';
 
 import _ from 'lodash';
 
-import {getForSeason} from '../../../../website/src/resources/schedules';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
+import {NDSchedules} from '../../../lib/ndSchedules';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,14 +15,20 @@ const OUTPUT_DATA_DIRECTORY = path.resolve(__dirname, './data');
 
 const logger = new Logger({isSentryEnabled: false});
 
+type ScorigamiMatrix = (number | undefined)[][];
+
 async function main() {
   let gamesPlayedCount = 0;
-  const scorigamiMatrix = [];
+  const scorigamiMatrix: ScorigamiMatrix = [];
 
   for (const season of ALL_SEASONS) {
-    const seasonScheduleData = await getForSeason(season);
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
     seasonScheduleData.forEach((gameData) => {
       if (gameData.result) {
+        if (!gameData.score) {
+          return;
+        }
+
         gamesPlayedCount++;
 
         const highScore = Math.max(gameData.score.home, gameData.score.away);

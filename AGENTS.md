@@ -31,13 +31,12 @@ npm run update-deps    # Update dependencies
 All commands below should be run from the `/scripts` directory:
 
 ```bash
-# Code Quality
 npm run lint           # Run Prettier, ESLint, and TypeScript checks
 npm run format         # Auto-format code with Prettier
 npm run build          # Compile TypeScript
 
-# Data Updates (Production only)
-./ndSchedules/update.sh    # Update Notre Dame schedule data (Linux only)
+# Use tsx to execute .ts scripts directly
+npx tsx path/to/script.ts
 ```
 
 ## Architecture Overview

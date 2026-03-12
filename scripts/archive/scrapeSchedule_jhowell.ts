@@ -1,9 +1,10 @@
+import fs from 'fs';
 import path from 'path';
 import {fileURLToPath} from 'url';
 
 import {format} from 'date-fns/format';
 import range from 'lodash/range';
-import puppeteer from 'puppeteer';
+import puppeteer, {Browser, ElementHandle} from 'puppeteer';
 
 import {Logger} from '../lib/logger';
 
@@ -17,10 +18,10 @@ process.setMaxListeners(Infinity);
 const ND_YEARS = range(1887, 2018).filter((year) => ![1890, 1891].includes(year));
 const SCHEDULE_DATA_DIRECTORY = path.resolve(__dirname, '../../schedules/data');
 
-let browser;
+let browser: Browser;
 
-const getText = async (element) => {
-  return await (await element.getProperty('textContent')).jsonValue();
+const getText = async (element: ElementHandle): Promise<string> => {
+  return (await element.getProperty('textContent')).jsonValue() as Promise<string>;
 };
 
 const scrapeNotreDameSchedule = async () => {
@@ -28,9 +29,20 @@ const scrapeNotreDameSchedule = async () => {
 
   await page.goto('http://www.jhowell.net/cf/scores/notredame.htm', {waitUntil: 'networkidle2'});
 
-  const games = {};
+  interface ScrapedGame {
+    date: string;
+    result: string;
+    opponent: string;
+    isHomeGame: boolean;
+    score: {home: number; away: number};
+  }
+
+  const games: Record<number, ScrapedGame[]> = {};
 
   const bodyHandle = await page.$('body');
+  if (!bodyHandle) {
+    throw new Error('Unable to find body element.');
+  }
 
   const tables = await bodyHandle.$$('table');
 
@@ -50,37 +62,47 @@ const scrapeNotreDameSchedule = async () => {
     const header = trs.shift();
     trs.pop();
 
-    let year = await header.$('a');
-    year = await year.getProperty('name');
-    year = await year.jsonValue();
+    if (!header) {
+      continue;
+    }
+
+    const yearLink = await header.$('a');
+    if (!yearLink) {
+      continue;
+    }
+
+    const yearProperty = await yearLink.getProperty('name');
+    const year = (await yearProperty.jsonValue()) as string;
 
     // Loop through every game
-    for (let tr of trs) {
+    for (const tr of trs) {
       const tds = await tr.$$('td');
+      if (!tds[0] || !tds[1] || !tds[2] || !tds[3] || !tds[4] || !tds[5]) {
+        continue;
+      }
 
       // Date
-      let date = await getText(tds[0]);
-      date += `/${year}`;
-      date = new Date(date);
-      date = format(date, 'MM/dd/yyyy');
+      let dateText = await getText(tds[0]);
+      dateText += `/${year}`;
+      const date = format(new Date(dateText), 'MM/dd/yyyy');
 
       // Location
-      let isHomeGame = await getText(tds[1]);
-      isHomeGame = isHomeGame !== '@';
+      const isHomeGameText = await getText(tds[1]);
+      const isHomeGame = isHomeGameText !== '@';
 
       // Opponent
       let opponent = await tds[2].$('a');
       if (opponent === null) {
         opponent = tds[2];
       }
-      opponent = await getText(opponent);
+      const opponentName = await getText(opponent);
 
       // Result
-      let result = await getText(tds[3]);
+      const result = await getText(tds[3]);
 
       // Scores
-      let homeScore;
-      let awayScore;
+      let homeScore: string;
+      let awayScore: string;
       if (result === 'W' || result === 'T') {
         homeScore = await getText(tds[4]);
         awayScore = await getText(tds[5]);
@@ -92,7 +114,7 @@ const scrapeNotreDameSchedule = async () => {
       currentYearGames.push({
         date,
         result,
-        opponent,
+        opponent: opponentName,
         isHomeGame,
         score: {home: Number(homeScore), away: Number(awayScore)},
       });
@@ -121,30 +143,39 @@ const scrapeNotreDameSchedule = async () => {
     ND_YEARS.forEach((year) => {
       if (year in ndSchedule) {
         const filename = `${SCHEDULE_DATA_DIRECTORY}/${year}.json`;
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const games = require(filename);
+        const games = JSON.parse(fs.readFileSync(filename, 'utf-8')) as {
+          opponentId: string;
+          isHomeGame: boolean;
+          result: string;
+          score: {home: number; away: number};
+        }[];
 
         games.forEach((game, i) => {
-          if (game.isHomeGame !== ndSchedule[year][i].isHomeGame) {
+          const scheduleGame = ndSchedule[year][i] as {
+            isHomeGame: boolean;
+            result: string;
+            score: {home: number; away: number};
+          };
+          if (game.isHomeGame !== scheduleGame.isHomeGame) {
             logger.error('HOME / AWAY MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
-          if (game.result !== ndSchedule[year][i].result) {
+          if (game.result !== scheduleGame.result) {
             logger.error('RESULT MISMATCH', {year, opponentId: game.opponentId, index: i});
           }
 
           if (
-            (game.score.home !== ndSchedule[year][i].score.home &&
-              game.score.home !== ndSchedule[year][i].score.away) ||
-            (game.score.away !== ndSchedule[year][i].score.home &&
-              game.score.away !== ndSchedule[year][i].score.away)
+            (game.score.home !== scheduleGame.score.home &&
+              game.score.home !== scheduleGame.score.away) ||
+            (game.score.away !== scheduleGame.score.home &&
+              game.score.away !== scheduleGame.score.away)
           ) {
             logger.error('SCORE MISMATCH', {
               year,
               opponentId: game.opponentId,
               index: i,
               gameScore: game.score,
-              ndScheduleScore: ndSchedule[year][i].score,
+              ndScheduleScore: scheduleGame.score,
             });
           }
         });
