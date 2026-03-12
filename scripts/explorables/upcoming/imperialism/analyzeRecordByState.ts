@@ -1,33 +1,52 @@
 import _ from 'lodash';
 
-import {getForSeason} from '../../../../website/src/resources/schedules';
+import {GameInfo, GameResult} from '../../../../website/src/models/games.models';
+import {TeamId} from '../../../../website/src/models/teams.models';
 import {ALL_SEASONS} from '../../../lib/constants';
 import {Logger} from '../../../lib/logger';
+import {NDSchedules} from '../../../lib/ndSchedules';
 
 // TODO: Analyze record based on location of opponent's campus, not just where the game was played.
 
 const logger = new Logger({isSentryEnabled: false});
 
-const _getResultString = (result) => (result === 'W' ? 'wins' : result === 'L' ? 'losses' : 'ties');
+type ResultKey = 'wins' | 'losses' | 'ties';
 
-const _getInitialStats = () =>
-  _.clone({
-    games: 0,
-    wins: 0,
-    losses: 0,
-    ties: 0,
-    latestResult: null,
-    nextScheduledGame: null,
-    teams: new Set(),
-  });
+interface StatsRow {
+  games: number;
+  wins: number;
+  losses: number;
+  ties: number;
+  latestResult: GameResult | null;
+  nextScheduledGame: string | null;
+  teams: Set<TeamId>;
+}
 
-const _getGamesPlayed = (stats, statsKey) => {
-  const {wins, losses, ties} = _.get(stats, statsKey);
+interface Stats {
+  state: Record<string, StatsRow>;
+  country: Record<string, StatsRow>;
+}
+
+const _getResultString = (result: GameResult): ResultKey =>
+  result === GameResult.Win ? 'wins' : result === GameResult.Loss ? 'losses' : 'ties';
+
+const _getInitialStats = (): StatsRow => ({
+  games: 0,
+  wins: 0,
+  losses: 0,
+  ties: 0,
+  latestResult: null,
+  nextScheduledGame: null,
+  teams: new Set(),
+});
+
+const _getGamesPlayed = (stats: Stats, statsKey: string | (string | number)[]) => {
+  const {wins, losses, ties} = _.get(stats, statsKey) as StatsRow;
   return wins + losses + ties;
 };
 
-const _getRecord = (stats, statsKey) => {
-  const {wins, losses, ties} = _.get(stats, statsKey);
+const _getRecord = (stats: Stats, statsKey: string | (string | number)[]) => {
+  const {wins, losses, ties} = _.get(stats, statsKey) as StatsRow;
   return `${wins}-${losses}-${ties}`;
 };
 
@@ -46,14 +65,14 @@ const _getRecord = (stats, statsKey) => {
 // };
 
 async function main() {
-  let stats = {state: {}, country: {}};
+  const stats: Stats = {state: {}, country: {}};
 
   for (const season of ALL_SEASONS) {
-    const seasonScheduleData = await getForSeason(season);
-    seasonScheduleData.forEach((gameData) => {
+    const seasonScheduleData = await NDSchedules.getForSeason(season);
+    seasonScheduleData.forEach((gameData: GameInfo) => {
       if (gameData.location !== 'TBD') {
-        let stateOrCountryKey;
-        let stateOrCountryValue;
+        let stateOrCountryKey: keyof Stats;
+        let stateOrCountryValue: string;
         if (gameData.location) {
           // Away games and neutral site games have a location.
           stateOrCountryKey = typeof gameData.location.state === 'undefined' ? 'country' : 'state';
@@ -91,7 +110,7 @@ async function main() {
     ].join('\t')
   );
 
-  _.forEach(stats.state, (stateStats, state) => {
+  _.forEach(stats.state, (stateStats: StatsRow, state: string) => {
     logger.log(
       [
         state,
@@ -117,7 +136,7 @@ async function main() {
     ].join('\t')
   );
 
-  _.forEach(stats.country, (countryStats, country) => {
+  _.forEach(stats.country, (countryStats: StatsRow, country: string) => {
     logger.log(
       [
         country,

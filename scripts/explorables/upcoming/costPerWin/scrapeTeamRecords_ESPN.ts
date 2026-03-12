@@ -1,5 +1,6 @@
 import fs from 'fs';
 
+import type {Element} from 'domhandler';
 import _ from 'lodash';
 
 import {Logger} from '../../../lib/logger';
@@ -10,7 +11,20 @@ const logger = new Logger({isSentryEnabled: false});
 
 logger.info('Scraping records for current season...');
 
-const TEAM_NAMES_MAP = {
+interface CoachSalary {
+  teamName: string;
+  headCoach: string;
+  salary: number;
+}
+
+interface TeamRecord {
+  wins: number;
+  losses: number;
+  headCoach?: string;
+  salary?: number;
+}
+
+const TEAM_NAMES_MAP: Record<string, string> = {
   'Miss State': 'Mississippi State',
   'Mich. State': 'Michigan State',
   'S Carolina': 'South Carolina',
@@ -37,14 +51,14 @@ const TEAM_NAMES_MAP = {
   UConn: 'Connecticut',
 };
 
-const scrapTeamRecords = async () => {
+const scrapTeamRecords = async (): Promise<Record<string, TeamRecord>> => {
   const $ = await Scraper.get('http://www.espn.com/college-football/statistics/teamratings');
 
   const $teamRows = $('.oddrow, .evenrow');
 
-  let teamRecords = {};
+  const teamRecords: Record<string, TeamRecord> = {};
 
-  $teamRows.each((i, row) => {
+  $teamRows.each((i: number, row: Element) => {
     const $rowCells = $(row).find('td');
 
     let teamName = $rowCells
@@ -60,7 +74,9 @@ const scrapTeamRecords = async () => {
 
     const record = $rowCells.eq(2).text().trim();
 
-    const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]);
+    const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]) as
+      | CoachSalary
+      | undefined;
 
     if (_.size(teamCoachSalaryData) === 0) {
       logger.error('Team not found in coach salaries list.', {teamName});
@@ -69,7 +85,7 @@ const scrapTeamRecords = async () => {
     teamRecords[teamName] = {
       wins: Number(record.split('-')[0]),
       losses: Number(record.split('-')[1]),
-      ..._.pick(teamCoachSalaryData, ['headCoach', 'salary']),
+      ..._.pick(teamCoachSalaryData ?? {}, ['headCoach', 'salary']),
     };
   });
 

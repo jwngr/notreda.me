@@ -14,12 +14,11 @@ interface StatsRow {
   wins: number;
   losses: number;
   ties: number;
-  total: number;
 }
 
 type LocationKey = 'home' | 'away' | 'neutral';
 
-type HomeStadiumKey = 'notreDameStadium' | 'cartierField' | 'greenStockingBallPark' | 'neutralHome';
+type HomeStadiumKey = 'notreDameStadium' | 'cartierField' | 'greenStockingBallPark';
 
 interface Stats {
   overall: StatsRow;
@@ -31,7 +30,7 @@ interface Stats {
 const _getResultString = (result: GameResult): ResultKey =>
   result === GameResult.Win ? 'wins' : result === GameResult.Loss ? 'losses' : 'ties';
 
-const _getInitialStats = (): StatsRow => ({wins: 0, losses: 0, ties: 0, total: 0});
+const _getInitialStats = (): StatsRow => ({wins: 0, losses: 0, ties: 0});
 
 const _getGamesPlayed = (stats: Stats, statsKey: string | (string | number)[]) => {
   const {wins, losses, ties} = _.get(stats, statsKey) as StatsRow;
@@ -67,7 +66,6 @@ async function main() {
       notreDameStadium: _getInitialStats(),
       cartierField: _getInitialStats(),
       greenStockingBallPark: _getInitialStats(),
-      neutralHome: _getInitialStats(),
     },
   };
 
@@ -118,7 +116,6 @@ async function main() {
               throw new Error('Unexpected home game stadium.');
           }
 
-          stats.homeStadiums[homeStadiumsKey].total++;
           stats.homeStadiums[homeStadiumsKey][resultString]++;
         }
       }

@@ -3,22 +3,37 @@ import fs from 'fs';
 import _ from 'lodash';
 
 import {Logger} from '../../../lib/logger';
-import utils from '../../../lib/utils';
+import {withCommas} from '../../../lib/utils';
 import teamRecordsAndSalaryData from './data/teamRecordsAndSalaries.json';
 
 const logger = new Logger({isSentryEnabled: false});
 
+interface TeamRecordAndSalary {
+  wins: number;
+  headCoach: string;
+  salary: number | 'Unknown';
+}
+
+interface TeamCostPerWin {
+  wins: number;
+  teamName: string;
+  headCoach: string;
+  costPerWin: number | 'Unknown';
+}
+
 const teamCostPerWinData = _.map(
-  teamRecordsAndSalaryData,
-  ({wins, salary, headCoach}, teamName) => {
-    let costPerWin;
+  teamRecordsAndSalaryData as Record<string, TeamRecordAndSalary>,
+  ({wins, salary, headCoach}, teamName): TeamCostPerWin => {
+    let costPerWin: TeamCostPerWin['costPerWin'];
 
     if (wins === 0) {
       costPerWin = Infinity;
     } else if (salary === 'Unknown') {
       costPerWin = 'Unknown';
-    } else {
+    } else if (typeof salary === 'number') {
       costPerWin = Number((salary / wins).toFixed(0));
+    } else {
+      costPerWin = 'Unknown';
     }
 
     return {wins, teamName, headCoach, costPerWin};
@@ -26,15 +41,15 @@ const teamCostPerWinData = _.map(
 );
 
 const sortedTeamCostPerWinData = teamCostPerWinData
-  .filter(({costPerWin}) => {
-    return typeof costPerWin === 'number';
+  .filter((team): team is TeamCostPerWin & {costPerWin: number} => {
+    return typeof team.costPerWin === 'number';
   })
   .sort((a, b) => {
     return a.costPerWin - b.costPerWin;
   });
 
 sortedTeamCostPerWinData.forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-  logger.info(i + 1, teamName, headCoach, wins, utils.withCommas(costPerWin));
+  logger.info(`${i + 1}\t${teamName}\t${headCoach}\t${wins}\t${withCommas(costPerWin)}`);
 });
 
 teamCostPerWinData
@@ -42,7 +57,9 @@ teamCostPerWinData
     return costPerWin === 'Unknown';
   })
   .forEach(({wins, teamName, headCoach, costPerWin}, i) => {
-    logger.info(sortedTeamCostPerWinData.length + i + 1, teamName, headCoach, wins, costPerWin);
+    logger.info(
+      `${sortedTeamCostPerWinData.length + i + 1}\t${teamName}\t${headCoach}\t${wins}\t${costPerWin}`
+    );
   });
 
 fs.writeFileSync('./data/costPerWin.json', JSON.stringify(sortedTeamCostPerWinData, null, 2));
