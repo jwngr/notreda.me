@@ -4,6 +4,7 @@ import {schemeBlues} from 'd3-scale-chromatic';
 import type {FeatureCollection, Geometry, MultiLineString} from 'geojson';
 import React, {Component} from 'react';
 import {feature, mesh} from 'topojson-client';
+import type {Objects, Topology} from 'topojson-specification';
 
 import {Note} from '../../Note';
 import {Paragraph} from '../../Paragraph';
@@ -105,7 +106,7 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
       return;
     }
 
-    const topoJson = us as {readonly objects: {readonly counties: object; readonly states: object}};
+    const topoJson = us as Topology<Objects>;
     const counties = feature(topoJson, topoJson.objects.counties) as FeatureCollection<
       Geometry,
       {id: string; rate?: number}
