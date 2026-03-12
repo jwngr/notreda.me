@@ -14,13 +14,20 @@ const INPUT_DATA_DIRECTORY = path.resolve(__dirname, '../../data/schedules');
 
 logger.info(`Fetching head coaches and bowl games.`);
 
+interface YearGameData {
+  headCoach?: string;
+  isBowlGame?: boolean;
+  nickname?: string;
+  [key: string]: unknown;
+}
+
 Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_football_seasons`)
   .then(($) => {
-    let $scheduleTable = $('#Seasons').parent().next();
+    const $scheduleTable = $('#Seasons').parent().next();
 
     const $scheduleTableRows = $scheduleTable.find('tr');
 
-    const headerNames = [];
+    const headerNames: string[] = [];
     $scheduleTableRows.each((i, row) => {
       if (i === 0) {
         $(row)
@@ -29,11 +36,11 @@ Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_foo
             headerNames.push($(elem).text().trim());
           });
       } else if (i > 0) {
-        const rowCellValues = [];
+        const rowCellValues: string[] = [];
         $(row)
           .children('td')
           .each((j, elem) => {
-            let rowCellText = $(elem).text().trim();
+            const rowCellText = $(elem).text().trim();
 
             rowCellValues.push(rowCellText);
           });
@@ -43,8 +50,7 @@ Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_foo
           const headCoach = rowCellValues[1];
 
           const filename = `${INPUT_DATA_DIRECTORY}/${year}.json`;
-          // eslint-disable-next-line @typescript-eslint/no-require-imports
-          const gamesData = require(filename);
+          const gamesData = JSON.parse(fs.readFileSync(filename, 'utf-8')) as YearGameData[];
 
           gamesData.forEach((game) => {
             game.headCoach = headCoach;
@@ -68,5 +74,6 @@ Scraper.get(`https://en.wikipedia.org/wiki/List_of_Notre_Dame_Fighting_Irish_foo
     logger.success('Fetched head coaches and bowl games');
   })
   .catch((error) => {
-    logger.error(`Failed to fetch head coaches and bowl games:`, error.message);
+    const message = error instanceof Error ? error.message : String(error);
+    logger.error(`Failed to fetch head coaches and bowl games:`, {message});
   });

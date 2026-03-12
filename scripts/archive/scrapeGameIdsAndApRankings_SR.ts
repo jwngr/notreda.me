@@ -19,14 +19,27 @@ const SPORTS_REFERENCE_GAME_STATS_START_YEAR = 2000;
 
 const years = [CURRENT_SEASON];
 
+interface ScheduleDetails {
+  gameIds: string[];
+  opponentApRankings: (number | null)[];
+  notreDameApRankings: (number | null)[];
+}
+
+interface YearGameData {
+  isHomeGame?: boolean;
+  sportsReferenceGameId?: string;
+  rankings?: {home?: {ap?: number | null}; away?: {ap?: number | null}};
+  [key: string]: unknown;
+}
+
 const promises = years.map((year) => {
   return Scraper.get(
     `https://www.sports-reference.com/cfb/schools/notre-dame/${year}-schedule.html`
   )
     .then(($) => {
-      const gameIds = [];
-      const opponentApRankings = [];
-      const notreDameApRankings = [];
+      const gameIds: string[] = [];
+      const opponentApRankings: (number | null)[] = [];
+      const notreDameApRankings: (number | null)[] = [];
 
       const $games = $('#schedule tbody tr td');
       $games.each((i, $game) => {
@@ -34,6 +47,9 @@ const promises = years.map((year) => {
 
         if (statName === 'date_game' && year >= SPORTS_REFERENCE_GAME_STATS_START_YEAR) {
           const gameUrl = $($game).find('a').attr('href');
+          if (!gameUrl) {
+            return;
+          }
           const gameId = gameUrl.split('/cfb/boxscores/')[1].split('.html')[0];
           gameIds.push(gameId);
         } else if (statName === 'school_name') {
@@ -47,23 +63,25 @@ const promises = years.map((year) => {
         }
       });
 
-      return {gameIds, opponentApRankings, notreDameApRankings};
+      return {gameIds, opponentApRankings, notreDameApRankings} satisfies ScheduleDetails;
     })
     .catch((error) => {
       logger.error(`Error fetching game IDs and AP rankings for ${year}`, {error});
+      return null;
     });
 });
 
 Promise.all(promises)
   .then((results) => {
     _.forEach(results, (result, i) => {
+      if (!result) {
+        return;
+      }
+
       const filename = `${INPUT_DATA_DIRECTORY}/${years[i]}.json`;
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
-      const yearData = require(filename);
+      const yearData = JSON.parse(fs.readFileSync(filename, 'utf-8')) as YearGameData[];
       _.forEach(yearData, (gameData, j) => {
-        if (result.gameIds) {
-          gameData.sportsReferenceGameId = result.gameIds[j];
-        }
+        gameData.sportsReferenceGameId = result.gameIds[j];
 
         if (result.notreDameApRankings[j] || result.opponentApRankings[j]) {
           if (gameData.isHomeGame) {
@@ -78,9 +96,9 @@ Promise.all(promises)
             };
           }
 
-          if (!gameData.rankings.home.ap) {
+          if (!gameData.rankings?.home?.ap) {
             delete gameData.rankings.home;
-          } else if (!gameData.rankings.away.ap) {
+          } else if (!gameData.rankings?.away?.ap) {
             delete gameData.rankings.away;
           }
         }
