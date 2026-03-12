@@ -61,7 +61,7 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
       let yearTieCount = 0;
       let lastGameOfYearWinPercentage = 0;
 
-      let currentYearData: Array<WinPercentageOldDatum | undefined> = yearData.map(
+      const currentYearData: (WinPercentageOldDatum | undefined)[] = yearData.map(
         ({score, opponentId, result, isHomeGame}: GameInfo) => {
           let scoreText;
 

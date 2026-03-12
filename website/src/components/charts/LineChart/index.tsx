@@ -262,7 +262,6 @@ export class LineChart extends Component<LineChartProps, LineChartState> {
 
       teams
         .append('path')
-        .attr('class', 'line')
         .attr('d', (d) => {
           return line(d.values);
         })

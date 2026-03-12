@@ -11,7 +11,7 @@ import unemploymentData from './unemployment.json';
 
 import './Imperialism.css';
 
-interface ImperialismState {}
+type ImperialismState = Record<string, never>;
 
 export class Imperialism extends Component<Record<string, never>, ImperialismState> {
   private imperialismMapRef: SVGSVGElement | null = null;
