@@ -131,13 +131,7 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
 
     map
       .append('path')
-      .datum(
-        mesh(
-          topoJson,
-          topoJson.objects.states,
-          (a, b) => a !== b
-        ) as MultiLineString
-      )
+      .datum(mesh(topoJson, topoJson.objects.states, (a, b) => a !== b) as MultiLineString)
       .attr('class', 'states')
       .attr('d', path);
   }
