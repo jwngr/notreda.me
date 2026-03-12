@@ -3,6 +3,7 @@ import _ from 'lodash';
 import {TeamRankings} from '../../../website/src/models/teams.models';
 import {isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
 const EXPECTED_POLLS: Record<keyof TeamRankings, string> = {
   ap: 'AP',
@@ -13,11 +14,6 @@ const EXPECTED_POLLS: Record<keyof TeamRankings, string> = {
 
 const HOME_AWAY_KEYS = ['home', 'away'] as const;
 
-type AssertFn = (
-  statement: boolean,
-  message: string,
-  extraContext?: Record<string, unknown>
-) => void;
 type RankingsSide = (typeof HOME_AWAY_KEYS)[number];
 
 export function validateRankings({rankings}: ExtendedGameInfo, assert: AssertFn): void {

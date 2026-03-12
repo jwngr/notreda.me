@@ -3,6 +3,7 @@ import _ from 'lodash';
 import {CURRENT_SEASON} from '../../lib/constants';
 import {getPossessionInSeconds, isNonEmptyString, isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
 const EXPECTED_STATS_KEYS = [
   'firstDowns',
@@ -28,12 +29,6 @@ const EXPECTED_STATS_KEYS = [
 
 const POSSESSION_REGEX = /^\d{1,2}:\d{1,2}$/;
 const HOME_AWAY_KEYS = ['home', 'away'] as const;
-
-type AssertFn = (
-  statement: boolean,
-  message: string,
-  extraContext?: Record<string, unknown>
-) => void;
 
 export function validateStats(
   {stats, isGameOver, isLatestGameCompletedGame, season}: ExtendedGameInfo,

@@ -18,9 +18,13 @@ async function main() {
     seasonScheduleData
       .filter(({result}) => typeof result !== 'undefined')
       .forEach((gameData) => {
+        if (!gameData.rankings) {
+          return;
+        }
+
         const ndPollRankings = gameData.isHomeGame
-          ? gameData.rankings?.home
-          : gameData.rankings?.away;
+          ? gameData.rankings.home
+          : gameData.rankings.away;
 
         if (!ndPollRankings) {
           return;

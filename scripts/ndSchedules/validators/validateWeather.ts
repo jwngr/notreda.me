@@ -1,8 +1,8 @@
 import _ from 'lodash';
 
-import {GameWeather} from '../../../website/src/models/games.models';
 import {isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
 const EXPECTED_WEATHER_ICONS = [
   'clear-day',
@@ -15,12 +15,6 @@ const EXPECTED_WEATHER_ICONS = [
   'snow',
   'unknown',
 ];
-
-type AssertFn = (
-  statement: boolean,
-  message: string,
-  extraContext?: Record<string, unknown>
-) => void;
 
 export function validateWeather(
   {weather, isGameOver, isNextUnplayedGame}: ExtendedGameInfo,

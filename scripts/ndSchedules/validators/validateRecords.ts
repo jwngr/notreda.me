@@ -3,6 +3,7 @@ import _ from 'lodash';
 import {CURRENT_SEASON} from '../../lib/constants';
 import {isNumber} from '../../lib/utils';
 import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
 const RECORD_REGEX = /^\d{1,2}-\d{1,2}$/;
 const RECORD_REGEX_WITH_TIES = /^\d{1,2}-\d{1,2}-\d{1,2}$/;
@@ -17,12 +18,6 @@ const parseRecord = (record: string): [number, number, number] => {
 
   return [winCount, lossCount, tieCount];
 };
-
-type AssertFn = (
-  statement: boolean,
-  message: string,
-  extraContext?: Record<string, unknown>
-) => void;
 
 export function validateRecords(
   {records, season, isHomeGame, weekIndex, completedGameCountForSeason}: ExtendedGameInfo,
