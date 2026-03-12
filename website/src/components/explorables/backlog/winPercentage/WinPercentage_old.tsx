@@ -265,6 +265,10 @@ export class WinPercentage extends Component<Record<string, never>, WinPercentag
     /**************/
     /* YEAR CHART */
     /**************/
+    if (this.state.yearData.length === 0) {
+      return;
+    }
+
     const yearChart = d3
       .select(this.yearChartRef)
       .attr('width', chartWidth)
