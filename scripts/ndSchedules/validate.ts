@@ -24,6 +24,7 @@ async function main() {
 
   let _numErrorsFound = 0;
   let _currentGameData: ExtendedGameInfo | null = null;
+  let _numIgnoredErrorsFound = 0;
 
   const assert = (statement: boolean, message: string, extraContext?: Record<string, unknown>) => {
     if (Boolean(statement) === false) {
@@ -38,7 +39,7 @@ async function main() {
   // TODO: Remove all usages of this once historical data is properly normalized.
   const ignoredAssert = (statement: boolean) => {
     if (Boolean(statement) === false) {
-      // Intentionally left blank.
+      _numIgnoredErrorsFound++;
     }
   };
 
@@ -85,6 +86,10 @@ async function main() {
 
       previousGameData = _currentGameData;
     });
+  }
+
+  if (_numIgnoredErrorsFound !== 0) {
+    logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
   }
 
   if (_numErrorsFound !== 0) {

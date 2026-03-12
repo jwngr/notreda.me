@@ -222,10 +222,9 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} penalty yards must be >= 0.`
         );
 
-        const penaltyYardsThreshold = penalties ** (penaltyYards <= penalties * 15 ? 1 : 0);
         wrappedAssert(
-          penaltyYards >= penaltyYardsThreshold,
-          `${homeOrAway} penalty yards has unexpected value.`
+          penaltyYards <= penalties * 15,
+          `${homeOrAway} penalty yards has unexpectedly high value.`
         );
 
         /***************/
