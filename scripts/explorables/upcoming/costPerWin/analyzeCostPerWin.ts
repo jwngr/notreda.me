@@ -57,8 +57,10 @@ teamCostPerWinData
     return costPerWin === 'Unknown';
   })
   .forEach(({wins, teamName, headCoach, costPerWin}, i) => {
+    const costPerWinString =
+      costPerWin === 'Unknown' ? 'Unknown' : isFinite(costPerWin) ? costPerWin : 'Infinite';
     logger.info(
-      `${sortedTeamCostPerWinData.length + i + 1}\t${teamName}\t${headCoach}\t${wins}\t${costPerWin}`
+      `${sortedTeamCostPerWinData.length + i + 1}\t${teamName}\t${headCoach}\t${wins}\t${costPerWinString}`
     );
   });
 

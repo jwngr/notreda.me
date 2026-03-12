@@ -14,14 +14,13 @@ logger.info('Scraping records for current season...');
 interface CoachSalary {
   teamName: string;
   headCoach: string;
-  salary: number;
+  salary: number | 'Unknown';
 }
 
 interface TeamRecord {
   wins: number;
   losses: number;
   headCoach?: string;
-  salary?: number;
 }
 
 const TEAM_NAMES_MAP: Record<string, string> = {
