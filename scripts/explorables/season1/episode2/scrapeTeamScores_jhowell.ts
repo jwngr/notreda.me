@@ -4,7 +4,7 @@ import {fileURLToPath} from 'url';
 
 import {format} from 'date-fns/format';
 import _ from 'lodash';
-import puppeteer from 'puppeteer';
+import puppeteer, {Browser, ElementHandle} from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
 
@@ -15,17 +15,17 @@ const logger = new Logger({isSentryEnabled: false});
 
 process.setMaxListeners(Infinity);
 
-let browser;
+let browser: Browser;
 
-const getText = async (element) => {
+const getText = async (element: ElementHandle): Promise<string> => {
   return getProperty(element, 'textContent');
 };
 
-const getProperty = async (element, propertyName) => {
-  return await (await element.getProperty(propertyName)).jsonValue();
+const getProperty = async (element: ElementHandle, propertyName: string): Promise<string> => {
+  return (await element.getProperty(propertyName)).jsonValue() as Promise<string>;
 };
 
-const scrapeTeamUrls = async () => {
+const scrapeTeamUrls = async (): Promise<{name: string; url: string}[]> => {
   const page = await browser.newPage();
 
   const url = `http://www.jhowell.net/cf/scores/byName.htm`;
@@ -34,7 +34,7 @@ const scrapeTeamUrls = async () => {
 
   await page.goto(url, {waitUntil: 'networkidle2'});
 
-  const teamUrls = [];
+  const teamUrls: {name: string; url: string}[] = [];
 
   const teamAnchors = await page.$$('hr + p > a');
 
@@ -48,16 +48,27 @@ const scrapeTeamUrls = async () => {
   return teamUrls;
 };
 
-const scrapeTeamScores = async (teamName, teamUrl) => {
+const scrapeTeamScores = async (teamName: string, teamUrl: string) => {
   const page = await browser.newPage();
 
   logger.info(`Scraping historical scores for ${teamName}...`);
 
   await page.goto(teamUrl, {waitUntil: 'networkidle2'});
 
-  const games = {};
+  interface ScrapedGame {
+    date: string;
+    result: string;
+    opponent: string;
+    isHomeGame: boolean;
+    score: {home: number; away: number};
+  }
+
+  const games: Record<number, ScrapedGame[]> = {};
 
   const bodyHandle = await page.$('body');
+  if (!bodyHandle) {
+    throw new Error('Unable to find body element.');
+  }
 
   const tables = await bodyHandle.$$('table');
 
@@ -77,37 +88,47 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
     const header = trs.shift();
     trs.pop();
 
-    let year = await header.$('a');
-    year = await year.getProperty('name');
-    year = await year.jsonValue();
+    if (!header) {
+      continue;
+    }
+
+    const yearLink = await header.$('a');
+    if (!yearLink) {
+      continue;
+    }
+
+    const yearProperty = await yearLink.getProperty('name');
+    const year = (await yearProperty.jsonValue()) as string;
 
     // Loop through every game
-    for (let tr of trs) {
+    for (const tr of trs) {
       const tds = await tr.$$('td');
+      if (!tds[0] || !tds[1] || !tds[2] || !tds[3] || !tds[4] || !tds[5]) {
+        continue;
+      }
 
       // Date
-      let date = await getText(tds[0]);
-      date += `/${year}`;
-      date = new Date(date);
-      date = format(date, 'MM/dd/yyyy');
+      let dateText = await getText(tds[0]);
+      dateText += `/${year}`;
+      const date = format(new Date(dateText), 'MM/dd/yyyy');
 
       // Location
-      let isHomeGame = await getText(tds[1]);
-      isHomeGame = isHomeGame !== '@';
+      const isHomeGameText = await getText(tds[1]);
+      const isHomeGame = isHomeGameText !== '@';
 
       // Opponent
       let opponent = await tds[2].$('a');
       if (opponent === null) {
         opponent = tds[2];
       }
-      opponent = (await getText(opponent)).replace(/\*/g, '');
+      const opponentName = (await getText(opponent)).replace(/\*/g, '');
 
       // Result
-      let result = await getText(tds[3]);
+      const result = await getText(tds[3]);
 
       // Scores
-      let homeScore;
-      let awayScore;
+      let homeScore: string;
+      let awayScore: string;
       if (result === 'W' || result === 'T') {
         homeScore = await getText(tds[4]);
         awayScore = await getText(tds[5]);
@@ -119,7 +140,7 @@ const scrapeTeamScores = async (teamName, teamUrl) => {
       currentYearGames.push({
         date,
         result,
-        opponent,
+        opponent: opponentName,
         isHomeGame,
         score: {home: Number(homeScore), away: Number(awayScore)},
       });

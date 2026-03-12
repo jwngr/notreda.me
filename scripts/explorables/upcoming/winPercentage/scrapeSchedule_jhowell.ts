@@ -4,6 +4,7 @@ import {format} from 'date-fns/format';
 import puppeteer from 'puppeteer';
 
 import {Logger} from '../../../lib/logger';
+import {sleep} from '../../../lib/utils';
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -11,7 +12,7 @@ const scrapeTeamSchedule = async (team: string, filename: string): Promise<void>
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(`http://www.jhowell.net/cf/scores/${team}.htm`);
-  await page.waitFor(1000);
+  await sleep(1000);
 
   const games: {date: string; result: string; opponent: string}[][] = [];
 
