@@ -2,11 +2,13 @@ import _ from 'lodash';
 
 import {CURRENT_SEASON} from '../../lib/constants';
 import {isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
 
 const RECORD_REGEX = /^\d{1,2}-\d{1,2}$/;
 const RECORD_REGEX_WITH_TIES = /^\d{1,2}-\d{1,2}-\d{1,2}$/;
+const HOME_AWAY_KEYS = ['home', 'away'] as const;
 
-const _parseRecord = (record) => {
+const parseRecord = (record: string): [number, number, number] => {
   const recordTokens = record.split('-');
 
   const winCount = Number(recordTokens[0]);
@@ -16,28 +18,23 @@ const _parseRecord = (record) => {
   return [winCount, lossCount, tieCount];
 };
 
-export function validateRecords(
-  {records, season, isHomeGame, weekIndex, completedGameCountForSeason},
-  assert,
-  ignoredAssert
-) {
-  const wrappedAssert = (statement, message) => {
-    assert(statement, message, {records, isHomeGame, weekIndex, completedGameCountForSeason});
-  };
+type AssertFn = (
+  statement: boolean,
+  message: string,
+  extraContext?: Record<string, unknown>
+) => void;
 
-  const wrappedIgnoredAssert = (statement, message) => {
-    ignoredAssert(statement, message, {
-      records,
-      isHomeGame,
-      weekIndex,
-      completedGameCountForSeason,
-    });
+export function validateRecords(
+  {records, season, isHomeGame, weekIndex, completedGameCountForSeason}: ExtendedGameInfo,
+  assert: AssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
+    assert(statement, message, {records, isHomeGame, weekIndex, completedGameCountForSeason});
   };
 
   if (season <= CURRENT_SEASON) {
     if (season < 2018) {
-      // TODO: Fully enable this assert when all completed games have records.
-      wrappedIgnoredAssert(
+      wrappedAssert(
         typeof records !== 'undefined',
         `Current or former season game should have records object.`
       );
@@ -49,11 +46,11 @@ export function validateRecords(
 
       if (typeof records !== 'undefined') {
         wrappedAssert(
-          _.isEqual(_.keys(records).sort(), ['home', 'away'].sort()),
+          _.isEqual(Object.keys(records).sort(), ['home', 'away'].sort()),
           'Records object has unexpected keys.'
         );
 
-        ['home', 'away'].forEach((homeOrAway) => {
+        HOME_AWAY_KEYS.forEach((homeOrAway) => {
           const isNdRecord = isHomeGame ? homeOrAway === 'home' : homeOrAway === 'away';
           const homeOrAwayRecords = records[homeOrAway];
           if (typeof homeOrAwayRecords !== 'undefined') {
@@ -67,12 +64,21 @@ export function validateRecords(
 
             // Validate home, away, neutral, and overall records.
             _.forEach(homeOrAwayRecords, (currentRecord, homeAwayNeutralOrOverall) => {
+              if (typeof currentRecord !== 'string') {
+                wrappedAssert(
+                  false,
+                  `${_.capitalize(homeOrAway)} ${homeAwayNeutralOrOverall} record has invalid format.`
+                );
+                return;
+              }
+
               wrappedAssert(
-                currentRecord.match(RECORD_REGEX) || currentRecord.match(RECORD_REGEX_WITH_TIES),
+                Boolean(currentRecord.match(RECORD_REGEX)) ||
+                  Boolean(currentRecord.match(RECORD_REGEX_WITH_TIES)),
                 `${_.capitalize(homeOrAway)} ${homeAwayNeutralOrOverall} record has invalid format.`
               );
 
-              const [winCount, lossCount, tieCount] = _parseRecord(currentRecord);
+              const [winCount, lossCount, tieCount] = parseRecord(currentRecord);
 
               wrappedAssert(
                 isNumber(winCount) && winCount >= 0,
@@ -126,15 +132,15 @@ export function validateRecords(
                   }
                 }
 
-                const [awayWinCount, awayLossCount, awayTieCount] = _parseRecord(
-                  records[homeOrAway].away
+                const [awayWinCount, awayLossCount, awayTieCount] = parseRecord(
+                  homeOrAwayRecords.away
                 );
-                const [homeWinCount, homeLossCount, homeTieCount] = _parseRecord(
-                  records[homeOrAway].home
+                const [homeWinCount, homeLossCount, homeTieCount] = parseRecord(
+                  homeOrAwayRecords.home
                 );
-                const [neutralWinCount, neutralLossCount, neutralTieCount] = _parseRecord(
+                const [neutralWinCount, neutralLossCount, neutralTieCount] = parseRecord(
                   // TODO: Backfill neutral site records and remove the hardcoded 0-0 record.
-                  records[homeOrAway].neutral || '0-0'
+                  homeOrAwayRecords.neutral || '0-0'
                 );
 
                 wrappedAssert(

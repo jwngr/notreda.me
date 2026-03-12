@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
+import {GameWeather} from '../../../website/src/models/games.models';
 import {isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
 
 const EXPECTED_WEATHER_ICONS = [
   'clear-day',
@@ -14,13 +16,18 @@ const EXPECTED_WEATHER_ICONS = [
   'unknown',
 ];
 
-export function validateWeather({weather, isGameOver, isNextUnplayedGame}, assert, ignoredAssert) {
-  const wrappedAssert = (statement, message) => {
-    assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
-  };
+type AssertFn = (
+  statement: boolean,
+  message: string,
+  extraContext?: Record<string, unknown>
+) => void;
 
-  const wrappedIgnoredAssert = (statement, message) => {
-    ignoredAssert(statement, message, {weather});
+export function validateWeather(
+  {weather, isGameOver, isNextUnplayedGame}: ExtendedGameInfo,
+  assert: AssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
+    assert(statement, message, {weather, isGameOver, isNextUnplayedGame});
   };
 
   if (isGameOver || isNextUnplayedGame) {
@@ -28,15 +35,14 @@ export function validateWeather({weather, isGameOver, isNextUnplayedGame}, asser
 
     const completedGameOrNextUnplayedGame = isGameOver ? 'Completed game' : 'Next unplayed game';
 
-    // TODO: Fully enable this assert when all completed games have weather.
-    wrappedIgnoredAssert(
+    wrappedAssert(
       typeof weather !== 'undefined',
       `${completedGameOrNextUnplayedGame} has no weather object.`
     );
 
     if (typeof weather !== 'undefined') {
       wrappedAssert(
-        _.isEqual(_.keys(weather).sort(), ['icon', 'temperature'].sort()),
+        _.isEqual(Object.keys(weather).sort(), ['icon', 'temperature'].sort()),
         'Weather object has unexpected keys.'
       );
 

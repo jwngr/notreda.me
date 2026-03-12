@@ -2,6 +2,7 @@ import _ from 'lodash';
 
 import {CURRENT_SEASON} from '../../lib/constants';
 import {getPossessionInSeconds, isNonEmptyString, isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
 
 const EXPECTED_STATS_KEYS = [
   'firstDowns',
@@ -26,39 +27,40 @@ const EXPECTED_STATS_KEYS = [
 ];
 
 const POSSESSION_REGEX = /^\d{1,2}:\d{1,2}$/;
+const HOME_AWAY_KEYS = ['home', 'away'] as const;
+
+type AssertFn = (
+  statement: boolean,
+  message: string,
+  extraContext?: Record<string, unknown>
+) => void;
 
 export function validateStats(
-  {stats, isGameOver, isLatestGameCompletedGame, season},
-  assert,
-  ignoredAssert
-) {
-  const wrappedAssert = (statement, message) => {
+  {stats, isGameOver, isLatestGameCompletedGame, season}: ExtendedGameInfo,
+  assert: AssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {stats, isGameOver, isLatestGameCompletedGame});
-  };
-
-  const wrappedIgnoredAssert = (statement, message) => {
-    ignoredAssert(statement, message, {stats});
   };
 
   if (isGameOver) {
     // Completed game.
 
-    // TODO: Fully enable this assert when all completed games have stats.
-    wrappedIgnoredAssert(typeof stats !== 'undefined', 'Completed game is missing stats.');
+    wrappedAssert(typeof stats !== 'undefined', 'Completed game is missing stats.');
 
     if (typeof stats !== 'undefined') {
       wrappedAssert(
-        _.isEqual(_.keys(stats).sort(), ['home', 'away'].sort()),
+        _.isEqual(Object.keys(stats).sort(), ['home', 'away'].sort()),
         'Stats object has unexpected keys.'
       );
 
-      ['home', 'away'].forEach((homeOrAway) => {
+      HOME_AWAY_KEYS.forEach((homeOrAway) => {
         const homeOrAwayStats = stats[homeOrAway];
 
         wrappedAssert(
-          _.isEqual(_.keys(homeOrAwayStats).sort(), EXPECTED_STATS_KEYS.sort()),
+          _.isEqual(Object.keys(homeOrAwayStats).sort(), EXPECTED_STATS_KEYS.sort()),
           `${_.capitalize(homeOrAway)} stats object has unexpected keys: ${_.difference(
-            _.keys(homeOrAwayStats).sort(),
+            Object.keys(homeOrAwayStats).sort(),
             EXPECTED_STATS_KEYS.sort()
           )}.`
         );
@@ -91,17 +93,19 @@ export function validateStats(
             `${_.capitalize(homeOrAway)} ${thirdOrFourth} down conversions must be >= 0.`
           );
 
-          wrappedAssert(
-            conversions <= attempts,
-            `More ${homeOrAway} ${thirdOrFourth} down conversions than attempts.`
-          );
+          if (isNumber(attempts) && isNumber(conversions)) {
+            wrappedAssert(
+              conversions <= attempts,
+              `More ${homeOrAway} ${thirdOrFourth} down conversions than attempts.`
+            );
 
-          wrappedAssert(
-            firstDowns >= conversions,
-            `${_.capitalize(
-              homeOrAway
-            )} ${thirdOrFourth} down conversions must be no greater than first downs.`
-          );
+            wrappedAssert(
+              firstDowns >= conversions,
+              `${_.capitalize(
+                homeOrAway
+              )} ${thirdOrFourth} down conversions must be no greater than first downs.`
+            );
+          }
         });
 
         /*************/
@@ -126,8 +130,7 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} total yards must be a number.`
         );
 
-        // TODO: Fully enable this assert when all completed games have valid total yards.
-        wrappedIgnoredAssert(
+        wrappedAssert(
           isNumber(totalYards) && totalYards === passYards + rushYards,
           `${_.capitalize(
             homeOrAway
@@ -164,8 +167,7 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} yards per pass must be a number.`
         );
 
-        // TODO: Fully enable this assert when actual and computed values match for all games.
-        wrappedIgnoredAssert(
+        wrappedAssert(
           yardsPerPass.toFixed(1) === computedYardsPerPass.toFixed(1),
           `${_.capitalize(homeOrAway)} yards per pass has unexpected value (${yardsPerPass.toFixed(
             1
@@ -194,8 +196,7 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} yards per rush must be a number.`
         );
 
-        // TODO: Fully enable this assert when actual and computed values match for all games.
-        wrappedIgnoredAssert(
+        wrappedAssert(
           yardsPerRush.toFixed(1) === computedYardsPerRush.toFixed(1),
           `${_.capitalize(homeOrAway)} yards per rush has unexpected value (${yardsPerRush.toFixed(
             1
@@ -218,8 +219,9 @@ export function validateStats(
           `${_.capitalize(homeOrAway)} penalty yards must be >= 0.`
         );
 
+        const penaltyYardsThreshold = penalties ** (penaltyYards <= penalties * 15 ? 1 : 0);
         wrappedAssert(
-          penaltyYards >= penalties ** (penaltyYards <= penalties * 15),
+          penaltyYards >= penaltyYardsThreshold,
           `${homeOrAway} penalty yards has unexpected value.`
         );
 
@@ -257,10 +259,12 @@ export function validateStats(
             `${_.capitalize(homeOrAway)} fumbles must be >= 0.`
           );
 
-          wrappedAssert(
-            fumblesLost <= fumbles,
-            `${_.capitalize(homeOrAway)} fumbles lost must be <= fumbles.`
-          );
+          if (typeof fumbles !== 'undefined') {
+            wrappedAssert(
+              fumblesLost <= fumbles,
+              `${_.capitalize(homeOrAway)} fumbles lost must be <= fumbles.`
+            );
+          }
         }
       });
 
@@ -277,17 +281,16 @@ export function validateStats(
       );
 
       wrappedAssert(
-        isNonEmptyString(homePossession) && homePossession.match(POSSESSION_REGEX),
+        isNonEmptyString(homePossession) && Boolean(homePossession.match(POSSESSION_REGEX)),
         `Home possession has an invalid format.`
       );
 
       wrappedAssert(
-        isNonEmptyString(awayPossession) && awayPossession.match(POSSESSION_REGEX),
+        isNonEmptyString(awayPossession) && Boolean(awayPossession.match(POSSESSION_REGEX)),
         `Away possession has an invalid format.`
       );
 
-      // TODO: Fully enable this assert when possession values match for all games.
-      wrappedIgnoredAssert(
+      wrappedAssert(
         actualTotalPossesssionInSeconds === expectedTotalPossessionInSeconds,
         `Expected total possession to be ${expectedTotalPossessionInSeconds} seconds, but actual value is ${actualTotalPossesssionInSeconds} seconds (${
           actualTotalPossesssionInSeconds > expectedTotalPossessionInSeconds ? '+' : '-'

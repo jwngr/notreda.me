@@ -24,7 +24,6 @@ async function main() {
 
   let _numErrorsFound = 0;
   let _currentGameData: ExtendedGameInfo | null = null;
-  let _numIgnoredErrorsFound = 0;
 
   const assert = (statement: boolean, message: string, extraContext?: Record<string, unknown>) => {
     if (Boolean(statement) === false) {
@@ -33,13 +32,6 @@ async function main() {
         ..._.pick(_currentGameData, ['season', 'opponentId']),
         ...extraContext,
       });
-    }
-  };
-
-  // TODO: Remove all usages of this once historical data is properly normalized.
-  const ignoredAssert = (statement: boolean) => {
-    if (Boolean(statement) === false) {
-      _numIgnoredErrorsFound++;
     }
   };
 
@@ -74,22 +66,18 @@ async function main() {
         ).length,
       };
 
-      validateDate([_currentGameData, previousGameData], assert, ignoredAssert);
-      validateStats(_currentGameData, assert, ignoredAssert);
-      validateRecords(_currentGameData, assert, ignoredAssert);
-      validateWeather(_currentGameData, assert, ignoredAssert);
-      validateCoverage(_currentGameData, assert, ignoredAssert);
-      validateLocation(_currentGameData, assert, ignoredAssert);
-      validateRankings(_currentGameData, assert, ignoredAssert);
-      validateMiscellaneous([_currentGameData, seasonScheduleData], assert, ignoredAssert);
-      validateScoreAndResult(_currentGameData, assert, ignoredAssert);
+      validateDate([_currentGameData, previousGameData], assert);
+      validateStats(_currentGameData, assert);
+      validateRecords(_currentGameData, assert);
+      validateWeather(_currentGameData, assert);
+      validateCoverage(_currentGameData, assert);
+      validateLocation(_currentGameData, assert);
+      validateRankings(_currentGameData, assert);
+      validateMiscellaneous([_currentGameData, seasonScheduleData], assert);
+      validateScoreAndResult(_currentGameData, assert);
 
       previousGameData = _currentGameData;
     });
-  }
-
-  if (_numIgnoredErrorsFound !== 0) {
-    logger.info(`${_numIgnoredErrorsFound} errors ignored in schedule data!`);
   }
 
   if (_numErrorsFound !== 0) {
