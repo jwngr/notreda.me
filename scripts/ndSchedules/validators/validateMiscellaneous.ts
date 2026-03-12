@@ -1,8 +1,13 @@
 import _ from 'lodash';
 
+import type {GameInfo} from '../../../website/src/models/games.models';
 import {CURRENT_SEASON} from '../../lib/constants';
 import {Teams} from '../../lib/teams';
 import {isNonEmptyString, isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
+
+type GameInfoWithVacatedWin = ExtendedGameInfo & {readonly isVacatedWin?: boolean};
 
 export function validateMiscellaneous(
   [
@@ -24,9 +29,9 @@ export function validateMiscellaneous(
       isLatestGameCompletedGame,
     },
     seasonScheduleData,
-  ],
-  assert
-) {
+  ]: [GameInfoWithVacatedWin, readonly GameInfo[]],
+  assert: AssertFn
+): void {
   assert(typeof isHomeGame === 'boolean', 'isHomeGame must be a boolean.', {isHomeGame});
 
   assert(Teams.existsById(opponentId), 'Opponent ID must correspond to a valid team.', {

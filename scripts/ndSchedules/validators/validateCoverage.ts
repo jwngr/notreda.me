@@ -1,28 +1,31 @@
+import {TVNetwork} from '../../../website/src/models/games.models';
 import {CURRENT_SEASON} from '../../lib/constants';
+import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
-const EXPECTED_TV_CHANNELS = [
-  'ABC',
-  'ACCN',
-  'CBS',
-  'CBSSN',
-  'CSTV',
-  'ESPN',
-  'ESPN2',
-  'FOX',
-  'KATZ',
-  'NBC',
-  'NBCSN',
-  'PACN',
-  'PEACOCK',
-  'RAYCOM',
-  'SPORTSCHANNEL',
-  'TBS',
-  'USA',
-  'WGN-TV',
+const EXPECTED_TV_CHANNELS: TVNetwork[] = [
+  TVNetwork.ABC,
+  TVNetwork.ACCN,
+  TVNetwork.CBS,
+  TVNetwork.CBSSN,
+  TVNetwork.CSTV,
+  TVNetwork.ESPN,
+  TVNetwork.ESPN2,
+  TVNetwork.FOX,
+  TVNetwork.KATZ,
+  TVNetwork.NBC,
+  TVNetwork.NBCSN,
+  TVNetwork.Pac12Network,
+  TVNetwork.Peacock,
+  TVNetwork.RAYCOM,
+  TVNetwork.SportsChannel,
+  TVNetwork.TBS,
+  TVNetwork.USA,
+  TVNetwork.WGN_TV,
 ];
 
-export function validateCoverage({season, coverage}, assert) {
-  const wrappedAssert = (statement, message) => {
+export function validateCoverage({season, coverage}: ExtendedGameInfo, assert: AssertFn): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {coverage});
   };
 
