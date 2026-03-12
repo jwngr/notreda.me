@@ -135,7 +135,7 @@ export class Imperialism extends Component<Record<string, never>, ImperialismSta
         mesh(
           topoJson,
           topoJson.objects.states,
-          (a: unknown, b: unknown) => a !== b
+          (a, b) => a !== b
         ) as MultiLineString
       )
       .attr('class', 'states')
