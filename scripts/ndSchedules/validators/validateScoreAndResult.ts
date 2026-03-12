@@ -1,17 +1,29 @@
 import _ from 'lodash';
 
 import {isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
+
+const HOME_AWAY_KEYS = ['home', 'away'] as const;
+type HomeAwayKey = (typeof HOME_AWAY_KEYS)[number];
 
 export function validateScoreAndResult(
-  {score, result, linescore, isHomeGame, isGameOver, numOvertimes},
-  assert
-) {
-  const wrappedAssert = (statement, message) => {
+  {score, result, linescore, isHomeGame, isGameOver, numOvertimes}: ExtendedGameInfo,
+  assert: AssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {score, result, linescore, isHomeGame, isGameOver, numOvertimes});
   };
 
   if (isGameOver) {
     // Completed game.
+    wrappedAssert(typeof score !== 'undefined', 'Completed game missing score object.');
+    wrappedAssert(typeof linescore !== 'undefined', 'Completed game missing linescore object.');
+
+    if (!score || !linescore) {
+      return;
+    }
+
     wrappedAssert(
       _.isEqual(_.keys(score).sort(), ['home', 'away'].sort()),
       'Score object has unexpected keys.'
@@ -20,7 +32,7 @@ export function validateScoreAndResult(
     const opponentScore = isHomeGame ? score.away : score.home;
     const notreDameScore = isHomeGame ? score.home : score.away;
 
-    ['home', 'away'].forEach((homeOrAway) => {
+    HOME_AWAY_KEYS.forEach((homeOrAway: HomeAwayKey) => {
       wrappedAssert(
         isNumber(score[homeOrAway]) && score[homeOrAway] >= 0,
         `${_.capitalize(homeOrAway)} score must be >= 0.`
@@ -49,7 +61,7 @@ export function validateScoreAndResult(
     );
 
     if (_.get(linescore, 'away', []).length !== 0) {
-      ['home', 'away'].forEach((homeOrAway) => {
+      HOME_AWAY_KEYS.forEach((homeOrAway: HomeAwayKey) => {
         wrappedAssert(
           linescore[homeOrAway].length === 4 + (numOvertimes || 0),
           `${_.capitalize(homeOrAway)} team linescore does not have expected number of periods.`

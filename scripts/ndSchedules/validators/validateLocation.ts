@@ -1,15 +1,20 @@
 import _ from 'lodash';
 
 import {isNumber} from '../../lib/utils';
+import {ExtendedGameInfo} from '../../models';
+import type {AssertFn} from './types';
 
-export function validateLocation({location, isGameOver, isHomeGame}, assert) {
-  const wrappedAssert = (statement, message) => {
+export function validateLocation(
+  {location, isGameOver, isHomeGame}: ExtendedGameInfo,
+  assert: AssertFn
+): void {
+  const wrappedAssert = (statement: boolean, message: string) => {
     assert(statement, message, {location, isGameOver});
   };
 
   if (!location) {
     // Home games have no location.
-    wrappedAssert(isHomeGame, 'Home games should not have a location.');
+    wrappedAssert(isHomeGame, 'Away games should have a location.');
   } else if (location === 'TBD') {
     wrappedAssert(!isGameOver, 'Completed games should not have a TBD location.');
   } else {
