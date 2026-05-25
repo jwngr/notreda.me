@@ -21,6 +21,17 @@
     },
     "opponentId": "DUKE"
   },
+  {
+    "isHomeGame": false,
+    "date": "10/15/2033",
+    "location": {
+      "city": "Clemson",
+      "state": "SC",
+      "stadium": "Clemson Memorial Stadium",
+      "coordinates": [34.678643, -82.84322]
+    },
+    "opponentId": "CLEM"
+  },
   {"isHomeGame": true, "date": "11/05/2033", "opponentId": "VT"},
   {"isHomeGame": true, "date": "TBD", "opponentId": "PITT"},
   {
@@ -44,16 +55,5 @@
       "coordinates": [38.206123, -85.759065]
     },
     "opponentId": "LOU"
-  },
-  {
-    "isHomeGame": false,
-    "date": "TBD",
-    "location": {
-      "city": "Clemson",
-      "state": "SC",
-      "stadium": "Clemson Memorial Stadium",
-      "coordinates": [34.678643, -82.84322]
-    },
-    "opponentId": "CLEM"
   }
 ]

@@ -11,6 +11,7 @@
     },
     "opponentId": "BAMA"
   },
+  {"isHomeGame": true, "date": "10/19/2030", "opponentId": "CLEM"},
   {
     "isHomeGame": false,
     "date": "11/02/2030",
@@ -46,6 +47,5 @@
       "coordinates": [38.985, -76.507]
     },
     "opponentId": "NAVY"
-  },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
+  }
 ]

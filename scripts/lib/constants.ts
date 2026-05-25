@@ -1,6 +1,6 @@
 import range from 'lodash/range';
 
-export const LATEST_SEASON = 2037;
+export const LATEST_SEASON = 2038;
 export const CURRENT_SEASON = 2026;
 
 export const ALL_SEASONS = [1887, 1888, 1889, ...range(1892, LATEST_SEASON + 1)];
