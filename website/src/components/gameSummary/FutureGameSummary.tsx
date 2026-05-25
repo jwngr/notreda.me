@@ -163,8 +163,7 @@ export const FutureGameSummary: React.FC<{
   const homeTeam = Teams.getTeam(homeTeamId);
   const awayTeam = Teams.getTeam(awayTeamId);
 
-  let atOrVs = game.isHomeGame ? 'vs' : 'at';
-  atOrVs = 'vs';
+  const atOrVs = game.isHomeGame ? 'vs' : 'at';
 
   const homeApRanking =
     game.rankings?.home?.bcs || game.rankings?.home?.cfbPlayoff || game.rankings?.home?.ap;
