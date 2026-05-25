@@ -5,13 +5,12 @@
     "lib": ["ESNext"],
     "module": "ESNext",
 
-    // Configuration required for Node.
-    "moduleResolution": "node",
+    // Configuration required for tsx/runtime resolution.
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
 
     // Miscellaneous configuration.
     "strict": true, // Enable strict type checking.
-    "ignoreDeprecations": "6.0", // Keep current Node-style resolution until migrating imports.
     "noEmit": true, // Don't emit JS files - build step only for type checking.
     "resolveJsonModule": true, // Allow importing JSON files.
     "skipLibCheck": true, // Skip type checking for external libraries.
