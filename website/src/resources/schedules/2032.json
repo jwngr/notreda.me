@@ -10,6 +10,7 @@
     },
     "opponentId": "FLA"
   },
+  {"isHomeGame": true, "date": "10/16/2032", "opponentId": "CLEM"},
   {
     "isHomeGame": false,
     "date": "10/30/2032",
@@ -45,6 +46,5 @@
       "coordinates": [38.985, -76.507]
     },
     "opponentId": "NAVY"
-  },
-  {"isHomeGame": true, "date": "TBD", "opponentId": "CLEM"}
+  }
 ]

@@ -1,7 +1,8 @@
 [
+  {"isHomeGame": true, "date": "10/03/2037", "opponentId": "NCST"},
   {
     "isHomeGame": false,
-    "date": "09/26/2037",
+    "date": "10/31/2037",
     "location": {
       "city": "Clemson",
       "state": "SC",
@@ -10,7 +11,6 @@
     },
     "opponentId": "CLEM"
   },
-  {"isHomeGame": true, "date": "10/03/2037", "opponentId": "NCST"},
   {"isHomeGame": true, "date": "TBD", "opponentId": "MIAMI"},
   {
     "isHomeGame": false,

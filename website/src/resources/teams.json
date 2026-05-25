@@ -97,6 +97,13 @@
   "IOWA": {"name": "Iowa", "nickname": "Hawkeyes", "color": "#f9cb46", "espnId": 2294},
   "ISU": {"name": "Iowa State", "nickname": "Cyclones", "color": "#83152e", "espnId": 66},
   "KAL": {"name": "Kalamazoo", "nickname": "Fighting Hornets", "color": "#de6e37"},
+  "KENT": {
+    "name": "Kent State",
+    "shortName": "Kent St",
+    "nickname": "Golden Flashes",
+    "color": "#003976",
+    "espnId": 2309
+  },
   "KNOX": {"name": "Knox", "nickname": "Prairie Fire", "color": "#eeab41"},
   "KU": {"name": "Kansas", "nickname": "Jayhawks", "color": "#256aad", "espnId": 2305},
   "LIL": {

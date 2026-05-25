@@ -100,6 +100,7 @@ export enum TeamId {
   IOWA = 'IOWA',
   ISU = 'ISU',
   KAL = 'KAL',
+  KENT = 'KENT',
   KNOX = 'KNOX',
   KU = 'KU',
   LAK = 'LAK',

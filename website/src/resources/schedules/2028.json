@@ -12,6 +12,8 @@
     },
     "opponentId": "PUR"
   },
+  {"isHomeGame": true, "date": "10/07/2028", "opponentId": "CLEM"},
+  {"isHomeGame": true, "date": "10/14/2028", "opponentId": "STAN"},
   {
     "isHomeGame": false,
     "date": "10/28/2028",
@@ -34,7 +36,6 @@
     },
     "opponentId": "VT"
   },
-  {"isHomeGame": true, "date": "11/11/2028", "opponentId": "CLEM"},
   {
     "isHomeGame": false,
     "date": "11/18/2028",
