@@ -5,8 +5,8 @@
     "lib": ["ESNext"],
     "module": "ESNext",
 
-    // Configuration required for Node.
-    "moduleResolution": "node",
+    // Configuration required for tsx/runtime resolution.
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
 
     // Miscellaneous configuration.

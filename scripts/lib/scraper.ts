@@ -7,8 +7,8 @@ export class Scraper {
       const body = await response.text();
       return cheerio.load(body);
     } catch (error) {
-      if ((error as unknown as Error).message.includes('ENOTFOUND')) {
-        throw new Error(`Failed to scrape ${url}: ENOTFOUND.`);
+      if (error instanceof Error && error.message.includes('ENOTFOUND')) {
+        throw new Error(`Failed to scrape ${url}: ENOTFOUND.`, {cause: error});
       }
 
       throw error;

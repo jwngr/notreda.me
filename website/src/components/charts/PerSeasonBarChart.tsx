@@ -112,7 +112,7 @@ export const PerSeasonBarChart: React.FC<{
     readonly x: number;
     readonly y: number;
   } | null>(null);
-  const unsetTooltipTimeout = useRef<NodeJS.Timeout | null>(null);
+  const unsetTooltipTimeout = useRef<ReturnType<typeof window.setTimeout> | null>(null);
 
   const getBarChartWidth = useCallback(() => {
     if (!barChartWrapperRef.current) return 0;
@@ -172,7 +172,7 @@ export const PerSeasonBarChart: React.FC<{
       .attr('height', (d) => DEFAULT_CHART_HEIGHT - yScale(d.value))
       .on('mouseover', (_, d) => {
         if (unsetTooltipTimeout.current) {
-          clearTimeout(unsetTooltipTimeout.current);
+          window.clearTimeout(unsetTooltipTimeout.current);
         }
 
         if (mouseLocation) {
@@ -182,7 +182,7 @@ export const PerSeasonBarChart: React.FC<{
         }
       })
       .on('mouseout', () => {
-        unsetTooltipTimeout.current = setTimeout(() => {
+        unsetTooltipTimeout.current = window.setTimeout(() => {
           setTooltip(null);
           unsetTooltipTimeout.current = null;
         }, 200);

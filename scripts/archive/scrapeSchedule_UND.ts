@@ -80,12 +80,13 @@ const getGamesForYear = async (year: number): Promise<RawScheduleGame[]> => {
 
       // Ignore Blue-Gold spring games and cancelled games
       if (!opponent.includes('Game') && result !== 'Cancelled') {
-        let mappedOpponent = opponent;
-        try {
-          mappedOpponent = Teams.getByName(opponent).id;
-        } catch {
-          mappedOpponent = opponent;
-        }
+        const mappedOpponent = (() => {
+          try {
+            return Teams.getByName(opponent).id;
+          } catch {
+            return opponent;
+          }
+        })();
 
         return {
           result,
