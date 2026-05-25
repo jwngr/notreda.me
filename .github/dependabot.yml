@@ -6,6 +6,8 @@ updates:
     directories: ["/website"]
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 2
     groups:
       major:
         update-types: ['major']
@@ -16,6 +18,8 @@ updates:
     directories: ["/scripts"]
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 2
     ignore:
       # Ignore packages which are very outdated and need to be updated manually.
       - dependency-name: "puppeteer"
