@@ -74,8 +74,7 @@ const scrapTeamRecords = async (): Promise<Record<string, TeamRecord>> => {
     const record = $rowCells.eq(2).text().trim();
 
     const teamCoachSalaryData = _.find(coachSalaries, ['teamName', teamName]) as
-      | CoachSalary
-      | undefined;
+      CoachSalary | undefined;
 
     if (_.size(teamCoachSalaryData) === 0) {
       logger.error('Team not found in coach salaries list.', {teamName});
