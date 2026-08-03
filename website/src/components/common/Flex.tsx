@@ -3,12 +3,7 @@ import styled from 'styled-components';
 import {StyleAttributes} from '../../models/styles.models';
 
 type JustifyValue =
-  | 'flex-start'
-  | 'flex-end'
-  | 'center'
-  | 'space-between'
-  | 'space-around'
-  | 'space-evenly';
+  'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
 type WrapValue = 'nowrap' | 'wrap' | 'wrap-reverse';
 type AlignValue = 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
 
