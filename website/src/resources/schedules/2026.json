@@ -1,8 +1,58 @@
 [
   {
-    "isHomeGame": false,
+    "isHomeGame": true,
     "isShamrockSeries": true,
     "date": "Sun Sep 06 2026 19:30:00 GMT-0400",
+    "espnGameId": 401858438,
+    "highlightsYouTubeVideoId": "-1DBK9zzXRs",
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 16,
+        "thirdDownAttempts": 13,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 284,
+        "passYards": 217,
+        "passCompletions": 19,
+        "passAttempts": 30,
+        "yardsPerPass": 7.2,
+        "interceptionsThrown": 1,
+        "rushYards": 67,
+        "rushAttempts": 31,
+        "yardsPerRush": 2.2,
+        "penalties": 6,
+        "penaltyYards": 43,
+        "possession": "28:24",
+        "fumblesLost": 1,
+        "fumbles": 1
+      },
+      "home": {
+        "firstDowns": 20,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 350,
+        "passYards": 239,
+        "passCompletions": 19,
+        "passAttempts": 29,
+        "yardsPerPass": 8.2,
+        "interceptionsThrown": 0,
+        "rushYards": 111,
+        "rushAttempts": 32,
+        "yardsPerRush": 3.5,
+        "penalties": 4,
+        "penaltyYards": 41,
+        "possession": "31:36",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {"home": 41, "away": 13},
+    "linescore": {"away": [3, 7, 3, 0], "home": [10, 3, 14, 14]},
+    "result": "W",
     "coverage": ["NBC"],
     "location": {
       "city": "Green Bay",
@@ -15,18 +65,21 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 12 2026 15:30:00 GMT-0400",
+    "espnGameId": 401859184,
     "coverage": ["NBC"],
     "opponentId": "RICE"
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 19 2026 19:30:00 GMT-0400",
+    "espnGameId": 401858453,
     "coverage": ["NBC"],
     "opponentId": "MSU"
   },
   {
     "isHomeGame": false,
     "date": "09/26/2026",
+    "espnGameId": 401858467,
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -38,6 +91,7 @@
   {
     "isHomeGame": false,
     "date": "10/03/2026",
+    "espnGameId": 401858250,
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -49,12 +103,14 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 10 2026 15:30:00 GMT-0400",
+    "espnGameId": 401858257,
     "coverage": ["NBC"],
     "opponentId": "STAN"
   },
   {
     "isHomeGame": false,
     "date": "10/17/2026",
+    "espnGameId": 401856809,
     "opponentId": "BYU",
     "location": {
       "city": "Provo",
@@ -65,7 +121,8 @@
   },
   {
     "isHomeGame": false,
-    "date": "10/31/2026",
+    "date": "Sat Oct 31 2026 12:00:00 GMT-0400",
+    "espnGameId": 401859185,
     "opponentId": "NAVY",
     "location": {
       "city": "Foxborough",
@@ -77,24 +134,28 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 07 2026 19:30:00 GMT-0500",
+    "espnGameId": 401858291,
     "coverage": ["NBC"],
     "opponentId": "MIAMI"
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 14 2026 15:30:00 GMT-0500",
+    "espnGameId": 401858294,
     "coverage": ["NBC"],
     "opponentId": "BC"
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 21 2026 19:30:00 GMT-0500",
+    "espnGameId": 401858307,
     "coverage": ["NBC"],
     "opponentId": "SMU"
   },
   {
     "isHomeGame": false,
     "date": "11/28/2026",
+    "espnGameId": 401858314,
     "opponentId": "SYR",
     "location": {
       "city": "Syracuse",
