@@ -50,14 +50,8 @@
         "fumbles": 1
       }
     },
-    "score": {
-      "home": 41,
-      "away": 13
-    },
-    "linescore": {
-      "away": [3, 7, 3, 0],
-      "home": [10, 3, 14, 14]
-    },
+    "score": {"home": 41, "away": 13},
+    "linescore": {"away": [3, 7, 3, 0], "home": [10, 3, 14, 14]},
     "result": "W",
     "coverage": ["NBC"],
     "location": {
@@ -68,84 +62,39 @@
     },
     "opponentId": "WIS",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "0-1",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "0-1"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "0-1", "home": "0-0", "away": "0-0", "neutral": "0-1"}
     },
-    "rankings": {
-      "home": {
-        "ap": 4,
-        "coaches": 5
-      }
-    }
+    "rankings": {"home": {"ap": 4, "coaches": 5}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 12 2026 15:30:00 GMT-0400",
-    "espnGameId": 401858453,
+    "espnGameId": 401859184,
     "coverage": ["NBC"],
     "opponentId": "RICE",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Sep 19 2026 19:30:00 GMT-0400",
-    "espnGameId": 401858467,
+    "espnGameId": 401858453,
     "coverage": ["NBC"],
     "opponentId": "MSU",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": false,
     "date": "09/26/2026",
-    "espnGameId": 401858250,
+    "espnGameId": 401858467,
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -154,30 +103,15 @@
     },
     "opponentId": "PUR",
     "records": {
-      "home": {
-        "overall": "1-1",
-        "home": "1-1",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "1-1", "home": "1-1", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": false,
     "date": "10/03/2026",
-    "espnGameId": 401858257,
+    "espnGameId": 401858250,
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -186,57 +120,27 @@
     },
     "opponentId": "UNC",
     "records": {
-      "home": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "2-0", "home": "1-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Oct 10 2026 15:30:00 GMT-0400",
-    "espnGameId": 401856809,
+    "espnGameId": 401858257,
     "coverage": ["NBC"],
     "opponentId": "STAN",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-1",
-        "away": "0-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-1", "home": "1-1", "away": "0-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": false,
     "date": "10/17/2026",
-    "espnGameId": 401859185,
+    "espnGameId": 401856809,
     "opponentId": "BYU",
     "location": {
       "city": "Provo",
@@ -245,34 +149,15 @@
       "coordinates": [40.257211, -111.654612]
     },
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 4
-      },
-      "home": {
-        "ap": 15,
-        "coaches": 15
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 4}, "home": {"ap": 15, "coaches": 15}}
   },
   {
     "isHomeGame": false,
     "date": "Sat Oct 31 2026 12:00:00 GMT-0400",
-    "espnGameId": 401858291,
+    "espnGameId": 401859185,
     "opponentId": "NAVY",
     "location": {
       "city": "Foxborough",
@@ -281,114 +166,46 @@
       "coordinates": [42.0909, -71.2643]
     },
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 07 2026 19:30:00 GMT-0500",
-    "espnGameId": 401858294,
+    "espnGameId": 401858291,
     "coverage": ["NBC"],
     "opponentId": "MIAMI",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "2-0",
-        "home": "1-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "2-0", "home": "1-0", "away": "1-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      },
-      "away": {
-        "ap": 7,
-        "coaches": 7
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}, "away": {"ap": 7, "coaches": 7}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 14 2026 15:30:00 GMT-0500",
-    "espnGameId": 401858307,
+    "espnGameId": 401858294,
     "coverage": ["NBC"],
     "opponentId": "BC",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-1",
-        "home": "1-0",
-        "away": "0-1",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-1", "home": "1-0", "away": "0-1", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}}
   },
   {
     "isHomeGame": true,
     "date": "Sat Nov 21 2026 19:30:00 GMT-0500",
-    "espnGameId": 401858314,
+    "espnGameId": 401858307,
     "coverage": ["NBC"],
     "opponentId": "SMU",
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "1-0",
-        "neutral": "0-0"
-      }
+      "home": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "1-0", "neutral": "0-0"}
     },
-    "rankings": {
-      "home": {
-        "ap": 3,
-        "coaches": 4
-      },
-      "away": {
-        "ap": 17,
-        "coaches": 17
-      }
-    }
+    "rankings": {"home": {"ap": 3, "coaches": 4}, "away": {"ap": 17, "coaches": 17}}
   },
   {
     "isHomeGame": false,
@@ -402,24 +219,9 @@
       "coordinates": [43.036062, -76.136434]
     },
     "records": {
-      "home": {
-        "overall": "1-0",
-        "home": "1-0",
-        "away": "0-0",
-        "neutral": "0-0"
-      },
-      "away": {
-        "overall": "1-0",
-        "home": "0-0",
-        "away": "0-0",
-        "neutral": "1-0"
-      }
+      "home": {"overall": "1-0", "home": "1-0", "away": "0-0", "neutral": "0-0"},
+      "away": {"overall": "1-0", "home": "0-0", "away": "0-0", "neutral": "1-0"}
     },
-    "rankings": {
-      "away": {
-        "ap": 3,
-        "coaches": 4
-      }
-    }
+    "rankings": {"away": {"ap": 3, "coaches": 4}}
   }
 ]
