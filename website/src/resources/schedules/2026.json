@@ -67,6 +67,20 @@
       "coordinates": [44.501172, -88.062262]
     },
     "opponentId": "WIS",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "0-1",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "0-1"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 4,
@@ -77,9 +91,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 12 2026 15:30:00 GMT-0400",
-    "espnGameId": 401859184,
+    "espnGameId": 401858453,
     "coverage": ["NBC"],
     "opponentId": "RICE",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -90,9 +118,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Sep 19 2026 19:30:00 GMT-0400",
-    "espnGameId": 401858453,
+    "espnGameId": 401858467,
     "coverage": ["NBC"],
     "opponentId": "MSU",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -103,7 +145,7 @@
   {
     "isHomeGame": false,
     "date": "09/26/2026",
-    "espnGameId": 401858467,
+    "espnGameId": 401858250,
     "location": {
       "city": "West Lafayette",
       "state": "IN",
@@ -111,6 +153,20 @@
       "coordinates": [40.434042, -86.918267]
     },
     "opponentId": "PUR",
+    "records": {
+      "home": {
+        "overall": "1-1",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      }
+    },
     "rankings": {
       "away": {
         "ap": 3,
@@ -121,7 +177,7 @@
   {
     "isHomeGame": false,
     "date": "10/03/2026",
-    "espnGameId": 401858250,
+    "espnGameId": 401858257,
     "location": {
       "city": "Chapel Hill",
       "state": "NC",
@@ -129,6 +185,20 @@
       "coordinates": [35.906851, -79.048108]
     },
     "opponentId": "UNC",
+    "records": {
+      "home": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      }
+    },
     "rankings": {
       "away": {
         "ap": 3,
@@ -139,9 +209,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Oct 10 2026 15:30:00 GMT-0400",
-    "espnGameId": 401858257,
+    "espnGameId": 401856809,
     "coverage": ["NBC"],
     "opponentId": "STAN",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-1",
+        "home": "1-1",
+        "away": "0-0",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -152,13 +236,27 @@
   {
     "isHomeGame": false,
     "date": "10/17/2026",
-    "espnGameId": 401856809,
+    "espnGameId": 401859185,
     "opponentId": "BYU",
     "location": {
       "city": "Provo",
       "state": "UT",
       "stadium": "LaVell Edwards Stadium",
       "coordinates": [40.257211, -111.654612]
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      }
     },
     "rankings": {
       "away": {
@@ -174,13 +272,27 @@
   {
     "isHomeGame": false,
     "date": "Sat Oct 31 2026 12:00:00 GMT-0400",
-    "espnGameId": 401859185,
+    "espnGameId": 401858291,
     "opponentId": "NAVY",
     "location": {
       "city": "Foxborough",
       "state": "MA",
       "stadium": "Gillette Stadium",
       "coordinates": [42.0909, -71.2643]
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      }
     },
     "rankings": {
       "away": {
@@ -192,9 +304,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 07 2026 19:30:00 GMT-0500",
-    "espnGameId": 401858291,
+    "espnGameId": 401858294,
     "coverage": ["NBC"],
     "opponentId": "MIAMI",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "2-0",
+        "home": "1-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -209,9 +335,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 14 2026 15:30:00 GMT-0500",
-    "espnGameId": 401858294,
+    "espnGameId": 401858307,
     "coverage": ["NBC"],
     "opponentId": "BC",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-1",
+        "home": "1-0",
+        "away": "0-1",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -222,9 +362,23 @@
   {
     "isHomeGame": true,
     "date": "Sat Nov 21 2026 19:30:00 GMT-0500",
-    "espnGameId": 401858307,
+    "espnGameId": 401858314,
     "coverage": ["NBC"],
     "opponentId": "SMU",
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "1-0",
+        "neutral": "0-0"
+      }
+    },
     "rankings": {
       "home": {
         "ap": 3,
@@ -246,6 +400,20 @@
       "state": "NY",
       "stadium": "JMA Wireless Dome",
       "coordinates": [43.036062, -76.136434]
+    },
+    "records": {
+      "home": {
+        "overall": "1-0",
+        "home": "1-0",
+        "away": "0-0",
+        "neutral": "0-0"
+      },
+      "away": {
+        "overall": "1-0",
+        "home": "0-0",
+        "away": "0-0",
+        "neutral": "1-0"
+      }
     },
     "rankings": {
       "away": {
