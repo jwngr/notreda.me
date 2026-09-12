@@ -62,6 +62,7 @@ function parseWikipediaWeeklyPolls(
         .replace(/\[.*\]/, '')
         .replace('(Final)', '')
         .trim();
+      if (!dateText) return;
       const isInFollowingYear = dateText.startsWith('Jan') || dateText.startsWith('Feb');
       const date = new Date(`${dateText}, ${isInFollowingYear ? season + 1 : season}`);
       // Ignore cells which don't have dates, such as the first and last columns.
@@ -167,14 +168,14 @@ export class Polls {
       const headingText = $scrapedResult(heading).find('h2').text().trim();
 
       let pollType: PollType | undefined;
-      switch (headingText) {
-        case 'AP Poll':
+      switch (headingText.toLowerCase()) {
+        case 'ap poll':
           pollType = PollType.AP;
           break;
-        case 'Coaches Poll':
+        case 'coaches poll':
           pollType = PollType.Coaches;
           break;
-        case 'CFP rankings':
+        case 'cfp rankings':
           pollType = PollType.CFBPlayoff;
           break;
         default:
@@ -185,7 +186,9 @@ export class Polls {
 
       // Find the table following the heading.
       let maybeTableContainer = $scrapedResult(heading).next();
-      let maybeTable = maybeTableContainer.find('table.wikitable');
+      // Wikipedia's current rankings pages render poll tables without the
+      // `wikitable` class, while older pages used it. Accept either form.
+      let maybeTable = maybeTableContainer.find('table');
       let chances = 0;
       while (chances < 2 && maybeTableContainer && maybeTable.length === 0) {
         chances++;

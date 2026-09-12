@@ -1,0 +1,527 @@
+{
+  "ap": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 1,
+          "previousRanking": "NR"
+        },
+        "Oregon": {
+          "record": "0-0",
+          "ranking": 2,
+          "previousRanking": "NR"
+        },
+        "Georgia": {
+          "record": "0-0",
+          "ranking": 3,
+          "previousRanking": "NR"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 4,
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 5,
+          "previousRanking": "NR"
+        },
+        "Indiana": {
+          "record": "0-0",
+          "ranking": 6,
+          "previousRanking": "NR"
+        },
+        "Miami": {
+          "record": "0-0",
+          "ranking": 7,
+          "previousRanking": "NR"
+        },
+        "Texas A&M": {
+          "record": "0-0",
+          "ranking": 8,
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "0-0",
+          "ranking": 9,
+          "previousRanking": "NR"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 10,
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "0-0",
+          "ranking": 11,
+          "previousRanking": "NR"
+        },
+        "Texas Tech": {
+          "record": "0-0",
+          "ranking": 12,
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 13,
+          "previousRanking": "NR"
+        },
+        "BYUт": {
+          "record": "0-0",
+          "ranking": 14,
+          "previousRanking": "NR"
+        },
+        "USCт": {
+          "record": "0-0",
+          "ranking": 14,
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "0-0",
+          "ranking": 16,
+          "previousRanking": "NR"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 17,
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 18,
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "0-0",
+          "ranking": 19,
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 20,
+          "previousRanking": "NR"
+        },
+        "Utah": {
+          "record": "0-0",
+          "ranking": 21,
+          "previousRanking": "NR"
+        },
+        "Iowa": {
+          "record": "0-0",
+          "ranking": 22,
+          "previousRanking": "NR"
+        },
+        "Houston": {
+          "record": "0-0",
+          "ranking": 23,
+          "previousRanking": "NR"
+        },
+        "Louisville": {
+          "record": "0-0",
+          "ranking": 24,
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "record": "0-0",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "teams": {
+        "Ohio State": {
+          "record": "1-0",
+          "ranking": 1,
+          "previousRanking": 1
+        },
+        "Georgia": {
+          "record": "1-0",
+          "ranking": 2,
+          "previousRanking": 3
+        },
+        "Notre Dame": {
+          "record": "1-0",
+          "ranking": 3,
+          "previousRanking": 4
+        },
+        "Texas": {
+          "record": "1-0",
+          "ranking": 4,
+          "previousRanking": 5
+        },
+        "Indiana": {
+          "record": "1-0",
+          "ranking": 5,
+          "previousRanking": 6
+        },
+        "Oregon": {
+          "record": "1-0",
+          "ranking": 6,
+          "previousRanking": 2
+        },
+        "Miami": {
+          "record": "1-0",
+          "ranking": 7,
+          "previousRanking": 7
+        },
+        "LSU": {
+          "record": "1-0",
+          "ranking": 8,
+          "previousRanking": 11
+        },
+        "Ole Miss": {
+          "record": "1-0",
+          "ranking": 9,
+          "previousRanking": 9
+        },
+        "Texas A&M": {
+          "record": "1-0",
+          "ranking": 10,
+          "previousRanking": 8
+        },
+        "Oklahoma": {
+          "record": "1-0",
+          "ranking": 11,
+          "previousRanking": 10
+        },
+        "Alabama": {
+          "record": "1-0",
+          "ranking": 12,
+          "previousRanking": 13
+        },
+        "Texas Tech": {
+          "record": "1-0",
+          "ranking": 13,
+          "previousRanking": 12
+        },
+        "USC": {
+          "record": "2-0",
+          "ranking": 14,
+          "previousRanking": "NR"
+        },
+        "BYU": {
+          "record": "1-0",
+          "ranking": 15,
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "1-0",
+          "ranking": 16,
+          "previousRanking": 18
+        },
+        "Southern Methodist": {
+          "record": "1-0",
+          "ranking": 17,
+          "previousRanking": 19
+        },
+        "Tennessee": {
+          "record": "1-0",
+          "ranking": 18,
+          "previousRanking": 20
+        },
+        "Washington": {
+          "record": "1-0",
+          "ranking": 19,
+          "previousRanking": 17
+        },
+        "Utah": {
+          "record": "1-0",
+          "ranking": 20,
+          "previousRanking": 21
+        },
+        "Iowa": {
+          "record": "1-0",
+          "ranking": 21,
+          "previousRanking": 22
+        },
+        "Houston": {
+          "record": "1-0",
+          "ranking": 22,
+          "previousRanking": 23
+        },
+        "Missouri": {
+          "record": "1-0",
+          "ranking": 23,
+          "previousRanking": 25
+        },
+        "Louisville": {
+          "record": "0-1",
+          "ranking": 24,
+          "previousRanking": 24
+        },
+        "Virginia": {
+          "record": "1-0",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
+    }
+  ],
+  "coaches": [
+    {
+      "date": "Preseason",
+      "teams": {
+        "Ohio State": {
+          "record": "0-0",
+          "ranking": 1,
+          "previousRanking": "NR"
+        },
+        "Oregon": {
+          "record": "0-0",
+          "ranking": 2,
+          "previousRanking": "NR"
+        },
+        "Georgia": {
+          "record": "0-0",
+          "ranking": 3,
+          "previousRanking": "NR"
+        },
+        "Texas": {
+          "record": "0-0",
+          "ranking": 4,
+          "previousRanking": "NR"
+        },
+        "Notre Dame": {
+          "record": "0-0",
+          "ranking": 5,
+          "previousRanking": "NR"
+        },
+        "Indiana": {
+          "record": "0-0",
+          "ranking": 6,
+          "previousRanking": "NR"
+        },
+        "Miami": {
+          "record": "0-0",
+          "ranking": 7,
+          "previousRanking": "NR"
+        },
+        "Texas A&M": {
+          "record": "0-0",
+          "ranking": 8,
+          "previousRanking": "NR"
+        },
+        "Oklahoma": {
+          "record": "0-0",
+          "ranking": 9,
+          "previousRanking": "NR"
+        },
+        "Ole Miss": {
+          "record": "0-0",
+          "ranking": 10,
+          "previousRanking": "NR"
+        },
+        "Alabama": {
+          "record": "0-0",
+          "ranking": 11,
+          "previousRanking": "NR"
+        },
+        "Texas Tech": {
+          "record": "0-0",
+          "ranking": 12,
+          "previousRanking": "NR"
+        },
+        "LSU": {
+          "record": "0-0",
+          "ranking": 13,
+          "previousRanking": "NR"
+        },
+        "USC": {
+          "record": "0-0",
+          "ranking": 14,
+          "previousRanking": "NR"
+        },
+        "BYU": {
+          "record": "0-0",
+          "ranking": 15,
+          "previousRanking": "NR"
+        },
+        "Michigan": {
+          "record": "0-0",
+          "ranking": 16,
+          "previousRanking": "NR"
+        },
+        "Penn State": {
+          "record": "0-0",
+          "ranking": 17,
+          "previousRanking": "NR"
+        },
+        "Tennessee": {
+          "record": "0-0",
+          "ranking": 18,
+          "previousRanking": "NR"
+        },
+        "Washington": {
+          "record": "0-0",
+          "ranking": 19,
+          "previousRanking": "NR"
+        },
+        "Southern Methodist": {
+          "record": "0-0",
+          "ranking": 20,
+          "previousRanking": "NR"
+        },
+        "Utah": {
+          "record": "0-0",
+          "ranking": 21,
+          "previousRanking": "NR"
+        },
+        "Iowa": {
+          "record": "0-0",
+          "ranking": 22,
+          "previousRanking": "NR"
+        },
+        "Clemson": {
+          "record": "0-0",
+          "ranking": 23,
+          "previousRanking": "NR"
+        },
+        "Houston": {
+          "record": "0-0",
+          "ranking": 24,
+          "previousRanking": "NR"
+        },
+        "Missouri": {
+          "record": "0-0",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "teams": {
+        "Ohio State": {
+          "record": "1-0",
+          "ranking": 1,
+          "previousRanking": 1
+        },
+        "Georgia": {
+          "record": "1-0",
+          "ranking": 2,
+          "previousRanking": 3
+        },
+        "Texas": {
+          "record": "1-0",
+          "ranking": 3,
+          "previousRanking": 4
+        },
+        "Notre Dame": {
+          "record": "1-0",
+          "ranking": 4,
+          "previousRanking": 5
+        },
+        "Indiana": {
+          "record": "1-0",
+          "ranking": 5,
+          "previousRanking": 6
+        },
+        "Oregon": {
+          "record": "1-0",
+          "ranking": 6,
+          "previousRanking": 2
+        },
+        "Miami": {
+          "record": "1-0",
+          "ranking": 7,
+          "previousRanking": 7
+        },
+        "LSU": {
+          "record": "1-0",
+          "ranking": 8,
+          "previousRanking": 13
+        },
+        "Texas A&M": {
+          "record": "1-0",
+          "ranking": 9,
+          "previousRanking": 8
+        },
+        "Oklahoma": {
+          "record": "1-0",
+          "ranking": 10,
+          "previousRanking": 9
+        },
+        "Ole Miss": {
+          "record": "1-0",
+          "ranking": 11,
+          "previousRanking": 10
+        },
+        "Alabama": {
+          "record": "1-0",
+          "ranking": 12,
+          "previousRanking": 11
+        },
+        "Texas Tech": {
+          "record": "1-0",
+          "ranking": 13,
+          "previousRanking": 12
+        },
+        "USC": {
+          "record": "2-0",
+          "ranking": 14,
+          "previousRanking": 14
+        },
+        "BYU": {
+          "record": "1-0",
+          "ranking": 15,
+          "previousRanking": 15
+        },
+        "Penn State": {
+          "record": "1-0",
+          "ranking": 16,
+          "previousRanking": 17
+        },
+        "Southern Methodist": {
+          "record": "1-0",
+          "ranking": 17,
+          "previousRanking": 20
+        },
+        "Tennessee": {
+          "record": "1-0",
+          "ranking": 18,
+          "previousRanking": 18
+        },
+        "Washington": {
+          "record": "1-0",
+          "ranking": 19,
+          "previousRanking": 19
+        },
+        "Utah": {
+          "record": "1-0",
+          "ranking": 20,
+          "previousRanking": 21
+        },
+        "Iowa": {
+          "record": "1-0",
+          "ranking": 21,
+          "previousRanking": 22
+        },
+        "Houston": {
+          "record": "1-0",
+          "ranking": 22,
+          "previousRanking": 24
+        },
+        "Missouri": {
+          "record": "1-0",
+          "ranking": 23,
+          "previousRanking": 25
+        },
+        "Michigan": {
+          "record": "1-0",
+          "ranking": 24,
+          "previousRanking": 16
+        },
+        "Virginia": {
+          "record": "1-0",
+          "ranking": 25,
+          "previousRanking": "NR"
+        }
+      }
+    }
+  ],
+  "cfbPlayoff": []
+}
