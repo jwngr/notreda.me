@@ -8,6 +8,7 @@ import {StatsSection} from '../common/StatsSection';
 import {ShamrockSeriesBadge} from '../ShamrockSeriesBadge';
 
 const DetailShamrockSeriesBadge = styled.span`
+  display: flex;
   margin-top: 4px;
 `;
 
