@@ -5,6 +5,7 @@ import {formatGameLocationAsString, getGameLocation} from '../../lib/locations';
 import {GameInfo} from '../../models/games.models';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
+import {ShamrockSeriesBadge} from '../ShamrockSeriesBadge';
 
 const LocationInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
@@ -136,6 +137,7 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
           {game.nickname ? <p>{game.nickname}</p> : null}
           {stadiumString ? <p>{stadiumString}</p> : null}
           <p>{locationString}</p>
+          {game.isShamrockSeries ? <ShamrockSeriesBadge showLabel /> : null}
         </StadiumLocationWrapper>
       </LocationInnerWrapper>
     </StatsSection>

@@ -2,7 +2,6 @@ import {format} from 'date-fns/format';
 import React from 'react';
 
 import {useMediaQuery} from '../hooks/useMediaQuery';
-import shamrockImage from '../images/shamrock.png';
 import {getDateFromGame, isMidnight} from '../lib/datetime';
 import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
@@ -23,9 +22,9 @@ import {
   Score,
   ScoreResult,
   ScoreTotals,
-  ShamrockSeriesLogo,
   TelevisionCoverage,
 } from './Game.styles';
+import {ShamrockSeriesBadge} from './ShamrockSeriesBadge';
 
 export const Game: React.FC<{
   readonly game: GameInfo;
@@ -115,13 +114,6 @@ export const Game: React.FC<{
     ? game.rankings?.away?.bcs || game.rankings?.away?.cfbPlayoff || game.rankings?.away?.ap
     : game.rankings?.home?.bcs || game.rankings?.home?.cfbPlayoff || game.rankings?.home?.ap;
 
-  let shamrockSeriesLogoContent: React.ReactNode = null;
-  if (game.isShamrockSeries) {
-    shamrockSeriesLogoContent = (
-      <ShamrockSeriesLogo src={shamrockImage} alt="Shamrock Series" title="Shamrock Series" />
-    );
-  }
-
   const opponent = Teams.getTeam(game.opponentId);
 
   const opponentNameContent = (
@@ -152,12 +144,13 @@ export const Game: React.FC<{
             {game.isHomeGame ? null : <AwayGamePrefix>@</AwayGamePrefix>}
             {opponentRanking ? <OpponentRanking>#{opponentRanking}</OpponentRanking> : null}
             {opponentNameContent}
+            {game.isShamrockSeries ? <ShamrockSeriesBadge mobileOnly /> : null}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
       </FlexRow>
       <Location>
         {locationString}
-        {shamrockSeriesLogoContent}
+        {game.isShamrockSeries ? <ShamrockSeriesBadge desktopOnly /> : null}
       </Location>
       {lastColumnContent}
     </GameWrapper>
