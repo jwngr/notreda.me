@@ -7,6 +7,10 @@ import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {ShamrockSeriesBadge} from '../ShamrockSeriesBadge';
 
+const DetailShamrockSeriesBadge = styled.span`
+  margin-top: 4px;
+`;
+
 const LocationInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
   height: 100%;
@@ -137,7 +141,11 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
           {game.nickname ? <p>{game.nickname}</p> : null}
           {stadiumString ? <p>{stadiumString}</p> : null}
           <p>{locationString}</p>
-          {game.isShamrockSeries ? <ShamrockSeriesBadge showLabel /> : null}
+          {game.isShamrockSeries ? (
+            <DetailShamrockSeriesBadge>
+              <ShamrockSeriesBadge showLabel />
+            </DetailShamrockSeriesBadge>
+          ) : null}
         </StadiumLocationWrapper>
       </LocationInnerWrapper>
     </StatsSection>

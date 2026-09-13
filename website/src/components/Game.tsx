@@ -1,5 +1,6 @@
 import {format} from 'date-fns/format';
 import React from 'react';
+import styled from 'styled-components';
 
 import {useMediaQuery} from '../hooks/useMediaQuery';
 import {getDateFromGame, isMidnight} from '../lib/datetime';
@@ -25,6 +26,24 @@ import {
   TelevisionCoverage,
 } from './Game.styles';
 import {ShamrockSeriesBadge} from './ShamrockSeriesBadge';
+
+const MobileShamrockSeriesBadge = styled.span`
+  display: none;
+  margin-left: 4px;
+
+  @media (max-width: 768px) {
+    display: inline-flex;
+  }
+`;
+
+const DesktopShamrockSeriesBadge = styled.span`
+  display: inline-flex;
+  margin-left: 4px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
 
 export const Game: React.FC<{
   readonly game: GameInfo;
@@ -144,13 +163,21 @@ export const Game: React.FC<{
             {game.isHomeGame ? null : <AwayGamePrefix>@</AwayGamePrefix>}
             {opponentRanking ? <OpponentRanking>#{opponentRanking}</OpponentRanking> : null}
             {opponentNameContent}
-            {game.isShamrockSeries ? <ShamrockSeriesBadge mobileOnly /> : null}
+            {game.isShamrockSeries ? (
+              <MobileShamrockSeriesBadge>
+                <ShamrockSeriesBadge />
+              </MobileShamrockSeriesBadge>
+            ) : null}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
       </FlexRow>
       <Location>
         {locationString}
-        {game.isShamrockSeries ? <ShamrockSeriesBadge desktopOnly /> : null}
+        {game.isShamrockSeries ? (
+          <DesktopShamrockSeriesBadge>
+            <ShamrockSeriesBadge />
+          </DesktopShamrockSeriesBadge>
+        ) : null}
       </Location>
       {lastColumnContent}
     </GameWrapper>
