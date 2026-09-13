@@ -27,11 +27,11 @@ import {
 } from './Game.styles';
 import {ShamrockSeriesBadge} from './ShamrockSeriesBadge';
 
-const MobileShamrockSeriesBadge = styled.span`
+const ListFallbackShamrockSeriesBadge = styled.span`
   display: none;
   margin-left: 4px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1200px) {
     display: inline-flex;
   }
 `;
@@ -40,7 +40,7 @@ const DesktopShamrockSeriesBadge = styled.span`
   display: inline-flex;
   margin-left: 4px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1200px) {
     display: none;
   }
 `;
@@ -164,9 +164,9 @@ export const Game: React.FC<{
             {opponentRanking ? <OpponentRanking>#{opponentRanking}</OpponentRanking> : null}
             {opponentNameContent}
             {game.isShamrockSeries ? (
-              <MobileShamrockSeriesBadge>
+              <ListFallbackShamrockSeriesBadge>
                 <ShamrockSeriesBadge />
-              </MobileShamrockSeriesBadge>
+              </ListFallbackShamrockSeriesBadge>
             ) : null}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
