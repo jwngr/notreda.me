@@ -334,12 +334,6 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
   }
 `;
 
-export const ShamrockSeriesLogo = styled.img`
-  width: 20px;
-  height: 20px;
-  margin-left: 4px;
-`;
-
 export const OvertimeIndicator = styled.span`
   font-size: 12px;
 `;
