@@ -38,63 +38,6 @@ const updateNdSchedule = async () => {
     throw new Error(errorMessage);
   }
 
-  if (process.argv[2] === '--stats-only') {
-    const opponentIds = process.argv.slice(3);
-    if (opponentIds.length === 0) {
-      throw new Error('Pass one or more opponent IDs after --stats-only.');
-    }
-
-    const selectedOpponentIds = new Set(opponentIds);
-    if (selectedOpponentIds.size !== opponentIds.length) {
-      throw new Error('Opponent IDs passed to --stats-only must be unique.');
-    }
-
-    const matchingGames = currentSeasonSchedule.filter(({opponentId}) =>
-      selectedOpponentIds.has(opponentId)
-    );
-    if (matchingGames.length !== selectedOpponentIds.size) {
-      const foundOpponentIds = new Set<string>(matchingGames.map(({opponentId}) => opponentId));
-      const unknownOpponentIds = opponentIds.filter(
-        (opponentId) => !foundOpponentIds.has(opponentId)
-      );
-      throw new Error(
-        `Unknown ${SEASON} schedule opponent ID(s): ${unknownOpponentIds.join(', ')}`
-      );
-    }
-
-    const updatedSchedule = await Promise.all(
-      currentSeasonSchedule.map(async (gameData) => {
-        if (!selectedOpponentIds.has(gameData.opponentId)) return gameData;
-        if (!gameData.espnGameId) {
-          throw new Error(`ESPN game ID missing for ${SEASON} ${gameData.opponentId} game`);
-        }
-
-        const gameStats = await fetchStatsForGame(gameData.espnGameId);
-        if (!gameStats) {
-          throw new Error(`ESPN has no final stats for ${SEASON} ${gameData.opponentId} game`);
-        }
-
-        const wasPreviouslyCompleted = typeof gameData.result !== 'undefined';
-        if (!wasPreviouslyCompleted) {
-          logger.warning(`Add highlights video for ${SEASON} game versus ${gameData.opponentId}`);
-        }
-
-        const homeTeamWon = gameStats.score.home > gameStats.score.away;
-        return {
-          ...gameData,
-          ...gameStats,
-          ...(!wasPreviouslyCompleted ? {headCoach: ND_HEAD_COACH} : {}),
-          result: gameData.isHomeGame === homeTeamWon ? GameResult.Win : GameResult.Loss,
-        };
-      })
-    );
-
-    logger.info(`Writing stats-only update for ${opponentIds.join(', ')}...`);
-    await NDSchedules.updateForSeason(SEASON, updatedSchedule);
-    logger.info(`Successfully updated stats for ${opponentIds.join(', ')}.`);
-    return;
-  }
-
   const espnGameStats = await Promise.all(
     _.map(currentSeasonSchedule, (gameData) => {
       const gameDate = getDateFromGame(gameData.date);
