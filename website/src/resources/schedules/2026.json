@@ -269,7 +269,8 @@
     "records": {
       "home": {"overall": "2-1", "home": "1-0", "away": "0-1", "neutral": "1-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"}
-    }
+    },
+    "rankings": {"away": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": true,
@@ -280,7 +281,8 @@
     "records": {
       "home": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"},
       "away": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"}
-    }
+    },
+    "rankings": {"home": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": false,
@@ -296,7 +298,8 @@
     "records": {
       "home": {"overall": "3-0", "home": "2-0", "away": "1-0", "neutral": "0-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"}
-    }
+    },
+    "rankings": {"away": {"ap": 3, "coaches": 3}, "home": {"ap": 9, "coaches": 9}}
   },
   {
     "isHomeGame": false,
@@ -312,7 +315,8 @@
     "records": {
       "home": {"overall": "1-2", "home": "1-0", "away": "0-2", "neutral": "0-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"}
-    }
+    },
+    "rankings": {"away": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": true,
@@ -323,7 +327,8 @@
     "records": {
       "home": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "2-0", "neutral": "0-0"}
-    }
+    },
+    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 6, "coaches": 5}}
   },
   {
     "isHomeGame": true,
@@ -334,7 +339,8 @@
     "records": {
       "home": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"},
       "away": {"overall": "2-2", "home": "2-1", "away": "0-1", "neutral": "0-0"}
-    }
+    },
+    "rankings": {"home": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": true,
@@ -345,7 +351,8 @@
     "records": {
       "home": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"},
       "away": {"overall": "2-1", "home": "1-0", "away": "1-1", "neutral": "0-0"}
-    }
+    },
+    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 22, "coaches": 25}}
   },
   {
     "isHomeGame": false,
@@ -361,6 +368,7 @@
     "records": {
       "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"}
-    }
+    },
+    "rankings": {"away": {"ap": 3, "coaches": 3}}
   }
 ]

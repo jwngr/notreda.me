@@ -125,15 +125,17 @@ function parseWikipediaWeeklyPolls(
       });
   });
 
+  const populatedWeeklyRankings = weeklyRankings.filter(({teams}) => Object.keys(teams).length > 0);
+
   // Update `previousRanking` for each team for each week now that we have full data.
-  weeklyRankings.forEach((ranking, i) => {
+  populatedWeeklyRankings.forEach((ranking, i) => {
     Object.entries(ranking.teams).forEach(([teamName, team]) => {
       (team as Writable<IndividualTeamPollData>).previousRanking =
-        i === 0 ? 'NR' : (weeklyRankings[i - 1].teams[teamName]?.ranking ?? 'NR');
+        i === 0 ? 'NR' : (populatedWeeklyRankings[i - 1].teams[teamName]?.ranking ?? 'NR');
     });
   });
 
-  return weeklyRankings;
+  return populatedWeeklyRankings;
 }
 
 export class Polls {
