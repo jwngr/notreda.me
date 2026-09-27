@@ -9,34 +9,10 @@ import {
   WeeklyIndividualPollRanking,
 } from '../../website/src/models/polls.models';
 import {TeamId, TeamRecords, TeamStats} from '../../website/src/models/teams.models';
-import {Writable} from '../../website/src/models/utils.models';
 import {Logger} from './logger';
 import {Scraper} from './scraper';
 import {Teams} from './teams';
 import {assertNever, isNumber} from './utils';
-
-const DEFAULT_TEAM_STATS: TeamStats = {
-  firstDowns: 0,
-  thirdDownAttempts: 0,
-  thirdDownConversions: 0,
-  fourthDownAttempts: 0,
-  fourthDownConversions: 0,
-  totalYards: 0,
-  passYards: 0,
-  passCompletions: 0,
-  passAttempts: 0,
-  yardsPerPass: 0,
-  interceptionsThrown: 0,
-  rushYards: 0,
-  rushAttempts: 0,
-  yardsPerRush: 0,
-  penalties: 0,
-  penaltyYards: 0,
-  possession: '',
-  // No default value is set for "fumbles" since it is optional and sometimes not available
-  // immediately after the game ends.
-  fumblesLost: 0,
-};
 
 const logger = new Logger({isSentryEnabled: false});
 
@@ -76,76 +52,128 @@ const _getEspnRankingsUrl = (season: number, weekIndex: number): string => {
 };
 
 const _getEspnTeamScheduleUrl = (season: number, espnTeamId: number): string => {
-  return `http://www.espn.com/college-football/team/schedule/_/id/${espnTeamId}/season/${season}`;
+  return `https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/${espnTeamId}/schedule?season=${season}&seasontype=2`;
 };
 
-/**
- * Attempts to extract a game's linescore table from the provided ESPN page by
- * locating a table whose header looks like: Team | 1 | 2 | 3 | 4 | [OT*] | T.
- * This avoids relying on brittle, minified CSS class names.
- */
-const _tryExtractLinescoreFrom = ($: CheerioAPI): GameLinescore | null => {
-  const normalize = (text: string) => text.replace(/\s+/g, ' ').trim();
-  const isTotalHeader = (text: string) => /^(T|TOT|TOTAL)$/i.test(text);
-  const isPeriodHeader = (text: string) => {
-    const t = text.toUpperCase();
-    return /^\d+$/.test(t) || t === 'OT' || /^\d+OT$/.test(t) || /^OT\d+$/.test(t);
+const _getEspnGameSummaryUrl = (gameId: number): string => {
+  return `https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=${gameId}`;
+};
+
+interface EspnCompetitor {
+  readonly id: string;
+  readonly homeAway: 'home' | 'away';
+  readonly score?: {readonly value?: number};
+  readonly linescores?: readonly {readonly displayValue: string}[];
+}
+
+interface EspnCompetition {
+  readonly neutralSite?: boolean;
+  readonly date?: string;
+  readonly status?: {readonly type?: {readonly completed?: boolean}};
+  readonly competitors: readonly EspnCompetitor[];
+}
+
+interface EspnEvent {
+  readonly id: string;
+  readonly competitions?: readonly EspnCompetition[];
+}
+
+interface EspnScheduleResponse {
+  readonly events: readonly EspnEvent[];
+}
+
+interface EspnSummaryResponse {
+  readonly boxscore?: {
+    readonly teams?: readonly {
+      readonly team: {readonly id: string};
+      readonly statistics: readonly {readonly label: string; readonly displayValue: string}[];
+    }[];
+    readonly players?: readonly {
+      readonly team: {readonly id: string};
+      readonly statistics: readonly {
+        readonly name: string;
+        readonly totals: readonly string[];
+        readonly athletes: readonly {readonly stats: readonly string[]}[];
+      }[];
+    }[];
   };
+  readonly header?: {readonly competitions?: readonly EspnCompetition[]};
+}
 
-  const $tables = $('table');
-
-  for (let i = 0; i < $tables.length; i += 1) {
-    const $table = $tables.eq(i);
-
-    // Determine header cells for this table.
-    let $headerCells = $table.find('thead tr').first().children('th,td');
-    if ($headerCells.length === 0) {
-      $headerCells = $table.find('tr').first().children('th,td');
-    }
-
-    const headerTexts = $headerCells
-      .map((_, cell) => normalize($(cell).text()))
-      .get()
-      .filter((t) => t.length > 0);
-
-    if (headerTexts.length < 4) continue;
-
-    const lastHeader = headerTexts[headerTexts.length - 1];
-    const middleHeaders = headerTexts.slice(1, -1);
-    const looksLikeLinescoreHeader =
-      isTotalHeader(lastHeader) && middleHeaders.filter(isPeriodHeader).length >= 2;
-    if (!looksLikeLinescoreHeader) continue;
-
-    // Extract two team rows from the body (away first, then home) and capture the
-    // period scores, skipping first (team) and last (total) cells.
-    let $rows = $table.find('tbody tr');
-    if ($rows.length === 0) {
-      // Some ESPN tables omit <tbody>. In that case, skip the header row.
-      $rows = $table.find('tr').slice(1);
-    }
-
-    const parsed: number[][] = [];
-    $rows.each((_, row) => {
-      const $cells = $(row).children('td,th');
-      if ($cells.length < 4) return; // Not enough columns to be a linescore row
-
-      const values: number[] = [];
-      for (let j = 1; j < $cells.length - 1; j += 1) {
-        const cellText = normalize($($cells[j]).text());
-        const n = Number(cellText);
-        if (!Number.isNaN(n)) values.push(n);
-      }
-
-      if (values.length >= 2) parsed.push(values);
-    });
-
-    if (parsed.length >= 2) {
-      return {away: parsed[0], home: parsed[1]};
-    }
+const _getEspnApiJson = async <T>(url: string): Promise<T> => {
+  const response = await fetch(url, {headers: {Accept: 'application/json'}});
+  if (!response.ok) {
+    throw new Error(`ESPN API request failed (${response.status}): ${url}`);
   }
 
-  return null;
+  return (await response.json()) as T;
 };
+
+const _getCompetition = (event: EspnEvent): EspnCompetition | undefined => event.competitions?.[0];
+
+const _getTeamEspnId = (teamId: TeamId): number => {
+  const {espnId} = Teams.getById(teamId);
+  if (!espnId) {
+    throw new Error(`Team ${teamId} does not have an ESPN ID.`);
+  }
+  return espnId;
+};
+
+const _emptyTeamRecord = (): {
+  wins: number;
+  losses: number;
+  homeWins: number;
+  homeLosses: number;
+  awayWins: number;
+  awayLosses: number;
+  neutralWins: number;
+  neutralLosses: number;
+} => ({
+  wins: 0,
+  losses: 0,
+  homeWins: 0,
+  homeLosses: 0,
+  awayWins: 0,
+  awayLosses: 0,
+  neutralWins: 0,
+  neutralLosses: 0,
+});
+
+const _addFinalGameToRecord = (
+  record: ReturnType<typeof _emptyTeamRecord>,
+  competition: EspnCompetition,
+  teamEspnId: number
+): void => {
+  if (!competition.status?.type?.completed) return;
+
+  const team = competition.competitors.find(({id}) => id === String(teamEspnId));
+  const opponent = competition.competitors.find(({id}) => id !== String(teamEspnId));
+  if (team?.score?.value === undefined || opponent?.score?.value === undefined) return;
+
+  const isWin = team.score.value > opponent.score.value;
+  const isLoss = team.score.value < opponent.score.value;
+  if (!isWin && !isLoss) return;
+
+  const location = competition.neutralSite ? 'neutral' : team.homeAway === 'home' ? 'home' : 'away';
+  if (isWin) {
+    record.wins += 1;
+    if (location === 'home') record.homeWins += 1;
+    else if (location === 'away') record.awayWins += 1;
+    else record.neutralWins += 1;
+  } else {
+    record.losses += 1;
+    if (location === 'home') record.homeLosses += 1;
+    else if (location === 'away') record.awayLosses += 1;
+    else record.neutralLosses += 1;
+  }
+};
+
+const _toTeamRecords = (record: ReturnType<typeof _emptyTeamRecord>): TeamRecords => ({
+  overall: `${record.wins}-${record.losses}`,
+  home: `${record.homeWins}-${record.homeLosses}`,
+  away: `${record.awayWins}-${record.awayLosses}`,
+  neutral: `${record.neutralWins}-${record.neutralLosses}`,
+});
 
 const _getPollRankingsForWeek = (
   $: CheerioAPI,
@@ -252,37 +280,17 @@ const _getPollRankingsForWeek = (
  * Returns a list of ESPN game IDs for the provided season.
  */
 export const fetchGameIdsForSeason = async (season: number): Promise<number[]> => {
-  const $ = await Scraper.get(
-    `http://www.espn.com/college-football/team/schedule/_/id/87/season/${season}`
+  const {events} = await _getEspnApiJson<EspnScheduleResponse>(
+    _getEspnTeamScheduleUrl(season, _getTeamEspnId(TeamId.ND))
   );
 
-  const gameIds: number[] = [];
-
-  const $rows = $('tr.Table__TR');
-
-  $rows.each((_, row) => {
-    const $cols = $(row).find('td');
-    if (
-      // Get game IDs for both completed (7 columns) and upcoming (5 columns).
-      ($cols.length === 5 || $cols.length === 7) &&
-      $cols.eq(0).text().trim().toLowerCase() !== 'date'
-    ) {
-      // Link has format https://www.espn.com/college-football/game/_/gameId/<GAME_ID>/<SLUG>
-      const href = $cols.eq(2).find('a').attr('href');
-      const hrefTokens = href?.split('/') ?? [];
-      const gameIdStringTokenIndex = hrefTokens.findIndex((token) => token === 'gameId');
-      if (gameIdStringTokenIndex !== -1) {
-        // The actual game ID is the token right after the "gameId" string.
-        const gameId = hrefTokens[gameIdStringTokenIndex + 1];
-
-        if (gameId) {
-          gameIds.push(Number(gameId));
-        }
-      }
+  return events.map(({id}) => {
+    const gameId = Number(id);
+    if (!Number.isInteger(gameId)) {
+      throw new Error(`ESPN returned an invalid game ID: ${id}`);
     }
+    return gameId;
   });
-
-  return gameIds;
 };
 
 /**
@@ -295,228 +303,138 @@ export const fetchStatsForGame = async (
   readonly score: GameScore;
   readonly linescore: GameLinescore;
 } | null> => {
-  const [$matchup, $boxscore] = await Promise.all([
-    Scraper.get(`http://www.espn.com/college-football/matchup?gameId=${gameId}`),
-    Scraper.get(`http://www.espn.com/college-football/boxscore?gameId=${gameId}`),
-  ]);
-
-  // Determine if we can extract a reliable linescore. If this fails, the game is
-  // likely not final yet or ESPN markup has changed significantly.
-  const extractedFromMatchup = _tryExtractLinescoreFrom($matchup);
-  const extractedFromBoxscore = extractedFromMatchup ?? _tryExtractLinescoreFrom($boxscore);
-  const extractedLinescore = extractedFromMatchup ?? extractedFromBoxscore;
-
-  if (
-    !extractedLinescore ||
-    extractedLinescore.home.length === 0 ||
-    extractedLinescore.away.length === 0
-  ) {
-    logger.error(
-      'Skipped fetching stats for game: no linescore found (not final or ESPN markup changed)',
-      {gameId}
-    );
+  const summary = await _getEspnApiJson<EspnSummaryResponse>(_getEspnGameSummaryUrl(gameId));
+  const competition = summary.header?.competitions?.[0];
+  const teams = summary.boxscore?.teams;
+  if (!competition?.status?.type?.completed || !teams?.length) {
+    logger.info('Skipped fetching stats for game that is not final or has no box score.', {gameId});
     return null;
   }
 
-  const $statsTable = $matchup('.TeamStatsTable');
+  const homeCompetitor = competition.competitors.find(({homeAway}) => homeAway === 'home');
+  const awayCompetitor = competition.competitors.find(({homeAway}) => homeAway === 'away');
+  const toLinescore = (competitor: EspnCompetitor | undefined): number[] => {
+    const scores = competitor?.linescores?.map(({displayValue}) => Number(displayValue));
+    if (!scores?.length || scores.some((score) => !Number.isFinite(score))) {
+      throw new Error(`ESPN returned an incomplete linescore for game ${gameId}.`);
+    }
+    return scores;
+  };
+  if (!homeCompetitor || !awayCompetitor) {
+    throw new Error(`ESPN returned incomplete competitors for game ${gameId}.`);
+  }
 
-  // Loop through each row in the stats table.
-  const awayStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
-  const homeStats: Writable<TeamStats> = {...DEFAULT_TEAM_STATS};
+  const linescore: GameLinescore = {
+    home: toLinescore(homeCompetitor),
+    away: toLinescore(awayCompetitor),
+  };
+  const statsByTeam = new Map(teams.map(({team, statistics}) => [team.id, statistics]));
+  const fumblesByTeam = new Map(
+    summary.boxscore?.players
+      ?.map(({team, statistics}) => {
+        const fumbleStats = statistics.find(({name}) => name === 'fumbles');
+        const teamFumbles = fumbleStats?.totals[0];
+        const playerFumbles = fumbleStats?.athletes.map(({stats}) => Number(stats[0]));
+        const fumbles =
+          typeof teamFumbles !== 'undefined'
+            ? Number(teamFumbles)
+            : playerFumbles?.length === 0
+              ? 0
+              : playerFumbles?.every(Number.isFinite)
+                ? playerFumbles.reduce((sum, value) => sum + value, 0)
+                : undefined;
+        return [team.id, fumbles] as const;
+      })
+      .filter((entry): entry is readonly [string, number] => Number.isFinite(entry[1])) ?? []
+  );
 
-  $statsTable.find('tr').each((_, row) => {
-    const rowCells = $matchup(row).children('td');
-    if (rowCells.length !== 0) {
-      const statName = $matchup(rowCells[0]).text().trim();
-      const awayValue = $matchup(rowCells[1]).text().trim();
-      const homeValue = $matchup(rowCells[2]).text().trim();
+  const readTeamStats = (teamId: string): TeamStats => {
+    const statistics = statsByTeam.get(teamId);
+    if (!statistics)
+      throw new Error(`ESPN returned no team stats for ${teamId} in game ${gameId}.`);
 
-      switch (statName) {
-        case '1st Downs':
-          awayStats.firstDowns = Number(awayValue);
-          homeStats.firstDowns = Number(homeValue);
-          break;
-        case '3rd down efficiency':
-          awayStats.thirdDownAttempts = Number(awayValue.split('-')[1]);
-          homeStats.thirdDownAttempts = Number(homeValue.split('-')[1]);
-          awayStats.thirdDownConversions = Number(awayValue.split('-')[0]);
-          homeStats.thirdDownConversions = Number(homeValue.split('-')[0]);
-          break;
-        case '4th down efficiency':
-          awayStats.fourthDownAttempts = Number(awayValue.split('-')[1]);
-          homeStats.fourthDownAttempts = Number(homeValue.split('-')[1]);
-          awayStats.fourthDownConversions = Number(awayValue.split('-')[0]);
-          homeStats.fourthDownConversions = Number(homeValue.split('-')[0]);
-          break;
-        case 'Total Yards':
-          awayStats.totalYards = Number(awayValue);
-          homeStats.totalYards = Number(homeValue);
-          break;
-        case 'Passing':
-          awayStats.passYards = Number(awayValue);
-          homeStats.passYards = Number(homeValue);
-          break;
-        case 'Comp-Att':
-          // Legacy format.
-          awayStats.passCompletions = Number(awayValue.split('-')[0]);
-          homeStats.passCompletions = Number(homeValue.split('-')[0]);
-          awayStats.passAttempts = Number(awayValue.split('-')[1]);
-          homeStats.passAttempts = Number(homeValue.split('-')[1]);
-          break;
-        case 'Comp/Att':
-          awayStats.passCompletions = Number(awayValue.split('/')[0]);
-          homeStats.passCompletions = Number(homeValue.split('/')[0]);
-          awayStats.passAttempts = Number(awayValue.split('/')[1]);
-          homeStats.passAttempts = Number(homeValue.split('/')[1]);
-          break;
-        case 'Yards per pass':
-          awayStats.yardsPerPass = Number(awayValue);
-          homeStats.yardsPerPass = Number(homeValue);
-          break;
-        case 'Interceptions thrown':
-          awayStats.interceptionsThrown = Number(awayValue);
-          homeStats.interceptionsThrown = Number(homeValue);
-          break;
-        case 'Rushing':
-          awayStats.rushYards = Number(awayValue);
-          homeStats.rushYards = Number(homeValue);
-          break;
-        case 'Rushing Attempts':
-          awayStats.rushAttempts = Number(awayValue);
-          homeStats.rushAttempts = Number(homeValue);
-          break;
-        case 'Yards per rush':
-          awayStats.yardsPerRush = Number(awayValue);
-          homeStats.yardsPerRush = Number(homeValue);
-          break;
-        case 'Penalties':
-          awayStats.penalties = Number(awayValue.split('-')[0]);
-          homeStats.penalties = Number(homeValue.split('-')[0]);
-          awayStats.penaltyYards = Number(awayValue.split('-')[1]);
-          homeStats.penaltyYards = Number(homeValue.split('-')[1]);
-          break;
-        case 'Fumbles lost':
-          awayStats.fumblesLost = Number(awayValue);
-          homeStats.fumblesLost = Number(homeValue);
-          break;
-        case 'Possession':
-          awayStats.possession = awayValue;
-          homeStats.possession = homeValue;
-          break;
-        case 'Turnovers':
-          // Ignore turnovers stat since it can be computed (interceptions + lost fumbles).
-          break;
-        default:
-          logger.error('Fetched unexpected stat name', {gameId, statName});
+    const statValues = new Map(statistics.map(({label, displayValue}) => [label, displayValue]));
+    const readNumber = (label: string): number => {
+      const value = Number(statValues.get(label));
+      if (!Number.isFinite(value)) {
+        throw new Error(`ESPN returned invalid ${label} for team ${teamId} in game ${gameId}.`);
       }
-    }
-  });
+      return value;
+    };
+    const readPair = (label: string, separator: string): [number, number] => {
+      const values = statValues.get(label)?.split(separator).map(Number);
+      if (!values || values.length !== 2 || values.some((value) => !Number.isFinite(value))) {
+        throw new Error(`ESPN returned invalid ${label} for team ${teamId} in game ${gameId}.`);
+      }
+      return [values[0], values[1]];
+    };
+    const [thirdDownConversions, thirdDownAttempts] = readPair('3rd down efficiency', '-');
+    const [fourthDownConversions, fourthDownAttempts] = readPair('4th down efficiency', '-');
+    const [passCompletions, passAttempts] = readPair('Comp/Att', '/');
+    const [penalties, penaltyYards] = readPair('Penalties', '-');
+    const fumbles = fumblesByTeam.get(teamId);
 
-  // Compute total fumbles (lost + recovered) from the boxscore page since the matchup page only
-  // provides stats for lost fumbles. ESPN usually updates this a few hours after the game ends.
-  const $boxScoreCategories = $boxscore('.Boxscore__Category');
-  $boxScoreCategories.each((_, boxScoreCategory) => {
-    const categoryName = $boxscore(boxScoreCategory).find('.TeamTitle').text().trim();
-    if (categoryName.toLowerCase().includes('fumbles')) {
-      const teamContainers = $boxscore(boxScoreCategory).find('.Boxscore__Team');
-      teamContainers.each((j, teamContainer) => {
-        const teamFumbleTotals = $boxscore(teamContainer).find('.Boxscore__Totals');
-        const teamFumblesCount = teamFumbleTotals.find('td').eq(1).text().trim() ?? 0;
+    return {
+      firstDowns: readNumber('1st Downs'),
+      thirdDownAttempts,
+      thirdDownConversions,
+      fourthDownAttempts,
+      fourthDownConversions,
+      totalYards: readNumber('Total Yards'),
+      passYards: readNumber('Passing'),
+      passCompletions,
+      passAttempts,
+      yardsPerPass: readNumber('Yards per pass'),
+      interceptionsThrown: readNumber('Interceptions thrown'),
+      rushYards: readNumber('Rushing'),
+      rushAttempts: readNumber('Rushing Attempts'),
+      yardsPerRush: readNumber('Yards per rush'),
+      penalties,
+      penaltyYards,
+      possession: statValues.get('Possession') ?? '',
+      fumblesLost: readNumber('Fumbles lost'),
+      ...(typeof fumbles === 'undefined' ? {} : {fumbles}),
+    };
+  };
 
-        if (j === 0) {
-          awayStats.fumbles = Number(teamFumblesCount);
-        } else {
-          homeStats.fumbles = Number(teamFumblesCount);
-        }
-      });
-    }
-  });
-
-  // Use the resiliently extracted linescore from above.
-  const linescore: GameLinescore = extractedLinescore;
+  const score: GameScore = {
+    home: linescore.home.reduce((sum, points) => sum + points, 0),
+    away: linescore.away.reduce((sum, points) => sum + points, 0),
+  };
 
   return {
-    stats: {away: awayStats as TeamStats, home: homeStats as TeamStats},
-    score: {
-      home: linescore.home.reduce((sum, n) => sum + n, 0),
-      away: linescore.away.reduce((sum, n) => sum + n, 0),
-    },
+    stats: {away: readTeamStats(awayCompetitor.id), home: readTeamStats(homeCompetitor.id)},
+    score,
     linescore,
   };
 };
 
 /**
- * Returns the records for the provided team during the provided season, up through but not
- * including their matchup against Notre Dame.
+ * Returns the records for the provided team during the provided season, up through and including
+ * their matchup against Notre Dame.
  */
 export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
   season: number,
   teamId: TeamId
 ): Promise<TeamRecords> => {
-  const {espnId} = Teams.getById(teamId);
-  if (!espnId) {
-    throw new Error('Team does not have an ESPN ID.');
-  }
-  const $ = await Scraper.get(_getEspnTeamScheduleUrl(season, espnId));
+  const teamEspnId = _getTeamEspnId(teamId);
+  const {events} = await _getEspnApiJson<EspnScheduleResponse>(
+    _getEspnTeamScheduleUrl(season, teamEspnId)
+  );
+  const record = _emptyTeamRecord();
+  const notreDameEspnId = _getTeamEspnId(TeamId.ND);
 
-  let wins = 0;
-  let losses = 0;
-  let homeWins = 0;
-  let homeLosses = 0;
-  let awayWins = 0;
-  let awayLosses = 0;
-  let neutralWins = 0;
-  let neutralLosses = 0;
+  for (const event of events) {
+    const competition = _getCompetition(event);
+    if (!competition) continue;
 
-  let teamAlreadyFacedNotreDame = false;
-  $('tr.Table__TR').each((_, row) => {
-    // Only fetch team records up through when they play Notre Dame for completed games (i.e., non-
-    // header rows with 7 columns).
-    const $cols = $(row).find('td');
-
-    if (!teamAlreadyFacedNotreDame && $cols.length === 7 && $cols.eq(0).text().trim() !== 'Date') {
-      const gameInfo = $cols.eq(1).text().trim();
-      const gameResult = $cols.eq(2).text().trim()[0];
-
-      // Bowl games are played at neutral sites and do not indicate either side with an @.
-      let locationKey: 'home' | 'away' | 'neutral';
-      if (gameInfo.endsWith('*')) {
-        // ESPN uses an asterisk to denote neutral site games.
-        locationKey = 'neutral';
-      } else {
-        locationKey = !gameInfo.includes('@') ? 'home' : 'away';
-      }
-
-      if (gameResult === 'W') {
-        wins += 1;
-        if (locationKey === 'home') {
-          homeWins += 1;
-        } else if (locationKey === 'away') {
-          awayWins += 1;
-        } else {
-          neutralWins += 1;
-        }
-      } else if (gameResult === 'L') {
-        losses += 1;
-        if (locationKey === 'home') {
-          homeLosses += 1;
-        } else if (locationKey === 'away') {
-          awayLosses += 1;
-        } else {
-          neutralLosses += 1;
-        }
-      }
-
-      teamAlreadyFacedNotreDame = gameInfo.includes('Notre Dame');
+    _addFinalGameToRecord(record, competition, teamEspnId);
+    if (competition.competitors.some(({id}) => id === String(notreDameEspnId))) {
+      break;
     }
-  });
+  }
 
-  return {
-    overall: `${wins}-${losses}`,
-    home: `${homeWins}-${homeLosses}`,
-    away: `${awayWins}-${awayLosses}`,
-    neutral: `${neutralWins}-${neutralLosses}`,
-  };
+  return _toTeamRecords(record);
 };
 
 /**
@@ -525,79 +443,17 @@ export const fetchTeamRecordUpThroughNotreDameGameForSeason = async (
 export const fetchNotreDameWeeklyRecordsForSeason = async (
   season: number
 ): Promise<readonly TeamRecords[]> => {
-  // TODO: Re-use fetchTeamRecordUpThroughNotreDameGameForSeason() instead of copying it.
+  const teamEspnId = _getTeamEspnId(TeamId.ND);
+  const {events} = await _getEspnApiJson<EspnScheduleResponse>(
+    _getEspnTeamScheduleUrl(season, teamEspnId)
+  );
+  const record = _emptyTeamRecord();
 
-  const {espnId} = Teams.getById(TeamId.ND);
-  if (!espnId) {
-    throw new Error('Notre Dame does not have an ESPN ID.');
-  }
-  const $ = await Scraper.get(_getEspnTeamScheduleUrl(season, espnId));
-
-  let wins = 0;
-  let losses = 0;
-  let homeWins = 0;
-  let homeLosses = 0;
-  let awayWins = 0;
-  let awayLosses = 0;
-  let neutralWins = 0;
-  let neutralLosses = 0;
-
-  const weeklyRecords: TeamRecords[] = [];
-
-  $('tr.Table__TR').each((_, row) => {
-    const $cols = $(row).find('td');
-
-    // Ignore rows which are headers or do not have the proper number of columns (e.g., bowl games
-    // have a header row above them which say the bowl's name).
-    const isIgnoredRow =
-      $cols.eq(0).text().trim().toLowerCase() === 'date' ||
-      ($cols.length !== 5 && $cols.length !== 7);
-
-    if (!isIgnoredRow) {
-      if ($cols.length === 7) {
-        const gameInfo = $cols.eq(1).text().trim();
-        const gameResult = $cols.eq(2).text().trim()[0];
-
-        // Bowl games are played at neutral sites and do not indicate either side with an @.
-        let locationKey: 'home' | 'away' | 'neutral';
-        if (gameInfo.endsWith('*')) {
-          // ESPN uses an asterisk to denote neutral site games.
-          locationKey = 'neutral';
-        } else {
-          locationKey = !gameInfo.includes('@') ? 'home' : 'away';
-        }
-
-        if (gameResult === 'W') {
-          wins += 1;
-          if (locationKey === 'home') {
-            homeWins += 1;
-          } else if (locationKey === 'away') {
-            awayWins += 1;
-          } else {
-            neutralWins += 1;
-          }
-        } else if (gameResult === 'L') {
-          losses += 1;
-          if (locationKey === 'home') {
-            homeLosses += 1;
-          } else if (locationKey === 'away') {
-            awayLosses += 1;
-          } else {
-            neutralLosses += 1;
-          }
-        }
-      }
-
-      weeklyRecords.push({
-        overall: `${wins}-${losses}`,
-        home: `${homeWins}-${homeLosses}`,
-        away: `${awayWins}-${awayLosses}`,
-        neutral: `${neutralWins}-${neutralLosses}`,
-      });
-    }
+  return events.map((event) => {
+    const competition = _getCompetition(event);
+    if (competition) _addFinalGameToRecord(record, competition, teamEspnId);
+    return _toTeamRecords(record);
   });
-
-  return weeklyRecords;
 };
 
 /**
@@ -647,13 +503,12 @@ export const fetchPollsForSeason = async ({
 /**
  * Returns the kickoff time for the provided game. If the game has not yet been assigned a kickoff
  * time, returns 'TBD'.
- * TODO: This is currently broken and always returns 'TBD'.
  */
 export const fetchKickoffTimeForGame = async (espnGameId: number): Promise<Date | 'TBD'> => {
-  const $ = await Scraper.get(`https://www.espn.com/college-football/game/_/gameId/${espnGameId}`);
-  const $gameStatusSpan = $('.game-date-time > span').eq(0);
-  const gameKickoffTime = $gameStatusSpan.attr('data-date');
-  const isKickoffTimeTbd = $gameStatusSpan.find('.game-date').attr('data-istbd') === 'true';
+  const summary = await _getEspnApiJson<EspnSummaryResponse>(_getEspnGameSummaryUrl(espnGameId));
+  const kickoffTime = summary.header?.competitions?.[0]?.date;
+  if (!kickoffTime) return 'TBD';
 
-  return isKickoffTimeTbd || !gameKickoffTime ? 'TBD' : new Date(gameKickoffTime);
+  const date = new Date(kickoffTime);
+  return Number.isNaN(date.getTime()) ? 'TBD' : date;
 };
