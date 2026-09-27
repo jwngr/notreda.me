@@ -41,7 +41,8 @@ export class NDSchedules {
   ): Promise<void> {
     const filePath = `${ND_SCHEDULES_DATA_DIRECTORY}/${season}.json`;
     const jsonData = JSON.stringify(seasonScheduleData, null, 2);
-    const formattedData = await prettier.format(jsonData, {parser: 'json'});
+    const prettierConfig = await prettier.resolveConfig(filePath);
+    const formattedData = await prettier.format(jsonData, {...prettierConfig, parser: 'json'});
 
     await fs.writeFile(filePath, formattedData);
   }
