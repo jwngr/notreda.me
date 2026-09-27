@@ -191,7 +191,7 @@
   },
   {
     "isHomeGame": false,
-    "date": "09/26/2026",
+    "date": "Sat Sep 26 2026 14:00:00 GMT-0400",
     "espnGameId": 401858467,
     "highlightsYouTubeVideoId": "0yhQi6S49ak",
     "location": {
@@ -253,11 +253,12 @@
     "linescore": {"home": [0, 0, 3, 7], "away": [7, 28, 0, 14]},
     "headCoach": "Marcus Freeman",
     "result": "W",
+    "coverage": ["PEACOCK"],
     "rankings": {"away": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": false,
-    "date": "10/03/2026",
+    "date": "Sat Oct 03 2026 12:00:00 GMT-0400",
     "espnGameId": 401858250,
     "location": {
       "city": "Chapel Hill",
@@ -270,6 +271,7 @@
       "home": {"overall": "2-1", "home": "1-0", "away": "0-1", "neutral": "1-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "1-0", "neutral": "1-0"}
     },
+    "coverage": ["ESPN"],
     "rankings": {"away": {"ap": 3, "coaches": 3}}
   },
   {
