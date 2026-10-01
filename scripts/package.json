@@ -7,7 +7,7 @@
     "node": "24.16.0"
   },
   "dependencies": {
-    "@sentry/node": "10.69.0",
+    "@sentry/node": "11.1.0",
     "chalk": "6.0.0",
     "cheerio": "1.2.0",
     "date-fns": "4.4.0",
