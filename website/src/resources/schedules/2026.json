@@ -386,8 +386,9 @@
   },
   {
     "isHomeGame": false,
-    "date": "10/17/2026",
+    "date": "Sat Oct 17 2026 19:30:00 GMT-0400",
     "espnGameId": 401856809,
+    "coverage": ["ABC"],
     "opponentId": "BYU",
     "location": {
       "city": "Provo",
@@ -405,6 +406,7 @@
     "isHomeGame": false,
     "date": "Sat Oct 31 2026 12:00:00 GMT-0400",
     "espnGameId": 401859185,
+    "coverage": ["ABC", "ESPN"],
     "opponentId": "NAVY",
     "location": {
       "city": "Foxborough",
