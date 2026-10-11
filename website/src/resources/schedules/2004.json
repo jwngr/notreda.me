@@ -129,6 +129,7 @@
   {
     "result": "W",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Sep 18, 2004 22:00:00 GMT-0400",
     "location": {
       "city": "East Lansing",
@@ -632,6 +633,7 @@
   {
     "result": "L",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Nov 27, 2004 23:00:00 GMT-0500",
     "location": {
       "city": "Los Angeles",

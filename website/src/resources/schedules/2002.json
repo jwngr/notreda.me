@@ -116,6 +116,7 @@
   {
     "result": "W",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sun Oct 20, 2002 01:00:00 GMT-0400",
     "location": {
       "city": "Colorado Springs",
@@ -139,6 +140,7 @@
   {
     "result": "W",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Oct 26, 2002 15:00:00 GMT-0400",
     "location": {
       "city": "Tallahassee",

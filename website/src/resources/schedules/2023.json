@@ -258,6 +258,7 @@
   },
   {
     "isHomeGame": true,
+    "isCollegeGameDay": true,
     "date": "Sat Sep 23 2023 19:30:00 GMT-0400",
     "coverage": ["NBC"],
     "opponentId": "OSU",
@@ -319,6 +320,7 @@
   },
   {
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Sep 30 2023 19:30:00 GMT-0400",
     "coverage": ["ABC"],
     "location": {

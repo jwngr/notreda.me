@@ -3,11 +3,17 @@ import styled from 'styled-components';
 
 import {formatGameLocationAsString, getGameLocation} from '../../lib/locations';
 import {GameInfo} from '../../models/games.models';
+import {CollegeGameDayBadge} from '../CollegeGameDayBadge';
 import {FlexColumn, FlexRow} from '../common/Flex';
 import {StatsSection} from '../common/StatsSection';
 import {ShamrockSeriesBadge} from '../ShamrockSeriesBadge';
 
 const DetailShamrockSeriesBadge = styled.span`
+  display: flex;
+  margin-top: 4px;
+`;
+
+const DetailCollegeGameDayBadge = styled.span`
   display: flex;
   margin-top: 4px;
 `;
@@ -146,6 +152,11 @@ export const Location: React.FC<{readonly game: GameInfo; readonly season: numbe
             <DetailShamrockSeriesBadge>
               <ShamrockSeriesBadge showLabel />
             </DetailShamrockSeriesBadge>
+          ) : null}
+          {game.isCollegeGameDay ? (
+            <DetailCollegeGameDayBadge>
+              <CollegeGameDayBadge showLabel />
+            </DetailCollegeGameDayBadge>
           ) : null}
         </StadiumLocationWrapper>
       </LocationInnerWrapper>

@@ -27,6 +27,7 @@ export function validateMiscellaneous(
       isNeutralSiteGame,
       highlightsYouTubeVideoId,
       isLatestGameCompletedGame,
+      isCollegeGameDay,
     },
     seasonScheduleData,
   ]: [GameInfoWithVacatedWin, readonly GameInfo[]],
@@ -37,6 +38,12 @@ export function validateMiscellaneous(
   assert(Teams.existsById(opponentId), 'Opponent ID must correspond to a valid team.', {
     opponentId,
   });
+
+  assert(
+    typeof isCollegeGameDay === 'undefined' || isCollegeGameDay === true,
+    'College GameDay games should set isCollegeGameDay to true.',
+    {isCollegeGameDay}
+  );
 
   if (isGameOver) {
     // Completed games.

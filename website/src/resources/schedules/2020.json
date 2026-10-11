@@ -384,6 +384,7 @@
   },
   {
     "isHomeGame": true,
+    "isCollegeGameDay": true,
     "date": "Sat Nov 07 2020 19:30:00 GMT-0500",
     "coverage": ["NBC"],
     "opponentId": "CLEM",
@@ -649,6 +650,7 @@
   {
     "isNeutralSiteGame": true,
     "isHomeGame": true,
+    "isCollegeGameDay": true,
     "date": "Sat Dec 19 2020 16:00:00 GMT-0500",
     "nickname": "ACC Championship Game",
     "coverage": ["ABC"],

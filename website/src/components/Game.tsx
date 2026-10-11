@@ -7,6 +7,7 @@ import {getDateFromGame, isMidnight} from '../lib/datetime';
 import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
 import {GameInfo, GameResult} from '../models/games.models';
+import {CollegeGameDayBadge} from './CollegeGameDayBadge';
 import {FlexRow} from './common/Flex';
 import {TVNetworkLogo} from './common/TVNetworkLogo';
 import {
@@ -27,6 +28,24 @@ import {
   TelevisionNetworkLogo,
 } from './Game.styles';
 import {ShamrockSeriesBadge} from './ShamrockSeriesBadge';
+
+const ListFallbackCollegeGameDayBadge = styled.span`
+  display: none;
+  margin-left: 4px;
+
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1200px) {
+    display: inline-flex;
+  }
+`;
+
+const DesktopCollegeGameDayBadge = styled.span`
+  display: inline-flex;
+  margin-left: 4px;
+
+  @media (max-width: 600px), (min-width: 950px) and (max-width: 1200px) {
+    display: none;
+  }
+`;
 
 const ListFallbackShamrockSeriesBadge = styled.span`
   display: none;
@@ -171,6 +190,11 @@ export const Game: React.FC<{
                 <ShamrockSeriesBadge />
               </ListFallbackShamrockSeriesBadge>
             ) : null}
+            {game.isCollegeGameDay ? (
+              <ListFallbackCollegeGameDayBadge>
+                <CollegeGameDayBadge />
+              </ListFallbackCollegeGameDayBadge>
+            ) : null}
           </OpponentDetailsWrapper>
         </DateOpponentDetailsWrapper>
       </FlexRow>
@@ -180,6 +204,11 @@ export const Game: React.FC<{
           <DesktopShamrockSeriesBadge>
             <ShamrockSeriesBadge />
           </DesktopShamrockSeriesBadge>
+        ) : null}
+        {game.isCollegeGameDay ? (
+          <DesktopCollegeGameDayBadge>
+            <CollegeGameDayBadge />
+          </DesktopCollegeGameDayBadge>
         ) : null}
       </Location>
       {lastColumnContent}
