@@ -241,13 +241,7 @@ export const ScoreTotals = styled.div<ScoreTotalsProps>`
       : null}
 `;
 
-interface TelevisionCoverageProps {
-  readonly $network: TVNetwork;
-}
-
-export const TelevisionCoverage = styled(FlexRow).attrs({
-  justify: 'center',
-})<TelevisionCoverageProps>`
+export const TelevisionCoverage = styled(FlexRow).attrs({justify: 'center'})`
   min-width: 120px;
 
   p {
@@ -257,7 +251,26 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
     white-space: nowrap;
   }
 
+  @media (max-width: 600px) {
+    min-width: 100px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+`;
+
+interface TelevisionNetworkLogoProps {
+  readonly $network: TVNetwork;
+}
+
+export const TelevisionNetworkLogo = styled.span<TelevisionNetworkLogoProps>`
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
   img {
+    display: block;
     height: ${({$network}) => {
       switch ($network) {
         case TVNetwork.ESPN2:
@@ -290,21 +303,15 @@ export const TelevisionCoverage = styled(FlexRow).attrs({
           assertNever($network);
       }
     }};
-    margin-left: 10px;
   }
 
   @media (max-width: 600px) {
-    min-width: 100px;
-
-    p {
-      font-size: 14px;
-    }
-
     img {
       height: ${({$network}) => {
         switch ($network) {
           case TVNetwork.ESPN:
           case TVNetwork.ESPN2:
+            return '8px';
           case TVNetwork.Peacock:
             return '10px';
           case TVNetwork.FOX:

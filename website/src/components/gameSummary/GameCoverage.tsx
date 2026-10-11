@@ -13,6 +13,7 @@ import {Location} from './Location';
 const CoverageInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   width: 100%;
   height: 100%;
+  gap: 16px;
 
   p {
     font-size: 16px;
@@ -23,6 +24,11 @@ const CoverageInnerWrapper = styled(FlexRow).attrs({justify: 'center'})`
   p:last-of-type {
     margin-bottom: 0;
   }
+`;
+
+const ChannelLogos = styled(FlexRow).attrs({justify: 'center', align: 'center'})`
+  flex-shrink: 0;
+  gap: 12px;
 `;
 
 interface DateAndTimeWrapperProps {
@@ -36,8 +42,13 @@ interface ChannelLogoProps {
 }
 
 const ChannelLogo = styled.div<ChannelLogoProps>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
   img {
-    margin-right: 16px;
+    display: block;
     width: ${({$network}) => {
       switch ($network) {
         case TVNetwork.ABC:
@@ -71,6 +82,16 @@ const ChannelLogo = styled.div<ChannelLogoProps>`
           assertNever($network);
       }
     }};
+  }
+
+  & > p {
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      max-width: 45px;
+    }
   }
 `;
 
@@ -152,24 +173,28 @@ export const GameCoverage: React.FC<{readonly game: GameInfo; readonly season: n
     const isFutureGameWithoutCoverage = !isGameOver && !game.coverage;
     if (isFutureGameWithoutCoverage) {
       tvCoverageContent = (
-        <ChannelLogo $network={TVNetwork.Unknown}>
-          <TVNetworkLogo network={TVNetwork.Unknown} />
-        </ChannelLogo>
+        <ChannelLogos>
+          <ChannelLogo $network={TVNetwork.Unknown}>
+            <TVNetworkLogo network={TVNetwork.Unknown} />
+          </ChannelLogo>
+        </ChannelLogos>
       );
     } else if (game.coverage && game.coverage.length > 0) {
       // Otherwise, display the TV channel icons.
       const networks = game.coverage;
-      const primaryNetwork = networks[0]; // Use first network as primary for styling
 
       const channelLogo = (
-        <ChannelLogo $network={primaryNetwork}>
+        <ChannelLogos>
           {networks.map((network, index) => (
-            <TVNetworkLogo key={index} network={network} />
+            <ChannelLogo key={`${network}-${index}`} $network={network}>
+              <TVNetworkLogo network={network} />
+            </ChannelLogo>
           ))}
-        </ChannelLogo>
+        </ChannelLogos>
       );
 
       // For future games, link to the primary network's streaming site
+      const primaryNetwork = networks[0];
       const channelUrl = getTvChannelUrl(primaryNetwork);
       tvCoverageContent =
         isGameOver || !channelUrl ? (

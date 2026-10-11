@@ -6,9 +6,9 @@ import {useMediaQuery} from '../hooks/useMediaQuery';
 import {getDateFromGame, isMidnight} from '../lib/datetime';
 import {formatGameLocationAsString, getGameLocation} from '../lib/locations';
 import {Teams} from '../lib/teams';
-import {GameInfo, GameResult, TVNetwork} from '../models/games.models';
+import {GameInfo, GameResult} from '../models/games.models';
 import {FlexRow} from './common/Flex';
-import {TVNetworkLogos} from './common/TVNetworkLogo';
+import {TVNetworkLogo} from './common/TVNetworkLogo';
 import {
   AwayGamePrefix,
   DateOpponentDetailsWrapper,
@@ -24,6 +24,7 @@ import {
   ScoreResult,
   ScoreTotals,
   TelevisionCoverage,
+  TelevisionNetworkLogo,
 } from './Game.styles';
 import {ShamrockSeriesBadge} from './ShamrockSeriesBadge';
 
@@ -56,13 +57,13 @@ export const Game: React.FC<{
   let lastColumnContent: React.ReactNode;
   if (game.isCanceled) {
     lastColumnContent = (
-      <TelevisionCoverage $network={TVNetwork.Unknown}>
+      <TelevisionCoverage>
         <p>Canceled</p>
       </TelevisionCoverage>
     );
   } else if (game.isPostponed) {
     lastColumnContent = (
-      <TelevisionCoverage $network={TVNetwork.Unknown}>
+      <TelevisionCoverage>
         <p>Posponed</p>
       </TelevisionCoverage>
     );
@@ -101,7 +102,7 @@ export const Game: React.FC<{
     );
   } else if (gameDate === 'TBD' || isMidnight(gameDate)) {
     lastColumnContent = (
-      <TelevisionCoverage $network={TVNetwork.Unknown}>
+      <TelevisionCoverage>
         <p>TBD</p>
       </TelevisionCoverage>
     );
@@ -109,11 +110,13 @@ export const Game: React.FC<{
     const time = format(gameDate, 'h:mm a');
 
     lastColumnContent = (
-      <TelevisionCoverage
-        $network={game.coverage && game.coverage.length > 0 ? game.coverage[0] : TVNetwork.Unknown}
-      >
+      <TelevisionCoverage>
         <p>{time}</p>
-        {game.coverage ? <TVNetworkLogos networks={game.coverage} /> : null}
+        {game.coverage?.map((network) => (
+          <TelevisionNetworkLogo key={network} $network={network}>
+            <TVNetworkLogo network={network} />
+          </TelevisionNetworkLogo>
+        ))}
       </TelevisionCoverage>
     );
   }
