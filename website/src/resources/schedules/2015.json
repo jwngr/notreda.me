@@ -256,6 +256,7 @@
   {
     "result": "L",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Oct 03, 2015 23:00:00 GMT-0400",
     "coverage": ["ABC"],
     "location": {
@@ -448,6 +449,7 @@
   {
     "result": "W",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Oct 31, 2015 23:00:00 GMT-0400",
     "coverage": ["ABC"],
     "location": {

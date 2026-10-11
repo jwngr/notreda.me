@@ -1,6 +1,7 @@
 [
   {
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Aug 31 2024 19:30:00 GMT-0400",
     "coverage": ["ABC"],
     "location": {
@@ -776,6 +777,7 @@
     "isBowlGame": true,
     "espnGameId": 401677179,
     "nickname": "College Football Playoff First Round Game",
+    "isCollegeGameDay": true,
     "date": "Sat Dec 20 2024 18:00:00 GMT-0700",
     "coverage": ["ABC"],
     "opponentId": "IND",
@@ -910,6 +912,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677189,
     "nickname": "College Football Playoff Semifinal at the Orange Bowl",
+    "isCollegeGameDay": true,
     "date": "Thu Jan 09 2025 17:30:00 GMT-0700",
     "coverage": ["ESPN"],
     "highlightsYouTubeVideoId": "uX_zcBD7DE0",
@@ -980,6 +983,7 @@
     "isNeutralSiteGame": true,
     "espnGameId": 401677192,
     "nickname": "College Football Playoff Championship",
+    "isCollegeGameDay": true,
     "date": "Mon Jan 20 2025 17:30:00 GMT-0700",
     "highlightsYouTubeVideoId": "QgeJ9Sgyz8Q",
     "coverage": ["ESPN"],

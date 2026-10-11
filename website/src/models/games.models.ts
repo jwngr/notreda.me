@@ -69,6 +69,8 @@ export interface GameInfo {
   readonly isBowlGame?: boolean;
   /** True if this was a game in the Shamrock Series. */
   readonly isShamrockSeries?: boolean;
+  /** True if ESPN College GameDay was at this game. */
+  readonly isCollegeGameDay?: boolean;
   /** True if the game was canceled. */
   readonly isCanceled?: boolean;
   /** True if the game was postponed. */

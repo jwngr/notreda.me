@@ -2,6 +2,7 @@
   {
     "result": "W",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Sep 03, 2005 23:00:00 GMT-0400",
     "location": {
       "city": "Pittsburgh",
@@ -332,6 +333,7 @@
   {
     "result": "L",
     "isHomeGame": true,
+    "isCollegeGameDay": true,
     "date": "Sat Oct 15, 2005 18:30:00 GMT-0400",
     "opponentId": "USC",
     "score": {"away": 34, "home": 31},

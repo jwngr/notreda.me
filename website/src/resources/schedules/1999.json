@@ -19,6 +19,7 @@
   {
     "result": "L",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Sep 04, 1999 18:30:00 GMT-0400",
     "location": {
       "city": "Ann Arbor",
@@ -140,6 +141,7 @@
   {
     "result": "L",
     "isHomeGame": false,
+    "isCollegeGameDay": true,
     "date": "Sat Nov 06, 1999 22:30:00 GMT-0500",
     "location": {
       "city": "Knoxville",
