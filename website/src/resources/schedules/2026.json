@@ -401,7 +401,7 @@
       "home": {"overall": "3-0", "home": "2-0", "away": "1-0", "neutral": "0-0"},
       "away": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"}
     },
-    "rankings": {"away": {"ap": 3, "coaches": 3}, "home": {"ap": 10, "coaches": 9}}
+    "rankings": {"away": {"ap": 2, "coaches": 2}, "home": {"ap": 8, "coaches": 8}}
   },
   {
     "isHomeGame": false,
@@ -419,7 +419,7 @@
       "home": {"overall": "1-3", "home": "1-0", "away": "0-3", "neutral": "0-0"},
       "away": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"}
     },
-    "rankings": {"away": {"ap": 3, "coaches": 3}}
+    "rankings": {"away": {"ap": 2, "coaches": 2}}
   },
   {
     "isHomeGame": true,
@@ -431,7 +431,7 @@
       "home": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"},
       "away": {"overall": "4-0", "home": "2-0", "away": "2-0", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 4, "coaches": 4}}
+    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 3, "coaches": 3}}
   },
   {
     "isHomeGame": true,
@@ -443,7 +443,7 @@
       "home": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"},
       "away": {"overall": "2-3", "home": "2-1", "away": "0-2", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 3, "coaches": 3}}
+    "rankings": {"home": {"ap": 2, "coaches": 2}}
   },
   {
     "isHomeGame": true,
@@ -455,7 +455,7 @@
       "home": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"},
       "away": {"overall": "4-1", "home": "3-0", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 3, "coaches": 3}, "away": {"ap": 21, "coaches": 19}}
+    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 24, "coaches": 22}}
   },
   {
     "isHomeGame": false,
@@ -472,6 +472,6 @@
       "home": {"overall": "1-2", "home": "1-1", "away": "0-1", "neutral": "0-0"},
       "away": {"overall": "5-0", "home": "2-0", "away": "2-0", "neutral": "1-0"}
     },
-    "rankings": {"away": {"ap": 3, "coaches": 3}}
+    "rankings": {"away": {"ap": 2, "coaches": 2}}
   }
 ]
