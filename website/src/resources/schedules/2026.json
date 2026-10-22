@@ -468,7 +468,7 @@
       "home": {"overall": "2-4", "home": "2-0", "away": "0-4", "neutral": "0-0"},
       "away": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"}
     },
-    "rankings": {"away": {"ap": 2, "coaches": 2}}
+    "rankings": {"away": {"ap": 4, "coaches": 8}}
   },
   {
     "isHomeGame": true,
@@ -480,7 +480,7 @@
       "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
       "away": {"overall": "6-0", "home": "3-0", "away": "3-0", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 3, "coaches": 3}}
+    "rankings": {"home": {"ap": 4, "coaches": 8}, "away": {"ap": 1, "coaches": 1}}
   },
   {
     "isHomeGame": true,
@@ -492,7 +492,7 @@
       "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
       "away": {"overall": "3-3", "home": "3-1", "away": "0-2", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 2, "coaches": 2}}
+    "rankings": {"home": {"ap": 4, "coaches": 8}}
   },
   {
     "isHomeGame": true,
@@ -504,7 +504,7 @@
       "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
       "away": {"overall": "5-1", "home": "4-0", "away": "1-1", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 2, "coaches": 2}, "away": {"ap": 24, "coaches": 22}}
+    "rankings": {"home": {"ap": 4, "coaches": 8}, "away": {"ap": 23, "coaches": 20}}
   },
   {
     "isHomeGame": false,
@@ -521,6 +521,6 @@
       "home": {"overall": "2-4", "home": "1-2", "away": "1-2", "neutral": "0-0"},
       "away": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"}
     },
-    "rankings": {"away": {"ap": 2, "coaches": 2}}
+    "rankings": {"away": {"ap": 4, "coaches": 8}}
   }
 ]

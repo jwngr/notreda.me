@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "24.16.0"
+    "node": "24.22.1"
   },
   "dependencies": {
     "@sentry/node": "10.69.0",
