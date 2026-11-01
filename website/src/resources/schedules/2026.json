@@ -294,7 +294,7 @@
         "penaltyYards": 32,
         "possession": "37:04",
         "fumblesLost": 0,
-        "fumbles": 1
+        "fumbles": 2
       },
       "home": {
         "firstDowns": 18,
@@ -302,11 +302,11 @@
         "thirdDownConversions": 5,
         "fourthDownAttempts": 1,
         "fourthDownConversions": 1,
-        "totalYards": 285,
-        "passYards": 208,
+        "totalYards": 286,
+        "passYards": 209,
         "passCompletions": 17,
         "passAttempts": 28,
-        "yardsPerPass": 7.4,
+        "yardsPerPass": 7.5,
         "interceptionsThrown": 2,
         "rushYards": 77,
         "rushAttempts": 23,
@@ -428,7 +428,7 @@
         "interceptionsThrown": 1,
         "rushYards": 121,
         "rushAttempts": 30,
-        "yardsPerRush": 4.0,
+        "yardsPerRush": 4,
         "penalties": 4,
         "penaltyYards": 35,
         "possession": "29:02",
@@ -456,6 +456,7 @@
     "isHomeGame": false,
     "date": "Sat Oct 31 2026 12:00:00 GMT-0400",
     "espnGameId": 401859185,
+    "highlightsYouTubeVideoId": "RHIpwpeZQ48",
     "coverage": ["ABC", "ESPN"],
     "opponentId": "NAVY",
     "location": {
@@ -465,10 +466,58 @@
       "coordinates": [42.0909, -71.2643]
     },
     "records": {
-      "home": {"overall": "2-4", "home": "2-0", "away": "0-4", "neutral": "0-0"},
-      "away": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"}
+      "home": {"overall": "2-6", "home": "2-1", "away": "0-4", "neutral": "0-1"},
+      "away": {"overall": "7-1", "home": "3-0", "away": "2-1", "neutral": "2-0"}
     },
-    "rankings": {"away": {"ap": 4, "coaches": 8}}
+    "headCoach": "Marcus Freeman",
+    "stats": {
+      "away": {
+        "firstDowns": 25,
+        "thirdDownAttempts": 8,
+        "thirdDownConversions": 3,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 2,
+        "totalYards": 426,
+        "passYards": 222,
+        "passCompletions": 20,
+        "passAttempts": 30,
+        "yardsPerPass": 7.4,
+        "interceptionsThrown": 0,
+        "rushYards": 204,
+        "rushAttempts": 29,
+        "yardsPerRush": 7,
+        "penalties": 2,
+        "penaltyYards": 25,
+        "possession": "27:20",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 15,
+        "thirdDownAttempts": 12,
+        "thirdDownConversions": 4,
+        "fourthDownAttempts": 3,
+        "fourthDownConversions": 2,
+        "totalYards": 245,
+        "passYards": 33,
+        "passCompletions": 5,
+        "passAttempts": 9,
+        "yardsPerPass": 3.7,
+        "interceptionsThrown": 0,
+        "rushYards": 212,
+        "rushAttempts": 48,
+        "yardsPerRush": 4.4,
+        "penalties": 8,
+        "penaltyYards": 86,
+        "possession": "32:40",
+        "fumblesLost": 0,
+        "fumbles": 1
+      }
+    },
+    "score": {"home": 13, "away": 35},
+    "linescore": {"home": [3, 10, 0, 0], "away": [7, 7, 14, 7]},
+    "result": "W",
+    "rankings": {"away": {"ap": 5, "coaches": 6}}
   },
   {
     "isHomeGame": true,
@@ -477,10 +526,10 @@
     "coverage": ["NBC"],
     "opponentId": "MIAMI",
     "records": {
-      "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
-      "away": {"overall": "6-0", "home": "3-0", "away": "3-0", "neutral": "0-0"}
+      "home": {"overall": "7-1", "home": "3-0", "away": "2-1", "neutral": "2-0"},
+      "away": {"overall": "8-0", "home": "4-0", "away": "4-0", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 4, "coaches": 8}, "away": {"ap": 1, "coaches": 1}}
+    "rankings": {"home": {"ap": 4, "coaches": 6}, "away": {"ap": 1, "coaches": 1}}
   },
   {
     "isHomeGame": true,
@@ -489,10 +538,10 @@
     "coverage": ["NBC"],
     "opponentId": "BC",
     "records": {
-      "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
-      "away": {"overall": "3-3", "home": "3-1", "away": "0-2", "neutral": "0-0"}
+      "home": {"overall": "7-1", "home": "3-0", "away": "2-1", "neutral": "2-0"},
+      "away": {"overall": "4-4", "home": "3-1", "away": "1-3", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 4, "coaches": 8}}
+    "rankings": {"home": {"ap": 4, "coaches": 6}}
   },
   {
     "isHomeGame": true,
@@ -501,10 +550,10 @@
     "coverage": ["NBC"],
     "opponentId": "SMU",
     "records": {
-      "home": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"},
-      "away": {"overall": "5-1", "home": "4-0", "away": "1-1", "neutral": "0-0"}
+      "home": {"overall": "7-1", "home": "3-0", "away": "2-1", "neutral": "2-0"},
+      "away": {"overall": "6-2", "home": "5-0", "away": "1-2", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 4, "coaches": 8}, "away": {"ap": 23, "coaches": 20}}
+    "rankings": {"home": {"ap": 4, "coaches": 6}, "away": {"coaches": 24}}
   },
   {
     "isHomeGame": false,
@@ -518,9 +567,9 @@
       "coordinates": [43.036062, -76.136434]
     },
     "records": {
-      "home": {"overall": "2-4", "home": "1-2", "away": "1-2", "neutral": "0-0"},
-      "away": {"overall": "6-1", "home": "3-0", "away": "2-1", "neutral": "1-0"}
+      "home": {"overall": "4-4", "home": "2-2", "away": "2-2", "neutral": "0-0"},
+      "away": {"overall": "7-1", "home": "3-0", "away": "2-1", "neutral": "2-0"}
     },
-    "rankings": {"away": {"ap": 4, "coaches": 8}}
+    "rankings": {"away": {"ap": 4, "coaches": 6}}
   }
 ]
