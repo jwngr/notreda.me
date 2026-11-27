@@ -648,18 +648,67 @@
     "isHomeGame": true,
     "date": "Sat Nov 21 2026 19:30:00 GMT-0500",
     "espnGameId": 401858307,
+    "highlightsYouTubeVideoId": "Hyy_mUUZJIo",
     "coverage": ["NBC"],
     "opponentId": "SMU",
     "records": {
       "home": {"overall": "9-1", "home": "5-0", "away": "2-1", "neutral": "2-0"},
       "away": {"overall": "7-3", "home": "6-1", "away": "1-2", "neutral": "0-0"}
     },
-    "rankings": {"home": {"ap": 3, "coaches": 3, "cfbPlayoff": 5}, "away": {"ap": 25}}
+    "stats": {
+      "away": {
+        "firstDowns": 18,
+        "thirdDownAttempts": 17,
+        "thirdDownConversions": 6,
+        "fourthDownAttempts": 5,
+        "fourthDownConversions": 2,
+        "totalYards": 327,
+        "passYards": 216,
+        "passCompletions": 24,
+        "passAttempts": 45,
+        "yardsPerPass": 4.8,
+        "interceptionsThrown": 1,
+        "rushYards": 111,
+        "rushAttempts": 25,
+        "yardsPerRush": 4.4,
+        "penalties": 2,
+        "penaltyYards": 20,
+        "possession": "28:46",
+        "fumblesLost": 0,
+        "fumbles": 0
+      },
+      "home": {
+        "firstDowns": 21,
+        "thirdDownAttempts": 9,
+        "thirdDownConversions": 5,
+        "fourthDownAttempts": 1,
+        "fourthDownConversions": 1,
+        "totalYards": 464,
+        "passYards": 312,
+        "passCompletions": 19,
+        "passAttempts": 29,
+        "yardsPerPass": 10.8,
+        "interceptionsThrown": 1,
+        "rushYards": 152,
+        "rushAttempts": 35,
+        "yardsPerRush": 4.3,
+        "penalties": 5,
+        "penaltyYards": 53,
+        "possession": "31:14",
+        "fumblesLost": 1,
+        "fumbles": 1
+      }
+    },
+    "score": {"home": 24, "away": 3},
+    "linescore": {"home": [7, 10, 7, 0], "away": [0, 3, 0, 0]},
+    "result": "W",
+    "rankings": {"home": {"ap": 3, "coaches": 3, "cfbPlayoff": 6}}
   },
   {
     "isHomeGame": false,
-    "date": "11/28/2026",
+    "date": "Sat Nov 28 2026 12:00:00 GMT-0500",
     "espnGameId": 401858314,
+    "coverage": ["ABC"],
     "opponentId": "SYR",
     "location": {
       "city": "Syracuse",
@@ -671,6 +720,6 @@
       "home": {"overall": "5-5", "home": "2-3", "away": "3-2", "neutral": "0-0"},
       "away": {"overall": "9-1", "home": "5-0", "away": "2-1", "neutral": "2-0"}
     },
-    "rankings": {"away": {"ap": 3, "coaches": 3, "cfbPlayoff": 5}}
+    "rankings": {"away": {"ap": 3, "coaches": 3, "cfbPlayoff": 4}}
   }
 ]
